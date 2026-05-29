@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Direct query of the Greek tagged canon confirms the noun mesites (G3316) occurs exactly 6 times in the NT (Gal 3:19, Gal 3:20, 1Tim 2:5, Heb 8:6, Heb 9:15, Heb 12:24); four name Jesus and the remaining two name the Sinai mediator whom Paul argues was bounded and singular. In 1Tim 2:5 the cardinal numeral heis (G1520) stands twice in the same clause, applied to theos and to mesites in tight parallel, so the same word that fixes one God fixes one mediator. John 14:6 closes the pattern with the exclusive oudeis (G3762) ei me (G1487 plus G3361) di emou, the prepositional phrase di emou matching di autou in Heb 7:25 morpheme for morpheme, and Acts 4:12 stacks ouk en allo oudeni and onoma heteron to the same end. No NT occurrence of mesites names any other figure as a God-to-humanity mediator, so the numeral plus the exclusion particles jointly fix singular mediation."
+    "rationale": "Direct query of the Greek tagged canon confirms the noun 'mediator' (mesites, G3316) occurs exactly 6 times in the New Testament (Galatians 3:19, Galatians 3:20, 1 Timothy 2:5, Hebrews 8:6, Hebrews 9:15, Hebrews 12:24); four name Jesus and the remaining two name the Sinai mediator whom Paul argues was bounded and singular. In 1 Timothy 2:5 the cardinal numeral 'one' (heis, G1520) stands twice in the same clause, applied to 'God' (theos) and to 'mediator' (mesites) in tight parallel, so the same word that fixes one God fixes one mediator. John 14:6 closes the pattern with the exclusive 'no one' (oudeis, G3762) plus the 'if-then' particle 'if' (ei, G1487) plus the negation 'not' (me, G3361), and the prepositional phrase 'through me' (di emou) matches 'through him' (di autou) in Hebrews 7:25 morpheme for morpheme. Acts 4:12 stacks 'in no other' (ouk en allo oudeni) and 'another name' (onoma heteron) to the same end. No New Testament occurrence of 'mediator' (mesites) names any other figure as a God-to-humanity mediator, so the numeral plus the exclusion particles jointly fix singular mediation."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -157,7 +157,7 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "Εἷς γὰρ θεός, εἷς καὶ μεσίτης θεοῦ καὶ ἀνθρώπων, ἄνθρωπος Χριστὸς Ἰησοῦς. Morphology query shows the numeral εἷς (G1520, A-NSM) twice in the clause, once governing θεός and once governing μεσίτης, in matching nominative masculine singular. The numeral is the cardinal one, the same lexeme that elsewhere fixes monotheism, so its application to the mediator constrains the office to a single occupant, named appositionally as ἄνθρωπος Χριστὸς Ἰησοῦς. εἷς here is not loose emphasis but the counting numeral.",
+        "force": "Εἷς γὰρ θεός, εἷς καὶ μεσίτης θεοῦ καὶ ἀνθρώπων, ἄνθρωπος Χριστὸς Ἰησοῦς, which means 'for there is one God, and one mediator between God and humanity, the man Christ Jesus.' Morphology query (the parsing of grammatical forms) shows the numeral 'one' (heis, G1520, in the nominative masculine singular form, the 'subject' form) twice in the clause, once governing 'God' (theos) and once governing 'mediator' (mesites), in matching nominative masculine singular. The numeral is the cardinal counting one, the same lexical word that elsewhere fixes monotheism, so its application to the mediator constrains the office to a single occupant, named appositionally (set in apposition, as a renaming phrase) as 'the man Christ Jesus' (anthropos Christos Iesous). 'One' (heis) here is not loose emphasis but the counting numeral.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -183,7 +183,7 @@
             "lemma": "διά"
           }
         ],
-        "force": "ὅθεν καὶ σῴζειν εἰς τὸ παντελὲς δύναται τοὺς προσερχομένους δι᾽ αὐτοῦ τῷ θεῷ, πάντοτε ζῶν εἰς τὸ ἐντυγχάνειν ὑπὲρ αὐτῶν. The participle προσερχομένους (G4334) is the cultic verb of approach to God, and the prepositional phrase δι᾽ αὐτοῦ (G1223 plus the pronoun αὐτοῦ) channels that approach through one named conduit. The infinitive ἐντυγχάνειν (G1793) is intercessory vocabulary; παντελὲς (G3838) occurs only twice in the canon and here marks the completeness of the saving.",
+        "force": "ὅθεν καὶ σῴζειν εἰς τὸ παντελὲς δύναται τοὺς προσερχομένους δι᾽ αὐτοῦ τῷ θεῷ, πάντοτε ζῶν εἰς τὸ ἐντυγχάνειν ὑπὲρ αὐτῶν, which means 'therefore he is able to save completely those who draw near to God through him, since he always lives to intercede for them.' The participle 'those drawing near' (proserchomenous, from proserchomai, G4334) is the cultic verb of approach to God (used for ritual approach in worship), and the prepositional phrase 'through him' (di autou, from dia, G1223, plus the pronoun 'him') channels that approach through one named conduit. The infinitive 'to intercede' (entygchanein, from entygchano, G1793) is intercessory vocabulary; 'completely' (panteles, G3838) occurs only twice in the entire canon and here marks the completeness of the saving.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -205,7 +205,7 @@
             "lemma": "καινός"
           }
         ],
-        "force": "διαθήκης καινῆς μεσίτης ἐστίν, ὅπως θανάτου γενομένου εἰς ἀπολύτρωσιν τῶν ἐπὶ τῇ πρώτῃ διαθήκῃ παραβάσεων τὴν ἐπαγγελίαν λάβωσιν οἱ κεκλημένοι τῆς αἰωνίου κληρονομίας. The genitive διαθήκης καινῆς (G1242 with G2537) locates Christ's mediation in covenantal terms, and the purpose clause ties the office to the death that accomplishes redemption for transgressions. The single mediator carries the whole covenant transaction.",
+        "force": "διαθήκης καινῆς μεσίτης ἐστίν, ὅπως θανάτου γενομένου εἰς ἀπολύτρωσιν τῶν ἐπὶ τῇ πρώτῃ διαθήκῃ παραβάσεων τὴν ἐπαγγελίαν λάβωσιν οἱ κεκλημένοι τῆς αἰωνίου κληρονομίας, which means 'he is the mediator of a new covenant, so that, since a death has taken place for the redemption of transgressions committed under the first covenant, those called may receive the promised eternal inheritance.' The genitive (the 'of-X' form) 'of a new covenant' (diathekes kaines, from diatheke, G1242, with kainos, G2537, meaning 'new in kind') locates Christ's mediation in covenantal terms, and the purpose clause ties the office to the death that accomplishes redemption for transgressions. The single 'mediator' (mesites) carries the whole covenant transaction.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -235,7 +235,7 @@
             "lemma": "διά"
           }
         ],
-        "force": "ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή· οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ. Morphology query confirms οὐδεὶς (G3762, A-NSM) negated absolutely, then εἰ (G1487, COND) μὴ (G3361, PRT-N), the strongest exception construction in Koine, leaving exactly one route. The prepositional phrase δι᾽ ἐμοῦ (G1223 plus first-person pronoun) matches δι᾽ αὐτοῦ of Heb 7:25 in form. ὁδὸς (G3598) is metaphorical access language with one referent in this clause.",
+        "force": "ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή· οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ, which means 'I am the way and the truth and the life; no one comes to the Father except through me.' Morphology query (grammatical parsing) confirms 'no one' (oudeis, G3762, nominative masculine singular, the 'subject' form) negated absolutely, then 'if' (ei, G1487, a conditional particle, the 'if' of an 'if-then' clause) plus 'not' (me, G3361, a negation particle), forming the strongest exception construction in Koine (everyday first-century Greek), leaving exactly one route. The prepositional phrase 'through me' (di emou, from dia, G1223, plus the first-person pronoun 'me') matches 'through him' (di autou) of Hebrews 7:25 in form. 'Way' (hodos, G3598) is metaphorical access language (a figure of speech, the road as the means) with one referent in this clause.",
         "supports": "for",
         "genre": "gospel",
         "figures": [
@@ -259,7 +259,7 @@
             "lemma": "ἕτερος"
           }
         ],
-        "force": "καὶ οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία· οὐδὲ γὰρ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις ἐν ᾧ δεῖ σωθῆναι ἡμᾶς. Morphology query shows a stacked exclusion: οὐκ (negation) plus ἄλλῳ (G0243) plus οὐδενὶ (G3762) plus οὐδὲ (G3761) plus ἕτερον (G2087). Two near-synonyms for other, ἄλλος and ἕτερος, are both negated, foreclosing any second salvific name. This is the same exclusion engine applied to access and salvation rather than to the noun mediator.",
+        "force": "καὶ οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία· οὐδὲ γὰρ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις ἐν ᾧ δεῖ σωθῆναι ἡμᾶς, which means 'and there is salvation in no one else, for there is no other name under heaven given among humans by which we must be saved.' Morphology query (grammatical parsing) shows a stacked exclusion: 'not' (ouk, a negation) plus 'other' (allo, from allos, G0243) plus 'no one' (oudeni, from oudeis, G3762) plus 'neither/nor' (oude, G3761) plus 'another' (heteron, from heteros, G2087). Two near-synonyms for 'other,' 'allos' and 'heteros,' are both negated, foreclosing any second saving name. This is the same exclusion engine applied to access and salvation rather than to the noun 'mediator' (mesites).",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -277,7 +277,7 @@
             "lemma": "διαθήκη"
           }
         ],
-        "force": "κρείττονός ἐστιν διαθήκης μεσίτης. The comparative κρείττονός marks Christ's covenant mediation as superior to and replacing the prior administration, so the office is not shared but exhausted in him. Query confirms μεσίτης (G3316, N-NSM) here.",
+        "force": "κρείττονός ἐστιν διαθήκης μεσίτης, which means 'he is the mediator of a better covenant.' The comparative 'of a better one' (kreittonos) marks Christ's covenant mediation as superior to and replacing the prior administration, so the office is not shared but exhausted in him. Query confirms 'mediator' (mesites, G3316, nominative masculine singular, the 'subject' form) here.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -299,7 +299,7 @@
             "lemma": "διαθήκη"
           }
         ],
-        "force": "διαθήκης νέας μεσίτῃ Ἰησοῦ. Query confirms the dative μεσίτῃ (G3316, N-DSM) bound directly to the name Ἰησοῦ, and that the covenant adjective here is νέας (G3501, neos), not καινῆς. This is the third Hebrews occurrence naming Jesus as the mediator. Together with 1Tim 2:5 that is four of the six canonical occurrences of μεσίτης naming Jesus, with no occurrence naming a rival mediator between God and humanity.",
+        "force": "διαθήκης νέας μεσίτῃ Ἰησοῦ, which means 'to Jesus, the mediator of a new covenant.' Query confirms the dative (the 'to/for-X' form) 'to the mediator' (mesite, from mesites, G3316, dative masculine singular) bound directly to the name 'Jesus' (Iesou), and that the covenant adjective here is 'new' (neas, from neos, G3501, meaning 'new in time/recent'), not the other word for 'new in kind' (kainos, kaines). This is the third occurrence in Hebrews naming Jesus as the mediator. Together with 1 Timothy 2:5 that is four of the six canonical occurrences of 'mediator' (mesites) naming Jesus, with no occurrence naming a rival mediator between God and humanity.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -313,7 +313,7 @@
             "lemma": "μεσίτης"
           }
         ],
-        "force": "διαταγεὶς δι᾽ ἀγγέλων ἐν χειρὶ μεσίτου. One of the two non-Christ occurrences of μεσίτης (G3316, N-GSM), referring to the mediator of the Sinai covenant. The mediation is explicitly through angels and at the hand of a mediator, situating it inside the bounded old-covenant administration rather than as a parallel God-to-humanity office.",
+        "force": "διαταγεὶς δι᾽ ἀγγέλων ἐν χειρὶ μεσίτου, which means 'it was ordained through angels by the hand of a mediator.' This is one of the two non-Christ occurrences of 'mediator' (mesites, G3316, genitive masculine singular, the 'of-X' form), referring to the mediator of the Sinai covenant. The mediation is explicitly through angels and at the hand of a mediator, situating it inside the bounded old-covenant administration rather than as a parallel God-to-humanity office.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -331,7 +331,7 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν. The sixth and final μεσίτης occurrence. Paul pairs μεσίτης (G3316) with the numeral εἷς (G1520, ἑνὸς genitive then εἷς nominative) and the negation οὐκ ἔστιν to subordinate the Sinai mediation to the unilateral promise. The same numeral that the verdict turns on appears here, used to make the mediator point, which shows the canon itself reasons from the cardinal one when it discusses mediation.",
+        "force": "ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν, which means 'now a mediator is not of one, but God is one.' This is the sixth and final occurrence of 'mediator' (mesites). Paul pairs 'mediator' (mesites, G3316) with the numeral 'one' (heis, G1520, here in the genitive form 'henos' meaning 'of one,' then in the nominative form 'heis' meaning 'one' as subject) and the negation 'is not' (ouk estin) to subordinate the Sinai mediation to the unilateral promise (a promise from God alone). The same numeral that the verdict turns on appears here, used to make the mediator point, which shows the canon itself reasons from the cardinal counting one when it discusses mediation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -349,7 +349,7 @@
             "lemma": "בַּיִן"
           }
         ],
-        "force": "לֹא יֵשׁ בֵּינֵינוּ מוֹכִיחַ, there is no arbiter between us. Hebrew query confirms the Hiphil participle מוֹכִיחַ from יָכַח (H3198), one who decides between parties, joined to בֵּינֵינוּ from בַּיִן (H0996, between) plus the first-person plural. This is an Old Testament lament for the lack of an arbiter standing between God and man, the very gap the New Testament locates filled by the one mediator. It anchors the proposition across both testaments at the level of the function, an arbiter between, even though the Hebrew lexeme is not the Greek μεσίτης.",
+        "force": "לֹא יֵשׁ בֵּינֵינוּ מוֹכִיחַ, which means 'there is no arbiter between us.' Hebrew query confirms the Hiphil (the Hebrew causative form, 'to cause to do') participle 'one who arbitrates' (mokhiakh) from the root 'yakach' (H3198), meaning one who decides between parties, joined to 'between us' (beneinu) from 'bayin' (H0996, between) plus the first-person plural ending. This is an Old Testament lament for the lack of an arbiter standing between God and man, the very gap the New Testament locates filled by the one mediator. It anchors the proposition across both testaments at the level of the function, an arbiter between, even though the Hebrew lexical word is not the Greek 'mediator' (mesites).",
         "supports": "for",
         "genre": "wisdom",
         "figures": [],
@@ -404,22 +404,22 @@
       {
         "ref": "1Tim.2.1",
         "addressed": true,
-        "resolution": "The same pericope that anchors the εἷς μεσίτης clause commands δεήσεις, προσευχάς, ἐντεύξεις, εὐχαριστίας ὑπὲρ πάντων ἀνθρώπων. Query confirms the noun ἐντεύξεις (G1783, only 2 canonical occurrences) names intercession that believers are told to make for all people, sitting one verse before the single-mediator statement. The text uses a different lexeme for that horizontal intercession (G1783) than for the office of mediator (G3316), so the author distinguishes the activity of interceding, which many do, from the office of mediating between God and humanity, which is singular. The complication is resolved inside the same paragraph."
+        "resolution": "The same passage that anchors the 'one mediator' (heis mesites) clause commands 'petitions, prayers, intercessions, thanksgivings for all people' (deeseis, proseuchas, enteuxeis, eucharistias hyper panton anthropon). Query confirms the noun 'intercessions' (enteuxeis, from enteuxis, G1783, only 2 canonical occurrences) names intercession that believers are told to make for all people, sitting one verse before the single-mediator statement. The text uses a different lexical word for that horizontal intercession (enteuxis, G1783) than for the office of mediator ('mesites,' G3316), so the author distinguishes the activity of interceding, which many do, from the office of mediating between God and humanity, which is singular. The complication is resolved inside the same paragraph."
       },
       {
         "ref": "Rom.8.34",
         "addressed": true,
-        "resolution": "ὃς καὶ ἐντυγχάνει ὑπὲρ ἡμῶν names Christ as the one who intercedes at God's right hand, and Rom 8:27 uses the same verb family for the Spirit. Query of ἐντυγχάνω (G1793) returns 5 occurrences: Acts 25:24 and Rom 11:2 are ordinary human petition or appeal, Rom 8:27 is the Spirit, Rom 8:34 is Christ, Heb 7:25 is Christ. So the intercession verb is broad and even mundane, while only Christ holds the mediator noun. Intercession and mediation are lexically separable, and the broad verb does not multiply the mediator office."
+        "resolution": "ὃς καὶ ἐντυγχάνει ὑπὲρ ἡμῶν, which means 'who also intercedes for us,' names Christ as the one who intercedes at God's right hand, and Romans 8:27 uses the same verb family for the Spirit. Query of 'to intercede' (entygchano, G1793) returns 5 occurrences: Acts 25:24 and Romans 11:2 are ordinary human petition or appeal, Romans 8:27 is the Spirit, Romans 8:34 is Christ, Hebrews 7:25 is Christ. So the intercession verb is broad and even mundane, while only Christ holds the mediator noun. Intercession and mediation are lexically separable (separable as distinct words), and the broad verb does not multiply the mediator office."
       },
       {
         "ref": "Gal.3.19",
         "addressed": true,
-        "resolution": "Moses is the μεσίτης of the Sinai administration, but Gal 3:20 (ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν) deploys the very numeral εἷς to subordinate that mediation to the unilateral promise. Query confirms both Galatians occurrences are bounded to the old-covenant law context and neither presents an open-ended God-to-humanity mediator competing with the one in 1Tim 2:5 and Hebrews."
+        "resolution": "Moses is the 'mediator' (mesites) of the Sinai administration, but Galatians 3:20 (ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν, 'now a mediator is not of one, but God is one') deploys the very numeral 'one' (heis) to subordinate that mediation to the unilateral promise. Query confirms both Galatians occurrences are bounded to the old-covenant law context and neither presents an open-ended God-to-humanity mediator competing with the one in 1 Timothy 2:5 and Hebrews."
       },
       {
         "ref": "Acts.25.24",
         "addressed": true,
-        "resolution": "One of the 5 occurrences of ἐντυγχάνω (G1793) is Festus reporting that the Jews petitioned, ἐνέτυχόν, him about Paul. This ordinary forensic use of the intercession verb confirms that the verb itself carries no exclusive theological weight and that the singular-mediator claim rests on the noun μεσίτης plus the numeral and exclusion particles, not on the broad verb. It does not weaken the verdict."
+        "resolution": "One of the 5 occurrences of 'to intercede' (entygchano, G1793) is Festus reporting that the Jews petitioned, 'enetychon' (an aorist, a completed past action, of the same verb), him about Paul. This ordinary forensic (legal/court) use of the intercession verb confirms that the verb itself carries no exclusive theological weight and that the singular-mediator claim rests on the noun 'mediator' (mesites) plus the numeral and exclusion particles, not on the broad verb. It does not weaken the verdict."
       }
     ]
   },
@@ -427,7 +427,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "ecm-shadow",
-    "note": "None of the anchors lie in the ingested ECM window (3 John 1.1 to 1.15), so the apparatus was not queryable for them and the status is recorded as ecm-shadow, not_in_ecm_scope. The decisive readings are textually settled in the standard editions: the doubled εἷς in 1Tim 2:5, the οὐδεὶς εἰ μή of John 14:6, and the μεσίτης occurrences in Hebrews carry the same editorial support (NA28, SBL, WH, Treg, Byz per the tagged text), so no plausible variant would unseat the singular-mediator reading."
+    "note": "None of the anchors lie in the ingested ECM (the critical edition of New Testament textual variants) window (3 John 1:1 to 1:15), so the apparatus was not queryable for them and the status is recorded as ecm-shadow, not_in_ecm_scope. The decisive readings are textually settled in the standard editions: the doubled 'one' (heis) in 1 Timothy 2:5, the 'no one except' (oudeis ei me) of John 14:6, and the 'mediator' (mesites) occurrences in Hebrews carry the same editorial support (NA28, SBL, WH, Treg, Byz per the tagged text), so no plausible variant would unseat the singular-mediator reading."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -442,32 +442,32 @@
       {
         "framework": "grammatico-historical singular reading",
         "verdict": "affirms",
-        "rationale": "Reads the cardinal εἷς in 1Tim 2:5 as counting, one God and correspondingly one mediator, and the οὐδεὶς εἰ μή of John 14:6 as an exhaustive exclusion. On this reading the 6 canonical μεσίτης occurrences, 4 of them naming Jesus and 0 naming any other God-to-humanity mediator, settle the proposition."
+        "rationale": "Reads the cardinal numeral 'one' (heis) in 1 Timothy 2:5 as counting, one God and correspondingly one mediator, and the 'no one except' (oudeis ei me) of John 14:6 as an exhaustive exclusion. On this reading the 6 canonical occurrences of 'mediator' (mesites), 4 of them naming Jesus and 0 naming any other God-to-humanity mediator, settle the proposition."
       },
       {
         "framework": "subordinate-mediation reading",
         "verdict": "qualifies",
-        "rationale": "Holds in its strongest form that the canon does enjoin other figures to intercede, ἐντεύξεις ὑπὲρ πάντων in 1Tim 2:1, and even calls Moses a μεσίτης in Gal 3:19. It argues these show mediation can be shared in a subordinate, derivative sense beneath Christ. Stated fairly, the lexical reply is that 1Tim 2:1 uses a different word, ἔντευξις and the verb ἐντυγχάνω, for that horizontal activity, and that Galatians places the Mosaic μεσίτης inside the superseded Sinai administration, so the words rank Christ's mediation as the sole one of its God-to-humanity kind while leaving room for intercession by others. The lens names a real textual datum but the lexeme distinction answers it."
+        "rationale": "Holds in its strongest form that the canon does enjoin other figures to intercede, 'intercessions for all' (enteuxeis hyper panton) in 1 Timothy 2:1, and even calls Moses a 'mediator' (mesites) in Galatians 3:19. It argues these show mediation can be shared in a subordinate, derivative sense beneath Christ. Stated fairly, the lexical reply is that 1 Timothy 2:1 uses a different word, 'intercession' (enteuxis) and the verb 'to intercede' (entygchano), for that horizontal activity, and that Galatians places the Mosaic 'mediator' (mesites) inside the superseded Sinai administration, so the words rank Christ's mediation as the sole one of its God-to-humanity kind while leaving room for intercession by others. The lens names a real textual datum but the lexical-word distinction answers it."
       },
       {
         "framework": "covenant_theology",
         "verdict": "affirms",
-        "rationale": "Reads διαθήκης καινῆς and νέας μεσίτης as the fulfillment of the typological mediation begun under Moses (Gal 3:19), with the numeral εἷς capping the redemptive trajectory in one covenant head."
+        "rationale": "Reads 'of a new covenant, mediator' (diathekes kaines and neas mesites) as the fulfillment of the typological (foreshadowing) mediation begun under Moses (Galatians 3:19), with the numeral 'one' (heis) capping the redemptive trajectory in one covenant head."
       },
       {
         "framework": "dispensationalism",
         "verdict": "affirms",
-        "rationale": "Even on a reading that distinguishes ages, the present mediator pattern is uniquely Christ, and the absence of μεσίτης applied to any other figure under the current administration is not in dispute."
+        "rationale": "Even on a reading that distinguishes ages, the present mediator pattern is uniquely Christ, and the absence of 'mediator' (mesites) applied to any other figure under the current administration is not in dispute."
       }
     ],
-    "notes": "The reader most likely to diverge is one who hears mediation in 1Tim 2:1 and Gal 3:19 and concludes the office is shareable. That lens is stated here in its strongest form. The lexical answer is that the canon uses distinct vocabulary, the noun μεσίτης for the singular office and the verb and noun of intercession for the broader activity, and never names a second God-to-humanity mediator."
+    "notes": "The reader most likely to diverge is one who hears mediation in 1 Timothy 2:1 and Galatians 3:19 and concludes the office is shareable. That lens is stated here in its strongest form. The lexical (word-level) answer is that the canon uses distinct vocabulary, the noun 'mediator' (mesites) for the singular office and the verb 'to intercede' (entygchano) and noun 'intercession' (enteuxis) for the broader activity, and never names a second God-to-humanity mediator."
   },
   "stem_audit": {
     "verdict_preloaded": false,
     "neutralized_form": null,
-    "notes": "The proposition is phrased lexically. Sole mediator restates the doubled numeral εἷς of 1Tim 2:5 and the noun μεσίτης, and the negative tail, access not mediated by any other figure, restates the οὐδεὶς εἰ μή construction of John 14:6 and the οὐκ ἐν ἄλλῳ οὐδενί of Acts 4:12. No tradition-specific taxonomy preloads the verdict. Two corrections were applied to the prior file from queried data, neither changing the verdict: Heb 12:24 uses νέας (G3501), not καινῆς (G2537), and the Job 9:33 anchor was re-grounded on the verifiable Hebrew arbiter term מוֹכִיחַ (H3198) rather than an unverified LXX μεσίτης claim."
+    "notes": "The proposition is phrased lexically (in word-level terms). 'Sole mediator' restates the doubled numeral 'one' (heis) of 1 Timothy 2:5 and the noun 'mediator' (mesites), and the negative tail, access not mediated by any other figure, restates the 'no one except' (oudeis ei me) construction of John 14:6 and the 'not in any other' (ouk en allo oudeni) of Acts 4:12. No tradition-specific taxonomy preloads the verdict. Two corrections were applied to the prior file from queried data, neither changing the verdict (VERDICT-CHANGED: no, the verdict stands): Hebrews 12:24 uses 'new (in time)' (neas, G3501), not 'new (in kind)' (kainas, from kainos, G2537), and the Job 9:33 anchor was re-grounded on the verifiable Hebrew arbiter term 'one who arbitrates' (mokhiakh, from yakach, H3198) rather than an unverified LXX (the Greek Old Testament, the Septuagint) 'mediator' (mesites) claim."
   },
-  "lay_summary": "The Greek word for mediator, mesites, appears exactly six times in the New Testament, a count confirmed by direct query of the tagged canon. Four of the six name Jesus (1 Tim 2:5, Heb 8:6, Heb 9:15, Heb 12:24). The other two (Gal 3:19 and 3:20) name the mediator of the Sinai covenant, and Paul's own argument there uses the number one to fold that older mediation under a single promise. In 1 Tim 2:5 the counting word heis (one) stands twice in one clause, once on God and once on the mediator, so the same word that says one God says one mediator. This is the lexical engine of the verdict. John 14:6 adds the strongest exclusion in the language, oudeis erchetai pros ton patera ei me di emou, no one comes to the Father except through me, and the phrase through me matches through him in Heb 7:25 word for word. Acts 4:12 stacks the exclusion further, no other name, using two different words for other and negating both. One honest counter-reading notices that the same letter, in 1 Tim 2:1, tells believers to intercede for all people, and that Moses is called a mediator in Galatians, so perhaps mediation can be shared underneath Christ. The words answer this: intercession in 1 Tim 2:1 is a different term (enteuxis and the verb entygchano), and that verb is broad, used even for a routine legal petition in Acts 25:24, while the noun mediator attaches only to Christ in the God-to-humanity sense. So the text distinguishes interceding, which many do, from the singular office of mediating between God and people, which it gives to one named figure. The Old Testament already voiced the need in Job 9:33, where the lament is that there is no arbiter between us. The pattern is pan-canonical and textually stable, and the number plus the exclusion words leave no room for a second mediator of the same kind.",
+  "lay_summary": "The Greek word for mediator, 'mediator' (mesites), appears exactly six times in the New Testament, a count confirmed by direct query of the tagged canon. Four of the six name Jesus (1 Timothy 2:5, Hebrews 8:6, Hebrews 9:15, Hebrews 12:24). The other two (Galatians 3:19 and 3:20) name the mediator of the Sinai covenant, and Paul's own argument there uses the number 'one' (heis) to fold that older mediation under a single promise. In 1 Timothy 2:5 the counting word 'one' (heis) stands twice in one clause, once on God and once on the mediator, so the same word that says one God says one mediator. This is the lexical (word-level) engine of the verdict. John 14:6 adds the strongest exclusion in the language, 'no one comes to the Father except through me' (oudeis erchetai pros ton patera ei me di emou), and the phrase 'through me' (di emou) matches 'through him' (di autou) in Hebrews 7:25 word for word. Acts 4:12 stacks the exclusion further, no other name, using two different words for 'other' ('allos' and 'heteros') and negating both. One honest counter-reading notices that the same letter, in 1 Timothy 2:1, tells believers to intercede for all people, and that Moses is called a mediator in Galatians, so perhaps mediation can be shared underneath Christ. The words answer this: intercession in 1 Timothy 2:1 is a different term ('intercession,' enteuxis, and the verb 'to intercede,' entygchano), and that verb is broad, used even for a routine legal petition in Acts 25:24, while the noun mediator attaches only to Christ in the God-to-humanity sense. So the text distinguishes interceding, which many do, from the singular office of mediating between God and people, which it gives to one named figure. The Old Testament already voiced the need in Job 9:33, where the lament is that there is no arbiter ('one who arbitrates,' mokhiakh, from the Hebrew root yakach) between us. The pattern is spread across the whole Bible (pan-canonical) and textually stable, and the number plus the exclusion words leave no room for a second mediator of the same kind.",
   "citations": [
     {
       "type": "morphology",

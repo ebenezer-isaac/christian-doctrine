@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Two word fields run through the New Testament and never touch. Congregational leaders are named only with presbyteros (elder), episkopos (overseer), poimen (shepherd), poimaino (the shepherd verb) over poimnion (the flock), and diakonos (servant). The sacrificing-priest noun hiereus occurs 31 times and its referents split cleanly into three groups: the Aaronic priests of the gospels and Acts, the once-for-all priesthood of Christ argued in Hebrews 7 to 10, and the whole believing people in Revelation 1.6, 5.10, and 20.6. A direct co-occurrence query over the canon returns zero verses in which hiereus or archiereus shares a verse with any leadership word, so the priest vocabulary is structurally segregated from the office vocabulary. The one priesthood noun applied to people, hierateuma, falls in 1Pet.2.5 and 1Pet.2.9 and is predicated of the entire congregation, not of leaders. Peter, an elder, commands elders to poimanate (shepherd) the flock and forbids domineering, and Jesus makes the greatest a diakonos, which fixes a servant-shepherd sense rather than a sacerdotal one."
+    "rationale": "Two word fields run through the New Testament and never touch. Congregational leaders are named only with elder (presbyteros), overseer (episkopos), shepherd (poimen), the shepherd verb to shepherd (poimaino) over the flock (poimnion), and servant (diakonos). The sacrificing-priest noun priest (hiereus) occurs 31 times and its referents split cleanly into three groups: the Aaronic priests of the gospels and Acts, the once-for-all priesthood of Christ argued in Hebrews 7 to 10, and the whole believing people in Revelation 1:6, 5:10, and 20:6. A direct co-occurrence query over the canon (the whole Bible) returns zero verses in which priest (hiereus) or high priest (archiereus) shares a verse with any leadership word, so the priest vocabulary is structurally segregated from the office vocabulary. The one priesthood noun applied to people, priesthood (hierateuma), falls in 1 Peter 2:5 and 1 Peter 2:9 and is predicated of the entire congregation, not of leaders. Peter, an elder, commands elders to shepherd (poimanate, an aorist imperative meaning a completed past-action command, of the verb poimaino) the flock and forbids domineering, and Jesus makes the greatest a servant (diakonos), which fixes a servant-shepherd sense rather than a sacerdotal (sacrificing-priest) one."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -153,7 +153,7 @@
             "lemma": "ἔθνος"
           }
         ],
-        "force": "The priesthood noun hierateuma stands beside laos (people), ethnos (nation), eklekton (chosen), and basileion (royal), all corporate terms for the entire addressed congregation, drawn from the Exodus 19 and Isaiah covenant language. The text assigns priestly identity to the whole body, not to a separate sacrificing caste, which removes the lexical ground for a clergy-only sacerdotal class. The OpenBible cross-reference graph links this verse most heavily to Exod.19.5, Deut.7.6, Rev.1.6, and Rev.5.10, the corporate and all-believer priesthood chain.",
+        "force": "The priesthood noun priesthood (hierateuma) stands beside people (laos), nation (ethnos), chosen (eklekton), and royal (basileion), all corporate terms for the entire addressed congregation, drawn from the Exodus 19 and Isaiah covenant language. The text assigns priestly identity to the whole body, not to a separate sacrificing caste, which removes the lexical (word-based) ground for a clergy-only sacerdotal (sacrificing-priest) class. The OpenBible cross-reference graph links this verse most heavily to Exodus 19:5, Deuteronomy 7:6, Revelation 1:6, and Revelation 5:10, the corporate and all-believer priesthood chain.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -167,7 +167,7 @@
             "lemma": "ἱεράτευμα"
           }
         ],
-        "force": "Hierateuma occurs a second time here, a holy priesthood that offers up spiritual sacrifices, again predicated of the believers being built as living stones into a spiritual house. The offering is spiritual and corporate, performed by the whole people, so even where priestly and sacrificial language appears it is assigned to all believers rather than to an office-holding leader.",
+        "force": "Priesthood (hierateuma) occurs a second time here, a holy priesthood that offers up spiritual sacrifices, again predicated of the believers being built as living stones into a spiritual house. The offering is spiritual and corporate, performed by the whole people, so even where priestly and sacrificial language appears it is assigned to all believers rather than to an office-holding leader.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -183,7 +183,7 @@
             "lemma": "πρεσβύτερος"
           }
         ],
-        "force": "Peter addresses presbyterous (elders) and calls himself sympresbyteros (a fellow-elder), placing himself alongside, not above, the leaders he instructs. The chosen title is elder, the seniority and deliberative term, not hiereus, the sacrificing-priest term, and the priest word never appears anywhere in the passage.",
+        "force": "Peter addresses elders (presbyterous) and calls himself a fellow-elder (sympresbyteros), placing himself alongside, not above, the leaders he instructs. The chosen title is elder, the seniority and deliberative term, not priest (hiereus), the sacrificing-priest term, and the priest word never appears anywhere in the passage.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -201,7 +201,7 @@
             "lemma": "ποίμνιον"
           }
         ],
-        "force": "The elder's mandated action is poimanate, the aorist imperative of poimaino, shepherd the flock (poimnion) of God among you. The verb is pastoral husbandry, feeding and guarding, with no sacrificial-cultic content, and the flock belongs to God and not to the shepherd. The same verb is used of God-appointed overseers in Acts.20.28, confirming a stable pastoral sense.",
+        "force": "The elder's mandated action is shepherd (poimanate), the aorist imperative (a completed past-action command form) of the verb to shepherd (poimaino), shepherd the flock (poimnion) of God among you. The verb is pastoral husbandry, feeding and guarding, with no sacrificial-cultic (priestly-ritual) content, and the flock belongs to God and not to the shepherd. The same verb is used of God-appointed overseers in Acts 20:28, confirming a stable pastoral sense.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -217,7 +217,7 @@
             "lemma": "κατακυριεύοντες"
           }
         ],
-        "force": "The elders are forbidden to lord it over (katakurieuontes) those allotted to them and are commanded instead to become typoi, patterns, for the flock. The cross-reference graph ties this directly to Matt.20.25, Mark.10.42, Matt.23.8, and Luke.22.24, the servant-not-lord cluster, which bars a domineering or hierarchical posture and reinforces servant-shepherd rather than a sacerdotal office set over the laity.",
+        "force": "The elders are forbidden to lord it over (katakurieuontes) those allotted to them and are commanded instead to become patterns (typoi) for the flock. The cross-reference graph ties this directly to Matthew 20:25, Mark 10:42, Matthew 23:8, and Luke 22:24, the servant-not-lord cluster, which bars a domineering or hierarchical posture and reinforces servant-shepherd rather than a sacerdotal (sacrificing-priest) office set over the laity (the ordinary believers).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -235,7 +235,7 @@
             "lemma": "μέγας"
           }
         ],
-        "force": "Jesus inverts rank, the greater (megas, comparative) among you will be your diakonos (servant or table-attendant). The directive sits inside the prohibition against being called rabbi (G4461), father (G3962), and kathegetes (G2519, instructor) in Matt.23.8-10, dismantling a titled hierarchy and defining leadership as service rather than as a priestly station.",
+        "force": "Jesus inverts rank, the greater (megas, the comparative form meaning more-great) among you will be your servant (diakonos, servant or table-attendant). The directive sits inside the prohibition against being called rabbi (G4461), father (G3962), and instructor (kathegetes, G2519) in Matthew 23:8-10, dismantling a titled hierarchy and defining leadership as service rather than as a priestly station.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -253,7 +253,7 @@
             "lemma": "διδασκάλους"
           }
         ],
-        "force": "The risen Christ gives apostolous (G0652), prophetas (G4396), euangelistas (G2099), and poimenas (shepherds) and didaskalous (teachers). Every gifted office in the list is named with sending, speaking, shepherding, or teaching vocabulary, and hiereus is absent from the list, so the equipping offices are pastoral and instructional rather than sacrificial.",
+        "force": "The risen Christ gives apostles (apostolous, G0652), prophets (prophetas, G4396), evangelists (euangelistas, G2099), and shepherds (poimenas) and teachers (didaskalous). Every gifted office in the list is named with sending, speaking, shepherding, or teaching vocabulary, and priest (hiereus) is absent from the list, so the equipping offices are pastoral and instructional rather than sacrificial.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -271,7 +271,7 @@
             "lemma": "διακονίας"
           }
         ],
-        "force": "The purpose clause states the gifted leaders exist to equip the saints for the work of ministry (diakonias), distributing the serving work across the whole body rather than reserving it to a priestly few. The leaders enable the laity, which is the opposite of a sacerdotal monopoly.",
+        "force": "The purpose clause states the gifted leaders exist to equip the saints for the work of ministry (diakonias, service), distributing the serving work across the whole body rather than reserving it to a priestly few. The leaders enable the laity (the ordinary believers), which is the opposite of a sacerdotal (sacrificing-priest) monopoly.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -289,7 +289,7 @@
             "lemma": "διδασκάλους"
           }
         ],
-        "force": "God set in the church apostles, prophets, teachers, then powers, gifts of healings, helps, governings, and tongues. The ordered list of functions in the body is gift-based and serving, and contains no sacrificing-priest office, so the catalogue of appointed roles supplies no cultic-priest slot.",
+        "force": "God set (etheto) in the church apostles, prophets, teachers (didaskalous), then powers, gifts of healings, helps, governings, and tongues. The ordered list of functions in the body is gift-based and serving, and contains no sacrificing-priest office, so the catalogue of appointed roles supplies no cultic-priest (ritual-priest) slot.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -303,7 +303,7 @@
             "lemma": "ἡγουμένοις"
           }
         ],
-        "force": "Where the New Testament most plainly speaks of congregational leaders to be obeyed, it calls them hegoumenoi (G2233, those who lead or guide), the same participle used in Heb.13.7 and Heb.13.24. The word is governance and guidance vocabulary, not priestly, and hiereus does not appear in the passage, so even the strongest leader-authority text avoids sacerdotal language.",
+        "force": "Where the New Testament most plainly speaks of congregational leaders to be obeyed, it calls them those who lead or guide (hegoumenoi, G2233), the same participle (a verb-form used as a descriptor) used in Hebrews 13:7 and Hebrews 13:24. The word is governance and guidance vocabulary, not priestly, and priest (hiereus) does not appear in the passage, so even the strongest leader-authority text avoids sacerdotal (sacrificing-priest) language.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -317,7 +317,7 @@
             "lemma": "ἀρχιερεύς"
           }
         ],
-        "force": "The high-priest noun archiereus is fastened to Christ, such a high priest, holy, harmless, undefiled, separated from sinners. Across Hebrews 7 to 10 the once-for-all sacrificing priesthood is located exclusively in Christ (archiereus also at Heb.2.17, 3.1, 4.14, 5.5), which is why no residual sacrificing-priest office is left for congregational leaders to occupy.",
+        "force": "The high-priest noun high priest (archiereus) is fastened to Christ, such a high priest, holy, harmless, undefiled, separated from sinners. Across Hebrews 7 to 10 the once-for-all sacrificing priesthood is located exclusively in Christ (high priest (archiereus) also at Hebrews 2:17, 3:1, 4:14, 5:5), which is why no residual sacrificing-priest office is left for congregational leaders to occupy.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -331,7 +331,7 @@
             "lemma": "ἱερεῖς"
           }
         ],
-        "force": "Here hiereis (priests) is applied to the redeemed, you made them a kingdom and priests to our God, paralleling Rev.1.6 and Rev.20.6. This is one of only three places hiereus describes Christians, and in every case it is the whole redeemed people, never an ordained subset, so the priest noun confirms an all-believer priesthood rather than a clergy class.",
+        "force": "Here priests (hiereis) is applied to the redeemed, you made them a kingdom and priests to our God, paralleling Revelation 1:6 and Revelation 20:6. This is one of only three places priest (hiereus) describes Christians, and in every case it is the whole redeemed people, never an ordained subset, so the priest noun confirms an all-believer priesthood rather than a clergy class.",
         "supports": "for",
         "genre": "apocalyptic",
         "figures": [],
@@ -428,17 +428,17 @@
       {
         "ref": "1Pet.2.9",
         "addressed": true,
-        "resolution": "Hierateuma (priesthood) sits inside an anchor verse and could look like priestly-office language, but it is predicated of the whole addressed people (laos, ethnos, eklekton), not of leaders, so it undercuts a clergy-only priesthood rather than supporting one. The royal priesthood is corporate, and the same is true of its companion text 1Pet.2.5."
+        "resolution": "Priesthood (hierateuma) sits inside an anchor verse and could look like priestly-office language, but it is predicated of the whole addressed people (people (laos), nation (ethnos), chosen (eklekton)), not of leaders, so it undercuts a clergy-only priesthood rather than supporting one. The royal priesthood is corporate, and the same is true of its companion text 1 Peter 2:5."
       },
       {
         "ref": "Heb.13.10",
         "addressed": true,
-        "resolution": "Some read the altar (thusiasterion, G2379) of Heb.13.10 as warrant for a New Testament sacrificing priesthood at the table. The verse was lexically traversed here: it contains thusiasterion, latreuo (G3000, serve), and skene (G4633, tabernacle), but no hiereus (G2409) and no leadership word, and it contrasts the new altar with the old tabernacle service rather than installing leaders as sacrificers. The sacrificing priesthood across Hebrews 7 to 10 is reserved to Christ, so the altar image does not establish a clergy priesthood."
+        "resolution": "Some read the altar (thusiasterion, G2379) of Hebrews 13:10 as warrant for a New Testament sacrificing priesthood at the table. The verse was lexically (word-by-word) traversed here: it contains altar (thusiasterion), to serve (latreuo, G3000), and tabernacle (skene, G4633), but no priest (hiereus, G2409) and no leadership word, and it contrasts the new altar with the old tabernacle service rather than installing leaders as sacrificers. The sacrificing priesthood across Hebrews 7 to 10 is reserved to Christ, so the altar image does not establish a clergy priesthood."
       },
       {
         "ref": "Rom.15.16",
         "addressed": true,
-        "resolution": "Paul uses cultic vocabulary for his gospel ministry, traversed here as hierourgeo (G2418, to minister as a priest), leitourgos (G3011, minister), and prosphora (G4376, offering). The terms are a figure for offering the converted Gentiles to God, Paul never takes the title hiereus, and the subject is an apostle's evangelism rather than a local elder presiding, so the metaphor does not create a sacrificing office."
+        "resolution": "Paul uses cultic (ritual-priestly) vocabulary for his gospel ministry, traversed here as to minister as a priest (hierourgeo, G2418), minister (leitourgos, G3011), and offering (prosphora, G4376). The terms are a figure for offering the converted Gentiles to God, Paul never takes the title priest (hiereus), and the subject is an apostle's evangelism rather than a local elder presiding, so the metaphor does not create a sacrificing office."
       }
     ]
   },
@@ -446,7 +446,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "ecm-shadow",
-    "note": "All anchor verses are New Testament outside 3 John, so CBGM data is not in scope (not_in_ecm_scope true in the bundle). The marginal sigla in the apparatus for Matt.23 and 1Cor.12 touch word order and minor readings, none of which adds hiereus to the office vocabulary or removes the corporate referent of hierateuma."
+    "note": "All anchor verses are New Testament outside 3 John, so CBGM data (the Coherence-Based Genealogical Method, a tool for tracing manuscript relationships) is not in scope (not_in_ecm_scope true in the bundle). The marginal sigla (notation marks) in the apparatus (the critical edition of New Testament textual variants) for Matthew 23 and 1 Corinthians 12 touch word order and minor readings, none of which adds priest (hiereus) to the office vocabulary or removes the corporate referent of priesthood (hierateuma)."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -461,27 +461,27 @@
       {
         "framework": "grammatico-historical",
         "verdict": "affirms",
-        "rationale": "The office words are presbyteros, episkopos, poimen, poimaino, poimnion, diakonos, and hegoumenoi, and a canon-wide co-occurrence query finds no verse where hiereus or archiereus stands with any of them, so plain lexical usage keeps leaders and sacrificing priests in separate vocabularies."
+        "rationale": "The office words are elder (presbyteros), overseer (episkopos), shepherd (poimen), to shepherd (poimaino), flock (poimnion), servant (diakonos), and those who lead or guide (hegoumenoi), and a canon-wide (across the whole Bible) co-occurrence query finds no verse where priest (hiereus) or high priest (archiereus) stands with any of them, so plain lexical (word-based) usage keeps leaders and sacrificing priests in separate vocabularies."
       },
       {
         "framework": "sacerdotalism",
         "verdict": "complicates",
-        "rationale": "A sacerdotal lens reads its strongest case from the altar (thusiasterion) of Heb.13.10, the priestly metaphor Paul applies to ministry in Rom.15.16, and the spiritual sacrifices of the priesthood in 1Pet.2.5, taking these as warrant for leaders who offer at the table. On the words, the altar verse carries no priest noun, Paul never titles himself hiereus, and the 1Pet.2.5 priesthood is the whole people, so the lens depends on extending metaphor rather than on a leader ever being called a priest."
+        "rationale": "A sacerdotal (sacrificing-priest) lens reads its strongest case from the altar (thusiasterion) of Hebrews 13:10, the priestly metaphor Paul applies to ministry in Romans 15:16, and the spiritual sacrifices of the priesthood in 1 Peter 2:5, taking these as warrant for leaders who offer at the table. On the words, the altar verse carries no priest noun, Paul never titles himself priest (hiereus), and the 1 Peter 2:5 priesthood is the whole people, so the lens depends on extending metaphor rather than on a leader ever being called a priest."
       },
       {
         "framework": "redemptive-historical",
         "verdict": "affirms",
-        "rationale": "The covenantal arc transfers the Exodus 19 priestly-nation identity to the whole believing people in 1Pet.2.9 and Rev.1.6, and Hebrews 7 to 10 locates the once-for-all sacrificing priesthood in Christ as archiereus, leaving congregational leaders the residual roles of shepherding, oversight, and equipping."
+        "rationale": "The covenantal arc transfers the Exodus 19 priestly-nation identity to the whole believing people in 1 Peter 2:9 and Revelation 1:6, and Hebrews 7 to 10 locates the once-for-all sacrificing priesthood in Christ as high priest (archiereus), leaving congregational leaders the residual roles of shepherding, oversight, and equipping."
       }
     ],
-    "notes": "Analogia scripturae is load-bearing: the corporate priesthood of 1Pet.2.5 and 2.9 read alongside the elder, shepherd, and overseer instructions of 1Pet.5.1-4, Acts.20.28, and Eph.4.11-12, and the high-priest Christology of Hebrews, yields a consistent servant-shepherd office with the sacrificing-priest role reserved to Christ and the priestly identity shared by all believers."
+    "notes": "Analogia scripturae (Scripture interpreting Scripture by gathering parallel passages) is load-bearing: the corporate priesthood of 1 Peter 2:5 and 2:9 read alongside the elder, shepherd, and overseer instructions of 1 Peter 5:1-4, Acts 20:28, and Ephesians 4:11-12, and the high-priest Christology of Hebrews, yields a consistent servant-shepherd office with the sacrificing-priest role reserved to Christ and the priestly identity shared by all believers."
   },
   "stem_audit": {
     "verdict_preloaded": true,
-    "neutralized_form": "Examine whether the New Testament vocabulary for congregational leaders (elder, overseer, shepherd, servant, those who lead) carries pastoral, governing, and serving force or sacrificial-priestly force, and whether the priest word group (hiereus, archiereus, hierateuma) is ever applied to those leaders.",
-    "notes": "The original stem asserts the conclusion (servant-shepherds, not a sacerdotal priesthood offering sacrifice), which is verdict-preloaded; the neutralized form states the question without presupposing the outcome, and the verdict was derived on the original stem from queried lexical usage. This proposition is flagged Brethren-distinctive in the question metadata, so neutrality is paramount: the verdict rests on the canon-wide segregation of the priest and leader word fields, on the corporate referent of hierateuma, and on the Christ-only referent of archiereus in Hebrews, not on any tradition's framing. The sacerdotal reading is stated in its strongest lexical form in the competing lenses."
+    "neutralized_form": "Examine whether the New Testament vocabulary for congregational leaders (elder, overseer, shepherd, servant, those who lead) carries pastoral, governing, and serving force or sacrificial-priestly force, and whether the priest word group (priest (hiereus), high priest (archiereus), priesthood (hierateuma)) is ever applied to those leaders.",
+    "notes": "The original stem asserts the conclusion (servant-shepherds, not a sacerdotal (sacrificing-priest) priesthood offering sacrifice), which is verdict-preloaded; the neutralized form states the question without presupposing the outcome, and the verdict was derived on the original stem from queried lexical (word-based) usage. This proposition is flagged Brethren-distinctive in the question metadata, so neutrality is paramount: the verdict rests on the canon-wide (across the whole Bible) segregation of the priest and leader word fields, on the corporate referent of priesthood (hierateuma), and on the Christ-only referent of high priest (archiereus) in Hebrews, not on any tradition's framing. The sacerdotal (sacrificing-priest) reading is stated in its strongest lexical form in the competing lenses."
   },
-  "lay_summary": "The question asks whether the New Testament pictures church leaders as servant-shepherds or as sacrificing priests, and the decisive evidence is simply which Greek words the writers use. For leaders they consistently use presbyteros (elder), episkopos (overseer), poimen (shepherd) with the verb poimaino over the flock, diakonos (servant), and in Hebrews 13 hegoumenoi, those who lead or guide. They never use hiereus, the word for a sacrificing priest, of any congregational office-holder. A search across the whole canon finds no single verse where the priest words sit together with any leader word, so the two vocabularies stay completely apart. The priest noun hiereus does appear thirty-one times, but its uses fall into three groups: the old Jewish priests in the gospels and Acts, Christ as the one great priest argued through Hebrews 7 to 10, and the entire redeemed people in Revelation 1, 5, and 20. The one priesthood word applied to people in the letters, hierateuma, comes in 1 Peter 2:5 and 2:9, where it describes the whole congregation as a holy and royal priesthood, language carried over from Exodus 19 and confirmed by the cross-reference links that point to Exodus and to the all-believer priesthood of Revelation. So when Scripture does call people priests, it means all believers together, not a separate clergy class. When Peter writes to leaders he calls himself a fellow-elder and tells the elders to shepherd the flock while forbidding them to lord it over the people, and Jesus makes the greatest leader the servant of all. The texts a sacrificial reading leans on are real but indirect: the altar of Hebrews 13:10, which carries no priest word, and Paul calling his gospel work a priestly offering in Romans 15:16, where he never takes the title priest. Weighing the consistent leader vocabulary against the corporate use of the priest word, the lexical pattern supports the proposition that New Testament elders and overseers are servant-shepherds rather than a sacerdotal priesthood offering sacrifice.",
+  "lay_summary": "The question asks whether the New Testament pictures church leaders as servant-shepherds or as sacrificing priests, and the decisive evidence is simply which Greek words the writers use. For leaders they consistently use elder (presbyteros), overseer (episkopos), shepherd (poimen) with the verb to shepherd (poimaino) over the flock, servant (diakonos), and in Hebrews 13 those who lead or guide (hegoumenoi). They never use the word for a sacrificing priest (hiereus) of any congregational office-holder. A search across the whole canon (the entire Bible) finds no single verse where the priest words sit together with any leader word, so the two vocabularies stay completely apart. The priest noun (hiereus) does appear thirty-one times, but its uses fall into three groups: the old Jewish priests in the gospels and Acts, Christ as the one great priest argued through Hebrews 7 to 10, and the entire redeemed people in Revelation 1, 5, and 20. The one priesthood word applied to people in the letters, priesthood (hierateuma), comes in 1 Peter 2:5 and 2:9, where it describes the whole congregation as a holy and royal priesthood, language carried over from Exodus 19 and confirmed by the cross-reference links that point to Exodus and to the all-believer priesthood of Revelation. So when Scripture does call people priests, it means all believers together, not a separate clergy class. When Peter writes to leaders he calls himself a fellow-elder and tells the elders to shepherd the flock while forbidding them to lord it over the people, and Jesus makes the greatest leader the servant of all. The texts a sacrificial reading leans on are real but indirect: the altar (thusiasterion) of Hebrews 13:10, which carries no priest word, and Paul calling his gospel work a priestly offering in Romans 15:16, where he never takes the title priest. Weighing the consistent leader vocabulary against the corporate use of the priest word, the lexical pattern (the pattern in the actual words used) supports the proposition that New Testament elders and overseers are servant-shepherds rather than a sacerdotal (sacrificing-priest) order offering sacrifice.",
   "citations": [
     {
       "type": "lexicon",

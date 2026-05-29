@@ -11,7 +11,7 @@
     "confidence": "medium",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Every baptism the text explicitly narrates is coupled to a verb of personal response, ἐπίστευσαν and ἐπίστευσεν in Acts 8:12 and 18:8, ἀποδεξάμενοι in Acts 2:41, the substantival aorist participle πιστεύσας in Mark 16:16, the imperatives μετανοήσατε and βαπτισθήτω in Acts 2:38. A queried collocation check confirms βαπτίζω, G0907, never stands in the same verse with βρέφος, παιδίον, or νήπιος anywhere in the canon, so no infant baptism is recorded or commanded. But that is an argument from silence, and silence is not a lexical prohibition. Against the proposition stand the household reports, ὁ οἶκος αὐτῆς in Acts 16:15, αὐτὸς καὶ οἱ αὐτοῦ πάντες in Acts 16:33, τὸν Στεφανᾶ οἶκον in 1 Cor 1:16, where ἐβαπτίσθη is third singular and only the head is the grammatical subject of believing, plus τοῖς τέκνοις ὑμῶν in Acts 2:39, which cross-refs to Gen 17:7, and the circumcision and baptism pairing in Col 2:11-12. The words supply two patterns they do not rank, so the verdict is materially contested at the lexical layer."
+    "rationale": "Every baptism the text explicitly narrates is coupled to a verb of personal response, namely 'they believed' (epistheusan) and 'he believed' (episteusen) in Acts 8:12 and Acts 18:8, 'having received' (apodexamenoi) in Acts 2:41, the noun-style aorist participle (a completed past action in participle form) 'the one who has believed' (pisteusas) in Mark 16:16, the imperatives 'repent' (metanoesate) and 'be baptized' (baptistheto) in Acts 2:38. A queried collocation check (looking up which words show up together) confirms that 'to baptize' (baptizo, G0907) never stands in the same verse with 'infant' (brephos), 'little child' (paidion), or 'babe' (nepios) anywhere in the canon, so no infant baptism is recorded or commanded. But that is an argument from silence, and silence is not a lexical prohibition. Against the proposition stand the household reports, 'her household' (ho oikos autes) in Acts 16:15, 'he himself and all his' (autos kai hoi autou pantes) in Acts 16:33, 'the household of Stephanas' (ton Stephana oikon) in 1 Corinthians 1:16, where 'he/she/it was baptized' (ebaptisthe) is third singular and only the head of the household is the grammatical subject of believing, plus 'to your children' (tois teknois hymon) in Acts 2:39, which cross-references to Genesis 17:7, and the circumcision and baptism pairing in Colossians 2:11-12. The words supply two patterns they do not rank, so the verdict is materially contested at the lexical (word-level) layer."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -141,7 +141,7 @@
             "lemma": "βαπτίζω"
           }
         ],
-        "force": "Peter pairs the plural imperative Μετανοήσατε with the singular passive imperative βαπτισθήτω governed by ἕκαστος ὑμῶν, each one of you, so the command joins repentance and baptism in one addressed response. The conditioning on a verb of turning presumes a respondent capable of repenting, though the verse neither raises nor excludes the case of infants.",
+        "force": "Peter pairs the plural imperative 'repent' (Metanoesate) with the singular passive imperative 'be baptized' (baptistheto) governed by 'each one of you' (hekastos hymon), so the command joins repentance and baptism in one addressed response. The conditioning on a verb of turning presumes a respondent capable of repenting, though the verse neither raises nor excludes the case of infants.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -159,7 +159,7 @@
             "lemma": "βαπτίζω"
           }
         ],
-        "force": "The aorist middle participle ἀποδεξάμενοι, having received the word, is the antecedent circumstance to ἐβαπτίσθησαν, third plural passive. The grammar places word-reception before the baptism of the three thousand, a sequence that favors a believing subject, but the clause is a summary narrative report rather than a legislative rule about candidacy.",
+        "force": "The aorist (a completed past action) middle participle 'having received' (apodexamenoi) the word is the antecedent circumstance to 'they were baptized' (ebaptisthesan), third plural passive. The grammar places word-reception before the baptism of the three thousand, a sequence that favors a believing subject, but the clause is a summary narrative report rather than a legislative rule about candidacy.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -173,7 +173,7 @@
             "lemma": "τέκνον"
           }
         ],
-        "force": "The promise is declared ὑμῖν καὶ τοῖς τέκνοις ὑμῶν, to you and to your children, with τέκνον denoting offspring by descent rather than necessarily minors. Queried OpenBible cross-refs tie this verse to Gen 17:7, the covenant established with Abraham and his זֶרַע, seed, an everlasting covenant to you and to your seed after you. The household reading takes τοῖς τέκνοις ὑμῶν as covenant inclusion of the believer's children, while the believer-response reading notes the same verse extends the promise to all whom the Lord calls, ὅσους ἂν προσκαλέσηται, which conditions reception on calling rather than physical descent. The word does not rank these.",
+        "force": "The promise is declared 'to you and to your children' (hymin kai tois teknois hymon), with 'child' (teknon) denoting offspring by descent rather than necessarily minors. Queried OpenBible cross-refs tie this verse to Genesis 17:7, the covenant established with Abraham and his 'seed' (zera), an everlasting covenant to you and to your seed after you. The household reading takes 'to your children' (tois teknois hymon) as covenant inclusion of the believer's children, while the believer-response reading notes the same verse extends the promise to all whom the Lord calls, 'as many as he may call' (hosous an proskalesetai), which conditions reception on calling rather than physical descent. The word does not rank these.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -191,7 +191,7 @@
             "lemma": "βαπτίζω"
           }
         ],
-        "force": "The temporal ὅτε with the aorist ἐπίστευσαν, when they believed Philip preaching, precedes the imperfect ἐβαπτίζοντο. The baptized are specified as ἄνδρες τε καὶ γυναῖκες, men and also women, with no mention of children, which the believer-baptism reading takes as a pattern and the household reading treats as silence rather than exclusion.",
+        "force": "The temporal 'when' (hote) with the aorist (a completed past action) 'they believed' (episteusan) Philip preaching precedes the imperfect (ongoing or repeated past action) 'they were being baptized' (ebaptizonto). The baptized are specified as 'men and also women' (andres te kai gynaikes), with no mention of children, which the believer-baptism reading takes as a pattern and the household reading treats as silence rather than exclusion.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -209,7 +209,7 @@
             "lemma": "οἶκος"
           }
         ],
-        "force": "Crispus ἐπίστευσεν τῷ κυρίῳ σὺν ὅλῳ τῷ οἴκῳ αὐτοῦ, believed with his whole household, and many Corinthians ἀκούοντες, hearing, believed and were baptized. The verified LSJ entry for οἶκος spans built house, dwelling, household goods or estate, and a reigning house or family line, so the lexeme names the domestic unit without fixing its age composition. Whether the clause means the household believed together or describes a household baptized on the head's faith is not settled by the word itself.",
+        "force": "Crispus 'believed the Lord' (episteusen to kyrio) 'with his whole household' (syn holo to oiko autou), and many Corinthians 'hearing' (akouontes) believed and were baptized. The verified LSJ (Liddell-Scott-Jones Greek lexicon) entry for 'household' (oikos) spans built house, dwelling, household goods or estate, and a reigning house or family line, so the word names the domestic unit without fixing its age composition. Whether the clause means the household believed together or describes a household baptized on the head's faith is not settled by the word itself.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -227,7 +227,7 @@
             "lemma": "οἶκος"
           }
         ],
-        "force": "ἐβαπτίσθη is third singular feminine, V-API-3S, so Lydia alone is the grammatical subject of the baptism verb, and καὶ ὁ οἶκος αὐτῆς, and her household, follows as an appended clause carrying no faith-verb of its own. The text records the household baptism without recording the household's belief, which is the strongest single datum for the covenant-inclusion reading, and at the same time gives that reading no explicit lexical confirmation that infants were present.",
+        "force": "'She was baptized' (ebaptisthe) is third singular feminine, V-API-3S (verb, aorist passive indicative, third singular), so Lydia alone is the grammatical subject of the baptism verb, and 'and her household' (kai ho oikos autes) follows as an appended clause carrying no faith-verb of its own. The text records the household baptism without recording the household's belief, which is the strongest single datum for the covenant-inclusion reading, and at the same time gives that reading no explicit lexical confirmation that infants were present.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -245,7 +245,7 @@
             "lemma": "πανοικεί"
           }
         ],
-        "force": "The jailer ἐβαπτίσθη αὐτὸς καὶ οἱ αὐτοῦ πάντες, was baptized, he himself and all his, immediately. The next verse, v.34, says he rejoiced πανοικεὶ πεπιστευκὼς τῷ θεῷ, having believed in God with his whole house, with the perfect active participle ascribing believing to the whole household. The adverb πανοικεί is a hapax legomenon, occurring only here, so its precise scope, whether it asserts that literally every member personally believed or simply that the whole house was involved, cannot be triangulated from other usage.",
+        "force": "The jailer 'was baptized, he himself and all his' (ebaptisthe autos kai hoi autou pantes) immediately. The next verse, verse 34, says he rejoiced 'with his whole house having believed in God' (panoikei pepisteukos to theo), with the perfect (a completed action whose result still stands) active participle ascribing believing to the whole household. The adverb 'with the whole house' (panoikei) is a hapax legomenon (a word that occurs only once in the entire Bible), occurring only here, so its precise scope, whether it asserts that literally every member personally believed or simply that the whole house was involved, cannot be triangulated from other usage.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -263,7 +263,7 @@
             "lemma": "οἶκος"
           }
         ],
-        "force": "Paul recalls ἐβάπτισα δὲ καὶ τὸν Στεφανᾶ οἶκον, I also baptized the household of Stephanas, with no mention of faith, repentance, or the ages of the members. The bare οἶκον is the most lexically open of the household reports, neither confirming nor excluding minors, and stands in a cross-referenced cluster with Acts 16:15 and 16:33.",
+        "force": "Paul recalls 'I also baptized the household of Stephanas' (ebaptisa de kai ton Stephana oikon), with no mention of faith, repentance, or the ages of the members. The bare 'household' (oikon) is the most lexically open of the household reports, neither confirming nor excluding minors, and stands in a cross-referenced cluster with Acts 16:15 and Acts 16:33.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -281,7 +281,7 @@
             "lemma": "περιτομή"
           }
         ],
-        "force": "v.11-12 join circumcision and baptism language, περιετμήθητε περιτομῇ ἀχειροποιήτῳ, you were circumcised with a circumcision made without hands, then συνταφέντες αὐτῷ ἐν τῷ βαπτισμῷ, buried with him in baptism. The covenant-continuity reading parallels the sign of circumcision to baptism. But the circumcision is qualified ἀχειροποιήτῳ, not made with hands, a spiritual referent rather than the physical infant rite, and the raising is explicitly διὰ τῆς πίστεως, through faith, which the believer-response reading takes as conditioning the rite on personal faith. The noun βαπτισμός, distinct lemma G0909, occurs only five times and elsewhere means ritual washings, so its sense here leans on context.",
+        "force": "Verses 11-12 join circumcision and baptism language, 'you were circumcised with a circumcision made without hands' (perietmethete peritome acheiropoieto), then 'buried with him in baptism' (syntaphentes auto en to baptismo). The covenant-continuity reading parallels the sign of circumcision to baptism. But the circumcision is qualified 'not made with hands' (acheiropoieto), a spiritual referent rather than the physical infant rite, and the raising is explicitly 'through the faith' (dia tes pisteos), which the believer-response reading takes as conditioning the rite on personal faith. The noun 'baptism' (baptismos), distinct word G0909, occurs only five times and elsewhere means ritual washings, so its sense here leans on context.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -299,7 +299,7 @@
             "lemma": "παιδίον"
           }
         ],
-        "force": "Infants, τὰ βρέφη, are brought to Jesus that he might touch them, and in v.16 he calls them παιδία and says the kingdom of God belongs to such. βρέφος denotes a babe, even an unborn child in Luke 1:41,44. The text shows Jesus receiving and blessing infants, which the covenant reading treats as warrant for including them under the sign, but no baptism vocabulary appears, and a queried collocation check confirms βαπτίζω never co-occurs in a single verse with βρέφος, παιδίον, or νήπιος anywhere in the canon.",
+        "force": "Infants, 'the babes' (ta brephe), are brought to Jesus that he might touch them, and in verse 16 he calls them 'little children' (paidia) and says the kingdom of God belongs to such. 'Babe' (brephos) denotes a babe, even an unborn child in Luke 1:41,44. The text shows Jesus receiving and blessing infants, which the covenant reading treats as warrant for including them under the sign, but no baptism vocabulary appears, and a queried collocation check (looking up which words show up together) confirms 'to baptize' (baptizo) never co-occurs in a single verse with 'infant' (brephos), 'little child' (paidion), or 'babe' (nepios) anywhere in the canon.",
         "supports": "complicates",
         "genre": "gospel",
         "figures": [],
@@ -317,7 +317,7 @@
             "lemma": "βαπτίζω"
           }
         ],
-        "force": "Two substantival aorist participles ὁ πιστεύσας καὶ βαπτισθεὶς, the one who has believed and been baptized, are coordinated under one article, joining belief and baptism in the saved party, while the contrasting clause names only ὁ ἀπιστήσας, the one who disbelieved, as condemned. The asymmetry is read by some as making belief the operative condition and by others as simply not addressing those incapable of belief. The verse also lies in the longer ending of Mark, which carries a textual-history caveat.",
+        "force": "Two noun-style aorist (a completed past action) participles 'the one who has believed and been baptized' (ho pisteusas kai baptistheis) are coordinated under one article, joining belief and baptism in the saved party, while the contrasting clause names only 'the one who disbelieved' (ho apistesas) as condemned. The asymmetry is read by some as making belief the operative condition and by others as simply not addressing those incapable of belief. The verse also lies in the longer ending of Mark, which carries a textual-history caveat.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -384,37 +384,37 @@
       {
         "ref": "Acts.16.15",
         "addressed": true,
-        "resolution": "ἐβαπτίσθη is third singular, so Lydia is the only grammatical subject of believing and being baptized, and ὁ οἶκος αὐτῆς is appended with no faith-verb. Lexically this both anchors the household-inclusion reading and withholds explicit confirmation of infant presence. The word οἶκος cannot decide it, so the complication is two-sided rather than dissolved."
+        "resolution": "'She was baptized' (ebaptisthe) is third singular, so Lydia is the only grammatical subject of believing and being baptized, and 'her household' (ho oikos autes) is appended with no faith-verb. Lexically (at the word level) this both anchors the household-inclusion reading and withholds explicit confirmation of infant presence. The word 'household' (oikos) cannot decide it, so the complication is two-sided rather than dissolved."
       },
       {
         "ref": "Acts.16.33",
         "addressed": true,
-        "resolution": "v.34 ascribes believing to the whole household, πανοικεὶ πεπιστευκὼς, but πανοικεί is a hapax legomenon whose exact scope cannot be triangulated from any other occurrence. It can be read as every member personally believing, supporting the believer pattern, or as a collective involving dependents, supporting household inclusion. The single occurrence leaves both readings open."
+        "resolution": "Verse 34 ascribes believing to the whole household, 'with his whole house having believed' (panoikei pepisteukos), but 'with the whole house' (panoikei) is a hapax legomenon (a word that occurs only once in the entire Bible) whose exact scope cannot be triangulated from any other occurrence. It can be read as every member personally believing, supporting the believer pattern, or as a collective involving dependents, supporting household inclusion. The single occurrence leaves both readings open."
       },
       {
         "ref": "1Cor.1.16",
         "addressed": true,
-        "resolution": "τὸν Στεφανᾶ οἶκον is the most lexically open household report, mentioning neither faith nor age. It neither records infant baptism nor excludes it, so it functions as genuine silence that each lens fills from its prior framework rather than from the word."
+        "resolution": "'The household of Stephanas' (ton Stephana oikon) is the most lexically open household report, mentioning neither faith nor age. It neither records infant baptism nor excludes it, so it functions as genuine silence that each lens fills from its prior framework rather than from the word."
       },
       {
         "ref": "Acts.2.39",
         "addressed": true,
-        "resolution": "τοῖς τέκνοις ὑμῶν links by queried cross-reference to Gen 17:7, the everlasting covenant to Abraham and his seed, which the covenant reading takes as warrant for the sign passing to children. The same verse, however, extends the promise to all whom the Lord calls, ὅσους ἂν προσκαλέσηται, which the believer-response reading takes as conditioning reception on divine calling rather than on physical descent. The vocabulary supports both inferences and ranks neither."
+        "resolution": "'To your children' (tois teknois hymon) links by queried cross-reference to Genesis 17:7, the everlasting covenant to Abraham and his seed, which the covenant reading takes as warrant for the sign passing to children. The same verse, however, extends the promise to all whom the Lord calls, 'as many as he may call' (hosous an proskalesetai), which the believer-response reading takes as conditioning reception on divine calling rather than on physical descent. The vocabulary supports both inferences and ranks neither."
       },
       {
         "ref": "Col.2.12",
         "addressed": true,
-        "resolution": "The circumcision-to-baptism parallel is real in the words, but the circumcision is ἀχειροποιήτῳ, made without hands, a spiritual referent, and the rite is tied διὰ τῆς πίστεως, through faith. So the text simultaneously supplies the covenant-sign parallel that grounds the paedo inference and the personal-faith qualifier that grounds the credo inference, without adjudicating between them."
+        "resolution": "The circumcision-to-baptism parallel is real in the words, but the circumcision is 'not made with hands' (acheiropoieto), a spiritual referent, and the rite is tied 'through the faith' (dia tes pisteos). So the text simultaneously supplies the covenant-sign parallel that grounds the paedo (infant) inference and the personal-faith qualifier that grounds the credo (believer) inference, without adjudicating between them."
       },
       {
         "ref": "Luke.18.15",
         "addressed": true,
-        "resolution": "Jesus receives and blesses infants, βρέφη, and says the kingdom belongs to such, which the covenant reading treats as warrant to bring children under the sign. But no baptism vocabulary appears in the passage, and βαπτίζω is confirmed never to co-occur with infant terms anywhere in the canon, so the believer-baptism reading holds that the text blesses infants without baptizing them. Both inferences are textually possible."
+        "resolution": "Jesus receives and blesses infants, 'babes' (brephe), and says the kingdom belongs to such, which the covenant reading treats as warrant to bring children under the sign. But no baptism vocabulary appears in the passage, and 'to baptize' (baptizo) is confirmed never to co-occur with infant terms anywhere in the canon, so the believer-baptism reading holds that the text blesses infants without baptizing them. Both inferences are textually possible."
       },
       {
         "ref": "Acts.8.12",
         "addressed": true,
-        "resolution": "The explicit ἄνδρες τε καὶ γυναῖκες without children is read by one side as a deliberate believer profile and by the other as an argument from silence that cannot bear an exclusionary load. The lexical data supports the description but does not license either inference as decisive."
+        "resolution": "The explicit 'men and also women' (andres te kai gynaikes) without children is read by one side as a deliberate believer profile and by the other as an argument from silence that cannot bear an exclusionary load. The lexical data supports the description but does not license either inference as decisive."
       },
       {
         "ref": "Mark.16.16",
@@ -427,7 +427,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "n/a",
-    "note": "The cited verses lie outside the ECM-published scope, 3 John 1.1 to 1.15, and the lexical store supplied no variant units for them, so this is reported as not in ECM scope rather than as examined variant signal. The longer ending of Mark, including 16:16, carries a well-known textual-history question, but that affects the weight of one corroborating gospel verse, not the household and covenant texts in Acts and Colossians, so the verdict is not variant-sensitive."
+    "note": "The cited verses lie outside the ECM (critical edition of New Testament textual variants) published scope, 3 John 1:1 to 1:15, and the lexical store supplied no variant units for them, so this is reported as not in ECM scope rather than as examined variant signal. The longer ending of Mark, including 16:16, carries a well-known textual-history question, but that affects the weight of one corroborating gospel verse, not the household and covenant texts in Acts and Colossians, so the verdict is not variant-sensitive."
   },
   "hermeneutics": {
     "primary_method": "redemptive-historical",
@@ -442,27 +442,27 @@
       {
         "framework": "covenant_theology",
         "verdict": "not affirmed",
-        "rationale": "Read through covenant continuity, Acts 2:39 τοῖς τέκνοις ὑμῶν echoes the Gen 17:7 structure of the sign given to the believer and his seed, the οἶκος baptisms in Acts 16:15, 16:33, and 1 Cor 1:16 apply the sign to the household on the head's faith, Col 2:11-12 parallels circumcision to baptism, and Luke 18:15-17 shows infants received into the kingdom. On this lens the household and covenant vocabulary warrants infant baptism, so the proposition that it is not warranted is rejected. This is its strongest lexical form, an inference from a genuine chain of texts, not from silence."
+        "rationale": "Read through covenant continuity, Acts 2:39 'to your children' (tois teknois hymon) echoes the Genesis 17:7 structure of the sign given to the believer and his seed, the 'household' (oikos) baptisms in Acts 16:15, Acts 16:33, and 1 Corinthians 1:16 apply the sign to the household on the head's faith, Colossians 2:11-12 parallels circumcision to baptism, and Luke 18:15-17 shows infants received into the kingdom. On this lens the household and covenant vocabulary warrants infant baptism, so the proposition that it is not warranted is rejected. This is its strongest lexical form, an inference from a genuine chain of texts, not from silence."
       },
       {
         "framework": "credobaptism",
         "verdict": "affirmed",
-        "rationale": "Read through personal response, every explicitly narrated baptism is coupled to a faith-verb, ἐπίστευσαν, ἀποδεξάμενοι, πιστεύσας, μετανοήσατε, βαπτισθήτω, and βαπτίζω never co-occurs with βρέφος, παιδίον, or νήπιος in any verse, so no infant baptism is recorded or commanded. The household clauses are construed as households that heard and believed together, Acts 16:34 πανοικεὶ πεπιστευκὼς, and Col 2:12 ties the rite διὰ τῆς πίστεως. On this lens the proposition is affirmed. Its strongest form rests on the recurring belief-then-water sequence, while conceding the silence is not a stated prohibition."
+        "rationale": "Read through personal response, every explicitly narrated baptism is coupled to a faith-verb, 'they believed' (episteusan), 'having received' (apodexamenoi), 'the one who has believed' (pisteusas), 'repent' (metanoesate), 'be baptized' (baptistheto), and 'to baptize' (baptizo) never co-occurs with 'infant' (brephos), 'little child' (paidion), or 'babe' (nepios) in any verse, so no infant baptism is recorded or commanded. The household clauses are construed as households that heard and believed together, Acts 16:34 'with his whole house having believed' (panoikei pepisteukos), and Colossians 2:12 ties the rite 'through the faith' (dia tes pisteos). On this lens the proposition is affirmed. Its strongest form rests on the recurring belief-then-water sequence, while conceding the silence is not a stated prohibition."
       },
       {
         "framework": "new_covenant_theology",
         "verdict": "affirmed",
-        "rationale": "Read through covenant discontinuity, the new-covenant community is constituted by personal faith rather than physical lineage, so the Gen 17:7 seed-clause is fulfilled in Christ and not carried over as a genealogical sign. On this lens the covenant-inclusion argument is a category error and infant baptism on that basis is unwarranted. The lexical anchor is that the Acts baptism reports attach faith-verbs to the baptized rather than to a lineage."
+        "rationale": "Read through covenant discontinuity, the new-covenant community is constituted by personal faith rather than physical lineage, so the Genesis 17:7 seed-clause is fulfilled in Christ and not carried over as a genealogical sign. On this lens the covenant-inclusion argument is a category error and infant baptism on that basis is unwarranted. The lexical anchor is that the Acts baptism reports attach faith-verbs to the baptized rather than to a lineage."
       }
     ],
-    "notes": "The verdict turns on the referential scope of οἶκος in the household reports, on the hapax πανοικεί, and on whether covenant continuity, witnessed lexically by the Acts 2:39 link to Gen 17:7, or new-covenant discontinuity governs the application of the sign. These are framework commitments that the word data alone cannot adjudicate, which is why competing lenses reach opposite verdicts from the same lexical evidence. The proposition is also not symmetric with the data, the credo case rests partly on an argument from silence, no recorded or commanded infant baptism, while the paedo case rests on an inferential but real textual chain, so neither is lexically forced."
+    "notes": "The verdict turns on the referential scope of 'household' (oikos) in the household reports, on the hapax legomenon (a word that occurs only once in the entire Bible) 'with the whole house' (panoikei), and on whether covenant continuity, witnessed lexically by the Acts 2:39 link to Genesis 17:7, or new-covenant discontinuity governs the application of the sign. These are framework commitments that the word data alone cannot adjudicate, which is why competing lenses reach opposite verdicts from the same lexical evidence. The proposition is also not symmetric with the data, the credo (believer) case rests partly on an argument from silence, no recorded or commanded infant baptism, while the paedo (infant) case rests on an inferential but real textual chain, so neither is lexically forced."
   },
   "stem_audit": {
     "verdict_preloaded": true,
-    "neutralized_form": "Does the New Testament lexical pattern condition baptism on personal belief, or does the household and covenant vocabulary also warrant baptizing the infant children of believers?",
-    "notes": "The original stem embeds its conclusion in the phrase is not warranted, presuming the credobaptist direction. The neutral form states the genuine question without presupposing the answer. The verdict was derived on the original stem and returned disputed because the lexical data is two-sided. The deeper query did not flip the verdict, it strengthened both lenses, so affirms remains disputed. The core asymmetry is that the not-warranted claim leans on an argument from silence, βαπτίζω never collocates with infant vocabulary and no infant baptism is recorded or commanded, but absence of a word is not lexically a prohibition, while the household, the Acts 2:39 to Gen 17:7 covenant link, and the Col 2:11-12 circumcision-baptism pairing give the contrary reading a genuine if inferential textual foothold the words neither confirm nor refute."
+    "neutralized_form": "Does the New Testament lexical (word-level) pattern condition baptism on personal belief, or does the household and covenant vocabulary also warrant baptizing the infant children of believers?",
+    "notes": "The original stem embeds its conclusion in the phrase is not warranted, presuming the credobaptist (believer-baptism) direction. The neutral form states the genuine question without presupposing the answer. The verdict was derived on the original stem and returned disputed because the lexical data is two-sided. The deeper query did not flip the verdict (VERDICT-CHANGED: no), it strengthened both lenses, so affirms remains disputed. The core asymmetry is that the not-warranted claim leans on an argument from silence, 'to baptize' (baptizo) never collocates with infant vocabulary and no infant baptism is recorded or commanded, but absence of a word is not lexically a prohibition, while the household, the Acts 2:39 to Genesis 17:7 covenant link, and the Colossians 2:11-12 circumcision-baptism pairing give the contrary reading a genuine if inferential textual foothold the words neither confirm nor refute."
   },
-  "lay_summary": "Every baptism the New Testament actually describes sits next to a word for personal response. People hear, believe, repent, receive the word, and then are baptized, in Acts 2, Acts 8, Acts 18, and Mark 16. A direct search of the text also shows that the verb for baptize never appears in the same verse as any word for infant or little child, so no infant baptism is plainly recorded or commanded. That is the heart of the case that infant baptism lacks warrant. But absence of a word is not the same as a ban, and the text pushes back in three places. First, whole households are baptized, Lydia and her house, the jailer and all his, the house of Stephanas, and the word for house names the family unit without telling us the ages of its members or whether the little ones believed. In the jailer's case the verse that says his whole house believed uses a word that occurs only once in the whole Bible, so its exact reach cannot be pinned down. Second, Peter says the promise is for you and your children, and that line is cross-linked in the data to the old covenant promise given to Abraham and his offspring, which is the backbone of the argument that the sign passes to a believer's children. Third, the letter to the Colossians sets circumcision and baptism side by side, yet calls that circumcision one made without hands and ties the whole thing to personal faith, so the same passage feeds both readings at once. Even Jesus receiving infants is about blessing them, with no baptism in view. So the words supply two patterns and do not rank them. One reader hears belief always coming before water, the other hears a family sign carried forward. Because both can be built honestly from the same verses, and the deciding question is how the household and covenant language are weighed rather than any single word, the lexical evidence here is genuinely split rather than one-sided.",
+  "lay_summary": "Every baptism the New Testament actually describes sits next to a word for personal response. People hear, believe, repent, receive the word, and then are baptized, in Acts 2, Acts 8, Acts 18, and Mark 16. A direct search of the text also shows that the verb for baptize, 'to baptize' (baptizo), never appears in the same verse as any word for infant or little child, including 'infant' (brephos), 'little child' (paidion), and 'babe' (nepios), so no infant baptism is plainly recorded or commanded. That is the heart of the case that infant baptism lacks warrant. But absence of a word is not the same as a ban, and the text pushes back in three places. First, whole households are baptized, Lydia and her house, the jailer and all his, the house of Stephanas, and the word for house, 'household' (oikos), names the family unit without telling us the ages of its members or whether the little ones believed. In the jailer's case the verse that says his whole house believed uses a word, 'with the whole house' (panoikei), that occurs only once in the whole Bible (a hapax legomenon), so its exact reach cannot be pinned down. Second, Peter says the promise is for you and your children, 'to your children' (tois teknois hymon), and that line is cross-linked in the data to the old covenant promise given to Abraham and his offspring, 'seed' (zera) in Genesis 17:7, which is the backbone of the argument that the sign passes to a believer's children. Third, the letter to the Colossians sets circumcision and baptism side by side, yet calls that circumcision one made without hands and ties the whole thing to personal faith, 'through the faith' (dia tes pisteos), so the same passage feeds both readings at once. Even Jesus receiving infants, 'babes' (brephe), is about blessing them, with no baptism in view. So the words supply two patterns and do not rank them. One reader hears belief always coming before water, the other hears a family sign carried forward. Because both can be built honestly from the same verses, and the deciding question is how the household and covenant language are weighed rather than any single word, the lexical (word-level) evidence here is genuinely split rather than one-sided.",
   "citations": [
     {
       "type": "morphology",

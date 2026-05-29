@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "The lexical pattern anchors new birth in divine, specifically Spirit, agency across both Testaments. In John 3:5 γεννηθῇ is aorist passive subjunctive and in 3:6 and 3:8 γεγεννημένον and γεγεννημένος are perfect passive participles, all governed by ἐκ plus a genitive of source, ἐξ ὕδατος καὶ πνεύματος and ἐκ τοῦ πνεύματος. The passive voice places the human in the patient role and names πνεῦμα as the source, and the πνεῦμα and πνεῖ wordplay of 3:8 casts that source as sovereign. Titus 3:5 makes the agency explicit, ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου, where the genitive πνεύματος ἁγίου is the source of the renewal and οὐκ ἐξ ἔργων excludes human work. John 6:63 fixes τὸ πνεῦμα as τὸ ζῳοποιοῦν while ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν. Ezekiel 36:26-27 supplies the prophetic substrate with God in the first person giving a new heart and putting his רוּחַ within. What the vocabulary does NOT settle is the ordo, whether this Spirit-birth precedes or accompanies faith, and whether ὕδατος denotes baptism, since 1 Peter 1:3 and 1:23 attribute the same begetting to God through resurrection and through the living word."
+    "rationale": "The lexical pattern anchors new birth in divine, specifically Spirit, agency across both Testaments. In John 3:5 the verb 'be born' (γεννηθῇ) is aorist passive subjunctive (a completed past action in the passive 'be done to' voice expressing a conditional possibility), and in John 3:6 and 3:8 the participles 'having been born' (γεγεννημένον) and 'one who has been born' (γεγεννημένος) are perfect passive participles (a completed action whose result still stands, in the passive 'be done to' voice), all governed by the preposition 'out of' (ἐκ) plus a genitive of source (a noun in the 'from-X' grammatical form), namely 'out of water and Spirit' (ἐξ ὕδατος καὶ πνεύματος) and 'out of the Spirit' (ἐκ τοῦ πνεύματος). The passive voice places the human in the patient role and names 'Spirit' (πνεῦμα) as the source, and the wordplay between 'Spirit' (πνεῦμα) and 'blows' (πνεῖ) in John 3:8 casts that source as sovereign. Titus 3:5 makes the agency explicit: 'he saved us through the washing of rebirth and renewing of the Holy Spirit' (ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου), where the genitive 'of the Holy Spirit' (πνεύματος ἁγίου) is the source of the renewal and 'not from works' (οὐκ ἐξ ἔργων) excludes human work. John 6:63 fixes 'the Spirit' (τὸ πνεῦμα) as 'the one giving life' (τὸ ζῳοποιοῦν) while 'the flesh profits nothing' (ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν). Ezekiel 36:26-27 supplies the prophetic substrate (foundation laid down earlier in Scripture) with God in the first person giving a new heart and putting his 'Spirit' or 'breath' (רוּחַ) within. What the vocabulary does NOT settle is the ordo (the order of salvation events), whether this Spirit-birth precedes or accompanies faith, and whether 'water' (ὕδατος) denotes baptism, since 1 Peter 1:3 and 1:23 attribute the same begetting to God through resurrection and through the living word."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -181,7 +181,7 @@
             "lemma": "πνεύματος"
           }
         ],
-        "force": "MorphGNT parses γεννηθῇ as aorist passive subjunctive, third singular, governed by ἐξ ὕδατος καὶ πνεύματος. The passive voice with the prepositional source ἐκ presents the Spirit as the one effecting the begetting and the human subject as patient. The condition ἐὰν μή ties entry into τὴν βασιλείαν τοῦ θεοῦ to this Spirit-effected birth. Whether ὕδατος names baptism is left open by the syntax, but πνεύματος remains the second genitive of source either way.",
+        "force": "MorphGNT (the morphological tagging of the Greek New Testament) parses 'be born' (γεννηθῇ) as aorist passive subjunctive (a completed past action in the passive 'be done to' voice, expressed as a conditional possibility), third singular, governed by 'out of water and Spirit' (ἐξ ὕδατος καὶ πνεύματος). The passive voice with the prepositional source 'out of' (ἐκ) presents the Spirit as the one effecting the begetting and the human subject as patient (the one acted upon). The condition 'unless' (ἐὰν μή) ties entry into 'the kingdom of God' (τὴν βασιλείαν τοῦ θεοῦ) to this Spirit-effected birth. Whether 'water' (ὕδατος) names baptism is left open by the syntax, but 'Spirit' (πνεύματος) remains the second genitive of source (a noun in the 'from-X' grammatical form) either way.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -203,7 +203,7 @@
             "lemma": "σαρκὸς"
           }
         ],
-        "force": "The perfect passive participle γεγεννημένον, parsed XPP in MorphGNT, appears twice with paired prepositional sources. ἐκ τῆς σαρκὸς produces σάρξ and ἐκ τοῦ πνεύματος produces πνεῦμα. The grammar locates origin in the Spirit and identifies the resulting nature as spirit, ruling out fleshly self-generation. The two genitive sources are set in flat contrast, not ranked in time.",
+        "force": "The perfect passive participle 'that which has been born' (γεγεννημένον), a completed action whose result still stands in the passive 'be done to' voice, parsed XPP in MorphGNT (the morphological tagging of the Greek New Testament), appears twice with paired prepositional sources. 'Out of the flesh' (ἐκ τῆς σαρκὸς) produces 'flesh' (σάρξ) and 'out of the Spirit' (ἐκ τοῦ πνεύματος) produces 'spirit' (πνεῦμα). The grammar locates origin in the Spirit and identifies the resulting nature as spirit, ruling out fleshly self-generation. The two genitive sources (nouns in the 'from-X' grammatical form) are set in flat contrast, not ranked in time.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -221,7 +221,7 @@
             "lemma": "ἄνωθεν"
           }
         ],
-        "force": "Aorist passive infinitive γεννηθῆναι with the adverb ἄνωθεν and impersonal Δεῖ marks the necessity of a begetting from outside the recipient. ἄνωθεν is polysemous, attested elsewhere as from above spatially in John 3:31 and Matthew 27:51 and as from the beginning or again temporally in Luke 1:3. Both senses keep the begetting non-self-originated, so the agency claim holds on either reading.",
+        "force": "The aorist passive infinitive 'to be born' (γεννηθῆναι), a completed past action in the passive 'be done to' voice expressed as a verbal noun, with the adverb 'from above or again' (ἄνωθεν) and the impersonal verb 'it is necessary' (Δεῖ) marks the necessity of a begetting from outside the recipient. The word 'from above or again' (ἄνωθεν) is polysemous (carries multiple senses), attested elsewhere as 'from above' spatially in John 3:31 and Matthew 27:51 and as 'from the beginning or again' temporally in Luke 1:3. Both senses keep the begetting non-self-originated, so the agency claim holds on either reading.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -239,7 +239,7 @@
             "lemma": "γεγεννημένος"
           }
         ],
-        "force": "The clause τὸ πνεῦμα ὅπου θέλει πνεῖ exploits the πνεῦμα and πνεῖ wordplay to depict the Spirit acting freely and unobservably, and οὕτως ἐστὶν πᾶς ὁ γεγεννημένος ἐκ τοῦ πνεύματος applies that pattern to everyone begotten of the Spirit. θέλει gives the Spirit volition, placing agency on the Spirit side, not the recipient.",
+        "force": "The clause 'the Spirit blows where it wills' (τὸ πνεῦμα ὅπου θέλει πνεῖ) exploits the wordplay between 'Spirit' (πνεῦμα) and 'blows' (πνεῖ) to depict the Spirit acting freely and unobservably, and 'so is everyone who has been born of the Spirit' (οὕτως ἐστὶν πᾶς ὁ γεγεννημένος ἐκ τοῦ πνεύματος) applies that pattern to everyone begotten of the Spirit. 'It wills' (θέλει) gives the Spirit volition (a will to choose), placing agency on the Spirit side, not the recipient.",
         "supports": "for",
         "genre": "gospel",
         "figures": [
@@ -263,7 +263,7 @@
             "lemma": "πνεύματος"
           }
         ],
-        "force": "ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου links salvation to a rebirth-washing and a Spirit-renewal. MorphGNT marks παλιγγενεσίας and ἀνακαινώσεως as genitives and πνεύματος ἁγίου as a following genitive that names the Holy Spirit as the source of the renewal. The phrase οὐκ ἐξ ἔργων τῶν ἐν δικαιοσύνῃ excludes human work as cause and κατὰ τὸ αὐτοῦ ἔλεος locates the cause in divine mercy.",
+        "force": "'He saved us through the washing of rebirth and renewing of the Holy Spirit' (ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου) links salvation to a rebirth-washing and a Spirit-renewal. MorphGNT (the morphological tagging of the Greek New Testament) marks 'of rebirth' (παλιγγενεσίας) and 'of renewing' (ἀνακαινώσεως) as genitives (nouns in the 'of-X' grammatical form) and 'of the Holy Spirit' (πνεύματος ἁγίου) as a following genitive that names the Holy Spirit as the source of the renewal. The phrase 'not from works done in righteousness' (οὐκ ἐξ ἔργων τῶν ἐν δικαιοσύνῃ) excludes human work as cause and 'according to his mercy' (κατὰ τὸ αὐτοῦ ἔλεος) locates the cause in divine mercy.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -285,7 +285,7 @@
             "lemma": "σὰρξ"
           }
         ],
-        "force": "The present active participle τὸ ζῳοποιοῦν, neuter, agrees with τὸ πνεῦμα and attributes life-giving action to the Spirit, while ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν strips the flesh of any contribution. The neuter agreement and the verbal force fix the Spirit as the life-giver in direct antithesis to flesh.",
+        "force": "The present active participle 'the life-giving one' (τὸ ζῳοποιοῦν), neuter, ongoing in force, agrees with 'the Spirit' (τὸ πνεῦμα) and attributes life-giving action to the Spirit, while 'the flesh profits nothing' (ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν) strips the flesh of any contribution. The neuter agreement and the verbal force fix the Spirit as the life-giver in direct antithesis to flesh.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -311,7 +311,7 @@
             "lemma": "בָּשָׂר"
           }
         ],
-        "force": "Three first-person verbs with God as subject, וְנָתַתִּי לֵב חָדָשׁ, וַהֲסִרֹתִי לֵב הָאֶבֶן, וְנָתַתִּי לֵב בָּשָׂר, present unilateral divine action that replaces a heart of stone with a heart of flesh. The ETCBC clause data marks God as predicate-subject and the people as complement, giving God the agency and humanity the recipient role.",
+        "force": "Three first-person verbs with God as subject, 'and I will give a new heart' (וְנָתַתִּי לֵב חָדָשׁ), 'and I will remove the heart of stone' (וַהֲסִרֹתִי לֵב הָאֶבֶן), 'and I will give a heart of flesh' (וְנָתַתִּי לֵב בָּשָׂר), present unilateral divine action that replaces a heart of stone with a heart of flesh. The ETCBC (Eep Talstra Centre for Bible and Computer) clause data marks God as predicate-subject and the people as complement, giving God the agency and humanity the recipient role.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [
@@ -335,7 +335,7 @@
             "lemma": "עָשָׂה"
           }
         ],
-        "force": "וְאֶת רוּחִי אֶתֵּן בְּקִרְבְּכֶם identifies God's own רוּחַ as the gift placed within. The waw-consecutive וְעָשִׂיתִי connects this Spirit-gift to resulting obedience, walking in God's statutes, making the placed Spirit the agent that produces the new walk. רוּחַ occurs 378 times in the canon, so its sense is well triangulated, and here the first-person suffix רוּחִי fixes it as God's own Spirit.",
+        "force": "'And my Spirit I will put within you' (וְאֶת רוּחִי אֶתֵּן בְּקִרְבְּכֶם) identifies God's own 'Spirit' or 'breath' (רוּחַ) as the gift placed within. The waw-consecutive (the Hebrew narrative connector that strings actions together) 'and I will cause' (וְעָשִׂיתִי) connects this Spirit-gift to resulting obedience, walking in God's statutes, making the placed Spirit the agent that produces the new walk. The word 'Spirit' or 'breath' (רוּחַ) occurs 378 times in the canon, so its sense is well triangulated, and here the first-person suffix 'my Spirit' (רוּחִי) fixes it as God's own Spirit.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
@@ -349,7 +349,7 @@
             "lemma": "ἀναγεγεννημένοι"
           }
         ],
-        "force": "ἀναγεγεννημένοι is a perfect passive participle of ἀναγεννάω, having been begotten again, but the prepositional instrument is διὰ λόγου ζῶντος θεοῦ, through the living word of God, not the Spirit. This is recorded as complicating because the same begetting event is here tied to the word, showing the canon names more than one instrument for the new birth and does not rank them.",
+        "force": "'Having been born again' (ἀναγεγεννημένοι) is a perfect passive participle (a completed action whose result still stands in the passive 'be done to' voice) of the verb 'to beget again' (ἀναγεννάω), having been begotten again, but the prepositional instrument is 'through the living word of God' (διὰ λόγου ζῶντος θεοῦ), through the living word of God, not the Spirit. This is recorded as complicating because the same begetting event is here tied to the word, showing the canon names more than one instrument for the new birth and does not rank them.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -440,22 +440,22 @@
       {
         "ref": "John.3.5",
         "addressed": true,
-        "resolution": "The phrase ἐξ ὕδατος καὶ πνεύματος can be read as two distinct sources or as one Spirit-cleansing event. On a sacramental reading ὕδατος names baptismal water, on a non-sacramental reading it figures cleansing or the word. Either way πνεύματος remains the second genitive of source, and the parallel in John 3:6 and 3:8 reduces the recurring source to ἐκ τοῦ πνεύματος, so Spirit agency holds. The proposition under test asks only whether the Spirit regenerates, which the syntax answers yes, and not whether water means baptism, which it leaves open."
+        "resolution": "The phrase 'out of water and Spirit' (ἐξ ὕδατος καὶ πνεύματος) can be read as two distinct sources or as one Spirit-cleansing event. On a sacramental reading (one that treats the rite as causing the spiritual effect) 'water' (ὕδατος) names baptismal water, on a non-sacramental reading it figures cleansing or the word. Either way 'Spirit' (πνεύματος) remains the second genitive of source (a noun in the 'from-X' grammatical form), and the parallel in John 3:6 and 3:8 reduces the recurring source to 'out of the Spirit' (ἐκ τοῦ πνεύματος), so Spirit agency holds. The proposition under test asks only whether the Spirit regenerates, which the syntax answers yes, and not whether water means baptism, which it leaves open."
       },
       {
         "ref": "Titus.3.5",
         "addressed": true,
-        "resolution": "λουτροῦ παλιγγενεσίας could be read as a ritual washing that itself produces rebirth, shifting agency to a rite. But the syntax pairs it with καὶ ἀνακαινώσεως πνεύματος ἁγίου, the controlling verb ἔσωσεν is governed by κατὰ τὸ αὐτοῦ ἔλεος, and the contrast οὐκ ἐξ ἔργων excludes human contribution. The genitive πνεύματος ἁγίου modifies ἀνακαινώσεως as source, so the Spirit remains the agent of renewal whatever λουτροῦ designates."
+        "resolution": "'Washing of rebirth' (λουτροῦ παλιγγενεσίας) could be read as a ritual washing that itself produces rebirth, shifting agency to a rite. But the syntax pairs it with 'and renewing of the Holy Spirit' (καὶ ἀνακαινώσεως πνεύματος ἁγίου), the controlling verb 'he saved' (ἔσωσεν) is governed by 'according to his mercy' (κατὰ τὸ αὐτοῦ ἔλεος), and the contrast 'not from works' (οὐκ ἐξ ἔργων) excludes human contribution. The genitive 'of the Holy Spirit' (πνεύματος ἁγίου), a noun in the 'from-X' grammatical form, modifies 'renewing' (ἀνακαινώσεως) as source, so the Spirit remains the agent of renewal whatever 'washing' (λουτροῦ) designates."
       },
       {
         "ref": "1Pet.1.23",
         "addressed": false,
-        "resolution": "Not resolved because it bears on the contested scope rather than the bare proposition. ἀναγεγεννημένοι, begotten again, is here διὰ λόγου ζῶντος θεοῦ, through the living word, and 1 Peter 1:3 attributes the same begetting to God διὰ ἀναστάσεως, through the resurrection. The Spirit is not named as instrument in these verses. This shows the canon presents the new birth with several named means, God, word, resurrection, and elsewhere the Spirit, and the vocabulary does not rank or sequence them, which is exactly the underdetermined ordo the proposition does not require settling."
+        "resolution": "Not resolved because it bears on the contested scope rather than the bare proposition. 'Having been born again' (ἀναγεγεννημένοι), begotten again, is here 'through the living word of God' (διὰ λόγου ζῶντος θεοῦ), through the living word, and 1 Peter 1:3 attributes the same begetting to God 'through resurrection' (διὰ ἀναστάσεως), through the resurrection. The Spirit is not named as instrument in these verses. This shows the canon presents the new birth with several named means, God, word, resurrection, and elsewhere the Spirit, and the vocabulary does not rank or sequence them, which is exactly the underdetermined ordo (order of salvation events) the proposition does not require settling."
       },
       {
         "ref": "John.1.13",
         "addressed": true,
-        "resolution": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ' ἐκ θεοῦ ἐγεννήθησαν names God as the source of begetting and explicitly excludes human will, but does not name the Spirit. Read with John 3:5-8, where the Spirit is the specific agent of God's begetting, this verse is consistent and reinforces non-human agency rather than competing with Spirit agency."
+        "resolution": "'Who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God' (οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ' ἐκ θεοῦ ἐγεννήθησαν) names God as the source of begetting and explicitly excludes human will, but does not name the Spirit. Read with John 3:5-8, where the Spirit is the specific agent of God's begetting, this verse is consistent and reinforces non-human agency rather than competing with Spirit agency."
       }
     ]
   },
@@ -463,7 +463,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "ecm-shadow",
-    "note": "No anchor verse lies in the ingested ECM window of 3 John 1.1 to 1.15, so the apparatus was not consulted for them and no variant signal is invented. The supplied bundle lists zero variant units for John 3:5-8, Titus 3:5, and John 6:63 that would touch the agency of πνεῦμα. Ezekiel 36:26-27 is Old Testament and outside ECM scope, with stable Masoretic readings for רוּחַ, לֵב, and נָתַן."
+    "note": "No anchor verse lies in the ingested ECM (Editio Critica Maior, the critical edition of New Testament textual variants) window of 3 John 1:1 to 1:15, so the apparatus (the listing of textual variants) was not consulted for them and no variant signal is invented. The supplied bundle lists zero variant units for John 3:5-8, Titus 3:5, and John 6:63 that would touch the agency of 'Spirit' (πνεῦμα). Ezekiel 36:26-27 is Old Testament and outside ECM (the critical edition of New Testament textual variants) scope, with stable Masoretic (the traditional Hebrew text) readings for 'Spirit' or 'breath' (רוּחַ), 'heart' (לֵב), and 'to give' (נָתַן)."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -480,37 +480,37 @@
       {
         "framework": "covenantal_continuity",
         "verdict": "affirms",
-        "rationale": "Reads Ezekiel 36:26-27 as the prophetic substrate that John 3 and Titus 3 fulfill, with the same divine רוּחַ and πνεῦμα as the agent of inner renewal across both Testaments. The grammar in both, first-person divine verbs in Ezekiel and passive begetting verbs in John, locates agency in God's Spirit on either side of the canon."
+        "rationale": "Reads Ezekiel 36:26-27 as the prophetic substrate (foundation laid down earlier in Scripture) that John 3 and Titus 3 fulfill, with the same divine 'Spirit' or 'breath' (רוּחַ) and 'Spirit' (πνεῦμα) as the agent of inner renewal across both Testaments. The grammar in both, first-person divine verbs in Ezekiel and passive begetting verbs in John, locates agency in God's Spirit on either side of the canon."
       },
       {
         "framework": "discontinuity_dispensational",
         "verdict": "affirms",
-        "rationale": "Even on a strict New Testament reading that does not lean on the Ezekiel link, John 3:5-8, John 6:63, and Titus 3:5 lexically locate regeneration in πνεῦμα as agent through passive begetting verbs and a Spirit-source genitive, so the proposition holds on the Greek alone."
+        "rationale": "Even on a strict New Testament reading that does not lean on the Ezekiel link, John 3:5-8, John 6:63, and Titus 3:5 lexically locate regeneration in 'Spirit' (πνεῦμα) as agent through passive begetting verbs and a Spirit-source genitive (a noun in the 'from-X' grammatical form), so the proposition holds on the Greek alone."
       },
       {
         "framework": "baptismal_regeneration_reading",
         "verdict": "affirms",
-        "rationale": "Takes ἐξ ὕδατος in John 3:5 and λουτροῦ in Titus 3:5 as baptismal water, so the Spirit works regeneration in and through the washing. On this reading the Spirit is still the named agent, ἐκ τοῦ πνεύματος and πνεύματος ἁγίου, so the bare proposition that the Spirit regenerates is affirmed, while the means is held to include the rite."
+        "rationale": "Takes 'out of water' (ἐξ ὕδατος) in John 3:5 and 'washing' (λουτροῦ) in Titus 3:5 as baptismal water, so the Spirit works regeneration in and through the washing. On this reading the Spirit is still the named agent, 'out of the Spirit' (ἐκ τοῦ πνεύματος) and 'of the Holy Spirit' (πνεύματος ἁγίου), so the bare proposition that the Spirit regenerates is affirmed, while the means is held to include the rite."
       },
       {
         "framework": "faith_precedes_or_accompanies_reading",
         "verdict": "affirms",
-        "rationale": "Holds that the Spirit gives new life in connection with believing rather than as a prior cause, citing that 1 Peter 1:23 ties the new birth to the word that is heard and believed. The Spirit remains the agent of life-giving, ζῳοποιοῦν, so the proposition is affirmed, while the timing relative to faith is read as concurrent."
+        "rationale": "Holds that the Spirit gives new life in connection with believing rather than as a prior cause, citing that 1 Peter 1:23 ties the new birth to the word that is heard and believed. The Spirit remains the agent of life-giving, 'life-giving one' (ζῳοποιοῦν), so the proposition is affirmed, while the timing relative to faith is read as concurrent."
       },
       {
         "framework": "monergistic_prior_regeneration_reading",
         "verdict": "affirms",
-        "rationale": "Holds that the Spirit-birth precedes and enables faith, reading the passive begetting verbs and the wind that blows ὅπου θέλει as marking the Spirit as the sole and prior cause of the new life. The Spirit is the agent, which the proposition affirms, while the priority of regeneration to faith is read as the point of the passives and the volitional θέλει."
+        "rationale": "Holds that the Spirit-birth precedes and enables faith, reading the passive begetting verbs and the wind that blows 'where it wills' (ὅπου θέλει) as marking the Spirit as the sole and prior cause of the new life. The Spirit is the agent, which the proposition affirms, while the priority of regeneration to faith is read as the point of the passives and the volitional 'it wills' (θέλει)."
       }
     ],
-    "notes": "The cross-Testament reading is reinforced by the Spirit-and-new-heart cluster shared by Ezekiel 11:19, 36:26-27, 37:14, and the Johannine and Pauline anchors. The competing lenses differ on two questions the words do not settle, whether ὕδατος and λουτροῦ mean baptism, and whether the Spirit-birth precedes or accompanies faith, but all five lenses affirm the bare proposition that the Spirit is the agent of regeneration."
+    "notes": "The cross-Testament reading is reinforced by the Spirit-and-new-heart cluster shared by Ezekiel 11:19, Ezekiel 36:26-27, Ezekiel 37:14, and the Johannine and Pauline anchors. The competing lenses differ on two questions the words do not settle, whether 'water' (ὕδατος) and 'washing' (λουτροῦ) mean baptism, and whether the Spirit-birth precedes or accompanies faith, but all five lenses affirm the bare proposition that the Spirit is the agent of regeneration."
   },
   "stem_audit": {
     "verdict_preloaded": false,
     "neutralized_form": null,
-    "notes": "The stem names the Spirit as agent and new-birth as result, both of which are lexical, not framework-specific, and are mirrored by γεννάω in the passive with ἐκ πνεύματος, by ἀνακαίνωσις πνεύματος ἁγίου, and by τὸ πνεῦμα ζῳοποιοῦν. The phrase dead in sin is summary language for the σάρξ and stone-heart cluster and preloads no verdict. The stem does not assert an ordo or a sacramental theory, so it does not smuggle the contested timing or the baptismal question, which remain underdetermined by the vocabulary."
+    "notes": "The stem (the proposition under test) names the Spirit as agent and new-birth as result, both of which are lexical, not framework-specific, and are mirrored by the verb 'to beget' (γεννάω) in the passive 'be done to' voice with 'out of the Spirit' (ἐκ πνεύματος), by 'renewing of the Holy Spirit' (ἀνακαίνωσις πνεύματος ἁγίου), and by 'the Spirit is the life-giving one' (τὸ πνεῦμα ζῳοποιοῦν). The phrase 'dead in sin' is summary language for the 'flesh' (σάρξ) and stone-heart cluster and preloads no verdict. The stem does not assert an ordo (order of salvation events) or a sacramental theory (one treating a rite as causing the spiritual effect), so it does not smuggle the contested timing or the baptismal question, which remain underdetermined by the vocabulary."
   },
-  "lay_summary": "The biblical words for new birth and renewal consistently put the Holy Spirit in the agent position. In John 3 the verb gennao, to beget, appears in the passive voice, parsed as aorist passive and perfect passive, and is paired with the preposition ek, out of, plus pneuma, Spirit. That is the grammar of source. The one being born does nothing, the Spirit does the begetting. Jesus then likens the Spirit to wind that blows where it wills, so the action is free and not under human control. Titus 3:5 reinforces this with palingenesia, rebirth, and anakainosis, renewal, where pneumatos hagiou is a genitive of source naming the Holy Spirit as the one producing the renewal, and the verse explicitly excludes works of righteousness as cause. John 6:63 sharpens the contrast, the Spirit is the one giving life, zoopoioun, and the flesh profits nothing. The Old Testament root is in Ezekiel 36:26-27, where God speaks in the first person, I will give a new heart, I will remove the heart of stone, I will put my Spirit within you, and the gift of his ruach produces the new walk. Across these passages the pattern is uniform, the Spirit is named, the human is the recipient, the new condition is the result, so the bare claim that the Spirit regenerates is strongly grounded. Two questions stay open because the words do not settle them. First, in John 3:5 born of water and Spirit, and in Titus born through the washing, the term water can mean baptism or can figure cleansing, and the grammar permits both. Second, the canon does not rank or time the new birth against faith, and it names several means for the same begetting, since 1 Peter says we are born again through the living word and through the resurrection while John names the Spirit. The Spirit as agent is clear. The order and the role of baptism are the parts the vocabulary leaves underdetermined.",
+  "lay_summary": "The Bible's words for new birth and renewal consistently put the Holy Spirit in the agent position. In John 3 the verb 'to beget' (gennao) appears in the passive 'be done to' voice, parsed as aorist passive (a completed past action where the subject is acted upon) and perfect passive (a completed action whose result still stands, in the same passive voice), and is paired with the preposition 'out of' (ek) plus 'Spirit' (pneuma). That is the grammar of source. The one being born does nothing, the Spirit does the begetting. Jesus then likens the Spirit to wind that blows where it wills, so the action is free and not under human control. Titus 3:5 reinforces this with 'rebirth' (palingenesia) and 'renewal' (anakainosis), where 'of the Holy Spirit' (pneumatos hagiou) is a genitive of source (a noun in the 'from-X' grammatical form) naming the Holy Spirit as the one producing the renewal, and the verse explicitly excludes works of righteousness as cause. John 6:63 sharpens the contrast, the Spirit is the one giving life, 'life-giving' (zoopoioun), and the flesh profits nothing. The Old Testament root is in Ezekiel 36:26-27, where God speaks in the first person, I will give a new heart, I will remove the heart of stone, I will put my Spirit within you, and the gift of his 'Spirit' or 'breath' (ruach) produces the new walk. Across these passages the pattern is uniform, the Spirit is named, the human is the recipient, the new condition is the result, so the bare claim that the Spirit regenerates is strongly grounded. Two questions stay open because the words do not settle them. First, in John 3:5 born of water and Spirit, and in Titus born through the washing, the term water can mean baptism or can figure cleansing, and the grammar permits both. Second, the canon does not rank or time the new birth against faith, and it names several means for the same begetting, since 1 Peter says we are born again through the living word and through the resurrection while John names the Spirit. The Spirit as agent is clear. The order and the role of baptism are the parts the vocabulary leaves underdetermined.",
   "citations": [
     {
       "type": "morphology",

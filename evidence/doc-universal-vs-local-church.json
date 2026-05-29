@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "The one lemma ekklesia (G1577) occurs in 112 verses across 19 New Testament books, and its base sense is a summoned assembly, the gloss carried by every tagged token and confirmed by its plainly secular use for the civic crowd at Ephesus in Acts.19.32 and Acts.19.39. That same noun is bounded to a single place in 1Cor.1.2 (the assembly that is at Corinth) and stands in the plural for many distinct local bodies in Gal.1.2, Rom.16.16, and Rev.1.4 (the churches), while in Eph.1.22, Col.1.18, and Matt.16.18 the unmodified singular names the whole company over which Christ is head and which he builds, with no geographic limit. The local and the trans local referents are therefore both directly attested in the words. Confidence is high because the contrast is visible in plain context across many books with no textual variant disturbing it, and pan_canonical is true on the New Testament corpus distribution; the genuine open question the words leave is only whether the universal singular is one entity or a generic abstraction, not whether both senses exist."
+    "rationale": "The one dictionary word, \"assembly or church\" (ekklesia, Strong's G1577), occurs in 112 verses across 19 New Testament books, and its base sense is a summoned assembly, the gloss carried by every tagged token and confirmed by its plainly secular use for the civic crowd at Ephesus in Acts 19:32 and Acts 19:39. That same noun is bounded to a single place in 1 Corinthians 1:2 (the \"assembly or church\" (ekklesia) that is at Corinth) and stands in the plural for many distinct local bodies in Galatians 1:2, Romans 16:16, and Revelation 1:4 (the \"assemblies or churches\" (ekklesiai)), while in Ephesians 1:22, Colossians 1:18, and Matthew 16:18 the unmodified singular names the whole company over which Christ is head and which he builds, with no geographic limit. The local and the trans local referents are therefore both directly attested in the words. Confidence is high because the contrast is visible in plain context across many books with no textual variant disturbing it, and pan_canonical (spread across the whole Bible) is true on the New Testament corpus distribution; the genuine open question the words leave is only whether the universal singular is one entity or a generic abstraction, not whether both senses exist."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -86,7 +86,7 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "Here ekklesia is the riotous civic crowd in the Ephesian theater, tagged N-NSF and glossed assembly, with no religious content at all. This secular use fixes the base meaning of the word as a summoned gathering, the meaning Liddell-Scott records as an assembly duly summoned. It shows that the noun is not a technical term for one fixed entity but takes its referent from context.",
+        "force": "Here \"assembly or church\" (ekklesia) is the riotous civic crowd in the Ephesian theater, tagged N-NSF (noun, nominative singular feminine) and glossed assembly, with no religious content at all. This secular use fixes the base meaning of the word as a summoned gathering, the meaning Liddell-Scott records as an assembly duly summoned. It shows that the noun is not a technical term for one fixed entity but takes its referent from context.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -104,7 +104,7 @@
             "lemma": "Κόρινθος"
           }
         ],
-        "force": "ekklesia, dative singular, is qualified by the place phrase the one being at Corinth, fixing a bounded local referent, yet the same verse widens the address to all who in every place call upon the name of the Lord, so the one greeting holds a particular gathering and a wider company of saints within a single sentence.",
+        "force": "\"assembly or church\" (ekklesia), dative singular (the \"to/for X\" grammatical form), is qualified by the place phrase the one being at \"Corinth\" (Korinthos), fixing a bounded local referent, yet the same verse widens the address to all who in every place call upon the name of the Lord, so the one greeting holds a particular gathering and a wider company of saints within a single sentence.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -118,7 +118,7 @@
             "lemma": "ἐκκλησίαις"
           }
         ],
-        "force": "The plural ekklesiais, dative plural feminine, is addressed to the churches of Galatia. The plural names several distinct local assemblies at once, the same distributive pattern seen in the churches of Asia in Rev.1.4 and the churches greeting in Rom.16.16. About thirty two of the tagged occurrences are plural, which establishes the particular local sense beyond dispute.",
+        "force": "The plural \"assemblies or churches\" (ekklesiais), dative plural feminine (the \"to/for X\" grammatical form), is addressed to the churches of Galatia. The plural names several distinct local assemblies at once, the same distributive pattern seen in the churches of Asia in Revelation 1:4 and the churches greeting in Romans 16:16. About thirty two of the tagged occurrences are plural, which establishes the particular local sense beyond dispute.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -136,7 +136,7 @@
             "lemma": "κατά"
           }
         ],
-        "force": "Elders are appointed for them in each church, the distributive phrase kata ekklesian presupposing multiple distinct local assemblies, each ordered with its own elders. This anchors the particular local sense of the singular noun under a distributive marker.",
+        "force": "Elders are appointed for them in each \"assembly or church\" (ekklesian), the distributive phrase \"in every assembly or church\" (kata ekklesian) presupposing multiple distinct local assemblies, each ordered with its own elders. This anchors the particular local sense of the singular noun under a distributive marker.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -150,7 +150,7 @@
             "lemma": "ἐκκλησίαν"
           }
         ],
-        "force": "Christ says he will build my church, the noun in the accusative singular with no place modifier and a first person possessive, naming a single object he himself constructs rather than any one town gathering. The unmodified singular here cannot be reduced to a local assembly without supplying a limit the words do not give.",
+        "force": "Christ says he will build my \"assembly or church\" (ekklesian), the noun in the accusative singular (the direct-object grammatical form) with no place modifier and a first person possessive, naming a single object he himself constructs rather than any one town gathering. The unmodified singular here cannot be reduced to a local assembly without supplying a limit the words do not give.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -168,7 +168,7 @@
             "lemma": "κεφαλή"
           }
         ],
-        "force": "Here ekklesia takes no geographic modifier. Christ is given as head over all things to the church, an object coextensive with his universal lordship rather than a single congregation, which indicates a trans local sense of the same noun.",
+        "force": "Here \"assembly or church\" (ekklesia) takes no geographic modifier. Christ is given as \"head or source\" (kephale) over all things to the church, an object coextensive with his universal lordship rather than a single congregation, which indicates a trans local sense of the same noun.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -188,7 +188,7 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "The church is named the body, the fullness of the one filling all in all. The body and fullness language describes a single comprehensive entity, reinforcing that this occurrence of ekklesia is not a local assembly but the whole.",
+        "force": "The church is named the \"body\" (soma), the \"fullness\" (pleroma) of the one filling all in all. The body and fullness language describes a single comprehensive entity, reinforcing that this occurrence of \"assembly or church\" (ekklesia) is not a local assembly but the whole.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -208,7 +208,7 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "Christ is head of the body, the church, the genitive singular unbounded by place and identified with the body of which he is head. The same head and body pairing as Eph.1.22 to 23 names a comprehensive entity, not one congregation, and links by cross reference to that Ephesians text.",
+        "force": "Christ is \"head or source\" (kephale) of the \"body\" (soma), the \"assembly or church\" (ekklesias), the genitive singular (the \"of-X\" grammatical form) unbounded by place and identified with the body of which he is head. The same head and body pairing as Ephesians 1:22 to 23 names a comprehensive entity, not one congregation, and links by cross reference to that Ephesians text.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -228,7 +228,7 @@
             "lemma": "ἐπουρανίῳ"
           }
         ],
-        "force": "The assembly of the firstborn enrolled in heaven is set within a heavenly Jerusalem alongside myriads of angels and the spirits of the righteous made perfect. This use of ekklesia is explicitly heavenly and trans local, gathering the whole enrolled company rather than one congregation.",
+        "force": "The \"assembly or church\" (ekklesia) of the firstborn enrolled in heaven is set within a \"heavenly\" (epouranios) Jerusalem alongside myriads of angels and the spirits of the righteous made perfect. This use of \"assembly or church\" (ekklesia) is explicitly heavenly and trans local, gathering the whole enrolled company rather than one congregation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -242,7 +242,7 @@
             "lemma": "ἐκκλησίᾳ"
           }
         ],
-        "force": "ekklesia here is glossed congregation and names Israel in the wilderness, the gathered covenant people of the Old Testament era. The same noun thus already labels a large assembled people that is not a single local New Testament congregation, which shows its range is wider than one town gathering even before the body language of the epistles.",
+        "force": "\"assembly or church\" (ekklesia) here is glossed congregation and names Israel in the wilderness, the gathered covenant people of the Old Testament era. The same noun thus already labels a large assembled people that is not a single local New Testament congregation, which shows its range is wider than one town gathering even before the body language of the epistles.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -285,17 +285,17 @@
       {
         "ref": "Acts.19.32",
         "addressed": true,
-        "resolution": "The Ephesian crowd is called ekklesia with no Christian meaning, which might seem to dissolve the word into a generic gathering and undercut any universal church sense. It does the opposite. It exposes the base meaning summoned assembly, so the local and universal Christian uses are both seen as the same root word taking its scope from context, not as two unrelated technical terms."
+        "resolution": "The Ephesian crowd is called \"assembly or church\" (ekklesia) with no Christian meaning, which might seem to dissolve the word into a generic gathering and undercut any universal church sense. It does the opposite. It exposes the base meaning summoned assembly, so the local and universal Christian uses are both seen as the same root word taking its scope from context, not as two unrelated technical terms."
       },
       {
         "ref": "Eph.1.22",
         "addressed": true,
-        "resolution": "One might read the head over all things language as pure cosmic rule unrelated to the church, but the dative to the church marks the church as the beneficiary of that headship, so the verse still attaches a trans local ekklesia to the exalted Christ and does not undercut the universal sense."
+        "resolution": "One might read the head over all things language as pure cosmic rule unrelated to the church, but the dative (the \"to/for X\" grammatical form) to the church marks the church as the beneficiary of that headship, so the verse still attaches a trans local \"assembly or church\" (ekklesia) to the exalted Christ and does not undercut the universal sense."
       },
       {
         "ref": "Acts.14.23",
         "addressed": true,
-        "resolution": "The distributive kata ekklesian could be pressed to deny any unity beyond the single congregation, but it only establishes the local sense and is silent on the universal sense, which is supplied by the unmodified singular of Matt.16.18, Eph.1.22, and Col.1.18, so the two senses stand side by side rather than excluding one another."
+        "resolution": "The distributive \"in every assembly or church\" (kata ekklesian) could be pressed to deny any unity beyond the single congregation, but it only establishes the local sense and is silent on the universal sense, which is supplied by the unmodified singular of Matthew 16:18, Ephesians 1:22, and Colossians 1:18, so the two senses stand side by side rather than excluding one another."
       }
     ]
   },
@@ -303,7 +303,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "ecm-shadow",
-    "note": "No variant units were supplied in the bundle for the anchor verses, and the noun ekklesia is firmly attested in all listed editions (NA28, NA27, Tyndale, SBL, Westcott-Hort, Tregelles, Textus Receptus, Byzantine) at 1Cor.1.2, Eph.1.22, Col.1.18, Matt.16.18, Heb.12.23, and Acts.14.23. The minor text-critical sigla in 1Cor.1.2 and Acts.14.23 touch word order, not whether the noun bears a local or universal sense. None of the anchor verses fall inside the ingested ECM window of 3 John, so CBGM was not consulted and status is recorded as shadow."
+    "note": "No variant units were supplied in the bundle for the anchor verses, and the noun \"assembly or church\" (ekklesia) is firmly attested in all listed editions (NA28, NA27, Tyndale, SBL, Westcott-Hort, Tregelles, Textus Receptus, Byzantine) at 1 Corinthians 1:2, Ephesians 1:22, Colossians 1:18, Matthew 16:18, Hebrews 12:23, and Acts 14:23. The minor text-critical sigla in 1 Corinthians 1:2 and Acts 14:23 touch word order, not whether the noun bears a local or universal sense. None of the anchor verses fall inside the ingested ECM apparatus (the critical edition of New Testament textual variants) window of 3 John, so CBGM (the Coherence-Based Genealogical Method used in the ECM) was not consulted and status is recorded as shadow."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -314,12 +314,12 @@
       {
         "framework": "two_sense_distribution",
         "verdict": "true",
-        "rationale": "Reading the same lemma as carrying a bounded local sense where a place name or a distributive or plural marker is present, and a comprehensive trans local sense where the singular stands unmodified beside head, body, fullness, or heavenly enrollment language, accounts for every cited occurrence without strain across nineteen books."
+        "rationale": "Reading the same dictionary word as carrying a bounded local sense where a place name or a distributive or plural marker is present, and a comprehensive trans local sense where the singular stands unmodified beside \"head or source\" (kephale), \"body\" (soma), \"fullness\" (pleroma), or heavenly enrollment language, accounts for every cited occurrence without strain across nineteen books."
       },
       {
         "framework": "strict_local_only_reading",
         "verdict": "false",
-        "rationale": "A reading that restricts ekklesia to local assemblies only is the strongest minority position and rightly stresses that most occurrences are demonstrably local and that the noun simply means a gathering. But it must supply a geographic or congregational limit that the words withhold at Matt.16.18 (the one church Christ builds), Eph.1.22 with Col.1.18 (the body of which Christ is head), and Heb.12.23 (the heavenly enrolled assembly), so it cannot account for the unmodified singular without importing a boundary the text does not state."
+        "rationale": "A reading that restricts \"assembly or church\" (ekklesia) to local assemblies only is the strongest minority position and rightly stresses that most occurrences are demonstrably local and that the noun simply means a gathering. But it must supply a geographic or congregational limit that the words withhold at Matthew 16:18 (the one church Christ builds), Ephesians 1:22 with Colossians 1:18 (the body of which Christ is head), and Hebrews 12:23 (the heavenly enrolled assembly), so it cannot account for the unmodified singular without importing a boundary the text does not state."
       },
       {
         "framework": "generic_distributive_universal",
@@ -327,14 +327,14 @@
         "rationale": "A defensible refinement holds that the singular universal uses name the church generically or distributively, that is, the local assembly considered in the abstract rather than one literal trans local organism. On this reading the proposition still stands, because the words do attest a sense not tied to any single place, but the question of whether that universal is one entity or a category is left open by the vocabulary, which is the honest limit of the lexical data."
       }
     ],
-    "notes": "The verdict rests on the analogy of Scripture, comparing how the one noun behaves across Acts, the Gospels, the Pauline epistles, Hebrews, and Revelation rather than on any single proof text. The words settle that both a local and a wider sense exist but do not by themselves rank whether the wider sense is a single organism or a generic abstraction."
+    "notes": "The verdict rests on the analogy of Scripture (comparing Scripture with Scripture), comparing how the one noun \"assembly or church\" (ekklesia) behaves across Acts, the Gospels, the Pauline epistles, Hebrews, and Revelation rather than on any single proof text. The words settle that both a local and a wider sense exist but do not by themselves rank whether the wider sense is a single organism or a generic abstraction."
   },
   "stem_audit": {
     "verdict_preloaded": true,
-    "neutralized_form": "Trace how the noun ekklesia is used across the New Testament and determine whether it names both particular local gatherings and a wider whole company of believers, or only one of these.",
-    "notes": "The phrase covenanted fellowship in the stem imports a specific ecclesiological framing that the lexical data neither requires nor supplies. The neutralized form removes that loading and asks only what referents the word carries. The verdict is derived against the original stem, and the lexical pattern supports the dual local and trans local distribution while remaining silent on the covenant language. Verdict unchanged from the prior file (affirms true, high confidence). This pass widened the canon distribution to 112 verses in 19 books, added the secular assembly use in Acts.19.32 and the wilderness congregation in Acts.7.38, the singular and plural morphology split of roughly 79 singular to 32 plural, the unmodified singular at Matt.16.18 and Col.1.18, and corrected the cross reference source labels from tsk to openbible to match the actual store edges, which lifted pan_canonical from false to true."
+    "neutralized_form": "Trace how the noun \"assembly or church\" (ekklesia) is used across the New Testament and determine whether it names both particular local gatherings and a wider whole company of believers, or only one of these.",
+    "notes": "The phrase covenanted fellowship in the stem imports a specific ecclesiological (church-doctrine) framing that the lexical data neither requires nor supplies. The neutralized form removes that loading and asks only what referents the word carries. The verdict is derived against the original stem, and the lexical pattern supports the dual local and trans local distribution while remaining silent on the covenant language. VERDICT-CHANGED: no, verdict unchanged from the prior file (affirms true, high confidence). This pass widened the canon distribution to 112 verses in 19 books, added the secular assembly use in Acts 19:32 and the wilderness congregation in Acts 7:38, the singular and plural morphology split of roughly 79 singular to 32 plural, the unmodified singular at Matthew 16:18 and Colossians 1:18, and corrected the cross reference source labels from tsk (the Treasury of Scripture Knowledge) to openbible to match the actual store edges, which lifted pan_canonical (spread across the whole Bible) from false to true."
   },
-  "lay_summary": "This asks whether the Greek word for church, ekklesia, carries two senses in the New Testament, a local gathering and a wider whole of all believers. The word study answers yes, and the reason is in the word itself. Its plain meaning is a summoned assembly, which is why the very same word is used in Acts for the angry civic crowd in the Ephesian theater, a gathering with no religious content at all. Because the word just means an assembly, it takes its meaning from what stands around it. When a place name is attached, as in the assembly that is at Corinth, it means one local congregation. When it appears in the plural, the churches of Galatia, the churches of Asia, it means many separate local assemblies, and about a third of all its uses are plural, so the local sense is beyond dispute. The other sense shows up where the word stands alone in the singular with no place attached. Jesus says he will build my church, one thing he himself constructs. In two letters the church is called the body of which Christ is the head and the fullness of the one who fills everything, language for one comprehensive whole, not a single town. In Hebrews it is the assembly of the firstborn enrolled in heaven, gathered with angels and the perfected righteous, plainly heavenly and not local. So the same noun behaves two ways depending on its setting. Where a place name or a plural marker is present it means a particular gathering. Where it stands alone beside head, body, fullness, or heavenly enrollment language it means the whole. No textual variant in these verses disturbs which sense is in view, so the reading is stable across many books. The one thing the words leave open is whether that wider church is a single living entity or the local assembly spoken of in general terms, and readers divide there. But on the plain question asked, both a local and a wider sense are clearly present in the word, so the claim holds.",
+  "lay_summary": "This asks whether the Greek word for church, \"assembly or church\" (ekklesia), carries two senses in the New Testament, a local gathering and a wider whole of all believers. The word study answers yes, and the reason is in the word itself. Its plain meaning is a summoned assembly, which is why the very same word is used in Acts for the angry civic crowd in the Ephesian theater, a gathering with no religious content at all. Because the word just means an assembly, it takes its meaning from what stands around it. When a place name is attached, as in the assembly that is at Corinth, it means one local congregation. When it appears in the plural, the churches of Galatia, the churches of Asia, it means many separate local assemblies, and about a third of all its uses are plural, so the local sense is beyond dispute. The other sense shows up where the word stands alone in the singular with no place attached. Jesus says he will build my church, one thing he himself constructs. In two letters the church is called the \"body\" (soma) of which Christ is the \"head or source\" (kephale) and the \"fullness\" (pleroma) of the one who fills everything, language for one comprehensive whole, not a single town. In Hebrews it is the assembly of the firstborn enrolled in heaven, gathered with angels and the perfected righteous, plainly heavenly and not local. So the same noun behaves two ways depending on its setting. Where a place name or a plural marker is present it means a particular gathering. Where it stands alone beside head, body, fullness, or heavenly enrollment language it means the whole. No textual variant in these verses disturbs which sense is in view, so the reading is stable across many books. The one thing the words leave open is whether that wider church is a single living entity or the local assembly spoken of in general terms, and readers divide there. But on the plain question asked, both a local and a wider sense are clearly present in the word, so the claim holds.",
   "citations": [
     {
       "type": "morphology",

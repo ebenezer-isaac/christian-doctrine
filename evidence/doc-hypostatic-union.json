@@ -11,7 +11,7 @@
     "confidence": "medium",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Across John, Philippians, Colossians, 1 Timothy, Hebrews, and Romans the canon attaches full divine identity and full human identity to one grammatical subject without lexical trace of two persons. In John the same nominative ho logos that verse 1 calls theos is the subject of sarx egeneto in verse 14 (verified second-aorist deponent, V-2ADI-3S). In Philippians 2.6 to 8 a single relative pronoun hos (R-NSM) governs both en morphe theou hyparchon and morphen doulou labon, and the same hos humbles himself to death. Colossians 2.9 keeps the whole pleroma of theotes dwelling in him bodily in the present tense. So the one-subject-two-predicate pattern is decisive. Confidence is medium, not high, because the precise nature-vocabulary that the technical formula leans on (morphe occurs only 3 times, harpagmos and theotes are each hapax) is too thin to triangulate the exact metaphysics, so the words establish one subject bearing both sets of predicates but underdetermine the four Chalcedonian adverbs."
+    "rationale": "Across John, Philippians, Colossians, 1 Timothy, Hebrews, and Romans the canon attaches full divine identity and full human identity to one grammatical subject without any word-level trace of two persons. In John the same subject \"the Word\" (ho logos), which verse 1 calls \"God\" (theos), is also the subject of \"became flesh\" (sarx egeneto) in verse 14 (the verb is verified as a real second-aorist deponent, that is, a completed past action that takes middle/passive endings but acts in an active sense, V-2ADI-3S). In Philippians 2:6 to 8 a single relative pronoun \"who\" (hos, parsed R-NSM, a masculine singular relative pronoun in the subject form) governs both \"existing in the form of God\" (en morphe theou hyparchon) and \"taking the form of a servant\" (morphen doulou labon), and the same \"who\" humbles himself to death. Colossians 2:9 keeps the whole \"fullness\" (pleroma) of \"deity\" (theotes) dwelling in him bodily in the present tense (ongoing, simple statement of fact). So the one-subject-two-predicate pattern is decisive. Confidence is medium, not high, because the precise nature-vocabulary that the technical formula leans on (\"form\" (morphe) occurs only 3 times in the whole New Testament, and \"a thing to be grasped\" (harpagmos) and \"deity\" (theotes) are each a hapax, a word that occurs only once in the entire Bible) is too thin to triangulate the exact metaphysics, so the words establish one subject bearing both sets of predicates but underdetermine the four Chalcedonian adverbs (the four technical phrases \"without confusion, without change, without division, without separation\" added by a later church council)."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -216,7 +216,7 @@
             "lemma": "θεός"
           }
         ],
-        "force": "Queried tokens read kai theos en ho logos, with theos (G2316, parsed N-NSM) predicated of the nominative subject ho logos (G3056, N-NSM). The qualitative anarthrous theos is asserted of the same lexical subject that becomes sarx in verse 14, so divine predication is fixed on the subject before any human predication appears.",
+        "force": "Queried tokens read \"and God was the Word\" (kai theos en ho logos), with \"God\" (theos, G2316, parsed N-NSM, a noun in the subject form) predicated of the subject \"the Word\" (ho logos, G3056, also N-NSM). The qualitative \"God\" (theos) without the article \"the\" (anarthrous, that is, without the article 'the') is asserted of the same lexical subject that becomes \"flesh\" (sarx) in verse 14, so divine predication is fixed on the subject before any human predication appears.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -242,7 +242,7 @@
             "lemma": "μονογενοῦς"
           }
         ],
-        "force": "Queried tokens read ho logos sarx egeneto, where egeneto (G1096) is parsed V-2ADI-3S, a real second-aorist of becoming, and the subject is the same nominative ho logos carried from verse 1. The predicate noun is sarx (G4561, N-NSF), the ordinary word for human flesh, not a likeness term. Monogenous (G3439, A-GSM) marks continuous filial identity. Subject continuity here is grammatical, not inferred.",
+        "force": "Queried tokens read \"the Word became flesh\" (ho logos sarx egeneto), where \"became\" (egeneto, G1096) is parsed V-2ADI-3S, a real second-aorist of becoming (a completed past action), and the subject is the same \"the Word\" (ho logos) carried from verse 1. The predicate noun is \"flesh\" (sarx, G4561, N-NSF, a feminine subject-form noun), the ordinary word for human flesh, not a likeness term. \"One-of-a-kind\" (monogenous, G3439, A-GSM, an adjective in the possessive form) marks continuous filial identity (ongoing identity as son). Subject continuity here is grammatical, not inferred.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -272,7 +272,7 @@
             "lemma": "ἁρπαγμόν"
           }
         ],
-        "force": "Queried tokens open with the relative pronoun hos (G3739, parsed R-NSM), the single masculine nominative subject of the whole hymn. The participle hyparchon (G5225, V-PAP-NSM) is durative present, so en morphe theou describes an ongoing state, and to einai isa theo treats equality with God as a real status not seized as harpagmon (G0725, a hapax). Divine condition is asserted of the same hos who in verse 7 takes a slave form.",
+        "force": "Queried tokens open with the relative pronoun \"who\" (hos, G3739, parsed R-NSM, a masculine singular relative pronoun in the subject form), the single masculine subject-form subject of the whole hymn. The participle \"existing\" (hyparchon, G5225, V-PAP-NSM, a present-tense participle in the subject form) is ongoing in force, so \"in the form of God existing\" (en morphe theou) describes an ongoing state, and \"to be equal with God\" (to einai isa theo) treats equality with God as a real status not seized as \"a thing to be grasped\" (harpagmon, G0725, a hapax, a word that occurs only once in the entire Bible). Divine condition is asserted of the same \"who\" (hos) who in verse 7 takes a slave form.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -302,7 +302,7 @@
             "lemma": "ἀνθρώπων"
           }
         ],
-        "force": "Queried tokens read heauton ekenosen morphen doulou labon, en homoiomati anthropon genomenos. The aorist participle labon (G2983, V-2AAP-NSM) names what the emptying ADDS, the slave form, and genomenos (G1096, V-2ADP-NSM) with homoioma (G3667) marks a real entrance into human likeness. The same subject hos governs both the morphe theou of verse 6 and the morphe doulou of verse 7.",
+        "force": "Queried tokens read \"himself he emptied, the form of a servant taking, in the likeness of humans being made\" (heauton ekenosen morphen doulou labon, en homoiomati anthropon genomenos). The aorist participle \"taking\" (labon, G2983, V-2AAP-NSM, a completed-past-action participle in the subject form) names what the emptying ADDS, the slave \"form\" (morphe), and \"being made\" (genomenos, G1096, V-2ADP-NSM) with \"likeness\" (homoioma, G3667) marks a real entrance into human likeness. The same subject \"who\" (hos) governs both the \"form of God\" (morphe theou) of verse 6 and the \"form of a servant\" (morphe doulou) of verse 7.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -328,7 +328,7 @@
             "lemma": "μέχρι"
           }
         ],
-        "force": "Queried tokens read etapeinosen heauton genomenos hypekoos mechri thanatou. The death predication, thanatou (G2288) reached mechri (G3360), binds a genuinely human experience to the same subject from verse 6. Death requires a real human nature, so the lexical chain runs unbroken from divine status to human death within one grammatical subject.",
+        "force": "Queried tokens read \"he humbled himself, becoming obedient up to death\" (etapeinosen heauton genomenos hypekoos mechri thanatou). The death predication, \"death\" (thanatou, G2288) reached \"up to\" (mechri, G3360), binds a genuinely human experience to the same subject from verse 6. Death requires a real human nature, so the lexical chain runs unbroken from divine status to human death within one grammatical subject.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -358,7 +358,7 @@
             "lemma": "σωματικῶς"
           }
         ],
-        "force": "Queried tokens read en auto katoikei pan to pleroma tes theotetos somatikos. The verb katoikei (G2730) is parsed V-PAI-3S, durative present dwelling, and theotetos (G2320, abstract deity, a hapax) is the noun for deity itself, not the divine-quality word theiotes of Romans 1.20. Somatikos (G4985, also a hapax) ties the dwelling to a body. Whole deity and a body are predicated of the one referent en auto.",
+        "force": "Queried tokens read \"in him dwells all the fullness of the deity bodily\" (en auto katoikei pan to pleroma tes theotetos somatikos). The verb \"dwells\" (katoikei, G2730) is parsed V-PAI-3S, a present-tense statement of fact, signaling ongoing dwelling, and \"deity\" (theotetos, G2320, abstract deity, a hapax, a word that occurs only once in the entire Bible) is the noun for deity itself, not the divine-quality word \"divine nature\" (theiotes) of Romans 1:20. \"Bodily\" (somatikos, G4985, also a hapax) ties the dwelling to a body. Whole deity and a body are predicated of the one referent \"in him\" (en auto).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -384,7 +384,7 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "Queried tokens read heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous. The appositional anthropos (G0444, N-NSM) sits directly on the named mediator, while the same clause asserts heis theos (G1520, G2316). The mediator stands between theos and anthropoi yet is himself named anthropos, one subject named in human terms within a monotheistic frame.",
+        "force": "Queried tokens read \"for there is one God, and one mediator between God and humans, the human Christ Jesus\" (heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous). The renaming term \"human\" (anthropos, G0444, N-NSM, a noun in the subject form) sits directly on the named mediator, while the same clause asserts \"one God\" (heis theos, G1520, G2316). The mediator stands between \"God\" (theos) and \"humans\" (anthropoi) yet is himself named \"human\" (anthropos), one subject named in human terms within a monotheistic frame (a framework asserting only one God).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -410,7 +410,7 @@
             "lemma": "θανάτου"
           }
         ],
-        "force": "Queried tokens read kai autos paraplesios metesche ton auton. The children kekoinoneken (G2841) of flesh and blood, and he likewise metesche (G3348, V-2AAI-3S, took part in) the same things, with paraplesios (G3898, a hapax adverb meaning in like manner). This same-kind sharing of flesh by the one called Son in Hebrews 1 lexically blocks a merely apparent humanity.",
+        "force": "Queried tokens read \"and he himself in like manner partook of the same things\" (kai autos paraplesios metesche ton auton). The children \"shared in\" (kekoinoneken, G2841) flesh and blood, and he likewise \"partook\" (metesche, G3348, V-2AAI-3S, a completed past action meaning took part in) the same things, with \"in like manner\" (paraplesios, G3898, a hapax adverb, a word that occurs only once in the entire Bible, meaning in like manner). This same-kind sharing of flesh by the one called Son in Hebrews 1 lexically blocks a merely apparent humanity (the idea that he only seemed to be human).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -432,7 +432,7 @@
             "lemma": "σάρκα"
           }
         ],
-        "force": "Queried tokens read peri tou huiou autou tou genomenou ek spermatos Dauid kata sarka. One genitive head, tou huiou (G5207), is modified by the participle genomenou (G1096, V-2ADP-GSM) descending from David kata sarka (G4561). The human descent is predicated of the one Son.",
+        "force": "Queried tokens read \"concerning his Son, who came from the seed of David according to the flesh\" (peri tou huiou autou tou genomenou ek spermatos Dauid kata sarka). One possessive-form head, \"of the Son\" (tou huiou, G5207), is modified by the participle \"having come\" (genomenou, G1096, V-2ADP-GSM, a completed-past-action participle in the possessive form) descending from David \"according to flesh\" (kata sarka, G4561). The human descent is predicated of the one Son.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -454,7 +454,7 @@
             "lemma": "θεοῦ"
           }
         ],
-        "force": "Queried tokens read tou horisthentos huiou theou en dynamei kata pneuma hagiosynes. The second genitive participle horisthentos (G3724, V-APP-GSM) declares the same Son as Son of God in power kata pneuma. Two kata phrases, sarka and pneuma, are predicated of one subject, the same Son, not two subjects.",
+        "force": "Queried tokens read \"who was declared to be Son of God in power according to the Spirit of holiness\" (tou horisthentos huiou theou en dynamei kata pneuma hagiosynes). The second possessive-form participle \"having been declared\" (horisthentos, G3724, V-APP-GSM, a passive participle in the possessive form) declares the same Son as Son of God in power \"according to the Spirit\" (kata pneuma). Two \"according to\" (kata) phrases, \"flesh\" (sarka) and \"Spirit\" (pneuma), are predicated of one subject, the same Son, not two subjects.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -533,22 +533,22 @@
       {
         "ref": "Mark.13.32",
         "addressed": true,
-        "resolution": "Queried tokens confirm oude ho huios oiden (G5207 Son, G6063 knows, V-RAI-3S), a predicate of human non-knowing ascribed to the one subject also named Son. The same Greek verb oida appears at John 21.17 where Peter tells him su panta oidas, you know all things (V-RAI-2S), predicated of the same subject. Two contrary knowledge predicates rest on one referent, the very pattern of one subject carrying divine and human attributions, so the person is not divided."
+        "resolution": "Queried tokens confirm \"nor the Son knows\" (oude ho huios oiden) (G5207 Son, G6063 knows, V-RAI-3S, a completed action whose result still stands, in this case meaning ongoing state of knowing or here not-knowing), a predicate of human non-knowing ascribed to the one subject also named Son. The same Greek verb \"know\" (oida) appears at John 21:17 where Peter tells him \"you know all things\" (su panta oidas, V-RAI-2S, second-person singular form), predicated of the same subject. Two contrary knowledge predicates rest on one referent, the very pattern of one subject carrying divine and human attributions, so the person is not divided."
       },
       {
         "ref": "John.14.28",
         "addressed": true,
-        "resolution": "Queried tokens give ho pater meizon mou estin, with meizon parsed G3173 A-NSM-C, a comparative. A comparative of greatness read with the Philippians 2.6 to 7 grammar is the same one subject speaking from the assumed morphe doulou. The comparative does not negate the prior to einai isa theo predication that the relative pronoun hos still carries."
+        "resolution": "Queried tokens give \"the Father is greater than I\" (ho pater meizon mou estin), with \"greater\" (meizon) parsed G3173 A-NSM-C, a comparative form (the -er form, like greater, taller). A comparative of greatness read with the Philippians 2:6 to 7 grammar is the same one subject speaking from the assumed \"form of a servant\" (morphe doulou). The comparative does not negate the prior \"to be equal with God\" (to einai isa theo) predication that the relative pronoun \"who\" (hos) still carries."
       },
       {
         "ref": "Luke.2.52",
         "addressed": true,
-        "resolution": "Queried tokens give Iesous proekopten en sophia kai helikia (G4298, V-IAI-3S, imperfect, continuing to advance). Growth in wisdom and stature is a durative human-development predicate on the same named subject Jesus, mirroring the John 1.1 then 1.14 pattern of one subject bearing both registers."
+        "resolution": "Queried tokens give \"Jesus kept advancing in wisdom and stature\" (Iesous proekopten en sophia kai helikia) (G4298, V-IAI-3S, imperfect, ongoing or repeated past action, continuing to advance). Growth in wisdom and stature is an ongoing human-development predicate on the same named subject Jesus, mirroring the John 1:1 then 1:14 pattern of one subject bearing both registers."
       },
       {
         "ref": "Acts.2.36",
         "addressed": true,
-        "resolution": "Queried tokens give kyrion auton kai christon epoiesen ho theos (G4160, V-AAI-3S). The aorist epoiesen here is functional, economic exaltation language about the crucified and risen Jesus named in the same verse, not ontological origination, so the chain does not establish a temporally created divinity for the subject who is divine in John 1.1."
+        "resolution": "Queried tokens give \"God made him both Lord and Christ\" (kyrion auton kai christon epoiesen ho theos) (G4160, V-AAI-3S, a completed past action). The completed-past-action \"made\" (epoiesen) here is functional, that is, role-and-status language about the crucified and risen Jesus named in the same verse, economic exaltation language, not language about his being or origin, so the chain does not establish a temporally created divinity for the subject who is divine in John 1:1."
       }
     ]
   },
@@ -559,17 +559,17 @@
         "ref": "John.1.18",
         "variant_id": "monogenes-theos-vs-monogenes-huios",
         "verdict_impact": "minor",
-        "note": "Either reading still places monogenes on the same subject who is in the bosom of the Father. Both support full divine identity coupled with relational sonship and leave the John 1.14 enfleshment grammar untouched."
+        "note": "Either reading still places \"one-of-a-kind\" (monogenes) on the same subject who is in the bosom of the Father. Both support full divine identity coupled with relational sonship and leave the John 1:14 enfleshment grammar untouched."
       },
       {
         "ref": "1Tim.3.16",
         "variant_id": "theos-ephanerothe-vs-hos-ephanerothe",
         "verdict_impact": "minor",
-        "note": "Queried tokens for 1Tim.3.16 read hos ephanerothe (G3739 R-NSM, relative pronoun), the harder and better-attested reading. Even on hos, the subject is revealed en sarki, the same one-subject pattern. The verdict does not hinge on this unit since Colossians 2.9 and Philippians 2.6 to 8 carry the load independently."
+        "note": "Queried tokens for 1 Timothy 3:16 read \"who was manifested\" (hos ephanerothe) (G3739 R-NSM, relative pronoun \"who\"), the harder and better-attested reading. Even on \"who\" (hos), the subject is revealed \"in flesh\" (en sarki), the same one-subject pattern. The verdict does not hinge on this unit since Colossians 2:9 and Philippians 2:6 to 8 carry the load independently."
       }
     ],
     "ecm_status": "ecm-shadow",
-    "note": "Inputs declare not_in_ecm_scope for the concrete bundle, since the ingested CBGM window is 3 John only. These anchors sit in the NT outside 3 John, so I record ecm-shadow per the standing convention. No examined variant materially shifts the single-subject predication pattern."
+    "note": "Inputs declare not_in_ecm_scope for the concrete bundle, since the ingested CBGM window (the critical edition of New Testament textual variants window) is 3 John only. These anchors sit in the New Testament outside 3 John, so I record ecm-shadow per the standing convention. No examined variant materially shifts the single-subject predication pattern."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -584,37 +584,37 @@
       {
         "framework": "one-subject-two-predicate (single hypostasis bearing both natures)",
         "verdict": "supports",
-        "rationale": "John 1.14 and Philippians 2.6 to 8 attach divine and human predicates to a single grammatical subject, ho logos and the relative pronoun hos, verified as one nominative carried through each passage. This is the lexical pattern the proposition encodes, and it is the strongest reading: the words give one acting subject predicated in two registers."
+        "rationale": "John 1:14 and Philippians 2:6 to 8 attach divine and human predicates to a single grammatical subject, \"the Word\" (ho logos) and the relative pronoun \"who\" (hos), verified as one subject-form noun carried through each passage. This is the lexical pattern the proposition encodes, and it is the strongest reading: the words give one acting subject predicated in two registers."
       },
       {
         "framework": "two-subject reading (the divine Word and the man Jesus as distinct persons cooperating)",
         "verdict": "underdetermined by, but not supported by, the cited grammar",
-        "rationale": "Stated at its strongest, this reading appeals to the real distinction the texts draw between divine and human predicates (knowing all things versus not knowing the hour, equal to God versus obedient to death) and asks whether such opposite predicates can share one subject. The lexical answer is that the grammar supplies only ONE subject term in each passage. There is no second nominative, no second relative pronoun, no second name to carry the human predicates separately. So the texts do not furnish the two subjects this reading needs."
+        "rationale": "Stated at its strongest, this reading appeals to the real distinction the texts draw between divine and human predicates (knowing all things versus not knowing the hour, equal to God versus obedient to death) and asks whether such opposite predicates can share one subject. The lexical answer is that the grammar supplies only ONE subject term in each passage. There is no second subject-form noun, no second relative pronoun, no second name to carry the human predicates separately. So the texts do not furnish the two subjects this reading needs."
       },
       {
         "framework": "one-blended-nature reading (the two natures fuse into a single mixed nature)",
         "verdict": "not supported",
-        "rationale": "Stated at its strongest, this reading takes sarx egeneto and morphen doulou labon as a real change of the divine into something composite. But Colossians 2.9 keeps the WHOLE pleroma of theotes present in him (durative present katoikei), and Philippians 2.7 names what was ADDED (morphen doulou labon), not what was lost or mixed away. The vocabulary marks addition and continued fullness, not fusion."
+        "rationale": "Stated at its strongest, this reading takes \"became flesh\" (sarx egeneto) and \"taking the form of a servant\" (morphen doulou labon) as a real change of the divine into something composite. But Colossians 2:9 keeps the WHOLE \"fullness\" (pleroma) of \"deity\" (theotes) present in him (ongoing present-tense \"dwells\" (katoikei)), and Philippians 2:7 names what was ADDED (\"the form of a servant taking\" (morphen doulou labon)), not what was lost or mixed away. The vocabulary marks addition and continued fullness, not fusion."
       },
       {
         "framework": "kenosis as subtraction (he emptied himself of divine attributes)",
         "verdict": "lexically thin",
-        "rationale": "Stated fairly, this reads ekenosen as a divestment of deity. But the queried grammar of Philippians 2.7 names the content of the emptying as morphen doulou labon, the slave form taken, an addition, and Colossians 2.9 holds pleroma theotetos in the present tense. The words describe what was assumed, not what was surrendered."
+        "rationale": "Stated fairly, this reads \"he emptied\" (ekenosen) as a divestment of deity. But the queried grammar of Philippians 2:7 names the content of the emptying as \"the form of a servant taking\" (morphen doulou labon), the slave form taken, an addition, and Colossians 2:9 holds \"fullness of deity\" (pleroma theotetos) in the present tense. The words describe what was assumed, not what was surrendered."
       },
       {
         "framework": "adoptionist reading (a man later made divine)",
         "verdict": "contradicts",
-        "rationale": "John 1.1 fixes theos on the logos BEFORE the egeneto sarx of verse 14, so divinity precedes humanity in the lexical order. Acts 2.36 epoiesen is functional exaltation of the already-existing subject, not ontological elevation, as the same verse names him the crucified Jesus."
+        "rationale": "John 1:1 fixes \"God\" (theos) on \"the Word\" (logos) BEFORE the \"became flesh\" (egeneto sarx) of verse 14, so divinity precedes humanity in the lexical order. The Acts 2:36 \"made\" (epoiesen) is functional exaltation of the already-existing subject, not language about origin or being, as the same verse names him the crucified Jesus."
       }
     ],
-    "notes": "The verdict rests on subject-continuity grammar across multiple authors, John, Paul, and Hebrews. The lexical chain derives one subject bearing both sets of predicates. It does NOT itself derive the four Chalcedonian adverbs (without confusion, change, division, separation), which are a later technical summary the rare nature-vocabulary underdetermines."
+    "notes": "The verdict rests on subject-continuity grammar across multiple authors, John, Paul, and Hebrews. The lexical chain derives one subject bearing both sets of predicates. It does NOT itself derive the four Chalcedonian adverbs (the four technical phrases \"without confusion, without change, without division, without separation\" added by a later church council), which are a later technical summary the rare nature-vocabulary underdetermines."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "Scripture predicates both divine identity and human identity of a single subject named Jesus Christ, without lexical evidence that these are two persons or that either set of properties is removed or blended away.",
-    "notes": "The original stem uses a technical taxonomy (one person, two natures, without confusion, change, division, or separation). Those four adverbs are not lexical categories of the New Testament, and the words that the formula leans on are very rare (morphe occurs 3 times total, harpagmos and theotes and somatikos and paraplesios are each hapax). The verdict is derived on the neutralized form. The lexical pattern supports the neutralized form, which the technical taxonomy was later built to summarize, but the precise metaphysics is underdetermined by the vocabulary. Confidence is therefore medium rather than high; affirms is unchanged because the single-subject predication pattern itself is dense and pan-canonical."
+    "notes": "The original stem uses a technical taxonomy (one person, two natures, without confusion, change, division, or separation). Those four adverbs are not lexical categories of the New Testament, and the words that the formula leans on are very rare (\"form\" (morphe) occurs 3 times total, and \"a thing to be grasped\" (harpagmos), \"deity\" (theotes), \"bodily\" (somatikos), and \"in like manner\" (paraplesios) are each a hapax, a word that occurs only once in the entire Bible). The verdict is derived on the neutralized form. The lexical pattern supports the neutralized form, which the technical taxonomy was later built to summarize, but the precise metaphysics is underdetermined by the vocabulary. Confidence is therefore medium rather than high; \"affirms\" is unchanged because the single-subject predication pattern itself is dense and pan-canonical (spread across the whole Bible)."
   },
-  "lay_summary": "The Bible attaches both divine identity and human identity to one named subject, Jesus Christ, in passages whose grammar leaves no room for splitting him into two persons. John 1.1 calls the Word God, and thirteen verses later the same Word, the same single subject, becomes flesh and lives among us. The verb for becoming is an ordinary one, the noun for flesh is the ordinary word for human flesh, and the subject does not change between verse 1 and verse 14. Philippians 2.6 to 8 runs the same pattern inside one Greek sentence. A single relative pronoun, who, governs both existing in the form of God and taking the form of a servant, being found as a human, and being obedient to death on a cross. The one who could regard equality with God as his own is the same one who dies. Colossians 2.9 says the entire fullness of deity dwells in him bodily, using a present tense verb of continuous dwelling and the noun for deity itself. There is only ever one subject in each passage, one word for him, never a second name or pronoun to carry the human side separately. That is why the reading of one subject bearing both registers is strong. Verses raised as problems, the Son not knowing the hour, the Father being greater, growth in wisdom and stature, being made Lord and Christ, all attach to that same one subject and describe the human side or the appointed role, the same subject who elsewhere is said to know all things. Where the text leaves room, and why careful readers still differ, is on the precise mechanics. The key words the technical definition leans on are very rare. Form appears only three times in the whole New Testament, and the words for deity, for bodily, and for grasping each appear exactly once, so their exact shade cannot be cross-checked from other verses. The words clearly give one subject who is both fully God and fully human. They do not, by themselves, settle the fine philosophical formula of how the two natures relate, which is why the conclusion is firm on the one subject but only moderately firm on the exact definition.",
+  "lay_summary": "The Bible attaches both divine identity and human identity to one named subject, Jesus Christ, in passages whose grammar leaves no room for splitting him into two persons. John 1:1 calls \"the Word\" (ho logos) God, and thirteen verses later the same Word, the same single subject, becomes flesh and lives among us. The verb for becoming (egeneto) is an ordinary one, the noun for flesh (sarx) is the ordinary word for human flesh, and the subject does not change between verse 1 and verse 14. Philippians 2:6 to 8 runs the same pattern inside one Greek sentence. A single relative pronoun, \"who\" (hos), governs both existing in the form (morphe) of God and taking the form of a servant, being found as a human, and being obedient to death on a cross. The one who could regard equality with God as his own is the same one who dies. Colossians 2:9 says the entire \"fullness\" (pleroma) of \"deity\" (theotes) dwells in him \"bodily\" (somatikos), using a present-tense verb of continuous dwelling and the noun for deity itself. There is only ever one subject in each passage, one word for him, never a second name or pronoun to carry the human side separately. That is why the reading of one subject bearing both registers is strong. Verses raised as problems, the Son not knowing the hour, the Father being greater, growth in wisdom and stature, being made Lord and Christ, all attach to that same one subject and describe the human side or the appointed role, the same subject who elsewhere is said to know all things. Where the text leaves room, and why careful readers still differ, is on the precise mechanics. The key words the technical definition leans on are very rare. The word for form (morphe) appears only three times in the whole New Testament, and the words for deity (theotes), for bodily (somatikos), and for grasping (harpagmos) each appear exactly once (a hapax), so their exact shade cannot be cross-checked from other verses. The words clearly give one subject who is both fully God and fully human. They do not, by themselves, settle the fine philosophical formula of how the two natures relate, which is why the conclusion is firm on the one subject but only moderately firm on the exact definition.",
   "citations": [
     {
       "type": "morphology",

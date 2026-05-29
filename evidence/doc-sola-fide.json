@@ -11,7 +11,7 @@
     "confidence": "medium",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Across Romans, Galatians, Philippians, and Titus the verb dikaioo (G1344) is repeatedly bound to faith and set against erga nomou by the prepositions ek (G1537) and dia (G1223) and by the adverb choris (G5565), as in Rom 3:28 logizometha dikaiousthai pistei anthropon choris ergon nomou. Rom 4:4-5 grounds this in commercial terms, the one who works receives a wage (misthos, G3408) reckoned as debt (opheilema, G3783), but to the one who does not work but believes, faith is reckoned (logizomai, G3049) as righteousness, and God justifies the ungodly (asebe, G0765), which excludes works as the ground. The hard tension is that James 2:24 uses the SAME verb dikaioo with ex ergon and ouk ek pistews monon (G3441), and James 2:24 is the only verse in the canon where dikaioo and monos co-occur. Read in James 2:21-23, where Abraham is justified by works in offering Isaac long after Gen 15:6 was already reckoned to his faith, James uses dikaioo for the later vindication of a living faith while Paul addresses the initial reckoning, so the proposition stands as carefully qualified, but the resolution requires assigning dikaioo two senses the texts do not themselves label, which is why confidence is medium and not high."
+    "rationale": "Across Romans, Galatians, Philippians, and Titus the verb 'justify, declare-righteous' (dikaioo, G1344) is repeatedly bound to faith and set against 'works of law' (erga nomou) by the prepositions 'out of, from' (ek, G1537) and 'through' (dia, G1223) and by the adverb 'apart from' (choris, G5565), as in Romans 3:28 'we reckon a person is justified by faith apart from works of law' (logizometha dikaiousthai pistei anthropon choris ergon nomou). Romans 4:4-5 grounds this in commercial terms: the one who works receives a 'wage' (misthos, G3408) reckoned as 'debt' (opheilema, G3783), but to the one who does not work but believes, faith is 'reckoned, credited' (logizomai, G3049) as righteousness, and God justifies the 'ungodly' (asebe, G0765), which excludes works as the ground. The hard tension is that James 2:24 uses the SAME verb 'justify' (dikaioo) with 'out of works' (ex ergon) and 'not out of faith alone' (ouk ek pistews monon, G3441), and James 2:24 is the only verse in the canon where 'justify' (dikaioo) and 'alone' (monos) co-occur. Read in James 2:21-23, where Abraham is justified by works in offering Isaac long after Genesis 15:6 was already reckoned to his faith, James uses 'justify' (dikaioo) for the later vindication of a living faith while Paul addresses the initial reckoning, so the proposition stands as carefully qualified, but the resolution requires assigning 'justify' (dikaioo) two senses the texts do not themselves label, which is why confidence is medium and not high."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -165,7 +165,7 @@
             "lemma": "χωρίς"
           }
         ],
-        "force": "logizometha gar dikaiousthai pistei anthropon choris ergon nomou. The token Strong tagging confirms dikaioo (G1344), the adverb choris (G5565), ergon (G2041), and nomou (G3551) in this clause. The passive infinitive dikaiousthai takes the dative pistei as instrument, and choris with the genitive ergon nomou marks works of law as excluded from the ground. The particle gar (G1063) frames it as a summary inference.",
+        "force": "'For we reckon a person is justified by faith apart from works of law' (logizometha gar dikaiousthai pistei anthropon choris ergon nomou). The token Strong tagging confirms 'justify' (dikaioo, G1344), the adverb 'apart from' (choris, G5565), 'work' (ergon, G2041), and 'law' (nomou, G3551) in this clause. The passive infinitive 'to be justified' (dikaiousthai) takes the dative 'by faith' (pistei) as instrument, and 'apart from' (choris) with the genitive 'of works of law' (ergon nomou) marks works of law as excluded from the ground. The particle 'for' (gar, G1063) frames it as a summary inference.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -191,7 +191,7 @@
             "lemma": "ἁμαρτία"
           }
         ],
-        "force": "dioti ex ergon nomou ou dikaiothesetai pasa sarx enopion autou. The future passive dikaiothesetai (G1344) is negated by ou (G3756) with the source phrase ex ergon nomou, so no flesh is declared righteous on that basis before God, and the law instead brings knowledge of sin, hamartia (G0266).",
+        "force": "'Because by works of law no flesh will be justified before him' (dioti ex ergon nomou ou dikaiothesetai pasa sarx enopion autou). The future passive 'will be justified' (dikaiothesetai, G1344) is negated by 'not' (ou, G3756) with the source phrase 'out of works of law' (ex ergon nomou), so no flesh is declared righteous on that basis before God, and the law instead brings knowledge of 'sin' (hamartia, G0266).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -217,7 +217,7 @@
             "lemma": "καύχημα"
           }
         ],
-        "force": "ei gar Abraam ex ergon edikaiothe, echei kauchema. The Strong tagging shows dikaioo (G1344), ek (G1537), ergon (G2041), Abraam (G0011), and kauchema (G2745). A hypothetical justification ex ergon would yield boasting, which the argument then denies, framing works and boasting together against the reckoning of faith.",
+        "force": "'For if Abraham was justified out of works, he has a boast' (ei gar Abraam ex ergon edikaiothe, echei kauchema). The Strong tagging shows 'justify' (dikaioo, G1344), 'out of' (ek, G1537), 'work' (ergon, G2041), 'Abraham' (Abraam, G0011), and 'boast' (kauchema, G2745). A hypothetical justification 'out of works' (ex ergon) would yield boasting, which the argument then denies, framing works and boasting together against the reckoning of faith.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -243,7 +243,7 @@
             "lemma": "Ἀβραάμ"
           }
         ],
-        "force": "episteusen de Abraam to theo kai elogisthe auto eis dikaiosynen, quoting Gen 15:6. Token tagging confirms pisteuo (G4100), logizomai (G3049), and dikaiosyne (G1343). The aorist passive elogisthe with eis dikaiosynen presents righteousness as credited to belief, not earned, anchoring the verdict in Abraham before the law.",
+        "force": "'And Abraham believed God and it was reckoned to him as righteousness' (episteusen de Abraam to theo kai elogisthe auto eis dikaiosynen), quoting Genesis 15:6. Token tagging confirms 'believe' (pisteuo, G4100), 'reckon, credit' (logizomai, G3049), and 'righteousness' (dikaiosyne, G1343). The aorist passive (a completed past action in passive voice) 'it was reckoned' (elogisthe) with 'as righteousness' (eis dikaiosynen) presents righteousness as credited to belief, not earned, anchoring the verdict in Abraham before the law.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -269,7 +269,7 @@
             "lemma": "χάρις"
           }
         ],
-        "force": "to de ergazomeno ho misthos ou logizetai kata charin alla kata opheilema. The tagging confirms ergazomai (G2038), misthos (G3408), charis (G5485), and opheilema (G3783). To the worker the wage is reckoned not as grace but as debt, a commercial contrast that frames works as earning and faith reckoning as gift.",
+        "force": "'To the one working the wage is not reckoned according to grace but according to debt' (to de ergazomeno ho misthos ou logizetai kata charin alla kata opheilema). The tagging confirms 'to work' (ergazomai, G2038), 'wage' (misthos, G3408), 'grace' (charis, G5485), and 'debt' (opheilema, G3783). To the worker the wage is reckoned not as grace but as debt, a commercial contrast that frames works as earning and faith reckoning as gift.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -295,7 +295,7 @@
             "lemma": "ἀσεβής"
           }
         ],
-        "force": "to de me ergazomeno pisteuonti de epi ton dikaiounta ton asebe logizetai he pistis autou eis dikaiosynen. Tagging confirms pisteuo (G4100), dikaioo (G1344), asebes (G0765), and logizomai (G3049). The one not working but believing has faith reckoned for righteousness, and God is named the one justifying the ungodly, asebe, which forecloses works as the basis.",
+        "force": "'But to the one not working but believing on the one who justifies the ungodly, his faith is reckoned as righteousness' (to de me ergazomeno pisteuonti de epi ton dikaiounta ton asebe logizetai he pistis autou eis dikaiosynen). Tagging confirms 'believe' (pisteuo, G4100), 'justify' (dikaioo, G1344), 'ungodly' (asebes, G0765), and 'reckon' (logizomai, G3049). The one not working but believing has faith reckoned for righteousness, and God is named the one justifying the 'ungodly' (asebe), which forecloses works as the basis.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -321,7 +321,7 @@
             "lemma": "χωρίς"
           }
         ],
-        "force": "ho theos logizetai dikaiosynen choris ergon. The tokens confirm logizomai (G3049), dikaiosyne (G1343), choris (G5565), and ergon (G2041). David's blessing is defined as God reckoning righteousness apart from works, repeating the choris construction that places works outside the ground of the reckoning.",
+        "force": "'God reckons righteousness apart from works' (ho theos logizetai dikaiosynen choris ergon). The tokens confirm 'reckon' (logizomai, G3049), 'righteousness' (dikaiosyne, G1343), 'apart from' (choris, G5565), and 'work' (ergon, G2041). David's blessing is defined as God reckoning righteousness apart from works, repeating the 'apart from' (choris) construction that places works outside the ground of the reckoning.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -347,7 +347,7 @@
             "lemma": "διά"
           }
         ],
-        "force": "ou dikaioutai anthropos ex ergon nomou ean me dia pistews Iesou Christou. The token tagging shows dikaioo (G1344) three times, the negation ou (G3756), ek (G1537), ergon (G2041), nomou (G3551), and dia (G1223). dikaioo is negated with the source ex ergon nomou and affirmed with dia faith, and the closing diction repeats ex ergon nomou ou dikaiothesetai pasa sarx.",
+        "force": "'A person is not justified out of works of law except through faith of Jesus Christ' (ou dikaioutai anthropos ex ergon nomou ean me dia pistews Iesou Christou). The token tagging shows 'justify' (dikaioo, G1344) three times, the negation 'not' (ou, G3756), 'out of' (ek, G1537), 'work' (ergon, G2041), 'law' (nomou, G3551), and 'through' (dia, G1223). 'Justify' (dikaioo) is negated with the source 'out of works of law' (ex ergon nomou) and affirmed with 'through' (dia) faith, and the closing diction repeats 'by works of law no flesh will be justified' (ex ergon nomou ou dikaiothesetai pasa sarx).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -373,7 +373,7 @@
             "lemma": "δικαιοσύνη"
           }
         ],
-        "force": "kathos Abraam episteusen to theo kai elogisthe auto eis dikaiosynen. Tagging confirms Abraam (G0011), pisteuo (G4100), logizomai (G3049), and dikaiosyne (G1343). Galatians cites the same Gen 15:6 wording as Rom 4:3, using the identical reckoning lemma logizomai to ground justification in faith before the law.",
+        "force": "'Just as Abraham believed God and it was reckoned to him as righteousness' (kathos Abraam episteusen to theo kai elogisthe auto eis dikaiosynen). Tagging confirms 'Abraham' (Abraam, G0011), 'believe' (pisteuo, G4100), 'reckon' (logizomai, G3049), and 'righteousness' (dikaiosyne, G1343). Galatians cites the same Genesis 15:6 wording as Romans 4:3, using the identical reckoning lemma 'reckon' (logizomai) to ground justification in faith before the law.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -395,7 +395,7 @@
             "lemma": "δίκαιος"
           }
         ],
-        "force": "hoti de en nomo oudeis dikaioutai para to theo delon, hoti ho dikaios ek pistews zesetai, citing Hab 2:4. Tagging confirms dikaioo (G1344), nomos (G3551), and dikaios (G1342). No one is justified en nomo before God, and the righteous one lives ek faith, setting law and faith in contrast as basis.",
+        "force": "'That no one is justified by law before God is plain, because the righteous one will live out of faith' (hoti de en nomo oudeis dikaioutai para to theo delon, hoti ho dikaios ek pistews zesetai), citing Habakkuk 2:4. Tagging confirms 'justify' (dikaioo, G1344), 'law' (nomos, G3551), and 'righteous' (dikaios, G1342). No one is justified 'by law' (en nomo) before God, and the righteous one lives 'out of' (ek) faith, setting law and faith in contrast as basis.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -417,7 +417,7 @@
             "lemma": "νόμος"
           }
         ],
-        "force": "Christos hemas exegorasen ek tes kataras tou nomou genomenos hyper hemon katara, citing Deut 21:23. Tagging confirms Christos (G5547), exagorazo (G1805), katara (G2671), and nomos (G3551). Christ bears the law's curse in the believer's place, supplying the ground that human law keeping could not, which supports works as fruit not basis.",
+        "force": "'Christ redeemed us out of the curse of the law, becoming a curse for us' (Christos hemas exegorasen ek tes kataras tou nomou genomenos hyper hemon katara), citing Deuteronomy 21:23. Tagging confirms 'Christ' (Christos, G5547), 'to redeem' (exagorazo, G1805), 'curse' (katara, G2671), and 'law' (nomos, G3551). Christ bears the law's curse in the believer's place, supplying the ground that human law keeping could not, which supports works as fruit not basis.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -439,7 +439,7 @@
             "lemma": "δῶρον"
           }
         ],
-        "force": "te gar chariti este sesosmenoi dia pistews, kai touto ouk ex hymon, theou to doron. Tagging confirms charis (G5485), theos (G2316), and doron (G1435). Salvation is by grace through faith and named the gift of God, not ex hymon, removing self origin.",
+        "force": "'For by grace you have been saved through faith, and this not out of yourselves, the gift of God' (te gar chariti este sesosmenoi dia pistews, kai touto ouk ex hymon, theou to doron). Tagging confirms 'grace' (charis, G5485), 'God' (theos, G2316), and 'gift' (doron, G1435). Salvation is by grace through faith and named the gift of God, not 'out of yourselves' (ex hymon), removing self origin.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -457,7 +457,7 @@
             "lemma": "καυχάομαι"
           }
         ],
-        "force": "ouk ex ergon, hina me tis kauchesetai. Tagging confirms ergon (G2041), the negation ouk (G3756), and kauchaomai (G2744). Works are explicitly negated as source with ouk ex ergon, and the purpose clause hina me tis kauchesetai excludes human boasting, matching the basis claim of Eph 2:8.",
+        "force": "'Not out of works, so that no one may boast' (ouk ex ergon, hina me tis kauchesetai). Tagging confirms 'work' (ergon, G2041), the negation 'not' (ouk, G3756), and 'to boast' (kauchaomai, G2744). Works are explicitly negated as source with 'not out of works' (ouk ex ergon), and the purpose clause 'so that no one may boast' (hina me tis kauchesetai) excludes human boasting, matching the basis claim of Ephesians 2:8.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -479,7 +479,7 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "me echon emen dikaiosynen ten ek nomou alla ten dia pistews Christou, ten ek theou dikaiosynen. Tagging confirms dikaiosyne (G1343) twice, nomos (G3551), dia (G1223), Christos (G5547), and theos (G2316). Paul disowns a righteousness ek nomou for one dia faith that comes ek theou, placing the source in God received through faith.",
+        "force": "'Not having my own righteousness out of law but that through faith of Christ, the righteousness out of God' (me echon emen dikaiosynen ten ek nomou alla ten dia pistews Christou, ten ek theou dikaiosynen). Tagging confirms 'righteousness' (dikaiosyne, G1343) twice, 'law' (nomos, G3551), 'through' (dia, G1223), 'Christ' (Christos, G5547), and 'God' (theos, G2316). Paul disowns a righteousness 'out of law' (ek nomou) for one 'through' (dia) faith that comes 'out of God' (ek theou), placing the source in God received through faith.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -501,7 +501,7 @@
             "lemma": "ἔλεος"
           }
         ],
-        "force": "ouk ex ergon ton en dikaiosyne ha epoiesamen hemeis alla kata to autou eleos esosen hemas. Tagging confirms ergon (G2041), dikaiosyne (G1343), and eleos (G1656). Salvation is negated as out of works done in righteousness and grounded instead in God's mercy, kata to autou eleos.",
+        "force": "'Not out of works in righteousness which we did, but according to his own mercy he saved us' (ouk ex ergon ton en dikaiosyne ha epoiesamen hemeis alla kata to autou eleos esosen hemas). Tagging confirms 'work' (ergon, G2041), 'righteousness' (dikaiosyne, G1343), and 'mercy' (eleos, G1656). Salvation is negated as out of works done in righteousness and grounded instead in God's mercy, 'according to his own mercy' (kata to autou eleos).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -519,7 +519,7 @@
             "lemma": "צְדָקָה"
           }
         ],
-        "force": "wehe-emin baYHWH wayyachsheveha lo tsedaqah. The Hebrew tagging confirms the hiphil of aman (H0539), he trusted or believed, and tsedaqah (H6666), righteousness, with the reckoning verb chashav. This single OT clause is quoted by Rom 4:3, Gal 3:6, and Jas 2:23, so the same OT verse anchors both the Pauline reckoning of faith and the James appeal to works, which is the root of the tension.",
+        "force": "'And he believed in the LORD and he reckoned it to him as righteousness' (wehe-emin baYHWH wayyachsheveha lo tsedaqah). The Hebrew tagging confirms the hiphil (the Hebrew causative form, to cause to do) of 'to trust, believe' (aman, H0539), and 'righteousness' (tsedaqah, H6666), with the reckoning verb 'to reckon' (chashav). This single Old Testament clause is quoted by Romans 4:3, Galatians 3:6, and James 2:23, so the same Old Testament verse anchors both the Pauline reckoning of faith and the James appeal to works, which is the root of the tension.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -541,7 +541,7 @@
             "lemma": "Ἀβραάμ"
           }
         ],
-        "force": "Abraam ho pater hemon ouk ex ergon edikaiothe anenenkas Isaak ton hyion autou. Tagging confirms Abraam (G0011), dikaioo (G1344), ergon (G2041), and anaphero (G0399). James predicates dikaioo of Abraham at the offering of Isaac, an event that occurs long after the Gen 15:6 reckoning, so the same verb is tied here to a later act rather than an initial reckoning.",
+        "force": "'Was not Abraham our father justified out of works when he offered Isaac his son?' (Abraam ho pater hemon ouk ex ergon edikaiothe anenenkas Isaak ton hyion autou). Tagging confirms 'Abraham' (Abraam, G0011), 'justify' (dikaioo, G1344), 'work' (ergon, G2041), and 'to offer up' (anaphero, G0399). James predicates 'justify' (dikaioo) of Abraham at the offering of Isaac, an event that occurs long after the Genesis 15:6 reckoning, so the same verb is tied here to a later act rather than an initial reckoning.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -567,7 +567,7 @@
             "lemma": "Ἀβραάμ"
           }
         ],
-        "force": "kai eplerothe he graphe he legousa episteusen de Abraam to theo kai elogisthe auto eis dikaiosynen. Tagging confirms pisteuo (G4100), logizomai (G3049), dikaiosyne (G1343), and Abraam (G0011). James quotes the SAME Gen 15:6 with the SAME reckoning lemma logizomai as Rom 4:3, then says it was fulfilled, eplerothe (G4137), by the works of Jas 2:21, which is why the tension is lexical and not merely thematic.",
+        "force": "'And the scripture was fulfilled which says, Abraham believed God and it was reckoned to him as righteousness' (kai eplerothe he graphe he legousa episteusen de Abraam to theo kai elogisthe auto eis dikaiosynen). Tagging confirms 'believe' (pisteuo, G4100), 'reckon' (logizomai, G3049), 'righteousness' (dikaiosyne, G1343), and 'Abraham' (Abraam, G0011). James quotes the SAME Genesis 15:6 with the SAME reckoning lemma 'reckon' (logizomai) as Romans 4:3, then says it was 'fulfilled' (eplerothe, G4137), by the works of James 2:21, which is why the tension is lexical and not merely thematic.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -589,7 +589,7 @@
             "lemma": "μόνος"
           }
         ],
-        "force": "horate hoti ex ergon dikaioutai anthropos kai ouk ek pistews monon. Token tagging confirms dikaioo (G1344), ek (G1537), ergon (G2041), and the adjective monos (G3441). Query of the whole canon shows this is the ONLY verse where dikaioo and monos co-occur, and there monon is negated. The same verb dikaioo carries here a demonstrative or vindicatory referent, faith shown by works as Abraham offering Isaac, distinct from the initial forensic reckoning of Rom 4, so it complicates the lexeme but does not reverse the choris ergon source pattern.",
+        "force": "'You see that a person is justified out of works and not out of faith alone' (horate hoti ex ergon dikaioutai anthropos kai ouk ek pistews monon). Token tagging confirms 'justify' (dikaioo, G1344), 'out of' (ek, G1537), 'work' (ergon, G2041), and the adjective 'alone' (monos, G3441). Query of the whole canon shows this is the ONLY verse where 'justify' (dikaioo) and 'alone' (monos) co-occur, and there 'alone' (monon) is negated. The same verb 'justify' (dikaioo) carries here a demonstrative or vindicatory referent, faith shown by works as Abraham offering Isaac, distinct from the initial forensic reckoning of Romans 4, so it complicates the lexeme but does not reverse the 'apart from works' (choris ergon) source pattern.",
         "supports": "complicates",
         "genre": "epistle",
         "figures": [],
@@ -650,17 +650,17 @@
       {
         "ref": "Jas.2.24",
         "addressed": true,
-        "resolution": "James uses the same verb dikaioo (G1344) with ex ergon and the negated ouk ek pistews monon (G3441), and a full canon query confirms this is the only verse where dikaioo and monos appear together. The tension is therefore lexical at the deepest level, one verb and the only canonical pairing of justify and alone, and the alone is denied. The resolution offered by the text itself is sequential and referential. Jas 2:23 quotes Gen 15:6 with the identical reckoning lemma logizomai used in Rom 4:3, and Jas 2:21 then predicates dikaioo of Abraham at the offering of Isaac, an act decades after that reckoning. So the words distinguish an initial reckoning of faith from a later proving of that faith by works. This reading is internally supported, but it requires assigning dikaioo two senses (declare-righteous and vindicate-as-genuine) that the texts do not explicitly label, which is the honest reason confidence is medium rather than high."
+        "resolution": "James uses the same verb 'justify' (dikaioo, G1344) with 'out of works' (ex ergon) and the negated 'not out of faith alone' (ouk ek pistews monon, G3441), and a full canon query confirms this is the only verse where 'justify' (dikaioo) and 'alone' (monos) appear together. The tension is therefore lexical at the deepest level, one verb and the only canonical pairing of justify and alone, and the alone is denied. The resolution offered by the text itself is sequential and referential. James 2:23 quotes Genesis 15:6 with the identical reckoning lemma 'reckon' (logizomai) used in Romans 4:3, and James 2:21 then predicates 'justify' (dikaioo) of Abraham at the offering of Isaac, an act decades after that reckoning. So the words distinguish an initial reckoning of faith from a later proving of that faith by works. This reading is internally supported, but it requires assigning 'justify' (dikaioo) two senses (declare-righteous and vindicate-as-genuine) that the texts do not explicitly label, which is the honest reason confidence is medium rather than high."
       },
       {
         "ref": "Jas.2.21",
         "addressed": true,
-        "resolution": "ex ergon edikaiothe Abraam anenenkas Isaak. Tagging confirms dikaioo (G1344) and ergon (G2041). On the surface this predicates justification of works, the opposite of choris ergon. It is resolved by chronology internal to James, the offering of Isaac (Gen 22) fulfills, eplerothe in Jas 2:23, the prior Gen 15:6 reckoning, so the verb here marks the demonstration of an already-reckoned faith rather than its initial basis. The resolution is plausible from the text but depends on the same unlabeled sense distinction in dikaioo, so it is recorded as a genuine complication."
+        "resolution": "'Abraham was justified out of works when he offered Isaac' (ex ergon edikaiothe Abraam anenenkas Isaak). Tagging confirms 'justify' (dikaioo, G1344) and 'work' (ergon, G2041). On the surface this predicates justification of works, the opposite of 'apart from works' (choris ergon). It is resolved by chronology internal to James, the offering of Isaac (Genesis 22) 'fulfills' (eplerothe) in James 2:23, the prior Genesis 15:6 reckoning, so the verb here marks the demonstration of an already-reckoned faith rather than its initial basis. The resolution is plausible from the text but depends on the same unlabeled sense distinction in 'justify' (dikaioo), so it is recorded as a genuine complication."
       },
       {
         "ref": "Gal.3.10",
         "addressed": true,
-        "resolution": "hosoi gar ex ergon nomou eisin hypo kataran eisin, citing Deut 27:26. Tagging confirms ergon (G2041), nomos (G3551), and katara (G2671). Far from grounding justification in works, this verse places those ek ergon nomou under a curse, reinforcing that law works cannot be the basis, which supports rather than complicates the proposition."
+        "resolution": "'For as many as are out of works of law are under a curse' (hosoi gar ex ergon nomou eisin hypo kataran eisin), citing Deuteronomy 27:26. Tagging confirms 'work' (ergon, G2041), 'law' (nomos, G3551), and 'curse' (katara, G2671). Far from grounding justification in works, this verse places those 'out of works of law' (ek ergon nomou) under a curse, reinforcing that law works cannot be the basis, which supports rather than complicates the proposition."
       }
     ]
   },
@@ -668,7 +668,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "n/a",
-    "note": "A direct query of the VariantUnit nodes for Rom.3.28, Gal.2.16, Eph.2.8, Rom.4.5, and Jas.2.24 returned none, and the bundle reports variant_units empty with not_in_ecm_scope true. All cited verses lie outside the ingested open-cbgm 3 John sample. The SBLGNT text carries apparatus markers at Rom 3:28 around the word order of dikaiousthai pistei, but that variation does not touch the dikaioo to pistis to choris ergon relation that carries the verdict, so the verdict is variant robust within the available evidence."
+    "note": "A direct query of the VariantUnit nodes for Romans 3:28, Galatians 2:16, Ephesians 2:8, Romans 4:5, and James 2:24 returned none, and the bundle reports variant_units empty with not_in_ecm_scope true. All cited verses lie outside the ingested open-cbgm 3 John sample. The SBLGNT text carries apparatus markers (notes about textual variants) at Romans 3:28 around the word order of 'to be justified by faith' (dikaiousthai pistei), but that variation does not touch the 'justify' (dikaioo) to 'faith' (pistis) to 'apart from works' (choris ergon) relation that carries the verdict, so the verdict is variant robust within the available evidence."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -683,27 +683,27 @@
       {
         "framework": "grammatico-historical, forensic-reckoning reading",
         "verdict": "affirms",
-        "rationale": "Reading dikaioo as a forensic declaration of righteous status and erga nomou as deeds done under law, the prepositions ek and dia and the adverb choris consistently place faith as instrument and works outside the ground. Rom 4:4-5 makes the contrast commercial, wage as debt versus faith reckoned as gift, and God justifies the ungodly, so the basis cannot be works and the proposition holds in its strongest form."
+        "rationale": "Reading 'justify' (dikaioo) as a forensic (courtroom-style) declaration of righteous status and 'works of law' (erga nomou) as deeds done under law, the prepositions 'out of' (ek) and 'through' (dia) and the adverb 'apart from' (choris) consistently place faith as instrument and works outside the ground. Romans 4:4-5 makes the contrast commercial, wage as debt versus faith reckoned as gift, and God justifies the ungodly, so the basis cannot be works and the proposition holds in its strongest form."
       },
       {
         "framework": "faith-and-works unity, James demonstrative lens",
         "verdict": "affirms with strong qualification",
-        "rationale": "Pressed in its strongest form, James 2:24 is the only verse in the canon that pairs dikaioo with monos, and it negates the alone, saying a person is justified ex ergon and not ek faith alone. James predicates dikaioo of Abraham at the offering of Isaac (Jas 2:21) and says Gen 15:6 was thereby fulfilled (Jas 2:23). A reader holding this lens fairly insists the words themselves place justified by works and not by faith alone beside Paul's justified apart from works, and that the harmonizing distinction between an initial reckoning and a later vindication is supplied by the interpreter, not labeled by the verb. On this lens the proposition survives only because it is qualified to as a ground and works as fruit, and the underlying unity is that a faith that does not work is, in James 2:17 and 2:26, dead, nekra."
+        "rationale": "Pressed in its strongest form, James 2:24 is the only verse in the canon that pairs 'justify' (dikaioo) with 'alone' (monos), and it negates the alone, saying a person is justified 'out of works' (ex ergon) and not 'out of faith alone' (ek faith alone). James predicates 'justify' (dikaioo) of Abraham at the offering of Isaac (James 2:21) and says Genesis 15:6 was thereby fulfilled (James 2:23). A reader holding this lens fairly insists the words themselves place justified by works and not by faith alone beside Paul's justified apart from works, and that the harmonizing distinction between an initial reckoning and a later vindication is supplied by the interpreter, not labeled by the verb. On this lens the proposition survives only because it is qualified to as a ground and works as fruit, and the underlying unity is that a faith that does not work is, in James 2:17 and 2:26, 'dead' (nekra)."
       },
       {
         "framework": "new_perspective_on_paul",
         "verdict": "affirms with nuance",
-        "rationale": "If erga nomou are read primarily as covenant boundary markers, circumcision, food laws, sabbath, rather than meritorious deeds in general, the Pauline texts still exclude those works as the basis of justification and still locate justification in faith and in Christ. The basis versus fruit claim survives, though the polemical target shifts from earning merit to ethnic boundary keeping."
+        "rationale": "If 'works of law' (erga nomou) are read primarily as covenant boundary markers, circumcision, food laws, sabbath, rather than meritorious deeds in general, the Pauline texts still exclude those works as the basis of justification and still locate justification in faith and in Christ. The basis versus fruit claim survives, though the polemical target shifts from earning merit to ethnic boundary keeping."
       }
     ],
-    "notes": "The verdict rests on the same lexeme dikaioo (G1344) appearing across nine books, including fourteen Romans verses, six in Galatians, and three in James, with logizomai (G3049) supplying the reckoning vocabulary in Rom 4, Gal 3:6, and Jas 2:23. Abraham and Gen 15:6 (H0539 aman, H6666 tsedaqah) and Habakkuk 2:4 supply the OT anchoring, so progressive revelation and analogia scripturae both apply. The crux is that the OT verse Gen 15:6 is quoted toward two ends by Paul and James using the identical reckoning lemma."
+    "notes": "The verdict rests on the same lexeme 'justify' (dikaioo, G1344) appearing across nine books, including fourteen Romans verses, six in Galatians, and three in James, with 'reckon' (logizomai, G3049) supplying the reckoning vocabulary in Romans 4, Galatians 3:6, and James 2:23. Abraham and Genesis 15:6 ('to trust, believe' (aman, H0539), 'righteousness' (tsedaqah, H6666)) and Habakkuk 2:4 supply the Old Testament anchoring, so progressive revelation and analogia scripturae (interpreting Scripture by Scripture) both apply. The crux is that the Old Testament verse Genesis 15:6 is quoted toward two ends by Paul and James using the identical reckoning lemma."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "On what basis is a sinner declared righteous before God, and what is the relation of faith and of works to that basis?",
-    "notes": "The stem is strongly tradition coded. The phrases by faith in Christ apart from works of the law as a ground of justification and works are the fruit, not the basis, preload a forensic and ordo answer using sola fide framing, and the qualifier as a ground already excludes the James sense of dikaioo. The verdict was derived on the original stem from the lexical pattern, and the neutralized question is recorded so the evidence is not merely confirming its own wording. The lexeme dikaioo, the prepositional contrasts ek and dia and choris, and the Rom 4:4-5 wage-versus-gift vocabulary independently produce the basis versus fruit distinction, so the affirm is not an artifact of the loaded phrasing, but the precise qualifier as a ground is what allows James 2:24 to be classed as complicating rather than contradicting, and a reader who declines that qualifier would read the same words as genuinely contested."
+    "notes": "The stem is strongly tradition coded. The phrases by faith in Christ apart from works of the law as a ground of justification and works are the fruit, not the basis, preload a forensic (courtroom-style) and ordo (order of salvation) answer using sola fide (by faith alone) framing, and the qualifier as a ground already excludes the James sense of 'justify' (dikaioo). VERDICT-CHANGED: the verdict was derived on the original stem from the lexical pattern, and the neutralized question is recorded so the evidence is not merely confirming its own wording. The lexeme 'justify' (dikaioo), the prepositional contrasts 'out of' (ek) and 'through' (dia) and 'apart from' (choris), and the Romans 4:4-5 wage-versus-gift vocabulary independently produce the basis versus fruit distinction, so the affirm is not an artifact of the loaded phrasing, but the precise qualifier as a ground is what allows James 2:24 to be classed as complicating rather than contradicting, and a reader who declines that qualifier would read the same words as genuinely contested."
   },
-  "lay_summary": "The Greek texts show a tight, repeated pattern. The verb dikaioo, to declare or reckon righteous, keeps company with believing, pisteuo, and is set against the phrase works of law, erga nomou, by small but decisive words: ek and dia, out of and through, and the adverb choris, apart from. In Romans 3:28 a person is reckoned righteous by faith, apart from works of law. Romans 4:4 and 5 make it commercial: to one who works, the pay is reckoned as a debt that is owed, but to one who does not work but believes, faith is reckoned as righteousness, and God justifies the ungodly. Galatians 2:16 says three times that a person is not justified out of works of law but through faith. Ephesians 2:8 and 9 call salvation a gift through faith, not out of works, so no one can boast. The hardest text is James 2:24, and it is hard at the level of the words themselves. A search of the whole canon finds that this is the only verse where justify and the word alone stand together, and there the alone is denied: a person is justified by works and not by faith alone. The deeper knot is that one Old Testament verse, Genesis 15:6, where Abraham believed God and it was reckoned to him as righteousness, is quoted with the very same reckoning verb by Paul in Romans 4 and by James, yet Paul uses it to exclude works from the ground while James says it was fulfilled when Abraham offered Isaac. James himself supplies a way through, because the offering of Isaac came long after that reckoning, so the same verb can mean first being counted righteous and later being shown to be righteous. But the texts do not put labels on those two senses; a reader has to assign them. That is the honest reason this lands as a qualified yes rather than a flat one. The words clearly make faith the instrument and works the fruit when the question is the original ground, but the single verb doing the work carries two angles that the verses leave the reader to sort out, which is exactly where careful readers diverge.",
+  "lay_summary": "The Greek texts show a tight, repeated pattern. The verb 'to declare or reckon righteous' (dikaioo) keeps company with 'to believe' (pisteuo), and is set against the phrase 'works of law' (erga nomou) by small but decisive words: 'out of' (ek) and 'through' (dia), and the adverb 'apart from' (choris). In Romans 3:28 a person is reckoned righteous by faith, apart from works of law. Romans 4:4 and 5 make it commercial: to one who works, the pay is reckoned as a debt that is owed, but to one who does not work but believes, faith is reckoned as righteousness, and God justifies the 'ungodly' (asebes). Galatians 2:16 says three times that a person is not justified out of works of law but through faith. Ephesians 2:8 and 9 call salvation a gift through faith, not out of works, so no one can boast. The hardest text is James 2:24, and it is hard at the level of the words themselves. A search of the whole canon finds that this is the only verse where 'justify' (dikaioo) and the word 'alone' (monos) stand together, and there the alone is denied: a person is justified by works and not by faith alone. The deeper knot is that one Old Testament verse, Genesis 15:6, where Abraham 'believed' (aman) God and it was 'reckoned' to him as 'righteousness' (tsedaqah), is quoted with the very same reckoning verb 'reckon' (logizomai) by Paul in Romans 4 and by James, yet Paul uses it to exclude works from the ground while James says it was fulfilled when Abraham offered Isaac. James himself supplies a way through, because the offering of Isaac came long after that reckoning, so the same verb can mean first being counted righteous and later being shown to be righteous. But the texts do not put labels on those two senses; a reader has to assign them. That is the honest reason this lands as a qualified yes rather than a flat one. The words clearly make faith the instrument and works the fruit when the question is the original ground, but the single verb doing the work carries two angles that the verses leave the reader to sort out, which is exactly where careful readers diverge.",
   "citations": [
     {
       "type": "morphology",

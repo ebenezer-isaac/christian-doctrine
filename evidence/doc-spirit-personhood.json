@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "The noun pneuma (G4151) is grammatically neuter in every one of its New Testament occurrences (verified: all 386 parses are N-...SN or N-...PN, zero masculine), yet in John 14.26, 15.26, 16.13, and 16.14 the demonstrative that points back to it is ekeinos parsed D-NSM, masculine. That is a deliberate concord-break: the writer overrides grammatical gender to mark a personal referent. Clustered around this anchor is a pan-canonical set of agency verbs predicated of the same Spirit: teaches and reminds (John 14.26), bears witness (John 15.26), guides, hears, speaks, and declares (John 16.13), glorifies and takes (John 16.14), speaks in the first person and issues an imperative and claims a prior calling (Acts 13.2 eipen, aphorisate, proskeklemai), intercedes (Rom 8.26-27 entugchanei) and possesses a phronema or mindset that God reads, is grieved (Eph 4.30 lupeite), is lied to (Acts 5.3), and apportions gifts as he wills (1 Cor 12.11 kathos bouletai). An Old Testament anchor matches: Isaiah 63.10 says they grieved (atsab, H6087) his Holy Spirit (ruach qodesh), who then turned and fought against them (lacham). Querying the canon, the volition verb bouletai is never predicated of an impersonal force, only of personal agents, and entugchano takes only personal subjects (Elijah, Christ, the Spirit). The verdict holds across the minor textual variants in the cited verses."
+    "rationale": "The noun 'spirit' (pneuma, G4151) is grammatically neuter in every one of its New Testament occurrences (verified: all 386 parses are N-...SN or N-...PN, the morphology codes for singular or plural neuter, with zero masculine), yet in John 14:26, 15:26, 16:13, and 16:14 the demonstrative pronoun that points back to it is 'that one' (ekeinos), parsed D-NSM (a demonstrative pronoun in nominative singular masculine). That is a deliberate concord-break (a deliberate grammatical mismatch): the writer overrides grammatical gender to mark a personal referent. Clustered around this anchor is a pan-canonical (spread across the whole Bible) set of agency verbs predicated of the same Spirit: teaches and reminds (John 14:26), bears witness (John 15:26), guides, hears, speaks, and declares (John 16:13), glorifies and takes (John 16:14), speaks in the first person and issues an imperative and claims a prior calling (Acts 13:2, 'said' (eipen), 'set apart' (aphorisate), 'I have called' (proskeklemai)), intercedes (Romans 8:26-27, 'intercedes' (entugchanei)) and possesses a 'mindset' (phronema) that God reads, is grieved (Ephesians 4:30, 'do not grieve' (lupeite)), is lied to (Acts 5:3), and apportions gifts as he wills (1 Corinthians 12:11, 'as he wills' (kathos bouletai)). An Old Testament anchor matches: Isaiah 63:10 says they 'grieved' (atsab, H6087) his 'Holy Spirit' (ruach qodesh), who then turned and 'fought' (lacham) against them. Querying the canon, the volition verb 'wills' (bouletai) is never predicated of an impersonal force, only of personal agents, and 'intercede' (entugchano) takes only personal subjects (Elijah, Christ, the Spirit). The verdict holds across the minor textual variants in the cited verses."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -175,7 +175,7 @@
             "lemma": "διδάσκω"
           }
         ],
-        "force": "Queried morphology: to pneuma to hagion is parsed G4151=N-NSN (neuter), but the demonstrative referring to it is ekeinos parsed G1565=D-NSM (masculine). The masculine demonstrative for a neuter noun is a deliberate concord-break that marks personal reference. The same Spirit will teach (didaxei, V-FAI-3S) and bring to remembrance (hupomnesei), both cognitive acts.",
+        "force": "Queried morphology: 'the Holy Spirit' (to pneuma to hagion) is parsed G4151=N-NSN (noun, nominative singular neuter), but the demonstrative pronoun referring to it is 'that one' (ekeinos) parsed G1565=D-NSM (demonstrative, nominative singular masculine). The masculine demonstrative for a neuter noun is a deliberate concord-break (a deliberate grammatical mismatch) that marks personal reference. The same Spirit 'will teach' (didaxei, V-FAI-3S, verb future active indicative third singular) and 'will bring to remembrance' (hupomnesei), both cognitive acts.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -193,7 +193,7 @@
             "lemma": "μαρτυρέω"
           }
         ],
-        "force": "to pneuma is again G4151=N-NSN (neuter) while the demonstrative is ekeinos G1565=D-NSM (masculine). The Spirit will bear witness (marturesei, V-FAI-3S) concerning Christ. Bearing witness is testimony, an intentional act of an agent who knows and reports.",
+        "force": "'The Spirit' (to pneuma) is again G4151=N-NSN (neuter) while the demonstrative pronoun is 'that one' (ekeinos) G1565=D-NSM (masculine). The Spirit 'will bear witness' (marturesei, V-FAI-3S, verb future active indicative third singular) concerning Christ. Bearing witness is testimony, an intentional act of an agent who knows and reports.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -215,7 +215,7 @@
             "lemma": "λαλέω"
           }
         ],
-        "force": "Masculine ekeinos (G1565=D-NSM) opens the clause, then the appositional to pneuma tes aletheias (G4151=N-NSN, neuter). A series of personal future verbs follows: guide (hodegesei), hear (akousei), speak (lalesei), declare (anangelei). The Spirit will not speak from himself (aph heautou, F-3GSM), a self-restraint construction predicated only of an agent who could speak from himself.",
+        "force": "The masculine 'that one' (ekeinos) (G1565=D-NSM) opens the clause, then the appositional phrase 'the Spirit of truth' (to pneuma tes aletheias) (G4151=N-NSN, neuter). A series of personal future verbs follows: 'will guide' (hodegesei), 'will hear' (akousei), 'will speak' (lalesei), 'will declare' (anangelei). The Spirit will not speak 'from himself' (aph heautou, F-3GSM, reflexive pronoun third singular masculine genitive), a self-restraint construction predicated only of an agent who could speak from himself.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -233,7 +233,7 @@
             "lemma": "δοξάζω"
           }
         ],
-        "force": "ekeinos eme doxasei (G1565=D-NSM, masculine demonstrative). The Spirit will glorify (doxasei) Christ, taking (lempsetai) from what is Christ's and declaring (anangelei) it. Glorifying a distinct second party and selecting what to disclose is intentional agency.",
+        "force": "'That one will glorify me' (ekeinos eme doxasei) (G1565=D-NSM, masculine demonstrative pronoun). The Spirit 'will glorify' (doxasei) Christ, 'taking' (lempsetai) from what is Christ's and 'declaring' (anangelei) it. Glorifying a distinct second party and selecting what to disclose is intentional agency.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -251,7 +251,7 @@
             "lemma": "ἀφορίζω"
           }
         ],
-        "force": "eipen to pneuma to hagion (V-2AAI-3S, the Holy Spirit said), then the imperative aphorisate (V-AAM-2P, set apart) moi (to Me, P-1DS) Barnabas and Saul for the work to which I have called (proskeklemai, V-RNI-1S) them. First-person speech, an imperative, personal possession, and a prior calling are all predicates of a person, not an influence.",
+        "force": "'The Holy Spirit said' (eipen to pneuma to hagion) (V-2AAI-3S, verb second aorist active indicative third singular, where aorist is a completed past action), then the imperative 'set apart' (aphorisate, V-AAM-2P, verb aorist active imperative second plural) 'for me' (moi) (to Me, P-1DS, personal pronoun first singular dative) Barnabas and Saul for the work to which 'I have called' (proskeklemai, V-RNI-1S, verb perfect tense, a completed action whose result still stands) them. First-person speech, an imperative, personal possession, and a prior calling are all predicates of a person, not an influence.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -269,7 +269,7 @@
             "lemma": "ἀλάλητος"
           }
         ],
-        "force": "auto to pneuma (the Spirit himself, intensive) intercedes (huperentugchanei, V-PAI-3S) with groanings alaletois (G0215, a hapax, single canon occurrence). Intercession is representation of another before a third party, which requires intent and knowledge. The querying confirms the cognate entugchano (G1793) takes only personal subjects in the canon.",
+        "force": "'The Spirit himself' (auto to pneuma) (the Spirit himself, intensive) 'intercedes' (huperentugchanei, V-PAI-3S, verb present active indicative third singular) with 'inexpressible' (alaletois) (G0215, a hapax, a word that occurs only once in the entire Bible). Intercession is representation of another before a third party, which requires intent and knowledge. The querying confirms the cognate 'intercede' (entugchano) (G1793) takes only personal subjects in the canon.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -287,7 +287,7 @@
             "lemma": "ἐντυγχάνω"
           }
         ],
-        "force": "The heart-searcher (ho eraunon tas kardias) knows (oiden) what the phronema (G5427=N-NSN, mindset) of the Spirit is, because the Spirit intercedes (entugchanei) for the saints according to God. Having a phronema, a settled mind, and being the content of divine knowing in this idiom both predicate cognitive interiority.",
+        "force": "The 'heart-searcher' (ho eraunon tas kardias) 'knows' (oiden) what the 'mindset' (phronema) (G5427=N-NSN, noun nominative singular neuter) of the Spirit is, because the Spirit 'intercedes' (entugchanei) for the saints according to God. Having a 'mindset' (phronema), a settled mind, and being the content of divine knowing in this idiom both predicate cognitive interiority.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -305,7 +305,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "The one and the same Spirit (to hen kai to auto pneuma) works all these, apportioning (diairoun, V-PAP-NSN) to each one individually kathos bouletai (G1014=V-PNI-3S, as He wills). bouletai denotes deliberate volition. Canon query of G1014 shows it is predicated only of personal agents (God, Christ, apostles, a helmsman), never an impersonal force.",
+        "force": "'The one and the same Spirit' (to hen kai to auto pneuma) works all these, 'apportioning' (diairoun, V-PAP-NSN, verb present active participle nominative singular neuter) to each one individually 'as he wills' (kathos bouletai) (G1014=V-PNI-3S, verb present middle/passive indicative third singular). 'Wills' (bouletai) denotes deliberate volition. Canon query of G1014 shows it is predicated only of personal agents (God, Christ, apostles, a helmsman), never an impersonal force.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -323,7 +323,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "me lupeite (G3076=V-PAM-2P, do not grieve) the Holy Spirit of God. Grief is an affective response of a personal subject. The relative pronoun here, en ho, is parsed G3739=R-DSN (neuter, agreeing with neuter pneuma), so this verse does not contribute a concord-break. Its weight is the affective verb lupeo predicated of the Spirit, which an energy cannot undergo.",
+        "force": "'Do not grieve' (me lupeite) (G3076=V-PAM-2P, verb present active imperative second plural) the Holy Spirit of God. Grief is an affective response of a personal subject. The relative pronoun here, 'in whom' (en ho), is parsed G3739=R-DSN (relative pronoun, dative singular neuter, agreeing with neuter 'spirit' (pneuma)), so this verse does not contribute a concord-break (a deliberate grammatical mismatch). Its weight is the affective verb 'grieve' (lupeo) predicated of the Spirit, which an energy cannot undergo.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -337,7 +337,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "Peter says Ananias lied to (pseusasthai) the Holy Spirit (to pneuma to hagion, G4151=N-ASN). Being lied to presupposes a personal addressee who can be deceived. In verse 4 the same act is called lying to God, equating the Spirit with the personal God who is the object of the lie.",
+        "force": "Peter says Ananias 'lied to' (pseusasthai) the 'Holy Spirit' (to pneuma to hagion) (G4151=N-ASN, noun accusative singular neuter). Being lied to presupposes a personal addressee who can be deceived. In verse 4 the same act is called lying to God, equating the Spirit with the personal God who is the object of the lie.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -355,7 +355,7 @@
             "lemma": "רוּחַ"
           }
         ],
-        "force": "Queried Hebrew: they rebelled and grieved (atsab, H6087, Vpq3cp) his Holy Spirit (ruach qodesh, H7307 plus H6944), so He turned (hapak) to be their enemy and fought (lacham, H3898) against them. The same affective verb later rendered lupeo in Eph 4.30 is here applied to ruach, and the grieved Spirit then acts in personal hostility. This supplies an Old Testament anchor for the same personal-agent pattern.",
+        "force": "Queried Hebrew: they rebelled and 'grieved' (atsab, H6087, Vpq3cp, verb piel qal third common plural, the simple active form in third common plural) his 'Holy Spirit' (ruach qodesh, H7307 plus H6944), so He 'turned' (hapak) to be their enemy and 'fought' (lacham, H3898) against them. The same affective verb later rendered as 'grieve' (lupeo) in Ephesians 4:30 is here applied to 'spirit' (ruach), and the grieved Spirit then acts in personal hostility. This supplies an Old Testament anchor for the same personal-agent pattern.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
@@ -369,7 +369,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "The apostate is said to have insulted (enubrisas, G1796, a canon hapax) the Spirit of grace (to pneuma tes charitos, G4151=N-ASN). Insult or outrage is an offense given to a person who can be wronged, not to an impersonal power.",
+        "force": "The apostate is said to have 'insulted' (enubrisas, G1796, a canon hapax, a word that occurs only once in the entire Bible) the 'Spirit of grace' (to pneuma tes charitos) (G4151=N-ASN, noun accusative singular neuter). Insult or outrage is an offense given to a person who can be wronged, not to an impersonal power.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -424,22 +424,22 @@
       {
         "ref": "Acts.2.17",
         "addressed": true,
-        "resolution": "Pouring out (ekcheo) of the Spirit reads like fluid or energy language and is the strongest lexical handle for an impersonal reading. But the same referent in the cited anchors speaks in the first person, wills, intercedes, and is grieved. The pour-out idiom describes the mode of distribution, generous and abundant, not the ontology of what is distributed; Acts 2.4 immediately attaches utterance to those filled."
+        "resolution": "'Pouring out' (ekcheo) of the Spirit reads like fluid or energy language and is the strongest lexical handle for an impersonal reading. But the same referent in the cited anchors speaks in the first person, wills, intercedes, and is grieved. The pour-out idiom describes the mode of distribution, generous and abundant, not the ontology (the question of what something is) of what is distributed; Acts 2:4 immediately attaches utterance to those filled."
       },
       {
         "ref": "John.20.22",
         "addressed": true,
-        "resolution": "Jesus breathing (enephusesen) on the disciples and saying receive Holy Spirit could suggest a breath-like substance, matching the root sense of pneuma as breath or wind. Yet the same Gospel in John 14 to 16 names the same Spirit with masculine ekeinos and assigns personal verbs. The breath is a sign-act conveying an agent, not a reduction of the agent to breath."
+        "resolution": "Jesus 'breathing' (enephusesen) on the disciples and saying receive Holy Spirit could suggest a breath-like substance, matching the root sense of 'spirit' (pneuma) as breath or wind. Yet the same Gospel in John 14 to 16 names the same Spirit with the masculine 'that one' (ekeinos) and assigns personal verbs. The breath is a sign-act conveying an agent, not a reduction of the agent to breath."
       },
       {
         "ref": "1Cor.12.11",
         "addressed": true,
-        "resolution": "This verse is sometimes read as energy language because the Spirit works (energei) effects. Lexically it cuts the other way: the working is qualified by kathos bouletai, as He wills, and bouletai across the canon is a verb of deliberate personal volition never predicated of a force. The same verse therefore strengthens the personal reading rather than complicating it, and is recorded here for transparency."
+        "resolution": "This verse is sometimes read as energy language because the Spirit 'works' (energei) effects. Lexically it cuts the other way: the working is qualified by 'as he wills' (kathos bouletai), and 'wills' (bouletai) across the canon is a verb of deliberate personal volition never predicated of a force. The same verse therefore strengthens the personal reading rather than complicating it, and is recorded here for transparency."
       },
       {
         "ref": "Luke.1.35",
         "addressed": true,
-        "resolution": "Holy Spirit coming upon parallels power of the Most High overshadowing, which could identify the Spirit with dunamis (power). The parallelism is functional, describing the effect, not definitional. The same Spirit elsewhere speaks, calls, and is grieved, none of which dunamis does, so the pairing does not reduce the Spirit to power."
+        "resolution": "Holy Spirit coming upon parallels power of the Most High overshadowing, which could identify the Spirit with 'power' (dunamis). The parallelism is functional, describing the effect, not definitional. The same Spirit elsewhere speaks, calls, and is grieved, none of which 'power' (dunamis) does, so the pairing does not reduce the Spirit to power."
       }
     ]
   },
@@ -450,17 +450,17 @@
         "ref": "John.16.13",
         "variant_id": "akouei-vs-akousei",
         "verdict_impact": "none",
-        "note": "Present akouei versus future akousei (TAGNT records the future) does not change the personal-agent predication. Both readings keep ekeinos D-NSM and the verbal series guide, hear, speak, declare."
+        "note": "Present 'he hears' (akouei) versus future 'he will hear' (akousei) (TAGNT records the future) does not change the personal-agent predication. Both readings keep the masculine 'that one' (ekeinos) D-NSM (demonstrative pronoun nominative singular masculine) and the verbal series guide, hear, speak, declare."
       },
       {
         "ref": "Rom.8.26",
         "variant_id": "huperentugchanei-vs-entugchanei",
         "verdict_impact": "none",
-        "note": "Compound huperentugchanei versus simple entugchanei. The prefix does not alter intercession as a personal representational act; the cognate entugchano takes only personal subjects in the canon."
+        "note": "The compound 'he intercedes on behalf of' (huperentugchanei) versus the simple 'he intercedes' (entugchanei). The prefix does not alter intercession as a personal representational act; the cognate 'intercede' (entugchano) takes only personal subjects in the canon."
       }
     ],
     "ecm_status": "n/a",
-    "note": "All anchor verses lie outside the ingested ECM window (3 John 1.1 to 1.15); inputs.json reports not_in_ecm_scope true with empty variant_units. The two minor variants noted are documented from standard apparatus knowledge and do not touch the verdict."
+    "note": "All anchor verses lie outside the ingested ECM apparatus (the critical edition of New Testament textual variants) window (3 John 1:1 to 1:15); inputs.json reports not_in_ecm_scope true with empty variant_units. The two minor variants noted are documented from standard apparatus knowledge and do not touch the verdict."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -475,7 +475,7 @@
       {
         "framework": "impersonal_force_alternate",
         "verdict": "fails the lexical test",
-        "rationale": "Stated at its strongest: pneuma and ruach both carry the root sense of breath, wind, and power, and Scripture does use distribution language (pour out, fill, come upon) and pairs the Spirit with dunamis, so personal verbs could be read as personification, the way wisdom is personified in Proverbs 8. The reading fails because the personal predicates are not isolated poetic flourishes but a dense, cross-corpus cluster: first-person speech with an imperative (Acts 13.2), deliberate volition (1 Cor 12.11 bouletai, a verb never used of a force), intercession (Rom 8.27 entugchanei, only ever personal subjects), a phronema that God reads, grief (Eph 4.30; Isa 63.10), and the masculine ekeinos overriding neuter pneuma four times in John. Personification does not explain a sustained grammatical concord-break or first-person volitional speech."
+        "rationale": "Stated at its strongest: 'spirit' (pneuma) and 'spirit' (ruach) both carry the root sense of breath, wind, and power, and Scripture does use distribution language (pour out, fill, come upon) and pairs the Spirit with 'power' (dunamis), so personal verbs could be read as personification, the way wisdom is personified in Proverbs 8. The reading fails because the personal predicates are not isolated poetic flourishes but a dense, cross-corpus cluster: first-person speech with an imperative (Acts 13:2), deliberate volition (1 Corinthians 12:11 'he wills' (bouletai), a verb never used of a force), intercession (Romans 8:27 'he intercedes' (entugchanei), only ever personal subjects), a 'mindset' (phronema) that God reads, grief (Ephesians 4:30; Isaiah 63:10), and the masculine 'that one' (ekeinos) overriding neuter 'spirit' (pneuma) four times in John. Personification does not explain a sustained grammatical concord-break (a deliberate grammatical mismatch) or first-person volitional speech."
       },
       {
         "framework": "modalism_alternate",
@@ -485,17 +485,17 @@
       {
         "framework": "trinitarian_grammar",
         "verdict": "consistent",
-        "rationale": "Personal-agency predicates attached to neuter pneuma, plus the masculine demonstrative, cohere with reading the Spirit as a personal agent without forcing a later category back onto the text. The grammar carries the weight on its own."
+        "rationale": "Personal-agency predicates attached to neuter 'spirit' (pneuma), plus the masculine demonstrative pronoun 'that one' (ekeinos), cohere with reading the Spirit as a personal agent without forcing a later category back onto the text. The grammar carries the weight on its own."
       }
     ],
-    "notes": "progressive_revelation is set true because the personal pattern is anchored already in the Old Testament (Isaiah 63.10 grieving and the Spirit then acting as enemy) and is filled out in the New Testament Johannine, Lukan, and Pauline material. The single strongest lexical anchor remains the masculine ekeinos for neuter pneuma, verified in John 14.26, 15.26, 16.13, and 16.14, since pneuma is neuter in all 386 of its New Testament occurrences."
+    "notes": "progressive_revelation is set true because the personal pattern is anchored already in the Old Testament (Isaiah 63:10 grieving and the Spirit then acting as enemy) and is filled out in the New Testament Johannine, Lukan, and Pauline material. The single strongest lexical anchor remains the masculine 'that one' (ekeinos) for neuter 'spirit' (pneuma), verified in John 14:26, 15:26, 16:13, and 16:14, since 'spirit' (pneuma) is neuter in all 386 of its New Testament occurrences."
   },
   "stem_audit": {
     "verdict_preloaded": false,
     "neutralized_form": null,
-    "notes": "The proposition uses general categories (intellect, will, emotion, person versus impersonal force) that do not encode a confessional taxonomy or smuggle the conclusion. The verdict is derived from the queried grammatical and lexical pattern (concord-break plus agency-verb cluster), not from the wording of the stem. Correction over the prior file: the Eph 4.30 relative pronoun en ho is neuter (G3739=R-DSN), not masculine, so the concord-break argument rests on the Johannine ekeinos alone; and the prior cross-ref Eph.4.30 to Eph.1.14 was not present in the graph and is replaced by the verified Eph.4.30 to Isa.63.10 and Eph.4.30 to Gen.6.3."
+    "notes": "The proposition uses general categories (intellect, will, emotion, person versus impersonal force) that do not encode a confessional taxonomy or smuggle the conclusion. The verdict is derived from the queried grammatical and lexical pattern (concord-break (a deliberate grammatical mismatch) plus agency-verb cluster), not from the wording of the stem. Correction over the prior file: the Ephesians 4:30 relative pronoun 'in whom' (en ho) is neuter (G3739=R-DSN, relative pronoun dative singular neuter), not masculine, so the concord-break argument rests on the Johannine 'that one' (ekeinos) alone; and the prior cross-ref Ephesians 4:30 to Ephesians 1:14 was not present in the graph and is replaced by the verified Ephesians 4:30 to Isaiah 63:10 and Ephesians 4:30 to Genesis 6:3."
   },
-  "lay_summary": "The Greek word for Spirit, pneuma, is grammatically neuter, and a check of the text shows it is neuter in every one of its hundreds of New Testament appearances, never masculine. So if a writer wanted to point back to it, the matching word would normally also be neuter. Yet in John 14.26, 15.26, 16.13, and 16.14 Jesus points back to the Spirit with the masculine word ekeinos, He. That is a deliberate break from the normal grammar, and the natural reason to break it is that the referent is a someone, not a something. Around that anchor the text piles up verbs that only persons do. The Spirit teaches and reminds, bears witness, guides, hears, speaks, declares, and glorifies. In Acts 13.2 the Spirit speaks in the first person, gives a command, set apart Barnabas and Saul for me, and refers to a prior calling he himself made. In Romans 8 the Spirit intercedes and has a mindset that God reads. In 1 Corinthians 12.11 the Spirit hands out gifts as he wills, and that verb for willing is used elsewhere only of persons, never of a force. In Ephesians 4.30 readers are told not to grieve the Spirit, and the same idea appears already in Isaiah 63.10, where they grieved his Holy Spirit, who then turned and fought against them. Across the Old Testament and four New Testament corpora the same referent speaks, wills, intercedes, knows, and grieves. An impersonal force or energy cannot be the subject of those verbs without draining the verbs of meaning. The honest counter-reading is that this is poetic personification, the way wisdom is pictured speaking in Proverbs; but personification does not produce a sustained grammar change or first-person commands and choices, so the words land on the side of a personal Spirit.",
+  "lay_summary": "The Greek word for Spirit, 'spirit' (pneuma), is grammatically neuter (the gender category that in Greek normally means 'it' rather than 'he' or 'she'), and a check of the text shows it is neuter in every one of its hundreds of New Testament appearances, never masculine. So if a writer wanted to point back to it, the matching word would normally also be neuter. Yet in John 14:26, 15:26, 16:13, and 16:14 Jesus points back to the Spirit with the masculine word 'that one' (ekeinos), He. That is a deliberate break from the normal grammar, and the natural reason to break it is that the referent is a someone, not a something. Around that anchor the text piles up verbs that only persons do. The Spirit teaches and reminds, bears witness, guides, hears, speaks, declares, and glorifies. In Acts 13:2 the Spirit speaks in the first person, gives a command, set apart Barnabas and Saul for me, and refers to a prior calling he himself made. In Romans 8 the Spirit intercedes and has a 'mindset' (phronema) that God reads. In 1 Corinthians 12:11 the Spirit hands out gifts as he 'wills' (bouletai), and that verb for willing is used elsewhere only of persons, never of a force. In Ephesians 4:30 readers are told not to grieve (Greek 'grieve' (lupeo)) the Spirit, and the same idea appears already in Isaiah 63:10, where they 'grieved' (Hebrew atsab) his Holy Spirit ('ruach qodesh'), who then turned and fought against them. Across the Old Testament and four New Testament corpora the same referent speaks, wills, intercedes, knows, and grieves. An impersonal force or energy cannot be the subject of those verbs without draining the verbs of meaning. The honest counter-reading is that this is poetic personification, the way wisdom is pictured speaking in Proverbs; but personification does not produce a sustained grammar change or first-person commands and choices, so the words land on the side of a personal Spirit.",
   "citations": [
     {
       "type": "morphology",

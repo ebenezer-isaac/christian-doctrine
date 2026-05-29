@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "The canon predicates the cardinal numeral one of God directly, אֶחָד in the Shema (Deut 6:4, ETCBC tags it PreC) and εἷς θεός in apostolic restatement (1 Cor 8:6, Mark 12:29), and then forecloses any rival deity by stacking exclusivity particles, אֵין, לֹא, זוּלָה, בִּלְעָדַי, עוֹד across Deut 4:35, Isa 44:6, and Isa 45:5. The numeral one alone is not decisive because אֶחָד also names composite unity (one flesh, Gen 2:24, one people, Gen 11:6), so the weight against three gods rests on the exclusivity formulas that deny any other God beside YHWH. Within that single confession Paul distributes εἷς θεὸς ὁ πατήρ and εἷς κύριος Ἰησοῦς Χριστός, placing Father and Son inside the one God rather than alongside it as a second deity. The pan-canonical lexical pattern denies a plurality of separate gods while preserving personal distinction, which is the substance of the proposition under test."
+    "rationale": "The Bible applies the cardinal number 'one' directly to God: 'one' (echad, אֶחָד) in the Shema (the daily Jewish confession at Deuteronomy 6:4, which the Hebrew syntax database ETCBC tags as the predicate complement, PreC, that is, the word completing the 'is' statement), and 'one God' (heis theos, εἷς θεός) in the apostolic restatement at 1 Corinthians 8:6 and Mark 12:29. The canon then forecloses any rival deity by stacking exclusivity particles, that is, small Hebrew words that mean 'there is none', 'not', 'except', 'besides me', 'no other': 'there is none' (ayin, אֵין), 'not' (lo, לֹא), 'besides' (zulah, זוּלָה), 'apart from me' (biladey, בִּלְעָדַי), and 'still, any more' (od, עוֹד), across Deuteronomy 4:35, Isaiah 44:6, and Isaiah 45:5. The number 'one' (echad, אֶחָד) by itself is not decisive because it also names a composite unity (one flesh in Genesis 2:24, one people in Genesis 11:6), so the weight against three gods rests on the exclusivity formulas that deny any other God beside YHWH (the covenant name of God, YHWH, יְהוָה). Within that single confession Paul distributes 'one God the Father' (heis theos ho pater, εἷς θεὸς ὁ πατήρ) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos, εἷς κύριος Ἰησοῦς Χριστός), placing Father and Son inside the one God rather than alongside it as a second deity. The pattern spread across the whole Bible (pan-canonical) denies a plurality of separate gods while preserving personal distinction, which is the substance of the proposition under test."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -138,7 +138,7 @@
             "lemma": "אֶחָד"
           }
         ],
-        "force": "The Shema couples the covenant name YHWH with the cardinal numeral אֶחָד in predicative position, asserting that YHWH our God is one. ETCBC tags the clause as quotative (Q) with אֶחָד as PreC, the predicate of the confession, and יְהוָה as Subj. The numeral is the ordinary cardinal one. By itself אֶחָד can frame composite unity (one flesh, Gen 2:24, one people, Gen 11:6, queried and confirmed), so the verse establishes singular count of the one God but leaves the foreclosure of rival gods to the exclusivity particles in the parallel texts.",
+        "force": "The Shema (the daily Jewish confession that begins 'Hear, O Israel') couples the covenant name 'the LORD' (YHWH, יְהוָה) with the cardinal number 'one' (echad, אֶחָד) in predicate position (the slot completing an 'X is Y' statement), asserting that 'the LORD' (YHWH) our God is 'one' (echad). The Hebrew syntax database ETCBC tags the clause as a quoted statement (Q) with 'one' (echad, אֶחָד) marked as PreC (the predicate, that is, the noun completing the 'is' statement), and 'the LORD' (YHWH, יְהוָה) as the grammatical subject (Subj). The number is the ordinary cardinal 'one'. By itself 'one' (echad, אֶחָד) can frame composite unity (one flesh in Genesis 2:24, one people in Genesis 11:6, queried and confirmed), so the verse establishes a singular count of the one God but leaves the foreclosure of rival gods to the exclusivity particles (small Hebrew words denying any other) in the parallel texts.",
         "supports": "for",
         "genre": "law",
         "figures": [],
@@ -172,7 +172,7 @@
             "lemma": "עוֹד"
           }
         ],
-        "force": "YHWH's first-person self-declaration stacks negation and exclusivity particles. אֲנִי יְהוָה וְאֵין עוֹד affirms I am YHWH and there is no other, then וְאֵין... זוּלָתִי excludes any besides me, with לֹא reinforcing the negation. ETCBC marks the negations as Nega and NCop and the exclusivity term as Modi or Adju, syntactically denying the existence of any other God. The combination of אֵין plus עוֹד plus זוּלָה is the lexical engine that rules out a plurality of gods.",
+        "force": "The LORD's first-person self-declaration stacks negation and exclusivity particles (small words that deny and exclude). 'I am the LORD and there is no other' (ani YHWH ve-eyn od, אֲנִי יְהוָה וְאֵין עוֹד) affirms 'I am the LORD' (YHWH) and 'there is no other', then 'and there is none besides me' (ve-eyn zulati, וְאֵין... זוּלָתִי) excludes any besides him, with 'not' (lo, לֹא) reinforcing the negation. The Hebrew syntax database ETCBC marks the negations as Nega (negation) and NCop (negative copula, that is, a negated linking verb) and the exclusivity term as Modi (modifier) or Adju (adjunct, that is, an added qualifier), syntactically denying the existence of any other God. The combination of 'there is none' (ayin, אֵין) plus 'still, any more' (od, עוֹד) plus 'besides' (zulah, זוּלָה) is the lexical engine that rules out a plurality of gods.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
@@ -194,7 +194,7 @@
             "lemma": "בִּלְעֲדֵי"
           }
         ],
-        "force": "Queried token set confirms אֵין (H0369), אַחֲרוֹן last (H0314), and בִּלְעָדַי besides me (H1107). YHWH declares himself the first and the last and that besides him there is no god. בִּלְעָדַי is a parallel exclusivity term to זוּלָה (each rare, 16 and 13 occurrences) and both function the same way, denying any deity apart from YHWH. This adds a second independent exclusivity lexeme to the same pattern, strengthening the canonical denial of other gods.",
+        "force": "Queried token set confirms 'there is none' (ayin, אֵין, H0369), 'last' (acharon, אַחֲרוֹן, H0314), and 'besides me' (biladey, בִּלְעָדַי, H1107). 'The LORD' (YHWH) declares himself the first and the last and that besides him there is no god. 'Apart from me' (biladey, בִּלְעָדַי) is a parallel exclusivity term to 'besides' (zulah, זוּלָה). Each is rare, 16 and 13 occurrences in the whole Bible respectively, and both function the same way, denying any deity apart from 'the LORD' (YHWH). This adds a second independent exclusivity word to the same pattern, strengthening the canonical denial of other gods.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
@@ -224,7 +224,7 @@
             "lemma": "ἀλλά"
           }
         ],
-        "force": "Paul places εἷς θεὸς ὁ πατήρ and εἷς κύριος Ἰησοῦς Χριστός in a single contrast clause introduced by ἀλλ' ἡμῖν. The numeral εἷς (queried present in this verse) governs both θεός and κύριος in parallel without producing two gods, because the Father and Christ are distributed across the elements of the Shema (ὁ πατήρ aligns with θεός, ὁ κύριος Ἰησοῦς Χριστός aligns with κύριος). The prepositions ἐξ οὗ and δι' οὗ map creation to both, holding them within one source rather than tallying two deities.",
+        "force": "Paul places 'one God the Father' (heis theos ho pater, εἷς θεὸς ὁ πατήρ) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos, εἷς κύριος Ἰησοῦς Χριστός) in a single contrast clause introduced by 'but to us' (all' hemin, ἀλλ' ἡμῖν). The numeral 'one' (heis, εἷς), which is queried as present in this verse, governs both 'God' (theos, θεός) and 'Lord' (kyrios, κύριος) in parallel without producing two gods, because the Father and Christ are distributed across the elements of the Shema (the Greek 'the Father' (ho pater, ὁ πατήρ) aligns with 'God' (theos, θεός), and 'the Lord Jesus Christ' (ho kyrios Iesous Christos, ὁ κύριος Ἰησοῦς Χριστός) aligns with 'Lord' (kyrios, κύριος)). The prepositions 'from whom' (ex hou, ἐξ οὗ) and 'through whom' (di' hou, δι' οὗ) map creation to both, holding them within one source rather than tallying two deities.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -246,7 +246,7 @@
             "lemma": "יָדַע"
           }
         ],
-        "force": "Parallel monotheistic formula. Queried token set confirms אֵין (H0369) and עוֹד (H5750) in this verse. יְהוָה הוּא הָאֱלֹהִים אֵין עוֹד מִלְּבַדּוֹ states that YHWH is the God, there is no other besides him. The same אַיִן and עוֹד pair found in Isa 45:5 anchors a single canonical lexical pattern of exclusive deity in the Torah, linked by cross-reference to the Shema in the next chapter.",
+        "force": "Parallel monotheistic formula (a formula that affirms one God). Queried token set confirms 'there is none' (ayin, אֵין, H0369) and 'still, any more' (od, עוֹד, H5750) in this verse. 'The LORD is the God; there is no other besides him' (YHWH hu ha-Elohim eyn od mi-levado, יְהוָה הוּא הָאֱלֹהִים אֵין עוֹד מִלְּבַדּוֹ) states that 'the LORD' (YHWH) is the God, there is no other besides him. The same pair 'there is none' (ayin, אַיִן) and 'any more' (od, עוֹד) found in Isaiah 45:5 anchors a single canonical lexical pattern of exclusive deity in the Torah (the first five books of Moses), linked by cross-reference to the Shema in the next chapter.",
         "supports": "for",
         "genre": "law",
         "figures": [],
@@ -268,7 +268,7 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "Immediate context to 1 Cor 8:6, with εἷς queried present here as well. Paul affirms οὐδεὶς θεὸς εἰ μὴ εἷς, no God except one. This sets the numeral one as the controlling count for the deity word θεός before he distributes Father and Son inside that one in verse 6, the Greek mirror of the Hebrew exclusivity formulas.",
+        "force": "Immediate context to 1 Corinthians 8:6, with 'one' (heis, εἷς) queried as present here as well. Paul affirms 'no God except one' (oudeis theos ei me heis, οὐδεὶς θεὸς εἰ μὴ εἷς). This sets the number 'one' as the controlling count for the deity word 'God' (theos, θεός) before he distributes Father and Son inside that one in verse 6, the Greek mirror of the Hebrew exclusivity formulas.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -290,7 +290,7 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "Jesus cites the Shema in Greek, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν, with εἷς and θεός queried present. Jesus himself anchors the one-God confession with the same numeral εἷς used in 1 Cor 8:6, demonstrating canonical continuity of the lexical pattern from Torah to Gospels and confirming that the count of one is carried, not abandoned, in the New Testament.",
+        "force": "Jesus cites the Shema (the daily Jewish confession) in Greek, 'the Lord our God, the Lord is one' (kyrios ho theos hemon kyrios heis estin, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν), with 'one' (heis, εἷς) and 'God' (theos, θεός) queried as present. Jesus himself anchors the one-God confession with the same number 'one' (heis, εἷς) used in 1 Corinthians 8:6, demonstrating canonical continuity of the lexical pattern from Torah (the first five books of Moses) to Gospels and confirming that the count of one is carried, not abandoned, in the New Testament.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -327,27 +327,27 @@
       {
         "ref": "Gen.2.24",
         "addressed": true,
-        "resolution": "The same numeral אֶחָד used of God in Deut 6:4 names a composite unity here (man and wife become one flesh, בָּשָׂר אֶחָד), queried and confirmed alongside Gen 11:6 (one people) and Ezek 37:17 (two sticks become one). This means the bare numeral does not by itself foreclose plurality, which is why the verdict rests on the exclusivity particles (אֵין, זוּלָה, בִּלְעָדַי, עוֹד) rather than on the count word alone. This is the genuine lexical seam both rival readings press."
+        "resolution": "The same number 'one' (echad, אֶחָד) used of God in Deuteronomy 6:4 names a composite unity here (man and wife become 'one flesh', basar echad, בָּשָׂר אֶחָד), queried and confirmed alongside Genesis 11:6 (one people) and Ezekiel 37:17 (two sticks become one). This means the bare number 'one' does not by itself foreclose plurality, which is why the verdict rests on the exclusivity particles (small Hebrew words denying any other: 'there is none' (ayin, אֵין), 'besides' (zulah, זוּלָה), 'apart from me' (biladey, בִּלְעָדַי), 'still, any more' (od, עוֹד)) rather than on the count word alone. This is the genuine lexical seam (the point where the words allow more than one reading) that both rival readings press."
       },
       {
         "ref": "Gen.1.26",
         "addressed": true,
-        "resolution": "The first person plural cohortative נַעֲשֶׂה (let us make) appears with singular subject Elohim and produces a singular outcome in v.27 (וַיִּבְרָא, he created, singular). The plural verb form does not yield plural gods. The same pattern recurs in Gen 11:7 and Isa 6:8 without dissolving the canonical monotheism affirmed in Deut 6:4 and Isa 45:5."
+        "resolution": "The first-person plural cohortative 'let us make' (na'aseh, נַעֲשֶׂה) (a Hebrew verb form expressing 'let us do something') appears with the singular subject 'God' (Elohim, אֱלֹהִים) and produces a singular outcome in verse 27 ('and he created', va-yivra, וַיִּבְרָא, singular). The plural verb form does not yield plural gods. The same pattern recurs in Genesis 11:7 and Isaiah 6:8 without dissolving the canonical monotheism (the affirmation of one God) affirmed in Deuteronomy 6:4 and Isaiah 45:5."
       },
       {
         "ref": "Ps.82.1",
         "addressed": true,
-        "resolution": "אֱלֹהִים in the assembly of אֵל is judicial language for human or angelic rulers (cf. the citation in John 10:34 explaining these are those to whom the word of God came). The lexeme אֱלֹהִים has broader semantic range than the count noun god in English and does not contradict the singular numeral אֶחָד applied to YHWH."
+        "resolution": "'God' (Elohim, אֱלֹהִים) in the assembly of 'God' (El, אֵל) is judicial language for human or angelic rulers (compare the citation in John 10:34 explaining these are those to whom the word of God came). The Hebrew word 'God' (Elohim, אֱלֹהִים) has broader semantic range (a wider span of possible meanings) than the count noun 'god' in English and does not contradict the singular number 'one' (echad, אֶחָד) applied to 'the LORD' (YHWH, יְהוָה)."
       },
       {
         "ref": "Matt.28.19",
         "addressed": true,
-        "resolution": "The triadic baptismal formula uses singular ὄνομα (name, not names) governing three articulated genitives. The lexical singular of ὄνομα prevents reading three separate deities, while the three distinct articulated Persons prevent reduction to one Person. This matches the one essence with personal distinction grammar implied by 1 Cor 8:6."
+        "resolution": "The triadic baptismal formula (the three-part baptism wording) uses the singular 'name' (onoma, ὄνομα, name, not 'names') governing three articulated genitives (three nouns each carrying 'the' and standing in the 'of-X' grammatical form). The lexical singular of 'name' (onoma, ὄνομα) prevents reading three separate deities, while the three distinct articulated Persons prevent reduction to one Person. This matches the one essence with personal distinction grammar implied by 1 Corinthians 8:6."
       },
       {
         "ref": "John.10.30",
         "addressed": true,
-        "resolution": "ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν uses the neuter ἕν (one thing) with plural verb ἐσμεν (we are). The neuter numeral signals unity of essence or action rather than collapse of Persons. This lexical choice corroborates rather than contradicts the divine unity affirmed in the Shema."
+        "resolution": "'I and the Father, we are one' (ego kai ho pater hen esmen, ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν) uses the neuter 'one' (hen, ἕν, meaning 'one thing', neuter gender) with the plural verb 'we are' (esmen, ἐσμεν). The neuter number signals unity of essence or action rather than collapse of Persons. This lexical choice corroborates rather than contradicts the divine unity affirmed in the Shema (the daily Jewish confession)."
       }
     ]
   },
@@ -355,7 +355,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "n/a",
-    "note": "Deut 6:4, Deut 4:35, Isa 44:6, and Isa 45:5 are Hebrew text with stable MT witness in WLC and ETCBC-BHSA, and the OT is not in ECM scope. 1 Cor 8:4 to 8:6 and Mark 12:29 have no significant variation affecting εἷς θεός or εἷς κύριος in the queried token set, and not_in_ecm_scope is true for this bundle."
+    "note": "Deuteronomy 6:4, Deuteronomy 4:35, Isaiah 44:6, and Isaiah 45:5 are Hebrew text with stable witness in the Westminster Leningrad Codex (WLC) and the Eep Talstra Centre for Bible and Computer Biblia Hebraica Stuttgartensia Amstelodamensis (ETCBC-BHSA), and the Old Testament is not in the scope of the ECM apparatus (the critical edition of New Testament textual variants). 1 Corinthians 8:4 to 8:6 and Mark 12:29 have no significant variation affecting 'one God' (heis theos, εἷς θεός) or 'one Lord' (heis kyrios, εἷς κύριος) in the queried token set, and not_in_ecm_scope is true for this bundle."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -369,32 +369,32 @@
       {
         "framework": "covenantal_monotheism",
         "verdict": "supports",
-        "rationale": "Reads Deut 6:4 as a covenantal oath of exclusive allegiance to one YHWH, with prophetic restatements (Isa 44:6, Isa 45:5) and apostolic reformulation (1 Cor 8:6, Mark 12:29) preserving the count of one God across covenants. The exclusivity particles אֵין, זוּלָה, בִּלְעָדַי, עוֹד carry the denial of rival gods."
+        "rationale": "Reads Deuteronomy 6:4 as a covenantal oath of exclusive allegiance to one 'LORD' (YHWH, יְהוָה), with prophetic restatements (Isaiah 44:6, Isaiah 45:5) and apostolic reformulation (1 Corinthians 8:6, Mark 12:29) preserving the count of one God across covenants. The exclusivity particles (small words denying any other God) 'there is none' (ayin, אֵין), 'besides' (zulah, זוּלָה), 'apart from me' (biladey, בִּלְעָדַי), and 'still, any more' (od, עוֹד) carry the denial of rival gods."
       },
       {
         "framework": "shema_reformulation",
         "verdict": "supports",
-        "rationale": "Treats 1 Cor 8:6 as a christological expansion of Deut 6:4 where κύριος and θεός are split across Father and Son without multiplying the count, yielding divine unity with personal distinction inside the one-God confession."
+        "rationale": "Treats 1 Corinthians 8:6 as a christological expansion (an expansion focused on Christ) of Deuteronomy 6:4 where 'Lord' (kyrios, κύριος) and 'God' (theos, θεός) are split across Father and Son without multiplying the count, yielding divine unity with personal distinction inside the one-God confession."
       },
       {
         "framework": "tritheist_reading",
         "verdict": "complicates",
-        "rationale": "Its strongest lexical case leans on the plural noun אֱלֹהִים, the plural cohortative נַעֲשֶׂה (Gen 1:26), and the distinct articulated Persons (ὁ πατήρ, ὁ κύριος Ἰησοῦς, the third in Matt 28:19) to argue for more than one divine being. The lexical data answers it directly. The exclusivity particles אֵין עוֹד and זוּלָה and בִּלְעָדַי deny any God besides YHWH, the cohortative still yields a singular verb in Gen 1:27, and 1 Cor 8:6 holds Father and Son inside one εἷς θεός, so the words foreclose three separate gods."
+        "rationale": "Its strongest lexical case leans on the plural noun 'God' (Elohim, אֱלֹהִים) (a Hebrew noun with plural form), the plural cohortative 'let us make' (na'aseh, נַעֲשֶׂה) at Genesis 1:26 (a 'let us' form), and the distinct articulated Persons ('the Father' (ho pater, ὁ πατήρ), 'the Lord Jesus' (ho kyrios Iesous, ὁ κύριος Ἰησοῦς), the third in Matthew 28:19) to argue for more than one divine being. The lexical data answers it directly. The exclusivity particles 'there is no other' (ayin od, אֵין עוֹד) and 'besides' (zulah, זוּלָה) and 'apart from me' (biladey, בִּלְעָדַי) deny any God besides 'the LORD' (YHWH, יְהוָה), the 'let us make' (na'aseh, נַעֲשֶׂה) still yields a singular verb in Genesis 1:27, and 1 Corinthians 8:6 holds Father and Son inside one 'one God' (heis theos, εἷς θεός), so the words foreclose three separate gods."
       },
       {
         "framework": "strict_unitarian_reading",
         "verdict": "partially_complicates",
-        "rationale": "Its strongest lexical case reads אֶחָד and εἷς θεός as numerically excluding any distinct person within the deity, treating Father alone as God. The lexical data tempers this by noting that 1 Cor 8:6 itself distributes εἷς across Father and Son in the same one-confession, Mark 12:29 in Jesus' own mouth keeps the count, and Matt 28:19 keeps singular ὄνομα over three Persons, so the count of one constrains the number of gods, not the recognition of distinct Persons."
+        "rationale": "Its strongest lexical case reads 'one' (echad, אֶחָד) and 'one God' (heis theos, εἷς θεός) as numerically excluding any distinct person within the deity, treating the Father alone as God. The lexical data tempers this by noting that 1 Corinthians 8:6 itself distributes 'one' (heis, εἷς) across Father and Son in the same one-confession, Mark 12:29 in Jesus' own mouth keeps the count, and Matthew 28:19 keeps the singular 'name' (onoma, ὄνομα) over three Persons, so the count of one constrains the number of gods, not the recognition of distinct Persons."
       }
     ],
-    "notes": "The verdict turns on two lexical facts held together. First, the cardinal numeral one (אֶחָד, εἷς) is predicated of God, but that numeral alone also frames composite unity (Gen 2:24), so it is not decisive on its own. Second, the exclusivity particles (אֵין, לֹא, זוּלָה, בִּלְעָדַי, עוֹד) deny any other God, which is what forecloses tritheism. Personal distinction is signaled by separate articulated nouns (ὁ πατήρ, ὁ κύριος Ἰησοῦς) and the triadic formula governed by singular ὄνομα."
+    "notes": "The verdict turns on two lexical facts held together. First, the cardinal number 'one' (echad, אֶחָד; heis, εἷς) is predicated of God, but that number alone also frames composite unity (Genesis 2:24), so it is not decisive on its own. Second, the exclusivity particles (small denying and excluding words) 'there is none' (ayin, אֵין), 'not' (lo, לֹא), 'besides' (zulah, זוּלָה), 'apart from me' (biladey, בִּלְעָדַי), and 'still, any more' (od, עוֹד) deny any other God, which is what forecloses tritheism (the view that there are three separate gods). Personal distinction is signaled by separate articulated nouns ('the Father' (ho pater, ὁ πατήρ), 'the Lord Jesus' (ho kyrios Iesous, ὁ κύριος Ἰησοῦς)) and the triadic formula (three-part formula) governed by the singular 'name' (onoma, ὄνομα)."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "The three Persons are one God, not three separate gods; within the one divine being the Father, Son, and Spirit are distinct yet are not three deities.",
-    "notes": "The proposition is a denial stem that encodes its own conclusion (tritheism is false). The phrase three Persons and one divine essence is post-biblical creedal vocabulary (ousia, hypostasis, persona) not found verbatim in the canon. The lexical evidence supports the substance of the claim using biblical categories. The numeral אֶחָד and εἷς applied to God, the exclusivity particles denying any other God, and distinct articulated Father, Son, and Spirit held inside the one confession. The verdict was derived on the original stem. The neutralized form restates the same claim without the technical Trinitarian vocabulary so a reader outside that tradition can still see what is affirmed and what is denied."
+    "notes": "The proposition is a denial stem that encodes its own conclusion (tritheism, the view that there are three separate gods, is false). The phrase 'three Persons and one divine essence' is post-biblical creedal vocabulary (the technical Greek and Latin words 'being' (ousia), 'individual subsistence' (hypostasis), and 'person' (persona) developed by the early church) not found verbatim in the canon. The lexical evidence supports the substance of the claim using biblical categories. The number 'one' (echad, אֶחָד) and 'one' (heis, εἷς) applied to God, the exclusivity particles (small denying words) denying any other God, and the distinct articulated 'Father' (ho pater, ὁ πατήρ), 'Son', and 'Spirit' held inside the one confession. The verdict was derived on the original stem. The neutralized form restates the same claim without the technical Trinitarian vocabulary so a reader outside that tradition can still see what is affirmed and what is denied."
   },
-  "lay_summary": "The Hebrew Bible repeatedly says God is one, but the word one is not the whole argument. Deuteronomy 6:4 puts YHWH together with the cardinal number one in predicate position, YHWH our God is one. Yet the same Hebrew word for one also describes a husband and wife becoming one flesh in Genesis 2:24 and a crowd acting as one people in Genesis 11:6, so by itself the number one can describe a unity that still contains more than one part. The real force against three gods comes from the exclusivity words. Isaiah 45:5 stacks several small particles meaning no, none, no other, besides me. Isaiah 44:6 adds first and last and besides me there is no god, using a second rare word for besides. Deuteronomy 4:35 repeats no other besides him. These words flatly deny that any other god exists alongside YHWH, which is exactly what rules out three separate gods. The New Testament keeps this count. In Mark 12:29 Jesus quotes the Shema and uses the Greek numeral one of God, and in 1 Corinthians 8:4 Paul writes there is no God except one. Then in 1 Corinthians 8:6 Paul takes that one confession and names one God the Father and one Lord Jesus Christ inside it, with the words from whom and through whom mapping creation to both. He does not produce two gods. He places Father and Son within the single deity. Matthew 28:19 keeps the same balance, using a singular word name over three distinct named Persons, which blocks both three gods and a collapse into one Person. The seam that lets readers diverge is the numeral one, since it can mean either a bare single unit or a composite unity. The exclusivity particles settle the question against three gods, while the distinct named Persons inside the one confession keep the persons from being erased. The lexical pattern supports the proposition that the three Persons are one God and not three separate gods.",
+  "lay_summary": "The Hebrew Bible repeatedly says God is one, but the word one is not the whole argument. Deuteronomy 6:4 puts 'the LORD' (YHWH, יְהוָה) together with the cardinal number 'one' (echad, אֶחָד) in predicate position (the slot completing an 'X is Y' statement), 'the LORD our God is one'. Yet the same Hebrew word for one ('echad') also describes a husband and wife becoming one flesh in Genesis 2:24 and a crowd acting as one people in Genesis 11:6, so by itself the number one can describe a unity that still contains more than one part. The real force against three gods comes from the exclusivity words (small Hebrew words meaning 'no other' or 'besides'). Isaiah 45:5 stacks several small particles meaning no, none, no other, besides me ('there is none' (ayin), 'not' (lo), 'besides' (zulah), 'still' (od)). Isaiah 44:6 adds 'first and last and besides me there is no god', using a second rare word for besides ('biladey'). Deuteronomy 4:35 repeats 'no other besides him'. These words flatly deny that any other god exists alongside 'the LORD' (YHWH), which is exactly what rules out three separate gods. The New Testament keeps this count. In Mark 12:29 Jesus quotes the Shema (the daily Jewish confession) and uses the Greek number 'one' ('heis') of God, and in 1 Corinthians 8:4 Paul writes there is no God except one. Then in 1 Corinthians 8:6 Paul takes that one confession and names 'one God the Father' ('heis theos ho pater') and 'one Lord Jesus Christ' ('heis kyrios') inside it, with the words 'from whom' and 'through whom' mapping creation to both. He does not produce two gods. He places Father and Son within the single deity. Matthew 28:19 keeps the same balance, using a singular word 'name' ('onoma') over three distinct named Persons, which blocks both three gods and a collapse into one Person. The seam that lets readers diverge is the number one, since it can mean either a bare single unit or a composite unity. The exclusivity particles settle the question against three gods, while the distinct named Persons inside the one confession keep the persons from being erased. The lexical pattern supports the proposition that the three Persons are one God and not three separate gods.",
   "citations": [
     {
       "type": "morphology",

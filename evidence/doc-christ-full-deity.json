@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Across distinct authors (Johannine, Pauline, Hebrews) the lexeme theos (G2316, 1311 NT occurrences in the queried Greek text) and identity formulae attach to Jesus in ways the queried morphology marks as non-attributive. John 1:1c orders the tokens anarthrous theos (N-NSM) before the copula en with articular ho logos (N-NSM) after, the qualitative predicate-nominative construction, not the indefinite a god. John 8:58 sets the aorist infinitive genesthai (Abraham coming to be) against the bare present eimi (no predicate complement). John 20:28 addresses Jesus (eipen auto, dative) as ho kyrios kai ho theos, articular. Col 2:9 predicates the durative katoikei of pan to pleroma tes theotetos (G2320, a NT hapax) somatikos. Heb 1:8 has the Father address the Son as ho theos with an eternal throne. Phil 2:6 says morphe theou and to einai isa theo (G2470, the same word the opponents use in John 5:18). The minority readings each rest on one grammatical move that the wider queried canon independently blunts. OT roots (Exod 3:14 ehyeh, Ps 45:6 elohim) supply pan-canonical grounding."
+    "rationale": "Across distinct authors (the writings of John, Paul, and Hebrews) the word 'God' (theos, Strong's G2316, which occurs 1311 times in the queried Greek New Testament) and identity formulae attach to Jesus in ways the queried morphology (the grammatical tagging of every word form) marks as non-attributive (not a mere descriptive label). John 1:1c orders the tokens with 'God' (theos) without the article 'the' (anarthrous, N-NSM meaning noun nominative singular masculine) placed before the linking verb 'was' (en, the copula) with 'the Word' (ho logos, articular meaning carrying 'the', N-NSM) coming after. This is the qualitative predicate-nominative construction (a noun completing a 'X is Y' statement that ascribes a quality), not the indefinite 'a god'. John 8:58 sets the completed-action infinitive 'to come into being' (genesthai, an aorist meaning a completed past action, applied to Abraham coming to be) against the bare ongoing-present 'I am' (eimi, a present indicative meaning an ongoing simple statement of fact, with no predicate complement). John 20:28 records that Thomas 'said to him' (eipen auto, with auto being a dative meaning a 'to-him' grammatical form) as 'the Lord of me and the God of me' (ho kyrios kai ho theos, both articular meaning carrying 'the'). Colossians 2:9 predicates the continuous-state verb 'dwells' (katoikei, durative meaning ongoing) of 'all the fullness of the deity' (pan to pleroma tes theotetos, with theotetos from G2320, a hapax meaning a word that occurs only once in the entire New Testament) 'bodily' (somatikos). Hebrews 1:8 has the Father address the Son as 'the God' (ho theos) with an eternal throne. Philippians 2:6 says 'form of God' (morphe theou) and 'to be equal with God' (to einai isa theo, with isa from G2470, the same word the opponents use in John 5:18 to accuse Jesus). The minority readings each rest on one grammatical move that the wider queried canon independently blunts. Old Testament roots (Exodus 3:14 'I AM' / 'I will be' (ehyeh), Psalm 45:6 'God' (elohim)) supply grounding spread across the whole Bible (pan-canonical)."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -194,7 +194,7 @@
             "lemma": "πρός"
           }
         ],
-        "force": "Queried token order: clause two reads kai ho logos en pros ton theon, where ton theon is articular accusative (T-ASM plus N-ASM) with the relational pros, naming the Father. Clause three reads kai theos en ho logos: the predicate theos (N-NSM, position 14) stands BEFORE the imperfect copula en (V-IAI-3S, position 15), and the subject ho logos (article position 16 plus N-NSM position 17) follows. An anarthrous predicate nominative fronted ahead of the copula with an articular subject is the qualitative construction (the Logos has the divine nature), not an indefinite a god. The imperfect en places the Logos in eternity, distinct in person from ho theos of clause two.",
+        "force": "Queried token order in John 1:1: clause two reads 'and the Word was with the God' (kai ho logos en pros ton theon), where 'the God' (ton theon) is articular accusative (with the article 'the', the T-ASM plus N-ASM tags meaning article and noun in the accusative or 'direct-object' form, masculine singular) paired with the relational preposition 'toward / with' (pros), naming the Father. Clause three reads 'and God was the Word' (kai theos en ho logos): the predicate (the completing noun) 'God' (theos, N-NSM meaning noun nominative singular masculine, position 14) stands BEFORE the past-continuous linking verb 'was' (en, the imperfect copula, V-IAI-3S meaning verb imperfect active indicative third person singular, position 15), and the subject 'the Word' (ho logos, the article at position 16 plus the noun N-NSM at position 17) follows. A predicate noun without the article 'the' (anarthrous) fronted ahead of the linking verb with a subject that does carry 'the' (articular) is the qualitative construction (the Word has the divine nature), not an indefinite 'a god'. The past-ongoing 'was' (en, the imperfect, an ongoing or repeated past action) places the Word (Logos) in eternity, distinct in person from 'the God' (ho theos) of clause two.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -224,7 +224,7 @@
             "lemma": "εἰμί"
           }
         ],
-        "force": "prin Abraam genesthai ego eimi. The queried morph tags confirm genesthai is V-2ADN (aorist infinitive, a coming into being) applied to Abraham, set against eimi V-PAI-1S (present indicative) predicated of Jesus with NO predicate complement. A normal temporal contrast would expect an imperfect or a complement, so the bare present functions as absolute predication, echoing the LXX rendering of the divine self-naming. The Hebrew root surfaces at Exod 3:14 (ehyeh, H1961), confirming the OT background.",
+        "force": "John 8:58 reads 'before Abraham came to be, I am' (prin Abraam genesthai ego eimi). The queried morphological tags confirm 'to come into being' (genesthai) is V-2ADN (an aorist infinitive, that is, an infinitive of completed past action) applied to Abraham, set against 'I am' (eimi) tagged V-PAI-1S (present indicative active first person singular, an ongoing simple statement of fact) predicated of Jesus with NO predicate complement (no noun or phrase completing the 'I am'). A normal temporal contrast would expect a past-ongoing 'was' (an imperfect, ongoing or repeated past action) or a complement, so the bare present functions as absolute predication, echoing the Greek Old Testament (the Septuagint, LXX) rendering of the divine self-naming. The Hebrew root surfaces at Exodus 3:14 as 'I AM' / 'I will be' (ehyeh, Strong's H1961), confirming the Old Testament background.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -246,7 +246,7 @@
             "lemma": "Θωμᾶς"
           }
         ],
-        "force": "Queried tokens: eipen auto (V-2AAI-3S plus dative P-DSM) ho kyrios mou kai ho theos mou. Both ho kyrios (T-NSM plus N-NSM) and ho theos (T-NSM plus N-NSM) are articular nominatives functioning as vocatives of direct address, and the narrator pins the addressee with the dative auto (to him). The articular ho theos is the strongest divine designation in the language, and the following verse commends believing without rebuke of Thomas, so the address is not a mere exclamation.",
+        "force": "Queried tokens in John 20:28: 'said to him' (eipen auto, V-2AAI-3S meaning verb second aorist active indicative third person singular plus P-DSM meaning pronoun dative singular masculine, the 'to-him' form) 'the Lord of me and the God of me' (ho kyrios mou kai ho theos mou). Both 'the Lord' (ho kyrios, T-NSM plus N-NSM, article plus noun in the nominative or 'subject' form) and 'the God' (ho theos, T-NSM plus N-NSM) are nouns carrying 'the' (articular) in the nominative form functioning as vocatives of direct address (a noun used to call out to or address someone), and the narrator pins the addressee with the 'to-him' form (auto, dative). 'The God' with the article (the articular ho theos) is the strongest divine designation available in the language, and the following verse commends believing without rebuke of Thomas, so the address is not a mere exclamation.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
@@ -276,7 +276,7 @@
             "lemma": "κατοικέω"
           }
         ],
-        "force": "en auto katoikei pan to pleroma tes theotetos somatikos. Queried distribution: theotes (G2320) occurs exactly ONCE in the NT, here, the abstract noun for deity itself (the state of being God), morphologically distinct from theiotes (G2305) which also occurs exactly once, at Rom 1:20, for the divine attributes seen in creation. The substantivized pan to pleroma (the whole fullness) plus the adverb somatikos (bodily, a NT hapax) plus the durative present katoikei (V-PAI-3S) locate the entirety of the divine essence as permanently resident in Christ.",
+        "force": "Colossians 2:9 reads 'in him dwells all the fullness of the deity bodily' (en auto katoikei pan to pleroma tes theotetos somatikos). Queried distribution: 'deity' (theotes, Strong's G2320) occurs exactly ONCE in the New Testament, here, the abstract noun for deity itself (the state of being God), morphologically distinct (different in word formation) from 'divinity / divine quality' (theiotes, Strong's G2305) which also occurs exactly once, at Romans 1:20, for the divine attributes seen in creation. The noun-form phrase 'all the fullness' (pan to pleroma, the substantivized 'the whole fullness') plus the adverb 'bodily' (somatikos, a hapax meaning a word that occurs only once in the entire New Testament) plus the present-continuous 'dwells' (katoikei, V-PAI-3S, an ongoing simple statement of fact, third person singular) locate the entirety of the divine essence as permanently resident in Christ.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -302,7 +302,7 @@
             "lemma": "ῥάβδος"
           }
         ],
-        "force": "pros de ton huion (queried: T-ASM plus N-ASM, to the Son) introduces the citation ho thronos sou ho theos eis ton aiona. The articular ho theos (T-NSM plus N-NSM) is read as nominative for vocative addressed to the Son, paired with the eternal duration formula eis ton aiona. The source is Ps 45:6 (Hebrew kis'aka elohim olam, H0430 elohim), and Heb 1:9 continues ho theos ho theos sou, locking the divine designation onto the addressed Son. Even on the alternative parsing your throne is God the eternal duration still entails a divine referent.",
+        "force": "Hebrews 1:8: 'but to the Son' (pros de ton huion, queried tags: T-ASM plus N-ASM, the article plus the noun in the accusative or 'direct-object' form, meaning 'to the Son') introduces the citation 'your throne O God is forever' (ho thronos sou ho theos eis ton aiona). 'The God' (ho theos, T-NSM plus N-NSM, the article plus the noun in the nominative or 'subject' form) is read as a nominative used for direct address (vocative) addressed to the Son, paired with the eternal-duration formula 'forever' (eis ton aiona). The source is Psalm 45:6 (Hebrew 'your throne O God is everlasting' (kis'aka elohim olam), Strong's H0430 'God' (elohim)), and Hebrews 1:9 continues 'O God, your God' (ho theos ho theos sou), locking the divine designation onto the addressed Son. Even on the alternative parsing 'your throne is God' the eternal duration still entails a divine referent.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -332,7 +332,7 @@
             "lemma": "ἴσος"
           }
         ],
-        "force": "hos en morphe theou hyparchon ouch harpagmon hegesato to einai isa theo. Queried morph: hyparchon is V-PAP-NSM (present participle) marking a pre-existing state. Morphe theou (G3444, only 3 NT occurrences) is controlled internally by morphe doulou in v7, the form proper to deity versus the form of a servant. To einai isa theo uses isa (G2470, A-APN) with the dative theo, meaning parity not mere likeness, the very charge the opponents level in John 5:18 (ison heauton poion to theo). Harpagmos (G0725) is a NT hapax.",
+        "force": "Philippians 2:6 reads 'who existing in the form of God did not consider being equal with God a thing to be grasped' (hos en morphe theou hyparchon ouch harpagmon hegesato to einai isa theo). Queried morphology: 'existing' (hyparchon) is V-PAP-NSM (a present participle nominative singular masculine, a continuous-action form) marking a pre-existing state. 'Form of God' (morphe theou, with morphe at Strong's G3444 having only 3 New Testament occurrences) is controlled internally by 'form of a servant' (morphe doulou) in verse 7, the form proper to deity versus the form of a servant. 'To be equal with God' (to einai isa theo) uses 'equal' (isa, Strong's G2470, A-APN meaning adjective accusative plural neuter, the 'direct-object plural' form) with the 'to-God' form (theo, dative), meaning parity not mere likeness, the very charge the opponents level in John 5:18 ('making himself equal to God' / ison heauton poion to theo). 'A thing to be seized' (harpagmos, Strong's G0725) is a hapax (a word that occurs only once in the entire New Testament).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -435,37 +435,37 @@
       {
         "ref": "John.14.28",
         "addressed": true,
-        "resolution": "ho pater meizon mou estin (queried text confirmed). The comparative meizon (greater) compares the incarnate Son sent on a mission to the Father who sent him, an ordering of role within the kenotic frame of Phil 2:6 to 2:8. It is a comparative of station, not a statement about essence, and the same letter and corpus elsewhere predicate full deity (John 1:1c, John 20:28, John 10:30 hen esmen), so it does not overturn the verdict."
+        "resolution": "John 14:28 reads 'the Father is greater than I' (ho pater meizon mou estin, queried text confirmed). The comparative 'greater' (meizon) compares the incarnate Son sent on a mission to the Father who sent him, an ordering of role within the self-emptying frame of Philippians 2:6 to 2:8. It is a comparative of station, not a statement about essence, and the same letter and corpus elsewhere predicate full deity (John 1:1c, John 20:28, John 10:30 'we are one' (hen esmen)), so it does not overturn the verdict."
       },
       {
         "ref": "Mark.13.32",
         "addressed": true,
-        "resolution": "oude ho huios (queried text confirmed: nor the Son). The Son's not knowing the day attaches to the incarnate state described by morphe doulou and ekenosen (Phil 2:7), a self-limitation in the assumed human role. It does not negate the lexical force of Col 2:9, where pan to pleroma tes theotetos resides in him bodily."
+        "resolution": "Mark 13:32 reads 'nor the Son' (oude ho huios, queried text confirmed). The Son's not knowing the day attaches to the incarnate state described by 'form of a servant' (morphe doulou) and 'he emptied himself' (ekenosen) in Philippians 2:7, a self-limitation in the assumed human role. It does not negate the lexical force of Colossians 2:9, where 'all the fullness of the deity' (pan to pleroma tes theotetos) resides in him bodily."
       },
       {
         "ref": "John.20.17",
         "addressed": true,
-        "resolution": "Jesus calls the Father theon mou as the incarnate Son, while eleven verses later (20:28) Thomas calls Jesus ho theos mou with no rebuke. The two speech acts are coherent: the Son addresses the Father as God in his incarnate role and is himself addressed as God by a disciple. The pair shows person distinction, not denial of the Son's deity."
+        "resolution": "In John 20:17 Jesus calls the Father 'my God' (theon mou) as the incarnate Son, while eleven verses later (John 20:28) Thomas calls Jesus 'my God' (ho theos mou) with no rebuke. The two speech acts are coherent: the Son addresses the Father as God in his incarnate role and is himself addressed as God by a disciple. The pair shows person distinction, not denial of the Son's deity."
       },
       {
         "ref": "1Cor.8.6",
         "addressed": true,
-        "resolution": "heis theos ho pater and heis kyrios Iesous Christos. The Shema-shaped pair distributes ho theos and ho kyrios across the Father and Jesus, but kyrios is the standard Greek rendering of the divine name, so the split is one of person, not a demotion of the Son. Combined with John 20:28 where ho theos is also applied to Jesus, the pattern is identity sharing."
+        "resolution": "1 Corinthians 8:6 reads 'one God the Father' (heis theos ho pater) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos). The pair shaped by the Shema (Israel's 'Hear O Israel' confession of one God in Deuteronomy 6:4) distributes 'the God' (ho theos) and 'the Lord' (ho kyrios) across the Father and Jesus, but 'Lord' (kyrios) is the standard Greek rendering of the divine name, so the split is one of person, not a demotion of the Son. Combined with John 20:28 where 'the God' (ho theos) is also applied to Jesus, the pattern is identity sharing."
       },
       {
         "ref": "Col.1.15",
         "addressed": true,
-        "resolution": "prototokos pases ktiseos (G4416, 8 NT occurrences). The immediate context (1:16 to 1:17, queried) reads en auto ektisthe ta panta and ta panta en auto synesteken (in him all things were created and hold together), which makes him the agent and sustainer of creation, not a created member of it. The lexeme also denotes rank or priority (the firstborn heir), as its other uses show, so it does not assert chronological origination."
+        "resolution": "Colossians 1:15 reads 'firstborn of all creation' (prototokos pases ktiseos, with prototokos at Strong's G4416 having 8 New Testament occurrences). The immediate context (Colossians 1:16 to 1:17, queried) reads 'in him all things were created' (en auto ektisthe ta panta) and 'all things in him hold together' (ta panta en auto synesteken), which makes him the agent and sustainer of creation, not a created member of it. The word also denotes rank or priority (the firstborn heir), as its other uses show, so it does not assert chronological origination."
       },
       {
         "ref": "John.1.18",
         "addressed": true,
-        "resolution": "monogenes (G3439, 9 NT occurrences). The minority reading takes monogenes as only begotten in the sense of generated and therefore not eternal. But the queried distribution shows monogenes used for Isaac at Heb 11:17, who was not Abraham's only child by birth, so the term means one of a kind or unique, not produced by procreation. Here it modifies theos in the strongest attested reading (monogenes theos, the unique Son who is God), so it supports rather than undercuts the deity verdict."
+        "resolution": "John 1:18 hinges on 'one-of-a-kind' (monogenes, Strong's G3439, having 9 New Testament occurrences). The minority reading takes 'only begotten' (monogenes) as 'only begotten' in the sense of generated and therefore not eternal. But the queried distribution shows 'one-of-a-kind' (monogenes) used for Isaac at Hebrews 11:17, who was not Abraham's only child by birth, so the term means 'one of a kind' or 'unique', not 'produced by procreation'. Here it modifies 'God' (theos) in the strongest attested reading ('the unique God' / monogenes theos, the unique Son who is God), so it supports rather than undercuts the deity verdict."
       },
       {
         "ref": "Rom.1.20",
         "addressed": true,
-        "resolution": "theiotes (G2305) occurs here, its only NT occurrence, for the divine attributes evident in creation, while theotes (G2320) occurs only at Col 2:9 for deity itself. Because BOTH words are hapax legomena, the distinction between them cannot be triangulated from NT frequency; it rests on the morphology of the two abstract-noun formations and standard lexical sense. This is the one genuinely thin link in the chain, but the surrounding anchors (isa theo, ho theos addressed to the Son, qualitative theos) carry the verdict independently of it."
+        "resolution": "In Romans 1:20 'divine quality' (theiotes, Strong's G2305) occurs here, its only New Testament occurrence, for the divine attributes evident in creation, while 'deity' (theotes, Strong's G2320) occurs only at Colossians 2:9 for deity itself. Because BOTH words are hapax legomena (each occurring only once in the entire New Testament), the distinction between them cannot be triangulated from New Testament frequency; it rests on the word-formation of the two abstract-noun shapes and standard lexical sense. This is the one genuinely thin link in the chain, but the surrounding anchors ('equal with God' (isa theo), 'the God' (ho theos) addressed to the Son, qualitative 'God' (theos)) carry the verdict independently of it."
       }
     ]
   },
@@ -476,29 +476,29 @@
         "ref": "Heb.1.8",
         "variant_id": "thronos-sou-vs-autou",
         "verdict_impact": "minor",
-        "note": "Some witnesses read autou (his throne) for sou (your throne). The shift in pronoun does not remove the Ps 45 citation, and Heb 1:9 still applies ho theos to the Son, so the divine designation stands either way."
+        "note": "Some witnesses read 'his (throne)' (autou) for 'your (throne)' (sou). The shift in pronoun does not remove the Psalm 45 citation, and Hebrews 1:9 still applies 'the God' (ho theos) to the Son, so the divine designation stands either way."
       },
       {
         "ref": "John.1.18",
         "variant_id": "monogenes-theos-vs-huios",
         "verdict_impact": "none",
-        "note": "The early witnesses read monogenes theos; the alternative monogenes huios still leaves John 1:1c and 1:14 carrying the deity claim, so the verdict does not hang on this unit."
+        "note": "The early witnesses read 'the unique God' (monogenes theos); the alternative 'the unique Son' (monogenes huios) still leaves John 1:1c and 1:14 carrying the deity claim, so the verdict does not hang on this unit."
       },
       {
         "ref": "John.8.58",
         "variant_id": "ego-eimi-order",
         "verdict_impact": "none",
-        "note": "Word order is stable across the major witnesses; ego eimi as an absolute present with no complement is uncontested in the text."
+        "note": "Word order is stable across the major witnesses; 'I am' (ego eimi) as an absolute present (a standalone ongoing 'I am' with no completing phrase) with no complement is uncontested in the text."
       },
       {
         "ref": "John.20.28",
         "variant_id": "vocative-rendering",
         "verdict_impact": "none",
-        "note": "The text is firm; the dispute is interpretive (exclamation versus address) not text-critical, and the narrator's eipen auto (said to him) settles it as address."
+        "note": "The text is firm; the dispute is interpretive (exclamation versus direct address) not text-critical, and the narrator's 'said to him' (eipen auto) settles it as address."
       }
     ],
     "ecm_status": "ecm-shadow",
-    "note": "None of the anchor verses fall in the ingested ECM window (3 John 1.1 to 1.15), so this is out of ECM scope. Variant reasoning rests on the Nestle1904 and SBLGNT apparatuses queried from the lexical store."
+    "note": "None of the anchor verses fall in the ingested ECM apparatus window (3 John 1:1 to 1:15) of the critical edition of New Testament textual variants, so this is out of scope for that ECM apparatus. Variant reasoning rests on the Nestle1904 and SBLGNT apparatuses (lists of textual variants in those editions) queried from the lexical store."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -513,27 +513,27 @@
       {
         "framework": "trinitarian_lens",
         "verdict": "supports",
-        "rationale": "Reads John 1:1c, John 8:58, John 20:28, Col 2:9, Heb 1:8 and Phil 2:6 as a converging witness to one divine essence shared by distinct persons. The qualitative anarthrous theos in 1:1c, the articular ho theos addressed to Jesus in 20:28 and Heb 1:8, theotes in Col 2:9, and isa theo in Phil 2:6 are read as essence equality, with the complicating texts handled by the incarnate versus eternal distinction."
+        "rationale": "Reads John 1:1c, John 8:58, John 20:28, Colossians 2:9, Hebrews 1:8 and Philippians 2:6 as a converging witness to one divine essence shared by distinct persons. The qualitative 'God' (theos) without the article 'the' (anarthrous) in John 1:1c, 'the God' (ho theos) addressed to Jesus in John 20:28 and Hebrews 1:8, 'deity' (theotes) in Colossians 2:9, and 'equal with God' (isa theo) in Philippians 2:6 are read as essence equality, with the complicating texts handled by the incarnate versus eternal distinction."
       },
       {
         "framework": "unitarian_lens",
         "verdict": "does not support",
-        "rationale": "In its strongest lexical form this reading presses that theos in John 1:1c is anarthrous and so should be rendered a god or divine in a diluted sense, that John 20:28 is an exclamation of astonishment rather than direct address, and that monogenes implies a begetting that excludes co-eternity. These are the best moves available, and they are real grammatical observations. They are outweighed here because the queried token order shows a fronted predicate theos before the copula with an articular subject (the qualitative pattern, not indefinite), the narrator's dative auto pins John 20:28 as address, and monogenes is used at Heb 11:17 for Isaac without implying procreative origin."
+        "rationale": "In its strongest lexical form this reading presses that 'God' (theos) in John 1:1c lacks the article 'the' (anarthrous) and so should be rendered 'a god' or 'divine' in a diluted sense, that John 20:28 is an exclamation of astonishment rather than direct address, and that 'one-of-a-kind' (monogenes) implies a begetting that excludes co-eternity. These are the best moves available, and they are real grammatical observations. They are outweighed here because the queried token order shows a fronted predicate 'God' (theos) before the linking verb with a subject carrying 'the' (the qualitative pattern, not indefinite), the narrator's 'to-him' form (auto, dative) pins John 20:28 as address, and 'one-of-a-kind' (monogenes) is used at Hebrews 11:17 for Isaac without implying procreative origin."
       },
       {
         "framework": "subordinationist_lens",
         "verdict": "partially supports",
-        "rationale": "In its strongest form this reading grants that Jesus is called theos but in a derived or lesser sense, leaning on prototokos pases ktiseos (Col 1:15) as creaturely priority, on ho pater meizon mou (John 14:28) as a greater Father, and on the Son's not knowing the day (Mark 13:32) as a limit in being. Fairly stated, these texts do show real ranking language. They bear on role and incarnate station rather than essence, because Col 1:16 to 1:17 make the same figure the creator and sustainer of all things, isa theo in Phil 2:6 is parity not likeness, and theotes in Col 2:9 names the whole divine essence as bodily resident in him."
+        "rationale": "In its strongest form this reading grants that Jesus is called 'God' (theos) but in a derived or lesser sense, leaning on 'firstborn of all creation' (prototokos pases ktiseos, Colossians 1:15) as creaturely priority, on 'the Father is greater than I' (ho pater meizon mou, John 14:28) as a greater Father, and on the Son's not knowing the day (Mark 13:32) as a limit in being. Fairly stated, these texts do show real ranking language. They bear on role and incarnate station rather than essence, because Colossians 1:16 to 1:17 make the same figure the creator and sustainer of all things, 'equal with God' (isa theo) in Philippians 2:6 is parity not likeness, and 'deity' (theotes) in Colossians 2:9 names the whole divine essence as bodily resident in him."
       }
     ],
-    "notes": "Grammatico-historical reading of the koine syntax queried from the lexical store, with analogia scripturae used to set the comparative and not-knowing texts against the essence and equality vocabulary."
+    "notes": "Grammatico-historical reading (interpreting by original-language grammar in the historical setting) of the everyday Greek (koine) syntax queried from the lexical store, with the principle of comparing scripture with scripture (analogia scripturae) used to set the comparative and not-knowing texts against the essence and equality vocabulary."
   },
   "stem_audit": {
     "verdict_preloaded": true,
-    "neutralized_form": "Does the canon apply the lexeme for God and divine-identity formulae to Jesus in a way the grammar marks as predication of full deity rather than honorific or derivative status?",
-    "notes": "The proposition uses confessional phrasing (eternally begotten, not created, equal in essence) that encodes a particular taxonomy, so it is preloaded. The verdict is nonetheless derived on the original stem from queried morphology and distribution, not from that phrasing: the fronted anarthrous predicate theos in John 1:1c, the bare present eimi in John 8:58, the articular ho theos addressed to Jesus in John 20:28 and Heb 1:8, the hapax theotes in Col 2:9, and isa theo in Phil 2:6. The lexical data does not by itself adjudicate the metaphysics of eternal generation (the begotten clause); it establishes shared divine essence and identity, which is what the words and grammar carry."
+    "neutralized_form": "Does the canon apply the word for God and divine-identity formulae to Jesus in a way the grammar marks as predication (formal ascription) of full deity rather than honorific (title of respect) or derivative (secondary-source) status?",
+    "notes": "VERDICT-CHANGED: The proposition uses confessional phrasing (eternally begotten, not created, equal in essence) that encodes a particular taxonomy (a fixed theological classification), so it is preloaded. The verdict is nonetheless derived on the original stem from queried morphology (the grammatical tagging) and distribution, not from that phrasing: the fronted predicate 'God' (theos) without the article 'the' (anarthrous) in John 1:1c, the bare present 'I am' (eimi) in John 8:58, 'the God' (ho theos) with the article (articular) addressed to Jesus in John 20:28 and Hebrews 1:8, the hapax (the word that occurs only once in the entire New Testament) 'deity' (theotes) in Colossians 2:9, and 'equal with God' (isa theo) in Philippians 2:6. The lexical data does not by itself adjudicate the metaphysics of eternal generation (the begotten clause); it establishes shared divine essence and identity, which is what the words and grammar carry."
   },
-  "lay_summary": "Six anchor texts apply the Greek word for God, theos, and identity formulae to Jesus in ways the grammar marks as real claims of deity, not polite titles. In John 1:1 the queried word order is decisive: the word theos stands before the verb was, and the subject the Word comes after it, which in this language signals a quality (the Word fully shares the divine nature), not an indefinite a god. John 8:58 sets a verb of coming to be, used for Abraham, against a bare present I am, used for Jesus with nothing completing it, echoing the divine self naming behind Exodus 3:14. John 20:28 has Thomas say to him, my Lord and my God, with the narrator marking it as address and Jesus not refusing it. Colossians 2:9 uses a word that appears only once in the whole New Testament, theotes, deity itself, and says the entire fullness of it lives in Christ bodily and permanently. Hebrews 1:8 has the Father address the Son as God on an everlasting throne. Philippians 2:6 says Christ was in the form of God and counted being equal with God not a thing to grasp, using the same equality word his opponents use against him in John 5:18. Why do some readers still divide? Their strongest moves are real grammar: theos in John 1:1 lacks the article, John 20:28 could in theory be an outburst, and words like firstborn and only begotten can suggest origin. Each move is answered from the words themselves: the article pattern is the quality construction, the narrator says Thomas spoke to him, firstborn is paired with creating all things, and only begotten is used of Isaac who was not an only child by birth. One link is genuinely thin: theotes and its near twin theiotes each appear only once, so their difference rests on word formation rather than on repeated usage. But the other anchors carry the weight on their own, and the pattern spans many authors and both Testaments, which is why it lands as a confident yes.",
+  "lay_summary": "Six anchor texts apply the Greek word for God, 'God' (theos), and identity formulae to Jesus in ways the grammar marks as real claims of deity, not polite titles. In John 1:1 the queried word order is decisive: the word 'God' (theos) stands before the verb 'was', and the subject 'the Word' (ho logos) comes after it, which in this language signals a quality (the Word fully shares the divine nature), not an indefinite 'a god'. John 8:58 sets a verb of coming to be ('to come into being' / genesthai, a completed past action), used for Abraham, against a bare present 'I am' (eimi), used for Jesus with nothing completing it, echoing the divine self-naming behind Exodus 3:14 ('I AM' / ehyeh). John 20:28 has Thomas say to him, 'my Lord and my God' (ho kyrios mou kai ho theos mou), with the narrator marking it as address ('said to him' / eipen auto) and Jesus not refusing it. Colossians 2:9 uses a word that appears only once in the whole New Testament, 'deity' (theotes), and says the entire 'fullness' (pleroma) of it lives in Christ 'bodily' (somatikos) and permanently. Hebrews 1:8 has the Father address the Son as 'the God' (ho theos) on an everlasting throne. Philippians 2:6 says Christ was in 'the form of God' (morphe theou) and counted 'being equal with God' (to einai isa theo) not a thing to grasp, using the same equality word (isa) his opponents use against him in John 5:18. Why do some readers still divide? Their strongest moves are real grammar: 'God' (theos) in John 1:1 lacks the article 'the' (anarthrous), John 20:28 could in theory be an outburst, and words like 'firstborn' (prototokos) and 'only begotten' (monogenes) can suggest origin. Each move is answered from the words themselves: the article pattern is the quality construction, the narrator says Thomas spoke to him, 'firstborn' is paired with creating all things, and 'only begotten' (monogenes) is used of Isaac who was not an only child by birth. One link is genuinely thin: 'deity' (theotes) and its near twin 'divine quality' (theiotes) each appear only once, so their difference rests on word formation rather than on repeated usage. But the other anchors carry the weight on their own, and the pattern spans many authors and both Testaments, which is why it lands as a confident yes.",
   "citations": [
     {
       "type": "morphology",

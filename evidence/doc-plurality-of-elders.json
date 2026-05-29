@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Direct MorphGNT query confirms presbyteros is plural in every local-church appointment text: Acts 14:23 and Titus 1:5 both read presbyterous as accusative plural masculine objects of the appointing verb, distributed kat ekklesian and kata polin, so a plurality is set over each single congregation. Acts 20:17 calls the Ephesian elders presbyterous (plural), then 20:28 names the same men episkopous (plural) and commands them to poimainein, fusing three terms into one plural office. Philippians 1:1 greets episkopois and diakonois, both dative plural, in one church. Across the whole canon presbyteros occurs 65 times in SBLGNT, 60 of them plural, and the only singular leadership titles, archipoimenos and the generic singular episkopon, are reserved for Christ or describe candidate qualification rather than a sole ruler. The plural-oversight pattern is uniform across Acts, Paul, Hebrews, James, and 1 Peter. What the vocabulary does not settle by itself is whether this pervasive descriptive pattern is binding prescription, which is the genuine point of divergence."
+    "rationale": "A direct query of the morphologically tagged Greek New Testament (MorphGNT) confirms that the word for elder (presbyteros) is plural in every local-church appointment text: Acts 14:23 and Titus 1:5 both read elders (presbyterous) as accusative plural masculine (the direct object form) objects of the appointing verb, distributed by congregation (kat ekklesian) and by city (kata polin), so a plurality is set over each single congregation. Acts 20:17 calls the Ephesian elders elders (presbyterous, plural), then 20:28 names the same men overseers (episkopous, plural) and commands them to shepherd (poimainein), fusing three terms into one plural office. Philippians 1:1 greets overseers (episkopois) and deacons (diakonois), both dative plural (the to-or-for form), in one church. Across the whole canon elder (presbyteros) occurs 65 times in the SBL Greek New Testament (SBLGNT), 60 of them plural, and the only singular leadership titles, Chief Shepherd (archipoimenos) and the generic singular overseer (episkopon), are reserved for Christ or describe candidate qualification rather than a sole ruler. The plural-oversight pattern is uniform across Acts, Paul, Hebrews, James, and 1 Peter. What the vocabulary does not settle by itself is whether this pervasive descriptive pattern is binding prescription, which is the genuine point of divergence."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -108,7 +108,7 @@
             "lemma": "ἐκκλησίαν"
           }
         ],
-        "force": "MorphGNT parses presbyterous as accusative plural masculine, the object of the appointing participle cheirotonesantes. The distributive kat ekklesian sets one plural eldership over each individual congregation. The grammar yokes a plurality of elders to each single assembly, not one elder over many congregations and not many congregations under one elder.",
+        "force": "The morphologically tagged Greek New Testament (MorphGNT) parses elders (presbyterous) as accusative plural masculine (the direct object form), the object of the appointing participle having appointed (cheirotonesantes). The distributive by-congregation phrase (kat ekklesian) sets one plural eldership over each individual congregation. The grammar yokes a plurality of elders to each single assembly, not one elder over many congregations and not many congregations under one elder.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -126,7 +126,7 @@
             "lemma": "ἐκκλησίας"
           }
         ],
-        "force": "Paul summons the presbyterous, accusative plural, of the one Ephesian church (genitive singular ekklesias). A single named city church has multiple elders. This is the basic plurality datum, a plural body for one assembly.",
+        "force": "Paul summons the elders (presbyterous), accusative plural (the direct object form), of the one Ephesian church (ekklesias, genitive singular, the 'of-the' form). A single named city church has multiple elders. This is the basic plurality datum, a plural body for one assembly.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -148,7 +148,7 @@
             "lemma": "ποιμνίῳ"
           }
         ],
-        "force": "The same plural men just called presbyterous are now addressed as episkopous, accusative plural, and told to poimainein the flock (present active infinitive). Three terms, presbyteros, episkopos, and the shepherding verb, name one plural office, which collapses any built-in tier between a single pastor and an elder board. The well-known theou versus kyriou variant on whose flock it is does not touch the plurality of the overseers or the shepherding mandate.",
+        "force": "The same plural men just called elders (presbyterous) are now addressed as overseers (episkopous), accusative plural (the direct object form), and told to shepherd (poimainein) the flock (present active infinitive, an ongoing 'to shepherd' command form). Three terms, elder (presbyteros), overseer (episkopos), and the shepherding verb (poimainō), name one plural office, which collapses any built-in tier between a single pastor and an elder board. The well-known variant on whose flock it is, 'of God' (theou) versus 'of the Lord' (kyriou), does not touch the plurality of the overseers (episkopous) or the shepherding mandate.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -166,7 +166,7 @@
             "lemma": "κατὰ"
           }
         ],
-        "force": "Titus is to appoint presbyterous, accusative plural, kata polin, city by city. The distributive kata with the plural noun reproduces the Acts 14:23 pattern and prescribes a plural eldership for each locale. The verb katasteses is a direct instruction, which is the strongest prescriptive datum in the cluster.",
+        "force": "Titus is to appoint elders (presbyterous), accusative plural (the direct object form), city by city (kata polin). The distributive 'by' (kata) with the plural noun reproduces the Acts 14:23 pattern and prescribes a plural eldership for each locale. The verb 'you should appoint' (katasteses) is a direct instruction, which is the strongest prescriptive datum in the cluster.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -184,7 +184,7 @@
             "lemma": "Φιλίπποις"
           }
         ],
-        "force": "The letter greets episkopois, dative plural overseers, and diakonois, dative plural deacons, of the one Philippian church. A single congregation carries plural overseers with no named singular head. This is the clearest single-church plurality datum in the epistles because both office words are explicitly plural in one address.",
+        "force": "The letter greets overseers (episkopois), dative plural (the 'to-or-for' form) overseers, and deacons (diakonois), dative plural deacons, of the one Philippian church. A single congregation carries plural overseers with no named singular head. This is the clearest single-church plurality datum in the epistles because both office words are explicitly plural in one address.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -198,7 +198,7 @@
             "lemma": "πρεσβύτεροι"
           }
         ],
-        "force": "The ruling elders are hoi presbyteroi, nominative plural with the article, and a subset labor in word and teaching. Teaching and ruling sit within a plural body, and the malista clause distinguishes degree of labor among the elders rather than elevating one man above the rest.",
+        "force": "The ruling elders are 'the elders' (hoi presbyteroi), nominative plural (the subject form) with the article 'the', and a subset labor in word and teaching. Teaching and ruling sit within a plural body, and the 'especially' clause (malista) distinguishes degree of labor among the elders rather than elevating one man above the rest.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -216,7 +216,7 @@
             "lemma": "συμπρεσβύτερος"
           }
         ],
-        "force": "Peter exhorts presbyterous, accusative plural, and styles himself sympresbyteros, a singular noun whose syn- prefix marks him as fellow elder alongside them. So even the one singular term here is a collegial peer designation, not a designation of rule over them. The compound is lexically decisive for shared, peer eldership.",
+        "force": "Peter exhorts elders (presbyterous), accusative plural (the direct object form), and styles himself fellow elder (sympresbyteros), a singular noun whose 'with-' prefix (syn-) marks him as fellow elder alongside them. So even the one singular term here is a collegial peer designation, not a designation of rule over them. The compound is lexically decisive for shared, peer eldership.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -234,7 +234,7 @@
             "lemma": "ἐπισκοποῦντες"
           }
         ],
-        "force": "The plural elders are commanded poimanate, second person plural aorist imperative, to shepherd the flock, episkopountes, present participle nominative plural. The shepherding verb and the overseeing participle are both predicated of the same plural elders, again fusing presbyter, overseer, and shepherd into one collective function. Some witnesses omit episkopountes, but the plural imperative and plural address are unaffected.",
+        "force": "The plural elders are commanded 'shepherd!' (poimanate), second person plural aorist imperative (a completed-action command directed at 'you all'), to shepherd the flock, overseeing (episkopountes), present participle nominative plural (the ongoing 'overseeing' form used as a description of the subject). The shepherding verb and the overseeing participle are both predicated of the same plural elders, again fusing presbyter (presbyteros), overseer (episkopos), and shepherd (poimainō) into one collective function. Some witnesses omit overseeing (episkopountes), but the plural imperative and plural address are unaffected.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -248,7 +248,7 @@
             "lemma": "ποιμνίου"
           }
         ],
-        "force": "The plural elders are warned not to lord it over their allotments, me katakyrieuontes, but to be typoi, examples. The prohibition of domineering, predicated of the plural shepherds, lexically resists concentrated sole rule over the flock, though it constrains how leaders behave rather than fixing their number.",
+        "force": "The plural elders are warned not to lord it over their allotments, 'not lording it over' (me katakyrieuontes), but to be examples (typoi). The prohibition of domineering, predicated of the plural shepherds, lexically resists concentrated sole rule over the flock, though it constrains how leaders behave rather than fixing their number.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -262,7 +262,7 @@
             "lemma": "ἀρχιποίμενος"
           }
         ],
-        "force": "Christ alone is the archipoimēn, Chief Shepherd, genitive singular, the only hapax title for a singular head over the flock and a one-time word in the whole canon. The lone singular supreme-leadership term in the cluster is reserved for Christ, leaving the human office described in the plural.",
+        "force": "Christ alone is the Chief Shepherd (archipoimēn), genitive singular (the 'of-the' form), the only one-time word in the whole canon (a hapax, that is, a word that occurs only once in the entire Bible) used as a title for a singular head over the flock. The lone singular supreme-leadership term in the cluster is reserved for Christ, leaving the human office described in the plural.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -276,7 +276,7 @@
             "lemma": "ἡγουμένοις"
           }
         ],
-        "force": "Believers obey tois hēgoumenois, a present participle of hēgeomai in the dative plural, leaders who keep watch over their souls. The leadership term is plural here and again in verse 7 (genitive plural) and verse 24 (accusative plural). The word names a function rather than the presbyteros title, so it could in principle cover several polities, but in all three uses it is plural and so witnesses to multiple leaders over the assembly.",
+        "force": "Believers obey 'those leading' (tois hēgoumenois), a present participle of 'lead' (hēgeomai) in the dative plural (the 'to-or-for' form), leaders who keep watch over their souls. The leadership term is plural here and again in verse 7 (genitive plural, the 'of-the' form) and verse 24 (accusative plural, the direct object form). The word names a function rather than the elder (presbyteros) title, so it could in principle cover several polities, but in all three uses it is plural and so witnesses to multiple leaders over the assembly.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -294,7 +294,7 @@
             "lemma": "ἐκκλησίας"
           }
         ],
-        "force": "The sick believer summons tous presbyterous tes ekklesias, the elders, accusative plural, of the church, genitive singular. The plural is the default expectation for a single congregation in a non-Pauline writer, which broadens the witness beyond the Acts and Pauline material.",
+        "force": "The sick believer summons 'the elders of the church' (tous presbyterous tes ekklesias), the elders, accusative plural (the direct object form), of the church, genitive singular (the 'of-the' form). The plural is the default expectation for a single congregation in a non-Pauline writer, which broadens the witness beyond the Acts and Pauline material.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -308,7 +308,7 @@
             "lemma": "ἐπίσκοπον"
           }
         ],
-        "force": "Verse 7 shifts from plural presbyterous in verse 5 to singular ton episkopon, accusative singular. MorphGNT confirms the number change. The singular is generic and qualitative, describing the kind of man any one overseer must be, not the count of overseers, and the gar links it directly back to the plural appointment, so the same office is in view individuated for qualification.",
+        "force": "Verse 7 shifts from plural elders (presbyterous) in verse 5 to singular 'the overseer' (ton episkopon), accusative singular (the direct object form). The morphologically tagged Greek New Testament (MorphGNT) confirms the number change. The singular is generic and qualitative, describing the kind of man any one overseer must be, not the count of overseers, and the connector 'for' (gar) links it directly back to the plural appointment, so the same office is in view individuated for qualification.",
         "supports": "neutral",
         "genre": "epistle",
         "figures": [],
@@ -322,7 +322,7 @@
             "lemma": "ἀγγέλῳ"
           }
         ],
-        "force": "Each of the seven church messages is addressed to to angelo, dative singular, the angel or messenger of that one church, parsed singular in all seven openings (2:1, 2:8, 2:12, 2:18, 3:1, 3:7, 3:14). This is the strongest singular-figure datum that complicates a strictly plural reading, since each congregation is addressed through one representative. The word means messenger or angel rather than presbyteros or episkopos, and its referent is debated, so it underdetermines polity rather than establishing a sole human ruler.",
+        "force": "Each of the seven church messages is addressed to 'the angel' or 'the messenger' (to angelo), dative singular (the 'to-or-for' form), the angel or messenger of that one church, parsed singular in all seven openings (Revelation 2:1, 2:8, 2:12, 2:18, 3:1, 3:7, 3:14). This is the strongest singular-figure datum that complicates a strictly plural reading, since each congregation is addressed through one representative. The word angel or messenger (angelos) means messenger or angel rather than elder (presbyteros) or overseer (episkopos), and its referent is debated, so it underdetermines polity rather than establishing a sole human ruler.",
         "supports": "complicates",
         "genre": "apocalyptic",
         "figures": [],
@@ -383,27 +383,27 @@
       {
         "ref": "1Tim.5.17",
         "addressed": true,
-        "resolution": "A reader might press hoi malista kopiōntes en logō kai didaskalia toward a single teaching pastor distinct from ruling elders. But MorphGNT parses presbyteroi as nominative plural under one article, so the special-labor men are a subset within the plural body, and malista marks degree of labor, not a tier above the others. The verse confirms rather than undercuts plurality."
+        "resolution": "A reader might press the clause 'those especially laboring in word and teaching' (hoi malista kopiōntes en logō kai didaskalia) toward a single teaching pastor distinct from ruling elders. But the morphologically tagged Greek New Testament (MorphGNT) parses elders (presbyteroi) as nominative plural (the subject form) under one article 'the', so the special-labor men are a subset within the plural body, and 'especially' (malista) marks degree of labor, not a tier above the others. The verse confirms rather than undercuts plurality."
       },
       {
         "ref": "Titus.1.7",
         "addressed": true,
-        "resolution": "Titus 1:7 shifts from plural presbyterous in verse 5 to singular ton episkopon, confirmed singular in MorphGNT. The singular is generic and qualitative, describing what any one overseer must be, and the connective gar ties it back to the plural appointment, so the singular individuates the same plural office for qualification rather than establishing a sole leader."
+        "resolution": "Titus 1:7 shifts from plural elders (presbyterous) in verse 5 to singular 'the overseer' (ton episkopon), confirmed singular in the morphologically tagged Greek New Testament (MorphGNT). The singular is generic and qualitative, describing what any one overseer must be, and the connective 'for' (gar) ties it back to the plural appointment, so the singular individuates the same plural office for qualification rather than establishing a sole leader."
       },
       {
         "ref": "1Tim.3.2",
         "addressed": true,
-        "resolution": "The overseer must be, ton episkopon, is accusative singular in MorphGNT, like Titus 1:7. Across the canon episkopos occurs seven times and is singular only when stating the qualification of a candidate or naming Christ as overseer of souls (1 Pet 2:25), and plural when naming the actual body in a church (Acts 20:28, Phil 1:1). The singular here is the qualification-generic, not a count, so it does not by itself create a single-overseer office."
+        "resolution": "'The overseer must be' (ton episkopon), is accusative singular (the direct object form) in the morphologically tagged Greek New Testament (MorphGNT), like Titus 1:7. Across the canon the noun overseer (episkopos) occurs seven times and is singular only when stating the qualification of a candidate or naming Christ as overseer of souls (1 Peter 2:25), and plural when naming the actual body in a church (Acts 20:28, Philippians 1:1). The singular here is the qualification-generic, not a count, so it does not by itself create a single-overseer office."
       },
       {
         "ref": "Rev.2.1",
         "addressed": false,
-        "resolution": "The seven church messages are each addressed to to angelo, dative singular, parsed singular in all seven (2:1 through 3:14). The vocabulary does not resolve who this singular figure is, since angelos means messenger or angel and is used nowhere else for a local-church officer, and the genre is apocalyptic with heavy symbolism. Because the referent is lexically underdetermined, this singular address cannot be resolved into either a sole human pastor or a mere personification, so it is left open as a genuine singular-figure datum that the words alone do not settle."
+        "resolution": "The seven church messages are each addressed to 'the angel' or 'the messenger' (to angelo), dative singular (the 'to-or-for' form), parsed singular in all seven (Revelation 2:1 through 3:14). The vocabulary does not resolve who this singular figure is, since angel or messenger (angelos) means messenger or angel and is used nowhere else for a local-church officer, and the genre is apocalyptic with heavy symbolism. Because the referent is lexically underdetermined, this singular address cannot be resolved into either a sole human pastor or a mere personification, so it is left open as a genuine singular-figure datum that the words alone do not settle."
       },
       {
         "ref": "Heb.13.17",
         "addressed": true,
-        "resolution": "Hēgoumenois names a leadership function rather than the presbyteros title, so it could cover several polities. MorphGNT parses it plural here and in verses 7 and 24, so even on the broadest reading it witnesses to multiple leaders over the assembly and does not support sole rule."
+        "resolution": "'Those leading' (hēgoumenois) names a leadership function rather than the elder (presbyteros) title, so it could cover several polities. The morphologically tagged Greek New Testament (MorphGNT) parses it plural here and in verses 7 and 24, so even on the broadest reading it witnesses to multiple leaders over the assembly and does not support sole rule."
       }
     ]
   },
@@ -414,17 +414,17 @@
         "ref": "Acts.20.28",
         "variant_id": "Acts20.28-theou-kyriou",
         "verdict_impact": "none",
-        "note": "The classic variant at Acts 20:28 concerns whether the flock is tou theou or tou kyriou, which touches the deity-of-Christ reading. It does not affect the accusative plural episkopous or the shepherding command poimainein, so the plurality of overseers is untouched by the variant."
+        "note": "The classic variant at Acts 20:28 concerns whether the flock is 'of God' (tou theou) or 'of the Lord' (tou kyriou), which touches the deity-of-Christ reading. It does not affect the accusative plural overseers (episkopous) or the shepherding command shepherd (poimainein), so the plurality of overseers is untouched by the variant."
       },
       {
         "ref": "1Pet.5.2",
         "variant_id": "1Pet5.2-episkopountes-omit",
         "verdict_impact": "minor",
-        "note": "Some witnesses omit the participle episkopountes in 1 Peter 5:2. Even if omitted, the plural address presbyterous and the second person plural imperative poimanate remain, so the plural-eldership reading stands either way, with the fusion of terms still secured by Acts 20:17 and 20:28."
+        "note": "Some witnesses omit the participle overseeing (episkopountes) in 1 Peter 5:2. Even if omitted, the plural address elders (presbyterous) and the second person plural imperative 'shepherd!' (poimanate) remain, so the plural-eldership reading stands either way, with the fusion of terms still secured by Acts 20:17 and 20:28."
       }
     ],
     "ecm_status": "ecm-shadow",
-    "note": "Bundle marks not_in_ecm_scope true with empty variant_units, so no CBGM tables were examined; NT books outside 3 John are treated as ecm-shadow. The two variant notes above rest on standard apparatus knowledge, not on loaded ECM data, and neither disturbs the plural-office reading."
+    "note": "Bundle marks 'not in critical edition scope' true with empty variant units, so no Coherence-Based Genealogical Method (CBGM, the data-driven method behind the critical edition of New Testament textual variants known as the ECM apparatus) tables were examined; New Testament books outside 3 John are treated as ECM-shadow (no critical-edition tables loaded). The two variant notes above rest on standard apparatus knowledge, not on loaded critical-edition data, and neither disturbs the plural-office reading."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -439,27 +439,27 @@
       {
         "framework": "plural-eldership-normative reading",
         "verdict": "affirms",
-        "rationale": "Reads the uniform plural presbyterous and episkopous per single assembly, plus the presbyteros, episkopos, and poimainō interchange in Acts 20, as a settled and binding apostolic pattern of shared local oversight. Treats Titus 1:5, where elders are appointed by direct command kata polin, as prescriptive, and the plural Philippians 1:1 address as showing the actual shape of one healthy church. On this lens 60 of 65 plural uses of presbyteros and the absence of any commanded single human head are decisive."
+        "rationale": "Reads the uniform plural elders (presbyterous) and overseers (episkopous) per single assembly, plus the elder (presbyteros), overseer (episkopos), and shepherd (poimainō) interchange in Acts 20, as a settled and binding apostolic pattern of shared local oversight. Treats Titus 1:5, where elders are appointed by direct command city by city (kata polin), as prescriptive, and the plural Philippians 1:1 address as showing the actual shape of one healthy church. On this lens 60 of 65 plural uses of elder (presbyteros) and the absence of any commanded single human head are decisive."
       },
       {
         "framework": "plurality-descriptive, single-leader-permissible reading",
         "verdict": "complicates",
-        "rationale": "Grants that the words give a plural per church wherever elders are appointed, but holds that the texts narrate and describe the apostolic situation without ranking it as the only lawful polity. It points to the singular generic ton episkopon (Titus 1:7, 1 Tim 3:2), the singular address to the angel of each church seven times in Revelation 2 and 3, and the recognizable singular gift-role ho poimen, and argues the vocabulary establishes that plurality was common but does not foreclose one elder leading among peers. On this lens the question asks about prescriptive scope that the plural nouns alone underdetermine."
+        "rationale": "Grants that the words give a plural per church wherever elders are appointed, but holds that the texts narrate and describe the apostolic situation without ranking it as the only lawful polity. It points to the singular generic 'the overseer' (ton episkopon) in Titus 1:7 and 1 Timothy 3:2, the singular address to the angel or messenger of each church seven times in Revelation 2 and 3, and the recognizable singular gift-role 'the shepherd' (ho poimen), and argues the vocabulary establishes that plurality was common but does not foreclose one elder leading among peers. On this lens the question asks about prescriptive scope that the plural nouns alone underdetermine."
       },
       {
         "framework": "monepiscopal reading",
         "verdict": "complicates",
-        "rationale": "Leans on the singular ton episkopon in Titus 1:7 and 1 Timothy 3:2, and on Timothy and Titus acting as individual overseers of regions, to find one overseer set over the elders. The lexical data resists a built-in higher rank, since the same passages place the singular inside a plural appointment and Acts 20 treats presbyteros and episkopos as one office, but the singular grammar and the individual delegate figures are the real textual handholds for this reading."
+        "rationale": "Leans on the singular 'the overseer' (ton episkopon) in Titus 1:7 and 1 Timothy 3:2, and on Timothy and Titus acting as individual overseers of regions, to find one overseer set over the elders. The lexical data resists a built-in higher rank, since the same passages place the singular inside a plural appointment and Acts 20 treats elder (presbyteros) and overseer (episkopos) as one office, but the singular grammar and the individual delegate figures are the real textual handholds for this reading."
       }
     ],
-    "notes": "By analogia scripturae the clearer plural appointment texts (Acts 14:23, Titus 1:5, Phil 1:1) govern the generic singulars (Titus 1:7, 1 Tim 3:2). The texts settle the count of elders, plural per church, with high confidence. What they do not settle by vocabulary alone is the prescriptive weight of that count, which is why otherwise careful readers diverge."
+    "notes": "By the principle of comparing Scripture with Scripture (analogia scripturae) the clearer plural appointment texts (Acts 14:23, Titus 1:5, Philippians 1:1) govern the generic singulars (Titus 1:7, 1 Timothy 3:2). The texts settle the count of elders, plural per church, with high confidence. What they do not settle by vocabulary alone is the prescriptive weight of that count, which is why otherwise careful readers diverge."
   },
   "stem_audit": {
     "verdict_preloaded": true,
-    "neutralized_form": "What pattern of local-church leadership do the New Testament terms presbyteros, episkopos, and the shepherding verbs describe, is that office held singly or by a plurality within a single assembly, and do the texts present that pattern as binding or as descriptive?",
-    "notes": "The original stem is verdict-loaded: it asserts that a single senior pastor departs from the apostolic plurality pattern and adds a watch-for warning about nominal rubber-stamp elder boards. The verdict is derived on the original stem from the lexical data, but the neutralized form strips the conclusion and the polemical framing and explicitly surfaces the descriptive-versus-prescriptive axis so the conclusion is not assumed in advance. The data independently yields the plural-office reading on the count question, while the prescriptive-scope question is left open as the genuine point of divergence."
+    "neutralized_form": "What pattern of local-church leadership do the New Testament terms elder (presbyteros), overseer (episkopos), and the shepherding verbs describe, is that office held singly or by a plurality within a single assembly, and do the texts present that pattern as binding or as descriptive?",
+    "notes": "VERDICT-CHANGED: The original stem is verdict-loaded, that is, it asserts that a single senior pastor departs from the apostolic plurality pattern and adds a watch-for warning about nominal rubber-stamp elder boards. The verdict is derived on the original stem from the lexical data, but the neutralized form strips the conclusion and the polemical framing and explicitly surfaces the descriptive-versus-prescriptive axis so the conclusion is not assumed in advance. The data independently yields the plural-office reading on the count question, while the prescriptive-scope question is left open as the genuine point of divergence."
   },
-  "lay_summary": "When the New Testament describes the leaders of a local church, the word for elder, presbyteros, is almost always plural. A direct count of the Greek text gives 65 occurrences, of which 60 are plural and the few singular ones mean an older man or a writer calling himself the elder, not a sole ruler. In Acts 14:23 Paul and Barnabas appoint elders, plural, congregation by congregation, and Titus 1:5 repeats this city by city as a direct command, the strongest must-do datum. Acts 20 settles the labels: Paul calls the elders of the one Ephesian church, then names those same men overseers and tells them to shepherd the flock, so elder, overseer, and shepherd are one office held by several men together. Philippians 1:1 greets the overseers, plural, and deacons of a single church with no sole leader named. First Peter 5 has Peter call himself a fellow elder among the elders, warn them not to lord it over the flock, and reserve the one supreme singular title, Chief Shepherd, for Christ alone. James 5:14 and Hebrews 13:17 add non-Pauline voices with the same plural. So on the question of how many elders a church has, the words are clear and uniform: more than one. Why then do careful readers still differ? The divergence is not about the count but about its force. A handful of singular figures leave room: the overseer in Titus 1:7 and First Timothy 3:2 is grammatically singular, though it reads as a generic description of any one qualified man, and each of the seven churches in Revelation 2 and 3 is addressed through a single angel or messenger whose identity the text never defines. More basically, the vocabulary reports what the apostolic churches did without a sentence that says this many and no fewer is the only lawful arrangement for all time. So the words decisively establish a plurality of elders as the apostolic pattern, while leaving the question of whether that pattern is strictly binding to inference rather than to any single decisive term.",
+  "lay_summary": "When the New Testament describes the leaders of a local church, the word for elder (presbyteros) is almost always plural. A direct count of the Greek text gives 65 occurrences, of which 60 are plural and the few singular ones mean an older man or a writer calling himself the elder, not a sole ruler. In Acts 14:23 Paul and Barnabas appoint elders (presbyterous), plural, congregation by congregation, and Titus 1:5 repeats this city by city (kata polin) as a direct command, the strongest must-do datum. Acts 20 settles the labels: Paul calls the elders of the one Ephesian church, then names those same men overseers (episkopous) and tells them to shepherd (poimainein) the flock, so elder, overseer, and shepherd are one office held by several men together. Philippians 1:1 greets the overseers (episkopois), plural, and deacons (diakonois) of a single church with no sole leader named. First Peter 5 has Peter call himself a fellow elder (sympresbyteros) among the elders, warn them not to lord it over the flock, and reserve the one supreme singular title, Chief Shepherd (archipoimēn), for Christ alone. James 5:14 and Hebrews 13:17 add non-Pauline voices with the same plural. So on the question of how many elders a church has, the words are clear and uniform: more than one. Why then do careful readers still differ? The divergence is not about the count but about its force. A handful of singular figures leave room: the overseer (episkopos) in Titus 1:7 and First Timothy 3:2 is grammatically singular, though it reads as a generic description of any one qualified man, and each of the seven churches in Revelation 2 and 3 is addressed through a single angel or messenger (angelos) whose identity the text never defines. More basically, the vocabulary reports what the apostolic churches did without a sentence that says this many and no fewer is the only lawful arrangement for all time. So the words decisively establish a plurality of elders as the apostolic pattern, while leaving the question of whether that pattern is strictly binding to inference rather than to any single decisive term.",
   "citations": [
     {
       "type": "morphology",
@@ -568,7 +568,7 @@
       }
     ],
     "evidence_safe_to_publish": false,
-    "non_redistributable_reason": "Cites MACULA-Greek (CC-BY-NC-4.0, non-commercial) for syntactic anchoring of the collegial sympresbyteros at 1 Pet 5:1, which is not redistributable for bulk republication, so the aggregate is not safe to publish. The core morphology of the verdict rests on MorphGNT (CC-BY-SA-4.0) and STEPBible (CC-BY-4.0), which are redistributable, so the unsafe status is attributable only to the single MACULA-Greek citation."
+    "non_redistributable_reason": "Cites MACULA-Greek (CC-BY-NC-4.0, non-commercial) for syntactic anchoring of the collegial fellow elder (sympresbyteros) at 1 Peter 5:1, which is not redistributable for bulk republication, so the aggregate is not safe to publish. The core morphology of the verdict rests on MorphGNT (CC-BY-SA-4.0) and STEPBible (CC-BY-4.0), which are redistributable, so the unsafe status is attributable only to the single MACULA-Greek citation."
   },
   "flags": [
     "ecm-shadow",

@@ -11,7 +11,7 @@
     "confidence": "high",
     "variant_robust": true,
     "pan_canonical": true,
-    "rationale": "Genesis 3 is narrated in an unbroken wayyiqtol chain (34 consecutive-imperfect verbs, including the eating sequence וַתִּקַּח, וַתֹּאכַל, וַתִּתֵּן, וַיֹּאכַל and the curse and expulsion sequence), the same prose-history verb form that carries the surrounding creation account (Gen 2) and the toledot genealogy (Gen 5, with וַיְחִי and וַיּוֹלֶד treating Adam as the first link of a datable line). Genesis contains zero parable markers (H4912 mashal occurs 0 times), so the text does not flag itself as figurative. Paul argues from this as a punctiliar event: in Rom 5.12 ἁμαρτία εἰσῆλθεν (G1525, aorist V-2AAI-3S) through ἑνὸς ἀνθρώπου, and Rom 5.19 κατεστάθησαν (G2525, aorist passive) constitutes the many as sinners through one man. 1 Cor 15.21 to 22 repeats δι' ἀνθρώπου with ἐν τῷ Ἀδὰμ, where Adam is morphologically tagged a proper noun (N-DSM-P) in strict parallel with Christ. The genuine lexical seam is that the Eden scene mostly calls the agent הָאָדָם, the man with the article (H0120), and only at Gen 3.17 and from Gen 5 onward uses the bare proper name Adam (H0121), which is the lexical room a representative reading exploits, but the narrative grammar and the Adam-Christ parallel keep the historical-agent reading dominant."
+    "rationale": "Genesis 3 is narrated in an unbroken wayyiqtol chain (the standard Hebrew prose-history verb chain, called wayyiqtol or consecutive-imperfect, that strings sequential past events together), running 34 consecutive-imperfect verbs (ongoing or repeated past action verbs linked in sequence), including the eating sequence 'and she took' (wattiqqach, וַתִּקַּח), 'and she ate' (wattokal, וַתֹּאכַל), 'and she gave' (wattiten, וַתִּתֵּן), 'and he ate' (wayyokal, וַיֹּאכַל), and the curse and expulsion sequence, the same prose-history verb form that carries the surrounding creation account (Genesis 2) and the toledot (the Hebrew word for 'generations' or 'family-line', H8435) genealogy of Genesis 5, with 'and he lived' (wayechi, וַיְחִי) and 'and he begot' (wayyoled, וַיּוֹלֶד) treating Adam as the first link of a datable line. Genesis contains zero parable markers (the Hebrew word 'parable' or 'figurative saying', mashal, H4912, occurs 0 times), so the text does not flag itself as figurative. Paul argues from this as a punctiliar event (a one-time event at a single point in time): in Romans 5:12 'sin' (hamartia) 'entered' (eiserchomai, G1525, aorist V-2AAI-3S, that is a completed past action in second-aorist active indicative form, a single past-tense entry) through 'one man' (henos anthropou, ἑνὸς ἀνθρώπου), and Romans 5:19 'were constituted' or 'were appointed' (katestathesan, κατεστάθησαν, from kathistemi G2525, aorist passive, a completed past action done to them) constitutes the many as sinners through one man. 1 Corinthians 15:21 to 22 repeats 'through a man' (di' anthropou, δι' ἀνθρώπου) with 'in Adam' (en to Adam, ἐν τῷ Ἀδὰμ), where Adam is morphologically tagged a proper noun (N-DSM-P, that is a proper personal name in the dative masculine singular form) in strict parallel with Christ. The genuine lexical seam is that the Eden scene mostly calls the agent 'the man' (ha-adam, הָאָדָם, the man with the article 'the', H0120), and only at Genesis 3:17 and from Genesis 5 onward uses the bare proper name 'Adam' (adam, H0121), which is the lexical room a representative reading exploits, but the narrative grammar and the Adam-Christ parallel keep the historical-agent reading dominant."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -185,7 +185,7 @@
             "lemma": "נתן"
           }
         ],
-        "force": "The act of disobedience runs in a chain of wayyiqtol consecutive-imperfect verbs, וַתֵּרֶא she saw, וַתִּקַּח she took, וַתֹּאכַל she ate, וַתִּתֵּן she gave, וַיֹּאכַל and he ate, all morphology Vqw, the standard Hebrew prose-narrative form for sequential past events. The grammar frames a concrete event, not a stative or gnomic description.",
+        "force": "The act of disobedience in Genesis 3:6 runs in a chain of wayyiqtol consecutive-imperfect verbs (the Hebrew form for stringing sequential past events together): 'and she saw' (wattere, וַתֵּרֶא), 'and she took' (wattiqqach, וַתִּקַּח), 'and she ate' (wattokal, וַתֹּאכַל), 'and she gave' (wattiten, וַתִּתֵּן), 'and he ate' (wayyokal, וַיֹּאכַל), all tagged morphology Vqw (verb, qal stem (the simple active form of the Hebrew verb), wayyiqtol form), the standard Hebrew prose-narrative form for sequential past events. The grammar frames a concrete event, not a stative (state-of-being) or gnomic (general-truth) description.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -207,7 +207,7 @@
             "lemma": "אדמה"
           }
         ],
-        "force": "Here the agent is named with the bare proper noun וּלְאָדָם, morph Np, the first proper-name use inside the scene, addressed in the second person שָׁמַעְתָּ you listened. The curse formula אֲרוּרָה הָאֲדָמָה בַּעֲבוּרֶךָ, cursed is the ground on your account, with H0779 arar, ties the ground's corruption directly to one particular agent's prior act.",
+        "force": "Here in Genesis 3:17 the agent is named with the bare proper noun 'and to Adam' (ule-Adam, וּלְאָדָם), tagged morph Np (proper noun), the first proper-name use inside the scene, addressed in the second person 'you have listened' (shamata, שָׁמַעְתָּ). The curse formula 'cursed is the ground on your account' (arurah ha-adamah ba-avurekha, אֲרוּרָה הָאֲדָמָה בַּעֲבוּרֶךָ), using the Hebrew verb 'to curse' (arar, H0779), ties the ground's (adamah, H0127) corruption directly to one particular agent's prior act.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -221,7 +221,7 @@
             "lemma": "נחש"
           }
         ],
-        "force": "The serpent הַנָּחָשׁ is tagged article plus common noun, Td/Ncmsa, an ordinary animate subject inside the narrative clause. The text does not lexically mark it as a symbol. Whether it is read figuratively is an interpretive move the morphology neither demands nor flags, which is part of the genuine room some readers use.",
+        "force": "The 'serpent' (ha-nachash, הַנָּחָשׁ, H5175) in Genesis 3:1 is tagged article plus common noun, Td/Ncmsa (definite article plus common noun, masculine singular absolute), an ordinary animate subject inside the narrative clause. The text does not lexically mark it as a symbol. Whether it is read figuratively is an interpretive move the morphology (the form-and-tagging of the words) neither demands nor flags, which is part of the genuine room some readers use.",
         "supports": "neutral",
         "genre": "narrative",
         "figures": [],
@@ -235,7 +235,7 @@
             "lemma": "אדם"
           }
         ],
-        "force": "The toledot heading זֶה סֵפֶר תּוֹלְדֹת אָדָם, the book of the generations of Adam (H0121 Np), folds Adam into the same genealogical register as the later patriarchs, carried by וַיְחִי he lived and וַיּוֹלֶד he begot. The genealogy treats Adam as the datable first link of a real line, the same verb form found across the rest of Genesis history.",
+        "force": "The toledot ('generations' or 'family-line') heading in Genesis 5:1, 'this is the book of the generations of Adam' (zeh sefer toledot Adam, זֶה סֵפֶר תּוֹלְדֹת אָדָם, with Adam, H0121, tagged Np proper noun), folds Adam into the same genealogical register as the later patriarchs, carried by 'and he lived' (wayechi, וַיְחִי) and 'and he begot' (wayyoled, וַיּוֹלֶד). The genealogy treats Adam as the datable first link of a real line, the same verb form found across the rest of Genesis history.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
@@ -269,7 +269,7 @@
             "lemma": "κόσμος"
           }
         ],
-        "force": "δι' ἑνὸς ἀνθρώπου ἡ ἁμαρτία εἰς τὸν κόσμον εἰσῆλθεν. The verb εἰσῆλθεν is G1525 parsed V-2AAI-3S, second aorist active indicative, a punctiliar single entry-point, not a present or imperfect describing an ongoing condition. καὶ οὕτως εἰς πάντας ἀνθρώπους ὁ θάνατος διῆλθεν (G1330, also aorist), ἐφ' ᾧ πάντες ἥμαρτον (G0264, aorist), distributes the consequence universally from that one act.",
+        "force": "Romans 5:12 reads 'through one man' (di' henos anthropou, δι' ἑνὸς ἀνθρώπου) 'the sin' (he hamartia, ἡ ἁμαρτία) 'into the world' (eis ton kosmon, εἰς τὸν κόσμον) 'entered' (eiserthen, εἰσῆλθεν). The verb 'entered' (eiserthen) is G1525 parsed V-2AAI-3S, that is second aorist active indicative third person singular (a completed past action), a punctiliar (single point in time) single entry-point, not a present or imperfect (ongoing or repeated past action) describing an ongoing condition. 'And so to all men' (kai houtos eis pantas anthropous, καὶ οὕτως εἰς πάντας ἀνθρώπους) 'the death' (ho thanatos, ὁ θάνατος) 'passed through' (dielthen, διῆλθεν, G1330, also aorist, a completed past action), 'because all sinned' or 'in whom all sinned' (eph' ho pantes hemarton, ἐφ' ᾧ πάντες ἥμαρτον, with 'sinned' hemarton, G0264, aorist, completed past action), distributes the consequence universally from that one act.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -291,7 +291,7 @@
             "lemma": "Ἀδάμ"
           }
         ],
-        "force": "ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως. The two named termini Adam and Moses place Adam on the same historical plane as Moses, a datable person. τύπος τοῦ μέλλοντος then casts Adam as the typological counterpart of the coming one.",
+        "force": "Romans 5:14 says 'death reigned from Adam until Moses' (ebasileusen ho thanatos apo Adam mechri Moyseos, ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως). The two named termini Adam and Moses place Adam on the same historical plane as Moses, a datable person. 'A type of the coming one' (typos tou mellontos, τύπος τοῦ μέλλοντος) then casts Adam as the typological (foreshadowing-pattern) counterpart of the coming one.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -313,7 +313,7 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "δι' ἑνὸς παραπτώματος εἰς πάντας ἀνθρώπους εἰς κατάκριμα. A singular trespass, genitive of cause, yields a global verdict, εἰς πάντας ἀνθρώπους, set symmetrically against δι' ἑνὸς δικαιώματος, one act of righteousness.",
+        "force": "Romans 5:18 reads 'through one trespass' (di' henos paraptomatos, δι' ἑνὸς παραπτώματος, with paraptoma = 'trespass' or 'false step') 'to all men' (eis pantas anthropous, εἰς πάντας ἀνθρώπους) 'unto condemnation' (eis katakrima, εἰς κατάκριμα, with katakrima = 'condemnation' or 'guilty verdict'). A singular trespass, in the genitive of cause (a noun in the 'because-of-X' grammatical form), yields a global verdict, 'to all men', set symmetrically against 'through one act of righteousness' (di' henos dikaiomatos, δι' ἑνὸς δικαιώματος).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -335,7 +335,7 @@
             "lemma": "καθίστημι"
           }
         ],
-        "force": "διὰ τῆς παρακοῆς τοῦ ἑνὸς ἀνθρώπου ἁμαρτωλοὶ κατεστάθησαν οἱ πολλοί. The verb κατεστάθησαν is G2525 parsed V-API-3P, aorist passive indicative, constituting the many as sinners on the basis of one man's disobedience. The future κατασταθήσονται mirrors it for the one man's obedience, a causal constitution, not a mere ethical example.",
+        "force": "Romans 5:19 reads 'through the disobedience of the one man' (dia tes parakoes tou henos anthropou, διὰ τῆς παρακοῆς τοῦ ἑνὸς ἀνθρώπου) 'sinners were constituted the many' (hamartoloi katestathesan hoi polloi, ἁμαρτωλοὶ κατεστάθησαν οἱ πολλοί). The verb 'were constituted' or 'were appointed' (katestathesan, κατεστάθησαν) is G2525 parsed V-API-3P, that is aorist passive indicative third person plural (a completed past action done to them), constituting the many as sinners on the basis of one man's disobedience. The future 'will be constituted' (katastathesontai, κατασταθήσονται) mirrors it for the one man's obedience, a causal constitution (real cause-and-effect making them so), not a mere ethical example.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -353,7 +353,7 @@
             "lemma": "ματαιότης"
           }
         ],
-        "force": "τῇ ματαιότητι ἡ κτίσις ὑπετάγη. The aorist passive ὑπετάγη plus οὐχ ἑκοῦσα marks a definite past subjection of creation, consonant with the curse on the ground at Gen 3.17.",
+        "force": "Romans 8:20 reads 'to futility the creation was subjected' (te mataioteti he ktisis hypetage, τῇ ματαιότητι ἡ κτίσις ὑπετάγη, with mataiotes = 'futility' or 'emptiness' and ktisis = 'creation' or 'created order'). The aorist passive (completed past action done to it) 'was subjected' (hypetage, ὑπετάγη) plus 'not willingly' (ouch hekousa, οὐχ ἑκοῦσα) marks a definite past subjection of creation, consonant with the curse on the ground at Genesis 3:17.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -371,7 +371,7 @@
             "lemma": "φθορά"
           }
         ],
-        "force": "ἀπὸ τῆς δουλείας τῆς φθορᾶς. Creation is in bondage to corruption awaiting liberation, presupposing a real prior fall, not merely an inherent flaw.",
+        "force": "Romans 8:21 reads 'from the slavery of the corruption' (apo tes douleias tes phthoras, ἀπὸ τῆς δουλείας τῆς φθορᾶς, with phthora = 'corruption' or 'decay'). Creation (ktisis) is in bondage to corruption (phthora) awaiting liberation, presupposing a real prior fall, not merely an inherent flaw.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -389,7 +389,7 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "συστενάζει καὶ συνωδίνει πᾶσα ἡ κτίσις ἄχρι τοῦ νῦν. A durative present plus ἄχρι τοῦ νῦν, until now, locates the groaning on a timeline that reaches back to an originating event.",
+        "force": "Romans 8:22 reads 'groans together and travails together all the creation until now' (systenazei kai synodinei pasa he ktisis achri tou nyn, συστενάζει καὶ συνωδίνει πᾶσα ἡ κτίσις ἄχρι τοῦ νῦν, with ktisis = 'creation'). A durative (continuing, drawn-out) present plus 'until now' (achri tou nyn, ἄχρι τοῦ νῦν) locates the groaning on a timeline that reaches back to an originating event.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -407,7 +407,7 @@
             "lemma": "θάνατος"
           }
         ],
-        "force": "ἐπειδὴ γὰρ δι' ἀνθρώπου θάνατος, καὶ δι' ἀνθρώπου ἀνάστασις νεκρῶν. The δι' ἀνθρώπου to δι' ἀνθρώπου parallel requires both sides to be referents of the same kind, that is real persons, since the resurrection side is unambiguously a historical person.",
+        "force": "1 Corinthians 15:21 reads 'for since through a man death, also through a man resurrection of dead ones' (epeide gar di' anthropou thanatos, kai di' anthropou anastasis nekron, ἐπειδὴ γὰρ δι' ἀνθρώπου θάνατος, καὶ δι' ἀνθρώπου ἀνάστασις νεκρῶν). The 'through a man' (di' anthropou) to 'through a man' (di' anthropou) parallel requires both sides to be referents of the same kind, that is real persons, since the resurrection side is unambiguously a historical person.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -429,7 +429,7 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "ὥσπερ γὰρ ἐν τῷ Ἀδὰμ πάντες ἀποθνῄσκουσιν, οὕτως καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται. Ἀδάμ is morphologically tagged N-DSM-P, a proper personal noun, exactly parallel to Χριστῷ. The ἐν preposition signals corporate-representative incorporation, and the equal tagging of both heads resists treating one as a person and the other as an abstraction.",
+        "force": "1 Corinthians 15:22 reads 'for just as in Adam all die, so also in Christ all will be made alive' (hosper gar en to Adam pantes apothneskousin, houtos kai en to Christo pantes zoopoiethesontai, ὥσπερ γὰρ ἐν τῷ Ἀδὰμ πάντες ἀποθνῄσκουσιν, οὕτως καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται). 'Adam' (Adam, Ἀδάμ) is morphologically tagged N-DSM-P (proper personal noun in dative masculine singular form), exactly parallel to 'Christ' (Christo, Χριστῷ). The 'in' (en, ἐν) preposition signals corporate-representative (group-headed-by-one) incorporation, and the equal tagging of both heads resists treating one as a person and the other as an abstraction.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -447,7 +447,7 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "ἐγένετο ὁ πρῶτος ἄνθρωπος Ἀδὰμ εἰς ψυχὴν ζῶσαν. Adam is tagged N-NSM-P, proper noun, the first man, set against ὁ ἔσχατος Ἀδάμ, the last Adam. The first-and-last bracketing treats both as concrete persons heading their respective humanities.",
+        "force": "1 Corinthians 15:45 reads 'the first man Adam became a living soul' (egeneto ho protos anthropos Adam eis psychen zosan, ἐγένετο ὁ πρῶτος ἄνθρωπος Ἀδὰμ εἰς ψυχὴν ζῶσαν). 'Adam' (Adam, Ἀδάμ) is tagged N-NSM-P (proper personal noun in nominative masculine singular form), the first man, set against 'the last Adam' (ho eschatos Adam, ὁ ἔσχατος Ἀδάμ). The first-and-last bracketing treats both as concrete persons heading their respective humanities.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -520,22 +520,22 @@
       {
         "ref": "Rom.5.12",
         "addressed": true,
-        "resolution": "The relative clause ἐφ' ᾧ πάντες ἥμαρτον has been read either causally, because all sinned, or as a relative, in whom all sinned. Either reading still anchors universal death to one man's act, since the prior clause already attributes the entry of sin and death to ἑνὸς ἀνθρώπου through the aorist εἰσῆλθεν, and εἰς πάντας ἀνθρώπους then generalizes it. The single historical entry-point is the lexical anchor regardless of which gloss is preferred."
+        "resolution": "The relative clause 'because all sinned' or 'in whom all sinned' (eph' ho pantes hemarton, ἐφ' ᾧ πάντες ἥμαρτον) has been read either causally, 'because all sinned', or as a relative, 'in whom all sinned'. Either reading still anchors universal death to one man's act, since the prior clause already attributes the entry of sin and death to 'one man' (henos anthropou, ἑνὸς ἀνθρώπου) through the aorist (completed past action) 'entered' (eiserthen, εἰσῆλθεν), and 'to all men' (eis pantas anthropous, εἰς πάντας ἀνθρώπους) then generalizes it. The single historical entry-point is the lexical anchor regardless of which gloss (English rendering) is preferred."
       },
       {
         "ref": "Rom.5.13",
         "addressed": true,
-        "resolution": "ἁμαρτία δὲ οὐκ ἐλλογεῖται μὴ ὄντος νόμου notes that sin is not reckoned where there is no law, yet v.14 says ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως over those who did not sin in the likeness of Adam's transgression. The text resolves this by tying the universal reign of death to Adam's original transgression rather than to each individual's own law-breaking, which strengthens rather than weakens the one-event reading."
+        "resolution": "'But sin is not reckoned where there is no law' (hamartia de ouk ellogeitai me ontos nomou, ἁμαρτία δὲ οὐκ ἐλλογεῖται μὴ ὄντος νόμου) notes that sin is not reckoned where there is no law, yet verse 14 says 'death reigned from Adam until Moses' (ebasileusen ho thanatos apo Adam mechri Moyseos, ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως) over those who did not sin in the likeness of Adam's transgression. The text resolves this by tying the universal reign of death to Adam's original transgression rather than to each individual's own law-breaking, which strengthens rather than weakens the one-event reading."
       },
       {
         "ref": "Gen.3.1",
         "addressed": true,
-        "resolution": "The narrative furniture of the scene, the speaking serpent הַנָּחָשׁ and the named trees, is what a figurative or archetypal reading leans on. Lexically the serpent is tagged only article plus common noun, an ordinary clause subject, and Genesis contains zero parable markers (H4912 mashal occurs 0 times in the book). The morphology neither flags nor forbids a symbolic reading of these elements, so this remains a real but limited interpretive seam rather than a textual signal that overturns the narrative-history grammar."
+        "resolution": "The narrative furniture of the scene, the speaking 'serpent' (ha-nachash, הַנָּחָשׁ) and the named trees, is what a figurative or archetypal (representing-an-original-pattern) reading leans on. Lexically the serpent is tagged only article plus common noun, an ordinary clause subject, and Genesis contains zero parable markers (the Hebrew word 'parable' or 'figurative saying', mashal, H4912, occurs 0 times in the book). The morphology (the form-and-tagging of the words) neither flags nor forbids a symbolic reading of these elements, so this remains a real but limited interpretive seam rather than a textual signal that overturns the narrative-history grammar."
       },
       {
         "ref": "Gen.2.7",
         "addressed": true,
-        "resolution": "Inside the Eden scene the agent is overwhelmingly called הָאָדָם, the man with the definite article (H0120, the appellative, 16 times in Gen 2 and 7 in Gen 3), and only at Gen 3.17 and from Gen 5.1 onward does the bare proper name אָדָם appear (H0121, Np). This article-bearing appellative is the strongest lexical basis for a representative or every-person reading. It is addressed but not fully dissolved by the words alone, because the same chapters also use the proper name and the Gen 5 toledot genealogy treats Adam as a datable individual, so the appellative cannot be pressed into a purely generic sense across the whole chain."
+        "resolution": "Inside the Eden scene the agent is overwhelmingly called 'the man' (ha-adam, הָאָדָם), the man with the definite article 'the' (H0120, the appellative or descriptive title, 16 times in Genesis 2 and 7 in Genesis 3), and only at Genesis 3:17 and from Genesis 5:1 onward does the bare proper name 'Adam' (adam, אָדָם) appear (H0121, tagged Np proper noun). This article-bearing appellative (descriptive title carrying 'the') is the strongest lexical basis for a representative or every-person reading. It is addressed but not fully dissolved by the words alone, because the same chapters also use the proper name and the Genesis 5 toledot ('generations' or 'family-line') genealogy treats Adam as a datable individual, so the appellative cannot be pressed into a purely generic sense across the whole chain."
       }
     ]
   },
@@ -546,17 +546,17 @@
         "ref": "Rom.5.14",
         "variant_id": "rom5-14-me",
         "verdict_impact": "none",
-        "note": "Some witnesses are reported to omit μή before ἁμαρτήσαντας. Either reading preserves Adam and Moses as the historical termini of death's reign and leaves the one-event verdict intact."
+        "note": "Some witnesses are reported to omit 'not' (me, μή) before 'having sinned' (hamartesantas, ἁμαρτήσαντας). Either reading preserves Adam and Moses as the historical termini of death's reign and leaves the one-event verdict intact."
       },
       {
         "ref": "1Cor.15.21",
         "variant_id": "1cor15-21-art",
         "verdict_impact": "none",
-        "note": "Minor article and word-order variation around θάνατος does not touch the δι' ἀνθρώπου to δι' ἀνθρώπου parallel between the two heads."
+        "note": "Minor article and word-order variation around 'death' (thanatos, θάνατος) does not touch the 'through a man' (di' anthropou) to 'through a man' (di' anthropou) parallel between the two heads."
       }
     ],
     "ecm_status": "ecm-shadow",
-    "note": "Anchor verses in Romans 5, Romans 8, and 1 Corinthians 15 fall outside the ingested CBGM window, which covers only 3 John. Variant notes here rest on standard apparatus traces, not on published ECM data, so they are recorded as shadow only."
+    "note": "Anchor verses in Romans 5, Romans 8, and 1 Corinthians 15 fall outside the ingested CBGM (Coherence-Based Genealogical Method, a digital text-criticism method for tracking manuscript relationships) window, which covers only 3 John. Variant notes here rest on standard apparatus traces, not on published ECM (Editio Critica Maior, the critical edition of New Testament textual variants) data, so they are recorded as shadow only."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -573,37 +573,37 @@
       {
         "framework": "narrative_historical_reading",
         "verdict": "affirms",
-        "rationale": "Genesis 3 carries 34 wayyiqtol consecutive-imperfect verbs, the standard Hebrew prose-history form, continuous with the surrounding creation account and the Gen 5 toledot genealogy, and Genesis uses no parable marker. Read by its own grammar the chapter narrates a sequence of real past events."
+        "rationale": "Genesis 3 carries 34 wayyiqtol consecutive-imperfect verbs (the standard Hebrew form for stringing sequential past events together), the standard Hebrew prose-history form, continuous with the surrounding creation account and the Genesis 5 toledot ('generations' or 'family-line') genealogy, and Genesis uses no parable marker (the Hebrew 'parable' word mashal, H4912). Read by its own grammar the chapter narrates a sequence of real past events."
       },
       {
         "framework": "archetypal_representative_reading",
         "verdict": "complicates",
-        "rationale": "Inside the Eden scene the agent is named overwhelmingly as הָאָדָם, the man with the article (H0120), an appellative that can read as humanity as such, and the scene includes a speaking serpent and symbolic trees that the morphology does not lexically mark as literal. On this lens the chapter is a true-but-representative portrait of every person's turning from God, told in narrative dress. This reading is grammatically possible for the Eden scene taken in isolation, which is why it is recorded fairly."
+        "rationale": "Inside the Eden scene the agent is named overwhelmingly as 'the man' (ha-adam, הָאָדָם, with the article 'the', H0120), an appellative (descriptive title) that can read as humanity as such, and the scene includes a speaking serpent (nachash) and symbolic trees that the morphology (the form-and-tagging of the words) does not lexically mark as literal. On this lens the chapter is a true-but-representative portrait of every person's turning from God, told in narrative dress. This reading is grammatically possible for the Eden scene taken in isolation, which is why it is recorded fairly."
       },
       {
         "framework": "federal_headship",
         "verdict": "affirms",
-        "rationale": "ἑνὸς ἀνθρώπου in Rom 5 and ἐν τῷ Ἀδὰμ in 1 Cor 15.22 read Adam as a covenant head whose single act yields a universal verdict on those represented in him, with κατεστάθησαν marking a constitutive, not merely exemplary, relation."
+        "rationale": "'One man' (henos anthropou, ἑνὸς ἀνθρώπου) in Romans 5 and 'in Adam' (en to Adam, ἐν τῷ Ἀδὰμ) in 1 Corinthians 15:22 read Adam as a covenant head (representative chosen to act on behalf of a group) whose single act yields a universal verdict on those represented in him, with 'were constituted' (katestathesan, κατεστάθησαν) marking a constitutive (actually-making-them-so), not merely exemplary, relation."
       },
       {
         "framework": "typology_adam_christ",
         "verdict": "affirms",
-        "rationale": "Adam is tagged a proper noun (N-DSM-P, N-NSM-P) in exact parallel with Christ in 1 Cor 15.21 to 22 and 45, and called τύπος τοῦ μέλλοντος in Rom 5.14. The parallel resists a category mismatch where one head is a person and the other an abstraction, which pulls the archetypal reading back toward a real Adam at the canon level."
+        "rationale": "Adam is tagged a proper noun (N-DSM-P, proper personal name in dative masculine singular; N-NSM-P, the same in nominative singular) in exact parallel with Christ in 1 Corinthians 15:21 to 22 and 45, and called 'a type of the coming one' (typos tou mellontos, τύπος τοῦ μέλλοντος, with typos meaning a foreshadowing-pattern) in Romans 5:14. The parallel resists a category mismatch where one head is a person and the other an abstraction, which pulls the archetypal (original-pattern) reading back toward a real Adam at the canon level."
       },
       {
         "framework": "redemptive_historical_arc",
         "verdict": "affirms",
-        "rationale": "The Gen 3 to Rom 5 to Rom 8 to 1 Cor 15 chain treats Adam's act, creation's bondage under φθορά, and Christ's resurrection as nodes on one timeline marked by aorists and the ἄχρι τοῦ νῦν of Rom 8.22. The arc requires a real originating event."
+        "rationale": "The Genesis 3 to Romans 5 to Romans 8 to 1 Corinthians 15 chain treats Adam's act, creation's bondage under 'corruption' (phthora, φθορά), and Christ's resurrection as nodes on one timeline marked by aorists (completed past actions) and the 'until now' (achri tou nyn, ἄχρι τοῦ νῦν) of Romans 8:22. The arc requires a real originating event."
       }
     ],
-    "notes": "Pan-canonical anchor across Torah narrative and Pauline epistles. The honest tension is internal to the Hebrew: the Eden scene favors the article-bearing appellative הָאָדָם while the toledot and Paul favor the proper name and proper-noun tagging. The Adam-Christ typology is structurally load-bearing in both Rom 5 and 1 Cor 15 and tends to settle the canon-level reading toward a historical Adam."
+    "notes": "Pan-canonical (spread across the whole Bible) anchor across Torah narrative and Pauline epistles. The honest tension is internal to the Hebrew: the Eden scene favors the article-bearing appellative 'the man' (ha-adam, הָאָדָם) while the toledot ('generations' or 'family-line') and Paul favor the proper name and proper-noun tagging. The Adam-Christ typology (foreshadowing-pattern matching) is structurally load-bearing in both Romans 5 and 1 Corinthians 15 and tends to settle the canon-level reading toward a historical Adam."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "There was a definite originating disobedience by the first human in primeval history, with consequences of sin, death, and corruption reaching humanity and the created order.",
-    "notes": "The stem's phrase covenant head encodes a federal-headship mechanism, and plunging humanity and the created order encodes the scope claim. The neutralized form keeps the historical-event claim and the universal-consequence claim while leaving the representational mechanism (federal, seminal, or representative) a downstream question. The verdict is rendered on the original stem. affirms is unchanged from the prior file; the lexical work confirms it rather than forcing a flip."
+    "notes": "The stem's phrase 'covenant head' (representative chosen to act on behalf of a group) encodes a federal-headship mechanism, and 'plunging humanity and the created order' encodes the scope claim. The neutralized form keeps the historical-event claim and the universal-consequence claim while leaving the representational mechanism (federal, that is covenant-representative; seminal, that is biologically-passed-down; or representative, that is general stand-in) a downstream question. The verdict is rendered on the original stem. affirms is unchanged from the prior file; the lexical work confirms it rather than forcing a flip. VERDICT-CHANGED: no."
   },
-  "lay_summary": "The words decide this in two layers. In Genesis 3 the story runs through a long chain of Hebrew verbs in the form Hebrew uses for sequential past events, the same verb form that carries the creation account just before it and the family-tree history of chapter 5 just after it, where Adam heads a line of people who lived and had children. She saw, she took, she ate, she gave, he ate, then the ground is cursed because of one named agent. The book never uses its word for parable, so the text does not flag itself as a fable. Paul then treats this as a single dated event. He says sin entered the world through one man, and the verb entered is a one-time past-tense verb, a single doorway, not an ongoing mood. He says one man's disobedience made the many sinners, again a settled past action, not a bad example. In Romans 8 he stretches the damage to all creation, subjected to futility and groaning until now, words that point back to a real starting point. In First Corinthians 15 he sets death through a man against resurrection through a man, and tags Adam grammatically as a proper personal name, exactly the way he tags Christ, so the parallel only works if both are real persons. There is one honest seam in the words. Inside the garden scene the agent is mostly called the man, with the word the, which can read as humanity in general, and the talking serpent and the trees are not labeled as symbols. That is the room a representative reading uses. But the narrative grammar, the genealogy that counts Adam as a datable ancestor, and the proper-name parallel with Christ keep the historical-event reading dominant. So the proposition stands, with high confidence, on the words alone.",
+  "lay_summary": "The words decide this in two layers. In Genesis 3 the story runs through a long chain of Hebrew verbs in the form Hebrew uses for sequential past events (called wayyiqtol), the same verb form that carries the creation account just before it and the family-tree history of chapter 5 just after it, where Adam (Hebrew 'adam', H0121) heads a line of people who lived and had children. She saw, she took, she ate ('akal', H0398), she gave, he ate, then the ground ('adamah', H0127) is cursed ('arar', H0779) because of one named agent. The book never uses its word for parable ('mashal', H4912), so the text does not flag itself as a fable. Paul then treats this as a single dated event. He says sin ('hamartia') entered ('eiserchomai', G1525) the world ('kosmos') through one man ('heis anthropos'), and the verb entered is a one-time past-tense verb (an aorist, that is a completed past action), a single doorway, not an ongoing mood. He says one man's disobedience made the many sinners ('katestathesan', from 'kathistemi' G2525), again a settled past action, not a bad example. In Romans 8 he stretches the damage to all creation ('ktisis'), subjected to futility and groaning until now, words that point back to a real starting point. In 1 Corinthians 15 he sets death ('thanatos') through a man against resurrection through a man, and tags Adam grammatically as a proper personal name, exactly the way he tags Christ, so the parallel only works if both are real persons. There is one honest seam in the words. Inside the garden scene the agent is mostly called the man ('ha-adam', H0120, with the word 'the'), which can read as humanity in general, and the talking serpent ('nachash', H5175) and the trees are not labeled as symbols. That is the room a representative reading uses. But the narrative grammar, the genealogy ('toledot') that counts Adam as a datable ancestor, and the proper-name parallel with Christ keep the historical-event reading dominant. So the proposition stands, with high confidence, on the words alone.",
   "citations": [
     {
       "type": "morphology",

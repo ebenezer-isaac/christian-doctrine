@@ -11,7 +11,7 @@
     "confidence": "medium",
     "variant_robust": true,
     "pan_canonical": false,
-    "rationale": "Direct queries of the lexical store confirm the core predication. soma, body, occurs 144 times and the ecclesial body-of-Christ sense clusters in independent Pauline letters, while melos, member, occurs 34 times with the same concentration. In 1 Cor 12:27 soma, Christos, and melos co-occur in one clause, hymeis de este soma Christou, you are the body of Christ. Rom 12:5 repeats soma, heis, Christos, and melos in a separate letter, and Col 1:18 packs soma, kephale, and ekklesia into one line, he kephale tou somatos tes ekklesias. The recurring soma plus ekklesia plus kephale collocation across letters makes the identity claim decisive, so affirms is true. Confidence stays medium for two text-level reasons. The metaphor is found only in the Greek New Testament with no Old Testament anchor lexeme, so it is not pan-canonical, and the clause from Pentecost to the rapture is a chronological bracket that none of the body lexemes carry."
+    "rationale": "Direct queries of the lexical store confirm the core predication (the central 'X is Y' claim). The word body (soma) occurs 144 times, and the church-as-body sense clusters in independent letters by Paul, while the word member (melos) occurs 34 times with the same concentration. In 1 Corinthians 12:27 the words body (soma), Christ (Christos), and member (melos) all co-occur in one clause, 'you are the body of Christ' (hymeis de este soma Christou). Romans 12:5 repeats body (soma), one (heis), Christ (Christos), and member (melos) in a separate letter, and Colossians 1:18 packs body (soma), head (kephale), and church or assembly (ekklesia) into one line, 'he is the head of the body, the church' (he kephale tou somatos tes ekklesias). The recurring combination of body (soma) plus church or assembly (ekklesia) plus head (kephale) across letters makes the identity claim decisive, so 'affirms' is true. Confidence stays medium for two text-level reasons. The metaphor is found only in the Greek New Testament with no Old Testament anchor word, so it is not pan-canonical (spread across the whole Bible), and the clause 'from Pentecost to the rapture' is a chronological bracket (start-date plus end-date frame) that none of the body-related words carry."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -122,7 +122,7 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "The clause kathaper gar to soma hen estin kai mele polla echei, just as the body is one and has many members, is closed by houtos kai ho Christos, so also is Christ. A direct query confirms soma, melos, Christos, and heis all co-occur in this verse, so the one-and-many body image is applied straight to Christ as a corporate whole.",
+        "force": "The clause 'just as the body is one and has many members' (kathaper gar to soma hen estin kai mele polla echei) is closed by 'so also is Christ' (houtos kai ho Christos). A direct query confirms that body (soma), member (melos), Christ (Christos), and one (heis) all co-occur in this verse, so the one-and-many body image is applied straight to Christ as a corporate whole (a single grouping treated as one unit).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -146,7 +146,7 @@
             "lemma": "εἰς"
           }
         ],
-        "force": "The text reads en heni pneumati hemeis pantes eis hen soma ebaptisthemen, in one Spirit we all were baptized into one body, and hen pneuma epotisthemen, we were given one Spirit to drink. Queries confirm soma, heis, eis, and baptizo are tagged here, supplying the lexical picture of a single Spirit incorporating Jew and Greek, slave and free, into one body. The pneuma tokens are visible in the text but were not separately retrievable in this build, so the Spirit clause is read from the verse text, not from a graph lemma count.",
+        "force": "The text reads 'in one Spirit we all were baptized into one body' (en heni pneumati hemeis pantes eis hen soma ebaptisthemen), and 'we were given one Spirit to drink' (hen pneuma epotisthemen). Queries confirm body (soma), one (heis), into (eis), and immerse or dip (baptizo) are tagged here, supplying the lexical picture of a single Spirit incorporating Jew and Greek, slave and free, into one body. The Spirit (pneuma) tokens are visible in the text but were not separately retrievable in this build, so the Spirit clause is read from the verse text, not from a graph word-count.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -170,7 +170,7 @@
             "lemma": "πολύς"
           }
         ],
-        "force": "kai gar to soma ouk estin hen melos alla polla, for the body is not one member but many. soma, melos, and polys are confirmed present, stating the one-and-many structure that defines the corporate organism.",
+        "force": "'for the body is not one member but many' (kai gar to soma ouk estin hen melos alla polla). The words body (soma), member (melos), and many (polys) are confirmed present, stating the one-and-many structure that defines the corporate organism (the single body made of many parts).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -194,7 +194,7 @@
             "lemma": "μέλος"
           }
         ],
-        "force": "hymeis de este soma Christou kai mele ek merous, you are the body of Christ and members individually. A query confirms soma, Christos, and melos co-occur in this one verse, the most explicit single lexical anchor naming the gathered believers as Christ's body.",
+        "force": "'you are the body of Christ and members individually' (hymeis de este soma Christou kai mele ek merous). A query confirms that body (soma), Christ (Christos), and member (melos) co-occur in this one verse, the most explicit single lexical anchor naming the gathered believers as Christ's body.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -222,7 +222,7 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "houtos hoi polloi hen soma esmen en Christo, so we the many are one body in Christ, and individually members of one another, allelon mele. A query confirms soma, heis, Christos, and melos all appear in this verse of a separate letter, showing the body usage is not isolated to one congregation.",
+        "force": "'so we the many are one body in Christ' (houtos hoi polloi hen soma esmen en Christo), and individually 'members of one another' (allelon mele). A query confirms that body (soma), one (heis), Christ (Christos), and member (melos) all appear in this verse of a separate letter, showing the body usage is not isolated to one congregation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -242,7 +242,7 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "auton edoken kephalen hyper panta te ekklesia, he gave him as head over all things to the church. A query confirms kephale and ekklesia co-occur, supplying the head-to-church relation that the next verse fills out with soma.",
+        "force": "'he gave him as head over all things to the church' (auton edoken kephalen hyper panta te ekklesia). A query confirms that head (kephale) and church or assembly (ekklesia) co-occur, supplying the head-to-church relation that the next verse fills out with body (soma).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -262,7 +262,7 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "hetis estin to soma autou, which is his body, identifies the ekklesia of the prior verse as Christ's soma. soma is confirmed present, and the relative hetis binds church and body in one predication that spans verses 22 and 23.",
+        "force": "'which is his body' (hetis estin to soma autou) identifies the church or assembly (ekklesia) of the prior verse as Christ's body (soma). Body (soma) is confirmed present, and the relative 'which' (hetis) binds church and body in one predication (one 'X is Y' statement) that spans verses 22 and 23.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -282,7 +282,7 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "hen soma kai hen pneuma, one body and one Spirit. A query confirms soma and heis here, pairing the single body with the single Spirit. As in 1 Cor 12:13 the pneuma token was not separately retrievable in this build, so the Spirit element is read from the verse text.",
+        "force": "'one body and one Spirit' (hen soma kai hen pneuma). A query confirms body (soma) and one (heis) here, pairing the single body with the single Spirit. As in 1 Corinthians 12:13 the Spirit (pneuma) token was not separately retrievable in this build, so the Spirit element is read from the verse text.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -304,7 +304,7 @@
             "lemma": "οἰκοδομή"
           }
         ],
-        "force": "eis oikodomen tou somatos tou Christou, for the building up of the body of Christ. A query confirms soma, Christos, and oikodome co-occur, repeating the soma Christou predication and adding a growth verb that treats the body as something that is built up.",
+        "force": "'for the building up of the body of Christ' (eis oikodomen tou somatos tou Christou). A query confirms that body (soma), Christ (Christos), and building or edification (oikodome) co-occur, repeating the body-of-Christ (soma Christou) predication and adding a growth word that treats the body as something that is built up.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -324,7 +324,7 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "hoti mele esmen tou somatos autou, because we are members of his body. A query confirms melos and soma co-occur, and the first person plural mele esmen places believers within Christ's body.",
+        "force": "'because we are members of his body' (hoti mele esmen tou somatos autou). A query confirms that member (melos) and body (soma) co-occur, and the first person plural 'we are members' (mele esmen) places believers within Christ's body.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -348,7 +348,7 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "autos estin he kephale tou somatos tes ekklesias, he is the head of the body, the church. A query confirms kephale, soma, and ekklesia all co-occur in this one clause, the most compact lexical statement of the proposition's core.",
+        "force": "'he is the head of the body, the church' (autos estin he kephale tou somatos tes ekklesias). A query confirms that head (kephale), body (soma), and church or assembly (ekklesia) all co-occur in this one clause, the most compact lexical statement of the proposition's core.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -372,7 +372,7 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "hyper tou somatos autou, ho estin he ekklesia, for the sake of his body, which is the church. A query confirms soma, ekklesia, and Christos co-occur, giving an explicit equation of his body with the church in addition to the Col 1:18 statement.",
+        "force": "'for the sake of his body, which is the church' (hyper tou somatos autou, ho estin he ekklesia). A query confirms that body (soma), church or assembly (ekklesia), and Christ (Christos) co-occur, giving an explicit equation of his body with the church in addition to the Colossians 1:18 statement.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -392,7 +392,7 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "to mysterion touto mega estin, ego de lego eis Christon kai eis ten ekklesian, this mystery is great, but I speak of Christ and of the church. A query confirms Christos and ekklesia co-occur, and the marriage union of Eph 5:25 to 31 is read of Christ and the church. The mysterion vocabulary is figurative and marks revelation status, not a calendar, so it supports the union claim without supplying chronology.",
+        "force": "'this mystery is great, but I speak of Christ and of the church' (to mysterion touto mega estin, ego de lego eis Christon kai eis ten ekklesian). A query confirms that Christ (Christos) and church or assembly (ekklesia) co-occur, and the marriage union of Ephesians 5:25 to 31 is read of Christ and the church. The mystery (mysterion) vocabulary, that is, a previously hidden truth now disclosed, is figurative and marks revelation status, not a calendar, so it supports the union claim without supplying chronology (start-and-end dates).",
         "supports": "neutral",
         "genre": "epistle",
         "figures": [
@@ -437,17 +437,17 @@
       {
         "ref": "Eph.5.31",
         "addressed": true,
-        "resolution": "The citation of Gen 2:24, two shall become one flesh, frames the Christ and church union in marital and creational terms, which could be read as predating Pentecost. Lexically the verse describes a one-flesh union applied figuratively to Christ and the ekklesia, and it does not assign a start date to the body, so it supports the union claim while leaving the Pentecost-to-rapture bracket unestablished by the lexemes."
+        "resolution": "The citation of Genesis 2:24, 'two shall become one flesh', frames the union of Christ and the church in marital and creational terms, which could be read as predating Pentecost. Lexically, the verse describes a one-flesh union applied figuratively to Christ and the church or assembly (ekklesia), and it does not assign a start date to the body, so it supports the union claim while leaving the Pentecost-to-rapture bracket unestablished by the words themselves."
       },
       {
         "ref": "Eph.5.32",
         "addressed": true,
-        "resolution": "mysterion, mystery, marks the Christ-church union as previously hidden and now disclosed, which some frameworks take as evidence for a new-era body. The term itself signals revelation status, not a calendar, so it neither confirms nor refutes the temporal bracket on lexical grounds."
+        "resolution": "The word mystery (mysterion), meaning a previously hidden truth now disclosed, marks the Christ-and-church union as newly revealed, which some frameworks take as evidence for a new-era body. The term itself signals revelation status, not a calendar (start-and-end dates), so it neither confirms nor refutes the temporal bracket on lexical grounds."
       },
       {
         "ref": "1Cor.6.15",
         "addressed": true,
-        "resolution": "ouk oidate hoti ta somata hymon mele Christou estin, your bodies are members of Christ. A query confirms soma and Christos co-occur here too, but in this verse soma carries its literal physical sense while melos Christou names personal union, which shows the same words are used both literally and ecclesially. This does not weaken the verdict because the body-of-Christ identity rests on the chapter 12 and Colossians collocations, not on this verse, but it illustrates why soma alone is not decisive without its melos and ekklesia partners."
+        "resolution": "'do you not know that your bodies are members of Christ?' (ouk oidate hoti ta somata hymon mele Christou estin). A query confirms that body (soma) and Christ (Christos) co-occur here too, but in this verse body (soma) carries its literal physical sense while 'member of Christ' (melos Christou) names personal union, which shows the same words are used both literally and ecclesially (in a church sense). This does not weaken the verdict because the body-of-Christ identity rests on the chapter 12 and Colossians collocations (recurring word combinations), not on this verse, but it illustrates why body (soma) alone is not decisive without its partner words member (melos) and church or assembly (ekklesia)."
       }
     ]
   },
@@ -455,7 +455,7 @@
     "verdict_variant_sensitive": false,
     "variant_units_examined": [],
     "ecm_status": "ecm-shadow",
-    "note": "The bundle reports an empty variant_units list and not_in_ecm_scope true for these passages, all of which lie outside the ingested 3 John ECM window. The soma, melos, kephale, and ekklesia readings in 1 Cor 12, Rom 12, Eph 1, 4, 5, and Col 1 are textually stable, and the marked sigla in the supplied text touch word order and minor particles, not the body-of-Christ predication. No CBGM data was examined, so ecm-shadow is recorded rather than ecm-published."
+    "note": "The bundle reports an empty variant_units list and 'not_in_ecm_scope' true for these passages, all of which lie outside the ingested 3 John window of the ECM apparatus (the critical edition of New Testament textual variants). The readings of body (soma), member (melos), head (kephale), and church or assembly (ekklesia) in 1 Corinthians 12, Romans 12, Ephesians 1, 4, and 5, and Colossians 1 are textually stable, and the marked sigla (editorial symbols flagging variants) in the supplied text touch word order and minor particles, not the body-of-Christ predication. No CBGM data (Coherence-Based Genealogical Method, a tool for tracing manuscript relationships) was examined, so 'ecm-shadow' is recorded rather than 'ecm-published'."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -469,37 +469,37 @@
       {
         "framework": "lexical_core_identity",
         "verdict": "affirms",
-        "rationale": "soma Christou, hen soma, mele, and kephale, verified by direct query to co-occur in 1 Cor 12:12, 12:27, Rom 12:5, Eph 1:22 to 23, 4:12, 5:30, Col 1:18, and 1:24 across independent letters, establish the church as the body of Christ, a corporate organism of many members united under one head."
+        "rationale": "The phrase 'body of Christ' (soma Christou), 'one body' (hen soma), 'members' (mele), and 'head' (kephale), verified by direct query to co-occur in 1 Corinthians 12:12, 12:27, Romans 12:5, Ephesians 1:22 to 23, 4:12, 5:30, Colossians 1:18, and 1:24 across independent letters, establish the church as the body of Christ, a corporate organism (single united body) of many members joined under one head."
       },
       {
         "framework": "organism_reading",
         "verdict": "affirms",
-        "rationale": "Reads soma as a living organism, supported lexically by the sensory-member vocabulary of 1 Cor 12, ophthalmos eye, pous foot, akoe hearing, and by the growth verb oikodome in Eph 4:12 and the nourishing language of Eph 5:29, which treat the body as something that lives and grows rather than a static grouping."
+        "rationale": "Reads body (soma) as a living organism, supported lexically by the sensory-member vocabulary of 1 Corinthians 12, eye (ophthalmos), foot (pous), and hearing (akoe), and by the growth word, building or edification (oikodome), in Ephesians 4:12 and the nourishing language of Ephesians 5:29, which treat the body as something that lives and grows rather than a static grouping."
       },
       {
         "framework": "corporate_unity_reading",
         "verdict": "affirms",
-        "rationale": "Reads soma primarily as an image of corporate solidarity and ordered diversity rather than biological life, grounded in the same one-and-many vocabulary, hen soma, mele polla, and in the mutual-care purpose clause of 1 Cor 12:25. On this reading the words establish unity-in-diversity without requiring the organism connotation, and the text underdetermines a choice between the two emphases, so both are lexically defensible."
+        "rationale": "Reads body (soma) primarily as an image of corporate solidarity (group togetherness) and ordered diversity rather than biological life, grounded in the same one-and-many vocabulary, 'one body' (hen soma), 'many members' (mele polla), and in the mutual-care purpose clause of 1 Corinthians 12:25. On this reading the words establish unity-in-diversity without requiring the organism connotation, and the text underdetermines (does not settle by itself) a choice between the two emphases, so both are lexically defensible."
       },
       {
         "framework": "dispensationalism",
         "verdict": "affirms_with_added_chronology",
-        "rationale": "Reads the body as a new-era entity bounded from Pentecost to the rapture, treating the mysterion language of Eph 3 and 5 as marking a previously unrevealed temporal phase. The Pentecost-to-rapture bracket is supplied by this framework, not by the body lexemes, which carry no calendar."
+        "rationale": "Reads the body as a new-era entity bounded from Pentecost to the rapture, treating the mystery (mysterion) language of Ephesians 3 and 5 as marking a previously unrevealed temporal phase. The Pentecost-to-rapture bracket is supplied by this framework, not by the body-related words, which carry no calendar (no start-and-end dates)."
       },
       {
         "framework": "covenant_theology",
         "verdict": "affirms_core_disputes_dating",
-        "rationale": "Affirms the one-body identity but reads the people of God as one continuous body across the covenants, so it disputes the strict Pentecost start and rapture terminus while agreeing the gathered believers are Christ's body. The body vocabulary itself, being Greek and New Testament only, neither confirms nor denies a continuity stretching back into the Old Testament."
+        "rationale": "Affirms the one-body identity but reads the people of God as one continuous body across the covenants, so it disputes the strict Pentecost start and rapture terminus (end-point) while agreeing the gathered believers are Christ's body. The body vocabulary itself, being Greek and New Testament only, neither confirms nor denies a continuity stretching back into the Old Testament."
       }
     ],
-    "notes": "The disagreement among frameworks is not over whether the church is the body of Christ, which the verified collocations establish, but over two things the body vocabulary leaves open. First, whether soma carries a living-organism sense or a corporate-unity-image sense, which the words do not rank, since the same one-and-many language fits both. Second, the temporal bracket from Pentecost to the rapture, which none of the body lexemes encode. analogia_scripturae holds because the same body language recurs in independent letters. progressive_revelation is marked because the mysterion vocabulary frames the disclosure as newly revealed."
+    "notes": "The disagreement among frameworks is not over whether the church is the body of Christ, which the verified collocations (recurring word combinations) establish, but over two things the body vocabulary leaves open. First, whether body (soma) carries a living-organism sense or a corporate-unity-image sense, which the words do not rank, since the same one-and-many language fits both. Second, the temporal bracket from Pentecost to the rapture, which none of the body-related words encode. The 'analogy of Scripture' (analogia_scripturae), that is, comparing Scripture with Scripture, holds because the same body language recurs in independent letters. Progressive revelation, the principle that biblical disclosure unfolds across time, is marked because the mystery (mysterion) vocabulary frames the disclosure as newly revealed."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "The church is the body of Christ, a corporate body of believers united to Christ and to one another, with Christ as the head.",
-    "notes": "The phrase from Pentecost to the rapture imports a specific dispensational chronology that the anchor lexemes soma, melos, ekklesia, and kephale do not carry, and the words spiritual organism lean toward one of two defensible readings of soma. Direct queries verify that the body-of-Christ identity and the head-to-church relation are carried by the recurring collocations, but the start and end dates and the organism-versus-image emphasis are framework choices the vocabulary underdetermines. The verdict is derived on the original stem, and the neutralized form strips the calendar and the organism term while preserving the corporate-union claim the lexemes support."
+    "notes": "The phrase 'from Pentecost to the rapture' imports a specific dispensational chronology (start-and-end-date framework) that the anchor words body (soma), member (melos), church or assembly (ekklesia), and head (kephale) do not carry, and the words 'spiritual organism' lean toward one of two defensible readings of body (soma). Direct queries verify that the body-of-Christ identity and the head-to-church relation are carried by the recurring collocations (recurring word combinations), but the start and end dates and the organism-versus-image emphasis are framework choices the vocabulary underdetermines (does not settle by itself). The verdict is derived on the original stem, and the neutralized form strips the calendar and the organism term while preserving the corporate-union claim the words support."
   },
-  "lay_summary": "The words point clearly in one direction for the central claim. Direct checks of the Greek text confirm that across 1 Corinthians 12, Romans 12, Ephesians 1, 4, and 5, and Colossians 1, the same picture recurs. The word soma, body, occurs 144 times in the New Testament, and the word melos, member, 34 times, with the body-of-Christ use clustered in Paul's letters. In 1 Corinthians 12:27 the words for body, Christ, and member all stand together, you are the body of Christ and members of it. Romans 12:5 repeats body, one, Christ, and member in a different letter. Colossians 1:18 packs head, body, and church into one line, and Colossians 1:24 says plainly that his body is the church. Ephesians 1:23 calls the church his body, and Ephesians 5:30 says believers are members of his body. The one-and-many structure recurs, one body with many members, so the body is a single whole made of many people, and Ephesians 4:12 even speaks of building it up. So the heart of the statement, that the church is the body of Christ made of believers joined to him, is well supported by the recurring vocabulary. Two parts of the statement, though, are not settled by the words themselves. The body words can be read as a living organism or as an image of ordered unity, and the text does not rank these two senses, which is one reason careful readers differ. And the clause from Pentecost to the rapture sets a start date and an end date that none of the body words carry, since this Greek vocabulary appears only in the New Testament and fixes no calendar. So the core identity is affirmed on the words, while the organism emphasis and the timing rest on a larger interpretive framework rather than on the meaning of body, member, or church.",
+  "lay_summary": "The words point clearly in one direction for the central claim. Direct checks of the Greek text confirm that across 1 Corinthians 12, Romans 12, Ephesians 1, 4, and 5, and Colossians 1, the same picture recurs. The word for body (soma) occurs 144 times in the New Testament, and the word for member (melos) 34 times, with the body-of-Christ use clustered in Paul's letters. In 1 Corinthians 12:27 the words for body (soma), Christ (Christos), and member (melos) all stand together, 'you are the body of Christ and members of it'. Romans 12:5 repeats body (soma), one (heis), Christ (Christos), and member (melos) in a different letter. Colossians 1:18 packs head (kephale), body (soma), and church or assembly (ekklesia) into one line, and Colossians 1:24 says plainly that his body is the church. Ephesians 1:23 calls the church his body, and Ephesians 5:30 says believers are members of his body. The one-and-many structure recurs, one body with many members, so the body is a single whole made of many people, and Ephesians 4:12 even speaks of building it up using the growth word, building or edification (oikodome). So the heart of the statement, that the church is the body of Christ made of believers joined to him, is well supported by the recurring vocabulary. Two parts of the statement, though, are not settled by the words themselves. The body-related words can be read as a living organism or as an image of ordered unity, and the text does not rank these two senses, which is one reason careful readers differ. And the clause 'from Pentecost to the rapture' sets a start date and an end date that none of the body-related words carry, since this Greek vocabulary appears only in the New Testament and fixes no calendar. So the core identity is affirmed on the words, while the organism emphasis and the timing rest on a larger interpretive framework rather than on the meaning of body (soma), member (melos), or church or assembly (ekklesia).",
   "citations": [
     {
       "type": "lexicon",
@@ -573,7 +573,7 @@
       }
     ],
     "evidence_safe_to_publish": false,
-    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which is non-commercial and not bulk-redistributable, and SBLGNT-text is governed by the SBLGNT-EULA, which also forbids bulk redistribution. Both were used for the soma, melos, kephale, and ekklesia lemma and collocation evidence, so the aggregate evidence is not safe to publish in bulk."
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which is non-commercial and not bulk-redistributable, and SBLGNT-text is governed by the SBLGNT-EULA, which also forbids bulk redistribution. Both were used for the body (soma), member (melos), head (kephale), and church or assembly (ekklesia) word and collocation evidence, so the aggregate evidence is not safe to publish in bulk."
   },
   "flags": [
     "ecm-shadow"

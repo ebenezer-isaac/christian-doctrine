@@ -11,7 +11,7 @@
     "confidence": "medium",
     "variant_robust": true,
     "pan_canonical": false,
-    "rationale": "The Pauline epistles state a universal, completed initiation: the aorist passive of baptizo (G0907) with eis plus accusative governs all believers without remainder (1 Cor 12.13 hemeis pantes ebaptisthemen eis hen soma, V-API-1P; Rom 6.3 hosoi ebaptisthemen; Gal 3.27 hosoi ebaptisthete), and Rom 8.9 makes having the Spirit coextensive with belonging to Christ. Read alone, this pattern places Spirit baptism at conversion. But the same verb baptizo in Acts is future (Acts 1.5 and 11.16 baptisthesesthe en pneumati), and Acts narrates Spirit reception with a different verb cluster, lambano to receive, epipipto and erchomai epi to fall or come upon, epitithemi cheiras laying on of hands, pimplemi to fill, sometimes after water baptism (Acts 8.16, those already baptized had the Spirit not yet fallen on them). The vocabulary itself does not rank the Pauline universal didactic aorist above the Acts narrative-descriptive sequence, so two defensible readings stand on real lexical data."
+    "rationale": "The letters of Paul state a universal, completed initiation: the completed-past passive form (aorist passive, a single finished past action) of the Greek verb 'to immerse' (baptizo, G0907) with the preposition 'into' (eis) plus the destination noun governs all believers without remainder (1 Corinthians 12:13 'we all were baptized' (hemeis pantes ebaptisthemen, tagged V-API-1P, meaning verb aorist passive indicative first person plural); Romans 6:3 'as many as were baptized' (hosoi ebaptisthemen); Galatians 3:27 'as many as were baptized' (hosoi ebaptisthete)), and Romans 8:9 makes having the Spirit overlap exactly with belonging to Christ. Read alone, this pattern places Spirit baptism at conversion. But the same verb 'to immerse' (baptizo) in Acts is in the future tense (Acts 1:5 and 11:16 'you will be baptized' (baptisthesesthe) 'in the Spirit' (en pneumati)), and Acts narrates Spirit reception with a different verb cluster: 'to receive' (lambano), 'to fall upon' or 'to come upon' (epipipto and erchomai epi), 'laying on of hands' (epitithemi cheiras, the gesture of placing hands on someone), 'to fill' (pimplemi), sometimes after water baptism (Acts 8:16, those already baptized had the Spirit not yet fallen on them). The vocabulary itself does not rank the Pauline universal teaching-style completed-past statement above the Acts narrative-descriptive sequence, so two defensible readings stand on real lexical data."
   },
   "lexical_evidence": {
     "anchor_lemmas": [
@@ -147,7 +147,7 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "Confirmed by query: ebaptisthemen is V-API-1P, aorist passive indicative first plural, a single completed past action. The subject is hemeis pantes (P-1NP plus A-NPM, we all) and the eite pairs Ioudaioi, Hellenes, douloi, eleutheroi leave no believer outside the verbal scope. The goal is eis hen soma, the same eis plus accusative Paul uses for entry into Christ. The instrument or sphere is en heni pneumati, and the parallel clause hen pneuma epotisthemen (potizo, V-API-1P) repeats the universal first plural. This is the strongest AT-CONVERSION text: a didactic, universal, completed incorporation predicated of every believer.",
+        "force": "Confirmed by query: 'we were baptized' (ebaptisthemen) is tagged V-API-1P (verb aorist passive indicative first person plural), meaning a single completed past action performed on the speakers. The subject is 'we all' (hemeis pantes, tagged P-1NP plus A-NPM, pronoun first plural plus adjective nominative plural masculine) and the pairs 'whether' (eite) Jews or Greeks, slaves or free (Ioudaioi, Hellenes, douloi, eleutheroi) leave no believer outside the verbal scope. The goal is 'into one body' (eis hen soma), the same 'into' (eis) plus accusative (the direct-object grammatical form) Paul uses for entry into Christ. The instrument or sphere is 'in one Spirit' (en heni pneumati), and the parallel clause 'we were all made to drink one Spirit' (hen pneuma epotisthemen, with potizo 'to give to drink' tagged V-API-1P) repeats the universal first plural. This is the strongest AT-CONVERSION text: a teaching-style, universal, completed incorporation predicated of every believer.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -167,7 +167,7 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "The triad heis Kyrios, mia pistis, hen baptisma sets baptisma (N-NSN) among the singularities grounding the unity of the body. Numeric hen foregrounds non-repeatability. The catalogue assumes the whole church already shares these realities. This supports a single, shared baptism rather than a tiered or repeatable one, which weighs toward the AT-CONVERSION reading.",
+        "force": "The triad 'one Lord, one faith, one baptism' (heis Kyrios, mia pistis, hen baptisma) sets 'baptism' (baptisma, tagged N-NSN, noun nominative singular neuter) among the singularities grounding the unity of the body. The numeric 'one' (hen) foregrounds non-repeatability. The catalogue assumes the whole church already shares these realities. This supports a single, shared baptism rather than a tiered or repeatable one, which weighs toward the AT-CONVERSION reading.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -193,7 +193,7 @@
             "lemma": "ὅσος"
           }
         ],
-        "force": "Confirmed: hosoi ebaptisthemen eis Christon Iesoun, with ebaptisthemen V-API-1P and the relative hosoi (K-NPM, as many as) marking an unrestricted scope over the addressed community. The repeated eis plus accusative pairs Christ and his death as goals of the one aorist event. Paul appeals to it as something already undergone, supporting a past conversion-initiation.",
+        "force": "Confirmed: 'as many as were baptized into Christ Jesus' (hosoi ebaptisthemen eis Christon Iesoun), with 'we were baptized' (ebaptisthemen) tagged V-API-1P (a single completed past action on us) and the relative 'as many as' (hosoi, tagged K-NPM, correlative nominative plural masculine) marking an unrestricted scope over the addressed community. The repeated 'into' (eis) plus accusative (the direct-object grammatical form) pairs Christ and his death as goals of the one completed-past event. Paul appeals to it as something already undergone, supporting a past conversion-initiation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -215,7 +215,7 @@
             "lemma": "ζωή"
           }
         ],
-        "force": "Confirmed: synetaphemen (synthapto V-2API-1P) dia tou baptismatos eis ton thanaton treats the baptisma as the channel of a finished co-burial. The purpose clause hina en kainoteti zoes peripatesomen grounds present walking on a past initiation, which favors a completed entrance rather than a separable later crisis.",
+        "force": "Confirmed: 'we were buried with him' (synetaphemen, from 'to bury together' (synthapto) tagged V-2API-1P, a single completed past action) 'through the baptism' (dia tou baptismatos) 'into the death' (eis ton thanaton) treats the 'baptism' (baptisma) as the channel of a finished co-burial. The purpose clause 'so that in newness of life we might walk' (hina en kainoteti zoes peripatesomen) grounds present walking on a past initiation, which favors a completed entrance rather than a separable later crisis.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -243,7 +243,7 @@
             "lemma": "ἐνδύω"
           }
         ],
-        "force": "Confirmed: hosoi gar eis Christon ebaptisthete (ebaptisthete V-API-2P) is co-extensive with the huioi theou of 3.26. The aorist enedysasthe (endyo V-AMI-2P, you clothed yourselves) pairs being clothed with Christ as the same single past event. The verse warrants the prior sonship claim, so the scope of those clothed with Christ is the scope of believers, supporting AT-CONVERSION.",
+        "force": "Confirmed: 'for as many as into Christ were baptized' (hosoi gar eis Christon ebaptisthete, with 'you were baptized' (ebaptisthete) tagged V-API-2P, completed-past passive second plural) is co-extensive with 'sons of God' (huioi theou) of Galatians 3:26. The completed-past 'you clothed yourselves' (enedysasthe, from 'to put on' (endyo) tagged V-AMI-2P, aorist middle indicative second plural, meaning 'you yourselves performed a single past act of clothing') pairs being clothed with Christ as the same single past event. The verse warrants the prior sonship claim, so the scope of those clothed with Christ is the scope of believers, supporting AT-CONVERSION.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -263,7 +263,7 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "Confirmed: ei de tis Pneuma Christou ouk echei, houtos ouk estin autou, if anyone does not have the Spirit of Christ he is not his. The present echei makes possession of the Spirit coextensive with belonging to Christ, leaving no class of believer who lacks the Spirit. This is a strong AT-CONVERSION support because it forecloses a Spirit-less believer.",
+        "force": "Confirmed: 'but if anyone the Spirit of Christ does not have, this one is not his' (ei de tis Pneuma Christou ouk echei, houtos ouk estin autou). The present-tense 'has' (echei, ongoing simple statement of fact) makes possession of the Spirit overlap exactly with belonging to Christ, leaving no class of believer who lacks the Spirit. This is a strong AT-CONVERSION support because it forecloses a Spirit-less believer.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -281,7 +281,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "Confirmed: pisteusantes esphragisthete to Pneumati, having believed you were sealed with the Spirit. The aorist participle pisteusantes (V-AAP) ties sealing to believing. This supports AT-CONVERSION on a coincident reading of the participle, but the participle is the lexical crux: an aorist participle can be coincident (when you believed) or antecedent (after you had believed), and the grammar alone does not settle which, which is precisely where a subsequent-reception reading finds room.",
+        "force": "Confirmed: 'having believed you were sealed with the Spirit' (pisteusantes esphragisthete to Pneumati). The completed-past participle 'having believed' (pisteusantes, tagged V-AAP, verb aorist active participle) ties sealing to believing. This supports AT-CONVERSION on a coincident reading of the participle, but the participle is the lexical crux: a completed-past participle (aorist participle) can be coincident (when you believed) or antecedent (after you had believed), and the grammar alone does not settle which, which is precisely where a subsequent-reception reading finds room.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
@@ -299,7 +299,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "Confirmed: hymeis de en Pneumati baptisthesesthe Hagio, you will be baptized in the Holy Spirit. baptisthesesthe is V-FPI-2P, future passive, set in contrast to Iohn who baptized with water (ebaptisen, V-AAI-3S). Here baptizo plus en pneumati names a promised future enduement of the apostles, a distinct event from initial belief, and it is fulfilled in Acts 2. The same verb that Paul uses in the aorist of all believers is here future and event-specific, which is the lexical root of the divergence.",
+        "force": "Confirmed: 'but you in the Spirit will be baptized, the Holy one' (hymeis de en Pneumati baptisthesesthe Hagio). 'You will be baptized' (baptisthesesthe) is tagged V-FPI-2P (verb future passive indicative second person plural, meaning a future event done to you), set in contrast to John who 'baptized' (ebaptisen, tagged V-AAI-3S, completed past active third singular) with water. Here 'to immerse' (baptizo) plus 'in the Spirit' (en pneumati) names a promised future enduement (clothing with power) of the apostles, a distinct event from initial belief, and it is fulfilled in Acts 2. The same verb that Paul uses in the completed-past form of all believers is here future and event-specific, which is the lexical root of the divergence.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -321,7 +321,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "Confirmed: the Spirit had not yet fallen, epipeptokos (epipipto V-RAP-NSN) with epi, on any of them, though they had already been baptized, bebaptismenoi hyperchon (perfect periphrastic of baptizo) into the name of the Lord Jesus. The Spirit comes later by laying on of hands (epitithemi, 8.17) and they receive it (elambanon, lambano V-IAI-3P). The verbs of Spirit reception here are epipipto and lambano, not baptizo eis soma. This narrates a temporal gap between water baptism and Spirit reception, the strongest SUBSEQUENT-EXPERIENCE datum, and it uses vocabulary distinct from the Pauline incorporation idiom.",
+        "force": "Confirmed: the Spirit had not yet 'fallen' (epipeptokos, from 'to fall upon' (epipipto) tagged V-RAP-NSN, verb perfect active participle nominative singular neuter, meaning a completed action whose result still stands) 'upon' (epi) any of them, though they had already 'been baptized' (bebaptismenoi hyperchon, perfect periphrastic of 'to immerse' (baptizo), a completed action whose result still stands, expressed with a helping verb) 'into the name of the Lord Jesus'. The Spirit comes later by 'laying on of hands' (epitithemi, the gesture of placing hands on someone, Acts 8:17) and they 'were receiving' (elambanon, from 'to receive' (lambano) tagged V-IAI-3P, verb imperfect active indicative third person plural, meaning ongoing or repeated past action) it. The verbs of Spirit reception here are 'to fall upon' (epipipto) and 'to receive' (lambano), not 'to immerse into a body' (baptizo eis soma). This narrates a temporal gap between water baptism and Spirit reception, the strongest SUBSEQUENT-EXPERIENCE datum (the most direct piece of evidence for the after-the-fact reading), and it uses vocabulary distinct from the Pauline incorporation idiom.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -343,7 +343,7 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "Confirmed: ei Pneuma Hagion elabete pisteusantes, did you receive the Holy Spirit having believed. elabete is lambano V-2AAI-2P (receive, not baptizo), and pisteusantes is an aorist participle (V-AAP-NPM). The question's phrasing is the crux: pisteusantes can be coincident (when you believed) or antecedent (after you believed). The same participle ambiguity as Eph 1.13. The pericope then has them baptized (ebaptisthesan, 19.5) and the Spirit comes upon them at the laying on of hands (19.6, elthe to Pneuma epi autous). The vocabulary supports both a believing-coincident reception and a sequenced one.",
+        "force": "Confirmed: 'if the Holy Spirit you received having believed' (ei Pneuma Hagion elabete pisteusantes). 'You received' (elabete) is from 'to receive' (lambano) tagged V-2AAI-2P (verb second aorist active indicative second plural, a single completed past action you performed), 'receive' not 'immerse' (lambano not baptizo), and 'having believed' (pisteusantes) is a completed-past participle (aorist participle, tagged V-AAP-NPM, verb aorist active participle nominative plural masculine). The question's phrasing is the crux: 'having believed' (pisteusantes) can be coincident (when you believed) or antecedent (after you believed). The same participle ambiguity as Ephesians 1:13. The pericope (story-unit) then has them 'baptized' (ebaptisthesan, Acts 19:5, completed-past passive) and the Spirit 'came upon' them at the laying on of hands (Acts 19:6, 'came the Spirit upon them' (elthe to Pneuma epi autous)). The vocabulary supports both a believing-coincident reception and a sequenced one.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
@@ -361,7 +361,7 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "Confirmed: pantes eis ton Mousen ebaptisanto (baptizo V-AMI-3P) en te nephele kai en te thalasse. This corroborates Paul's idiom that baptizo with pantes and eis plus accusative marks corporate incorporation of an undivided group at a single moment, here the wilderness generation. It strengthens the AT-CONVERSION reading of the Pauline pattern, though it is a typological narrative within an epistle.",
+        "force": "Confirmed: 'all into Moses were baptized' (pantes eis ton Mousen ebaptisanto, with 'to immerse' (baptizo) tagged V-AMI-3P, verb aorist middle indicative third person plural, a single completed past action) 'in the cloud and in the sea' (en te nephele kai en te thalasse). This corroborates Paul's idiom that 'to immerse' (baptizo) with 'all' (pantes) and 'into' (eis) plus accusative (the direct-object grammatical form) marks corporate incorporation of an undivided group at a single moment, here the wilderness generation. It strengthens the AT-CONVERSION reading of the Pauline pattern, though it is a typological narrative (a story used as a foreshadowing pattern) within an epistle (letter).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
@@ -430,22 +430,22 @@
       {
         "ref": "Acts.1.5",
         "addressed": true,
-        "resolution": "The same verb baptizo that Paul uses in the aorist of all believers appears here in the future passive (baptisthesesthe en pneumati, V-FPI-2P) of a promised enduement of the apostles, distinct from their prior belief and fulfilled at Pentecost. The AT-CONVERSION reading harmonizes this as the inauguration of an era in which the Pauline universal then operates. The SUBSEQUENT reading takes it at face value as a separable Spirit-baptism after belief. The vocabulary supports both: it neither forces the harmonization nor the separation."
+        "resolution": "The same verb 'to immerse' (baptizo) that Paul uses in the completed-past form (aorist) of all believers appears here in the future passive ('you will be baptized in the Spirit' (baptisthesesthe en pneumati), tagged V-FPI-2P, verb future passive indicative second person plural) of a promised enduement (clothing with power) of the apostles, distinct from their prior belief and fulfilled at Pentecost. The AT-CONVERSION reading harmonizes this as the inauguration of an era in which the Pauline universal then operates. The SUBSEQUENT reading takes it at face value as a separable Spirit-baptism after belief. The vocabulary supports both: it neither forces the harmonization nor the separation."
       },
       {
         "ref": "Acts.8.16",
         "addressed": false,
-        "resolution": "Not resolvable on lexical grounds alone. Persons already water-baptized into the name of the Lord Jesus (bebaptismenoi, perfect) are explicitly said not yet to have had the Spirit fall on them (epipeptokos epi, epipipto), which then occurs at the apostles laying on hands and they receive it (lambano). The verbs of Spirit reception here (epipipto, lambano, epitithemi cheiras) are different from Pauline baptizo eis soma. A reader can subordinate this narrative datum to the Pauline didactic universal, or read it as evidence of a separable subsequent reception, and the words do not adjudicate between the two."
+        "resolution": "Not resolvable on lexical (word-level) grounds alone. Persons already water-baptized into the name of the Lord Jesus ('having been baptized' (bebaptismenoi), perfect tense, a completed action whose result still stands) are explicitly said not yet to have had the Spirit 'fallen upon' them ('having fallen upon' (epipeptokos epi), from 'to fall upon' (epipipto)), which then occurs at the apostles laying on hands and they 'receive' it ('to receive' (lambano)). The verbs of Spirit reception here ('to fall upon' (epipipto), 'to receive' (lambano), 'laying on of hands' (epitithemi cheiras)) are different from the Pauline 'to immerse into a body' (baptizo eis soma). A reader can subordinate this narrative datum to the Pauline teaching-style universal, or read it as evidence of a separable subsequent reception, and the words do not adjudicate between the two."
       },
       {
         "ref": "Acts.19.6",
         "addressed": false,
-        "resolution": "Not resolvable lexically. After the Ephesian disciples are baptized (ebaptisthesan, 19.5), the Spirit comes upon them (elthe to Pneuma epi autous) only at Paul laying on hands, with tongues and prophecy. The reception verb is erchomai epi, not baptizo. The aorist participle pisteusantes in 19.2 is ambiguous between coincident and antecedent time, so the pericope reads either as belief-coincident reception delayed only by inadequate prior baptism, or as a genuine subsequent enduement. The construction underdetermines the temporal relation."
+        "resolution": "Not resolvable lexically (at the word level). After the Ephesian disciples are 'baptized' (ebaptisthesan, completed-past passive, Acts 19:5), the Spirit 'came upon' them ('came the Spirit upon them' (elthe to Pneuma epi autous)) only at Paul laying on hands, with tongues and prophecy. The reception verb is 'to come upon' (erchomai epi), not 'to immerse' (baptizo). The completed-past participle 'having believed' (pisteusantes) in Acts 19:2 is ambiguous between coincident and antecedent time, so the pericope (story-unit) reads either as belief-coincident reception delayed only by inadequate prior baptism, or as a genuine subsequent enduement (clothing with power). The construction underdetermines the temporal relation."
       },
       {
         "ref": "1Cor.12.13",
         "addressed": true,
-        "resolution": "Some parse en heni pneumati as locative sphere rather than instrumental agent, which would shift the agent from the Spirit to Christ as in the Gospel baptizo en pneumati sayings. The AT-CONVERSION force is preserved under both parsings because the verbal subject remains pantes and the goal remains hen soma, so this particular ambiguity does not by itself create the dispute. The dispute comes from the Acts sequence, not from this preposition."
+        "resolution": "Some parse 'in one Spirit' (en heni pneumati) as locative sphere (a 'within which' setting) rather than instrumental agent (a 'by means of whom' actor), which would shift the agent from the Spirit to Christ as in the Gospel sayings 'he will baptize you in the Spirit' (baptizo en pneumati). The AT-CONVERSION force is preserved under both parsings because the verbal subject remains 'all' (pantes) and the goal remains 'one body' (hen soma), so this particular ambiguity does not by itself create the dispute. The dispute comes from the Acts sequence, not from this preposition."
       }
     ]
   },
@@ -456,11 +456,11 @@
         "ref": "1Cor.12.13",
         "variant_id": "1Cor.12.13-pantes-position",
         "verdict_impact": "none",
-        "note": "Manuscripts vary on the position and articulation of the second pantes in the clause but every attested reading preserves the universal first plural subject and the aorist passive verb. The verdict does not turn on the disputed word order."
+        "note": "Manuscripts vary on the position and articulation (presence or absence of the article 'the') of the second 'all' (pantes) in the clause but every attested reading preserves the universal first plural subject and the completed-past passive verb. The verdict does not turn on the disputed word order."
       }
     ],
     "ecm_status": "ecm-shadow",
-    "note": "Confirmed by query that the anchor verses 1Cor.12.13, Eph.4.5, Rom.6.3-4, Gal.3.27 and the Acts texts are outside the ingested ECM window, which covers only 3 John 1.1 to 1.15. No CBGM apparatus is available for these books in this build, so variant assessment relies on the printed Nestle1904 and SBLGNT editions."
+    "note": "Confirmed by query that the anchor verses 1 Corinthians 12:13, Ephesians 4:5, Romans 6:3-4, Galatians 3:27 and the Acts texts are outside the ingested ECM apparatus (the critical edition of New Testament textual variants) window, which covers only 3 John 1:1 to 1:15. No CBGM apparatus (Coherence-Based Genealogical Method, a tool for ranking manuscripts) is available for these books in this build, so variant assessment relies on the printed Nestle1904 and SBLGNT editions."
   },
   "hermeneutics": {
     "primary_method": "grammatico-historical",
@@ -475,27 +475,27 @@
       {
         "framework": "pauline_corporate_solidarity",
         "verdict": "supports",
-        "rationale": "The aorist passives ebaptisthemen, synetaphemen, ebaptisthete and the participle enedysasthe bind all believers (pantes, hosoi) into a single past initiating act, and Rom 8.9 makes having the Spirit coextensive with belonging to Christ. On this lens Spirit baptism is a constituent of conversion-incorporation with no remainder class, so the proposition is affirmed."
+        "rationale": "The completed-past passives 'we were baptized' (ebaptisthemen), 'we were buried with' (synetaphemen), 'you were baptized' (ebaptisthete) and the completed-past middle participle 'you clothed yourselves' (enedysasthe) bind all believers ('all' (pantes), 'as many as' (hosoi)) into a single past initiating act, and Romans 8:9 makes having the Spirit overlap exactly with belonging to Christ. On this lens Spirit baptism is a constituent of conversion-incorporation with no remainder class, so the proposition is affirmed."
       },
       {
         "framework": "subsequent_reception_separability",
         "verdict": "supports",
-        "rationale": "Stated in its strongest lexical form: Acts narrates the Spirit being received (lambano), falling or coming upon (epipipto, erchomai epi), and being given at the laying on of hands (epitithemi cheiras), in several cases after initial belief or water baptism (Acts 8.16 explicitly, Acts 19.6, Acts 2 for the apostles). baptizo en pneumati in Acts 1.5 and 11.16 is future and event-specific. The aorist participle pisteusantes in Acts 19.2 and Eph 1.13 is grammatically ambiguous between coincident and antecedent time. On this lens the text leaves real room for a Spirit-reception that is distinguishable in time from conversion."
+        "rationale": "Stated in its strongest lexical (word-level) form: Acts narrates the Spirit being 'received' ('to receive' (lambano)), 'falling upon' or 'coming upon' ('to fall upon' (epipipto), 'to come upon' (erchomai epi)), and being given at the 'laying on of hands' ('the gesture of placing hands' (epitithemi cheiras)), in several cases after initial belief or water baptism (Acts 8:16 explicitly, Acts 19:6, Acts 2 for the apostles). 'To be baptized in the Spirit' (baptizo en pneumati) in Acts 1:5 and 11:16 is future and event-specific. The completed-past participle 'having believed' (pisteusantes) in Acts 19:2 and Ephesians 1:13 is grammatically ambiguous between coincident and antecedent time. On this lens the text leaves real room for a Spirit-reception that is distinguishable in time from conversion."
       },
       {
         "framework": "lukan_narrative_sequence",
         "verdict": "neutral",
-        "rationale": "Luke uses a reception-and-filling vocabulary (lambano, epipipto, pimplemi, epitithemi cheiras) and reserves baptizo en pneumati for the promised enduement. Whether these narrative thresholds are descriptive of a transitional era or normative for every believer is a question the vocabulary itself does not answer, so this lens neither confirms nor denies the proposition and supplies the second canon pattern that the words do not rank against the Pauline didactic statement."
+        "rationale": "Luke uses a reception-and-filling vocabulary ('to receive' (lambano), 'to fall upon' (epipipto), 'to fill' (pimplemi), 'laying on of hands' (epitithemi cheiras)) and reserves 'to baptize in the Spirit' (baptizo en pneumati) for the promised enduement (clothing with power). Whether these narrative thresholds are descriptive of a transitional era or normative (binding for every case) for every believer is a question the vocabulary itself does not answer, so this lens neither confirms nor denies the proposition and supplies the second canon pattern that the words do not rank against the Pauline teaching-style statement."
       }
     ],
-    "notes": "The two patterns are not reconciled by vocabulary. Paul's statements are didactic, universal, aorist, and use baptizo eis to mark incorporation. Acts statements are narrative, particular, and use reception verbs for the Spirit while reserving future baptizo en pneumati for a promised enduement. The disagreement is genuinely text-level: which register, didactic-universal or narrative-descriptive, governs the timing question."
+    "notes": "The two patterns are not reconciled by vocabulary. Paul's statements are teaching-style, universal, in the completed-past form (aorist), and use 'to immerse into' (baptizo eis) to mark incorporation. Acts statements are narrative, particular, and use reception verbs for the Spirit while reserving future 'to baptize in the Spirit' (baptizo en pneumati) for a promised enduement (clothing with power). The disagreement is genuinely text-level: which register, teaching-universal or narrative-descriptive, governs the timing question."
   },
   "stem_audit": {
     "verdict_preloaded": true,
     "neutralized_form": "Examine when the New Testament locates the Spirit baptizing a believer into the body of Christ relative to conversion, and whether the text presents it as a once-for-all initiation or allows a distinguishable subsequent reception.",
-    "notes": "VERDICT-CHANGED: prior file affirmed true (medium); changed to disputed (medium). Lexical reason: direct query confirms the canon supplies two patterns the vocabulary does not rank. Paul predicates an aorist passive baptizo plus eis incorporation of all believers (1Cor.12.13 ebaptisthemen V-API-1P with hemeis pantes, Rom.6.3, Gal.3.27, reinforced by Rom.8.9), which read alone yields true. But Acts uses a distinct reception cluster (lambano, epipipto, erchomai epi, epitithemi cheiras, pimplemi) and a future baptizo en pneumati (Acts.1.5, 11.16), and Acts.8.16 explicitly separates water baptism from a not-yet-fallen Spirit, while the aorist participle pisteusantes (Acts.19.2, Eph.1.13) is grammatically ambiguous between coincident and antecedent time. Neither cluster lexically overrides the other, so the honest verdict is disputed. The stem is preloaded because it pre-frames the answer as once-for-all rather than separable, so the original-stem derivation was checked against the neutralized form and still lands on disputed."
+    "notes": "VERDICT-CHANGED: prior file affirmed true (medium); changed to disputed (medium). Lexical (word-level) reason: direct query confirms the canon supplies two patterns the vocabulary does not rank. Paul predicates a completed-past passive 'to immerse' (baptizo, tagged aorist passive) plus 'into' (eis) incorporation of all believers (1 Corinthians 12:13 'we were baptized' (ebaptisthemen) tagged V-API-1P (verb aorist passive indicative first plural) with 'we all' (hemeis pantes), Romans 6:3, Galatians 3:27, reinforced by Romans 8:9), which read alone yields true. But Acts uses a distinct reception cluster ('to receive' (lambano), 'to fall upon' (epipipto), 'to come upon' (erchomai epi), 'laying on of hands' (epitithemi cheiras), 'to fill' (pimplemi)) and a future 'to be baptized in the Spirit' (baptizo en pneumati) (Acts 1:5, 11:16), and Acts 8:16 explicitly separates water baptism from a not-yet-fallen Spirit, while the completed-past participle 'having believed' (pisteusantes) (Acts 19:2, Ephesians 1:13) is grammatically ambiguous between coincident and antecedent time. Neither cluster lexically overrides the other, so the honest verdict is disputed. The stem is preloaded because it pre-frames the answer as once-for-all rather than separable, so the original-stem derivation was checked against the neutralized form and still lands on disputed."
   },
-  "lay_summary": "Paul uses one Greek verb, baptizo, with a destination phrase using eis plus a noun, to say believers were placed into Christ and into one body. In 1 Corinthians 12.13 the verb is a past completed aorist, ebaptisthemen, and the subject is hemeis pantes, all of us, with the pairs Jews or Greeks, slaves or free, so no believer is left outside. Romans 6.3, Galatians 3.27, and Ephesians 4.5 (one baptism) repeat this completed, shared, once for all pattern, and Romans 8.9 says anyone who does not have the Spirit of Christ does not belong to him, so on these words alone the Spirit baptism happens at conversion. The trouble is that the book of Acts tells the story with different words. There the Spirit is received (lambano), falls or comes upon people (epipipto, erchomai epi), is given when hands are laid on them (epitithemi), or fills them (pimplemi), and in Acts 8.16 people who had already been baptized in water are plainly said not yet to have the Spirit, which comes later. The phrase baptized in the Spirit in Acts 1.5 is future and is about a promised event, not the past incorporation Paul describes. On top of this, the participle having believed in Acts 19.2 and Ephesians 1.13 can mean either when you believed or after you believed, and the grammar does not settle which. So the canon gives two patterns. Paul teaches a universal, completed initiation, while Acts narrates Spirit receptions that are spread out in time and described with reception and falling words rather than the incorporation word. The words themselves do not rank the teaching statement above the narrative sequence, or the reverse. That is why careful readers land on different timings, and why this lands as disputed rather than settled at the level of the text.",
+  "lay_summary": "Paul uses one Greek verb, 'to immerse' (baptizo), with a destination phrase using 'into' (eis) plus a noun, to say believers were placed into Christ and into one body. In 1 Corinthians 12:13 the verb is a completed past form (aorist), 'we were baptized' (ebaptisthemen), and the subject is 'we all' (hemeis pantes), with the pairs Jews or Greeks, slaves or free, so no believer is left outside. Romans 6:3, Galatians 3:27, and Ephesians 4:5 (one baptism, 'baptisma') repeat this completed, shared, once-for-all pattern, and Romans 8:9 says anyone who does not have the Spirit (pneuma) of Christ does not belong to him, so on these words alone the Spirit baptism happens at conversion. The trouble is that the book of Acts tells the story with different words. There the Spirit is received ('to receive' (lambano)), falls or comes upon people ('to fall upon' (epipipto), 'to come upon' (erchomai epi)), is given when hands are laid on them ('laying on of hands' (epitithemi)), or fills them ('to fill' (pimplemi)), and in Acts 8:16 people who had already been baptized in water are plainly said not yet to have the Spirit, which comes later. The phrase 'baptized in the Spirit' ('to baptize in the Spirit' (baptizo en pneumati)) in Acts 1:5 is in the future tense and is about a promised event, not the past incorporation Paul describes. On top of this, the participle 'having believed' (pisteusantes) in Acts 19:2 and Ephesians 1:13 can mean either 'when you believed' or 'after you believed', and the grammar does not settle which. So the canon gives two patterns. Paul teaches a universal, completed initiation, while Acts narrates Spirit receptions that are spread out in time and described with reception and falling words rather than the incorporation word. The words themselves do not rank the teaching statement above the narrative sequence, or the reverse. That is why careful readers land on different timings, and why this lands as disputed rather than settled at the level of the text.",
   "citations": [
     {
       "type": "morphology",
@@ -632,7 +632,7 @@
       }
     ],
     "evidence_safe_to_publish": false,
-    "non_redistributable_reason": "Includes MACULA-Greek under CC-BY-NC-4.0, used for the morphological tagging of 1Cor.12.13, Acts.8.16, and Acts.1.5 (aorist passive baptizo, the epipipto and lambano reception verbs, and the future baptizo en pneumati). CC-BY-NC-4.0 prohibits bulk redistribution, so the bundle is not safe to publish in bulk."
+    "non_redistributable_reason": "Includes MACULA-Greek under CC-BY-NC-4.0, used for the morphological tagging of 1 Corinthians 12:13, Acts 8:16, and Acts 1:5 (the completed-past passive 'to immerse' (baptizo), the 'to fall upon' (epipipto) and 'to receive' (lambano) reception verbs, and the future 'to baptize in the Spirit' (baptizo en pneumati)). CC-BY-NC-4.0 prohibits bulk redistribution, so the bundle is not safe to publish in bulk."
   },
   "flags": [
     "ecm-shadow",
