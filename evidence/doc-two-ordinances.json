@@ -1,0 +1,490 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-two-ordinances",
+  "question_id": "doc-two-ordinances",
+  "generated_at": "2026-05-27T17:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7625,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Direct morphology grounds the two instituted acts firmly. In Matt 28:19 the aorist imperative make-disciples (μαθητεύσατε, V-AAM-2P) is carried out by the present participle baptizing (βαπτίζοντες, V-PAP-NPM), and the verb βαπτίζω spreads across eight New Testament books as a continuing rite. At the table the Lord commands the present imperative do-this (ποιεῖτε, V-PAM-2P) three times over bread and cup designated as his body and as the new covenant (καινὴ διαθήκη) in his blood (Luke 22:19, 1 Cor 11:24-25), and 1 Cor 11:26 says the eating and drinking proclaim (καταγγέλλετε, V-PAI-2P) his death. What the lexicon does NOT supply is the exhaustive count: no anchor verse enumerates or caps the total of instituted acts, and the same verb ποιέω attaches to foot-washing (John 13:15, ποιῆτε, subjunctive in a purpose clause, framed as ὑπόδειγμα, example), so whether the count is exactly two turns on the definition of an ordinance, which the vocabulary underdetermines. The seal term σφραγίζω in the lexical record attaches to the Spirit, not to these rites. The verdict therefore remains disputed at the level of the counting and sealing claims while the two instituted acts stand on solid ground."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 77,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4160",
+        "lemma": "ποιέω",
+        "transliteration": "poieo",
+        "occurrences_in_canon": 568,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1242",
+        "lemma": "διαθήκη",
+        "transliteration": "diatheke",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2537",
+        "lemma": "καινός",
+        "transliteration": "kainos",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0740",
+        "lemma": "ἄρτος",
+        "transliteration": "artos",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4221",
+        "lemma": "ποτήριον",
+        "transliteration": "poterion",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2605",
+        "lemma": "καταγγέλλω",
+        "transliteration": "katangello",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4972",
+        "lemma": "σφραγίζω",
+        "transliteration": "sphragizo",
+        "occurrences_in_canon": 15,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0907",
+      "G4160",
+      "G0364",
+      "G1242",
+      "G2537",
+      "G0740",
+      "G4221",
+      "G2605",
+      "G2806",
+      "G2168",
+      "G3860",
+      "G4972",
+      "G3540",
+      "G3540A"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "πορευθέντες οὖν μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος. The main verb μαθητεύσατε is an aorist active imperative second person plural (V-AAM-2P), and the means of making disciples is the present active participle βαπτίζοντες (V-PAP-NPM), baptizing them into the threefold name. The morphology fixes baptism as an act the risen Lord directly commands his community to perform among all nations. The verb βαπτίζω occurs across eight New Testament books (Matthew, Mark, Luke, John, Acts, Romans, First Corinthians, Galatians), so the rite is a stable pan-New-Testament practice. The verse establishes one half of the proposition but says nothing about a total count of such acts.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.24",
+        "key_terms": [
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          }
+        ],
+        "force": "Over the bread the Lord says τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν· τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν. The verb ποιεῖτε is a present active imperative second person plural (V-PAM-2P), a standing command to keep doing the act, governed by εἰς plus the accusative ἀνάμνησιν (N-ASF), a noun that occurs only four times in the whole canon. The present aspect plus the rare remembrance noun lexically establishes a commanded, repeatable act of remembrance instituted by the Lord at the table. This grounds the second instituted act of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.25",
+        "key_terms": [
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          },
+          {
+            "strong": "G2537",
+            "lemma": "καινός"
+          }
+        ],
+        "force": "ὡσαύτως καὶ τὸ ποτήριον μετὰ τὸ δειπνῆσαι λέγων· τοῦτο τὸ ποτήριον ἡ καινὴ διαθήκη ἐστὶν ἐν τῷ ἐμῷ αἵματι· τοῦτο ποιεῖτε, ὁσάκις ἐὰν πίνητε, εἰς τὴν ἐμὴν ἀνάμνησιν. The cup-saying pairs the adjective καινὴ (A-NSF) with the noun διαθήκη (N-NSF), the new covenant, and repeats the present imperative ποιεῖτε (V-PAM-2P) bounded by the temporal clause ὁσάκις ἐὰν πίνητε, as often as you drink. The repeated dominical command plus the covenant designation links the cup-rite to the new covenant in his blood and confirms its instituted, covenant-signifying character, while asserting no exclusive count.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G2605",
+            "lemma": "καταγγέλλω"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "ὁσάκις γὰρ ἐὰν ἐσθίητε τὸν ἄρτον τοῦτον καὶ τὸ ποτήριον πίνητε, τὸν θάνατον τοῦ κυρίου καταγγέλλετε, ἄχρι οὗ ἔλθῃ. The verb καταγγέλλετε is a present active indicative second person plural (V-PAI-2P) and means proclaim or announce, making the eating and drinking a proclamation of the Lord's death until he comes. Lexically this is the closest support for the signify dimension of the proposition, since the rite proclaims the death, but καταγγέλλω is a verb of announcing, not the technical pairing seal, so it supports signification while leaving the seal claim unattested.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.22.19",
+        "key_terms": [
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          }
+        ],
+        "force": "καὶ λαβὼν ἄρτον εὐχαριστήσας ἔκλασεν καὶ ἔδωκεν αὐτοῖς λέγων· τοῦτό ἐστιν τὸ σῶμά μου τὸ ὑπὲρ ὑμῶν διδόμενον· τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν. The Lukan account independently attests the same instituting words, with the present imperative ποιεῖτε (V-PAM-2P) and the remembrance noun ἀνάμνησιν (N-ASF). Two independent witnesses, Luke and Paul, carrying the identical present-imperative command reinforce the dominical origin and the repeatable character of the bread-rite.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.13.15",
+        "key_terms": [
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G5262",
+            "lemma": "ὑπόδειγμα"
+          }
+        ],
+        "force": "ὑπόδειγμα γὰρ ἔδωκα ὑμῖν ἵνα καθὼς ἐγὼ ἐποίησα ὑμῖν καὶ ὑμεῖς ποιῆτε. The foot-washing carries the same verb ποιέω that grounds the Supper command, but here it is ποιῆτε (V-PAS-2P), a present subjunctive inside an ἵνα purpose clause, governed by the noun ὑπόδειγμα, example or pattern (N-ASN), and verse 14 adds the obligation ὀφείλετε ... νίπτειν, you ought to wash. This complicates the exhaustive count, because lexically a do-as-I-did command does attach to a third act, yet it is framed grammatically as a subjunctive example rather than as the bare present imperative τοῦτο ποιεῖτε with elements designated as his body and blood, so whether it ranks as an instituted ordinance is a definitional question the words do not settle.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.14",
+        "key_terms": [
+          {
+            "strong": "G0218",
+            "lemma": "ἀλείφω"
+          },
+          {
+            "strong": "G4336",
+            "lemma": "προσεύχομαι"
+          }
+        ],
+        "force": "ἀσθενεῖ τις ἐν ὑμῖν; προσκαλεσάσθω τοὺς πρεσβυτέρους τῆς ἐκκλησίας καὶ προσευξάσθωσαν ἐπ αὐτὸν ἀλείψαντες αὐτὸν ἐλαίῳ ἐν τῷ ὀνόματι τοῦ κυρίου. The verbs are third person imperatives, let him call (προσκαλεσάσθω, V-ADM-3S) and let them pray (προσευξάσθωσαν, V-ADM-3P), with the aorist participle ἀλείψαντες, anointing with oil. This is an apostolic instruction to elders for a sick member, not a dominical first-person institution with a sign-element designated for all believers, so it complicates the count without carrying the same instituting force as baptism and the table.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.13",
+        "key_terms": [
+          {
+            "strong": "G4972",
+            "lemma": "σφραγίζω"
+          }
+        ],
+        "force": "ἐσφραγίσθητε τῷ πνεύματι τῆς ἐπαγγελίας τῷ ἁγίῳ. The one verb that lexically carries the idea of sealing, σφραγίζω, is here an aorist passive (V-API-2P) with the Holy Spirit as the sealing agent, not baptism or the cup. Across its fifteen New Testament occurrences (including Eph 4:30 and 2 Cor 1:22) σφραγίζω attaches to the Spirit, to authentication, or to closing up, never to the two instituted rites. This complicates the proposition because its term seal is not, in the lexical record, predicated of these rites but of the Spirit, so the seal language in the stem reaches beyond what the anchor texts assign to the acts.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.11.23",
+        "to": "Matt.26.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.23",
+        "to": "1Cor.15.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.11.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "Exod.12.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.5.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.25",
+        "to": "Luke.22.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.22.19",
+        "to": "Ps.78.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.22.20",
+        "to": "Exod.24.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Acts.2.38",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.13.15",
+        "addressed": true,
+        "resolution": "Foot-washing is the strongest lexical competitor to the exhaustive count two, because it carries the same verb ποιέω as the Supper command, here ποιῆτε (V-PAS-2P) in a ἵνα purpose clause framed by ὑπόδειγμα, example, plus the obligation ὀφείλετε ... νίπτειν in verse 14. This is addressed by observing the grammatical difference the words actually mark: the Supper has a bare present imperative τοῦτο ποιεῖτε attached to bread and cup designated his body and the new covenant in his blood, whereas the foot-washing has a subjunctive do-as-I-did framed as an example, without designated sign-elements. The text therefore neither caps the count at two nor demonstrates that foot-washing is a third ordinance of the same instituting kind, so the count remains a definitional question the vocabulary underdetermines."
+      },
+      {
+        "ref": "Jas.5.14",
+        "addressed": true,
+        "resolution": "Anointing of the sick uses third person imperatives, let him call and let them pray, with the aorist participle ἀλείψαντες, anointing with oil, in the name of the Lord. This is addressed by noting that the construction is an apostolic instruction to church elders for a sick individual, not a first person dominical institution with a sign designated for the whole community and a standing command to repeat. The rite is real in the lexicon but does not carry the same instituting grammar as baptism and the table, so it bears on the count without settling it."
+      },
+      {
+        "ref": "Eph.1.13",
+        "addressed": true,
+        "resolution": "The verb σφραγίζω, seal, attaches in the lexical record to the Holy Spirit sealing believers (Eph 1:13 and 4:30, 2 Cor 1:22), not to baptism or the cup. This is addressed by distinguishing the lexically attested facts, that two acts are dominically commanded and that the table proclaims the Lord's death, from the stem's seal predication, which the anchor texts do not place on these rites. The proposition is therefore not contradicted, but its seal language is judged an extension beyond the wording the verses supply, which contributes to the disputed verdict."
+      },
+      {
+        "ref": "Matt.28.19",
+        "addressed": false,
+        "resolution": "The exclusivity claim, that baptism and the Supper are the ONLY two instituted acts set against a count of seven, cannot be settled from this verse or any anchor verse, because no anchor text enumerates or caps the total number of dominically instituted rites. The figure two as an exhaustive count is an inference drawn from the threshold one adopts for institution (a first-person dominical command, with a designated physical sign, for all believers, to be repeated), not a number the lexicon states. The same verb ποιέω governs foot-washing in John 13:15, so the threshold itself is what the words leave open. This remains unresolved because the counting claim is a second-order enumeration that lies outside what morphology, lexicon, and cross-reference data can directly confirm or deny."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament outside 3 John, so CBGM data is not in scope for this run (not_in_ecm_scope). The well-known longer-versus-shorter question at Luke 22:19b-20 (the cup-saying bracketed in the SBLGNT, marked in the queried text by the editorial sigla around τὸ ὑπὲρ ὑμῶν ... ἐκχυννόμενον) affects how much of the Lukan cup-saying is read, but even the shorter Lukan reading retains τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν over the bread, and 1 Cor 11:23-26 independently attests the same present-imperative command. The verdict that two acts are dominically instituted holds across the plausible readings, so it is not variant sensitive."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "two-ordinance ecclesiology",
+      "expanded-sacramental enumeration",
+      "covenant_theology",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "two-ordinance ecclesiology",
+        "verdict": "affirms",
+        "rationale": "On this reading an ordinance is a first-person dominical command attached to a physical sign, given to the whole believing community, with a standing instruction to repeat. Only baptism (the present participle βαπτίζοντες serving the imperative μαθητεύσατε, Matt 28:19) and the table (the present imperative τοῦτο ποιεῖτε over bread and cup designated his body and the new covenant in his blood, 1 Cor 11:24-25, Luke 22:19) meet all four marks in the anchor texts. Foot-washing has ποιέω but in a subjunctive example clause, and anointing uses third-person imperatives in an apostolic instruction, so on this threshold the count of exactly two follows."
+      },
+      {
+        "framework": "expanded-sacramental enumeration",
+        "verdict": "disputed",
+        "rationale": "On this reading the threshold for an instituted rite is lower, so that other dominically or apostolically commanded acts with physical signs also qualify. The same verb ποιέω governs the foot-washing command in John 13:15 (ποιῆτε, with ὑπόδειγμα and the obligation ὀφείλετε ... νίπτειν in verse 14), anointing with oil is enjoined in Jas 5:14, and laying on of hands appears as a real practice (2 Tim 1:6). Because the anchor lexicon neither enumerates nor caps the total, a reader who counts these as instituted rites is not contradicted by any verse, so the figure two cannot be lexically demonstrated as exhaustive from these texts alone."
+      }
+    ],
+    "notes": "The proposition compounds a lexically attested fact (baptism and the table-rite are dominically instituted, both carry a standing command, and the table-rite proclaims the Lord's death) with two second-order claims the lexicon does not directly carry: an exhaustive count of exactly two, and the technical signify-and-seal pairing. The store confirms the instituting commands and their pan-New-Testament continuation (Matt 28:19 to Acts 2:38; 1 Cor 11:24 to 11:27) but cannot adjudicate the enumeration, because no anchor verse states a total and the same verb ποιέω governs a third act in John 13:15."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The New Testament records Christ commanding baptism (Matt 28:19) and a repeated bread-and-cup remembrance (Luke 22:19; 1 Cor 11:23-26); whether these are exactly two instituted acts and function to signify and seal the gospel, as against a larger enumerated count of instituted rites, is the question under test.",
+    "notes": "The stem embeds three loaded elements: the term ordinances as a fixed category, the exclusive count two framed against a count of seven, and the technical pairing signify and seal. The seal predication and the exhaustive number are theological enumerations rather than terms present in the anchor verses; the verb σφραγίζω attaches lexically to the Spirit, not to these rites, and the verb ποιέω governs a third commanded act in John 13:15 that the words do not rank against the table command. The verdict is derived on the original stem, but the neutralized_form separates the lexically attested instituting commands from the contested count and seal claims."
+  },
+  "lay_summary": "The original wording asks whether Christ set up exactly two ordinances for the church, baptism and the Lord's Supper, that signify and seal the gospel. The Greek behind the anchor verses supports part of this very clearly. In Matthew 28:19 the command to make disciples is carried out by the participle baptizing, using the verb baptizo, into the name of the Father, Son, and Holy Spirit, and that verb runs across eight New Testament books, so baptism is plainly an ongoing act the risen Lord commands. At the table, in First Corinthians eleven verses twenty-four and twenty-five and in Luke twenty-two verse nineteen, the Lord takes bread and cup and says do this, using a present-tense command meaning keep doing it, in remembrance of me, with the rare noun anamnesis, remembrance, which appears only four times in the whole canon. He ties the cup to the new covenant in his blood, and First Corinthians eleven verse twenty-six says the eating and drinking proclaim the Lord's death until he comes. So the words establish firmly that two distinct acts are commanded by the Lord and meant to be repeated, each with a physical sign. What the wording adds beyond this is harder to read off the text, and that is where readers genuinely diverge. First, the claim that these are the only two such acts, set against a count of seven, is a total none of the verses ever states, and the very same verb do is also used by Jesus for foot-washing in John thirteen verse fifteen, though there it is a softer form inside a so-that clause and is called an example rather than a fixed command with bread and cup. Anointing the sick with oil is likewise commanded in James five verse fourteen, but by the elders rather than as a first-person institution of Christ. So whether the count is exactly two depends on how strictly you define an ordinance, and the words leave that line open. Second, the term seal belongs lexically to a different verse, Ephesians one verse thirteen, where the Holy Spirit seals believers, not baptism or the cup. The lexical record clearly supports two instituted acts that proclaim Christ's death, but the exact count and the seal language are added layers rather than wordings the verses themselves carry, which is why the pattern is best read as contested at the level of its counting and sealing claims.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.13.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jas.5.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.1.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0907"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0364"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4972"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2605"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.22.20"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Luke.22.19"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute false), used for the morphological parsing of the institution verses and the foot-washing and anointing comparisons (baptizontes V-PAP-NPM, poieite V-PAM-2P, poiete V-PAS-2P), and SBLGNT-text under SBLGNT-EULA (redistribute false) for the Luke 22:19 verse text. Because at least one source is non-redistributable, the aggregate is not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

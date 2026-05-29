@@ -1,0 +1,608 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-perspicuity",
+  "question_id": "doc-scripture-perspicuity",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across Torah, Psalms, and a Pauline epistle the anchor clauses make the text the grammatical subject that reaches the ordinary recipient directly, with no mediator in the syntax. Deuteronomy 6:6-7 places the words on the addressee's own heart and assigns the verb to parents teaching children at home. Psalm 119:130 reads the opening of your words (פֵּתַח, a hapax) gives light (אוֹר, hiphil imperfect, subject is the words) and gives understanding (בִּין, hiphil participle) to the simple (פֶּתִי), and Psalm 19:8 says the testimony of Yahweh makes the simple wise. Second Timothy 3:15 predicates of the sacred writings (ἱερὰ γράμματα) the present capacity (δυνάμενα, participle agreeing with the writings) to make wise (σοφίσαι, aorist infinitive) unto salvation through faith, not through a teaching office. The affirmative core is lexically decisive. The verdict is high confidence on the category, but the same vocabulary does not rank scope: it affirms that the text reaches the simple unto salvation without delimiting whether ALL content is equally clear, and the canon supplies a second pattern (Nehemiah 8:8 Levites making it clear and giving the sense, Acts 8:31 the official asking to be guided, 2 Peter 3:16 some things hard to understand) in which mediation aids comprehension. Those two patterns are unranked by the words, which is why readers diverge on scope while agreeing on the saving core."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 1441,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6612A",
+        "lemma": "פֶּתִי",
+        "transliteration": "pethi",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0995",
+        "lemma": "בִּין",
+        "transliteration": "bin",
+        "occurrences_in_canon": 170,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0215",
+        "lemma": "אוֹר",
+        "transliteration": "or (verb)",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0216",
+        "lemma": "אוֹר",
+        "transliteration": "or (noun)",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5216",
+        "lemma": "נֵר",
+        "transliteration": "ner",
+        "occurrences_in_canon": 60,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8150",
+        "lemma": "שָׁנַן",
+        "transliteration": "shanan",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6608",
+        "lemma": "פֵּתַח",
+        "transliteration": "pethach",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1121",
+        "lemma": "γράμμα",
+        "transliteration": "gramma",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1025",
+        "lemma": "βρέφος",
+        "transliteration": "brephos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4679",
+        "lemma": "σοφίζω",
+        "transliteration": "sophizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2413",
+        "lemma": "ἱερός",
+        "transliteration": "hieros",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4991",
+        "lemma": "σωτηρία",
+        "transliteration": "soteria",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 209,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H1697",
+      "H6612A",
+      "H0995",
+      "H0215",
+      "H0216",
+      "H5216",
+      "H8150",
+      "H6608",
+      "H7922",
+      "H6567",
+      "H7919",
+      "G1121",
+      "G1025",
+      "G4679",
+      "G2413",
+      "G4991",
+      "G1410",
+      "G1417"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.6.6",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H3824",
+            "lemma": "לֵבָב"
+          },
+          {
+            "strong": "H6680",
+            "lemma": "צָוָה"
+          }
+        ],
+        "force": "The commands (הַדְּבָרִים) are predicated as resting on the addressee's own heart (לְבָבֶךָ, second person singular). The ETCBC clause analysis tags the words as subject and predicate complement of a stative clause with no priestly or scribal agent in the syntax. The recipient is the ordinary Israelite, not a cultic class.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.6.7",
+        "key_terms": [
+          {
+            "strong": "H8150",
+            "lemma": "שָׁנַן"
+          },
+          {
+            "strong": "H1121",
+            "lemma": "בֵּן"
+          },
+          {
+            "strong": "H1696",
+            "lemma": "דָּבַר"
+          }
+        ],
+        "force": "The verb שָׁנַן takes the parent as subject and the children (בָּנֶיךָ) as recipients in ordinary domestic settings (sitting, walking, lying down, rising). The transmission line is household, not cultic. Note the lexical caution: of the 9 occurrences of שָׁנַן in the canon, this is the only one carrying the sense teach incisively or repeat. The other 8 mean sharpen or pierce (a sword, arrow, or tongue: Deuteronomy 32:41, Psalm 45:6, 64:4, 120:4, 140:4, Proverbs 25:18, Isaiah 5:28). The teach sense here is a single figurative extension of a sharpen root, so the verb supports household transmission but is not itself a stable pedagogical term.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.119.105",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H5216",
+            "lemma": "נֵר"
+          },
+          {
+            "strong": "H0216",
+            "lemma": "אוֹר"
+          }
+        ],
+        "force": "The word (דְבָרֶךָ) is predicated as lamp (נֵר) to the speaker's own foot and light (אוֹר) to his own path, a tight poetic word pair of two synonymous lines placing the reader in direct illuminated relation to the text. נֵר occurs 60 times and is predominantly the literal sanctuary lamp; here it is used figuratively for the word, which the metaphor figure marks.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.119.130",
+        "key_terms": [
+          {
+            "strong": "H6608",
+            "lemma": "פֵּתַח"
+          },
+          {
+            "strong": "H0215",
+            "lemma": "אוֹר"
+          },
+          {
+            "strong": "H6612A",
+            "lemma": "פֶּתִי"
+          },
+          {
+            "strong": "H0995",
+            "lemma": "בִּין"
+          }
+        ],
+        "force": "Morphology resolves the grammar decisively. פֵּתַח (a true hapax, the only occurrence in the canon) is a construct noun, the opening or unfolding of your words. The verb אוֹר is Hiphil imperfect third masculine singular, it gives light, with the words as subject. בִּין is a Hiphil participle, giving understanding to, and the recipient is the פְּתָיִים, the simple. The syntactic subject of both the illuminating and the understanding is the text itself, with no mediator in the clause. Psalm 19:8 supplies the same pattern with a different verb, the testimony of Yahweh makes wise (חָכַם, Hiphil) the simple.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Tim.3.15",
+        "key_terms": [
+          {
+            "strong": "G2413",
+            "lemma": "ἱερός"
+          },
+          {
+            "strong": "G1121",
+            "lemma": "γράμμα"
+          },
+          {
+            "strong": "G1025",
+            "lemma": "βρέφος"
+          },
+          {
+            "strong": "G4679",
+            "lemma": "σοφίζω"
+          },
+          {
+            "strong": "G4991",
+            "lemma": "σωτηρία"
+          }
+        ],
+        "force": "The morphology confirms the predication. ἱερός is A-APN, an adjective qualifying γράμματα N-APN, the only place in the canon where the otherwise temple word ἱερός (44 occurrences, dominantly the temple) modifies writings to yield sacred writings, that is, Scripture. δύναμαι is V-PNP-APN, a present participle agreeing with the writings, which carry the capacity. σοφίζω is V-AAN, an aorist infinitive, to make wise. The recipient is named ἀπὸ βρέφους, from infancy, the lower bound of cognitive capacity. The stated instrument is διὰ πίστεως, through faith in Christ Jesus, not a teaching office.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Neh.8.8",
+        "key_terms": [
+          {
+            "strong": "H6567",
+            "lemma": "פָּרַשׁ"
+          },
+          {
+            "strong": "H7922",
+            "lemma": "שֵׂכֶל"
+          },
+          {
+            "strong": "H0995",
+            "lemma": "בִּין"
+          }
+        ],
+        "force": "The clause sequence is they read in the scroll, in the law of God, מְפֹרָשׁ (פָּרַשׁ, making it clear or distinctly), and giving the sense (שֵׂכֶל, sekel), and they understood (בִּין) the reading. Here the Levites are the explicit grammatical agents who make clear and give the sense so that the people understand. This is the canon's strongest counter pattern, a teaching class interposed between text and hearer to enable comprehension. The verbs of clarifying take human subjects, not the text.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ps.119.105",
+        "to": "Prov.6.23",
+        "source": "openbible",
+        "votes": 198
+      },
+      {
+        "from": "Ps.119.105",
+        "to": "Ps.43.3",
+        "source": "openbible",
+        "votes": 171
+      },
+      {
+        "from": "Ps.119.105",
+        "to": "Ps.18.28",
+        "source": "openbible",
+        "votes": 151
+      },
+      {
+        "from": "Ps.119.105",
+        "to": "2Pet.1.19",
+        "source": "openbible",
+        "votes": 137
+      },
+      {
+        "from": "Ps.119.105",
+        "to": "Ps.19.8",
+        "source": "openbible",
+        "votes": 109
+      },
+      {
+        "from": "Ps.119.130",
+        "to": "Ps.119.105",
+        "source": "openbible",
+        "votes": 41
+      },
+      {
+        "from": "Ps.119.130",
+        "to": "2Cor.4.6",
+        "source": "openbible",
+        "votes": 31
+      },
+      {
+        "from": "Ps.119.130",
+        "to": "Ps.19.7",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "Deut.6.7",
+        "to": "Deut.11.19",
+        "source": "openbible",
+        "votes": 34
+      },
+      {
+        "from": "Deut.6.7",
+        "to": "Eph.6.4",
+        "source": "openbible",
+        "votes": 29
+      },
+      {
+        "from": "Deut.6.6",
+        "to": "Col.3.16",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "2Tim.3.15",
+        "to": "2Tim.1.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.15",
+        "to": "Ps.19.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Neh.8.8",
+        "addressed": true,
+        "resolution": "The Levites are the grammatical agents who make the law clear (פָּרַשׁ) and give the sense (שֵׂכֶל) so the people understand (בִּין). This is a real counter pattern in which mediation enables comprehension, and the words make the human teachers the subjects, not the text. It does not overturn the affirmative anchors, where the text is the subject acting on the simple, but it shows the canon supplies a second, mediated pattern alongside the direct one. The vocabulary does not rank the two, which is the lexical source of divergence on scope."
+      },
+      {
+        "ref": "Acts.8.30-31",
+        "addressed": true,
+        "resolution": "The official asks πῶς γὰρ ἂν δυναίμην ἐὰν μή τις ὁδηγήσει με, how can I unless someone guides me. The verb ὁδηγέω occurs 5 times (Matthew 15:14, Luke 6:39, John 16:13 the Spirit guides into all truth, Acts 8:31, Revelation 7:17). Its sense is guidance toward understanding, here of one specific Isaianic servant text. The official then believes without further mediation. This complicates a maximalist no help reading but is consistent with the affirmative pattern on saving content reaching the ordinary reader."
+      },
+      {
+        "ref": "2Pet.3.16",
+        "addressed": true,
+        "resolution": "Peter notes some things in Paul's letters are δυσνόητά (hard to understand), which the untaught (ἀμαθεῖς) distort. Both δυσνόητος and ἀμαθής are hapax legomena, single occurrences, so their precise sense cannot be triangulated from canon usage and must be read from this one context. The lexical force is that DIFFICULTY exists for some texts, not OPACITY of saving content. The contrast term ἀμαθής (untaught) presupposes that taught ordinary readers can grasp it. This qualifies scope without denying the saving core."
+      },
+      {
+        "ref": "1Cor.2.14",
+        "addressed": true,
+        "resolution": "The natural person (ψυχικὸς ἄνθρωπος) does not receive the things of the Spirit. This conditions reception on the Spirit's work, which the question stem already grants with the Spirit's help. The complicating force lands on the unregenerate reader, not on the ordinary regenerate reader the proposition has in view."
+      },
+      {
+        "ref": "Prov.1.22",
+        "addressed": true,
+        "resolution": "The anchor term פֶּתִי (the simple) occurs 17 times in the canon and is concentrated in wisdom literature, with 15 of the MACULA occurrences in Proverbs. There the simple are the morally unstable who must be summoned and won to wisdom (Proverbs 1:22, 8:5, 9:4-6) and who can perish in their simplicity (Proverbs 1:32). So the same word that Psalm 119:130 and 19:8 say the text makes wise also names a class that needs active instruction. The word affirms the text can reach the simple but does not guarantee uptake or delimit which content, which underdetermines the scope the proposition asks about."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Anchor verses sit outside the published ECM scope (Deuteronomy, Psalms, 2 Timothy, Nehemiah). The 2 Timothy 3:15 reading ἱερὰ γράμματα is textually stable across the major witnesses in the MACULA-Greek SBLGNT and Nestle1904 editions, and no apparatus entry in scope would invert the predication. The hapax פֵּתַח in Psalm 119:130 is the printed Masoretic consonantal text with no competing reading in the queried Hebrew layer."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical (direct-predication reading)",
+        "verdict": "affirms",
+        "rationale": "In the anchor clauses the text is the grammatical subject acting on the ordinary recipient (heart, foot, path, infant, the simple) with no cultic or scribal agent in the syntax. Psalm 119:130 has the words as subject of both the Hiphil it gives light and the Hiphil participle giving understanding, and 2 Timothy 3:15 makes the sacred writings the bearer of the capacity to make wise unto salvation through faith. On the saving core the reading is decisive."
+      },
+      {
+        "framework": "mediated-comprehension reading (scope-restricted)",
+        "verdict": "affirms in essentials, denies in full scope",
+        "rationale": "This reading takes the proposition's saving core as granted but limits it. Nehemiah 8:8 makes human teachers the grammatical subjects who make clear (פָּרַשׁ) and give the sense (שֵׂכֶל). Acts 8:31 has the official unable to understand a specific text without a guide (ὁδηγέω). 2 Peter 3:16 says some things are hard to understand (δυσνόητος). Read together, these say the text reaches the simple on what is needful for salvation, but not that every passage is equally clear, and that ordinary means of teaching are part of how the simple come to understand. In its strongest form this is not a denial of the saving core but a denial that clarity extends to all content without help."
+      },
+      {
+        "framework": "patristic-typological",
+        "verdict": "affirms with nuance",
+        "rationale": "Typological readings layer additional senses on the plain sense but do not deny the plain sense's accessibility for salvation. The typological surplus is supplementary, not the gate, so it neither establishes nor removes the perspicuity of the saving content."
+      }
+    ],
+    "notes": "The verdict turns on direct predication in the affirmative anchor clauses, so grammatico-historical is primary. The divergence among readers is not over the saving core but over scope, and it is traceable to vocabulary that affirms a category (the text reaches the simple unto salvation) without ranking it against a second canon pattern (mediated clarifying in Nehemiah 8:8 and guiding in Acts 8:31)."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether the lexical pattern of Scripture predicates the accessibility of its saving content to ordinary readers without specialized mediation.",
+    "notes": "The English term perspicuity is a technical post-biblical loan from Latin perspicuitas and is most strongly associated with one tradition's confessional vocabulary, so the stem encodes a tradition's framing. The neutralized form restates the proposition in lexical terms (predication of accessibility) so the verdict tracks the text rather than the framing. The verdict was derived on the original stem and remains affirms true. The deepened lexical work did not flip the verdict, it sharpened the rationale: the affirmative saving core is grammatically foreclosed in the anchors, while the scope question is left open by the vocabulary, which is the honest place this doctrine lands."
+  },
+  "lay_summary": "Across Hebrew and Greek, the anchor verses make the text itself the actor reaching ordinary people, with no go between in the grammar. In Deuteronomy 6:6 the commands rest on the addressee's own heart, and verse 7 has parents teaching children at home while sitting, walking, lying down, and rising. Psalm 119:105 calls the word a lamp to the reader's own foot. Psalm 119:130 is the sharpest: the opening of your words (a one of a kind Hebrew word, פֵּתַח) gives light, and the grammar makes the words, not a teacher, the subject that gives understanding to the simple (פֶּתִי). Psalm 19:8 says the same thing with another verb, the testimony of Yahweh makes the simple wise. Second Timothy 3:15 says the sacred writings were able to make Timothy wise for salvation from infancy through faith, not through a teaching office, and the grammar pins the ability on the writings themselves. On the saving core this is decisive, so the verdict is yes with high confidence. The reason careful readers still disagree is about scope, not the core, and it comes straight from the words. The very term for the simple, פֶּתִי, shows up mostly in Proverbs, where the simple are unstable people who must be coaxed to wisdom and can even perish in their folly, so the word says the text can reach them but does not promise they will grasp everything. The canon also gives a second pattern where helpers matter: in Nehemiah 8:8 the Levites read the law making it clear and giving the sense so the people understood, in Acts 8 an official cannot follow one passage without a guide, and Second Peter 3:16 admits some things are hard to understand (a word used only once, so its exact force cannot be cross checked). The words affirm that what is needful for salvation reaches the simple directly, but they do not rank this against the helper pattern or say every passage is equally plain, and that gap is why the scope of clarity is debated.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Deut.6.6"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Deut.6.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.119.105"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.119.130"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Neh.8.8"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Tim.3.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Pet.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.119.130"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.6.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.15"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6612A"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6608"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8150"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4679"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1121"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Ps.119.105"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Ps.119.130"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Tim.3.15"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Hebrew and MACULA-Greek, both CC-BY-NC-4.0, which forbids bulk redistribution. The decisive morphology (the Hiphil subject in Psalm 119:130, the A-APN qualifier in 2 Timothy 3:15, and the agent verbs in Nehemiah 8:8) was read from these interlinear and morphology layers, so the safe flag is set false honestly rather than under citing to flip it."
+  },
+  "flags": []
+}

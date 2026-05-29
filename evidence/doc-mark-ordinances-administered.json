@@ -1,0 +1,458 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-mark-ordinances-administered",
+  "question_id": "doc-mark-ordinances-administered",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7625,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Direct querying of the lexical store confirms two distinct lexical strata. First, the institution and observance vocabulary is dense and well distributed: baptizo (G0907, 81 occurrences) carries the dominical command in Matt 28:19 (the present participle baptizontes under the aorist imperative matheteusate) and the gathered conversion in Acts 2:41, while the Supper is fixed by the institution chain in 1 Cor 11:23-25, paradidomi and paralambano (the received and delivered tradition), touto poieite eis ten emen anamnesin (poieo G4160 plus anamnesin G0364, a four-occurrence near-hapax), and klao tou artou (G2806 plus G0740), echoed in Acts 2:42 and Acts 20:7. So the words establish that both ordinances are commanded by Christ and habitually practiced by the assembly. Second, the store supplies no vocabulary that ranks ordinance administration as a defining note distinguishing a true visible church from a false one. The only verses pairing ekklesia (G1577) with alethinos (true, G0228) are Rev 3:7 and 3:14, where alethinos titles Christ, not the church. The proposition is therefore partially grounded in commanded practice but materially contested at its load-bearing second-order claim."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0740",
+        "lemma": "ἄρτος",
+        "transliteration": "artos",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2806",
+        "lemma": "κλάω",
+        "transliteration": "klao",
+        "occurrences_in_canon": 15,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4160",
+        "lemma": "ποιέω",
+        "transliteration": "poieo",
+        "occurrences_in_canon": 14,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidomi",
+        "occurrences_in_canon": 123,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4769",
+        "lemma": "στῦλος",
+        "transliteration": "stulos",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1477",
+        "lemma": "ἑδραίωμα",
+        "transliteration": "hedraioma",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0228",
+        "lemma": "ἀληθινός",
+        "transliteration": "alethinos",
+        "occurrences_in_canon": 28,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0907",
+      "G0740",
+      "G2806",
+      "G0364",
+      "G4160",
+      "G3860",
+      "G1577",
+      "G3686",
+      "G0652",
+      "G4769",
+      "G1477",
+      "G0228",
+      "G2842",
+      "G1322"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "The aorist imperative μαθητεύσατε is modified by the present participle βαπτίζοντες, marking baptism into the one name (εἰς τὸ ὄνομα) of Father, Son, and Holy Spirit as a constitutive activity of disciple-making that the risen Lord commands the apostolic company to carry out among all nations. The querying confirms βαπτίζω (G0907) occurs 81 times across the Gospels, Acts, and the Pauline letters, so the command is lexically firm. The verse names baptism as a means of making disciples, not as a diagnostic note by which a community is certified as a true versus false church.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.20",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πάντα"
+          }
+        ],
+        "force": "The continuation διδάσκοντες αὐτοὺς τηρεῖν πάντα ὅσα ἐνετειλάμην binds the disciples to keep everything Christ commanded, lexically anchoring the obligatory character of his ordinances within the ongoing life of the community to the end of the age. This supports the non-optional status of the commanded practices, but it speaks of obedience to commands in general, not of a formal mark of ecclesial validity.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.24",
+        "key_terms": [
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          }
+        ],
+        "force": "Querying the tokens of this verse returns the institution language directly: ἔκλασεν (κλάω, G2806) for the breaking, the imperative ποιεῖτε (ποιέω, G4160), and εἰς τὴν ἐμὴν ἀνάμνησιν (ἀνάμνησις, G0364). ἀνάμνησις is a four-occurrence near-hapax (Luke 22:19, 1 Cor 11:24, 1 Cor 11:25, Heb 10:3), and v.23 frames the whole as received and delivered tradition (παρέλαβον, παρέδωκα; παραδίδωμι G3860 occurs 123 times). The grammar makes the Supper an explicitly commanded, repeated memorial act of the assembly. It establishes the ordinance as instituted and obligatory, but supplies no language ranking its administration as the mark of a true church.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          }
+        ],
+        "force": "The new community devotes itself (προσκαρτεροῦντες) to the apostles' teaching (διδαχῇ, G1322), the fellowship (κοινωνίᾳ, G2842), the breaking of bread (κλάσει τοῦ ἄρτου, G0740), and the prayers. The phrase κλάσις τοῦ ἄρτου names a regular table practice of the gathered believers, the same gathering described in Acts 20:7 (συνηγμένων κλάσαι ἄρτον on the first day of the week). This is narrative description listing the breaking of bread alongside teaching, fellowship, and prayer as habitual features of the body, but the syntax coordinates the four items with καί and does not rank any one or label it the defining note of a true church.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.15",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul tells Timothy how one ought to conduct oneself ἐν οἴκῳ θεοῦ, ἥτις ἐστὶν ἐκκλησία θεοῦ ζῶντος, στῦλος καὶ ἑδραίωμα τῆς ἀληθείας. This is the one anchor that explicitly predicates a defining descriptor of the assembly, and the querying shows that descriptor is pillar (στῦλος, G4769, only 4 occurrences) and support or bulwark (ἑδραίωμα, G1477, a true hapax occurring only here), both governing τῆς ἀληθείας, the truth. The identifying property the lexicon attaches to the church here is fidelity to apostolic truth, not the administration of the ordinances. This complicates the proposition because the sole verse that characterizes the church names truth, not sacramental administration, as its mark.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul left Titus in Crete ἵνα τὰ λείποντα ἐπιδιορθώσῃ καὶ καταστήσῃς κατὰ πόλιν πρεσβυτέρους (πρεσβύτερος, G4245). The lexical sign of putting a local assembly in order here is the appointment of elders, again pointing to ordered oversight and faithful teaching rather than to ordinance administration as the criterion of a properly constituted church. It runs parallel to the ordinances without subordinating either to the other.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "The unrepentant brother is finally told to the ἐκκλησία, and refusal to hear the assembly results in his being treated as ὥσπερ ὁ ἐθνικὸς καὶ ὁ τελώνης. Coupled with the binding and loosing of v.18 (δέω G1210, λύω G3089), this lexically grounds the assembly's authority over membership and discipline, an ecclesial function that lies alongside, but is distinct from, ordinance administration. It is neutral to the specific proposition about a mark.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.3.14",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G0228",
+            "lemma": "ἀληθινός"
+          }
+        ],
+        "force": "A targeted search for any verse pairing ἐκκλησία (G1577) with a true or false marker (ἀληθινός G0228, ἀληθής G0227, ψευδής G5571) returns only Rev 3:7 and Rev 3:14, the letters to Philadelphia and Laodicea. In both, ἀληθινός titles Christ (here ὁ Ἀμήν, ὁ μάρτυς ὁ πιστὸς καὶ ἀληθινός), not the church. The canon nowhere lexically attaches a true-versus-false predicate to the assembly itself. This is the strongest single signal that the mark-of-a-true-church classification is not a vocabulary the text supplies; it is neutral to whether the practices are commanded.",
+        "supports": "neutral",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.20",
+        "to": "Matt.1.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.3.15",
+        "to": "1Tim.3.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.3.15",
+        "to": "1Tim.4.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.20",
+        "to": "Matt.28.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Lev.19.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.1.5",
+        "to": "1Chr.6.32",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Tim.3.15",
+        "addressed": true,
+        "resolution": "The single anchor that explicitly characterizes the ἐκκλησία calls it στῦλος καὶ ἑδραίωμα τῆς ἀληθείας, pillar and bulwark of the truth, where ἑδραίωμα is a hapax occurring only here. The identifying property is fidelity to apostolic truth, not ordinance administration. Resolved by observing that the proposition is not contradicted (the church still practices the ordinances) but its specific weighting of right administration as THE defining mark is not the property this verse predicates, which is why the verdict is disputed rather than affirmed."
+      },
+      {
+        "ref": "Titus.1.5",
+        "addressed": true,
+        "resolution": "The sign of an assembly set in order here is the appointment of elders (πρεσβύτερος, G4245). Resolved by treating ordered oversight and ordinance administration as parallel features of church life in the lexical record; no anchor elevates ordinances alone to the decisive note of a true visible church, so the proposition's emphasis is read as an inference rather than a stated lexical claim."
+      },
+      {
+        "ref": "Rev.3.14",
+        "addressed": true,
+        "resolution": "The only canonical pairing of ἐκκλησία with the adjective ἀληθινός (true) is Rev 3:7 and 3:14, where ἀληθινός is a christological title, not a predicate of the church. Resolved by noting that this confirms, rather than damages, the verdict: it shows the text never supplies a lexical true-versus-false church taxonomy at all, so any criterion for distinguishing a true church (whether ordinances, truth, or elders) is an inference imported onto the vocabulary, not read out of it. This makes the proposition disputed at its second-order claim while leaving the commanded practices intact."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament outside 3 John, so the ingested ECM window (3 John 1.1 to 1.15) does not cover them and CBGM data is not in scope for this run; the VariantUnit set returned empty from the store. The SBLGNT apparatus marks on Matt 28:19 (the οὖν reading), Matt 18:15-19 (word order and the εἰς σέ clause), and 1 Tim 3:15 touch word order and minor orthography, none of which bear on whether baptism or the breaking of bread are commanded and practiced. The verdict holds across the plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "marks_of_the_church_ecclesiology",
+      "covenant_theology",
+      "new_covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "marks-of-the-church ecclesiology",
+        "verdict": "affirms",
+        "rationale": "On this reading the dominical command to baptize (Matt 28:19), the explicit institution of the Supper as a commanded repeated memorial (1 Cor 11:24-25, touto poieite eis ten emen anamnesin), and the apostolic devotion to the breaking of bread (Acts 2:42, Acts 20:7) together warrant treating right ordinance administration as a constitutive note of the visible church: a body where these commanded acts are absent or corrupted is by that fact not rightly ordered. The lens reads the commanded-practice data as sufficient to ground the mark, since marks are inferred from what the gathered body is commanded to do, not from a verse that uses the word mark."
+      },
+      {
+        "framework": "plain-description ecclesiology",
+        "verdict": "disputed",
+        "rationale": "On this reading the same verses are command and narrative without a notae ecclesiae grid. The lexicon presents baptism, the breaking of bread, teaching, fellowship, prayer, elder appointment, and discipline together, coordinated by καί and not ranked. The one verse that predicates a defining descriptor of the ekklesia (1 Tim 3:15) names truth, and Titus 1:5 names elders. Since the text never lexically pairs ekklesia with a true-versus-false predicate (Rev 3:7 and 3:14 apply alethinos to Christ), elevating ordinance administration specifically to THE mark is an inference the words underdetermine."
+      },
+      {
+        "framework": "ordinances-as-obedience reading",
+        "verdict": "affirms_practice_not_mark",
+        "rationale": "A third defensible position grants everything the words say and stops there: the ordinances are unambiguously commanded (Matt 28:19-20 binds keeping all Christ commanded) and habitually practiced, so a church ought to administer them, but the text frames them as obedience owed by disciples rather than as a forensic criterion for sorting true from false churches. This lens affirms the practice as obligatory while declining the mark taxonomy as extra-lexical, landing functionally between the other two."
+      }
+    ],
+    "notes": "The proposition turns on a second-order classification, mark of a true visible church, that the lexical store can neither confirm nor deny directly. Direct querying confirms the underlying practices are commanded and habitual and supplies the institution language (baptizo, poieo plus anamnesis, klao tou artou, the paradidomi tradition), but supplies no ranking that makes their right administration THE distinguishing note, and no true-versus-false predicate of the ekklesia anywhere in the canon."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Baptism and the Lord's Supper are commanded by Christ and practiced by the gathered assembly in the New Testament; whether their right administration functions as a defining mark distinguishing a true visible church from a false one is the question under test.",
+    "notes": "The phrase 'is a mark of a true visible church' embeds the notae ecclesiae category, a taxonomy of marks or notes, into the stem and thereby presupposes the very classification being asked about. The lexical verdict is derived on the original stem, but the neutralized_form separates the lexically attested fact (the ordinances are commanded and practiced) from the contested inference (that right administration is THE distinguishing mark). The verdict is unchanged from the prior file; deeper querying strengthened, not altered, the disputed reading by adding the Rev 3:7 and 3:14 finding that the canon never lexically predicates true-versus-false of the ekklesia."
+  },
+  "lay_summary": "The original wording asks whether the right administration of baptism and the Lord's Supper is a mark of a true visible church. The Greek behind the anchor verses supports part of this very clearly. In Matthew 28:19 the command to make disciples is carried out by baptizing them, using the verb baptizo, into the one name of the Father, Son, and Holy Spirit, and verse 20 binds the community to keep everything Christ commanded to the end of the age. The Lord's Supper is fixed just as firmly in First Corinthians eleven, where Paul says he received and handed on the tradition, and Jesus says do this, an actual command, in remembrance of me, using a word for remembrance that appears only four times in the whole New Testament. Acts 2:42 then lists the first believers devoting themselves to the apostles teaching, the fellowship, the breaking of bread, and the prayers, and Acts 20:7 shows them gathered to break bread on the first day of the week. So the words on the page establish solidly that both ordinances are commanded by Christ and habitually practiced by the assembly. What the wording adds is a second, different claim, that the right administration of these acts is the mark that tells a true church apart from a false one. That ranking is not stated anywhere in the texts. A careful search shows the one verse that actually describes the church, First Timothy 3:15, calls it the pillar and support of the truth, pointing to faithful teaching, and Titus 1:5 makes appointing elders the sign of an assembly put in order. More tellingly, the only places the word true is ever attached near the word church, in Revelation 3:7 and 3:14, the word true describes Christ, not the church. So the text never supplies a true-versus-false label for a church at all. The commanded practices stand on solid ground, but the specific idea that their administration is the decisive mark is an inference layered onto the words rather than a wording the verses themselves provide. For that reason the lexical pattern is best read as genuinely contested at the level of its load-bearing claim.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0907"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0364"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1477"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.3.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Rev.3.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute false) for the 1 Tim 3:15 syntactic reading, and SBLGNT-text under SBLGNT-EULA (redistribute false) for the verse text used in the Rev 3:14 check. Because at least one source is non-redistributable, the aggregate is not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

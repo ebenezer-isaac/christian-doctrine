@@ -1,0 +1,421 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-foot-washing-not-ordinance",
+  "question_id": "prc-foot-washing-not-ordinance",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7775,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "One passage, John 13:1-17, carries nearly the whole weight, and its own vocabulary is genuinely two-edged. The deontic verb opheilete in 13:14 (lemma opheilo, lexically to owe, a debt or binding duty) plus the purpose clause hina kathos ego epoiesa kai hymeis poiete in 13:15 supply a real warrant for ongoing imitation, which the ordinance reading leans on. But the noun that frames it, hypodeigma in 13:15, is lexically a pattern, illustration, a picture showing how something is to be done, used elsewhere even for negative examples (Heb 4:11, 2Pet 2:6), so it marks a model to be copied morally rather than a cultic rite. The same chapter pivots from physical niptein to spiritual katharos in 13:10-11, showing John reading the act as a sign. The words establish a binding pattern of reciprocal lowly service but do not by themselves rank the specific act as a third standing ordinance, so the verdict is recorded as disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3538",
+        "lemma": "νίπτω",
+        "transliteration": "nipto",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4228",
+        "lemma": "πούς",
+        "transliteration": "pous",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5262",
+        "lemma": "ὑπόδειγμα",
+        "transliteration": "hypodeigma",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2513",
+        "lemma": "καθαρός",
+        "transliteration": "katharos",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3784",
+        "lemma": "ὀφείλω",
+        "transliteration": "opheilo",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0240",
+        "lemma": "ἀλλήλων",
+        "transliteration": "allelon",
+        "occurrences_in_canon": 100,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1173",
+        "lemma": "δεῖπνον",
+        "transliteration": "deipnon",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1320",
+        "lemma": "διδάσκαλος",
+        "transliteration": "didaskalos",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3538",
+      "G4228",
+      "G5262",
+      "G2513",
+      "G3784",
+      "G0240",
+      "G1173",
+      "G1320",
+      "G0025"
+    ],
+    "scripture": [
+      {
+        "ref": "John.13.14",
+        "key_terms": [
+          {
+            "strong": "G3538",
+            "lemma": "νίπτω"
+          },
+          {
+            "strong": "G4228",
+            "lemma": "πούς"
+          },
+          {
+            "strong": "G3784",
+            "lemma": "ὀφείλω"
+          },
+          {
+            "strong": "G0240",
+            "lemma": "ἀλλήλων"
+          }
+        ],
+        "force": "The protasis ei oun ego enipsa hymon tous podas, ho kyrios kai ho didaskalos, draws the apodosis kai hymeis opheilete allelon niptein tous podas. The verb opheilete is present-tense and lexically means to owe, to be under binding obligation, and allelon makes the duty reciprocal among believers. The grammar establishes a binding pattern of mutual service. It does not itself specify whether the obligation is the literal washing repeated as a rite or the servant attitude it embodies, the same opheilo plus allelon pairing that elsewhere in the Johannine corpus governs the duty to love one another.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.13.15",
+        "key_terms": [
+          {
+            "strong": "G5262",
+            "lemma": "ὑπόδειγμα"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "hypodeigma gar edoka hymin hina kathos ego epoiesa kai hymeis poiete. The noun hypodeigma is lexically a sign, illustration, a picture showing how something is to be done, a pattern or specimen set before others. Across its other canonical uses it marks a model to be copied or, in Heb 4:11 and 2Pet 2:6, a warning example to be avoided, never the installation of a cultic rite. The purpose clause hina with present subjunctive poiete frames ongoing action, so the clause can ground either a literal ongoing washing or imitation of the self-lowering it displays.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.13.10",
+        "key_terms": [
+          {
+            "strong": "G3538",
+            "lemma": "νίπτω"
+          },
+          {
+            "strong": "G2513",
+            "lemma": "καθαρός"
+          }
+        ],
+        "force": "ho leloumenos ouk echei chreian ei me tous podas nipsasthai, all estin katharos holos, then kai hymeis katharoi este. Jesus contrasts the bathed person (perfect passive participle of louo) who needs only the feet washed with being wholly clean, then applies katharos to the disciples spiritually. The pivot from physical niptein to spiritual katharos shows John reading the act as a sign that points beyond itself, which complicates treating the foot-washing primarily as a standing ritual ordinance.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.10",
+        "key_terms": [
+          {
+            "strong": "G3538",
+            "lemma": "νίπτω"
+          },
+          {
+            "strong": "G4228",
+            "lemma": "πούς"
+          }
+        ],
+        "force": "ei hagion podas enipsen lists washing the saints feet among the good works (ergois kalois) qualifying a widow for support, alongside raising children, showing hospitality, and relieving the afflicted. The act appears as one item in a catalogue of private charitable deeds, not as a churchwide rite ranked with baptism and the table, which weighs against treating it as a third standing ordinance. The same verb nipto here describes ordinary domestic washing, the dominant sense of the word across the canon.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.13.17",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G3107",
+            "lemma": "μακάριος"
+          }
+        ],
+        "force": "ei tauta oidate, makarioi este ean poiete auta. The beatitude attaches blessing to doing these things, ean with present subjunctive of ongoing action, which a reading favoring a perpetual ordinance leans on, since the blessing is conditioned on continued practice rather than on a single past observance. The plural pronouns tauta and auta take as their nearest antecedent the whole lesson of humble service in 13:12-16, so the conditioned blessing can fall on the servant disposition generally rather than on a discrete repeated rite.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.13.14",
+        "to": "Luke.22.26",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.13.14",
+        "to": "Gal.5.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.13.14",
+        "to": "Phil.2.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.13.14",
+        "to": "1Pet.5.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.13.15",
+        "to": "1Pet.2.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.13.15",
+        "to": "1John.2.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.10",
+        "to": "Gen.18.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.13.17",
+        "to": "John.15.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.13.9",
+        "to": "Ps.26.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.13.14",
+        "addressed": true,
+        "resolution": "opheilete allelon niptein is the strongest pro-ordinance datum because opheilo states a binding obligation, lexically a debt, in present-tense terms. It is addressed by noting the immediate ground is ego enipsa hymon, the Lord washing servants, so the obligation reverses status rather than installing a liturgy, and the reciprocal allelon parallels the Johannine duty to love one another (1John 3:16, 4:11) where the same obligation verb governs an ethic, not a rite. The grammar supports a binding duty but does not disambiguate literal repetition from imitation of the posture, leaving the ordinance question open on the words alone."
+      },
+      {
+        "ref": "John.13.15",
+        "addressed": true,
+        "resolution": "hypodeigma plus hina poiete is resolved by the lexical range of hypodeigma, which denotes a sign, illustration, a picture showing how something is to be done, a model held up for imitation, used elsewhere even of negative warning examples. A specimen-to-copy sense fits both a perpetual literal washing and imitation of self-abasement, so it confirms ongoing imitation is commanded but does not by itself elevate the specific act to a rite ranked with baptism and the Supper. The OpenBible cross-ref weight on this verse points to imitatio texts (1Pet 2:21, 1John 2:6) rather than rite-institution texts."
+      },
+      {
+        "ref": "John.13.17",
+        "addressed": true,
+        "resolution": "The makarioi este ean poiete auta beatitude conditions blessing on continued doing. It is addressed by observing that tauta and auta have as their nearest antecedent the whole lesson of humble service introduced in 13:12-16, so the blessing can fall on the servant disposition generally rather than on a discrete repeated rite. The text therefore underdetermines the ordinance claim."
+      },
+      {
+        "ref": "1Tim.5.10",
+        "addressed": true,
+        "resolution": "podas enipsen sits in a list of private charitable acts (raising children, hospitality, relieving the afflicted), which an ordinance reading would not predict, since a churchwide rite ranked with baptism would be expected to surface in instructions on assembly practice rather than in a widow-qualification catalogue. This weighs against ordinance status but is not decisive, since the same act could be both a personal kindness and a corporate practice in some settings."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "John 13 and 1Tim 5:10 lie outside the open-cbgm 3 John sample. A direct query of the lexical store returned zero VariantUnit nodes reading at John.13.x or 1Tim.5.10, and the bundle reports not_in_ecm_scope true with an empty variant_units list. Known SBLGNT editorial sigla in John 13 (word-order notes in 13:2, bracketing near mou tas cheiras in 13:9) do not bear on whether an ongoing ordinance is instituted, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "new_covenant_theology",
+      "dispensationalism",
+      "covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "ordinance-instituting reading",
+        "verdict": "affirms an ongoing rite",
+        "rationale": "opheilete in 13:14 is a genuine deontic verb of obligation (to owe, to be bound), reinforced by ego enipsa hymon and the explicit kathos ego epoiesa, and the conditional beatitude in 13:17 ties blessing to continued doing. On this reading hina kai hymeis poiete commands the act itself, and 1Tim 5:10 shows the early assemblies preserved literal foot-washing, so the words install a third standing practice alongside baptism and the Supper."
+      },
+      {
+        "framework": "exemplary-service reading",
+        "verdict": "denies a third standing ordinance",
+        "rationale": "hypodeigma is lexically a pattern or illustration to be imitated (a picture showing how something is to be done), not a cultic-institution term, and is used even of negative examples; the symbolic pivot to katharos in 13:10-11 spiritualizes the act; opheilo plus allelon mirrors the Johannine duty to love one another rather than a liturgy; and 1Tim 5:10 lists it among private charitable deeds. So the lexical pattern grounds an ethic of mutual lowly service rather than a rite ranked with baptism and the Supper."
+      }
+    ],
+    "notes": "Both lenses are defensible from the Greek alone. The decisive interpretive move is whether hypodeigma and opheilete govern the specific act of washing or the disposition it dramatizes, and the words do not force the choice. analogia_scripturae is engaged through 1Tim 5:10, the only other canonical mention of the act, and through the OpenBible cross-ref network on John 13:14-15, which points to servant-humility and imitatio-Christi texts (Luke 22:26, Gal 5:13, Phil 2:2, 1Pet 2:21, 5:5) rather than to baptism or Supper institution. That canonical weight tilts away from ordinance status without closing the question."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does John 13:1-17 institute foot-washing as an ongoing ordinance of the Church, alongside baptism and the Lord's Supper, or does it set an exemplary pattern of servant love that the act dramatizes?",
+    "notes": "The stem asserts the act was not instituted as an ongoing ordinance and pre-labels it a beautiful pattern of servant love, which loads the conclusion of one reading into the question. The verdict was derived on the original stem, but the neutralized form keeps both the ordinance and the exemplary-service readings live so the lexical data can adjudicate rather than the framing. Verdict unchanged from the prior evidence file: still disputed. Direct lexical-store queries confirmed and refined the counts (opheilo 37 tokens, hypodeigma 7 tokens across 6 verses, nipto 17) and added real OpenBible cross-ref edges, but did not lexically force a flip away from disputed."
+  },
+  "lay_summary": "Everything here turns on one passage, John 13:1-17, plus a single supporting line in 1 Timothy 5:10. In the Greek of John 13:14 Jesus says you ought (opheilete) to wash one another's feet, and in 13:15 he calls what he did a hypodeigma, adding a purpose clause so that you also should do as I have done. The verb opheilete carries the idea of owing, a binding duty, and the words plainly command ongoing imitation. What they do not settle by themselves is whether the thing to be repeated is the literal act of washing feet, kept as a standing rite next to baptism and the Lord's table, or the lowly servant love that the washing acts out. The key noun points toward the second reading. Hypodeigma means a pattern, an illustration, a picture showing how something is to be done, and elsewhere it can even name a warning example to avoid, so it describes a model to be copied rather than a ceremony to be installed. The same chapter pushes the same direction. In 13:10 Jesus shifts from physical washing (nipto) to being clean (katharos) in a spiritual sense, telling the disciples you are clean, which treats the foot-washing as a sign that points beyond itself. The only other place the act appears, 1 Timothy 5:10, lists washing the saints' feet among private good works that qualify a widow for support, beside raising children and showing hospitality, which reads like personal kindness rather than a churchwide ordinance. The wider web of related verses linked to John 13:14-15 also points to humility and serving one another, not to rite-founding texts. So the evidence genuinely cuts both ways. The command to keep doing it is clear, but whether what must continue is the specific rite or the humility it embodies is not decided by the words alone. For that reason the finding is recorded as disputed, with the words leaning against ranking the act as a third standing ordinance but not ruling out continued literal practice.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.13.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.13.15"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5262"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3784"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3538"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2513"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.13.10"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.13.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.13.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.5.10"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

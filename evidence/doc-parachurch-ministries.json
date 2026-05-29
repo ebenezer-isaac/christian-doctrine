@@ -1,0 +1,604 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-parachurch-ministries",
+  "question_id": "doc-parachurch-ministries",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": null,
+    "lexical_score": 0.725,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The lexical pattern shows mission and mercy work originating in and tethered to local assemblies, with named procedures of congregational election, fasting, prayer, laying on of hands, and inter-church delegation. The closest analogue to a coordinated administrative team is in 2 Cor 8.18-23, where brothers chosen by hand-stretching (χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν) and sent together (συμπέμπω) with Titus are called ἀπόστολοι ἐκκλησιῶν (messengers of churches), and 2 Cor 9.12 names the collection a λειτουργία and διακονία. What the lexicon does not supply is any term for a freestanding organisation that exists alongside or in addition to ἐκκλησία. The proposition asks whether such a later category is legitimate under a stated condition, but the vocabulary names neither the category nor its legitimacy. The verdict is null because the lexical store underdetermines the scope of the stem, with medium confidence because the supportive half is now lexically dense and pan-NT."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0873",
+        "lemma": "ἀφορίζω",
+        "transliteration": "aphorizo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 177,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3008",
+        "lemma": "λειτουργέω",
+        "transliteration": "leitourgeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3009",
+        "lemma": "λειτουργία",
+        "transliteration": "leitourgia",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1247",
+        "lemma": "διακονέω",
+        "transliteration": "diakoneo",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1248",
+        "lemma": "διακονία",
+        "transliteration": "diakonia",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2841",
+        "lemma": "κοινωνέω",
+        "transliteration": "koinoneo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2007",
+        "lemma": "ἐπιτίθημι",
+        "transliteration": "epitithemi",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3522",
+        "lemma": "νηστεύω",
+        "transliteration": "nesteuo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5500",
+        "lemma": "χειροτονέω",
+        "transliteration": "cheirotoneo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4842",
+        "lemma": "συμπέμπω",
+        "transliteration": "sympempo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 80,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2590",
+        "lemma": "καρπός",
+        "transliteration": "karpos",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2005",
+        "lemma": "ἐπιτελέω",
+        "transliteration": "epiteleo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1577",
+      "G0873",
+      "G2041",
+      "G3008",
+      "G3009",
+      "G1247",
+      "G1248",
+      "G2842",
+      "G2841",
+      "G2007",
+      "G3522",
+      "G5500",
+      "G4842",
+      "G0652",
+      "G2590",
+      "G2005"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.13.1",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G1320",
+            "lemma": "διδάσκαλος"
+          }
+        ],
+        "force": "Prophets and teachers (διδάσκαλοι), including Barnabas and Saul, are located κατὰ τὴν οὖσαν ἐκκλησίαν, in the assembly that exists at Antioch. The phrase fixes the named workers inside a specific local body before any sending. The mission personnel are church members and gifted leaders embedded in that congregation, not staff of a separate venture.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.13.2",
+        "key_terms": [
+          {
+            "strong": "G0873",
+            "lemma": "ἀφορίζω"
+          },
+          {
+            "strong": "G3008",
+            "lemma": "λειτουργέω"
+          },
+          {
+            "strong": "G3522",
+            "lemma": "νηστεύω"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "As they were ministering (λειτουργούντων) to the Lord and fasting (νηστευόντων), the Spirit commands Ἀφορίσατε, set apart for me Barnabas and Saul, εἰς τὸ ἔργον, for the work to which I have called them. The aorist imperative ἀφορίσατε is addressed to the gathered assembly, which acts as the sending body. The work is the Spirit's commissioning carried out by, and out from, the local church, not an autonomous venture.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.13.3",
+        "key_terms": [
+          {
+            "strong": "G3522",
+            "lemma": "νηστεύω"
+          },
+          {
+            "strong": "G2007",
+            "lemma": "ἐπιτίθημι"
+          }
+        ],
+        "force": "Then, having fasted and prayed and laid hands on them (ἐπιθέντες τὰς χεῖρας), they sent them off. The laying on of hands by the assembly marks formal commissioning and ongoing identification of the workers with the sending church. The act ties the missionary enterprise to the authority and blessing of the local body. It does not describe any standing institution apart from the church.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.14.23",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul and Barnabas χειροτονήσαντες δὲ αὐτοῖς κατ’ ἐκκλησίαν πρεσβυτέρους, appointing for them elders in every church. The verb χειροτονέω is the same procedural term used in 2 Cor 8.19 for the brothers chosen by the churches to administer the collection, here applied to elder appointment in each local assembly. The grammar pairs the verb with κατ’ ἐκκλησίαν, foreclosing any picture of ministry constituted outside a specific local body.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.15.25",
+        "key_terms": [
+          {
+            "strong": "G1247",
+            "lemma": "διακονέω"
+          }
+        ],
+        "force": "Paul says he is going to Jerusalem διακονῶν τοῖς ἁγίοις, ministering to the saints. The participle frames the relief trip as service rendered to other believers, an inter-assembly act of ministry rather than the program of a separate agency. The actor is an apostle carrying the gift of churches.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.15.26",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G2106",
+            "lemma": "εὐδοκέω"
+          }
+        ],
+        "force": "Macedonia and Achaia εὐδόκησαν κοινωνίαν τινὰ ποιήσασθαι, were pleased to make some contribution, for the poor among the saints in Jerusalem. The noun κοινωνία here carries the concrete sense of a shared collection, voluntary and church-originated. The giving moves from one set of assemblies to needy believers in another, a horizontal fellowship of churches, not an independent charity.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.15.27",
+        "key_terms": [
+          {
+            "strong": "G2841",
+            "lemma": "κοινωνέω"
+          },
+          {
+            "strong": "G3008",
+            "lemma": "λειτουργέω"
+          }
+        ],
+        "force": "If the Gentiles ἐκοινώνησαν, shared, in their spiritual things, they ὀφείλουσιν, owe it, to serve them (λειτουργῆσαι) in material things. The reciprocity language, spiritual blessing answered by material service, defines the relief as an obligation of fellowship between assemblies. λειτουργέω, elsewhere of priestly and public service, dignifies the giving as ministry. The structure presupposes churches in mutual debt, not a parachurch intermediary.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.15.28",
+        "key_terms": [
+          {
+            "strong": "G2590",
+            "lemma": "καρπός"
+          },
+          {
+            "strong": "G2005",
+            "lemma": "ἐπιτελέω"
+          }
+        ],
+        "force": "When I have completed this (τοῦτο ἐπιτελέσας) and sealed to them this fruit (τὸν καρπὸν τοῦτον), I will go on to Spain. The collection is called καρπός, fruit, the harvest of the churches' generosity, which Paul personally delivers and certifies. The work is finished and handed over by the apostle on behalf of the contributing assemblies. No organisation outside the churches carries or holds the gift.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.19",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G3009",
+            "lemma": "λειτουργία"
+          }
+        ],
+        "force": "The unnamed brother sent with Titus is χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν, chosen by hand-stretching (election) by the churches, to travel σὺν τῇ χάριτι ταύτῃ, with this grace-gift. The aorist passive participle locates the appointing agent in the plural ἐκκλησιῶν, the churches themselves. This is the closest NT lexical analogue to a coordinated inter-church administrative team, and the very verb fixes its authority in the assemblies, not in any independent body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.23",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G4904",
+            "lemma": "συνεργός"
+          }
+        ],
+        "force": "Paul names the brothers ἀπόστολοι ἐκκλησιῶν, apostles or sent-ones of churches, and δόξα Χριστοῦ, the glory of Christ. The genitive ἐκκλησιῶν is possessive and constitutive, the messengers belong to and are accredited by the churches. The construction supplies the strongest NT term for a delegated coordinating role, and grammatically anchors that role inside, and on behalf of, the assemblies.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.9.12",
+        "key_terms": [
+          {
+            "strong": "G3009",
+            "lemma": "λειτουργία"
+          },
+          {
+            "strong": "G1248",
+            "lemma": "διακονία"
+          }
+        ],
+        "force": "Paul calls the collection ἡ διακονία τῆς λειτουργίας ταύτης, the service of this ministry, that supplies the needs of the saints and overflows in thanksgivings to God. The double noun phrase pairs the common word for service with the priestly-public-service word. The collection is therefore classified by the words themselves as both diakonia and leitourgia, a ministry of the churches in priestly idiom, again with no separate institutional carrier named.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.13.2",
+        "to": "Acts.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.13.2",
+        "to": "Acts.22.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.13.3",
+        "to": "Acts.13.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.15.26",
+        "to": "Prov.14.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.15.28",
+        "to": "Rom.15.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.13.2",
+        "to": "Acts.14.23",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.15.26",
+        "to": "2Cor.8.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.15.27",
+        "to": "2Cor.9.12",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Cor.8.18-21",
+        "addressed": true,
+        "resolution": "A brother famous among all the churches is selected to travel with Paul to administer the gift, with care taken to be honourable before the Lord and before men. This is the closest lexical analogue to a coordinated mission or mercy structure. The same passage (8.19) supplies the procedural verb χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν, chosen by the churches, and the title ἀπόστολοι ἐκκλησιῶν at 8.23. The administrative team is therefore lexically appointed by and answerable to the assemblies. It supports the church-serving half of the stem strongly but does not introduce or warrant an autonomous parachurch institution."
+      },
+      {
+        "ref": "Acts.13.1",
+        "addressed": true,
+        "resolution": "The pre-built bundle delivered surface text and lemma list for Acts 13 but no syntactic tagging. Direct queries against the lexical store recovered the lemma identifications for ἐκκλησίαν, ἀφορίσατε, λειτουργούντων, νηστευόντων, ἔργον, and ἐπιθέντες, which is sufficient to confirm the assembly is the agent of the sending and the construction κατὰ τὴν οὖσαν ἐκκλησίαν locates the named workers inside the Antioch body. The morphological gap is resolved at the level of lexical force, even though clause-level ETCBC tagging is not applicable for Koine."
+      },
+      {
+        "ref": "1Cor.16.3",
+        "addressed": false,
+        "resolution": "Paul writes that whomever the Corinthians δοκιμάσητε, approve, by letters he will send to carry the gift to Jerusalem. The verb δοκιμάζω here invites local discernment of the carriers, which could be read either as a congregational delegation pattern strengthening the church-tethered reading, or, more thinly, as an ad hoc apostolic arrangement that the words do not generalise. The lexical store does not by itself rank these readings, and the question of whether such delegated structures must remain church-tethered or may legitimately become independent is precisely the scope question the stem asks but the words do not answer."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units bear on the verdict. The minor καί and δέ readings flagged at Acts 13.1-2 do not touch the question of church-rooted mission, and the 2 Cor 8.18-23 passage has no apparatus signal that changes the verbs χειροτονέω, συμπέμπω, or the title ἀπόστολοι ἐκκλησιῶν. The verdict is variant-robust. No CBGM data examined, this NT material is outside the 3 John ECM sample, hence ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "ecclesiology_high_church",
+      "ecclesiology_low_church",
+      "missiology_sending_church",
+      "categorical_underdetermination"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "missiology_sending_church",
+        "verdict": "affirms",
+        "rationale": "Reads Acts 13.1-3, Acts 14.23, and 2 Cor 8.18-23 as the normative pattern, namely workers are set apart and sent by, and elected by, local assemblies and called apostles of churches, so any later mission or mercy structure is legitimate precisely insofar as it serves and answers to the sending church rather than displacing it. The verbs χειροτονέω, ἀφορίζω, ἐπιτίθημι, and the title ἀπόστολοι ἐκκλησιῶν supply the lexical warrant for the conditional in the stem."
+      },
+      {
+        "framework": "ecclesiology_high_church",
+        "verdict": "disputed",
+        "rationale": "Grants that mission and mercy are church-rooted and accepts χειροτονέω and ἀπόστολοι ἐκκλησιῶν as ecclesial procedures, but reads commissioning and the collection as functions belonging to the ordered church and its officers. On this reading the lexical evidence licences cooperative inter-church teams but leaves open whether a freestanding organisation outside that order has any positive warrant, since the words name only church-internal and church-elected agents."
+      },
+      {
+        "framework": "ecclesiology_low_church",
+        "verdict": "null",
+        "rationale": "Holds that since the texts describe ad hoc apostolic and congregational action, χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν and ἀπόστολοι ἐκκλησιῶν included, the lexicon describes one observed pattern without legislating against alternative organisational forms. On this reading the matter is one of fidelity to the underlying principles, accountability and service to the church, rather than of lexical mandate concerning institutional form."
+      },
+      {
+        "framework": "categorical_underdetermination",
+        "verdict": "null",
+        "rationale": "Observes that the modern category named in the stem, mission agency, campus ministry, training institution, freestanding mercy organisation, has no first-century lexical referent at all. The vocabulary names what was actually done, election by churches, sending with delegates, named brothers travelling with apostles, leitourgia of a collection, but it neither institutes nor forbids a parallel parachurch entity. On this reading the affirms field must remain null because the question lies outside what the words address."
+      }
+    ],
+    "notes": "All four lenses agree on the lexically secure observation, namely that mission and mercy work in the cited texts originates in, is elected by, and serves local assemblies, with named delegates called ἀπόστολοι ἐκκλησιῶν. They diverge only on the anachronistic question the stem raises, the legitimacy of an independent organisational form, which the first-century vocabulary does not name and therefore cannot settle from the lexicon alone."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine how the New Testament describes the origin, election, oversight, and accountability of mission and mercy work, and what relationship such work bears to the assemblies that send or fund it.",
+    "notes": "The stem is verdict-preloaded. The clause legitimate when they support and serve the local church rather than replace it embeds a conclusion (parachurch bodies are valid under a stated condition) and supplies its own qualifying test before the evidence is weighed. The category names mission agencies, campus ministries, mercy organisations, training institutions, are also anachronistic relative to the lexical corpus. The verdict was derived on the original stem, the neutral rephrasing isolates the lexical question, who originates and oversees mission and mercy work and how it relates to the sending assembly, from the legitimacy verdict the stem assumes. The verdict was confirmed against the prior file at affirms null and the confidence was raised from low to medium because direct queries surfaced χειροτονέω at 2 Cor 8.19 and Acts 14.23, ἀπόστολοι ἐκκλησιῶν at 2 Cor 8.23, and the λειτουργία plus διακονία pairing at 2 Cor 9.12, which materially strengthen the supportive half of the analysis."
+  },
+  "lay_summary": "The Greek words behind these passages tell a consistent story about how the earliest Christian mission and relief work was organised. In Acts 13 the prophets and teachers, including Barnabas and Saul, are members of the assembly at Antioch. While the church is worshipping and fasting, the Holy Spirit tells them to set apart Barnabas and Saul for the work he is calling them to. The congregation then fasts, prays, lays hands on the two men, and sends them off. In Acts 14 Paul and Barnabas return and appoint elders in every church by the same procedural verb later used for choosing delegates, fixing leadership inside each local body. In Romans 15 Paul carries a relief gift to the poor believers in Jerusalem. The churches of Macedonia and Achaia, he says, were glad to make a contribution, and since the Gentiles shared in their spiritual blessings, they owe it to serve them in material things. He calls the collection a fruit he will deliver and seal. The clearest organisational pattern shows up in 2 Corinthians 8. The brother sent with Titus is described as chosen by the churches themselves, and the team is given the striking title messengers of the churches. In chapter 9 the same collection is called both a service and a public ministry. So the words name election by assemblies, sending with named delegates, and accountable handling of funds. What the words never do is name a freestanding organisation that exists alongside the church. Categories like a mission agency, a campus ministry, a training institute, or an independent mercy organisation simply did not exist in the first century, so the vocabulary cannot directly approve or forbid them. This is why honest readers diverge. The text strongly supports the principle that mission and mercy work begins in, is elected by, and serves local assemblies, with the closest analogue still church-tethered. But the proposition asks whether a later institutional form is legitimate under a stated condition, and the lexicon underdetermines that scope. The evidence is therefore recorded as open rather than as a clear yes or no.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.13.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.8.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.8.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.15.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.14.23"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0873"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5500"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0652"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3009"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2842"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3008"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.13.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.15.27"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids non-commercial bulk redistribution. The interlinear glosses from that source were used for Acts 13.2, 2 Cor 8.19, and 2 Cor 8.23, so the aggregated evidence record is not safe to publish in redistributable form."
+  },
+  "flags": [
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

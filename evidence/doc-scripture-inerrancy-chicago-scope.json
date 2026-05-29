@@ -1,0 +1,669 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-inerrancy-chicago-scope",
+  "question_id": "doc-scripture-inerrancy-chicago-scope",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9375,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The truth vocabulary is dense and pan-canonical: emet (H0571, 108 occurrences across Torah, Prophets, and Writings), tamim (H8549, 84 occurrences, the same word used for unblemished sacrificial animals), the refining metaphor tsaraph (H6884, 30 occurrences), aletheia (G0225, 110 occurrences), and the hapax apseudes (G0893, only Titus 1.2) all predicate truthfulness, reliability, and freedom from falsehood of God's word with no qualifying clause that restricts the claim to soteric or practical matters. The universal quantifier kol (H3605) governs the predicate in Psalm 119.160 and Proverbs 30.5, leaving no exempt subset, and John 10.35 globalizes this with the categorical ou dunatai luthenai he graphe, invoked to defend an argument that turns on a single word. The lexical pattern therefore affirms unrestricted truthfulness. The medium confidence reflects a genuine text-level gap: the words affirm that Scripture is true but do not themselves delimit whether incidental detail, such as numbers, chronology, geography, or phenomenological description, falls inside the claim, nor do they define what counts as an error as opposed to an accommodation or a phenomenological report. That scope is underdetermined by the vocabulary, which is precisely why a later qualifier like in all that it affirms exists and is contested. The partition into history, science, and chronology is a confessional frame, not a biblical category."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H0571",
+        "lemma": "אֱמֶת",
+        "transliteration": "emet",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0565",
+        "lemma": "אִמְרָה",
+        "transliteration": "imrah",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6884",
+        "lemma": "צָרַף",
+        "transliteration": "tsaraph",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8549",
+        "lemma": "תָּמִים",
+        "transliteration": "tamim",
+        "occurrences_in_canon": 84,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 1368,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5769",
+        "lemma": "עוֹלָם",
+        "transliteration": "olam",
+        "occurrences_in_canon": 384,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6664",
+        "lemma": "צֶדֶק",
+        "transliteration": "tsedeq",
+        "occurrences_in_canon": 96,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "aletheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphe",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "luo",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dunamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4105",
+        "lemma": "πλανάω",
+        "transliteration": "planao",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0893",
+        "lemma": "ἀψευδής",
+        "transliteration": "apseudes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H0571",
+      "H0565",
+      "H6884",
+      "H8549",
+      "H1697",
+      "H3605",
+      "H5769",
+      "H6664",
+      "G0225",
+      "G3056",
+      "G1124",
+      "G3089",
+      "G1410",
+      "G4105",
+      "G0893",
+      "G1510"
+    ],
+    "scripture": [
+      {
+        "ref": "John.17.17",
+        "key_terms": [
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "Predicative clause: ho logos ho sos aletheia estin, your word is truth. Truth is predicated of the word as such, with the article before logos comprehensive rather than partitive, so no faith-and-practice subset is carved out. Note, though, that aletheia is itself a wide term. The lexicon attests an objective sense, the reality lying behind an appearance, a religious or doctrinal sense, and a subjective sense, truthfulness or integrity of character. The predication is unqualified and strong, but the word does not by itself specify whether it ranges over incidental factual detail or chiefly over reliability and doctrinal reality.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.10.35",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "The parenthetical ou dunatai luthenai he graphe is a categorical denial built on dunamai, the verb of possibility, with luo (44 occurrences) carrying the sense to loose, break, or annul. The negation governs the very possibility, ruling out any case in which Scripture can be broken. The principle is invoked to underwrite an argument that turns on one word, theoi in Psalm 82, which shows the unbreakability reaching to verbal detail and not merely to thematic gist. The clause asserts that Scripture cannot fail but does not itself define which classes of statement, doctrinal or incidental, are in view when failure is denied.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.19.7",
+        "key_terms": [
+          {
+            "strong": "H8451",
+            "lemma": "תּוֹרָה"
+          },
+          {
+            "strong": "H8549",
+            "lemma": "תָּמִים"
+          }
+        ],
+        "force": "The torah of the LORD is described as temimah, the feminine of tamim (H8549, 84 occurrences). The same adjective is applied 37 times in Leviticus and Numbers to sacrificial animals that must be unblemished, so the metaphor predicates wholeness, soundness, and absence of defect of the law. The lexical range of tamim runs across complete, whole, sound, healthful, blameless, and entirely in accord with truth and fact. The predication is emphatic, but the term denotes integrity and soundness as a whole rather than a defined inventory of factual domains.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.119.160",
+        "key_terms": [
+          {
+            "strong": "H0571",
+            "lemma": "אֱמֶת"
+          },
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H5769",
+            "lemma": "עוֹלָם"
+          }
+        ],
+        "force": "rosh devarcha emet, the sum or head of your word is truth, and kol mishpat tsidqecha leolam, every ordinance of your righteousness stands forever. The universal quantifier kol (H3605, 5049 occurrences) governs mishpat and denies any exempt subset. emet (H0571, 108 occurrences across Torah, Prophets, and Writings) carries firmness, faithfulness, reliability, and propositional truth together in one term, which is why the verse asserts that the word is wholly true but does not separate factual accuracy from faithfulness as distinct, separately quantified claims.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.30.5",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H0565",
+            "lemma": "אִמְרָה"
+          },
+          {
+            "strong": "H6884",
+            "lemma": "צָרַף"
+          },
+          {
+            "strong": "H0433",
+            "lemma": "אֱלוֹהַּ"
+          }
+        ],
+        "force": "kol imrat eloah tserufah, every utterance of God is refined. tsaraph (H6884, 30 occurrences) is the metallurgical verb for smelting and assaying metal, and the passive participle tserufah describes the settled state of having been tested and proven free of dross. The universal kol allows no exception. The metaphor affirms tested purity comprehensively. It does not, on its own terms, specify whether the testing certifies incidental detail or chiefly certifies the reliability of God's promise and instruction, which is the scope question the words leave open.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.22.29",
+        "key_terms": [
+          {
+            "strong": "G4105",
+            "lemma": "πλανάω"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G1411",
+            "lemma": "δύναμις"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "planasthe me eidotes tas graphas, you are deceived because you do not know the Scriptures. planao (G4105, 40 occurrences) diagnoses error as ignorance of the Scriptures, treating them as a sufficient and accurate standard such that not knowing them produces deception. The pairing with dynamin tou theou joins knowing Scripture and knowing God's power as the two safeguards. The Scriptures are framed as the reliable corrective, which presupposes their accuracy on the point in dispute without stating a general theory of which detail-classes are guaranteed.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.22.32",
+        "key_terms": [
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          },
+          {
+            "strong": "G3498",
+            "lemma": "νεκρός"
+          }
+        ],
+        "force": "Jesus's argument hinges on the present form ego eimi in the Exodus citation rather than a past form, so the tense of a single verb in a historical narrative is treated as theologically binding and decisive against the Sadducees. This presupposes that the historical record of God's self-identification is accurate at the level of verb morphology, which is exactly the kind of incidental, historical detail the proposition extends inerrancy to cover. The text uses such detail as load-bearing but does not formalize the principle that all such detail is guaranteed, which is the inference the proposition draws.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.2",
+        "key_terms": [
+          {
+            "strong": "G0893",
+            "lemma": "ἀψευδής"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1861",
+            "lemma": "ἐπαγγέλλομαι"
+          }
+        ],
+        "force": "ho apseudes theos, the God who does not lie. apseudes (G0893) is a New Testament hapax legomenon, occurring only here, formed with the alpha-privative on pseudos, denying the capacity for falsehood. Because the word occurs once, its precise contour cannot be triangulated from other New Testament usage, and the lexicon glosses it simply as free from falsehood, truthful. The predicate falls on God's character and on his promise grounded before eternal times, not on a textual inventory, so the verse secures divine truthfulness as the ground of the word without itself fixing the scope of textual inerrancy.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.22.32",
+        "to": "Exod.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.1.2",
+        "to": "Num.23.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Prov.30.5",
+        "to": "Ps.12.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.19.7",
+        "to": "Ps.93.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.19.7",
+        "to": "Ps.119.130",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.119.160",
+        "to": "Ps.119.75",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.119.160",
+        "to": "Ps.119.86",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.17",
+        "to": "John.17.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.10.35",
+        "to": "Gen.15.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.22.29",
+        "to": "Job.19.25",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.17.17",
+        "addressed": true,
+        "resolution": "The very term that predicates truthfulness, aletheia (G0225), is lexically wide. The dictionary entry distinguishes an objective sense, the reality behind an appearance, a doctrinal sense, and a subjective sense, truthfulness or integrity of character. The clause asserts truth of the word without disambiguating which sense is primary, so the word affirms the proposition robustly but does not, by itself, settle whether the guarantee extends to incidental factual detail or centers on doctrinal reliability. This is internal scope underdetermination, not a contradiction, and it is the reason a scope qualifier is later added."
+      },
+      {
+        "ref": "Matt.22.30",
+        "addressed": true,
+        "resolution": "The verse contrasts gameo and the rarer gamizo (G1061, 8 occurrences) and carries variant markers at to and gamizontai in the bundle. These are incidental lexical and textual details about marrying and being given in marriage, exactly the class of detail whose inclusion under the inerrancy claim the proposition asserts but the surrounding vocabulary does not adjudicate. The variants do not touch any truthfulness predication, so they leave the verdict unchanged while illustrating the scope question."
+      },
+      {
+        "ref": "Prov.30.5",
+        "addressed": false,
+        "resolution": "Not resolvable at the lexical level. kol imrat eloah tserufah affirms that every utterance of God is refined, but the words tsaraph and imrah do not define what would count as a defect or an unrefined element. Whether a round number, a phenomenological description such as the sun rising, a compressed chronology, or an approximate measurement would count as dross is not specified by the vocabulary. The universal kol is unrestricted, yet the criterion of error against which refinement is measured is left open by the text itself, which is the core scope gap."
+      },
+      {
+        "ref": "2Pet.1.21",
+        "addressed": true,
+        "resolution": "Not a complicating text but a supporting one. hypo pneumatos hagiou pheromenoi elalesan apo theou anthropoi, men spoke from God as they were borne along by the Holy Spirit. The verb phero, to carry or bear along, grounds the resulting word in divine agency and reinforces the verdict. It still does not, lexically, delimit the scope of the resulting accuracy, so it strengthens the affirmation without closing the scope question."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The anchor verses lie outside the ingested ECM window, which covers only 3 John 1.1 to 1.15, and the lexical bundle returned no variant units, so ECM status is not applicable. The Matthew 22.30 marks at to and gamizontai concern marriage vocabulary and do not touch any truthfulness predication. The John 17.17 dative variation at aletheia is a case-form choice with no effect on the predication of truth. No variant materially affects the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "grammatico-historical",
+      "accommodation"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical-maximal-scope",
+        "verdict": "affirms, scope extends to incidental detail",
+        "rationale": "On this reading the unqualified predicates, emet, aletheia, tamim, tserufah, and the categorical ou dunatai luthenai, plus Jesus staking an argument on the tense of a single verb in Matthew 22.32 and on one word in John 10.35, show that the truthfulness reaches all the way down to verbal and historical detail. If a single tense and a single word are binding, then numbers, chronology, and historical particulars fall inside the claim. The universal kol in Psalm 119.160 and Proverbs 30.5 admits no exempt subset, so incidental detail is in scope."
+      },
+      {
+        "framework": "accommodation-restricted-scope",
+        "verdict": "affirms, scope centered on what the text affirms for its purpose",
+        "rationale": "On this reading the same truth vocabulary is satisfied if Scripture is true in all that it intends to affirm, while incidental detail can be reported phenomenologically or approximately without counting as error. aletheia includes a sense of reliability and integrity of character, and emet bundles faithfulness with truth, so the predicates can be honored as covenant fidelity and trustworthy instruction without committing to modern precision in number, chronology, or natural description. The argument from the verb tense in Matthew 22.32 is read as turning on the substantive claim, that God is the living God of the patriarchs, rather than on a general theory that every incidental detail is technically exact. This lens treats round numbers, ordinary-language descriptions, and compressed accounts as accommodations, not failures, of the word."
+      }
+    ],
+    "notes": "Both lenses honor the same dense, unqualified, pan-canonical truth vocabulary. They diverge only at the point the vocabulary leaves open, namely whether incidental detail and what counts as error fall inside the truthfulness claim. The proposition's partition into history, science, and chronology is not a biblical taxonomy but a later apologetic frame responding to specifically modern questions. Lexically, Scripture asserts comprehensive truthfulness; the scope of incidental detail is the underdetermined remainder that distinguishes the two readings."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture, in the texts as originally given, predicates truthfulness of itself without an explicit qualifier restricting that truthfulness to matters of faith and practice, and the question is whether that self-predication extends to incidental detail such as history, chronology, and natural description.",
+    "notes": "The original stem uses the taxonomy of history, science, chronology, faith, and practice associated with the 1978 inerrancy statement, and the qualifier scope signals the in all that it affirms clause. That partition is a twentieth-century apologetic frame, not a biblical category, so verdict_preloaded is true. The verdict is still derived on the original stem and resolves to true, because the lexical pattern in the anchors predicates truthfulness without any restrictive qualifier such as in matters of salvation only. Confidence is medium, not high, because the words affirm truth but do not delimit whether incidental detail is in view, nor define error versus accommodation, so the scope the stem foregrounds is exactly the part the vocabulary underdetermines."
+  },
+  "lay_summary": "The question asks whether Scripture in its original copies is free from error not only in faith and practice but also in history, science, and chronology. The lexical data supports an affirmative verdict at medium confidence, and the reason for the qualification is worth stating plainly. Across both Testaments the Bible describes itself with strong, unqualified words for truth. Psalm 119.160 says the sum of God's word is emet, a Hebrew term that means truth and faithfulness and reliability together, and the universal word kol governs every ordinance, leaving no exempt subset. Proverbs 30.5 says every utterance of God is refined, using the metalworking image of metal smelted and proven free of dross. Psalm 19.7 calls the law tamim, the same word used for unblemished sacrificial animals. In the New Testament Jesus says God's word is truth in John 17.17, declares that Scripture cannot be broken in John 10.35, and even rests an argument on the present tense of one verb in Matthew 22.32. Titus 1.2 calls God apseudes, unable to lie, a word that appears only once in the New Testament. So the vocabulary clearly affirms that Scripture is true, comprehensively and without a clause limiting it to spiritual topics. Here is where readers diverge, and the reason is in the words themselves, not in any outside dispute. These truth words affirm that Scripture is true, but they do not on their own draw the line around what counts as covered. They do not say whether a round number, a chronology told out of order, an everyday description like the sun rising, or an approximate measurement falls inside the claim, and they do not define what would count as an error as opposed to an accommodation to ordinary speech. The text affirms the category of truth strongly while leaving its precise reach unstated. That gap inside the language is exactly why a careful qualifier such as true in all that it affirms is later added and then debated. The honest summary is that Scripture predicates truthfulness of itself comprehensively, which supports the proposition, while the specific sorting into history, science, and chronology belongs to a much later discussion rather than to the biblical writers, who simply call the word true.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.17.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.10.35"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.32"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.119.160"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.30.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.19.7"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0893 apseudes"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3089 luo"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0225 aletheia"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0571 emet"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8549 tamim"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6884 tsaraph"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0565 imrah"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.10.35 ou dunatai luthenai"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.32 ego eimi"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.119.160 kol mishpat"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.19.7 torah temimah"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.22.32 to Exod.3.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Titus.1.2 to Num.23.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Prov.30.5 to Ps.12.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.10.35 to Gen.15.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "complicating-unresolved"
+  ]
+}

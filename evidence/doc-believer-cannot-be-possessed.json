@@ -1,0 +1,684 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-believer-cannot-be-possessed",
+  "question_id": "doc-believer-cannot-be-possessed",
+  "generated_at": "2026-05-28T03:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.775,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The lexicon establishes the indwelling half of the proposition cleanly and adds a sharp incompatibility lexeme in 2 Corinthians 6:14 to 16, where naos theou is set against eidolon and Christos against Beliar with the rhetorical questions tis koinonia, tis sumphonesis, tis sunkatathesis denying shared occupancy. Romans 8:9 to 11 uses oikeo and the compound enoikeo for the Spirit's settled residence, 1 Corinthians 3:16 and 6:19 use naos, the inner sanctuary, and 1 John 4:4 places ho en hymin above ho en to kosmo with the perfect nenikekate. The verb daimonizomai occurs 13 times, all in the Gospels, and is never predicated of a person identified as Spirit-indwelt. Yet the proposition's categorical exclusion, that a believer cannot be possessed, is not stated as a single lexeme. The temple-versus-idol antithesis is rhetorical, not a flat predication of impossibility, and Acts 5:3 uses pleroo of Satan filling Ananias' heart inside the believing community, leaving the inhabitation question lexically underdetermined."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3611",
+        "lemma": "οἰκέω",
+        "transliteration": "oikeo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1774",
+        "lemma": "ἐνοικέω",
+        "transliteration": "enoikeo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1497",
+        "lemma": "εἴδωλον",
+        "transliteration": "eidolon",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3173",
+        "lemma": "μέγας",
+        "transliteration": "megas",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1722",
+        "lemma": "ἐν",
+        "transliteration": "en",
+        "occurrences_in_canon": 2937,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3528",
+        "lemma": "νικάω",
+        "transliteration": "nikao",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1139",
+        "lemma": "δαιμονίζομαι",
+        "transliteration": "daimonizomai",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1140",
+        "lemma": "δαιμόνιον",
+        "transliteration": "daimonion",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 765,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2865",
+        "lemma": "κολαφίζω",
+        "transliteration": "kolaphizo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0032",
+        "lemma": "ἄγγελος",
+        "transliteration": "angelos",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4567",
+        "lemma": "Σατανᾶς",
+        "transliteration": "Satanas",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4137",
+        "lemma": "πληρόω",
+        "transliteration": "pleroo",
+        "occurrences_in_canon": 87,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4506",
+        "lemma": "ῥύομαι",
+        "transliteration": "rhuomai",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3833",
+        "lemma": "πανοπλία",
+        "transliteration": "panoplia",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2476",
+        "lemma": "ἵστημι",
+        "transliteration": "histemi",
+        "occurrences_in_canon": 154,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3611",
+      "G1774",
+      "G3485",
+      "G1497",
+      "G3173",
+      "G1722",
+      "G3528",
+      "G4151",
+      "G1139",
+      "G1140",
+      "G2192",
+      "G2865",
+      "G0032",
+      "G4567",
+      "G4137",
+      "G4506",
+      "G3833",
+      "G2476"
+    ],
+    "scripture": [
+      {
+        "ref": "1John.4.4",
+        "key_terms": [
+          {
+            "strong": "G3173",
+            "lemma": "μέγας"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G3528",
+            "lemma": "νικάω"
+          }
+        ],
+        "force": "The clause meizon estin ho en hymin e ho en to kosmo says greater is the one in you than the one in the world. The comparative meizon (from megas) sets the indwelling presence above the worldly adversary, and the locative en hymin marks that presence as inside the addressees. The perfect nenikekate, you have conquered, frames the believers as already victorious over the spirits of error. The verse asserts a superior indwelling presence and a settled victory, but it does not contain a verb or clause stating that a demon cannot also inhabit the same person.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.19",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          }
+        ],
+        "force": "The body is called naos tou en hymin hagiou pneumatos, a temple of the Holy Spirit who is in you. The noun naos denotes the inner sanctuary, the dwelling place of deity, and the relative clause hou echete apo theou says the Spirit was received from God. The temple metaphor lexically asserts the Spirit's residence in the believer's body. The exclusion of a rival inhabitant is implied by the temple image but is not stated as a separate proposition, so the force is supportive without being decisive on impossibility.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.16",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "ouk oidate hoti naos theou este kai to pneuma tou theou oikei en hymin, do you not know that you are God's temple and that the Spirit of God dwells in you. The verse pairs naos theou with oikeo en hymin, joining the temple noun and the indwelling verb in a single predication and identifying the corporate body of believers as the sanctuary in which God resides. The combination of sanctuary vocabulary and settled-residence verb is the closest the lexicon comes to predicating exclusive divine occupancy, though even here the exclusion of a rival inhabitant is left as implication, not as an explicit denial.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.16",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G1497",
+            "lemma": "εἴδωλον"
+          },
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          }
+        ],
+        "force": "tis de sunkatathesis nao theou meta eidolon, what agreement has the temple of God with idols. The rhetorical question lexically opposes naos theou and eidolon and answers itself with hemeis gar naos theou esmen zontos, kathos eipen ho theos hoti enoikeso en autois, for we are the temple of the living God, as God said I will dwell among them. The verb enoikeo, an intensified compound of oikeo, names God's settled residence, and the immediate antithesis with eidolon is the strongest lexical expression in the canon of incompatible occupancy. The argument is still rhetorical rather than a categorical impossibility predication, since the noun for a hostile spiritual inhabitant is not the topic of the sentence, but the conceptual incompatibility is asserted directly.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.15",
+        "key_terms": [
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G0955",
+            "lemma": "Βελιάρ"
+          }
+        ],
+        "force": "tis de sumphonesis Christou pros Beliar, what concord has Christ with Beliar. Beliar is a New Testament hapax for the adversary, and the noun sumphonesis (agreement, literally sounding together) is set as impossible between Christ and the adversary. The verse adds the lexical incompatibility of Christ and the dark power one verse before the naos and eidolon antithesis, reinforcing the rhetorical denial of shared territory between the two camps. Like the surrounding verses, the impossibility is asserted in the language of fellowship and concord rather than as a flat impossibility of inhabitation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.9",
+        "key_terms": [
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Paul writes eiper pneuma theou oikei en hymin, if indeed the Spirit of God dwells in you. The verb oikeo denotes settled habitation, the same root as a household resident, and the conditional eiper treats the indwelling as the assumed mark of belonging to Christ. The closing clause, anyone not having the Spirit of Christ is not his, makes Spirit-indwelling the boundary of genuine believing. This anchors the indwelling claim of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.11",
+        "key_terms": [
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "The compound enoikoun pneuma, his indwelling Spirit, intensifies oikeo with the prefix en and locates the Spirit dia tou enoikountos autou pneumatos en hymin, through his Spirit dwelling in you. The morphology stacks the locative force, the Spirit is not merely present but resident. The verse reinforces the permanence of the indwelling but speaks only of the Spirit, saying nothing about whether a hostile spirit could share the same body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.1.13",
+        "key_terms": [
+          {
+            "strong": "G4506",
+            "lemma": "ῥύομαι"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "hos errusato hemas ek tes exousias tou skotous kai metestesen eis ten basileian tou huiou tes agapes autou, who has rescued us out of the authority of darkness and transferred us into the kingdom of his beloved Son. The aorist errusato (from rhuomai, to rescue) and metestesen (to transfer, change residence) describe a completed change of domain. The prepositions ek (out of) and eis (into) frame the believer's location as no longer under exousia tou skotous, the authority of darkness. The transfer vocabulary supports the proposition by placing the believer outside the dark sphere, though it speaks to dominion (exousia) rather than to inhabitation as such.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.12.7",
+        "key_terms": [
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελος"
+          },
+          {
+            "strong": "G2865",
+            "lemma": "κολαφίζω"
+          }
+        ],
+        "force": "A skolops te sarki, a thorn in the flesh, is called an angelos Satana, a messenger of Satan, given hina me kolaphize, that it might buffet Paul. The verb kolaphizo means to strike with the fist, to harass, an external assault on a believer, not inhabitation. The lexical content shows a demonic agent afflicting an apostle from without, which directly supports the proposition's clause that believers can be oppressed and harassed while leaving the inhabitation question untouched.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.6.12",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G2476",
+            "lemma": "ἵστημι"
+          }
+        ],
+        "force": "The believer's conflict is pros tas archas, pros tas exousias, against rulers and authorities, ta pneumatika tes ponerias, the spiritual forces of evil. The preposition pros with the accusative frames the relation as combat directed against an external foe, and the repeated stenai and antistenai in the surrounding verses cast the believer as one who stands and resists. The vocabulary is military and external. It describes the believer warring against spirits, not hosting them, which fits oppression and harassment rather than possession.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.4.24",
+        "key_terms": [
+          {
+            "strong": "G1139",
+            "lemma": "δαιμονίζομαι"
+          }
+        ],
+        "force": "The participle daimonizomenous, the demon-possessed, is applied to the afflicted crowds Jesus heals. Across all 13 occurrences the verb daimonizomai is restricted to the Gospels (Matthew, Mark, Luke, John) and is used of the afflicted, the unconverted, or those outside the believing community. It is never predicated of one identified as indwelt by the Spirit, and the epistolary corpus, which has the categories of indwelling and walking-in-the-Spirit, never uses it of anyone. The distribution of the verb is the load-bearing concordance fact, but it is an argument from how the word is used rather than from any verse stating the exclusion, so it constrains the case without closing it.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.5.3",
+        "key_terms": [
+          {
+            "strong": "G4137",
+            "lemma": "πληρόω"
+          },
+          {
+            "strong": "G4567",
+            "lemma": "Σατανᾶς"
+          }
+        ],
+        "force": "Peter asks dia ti eplerosen ho Satanas ten kardian sou, why has Satan filled your heart to lie to the Holy Spirit. The aorist eplerosen of pleroo, to fill, applied to a man within the believing community and paired with Satan as agent, is the principal complicating datum. One reading takes filling the heart as a strong satanic influence short of bodily inhabitation, since pleroo elsewhere takes abstract objects like joy, knowledge, fruit of righteousness. Another reading takes it as evidence that one counted among the believers could be deeply controlled. The lexeme pleroo does not by itself decide between influence and inhabitation, which keeps the proposition contested.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.13.16",
+        "key_terms": [
+          {
+            "strong": "G4567",
+            "lemma": "Σατανᾶς"
+          }
+        ],
+        "force": "thugatera Abraam ousan, hen edesen ho Satanas idou deka kai okto ete, a daughter of Abraham whom Satan had bound for 18 years. The participle ousan presents her present status as a daughter of Abraham (a phrase Luke uses positively for a member of the covenant community), and edesen (aorist of deo, to bind) describes a sustained satanic binding that produced a physical infirmity. The verse is sometimes invoked against the proposition because a covenant insider is shown under sustained satanic constraint, but the vocabulary describes binding and infirmity, not daimonizomai inhabitation. It illustrates oppression of a covenant participant rather than possession of a Spirit-indwelt New Covenant believer.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Cor.12.7",
+        "to": "2Cor.10.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.12.7",
+        "to": "Job.2.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.12",
+        "to": "Eph.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.11",
+        "to": "Rom.8.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.19",
+        "to": "1Cor.3.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.19",
+        "to": "2Cor.6.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.11",
+        "to": "2Tim.1.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Col.1.13",
+        "to": "Eph.6.12",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.5.3",
+        "addressed": true,
+        "resolution": "The statement that Satan filled (pleroo) the heart of Ananias is the strongest text against a clean separation of believer from demonic inhabitation. It is addressed by observing that pleroo of the heart describes the saturating influence of a motive or agent rather than the bodily inhabitation denoted by daimonizomai, and that the narrative never calls Ananias demon-possessed. The tension is acknowledged, not eliminated, because the verb itself does not settle whether the filling was inhabitation or intense influence, and the bundle supplies no syntactic layer to adjudicate."
+      },
+      {
+        "ref": "Luke.13.16",
+        "addressed": true,
+        "resolution": "The bound daughter of Abraham is addressed by observing that deo (to bind) and the infirmity vocabulary describe sustained external constraint rather than inhabitation. The Lukan text describes a member of the covenant community under Satan's grip but does not use daimonizomai, daimonion echon, or any inhabitation lexeme. The verse therefore complicates a strong reading of the proposition by widening what Satan can do to a covenant member but does not lexically equate that to possession in the technical sense the proposition denies."
+      },
+      {
+        "ref": "1Cor.6.19",
+        "addressed": true,
+        "resolution": "The temple metaphor (naos) implies an exclusive divine occupancy, since a sanctuary is set apart for one resident deity, and so it weighs toward the proposition. It is addressed but not made decisive because the inference from the metaphor to the impossibility of a second inhabitant is a synthetic step. The image strongly suggests exclusivity but does not state it as a denial, so the metaphor supports without proving the exclusion."
+      },
+      {
+        "ref": "Matt.4.24",
+        "addressed": true,
+        "resolution": "The proposition leans heavily on the fact that daimonizomai is never applied to a believer. This distributional silence is a real and consistent pattern across all 13 occurrences (all in the Gospels, never in the epistles), which is why the indwelling half of the claim is well supported, but an argument from the absence of a predication cannot by itself yield a categorical impossibility. The pattern constrains the verdict toward the proposition while leaving the universal exclusion lexically unproven."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited verses lie outside the open-cbgm 3 John sample, so CBGM data was not consulted and ECM status is treated as shadow. The bundle reports an empty variant_units list and not_in_ecm_scope true. The bracketed surface readings visible in Rom 8:11, 2Cor 12:7, and Eph 6:10 to 18 are minor word-order and orthographic variants that do not touch oikeo, enoikeo, naos, eidolon, Beliar, ho en hymin, daimonizomai, pleroo, or kolaphizo, so the disputed verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "indwelling_exclusivity",
+      "spiritual_warfare_continuationism",
+      "deliverance_ministry",
+      "domain_transfer_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "indwelling_exclusivity",
+        "verdict": "affirms",
+        "rationale": "Reads the temple noun naos plus the verbs oikeo and enoikeo (1 Cor 3:16, 6:19, Rom 8:9 to 11, 2 Cor 6:16), the comparative meizon of 1 John 4:4, and the explicit antithesis of naos theou with eidolon and Christ with Beliar in 2 Cor 6:14 to 16 as together establishing that the Spirit's exclusive occupancy of the believer's body precludes simultaneous demonic inhabitation. The transfer vocabulary of Col 1:13 (rhuomai out of the exousia of darkness) is read as a completed change of domain, and the consistent restriction of daimonizomai to the Gospels and to the unconverted is read as confirmation. Acts 5:3 is read as pleroo of influence, not bodily inhabitation. On this lens the proposition is affirmed."
+      },
+      {
+        "framework": "deliverance_ministry",
+        "verdict": "denies",
+        "rationale": "Reads Acts 5:3 (Satan filling the heart of one within the community), Luke 13:16 (a daughter of Abraham bound by Satan for 18 years), and the harassment language of 2 Corinthians 12:7 as evidence that a covenant member or even genuine believer can be subject to a demon in or affecting the body. Notes that the indwelling texts establish the Spirit's presence without containing a flat denial of demonic co-habitation, that the 2 Cor 6:14 to 16 antithesis is rhetorical question (incompatibility of fellowship) not a categorical metaphysical impossibility, and that the daimonizomai distribution is silence, not predication. On this lens the proposition overreaches the explicit lexical data."
+      },
+      {
+        "framework": "domain_transfer_theology",
+        "verdict": "affirms_with_qualification",
+        "rationale": "Treats Col 1:13 errusato ek tes exousias tou skotous and the locative shift from en sarki to en pneumati in Rom 8:9 as a transfer of dominion rather than a guarantee about every kind of demonic engagement. On this lens the believer is removed from the dark sphere's authority and so the proposition holds at the level of dominion and lordship, while leaving room for harassment, oppression, and severe attack short of full daimonizomai possession."
+      }
+    ],
+    "notes": "The verdict turns on whether the indwelling and temple vocabulary plus the 2 Cor 6 antithesis entail an exclusion of demonic inhabitation, and on whether pleroo in Acts 5:3 and deo in Luke 13:16 denote inhabitation or sustained external control. Analogia scripturae links the indwelling texts (oikeo, enoikeo, naos) to the daimonizomai distribution but yields a strongly supported indwelling claim alongside an inference-dependent exclusion."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The relationship between the Spirit's indwelling of a believer and the possibility of a demon inhabiting that same person; whether the canon treats demonic possession (daimonizomai) and Spirit-indwelling as mutually exclusive states, and how the categories possession, inhabitation, oppression, and harassment map onto the lexicon.",
+    "notes": "The proposition embeds its conclusion by asserting that a genuine believer cannot be possessed, which states the disputed exclusion as a settled premise. It also preloads the contrast between possession and the categories oppressed, tempted, and harassed, importing a taxonomy that the texts support in part but do not name as a fixed three-tier scheme. The verdict was derived on the original stem, and the neutralized form is recorded only to expose the preloading."
+  },
+  "lay_summary": "The Greek behind these verses cleanly establishes the first part of the claim, that the Holy Spirit truly lives inside a believer. Romans 8 uses the verb oikeo and its stronger compound enoikeo, both meaning to dwell as a settled resident. First Corinthians 3 and 6 call the body and the gathered believers a naos, the inner sanctuary of a temple, the place set apart for God. Second Corinthians 6 sharpens this by asking what agreement the temple of God has with idols and what concord Christ has with Beliar, naming the Spirit's residence (enoikeo) and immediately denying any fellowship between the holy dwelling and a hostile spiritual rival. First John 4 says the one who is in you is greater than the one in the world. Colossians 1 says God has rescued the believer out of the authority of darkness and transferred us into the kingdom of his Son, language of a completed change of domain. So the texts plainly assert a real, settled, superior presence of the Spirit in the believer and a deliberate antithesis between the believer's inner sanctuary and any rival inhabitant. The second part of the claim, that this presence makes it impossible for a demon to inhabit the same person, is where the words stop short. No verse contains a flat statement denying that a demon can inhabit a believer. The strongest support is a pattern rather than a sentence, the verb daimonizomai, to be demon-possessed, occurs 13 times and is restricted to the Gospels, never used of anyone identified as Spirit-indwelt, and never used in the epistles at all. That consistent silence points toward the claim but cannot by itself prove a flat impossibility. The verses about Paul show a messenger of Satan buffeting him, the verb kolaphizo meaning to strike from outside, which fits the idea that believers are harassed and oppressed rather than inhabited. The hardest verses the other way are Acts 5, where Satan is said to fill the heart of Ananias inside the believing community, and Luke 13, where a daughter of Abraham is bound by Satan for 18 years. The verbs there, pleroo (to fill) and deo (to bind), can mean either deep influence and external constraint, or something more, and they do not settle the question. Because the indwelling half is well grounded and reinforced by the 2 Corinthians 6 antithesis, while the categorical exclusion still depends on inference from how words are used rather than on a direct statement, the lexical finding is disputed rather than fully confirmed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3611"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1774"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3485"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1139"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2865"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4137"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4506"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1497"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.4.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.12.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.6.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.1.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.12.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.6.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.6.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "Acts.5.3"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "One cited source is not redistributable in bulk: BibleHub-interlinear under fair-use-policy. Its presence sets the aggregate publish-safety to false."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

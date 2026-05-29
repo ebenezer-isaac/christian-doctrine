@@ -1,0 +1,893 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-truthfulness",
+  "question_id": "doc-scripture-truthfulness",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense, pan-canonical, and convergent. In queried canon data the Hebrew truth root אמן surfaces as אֱמֶת (108 token occurrences, 106 verses) predicated of God's word in Ps 119:160 (רֹאשׁ דְּבָרְךָ אֱמֶת, predicate noun HNcfsa) and of His works and precepts in Ps 111:7, while the cognate אֱמוּנָה (35 occurrences) carries the same predication in Ps 119:86 under the universal quantifier כֹּל. The speech-purity trope binds אִמְרָה (34 occurrences) to the metallurgical צרף in Prov 30:5 and Ps 12:6. On the Greek side ἀλήθεια (110 occurrences, 99 verses) stands anarthrous in the predicate slot of the copula in John 17:17 (ὁ λόγος ὁ σὸς ἀλήθειά ἐστιν), an identification not a mere attribute. John 10:35 negates δύναμαι with the aorist passive infinitive λυθῆναι, a categorical impossibility that Scripture be broken. Titus 1:2 grounds promise in ὁ ἀψευδὴς θεός, where ἀψευδής is a queried hapax (one occurrence, Titus 1:2 only), an alpha-privative essential predicate. Matt 22:32 hangs a doctrine on the present copula Ἐγώ εἰμι. The stack crosses Torah, Wisdom, Psalter, Synoptic and Johannine Gospels, and a Pastoral Epistle without internal contradiction, so the property is decisively affirmed. Divergence is not over whether Scripture is true but over the sense and scope the words leave open, addressed below."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H0571",
+        "lemma": "אֱמֶת",
+        "transliteration": "emeth",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0530",
+        "lemma": "אֱמוּנָה",
+        "transliteration": "emunah",
+        "occurrences_in_canon": 35,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0539",
+        "lemma": "אָמַן",
+        "transliteration": "aman",
+        "occurrences_in_canon": 102,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0565",
+        "lemma": "אִמְרָה",
+        "transliteration": "imrah",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 1368,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6884",
+        "lemma": "צָרַף",
+        "transliteration": "tsaraph",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2889",
+        "lemma": "טָהֹר",
+        "transliteration": "tahor",
+        "occurrences_in_canon": 89,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3576",
+        "lemma": "כָּזַב",
+        "transliteration": "kazav",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "aletheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0227",
+        "lemma": "ἀληθής",
+        "transliteration": "alethes",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphe",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0037",
+        "lemma": "ἁγιάζω",
+        "transliteration": "hagiazo",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dunamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "luo",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0893",
+        "lemma": "ἀψευδής",
+        "transliteration": "apseudes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4105",
+        "lemma": "πλανάω",
+        "transliteration": "planao",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5579",
+        "lemma": "ψεῦδος",
+        "transliteration": "pseudos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1411",
+        "lemma": "δύναμις",
+        "transliteration": "dunamis",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H0571",
+      "H0530",
+      "H0539",
+      "H0529",
+      "H0565",
+      "H1697",
+      "H8451",
+      "H6884",
+      "H2889",
+      "H8549",
+      "H3576",
+      "H8267",
+      "H5162",
+      "H3605",
+      "G0225",
+      "G0226",
+      "G0227",
+      "G0228",
+      "G0230",
+      "G0893",
+      "G5579",
+      "G5571",
+      "G1124",
+      "G3056",
+      "G3089",
+      "G4105",
+      "G1410",
+      "G1411",
+      "G0037",
+      "G1861",
+      "G2316"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.119.160",
+        "key_terms": [
+          {
+            "strong": "H0571",
+            "lemma": "אֱמֶת"
+          },
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H5769",
+            "lemma": "עוֹלָם"
+          },
+          {
+            "strong": "H6664",
+            "lemma": "צֶדֶק"
+          }
+        ],
+        "force": "רֹאשׁ דְּבָרְךָ אֱמֶת assigns אֱמֶת (queried as a feminine singular absolute noun, HNcfsa) as the predicate of רֹאשׁ דְּבָרְךָ, the head or sum of your word. The two cola stand in Hebrew poetic parallelism, which the figures enum does not encode: the first colon binds head-of-word to truth, the parallel colon binds כָּל מִשְׁפַּט צִדְקֶךָ, every ordinance of your righteousness, to לְעוֹלָם, forever. The universal quantifier כֹּל plus אֱמֶת plus עוֹלָם yields a categorical claim of total, enduring truthfulness for the divine word. The אמן root here carries both reliability and correspondence senses attested elsewhere in the same lemma.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.119.160#emet"
+      },
+      {
+        "ref": "Ps.111.7",
+        "key_terms": [
+          {
+            "strong": "H0571",
+            "lemma": "אֱמֶת"
+          },
+          {
+            "strong": "H0539",
+            "lemma": "אָמַן"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          }
+        ],
+        "force": "מַעֲשֵׂי יָדָיו אֱמֶת וּמִשְׁפָּט נֶאֱמָנִים כָּל פִּקּוּדָיו predicates אֱמֶת of the works of His hands and the niphal participle נֶאֱמָנִים (root אמן, same family as אֱמֶת) of כָּל פִּקּוּדָיו, all His precepts. This verse, queried as a direct neighbor of the Ps 119 cluster, pairs the truth-root simultaneously with God's acts and with the universally quantified body of His precepts, showing that the same vocabulary spans deed and verbal instruction.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.111.7#emet-neemanim"
+      },
+      {
+        "ref": "Prov.30.5",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H0565",
+            "lemma": "אִמְרָה"
+          },
+          {
+            "strong": "H0433",
+            "lemma": "אֱלוֹהַּ"
+          },
+          {
+            "strong": "H6884",
+            "lemma": "צָרַף"
+          }
+        ],
+        "force": "כָּל אִמְרַת אֱלוֹהַּ צְרוּפָה uses the metallurgical צרף (refined, tested in the crucible until no dross remains, queried as a Qal passive participle) predicated by כֹּל of every utterance of God. אִמְרָה here is the construct form queried as H0565A, HNcfsc. The figure transfers smelting purity to divine speech. The second colon, מָגֵן הוּא לַחֹסִים בּוֹ, He is a shield to those who take refuge in Him, shifts from the property of the word to its function for those who trust it, grounding practical refuge on the tested purity of the word.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "Prov.30.5#imrah-tseruphah"
+      },
+      {
+        "ref": "Ps.12.6",
+        "key_terms": [
+          {
+            "strong": "H0565",
+            "lemma": "אִמְרָה"
+          },
+          {
+            "strong": "H2889",
+            "lemma": "טָהֹר"
+          },
+          {
+            "strong": "H6884",
+            "lemma": "צָרַף"
+          }
+        ],
+        "force": "אִמְרוֹת יְהוָה אֲמָרוֹת טְהֹרוֹת, the words of YHWH are pure words, silver refined (צרף) in a furnace of earth, purified sevenfold. The same lemma pair as Prov 30:5 (אִמְרָה plus צרף) recurs with the metallurgical figure intensified by the sevenfold hyperbole. The trope is stable across Psalter and Proverbs, establishing the speech-purity predication in more than one canon book.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor",
+          "hyperbole"
+        ],
+        "macula_anchor": "Ps.12.6#imroth-tehoroth"
+      },
+      {
+        "ref": "Ps.119.86",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H4687",
+            "lemma": "מִצְוָה"
+          },
+          {
+            "strong": "H0530",
+            "lemma": "אֱמוּנָה"
+          }
+        ],
+        "force": "כָּל מִצְוֺתֶיךָ אֱמוּנָה, all your commandments are faithfulness or reliability. אֱמוּנָה (root אמן, 35 occurrences queried) is the cognate noun complement to אֱמֶת in Ps 119:160 and Ps 111:7. The universal quantifier כֹּל recurs, producing a categorical predication and confirming that the truth-root is applied to the whole body of divine commandment, not a sample.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.119.86#kol-mitsvotekha-emunah"
+      },
+      {
+        "ref": "Ps.93.5",
+        "key_terms": [
+          {
+            "strong": "H5713",
+            "lemma": "עֵדוּת"
+          },
+          {
+            "strong": "H0539",
+            "lemma": "אָמַן"
+          }
+        ],
+        "force": "עֵדֹתֶיךָ נֶאֶמְנוּ מְאֹד, your testimonies are very faithful or sure. The niphal of אמן (the verbal root behind אֱמֶת and אֱמוּנָה, queried at 102 occurrences) is predicated of God's עֵדוּת, testimony. This is the same root family that the Greek ἀλήθεια of John 17:17 and the ἀψευδής of Titus 1:2 semantically intersect, tying the Hebrew and Greek witnesses through a shared semantic field.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.93.5#edotekha-neemnu"
+      },
+      {
+        "ref": "Num.23.19",
+        "key_terms": [
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H3576",
+            "lemma": "כָּזַב"
+          },
+          {
+            "strong": "H5162",
+            "lemma": "נָחַם"
+          }
+        ],
+        "force": "לֹא אִישׁ אֵל וִיכַזֵּב, God is not a man that he should lie (כָּזַב, deceive, queried at 14 occurrences, a rare verb). The verse is the Hebrew counterpart to Titus 1:2 ἀψευδής: כָּזַב is negated of God and paired with rhetorical denials, said and not do, fulfilling and not fulfilling (וְדִבֶּר וְלֹא יְקִימֶנָּה). The negation of the lie-verb plus the affirmation that God performs his spoken word secures divine speech as non-deceptive and reliable in fulfilment.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Num.23.19#lo-ish-el-vikhazev"
+      },
+      {
+        "ref": "John.17.17",
+        "key_terms": [
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "ἁγίασον αὐτοὺς ἐν τῇ ἀληθείᾳ· ὁ λόγος ὁ σὸς ἀλήθειά ἐστιν. The second clause is a copular predicate-nominative identification: ὁ λόγος is the articular subject, ἀλήθεια the anarthrous predicate, ἐστιν the copula. Anarthrous ἀλήθεια in the predicate slot assigns the quality of truth essentially, not merely incidentally, to the Father's word. The prayer rests on the means of sanctification being itself truth. ἀλήθεια is queried at 110 occurrences across 99 verses, a stable high-frequency term.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.17.17#logos-aletheia"
+      },
+      {
+        "ref": "John.10.35",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          }
+        ],
+        "force": "καὶ οὐ δύναται λυθῆναι ἡ γραφή. The parenthetical pairs negated δύναμαι with the aorist passive infinitive λυθῆναι (from λύω, loose or annul), a categorical modal impossibility rather than a contingent failure. ἡ γραφή with the article denotes the written corpus as a unit. Jesus argues from a single word in Ps 82:6 and grounds the argument on Scripture's non-breakability, treating the written text as binding at the level of its wording.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.10.35#ou-dunatai-luthenai"
+      },
+      {
+        "ref": "Matt.22.29",
+        "key_terms": [
+          {
+            "strong": "G4105",
+            "lemma": "πλανάω"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G1411",
+            "lemma": "δύναμις"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Πλανᾶσθε μὴ εἰδότες τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ θεοῦ. The Sadducees' error (πλανάω, present, an ongoing being led astray) is diagnosed as ignorance of the γραφαί, the writings in the plural. Knowing the Scriptures is set as the corrective to doctrinal error, which presupposes the Scriptures' reliability as the fixed standard against which error is measured.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Matt.22.29#planao-graphas"
+      },
+      {
+        "ref": "Matt.22.31-32",
+        "key_terms": [
+          {
+            "strong": "G1510",
+            "lemma": "εἰμι"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3498",
+            "lemma": "νεκρός"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          }
+        ],
+        "force": "Jesus' resurrection argument from Exod 3:6 hinges on the present tense of the copula: Ἐγώ εἰμι ὁ θεὸς Ἀβραάμ. The patriarchs being long dead, yet God identifying himself in the present as their God, joined to the axiom οὐκ ἔστιν ὁ θεὸς νεκρῶν ἀλλὰ ζώντων, yields the conclusion. The argument is intelligible only if the precise verbal form of the Old Testament text is trusted down to its tense, a strong implicit witness to textual truthfulness at the granular level.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Matt.22.32#egw-eimi"
+      },
+      {
+        "ref": "Titus.1.2",
+        "key_terms": [
+          {
+            "strong": "G0893",
+            "lemma": "ἀψευδής"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1861",
+            "lemma": "ἐπαγγέλλομαι"
+          }
+        ],
+        "force": "ἐπ ἐλπίδι ζωῆς αἰωνίου, ἣν ἐπηγγείλατο ὁ ἀψευδὴς θεός. ἀψευδής is queried as a true hapax (one occurrence in the canon, Titus 1:2 only), formed with the alpha-privative on ψεῦδος, lie. As an attributive adjective it makes incapacity-to-lie an essential predicate of God. Because the term occurs only once, its sense is read off its transparent morphology and its near synonym field (ψεῦδος, ψευδής) rather than triangulated across occurrences. The promise's reliability is grounded in the speaker's nature: if God cannot lie, his recorded promise cannot deceive.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Titus.1.2#apseudes"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.22.32",
+        "to": "Exod.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.1.2",
+        "to": "Num.23.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Prov.30.5",
+        "to": "Ps.12.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.19.7",
+        "to": "Ps.93.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.119.160",
+        "to": "Ps.119.86",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.119.160",
+        "to": "Ps.119.75",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.19.7",
+        "to": "Ps.111.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.19.7",
+        "to": "Ps.18.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.17",
+        "to": "John.8.40",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Kgs.22.22-23",
+        "addressed": true,
+        "resolution": "YHWH sends a lying spirit (רוּחַ שֶׁקֶר) into Ahab's prophets. The text reports divine sovereignty over a deceptive prophetic agent, but the lemma שֶׁקֶר (queried at 102 occurrences) attaches to the spirit and the false prophets, never to YHWH's own דָּבָר. In the same chapter YHWH's word through Micaiah accurately predicts Ahab's death, so the truth predication on God's own speech is preserved while the falsehood is located in the agents."
+      },
+      {
+        "ref": "Ezek.14.9",
+        "addressed": true,
+        "resolution": "אֲנִי יְהוָה פִּתֵּיתִי, I YHWH have enticed that prophet. The piel of פתה here is judicial: God ratifies the chosen self-deception of an idolatrous inquirer and his complicit prophet. The genre is judgment oracle and the action falls on those who have already rejected YHWH's true word. The verse specifies that divine judgment may consist in confirming a chosen lie, with deceiver and inquirer both bearing guilt, and does not retract the non-deception predication of Num 23:19 or Titus 1:2."
+      },
+      {
+        "ref": "Jer.20.7",
+        "addressed": true,
+        "resolution": "פִּתִּיתַנִי יְהוָה וָאֶפָּת, you persuaded or enticed me, YHWH, and I was persuaded. The verb פתה carries an attested polysemy across persuade, entice, and deceive; in the prophetic complaint genre Jeremiah voices the subjective experience of overwhelming prophetic compulsion, paired in the next verse with fire in his bones. The lemma is shared with persuasion and seduction texts, so reading it as a charge of false content over-presses the lament register. The verse does not assert falsehood in YHWH's word."
+      },
+      {
+        "ref": "2Thess.2.11",
+        "addressed": true,
+        "resolution": "πέμπει αὐτοῖς ὁ θεὸς ἐνέργειαν πλάνης εἰς τὸ πιστεῦσαι αὐτοὺς τῷ ψεύδει. God sends an active power of delusion to those who refused to love the truth. The structure parallels Ezek 14:9: judicial ratification of chosen unbelief. The object of belief is τὸ ψεῦδος, the lie they preferred (ψεῦδος queried at 10 occurrences), not a divine utterance. The ἀψευδής predication of Titus 1:2 stands intact because the falsehood is the recipients' preference, not God's speech."
+      },
+      {
+        "ref": "Gen.2.17",
+        "addressed": true,
+        "resolution": "Sometimes raised as whether Adam died on the day he ate. The Hebrew uses the infinitive absolute construction מוֹת תָּמוּת, dying you shall die, and the phrase בְּיוֹם can function idiomatically as when rather than within a single calendar day. The narrative reports immediate rupture and expulsion and later physical death. The lexical particulars, the infinitive absolute and the idiomatic בְּיוֹם, leave the statement standing rather than falsified, so it does not count against the truthfulness predication."
+      },
+      {
+        "ref": "Deut.22.20",
+        "addressed": true,
+        "resolution": "Not a contradiction but a sense-disambiguating witness. Here אֱמֶת is used forensically of a factual matter, if the thing is אֱמֶת, that is, if it is factually so, paralleling Deut 17:4 and 1 Kgs 10:6. This confirms by query that the same אֱמֶת lemma predicated of God's word in Ps 119:160 carries a correspondence-to-fact sense and not only relational faithfulness, which is why the proposition can be read as factual truthfulness and not merely covenant loyalty. It is listed as complicating only in that it bears on the scope and sense question, and it resolves toward, not against, the verdict."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle reports not_in_ecm_scope true and supplied zero variant units for the cited verses. A direct query of the ingested ECM window (116 VariantUnit nodes, the 3 John 1.1 to 1.15 sample) confirmed that none of the anchor verses (John 17:17, John 10:35, Matt 22:29-32, Titus 1:2) fall within the ECM scope, so ecm_status is n/a rather than ecm-shadow. The load-bearing readings were checked against the queried Greek text: John 17:17 ὁ λόγος ὁ σὸς ἀλήθειά ἐστιν, John 10:35 οὐ δύναται λυθῆναι ἡ γραφή, Titus 1:2 ὁ ἀψευδὴς θεός, and Matt 22:32 Ἐγώ εἰμι are textually stable in the editions ingested. The Hebrew anchors rest on the Leningrad-based OSHB token stream. No variant materially affects the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "grammatico-historical",
+      "analogia-scripturae"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "truthfulness as moral faithfulness (אמן root, relational reliability)",
+        "verdict": "affirms",
+        "rationale": "Reads אֱמֶת, אֱמוּנָה, and the niphal of אמן primarily in their relational sense of firmness, trustworthiness, and covenant reliability, and ἀλήθεια as the dependable self-disclosure of God. On this lens the proposition is affirmed in its strongest form: God's word will not fail those who trust it, exactly as Prov 30:5 grounds refuge on the tested word. This reading is well supported lexically because the אמן family demonstrably carries the faithfulness sense in many queried occurrences."
+      },
+      {
+        "framework": "truthfulness as correspondence to fact (forensic and factual accuracy)",
+        "verdict": "affirms",
+        "rationale": "Reads the same אֱמֶת lemma in its attested forensic sense, the thing is true that is factually so, as queried in Deut 17:4, Deut 22:20, and 1 Kgs 10:6, and takes John 10:35 non-breakability plus Matt 22:32 reliance on a single verb tense as treating the wording as factually exact. On this lens the proposition is also affirmed, and additionally implies accuracy in what the text asserts as fact. The same lemma supports this reading, which is why both lenses land on affirm rather than dividing the verdict."
+      },
+      {
+        "framework": "scope of the predication (what all that it affirms covers)",
+        "verdict": "affirms with scope underdetermined",
+        "rationale": "The vocabulary predicates truth of God's word and uses כֹּל to universalize, but the words do not by themselves delimit whether the predication extends to incidental or peripheral detail or only to what the text intends to teach. כֹּל ranges over the body of God's utterances and commandments, not explicitly over every incidental datum. So the property is affirmed without contest, but the extent question is left open by the lexicon itself, which is the honest source of reader divergence on how far truthfulness reaches."
+      }
+    ],
+    "notes": "The verdict rests on a lexical convergence verified by direct query: predicate-nominative identification (John 17:17 anarthrous ἀλήθεια plus copula), modal impossibility (John 10:35 οὐ δύναται plus λυθῆναι), the universal quantifier כֹּל with the stable אמן-root predicate (Ps 119:160, Ps 111:7, Ps 119:86), the speech-purity metallurgy of צרף (Prov 30:5, Ps 12:6), an alpha-privative essential predicate hapax (Titus 1:2 ἀψευδής), and an argument from a single verbal tense (Matt 22:32). Analogia scripturae is invoked because the same lemma stems, the אמן family in Hebrew and the ἀληθ and ψευδ families in Greek, recur across canon sections without contradiction. Progressive revelation is false because the question concerns a stable property of Scripture, not a developing content. The three lenses above all affirm; they differ only on sense and scope, which is where readers diverge."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": "Are the writings (γραφαί and the Hebrew קְתוּבִים) reliable in what they assert, such that what they affirm corresponds to reality and does not fail?",
+    "notes": "The stem phrase in all that it affirms is a careful formulation that screens out non-assertions such as commands, questions, reported speech of others, and accommodated idiom, without smuggling a denominational distinctive. It does not pre-decide the scope question of whether truthfulness extends to peripheral historical or scientific detail, so the verdict here is on the proposition exactly as stated. The neutralized form reverts any technical-taxonomy connotations to a plain property predicate on the writings. The verdict is derived on the original stem and is affirmed."
+  },
+  "lay_summary": "Across both Testaments the Scriptures speak about themselves with consistent vocabulary, and a direct query of the canon confirms the pattern is dense and widespread rather than a few proof texts. In the Old Testament the Hebrew word emet (truth, firmness, reliability), which the query counts at over a hundred occurrences, is applied to God's word in Psalm 119:160, where the head or sum of your word is truth. The same psalm says all your commandments are faithfulness (Psalm 119:86), using the related word emunah, and Psalm 111:7 pairs emet with all his precepts. Proverbs 30:5 says every utterance of God is refined, a metal-smelting image of silver tested until the dross is gone, the same image as Psalm 12:6. Numbers 23:19 says God is not a man that he should lie. In the New Testament Jesus says in John 17:17 that your word is truth, and the Greek places truth in the predicate slot of the verb to be, which makes it an identification, not just a description. In John 10:35 he says Scripture cannot be broken, where the grammar (cannot plus a passive infinitive) states a flat impossibility, not a maybe. In Matthew 22:31-32 he settles a dispute about resurrection by leaning on the present tense of one verb in Exodus, treating even the exact form of the words as reliable. Paul in Titus 1:2 calls God apseudes, a word that occurs only once in the whole canon and is built to mean unable to lie, and rests the promise of eternal life on that fact. This stack runs through Torah, Wisdom, the Psalms, the Gospels, and a letter without contradiction, so the property that Scripture is true is affirmed strongly. Where readers diverge is not over whether Scripture is true but over two things the words leave open: the truth word itself can mean both moral faithfulness and factual accuracy, and the canon uses it in both senses, so people weigh those differently; and the phrase in all that it affirms does not by itself say how far the truthfulness reaches into incidental detail. The vocabulary settles the property and leaves the precise scope to be argued, which is exactly where honest readers part ways. Texts sometimes raised as problems, such as 1 Kings 22, Ezekiel 14:9, Jeremiah 20:7, and 2 Thessalonians 2:11, on inspection place the deceptive content in spirits, prophets, or people chosen for delusion in judgment, never in God's own speech, so they sit alongside the pattern rather than against it.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0571"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0530"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0565"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6884"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3576"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0225"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0893"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1124"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3056"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3089"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.119.160"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.111.7"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.30.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.23.19"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.12.6"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.93.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.119.86"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.22.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.17.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.10.35"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.32"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.17.17"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.10.35"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.22.32"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Titus.1.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.119.160"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Prov.30.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.22.32->Exod.3.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Titus.1.2->Num.23.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Prov.30.5->Ps.12.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ps.19.7->Ps.111.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ps.119.160->Ps.119.86"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The MACULA-Greek and MACULA-Hebrew composite slugs resolve to CC-BY-NC-4.0, which prohibits commercial redistribution. The verdict does not depend on these non-commercial sources alone. The lexical and morphological observations stand on STEPBible TBESH and TBESG (CC-BY-4.0), OSHB morphology (CC-BY-4.0), and MorphGNT morphology (CC-BY-SA-4.0), all redistributable, plus public domain TSK cross-references. A downstream publish step can strip the two MACULA interlinear citations and reaffirm the identical verdict on the redistributable subset."
+  },
+  "flags": []
+}

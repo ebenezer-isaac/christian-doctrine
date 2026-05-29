@@ -1,0 +1,506 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-supper-spiritual-communion",
+  "question_id": "doc-supper-spiritual-communion",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.825,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The lexicon firmly establishes a real participation in the body and blood of Christ at the Supper, but it does not by itself fix the MODE of that participation, which is what the stem specifies. In 1 Cor 10:16 koinonia (G2842) stands twice as predicate nominative with estin, governing an objective genitive (a participation of the blood, of the body of Christ), and the ouchi questions expect yes. Verses 17 to 21 reinforce this with metecho (G3348, we all partake) and koinonos (G2844, fellow partakers of the altar, of demons), so the sharing is objective and exclusive, which excludes a bare recollection model. John 6 pairs phago and trogo (G5176, a common eating verb, only six occurrences, two of them ordinary meals in Matt 24:38 and John 13:18) with meno (abides, mutual indwelling). The disputed point is that koinonia is canonically polysemous: with meta plus a person it means interpersonal fellowship (1 John 1:3), with a genitive of thing it means participation in that thing, and John 6:63 (the Spirit gives life, the flesh profits nothing) is grammatically ambiguous as to whether sarx denotes Christ's flesh or merely the carnal mode of understanding. The words secure participation but leave spiritual, by faith, and risen underdetermined, so the proposition is materially contested."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2844",
+        "lemma": "κοινωνός",
+        "transliteration": "koinonos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3348",
+        "lemma": "μετέχω",
+        "transliteration": "metecho",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5176",
+        "lemma": "τρώγω",
+        "transliteration": "trogo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5315",
+        "lemma": "ἐσθίω",
+        "transliteration": "esthio",
+        "occurrences_in_canon": 97,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4095",
+        "lemma": "πίνω",
+        "transliteration": "pino",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0740",
+        "lemma": "ἄρτος",
+        "transliteration": "artos",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3306",
+        "lemma": "μένω",
+        "transliteration": "meno",
+        "occurrences_in_canon": 118,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2842",
+      "G2844",
+      "G3348",
+      "G5176",
+      "G5315",
+      "G4095",
+      "G4561",
+      "G2222",
+      "G4983",
+      "G0740",
+      "G3306",
+      "G4151",
+      "G1035",
+      "G0227",
+      "G0230"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.10.16",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "The cup is named the koinonia (a participation, sharing, or fellowship) of the blood of Christ and the broken bread the koinonia of the body of Christ. In the morphology koinonia stands twice as nominative singular feminine predicate with estin (present active indicative), governing an objective genitive (of the blood, of the body), so the elements ARE a participation in what they signify. The two ouchi (G3780) interrogative particles expect an emphatic yes. The noun establishes real participation, not bare recollection, but by itself it does not specify the mode of that participation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.17",
+        "key_terms": [
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          },
+          {
+            "strong": "G3348",
+            "lemma": "μετέχω"
+          }
+        ],
+        "force": "Because there is one bread, the many are one body, for all partake (metechomen, G3348, present active indicative first plural) of the one bread. The verb metecho means to share in or partake of, and here it ties the act to corporate union with Christ and with one another, framing the meal as a sharing in rather than a mere memorial of.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.18",
+        "key_terms": [
+          {
+            "strong": "G2844",
+            "lemma": "κοινωνός"
+          },
+          {
+            "strong": "G5315",
+            "lemma": "ἐσθίω"
+          }
+        ],
+        "force": "Those eating (esthiontes) the sacrifices are koinonoi (G2844, fellow partakers, sharers) of the altar. Paul argues by direct analogy: the altar eaters share objectively in the altar, just as in 10:20 to 21 the pagans become koinonoi of demons and cannot also partake (metechein) of the Lord's table. This parallel shows the koinonia of 10:16 is real and consequential participation, which forecloses a purely commemorative reading, though it still does not fix the participation as spiritual, corporeal, or merely communal.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.54",
+        "key_terms": [
+          {
+            "strong": "G5176",
+            "lemma": "τρώγω"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          }
+        ],
+        "force": "The one eating (trogo, G5176, present active participle, durative aspect) my flesh and drinking my blood has eternal life and will be raised at the last day. The present participle marks ongoing action and the result clause ties the eating to possession of eternal life. The verb trogo is concrete, but it carries no technical sacramental sense: of its six canonical occurrences two are ordinary eating (Matt 24:38, John 13:18), and John 6:53 uses the common verb phago for the same act, so the verb signals durative eating, not a particular physical mode.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.56",
+        "key_terms": [
+          {
+            "strong": "G5176",
+            "lemma": "τρώγω"
+          },
+          {
+            "strong": "G3306",
+            "lemma": "μένω"
+          }
+        ],
+        "force": "The one eating my flesh and drinking my blood abides (menei, G3306, present active indicative) in me and I in him. The reciprocal en emoi, kago en auto formula makes the eating a means of mutual abiding union, language that elsewhere in John (14:20, 15:4) and 1 John (3:24) marks Spirit-wrought indwelling, which supports a participatory rather than a purely commemorative construal.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.57",
+        "key_terms": [
+          {
+            "strong": "G5176",
+            "lemma": "τρώγω"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          }
+        ],
+        "force": "Just as the living Father sent me and I live (zo) because of the Father, so the one eating (trogo) me will live (zesei) because of me. The grammar builds a chain of living relation, Father to Son to eater, with dia plus the accusative marking the ground of life. The life flows by a personal, relational dependence, which fits an animating union but does not by itself specify the physical mode of the eating.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.63",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          }
+        ],
+        "force": "The Spirit is the one giving life (to pneuma estin to zoopoioun), the flesh profits nothing (he sarx ouk ophelei ouden), the words I have spoken to you are spirit and they are life. This is the load-bearing disambiguator and it is genuinely ambiguous in the grammar: he sarx is the same noun (G4561) used for my flesh in 6:51 to 56, so it can be read as ruling out a fleshly mode of eating entirely, OR as the principle of merely natural, carnal apprehension, in which case it rules out only a crassly literal flesh-eating. The lexicon alone cannot decide which referent sarx carries here.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.1.3",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          }
+        ],
+        "force": "Koinonia here is construed with meta plus persons: fellowship WITH us, and our fellowship is WITH the Father and WITH the Son Jesus Christ. This is the strongest interpersonal-relational sense of the same noun used in 1 Cor 10:16, and the grammatical contrast is decisive for the dispute: koinonia plus meta plus a person denotes fellowship with that person, while koinonia plus a genitive of thing (1 Cor 10:16) denotes participation in that thing. The one word carries both lanes, which is why readers diverge.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.10.16",
+        "to": "Matt.26.26",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "Acts.2.42",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.11.23",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1John.1.3",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.10.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.10.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.56",
+        "to": "1John.3.24",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "John.6.56",
+        "to": "John.15.4",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "John.6.56",
+        "to": "John.14.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "Gal.5.25",
+        "source": "openbible",
+        "votes": 60
+      },
+      {
+        "from": "John.6.63",
+        "to": "Heb.4.12",
+        "source": "openbible",
+        "votes": 60
+      },
+      {
+        "from": "John.6.63",
+        "to": "John.6.68",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.54",
+        "to": "John.6.27",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.6.63",
+        "addressed": true,
+        "resolution": "The clause the flesh profits nothing, with the Spirit as the life-giver and the words named spirit and life, blocks a crassly literal flesh-eating reading and points reception toward the Spirit and the word. But the referent of he sarx is grammatically open: it is the same noun used for Christ's flesh earlier in the discourse, so it can negate a fleshly mode altogether or only a carnal mode of understanding. The lexicon does not adjudicate between a spiritual-feeding-by-faith model and other participatory models, which is why the verdict is disputed rather than affirmed."
+      },
+      {
+        "ref": "John.6.58",
+        "addressed": true,
+        "resolution": "The manna contrast (the fathers ate and died, the one eating this bread lives forever) frames the eating eschatologically and christologically rather than as a bare ritual recollection, supporting genuine participation. It does not specify whether the participation is the Supper rite specifically or faith-union with Christ broadly, so it neither confirms nor denies the precise stem qualifiers."
+      },
+      {
+        "ref": "1John.1.3",
+        "addressed": true,
+        "resolution": "This verse displays koinonia in its strongest interpersonal sense (fellowship with the Father and the Son, with meta plus a person), which legitimately supplies the memorial and communal lens a canonical reading in which koinonia in 1 Cor 10:16 could lean toward fellowship rather than participation in a substance. It is unresolved at the lexical level because the genitive construction in 1 Cor 10:16 differs grammatically from the meta construction here, so the canon supplies two attested syntaxes of the same word that the bare vocabulary does not rank."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "John.6.55",
+        "variant_id": "Jhn6.55-alethes-alethos",
+        "verdict_impact": "none",
+        "note": "The critical text reads alethes (G0227, adjective, my flesh is TRUE food, true drink) while TR and Byz read alethos (G0230, adverb, truly food). This is recorded in the TAGNT meaning_variants for both occurrences. The choice shifts emphasis slightly but does not touch the participation vocabulary (koinonia, trogo, meno), so the verdict is unaffected."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "All anchor verses fall in John 6 and 1 Cor 10, outside the ingested CBGM 3 John sample, and a direct query for VariantUnit nodes on these refs returned none, so not_in_ecm_scope holds. The only attested variant on the anchors is the John 6:55 alethes versus alethos reading, which is immaterial to the participation question. The verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "spiritual_presence",
+      "memorialism",
+      "corporeal_real_presence"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "spiritual_presence",
+        "verdict": "affirms",
+        "rationale": "Takes koinonia plus genitive in 1 Cor 10:16 as real participation in the blood and body, reads the abiding union of John 6:56 as Spirit-wrought, and reads John 6:63 as locating that participation in the Spirit and the word. On this reading the believer truly feeds on the risen Christ by faith, so the act is genuinely more than memory yet not a bodily ingestion."
+      },
+      {
+        "framework": "memorialism",
+        "verdict": "complicates",
+        "rationale": "Notes that koinonia elsewhere (1 John 1:3, with meta plus a person) means interpersonal fellowship and that 1 Cor 10:17 stresses the many being one body, so reads the cup and bread as a shared covenant sign that joins believers to Christ and one another by remembrance and faith. It reads John 6:63 (the flesh profits nothing) and the pre-institution discourse setting as making the eating a figure for believing, so it denies that the words require participation in any substance."
+      },
+      {
+        "framework": "corporeal_real_presence",
+        "verdict": "complicates",
+        "rationale": "Takes the objective genitive koinonia of the body, the concrete present participle trogo (eating, gnawing), the warning of unworthy eating elsewhere, and the parallel with literal altar sacrifices in 10:18 to 21 as pointing to a bodily reception of Christ in the elements that exceeds the qualifier spiritual. It affirms real participation but contests by faith and spiritual as too thin to capture what the vocabulary of eating and the body allows."
+      }
+    ],
+    "notes": "The lexical data anchors genuine participation (koinonia, koinonos, metecho, trogo, meno) and the altar analogy in 10:18 to 21 forecloses pure recollection. But the precise stem qualifiers (spiritual, risen, by faith, not bare memorialism) sit exactly where three frameworks diverge, because koinonia is canonically polysemous (participation in a thing versus fellowship with a person) and the referent of sarx in John 6:63 is grammatically open. The analogia scripturae therefore yields a contested rather than a single reading."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The Lord's Supper involves the participant's sharing in the body and blood of Christ; describe what manner of participation, if any, the New Testament vocabulary specifies.",
+    "notes": "The stem is verdict-preloaded in two ways. First, distinguishing the position from bare Zwinglian memorialism names a tradition-specific category and sets up the desired contrast in advance. Second, spiritual communion with the risen Christ by faith pre-selects one mode of participation. The neutralized form strips both the named tradition and the pre-chosen mode and asks what the lexicon actually fixes. The verdict was derived against the original stem, which is why affirms is disputed: the lexicon establishes participation but not the specified mode. Verdict unchanged from the prior file (still disputed, medium); direct queries confirmed the koinonia count of 19, corrected trogo from 8 to 6 occurrences, and added the 1 Cor 10:18 to 21 altar parallel and the koinonia plus meta versus koinonia plus genitive contrast as the precise lexical root-cause."
+  },
+  "lay_summary": "The plain wording of these passages supports a real sharing in Christ at the Lord's table, not just a mental memory. In 1 Corinthians 10:16 Paul calls the cup the koinonia of the blood of Christ and the broken bread the koinonia of the body of Christ. The grammar makes the cup and bread a participation in what they signify, and the very next verses press the point: all of us partake (metecho) of the one loaf, and those who eat sacrifices are partakers (koinonos) of the altar, just as pagans who eat at idol feasts become partakers with demons. Because you cannot share both the Lord's table and the demons' table, the sharing is real and has consequences, which rules out a bare recollection. The John 6 discourse uses ordinary eating verbs and the vivid present-tense word trogo, meaning to keep eating or feeding, and says the one who eats and drinks has eternal life and abides in Christ while Christ abides in him. That reaches past simple remembering toward a living union. Here, though, the words hit their limit. The same word koinonia is used elsewhere, in 1 John 1:3, to mean fellowship WITH the Father and the Son, that is, a relationship between persons, while in 1 Corinthians 10:16 it is participation IN a thing, the blood and body. One word carries both lanes, and the grammar does not rank them. On top of that, John 6:63 says the Spirit gives life and the flesh profits nothing, but the word flesh there can mean either Christ's flesh, ruling out a bodily eating, or the merely natural way of understanding, ruling out only a crude literal chewing. Because the vocabulary secures participation but leaves the exact manner open, careful readers reach a feeding-by-the-Spirit view, a remembrance-and-fellowship view, or a bodily-reception view from the same words. For that reason the verdict is recorded as disputed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2842"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.10.18"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.54"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.63"
+    },
+    {
+      "type": "variant",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.55"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.6.56"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.6.56"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed"
+  ]
+}

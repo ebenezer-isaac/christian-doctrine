@@ -1,0 +1,504 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-presbyterian-polity-position",
+  "question_id": "doc-presbyterian-polity-position",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7375,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Two pieces of the proposition have genuine lexical footing and two do not. Rule by a plurality of elders is attested: presbyteros is plural and appointed congregation by congregation (Acts 14:23 kat ekklesian, Titus 1:5, Acts 20:17), and 1 Tim 5:17 speaks of elders who rule well (kalos proestotes) with a subset laboring in word and teaching. Trans-local action is attested in Acts 15, where Antioch sends to the apostles and elders at Jerusalem, the body gathers (synago), and it seems good (dokeo) to issue a letter to Gentile churches. But the two pillars of the graded-court reading are lexically thin. The ruling verb proistemi (8 occurrences) is polysemous, ranging from governing (1 Thess 5:12) through managing a household (1 Tim 3:4-5,12) to merely devoting oneself to good works (Titus 3:8,14), so it does not by itself erect a ruling office. The collective noun presbyterion occurs 3 times, and 2 of those (Luke 22:66, Acts 22:5) denote the Jewish Sanhedrin, leaving only 1 Tim 4:14 for a Christian body of elders acting together. Standing graded courts, a session-presbytery-assembly chain, and a teaching-versus-ruling two-office split are never named, and the evaluative tail about over-institutionalisation is not a lexical datum. The affirmable core and the unattested superstructure pull apart, so the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4245",
+        "lemma": "πρεσβύτερος",
+        "transliteration": "presbyteros",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4291",
+        "lemma": "προΐστημι",
+        "transliteration": "proistēmi",
+        "occurrences_in_canon": 8,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4244",
+        "lemma": "πρεσβυτέριον",
+        "transliteration": "presbyterion",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1380",
+        "lemma": "δοκέω",
+        "transliteration": "dokeō",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4863",
+        "lemma": "συνάγω",
+        "transliteration": "synagō",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklēsia",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4850",
+        "lemma": "συμπρεσβύτερος",
+        "transliteration": "sympresbyteros",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4245",
+      "G4291",
+      "G4244",
+      "G1380",
+      "G4863",
+      "G1577",
+      "G0652",
+      "G4850",
+      "G2233",
+      "G1985",
+      "G1299",
+      "G4892"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.14.23",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul and Barnabas appointed elders for them in each church (πρεσβυτέρους κατ ἐκκλησίαν). The plural object and the distributive κατ ἐκκλησίαν locate a plurality of elders within each local congregation. This grounds elder-rule by a plurality but ties the office to the single assembly, not to a higher grade above it.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1299",
+            "lemma": "διατάσσω"
+          }
+        ],
+        "force": "Titus is left to appoint elders city by city (πρεσβυτέρους κατὰ πόλιν), reproducing the Acts 14:23 distributive pattern with the plural noun. The appointing is delegated and per-locale, which supports plural local eldership and is neutral toward, but does not erect, a standing court over multiple cities.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.17",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G4291",
+            "lemma": "προΐστημι"
+          }
+        ],
+        "force": "Let the elders who rule well (οἱ καλῶς προεστῶτες πρεσβύτεροι) be counted worthy of double honour, especially those who labour in word and teaching. The verb προΐστημι attributes governing to elders, the strongest single text for elder-rule. The μάλιστα clause marks a subset who labour in teaching, which can be read as degrees of labour within one plural body rather than two constitutional offices, so the verse supports elder-rule but does not by itself split a teaching elder from a ruling elder.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.4",
+        "key_terms": [
+          {
+            "strong": "G4291",
+            "lemma": "προΐστημι"
+          }
+        ],
+        "force": "An overseer must be one who manages his own household well (τοῦ ἰδίου οἴκου καλῶς προϊστάμενον). The same verb προΐστημι here governs a household, not a church court. This is the polysemy datum: the ruling verb carries a household-management sense alongside any governing sense, so προΐστημι alone cannot establish a graded ecclesiastical office.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.8",
+        "key_terms": [
+          {
+            "strong": "G4291",
+            "lemma": "προΐστημι"
+          }
+        ],
+        "force": "Those who have believed should be careful to devote themselves to good works (προΐστασθαι καλῶν ἔργων). Here προΐστημι means to attend to or maintain, with no governing sense at all. Across its 8 occurrences the verb spans governing, managing a household, and devoting oneself to a task, so its appearance in 1 Tim 5:17 does not lexically guarantee a ruling-office reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.4.14",
+        "key_terms": [
+          {
+            "strong": "G4244",
+            "lemma": "πρεσβυτέριον"
+          }
+        ],
+        "force": "Do not neglect the gift given you through prophecy with the laying on of hands of the body of elders (μετὰ ἐπιθέσεως τῶν χειρῶν τοῦ πρεσβυτερίου). This is the one occurrence where πρεσβυτέριον denotes a Christian eldership acting as a single corporate body, the lexical kernel for elders functioning together rather than singly. It describes a collective ordination act, not a standing graded court ranked above local assemblies.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.22.66",
+        "key_terms": [
+          {
+            "strong": "G4244",
+            "lemma": "πρεσβυτέριον"
+          },
+          {
+            "strong": "G4892",
+            "lemma": "συνέδριον"
+          }
+        ],
+        "force": "The body of elders of the people (τὸ πρεσβυτέριον τοῦ λαοῦ) gathered and led Jesus into their council (συνέδριον). Here πρεσβυτέριον names the Jewish Sanhedrin. Two of the three canon uses of the term (this and Acts 22:5) refer to that Jewish body, so the noun is not primarily a Christian church-order term, which thins its weight as a basis for a Christian graded court.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.2",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          }
+        ],
+        "force": "After no small dissension at Antioch the assembly appoints Paul, Barnabas, and certain others to go up to the apostles and elders (πρὸς τοὺς ἀποστόλους καὶ πρεσβυτέρους) at Jerusalem about this question. The verse establishes a deliberative referral from one local body to a recognised body in another city, the lexical kernel of any trans-local consultation reading.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.6",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G4863",
+            "lemma": "συνάγω"
+          }
+        ],
+        "force": "The apostles and the elders were gathered together (συνήχθησαν) to see about this matter. The verb συνάγω is the ordinary verb for assembling and is used elsewhere of crowds and synagogues; it describes a convened body for one question, not a permanent court with defined appellate grades. The convened body is apostles plus elders deliberating jointly.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.22",
+        "key_terms": [
+          {
+            "strong": "G1380",
+            "lemma": "δοκέω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Then it seemed good (ἔδοξε) to the apostles and the elders with the whole church (σὺν ὅλῃ τῇ ἐκκλησίᾳ) to send chosen men. The decision verb δοκέω is the ordinary verb for what seems good or right, used 63 times across the canon for human opinion, not a technical juridical term. The σύν phrase joins the whole congregation to the apostles and elders, which both supports a corporate conciliar reading and complicates a top-down graded-court reading in which only ordained officers decide.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.28",
+        "key_terms": [
+          {
+            "strong": "G1380",
+            "lemma": "δοκέω"
+          }
+        ],
+        "force": "It seemed good to the Holy Spirit and to us (ἔδοξεν τῷ πνεύματι τῷ ἁγίῳ καὶ ἡμῖν) to lay no greater burden. The council frames its conclusion as a Spirit-led judgment issued with trans-local force to Gentile congregations, yet it grounds the authority in the apostolic we, which is non-transferable, rather than in a perpetual institutional grade.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.17",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "From Miletus Paul sent to Ephesus and called the elders of the church (τοὺς πρεσβυτέρους τῆς ἐκκλησίας). A plurality of elders is tied to a single named church, again locating the office at the congregational level rather than constituting a court above it.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.1",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G4850",
+            "lemma": "συμπρεσβύτερος"
+          }
+        ],
+        "force": "Peter exhorts the elders as a fellow-elder (συμπρεσβύτερος), a hapax. The collegial συν prefix places the apostle alongside the elders rather than above them in a graded chain, which complicates a reading that grounds higher ruling grades in apostolic precedent.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4165",
+            "lemma": "ποιμαίνω"
+          },
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          }
+        ],
+        "force": "Shepherd the flock of God among you (τὸ ἐν ὑμῖν ποίμνιον), exercising oversight (ἐπισκοποῦντες). The flock is the local one among you, and the participle equates elder-work with overseeing. The terms πρεσβύτερος and the overseeing verb describe one function, not two graded offices, which complicates a teaching-elder versus ruling-elder taxonomy.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.15.2",
+        "to": "Acts.15.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.15.2",
+        "to": "Acts.15.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.15.6",
+        "to": "Acts.15.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.15.22",
+        "to": "Acts.15.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.17",
+        "to": "2Kgs.2.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Tim.3.4",
+        "addressed": true,
+        "resolution": "The ruling verb προΐστημι governs a household here and means to devote oneself in Titus 3:8, so across its 8 canon occurrences it is polysemous between governing, managing a home, and attending to a task. Because the one elder-rule text (1 Tim 5:17) uses this same verb, the verb cannot by itself establish a distinct ruling office or a graded court. This polysemy is weighed as a reason the graded-court superstructure is lexically underdetermined, so the verdict stays disputed."
+      },
+      {
+        "ref": "Luke.22.66",
+        "addressed": true,
+        "resolution": "πρεσβυτέριον denotes the Jewish Sanhedrin here and in Acts 22:5, leaving only 1 Tim 4:14 for a Christian body of elders. The collective-body sense applied to the church therefore rests on a single occurrence describing a joint laying on of hands, not on a recurring term for a standing graded assembly. The verdict treats this thin attestation as a reason a presbytery-as-court reading is not lexically forced."
+      },
+      {
+        "ref": "Acts.15.22",
+        "addressed": true,
+        "resolution": "The inclusion of the whole church (σὺν ὅλῃ τῇ ἐκκλησίᾳ) and the ordinary decision verb δοκέω show the Jerusalem deliberation was corporate and not framed in technical juridical language. This complicates a strict graded-court reading in which only ordained elders decide, and it equally undercuts the over-institutionalisation charge, so it pulls the verdict toward disputed rather than a clean affirm or deny."
+      },
+      {
+        "ref": "1Pet.5.1",
+        "addressed": true,
+        "resolution": "συμπρεσβύτερος presents apostolic authority as collegial with the eldership rather than as the apex of a graded chain. Since the proposition leans on Acts 15 apostolic precedent for higher courts, this collegial self-description weakens the inference from apostolic precedent to a perpetual ruling grade. It is addressed by noting the apostolic role in Acts 15 was unique and non-transferable, leaving the trans-local question genuinely open."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Acts, 1 Timothy, Titus, Luke, and 1 Peter all lie outside the published CBGM 3 John sample, so ECM status is treated as shadow and no loaded apparatus was examined. Standard apparatus marks minor readings in Acts 15 (for example word order in 15:7 and the article before πρεσβύτεροι at 15:23) and the omission of ἐπισκοποῦντες at 1 Pet 5:2, but none touches the presence of apostles and elders, the verbs δοκέω and συνάγω, the noun πρεσβυτέριον, or the verb προΐστημι on which the verdict turns, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "presbyterian_polity",
+      "congregational_polity",
+      "episcopal_polity"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "presbyterian_polity",
+        "verdict": "partial-support",
+        "rationale": "Reads 1 Tim 5:17 (elders who rule, προΐστημι) plus the plural presbyteros appointed per congregation, the collective πρεσβυτέριον acting together in 1 Tim 4:14, and Acts 15 as a trans-local assembly of elders binding member churches, taking these as the pattern for graded courts of teaching and ruling elders. At its strongest this lens has real lexical purchase: elder-rule, a corporate body of elders, and trans-local conciliar action are each attested. Its lexical limit is that προΐστημι is polysemous, πρεσβυτέριον as a Christian body occurs once, and standing appellate grades and the two-office split are never named."
+      },
+      {
+        "framework": "congregational_polity",
+        "verdict": "partial-support",
+        "rationale": "Reads κατ ἐκκλησίαν eldership (Acts 14:23, Titus 1:5, Acts 20:17), the flock among you (1 Pet 5:2), and the whole church included in the decision (Acts 15:22 σὺν ὅλῃ τῇ ἐκκλησίᾳ) as locating authority in each local assembly, treating Acts 15 as a one-time apostolic consultation rather than a perpetual court. At its strongest this lens shows the eldership consistently anchored to the single congregation and the congregation present in the great decision. Its lexical limit is that the same data does not forbid trans-local consultation, which Acts 15 plainly records."
+      },
+      {
+        "framework": "episcopal_polity",
+        "verdict": "neutral",
+        "rationale": "The single-function fusion of πρεσβύτερος and the overseeing verb in 1 Pet 5:1-2, and the collegial συμπρεσβύτερος, tell against a separate monarchical bishop grade as much as against a separate ruling-elder grade, so the cited corpus is neutral toward this lens. Its strongest lexical foothold is the delegate roles of Titus and Timothy appointing elders across cities, which the vocabulary leaves open between a permanent office and a temporary apostolic errand."
+      }
+    ],
+    "notes": "The verdict turns on whether Acts 15 plus 1 Tim 5:17 and 4:14 are read as institutional precedent for standing graded courts or as elder-rule and corporate elder-action that the words do not rank into a session-presbytery-assembly chain. Two attested patterns, local plural eldership and a single trans-local consultation, are present in the corpus, and the vocabulary does not subordinate one to the other, which is why competing lenses each gain partial purchase."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Rule by a plurality of elders and a single trans-local consultation among elders both have lexical footing in the New Testament, and the question is whether graded standing courts of distinct teaching and ruling elders, in a session, presbytery, and general assembly chain, and their effect on local-assembly authority, can be established from the text.",
+    "notes": "The original stem embeds an evaluative conclusion (tends toward over-institutionalisation and erodes local-assembly autonomy) and a specific institutional taxonomy (session, presbytery, general assembly, ruling versus teaching elders) that the lexicon cannot confirm or measure. The verdict was derived on the original stem, but the neutralized form isolates the parts the lexical store can actually address, namely the presence or absence of elder-rule, a corporate body of elders, trans-local consultation, and graded offices in the cited texts. Judged on the same lexical footing as the sibling congregational and episcopal polity questions, all three land disputed because the same small vocabulary band underdetermines the system each erects."
+  },
+  "lay_summary": "The lexical evidence gives a split picture, which is why this proposition lands as disputed. Part of it has real support in the words. The term for elder, presbyteros, is always plural and is appointed congregation by congregation in Acts 14:23 and Titus 1:5, and 1 Timothy 5:17 speaks of elders who rule well, using a verb that does mean to lead. Acts 15 plainly records a trans-local event: the church at Antioch sends men up to the apostles and elders at Jerusalem, that body gathers, and a letter goes out to Gentile congregations framed as seeming good to the Holy Spirit and to us. So elder-rule and a council that reaches beyond one congregation are both attested. The trouble is that the two pillars of the graded-court picture are lexically thin. The verb translated rule in 1 Timothy 5:17, proistemi, occurs only eight times, and across those eight it slides between governing a church, managing one's own household, and simply devoting oneself to good works, so the word alone cannot build a ruling office. The noun for a body of elders, presbyterion, occurs only three times, and two of those name the Jewish Sanhedrin that condemned Jesus, leaving just one verse where it means a Christian eldership acting together, and there it describes a joint laying on of hands, not a standing court. The decision verb in Acts 15 is the ordinary word for what seems good, not a legal term, and the whole church shares in the sending, which works against a closed court of officers. Nowhere do the words name a layered session, presbytery, and general assembly, nor do they separate a teaching elder from a ruling elder. The claim that such a system tends toward over-institutionalisation is a value judgment the words cannot weigh. Because the affirmable core and the unnamed superstructure pull apart, the honest lexical reading is that the proposition is materially contested.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4291"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4244"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.15.22"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.4.14"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.22.66"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.15.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "cross-tradition-divergent"
+  ]
+}

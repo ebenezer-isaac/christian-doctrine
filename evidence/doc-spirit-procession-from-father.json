@@ -1,0 +1,371 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-procession-from-father",
+  "question_id": "doc-spirit-procession-from-father",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.69,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "John 15:26 reads τὸ πνεῦμα τῆς ἀληθείας ὃ παρὰ τοῦ πατρὸς ἐκπορεύεται. The neuter relative ὃ agrees with τὸ πνεῦμα and makes the Spirit the subject of ἐκπορεύεται (G1607), tagged V-PNI-3S (present indicative third singular), with παρὰ τοῦ πατρός (G3844 preposition plus G3962 genitive of source) as its sole source phrase. STEPBible glosses the verb goes forth, proceeds, and its stable canon sense across 34 occurrences is to go out from a source, so the grammar plainly grounds the Spirit's procession in the Father. The verse separately uses a different verb for the Son, ὃν ἐγὼ πέμψω (G3992, future active), keeping sending distinct from procession. The proposition lands as supported. Confidence stays medium because the procession datum for the Spirit rests on this single clause, and the creedal qualifier eternally is a metaphysical category the present indicative does not itself encode."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1607",
+        "lemma": "ἐκπορεύομαι",
+        "transliteration": "ekporeuomai",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3844",
+        "lemma": "παρά",
+        "transliteration": "para",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "patēr",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3875",
+        "lemma": "παράκλητος",
+        "transliteration": "paraklētos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3992",
+        "lemma": "πέμπω",
+        "transliteration": "pempō",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1325",
+        "lemma": "δίδωμι",
+        "transliteration": "didōmi",
+        "occurrences_in_canon": 415,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3140",
+        "lemma": "μαρτυρέω",
+        "transliteration": "martyreō",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "alētheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1720",
+        "lemma": "ἐμφυσάω",
+        "transliteration": "emphysaō",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1607",
+      "G3844",
+      "G3962",
+      "G3875",
+      "G3992",
+      "G1325",
+      "G3140",
+      "G0225",
+      "G1720"
+    ],
+    "scripture": [
+      {
+        "ref": "John.15.26",
+        "key_terms": [
+          {
+            "strong": "G1607",
+            "lemma": "ἐκπορεύομαι"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          }
+        ],
+        "force": "The verse holds two parallel phrases that both read παρὰ τοῦ πατρός but attach to two different verbs. The first, ὃν ἐγὼ πέμψω ὑμῖν παρὰ τοῦ πατρός, has the future active πέμψω (G3992, V-FAI-1S) with ἐγώ, the Son, as subject. The second, τὸ πνεῦμα τῆς ἀληθείας ὃ παρὰ τοῦ πατρὸς ἐκπορεύεται, has ἐκπορεύεται (G1607, V-PNI-3S, present indicative third singular). The neuter singular relative ὃ agrees with τὸ πνεῦμα and fixes the Spirit as the subject of the procession verb. πατρός is N-GSM, a genitive of source governed by παρά, glossed from. The clause attaches παρὰ τοῦ πατρός to ἐκπορεύεται by adjacency, so the procession verb takes the Father alone as source. The two verbs separate sending, governed by the Son, from procession, governed by the Father.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.15.26"
+      },
+      {
+        "ref": "John.14.26",
+        "key_terms": [
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "ὁ δὲ παράκλητος τὸ πνεῦμα τὸ ἅγιον ὃ πέμψει ὁ πατὴρ ἐν τῷ ὀνόματί μου. The verb is πέμψει (G3992, V-FAI-3S, future active) and its subject is ὁ πατήρ (G3962, N-NSM, nominative). The Father is the agent of this sending. The Son's role enters through ἐν τῷ ὀνόματί μου, in my name, the relational basis of the mission rather than its source. This keeps the Father as the originating party in the Paraclete texts, consistent with the procession source in 15:26, while using a sending verb rather than the procession verb.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.14.26"
+      },
+      {
+        "ref": "John.16.7",
+        "key_terms": [
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          }
+        ],
+        "force": "ἐὰν δὲ πορευθῶ, πέμψω αὐτὸν πρὸς ὑμᾶς. The verb is πέμψω (G3992, V-FAI-1S, future active) with ἐγώ, the Son, as subject, a temporal sending of the Spirit to the disciples. This is the sending verb, lexically distinct from ἐκπορεύομαι. The evangelist using πέμπω here and ἐκπορεύομαι in 15:26 marks the very distinction the proposition rests on, between who sends in time and from whom the Spirit proceeds.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.16.7"
+      },
+      {
+        "ref": "John.14.16",
+        "key_terms": [
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "κἀγὼ ἐρωτήσω τὸν πατέρα καὶ ἄλλον παράκλητον δώσει ὑμῖν. The Son asks, ἐρωτήσω (G2065, V-FAI-1S), and the Father gives, δώσει (G1325, V-FAI-3S, future active), the other Paraclete. The agent of giving is the Father. This is a giving verb, again distinct from the procession verb, but it keeps the Father as the originating party of the Spirit, the same direction as the source phrase in 15:26.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.14.16"
+      },
+      {
+        "ref": "John.20.22",
+        "key_terms": [
+          {
+            "strong": "G1720",
+            "lemma": "ἐμφυσάω"
+          }
+        ],
+        "force": "ἐνεφύσησεν καὶ λέγει αὐτοῖς Λάβετε πνεῦμα ἅγιον. The verb is ἐνεφύσησεν (G1720, V-AAI-3S, aorist active), a single canon occurrence, with the Son breathing on the disciples in a post resurrection scene. The verb is not ἐκπορεύομαι and the scene is a temporal bestowal, not a procession statement. It would complicate a Father only frame only if the temporal bestowal verb were read as a procession verb, which the distinct vocabulary blocks.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.20.22"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.14.26",
+        "to": "John.6.45",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.14.26",
+        "to": "John.7.39",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.20.22",
+        "addressed": true,
+        "resolution": "The Son breathes the Spirit on the disciples using ἐμφυσάω (G1720), a hapax with one canon occurrence, in an aorist active form (V-AAI-3S) describing a post resurrection bestowal. This is a temporal act in the category of sending and giving, not a procession statement. The procession verb ἐκπορεύομαι is never used of this scene, so the lexical distinction established in 15:26 keeps 20:22 from contradicting procession from the Father. The verb being a hapax means its sense cannot be triangulated by repetition, but its aorist narrative use here is plainly a one time bestowal, not an origin claim."
+      },
+      {
+        "ref": "John.16.7",
+        "addressed": true,
+        "resolution": "The Son says πέμψω αὐτόν (G3992, future active first singular), using the sending verb with the Son as subject. This contrasts with ἐκπορεύεται παρὰ τοῦ πατρός in 15:26. Two distinct verbs encode two distinct relations, temporal sending by the Son and procession from the Father, so 16:7 does not overturn the procession grammar of 15:26."
+      },
+      {
+        "ref": "John.15.26",
+        "addressed": true,
+        "resolution": "The verse contains two phrases reading παρὰ τοῦ πατρός. One attaches to ἐγὼ πέμψω, the Son sending from the Father, and one attaches to ἐκπορεύεται, the Spirit proceeding from the Father. A reading that collapses both into one relation is possible only by ignoring the verb to which each phrase is adjacent. The second παρὰ τοῦ πατρός stands immediately before ἐκπορεύεται, and the neuter relative ὃ ties the procession clause to τὸ πνεῦμα, so the source phrase belongs to the procession verb. The clause boundaries keep the two predications distinct."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "John lies outside the open-cbgm 3 John sample, so no CBGM apparatus was queried. The STEPBible editions field on the anchor tokens shows ἐκπορεύεται at John 15:26 attested across NA28, NA27, Tyndale, SBL, Westcott-Hort, Tregelles, Textus Receptus, and Byzantine, with no spelling or meaning variant recorded. παρὰ τοῦ πατρός and the genitive πατρός are likewise uniform across those editions. The lexical anchors are therefore variant stable in the surveyed text tradition."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "trinitarian_lexical_grammar"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "procession-from-Father reading",
+        "verdict": "directly supported by ἐκπορεύεται plus παρὰ τοῦ πατρός in John 15:26",
+        "rationale": "The procession verb ἐκπορεύομαι, present indicative with the Spirit as subject, takes παρὰ τοῦ πατρός as its only source phrase. The verb form, the genitive of source, and the adjacency of the source phrase all attach procession to the Father. No clause in the canon attaches this verb with the Spirit as subject to any other source."
+      },
+      {
+        "framework": "procession-also-from-Son reading (filioque scope, not decided here)",
+        "verdict": "not attested or excluded by ἐκπορεύομαι itself; turns on synthesis with the sending and giving verbs",
+        "rationale": "The strongest lexical form of this reading notes that the Son sends the Spirit with πέμπω in 16:7 and breathes the Spirit with ἐμφυσάω in 20:22, and that 15:26 places the Son in the same verse as the source phrase. A reader can argue these texts imply a relation of origin that also includes the Son. The opposing observation is that the evangelist keeps ἐκπορεύομαι, the origin verb, lexically separate from πέμπω and ἐμφυσάω, the mission verbs, and never makes the Son the grammatical source of the procession verb. The vocabulary alone does not settle whether procession is also from the Son, which is a separate question this file does not decide. Both sides are recorded so neither is reduced to a strawman."
+      }
+    ],
+    "notes": "The proposition asks only about procession from the Father, which the grammar of John 15:26 supports plainly. The further question of whether procession is also from the Son is a distinct scope question the procession verb does not address by itself, and it is left undecided here rather than smuggled into this affirm."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "John 15:26 in Greek makes the Spirit the subject of the verb ἐκπορεύομαι, to go forth or proceed, and attaches παρὰ τοῦ πατρός, from the Father, as its source phrase.",
+    "notes": "The original stem adds the qualifier eternally and a creedal anchor of 381, which are metaphysical and historical categories beyond what the present indicative ἐκπορεύεται lexically encodes. The Greek verb tense is grammatical present, not a statement about timeless origin. The neutralized form keeps only the lexical claim, which verb, which preposition, which genitive source. The verdict is derived on the original stem and answers the lexical question that underlies it. Verdict unchanged from the prior file; the deepened query confirms the grammar rather than altering it."
+  },
+  "lay_summary": "John 15:26 in Greek says the Spirit of truth, who proceeds from the Father. The verb translated proceeds is ekporeuetai, tagged present indicative third singular, and across its 34 places in the New Testament it always means to go out or go forth from a source, used of people leaving a town, words coming out of the mouth, and a river flowing from the throne. Here the neuter relative pronoun ties this verb to the Spirit, and the only source phrase attached to it is para tou patros, from the Father, where Father stands in the genitive of source. So the grammar plainly grounds the Spirit going forth in the Father. The same verse uses a different verb for the Son, pempso, I will send, so sending and proceeding are kept apart by word choice. This pattern holds nearby. In John 14:16 the Son asks and the Father gives the Helper. In John 14:26 the Father sends the Spirit in the Son's name. In John 16:7 the Son sends the Spirit, again with the sending verb, not the procession verb. In John 20:22 the Son breathes on the disciples, a one time act described by a verb that occurs only once in the whole canon, which is a temporal giving, not an origin claim. Why does the verdict land as supported but not at the highest confidence? Because the actual procession statement for the Spirit rests on this one clause, so the words are clear but the canon does not repeat the claim, and because the creedal word eternally reaches beyond what a present tense verb by itself can say. The text affirms that the Spirit proceeds from the Father. Whether the Spirit also proceeds from the Son is a separate question the procession verb does not answer, since that verb never takes the Son as its source.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.15.26"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.16.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.20.22"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1607"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3992"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3844"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1720"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.15.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.14.26"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0 and is not redistributable for bulk use. The core morphological and grammatical anchoring of John 15:26 (ekporeuetai V-PNI-3S, patros N-GSM, para governing the genitive of source) is carried by the permissive STEPBible-TAGNT tagging, which is redistributable, but the MACULA-Greek syntactic-tree confirmation of the para tou patros attachment to ekporeuetai is retained as corroboration and triggers the non-redistributable flag."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

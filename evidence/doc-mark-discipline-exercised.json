@@ -1,0 +1,605 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-mark-discipline-exercised",
+  "question_id": "doc-mark-discipline-exercised",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern decisively establishes corrective discipline as a commanded, repeated practice of the gathered assembly. Matt 18:15-18 runs a graduated process: the aorist imperative ἔλεγξον (G1651, reprove), the two-or-three-witness rule drawn from Deuteronomy, escalation to εἰπὸν τῇ ἐκκλησίᾳ (G1577), and a treatment clause triggered by παρακούω (G3878). Paul reinforces it with hard imperatives: ἐξάρατε (G1808, remove) in 1 Cor 5:13 quoting the Deuteronomic purge, στέλλεσθαι (G4724, withdraw) in 2 Thess 3:6, and ἔλεγχε (G1651) in 1 Tim 5:20. So the practice is lexically secure. But the proposition asserts more, that this practice is a defining MARK of a true visible church, and that step is a systematic category (notae ecclesiae) the vocabulary does not supply. 1 Tim 3:15 calls the church pillar and support of the truth, not the church that disciplines, and Acts 2:42 lists devotion to teaching, fellowship, breaking of bread, and prayer with no disciplinary term. The words command discipline; framing it as a distinguishing mark is an inference the lexicon underdetermines, hence medium confidence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elenchō",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklēsia",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3878",
+        "lemma": "παρακούω",
+        "transliteration": "parakouō",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1210",
+        "lemma": "δέω",
+        "transliteration": "deō",
+        "occurrences_in_canon": 139,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "luō",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1808",
+        "lemma": "ἐξαίρω",
+        "transliteration": "exairō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidōmi",
+        "occurrences_in_canon": 125,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4724",
+        "lemma": "στέλλω",
+        "transliteration": "stellō",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4593",
+        "lemma": "σημειόω",
+        "transliteration": "sēmeioō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4874",
+        "lemma": "συναναμίγνυμι",
+        "transliteration": "synanamignumi",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3868",
+        "lemma": "παραιτέομαι",
+        "transliteration": "paraiteomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "nouthateō",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2675",
+        "lemma": "καταρτίζω",
+        "transliteration": "katartizō",
+        "occurrences_in_canon": 13,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1477",
+        "lemma": "ἑδραίωμα",
+        "transliteration": "hedraiōma",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1651",
+      "G1577",
+      "G3878",
+      "G1210",
+      "G3089",
+      "G1808",
+      "G3860",
+      "G4724",
+      "G4593",
+      "G4874",
+      "G3868",
+      "G3560",
+      "G2675",
+      "G1477",
+      "G1571",
+      "G0142",
+      "G0814",
+      "G0141",
+      "G0080",
+      "G4769"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.18.15",
+        "key_terms": [
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The conditional clause introduced by ἐάν, if your brother sins, governs the aorist active imperative ἔλεγξον (G1651, parsed V-AAM-2S in the store, gloss reprove), restricted to a private setting, between you and him alone. The verb brings fault to light for correction, and the stated aim, ἐκέρδησας, you have gained your brother, frames the action as restorative. Note the store tags this verb G1651, the verb ἐλέγχω, not G1650 (the noun ἔλεγξος).",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.16",
+        "key_terms": [
+          {
+            "strong": "G1417",
+            "lemma": "δύο"
+          },
+          {
+            "strong": "G5140",
+            "lemma": "τρεῖς"
+          }
+        ],
+        "force": "The escalation invokes the witness standard, ἐπὶ στόματος δύο μαρτύρων ἢ τριῶν, by which every word, πᾶν ῥῆμα, is established. The procedure is graduated and evidentiary, anchoring corrective action in an Old Testament juridical norm carried into the assembly setting. OpenBible links this verse to Deut 19:15 at 21 votes.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G3878",
+            "lemma": "παρακούω"
+          }
+        ],
+        "force": "The final escalation, εἰπὸν τῇ ἐκκλησίᾳ, tell it to the assembly, locates corrective authority in the gathered ἐκκλησία (G1577). The verb παρακούω (G3878, parsed V-AAS-3S), to refuse to hear, occurs only 3 times in the canon and marks the threshold for the treatment clause, ἔστω σοι ὥσπερ ὁ ἐθνικὸς καὶ ὁ τελώνης, let him be to you as the pagan (G1482) and the tax collector (G5057), a formal change of standing toward the unrepentant member.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.18",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          }
+        ],
+        "force": "The binding and loosing pair, δήσητε (G1210, V-AAS-2P) and λύσητε (G3089, V-AAS-2P) with their perfect-passive participle complements δεδεμένα and λελυμένα, grant the assembly a ratified authority over the standing of members. Both verbs are common in the canon but predominantly literal, to tie or to imprison, to untie or to release. The authoritative standing sense is local to Matt 16:19 and 18:18, so the disciplinary weight rides on context, not on a fixed lexical sense.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.13",
+        "key_terms": [
+          {
+            "strong": "G1808",
+            "lemma": "ἐξαίρω"
+          }
+        ],
+        "force": "The aorist active imperative ἐξάρατε (G1808, V-AAM-2P, gloss Expel), with τὸν πονηρὸν ἐξ ὑμῶν αὐτῶν, the evil one from among yourselves, is a direct command. The verb is a hapax in the New Testament, but it reproduces the recurrent LXX Deuteronomic purge formula, and OpenBible links this verse to Deut 17:7 at 21 votes, Deut 13:5 at 17, and Deut 21:21 at 12. The imperative mood and corporate scope establish discipline as an obligatory congregational act.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.5",
+        "key_terms": [
+          {
+            "strong": "G3860",
+            "lemma": "παραδίδωμι"
+          }
+        ],
+        "force": "The infinitive παραδοῦναι (G3860) τῷ Σατανᾷ, to deliver such a one to Satan εἰς ὄλεθρον τῆς σαρκός, for the destruction of the flesh, reads as the severest sanction, yet the purpose clause ἵνα τὸ πνεῦμα σωθῇ (G4982), that the spirit may be saved, ties even this to a restorative telos. The verb παραδίδωμι is common and elsewhere means hand over or betray, so the disciplinary force here comes from the prepositional object and the purpose clause, not the bare verb.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.6",
+        "key_terms": [
+          {
+            "strong": "G4724",
+            "lemma": "στέλλω"
+          },
+          {
+            "strong": "G0814",
+            "lemma": "ἀτάκτως"
+          }
+        ],
+        "force": "The verb Παραγγέλλομεν (G3853, we command) introduces the middle infinitive στέλλεσθαι (G4724, to withdraw) ἀπὸ παντὸς ἀδελφοῦ ἀτάκτως περιπατοῦντος, from every brother walking disorderly (G0814). στέλλω occurs only 3 times and only here carries the withdraw from a brother sense, so the disciplinary force depends on this context and on the explicit command verb.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.14",
+        "key_terms": [
+          {
+            "strong": "G4593",
+            "lemma": "σημειόω"
+          },
+          {
+            "strong": "G4874",
+            "lemma": "συναναμίγνυμι"
+          }
+        ],
+        "force": "The present middle imperatives σημειοῦσθε (G4593, a hapax, take note of that one) and μὴ συναναμίγνυσθαι (G4874, do not associate, the same verb used twice in 1 Cor 5) prescribe a marking and a withdrawal of ordinary fellowship aimed at producing shame, ἵνα ἐντραπῇ (G1788). The disciplinary intent is corrective, applied to one who does not obey, ὑπακούει (G5219), the apostolic word.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.15",
+        "key_terms": [
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The qualifying clause μὴ ὡς ἐχθρὸν (G2190) ἡγεῖσθε ἀλλὰ νουθετεῖτε ὡς ἀδελφόν, do not regard him as an enemy but admonish him as a brother, controls the preceding withdrawal. νουθετέω (G3560, 9 occurrences, pan-Pauline) keeps the disciplined person within the fraternal category, confirming that the canonical aim throughout is restoration rather than expulsion as an end.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.10",
+        "key_terms": [
+          {
+            "strong": "G3868",
+            "lemma": "παραιτέομαι"
+          },
+          {
+            "strong": "G0141",
+            "lemma": "αἱρετικός"
+          }
+        ],
+        "force": "A factious person, αἱρετικὸν ἄνθρωπον (G0141, a hapax), is to be rejected, παραιτοῦ (G3868), after one and a second admonition, νουθεσίαν (G3559). The verb παραιτέομαι has a broad range, to decline, excuse oneself, or refuse, attested 12 times mostly in non-disciplinary senses, so the exclusionary force here rests on the object and the after-two-warnings structure rather than on a fixed disciplinary sense of the verb.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.20",
+        "key_terms": [
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          }
+        ],
+        "force": "Those who persist in sin, τοὺς ἁμαρτάνοντας (G0264), are to be rebuked, ἔλεγχε (G1651, V-PAM-2S), before all, ἐνώπιον πάντων, so the rest may have fear. This is the same verb ἐλέγχω that opens the Matt 18 process, here in a public-rebuke setting, which ties the Gospel procedure and the Pauline order into one coherent corrective vocabulary across the canon.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.15",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G1477",
+            "lemma": "ἑδραίωμα"
+          }
+        ],
+        "force": "The descriptor ἐκκλησία θεοῦ ζῶντος, στῦλος (G4769) καὶ ἑδραίωμα (G1477, a hapax) τῆς ἀληθείας (G0225), the church of the living God, pillar and support of the truth, defines the assembly by its function of upholding truth. Crucially, the predicate is upholding truth, not exercising discipline, so this verse supplies the conceptual home for a church identity but does not itself name discipline as a distinguishing mark.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          }
+        ],
+        "force": "The summary of the early assembly lists devotion, προσκαρτεροῦντες (G4342), to the apostles teaching, διδαχῇ (G1322), the fellowship, κοινωνίᾳ (G2842), the breaking of bread, and the prayers. It contains no disciplinary vocabulary at all, which shows that the texts adduced as marks of a true church describe its devotion and ordered life, while the disciplinary content is drawn from the separate Matt 18, 1 Cor 5, and 2 Thess 3 imperatives.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.18.15",
+        "to": "Lev.19.17",
+        "source": "openbible",
+        "votes": 45
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Luke.17.3",
+        "source": "openbible",
+        "votes": 30
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Gal.6.1",
+        "source": "openbible",
+        "votes": 32
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "2Thess.3.15",
+        "source": "openbible",
+        "votes": 28
+      },
+      {
+        "from": "Matt.18.16",
+        "to": "Deut.19.15",
+        "source": "openbible",
+        "votes": 21
+      },
+      {
+        "from": "Matt.18.16",
+        "to": "Num.35.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "1Cor.5.9",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "2Thess.3.14",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "Deut.17.7",
+        "source": "openbible",
+        "votes": 21
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "Deut.13.5",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "Deut.21.21",
+        "source": "openbible",
+        "votes": 12
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.13.30",
+        "addressed": true,
+        "resolution": "The parable of the wheat and tares, with its command ἄφετε συναυξάνεσθαι, let both grow together until the harvest (note δέω, G1210, appears here only in the literal sense bind in bundles), has been read as restraining the assembly from removing offenders. The scope is reconciled by the parable's own gloss, ὁ ἀγρός ἐστιν ὁ κόσμος, the field is the world, not the assembly, so it speaks to final eschatological separation rather than to the present corrective duty of the ἐκκλησία addressed in Matt 18 and 1 Cor 5."
+      },
+      {
+        "ref": "1Cor.5.5",
+        "addressed": true,
+        "resolution": "The clause παραδοῦναι τῷ Σατανᾷ εἰς ὄλεθρον τῆς σαρκός, deliver such a one to Satan for the destruction of the flesh, could be read as purely punitive, but the purpose clause ἵνα τὸ πνεῦμα σωθῇ, that the spirit may be saved, ties even the severest action to a restorative telos, consistent with the νουθετέω aim in 2 Thess 3:15 and the καταρτίζω restoration in Gal 6:1."
+      },
+      {
+        "ref": "1Tim.3.15",
+        "addressed": true,
+        "resolution": "This is the closest text to a definition of the church, yet its predicate is στῦλος καὶ ἑδραίωμα τῆς ἀληθείας, pillar and support of the truth, not the exercise of discipline. It is addressed but cannot be resolved into lexical support for the specific mark claim, because the vocabulary defines the church by its relation to truth and does not list discipline among distinguishing marks. This is the residual gap that holds the verdict at medium confidence."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle and the cited passages lie outside published ECM scope (the ingested ECM window is 3 John only). The well-known textual question at Matt 18:15, whether εἰς σὲ, against you, is original, does not bear on the disciplinary procedure, which stands in all readings. The minor article and pronoun variants visible in the MACULA tokens for Matt 18:17-18 do not touch the commanded verbs. Verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "marks_of_the_church_taxonomy"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "discipline_as_constitutive_mark",
+        "verdict": "affirms",
+        "rationale": "Reads the imperatives of Matt 18 and 1 Cor 5 together with the 1 Tim 3:15 description of the church as pillar of the truth, concluding that an assembly that upholds truth must by necessity guard its membership through discipline, so faithful discipline is not merely commanded but is a defining feature that distinguishes a genuine ordered assembly. On this reading the binding-and-loosing authority granted to the ἐκκλησία makes discipline constitutive of what a church is."
+      },
+      {
+        "framework": "discipline_as_commanded_practice_not_a_mark",
+        "verdict": "disputed",
+        "rationale": "Grants every imperative in full force but observes that no text predicates discipline as a distinguishing mark. The church-defining texts, 1 Tim 3:15 and Acts 2:42, name truth, teaching, fellowship, breaking of bread, and prayer, never discipline. On this reading discipline is a binding duty that follows from being a church, but elevating it to one of the marks that separate true from false churches is a later systematic synthesis the words do not themselves rank, so the specific proposition is underdetermined."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the assembly binding and loosing as continuous with the witness and purge norms of the older covenant law (Lev 19:17, Deut 17:7, Deut 19:15, all cross-linked at high vote counts), so the imperatives of Matt 18 and 1 Cor 5 establish discipline as a standing ordinance of the covenant community and thus a constitutive feature."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Treats Matt 18 and the Pauline imperatives as church-age instructions for the local assembly, affirming the practice as commanded for the present economy while locating the binding-and-loosing language within ecclesial rather than national-Israel administration."
+      }
+    ],
+    "notes": "The lexical data delivers the imperatival force of discipline directly and pan-canonically. The step from commanded practice to defining mark of a true visible church is a systematic inference. The two ecclesiology lenses above diverge precisely there, not over whether discipline is commanded (both grant it) but over whether the words rank it as a distinguishing mark, which is a category external to the lexicon."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture commands the gathered assembly to exercise corrective discipline toward unrepentant sinning members, and the question is whether faithful exercise of that discipline distinguishes a genuine assembly from a counterfeit one.",
+    "notes": "The phrase mark of a true visible church imports the notae ecclesiae frame, a systematic category for distinguishing genuine from false churches. The neutralized form separates the lexically demonstrable claim, that discipline is commanded and practiced, from the inferential claim that it functions as a distinguishing mark. The verdict is derived on the original stem. Affirms remains true and unchanged from the prior file. One lexical correction was made during enrichment that does not flip the verdict: the reprove verb in Matt 18:15 and 1 Tim 5:20 is tagged G1651, the verb ἐλέγχω, in the store, whereas the prior file listed G1650, which the store resolves to the noun ἔλεγξος. The corrected verb is robust, 19 occurrences, pan-canonical."
+  },
+  "lay_summary": "The words in these passages give a clear and repeated command for the gathered assembly to deal with a member who sins and will not turn back. In Matthew 18 the steps are spelled out: first reprove the brother privately, the verb meaning to bring a fault to light, then bring one or two witnesses following the older rule of two or three witnesses, and finally tell it to the assembly. A rare verb for refusing to hear marks the point where the unrepentant person is treated as an outsider. The binding and loosing language gives the assembly a ratified authority. Paul presses the same duty with hard commands: remove the evil one from among yourselves in First Corinthians five, which directly echoes the repeated Old Testament call to purge evil from the community, withdraw from the disorderly brother in Second Thessalonians three, and rebuke persistent sinners before all in First Timothy five, using the very verb that opens the Matthew process. Throughout, the aim is to restore, not to destroy, since the goals stated are to gain the brother, to save the spirit, and to admonish him as a brother rather than treat him as an enemy. So at the level of the words, the command to discipline is decisive and spread across the Gospel, the letters, and the older law. Where readers diverge is one step further on. The claim here is not just that discipline is commanded but that faithful discipline is a defining mark that separates a true church from a false one. The words do not say that. The verse that comes closest to defining the church, First Timothy three fifteen, calls it the pillar and support of the truth, and the early summary in Acts two forty two lists teaching, fellowship, breaking of bread, and prayer, with no disciplinary term at all. So discipline is plainly a duty that belongs to a church, but ranking it as one of the identifying marks is a further systematic step the vocabulary alone does not settle. For that reason the verdict affirms the proposition but with measured rather than full confidence, and the stem is flagged because the phrase mark of a true visible church carries a loaded frame.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.18.15"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Thess.3.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1651"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1808"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3878"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.18.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.18.16"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.18.18"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek (CC-BY-NC-4.0), which forbids commercial redistribution. The token-level morphology, lemma, and Strong tagging used to ground the verb identifications was drawn from the MACULA-Greek layer in the lexical store, so it is cited honestly. Either drop the MACULA-Greek citation in favor of the STEPBible and MorphGNT morphology alone or restrict publication to non-commercial scholarly use."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

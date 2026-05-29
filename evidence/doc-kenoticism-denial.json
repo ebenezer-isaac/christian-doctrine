@@ -1,0 +1,528 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-kenoticism-denial",
+  "question_id": "doc-kenoticism-denial",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The whole question rides on one verb. The verb kenoo (G2758) occurs five times in the canon, and in the four uses outside Phil 2:7 it always means to make void, render of no effect, or nullify something abstract (Rom 4:14 faith made void, 1 Cor 1:17 the cross emptied of power, 1 Cor 9:15 a boast made void, 2 Cor 9:3 a boast made void). It is never used in the New Testament for pouring out a physical substance. So in Phil 2:7 ekenosen (aorist active) is metaphorical, and it takes heauton (himself, the reflexive accusative) as its direct object, not a list of divine attributes. The two participles that follow tell HOW he emptied himself, labon morphen doulou (having taken the form of a servant) and en homoiomati anthropon genomenos (having come to be in human likeness). Both are participles of addition, not subtraction. Col 2:9 then says with a present indicative katoikei that the whole fullness of deity (pan to pleroma tes theotetos) dwells in him bodily, and Heb 1:3 names the incarnate Son apaugasma tes doxes who is pheron ta panta (present active, sustaining all things). The lexical pattern is dense and pan-canonical, but the verdict honestly rests on construing one metaphorical verb by its own canon usage rather than on a literal sense the word does not carry."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2758",
+        "lemma": "κενόω",
+        "transliteration": "kenoo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1438",
+        "lemma": "ἑαυτοῦ",
+        "transliteration": "heautou",
+        "occurrences_in_canon": 331,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 271,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3444",
+        "lemma": "μορφή",
+        "transliteration": "morphe",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3667",
+        "lemma": "ὁμοίωμα",
+        "transliteration": "homoioma",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1401",
+        "lemma": "δοῦλος",
+        "transliteration": "doulos",
+        "occurrences_in_canon": 134,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2470",
+        "lemma": "ἴσος",
+        "transliteration": "isos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0725",
+        "lemma": "ἁρπαγμός",
+        "transliteration": "harpagmos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2320",
+        "lemma": "θεότης",
+        "transliteration": "theotes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2730",
+        "lemma": "κατοικέω",
+        "transliteration": "katoikeo",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0541",
+        "lemma": "ἀπαύγασμα",
+        "transliteration": "apaugasma",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1391",
+        "lemma": "δόξα",
+        "transliteration": "doxa",
+        "occurrences_in_canon": 170,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1411",
+        "lemma": "δύναμις",
+        "transliteration": "dynamis",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3439",
+        "lemma": "μονογενής",
+        "transliteration": "monogenes",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2758",
+      "G1438",
+      "G2983",
+      "G1096",
+      "G3444",
+      "G3667",
+      "G1401",
+      "G2470",
+      "G0725",
+      "G2320",
+      "G2730",
+      "G0541",
+      "G1391",
+      "G1411",
+      "G3439"
+    ],
+    "scripture": [
+      {
+        "ref": "Phil.2.6",
+        "key_terms": [
+          {
+            "strong": "G3444",
+            "lemma": "μορφή"
+          },
+          {
+            "strong": "G2470",
+            "lemma": "ἴσος"
+          },
+          {
+            "strong": "G0725",
+            "lemma": "ἁρπαγμός"
+          }
+        ],
+        "force": "Christ en morphe theou hyparchon, where hyparchon is a present active participle (durative, subsisting), did not regard to einai isa theo (the being equal with God) as harpagmon. The noun harpagmos is a true hapax (Phil 2:6 only), glossed something to be grasped, so its precise nuance cannot be triangulated from other canon uses. The adjective isos is stable across its 8 uses as equal, and at John 5:18 the same phrase ison heauton poion to theo describes the recognized claim of equality with God. Morphe theou and the to einai isa theo clause name the actual prior condition of deity that the passage presupposes He continues to possess.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.2.7",
+        "key_terms": [
+          {
+            "strong": "G2758",
+            "lemma": "κενόω"
+          },
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G3444",
+            "lemma": "μορφή"
+          },
+          {
+            "strong": "G3667",
+            "lemma": "ὁμοίωμα"
+          },
+          {
+            "strong": "G1401",
+            "lemma": "δοῦλος"
+          }
+        ],
+        "force": "Ekenosen is morphologically aorist active indicative third singular, and it takes heauton (reflexive accusative, himself) as its explicit object. No genitive or accusative of attributes is supplied as the content of the emptying. The two adverbial participles that immediately specify the act are labon (aorist active, having taken) morphen doulou and en homoiomati anthropon genomenos (aorist, having come to be in the likeness of men). Both are verbs of addition. The lexicon classes this very clause under the metaphorical sense make empty, alongside make void or of no effect, not under the literal pour out a substance sense. So the emptying is impoverishment by assuming servant form and human likeness, not divestment of deity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.9",
+        "key_terms": [
+          {
+            "strong": "G2320",
+            "lemma": "θεότης"
+          },
+          {
+            "strong": "G2730",
+            "lemma": "κατοικέω"
+          }
+        ],
+        "force": "Pan to pleroma tes theotetos katoikei en auto somatikos. The verb katoikei is present active indicative (durative, settled dwelling), pan to pleroma is universal quantifying (the whole fullness), theotetos is the abstract noun for deity itself and is a hapax (Col 2:9 only, glossed Deity), distinct from the quality noun theiotes, and somatikos (adverb, bodily) locates this fullness in the incarnate body. The present tense and the abstract essence noun together exclude any present subtraction of divine essence or attributes from the incarnate Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.14",
+        "key_terms": [
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          },
+          {
+            "strong": "G3439",
+            "lemma": "μονογενής"
+          }
+        ],
+        "force": "Ho logos sarx egeneto uses egeneto (aorist of ginomai, became) for the assumption of flesh, not an exchange or loss of natures. The clause that immediately follows, etheasametha ten doxan autou (we beheld his glory, aorist of theaomai), reports that eyewitnesses saw his glory as monogenous para patros during the incarnation. Glory of the only-begotten was visible in the enfleshed Logos, not surrendered.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.3",
+        "key_terms": [
+          {
+            "strong": "G0541",
+            "lemma": "ἀπαύγασμα"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          },
+          {
+            "strong": "G1411",
+            "lemma": "δύναμις"
+          }
+        ],
+        "force": "The Son is apaugasma tes doxes (radiance of the glory, apaugasma a hapax) and charakter tes hypostaseos autou (exact impress of his very being), and the participle pheron ta panta to rhemati tes dynameos autou is present active (upholding all things by the word of his power). The same subject who, having made katharismon ton hamartion, sat down, is the one presently sustaining the cosmos. Active omnipotence is therefore predicated of the incarnate Son, which a present surrender of divine power would contradict.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.14",
+        "to": "John.1.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.2.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.9",
+        "to": "Col.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.3",
+        "to": "Heb.4.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Phil.2.7",
+        "addressed": true,
+        "resolution": "The cited anchor itself is the strongest kenotic prooftext if ekenosen is read absolutely as poured out his deity. The grammar refuses that reading. The verb is transitive with heauton (himself) as its accusative object, and the manner participles labon and genomenos supply addition of servant form and human likeness as the content of the act. No word for any divine attribute is named as what was emptied out. The canon usage of kenoo (four other times meaning make void or of no effect) confirms the metaphorical sense over a literal divestment."
+      },
+      {
+        "ref": "Mark.13.32",
+        "addressed": true,
+        "resolution": "Oudeis oiden, oude ho huios (no one knows, not even the Son) the day or hour. This is predicated of the Son in his incarnate economic state and reports a limitation in the mode of human knowing, not surrender of an essential divine attribute. The same Gospel tradition presents the incarnate Jesus knowing all things, John 2:24-25 (he knew all men, ginoskein pantas, and needed no witness about man), John 16:30 (oidas panta, you know all things), and John 21:17 (panta su oidas, you know all things). The lexical pattern of Phil 2:7 (reflexive emptying by addition) and Col 2:9 (present indwelling of pan to pleroma tes theotetos) governs the synthesis."
+      },
+      {
+        "ref": "John.5.19",
+        "addressed": true,
+        "resolution": "Ou dynatai ho huios poiein aph heautou ouden (the Son can do nothing of himself) but only what he sees the Father doing. The clause states relational dependence within the Trinity, not a confession that omnipotence was relinquished. It pairs with John 5:21 in the same discourse where the Son hous thelei zoopoiei (gives life to whom he wills), an act predicated of God."
+      },
+      {
+        "ref": "Luke.2.52",
+        "addressed": true,
+        "resolution": "Iesous proekopten sophia kai helikia (Jesus advanced in wisdom and stature, prokopto imperfect, intransitive growth). This describes development within the true human nature of the incarnate Son. It is not a statement that divine omniscience was divested, since the same person elsewhere is shown knowing the hearts of all (John 2:24-25)."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Heb.1.3",
+        "variant_id": "heb-1-3-di-heautou-vs-di-autou",
+        "verdict_impact": "none",
+        "note": "The base text reads di heautou (through himself) for the means by which the Son made katharismon, and witnesses vary toward di autou. Both readings preserve apaugasma, charakter tes hypostaseos, and the present participle pheron ta panta, so the deity-retention witness is untouched. Not in the ingested ECM window, standard apparatus only."
+      },
+      {
+        "ref": "Phil.2.7",
+        "variant_id": "phil-2-7-anthropon-vs-anthropou",
+        "verdict_impact": "none",
+        "note": "Witnesses vary between anthropon (plural, men) and anthropou (singular) after homoiomati. The variant shifts the scope of the human likeness but leaves the reflexive object heauton, the verb ekenosen, and the manner participles labon and genomenos unchanged. Not in the ingested ECM window, standard apparatus only."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "The only Editio Critica Maior data ingested in this store is the 3 John sample window, so Philippians, Colossians, John, and Hebrews carry no ECM apparatus here. The variant survey above relies on the standard printed apparatus, and neither variant touches the syntax that decides the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "two_natures_full_retention",
+      "kenotic_attribute_surrender",
+      "functional_kenosis_voluntary_non_use"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "two_natures_full_retention",
+        "verdict": "affirms",
+        "rationale": "Reads ekenosen reflexively (heauton as the object), treats labon and genomenos as manner participles of addition, and harmonizes Phil 2:6-7 with the present indicative pan to pleroma tes theotetos katoikei of Col 2:9 and the present participle pheron ta panta of Heb 1:3. The incarnation is assumption of a true human nature with no subtraction from deity. This reading aligns with the canon usage of kenoo as metaphorical make void rather than literal pour out."
+      },
+      {
+        "framework": "kenotic_attribute_surrender",
+        "verdict": "denies",
+        "rationale": "Reads ekenosen as actual divestment, supplying an implied object of divine attributes (omniscience, omnipotence, omnipresence) that the Son laid aside during the incarnation, and appeals to texts like Mark 13:32 (the Son not knowing the day or hour) as evidence of a real surrender. Stated at its strongest, this lens takes emptied as the natural force of the verb and reads the participles as describing the resulting state of servanthood. The lexical objections it must answer are that Phil 2:7 supplies heauton as the explicit object and names no attribute as content, that kenoo elsewhere means make void of an abstraction rather than pour out a substance, and that Col 2:9 and Heb 1:3 predicate present full deity and active sustaining of the incarnate Son."
+      },
+      {
+        "framework": "functional_kenosis_voluntary_non_use",
+        "verdict": "affirms_with_qualification",
+        "rationale": "Reads ekenosen as the Son voluntarily veiling or not independently exercising certain divine prerogatives in the incarnate state, rather than ontologically losing them. This is grammatically compatible with the reflexive heauton, with the manner participles, and with the present tense retention texts, and it converges with the verdict that no attribute of deity is surrendered. It treats texts like John 5:19 and Mark 13:32 as descriptions of the incarnate mode of operating within a true human nature."
+      }
+    ],
+    "notes": "The three lenses construe the same Greek differently, and the divergence is genuinely lexical. It turns on whether ekenosen is read absolutely with an implied object of attributes or transitively with heauton and the manner participles. The queried canon usage of kenoo (Rom 4:14, 1 Cor 1:17, 1 Cor 9:15, 2 Cor 9:3 all meaning make void of no effect, never pour out a substance) plus the present tense indwelling of Col 2:9 and sustaining of Heb 1:3 weigh toward the retention readings, but the surrender reading is a coherent construal of an ambiguous absolute verb and is represented here at its strongest."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "In Phil 2:6-7, Col 2:9, John 1:14, and Heb 1:3, does the lexical pattern indicate that in the incarnation the Son surrendered or gave up divine attributes proper to his deity, retained them in full, or voluntarily restrained their exercise?",
+    "notes": "The proposition is a denial stem. It encodes its own conclusion by predicating that Christ took a human nature without surrendering divine attributes, which is the denial of kenoticism rather than an open question. The verdict was still derived on the original stem from the lexical data. The neutralized form keeps the same anchors and lemmas in view but reframes the issue as an open inquiry across the surrender, full-retention, and voluntary-non-use options so the verdict is not smuggled by the wording."
+  },
+  "lay_summary": "Everything here hangs on one Greek verb. Philippians 2:7 says the Son emptied himself, and the word for emptied is kenoo. That verb appears five times in the New Testament. In the other four places it never means to pour out a physical substance. It means to make void, to nullify, to render of no effect: faith made void in Romans 4:14, the cross emptied of its power in 1 Corinthians 1:17, a boast made void in 1 Corinthians 9:15 and 2 Corinthians 9:3. So in Philippians 2:7 the word is a metaphor, made himself nothing, not a literal pouring away of his deity. The grammar settles what the emptying was. The verb takes himself as its object, not a list of divine attributes, and the two phrases that follow say how he emptied himself: by taking the form of a servant and by coming to be in the likeness of human beings. That is emptying by addition, by taking on, not by subtracting anything he already had. Two more passages confirm it. Colossians 2:9 says the whole fullness of deity dwells in him bodily, and the verb dwells is present tense, an ongoing settled state, with deity named as the very essence, not just qualities. Hebrews 1:3 calls the Son the radiance of God's glory and says he is sustaining all things by his powerful word, present tense, during the incarnation, which is omnipotence still at work. Texts read the other way, like Mark 13:32 where the Son does not know the day or hour, John 5:19 where he does nothing of himself, and Luke 2:52 where he grew in wisdom, all describe the incarnate Son living and acting through a real human nature. They never say a divine attribute was given up. Honesty requires noting that the whole case rests on reading one metaphorical verb by its own usage, so the divergence among readers is genuinely about that single word, but the canon pattern of the words favors retention of the divine attributes during the incarnation.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2758"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2320"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3444"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0725"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0541"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Phil.2.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.1.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

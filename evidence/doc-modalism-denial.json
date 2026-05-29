@@ -1,0 +1,656 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-modalism-denial",
+  "question_id": "doc-modalism-denial",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across the anchor passages is decided by grammar, not by any single word. The three are repeatedly the simultaneous subjects of distinct verbs and the parties of reciprocal pronoun address, which a one-person-in-sequence reading cannot accommodate. At the baptism (Matt 3:16-17) the Son ascends ( anebe, 3rd singular), the Spirit descends upon him (katabainon ep auton), and a heavenly voice says houtos estin ho huios mou, third-person demonstrative plus first-person possessive in one breath. In John 17 the Son in the first person (ego) addresses the Father in the second person (se, su) and says apesteilas, you sent, which requires a sender other than the sent. John 14:16 has the Son ask the Father to give allon parakleton, another Helper of the same kind. John 1:1 sets ho logos pros ton theon, the preposition pros with the accusative ton theon marking face-to-face relation, alongside theos en ho logos, shared nature. The one-God texts (John 10:30 hen, Deut 6:4 echad) assert unity of essence, not identity of person, since hen is neuter with a plural verb esmen and echad covers compound unity. The pattern is dense and spans multiple authors and genres."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "patēr",
+        "occurrences_in_canon": 413,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 375,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 154,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3870",
+        "lemma": "παράκλητος",
+        "transliteration": "paraklētos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 229,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 330,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4314",
+        "lemma": "πρός",
+        "transliteration": "pros",
+        "occurrences_in_canon": 696,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1307,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4771",
+        "lemma": "σύ",
+        "transliteration": "sy",
+        "occurrences_in_canon": 2894,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1473",
+        "lemma": "ἐγώ",
+        "transliteration": "egō",
+        "occurrences_in_canon": 2572,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 342,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1392",
+        "lemma": "δοξάζω",
+        "transliteration": "doxazō",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0649",
+        "lemma": "ἀποστέλλω",
+        "transliteration": "apostellō",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0027",
+        "lemma": "ἀγαπητός",
+        "transliteration": "agapētos",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0228",
+        "lemma": "ἀληθινός",
+        "transliteration": "alēthinos",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0259",
+        "lemma": "אֶחָד",
+        "transliteration": "echad",
+        "occurrences_in_canon": 970,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3962",
+      "G5207",
+      "G4151",
+      "G0243",
+      "G3870",
+      "G3686",
+      "G3056",
+      "G4314",
+      "G2316",
+      "G4771",
+      "G1473",
+      "G1520",
+      "G1392",
+      "G0649",
+      "G0027",
+      "G0228",
+      "H0259"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.3.16",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G2597",
+            "lemma": "καταβαίνω"
+          }
+        ],
+        "force": "Three distinct subjects act in the same moment. The Son ascends from the water (anebe, 3rd person singular aorist of anabaino), the Spirit of God (pneuma theou) descends as a dove and rests upon him (the participle katabainon with epi and the accusative auton), and the heavens are opened above (enedichthesan, 3rd person plural passive). The spatial separation of descending Spirit, ascending Son, and opened ouranoi, plus the third-person reference to auton, exclude a single subject occupying all three roles at once.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.3.17",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G0027",
+            "lemma": "ἀγαπητός"
+          }
+        ],
+        "force": "A voice ek ton ouranon declares houtos estin ho huios mou ho agapetos. The third-person demonstrative houtos (parsed nominative singular masculine) points to the one still in the water, while the first-person possessive mou belongs to the speaking voice. Two distinct grammatical persons are simultaneously in view, which rules out one person speaking of himself as if of another.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.1",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G1392",
+            "lemma": "δοξάζω"
+          }
+        ],
+        "force": "The Son addresses pater in the vocative, asks doxason sou ton huion (2nd person imperative), and continues hina ho huios doxase se (3rd person subjunctive with the 2nd person accusative se). The mutual-glorification clause needs two distinct subjects. A single person cannot intelligibly ask that he glorify himself so that he might glorify himself.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.3",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G0228",
+            "lemma": "ἀληθινός"
+          },
+          {
+            "strong": "G0649",
+            "lemma": "ἀποστέλλω"
+          }
+        ],
+        "force": "The Son distinguishes the Father as ton monon alethinon theon while naming himself Jesus Christ hon apesteilas. The verb apesteilas is 2nd person singular aorist, you sent, and a sending requires a sender other than the one sent. The acknowledgment formula sets the two referents side by side without collapsing them into one.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.5",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          }
+        ],
+        "force": "The Son asks doxason me su, pater, para seauto te doxe he eichon pro tou ton kosmon einai para soi. The preposition para with the reflexive seauto and then para soi, together with the imperfect eichon, locate two parties sharing glory before the world existed. A construction of shared glory held alongside another excludes successive single-person modes.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.16",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G3870",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "The Son says kago erotes ton patera kai allon parakleton dosei hymin. The adjective allos (accusative singular masculine) ranges as another of the same kind, presupposing the Son is himself a parakletos (the only other use of the noun, 1 John 2:1, calls Jesus our parakletos) and that the coming one is a distinct subject. The clause holds three grammatical subjects: the speaking Son (kago, 1st person), the petitioned Father, and the given other Helper (dosei, 3rd person).",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "The baptismal formula uses the singular onoma (accusative singular neuter) with three articulated genitives joined by kai, tou patros kai tou huiou kai tou hagiou pneumatos. The single onoma binds the three under one name, while the iterated article construction (tou ... tou ... tou) keeps three distinct referents. The grammar holds unity of name together with distinctness of persons in one clause.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G4314",
+            "lemma": "πρός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "En arche en ho logos, kai ho logos en pros ton theon, kai theos en ho logos. The preposition pros with the accusative ton theon (parsed accusative singular masculine) marks a face-to-face relation between two parties. The Logos and ho theos are at once distinguished (pros ton theon) and identified in nature (the anarthrous predicate nominative theos before the verb). The relational pros excludes one subject relating to itself in succession.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.2",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G4314",
+            "lemma": "πρός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Houtos en en arche pros ton theon restates the same simultaneous, eternal pros relation. The imperfect en stresses continuity, not a succession of modes. Two distinct referents stand face to face from the beginning.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.4",
+        "key_terms": [
+          {
+            "strong": "G1392",
+            "lemma": "δοξάζω"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "Ego se edoxasa epi tes ges, to ergon teleiosas ho dedokas moi hina poieso. The personal pronouns ego (1st person nominative) and se (2nd person accusative) with the giver-receiver verbs dedokas (you gave, 2nd person) and poieso (I do, 1st person) plant two enduring subjects. The earthly work was given by one and completed by the other. In this grammar one party cannot give a work to itself.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.1",
+        "to": "John.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.10.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.3.16",
+        "to": "Isa.11.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.5",
+        "to": "John.17.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.3",
+        "to": "John.14.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.2",
+        "to": "John.3.35",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.3.17",
+        "to": "Matt.12.18",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.10.30",
+        "addressed": true,
+        "resolution": "ego kai ho pater hen esmen. Queried morphology confirms hen is parsed nominative singular neuter (lemma heis), not the masculine heis that personal identity would require, so it asserts unity of one thing (essence, will, work) rather than collapse into one person. The verb esmen is 1st person plural and needs two subjects. The clause therefore affirms unity of essence with plurality of persons, the opposite of a one-person reading. This is the strongest modalist proof text and the grammar of the numeral and the verb is what settles it."
+      },
+      {
+        "ref": "Deut.6.4",
+        "addressed": true,
+        "resolution": "The Shema uses echad (H259, queried at 970 occurrences across the Hebrew canon). Echad covers compound unity, for example basar echad, one flesh, of two persons in Gen 2:24 (echad confirmed present there by query). The Shema fixes the doctrine to one God and one essence but the word echad does not by itself require one person, so the New Testament data above unfolds distinction within that one essence."
+      },
+      {
+        "ref": "John.14.9",
+        "addressed": true,
+        "resolution": "ho heorakos eme heoraken ton patera. The see-the-Father-in-the-Son language rests on the Son being the revealer and exact representation of the Father (cf. John 1:18), not on identity of person. The very clause keeps eme and ton patera as two grammatical referents, so it does not support one person in two modes."
+      },
+      {
+        "ref": "Isa.9.6",
+        "addressed": true,
+        "resolution": "Isaiah 9:6 in English is 9:5 in the queried Masoretic versification. The title rendered Everlasting Father is av (father, H1) plus ad (perpetuity, H5703), a Hebrew idiom of the form Father-of-X meaning founder or possessor of X (here Father of eternity, or eternal Father to his people). It is a messianic epithet of the child, not an equation of the persons of Father and Son, and it stands alongside el gibbor, Mighty God, in the same line. Read under analogia scripturae with the Father and Son distinction in Matt 3:16-17 and John 17."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Matt.28.19",
+        "variant_id": "matt-28-19-baptismal-formula",
+        "verdict_impact": "none",
+        "note": "A short form (in my name) is alleged only from a handful of patristic citations and appears in no Greek manuscript. The triadic onoma tou patros kai tou huiou kai tou hagiou pneumatos is the unanimous manuscript reading and the SBLGNT text queried here carries it."
+      },
+      {
+        "ref": "John.1.18",
+        "variant_id": "john-1-18-monogenes",
+        "verdict_impact": "none",
+        "note": "monogenes theos versus monogenes huios. Either reading keeps a Son distinct from the Father, since monogenes stands in relation to ho pater named in the same verse. The distinction of persons does not turn on which reading wins."
+      },
+      {
+        "ref": "John.14.16",
+        "variant_id": "john-14-16-word-order",
+        "verdict_impact": "none",
+        "note": "Minor word-order variants do not touch the allon parakleton clause or the three-party grammar (kago erotes, the Father, dosei)."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "No anchor for this question falls inside the ingested ECM window (3 John 1:1 to 1:15), so no CBGM-published apparatus was consulted. The variant survey reflects standard NA28 and INTF transcript signal only, hence shadow status."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "analogia_scripturae",
+      "monotheism_constraint"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "trinitarian_distinction",
+        "verdict": "supported",
+        "rationale": "Reads the three as distinct subjects within one essence. The grammar of simultaneity and reciprocal address (Matt 3:16-17, John 17 first and second person interplay, John 14:16 allon parakleton) plus the unity texts (John 10:30 neuter hen with plural esmen, Matt 28:19 single onoma over three articulated genitives) jointly fit only this reading. This is the lens the lexical data most directly sustains."
+      },
+      {
+        "framework": "modalism",
+        "verdict": "incompatible",
+        "rationale": "Holds that one person plays Father, Son, and Spirit successively. Its strongest texts are the one-God statements (Deut 6:4 echad, Isa 44:6, John 10:30 I and the Father are one) and identity statements (John 14:9, he who has seen me has seen the Father). But those very verses keep two grammatical referents (eme and ton patera) and use a neuter hen with a plural verb, while the baptism puts the three on stage at the same moment and apesteilas requires a sender distinct from the sent. Successive single-person modes cannot produce simultaneous reciprocal address."
+      },
+      {
+        "framework": "tritheism",
+        "verdict": "also_incompatible",
+        "rationale": "States its strongest case from the genuine threeness of subjects. But Matt 28:19 binds the three under a singular onoma and John 10:30 binds Father and Son under neuter hen, unity of essence. The data require oneness of essence together with distinctness of persons, not three gods."
+      },
+      {
+        "framework": "ontological_subordinationism",
+        "verdict": "not_required",
+        "rationale": "Its strongest case is the sending and obedience language (apesteilas, the given work in John 17:4). But that language is functional and economic, and John 17:5 places the Son in shared pre-creation glory para the Father (para soi, para seauto), which blocks a necessary inference of lesser being from the sending vocabulary."
+      }
+    ],
+    "notes": "The reading rests on coordinated grammar across genres and authors: synoptic baptism narrative, the Johannine high-priestly prayer, the Johannine prologue, and a dominical command. Analogia scripturae binds the unity texts and the distinction texts without collapsing either. The decisive engine is grammatical, distinct persons addressing and being sent by one another at the same time, not the meaning of any single lexeme."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How does the New Testament vocabulary and grammar describe the relation of the Father, the Son, and the Holy Spirit. Are they presented as one person taking three successive modes or roles, as three distinct persons sharing one divine essence, as three separate gods, or as some other pattern.",
+    "notes": "The original stem is framed as a denial of modalism, naming the modalist position as the foil, so it encodes its own conclusion. The neutralized form asks the lexical question without preloading any answer. The verdict is still derived on the original framing. The queried grammar yields three simultaneous, mutually addressed subjects within one shared name and essence, so the original proposition lands true, but the loaded framing is acknowledged here."
+  },
+  "lay_summary": "The Greek of these passages shows the Father, the Son, and the Holy Spirit acting at the same time and speaking to one another, not one figure putting on three masks in turn. At the baptism in Matthew 3 verses 16 and 17 the Son comes up out of the water, the Spirit of God descends like a dove and rests on him, and a voice from heaven says, This is my beloved Son. The voice uses the third-person word this and the first-person word my in the same sentence, so two persons are in view at once. In John 17 the Son prays to the Father using the second-person you, asks to share glory he had with the Father before the world existed, and says you sent me, which needs a sender different from the one sent. One person cannot ask that he glorify himself with glory shared with himself. In John 14 verse 16 the Son says he will ask the Father to give another Helper of the same kind, the Spirit, a third subject distinct from both the speaker and the one asked. The word for another Helper, parakletos, appears only five times, and its one other use calls Jesus himself our Helper, so the another is plainly a different person. In Matthew 28 verse 19 baptism is into one singular name, but the name is unpacked as of the Father and of the Son and of the Holy Spirit, with the article repeated three times, holding one name together with three distinct persons. John 1 verse 1 places the Word face to face with God and then says the Word was God, distinguishing the two while sharing one nature. The strongest texts for a single-person view are the one-God verses, like John 10 verse 30, I and the Father are one. But there the word one is the neuter form, which means one thing such as one essence, and the verb are is plural, which needs two subjects. The Hebrew echad in Deuteronomy 6 verse 4 likewise can mean a compound oneness, as in one flesh of two people. So the words clearly settle one God in essence and three distinct persons, and they leave no room for one person in three successive modes.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.10.30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.17.4"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.9.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0243"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3870"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4314"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The Hebrew morphology for the complicating texts Deut.6.4 (echad) and Isa.9.6 (av plus ad) was read from MACULA-Hebrew, licensed CC-BY-NC-4.0, which prohibits commercial bulk redistribution. The file cannot be bulk-published while it relies on MACULA-Hebrew. The Greek grammar from MorphGNT-morphology, the lexical entries from STEPBible-TBESG, and the TSK cross-refs are all redistributable."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-one-holy-catholic-apostolic-church",
+  "question_id": "doc-one-holy-catholic-apostolic-church",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.75,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Querying the tagged Greek New Testament, the four attributes rest on uneven lexical footing. ONE is explicit and emphatic: Ephesians 4:4-6 stacks the cardinal numeral εἷς, μία, ἕν (G1520, 247 tagged occurrences) across body, Spirit, hope, Lord, faith, baptism, and God, and Ephesians 4:3 and 4:13 carry the rare noun ἑνότης (G1775), which occurs only twice in the canon and both times in this one chapter. HOLY is dense and pan-canonical: ἅγιος (G0040, 209 occurrences) names the believers themselves as τῶν ἁγίων in Ephesians 2:19 and the corporate building as a ναὸν ἅγιον in Ephesians 2:21. APOSTOLIC is anchored by ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων (Ephesians 2:20) and τῇ διδαχῇ τῶν ἀποστόλων (Acts 2:42), but the genitive and the once-laid foundation grammar of 1 Corinthians 3:10-11 support an apostolic-foundation or apostolic-doctrine sense and do not by themselves encode transmitted office. CATHOLIC has no lexeme at all: καθολικός never occurs in the New Testament, so the universality is carried only conceptually by ἓν σῶμα and the πᾶς, πάντων series. Three marks rest on explicit words and the fourth on a defensible conceptual reading, so the substance affirms while the formal four-mark frame is creedally preloaded."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 247,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1775",
+        "lemma": "ἑνότης",
+        "transliteration": "henotes",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0040",
+        "lemma": "ἅγιος",
+        "transliteration": "hagios",
+        "occurrences_in_canon": 209,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 77,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2310",
+        "lemma": "θεμέλιος",
+        "transliteration": "themelios",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0204",
+        "lemma": "ἀκρογωνιαῖος",
+        "transliteration": "akrogoniaios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 960,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 100,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 109,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2026",
+        "lemma": "ἐποικοδομέω",
+        "transliteration": "epoikodomeo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2732",
+        "lemma": "κατοικητήριον",
+        "transliteration": "katoiketerion",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1520",
+      "G1775",
+      "G0040",
+      "G0652",
+      "G2310",
+      "G0204",
+      "G3485",
+      "G1322",
+      "G2842",
+      "G3956",
+      "G4983",
+      "G1577",
+      "G2026",
+      "G2732",
+      "G3619",
+      "G2527"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.4.4",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "ἓν"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G1680",
+            "lemma": "ἐλπίς"
+          }
+        ],
+        "force": "ἓν σῶμα καὶ ἓν πνεῦμα, one body and one Spirit, paired with the single calling and the one hope. The neuter cardinal ἕν is repeated to assert the numerical oneness of the body of believers. The noun σῶμα (G4983, 100 occurrences) names that one body, which is the lexical seat of both the oneness mark and the conceptual universality the creedal word catholic names.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0908",
+            "lemma": "βάπτισμα"
+          }
+        ],
+        "force": "εἷς κύριος, μία πίστις, ἓν βάπτισμα, one Lord, one faith, one baptism. The triple cardinal numeral in masculine, feminine, and neuter agreement underlines a single confessional and sacramental ground for the one church. The numeral G1520 occurs 247 times across the canon, so the sense is stable and not in doubt.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.6",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντων"
+          }
+        ],
+        "force": "εἷς θεὸς καὶ πατὴρ πάντων, one God and Father of all, with ὁ ἐπὶ πάντων καὶ διὰ πάντων καὶ ἐν πᾶσιν. The pairing of the cardinal εἷς with the universalizing πᾶς (G3956, 960 occurrences) supplies the conceptual basis for a whole or universal church, which is the substance the creedal word catholic names, though no single word καθολικός is used.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.3",
+        "key_terms": [
+          {
+            "strong": "G1775",
+            "lemma": "ἑνότητα"
+          },
+          {
+            "strong": "G1515",
+            "lemma": "εἰρήνης"
+          }
+        ],
+        "force": "σπουδάζοντες τηρεῖν τὴν ἑνότητα τοῦ πνεύματος, eager to keep the oneness of the Spirit. The noun ἑνότης (G1775) occurs only twice in the entire New Testament, here and at Ephesians 4:13, both inside this one paragraph, so oneness is named as an explicit attribute of the church but the explicit noun does not recur elsewhere in the canon.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.19",
+        "key_terms": [
+          {
+            "strong": "G0040",
+            "lemma": "ἁγίων"
+          },
+          {
+            "strong": "G3609",
+            "lemma": "οἰκεῖοι"
+          }
+        ],
+        "force": "οὐκέτι ἐστὲ ξένοι καὶ πάροικοι, ἀλλὰ ἐστὲ συμπολῖται τῶν ἁγίων καὶ οἰκεῖοι τοῦ θεοῦ, you are fellow citizens with the saints, the holy ones, and members of God's household. The believers themselves are named τῶν ἁγίων, the substantive use of ἅγιος (G0040, 209 occurrences), which grounds the holiness mark in the people, not just in the temple image of the next verses.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.20",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀποστόλων"
+          },
+          {
+            "strong": "G2310",
+            "lemma": "θεμελίῳ"
+          },
+          {
+            "strong": "G0204",
+            "lemma": "ἀκρογωνιαίου"
+          }
+        ],
+        "force": "ἐποικοδομηθέντες ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων καὶ προφητῶν, ὄντος ἀκρογωνιαίου αὐτοῦ Χριστοῦ Ἰησοῦ, built on the foundation of the apostles and prophets, Christ being the cornerstone. The construction lexically anchors the apostolic mark. The genitive τῶν ἀποστόλων is ambiguous between the foundation laid by the apostles and the foundation consisting of the apostles, and the cornerstone ἀκρογωνιαῖος (G0204, only here and 1 Peter 2:6) is consistently Christ, not the apostles.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.21",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναὸν"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιον"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶσα"
+          }
+        ],
+        "force": "πᾶσα οἰκοδομὴ συναρμολογουμένη αὔξει εἰς ναὸν ἅγιον, the whole structure being joined together grows into a holy temple. The adjective ἅγιος applied to the corporate building directly anchors the holiness mark, and πᾶσα marks the structure as a single growing whole, joining the holiness and universality senses in one clause.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.22",
+        "key_terms": [
+          {
+            "strong": "G2732",
+            "lemma": "κατοικητήριον"
+          }
+        ],
+        "force": "ἐν ᾧ καὶ ὑμεῖς συνοικοδομεῖσθε εἰς κατοικητήριον τοῦ θεοῦ ἐν πνεύματι, you are built together into a dwelling place of God in the Spirit. The compound συν prefix and the singular dwelling κατοικητήριον (G2732, only twice in the canon) reinforce the corporate oneness and consecration of the assembled believers.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G1322",
+            "lemma": "διδαχῇ"
+          },
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνίᾳ"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀποστόλων"
+          }
+        ],
+        "force": "ἦσαν δὲ προσκαρτεροῦντες τῇ διδαχῇ τῶν ἀποστόλων καὶ τῇ κοινωνίᾳ, they were devoting themselves to the teaching of the apostles and to the fellowship. The genitive τῶν ἀποστόλων binds the community to apostolic instruction, διδαχή (G1322), supplying narrative attestation of the apostolic mark in its doctrine sense alongside the foundation image of Ephesians 2:20.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.11",
+        "key_terms": [
+          {
+            "strong": "G2310",
+            "lemma": "θεμέλιον"
+          }
+        ],
+        "force": "θεμέλιον γὰρ ἄλλον οὐδεὶς δύναται θεῖναι παρὰ τὸν κείμενον, ὅς ἐστιν Ἰησοῦς Χριστός, no one can lay another foundation than the one already laid, which is Jesus Christ. With 1 Corinthians 3:10, where Paul laid the foundation once and another builds on it, θεμέλιος is grammatically a once-laid base. This controls the apostolic mark toward foundation and away from a continuously transmitted office, since a foundation by definition is not re-laid.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.2.20",
+        "to": "Isa.28.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.2.20",
+        "to": "Eph.4.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.2.21",
+        "to": "Eph.4.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.4.4",
+        "to": "Eph.4.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.4.6",
+        "to": "Eph.1.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.2.21",
+        "to": "Ps.93.5",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Nicene-mark-catholic",
+        "addressed": true,
+        "resolution": "The creedal mark catholic translates καθολικός, universal or whole, but direct query of the tagged Greek New Testament returns zero occurrences of that lexeme. The only related form is καθόλου (G2527), at all, which appears once at Acts 4:18 inside a prohibition and means not at all, not universal. So the term behind catholic is post-canonical. The concept of a single universal body is carried lexically by ἓν σῶμα at Ephesians 4:4 and the πᾶς, πάντων series at Ephesians 4:6, so the substance is attested even though the word is not. The verdict affirms the concept, not the word."
+      },
+      {
+        "ref": "Eph.2.20",
+        "addressed": true,
+        "resolution": "The genitive τῶν ἀποστόλων καὶ προφητῶν can be read as the foundation laid by apostles and prophets or as the foundation that consists of them. Either reading keeps the apostolic mark intact, since both make the apostolic witness foundational. The further question of apostolic foundation versus transmitted apostolic succession is not settled by the words here. The once-laid foundation grammar of 1 Corinthians 3:10-11 and the fixed twelve foundations of Revelation 21:14 lean the vocabulary toward a single non-repeating foundation rather than an ongoing office, so the verdict affirms the foundation and doctrine sense and leaves the succession question lexically underdetermined."
+      },
+      {
+        "ref": "G1577-ekklesia-scope",
+        "addressed": true,
+        "resolution": "The noun ἐκκλησία (G1577) occurs 109 times and is used overwhelmingly for individual local assemblies, the churches of Acts 14:23, 15:41, 16:5 and the city congregations of Paul, while Matthew 16:18 and the Ephesians whole-body texts use the singular universal sense. The word itself does not rank the local and universal patterns. This is why the universality mark, while conceptually present, is not forced by the vocabulary alone, and contributes to the medium rather than high confidence."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Direct query of the ingested apparatus shows VariantUnit nodes exist only for 3 John, 116 units, so the cited Ephesians and Acts texts lie entirely outside the open-cbgm published sample and no CBGM data applies. The editions field on the tagged tokens shows the cardinal numerals and the apostolic and holy lexemes are present across NA28, SBL, WH, Treg, TR, and Byz alike. The editorial marks the bundle flags at Ephesians 2:19 (ἐστὲ), 2:20 (word order of Χριστοῦ Ἰησοῦ), 2:21 (πᾶσα), and 4:6 (ἐν πᾶσιν) touch wording but none alter the cardinal numerals or the apostolic and holy lexemes that carry the verdict, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "apostolic_foundation",
+      "apostolic_succession",
+      "covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "apostolic_foundation_doctrine",
+        "verdict": "affirms",
+        "rationale": "Reads ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων at Ephesians 2:20 and τῇ διδαχῇ τῶν ἀποστόλων at Acts 2:42 as the church resting on the apostles' once-given teaching and witness. The foundation grammar of 1 Corinthians 3:10-11, where the foundation is laid once and is Christ, and the fixed twelve foundations of Revelation 21:14 fit this reading. On this lens apostolic means grounded in apostolic doctrine, and all four marks stand on the lexemes."
+      },
+      {
+        "framework": "apostolic_succession_office",
+        "verdict": "disputed",
+        "rationale": "Reads apostolicity as a transmitted office continuing the apostles' authority. Lexically, ἀπόστολος (G0652, 77 occurrences) does carry a sent-one sense that extends beyond the Twelve, naming Paul, Barnabas at Acts 14:14, and others, which keeps an office reading available. But the anchor texts speak of a foundation, not a succession, and the words for laying a foundation describe a non-repeating act, so this lens is not foreclosed yet is not demanded by the cited vocabulary. The succession claim is the part of the proposition the words underdetermine."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the one body, one Spirit, one Lord series as one covenant people across the testaments, so the oneness and holiness marks are continuous attributes of the gathered church and the saints of Ephesians 2:19 stand in continuity with the holy ones of the older Scriptures."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Treats ἓν σῶμα and the temple imagery of Ephesians 2:21 as the present-age body distinct from national Israel, yet still affirms that this body is one, holy, and apostolically founded on the same lexemes, so the marks themselves are not in dispute under this lens. The only divergence is the referent and timing of the one body, not whether it is one, holy, and apostolic."
+      }
+    ],
+    "notes": "The covenant and dispensational frameworks converge on the four marks because the verdict rests on cardinal numerals and explicit lexemes rather than on covenantal sequencing. The live divergence is internal to the apostolic mark, between an apostolic foundation and doctrine reading that the vocabulary supports and an apostolic succession reading that the vocabulary permits but does not require."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The gathered company of believers is described in Scripture as a single body, set apart as holy, encompassing all the called, and founded on the teaching of the apostles.",
+    "notes": "The stem cites the Nicene Creed and its four marks one, holy, catholic, apostolic by name, which preloads a formal four-mark verdict frame the canon does not itself enumerate as a list. The lexical test was run on the neutralized form. Three marks rest on explicit New Testament lexemes, ἑνότης and the εἷς series for oneness, ἅγιος for holiness including the believers as τῶν ἁγίων, and ἀπόστολος with θεμέλιος for apostolicity. The fourth mark catholic has no New Testament lexeme καθολικός, the only related word being καθόλου meaning at all, and is affirmed only at the conceptual level through ἓν σῶμα and the πᾶς series. The apostolic mark is itself split between a foundation and doctrine sense the words support and a succession sense the words permit but do not force, which is why confidence is medium rather than high. The affirms value is unchanged from the prior file."
+  },
+  "lay_summary": "Looking only at the original-language words, the four labels in the stem stand on different footings. Oneness is the strongest. Ephesians 4:4-6 hammers the number one in masculine, feminine, and neuter forms across body, Spirit, hope, Lord, faith, baptism, and God, and Ephesians 4:3 uses a rare word for oneness that appears only twice in the whole New Testament, both times right here. Holiness is dense and spread across the canon. The word for holy occurs over two hundred times, and Ephesians 2:19 calls the believers themselves the holy ones while Ephesians 2:21 says the joined structure grows into a holy temple. The apostolic label is plain in two ways. Ephesians 2:20 says believers are built on the foundation of the apostles and prophets with Christ as the cornerstone, and Acts 2:42 shows the first believers devoting themselves to the apostles teaching. Here the words leave room. A foundation in these texts is laid once and is Christ, as 1 Corinthians 3 puts it, so the words clearly support apostolic foundation and apostolic doctrine, but they do not by themselves decide whether apostolic also means a continuing office handed down, which is where readers diverge. The one word with no match at all is the term behind catholic, meaning universal or whole. Searching the Greek New Testament directly, that word never appears. The nearest word means at all and shows up once in a flat denial. Yet the idea is still there, because Ephesians speaks of one body and piles up all and of all. The word for church is also used far more often for single local gatherings than for one worldwide body, so the universal sense is real but is carried by phrases rather than by one matching word. The honest conclusion from the words alone is that the assembled believers are pictured as one, holy, and apostolically founded, and as a single whole including all the called, which is the substance the stem describes, even though the four-mark list and two of its labels are later than the text.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.4"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.20"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1775"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0040"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0652"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2527"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.2.20"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.2.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.2.20"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids bulk redistribution, so the aggregated evidence bundle cannot be published as redistributable while it cites that source for the Ephesians 2:20 and 2:21 interlinear grounding."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

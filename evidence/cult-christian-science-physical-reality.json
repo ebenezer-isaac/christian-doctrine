@@ -1,0 +1,555 @@
+{
+  "$schema_version": "3.0",
+  "id": "cult-christian-science-physical-reality",
+  "question_id": "cult-christian-science-physical-reality",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The canon names matter, sin, sickness, suffering, and bodily death with concrete nouns and completed-action verbs that resist dematerializing readings. Genesis 1:31 has God see (raah) all that he made (asah, 2629 occurrences) and call it tov meod, very good, presupposing a real external creation evaluated as objectively good. The New Testament anchors hinge on sarx (151 occurrences), soma (G4983, 144 occurrences), hamartia (174 occurrences) with hamartano (42 occurrences in Synoptics, Acts, Paul, and 1 John), thanatos (120 occurrences) paired with zoe (136 occurrences) and aionios (69 occurrences), and the physical healing verb iaomai (27 occurrences, dense in the Gospels and Acts for bodily cures). First John 4:2 to 4:3 makes confessing Iesoun Christon en sarki eleluthota the test of true spirit and brands the denial as antichristos, a term that occurs only five times and only in Johannine epistles to mark precisely this denial. The pan-canonical pattern affirms real created matter, real sin, real bodily incarnation, real bodily death, and real bodily healing as the medium of salvation."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H2896",
+        "lemma": "טוֹב",
+        "transliteration": "tob",
+        "occurrences_in_canon": 564,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 2629,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7200",
+        "lemma": "רָאָה",
+        "transliteration": "raah",
+        "occurrences_in_canon": 1305,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3966",
+        "lemma": "מְאֹד",
+        "transliteration": "meod",
+        "occurrences_in_canon": 300,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 174,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2390",
+        "lemma": "ἰάομαι",
+        "transliteration": "iaomai",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0500",
+        "lemma": "ἀντίχριστος",
+        "transliteration": "antichristos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3670",
+        "lemma": "ὁμολογέω",
+        "transliteration": "homologeo",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 570,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H2896",
+      "H6213",
+      "H7200",
+      "H3966",
+      "H1961",
+      "G4561",
+      "G4983",
+      "G0266",
+      "G0264",
+      "G2288",
+      "G2222",
+      "G0166",
+      "G2390",
+      "G0500",
+      "G3670",
+      "G5547",
+      "G1343"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.31",
+        "key_terms": [
+          {
+            "strong": "H2896",
+            "lemma": "טוֹב"
+          },
+          {
+            "strong": "H6213",
+            "lemma": "עָשָׂה"
+          },
+          {
+            "strong": "H7200",
+            "lemma": "רָאָה"
+          },
+          {
+            "strong": "H3966",
+            "lemma": "מְאֹד"
+          }
+        ],
+        "force": "God sees (raah, 1305 occurrences) all that he made (asah, 2629 occurrences) and pronounces it tov meod, very good. The verb of seeing and the verb of making presuppose a real, external, material referent that God evaluates. The intensifier meod (300 occurrences) magnifies the positive predicate. The verse appears in a narrative refrain (wayya'as wayyar wehinneh tov) that treats the made thing as ontologically present, not a thought to be dispelled.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.14",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          }
+        ],
+        "force": "Ho logos sarx egeneto kai eskenosen en hemin. The aorist egeneto (became) takes sarx as a real predicate noun, not an appearance term. Sarx is the concrete bodily-flesh lexeme (151 occurrences across Synoptics, Paul, General epistles, Revelation). The verb etheasametha (we beheld) and the noun doxa attached to the same subject treat the incarnation as a tangible event with visual witnesses, ruling out a docetic or merely-apparent reading.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.4.2",
+        "key_terms": [
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          }
+        ],
+        "force": "Pan pneuma ho homologei Iesoun Christon en sarki eleluthota ek tou theou estin. The perfect participle eleluthota (having come, abiding state) plus the prepositional phrase en sarki makes bodily incarnation the operative test of a true spirit. Homologeo (26 occurrences, dense in Johannine epistles and Romans) is the verb of public confession; the lexical structure makes the reality of sarx itself the doctrinal boundary marker.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.4.3",
+        "key_terms": [
+          {
+            "strong": "G0500",
+            "lemma": "ἀντίχριστος"
+          },
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          }
+        ],
+        "force": "Pan pneuma ho me homologei ton Iesoun ek tou theou ouk estin, kai touto estin to tou antichristou. Antichristos (G0500) occurs only five times in the entire canon, and all five (1 John 2:18, 2:22, 4:3, 2 John 7) attach the label to the denial of Christ come in flesh. The narrow lexical distribution targets precisely the kind of denial of bodily reality the proposition rejects.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.23",
+        "key_terms": [
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          }
+        ],
+        "force": "Pantes gar hemarton kai hysterountai tes doxes tou theou. The aorist hemarton (they sinned) of hamartano treats sin as a completed actual event for pantes, all. Hamartano (42 occurrences) spans Synoptics, Acts, Paul, Hebrews, 1 Peter, 2 Peter, and 1 John, a pan-canonical witness that sin is an actual condition before God, not a perceptual mistake to be corrected by right thinking.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.23",
+        "key_terms": [
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "Ta gar opsonia tes hamartias thanatos, to de charisma tou theou zoe aionios en Christo Iesou. Thanatos (120 occurrences, dense in Romans, Revelation, and the Gospels' passion narratives) and zoe (136 occurrences) are placed in an antithesis tied by aionios (69 occurrences). The economic noun opsonia (wages) frames death as something genuinely earned, and the parallel charisma (free gift) frames eternal life as something genuinely conferred. Both members of the antithesis are predicated as real.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.24",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G2390",
+            "lemma": "ἰάομαι"
+          }
+        ],
+        "force": "Hos tas hamartias hemon autos anenenken en to somati autou epi to xylon, hina tais hamartiais apogenomenoi te dikaiosyne zesomen, hou to molopi iathete. Soma (G4983, 144 occurrences) names the physical body, molops names a bodily welt, and iaomai (27 occurrences, the standard Gospel healing verb for actual physical cures in Mark 5:29, Luke 7:7, Acts 9:34 and similar) reaches its aorist passive iathete here. The lexical chain anchors salvation in a real bodily death and a real restoration, not a mental adjustment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.2.24",
+        "to": "Isa.53.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Ps.147.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.31",
+        "to": "Job.38.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.31",
+        "to": "Gen.1.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.1.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.6.23",
+        "to": "Rom.5.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.23",
+        "to": "Rom.3.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.4.3",
+        "to": "2John.1.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.1.14",
+        "addressed": true,
+        "resolution": "A spiritualizing reading might claim that the Logos was so divine that flesh is secondary, but the aorist egeneto explicitly makes sarx the predicate of becoming. The lexeme sarx is the concrete bodily term used elsewhere for tangible human flesh (Rom 8:3, 1 Pet 3:18, Rev 19:21), so the syntax forces a real becoming, not a docetic appearance."
+      },
+      {
+        "ref": "Rom.6.23",
+        "addressed": true,
+        "resolution": "The economic metaphor opsonia (wages) might be read as making thanatos merely figurative, but a metaphor for payment does not make the payment unreal. Thanatos is paired antithetically with zoe aionios; treating one member as illusion would dissolve the other and collapse the antithesis the verse builds, so the figurative framing does not weaken either reality."
+      },
+      {
+        "ref": "Rom.7.14",
+        "addressed": true,
+        "resolution": "Paul's contrast of sarkikos (fleshly) with pneumatikos (spiritual) is sometimes cited to denigrate flesh as such, but the contrast is ethical, between life governed by sinful impulse and life governed by the Spirit, not a metaphysical denial of matter. Paul also names the body as the soma of Christ (Rom 12:5) and looks for bodily redemption (Rom 8:23, apolytrosis tou somatos), so the same writer holds matter to be real and destined for renewal."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The anchor texts lie outside the published ECM scope (3 John only). Direct query of the lexical store returned no variant units for 1 John 4 in the ingested apparatus. The known patristic variant at 1 John 4:3 (ho luei ton Iesoun, who looses Jesus, attested in Latin and a handful of Greek witnesses) is doctrinally orthogonal to this verdict, since both readings turn on the reality of the bodily-come Jesus. NT books here are treated as ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "material_realism",
+        "verdict": "affirms",
+        "rationale": "Reading the lexemes at face value, tov meod and asah in Genesis, sarx and soma in John, 1 John, and 1 Peter, hamartia and thanatos and zoe aionios in Romans, and the bodily healing verb iaomai in 1 Peter, all denote real external entities and events. The aorists (egeneto, hemarton, anenenken, iathete) treat them as completed actual occurrences, and the canon affirms the reality of matter, sin, sickness, and death."
+      },
+      {
+        "framework": "philosophical_idealism",
+        "verdict": "contradicts the canon",
+        "rationale": "A lens that treats matter, sin, sickness, and death as illusions of mortal mind must reduce sarx, soma, hamartia, thanatos, and iaomai to mental categories. The lexical data resists this: 1 John 4:3 names the denial of Christ come in flesh as antichristos using a hapax-cluster term that occurs only here in 1 John 2 and 4 and 2 John 7, all in the same Johannine corpus and all about precisely this denial. Stated in its strongest form the lens is internally coherent, but the canon's vocabulary, in its strongest reading, is not its ally."
+      },
+      {
+        "framework": "ascetic_dualism",
+        "verdict": "partly contradicts the canon",
+        "rationale": "A weaker reading treats matter as ontologically lower or ethically inferior rather than illusory, citing Paul's sarx-pneuma contrast. In its strongest form this lens reads Romans 7 to 8 with care and recognizes that flesh is real but corrupted. The canon does affirm corruption (Rom 7:18) yet still names creation tov meod, the incarnation as Word-become-sarx, the redemption as bodily (Rom 8:23), and the resurrection body as soma pneumatikon (1 Cor 15:44), a body still. The verdict on the proposition therefore holds, while the lens captures a genuine but partial lexical pattern about ethical flesh-spirit antithesis."
+      }
+    ],
+    "notes": "Genesis grounds the goodness of created matter; the prophets continue the language of real sin and real healing; the New Testament texts develop the reality of sin, death, incarnate flesh, and bodily redemption. This is progressive revelation read with analogia scripturae across both testaments."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem is a positive descriptive proposition that sin, sickness, suffering, and physical reality are real and that salvation is from real sin to real eternal life through Christ's real death and resurrection. It names no tradition and embeds no school-specific taxonomy. The cult-prefix in the question id indicates the proposition is articulated against a specific denial of these realities, but the proposition itself is stated in plain canonical vocabulary, and the verdict is derived from the lexemes on their own terms."
+  },
+  "lay_summary": "The words used across these passages treat the physical world, sin, sickness, suffering, and death as genuinely real, not as illusions of the mind. In Genesis 1:31 God looks at everything he made and calls it very good, using the verb asah for making (over 2600 uses across the Hebrew Scriptures) and the word tov for good, intensified by meod. You do not pronounce an illusion good; the verse assumes a real, external creation. In John 1:14 the Word became flesh, sarx, a concrete bodily term used across the canon for tangible human flesh, and eyewitnesses say they beheld him. First John 4:2 and 4:3 then make confessing that Jesus came in the flesh the test of a true spirit, and refusing that confession is named the spirit of antichrist. The word antichrist occurs only five times in the whole canon, and every one of those five attaches the label to denying Christ has come in flesh, so the vocabulary itself targets the denial. Romans 3:23 says all sinned, using a completed past-tense verb that treats sin as an actual fact for every person, and the verb itself appears across the Gospels, Acts, Paul, and the General Letters. Romans 6:23 sets the wages of sin, death, in antithesis with the free gift of God, eternal life, naming death as a real consequence and life as a real remedy. First Peter 2:24 says Christ bore our sins in his body on the tree and that by his wound we were healed, using the concrete word soma for body, the noun for a bodily welt, and the standard verb for physical healing that runs through the Gospel cure stories. Taken together, from the first book of the Hebrew Scriptures to the General Letters, the vocabulary describes matter, sin, sickness, and death as real conditions, and salvation as a real rescue accomplished through a real bodily death and a real risen life. The lexical pattern affirms the proposition with no support for reading these realities as mere appearances of mortal thought.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.31"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.31"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2896"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6213"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.4.2"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.24"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4561"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4983"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2390"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0500"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1John.4.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.2.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.4.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.6.23"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

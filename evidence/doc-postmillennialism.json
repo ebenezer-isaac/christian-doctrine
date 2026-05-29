@@ -1,0 +1,797 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-postmillennialism",
+  "question_id": "doc-postmillennialism",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9375,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The canon supplies two patterns the words do not rank. One pattern is kingdom-growth and earth-filling: the mustard seed (sinapi, G4615) and leaven (zyme, G2219) of Matthew 13:31-33 with the increase verb auxano (G0837, 23 occurrences, regularly used of the word spreading in Acts 6:7, 12:24, 19:20), the Isaiah 11:9 / Habakkuk 2:14 picture of the earth filled (male, H4390, 235 occurrences) with the knowledge (deah H1844, daath H1847) and glory of the LORD, and the until-clauses of Psalm 110:1 and 1 Corinthians 15:25 marking a reign that culminates in subjugation of enemies. The other pattern is end-time apostasy and difficulty: 2 Timothy 3:1 chalepoi kairoi (chalepos G5467, only twice in the NT), 2 Thessalonians 2:3 apostasia (G0646, only twice in the NT), Matthew 24:12 the love of many growing cold (psycho G5594, hapax) as lawlessness multiplies (anomia G0458), and Luke 18:8 questioning whether the Son of Man will find faith. Each pattern is internally coherent, each rests on real recurring vocabulary, and the lexicon does not adjudicate which pattern fixes the trajectory of the age. The pattern is therefore materially contested."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2193",
+        "lemma": "ἕως",
+        "transliteration": "heos",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0891",
+        "lemma": "ἄχρι",
+        "transliteration": "achri",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1534",
+        "lemma": "εἶτα",
+        "transliteration": "eita",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0936",
+        "lemma": "βασιλεύω",
+        "transliteration": "basileuo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0932",
+        "lemma": "βασιλεία",
+        "transliteration": "basileia",
+        "occurrences_in_canon": 165,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2190",
+        "lemma": "ἐχθρός",
+        "transliteration": "echthros",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1484",
+        "lemma": "ἔθνη",
+        "transliteration": "ethne",
+        "occurrences_in_canon": 167,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2219",
+        "lemma": "ζύμη",
+        "transliteration": "zyme",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4615",
+        "lemma": "σίναπι",
+        "transliteration": "sinapi",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0837",
+        "lemma": "αὐξάνω",
+        "transliteration": "auxano",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0646",
+        "lemma": "ἀποστασία",
+        "transliteration": "apostasia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5467",
+        "lemma": "χαλεπός",
+        "transliteration": "chalepos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0458",
+        "lemma": "ἀνομία",
+        "transliteration": "anomia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5594",
+        "lemma": "ψύχω",
+        "transliteration": "psycho",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5704",
+        "lemma": "עַד",
+        "transliteration": "ad",
+        "occurrences_in_canon": 1263,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3427",
+        "lemma": "יָשַׁב",
+        "transliteration": "yashav",
+        "occurrences_in_canon": 1088,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1471A",
+        "lemma": "גּוֹי",
+        "transliteration": "goy",
+        "occurrences_in_canon": 511,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0319",
+        "lemma": "אַחֲרִית",
+        "transliteration": "acharith",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8451",
+        "lemma": "תּוֹרָה",
+        "transliteration": "torah",
+        "occurrences_in_canon": 219,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4390",
+        "lemma": "מָלֵא",
+        "transliteration": "male",
+        "occurrences_in_canon": 235,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1847",
+        "lemma": "דַּעַת",
+        "transliteration": "daath",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3519",
+        "lemma": "כָּבוֹד",
+        "transliteration": "kavod",
+        "occurrences_in_canon": 200,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2193",
+      "G0891",
+      "G1534",
+      "G0936",
+      "G0932",
+      "G2190",
+      "G1484",
+      "G2219",
+      "G4615",
+      "G0837",
+      "G0646",
+      "G5467",
+      "G0458",
+      "G5594",
+      "H5704",
+      "H3427",
+      "H1471A",
+      "H0319",
+      "H8451",
+      "H1961",
+      "H4390",
+      "H1847",
+      "H3519"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.28.18",
+        "key_terms": [
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "All authority (pasa exousia) in heaven and on earth has been given to the risen Christ. The verse establishes present universal authority but says nothing lexically about the temporal sequence of his return relative to any earthly golden age, so it underdetermines the millennial question and is consistent with all three lenses.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνη"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Disciple panta ta ethne, all the nations. The participle poreuthentes plus aorist imperative matheteusate carries a global scope, and a postmillennial reading argues the commission lexically anticipates effective universal discipling within history. But the verb matheteusate (make disciples of) governs ethne as object without lexically predicting what proportion of each ethnos will be discipled, and the commission is consistent with a faithful witness whose ingathered fruit is real but not exhaustive prior to the parousia.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.20",
+        "key_terms": [
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "Christ promises presence heos tes synteleias tou aionos, until the consummation of the age. The heos clause marks the duration of his presence to the age's end but does not describe a progressively transformed world, leaving the trajectory of the age open.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.110.1",
+        "key_terms": [
+          {
+            "strong": "H3427",
+            "lemma": "יָשַׁב"
+          },
+          {
+            "strong": "H5704",
+            "lemma": "עַד"
+          },
+          {
+            "strong": "H0341",
+            "lemma": "אֹיֵב"
+          }
+        ],
+        "force": "Sit (shev, imperative of yashav) at my right hand ad (until) I make your enemies a footstool. The ad-clause sets the session continuing until enemies are subdued, but Hebrew ad marks a terminus only and does not specify whether the subjugation occurs gradually through the present age (postmillennial reading) or decisively at the end (premillennial or amillennial reading). The lexicon supplies sequence, not mechanism.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.2.2",
+        "key_terms": [
+          {
+            "strong": "H0319",
+            "lemma": "אַחֲרִית"
+          },
+          {
+            "strong": "H1471",
+            "lemma": "גּוֹי"
+          },
+          {
+            "strong": "H1961",
+            "lemma": "הָיָה"
+          }
+        ],
+        "force": "In the latter days (b'acharit hayamim) the mountain of the LORD's house is established and all nations (kol hagoyim) stream to it. The verb naharu (qal of nahar, flow) pictures nations flowing in, supporting a vision of widespread submission of the goyim, but the timeframe relative to Christ's return is not lexically fixed by acharit.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.2.3",
+        "key_terms": [
+          {
+            "strong": "H7227",
+            "lemma": "רַב"
+          },
+          {
+            "strong": "H5971",
+            "lemma": "עַם"
+          },
+          {
+            "strong": "H8451",
+            "lemma": "תּוֹרָה"
+          }
+        ],
+        "force": "Many peoples (ammim rabbim) go up to be taught the torah of the LORD, which goes out from Zion. The breadth of peoples instructed supports a vision of global gospel reach, yet the passage does not state that this precedes rather than accompanies the consummation.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.2.4",
+        "key_terms": [
+          {
+            "strong": "H2719",
+            "lemma": "חֶרֶב"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          },
+          {
+            "strong": "H1471",
+            "lemma": "גּוֹי"
+          }
+        ],
+        "force": "Nations beat swords (charavot) into plowshares and learn war (milchamah) no more (lo). The picture of universal peace among the goyim is concrete, but whether this peace is achieved by progressive gospel triumph before the return or by direct divine judgment at the end is precisely what the words do not settle.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Hab.2.14",
+        "key_terms": [
+          {
+            "strong": "H4390",
+            "lemma": "מָלֵא"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H3519",
+            "lemma": "כָּבוֹד"
+          }
+        ],
+        "force": "The earth will be filled (timmale, niphal of male, fill, occurring 235 times in the OT) with the knowing (daath, from yada H3045, 860 occurrences) of the glory (kavod) of the LORD as the waters cover (kasah) the sea. The verb male carries the sense of filling to capacity, and the comparison ka'asher yekasu al-yam, as the waters cover the sea, is a totalizing simile pointing to a universally diffused knowledge of YHWH's glory. A postmillennial reading takes this as a real, in-history pre-parousia state. The verse fixes the breadth (the whole earth) but not the temporal sequence relative to Christ's return.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.11.9",
+        "key_terms": [
+          {
+            "strong": "H4390",
+            "lemma": "מָלֵא"
+          },
+          {
+            "strong": "H1844",
+            "lemma": "דֵּעָה"
+          },
+          {
+            "strong": "H3680",
+            "lemma": "כָּסָה"
+          }
+        ],
+        "force": "They shall not hurt (lo yare'u) nor destroy (lo yashchitu) in all my holy mountain, for the earth (ha'aretz) shall be full (mal'ah, qal of male) of the deah (knowledge, H1844, a noun cognate of yada) of the LORD as the waters cover (kasah) the sea. Parallel to Hab 2:14. The construction with male plus the genitive of content (knowledge of the LORD) and the kol ha'aretz scope describes universal saturation; on a postmillennial reading the saturation precedes the return, on the other readings it accompanies or follows it.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.13.31",
+        "key_terms": [
+          {
+            "strong": "G4615",
+            "lemma": "σίναπι"
+          },
+          {
+            "strong": "G0837",
+            "lemma": "αὐξάνω"
+          },
+          {
+            "strong": "G0932",
+            "lemma": "βασιλεία"
+          }
+        ],
+        "force": "The kingdom (basileia) is like a grain of mustard (sinapi, G4615, 5 NT occurrences) which a man takes and sows. Sinapi occurs only in this parable (Matt 13:31, Mark 4:31, Luke 13:19) and in the saying about faith as a grain of sinapi (Matt 17:20, Luke 17:6). The lexical force is a smallest-to-largest size contrast (the small seed becoming a tree where birds nest). The contrast is real but does not lexically fix WHEN the growth completes (within history before the parousia, on a postmillennial reading, or only at the consummation).",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.13.33",
+        "key_terms": [
+          {
+            "strong": "G2219",
+            "lemma": "ζύμη"
+          },
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          }
+        ],
+        "force": "The kingdom is like leaven (zyme, G2219) which a woman hid (enekrupsen, aorist of enkrupto) in three measures of flour heos hou ezymothe holon, until the whole was leavened. Zyme has 13 NT occurrences. Outside this parable the term is consistently negative or corrupting: the leaven of the Pharisees and Herod (Matt 16:6, 16:11, 16:12, Mark 8:15, Luke 12:1), and a little leaven leavens the whole lump used twice by Paul of corrupting influence (1 Cor 5:6, Gal 5:9, with 1 Cor 5:7-8 contrasting old leaven of malice with unleavened sincerity). The Matt 13:33 use is the lone neutral or positive occurrence, where the heos clause points to complete permeation. A postmillennial reading takes the permeation as the future gospel saturation of the world; a counter-reading observes that the same vocabulary elsewhere in the NT describes corruption hidden in dough, which dampens the case from semantic field alone. The grammar of heos hou ezymothe gives a terminus of complete permeation but does not lexically fix that the permeation completes before Christ returns.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.24",
+        "key_terms": [
+          {
+            "strong": "G1534",
+            "lemma": "εἶτα"
+          },
+          {
+            "strong": "G0932",
+            "lemma": "βασιλεία"
+          },
+          {
+            "strong": "G3752",
+            "lemma": "ὅταν"
+          }
+        ],
+        "force": "eita to telos, then the end, hotan (whenever) he hands the kingdom (basileia) to the Father and abolishes all rule and authority. The adverb eita marks the end as a distinct following stage of an ordered sequence (firstfruits, then those of Christ at his coming, then the end in 15:23-24), but it does not describe the prior reign as a progressive earthly transformation rather than a present session terminating at the parousia. eita supplies sequence, not mechanism.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.25",
+        "key_terms": [
+          {
+            "strong": "G0891",
+            "lemma": "ἄχρι"
+          },
+          {
+            "strong": "G0936",
+            "lemma": "βασιλεύω"
+          },
+          {
+            "strong": "G2190",
+            "lemma": "ἐχθρός"
+          }
+        ],
+        "force": "dei gar auton basileuein achri hou the, he must reign (basileuo, G0936, 21 NT occurrences) until (achri) he has put all enemies (echthrous) under his feet. The achri marks the reign continuing up to the subjugation of enemies, echoing Psalm 110:1, but the manner of subjugation (gradual through gospel advance, on a postmillennial reading, or decisive at the end, on the other readings) is not specified, which is the heart of the dispute.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.15.25",
+        "to": "Ps.2.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Ps.2.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.2.2",
+        "to": "Mic.4.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.2.2",
+        "to": "Isa.11.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.2.4",
+        "to": "Isa.9.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.24",
+        "to": "Isa.9.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Ps.22.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.11.9",
+        "to": "Hab.2.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.13.31",
+        "to": "Matt.13.33",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Luke.18.8",
+        "addressed": true,
+        "resolution": "ara ho huios tou anthropou elthon ara heuresei ten pistin epi tes ges, when the Son of Man comes will he find the faith on the earth. The disjunctive particle ara introduces a question expecting a doubtful or negative answer, and the future heuresei locates the finding at the parousia. The construction does not flatly deny that faith will be found, but it lexically presupposes a state at the return where finding faith is uncertain, which cuts against a uniformly progressive transformation reading. It is acknowledged as a real counterweight that keeps the trajectory lexically open rather than resolving toward triumph."
+      },
+      {
+        "ref": "Matt.24.12",
+        "addressed": true,
+        "resolution": "kai dia to plethynthenai ten anomian psygesetai he agape ton pollon, and because lawlessness (anomia, G0458, 16 NT occurrences) is multiplied (plethynthenai, aorist passive infinitive of plethyno) the love (agape) of the many (ton pollon) will grow cold (psygesetai, future passive of psycho, G5594, a NT hapax). The hapax psycho is a thermal metaphor of cooling, lexically the strongest single counter-witness to a progressive warming of love across the age. anomia paired with plethyno depicts increase, not decrease, of lawlessness. The vocabulary depicts a trajectory inverse to what a postmillennial reading expects. It is recognized as a primary complication; one reading reconciles it as a local turbulence within a larger upward trend, but the words themselves point downward."
+      },
+      {
+        "ref": "Matt.13.30",
+        "addressed": true,
+        "resolution": "aphete synauxanesthai amphotera heos tou therismou, allow both to grow together (synauxanesthai, present passive infinitive of synauxano, a cognate of auxano) until the harvest (therismou) at the end of the age. The coexistence of wheat and tares up to the consummation tempers a reading in which evil is progressively eliminated before the return; the same root auxano that supports kingdom growth here qualifies that growth as parallel to weed growth, not as replacement of it. The leaven simile of Matthew 13:33 cannot be made to carry the postmillennial sense on lexical grounds alone because the immediately preceding parable insists on co-growth."
+      },
+      {
+        "ref": "2Tim.3.1",
+        "addressed": true,
+        "resolution": "en eschatais hemerais enstesontai kairoi chalepoi, in the last days there will come (enstesontai, future middle of enistemi) difficult times (chalepoi kairoi). The adjective chalepos (G5467) has only two NT occurrences, the other being Matt 8:28 of demoniacs as exceedingly dangerous, so its only end-time use is here, with the lexical sense of harsh, hard, perilous. The catalogue that follows (3:2-5) describes moral decline by accumulation of negative-prefixed terms (philautoi, aphilagathoi, anosioi, apaideutoi). The vocabulary depicts a perilous-last-days trajectory in tension with progressive global transformation. It is addressed as a recognized complication; one reading takes chalepoi kairoi as describing pockets of moral collapse not the global trajectory, but the eschatais hemerais frame fixes this against the whole last-days era, not an episode within it."
+      },
+      {
+        "ref": "2Thess.2.3",
+        "addressed": true,
+        "resolution": "ean me elthe he apostasia proton kai apokalyphthe ho anthropos tes anomias, unless the apostasy comes first and the man of lawlessness is revealed. The noun apostasia (G0646) has only 2 NT occurrences, the other (Acts 21:21) accusing Paul of teaching apostasy from Moses, so the eschatological sense here is effectively a hapax. The clause makes the apostasia and the anomos figure preconditions of the parousia (hemera tou kyriou, 2:2), which presupposes a falling-away rather than a triumph immediately before Christ's return. It is acknowledged as a counterweight; a postmillennial reading places the apostasia at the very end of a long age of triumph, but the lexical sequencing (proton, first) of apostasia before the day of the Lord is a real pressure on a smooth-triumph reading."
+      },
+      {
+        "ref": "Rev.20.7",
+        "addressed": false,
+        "resolution": "Whenever the thousand years are completed (otan telesthe ta chilia ete) Satan will be loosed (lythesetai) from his prison and will go out to deceive (planesai) the nations (ta ethne). On any reading that ties the chilia ete to a pre-parousia gospel age, this final loosing of Satan to deceive the nations again describes a sharp end-of-age reversal of the kingdom-saturation pattern. It is not resolved here because the analysis of Rev 20 vocabulary is carried in the sibling amillennialism and premillennialism evidence files, and a full canon traversal of planao and the otan-clause sequencing was not redone in this pass."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited Matthean and Pauline verses carry minor apparatus marks (for example the relative pronoun in 1 Corinthians 15:25 and verb forms in Matthew 28:19-20 and Matthew 13:33), but none of these readings shift the temporal-sequence question that the proposition turns on. Revelation 20 and 2 Thessalonians 2 are outside the open-cbgm 3 John sample, so CBGM data was not consulted and ecm status is treated as shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "postmillennialism",
+      "amillennialism",
+      "premillennialism",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "postmillennialism",
+        "verdict": "affirms",
+        "rationale": "Reads the kingdom-growth parables of Matthew 13 (mustard seed sinapi, leaven zyme, with auxano of word-spread in Acts 6:7 and 12:24 and 19:20) together with the earth-filled-with-knowledge oracles of Habakkuk 2:14 and Isaiah 11:9 (male plus daath or deah of YHWH, kasah-the-sea simile of total saturation), the streaming of nations in Isaiah 2:2-4 (naharu, kol hagoyim), and the reign-until-enemies of Psalm 110:1 and 1 Corinthians 15:25 (ad, achri) as a single trajectory of gospel triumph that progressively transforms the world before Christ returns. On this reading the apostasy texts describe localized final-stage reversal, not the trajectory of the whole age, and Rev 20's binding of Satan is the present-age restraint on deceiving the nations that lexically enables the gospel saturation."
+      },
+      {
+        "framework": "amillennialism",
+        "verdict": "denies",
+        "rationale": "Takes Psalm 110:1 and 1 Corinthians 15:25 as the present heavenly session in which Christ already reigns until the parousia, with the kingdom advancing spiritually while wheat and tares coexist (Matthew 13:30 synauxanesthai) until a single end. The Isaiah 2 and Habakkuk 2 oracles are read as the consummated new creation, not a pre-parousia stage. The kingdom-growth parables describe the kingdom's real but mixed advance in the present age, not a future earthly golden epoch. On this lens the until-clauses do not require a transformed world before the return, and the proposition is denied."
+      },
+      {
+        "framework": "premillennialism",
+        "verdict": "denies",
+        "rationale": "Reads eita to telos and the subjugation of enemies as occurring at and after the parousia, with the golden age of Isaiah 2:2-4, Habakkuk 2:14, and Isaiah 11:9 located in a post-return reign rather than achieved by gospel triumph beforehand. The apostasy texts (2 Tim 3:1 chalepoi kairoi, 2 Thess 2:3 apostasia, Matt 24:12 anomia plethyno and agape psycho) describe the end of the present age, not the eschatological end of a triumphant epoch. On this lens Christ returns before, not after, the age of universal peace, so the proposition is denied."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "denies",
+        "rationale": "Locates the Isaiah 2 peace and Habakkuk 2 earth-filled knowledge in a future earthly millennial kingdom inaugurated by Christ's return, and reads the present age as ending in apostasia (2 Thess 2:3) rather than triumph. The Great Commission is discipling without a guarantee of worldwide transformation before the parousia, and the kingdom parables describe the church age's mixed character rather than its progressive conquest. On this lens the proposition is denied."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal and eschatological arc connecting Psalm 110, Isaiah 2, Habakkuk 2, Isaiah 11, the Great Commission, the kingdom parables, and 1 Corinthians 15, hence the redemptive-historical method. The same Hebrew and Greek terms (ad, achri, eita, naharu, male, zyme, sinapi, auxano) sustain mutually exclusive sequence readings, and the apostasy vocabulary (chalepos, apostasia, anomia, psycho) supplies a real second canonical pattern. The lexicon alone does not adjudicate between the frameworks. Each lens above is stated in its strongest lexical form so a reader holding any one is fairly represented."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture describes the temporal relationship between Christ's return, the subjugation of his enemies, and any age of widespread gospel peace among the nations, and whether that peace is achieved before or at the parousia.",
+    "notes": "The original stem embeds the postmillennial thesis as a premise by asserting an extended age of gospel triumph in which the kingdom progressively transforms the world and placing Christ's return after it. The phrases progressively transforms and after an extended age of gospel triumph presuppose the very sequence and mechanism in dispute. The verdict was derived on the original stem, but the neutralized form states the underlying question without assuming the outcome. Verdict unchanged from the prior file. Deepening over the prior file added a second canonical pattern (chalepos, apostasia, anomia, psycho) to balance the kingdom-growth pattern (sinapi, zyme, auxano, male, daath, kavod) symmetrically, ran direct canon-distribution queries for the load-bearing lemmas, and harmonized the three-lens framing with sibling doc-amillennialism and doc-premillennialism (each there also disputed, low confidence)."
+  },
+  "lay_summary": "This proposition asks whether Christ returns only after a long age in which the gospel gradually transforms the whole world into a kingdom of peace. The honest answer from the words alone is that the canon supplies two real patterns and does not rank them. The first pattern is kingdom-growth. The mustard-seed parable and the leaven parable (Matthew 13:31-33) picture a small beginning that ends with a whole leavened lump or a tree where birds nest, and the verb for grow is the same verb the book of Acts uses for the word of God increasing (6:7, 12:24, 19:20). Habakkuk 2:14 and Isaiah 11:9 say the earth will be filled with the knowledge of the LORD as the waters cover the sea, where the Hebrew word for fill carries the sense of filling to capacity. Psalm 110:1 and 1 Corinthians 15:25 say the Messiah reigns until enemies are subdued. Read together these supply a vision of expanding, victorious kingdom. The second pattern is apostasy and difficulty at the end. 2 Timothy 3:1 calls the last days difficult or perilous (the adjective occurs only twice in the New Testament). 2 Thessalonians 2:3 says the day of the Lord does not come unless the apostasia, the falling away, comes first (the noun also occurs only twice). Matthew 24:12 says lawlessness will be multiplied and the love of many will grow cold (the verb for grow cold is a New Testament hapax, used only here). Luke 18:8 asks whether the Son of Man will find faith on the earth at his coming. Read together these supply a vision of end-time reversal. The until-words in Psalm 110:1 and 1 Corinthians 15:25 mark a terminus without saying whether the subjugation arrives slowly or suddenly. The leaven of Matthew 13:33 carries unambiguous gospel-saturation force here, but every other New Testament use of the same word is corrupting influence (the leaven of the Pharisees, a little leaven leavens the whole lump), which dampens any argument from semantic field alone. Both patterns are internally coherent, both rest on real recurring vocabulary, and the lexicon does not adjudicate. The lexical evidence is therefore genuinely contested rather than decisive.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.110.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Hab.2.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.11.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4390"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5704"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0891"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2219"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4615"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0837"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0646"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5594"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.13.33"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.1"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.2.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.15.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Hab.2.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include ETCBC-BHSA and MACULA-Greek, both licensed CC-BY-NC-4.0, which prohibits bulk redistribution. ETCBC was used for Hebrew clause function on Isaiah 2 and MACULA-Greek for Greek interlinear anchoring on Matthew 28, so the assembled evidence is not safe for unrestricted publication."
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "complicating-unresolved",
+    "ecm-shadow"
+  ]
+}

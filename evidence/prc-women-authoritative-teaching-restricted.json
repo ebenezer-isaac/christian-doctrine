@@ -1,0 +1,554 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-women-authoritative-teaching-restricted",
+  "question_id": "prc-women-authoritative-teaching-restricted",
+  "generated_at": "2026-05-27T22:10:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.675,
+    "confidence": "low",
+    "variant_robust": false,
+    "pan_canonical": false,
+    "rationale": "This practice proposition turns on the same contested diction as the parallel office question, but applied to the activity of authoritative teaching of mixed adults rather than to a named office. A direct query of the lexical store confirms the load-bearing words. In 1 Tim 2:12 the form is didaskein (G1321, present active infinitive) de gynaiki ouk epitrepo (G2010, present active indicative first singular) oude authentein (G0831, present active infinitive) andros. The verb authenteo occurs exactly once in the entire New Testament, only at 1 Tim 2:12, so the canon supplies no second use to fix its force between to exercise ordinary authority and to domineer or usurp, and the two present infinitives joined by oude may name two distinct prohibited acts or one composite idea, to teach in a domineering manner. In 1 Cor 14:34 the verb is the general sigao (G4601, let them keep silent) and the still more general lalein (G2980, to speak), not a verb specific to authoritative teaching, and sigao occurs three times in this one chapter (verses 28, 30, 34), the first two each inside an ean conditional governing a specific disorder, so the scope of the women command is contestable between an absolute ban and a setting-bound regulation. Against the restrictive reading stand attested instances of female word ministry in the same vocabulary, a woman propheteuousa (G4395, present active participle, feminine) in 1 Cor 11:5 whose practice is regulated rather than forbidden, the four prophesying daughters of Acts 21:9 (same lemma), and Priscilla, named before Aquila in 1 Cor and Acts witnesses, who with him exethento (G1620, expounded) the way of God to Apollos. Because the same lemmas yield more than one grammatically defensible reading, the lexical pattern is materially contested rather than decisive."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0831",
+        "lemma": "αὐθεντέω",
+        "transliteration": "authenteo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1321",
+        "lemma": "διδάσκω",
+        "transliteration": "didasko",
+        "occurrences_in_canon": 97,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2010",
+        "lemma": "ἐπιτρέπω",
+        "transliteration": "epitrepo",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4601",
+        "lemma": "σιγάω",
+        "transliteration": "sigao",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2980",
+        "lemma": "λαλέω",
+        "transliteration": "laleo",
+        "occurrences_in_canon": 297,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3129",
+        "lemma": "μανθάνω",
+        "transliteration": "manthano",
+        "occurrences_in_canon": 25,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2271",
+        "lemma": "ἡσυχία",
+        "transliteration": "hesychia",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4395",
+        "lemma": "προφητεύω",
+        "transliteration": "propheteuo",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1620",
+        "lemma": "ἐκτίθημι",
+        "transliteration": "ektithemi",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2567",
+        "lemma": "καλοδιδάσκαλος",
+        "transliteration": "kalodidaskalos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2776",
+        "lemma": "κεφαλή",
+        "transliteration": "kephale",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1818",
+        "lemma": "ἐξαπατάω",
+        "transliteration": "exapatao",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0538",
+        "lemma": "ἀπατάω",
+        "transliteration": "apatao",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0207",
+        "lemma": "Ἀκύλας",
+        "transliteration": "Akylas",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0177",
+        "lemma": "ἀκατακάλυπτος",
+        "transliteration": "akatakalyptos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0831",
+      "G1321",
+      "G1320",
+      "G2010",
+      "G4601",
+      "G2980",
+      "G5293",
+      "G3129",
+      "G2271",
+      "G4395",
+      "G4396",
+      "G1620",
+      "G2567",
+      "G2776",
+      "G0076",
+      "G1818",
+      "G0538",
+      "G0207",
+      "G0177",
+      "G1135",
+      "G0435"
+    ],
+    "scripture": [
+      {
+        "ref": "1Tim.2.12",
+        "key_terms": [
+          {
+            "strong": "G0831",
+            "lemma": "αὐθεντέω"
+          },
+          {
+            "strong": "G1321",
+            "lemma": "διδάσκω"
+          },
+          {
+            "strong": "G2010",
+            "lemma": "ἐπιτρέπω"
+          }
+        ],
+        "force": "didaskein de gynaiki ouk epitrepo oude authentein andros, all einai en hesychia, I do not permit a woman to teach or to authentein over a man, but to be in quietness. A direct morphology query gives didaskein as a present active infinitive, epitrepo as a present active indicative first person singular, and authentein as a present active infinitive, with the two infinitives joined by oude. The whole prohibition on authoritative teaching depends on the sense of authenteo, which a concordance query confirms occurs nowhere else in the New Testament, so its force between to hold ordinary authority and to domineer or usurp cannot be triangulated from any parallel. The first person present epitrepo can express a standing rule or a directive issued into a particular situation, and the didaskein oude authentein pair can be two separate prohibited acts or one composite idea, to teach in a domineering way, neither of which the morphology alone decides.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.11",
+        "key_terms": [
+          {
+            "strong": "G3129",
+            "lemma": "μανθάνω"
+          },
+          {
+            "strong": "G2271",
+            "lemma": "ἡσυχία"
+          }
+        ],
+        "force": "gyne en hesychia manthaneto en pase hypotage, let a woman learn in quietness in all submission. The imperative manthaneto, let her learn, is a positive command that a woman be a learner of doctrine, and a concordance query shows hesychia occurs four times, including 2 Thess 3:12 where it describes working quietly and a settled manner of life rather than strict muteness, and Acts 22:2 of a crowd growing quiet to listen. Whether the en hesychia frame restricts only the manner of receiving instruction or grounds a wider ban on a woman teaching mixed adults is not fixed by the noun, which marks demeanor without specifying the scope of the activity it governs.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.13",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G1818",
+            "lemma": "ἐξαπατάω"
+          }
+        ],
+        "force": "Adam gar protos eplasthe, eita Eua, for Adam was formed first, then Eve, with 1 Tim 2:14 adding that Adam was not deceived, ouk epatethe, the simple apatao, but the woman, exapatetheisa, the intensive compound exapatao, came to be in transgression. The gar introduces a ground for the preceding directive, and the appeal to the formation order pulls the prohibition toward a trans-cultural basis. A query shows exapatao occurs six times and is not gender bound, the same compound describes Eve deceived by the serpent in 2 Cor 11:3 and men deceived in Rom 16:18 and 1 Cor 3:18, so the deception clause states a fact about the Eden episode without by its lexis fixing whether the formation-order ground makes the teaching restriction permanent or addresses a particular local error.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.34",
+        "key_terms": [
+          {
+            "strong": "G4601",
+            "lemma": "σιγάω"
+          },
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          },
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          }
+        ],
+        "force": "hai gynaikes en tais ekklesiais sigatosan, ou gar epitrepetai autais lalein, alla hypotassesthosan, the women are to keep silent in the assemblies, for it is not permitted to them to speak, but to be in submission. A direct query confirms the verb is sigao, the same lexeme used twice earlier in this one chapter, at 1 Cor 14:28 where a tongue-speaker is to keep silent if there is no interpreter and at 1 Cor 14:30 where a prophet is to keep silent when another receives a revelation, both inside an ean, if, conditional governing a specific disorder. The prohibited activity is named with the general lalein, to speak, and the permission verb is the present passive epitrepetai. The proximity of three setting-bound silencings and the use of a general speech verb rather than a verb specific to authoritative teaching make the scope of the women command contestable between an absolute prohibition and a regulation of disruptive speech.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.3",
+        "key_terms": [
+          {
+            "strong": "G2567",
+            "lemma": "καλοδιδάσκαλος"
+          },
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          }
+        ],
+        "force": "presbytidas ... kalodidaskalous, the older women are to be teachers of good, hina sophronizosin tas neas, so that they may train the young women. A concordance query shows kalodidaskalos is itself a hapax occurring only here, and it carries the didask- root and assigns a recognized teaching function to women, but the stated object is tas neas, the younger women, and the trained content in the following clauses is domestic and moral. The text shows that female teaching is positively commanded in one direction, while leaving open whether that warrant extends to authoritative teaching of mixed adults, since the compound names a teaching role without specifying its audience as mixed.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.18.26",
+        "key_terms": [
+          {
+            "strong": "G0207",
+            "lemma": "Ἀκύλας"
+          },
+          {
+            "strong": "G1620",
+            "lemma": "ἐκτίθημι"
+          }
+        ],
+        "force": "proselabonto auton kai akribesteron auto exethento ten hodon tou theou, they took him aside and set out the way of God to him more accurately. A direct query of the token order confirms Priscilla is named before Aquila in this witness, and the plural verb exethento, from ektithemi, set out or expound, governs a doctrinal object, the way of God, with the man Apollos as the one instructed. A concordance query shows ektithemi occurs four times and the same verb is used of Paul expounding the kingdom of God in Acts 28:23, so the lexeme assigns serious doctrinal exposition to the couple in which the woman is named first. The narrative depicts a woman participating in doctrinal correction of a man, which complicates an absolute ban on a woman instructing a man, though the verb proselabonto marks a private taking-aside rather than the public assembly, so it does not by itself establish authoritative public teaching over mixed adults.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.5",
+        "key_terms": [
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          },
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          }
+        ],
+        "force": "pasa de gyne proseuchomene e propheteuousa akatakalypto te kephale, every woman praying or prophesying with her head uncovered. A direct morphology query gives propheteuousa as a present active participle, nominative singular feminine, attached to gyne, a woman, so the verse plainly assumes audible prophetic speech by a woman in the gathering and only regulates how she does it. A concordance query shows propheteuo occurs twenty eight times, including the four prophesying daughters of Acts 21:9, the same lemma, so female prophetic speech is an attested canonical category. Because prophesying is Spirit-prompted speech to the assembly, this complicates a blanket silence, though the lexemes leave open whether prophesying counts as the authoritative didaskein that 1 Tim 2:12 restricts, so the relation between prophetic speech and authoritative teaching is itself part of the contested question.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Tim.2.13",
+        "to": "Gen.1.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.14",
+        "to": "Gen.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.11",
+        "to": "Gen.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.15",
+        "to": "Gen.3.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.34",
+        "to": "1Cor.14.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.18.26",
+        "to": "Acts.14.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.18.26",
+        "to": "Acts.8.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.5",
+        "to": "Deut.21.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.2.5",
+        "to": "Gen.3.16",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.18.26",
+        "addressed": true,
+        "resolution": "A token-order query confirms Priscilla is named before Aquila in this witness, and the plural verb exethento, from ektithemi, set out or expound, governs the doctrinal object the way of God with the man Apollos as the one instructed. The same verb describes Paul expounding the kingdom in Acts 28:23, so it denotes serious doctrinal exposition. It is addressed by noting that the verb proselabonto marks a private taking-aside rather than the public assembly, so the narrative shows female doctrinal instruction of a man without establishing authoritative public teaching over a mixed assembly. The text genuinely pulls against an absolute ban on a woman instructing a man, which is why it contributes to the disputed verdict rather than being neutralized."
+      },
+      {
+        "ref": "1Cor.11.5",
+        "addressed": true,
+        "resolution": "A morphology query gives propheteuousa as a present active participle, nominative singular feminine, attached to gyne, a woman, so the verse assumes audible prophetic speech by a woman in the gathering and only regulates how. The same lemma propheteuo describes the four prophesying daughters of Acts 21:9. It is addressed by observing that the lexemes do not settle whether prophesying is the same act as the authoritative didaskein restricted in 1 Tim 2:12, so the passage establishes that some female speech in the assembly is assumed without deciding that authoritative teaching is included. The relation between prophetic speech and authoritative teaching is itself part of the contested matter, so the text complicates without resolving."
+      },
+      {
+        "ref": "Titus.2.3",
+        "addressed": true,
+        "resolution": "A concordance query confirms kalodidaskalos is a hapax occurring only here, built on the didask- root, which assigns a recognized teaching function to older women. It is addressed by noting that the stated object is the younger women, tas neas, and the content in the following clauses is domestic and moral, so the warrant for female teaching is explicit but directed, leaving open whether it reaches authoritative teaching of mixed adults. The term shows female teaching is positively commanded in one direction without settling the disputed direction."
+      },
+      {
+        "ref": "1Cor.14.34",
+        "addressed": false,
+        "resolution": "The silence command is widely held to carry a transposition in part of the manuscript tradition, where some Western witnesses place verses 34 and 35 after verse 40, and some have argued the unit is a later insertion, which bears on how absolutely the command should be read. A direct query of the lexical store confirms the ingested variant units cover the 3 John window only, the targeted search for any variant unit in 1 Corinthians 14 returns nothing, and not_in_ecm_scope is true for these anchors, so the placement and originality question cannot be examined on the available data. The matter is therefore left unresolved and flagged, and it is part of why the verdict is recorded as variant-sensitive."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "A direct query of the lexical store confirms the ingested variant units are scoped to 3 John only, the search for any variant unit in 1 Corinthians 14 returned zero results, and not_in_ecm_scope is true for the cited anchors. The 1 Corinthians 14:34-35 unit is nonetheless well known to carry a transposition in part of the Western tradition, where the verses appear after verse 40, and the surface text of the anchor verses shows editorial sigla at gynaikes and at the verbs, marking a contested unit. Because the originality and placement of the silence command bear directly on how absolutely it should be read, the verdict is marked variant-sensitive. These books fall outside the published CBGM scope, which covers 3 John only, so the status is recorded as ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "complementarian",
+      "egalitarian",
+      "redemptive_movement"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "complementarian",
+        "verdict": "disputed-leaning-affirm",
+        "rationale": "Reads ouk epitrepo in 1 Tim 2:12 as a standing rule rather than a momentary directive, takes the present infinitives didaskein and authentein as two distinct prohibited acts, authoritative teaching of and the exercise of authority over a man, and grounds the rule trans-culturally on the creation-order gar of 1 Tim 2:13, noting that the appeal is to the order of formation in Eden rather than to a local custom. It reads the 1 Cor 14:34 sigao as governing the authoritative or judging speech proper to the assembly and the appeal to the law as a covenantal warrant. It construes 1 Cor 11:5 prophesying and Acts 18:26 as non-authoritative or private forms of speech, the prophesying being subject to the weighing of others and the Acts scene a private taking-aside, and Titus 2:3 kalodidaskalos as teaching directed to younger women, so that none of the complicating texts licenses a woman in authoritative public teaching of mixed adults. On this reading authenteo most naturally denotes ordinary authority, and a woman exercising the teaching office over men is what the verse forecloses."
+      },
+      {
+        "framework": "egalitarian",
+        "verdict": "disputed-leaning-deny",
+        "rationale": "Reads the hapax authenteo, attested nowhere else in the canon, as carrying its pejorative sense, to domineer or to usurp authority, so that didaskein oude authentein forms one composite idea, to teach in a domineering manner, which forbids overbearing rather than ordinary teaching. It takes the present epitrepo and the en hesychia frame, where hesychia means a settled quiet demeanor as in 2 Thess 3:12, as addressing a particular disorder rather than stating a permanent canon. It reads the 1 Cor 14:34 sigao alongside the chapter's other situational silencings at verses 28 and 30 and the general verb lalein as disruptive speech, perhaps interrupting questioning, hence the directive to ask at home. It takes 1 Cor 11:5, where a woman audibly prophesies in the gathering, Acts 21:9 prophesying daughters, Acts 18:26 where Priscilla is named first and exethento doctrine to a man, and Titus 2:3 female teaching together as evidence that the restriction is not an absolute bar on a woman teaching mixed adults."
+      },
+      {
+        "framework": "redemptive_movement",
+        "verdict": "disputed",
+        "rationale": "Reads the restrictive directives as a step within a trajectory whose direction, traced from the female word ministry of 1 Cor 11:5, Acts 21:9, Acts 18:26, and Titus 2:3, points beyond the first-century application, so that the lexemes describe an apostolic instruction whose permanence is itself the contested question rather than a datum the words settle. On this reading the creation-order gar anchors the instruction in its setting while the canonical presence of women prophesying and expounding signals movement, and the words do not by themselves rank the restrictive against the inclusive texts."
+      }
+    ],
+    "notes": "All three lenses operate on the same queried anchor lemmas and reach different conclusions by assigning different senses to the hapax authenteo, by reading the present epitrepo and sigao as either standing rules or situational directives, by construing the en hesychia frame as either demeanor or full silence, and by deciding whether prophesying and expounding count as the authoritative didaskein under restriction. A reader holding any one lens should find its strongest lexical form represented here. The disagreement is over the sense and scope of contested lexemes and the relation between teaching and other word ministries, not over the agreed morphology, which the queries confirm, so the lexical pattern is contested rather than decisive."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Determine whether the canonical lexical pattern restricts the activity of authoritative doctrinal teaching of mixed adult assemblies to men, examining the restrictive diction of 1 Tim 2:11-14 and 1 Cor 14:34-35 alongside the texts that depict female word ministry such as 1 Cor 11:5, Acts 21:9, Acts 18:26, and Titus 2:3, without presupposing which set of texts controls or that authoritative teaching is a fixed category in the cited words.",
+    "notes": "The stem phrases the proposition as a restriction on women exercising authoritative teaching ministry over mixed adult assemblies, which already encodes a particular harmonization of the restrictive and the inclusive texts and labels one configuration as the norm. The categories authoritative teaching ministry, mixed adult assemblies, and sermon preaching are not themselves lexemes in the cited texts, so the stem imports a worship-structure framework the words do not supply. The verdict is derived on the original stem, but the audit records that a direct query confirms the lexicon furnishes neither a settled sense for the hapax authenteo nor a term that fixes the scope of didaskein, sigao, or the relation between prophesying and authoritative teaching."
+  },
+  "lay_summary": "The question asks whether the Bible restricts authoritative public teaching of mixed adult gatherings, such as preaching the sermon or teaching doctrine to a mixed audience, to men. The Greek words in the cited verses point in two directions, and that is the heart of the dispute. Some verses sound restrictive. First Timothy 2:12 says I do not permit a woman to teach, didaskein, or to authentein over a man. A direct check of the text confirms the verb authenteo appears only here in the whole New Testament, so there is no other passage to fix whether it means to hold ordinary authority or to domineer, and the two verbs joined by the word oude may name two separate things or one combined idea of domineering teaching. First Corinthians 14:34 says the women should keep silent, sigao, in the assemblies and not speak, but the check shows the same silence word is used twice earlier in that very chapter, once for a tongue-speaker with no interpreter and once for a prophet who should yield, each in an if clause aimed at a specific situation, which raises the question whether the women command is absolute or aimed at a particular disorder. First Timothy 2:13 grounds the directive by noting Adam was formed first, an appeal to the creation order, though whether that makes the rule permanent or fits a local setting is not settled by the words. Other verses point the opposite way. First Corinthians 11:5 plainly assumes a woman may pray or prophesy aloud in the gathering and only regulates how, and the same prophesying word describes Philip's four daughters in Acts 21:9. Acts 18:26 shows Priscilla, named before her husband in the copies checked, helping to expound the way of God to Apollos, a man, using a strong word for doctrinal exposition, though in a private setting. Titus 2:3 commands older women to be teachers of good, a word built on the teach root, but aimed at the younger women. The trouble is that the words themselves do not settle the matter. A single rare verb that occurs only once, a silence command that may be situational, a learning-in-quietness phrase that may describe demeanor rather than full muteness, and clear cases of women praying, prophesying, and instructing all leave room for more than one careful reading. Because the same vocabulary supports both a restrictive and a more open conclusion, and because the silence text carries a known manuscript question about where it belongs that the available data cannot settle, the lexical pattern here is genuinely contested rather than decisive.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.34"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.14"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.18.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.2.12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0831"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2271"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4601"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4395"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Titus.2.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.18.26"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The token-order and morphology verification for Acts 18:26 and 1 Tim 2:12 was drawn from the MACULA-Greek treebank, which is licensed CC-BY-NC-4.0 and is not redistributable in bulk. The structured lexical findings can be reproduced from the redistributable MorphGNT-morphology, STEPBible, and TSK sources, but because a MACULA-Greek citation is present this evidence file is marked not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "variant-sensitive",
+    "complicating-unresolved",
+    "ecm-shadow"
+  ]
+}

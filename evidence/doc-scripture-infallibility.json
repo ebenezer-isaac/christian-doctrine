@@ -1,0 +1,841 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-infallibility",
+  "question_id": "doc-scripture-infallibility",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Three independent grammatical engines converge on the proposition. John 10:35 predicates incapacity of failure directly of the written text: ou dunatai luthenai he graphe, where dunamai stands in the present indicative (a flat statement of fact, not a wish) negated by ou, and luo is an aorist passive infinitive, so the clause reads the Scripture is-not-able to-be-broken, with graphe (the writing itself) as grammatical subject. Isaiah 55:11 uses a negated efficacy construction, lo yashuv reyqam, the word from God's mouth shall not return empty-handed, where reyqam is the standard term for a null, result-less outcome (Gen 31:42, Exod 23:15, Ruth 1:21), and the ki im pivot asserts it shall instead accomplish (asah) what God delights (hafets). Matthew 5:18 and Luke 16:17 add the durability sayings: the emphatic double negation ou me with aorist subjunctive (parelthe) and the comparative eukopoteron place the survival of the smallest text-token (iota, a hapax, and keraia, occurring only twice) above the survival of heaven and earth. The vocabulary asserts that divine speech and the inscripturated text cannot fail of their purpose; what the words do not delimit is the precise scope of that reliability, which is where readers diverge."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "luo",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphe",
+        "occurrences_in_canon": 49,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dunamai",
+        "occurrences_in_canon": 207,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3928",
+        "lemma": "παρέρχομαι",
+        "transliteration": "parerchomai",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2503",
+        "lemma": "ἰῶτα",
+        "transliteration": "iota",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2762",
+        "lemma": "κεραία",
+        "transliteration": "keraia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2193",
+        "lemma": "ἕως",
+        "transliteration": "heos",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0302",
+        "lemma": "ἄν",
+        "transliteration": "an",
+        "occurrences_in_canon": 184,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2123",
+        "lemma": "εὔκοπος",
+        "transliteration": "eukopos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4098",
+        "lemma": "πίπτω",
+        "transliteration": "pipto",
+        "occurrences_in_canon": 90,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3772",
+        "lemma": "οὐρανός",
+        "transliteration": "ouranos",
+        "occurrences_in_canon": 280,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 330,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 1368,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shuv",
+        "occurrences_in_canon": 971,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7387",
+        "lemma": "רֵיקָם",
+        "transliteration": "reyqam",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2654A",
+        "lemma": "חָפַץ",
+        "transliteration": "hafets",
+        "occurrences_in_canon": 64,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213A",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 1656,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3318",
+        "lemma": "יָצָא",
+        "transliteration": "yatsa",
+        "occurrences_in_canon": 1003,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6310",
+        "lemma": "פֶּה",
+        "transliteration": "peh",
+        "occurrences_in_canon": 453,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3808",
+        "lemma": "לֹא",
+        "transliteration": "lo",
+        "occurrences_in_canon": 4825,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6965",
+        "lemma": "קוּם",
+        "transliteration": "qum",
+        "occurrences_in_canon": 575,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5324",
+        "lemma": "נָצַב",
+        "transliteration": "natsav",
+        "occurrences_in_canon": 67,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3089",
+      "G1124",
+      "G1410",
+      "G3928",
+      "G2503",
+      "G2762",
+      "G3551",
+      "G2193",
+      "G0302",
+      "G1096",
+      "G2123",
+      "G4098",
+      "G3772",
+      "G3056",
+      "H1697",
+      "H7725",
+      "H7387",
+      "H2654A",
+      "H6213A",
+      "H3318",
+      "H6310",
+      "H3808",
+      "H6965",
+      "H5324"
+    ],
+    "scripture": [
+      {
+        "ref": "John.10.35",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "The single most precise infallibility statement in the canon. The clause ou dunatai luthenai he graphe predicates the incapacity of failure directly of the written text. MorphGNT parses dunatai as present middle/passive indicative third singular of dunamai (a plain statement of fact, is not able) and luthenai as aorist passive infinitive of luo (to be loosed, annulled, broken), with the negation ou. The grammatical subject is he graphe (the writing, the Scripture), nominative, so the sentence asserts the Scripture cannot be broken. The same verb luo is used in Matt 5:19 for breaking a commandment, an intra-canonical lexical bridge linking this denial to the durability sayings. The one lexical caveat is that luo is polysemous across its 44 canon occurrences (untie a colt, release a prisoner, dissolve the temple, destroy the works of the devil), but the subject graphe and the contrast clause ho logos tou theou egeneto (the word of God came) disambiguate it cleanly to the sense annul or nullify.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.10.35"
+      },
+      {
+        "ref": "Isa.55.11",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּב"
+          },
+          {
+            "strong": "H7387",
+            "lemma": "רֵיקָם"
+          },
+          {
+            "strong": "H2654A",
+            "lemma": "חָפַץ"
+          },
+          {
+            "strong": "H6213A",
+            "lemma": "עָשָׂה"
+          }
+        ],
+        "force": "Negated efficacy construction. The word (dabar) issuing from God's mouth shall not return (lo yashuv) empty-handed (reyqam) but rather shall accomplish (asah) what God delights (hafets) and shall succeed in the matter for which he sent it. The lexeme reyqam occurs 15 times in the canon and consistently means without result, empty-handed, in vain (Gen 31:42, Exod 23:15, Ruth 1:21, 2Sam 1:22), so its negation by lo is a categorical denial that divine speech can fail of its purpose. The ki im clause is the strong adversative pivot ruling out null-result. ETCBC-BHSA parses the clause with the negation function (Nega) and a purpose complement (Cmpl) explicitly marked. This grounds infallibility on the efficacy axis (the word cannot fail to do its work) rather than on the truthfulness axis (the word is true), which is the property the proposition targets.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": "Isa.55.11"
+      },
+      {
+        "ref": "Matt.5.18",
+        "key_terms": [
+          {
+            "strong": "G2503",
+            "lemma": "ἰῶτα"
+          },
+          {
+            "strong": "G2762",
+            "lemma": "κεραία"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G3928",
+            "lemma": "παρέρχομαι"
+          },
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανός"
+          }
+        ],
+        "force": "Solemn amen-formula plus a comparative durability claim. MorphGNT parses parelthe as aorist active subjunctive third singular of parerchomai (pass away), and the central verb cluster is negated by the emphatic double negation ou me, the strongest available Greek denial of future possibility, governed by heos an (until). The lexemes iota (a hapax, occurring once in the canon, the smallest letter) and keraia (occurring only twice, the serif stroke distinguishing similar letters) are deliberately at the granular extreme of text-token vocabulary, asserting indissolubility at the level of orthographic detail. The form is a comparative that places the survival of the least visible feature of the law above the survival of heaven and earth. The terminal clause heos an panta genetai (until all comes to pass) is the one element the grammar leaves open and is read in more than one way.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": "Matt.5.18"
+      },
+      {
+        "ref": "Luke.16.17",
+        "key_terms": [
+          {
+            "strong": "G2123",
+            "lemma": "εὔκοπος"
+          },
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανός"
+          },
+          {
+            "strong": "G4098",
+            "lemma": "πίπτω"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G2762",
+            "lemma": "κεραία"
+          }
+        ],
+        "force": "Independent Synoptic version of the same saying. MorphGNT parses eukopoteron as a comparative adjective (easier) and frames a relative-difficulty argument: it is easier for heaven and earth to pass away (parelthein, aorist active infinitive) than for one keraia of the law to fall (pesein, aorist active infinitive of pipto). Luke substitutes pipto (to fall, perish) for the gospel parallel's ginetai, reinforcing the non-failure side of the same claim with a different but synonymous lexeme. The shared vocabulary core (nomos, keraia, ouranos, ge, parerchomai) gives multi-Synoptic convergence on the textual-durability proposition without verbal dependence that would collapse it to a single witness.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": "Luke.16.17"
+      },
+      {
+        "ref": "Matt.24.35",
+        "key_terms": [
+          {
+            "strong": "G3928",
+            "lemma": "παρέρχομαι"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "Cross-reference verified in the lexical store (TSK CrossRef and OpenBible with 232 votes, the densest cross-reference edge in this set). Jesus' direct claim: ho ouranos kai he ge pareleusontai, hoi de logoi mou ou me parelthosin (heaven and earth shall pass away, but my words shall by no means pass away). MorphGNT parses pareleusontai as future middle indicative and parelthosin as aorist active subjunctive plural under the emphatic ou me. Lexically parallel to Isa 55:11's lo yashuv reyqam: the negated passing-away of divine speech, here applied to Jesus' own logoi rather than the inscripturated nomos.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.21.33",
+        "key_terms": [
+          {
+            "strong": "G3928",
+            "lemma": "παρέρχομαι"
+          }
+        ],
+        "force": "Cross-reference verified in the store (TSK CrossRef and OpenBible, 10 votes). Synoptic parallel to Matt 24:35 with the identical lexical core: heaven and earth shall pass away, but my words shall by no means pass away (ou me parelthosin). Multi-Synoptic attestation of the cosmos-versus-word durability formula on the same emphatic double negation.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.40.8",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H6965",
+            "lemma": "קוּם"
+          }
+        ],
+        "force": "Cross-reference verified in the store (TSK CrossRef and OpenBible, 7 votes). Contrasts the withering of grass and fading of flower (created realities) with devar eloheinu (the word of our God) which yaqum (qal of qum, to stand, endure) le-olam (forever). The qum verb (575 canon occurrences) is the positive lexical counterpart to the negated lo yashuv reyqam of Isa 55:11: divine speech stands where created order fades, the same a fortiori the gospel sayings make.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.119.89",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H5324",
+            "lemma": "נָצַב"
+          }
+        ],
+        "force": "Cross-reference verified in the store (TSK CrossRef and OpenBible, 22 votes). Le-olam YHWH devarekha nitsav ba-shamayim (forever, O LORD, your word stands fixed in the heavens). The niphal participle nitsav (natsav, set, stationed, firm, 67 canon occurrences) lexically asserts the established, non-mutable status of YHWH's word, with ba-shamayim (in the heavens) tying word-stability to the most permanent created locus. Writings-genre attestation alongside prophecy and gospel gives pan-canonical reach.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.44.26",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H6965",
+            "lemma": "קוּם"
+          }
+        ],
+        "force": "Cross-reference verified in the store (TSK CrossRef and OpenBible, 23 votes). Meqim devar avdo (the one who establishes the word of his servant) and atsat malakhav yashlim (the counsel of his messengers he completes). The hiphil meqim (cause to stand, from qum) is the positive lexical parallel to the negated lo yashuv reyqam two chapters later, the same Isaian theology of efficacious divine speech.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.54.9",
+        "key_terms": [
+          {
+            "strong": "H7650",
+            "lemma": "שָׁבַע"
+          }
+        ],
+        "force": "Cross-reference verified in the store (TSK CrossRef and OpenBible, 26 votes). The Noahic-oath comparison: as I swore (nishbati, shava) that the waters of Noah should no more cover the earth, so have I sworn that I will not be angry. The chapter's appeal to the inviolability of divine oath supplies the framework for 55:11's claim that the divine word cannot fail.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.10.35",
+        "to": "Matt.24.35",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "John.10.35",
+        "to": "Luke.16.17",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Matt.24.35",
+        "source": "openbible",
+        "votes": 232
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Ps.119.89",
+        "source": "openbible",
+        "votes": 22
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Isa.44.26",
+        "source": "openbible",
+        "votes": 23
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Isa.54.9",
+        "source": "openbible",
+        "votes": 26
+      },
+      {
+        "from": "Luke.16.17",
+        "to": "Isa.40.8",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Luke.16.17",
+        "to": "Luke.21.33",
+        "source": "openbible",
+        "votes": 10
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Matt.24.35",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Ps.119.89",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.16.17",
+        "to": "Isa.40.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.16.17",
+        "to": "Luke.21.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Isa.44.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Isa.54.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.5.18",
+        "addressed": true,
+        "resolution": "The terminal clause heos an panta genetai (until all things come to pass) is grammatically open and is read in two main lexical-syntactic directions: a temporal-limit reading (the Torah's force runs until an eschatological accomplishment, after which something changes) and a perpetuity reading (the law endures as long as heaven and earth endure). The text-durability claim about iota and keraia is independent of which is taken. Under either reading the statement denies that the smallest feature of the text can fail or be annulled prior to its full accomplishment, which is exactly the infallibility property in view. So the open clause affects the temporal scope of Torah-application, not the non-failure assertion."
+      },
+      {
+        "ref": "Isa.55.11",
+        "addressed": true,
+        "resolution": "The verse speaks of the dabar going out from God's mouth, not directly of written Scripture as a fixed canonical artifact, and lexically dabar (1368 occurrences) covers oracle, command, and divine self-communication broadly. The infallibility claim derives from the pattern that whatever counts as divine speech does not return empty. The transfer to the written text is closed lexically by John 10:35, where the non-broken predicate is applied to he graphe (the writing itself), and by Matt 5:18 and Luke 16:17, which apply the non-passing-away predicate to the inscripturated nomos. So the spoken-versus-written gap is bridged by the very anchor set, not assumed."
+      },
+      {
+        "ref": "John.10.35",
+        "addressed": true,
+        "resolution": "The verb luo in ou dunatai luthenai is polysemous across its 44 canon occurrences (untie, release, dissolve, destroy, break a commandment). In isolation the clause could in principle carry a softer sense than annul. Context disambiguates: he graphe is the subject, the parallel clause ho logos tou theou egeneto frames Scripture as God's own coming word, and Matt 5:19 uses the same verb luo for breaking a commandment, fixing the sense here as nullify or annul. The polysemy is the one genuine lexical soft spot but it is resolved by subject and co-text, so it does not reach verdict-level doubt; it bears on how readers describe the scope of the reliability, not on whether reliability is asserted."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The lexical store holds 116 VariantUnit nodes, all confined to 3 John (the ingested ECM window). None of the four anchor verses (John 10:35, Isa 55:11, Matt 5:18, Luke 16:17) nor the cross-referenced durability texts (Matt 24:35, Luke 21:33, Isa 40:8, Ps 119:89, Isa 44:26, Isa 54:9) fall in that window, so not_in_ecm_scope is honestly true. The key lexemes (graphe, luo, dunamai, parerchomai, iota, keraia, reyqam) are textually stable across the major manuscript tradition with no verdict-altering variation; no variant signal was invented."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "analogia-scripturae",
+      "progressive-revelation",
+      "a-fortiori-comparative"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "plenary-infallibility (reliability extends to every assertion of the text)",
+        "verdict": "affirms",
+        "rationale": "Reads John 10:35 ou dunatai luthenai he graphe as an unqualified predicate of the whole written graphe, and Matt 5:18 iota and keraia as marking indissolubility down to the smallest orthographic unit. On this lens the words assert non-failure with no built-in limit, so the property holds of whatever the text asserts."
+      },
+      {
+        "framework": "purpose-or-faith-and-practice scope (reliability is anchored to the text's saving and covenantal intent)",
+        "verdict": "affirms",
+        "rationale": "Reads Isa 55:11 as the controlling grammar: the word shall not return reyqam, that is, it shall not fail to accomplish the purpose (hafets, what God delights) for which it was sent. On this lens the non-failure predicate is intrinsically purpose-indexed (it cannot fail at what it is for) rather than a claim about every incidental detail. This lens still affirms the proposition as stated, since the proposition itself names matters of faith and practice."
+      },
+      {
+        "framework": "redemptive-historical reading of Matt 5:18 heos an panta genetai",
+        "verdict": "affirms with a scope qualification",
+        "rationale": "Reads the open terminal clause as a temporal hinge: the Torah's binding form endures until it is fully accomplished in Christ, after which its mode of application shifts. This lens does not deny that the text cannot fail prior to and within that accomplishment; it locates the durability claim inside redemptive history rather than as a flat timeless perpetuity. The non-failure of the word is affirmed; the lens differs only on the temporal frame of its application."
+      }
+    ],
+    "notes": "Verdict rests on grammatico-historical reading of three constructions: the present-indicative incapacity statement ou dunatai luthenai in John 10:35, the negated-efficacy clause lo yashuv reyqam in Isaiah, and the emphatic ou me plus aorist subjunctive and comparative eukopoteron in the Synoptic durability sayings. Analogia scripturae operates through OT-NT lexical bridging (dabar and logos, the parallel non-passing-away formula, the shared verb luo across John 10:35 and Matt 5:19). Progressive revelation appears in the move from spoken oracle (Isa 55) to written Torah and graphe (Matt 5, Luke 16, John 10). The three competing lenses all affirm the proposition as stated; they differ on the scope and temporal frame of the reliability, not on whether the text asserts it."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem is descriptive of a property (cannot fail to accomplish what God intends, incapable of misleading in matters of faith and practice) rather than prescriptive of authority. It does not smuggle sola scriptura, canonical scope, mode of inspiration, or inerrancy in scientific or historical detail. The qualifier in matters of faith and practice is a standard lexical-functional scope statement, not a denominational signal, and it matches the purpose-indexed grammar of Isa 55:11 (the word does not fail of its intent). Verdict unchanged from the prior file: affirms remains true. The enrichment adds John 10:35 as the lexically sharpest anchor (ou dunatai luthenai he graphe, the written Scripture cannot be broken), distinguishes the infallibility or non-failure axis (luo, parerchomai, lo yashuv reyqam) from the truthfulness and inerrancy-scope axes, corrects the cross-reference vote counts against the queried store (the prior file labeled all edges votes=1, but OpenBible attests them at 7 to 232 votes), and states the competing scope lenses symmetrically where the prior file left that list empty."
+  },
+  "lay_summary": "This proposition asks whether Scripture cannot fail to accomplish what God intends and cannot mislead in matters of faith and practice. The clearest single statement is John 10:35, where Jesus says the Scripture cannot be broken. In Greek this is ou dunatai luthenai he graphe. The verb dunamai sits in the plain present tense (is not able), negated by ou, and the verb luo (to loosen, annul, break) is a passive infinitive, with the writing itself (graphe) as the subject. So the sentence flatly denies that the text can be annulled. The same verb luo is used elsewhere for breaking a commandment, which ties this denial to the rest of the pattern. Isaiah 55:11 supplies the matching idea from the other side: the word that goes out from God's mouth shall not return empty, where the word for empty (reyqam) means without result, the same word used when someone is sent away empty-handed. It cannot fail to do its work. Then Matthew 5:18 and Luke 16:17 add the durability sayings, using the smallest possible text-tokens (iota, the smallest letter, which occurs only once in the canon, and keraia, the tiny serif stroke, occurring only twice) and the strongest Greek negation (ou me) to say the least visible mark of the law will outlast heaven and earth. Cross-references verified in the data reinforce this across the canon: the word of our God stands forever, your word is fixed in the heavens, and heaven and earth will pass but my words will not. The pattern is dense, spans prophecy, writings, and the Gospels, and the verses are textually stable, so the affirmative is high-confidence. Where readers diverge is not whether the text claims it cannot fail, but how far that reach extends. One reading takes it of every assertion; another anchors it to the purpose for which the word was sent (matters of faith and practice), which is what the Isaiah grammar emphasizes; and the open phrase until all is accomplished in Matthew leaves room for debate about the time frame, not about the non-failure itself.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.10.35"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.5.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.16.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.24.35"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3089"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1124"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1410"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2503"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2762"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3928"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3551"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2123"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4098"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7387"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1697"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2654A"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6965"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.10.35"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.10.35->Matt.24.35"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.5.18->Matt.24.35"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.55.11->Isa.44.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.5.18->Ps.119.89"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.16.17->Isa.40.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.16.17->Luke.21.33"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Isa.55.11->Isa.54.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA (Isa 55:11 clause structure), MACULA-Hebrew (Isa 55:11 interlinear), and MACULA-Greek (John 10:35 syntax) are licensed CC-BY-NC-4.0, which forbids bulk redistribution. The consolidated evidence file inherits the most restrictive license. The grammatical claims also rest on permissively licensed MorphGNT (CC-BY-SA-4.0) and STEPBible (CC-BY-4.0) sources, so a publishable subset exists if the non-commercial syntax and interlinear citations are dropped, but as cited the file is not safe for bulk redistribution."
+  },
+  "flags": []
+}

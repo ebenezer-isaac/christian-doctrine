@@ -1,0 +1,733 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-same-sex-sexual-activity",
+  "question_id": "prc-same-sex-sexual-activity",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense, pan-canonical, and uniform in valuation. Lev 18:22 prohibits a zakar (H2145, male) from lying mishkebei ishshah (H4904 plus H0802, the lyings of a woman) and labels it toebah (H8441, abomination), a verdict repeated in Lev 20:13 with capital sanction. Rom 1:26-27 frames the act with phusike chresis (G5446 plus G5540, natural use) and para physin (G3844 plus G5449, against nature), tying physis to the male and female pair, then names arsenes en arsesin (G0730, males with males) working aschemosune (G0808, shamelessness). 1 Cor 6:9 and 1 Tim 1:10 use arsenokoites (G0733), a compound morphologically built from arsen plus koite, the same two stems that stand side by side in the LXX of Lev 18:22, so the NT term lexically encodes the Torah prohibition. Every canonical occurrence assigns a negative valuation. The creational ground (Gen 1:27 LXX uses the same arsen and thelys pair) anchors the para physin reasoning in the words themselves."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H2145",
+        "lemma": "זָכָר",
+        "transliteration": "zakar",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0802",
+        "lemma": "אִשָּׁה",
+        "transliteration": "ishshah",
+        "occurrences_in_canon": 781,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4904",
+        "lemma": "מִשְׁכָּב",
+        "transliteration": "mishkav",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8441",
+        "lemma": "תּוֹעֵבָה",
+        "transliteration": "toebah",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7901",
+        "lemma": "שָׁכַב",
+        "transliteration": "shakav",
+        "occurrences_in_canon": 213,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0730",
+        "lemma": "ἄρσην",
+        "transliteration": "arsen",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2338",
+        "lemma": "θῆλυς",
+        "transliteration": "thelys",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5446",
+        "lemma": "φυσικός",
+        "transliteration": "phusikos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5449",
+        "lemma": "φύσις",
+        "transliteration": "physis",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5540",
+        "lemma": "χρῆσις",
+        "transliteration": "chresis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0733",
+        "lemma": "ἀρσενοκοίτης",
+        "transliteration": "arsenokoites",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3120",
+        "lemma": "μαλακός",
+        "transliteration": "malakos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0808",
+        "lemma": "ἀσχημοσύνη",
+        "transliteration": "aschemosune",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0489",
+        "lemma": "ἀντιμισθία",
+        "transliteration": "antimisthia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4205",
+        "lemma": "πόρνος",
+        "transliteration": "pornos",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0932",
+        "lemma": "βασιλεία",
+        "transliteration": "basileia",
+        "occurrences_in_canon": 165,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2816",
+        "lemma": "κληρονομέω",
+        "transliteration": "kleronomeo",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0459",
+        "lemma": "ἄνομος",
+        "transliteration": "anomos",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H2145",
+      "H0802",
+      "H4904",
+      "H8441",
+      "H7901",
+      "G0730",
+      "G2338",
+      "G5446",
+      "G5449",
+      "G5540",
+      "G0733",
+      "G3120",
+      "G0808",
+      "G0489",
+      "G4205",
+      "G0932",
+      "G2816",
+      "G0459"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.27",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσην"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θῆλυς"
+          }
+        ],
+        "force": "The Hebrew zakar plus neqebah (rendered arsen kai thely in the LXX) pair establishes the male and female creational binary as the positive ground that the prohibition vocabulary later presupposes. Paul's choice of arsen and thelys (rather than the more common aner and gyne) in Rom 1:26-27 reuses precisely this creational pair, so the lexical link between creation and the para physin clause is in the word selection itself.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.18.22",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H7901",
+            "lemma": "שָׁכַב"
+          },
+          {
+            "strong": "H4904",
+            "lemma": "מִשְׁכָּב"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H8441",
+            "lemma": "תּוֹעֵבָה"
+          }
+        ],
+        "force": "Negated yiqtol prohibition lo tishkav (HVqi2ms, second masculine singular Qal imperfect) takes zakar (male) as direct object marked by et, qualified by mishkebei ishshah (masculine plural construct of mishkav plus absolute ishshah, the lyings of a woman). The predicate toebah hi (it is an abomination) closes the clause as a Pred plus PreC verdict in the ETCBC clause structure. The act is defined purely by the sex of the partner with no cultic, coercive, or age qualifier in the syntax.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.20.13",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H7901",
+            "lemma": "שָׁכַב"
+          },
+          {
+            "strong": "H4904",
+            "lemma": "מִשְׁכָּב"
+          },
+          {
+            "strong": "H8441",
+            "lemma": "תּוֹעֵבָה"
+          }
+        ],
+        "force": "Apodictic restatement using the identical zakar plus mishkav plus toebah cluster from Lev 18:22, now with the apodosis mot yumetu (they shall surely be put to death) attaching the highest legal sanction to both parties. The repetition of the same lexemes fixes the valuation rather than leaving it isolated to a single clause.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.26",
+        "key_terms": [
+          {
+            "strong": "G2338",
+            "lemma": "θήλειαι"
+          },
+          {
+            "strong": "G5446",
+            "lemma": "φυσικός"
+          },
+          {
+            "strong": "G5540",
+            "lemma": "χρῆσις"
+          },
+          {
+            "strong": "G5449",
+            "lemma": "φύσις"
+          }
+        ],
+        "force": "The thelys subjects (plural feminine nominative) metellaxan (aorist active indicative third plural, exchanged) the phusike chresis (natural use) eis ten para physin (into that which is against nature). The aorist plus the para physin prepositional phrase frames the act as a deliberate deviation from a prior natural pattern. The verse is the first half of a paired male and female structure that the next verse completes.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.27",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσενες"
+          },
+          {
+            "strong": "G5446",
+            "lemma": "φυσικός"
+          },
+          {
+            "strong": "G5540",
+            "lemma": "χρῆσις"
+          },
+          {
+            "strong": "G0240",
+            "lemma": "ἀλλήλων"
+          },
+          {
+            "strong": "G0808",
+            "lemma": "ἀσχημοσύνη"
+          },
+          {
+            "strong": "G0489",
+            "lemma": "ἀντιμισθία"
+          }
+        ],
+        "force": "The arsenes (males) homoios (likewise) aphentes (aorist active participle, having left) ten phusiken chresin tes theleias (the natural use of the female) exekauthesan en te orexei auton eis allelous (were inflamed in their desire toward one another), arsenes en arsesin ten aschemosunen katergazomenoi (males in males working out the shameless act) kai ten antimisthian apolambanontes (and receiving the recompense). The explicit arsenes en arsesin clause names same-sex male activity in the lexemes themselves, and aschemosune and antimisthia carry the negative valuation in the syntax. The verse forecloses a partner-only-sex-of-prostitute or pederasty-only reading because the reciprocal eis allelous makes the participants symmetric, not asymmetric.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.9",
+        "key_terms": [
+          {
+            "strong": "G0733",
+            "lemma": "ἀρσενοκοῖται"
+          },
+          {
+            "strong": "G3120",
+            "lemma": "μαλακοὶ"
+          },
+          {
+            "strong": "G4205",
+            "lemma": "πόρνοι"
+          },
+          {
+            "strong": "G0932",
+            "lemma": "βασιλείαν"
+          },
+          {
+            "strong": "G2816",
+            "lemma": "κληρονομήσουσιν"
+          }
+        ],
+        "force": "A vice catalogue governed by ou kleronomesousin (future active indicative third plural, will not inherit) plus basileian theou (kingdom of God). The list places malakoi (G3120, soft, here in a sexual sense per Louw-Nida 88.281) and arsenokoitai (G0733) adjacent to pornoi and moichoi. The arsenokoites compound is morphologically built from arsen plus koite, the exact two stems standing side by side in the LXX of Lev 18:22 (meta arsenos ou koimethese koiten gynaikos). That morphology makes the catalogue a deliberate lexical pointer back to the Levitical prohibition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.10",
+        "key_terms": [
+          {
+            "strong": "G0932",
+            "lemma": "βασιλείαν"
+          },
+          {
+            "strong": "G2816",
+            "lemma": "κληρονομήσουσιν"
+          }
+        ],
+        "force": "The catalogue continues with kleptai, pleonektai, methusoi, loidoroi, and harpages, then repeats basileian theou ou kleronomesousin. The second kleronomesousin closes the inclusio around the list begun in v.9, so arsenokoitai is enclosed in a clause whose verb explicitly denies kingdom inheritance to the named categories.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.1.9",
+        "key_terms": [
+          {
+            "strong": "G0459",
+            "lemma": "ἀνόμοις"
+          },
+          {
+            "strong": "G0268",
+            "lemma": "ἁμαρτωλοῖς"
+          },
+          {
+            "strong": "G0765",
+            "lemma": "ἀσεβέσι"
+          }
+        ],
+        "force": "The law is laid down ou dikaio (not for a righteous person) but for anomois plus anupotaktois, asebesi plus hamartolois, anosiois plus bebelois. This frames v.10: the following vice list is explicitly characterized as conduct the law condemns, not as morally indifferent behavior.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.1.10",
+        "key_terms": [
+          {
+            "strong": "G4205",
+            "lemma": "πόρνοις"
+          },
+          {
+            "strong": "G0733",
+            "lemma": "ἀρσενοκοίταις"
+          },
+          {
+            "strong": "G1319",
+            "lemma": "διδασκαλίᾳ"
+          }
+        ],
+        "force": "The list names pornois, arsenokoitais (G0733), and andrapodistais (slave traders) among acts antikeitai (opposed to) the hygiainouse didaskalia (sound teaching). The same arsenokoites compound from 1 Cor 6:9 reappears, again opposed to sound doctrine, confirming the term as a fixed lexical marker for the condemned act rather than a one-off coinage. The adjacency to andrapodistais shows Paul knows the vocabulary for trafficker exploitation and uses a distinct word for the act itself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Lev.18.22",
+        "to": "Lev.20.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.9",
+        "to": "Lev.18.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.1.10",
+        "to": "Lev.18.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.27",
+        "to": "Gen.1.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.9",
+        "to": "Gen.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.1.10",
+        "to": "Gen.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.26",
+        "to": "Gen.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.1.10",
+        "to": "Exod.20.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.9",
+        "to": "Exod.23.1",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.6.9",
+        "addressed": true,
+        "resolution": "The term malakos (G3120) carries a broader semantic range (soft, delicate of clothing in Matt 11:8 and Luke 7:25; effeminate or sexually passive in the 1 Cor 6:9 vice catalogue per Louw-Nida 88.281). A minority lens reads malakos as merely 'morally soft' or as a culturally specific passive role, and reads arsenokoites as 'exploitative pederast' on the basis that the compound is otherwise unattested in earlier Greek. The arsenokoites compound is, however, morphologically transparent: arsen plus koite, the very two words that stand adjacent in the LXX of Lev 18:22 (meta arsenos ou koimethese koiten gynaikos). The compound carries the Levitical prohibition into the catalogue regardless of how malakos is parsed, and the catalogue's negative valuation is fixed by ou kleronomesousin. The complication touches scope, not valuation."
+      },
+      {
+        "ref": "Rom.1.26",
+        "addressed": true,
+        "resolution": "A minority lens reads para physin (against nature) as 'against social convention' rather than 'against created order,' softening the verdict. The immediate context grounds physis in God as ho ktisas (the Creator) at v.25 and ties phusike chresis to the male and female pair. Paul's lexical choice of arsen and thelys (the LXX Gen 1:27 creational pair) rather than the ordinary aner and gyne is the lexical marker that physis here is creational, not conventional. The reciprocal eis allelous in v.27 (toward one another) also makes the participants symmetric, which a 'pederastic convention' reading cannot absorb."
+      },
+      {
+        "ref": "Lev.18.22",
+        "addressed": true,
+        "resolution": "A minority lens reads toebah (H8441) as a narrowly cultic or ritual category, so the prohibition might be ceremonial rather than moral. The clause defines the act purely by the sex of the partner (zakar marked as direct object by et, qualified by mishkebei ishshah) with no cultic, idolatrous, or coercive qualifier in the syntax. It sits in a chapter of consanguinity and adultery prohibitions that are treated as moral, and is reasserted in Lev 20:13 with the highest legal sanction. The lexical and clausal data do not isolate the prohibition to cult."
+      },
+      {
+        "ref": "1Tim.1.10",
+        "addressed": true,
+        "resolution": "A minority lens couples arsenokoitais with the following andrapodistais (slave traders) and reads the pair as 'sex traffickers,' so the verse condemns exploitation only. Greek vice lists are normally asyndetic and topical, not phrase units, and Paul uses a separate word andrapodistes for the trafficker. The arsenokoites compound itself encodes arsen plus koite from Lev 18:22 LXX and does not lexically include exploitation. The catalogue valuation is fixed by antikeitai te hygiainouse didaskalia."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No CBGM-published variant unit in Rom 1:26-27, 1 Cor 6:9-10, or 1 Tim 1:9-10 alters the anchor lexemes arsenokoites, arsen, thelys, phusikos, chresis, aschemosune, or antimisthia. SBLGNT apparatus markers in the bundle touch word order and the pronoun form heautois at Rom 1:27, not the lexemes that carry the verdict. The Hebrew of Lev 18:22 and 20:13 is uncontested across WLC, the Samaritan Pentateuch, and the LXX witness. These NT books are outside the published 3 John CBGM scope, hence shadow status."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "creation_order",
+      "law_to_gospel_continuity",
+      "intra-canonical_citation",
+      "lexical_compounding"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "creation_order",
+        "verdict": "affirms",
+        "rationale": "Rom 1:26-27 grounds para physin in the creational male and female pattern, reusing the arsen and thelys pair that Gen 1:27 LXX establishes. The act is judged against created design as encoded in the word selection itself, not merely as cultural deviation."
+      },
+      {
+        "framework": "law_to_gospel_continuity",
+        "verdict": "affirms",
+        "rationale": "The arsenokoites compound morphologically carries the Lev 18:22 and 20:13 prohibition (LXX arsen plus koite) into the Pauline catalogues of 1 Cor 6:9 and 1 Tim 1:10. The Torah valuation is maintained in the NT lexicon rather than abrogated."
+      },
+      {
+        "framework": "covenantal-progressive",
+        "verdict": "affirms",
+        "rationale": "Even if the Mosaic law is read as covenantally situated, the NT does not relax the valuation but re-encodes it in a term opposed to sound teaching and tied to kingdom non-inheritance. Progressive revelation deepens rather than reverses the verdict."
+      },
+      {
+        "framework": "cultural-context-only",
+        "verdict": "complicates_only_scope",
+        "rationale": "This minority lens, fairly stated, holds that para physin and the malakos plus arsenokoites pair address Greco-Roman pederasty, master and slave abuse, or temple prostitution rather than all same-sex acts. The lexical data limit how far this can be carried: arsenokoites is built from the Lev 18:22 LXX pair (not from a pederasty-specific term like paiderastes); the reciprocal eis allelous in Rom 1:27 makes participants symmetric, not asymmetric; the clauses define the act by the sex of the partner with no exploitation marker in the syntax. The lens may sharpen what the texts also condemn, but it does not narrow what they condemn."
+      },
+      {
+        "framework": "ritual-purity-only",
+        "verdict": "complicates_only_scope",
+        "rationale": "This minority lens, fairly stated, reads toebah as a ritual or boundary marker, so Lev 18:22 functions like dietary laws rather than as a moral prohibition. The chapter context places the act among consanguinity and adultery prohibitions treated elsewhere as moral; Lev 20:13 attaches a capital sanction not used for ceremonial categories; and the Pauline re-encoding through arsenokoites moves the valuation into a kingdom and sound-teaching frame that is not purity discourse. The lens identifies a real semantic neighborhood for toebah but does not absorb the canonical re-use."
+      }
+    ],
+    "notes": "The decisive lexical link is the arsenokoites compound. The two morphemes arsen plus koite stand side by side in the LXX of Lev 18:22 (meta arsenos ou koimethese koiten gynaikos), so the NT term is a transparent lexical pointer back to the Torah prohibition. This morphology binds law and epistle into one valuation and is the strongest single fact in the case."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": "Does Scripture's lexical usage assign a negative moral valuation to same-sex sexual acts across the canon, and does it ground that valuation in a male and female created pattern?",
+    "notes": "The stem phrases 'contrary to creation design' and 'consistent witness of Scripture' could be read as assuming the result, but both are testable, not assumed. 'Creation design' is checkable against the phusis and phusike chresis vocabulary of Rom 1:26-27 and Paul's reuse of the Gen 1:27 LXX arsen plus thelys pair. 'Consistent witness' is checkable as a pan-canonical claim against Lev 18:22, Lev 20:13, Rom 1:26-27, 1 Cor 6:9, and 1 Tim 1:10. The verdict was derived on the original stem; the neutralized form records how the question was actually interrogated against the lexical store."
+  },
+  "lay_summary": "Scripture uses the same negative valuation for same-sex sexual acts from the Torah through the letters of Paul, in vocabulary the texts themselves bind together. Leviticus 18:22 forbids a male (zakar, H2145) to lie the lyings of a woman (mishkav, H4904, plus ishshah, H0802) with another male and calls the act toebah (H8441, abomination). Leviticus 20:13 repeats the identical cluster and attaches a death sanction, so the valuation is fixed, not isolated. In Romans 1:26-27 Paul writes that females (thelys, G2338) exchanged the natural use (phusike chresis, G5446 plus G5540) for what is against nature (para physin, G5449), and males (arsen, G730) leaving the natural use of the female burned in desire for one another, males with males working shamelessness (aschemosune, G808) and receiving recompense (antimisthia, G489). His chosen words for male and female are arsen and thelys, the same pair that Genesis 1:27 LXX uses for the creational binary, which is what para physin is set against. In 1 Corinthians 6:9 and 1 Timothy 1:10 Paul lists arsenokoitai (G733) among those who will not inherit the kingdom and among acts contrary to sound teaching. This compound word is built from arsen plus koite, the very two words that stand side by side in the Greek of Leviticus 18:22 (meta arsenos ou koimethese koiten gynaikos). That morphology lexically carries the Torah prohibition into the New Testament letters. Why do readers diverge? Three real lexical pressure points exist. First, malakos (G3120) is a broad word that can mean soft clothing elsewhere, so some narrow its scope here. Second, para physin can in some contexts mean cultural convention, so some read it that way. Third, toebah is sometimes argued to be a ritual category. Each touches scope or background but none reverses the valuation, because the act is defined by the sex of the partner in every passage, the reciprocal eis allelous makes the Romans participants symmetric, and the kingdom and sound-teaching clauses fix the judgment. Across law and epistle the lexical pattern speaks with one voice.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.18.22"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8441"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2145"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4904"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0733"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3120"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5446"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5449"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.6.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.1.10"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Lev.18.22"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.1.27"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.18.22"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.20.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.6.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.1.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Lev.18.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.1.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.1.27"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA (CC-BY-NC-4.0) is cited for clause-level syntax on Lev.18.22 and MACULA-Greek (CC-BY-NC-4.0) for syntax on Rom.1.27. Both are non-commercial only and are not bulk redistributable. The evidence record is therefore gated from bulk republication, though the underlying lexical observation can be reproduced independently from the redistributable STEPBible, OSHB, MorphGNT, TSK, and OpenBible sources."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

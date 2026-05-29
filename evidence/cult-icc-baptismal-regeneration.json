@@ -1,0 +1,629 @@
+{
+  "$schema_version": "3.0",
+  "id": "cult-icc-baptismal-regeneration",
+  "question_id": "cult-icc-baptismal-regeneration",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The proposition is compound. Its first clause, saving union with Christ is received through faith, is lexically secure. Eph 2:8-9 grounds the perfect periphrastic este sesosmenoi in chariti dia pisteos as theou to doron, ouk ex ergon. Rom 4:5 reckons faith to the one not working but believing on the one who justifies the ungodly. Gal 2:16 thrice denies dikaiousthai ex ergon nomou and affirms dia pisteos Christou. Luke 23:43 promises paradise to an unbaptized man, and Acts 10:44-48 places Spirit reception (aorist epepesen, elabon) before water. But the second clause, that baptism in no sense effects regeneration at the moment of administration, repeats the same lexical crux that returned disputed in the sibling doc-baptismal-regeneration-denial. Acts 2:38 baptistheto eis aphesin, Titus 3:5 dia loutrou palingenesias, John 3:5 ex hydatos, Mark 16:16 pisteusas kai baptistheis sothesetai, Acts 22:16 baptisai kai apolousai, and 1 Pet 3:21 baptisma sozei verbally bind the rite to salvation language. The deciding term in 1 Pet 3:21, eperotema, is a canonical hapax whose sense, appeal versus pledge, cannot be triangulated, and the eis of Acts 2:38 is genuinely two-way (telic versus causal/reference). The words sustain both readings without ranking them, so a flat denial of any sense of baptismal efficacy is materially contested on lexical grounds, even as the faith-as-instrument half stands."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 113,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4102",
+        "lemma": "πίστις",
+        "transliteration": "pistis",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 241,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioo",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosyne",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 177,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5485",
+        "lemma": "χάρις",
+        "transliteration": "charis",
+        "occurrences_in_canon": 156,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1435",
+        "lemma": "δῶρον",
+        "transliteration": "doron",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0908",
+        "lemma": "βάπτισμα",
+        "transliteration": "baptisma",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1519",
+        "lemma": "εἰς",
+        "transliteration": "eis",
+        "occurrences_in_canon": 1824,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0859",
+        "lemma": "ἄφεσις",
+        "transliteration": "aphesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1906",
+        "lemma": "ἐπερώτημα",
+        "transliteration": "eperotema",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3067",
+        "lemma": "λουτρόν",
+        "transliteration": "loutron",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3824",
+        "lemma": "παλιγγενεσία",
+        "transliteration": "palingenesia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4982",
+      "G4102",
+      "G4100",
+      "G1344",
+      "G1343",
+      "G2041",
+      "G5485",
+      "G1435",
+      "G0907",
+      "G0908",
+      "G1519",
+      "G0859",
+      "G1906",
+      "G3067",
+      "G3824",
+      "G5204",
+      "G0628",
+      "G3551"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.2.8",
+        "key_terms": [
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          },
+          {
+            "strong": "G1435",
+            "lemma": "δῶρον"
+          }
+        ],
+        "force": "te gar chariti este sesosmenoi dia pisteos, kai touto ouk ex hymon, theou to doron. The perfect periphrastic este sesosmenoi, you have been and remain saved, is grounded by chariti as dative of means and dia pisteos as channel, with the demonstrative touto and the predicate doron framing the whole rescue as gift, not product. The named saving instrument is grace appropriated by faith, no rite is supplied as effecting cause. This grounds the stem's first clause, saving union received through faith.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.9",
+        "key_terms": [
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "ouk ex ergon, hina me tis kauchesetai, not out of works, so that no one may boast. The prepositional phrase ex ergon names the excluded source, and the hina clause supplies the rationale, removing all ground for boasting. Any humanly performed act offered as the productive cause of salvation falls under this exclusion, which is the grammar the stem applies against treating a rite as the effecting instrument.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.23.43",
+        "key_terms": [
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G0281",
+            "lemma": "ἀμήν"
+          }
+        ],
+        "force": "Amen soi lego, semeron met emou ese en to paradeiso, truly I say to you, today you will be with me in paradise, is spoken to a crucified man who can receive no baptism. The future ese with the deictic semeron places the man in paradise on the strength of his appeal to Christ alone, demonstrating salvation conferred apart from the water rite in at least this case, against any claim that regeneration is effected only at the moment of baptism.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.4.5",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G0765",
+            "lemma": "ἀσεβής"
+          }
+        ],
+        "force": "to de me ergazomeno, pisteuonti de epi ton dikaiounta ton asebe, logizetai he pistis autou eis dikaiosynen, to the one not working but believing on the one who justifies the ungodly, his faith is reckoned as righteousness. The present participles set ergazomeno, working, in explicit contrast to pisteuonti, believing, and the verb logizetai, is reckoned, names the mechanism as imputation to faith, not conferral through a performed act. The dative-of-recipient ton asebe, the ungodly, makes the recipient pre-rite and pre-work. This is the clearest verbal statement that standing is received by believing apart from working.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.2.16",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμου"
+          }
+        ],
+        "force": "ou dikaioutai anthropos ex ergon nomou ean me dia pisteos Iesou Christou, a person is not justified out of works of law except through faith of Jesus Christ, and the verse repeats the contrast three times, closing hoti ex ergon nomou ou dikaiothesetai pasa sarx, because out of works of law no flesh will be justified. The triple ex ergon nomou versus dia pisteos and ek pisteos fixes the instrument of justification as faith and excludes performed law-works. The lexical pattern is decisive for the stem's faith-instrument clause.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.10.44",
+        "key_terms": [
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          }
+        ],
+        "force": "Eti lalountos tou Petrou ta rhemata tauta epepesen to pneuma to hagion epi pantas tous akouontas ton logon, while Peter was still speaking these words the Holy Spirit fell on all those hearing the word. The present participle lalountos with the aorist epepesen places Spirit reception during proclamation and before any water. The inward bestowal precedes the rite, so the rite cannot here be the effecting instrument.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.10.47",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          }
+        ],
+        "force": "Meti to hydor dynatai kolysai tis tou me baptisthenai toutous hoitines to pneuma to hagion elabon hos kai hemeis, can anyone withhold the water that these not be baptized, who received the Holy Spirit as we also did. The aorist elabon, received, is grammatically antecedent to the aorist infinitive baptisthenai, to be baptized. Water here ratifies a Spirit reception already granted rather than effecting it, which favors the sign reading of the stem's second clause.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.38",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G1519",
+            "lemma": "εἰς"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσις"
+          }
+        ],
+        "force": "metanoesate kai baptistheto hekastos hymon eis aphesin ton hamartion hymon, repent and let each of you be baptized eis the forgiveness of your sins. The preposition eis with this construction can be telic, in order to obtain, or on other lexical analyses causal or based-upon, with reference to a forgiveness already granted on repentance. The plural imperative metanoesate governs the singular baptistheto, foregrounding repentance, but the bare prepositional phrase does not by itself settle whether forgiveness is effected by or merely signified at the rite. This is the verse that most directly resists a flat lexical denial of baptismal efficacy.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.21",
+        "key_terms": [
+          {
+            "strong": "G0908",
+            "lemma": "βάπτισμα"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G1906",
+            "lemma": "ἐπερώτημα"
+          }
+        ],
+        "force": "ho kai hymas antitypon nyn sozei baptisma, baptism, an antitype, now saves you. The verb sozei takes baptisma as its grammatical subject, the sharpest verbal coupling of baptism to salvation in the canon. The verse then qualifies it: ou sarkos apothesis rhypou alla syneideseos agathes eperotema eis theon, not the removal of fleshly dirt but the appeal or pledge of a good conscience toward God, dia anastaseos Iesou Christou. The author internally relocates the saving force from the external washing to the conscience pledge anchored in the resurrection. But eperotema (G1906) is a canonical hapax, occurring only here in the entire Bible, so whether it means appeal or pledge cannot be checked against any other use. The verse both asserts that baptism saves and refuses, on its own vocabulary, to fix exactly how.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.5",
+        "key_terms": [
+          {
+            "strong": "G3067",
+            "lemma": "λουτρόν"
+          },
+          {
+            "strong": "G3824",
+            "lemma": "παλιγγενεσία"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "esosen hemas dia loutrou palingenesias kai anakainoseos pneumatos hagiou, he saved us through the washing of regeneration and renewal of the Holy Spirit. loutron is coupled to palingenesia by the genitive, and dia marks it as channel, the strongest verbal link between washing and regeneration in the corpus. Both loutron (G3067) and palingenesia (G3824) occur only twice in the canon, so neither sense is canon-stable: loutron in Eph 5:26 is tied to the word (en rhemati), and palingenesia in Matt 19:28 names cosmic renewal, not personal rebirth. The preceding ouk ex ergon dikaiosynes pulls against a mechanical reading. The coupling is real and not dissolvable on lexicon alone.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.5",
+        "key_terms": [
+          {
+            "strong": "G5204",
+            "lemma": "ὕδωρ"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          }
+        ],
+        "force": "ean me tis gennethe ex hydatos kai pneumatos, unless one is born ek water and Spirit, ou dynatai eiselthein eis ten basileian tou theou. The genitive ex hydatos has multiple defensible referents on lexical and contextual grounds: a hendiadys with pneumatos as one cleansing-rebirth, an allusion to natural birth set against pneumatic birth, or a washing rite. The single preposition ek governing both hydatos kai pneumatos is itself read both as one event and as two. Morphology and lexicon alone cannot adjudicate the referent.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.1.17",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          }
+        ],
+        "force": "ou gar apesteilen me Christos baptizein alla euangelizesthai, for Christ did not send me to baptize but to preach the gospel. The ou...alla construction sets baptizing in explicit contrast to gospel proclamation and subordinates the rite to it. If baptism itself effected salvation, ranking preaching above it would be lexically strange, so the contrast favors the sign reading. Added on direct concordance traversal of baptizo (G0907) beyond the bundle anchors.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gal.2.16",
+        "to": "Gal.3.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.4.5",
+        "to": "Rom.1.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.4.5",
+        "to": "Rom.4.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.10.47",
+        "to": "Acts.8.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.23.43",
+        "to": "Luke.15.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.2.16",
+        "to": "Gal.2.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.2.38",
+        "addressed": true,
+        "resolution": "The crux is the preposition eis in baptistheto eis aphesin hamartion. eis with this verb can express purpose, in order to receive forgiveness, or on some lexical readings the basis or occasion, with reference to a forgiveness granted on repentance. The plural imperative metanoesate, repent, governs the singular baptistheto, foregrounding repentance. Lexicon and morphology permit both a sacramental-effect reading and a sign reading. The verse does not by itself overturn the stem's first clause about faith, but it blocks any clean lexical denial of the stem's second clause."
+      },
+      {
+        "ref": "John.3.5",
+        "addressed": true,
+        "resolution": "ean me tis gennethe ex hydatos kai pneumatos carries at least three defensible lexical referents: a hendiadys for one Spirit-cleansing rebirth, natural birth contrasted with Spirit birth, or a washing rite. The single preposition ek governing both nouns is itself read as one event and as two. Because the referent of hydatos cannot be fixed by lexicon alone, the verse neither establishes nor refutes baptismal efficacy on lexical grounds. It remains a genuine complication for any flat denial."
+      },
+      {
+        "ref": "Titus.3.5",
+        "addressed": true,
+        "resolution": "loutrou palingenesias couples washing and regeneration via the genitive, with dia marking instrument, the most direct verbal link to a regenerating washing in the corpus. Yet both loutron (G3067) and palingenesia (G3824) occur only twice in the canon, so their senses cannot be triangulated: loutron at Eph 5:26 attaches to the word (en rhemati), and palingenesia at Matt 19:28 names cosmic renewal, not personal rebirth. The same sentence opens with ouk ex ergon. The lexical data sustains both a sacramental and a metaphorical reading, so the coupling is acknowledged as a real tension the words do not resolve."
+      },
+      {
+        "ref": "1Pet.3.21",
+        "addressed": true,
+        "resolution": "baptisma is the explicit subject of sozei, the sharpest grammatical assertion of baptismal salvation in the corpus, and baptisma + sozo co-occur in only this one verse. The verse supplies its own qualifier: ou sarkos apothesis rhypou (not removal of fleshly dirt) alla syneideseos agathes eperotema eis theon (but the appeal or pledge of a good conscience toward God), relocating the saving ground from the external washing to the conscience pledge anchored dia anastaseos Iesou Christou. Because eperotema (G1906) is a canonical hapax, its sense (appeal versus pledge) cannot be settled from biblical usage. The verse both states baptism saves and qualifies the manner, leaving competent readers divided. Addressed but not dissolved."
+      },
+      {
+        "ref": "Mark.16.16",
+        "addressed": true,
+        "resolution": "ho pisteusas kai baptistheis sothesetai pairs faith and baptism with sozo, but the parallel negative clause condemns only ho apistesas (the one disbelieving), not the unbaptized. The asymmetry, faith plus baptism in the positive clause but unbelief alone in the negative, means the grammar does not assert the rite as necessary to salvation. It could mark baptism as the normal accompaniment of the faith that saves. The clause is genuinely open on its own wording. The textual instability of Mark 16.9-20 is also noted, but the verdict here does not rest on it."
+      },
+      {
+        "ref": "Acts.22.16",
+        "addressed": true,
+        "resolution": "anastas baptisai kai apolousai tas hamartias sou epikalesamenos to onoma autou, rise, be baptized and wash away your sins, calling on his name. baptisai and apolousai (G0628, wash away) are coupled, which on its face binds the rite to cleansing. But apolouo occurs only twice in the canon, and its other use, 1 Cor 6:11 apelousasthe...en to onomati...kai en to pneumati, attributes the same washing to the Spirit. The final aorist participle epikalesamenos names the appeal that accompanies it. A two-occurrence lexeme split between rite context and Spirit context cannot fix the rite as the effecting cause."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited NT verses lie outside the open-cbgm 3 John sample, so CBGM was not run. SBLGNT apparatus diamonds visible in the bundle (Eph 2.8 dia, Luke 23.43 soi...lego, Acts 10.45 hagiou, Gal 2.16 de and the Iesou Christou order, Acts 10.48 en onomati Iesou Christou) touch wording but not the lemmas that bear the verdict (sozo, pistis, dikaioo, ergon, charis, baptizo, baptisma, eis, eperotema, loutron, palingenesia). Even granting the textual instability of Mark 16.9-20, the verdict does not rest on Mark 16.16 alone, so no examined variant changes the disputed reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "faith_alone_instrument",
+      "sacramental_realism",
+      "sign_and_seal",
+      "narrative_order",
+      "shepherding_authority"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "faith_alone_instrument (Rom 4, Gal 2, Eph 2)",
+        "verdict": "affirms",
+        "rationale": "Reading the justification texts at face value, faith reckoned as righteousness apart from working in Rom 4:5, justification dia pisteos and not ex ergon nomou in Gal 2:16, and salvation chariti dia pisteos as theou to doron in Eph 2:8-9, yields the stem's first clause directly. The instrument named is faith. No rite is supplied as the effecting cause anywhere in this lens's controlling texts."
+      },
+      {
+        "framework": "sacramental_realism (instrumental cause)",
+        "verdict": "denies",
+        "rationale": "Reading Acts 2:38 eis aphesin telically, John 3:5 ex hydatos as the rite, Titus 3:5 loutron palingenesias as the regenerating bath through which God saves, Acts 22:16 baptisai kai apolousai as washing sins away in the act, Mark 16:16 baptistheis sothesetai, and 1 Pet 3:21 baptisma sozei at face value yields baptism as the divinely appointed instrument through which forgiveness and regeneration are conveyed at the moment of water. On this lens the saving-language verbs and prepositions are taken in their plain instrumental force. The minority lens stated in its strongest lexical form."
+      },
+      {
+        "framework": "narrative_order (Acts 10, Luke 23)",
+        "verdict": "affirms",
+        "rationale": "The Cornelius sequence, Spirit falling (epepesen) before water with elabon antecedent to the proposed baptisthenai, and the unbaptized criminal granted paradise in Luke 23:43, show salvation and Spirit reception granted prior to or apart from the rite. The aspect of the verbs encodes an order the rite cannot have caused."
+      },
+      {
+        "framework": "sign_and_seal (Rom 4:11 analogy)",
+        "verdict": "affirms",
+        "rationale": "Reading baptism through the circumcision sphragis pattern of Rom 4:11, where the rite seals a righteousness already reckoned by faith while uncircumcised, yields the proposition: the outward act signifies and ratifies a prior inward grace and does not itself effect it. The grammar of sign-upon-prior-reality is what the stem claims for baptism by analogy."
+      }
+    ],
+    "notes": "The first clause of the stem (faith as saving instrument) is secure on the controlling texts in this bundle. The second clause (flat denial of any sense in which baptism effects regeneration) turns on contested prepositions and underdetermined lexemes (eis in Acts 2:38, ek in John 3:5, the loutron and palingenesia coupling in Titus 3:5, the subject relation of baptisma to sozei in 1 Pet 3:21, apolouo in Acts 22:16) which lexicon and morphology underdetermine. The analogia scripturae pulls in opposite directions depending on which set is treated as controlling, which is why the compound proposition is contested. The discipleship-submission clause of the stem has no lexical anchor terms in the bundle and is handled in stem_audit, deferred to task p2-cult-discipling-control."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the New Testament lexical and grammatical data indicate that saving union with Christ is received through faith, and does it indicate that water baptism either does or does not itself effect regeneration at the moment of administration, and does the data require or not require a disciple's submission of every life decision to a designated leader as a condition of membership in the Church?",
+    "notes": "The original stem is preloaded in two ways. First, the soteriological half builds in the conclusion through is received through faith and is not effected at the moment of water baptism such that baptism is the instrument of regeneration, which presupposes a sign reading over a sacramental-instrumental one, the very point at issue. Second, the stem is compound. It joins a baptismal-regeneration denial to a separate claim that shepherding relationships do not require submission of every life decision to a designated leader. The supplied bundle is entirely soteriological (Eph 2:8-9, Luke 23:43, Rom 4:5, Gal 2:16, Acts 10:44-48, plus baptizo) and contains no anchor lemmas for the discipleship-submission claim, so that clause cannot be lexically scored from this bundle and is noted as out of scope here, deferring to task p2-cult-discipling-control. The verdict was derived on the original stem. Because the baptismal half repeats the proposition that came back disputed in doc-baptismal-regeneration-denial (where Acts 2:38, John 3:5, Titus 3:5, Acts 22:16, Mark 16:16, and 1 Pet 3:21 permit a sacramental reading on lexicon alone, with eperotema a canonical hapax), the compound stem inherits that disputed disposition for consistency. No verdict change. No web fallback used. The lexical store and on-disk datasets supplied sufficient anchor lemmas, canon counts, and collocations for the soteriological half; the parent denial parse supplied the morphology for the complicating texts not present in this bundle."
+  },
+  "lay_summary": "This proposition makes two claims joined together. The first is that union with Christ that saves a person is received through faith and is not produced at the instant of water baptism, as if the water itself were the thing that does the saving. The second is that healthy church discipleship does not require a follower to submit every life decision to one assigned leader. On the first half, the words of the supplied passages are clear and pull one direction. Romans 4:5 says that to the one who does not work but believes, faith is reckoned as righteousness, setting believing against working. Galatians 2:16 says three times in a single verse that a person is not justified by works of law but through faith in Jesus Christ. Ephesians 2:8 and 9 say you have been saved by grace through faith, and this is the gift of God, not from works, so that no one can boast. Luke 23:43 promises paradise that very day to a dying man who was never baptized, and in Acts 10 the Holy Spirit falls on the hearers while Peter is still speaking, before any water touches them. The named instrument across this chain is faith. But the second half of the claim, the flat denial that baptism in any sense effects the new birth at the moment it happens, is harder to settle on the words alone. Acts 2:38 says be baptized for the forgiveness of sins, and the small Greek word there for can mean in order to obtain or with reference to. Titus 3:5 speaks of saving through a washing of regeneration, and both of those Greek words appear only twice in the whole Bible, so neither sense can be pinned down. John 3:5 speaks of being born of water and Spirit, where water has several defensible senses. First Peter 3:21 makes baptism the subject of the verb saves, then at once says it is not the removal of dirt from the body but the appeal of a good conscience toward God through the resurrection. The single word translated appeal or pledge occurs nowhere else in the Bible, so its exact sense cannot be cross-checked. The same sibling study of baptismal regeneration came back divided for these same reasons, and consistency requires the same disposition here. The discipleship part of the claim has no word evidence in this bundle and is handled separately. So the honest verdict is disputed with low confidence: the faith-alone half is well grounded, but the flat denial about baptism cannot be closed on vocabulary and grammar by themselves.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.4.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.21"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.2.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.38"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1519"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1906"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1344"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G4982"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.4.5"
+    },
+    {
+      "type": "syntax",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Acts.10.44"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is CC-BY-NC-4.0 (non-commercial, redistribute=false), used for sozo (G4982) and related gloss work. SBLGNT-text is under the SBLGNT-EULA (redistribute=false), used for the Greek text at the Acts 10 anchor. Because at least one source is non-redistributable, the aggregate evidence is not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

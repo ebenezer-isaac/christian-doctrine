@@ -1,0 +1,753 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-trinity",
+  "question_id": "doc-trinity",
+  "generated_at": "2026-05-27T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition is a synthesis of three components, and the canon supplies each component with grammar that forecloses the alternatives, though no single verse states the integrated whole. Oneness: Deut.6.4 predicates אֶחָד (H0259, morph HAcmsa, the ordinary cardinal one, 970 occurrences, the same form used for the composite one flesh of Gen.2.24) of יְהוָה, and אֱלֹהִים (H0430, morph HNcmpa, masculine plural in form in 2597 of 2598 occurrences) takes singular concord. Threeness with deity of each: Matt.28.19 governs three articulated genitives (τοῦ πατρὸς N-GSM, τοῦ υἱοῦ N-GSM, τοῦ ἁγίου πνεύματος N-GSN), each with its own article and joined by καί, under one singular ὄνομα (G3686, N-ASN). The benediction at 2Cor.13.14 (versified 2CO 13:13 in the SBLGNT) coordinates the same three by καί. Acts.5.3 to 5.4 names lying τὸ πνεῦμα τὸ ἅγιον then restates it οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ, equating the Spirit with God. John.1.1 sets ὁ λόγος πρὸς τὸν θεόν (T-ASM articular, distinction) against anarthrous predicate θεὸς ἦν ὁ λόγος (N-NSM, qualitative nature). John.14.16 to 17 holds three referents in one breath and gives the Spirit personal verbs. The pattern spans Torah, Gospels, Acts, and an epistle and is variant-stable in the bundle, so pan_canonical and variant_robust hold."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H0259",
+        "lemma": "אֶחָד",
+        "transliteration": "echad",
+        "occurrences_in_canon": 970,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3173",
+        "lemma": "יָחִיד",
+        "transliteration": "yachid",
+        "occurrences_in_canon": 12,
+        "in_anchors": false
+      },
+      {
+        "strong": "H0430",
+        "lemma": "אֱלֹהִים",
+        "transliteration": "elohim",
+        "occurrences_in_canon": 2598,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 2632,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 229,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1307,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 154,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3875",
+        "lemma": "παράκλητος",
+        "transliteration": "parakletos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5574",
+        "lemma": "ψεύδομαι",
+        "transliteration": "pseudomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H0259",
+      "H3173",
+      "H0430",
+      "H6213",
+      "H6754",
+      "H1823",
+      "H0559",
+      "H1254",
+      "G3686",
+      "G2316",
+      "G3056",
+      "G1510",
+      "G3962",
+      "G4151",
+      "G0243",
+      "G2087",
+      "G3875",
+      "G5574",
+      "G3306",
+      "G1097",
+      "G2334",
+      "G0907"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.6.4",
+        "key_terms": [
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H0259",
+            "lemma": "אֶחָד"
+          }
+        ],
+        "force": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד. The Shema fixes the oneness pole. אֱלֹהֵינוּ (H0430) carries morph HNcmpc with a 1cp suffix, a noun masculine plural in form taking singular concord with יְהוָה. The predicate אֶחָד (H0259, morph HAcmsa) is the ordinary cardinal one, attested 970 times, the same form that describes the composite one flesh of Gen.2.24. Hebrew had a distinct word for solitary aloneness, יָחִיד (H3173, only 12 occurrences, the only son of Gen.22.2), and the Shema does not use it. So the text asserts numeric oneness with a word that does not, of itself, exclude internal plurality, while not asserting that plurality either.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.1.26",
+        "key_terms": [
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H6213",
+            "lemma": "עָשָׂה"
+          },
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          },
+          {
+            "strong": "H1823",
+            "lemma": "דְּמוּת"
+          }
+        ],
+        "force": "וַיֹּאמֶר אֱלֹהִים נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ. The verb of speech וַיֹּאמֶר (H0559) is morph HC/Vqw3ms, third masculine singular, so the speaker is one. The inner-speech verb נַעֲשֶׂה (H6213) is morph HVqi1cp, first common plural cohortative, let us make, and the suffixes on בְּצַלְמֵנוּ and כִּדְמוּתֵנוּ are Sp1cp, our. The next verse executes the act in the singular: וַיִּבְרָא (H1254, Vqw3ms) בְּצַלְמוֹ, in his image, suffix Sp3ms. One speaker uses first-person plural inner discourse, then acts in the singular.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος. The noun ὄνομα (G3686) is morph N-ASN, singular, with its article τό also singular (T-ASN), governed by εἰς. It is not ὀνόματα. Three articulated genitives follow, each with its own article and joined by καί: τοῦ πατρὸς (T-GSM, N-GSM), τοῦ υἱοῦ (T-GSM, N-GSM), τοῦ ἁγίου πνεύματος (T-GSN, A-GSN, N-GSN). The single name resists splitting into three names, and the three distinct articles and conjunctions resist collapsing the three into one undifferentiated referent.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.13.14",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "ἡ χάρις τοῦ κυρίου Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ θεοῦ καὶ ἡ κοινωνία τοῦ ἁγίου πνεύματος. Stored at the SBLGNT versification 2CO 13:13, the benediction coordinates three genitive phrases by καί: τοῦ κυρίου Ἰησοῦ Χριστοῦ (N-GSM chain), τοῦ θεοῦ (N-GSM), and τοῦ ἁγίου πνεύματος (A-GSN, N-GSN). The Lord Jesus, God, and the Holy Spirit stand on one grammatical level as joint sources of grace, love, and fellowship, naming the same three that Matt.28.19 binds under one name.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. The verb ἦν is morph V-IAI-3S, imperfect of εἰμί, a durative past paired with ἐν ἀρχῇ that places the λόγος behind any creation horizon. πρὸς τὸν θεόν uses πρός with the articular accusative τὸν θεόν (T-ASM, N-ASM), marking relational facing and so distinction. The third clause fronts the anarthrous predicate θεός (N-NSM) before ἦν, with the articular subject ὁ λόγος (T-NSM, N-NSM). The anarthrous fronted predicate nominative predicates divine nature of the λόγος without identifying him as the same person as ὁ θεός he is with. One nature, two distinct referents, in one verse.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.5.3",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "διὰ τί ἐπλήρωσεν ὁ Σατανᾶς τὴν καρδίαν σου ψεύσασθαί σε τὸ πνεῦμα τὸ ἅγιον. The infinitive ψεύσασθαι (G5574, V-ADN) takes τὸ πνεῦμα τὸ ἅγιον (N-ASN, articular) as the one lied to. The Holy Spirit is the personal addressee of a lie, the kind of object only a personal agent can be, not an impersonal influence.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.5.4",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ. One verse after naming the Spirit as the one lied to, Peter restates the same act with ἐψεύσω (V-ADI-2S) as lying not to ἀνθρώποις (N-DPM) but, with the strong adversative ἀλλά (CONJ), τῷ θεῷ (T-DSM, N-DSM). The Spirit and God are referentially equated for this act, while v.3 and v.4 still name them as distinct grammatical entities. The both and pattern of distinction plus shared deity is on the surface of the grammar.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.16",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          }
+        ],
+        "force": "κἀγὼ ἐρωτήσω τὸν πατέρα καὶ ἄλλον παράκλητον δώσει ὑμῖν. Three referents stand in one sentence: κἀγώ, the Son speaking (ἐρωτήσω, V-FAI-1S, I will ask), τὸν πατέρα, the Father asked (N-ASM), and ἄλλον παράκλητον, another Paraclete the Father δώσει (V-FAI-3S, will give). ἄλλον (G0243, A-ASM) means another of the same kind, distinct from ἕτερος, another of a different kind. With παράκλητος (G3875) occurring 5 times, four for the Spirit in John 14 to 16 and once in 1Jn.2.1 for Christ as advocate, ἄλλος places the coming Paraclete in the same category as the Paraclete now speaking.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.17",
+        "key_terms": [
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G3306",
+            "lemma": "μένω"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          }
+        ],
+        "force": "τὸ πνεῦμα τῆς ἀληθείας, ὃ ὁ κόσμος οὐ δύναται λαβεῖν ὅτι οὐ θεωρεῖ αὐτὸ οὐδὲ γινώσκει· ὑμεῖς γινώσκετε αὐτό ὅτι παρ’ ὑμῖν μένει καὶ ἐν ὑμῖν ἔσται. The Spirit takes personal verbs: the world does not θεωρεῖ (V-PAI-3S) or γινώσκει (V-PAI-3S) him, the disciples γινώσκετε (V-PAI-2P) him, he μένει (V-PAI-3S) with them and ἔσται (V-FDI-3S) in them. The resumptive αὐτό (G0846, P-ASN) is neuter only by grammatical agreement with the neuter noun πνεῦμα, not by metaphysical signal, and the knowing, abiding, indwelling verbs are personal-agent vocabulary.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.1",
+        "to": "John.1.2",
+        "source": "openbible",
+        "votes": 148
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.10.30",
+        "source": "openbible",
+        "votes": 107
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.1.18",
+        "source": "openbible",
+        "votes": 47
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "openbible",
+        "votes": 36
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Ps.22.27",
+        "source": "openbible",
+        "votes": 22
+      },
+      {
+        "from": "Gen.1.26",
+        "to": "Gen.3.22",
+        "source": "openbible",
+        "votes": 42
+      },
+      {
+        "from": "Gen.1.26",
+        "to": "Gen.5.1",
+        "source": "openbible",
+        "votes": 40
+      },
+      {
+        "from": "Gen.1.26",
+        "to": "Gen.9.2",
+        "source": "openbible",
+        "votes": 36
+      },
+      {
+        "from": "John.14.17",
+        "to": "John.14.16",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Acts.5.4",
+        "to": "Acts.5.3",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Acts.5.3",
+        "to": "Acts.5.9",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "Acts.5.4",
+        "to": "Acts.5.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.3",
+        "to": "Acts.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Deut.6.4",
+        "addressed": true,
+        "resolution": "The Shema is the strongest oneness text and can be read as flat numeric solitude that excludes any internal distinction. The lexical reply is narrow and honest: the predicate is אֶחָד (H0259), the ordinary cardinal one used 970 times including the composite one flesh of Gen.2.24, not יָחִיד (H3173), the solitary or only that the language possessed and used elsewhere. So the word affirms numeric oneness but does not, by itself, settle whether that one is internally simple or internally distinct. The oneness pole stands, and it neither establishes nor forbids the threeness the NT texts name."
+      },
+      {
+        "ref": "Gen.1.26",
+        "addressed": true,
+        "resolution": "The plural נַעֲשֶׂה and the Sp1cp suffixes are read by some as a plural of majesty or as address to a created divine council. A first-person plural verb of majesty is poorly attested in classical Hebrew prose, and a council reading clashes with v.27, where God alone executes the act in his own singular image (בְּצַלְמוֹ, Sp3ms). The same first-person plural divine discourse recurs at Gen.3.22 (Sp1cp) and Gen.11.7 (Vqh1cp, let us go down, let us confuse), so it is a recurring pattern, not a one-off. The grammar fits intra-divine plural speech within one speaker, though it does not by itself name three."
+      },
+      {
+        "ref": "John.14.16",
+        "addressed": true,
+        "resolution": "The Son asking the Father (ἐρωτήσω) can be read as functional subordination that undercuts coequality. The asking belongs to the incarnate sending discourse, not to the nature claim that John.1.1 already carries (θεὸς ἦν ὁ λόγος). A distinction of role within the mission does not lower the shared nature, so the asking complicates coequality only if mission language is read as nature language."
+      },
+      {
+        "ref": "John.14.17",
+        "addressed": true,
+        "resolution": "The neuter resumptive αὐτό for τὸ πνεῦμα is sometimes taken to depersonalize the Spirit. It is mere grammatical concord with the neuter noun πνεῦμα. The personal verbs θεωρεῖ, γινώσκει, μένει, ἔσται and the masculine ἄλλον παράκλητον construed with the Spirit carry the personal force, so the neuter pronoun does not weigh against personhood."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle contained zero variant_units and the anchors lie outside the ingested ECM window (3 John 1.1 to 1.15), so this is not_in_ecm_scope. Matt.28.19, the 2Cor.13.14 benediction (versified 2CO 13:13 in SBLGNT and MACULA-Greek), John.1.1, Acts.5.3 to 5.4, and John.14.16 to 17 are textually stable in MACULA-Greek-SBLGNT and MorphGNT. Deut.6.4 and Gen.1.26 to 27 in OSHB show no variant touching אֶחָד, the cohortative נַעֲשֶׂה, or the pronominal suffixes."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "synthesis-mandated",
+        "verdict": "affirms",
+        "rationale": "Each component is lexically forced: oneness (Deut.6.4 echad over plural-form elohim with singular concord), threeness coordinated as one (singular ὄνομα over three articular genitives in Matt.28.19, the threefold καί benediction in 2Cor.13.14), and full deity of each member (John.1.1 θεὸς ἦν ὁ λόγος, Acts.5.3 to 5.4 Spirit equated with God). When scripture is read with scripture, the only reading that holds all three components without contradiction is one God in three distinct persons. The integration is mandated because no rival reading keeps every clause intact."
+      },
+      {
+        "framework": "synthesis-permitted-not-stated",
+        "verdict": "affirms-with-qualification",
+        "rationale": "This lens grants every component but notes that no single verse states the integrated formula and that the integrating term is supplied by the reader, not the text. On this reading the canon permits and even favors the triune synthesis but does not state it in one place, so the doctrine is a sound inference rather than an explicit proposition. The lexical data is the same; the claim is only about where the integrating step lives."
+      },
+      {
+        "framework": "strict-unitarian-monadic",
+        "verdict": "does-not-affirm",
+        "rationale": "Read in its strongest form, this lens takes Deut.6.4 echad as numeric solitude, reads the Gen.1.26 plural as majesty or council, treats John.1.1 anarthrous θεός as qualitative or lesser rather than full deity, and treats the Matt.28.19 and 2Cor.13.14 triads as ranked rather than coequal. It must, however, absorb Acts.5.3 to 5.4, where lying to the Spirit is restated as lying to God, and the durative pre-creation ἦν of John.1.1, which strain a purely monadic reading. Recorded so the minority reading is represented in its strongest lexical form."
+      }
+    ],
+    "notes": "The verdict rests on grammatical and lexical observations within the cited verses, read with scripture interpreting scripture. The divergence among lenses is not over the data but over whether the integrating synthesis is mandated, merely permitted, or resisted. Progressive revelation is in play in that the plural inner-discourse and plural-form elohim of the Torah are named and specified by the NT triadic texts."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": "What does the canon say about whether the one God is identified by Scripture as Father, Son, and Holy Spirit, and whether those three are distinguished as personal agents while each is named or treated as God?",
+    "notes": "The stem uses the confessional shorthand one God, three coequal coeternal distinct Persons. The terms coequal, coeternal, and Person are post-canonical vocabulary, but the lexical referents are scriptural: numeric oneness in Deut.6.4 (echad, not yachid), one singular name over three articular persons in Matt.28.19, the threefold benediction in 2Cor.13.14, the equation of Spirit with God in Acts.5.3 to 5.4, the durative pre-creation existence and the with-God distinction of John.1.1, and the three-referent sending of John.14.16 to 17. The honest lexical reality is that the canon supplies every component (oneness, threeness, deity of each, real distinction) but never the single integrating term Trinity, so the doctrine is a synthesis the grammar requires rather than a phrase any one verse states. The stem does not smuggle a distinctive the lexical evidence does not bear; a neutralized form is recorded for human review but verdict_preloaded is false."
+  },
+  "lay_summary": "This proposition says God is one and that Scripture names that one God as three distinct persons, the Father, the Son, and the Holy Spirit. The words support this, but in a particular way: no single verse states the whole idea, yet the vocabulary and grammar each supply a piece, and the pieces only fit together one way. On oneness, Deuteronomy 6:4 calls the LORD one using the ordinary number one (echad), the same word used for the one flesh of a married pair, and not the word for solitary or only (yachid) that Hebrew also had. So oneness is asserted, but with a word that does not by itself rule out internal distinction. On the three, Matthew 28:19 says to baptize into a single name (the noun name is grammatically singular) which is then spelled out as three persons, each with its own the and joined by and: the Father, and the Son, and the Holy Spirit. The blessing at 2 Corinthians 13:14 lines up the same three side by side. On the full deity of each, John 1:1 says the Word was with God and the Word was God, using one verb tense that places the Word before creation and a grammar that distinguishes the Word from the God he is with while still calling him God. In Acts 5:3 to 4, lying to the Holy Spirit is restated one verse later as lying to God. In John 14:16 to 17 the Son asks, the Father gives, and the Spirit comes, three named ones in one breath, and the Spirit is given personal verbs of knowing and abiding. The pattern runs across the law, the Gospels, Acts, and a letter, and is not disturbed by textual variants in the available data. Readers diverge here for one plain reason: the words clearly give oneness, threeness, and the full deity of each, but they never give the single word that ties them together, so people differ over whether that tie is required or merely allowed.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.2.24"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0259"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3173"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0430"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6754"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.13.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.17"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.13.14"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.14.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.14.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3686"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0243"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3875"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1510"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5574"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

@@ -1,0 +1,552 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-election",
+  "question_id": "doc-election",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The vocabulary of choosing is lexically secure and pan-canonical with God as subject. In the Old Testament bachar, to choose, occurs 170 times across 162 verses with God choosing Israel as his people (Deut 7:6-7), and in the New Testament eklegomai (Eph 1:4 exelexato hemas en auto pro kataboles kosmou) and the noun ekloge (Rom 9:11) and the adjective eklektos (1 Pet 1:1) carry the same act forward, with proorizo, to mark out beforehand, in Eph 1:5 and Rom 8:29-30. So the bare proposition that God chose a people for salvation in Christ before time is well grounded. But the contested axis, whether that choice is unconditional or grounded in foreseen faith, and whether its object is individuals or a corporate body in Christ, is not fixed by the lemmas. The verb eklegomai is uniformly middle voice but its dominant attested object is non-salvific (the apostles, the nation, a portion), so it does not by itself name individuals chosen unto salvation. The noun prognosis (Rom 8:29, 1 Pet 1:2) is polysemous between anticipatory knowledge of response and covenantal fore-regard, and the words do not adjudicate. The lexical data is therefore materially contested between defensible readings."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1586",
+        "lemma": "ἐκλέγομαι",
+        "transliteration": "eklegomai",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1589",
+        "lemma": "ἐκλογή",
+        "transliteration": "ekloge",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1588",
+        "lemma": "ἐκλεκτός",
+        "transliteration": "eklektos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4309",
+        "lemma": "προορίζω",
+        "transliteration": "proorizo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4267",
+        "lemma": "προγινώσκω",
+        "transliteration": "proginosko",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4268",
+        "lemma": "πρόγνωσις",
+        "transliteration": "prognosis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4286",
+        "lemma": "πρόθεσις",
+        "transliteration": "prothesis",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1653",
+        "lemma": "ἐλεάω",
+        "transliteration": "eleao",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4632",
+        "lemma": "σκεῦος",
+        "transliteration": "skeuos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0138",
+        "lemma": "αἱρέομαι",
+        "transliteration": "haireomai",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0977",
+        "lemma": "בָּחַר",
+        "transliteration": "bachar",
+        "occurrences_in_canon": 170,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1586",
+      "G1589",
+      "G1588",
+      "G4309",
+      "G4267",
+      "G4268",
+      "G4286",
+      "G1653",
+      "G4632",
+      "G0138",
+      "G0025",
+      "G3404",
+      "H0977"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.1.4",
+        "key_terms": [
+          {
+            "strong": "G1586",
+            "lemma": "ἐξελέξατο"
+          },
+          {
+            "strong": "G2602",
+            "lemma": "καταβολῆς"
+          }
+        ],
+        "force": "The aorist middle exelexato (V-AMI-3S) has God as subject and hemas, us, as object, set in him, en auto, and dated pro kataboles kosmou, before the foundation of the world. The lexical force fixes the timing as pretemporal, the agent as God, and the sphere as in Christ. But the following infinitive einai hagious kai amomous, to be holy and blameless, names the goal of the choice, not its ground or condition, and the closing phrase en agape, in love, sits at the verse boundary so that it can attach either to the holiness clause here or to the predestining of the next verse, which the grammar does not settle.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Eph.1.4!2"
+      },
+      {
+        "ref": "Eph.1.5",
+        "key_terms": [
+          {
+            "strong": "G4309",
+            "lemma": "προορίσας"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατὰ"
+          }
+        ],
+        "force": "The aorist participle proorisas, having predestined, governs eis huiothesian, unto adoption, and is qualified by kata ten eudokian tou thelematos autou, according to the good pleasure of his will. The phrase locates the determining cause in God's own will and good pleasure, which the unconditional reading leans on. But proorizo by itself states only that a boundary or destiny was set in advance, and the prepositional kata phrase names the standard of the act, not whether foreseen human response is included within that good pleasure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.29",
+        "key_terms": [
+          {
+            "strong": "G4267",
+            "lemma": "προέγνω"
+          },
+          {
+            "strong": "G4309",
+            "lemma": "προώρισεν"
+          }
+        ],
+        "force": "The clause places proegno, he foreknew (V-2AAI-3S), syntactically prior to prooorisen, he predestined, in a chain governed by the relative pronoun hous, whom. The foreseen-faith reading takes proegno as foreknowledge of the believing response that conditions the predestining. The unconditional reading takes proegno as God setting covenantal regard on persons, supported by Rom 11:2 where the same verb has a corporate object, ton laon autou hon proegno, his people whom he foreknew. The verb establishes order but its object here is unstated, so it does not adjudicate the content of the foreknowledge.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.30",
+        "key_terms": [
+          {
+            "strong": "G4309",
+            "lemma": "προώρισεν"
+          },
+          {
+            "strong": "G1344",
+            "lemma": "ἐδικαίωσεν"
+          }
+        ],
+        "force": "The unbroken chain prooorisen, ekalesen, edikaiosen, edoxasen ties each aorist to the same relative-pronoun antecedent (hous), so the same group is carried through every link without loss. The lexical pattern of an inviolable chain supports a definite people whose end is secured, but it does not by itself disclose whether entry into the chain is conditioned on foreseen faith.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.11",
+        "key_terms": [
+          {
+            "strong": "G1589",
+            "lemma": "ἐκλογὴν"
+          },
+          {
+            "strong": "G4286",
+            "lemma": "πρόθεσις"
+          }
+        ],
+        "force": "The genitive-absolute mepo gennethenton mede praxanton ti agathon e phaulon, the twins not yet born and having done nothing good or bad, sets the timing of the choice before any human action, so that he kat eklogen prothesis tou theou, the purpose of God according to election, might stand. The MACULA tagging confirms the noun is prothesis (G4286, purpose), distinct from the verb thelo, and ekloge is G1589. The temporal clause and the qualifier ouk ex ergon all ek tou kalountos, not of works but of him who calls (v12), are the lexical backbone of the unconditional reading. The corporate reading notes that the case in view is the elder-younger reversal of two named heads of nations.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.13",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἠγάπησα"
+          },
+          {
+            "strong": "G3404",
+            "lemma": "ἐμίσησα"
+          }
+        ],
+        "force": "The citation of Mal 1:2-3, ton Iakob egapesa, ton de Esau emisesa, I loved Jacob but Esau I hated, uses agapao (G0025) and miseo (G3404). The Hebrew source uses ahab (H0157) and sane (H8130) of Jacob (H3290) and Esau (H6215), and Malachi's own context speaks of the nations Israel and Edom, since v3-4 describe Edom's territory. The loving and hating pairing functions as a Semitic comparative idiom of preference and rejection, and its corporate national reference complicates a directly individual-salvific reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.15",
+        "key_terms": [
+          {
+            "strong": "G1653",
+            "lemma": "ἐλεήσω"
+          },
+          {
+            "strong": "G3627",
+            "lemma": "οἰκτιρήσω"
+          }
+        ],
+        "force": "The quotation of Exod 33:19, eleeso hon an eleo, I will have mercy on whom I have mercy, uses the subjunctive with an to express God's free self-determination of the objects of his mercy. The lexical force places the choosing of the recipients of mercy in God's own freedom rather than in a prior claim upon him.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.16",
+        "key_terms": [
+          {
+            "strong": "G2309",
+            "lemma": "θέλοντος"
+          },
+          {
+            "strong": "G1653",
+            "lemma": "ἐλεῶντος"
+          }
+        ],
+        "force": "The summary ou tou thelontos oude tou trechontos alla tou eleontos theou, not of him who wills nor of him who runs but of God who shows mercy, lexically subordinates human willing (thelo) and running to divine mercy (eleao). The threefold participial contrast is the strongest single-clause support for an unconditional ground within this pericope.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.18",
+        "key_terms": [
+          {
+            "strong": "G1653",
+            "lemma": "ἐλεεῖ"
+          },
+          {
+            "strong": "G4645",
+            "lemma": "σκληρύνει"
+          }
+        ],
+        "force": "The parallel hon thelei eleei, hon de thelei sklerunei, he has mercy on whom he wills and he hardens whom he wills, balances eleao against skleruno under the single governing verb thelo. The lexical symmetry shows the same divine willing operating on both mercy and hardening, which the unconditional reading takes as decisive and which the other lens reads against the redemptive-historical frame of Pharaoh in v17.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.1.1",
+        "key_terms": [
+          {
+            "strong": "G1588",
+            "lemma": "ἐκλεκτοῖς"
+          },
+          {
+            "strong": "G4268",
+            "lemma": "πρόγνωσιν"
+          }
+        ],
+        "force": "The recipients are addressed as eklektois, chosen ones, and 1 Pet 1:2 grounds this kata prognosin theou patros, according to the foreknowledge of God the Father. The MACULA gloss of prognosis is simply foreknowledge, and the only other New Testament occurrence of the noun, Acts 2:23, pairs it with boule, determinate plan or counsel. The pairing with boule gives the determinative reading real footing, while the bare lexeme leaves the anticipatory-knowledge reading open, so the verse is the principal text the two lenses contest.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.2.13",
+        "key_terms": [
+          {
+            "strong": "G0138",
+            "lemma": "εἵλατο"
+          },
+          {
+            "strong": "G0038",
+            "lemma": "ἁγιασμῷ"
+          }
+        ],
+        "force": "God heilato hymas, chose you (haireomai, the middle, attested only three times), eis soterian, for salvation, en hagiasmo pneumatos kai pistei aletheias, in sanctification of the Spirit and belief of the truth. The verse names belief (pistis) inside the sphere or means of the saving choice, which the foreseen-faith reading uses, while sanctification of the Spirit is named alongside it as a divine work, and the words do not order belief and divine sanctification causally. The SBLGNT text reads aparchen, firstfruits, where the marked apparatus carries the alternative ap arches, from the beginning.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.7.6",
+        "key_terms": [
+          {
+            "strong": "H0977",
+            "lemma": "בָּחַר"
+          }
+        ],
+        "force": "God bachar, chose, Israel to be a people for his own possession, am segullah, and v7 repeats the verb, wayyivchar, stating the choice was not because they were many but because the LORD loved them and kept the oath to the fathers. The Old Testament choosing verb here grounds election as the selection of a corporate people, and v7 names the ground as God's love and prior oath rather than any merit, which the New Testament choosing language draws upon, since the Septuagint regularly renders bachar with eklegomai.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.9.10",
+        "to": "Gen.25.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.9.12",
+        "to": "Gen.25.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.9.13",
+        "to": "Mal.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.9.17",
+        "to": "Exod.9.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.9.17",
+        "to": "Exod.10.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.1.4",
+        "to": "Deut.7.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.2",
+        "to": "1Pet.2.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Thess.2.13",
+        "to": "2Thess.2.16",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.8.29",
+        "addressed": true,
+        "resolution": "The placement of proegno before prooorisen is real and is what the foreseen-faith lineage rests on. It is addressed by noting that proginosko occurs 5 times, and where its object is named it can be a people (Rom 11:2, his people whom he foreknew) which favors covenantal fore-regard, or an ordinary prior acquaintance (Acts 26:5). The verb here leaves its object unstated, so it establishes order without establishing whether the thing foreknown is faith or persons. It therefore counts toward dispute rather than toward a single verdict."
+      },
+      {
+        "ref": "1Pet.1.2",
+        "addressed": true,
+        "resolution": "Kata prognosin theou is read by one lineage as anticipatory knowledge of response and by the other as determinative fore-regard. The noun occurs only twice (here and Acts 2:23), and the Acts occurrence pairs prognosis with boule, determinate counsel, which gives the determinative reading footing, while the bare lexeme covers anticipatory knowledge too. The verse is held as genuinely two-sided and contributes to the disputed verdict."
+      },
+      {
+        "ref": "Rom.9.13",
+        "addressed": true,
+        "resolution": "The Mal 1:2-3 citation refers in its source context to the nations Israel and Edom, since Malachi 1:3-4 describes Edom's land, so the agapao and miseo language is corporate before it is individual. This is a real complication for an individual-salvific reading, but it does not remove the pretemporal-choice language of Rom 9:11, so the basis and object remain contested rather than settled."
+      },
+      {
+        "ref": "2Thess.2.13",
+        "addressed": false,
+        "resolution": "Not resolved because the verse names both pistei aletheias, belief of the truth, and hagiasmo pneumatos, sanctification of the Spirit, within the saving choice, and the lexical data alone cannot order belief and divine sanctification causally. The MACULA text reads aparchen, firstfruits, with the apparatus marking the alternative ap arches, from the beginning, and the from-the-beginning reading would more directly favor a pretemporal salvific choice. The ambiguity is left standing and feeds the disputed verdict."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "2Thess.2.13",
+        "variant_id": "2Thess.2.13/aparchen-vs-ap-arches",
+        "verdict_impact": "minor",
+        "note": "The MACULA-Greek and MorphGNT SBLGNT text reads aparchen, firstfruits, and the apparatus marker carries the alternative ap arches, from the beginning. The from-the-beginning reading would more directly support a pretemporal salvific choice, but both readings keep God as the choosing agent and neither settles the unconditional versus foreseen-faith axis, so the impact on this verdict is minor."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "The anchor verses sit outside ECM-published scope (not_in_ecm_scope was true in the bundle and the bundle supplied no variant units). The known aparchen versus ap arches reading at 2 Thess 2:13 is recorded from the SBLGNT apparatus marker, but it shifts emphasis without overturning the disputed verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "unconditional_election",
+      "conditional_election_foreseen_faith",
+      "corporate_election"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "unconditional_election",
+        "verdict": "for",
+        "rationale": "Reads Rom 9:11-18 and Eph 1:5 as grounding the choice in God's purpose, will, and mercy prior to and apart from human works or foreseen response, treating proegno (Rom 8:29) as covenantal fore-regard of persons (compare Rom 11:2) and prognosis (1 Pet 1:2) as determinative, supported by its pairing with boule in Acts 2:23, and reading not of him who wills nor runs but of God who shows mercy (Rom 9:16) as decisive."
+      },
+      {
+        "framework": "conditional_election_foreseen_faith",
+        "verdict": "for",
+        "rationale": "Reads the proegno-before-prooorisen order in Rom 8:29 and kata prognosin in 1 Pet 1:2 as foreknowledge of the believing response that conditions the predestining, since prognosis can mean anticipatory knowledge, and reads pistei aletheias, belief of the truth, in 2 Thess 2:13 as the foreseen condition named within the saving choice. On this lens the choosing verbs are real and pretemporal but respond to faith God foresees."
+      },
+      {
+        "framework": "corporate_election",
+        "verdict": "complicates",
+        "rationale": "Reads the choosing vocabulary against its dominant attested object: bachar chooses Israel as a corporate people (Deut 7:6-7), eklegomai most often chooses the apostles or the nation rather than individuals unto salvation, the en auto, in him, of Eph 1:4 is corporate, and the Mal 1:2-3 Jacob and Esau citation is national. On this lens Rom 9 addresses redemptive-historical roles of peoples before it addresses the basis of individual salvation."
+      }
+    ],
+    "notes": "The lemmas establish a real pretemporal divine choice of a people but do not by themselves fix either its basis (unconditional versus foreseen faith) or its object (individuals versus corporate in Christ), so analogia scripturae is invoked by every lineage. Progressive revelation matters because Rom 9 argues the case by quoting Genesis, Exodus, and Malachi, and the Old Testament bachar stands behind the New Testament eklegomai through Septuagint usage. The primary method is redemptive-historical because the verdict turns on the covenantal arc from the choosing of Israel to the choosing in Christ."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The question stem is already balanced. It affirms only the shared claim that God chose a people for salvation in Christ before the foundation of the world, and it explicitly names the unconditional versus foreseen-faith question as a divided question rather than asserting either side. The parenthetical labels Calvinist and classical Arminian or Brethren name the lineages without ranking them, so no tradition-specific taxonomy is smuggled into the proposition itself. The stem is therefore not verdict-preloaded, and the verdict is derived on the original stem."
+  },
+  "lay_summary": "The words at the center of this question are lexically clear. In Ephesians 1:4 the verb exelexato, he chose, has God as its subject and us as its object, set in him and dated before the foundation of the world. Ephesians 1:5 adds proorisas, having predestined, governed by the good pleasure of his will. Romans 8:29-30 runs an unbroken chain: those God foreknew he also predestined, called, justified, and glorified. Romans 9:11 says the twins had done nothing good or bad so that God's purpose according to election might stand, and Romans 9:16 says it is not of the one who wills or runs but of God who shows mercy. First Peter 1:1 calls the readers chosen ones. Behind all this stands the Old Testament verb bachar, used 170 times, where God chooses Israel to be his people. So the plain claim, that God chose a people for salvation in Christ, rests on solid and wide lexical ground. What the words do not settle is the basis of that choice and its object. The choosing verb in Greek most often picks the apostles, the nation, or a portion, not individuals unto salvation, so the verb alone does not say the chosen are individual believers. The term foreknowledge carries two senses in plain use: God knowing in advance who would believe, which would make the choice respond to foreseen faith, or God setting his regard on persons in advance, which would make it rest on his own will. Its only other use, in Acts 2:23, sits next to the word for a settled plan, which leans toward the second sense, yet the bare word allows the first. Romans 9 leans hard toward a choice grounded in mercy alone, but its quotation of Malachi about Jacob and Esau speaks first of nations, which keeps a corporate reading open. Second Thessalonians 2:13 names both belief of the truth and sanctification of the Spirit inside the saving choice without ordering them. For these reasons the lexical pattern affirms the shared core but stays genuinely divided on whether election is unconditional or grounded in foreseen faith, and whether its object is individuals or a body in Christ, which is exactly the question the proposition flags as contested.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.1.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.9.11"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4268"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.29"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.7.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.9.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.9.17"
+    },
+    {
+      "type": "variant",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "2Thess.2.13"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two sources are non-redistributable for bulk reuse. The morphology and middle-voice tagging that anchor the eklegomai and prothesis observations were queried from MACULA-Greek (CC-BY-NC-4.0), and the 2 Thess 2:13 aparchen versus ap arches reading was confirmed from SBLGNT-text (SBLGNT-EULA). The CC-BY-4.0, CC-BY-SA-4.0, and public-domain sources could carry most claims, but the MACULA morphology and SBLGNT apparatus marker are load-bearing for the voice and variant findings, so the bundle is marked not safe to publish until those dependencies are replaced."
+  },
+  "flags": [
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

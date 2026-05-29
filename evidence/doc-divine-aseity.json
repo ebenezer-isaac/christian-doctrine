@@ -1,0 +1,471 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-aseity",
+  "question_id": "doc-divine-aseity",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Three anchors converge on God deriving His being from nothing outside Himself, and the morphology was queried, not assumed. Exodus 3:14 stacks three forms of הָיָה (H1961), each Qal imperfect 1cs (Vqi1cs, glossed I.am), the first two joined by the relative אֲשֶׁר and the third standing as the self disclosed name, predicating sheer self referential being. John 5:26 sets the present ἔχει (V-PAI-3S, the Father has life) beside the aorist ἔδωκεν (V-AAI-3S, granted to the Son), with the identical reflexive ἐν ἑαυτῷ (G1438) on both, locating life inside the divine person. Acts 17:25 negates need with οὐδέ plus the participle προσδεόμενός (G4326, a verified canon hapax, one occurrence) and makes God the unidirectional giver via διδούς (present participle) to πᾶσι. Divergence is not over the words but over whether the synthesis label aseity is mandated."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H1961",
+        "lemma": "הָיָה",
+        "transliteration": "hayah",
+        "occurrences_in_canon": 3368,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0559",
+        "lemma": "אָמַר",
+        "transliteration": "amar",
+        "occurrences_in_canon": 5064,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1438",
+        "lemma": "ἑαυτοῦ",
+        "transliteration": "heautou",
+        "occurrences_in_canon": 331,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 708,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1325",
+        "lemma": "δίδωμι",
+        "transliteration": "didomi",
+        "occurrences_in_canon": 415,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4326",
+        "lemma": "προσδέομαι",
+        "transliteration": "prosdeomai",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4157",
+        "lemma": "πνοή",
+        "transliteration": "pnoe",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H1961",
+      "H0559",
+      "H3286",
+      "H3021",
+      "H7456",
+      "G2222",
+      "G1438",
+      "G2192",
+      "G1325",
+      "G4326",
+      "G4157",
+      "G3956",
+      "G3962",
+      "G5207",
+      "G4272",
+      "G0467"
+    ],
+    "scripture": [
+      {
+        "ref": "Exod.3.14",
+        "key_terms": [
+          {
+            "strong": "H1961",
+            "lemma": "הָיָה"
+          },
+          {
+            "strong": "H0834",
+            "lemma": "אֲשֶׁר"
+          },
+          {
+            "strong": "H0559",
+            "lemma": "אָמַר"
+          }
+        ],
+        "force": "Queried morphology confirms three tokens of הָיָה here, positions 5, 7, and 13, each parsed Vqi1cs (Qal imperfect, first person common singular) and glossed I.am. אֶהְיֶה אֲשֶׁר אֶהְיֶה sets two such forms on either side of the relative אֲשֶׁר (Tr), so the predicate of being refers back to the same speaker rather than to anything outside. The third אֶהְיֶה then functions as the name that sent Moses, binding the divine identity to sheer existence. The imperfect carries durative, not merely future, force, so the clause reads as ongoing self grounded being.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Exod.3.14"
+      },
+      {
+        "ref": "John.5.26",
+        "key_terms": [
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "Queried parsing: ἔχει is V-PAI-3S (present, the Father has life) and ἔδωκεν is V-AAI-3S (aorist, He gave to the Son), while the reflexive ἑαυτῷ (F-3DSM) is attached identically to both, ζωὴν ἐν ἑαυτῷ. The present tense predicates underived, ongoing life of the Father with no point of origin, and the matching reflexive grants the same modality of life to the Son. The reflexive locates the source of life inside the divine person, not in any external donor.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.5.26"
+      },
+      {
+        "ref": "Acts.17.25",
+        "key_terms": [
+          {
+            "strong": "G4326",
+            "lemma": "προσδέομαι"
+          },
+          {
+            "strong": "G4157",
+            "lemma": "πνοή"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Queried parsing: προσδεόμενός is V-PNP-NSM (present participle, as needing) and is a verified canon hapax, its single occurrence, negated by οὐδέ plus the indefinite τινος (anything). Over against the denial of need stands διδούς, V-PAP-NSM (present active participle, giving), with πᾶσι ζωὴν καὶ πνοὴν καὶ τὰ πάντα, so God is the ongoing, one directional source of life and breath. πνοή itself occurs only twice in the canon. The grammar foregrounds need denied of God and gift flowing out from God.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.17.25"
+      },
+      {
+        "ref": "Isa.40.28",
+        "key_terms": [
+          {
+            "strong": "H3286",
+            "lemma": "יָעֵף"
+          },
+          {
+            "strong": "H3021",
+            "lemma": "יָגֵעַ"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          }
+        ],
+        "force": "Queried tokens confirm the negation לֹא (H3808) standing over two verbs, יָעֵף (H3286, be faint, Vqi3ms) and יָגֵעַ (H3021, be weary, Vqi3ms), denying fatigue and exhaustion of the everlasting God. The negated imperfects predicate an inexhaustible vitality that requires no replenishment from outside. This complements the positive Acts 17:25 assertion of God as giver who needs nothing.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.50.12",
+        "key_terms": [
+          {
+            "strong": "H7456",
+            "lemma": "רָעֵב"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          }
+        ],
+        "force": "Queried morphology shows רָעֵב (H7456, be hungry) as Vqi1cs in the conditional clause if I were hungry. God says He would not tell the worshiper, because the world and its fullness already belong to Him. The conditional severs any creaturely provision from God's sustenance and denies that He could be in want of what creatures supply.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.35",
+        "key_terms": [
+          {
+            "strong": "G4272",
+            "lemma": "προδίδωμι"
+          },
+          {
+            "strong": "G0467",
+            "lemma": "ἀνταποδίδωμι"
+          }
+        ],
+        "force": "Queried parsing confirms προέδωκεν (G4272, V-AAI-3S, has first given) and ἀνταποδοθήσεται (G0467, V-FPI-3S, it will be recompensed). The rhetorical τίς expects the answer no one, denying that any creature has first given to God so as to place Him in debt. The verse flows into the doxology ἐκ αὐτοῦ καὶ δι αὐτοῦ καὶ εἰς αὐτὸν, framing all things as from, through, and to God, which excludes external dependence.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.17.25",
+        "to": "Acts.17.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.5.26",
+        "to": "Exod.3.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.5.26",
+        "to": "John.1.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Exod.3.14",
+        "to": "Exod.6.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.25",
+        "to": "Job.22.2",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.5.26",
+        "addressed": true,
+        "resolution": "The aorist ἔδωκεν (V-AAI-3S) saying the Father gave the Son to have ζωὴν ἐν ἑαυτῷ could read as deriving the Son's life, which would undercut the Son's self existence. The queried parsing shows the same reflexive ἐν ἑαυτῷ (F-3DSM) attached to Father and Son alike, so the verse predicates the identical underived modality of life of both persons. The giving is internal to God, an intratrinitarian relation, not the creaturely dependence the proposition denies."
+      },
+      {
+        "ref": "Acts.17.28",
+        "addressed": true,
+        "resolution": "ἐν αὐτῷ γὰρ ζῶμεν καὶ κινούμεθα καὶ ἐσμέν places creaturely existence inside God's sustaining activity. This runs the dependence the opposite direction, creatures on God, so it confirms rather than complicates the verdict by predicating contingency of creatures and not of God."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The three anchors are outside the ingested ECM window, which covers only 3 John 1.1 to 1.15, so no CBGM signal applies and none was invented. Exodus 3:14 is Hebrew. The Greek anchors John 5:26 and Acts 17:25 carry stable readings for the reflexive ἐν ἑαυτῷ and for the negated participle προσδεόμενός across the standard editions queried, so the verdict does not turn on any variant."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "synthesis_mandated_reading",
+        "verdict": "affirms",
+        "rationale": "The I-AM name in the Qal imperfect of הָיָה, the present tense life ἐν ἑαυτῷ in John 5:26, and the hapax denial of need in Acts 17:25 together name self existence and non dependence. Reading these as a single coherent witness yields the synthesis that the canon predicates underived being of God, which the label aseity summarizes faithfully."
+      },
+      {
+        "framework": "vocabulary_underdetermines_reading",
+        "verdict": "complicates",
+        "rationale": "The abstract noun aseity never appears in the canon. The texts supply two separate things, a self referential name and several denials of need, but they do not themselves combine these into a metaphysical category. A reader can grant every verse yet hold that the words affirm God's independence without warranting the full speculative claim that He derives His essence from nothing whatever. The divergence is over the synthesis, not over any single predication."
+      },
+      {
+        "framework": "intratrinitarian_giving_reading",
+        "verdict": "complicates",
+        "rationale": "The aorist ἔδωκεν in John 5:26, that the Father gave the Son to have life in himself, can be pressed to make the Son's life derivative and so qualify a flat claim of self existence for every divine person. Stated in its strongest form, this lens asks whether self existence is predicated of the Godhead or of each person identically. The identical reflexive ἐν ἑαυτῷ on both persons answers within the verse, but the wrinkle is real and lexical, not imagined."
+      }
+    ],
+    "notes": "The verdict rests on three direct predications, the I-AM name, life ἐν ἑαυτῷ, and the denial of need, plus two further denials in Psalm 50:12 and Romans 11:35. The pattern is read by analogy of Scripture across Hebrew and Greek. The only lexical tension is internal to John 5:26 and is resolved by the shared reflexive."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition states a metaphysical claim, self existence and deriving being from nothing outside, using terms that map onto biblical predications, the I-AM name, having life in himself, and needing nothing, without importing a confessional taxonomy. The synthesis word aseity is not in the canon, but the stem paraphrases it in plain terms rather than smuggling its conclusion. Verdict unchanged from the prior file. One lexical correction was made on a supporting text, not on an anchor: Isaiah 40:28 was previously keyed to H3287, but the queried tokens show the faint and weary verbs there are H3286 and H3021, so the key terms were corrected accordingly. This is a citation accuracy fix and does not move the verdict."
+  },
+  "lay_summary": "Three texts converge on the claim that God has His being from Himself and not from anything outside. In Exodus 3:14, God names Himself with the Hebrew verb to be, repeated three times in a self referential clause, I am who I am, and each form was checked in the data and parsed as the same first person verb glossed I am. The grammar predicates being of God with no external ground, and the third use of the same form becomes the name that sends Moses. In John 5:26, the verb the Father has life is present tense, ongoing life with no beginning, and the same phrase, life in himself, uses a Greek reflexive that locates the source of life inside the divine person. The word that says the Father gave that life to the Son is past tense, but the very same reflexive is attached to both, so the giving is inside God, between Father and Son, not God depending on something outside. In Acts 17:25, Paul tells the Athenians that God is not served by human hands as though He needed anything, and the verb for needing in addition was checked and occurs only once in the whole New Testament, here, and it is negated. The same verse makes God the one who keeps on giving life and breath to all. Two more texts seal the pattern. Psalm 50:12 has God say that if He were hungry He would not tell the worshiper, because the world and its fullness are His. Romans 11:35 asks who has first given to God so as to be repaid, expecting the answer no one. So why do careful readers still differ. The reason is purely about words. The single label aseity never appears in the text. The canon clearly gives a self existing name and clearly denies that God needs anything, but it never combines these into one abstract category. Granting every verse, a reader can still ask whether the words demand that full synthesis or only the plainer claim that God depends on nothing.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.3.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.40.28"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.50.12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1961"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2222"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4326"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1438"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.5.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.17.25"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.11.35"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Exod.3.14"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.5.26"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.17.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.17.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.5.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Exod.3.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Hebrew and MACULA-Greek under CC-BY-NC-4.0, which prohibits bulk redistribution. The Hebrew syntactic anchor for Exodus 3:14 and the Greek syntactic anchors for John 5:26 and Acts 17:25 are drawn from MACULA, so the assembled evidence object cannot be redistributed in bulk under a public license."
+  },
+  "flags": []
+}

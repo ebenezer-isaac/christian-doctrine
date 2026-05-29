@@ -1,0 +1,888 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-divorce-and-remarriage",
+  "question_id": "prc-divorce-and-remarriage",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.90625,
+    "confidence": "low",
+    "variant_robust": false,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern fixes that marriage is a one flesh covenantal joining (Gen 2:24 dabaq, basar, echad), that wrongful remarriage is moicheia in the Gospel sayings (G3429 in Mark 10:11-12, Matt 19:9, plus G3431 in Luke 16:18), and that the marriage bond verb deo (G1210) governs the wife in 1 Cor 7:27, 1 Cor 7:39, and Rom 7:2-3 with liberty (eleutheros, G1658) released only at the death of the spouse. The Synoptic logia themselves diverge: Mark and Luke transmit the saying with no exception, while Matt 19:9 carries the exception phrase me epi porneia (G4202) and Matt 5:32 carries parektos logou porneias (G3924 + G4202), and the words do not lexically rank the absolute against the conditioned form. The Matthean exception clause attaches grammatically to apoluse (dismiss) but does not syntactically state whether it also licenses gameo (remarry), and porneia is a broad sexual-immorality noun whose precise referent is not lexically fixed. In 1 Cor 7:15 ou dedoulotai is a perfect passive of douloo (slavery verb, G1402), not the marriage bond verb deo Paul himself uses in 7:27 and 7:39, so the lemma releases the believer from forced cohabitation but stops short of an explicit remarriage grant. Malachi 2:16 is text and grammar unstable (syntactic_context records clauses as ?). Multiple defensible readings survive the lexical pass."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3429",
+        "lemma": "μοιχάω",
+        "transliteration": "moichao",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3431",
+        "lemma": "μοιχεύω",
+        "transliteration": "moicheuo",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3428",
+        "lemma": "μοιχαλίς",
+        "transliteration": "moichalis",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4202",
+        "lemma": "πορνεία",
+        "transliteration": "porneia",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1060",
+        "lemma": "γαμέω",
+        "transliteration": "gameo",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1210",
+        "lemma": "δέω",
+        "transliteration": "deo",
+        "occurrences_in_canon": 44,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1402",
+        "lemma": "δουλόω",
+        "transliteration": "douloo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1658",
+        "lemma": "ἐλεύθερος",
+        "transliteration": "eleutheros",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5563",
+        "lemma": "χωρίζω",
+        "transliteration": "chorizo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3924",
+        "lemma": "παρεκτός",
+        "transliteration": "parektos",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0571",
+        "lemma": "ἄπιστος",
+        "transliteration": "apistos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 171,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2087",
+        "lemma": "ἕτερος",
+        "transliteration": "heteros",
+        "occurrences_in_canon": 98,
+        "in_anchors": false
+      },
+      {
+        "strong": "H0898",
+        "lemma": "בָּגַד",
+        "transliteration": "bagad",
+        "occurrences_in_canon": 47,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8130",
+        "lemma": "שָׂנֵא",
+        "transliteration": "sane",
+        "occurrences_in_canon": 124,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1692",
+        "lemma": "דָּבַק",
+        "transliteration": "dabaq",
+        "occurrences_in_canon": 54,
+        "in_anchors": false
+      },
+      {
+        "strong": "H3748",
+        "lemma": "כְּרִיתוּת",
+        "transliteration": "keritut",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "H6172",
+        "lemma": "עֶרְוָה",
+        "transliteration": "ervah",
+        "occurrences_in_canon": 54,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3429",
+      "G3431",
+      "G3428",
+      "G4202",
+      "G1060",
+      "G1210",
+      "G1402",
+      "G1658",
+      "G5563",
+      "G3924",
+      "G0571",
+      "G0243",
+      "G2087",
+      "H0898",
+      "H8130",
+      "H1692",
+      "H3748",
+      "H6172",
+      "H7971",
+      "H2555",
+      "H3680"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.19.9",
+        "key_terms": [
+          {
+            "strong": "G4202",
+            "lemma": "πορνεία"
+          },
+          {
+            "strong": "G3429",
+            "lemma": "μοιχάω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "An aorist subjunctive of apoluo (dismiss) is joined to a remarriage verb gameo and the result is branded moicheia, with the exception phrase me epi porneia. The exception phrase attaches by Greek word order to the dismissal verb, but the syntax does not explicitly state whether it extends across the conjunction to govern the gameo clause as well. porneia (G4202) is a wide noun covering harlotry, illicit sexual union, and unfaithfulness across its 26 NT occurrences, so its precise referent in this conditional is not lexically forced.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.32",
+        "key_terms": [
+          {
+            "strong": "G4202",
+            "lemma": "πορνεία"
+          },
+          {
+            "strong": "G3924",
+            "lemma": "παρεκτός"
+          },
+          {
+            "strong": "G3429",
+            "lemma": "μοιχάω"
+          }
+        ],
+        "force": "The earlier Matthean logion uses a different exception particle, parektos logou porneias (G3924 + G3056 + G4202), and brands the dismissed wife as caused to commit moicheia. parektos is rare (only 3 NT occurrences) and adverbial, attaching loosely. The verse complicates whether the exception clause is a clean grammatical limit on the act of dismissal or a wider qualifier on the whole scenario.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.11",
+        "key_terms": [
+          {
+            "strong": "G3429",
+            "lemma": "μοιχάω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          }
+        ],
+        "force": "The Markan saying states absolutely that whoever dismisses his wife and marries another (allen) commits moicheia against her, with no exception clause present. The absolute form stands in tension with the Matthean conditioned form, and the words do not rank the two on the page.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.12",
+        "key_terms": [
+          {
+            "strong": "G3429",
+            "lemma": "μοιχάω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "The parallel clause extends the absolute saying to the wife who dismisses her husband and marries another, again with no exception. The symmetry confirms that the Markan tradition transmits the divorce remarriage logion without the porneia qualifier.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.9",
+        "key_terms": [
+          {
+            "strong": "G5563",
+            "lemma": "χωρίζω"
+          }
+        ],
+        "force": "The dominical saying ho oun ho theos synezeuxen anthropos me chorizeto uses chorizo (G5563) in the active imperative, telling no human to separate what God yoked together. This is the SAME verb that appears in 1 Cor 7:15 for the unbeliever who departs (chorizetai). The lexical link is load bearing: the canon uses one verb for two opposite acts, the prohibited human sundering and the unbeliever's actual departure, and the words do not by themselves tell the reader whether the departure dissolves the bond it forbids humans to dissolve.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.16.18",
+        "key_terms": [
+          {
+            "strong": "G3431",
+            "lemma": "μοιχεύω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "Luke transmits the saying with the cognate verb moicheuo (G3431) rather than moichao (G3429), without any exception clause. The absolute form is doubled: whoever dismisses his wife and marries another commits moicheia, and whoever marries one dismissed commits moicheia. The lemma swap is morphological (cognate verbs of the same root) and does not change the indictment, but the bare unconditional form remains.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.15",
+        "key_terms": [
+          {
+            "strong": "G5563",
+            "lemma": "χωρίζω"
+          },
+          {
+            "strong": "G1402",
+            "lemma": "δουλόω"
+          },
+          {
+            "strong": "G0571",
+            "lemma": "ἄπιστος"
+          }
+        ],
+        "force": "If the unbelieving partner separates (chorizetai, G5563 present middle), the believing brother or sister ou dedoulotai (G1402 perfect passive of douloo). douloo is the slavery verb (8 NT uses, Acts 7:6, Rom 6:18, 6:22, 1 Cor 9:19, Gal 4:3, Titus 2:3, 2 Pet 2:19, and here). It is NOT the marriage bond verb deo (G1210) that Paul himself uses in 7:27 and 7:39 of the same chapter. The lemma releases the believer from binding obligation to the deserter, but whether that release authorizes remarriage or only ends the duty to cohabit is not lexically forced. The closing phrase en de eirene kekleken hymas ho theos (God has called you in peace) frames the release pastorally without specifying remarriage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.10",
+        "key_terms": [
+          {
+            "strong": "G5563",
+            "lemma": "χωρίζω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "Paul invokes a dominical command that a wife shall not be separated (chorizo) from her husband. The verse confirms that within the believing community chorizo names the prohibited act, paralleling Mark 10:9.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.11",
+        "key_terms": [
+          {
+            "strong": "G5563",
+            "lemma": "χωρίζω"
+          },
+          {
+            "strong": "G0022",
+            "lemma": "ἄγαμος"
+          }
+        ],
+        "force": "If she does separate (chorizo passive), she is to remain agamos (G0022 unmarried) or be reconciled. The lemma agamos directly forecloses remarriage as the default within a believer believer separation, which is the strongest restrictive datum in the chapter.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.27",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          }
+        ],
+        "force": "Paul asks dedesai gynaiki (have you been bound, G1210 perfect passive of deo, to a wife), and the antonym is lelysai (have you been loosed, G3089). Here deo IS the marriage bond verb. The contrast with douloo in 7:15 is real and is one of the load bearing lexical gaps in the chapter: Paul uses deo for the bond, lyo for its release, and douloo for the slavery image of forced cohabitation under an unbeliever.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.39",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G1658",
+            "lemma": "ἐλεύθερος"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "Gyne dedetai (a wife has been bound, G1210 perfect passive of deo) eph hoson chronon ze ho aner autes (for as long as her husband lives). If he is asleep in death she is eleuthera (G1658 free) to marry (gameo) whom she will, only in the Lord. The verse fixes the canonical norm: deo binds, death looses, eleutheros licenses remarriage. The proposition's claim of remarriage after lifetime divorce must navigate the fact that this clean release path is named only for death of spouse here.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.2",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G5220",
+            "lemma": "ὕπανδρος"
+          }
+        ],
+        "force": "He gar hypandros gyne to zonti andri dedetai nomo (the married woman has been bound by law to her living husband, G1210 perfect passive of deo). The same marriage bond verb as 1 Cor 7:27 and 7:39 reappears. The lemma is consistent across Paul.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.3",
+        "key_terms": [
+          {
+            "strong": "G3428",
+            "lemma": "μοιχαλίς"
+          },
+          {
+            "strong": "G1658",
+            "lemma": "ἐλεύθερος"
+          }
+        ],
+        "force": "If she is joined to another man (hetero, G2087) while her husband lives she is called moichalis (G3428 adulteress). If the husband dies she is eleuthera (G1658) from the law and is not moichalis if she becomes joined to another. Death of spouse releases the bond cleanly; the parallel for divorce is not named in the lemma.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mal.2.16",
+        "key_terms": [
+          {
+            "strong": "H8130",
+            "lemma": "שָׂנֵא"
+          },
+          {
+            "strong": "H0898",
+            "lemma": "בָּגַד"
+          },
+          {
+            "strong": "H3680",
+            "lemma": "כָּסָה"
+          }
+        ],
+        "force": "The verse pairs sane (H8130 hate) with shalach (send away, divorce) and bagad (H0898 deal treacherously) and a clause about covering one's garment with hamas (H2555 violence). The Hebrew is grammatically unstable between for he hates divorce and for one who hates and divorces covers his garment with violence. The ETCBC parser records the subject clauses as ? (uncertain) in syntactic_context. Subject and person of the verb shift across witnesses. The verse witnesses divine displeasure with treacherous dismissal but does not yield a clean prohibition or permission.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.2.24",
+        "key_terms": [
+          {
+            "strong": "H1692",
+            "lemma": "דָּבַק"
+          },
+          {
+            "strong": "H0259",
+            "lemma": "אֶחָד"
+          },
+          {
+            "strong": "H1320",
+            "lemma": "בָּשָׂר"
+          }
+        ],
+        "force": "The foundational marriage saying: a man azab (leaves) father and mother and dabaq (cleaves, H1692) to his wife and they become basar echad (one flesh, H1320 + H0259). This is the lexical ground for the unity that Mark 10:9 chorizo language presupposes. The clause names a covenantal joining but does not, by itself, name the lexical conditions under which the joining is dissolvable.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.24.1",
+        "key_terms": [
+          {
+            "strong": "H3748",
+            "lemma": "כְּרִיתוּת"
+          },
+          {
+            "strong": "H6172",
+            "lemma": "עֶרְוָה"
+          }
+        ],
+        "force": "The Mosaic regulation names ervah (H6172 indecency, nakedness) as the ground for writing a sepher keritut (H3748 certificate of cutting off, divorce). ervah is a broad lexeme covering exposure and shameful uncoveredness across 54 OT uses. The vocabulary controls the Pharisaic background to Matt 19 (Hillel reading ervah broadly, Shammai narrowly), and the LXX renders aspects of it with porneia language elsewhere. The Greek exception clause in Matt 19:9 stands in lexical conversation with this Hebrew base.",
+        "supports": "complicates",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Mal.2.16",
+        "to": "Deut.24.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Gen.12.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "2Chr.21.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mal.2.16",
+        "to": "Prov.28.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Matt.5.32",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Mark.10.11",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Luke.16.18",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.7.15",
+        "to": "1Cor.7.10",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "1Cor.7.15",
+        "to": "1Cor.7.39",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "1Cor.7.15",
+        "to": "Rom.7.2",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Mark.10.9",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Gen.2.24",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Matt.19.9",
+        "to": "Deut.24.1",
+        "source": "openbible",
+        "votes": 3
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.10.11",
+        "addressed": true,
+        "resolution": "The Markan and Lukan logia preserve the divorce remarriage saying with no exception phrase, and the lemma stack (gameo, moichao or moicheuo, allos) is identical to Matt 19:9 minus the porneia clause. Harmonization with Matthew under several lexically defensible schemes is possible (Matthew preserves a clause Mark and Luke omit; Matthew adds a clause clarifying the Mosaic background; the exception modifies dismissal only and the Markan absolute is what stands when remarriage is in view), but each scheme is itself contested, so the absolute form remains a live source of dispute rather than a resolved datum."
+      },
+      {
+        "ref": "Luke.16.18",
+        "addressed": true,
+        "resolution": "The Lukan saying doubles the indictment using moicheuo (G3431) and contains no exception. The cognate verb swap (moichao G3429 in Matt and Mark to moicheuo G3431 in Luke) is morphological and does not change the indictment. The bare unconditional form parallels Mark 10:11-12 and feeds the disputed verdict."
+      },
+      {
+        "ref": "Mark.10.9",
+        "addressed": true,
+        "resolution": "ho theos synezeuxen anthropos me chorizeto uses the same verb chorizo (G5563) that appears in 1 Cor 7:15 for the unbeliever's departure. The lexical link cuts both ways: it can be read as forbidding any human sundering of a divine joining (so the unbeliever's chorizetai does not undo the bond, only fractures cohabitation), or as naming the very act the unbeliever performs in 7:15 (so the bond is in fact dissolved by the unbeliever's departure and the believer is released). The verb does not lexically pick between the readings."
+      },
+      {
+        "ref": "1Cor.7.27",
+        "addressed": true,
+        "resolution": "Paul's use of deo (G1210) for the marriage bond in 7:27 and 7:39 (and Rom 7:2) makes the verb choice in 7:15 (douloo G1402, slavery) load bearing. The reader cannot ignore that Paul did NOT write ou dedetai (the verb he uses elsewhere for the bond itself) but ou dedoulotai (a different verb of enslavement). The gap is lexically real and is one of the strongest reasons for the disputed verdict."
+      },
+      {
+        "ref": "1Cor.7.11",
+        "addressed": true,
+        "resolution": "The instruction that a separated wife remain agamos (unmarried) or be reconciled forecloses remarriage as the default after a believer believer separation. Whether 7:15 (unbeliever's departure) sits inside this default or carves out an exception depends on the douloo / deo distinction above, which the lemma alone does not resolve."
+      },
+      {
+        "ref": "1Cor.7.39",
+        "addressed": true,
+        "resolution": "The clean lexical pattern in 7:39 (dedetai while he lives, eleuthera at his death, free to gameo only in the Lord) and the parallel in Rom 7:2-3 make death of spouse the one explicitly lemma named ground for remarriage. The proposition's broader remarriage permission rests on the syntax of Matt 19:9 plus the inference from 1 Cor 7:15, both of which the lemma underdetermines."
+      },
+      {
+        "ref": "Mal.2.16",
+        "addressed": false,
+        "resolution": "The Hebrew of Mal 2:16 is grammatically and text critically unstable, oscillating between God hates divorce and one who hates and divorces. The ETCBC syntactic_context records multiple clauses with the function code ? (uncertain). The subject and verb person are unstable across witnesses. With these unresolved, the verse cannot be made to anchor either a clean prohibition or a clean permission, so it is left unresolved and treated as complicating rather than determinative."
+      },
+      {
+        "ref": "Deut.24.1",
+        "addressed": true,
+        "resolution": "The Hebrew ervah (H6172) controls the Pharisaic background to Matt 19. Its broad semantic range (indecency, exposure, shame) is the lexical reason Pharisaic interpretation split between a wide and a narrow reading of legitimate divorce ground, and the Greek porneia of Matt 19:9 inherits that ambiguity. This is a lexical, not a sociological, observation: the Hebrew lemma has a real range, and the Greek lemma chosen to render the contested case (porneia) has a real range, and the two ranges overlap."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "Matt.19.9",
+        "variant_id": "matt-19-9-trailing-clause",
+        "verdict_impact": "material",
+        "note": "Witnesses differ over the trailing clause kai ho apolelymenen gamesas moichatai (and the man who marries her that is dismissed commits moicheia), and over the exact form of the exception (me epi porneia versus parektos logou porneias carried from 5:32). The presence or absence of the trailing clause materially shifts whether the remarriage of the dismissed party is in view in 19:9 itself rather than read in from 5:32."
+      },
+      {
+        "ref": "Mark.10.12",
+        "variant_id": "mark-10-12-wife-agency",
+        "verdict_impact": "minor",
+        "note": "Some witnesses recast the wife as the one dismissed rather than the one who dismisses, reflecting Greco Roman versus Jewish divorce practice. The variation touches the agent but not the core moicheia verdict, so its impact on the proposition is minor."
+      },
+      {
+        "ref": "Mal.2.16",
+        "variant_id": "mal-2-16-subject-person",
+        "verdict_impact": "material",
+        "note": "The consonantal text and ancient versions diverge on whether the third-person verb has the divine name as subject (yielding for he hates divorce) or an indefinite human subject (yielding the man who hates and sends her away covers his garment with violence). The ETCBC parser flags multiple clauses with function ? (uncertain). This unresolved subject question is the reason the verse cannot anchor either a clean prohibition of divorce per se or a clean permission of it."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "These books fall outside the published ECM scope for this run, so variant assessment relies on apparatus and editorial sigla in the supplied text rather than on full CBGM data. The Matt 19:9 unit and the Mal 2:16 subject question are treated as material to the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "synoptic_harmonization",
+      "covenant_theology",
+      "new_covenant_theology",
+      "second_temple_halakhic_background"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "no-exception-absolute",
+        "verdict": "denies",
+        "rationale": "Reading the Markan and Lukan logia as the unconditioned canonical norm (whoever dismisses and marries another commits moicheia, with no exception), and reading the Matt 19:9 exception clause as attaching only to apoluse (dismissal) and not to gameo (remarriage), the proposition's allowance of remarriage after porneia overreaches. 1 Cor 7:15 ou dedoulotai (G1402 douloo, slavery verb) is distinct from Paul's own marriage bond verb deo (G1210 in 7:27, 7:39, Rom 7:2-3), so the lemma releases the believer from forced cohabitation but does not authorize remarriage. The only lexically explicit ground for remarriage is death of spouse (1 Cor 7:39 dedetai while he lives, eleuthera at his death; Rom 7:2-3). Marriage is indissoluble while both spouses live."
+      },
+      {
+        "framework": "matthew-exception-and-pauline-exception",
+        "verdict": "affirms",
+        "rationale": "Reading me epi porneia (G4202) in Matt 19:9 as modifying the whole protasis (the dismissal and the resulting remarriage as a unit), the exception licenses both divorce and remarriage on the ground of porneia. Reading ou dedoulotai (G1402 perfect passive) in 1 Cor 7:15 as a real release of the bond when the unbeliever departs (with chorizo in 7:15 echoing the same chorizo that Mark 10:9 forbids humans to do, so its actual occurrence by the unbeliever's act is treated as bond dissolving), the deserted believer is free to remarry. The proposition's two grounds are the two cases the lemma actually carves out. On this lens the proposition is lexically supported, and the Markan and Lukan absolutes are addressing the typical case not the exception."
+      },
+      {
+        "framework": "matthew-exception-only-separation",
+        "verdict": "denies",
+        "rationale": "Reading the Matt 19:9 exception as licensing only the separation act (apoluse without committing moicheia) but not the remarriage that follows, and reading ou dedoulotai narrowly as release from the duty to cohabit rather than a remarriage grant, the absolute Markan and Lukan logia govern remarriage. Divorce may be permissible on porneia ground, but remarriage after any divorce while the former spouse lives remains moicheia. The proposition couples divorce permission to remarriage permission, and the lemma does not warrant the coupling."
+      },
+      {
+        "framework": "betrothal-or-incest-porneia",
+        "verdict": "disputed",
+        "rationale": "Reading porneia (G4202) narrowly as betrothal infidelity or an incestuous union (the Levitical incest range, paralleling Acts 15:20 and Acts 15:29 where porneia plausibly names forbidden marriages) rather than post marital adultery, the Matthean exception addresses a case different from the proposition's general adultery ground. The exception is real but addresses a narrower category, leaving the proposition's broad adultery ground neither confirmed nor refuted by the lemma."
+      },
+      {
+        "framework": "shammai-vs-hillel-background",
+        "verdict": "disputed",
+        "rationale": "The Pharisaic question in Matt 19 (Is it lawful to divorce for any cause?) reflects the Hillel Shammai dispute over ervah in Deut 24:1. Reading Matt 19:9 as Jesus siding with the Shammai narrow reading of ervah (Hebrew H6172, with Greek porneia G4202 as its rendering of the contested case), the exception preserves the Mosaic concession in its narrowest form. The lemma analysis does not, however, fix whether Jesus is affirming Shammai's narrow grant of remarriage or tightening even further. The Pharisaic background is real but the lemma alone does not select among the rabbinic options."
+      }
+    ],
+    "notes": "The verdict turns on (a) the syntax of the exception phrase me epi porneia in Matt 19:9 and parektos logou porneias in Matt 5:32, (b) the semantic range of porneia (G4202) and its Hebrew counterpart ervah (H6172), (c) the lexical distinction between deo (G1210 marriage bond verb) and douloo (G1402 slavery verb) in 1 Cor 7, (d) the role of chorizo (G5563) as the same verb in Mark 10:9's prohibition and 1 Cor 7:15's description, and (e) the textual instability of Mal 2:16. Each is independently defensible, which is why the lexical layer reports dispute rather than a settled value."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What grounds, if any, does the lexical and syntactic data of Matt 19:9, Matt 5:32, Mark 10:11-12, Luke 16:18, 1 Cor 7:10-15, 1 Cor 7:27, 1 Cor 7:39, Rom 7:2-3, and Mal 2:16 establish for permissible divorce, and does the same data establish whether remarriage after such divorce is or is not moicheia?",
+    "notes": "The proposition is framed as a closed list (divorce permitted ONLY for porneia and ONLY for desertion by an unbeliever, plus remarriage permissible after such divorce) which preloads a specific resolution of the exception clause attachment, the porneia semantic range, and the douloo versus deo distinction. The neutralized form asks the open lexical question. The verdict is still derived on the original stem and returns disputed because the lemma and syntax sustain more than one defensible answer."
+  },
+  "lay_summary": "The words here pin down some things firmly and leave others genuinely open. Across the canon, marriage is a covenantal one flesh joining (Gen 2:24), and the Gospel sayings brand wrongful remarriage as moicheia, adultery. In Paul, the verb for the marriage bond itself is deo (1 Cor 7:27, 7:39, Rom 7:2), and it is released cleanly by one lexically explicit event: the death of the spouse, after which the surviving partner is eleutheros, free to marry. That much is stable. What is not stable is what the canon does with divorce inside life. The four Gospel passages do not speak with one voice. Matthew twice carries an exception clause around the word porneia, sexual immorality. Mark and Luke transmit the same saying with no exception clause at all. The words on the page do not rank the absolute form against the conditioned form. Inside Matthew's exception itself, the Greek grammar attaches the phrase clearly to the act of sending the wife away but does not in so many words extend it across the conjunction to the remarriage that follows, and porneia is a broad noun whose precise referent here (post marital adultery, an incestuous marriage, betrothal infidelity, the narrow Shammai reading of Deuteronomy's ervah) cannot be settled from the word by itself. The Pauline desertion case in 1 Corinthians 7:15 deepens the question. Paul says the deserted believer is not enslaved, using douloo, the slavery verb, not deo, the marriage bond verb that he himself uses for the bond a few verses later and again in Romans 7. That difference is real on the page. It can reasonably be read as a release of the bond (so remarriage follows), or as a release from the duty to cohabit with an unbeliever (so the bond stands and remarriage does not follow). Malachi 2:16 only deepens the difficulty, because its Hebrew can be read either as God hating divorce or as a warning against the man who hates and then divorces, and the subject of the verb is uncertain even in the parser. Putting the threads together, more than one careful reading of the actual words survives. One reading lets the exception and the desertion language open the door to both divorce and remarriage on those two grounds. Another limits the concession to separation and keeps remarriage off the table. A third narrows porneia so that it addresses a different case entirely. Because the lemmas and the syntax sustain several defensible answers rather than one, the lexical layer reports this proposition as contested rather than settled.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G4202"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1210"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1402"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G5563"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.5.32"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.16.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.7.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.7.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.7.39"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.7.2"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1402"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mal.2.16"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.2.24"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.24.1"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mal.2.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.24.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mal.2.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.19.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.7.15"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations draw on MACULA-Greek and ETCBC-BHSA, both licensed CC-BY-NC-4.0, which prohibits bulk redistribution. The verdict and rationale stand, but this evidence bundle cannot be published in redistributable form until the non-commercial sources are removed or replaced with redistributable equivalents."
+  },
+  "flags": [
+    "lexically-disputed",
+    "variant-sensitive",
+    "complicating-unresolved",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

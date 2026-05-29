@@ -1,0 +1,686 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-adam-historical",
+  "question_id": "doc-adam-historical",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The decisive lexical fact is a tagging split on one orthographic form. The Hebrew consonants alef-dalet-mem are catalogued as TWO lemmas, H0120 the common noun (man, humankind) parsed Ncmsa in 549 of 551 instances, and H0121 the proper name parsed Np in 8 of its 10 instances. The proper name carries individual biography: Gen 5:3 and 5:5 give an anarthrous Adam who lived a stated number of years, begot Seth, and died, and 1Chr 1:1 lists Adam, Seth, Enosh as bare names. The Greek lemma G0076 occurs in 7 verses (Luke 3:38, Rom 5:14, 1Cor 15:22, 15:45, 1Tim 2:13, 2:14, Jude 1:14) and EVERY token is morphology-tagged proper noun (N-GSM-P, N-DSM-P, N-NSM-P), with no common-noun parse anywhere in the NT. The store records a direct lexical bridge H0121 to G0076. Romans 5 builds on heis anthropos (henos A-GSM plus anthropou N-GSM) with the consequence reaching pantas anthropous, and 1Cor 15:22 sets en to Adam in strict osper. . . outos parallel with en to Christo, so the named individual is load-bearing for the argument."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H0121",
+        "lemma": "אָדָם",
+        "transliteration": "adam (proper name)",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0120",
+        "lemma": "אָדָם",
+        "transliteration": "adam (common noun)",
+        "occurrences_in_canon": 551,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3900",
+        "lemma": "παράπτωμα",
+        "transliteration": "paraptoma",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5618",
+        "lemma": "ὥσπερ",
+        "transliteration": "hosper",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3779",
+        "lemma": "οὕτως",
+        "transliteration": "houtos",
+        "occurrences_in_canon": 253,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 581,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H0120",
+      "H0121",
+      "H0121A",
+      "G0076",
+      "G1520",
+      "G0444",
+      "G0266",
+      "G2288",
+      "G3900",
+      "G5618",
+      "G3779",
+      "G5547",
+      "G0264"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.2.7",
+        "key_terms": [
+          {
+            "strong": "H0120",
+            "lemma": "אָדָם"
+          }
+        ],
+        "force": "The Hebrew reads ha-adam with the definite article, the man, parsed common noun, and says he became a living being. This articular generic is exactly where the readings can diverge. But this same clause is the verse 1Cor 15:45 cites and renders as the proper name, ho protos anthropos Adam, the first man Adam. The text itself moves from the articular the man to the named individual at this hinge.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.5.3",
+        "key_terms": [
+          {
+            "strong": "H0121",
+            "lemma": "אָדָם"
+          }
+        ],
+        "force": "wayechi adam, and Adam lived 130 years and begot a son in his likeness and called his name Seth. The lemma here is the proper name H0121 parsed Np, anarthrous, governing wayyiqtol biographical verbs of living, begetting, and naming. These are predicates of an individual with an age and a son, not of humankind in general.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.5.5",
+        "key_terms": [
+          {
+            "strong": "H0121",
+            "lemma": "אָדָם"
+          }
+        ],
+        "force": "kol-yemei adam asher chai, all the days of Adam that he lived were 930 years, and he died. A bounded lifespan with a death notice is predicated of the named referent. A lifespan with a beginning and an end is a property of an individual person, not of the human race.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Chr.1.1",
+        "key_terms": [
+          {
+            "strong": "H0121",
+            "lemma": "אָדָם"
+          }
+        ],
+        "force": "adam shet enosh, Adam, Seth, Enosh. The proper name H0121 stands first in a bare genealogical name-list beside Seth and Enosh, both individual persons. The grammatical form is identical for all three nodes, leaving no slot for treating the first node as a category while the rest are persons.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.3.38",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "tou Enos tou Seth tou Adam tou theou. Adam is the terminal node of the genealogy of Jesus, parsed N-GSM-P proper noun, in the identical tou plus genitive form used for every other named ancestor such as Abraham, David, and Joseph. The chain admits no grammatical genre-shift at Adam, so Adam is read as a real ancestor like the rest.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.12",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "di henos anthropou he hamartia eis ton kosmon eiselthen, and the consequence extends eis pantas anthropous. The morphology is henos parsed A-GSM, one, plus anthropou parsed N-GSM, man, a numerically singular one man. The one-to-all causal claim only carries if that one is a locatable individual whose single act has a real point of origin.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.14",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "ebasileusen ho thanatos apo Adam mechri Moseos. Adam, parsed N-GSM-P proper noun, is named alongside Moses as the two fixed termini of a defined era over which death reigned. Pairing Adam with a concededly historical person across a datable interval treats both as points on the same timeline. tupos tou mellontos also makes Adam a pattern-bearing figure parallel to Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.19",
+        "key_terms": [
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "dia tes parakoes tou henos anthropou hamartoloi katestathesan hoi polloi. henos is parsed A-GSM and anthropou N-GSM, the one man, and katestathesan is aorist passive, a past-completed constituting of the many as sinners tied to one past disobedience of one named man. The aorist locates a single act at a point in time.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.21",
+        "key_terms": [
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "di anthropou thanatos, anthropou parsed N-GSM, through a man came death, paired with di anthropou anastasis nekron, through a man came resurrection. The same one-man-causes structure as Romans 5, set in symmetrical referent terms with the historical risen Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.22",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "osper gar en to Adam pantes apothneskousin, outos kai en to Christo pantes zoopoiethesontai. Adam is parsed N-DSM-P proper noun with the article to, and the osper. . . outos construction sets Adam and Christ in strict syntactic parallel as articular corporate heads. Withholding a real referent from Adam breaks the symmetry that supplies the resurrection guarantee, because the Christ side of the parallel is unambiguously historical.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.45",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "egeneto ho protos anthropos Adam eis psychen zosan. anthropos is parsed N-NSM and Adam N-NSM-P proper noun. protos anthropos is an ordinal claim, the first man, about the first member of a real series, and the clause quotes Gen 2:7 LXX. Paul pins the proper name to the formed individual of the Genesis narrative, the articular ha-adam who became a living being.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.13",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "Adam gar protos eplasthe, eita Eua. Adam is parsed N-NSM-P proper noun, and eplasthe is aorist passive of plasso, a completed formation act, sequenced protos. . . eita, first then. The temporal-order claim is the warrant, gar, for a present instruction, which presupposes the formed referents existed in that order.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.14",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "kai Adam ouk epatethe, he de gyne exapatetheisa en parabasei gegonen. epatethe and exapatetheisa are predicated of distinct named subjects, asserting that two persons had different experiences of deception. A contrastive claim about who was and was not deceived presupposes two individual referents.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jude.1.14",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "hebdomos apo Adam Enoch, the seventh from Adam, Enoch. Adam is parsed N-GSM-P proper noun and serves as the ordinal counting-origin of a real generational sequence, with Enoch numbered seventh from him. Counting generations from a referent treats that referent as the first individual of a countable line.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Hos.6.7",
+        "key_terms": [
+          {
+            "strong": "H0121",
+            "lemma": "אָדָם"
+          }
+        ],
+        "force": "ke-adam aberu berit, like Adam they transgressed the covenant. The token is tagged H0121 proper name Np, reading Adam as a named individual who broke a covenant. The prefixed ke and the shared orthography leave the form open also to like a man or to the place Adam, so this verse is recorded as a complicating text rather than as decisive.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.5.19",
+        "source": "openbible",
+        "votes": 44
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.6.23",
+        "source": "openbible",
+        "votes": 35
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "Rom.5.12",
+        "source": "openbible",
+        "votes": 22
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "1Cor.15.45",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "1Tim.2.14",
+        "to": "Gen.3.6",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "1Tim.2.13",
+        "to": "Gen.1.27",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Luke.3.38",
+        "to": "Gen.4.25",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "Rom.5.16",
+        "to": "Gen.3.6",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Luke.3.38",
+        "to": "Gen.1.26",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gen.2.7",
+        "addressed": true,
+        "resolution": "In Gen 1 to 3 the lemma is the common noun H0120, parsed Ncmsa, glossed humankind in Gen 1:26 to 27 and the man with the article elsewhere, which on its own reads generically. This is the real source of divergence. It is resolved in the text itself: the articular ha-adam who in Gen 2:7 became a living being is the very clause quoted in 1Cor 15:45 as ho protos anthropos Adam, the first man Adam, and from Gen 4:25 and 5:1 onward the same form is tagged the proper name H0121 with biographical verbs. The narrative converts the generic the man into the named individual at a fixed point."
+      },
+      {
+        "ref": "Gen.2.20",
+        "addressed": true,
+        "resolution": "Gen 2:20 and Gen 3:21 are the two H0121 tokens NOT tagged Np but Ncmsa even though glossed Adam, which shows the editors themselves located the generic-to-name transition precisely in Gen 2 to 3 and split on it. This confirms a genuine lexical fuzziness at the hinge, but it is local to the transition and does not reach the unambiguous proper-name uses in Gen 5, 1Chr 1:1, and the seven Greek N-...-P tokens, so it does not unsettle the overall pattern."
+      },
+      {
+        "ref": "Hos.6.7",
+        "addressed": false,
+        "resolution": "ke-adam admits three lexical readings the consonants alone do not rank: like Adam the individual, like a man or like humankind taking the common noun H0120 sense, or at the place Adam given that an identically spelled place name exists at H0121A in Josh 3:16. The store tags this token H0121 proper name, but the prefixed comparative ke and the polysemy keep it genuinely ambiguous, so it is left unresolved and not counted as load-bearing for the verdict."
+      },
+      {
+        "ref": "Rom.5.14",
+        "addressed": true,
+        "resolution": "tupos tou mellontos could be read to make Adam purely symbolic and so non-historical. But tupos in the same author denotes a real person serving as a pattern, as in Phil 3:17, 1Thess 1:7, 1Tim 4:12, and Titus 2:7, never a fictional symbol, and a type relation presupposes both terms exist. Adam being a tupos of Christ requires Adam to be as real as Christ within the comparison, so the type reading supports rather than undercuts historicity."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "All anchor verses lie outside the ingested ECM window of 3 John 1.1 to 1.15, so not_in_ecm_scope is true and no CBGM apparatus applies. No load-bearing textual variant in Rom 5:12 to 21, 1Cor 15:21 to 22, 1Cor 15:45, Luke 3:38, 1Tim 2:13 to 14, or Jude 1:14 alters the proper-noun parse of Adam or the one-man-to-all structure. The 1Cor 15:21 and 1Tim 2:14 readings carry editorial sigla in the bundle, but these touch word order and orthography, not the Adam referent."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "literal_historical",
+      "archetypal_symbolic",
+      "federal_typological"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "literal_historical",
+        "verdict": "Adam is a real first individual whose acts have causal consequences in human history.",
+        "rationale": "The proper-noun tagging across both testaments carries it: H0121 parsed Np with biographical age, begetting, and death verbs in Gen 5, the bare name-list in 1Chr 1:1, the genealogical tou plus genitive in Luke 3:38, and seven Greek tokens all parsed proper noun. The aorist passives eplasthe and katestathesan and the ordinal protos anthropos and seventh from Adam read the lemma as a singular person."
+      },
+      {
+        "framework": "archetypal_symbolic",
+        "verdict": "adam is the generic the human or humankind, so the figure can be read as representative rather than as a unique individual.",
+        "rationale": "This reading rests on a real lexical datum: the dominant OT lemma H0120 means man or humankind, parsed Ncmsa in 549 of 551 cases, glossed humankind in Gen 1:26 to 27, and carries the article as ha-adam, the man, through Gen 2 to 3, and the editors leave two transition tokens common-noun tagged though glossed Adam. On the strongest form of this lens the early Genesis material is about the human as such. Its limit is that it does not extend to the anarthrous proper name with a lifespan in Gen 5, to the bare genealogical name-lists, or to the seven Greek proper-noun tokens, and it breaks the explicit Adam-to-Christ parallel whose other term is historical."
+      },
+      {
+        "framework": "federal_typological",
+        "verdict": "Adam is a real individual and representative head whose one act is constitutive for the many, paralleled by Christ.",
+        "rationale": "Rom 5:19 katestathesan, an aorist passive constituting verb, with the henos. . . hoi polloi distribution, and the articular en to Adam set against en to Christo, support a head-of-many relation. This lens treats historicity as the precondition for the representative function rather than as an alternative to it."
+      }
+    ],
+    "notes": "The lexical pattern decisively favors a historical-individual referent for Adam wherever the proper-name lemma H0121 or G0076 is used. The archetypal-symbolic lens is grounded in a genuine fact, the polysemy of the common noun H0120 in early Genesis, and is stated here in its strongest form, but it does not reach the proper-name uses or survive the Adam-Christ parallel. The federal-typological lens is compatible with, and presupposes, the historical referent."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem asks whether Adam and Eve were real historical persons from whom all humanity descends. The lexical inquiry is the neutral grammatical question of whether the canonical authors use the form adam as a common noun for humankind or as a proper-noun referent for a unique individual, and where the text shifts between the two. The store answers this directly through the H0120 versus H0121 lemma split, the Ncmsa versus Np morphology, the definite article on ha-adam, and the uniform proper-noun parse of G0076. Verdict unchanged from the prior file."
+  },
+  "lay_summary": "The whole question turns on one Hebrew word. The consonants for adam are both a common noun meaning man or humankind and the proper name Adam, written identically. The lexical catalog splits them into two entries: H0120, the common noun, which occurs 551 times and is tagged a common noun in 549 of them, and H0121, the name, which occurs 10 times and is tagged a proper noun in 8 of them. In Genesis 1 to 3 the common noun is used, glossed humankind in 1:26 to 27 and the man with the article, ha-adam, through chapters 2 and 3. That articular generic is the real reason readers can diverge, and even the editors leave two transition tokens uncertain. But the text then converts the man into a named person at a fixed point. From Genesis 4:25 and chapter 5 onward the same form is the proper name, anarthrous, and it takes biographical verbs: Adam lived a stated number of years, fathered Seth, and died. First Chronicles 1:1 lists Adam, Seth, Enosh as bare names side by side. In the Greek New Testament the name appears in seven verses, and every single token is grammatically tagged a proper noun, never a common noun. Luke 3:38 ends the family line of Jesus at Adam using the same form as every other ancestor. Romans 5 argues from one man, the words henos anthropou, one man whose single act reaches all men. First Corinthians 15:22 sets in Adam against in Christ in an exact parallel, and 15:45 calls him the first man, quoting Genesis 2:7. First Timothy 2:13 says Adam was formed first, then Eve, and Jude 14 counts Enoch as seventh from Adam. The grammar of the name, the genealogies, the lifespan and the formation verbs all read Adam as a single person, while the open spot is only the generic common noun in early Genesis.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0120"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0121"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0076"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.5.3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.2.7"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Chr.1.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Hos.6.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.3.38"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.19"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.45"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.13"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jude.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Luke.3.38"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.2.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.5.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Hebrew token data, cited for the ha-adam article and the Hebrew formation clause, is licensed CC-BY-NC-4.0 and cannot be bulk-redistributed. The remaining sources STEPBible-TBESH, STEPBible-TBESG, STEPBible-TAGNT, OSHB-morphology, MorphGNT-morphology, and OpenBible-cross-refs are individually redistributable, but the aggregate file inherits the NonCommercial restriction from the MACULA-Hebrew material."
+  },
+  "flags": [
+    "complicating-unresolved"
+  ]
+}

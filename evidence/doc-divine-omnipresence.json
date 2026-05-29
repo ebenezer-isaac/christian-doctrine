@@ -1,0 +1,734 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-omnipresence",
+  "question_id": "doc-divine-omnipresence",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Three independent witnesses across poetry, prophecy, and narrative converge on one lexical pattern. Psalm 139:7-10 builds a double merism, heaven paired with Sheol (H8064, H7585) and the wings of dawn paired with the farthest sea (H7837, H3220), exhausting the spatial extremes, and at each pole the locative H8033 sham asserts the same finding, you are there. Jeremiah 23:24 puts the claim in a first-person divine oracle with the verb H4390 male, fill, governing both H8064 heaven and H0776 earth under one direct-object marker H0853, so that no person can H5641 sathar, hide. Acts 17:27-28 carries the field into Greek with G3112 makran far, the participle G5225 huparcho, and the triad en him we G2198 live, G2795 move, and G1510 are, while G4163 poietes, Maker, holds Creator and creation apart. The one boundary the words leave is that the same canon also speaks of a special covenantal presence, dwelling, drawing near, hiding the face, which the vocabulary holds together with the omnipresence of essence without ranking the two. No variant unit unsettles the verdict and the merism vocabulary recurs intact in Amos 9:2-3, so the pattern is pan-canonical and decisive on the proposition's main claim."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H8064",
+        "lemma": "שָׁמַיִם",
+        "transliteration": "shamayim",
+        "occurrences_in_canon": 378,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0776",
+        "lemma": "אֶרֶץ",
+        "transliteration": "erets",
+        "occurrences_in_canon": 2504,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4390",
+        "lemma": "מָלֵא",
+        "transliteration": "male",
+        "occurrences_in_canon": 235,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7350",
+        "lemma": "רָחוֹק",
+        "transliteration": "rachoq",
+        "occurrences_in_canon": 77,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7138",
+        "lemma": "קָרוֹב",
+        "transliteration": "qarob",
+        "occurrences_in_canon": 68,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5641",
+        "lemma": "סָתַר",
+        "transliteration": "sathar",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1272",
+        "lemma": "בָּרַח",
+        "transliteration": "barach",
+        "occurrences_in_canon": 58,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7585",
+        "lemma": "שְׁאוֹל",
+        "transliteration": "sheol",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8033",
+        "lemma": "שָׁם",
+        "transliteration": "sham",
+        "occurrences_in_canon": 832,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7307",
+        "lemma": "רוּחַ",
+        "transliteration": "ruach",
+        "occurrences_in_canon": 378,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6440",
+        "lemma": "פָּנִים",
+        "transliteration": "panim",
+        "occurrences_in_canon": 2126,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0575",
+        "lemma": "אָן",
+        "transliteration": "an",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0319",
+        "lemma": "אַחֲרִית",
+        "transliteration": "acharit",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0270",
+        "lemma": "אָחַז",
+        "transliteration": "achaz",
+        "occurrences_in_canon": 64,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3557",
+        "lemma": "כּוּל",
+        "transliteration": "kul",
+        "occurrences_in_canon": 38,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3112",
+        "lemma": "μακράν",
+        "transliteration": "makran",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5584",
+        "lemma": "ψηλαφάω",
+        "transliteration": "pselaphao",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2198",
+        "lemma": "ζάω",
+        "transliteration": "zao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2795",
+        "lemma": "κινέω",
+        "transliteration": "kineo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5225",
+        "lemma": "ὑπάρχω",
+        "transliteration": "huparcho",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2147",
+        "lemma": "εὑρίσκω",
+        "transliteration": "heurisko",
+        "occurrences_in_canon": 181,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4163",
+        "lemma": "ποιητής",
+        "transliteration": "poietes",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1722",
+        "lemma": "ἐν",
+        "transliteration": "en",
+        "occurrences_in_canon": 2937,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H8064",
+      "H0776",
+      "H4390",
+      "H7350",
+      "H7138",
+      "H5641",
+      "H1272",
+      "H7585",
+      "H8033",
+      "H7307",
+      "H6440",
+      "H0575",
+      "H0319",
+      "H0270",
+      "H3557",
+      "G3112",
+      "G5584",
+      "G2198",
+      "G2795",
+      "G5225",
+      "G2147",
+      "G4163",
+      "G1722",
+      "G1510",
+      "G0575",
+      "G0846"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.139.7",
+        "key_terms": [
+          {
+            "strong": "H0575",
+            "lemma": "אָן"
+          },
+          {
+            "strong": "H7307",
+            "lemma": "רוּחַ"
+          },
+          {
+            "strong": "H6440",
+            "lemma": "פָּנִים"
+          },
+          {
+            "strong": "H1272",
+            "lemma": "בָּרַח"
+          }
+        ],
+        "force": "Two parallel rhetorical questions, each opened by H0575 an, where, ask where the speaker could go from God's H7307 ruach, Spirit, and flee from his H6440 panim, presence. The queried tokens confirm the doubled an plus the verb H1272 barach, flee. The grammar presupposes the answer no such destination exists, so the question itself encodes the omnipresence claim.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.8",
+        "key_terms": [
+          {
+            "strong": "H8064",
+            "lemma": "שָׁמַיִם"
+          },
+          {
+            "strong": "H7585",
+            "lemma": "שְׁאוֹל"
+          },
+          {
+            "strong": "H8033",
+            "lemma": "שָׁם"
+          }
+        ],
+        "force": "A vertical merism pairs H8064 shamayim, the highest place, with H7585 sheol, the lowest. The locative H8033 sham plus the particle hinnekka, behold you, asserts divine presence at each pole. The speaker's verbs are conditional, if I ascend, if I make my bed, but the presence asserted by sham is unconditional.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.9",
+        "key_terms": [
+          {
+            "strong": "H7837",
+            "lemma": "שַׁחַר"
+          },
+          {
+            "strong": "H3671",
+            "lemma": "כָּנָף"
+          },
+          {
+            "strong": "H3220",
+            "lemma": "יָם"
+          }
+        ],
+        "force": "A horizontal merism pairs the H3671 kanaph, wings, of the H7837 shachar, dawn, in the east with the farthest H3220 yam, sea, in the west. The image presses the geographic limit case to test the claim of the previous verse.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "metaphor",
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.10",
+        "key_terms": [
+          {
+            "strong": "H8033",
+            "lemma": "שָׁם"
+          },
+          {
+            "strong": "H3027",
+            "lemma": "יָד"
+          },
+          {
+            "strong": "H0270",
+            "lemma": "אָחַז"
+          }
+        ],
+        "force": "Even at the prior verse's farthest point, the locative H8033 sham resumes and the divine H3027 yad, hand, leads while the right hand H0270 achaz, grasps, holds the speaker. The repetition of sham from verse 8 closes the frame of presence across every extreme just named.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.23.23",
+        "key_terms": [
+          {
+            "strong": "H7138",
+            "lemma": "קָרוֹב"
+          },
+          {
+            "strong": "H7350",
+            "lemma": "רָחוֹק"
+          }
+        ],
+        "force": "A first-person divine oracle, marked neum YHWH, poses a rhetorical question contrasting H7138 qarob, near, with H7350 rachoq, far. The ETCBC clause analysis tags the unit a question with predicate-complement constituents, the structure of a self-disclosure that denies God can be a merely local, nearby deity unaware of the distant.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.23.24",
+        "key_terms": [
+          {
+            "strong": "H5641",
+            "lemma": "סָתַר"
+          },
+          {
+            "strong": "H4390",
+            "lemma": "מָלֵא"
+          },
+          {
+            "strong": "H8064",
+            "lemma": "שָׁמַיִם"
+          },
+          {
+            "strong": "H0776",
+            "lemma": "אֶרֶץ"
+          }
+        ],
+        "force": "The queried tokens confirm the verb H4390 male, fill, with first-person divine subject taking both H8064 heaven and H0776 earth under the direct-object marker H0853, denying that any person can H5641 sathar, hide, in secret places. The interrogative particle on the verb makes the assertion emphatic, a denial framed as a question.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.17.27",
+        "key_terms": [
+          {
+            "strong": "G2212",
+            "lemma": "ζητέω"
+          },
+          {
+            "strong": "G5584",
+            "lemma": "ψηλαφάω"
+          },
+          {
+            "strong": "G2147",
+            "lemma": "εὑρίσκω"
+          },
+          {
+            "strong": "G3112",
+            "lemma": "μακράν"
+          }
+        ],
+        "force": "Paul states a purpose, that they might G2212 zeteo, seek, God and perhaps G5584 pselaphao, grope after, and G2147 heurisko, find, him. The clause then adds, and indeed he is not G3112 makran, far, from each one of us, with the participle G5225 huparcho, existing. The queried Greek confirms makran plus huparcho asserting nearness to every individual.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.17.28",
+        "key_terms": [
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          },
+          {
+            "strong": "G2795",
+            "lemma": "κινέω"
+          },
+          {
+            "strong": "G4163",
+            "lemma": "ποιητής"
+          }
+        ],
+        "force": "The triad G1722 en him we G2198 zao, live, and G2795 kineo, move, and G1510 are, locates creaturely life, motion, and being inside God. The queried tokens confirm en, zao, kineo, and eimi in the verse. The Creator-creature distinction is held by G4163 poietes, Maker, language in the same speech, where God is the one who made the world, so the en is location not identity.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Amos.9.2",
+        "key_terms": [
+          {
+            "strong": "H7585",
+            "lemma": "שְׁאוֹל"
+          },
+          {
+            "strong": "H8064",
+            "lemma": "שָׁמַיִם"
+          },
+          {
+            "strong": "H8033",
+            "lemma": "שָׁם"
+          }
+        ],
+        "force": "A prophetic oracle reuses the same merism vocabulary. The queried tokens show H7585 sheol and H8064 heaven as the dig-down and climb-up extremes, with the locative H8033 sham asserting that even there the divine hand reaches. This is the Psalm 139 pattern recurring in a different genre, which corroborates the verdict pan-canonically.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.4.16",
+        "key_terms": [
+          {
+            "strong": "H6440",
+            "lemma": "פָּנִים"
+          }
+        ],
+        "force": "Cain goes out from the H6440 panim, presence, of YHWH and dwells in the land of Nod. The queried tokens confirm panim here. The same word that Psalm 139:7 uses for the presence one cannot flee is used for a relational, cultic departure, which shows the vocabulary carries two senses, spatial omnipresence and covenantal nearness, that the canon does not collapse into each other.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ps.139.7",
+        "to": "Jer.23.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.23.23",
+        "to": "1Kgs.20.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.23.24",
+        "to": "1Kgs.8.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.23.24",
+        "to": "Jer.49.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.27",
+        "to": "Acts.14.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.27",
+        "to": "Acts.15.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.28",
+        "to": "1Sam.25.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.28",
+        "to": "Luke.3.38",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Kgs.8.27",
+        "addressed": true,
+        "resolution": "Solomon asks whether God can dwell on earth when the heavens and the highest heaven cannot H3557 kul, contain, him. The queried tokens confirm kul governing H8064 heaven alongside H0776 earth and the house being built. The container language denies any spatial bounding of God while affirming a real, non-exclusive temple presence, so it reinforces rather than contradicts the verdict."
+      },
+      {
+        "ref": "Gen.4.16",
+        "addressed": true,
+        "resolution": "Cain departs from the H6440 panim, presence, of YHWH. The queried tokens confirm panim here. The idiom names covenantal favor and cultic locale, not ontological absence. The same panim that one cannot flee in Psalm 139:7 is the panim one can leave relationally here, so the word carries a special-presence sense alongside the omnipresence-of-essence sense without ranking them."
+      },
+      {
+        "ref": "Jonah.1.3",
+        "addressed": true,
+        "resolution": "Jonah flees from the H6440 panim, presence, of YHWH toward Tarshish, and the queried tokens confirm panim twice plus a flight verb, the very pair from Psalm 139:7. The narrative then has YHWH hurl a wind on the sea in the next verse, so the attempted flight is shown futile by the storyline itself, confirming omnipresence by counter-example."
+      },
+      {
+        "ref": "Amos.9.3",
+        "addressed": true,
+        "resolution": "The oracle says that even if they H5641 sathar, hide, on the top of Carmel or at the bottom of the H3220 yam, sea, God will search and seize them. The queried tokens confirm sathar and yam here. The verse is a complicating-looking flight scenario that the text itself resolves against the fugitive, so it supports the verdict rather than unsettling it."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Acts 17:27-28 sits outside the ingested ECM window (3 John 1:1 to 1:15), so no CBGM apparatus was examined. Known minor witnesses vary on the article with theos and on the optative form, but none touches the makran, en, or huparcho vocabulary that carries the verdict. Psalm 139 and Jeremiah 23 are Old Testament and outside ECM scope. The verdict holds across all plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "omnipresence_of_essence",
+        "verdict": "affirms",
+        "rationale": "Reads male, fill, and the merism plus the en him we live language as predicating unbounded spatial presence of the divine being itself. On this reading God is wholly present at every point, and the near and far oracle of Jeremiah 23:23-24 forecloses any local-deity limitation. The vocabulary directly supports this as the proposition's main claim."
+      },
+      {
+        "framework": "special_covenantal_presence",
+        "verdict": "affirms_with_distinction",
+        "rationale": "Stresses that the same canon uses a distinct register for a localized, manifest presence, dwelling in the temple in 1 Kings 8, drawing near, going out from the panim, presence, in Genesis 4:16 and Jonah 1:3, hiding the face. On this reading the words affirm omnipresence of essence but leave the manner of God's special presence as a further category the lexicon marks but does not rank against the first. This lens is represented in its strongest form, it does not deny omnipresence, it adds that presence is spoken of in more than one mode."
+      },
+      {
+        "framework": "panentheism",
+        "verdict": "partial_affirm",
+        "rationale": "Reads Acts 17:28, en him we live and move and are, as locating creation within God, which the preposition en allows. But the same speech keeps poietes, Maker, and the world-making language, so the lexical context blocks an ontological identification of God with creation. The reading is fairly stated, it captures a real feature of the en clause, but the surrounding vocabulary limits how far it can be pressed."
+      },
+      {
+        "framework": "pantheism",
+        "verdict": "denies",
+        "rationale": "Would erase the Creator-creature line that Jeremiah 23, God fills versus persons hide, and Acts 17, Maker versus made, both keep. The lexical pattern preserves the distinction the proposition requires, so a strict identification of God with the world is not supported by the words."
+      }
+    ],
+    "notes": "The verdict rests on grammatico-historical reading of three independent texts plus the corroborating Amos 9 echo. The two-part proposition, present everywhere yet distinct from creation, is held by reading the spatial fill and merism language together with the explicit Maker vocabulary in each context. The honest residue is that the canon also speaks of a special covenantal presence, which the lenses above register without the words ranking essence-presence above manifest-presence."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition restates the lexical pattern, fully present everywhere, not bounded by space, while remaining distinct from creation, without importing a tradition-specific taxonomy. The fill and merism vocabulary and the Maker language match both halves of the statement, so the verdict is derived from the text and not smuggled by the stem."
+  },
+  "lay_summary": "Three passages spread across the canon make the same claim with different words. Psalm 139 verses 7 to 10 lists every spatial extreme a person could reach, up to the heavens, down to Sheol, east to the wings of dawn, west to the farthest sea, and at each pole the answer is the same little word there, you are there, your hand leads me. The verb to flee is used precisely because the questions assume no destination outside God exists. Jeremiah 23 verse 24 puts the claim in God's own voice with the verb to fill, which takes both heaven and earth together under one object marker, the grammatical signature of unbounded presence, and adds that no one can hide in secret places. Acts 17 verses 27 and 28 carry the same idea into Greek, God is not far from each one of us, and in him we live and move and exist, while the word Maker in the same speech keeps the Creator and the creation apart, so being in him means located, not identical. The same heaven, Sheol, sea, and hide vocabulary returns in Amos 9, which is why the pattern is decisive rather than isolated. So the words clearly affirm both halves, present everywhere, yet distinct from what he fills and made. Where readers can still diverge is not over whether God is everywhere but over how to relate this to a second kind of language the same canon uses, a special covenantal presence that can be drawn near, dwelt in at the temple, departed from, as when Cain goes out from the presence of the LORD and Jonah flees from the presence of the LORD. The vocabulary marks both a presence of being that is everywhere and a presence of relationship that can be near or withdrawn, and it holds them together without ever ranking one above the other. That single unranked pairing is the only room the text leaves, and it does not touch the central affirmation.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.7-10"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jer.23.23-24"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Amos.9.2-3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Kgs.8.27"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jer.23.23"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jer.23.24"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4390"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3557"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6440"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3112"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5225"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.17.27-28"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ps.139.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Jer.23.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.17.28"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.139.7-10"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.17.27-28"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include ETCBC-BHSA, MACULA-Hebrew, and MACULA-Greek, all CC-BY-NC-4.0, which disallow bulk redistribution. The verdict is fully reproducible from the redistributable sources alone, OSHB-morphology, STEPBible-TBESH, STEPBible-TBESG, MorphGNT-morphology, and TSK, without the non-commercial layers."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-guardian-angels",
+  "question_id": "doc-guardian-angels",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9375,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct queries confirm the canon affirms angelic protective ministry to God's people, but it does not lexically lock down a one-to-one assignment of a specific angel to a specific believer. Heb 1:14 predicates angels collectively as leitourgika pneumata sent eis diakonian for the plural tous mellontas kleronomein soterian, and Matt 18:10 places hoi angeloi auton in genitive plural agreement with the plural class ton mikron touton. The only singular ho angelos autou applied to a believer is Acts 12:15, voiced as reported speech of the gathered church (V-IAI-3P elegon) inside indirect discourse, while every other ho angelos autou pattern in the canon refers to God's or the Lord's angel. Ps 91:11 commissions plural malakaw to guard one addressee, and Ps 34:7 reverses that to one malak YHWH around a plural fearers. The vocabulary supports angelic ministry as a class fact, but it does not force, nor exclude, dedicated personal assignment, which is the lexical reason the proposition is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0032",
+        "lemma": "ἄγγελος",
+        "transliteration": "angelos",
+        "occurrences_in_canon": 172,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4397",
+        "lemma": "מַלְאָךְ",
+        "transliteration": "malak",
+        "occurrences_in_canon": 213,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8104",
+        "lemma": "שָׁמַר",
+        "transliteration": "shamar",
+        "occurrences_in_canon": 468,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6680",
+        "lemma": "צָוָה",
+        "transliteration": "tsavah",
+        "occurrences_in_canon": 493,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0846",
+        "lemma": "αὐτός",
+        "transliteration": "autos",
+        "occurrences_in_canon": 5909,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3010",
+        "lemma": "λειτουργικός",
+        "transliteration": "leitourgikos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1248",
+        "lemma": "διακονία",
+        "transliteration": "diakonia",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2816",
+        "lemma": "κληρονομέω",
+        "transliteration": "kleronomeo",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3398",
+        "lemma": "μικρός",
+        "transliteration": "mikros",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2706",
+        "lemma": "καταφρονέω",
+        "transliteration": "kataphroneo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4991",
+        "lemma": "σωτηρία",
+        "transliteration": "soteria",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0649",
+        "lemma": "ἀποστέλλω",
+        "transliteration": "apostello",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8269",
+        "lemma": "שַׂר",
+        "transliteration": "sar",
+        "occurrences_in_canon": 421,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0032",
+      "G0649",
+      "G0846",
+      "G1248",
+      "G2706",
+      "G2816",
+      "G3010",
+      "G3398",
+      "G4991",
+      "H4397",
+      "H6680",
+      "H8104",
+      "H8269"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.91.11",
+        "key_terms": [
+          {
+            "strong": "H4397",
+            "lemma": "מַלְאָכָיו"
+          },
+          {
+            "strong": "H8104",
+            "lemma": "לִשְׁמָרְךָ"
+          },
+          {
+            "strong": "H6680",
+            "lemma": "יְצַוֶּה"
+          }
+        ],
+        "force": "God will command (yetsavveh, piel imperfect 3ms) his angels (malakaw, masculine plural noun with 3ms suffix referring to God) to guard you (lishmarka, qal infinitive construct with 2ms suffix) in all your ways. The construction is plural commissioning agents protecting one singular addressee, which establishes angelic protection of an individual as a class fact but does not pin one specific named angel to that person. The grammar leaves the assignment open: many angels could be commissioned to one person, or the same angels could rotate, or one could be dedicated.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.14",
+        "key_terms": [
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελοι"
+          },
+          {
+            "strong": "G3010",
+            "lemma": "λειτουργικὰ"
+          },
+          {
+            "strong": "G1248",
+            "lemma": "διακονίαν"
+          },
+          {
+            "strong": "G2816",
+            "lemma": "κληρονομεῖν"
+          }
+        ],
+        "force": "The rhetorical question predicates all (pantes, A-NPM) of them as leitourgika pneumata (neuter nominative plural ministering spirits, an adjective hapax G3010) apostellomena (present passive participle, continuously being sent out) eis diakonian (for service) on behalf of tous mellontas kleronomein soterian (plural accusative those about to inherit salvation). Every grammatical handle is plural to plural with a present-tense iterative aspect, so the verse grounds angelic ministry to the saved as an ongoing class fact while supplying no individualizing distribution.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.10",
+        "key_terms": [
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελοι"
+          },
+          {
+            "strong": "G0846",
+            "lemma": "αὐτῶν"
+          },
+          {
+            "strong": "G3398",
+            "lemma": "μικρῶν"
+          },
+          {
+            "strong": "G2706",
+            "lemma": "καταφρονήσητε"
+          }
+        ],
+        "force": "Hoi angeloi auton (nominative plural subject) of ton mikron touton (genitive plural the little ones these) always (dia pantos) blepousi (V-PAI-3P, see continuously) the face of my Father in heaven. The pronoun auton is P-GPN, genitive plural neuter, agreeing with the plural class of little ones, so on plain morphology the verse pairs a plurality of angels with a plurality of little ones. A strict distributive reading (one angel per little one) is grammatically possible but not required by the plural-to-plural agreement, which is the lexical seat of the dispute.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.12.15",
+        "key_terms": [
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελός"
+          },
+          {
+            "strong": "G0846",
+            "lemma": "αὐτοῦ"
+          },
+          {
+            "strong": "G1340",
+            "lemma": "διϊσχυρίζετο"
+          }
+        ],
+        "force": "Ho angelos estin autou (singular nominative ho angelos, V-PAI-3S estin, P-GSM autou) is the only canon instance where singular angelos plus singular his refers to a human believer rather than to God's angel. But the clause is reported speech inside indirect discourse: the narrator says elegon (V-IAI-3P, they kept saying) when Rhoda diischyrizeto (V-INI-3S, kept insisting) it was Peter. The verse records what the gathered believers assumed, not what the narrator affirms. Every other canonical ho angelos autou (Matt 1:20, Matt 28:2, Luke 1:13, Acts 12:7, Acts 12:11, Rev 1:1, Rev 22:6, etc.) refers to God's or the Lord's angel, not a believer's personal angel, so even the lexical pattern of the phrase itself runs against personalizing it here.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.34.7",
+        "key_terms": [
+          {
+            "strong": "H4397",
+            "lemma": "מַלְאַךְ"
+          },
+          {
+            "strong": "H3373",
+            "lemma": "לִירֵאָיו"
+          }
+        ],
+        "force": "Malak YHWH (singular construct angel of YHWH) encamps around lirea'aw (plural those who fear him) and rescues them. The distribution is reversed from Ps 91:11: one angel for many beneficiaries. Read together with Ps 91:11 (many angels for one addressee), the canon clearly does not standardize a one-to-one mapping, which is the textual reason the dedicated personal-guardian thesis cannot be straightforwardly derived from the protective vocabulary.",
+        "supports": "complicates",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Dan.10.13",
+        "key_terms": [
+          {
+            "strong": "H8269",
+            "lemma": "שַׂר"
+          },
+          {
+            "strong": "H4317",
+            "lemma": "מִיכָאֵל"
+          }
+        ],
+        "force": "Sar malkut Paras (the prince of the kingdom of Persia) is named, then Michael, echad hasarim harishonim (one of the chief princes), comes to help. The construction pairs angelic figures with nations and kingdoms, not with individual believers. Daniel 12:1 extends this: Michael is hasar haggadol ha'omed al bnei ammeka (the great prince who stands over the sons of your people). The Daniel canon supplies an angels-over-collectives pattern (nations, peoples) rather than angels-over-individuals.",
+        "supports": "complicates",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.48.16",
+        "key_terms": [
+          {
+            "strong": "H4397",
+            "lemma": "הַמַּלְאָךְ"
+          }
+        ],
+        "force": "Hammalak hagga'el oti mikkol ra' (the angel who redeems me from all evil) is Jacob's singular protective angel, applied personally with the definite article and a relative participle. The context, however, is the Angel of YHWH motif that functions as a christophany or theophany in the Pentateuch, not a separate created guardian, so as evidence for a personal created guardian angel per believer it is structurally ambiguous: the same figure who blesses Jacob's children is identified with the One whose name is invoked over them.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ps.91.11",
+        "to": "Ps.34.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.14",
+        "to": "Ps.34.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.14",
+        "to": "Gen.19.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.12.15",
+        "to": "Gen.48.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.10",
+        "to": "Matt.18.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.10",
+        "to": "Matt.1.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.91.11",
+        "to": "Prov.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.14",
+        "to": "Dan.10.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.10",
+        "to": "Dan.12.1",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.18.10",
+        "addressed": true,
+        "resolution": "The genitive plural auton agrees with the plural class ton mikron touton, so plural-to-plural agreement is the default reading and a strict distributive one-angel-per-little-one reading is admissible but not required. The lexical pattern by itself neither establishes nor excludes individualized assignment."
+      },
+      {
+        "ref": "Acts.12.15",
+        "addressed": true,
+        "resolution": "Ho angelos estin autou is grammatically the strongest individualizing datum in the canon, but it sits inside reported speech (elegon, V-IAI-3P) of the gathered believers, not in narrator-asserted exposition. Combined with the fact that every other ho angelos autou phrase in the canon refers to God's angel rather than a believer's, the verse attests that a personal-angel belief existed in the first-century church without elevating it to doctrinal assertion."
+      },
+      {
+        "ref": "Heb.1.14",
+        "addressed": true,
+        "resolution": "Plural neuter pneumata + plural masculine accusative tous mellontas leaves no individualizing slot in the syntax. The verse strongly grounds ongoing angelic ministry to the saved as a class but provides no lexical handle for one-to-one assignment, so it is consistent with either lens without favoring either."
+      },
+      {
+        "ref": "Ps.34.7",
+        "addressed": true,
+        "resolution": "Singular malak YHWH for plural fearers reverses the Ps 91:11 distribution and confirms that the canon does not normalize a uniform one-to-one mapping. This text by itself does not refute personal guardianship; it shows the protective lexicon ranges freely over one-to-many, many-to-one, and many-to-many configurations."
+      },
+      {
+        "ref": "Dan.10.13",
+        "addressed": true,
+        "resolution": "Angels-over-nations vocabulary (sar of Persia, Michael over bnei ammeka) shows another canonical pattern where angelic agents are paired with collectives rather than individuals. It does not refute the personal-angel thesis but it does refute any claim that the Bible knows only an individual-pairing pattern."
+      },
+      {
+        "ref": "Gen.48.16",
+        "addressed": false,
+        "resolution": "The Jacobic singular hammalak hagga'el oti looks like the strongest OT support for personal protective angels, but the Angel-of-YHWH motif in the Pentateuch standardly functions as a theophany rather than a created guardian, and the lexical data alone cannot fully disambiguate the two referents in this verse. The ambiguity is left flagged rather than forced to a resolution."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Matt 18:10 carries a known editorial marker on en ouranois at the end of the verse and Acts 12:15 carries a marker on the verb of being, but the witnesses agree on hoi angeloi auton in Matt 18:10 and on ho angelos estin autou in Acts 12:15, so the disputed status of personal guardianship is unaffected by any plausible variant. The bundle reports not_in_ecm_scope true and supplies no variant units, so no CBGM analysis was performed."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "angelology_collective",
+      "angelology_individualized",
+      "angel_of_yhwh_theophany",
+      "angelology_national"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "collective_angelic_ministry",
+        "verdict": "Angels protect and serve God's people as a class; the canon does not lexically require one-to-one assignment.",
+        "rationale": "Ps 91:11 uses plural angels for one addressee, Ps 34:7 uses one malak YHWH for plural fearers, Heb 1:14 has plural ministering spirits for plural heirs, and Matt 18:10 places plural angels with the plural class of little ones. The only singular his angel for a believer (Acts 12:15) is reported speech, not narrator assertion. The economical synthesis is class-level ministry with no fixed personal pairing required."
+      },
+      {
+        "framework": "individualized_guardianship",
+        "verdict": "A specific angel is associated with the individual believer; Acts 12:15 and a distributive reading of Matt 18:10 anchor this canonical pattern.",
+        "rationale": "Ho angelos estin autou (singular angel, singular his) about Peter is a grammatically clean individualizing phrase, even granting it is reported speech of the gathered church. A distributive reading of hoi angeloi auton in Matt 18:10 (one angel per little one) is grammatically possible and coheres with the gravity Jesus attaches to despising the little ones. Read this way, the canonical pattern is real even if not explicit, and the personal-guardian reading is a permissible inference."
+      },
+      {
+        "framework": "angel_of_yhwh_theophany",
+        "verdict": "Gen 48:16 hammalak hagga'el oti is not evidence for created personal guardians at all, because the Angel of YHWH in the Pentateuch is a theophanic figure.",
+        "rationale": "The same malak who redeems Jacob in Gen 48:16 is identified with God in Gen 31:11-13 and Exod 3:2-6, and Jacob asks him to bless the boys in language proper to YHWH. So Gen 48:16 belongs to a different lexical track than created-angel guardianship, which means it should be removed from the support stack for personal guardian angels rather than counted toward it."
+      },
+      {
+        "framework": "angelology_national",
+        "verdict": "Daniel locates angelic agency at the level of peoples and kingdoms rather than individuals, so any general lexical pattern is at least as well supported for collectives as for individuals.",
+        "rationale": "Sar malkut Paras and Michael hasar haggadol ha'omed al bnei ammeka show angels assigned to nations and peoples. This pattern is structurally analogous to the personal-guardian thesis (one named angel responsible for one group) but it is collective. The lexical record supplies the analog at the collective level explicitly and at the individual level only by inference."
+      }
+    ],
+    "notes": "All four lenses are derivable from the same Hebrew and Greek vocabulary without contradiction. The disputed status of the proposition reflects this fan of admissible lexical patterns, not a single ambiguous word or a single ambiguous clause. The analogia scripturae harmonizes everything under general angelic ministry but cannot rank the personal-versus-collective distribution from the vocabulary alone."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "A specific angel is dedicated to each individual believer for ongoing personal protection and ministry.",
+    "notes": "The original stem embeds a meta judgment (permissible but not dogmatically required) which a lexical store cannot adjudicate because permissibility and dogmatic status are ecclesial categories, not lexical facts. The verdict is therefore derived on the underlying lexical claim that the cited texts teach a dedicated one-to-one assignment of an angel to a believer, and the lexical data leave that claim contested rather than entailed."
+  },
+  "lay_summary": "Six anchor passages bear on whether each believer has a personal guardian angel, and the words distribute the relationship in several different ways. Psalm 91:11 says God will command his angels, in the plural, to guard you, in the singular, so many agents are commissioned to protect one person. Psalm 34:7 reverses that: the angel of the LORD, in the singular, encamps around those who fear him, in the plural. Hebrews 1:14 calls angels in the plural ministering spirits sent out for service for those, in the plural, who are about to inherit salvation, with every grammatical handle plural to plural. Matthew 18:10 says the angels, plural, of these little ones, plural, always see the Father's face, and the their attaches to the plural class, so the default reading is plural to plural rather than one angel per child. Acts 12:15 supplies the one place in the New Testament where a singular his angel is applied to a believer, when the gathered church says about Peter at the door, it is his angel, but the writer reports this as what the believers kept saying, not as his own assertion, and every other singular his angel phrase in the canon refers to God's angel, not a believer's. Daniel 10 and 12 add angels associated with nations and peoples rather than individuals. Genesis 48:16 has Jacob speak of the singular angel who redeemed him, which sounds personal, but the same figure functions elsewhere as a manifestation of God himself. Put together, the words clearly affirm that angels protect and serve God's people, in many configurations: one to many, many to one, one to a nation, many to a class. They do not lock in one fixed pattern of one specific angel assigned to one specific believer, and the only clearly individualizing phrase is reported speech rather than doctrine. That is why a careful reader can defend either a collective-ministry view or a personal-guardian view from the same vocabulary, and why the proposition lands as lexically disputed.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.91.11"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.34.7"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Dan.10.13"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.48.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4397"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8269"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.18.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.12.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.14"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0032"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3010"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.1.14"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.12.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ps.91.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Heb.1.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0 (non-commercial), which the license guard treats as non-redistributable in bulk mode, so the aggregate safety flag is false even though every other cited source is redistributable."
+  },
+  "flags": [
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

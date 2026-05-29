@@ -1,0 +1,610 @@
+{
+  "$schema_version": "3.0",
+  "id": "cult-discipling-control",
+  "question_id": "cult-discipling-control",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The leadership texts encode their commands with explicit negation. In 1 Pet 5:3 the present participle katakyrieuontes (G2634), lording it over, is forbidden of elders toward ton kleron, those allotted, and replaced by tupoi ginomenoi (G5179, G1096), becoming examples, while 1 Pet 5:2 sets the hapax adverb anagkastos (G0317), by compulsion, against hekousios (G1596), willingly. In 2 Cor 1:24 Paul says ouch hoti kyrieuomen (G2961) hymon tes pisteos, not that we lord it over your faith, but are synergoi (G4904), fellow workers, te gar pistei hestekate (G2476), for by faith you stand, locating each believer on his own footing before God. Matt 20:25 to 26 and the Markan parallel Mark 10:42 to 45 pair the same katakyrieuousin (G2634) with katexousiazousin (G2715) of gentile rulers and forbid both with ouch houtos estai en hymin. Matt 23:8 to 12 reserves kathegetes (G2519) and pater (G3962) for Christ and the Father, leaving diakonos (G1249) rank for the greatest. The pattern is dense, recurring, and pan-canonical across four NT corpora, so it affirms."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2634",
+        "lemma": "κατακυριεύω",
+        "transliteration": "katakyrieuo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2715",
+        "lemma": "κατεξουσιάζω",
+        "transliteration": "katexousiazo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2961",
+        "lemma": "κυριεύω",
+        "transliteration": "kyrieuo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4168",
+        "lemma": "ποίμνιον",
+        "transliteration": "poimnion",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2819",
+        "lemma": "κλῆρος",
+        "transliteration": "kleros",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5179",
+        "lemma": "τύπος",
+        "transliteration": "typos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0317",
+        "lemma": "ἀναγκαστῶς",
+        "transliteration": "anagkastos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1596",
+        "lemma": "ἑκουσίως",
+        "transliteration": "hekousios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4904",
+        "lemma": "συνεργός",
+        "transliteration": "synergos",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2476",
+        "lemma": "ἵστημι",
+        "transliteration": "histemi",
+        "occurrences_in_canon": 153,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2519",
+        "lemma": "καθηγητής",
+        "transliteration": "kathegetes",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1657",
+        "lemma": "ἐλευθερία",
+        "transliteration": "eleutheria",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2218",
+        "lemma": "ζυγός",
+        "transliteration": "zygos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1397",
+        "lemma": "δουλεία",
+        "transliteration": "douleia",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3982",
+        "lemma": "πείθω",
+        "transliteration": "peitho",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5226",
+        "lemma": "ὑπείκω",
+        "transliteration": "hypeiko",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2634",
+      "G2715",
+      "G2961",
+      "G4168",
+      "G2819",
+      "G5179",
+      "G0317",
+      "G1596",
+      "G4904",
+      "G2476",
+      "G1249",
+      "G2519",
+      "G1657",
+      "G2218",
+      "G1397",
+      "G5013",
+      "G3982",
+      "G5226",
+      "G3402"
+    ],
+    "scripture": [
+      {
+        "ref": "1Pet.5.3",
+        "key_terms": [
+          {
+            "strong": "G2634",
+            "lemma": "κατακυριεύω"
+          },
+          {
+            "strong": "G2819",
+            "lemma": "κλῆρος"
+          },
+          {
+            "strong": "G5179",
+            "lemma": "τύπος"
+          }
+        ],
+        "force": "Not as lording it over those allotted to you, but becoming examples of the flock. The negated present participle katakyrieuontes, with its kata prefix intensifying kyrieuo toward downward mastery, is set against tupoi ginomenoi, an ongoing modeling, so the authorized mode of oversight is imitable example rather than coercive mastery over the persons assigned. The genitive ton kleron names the people themselves as the inappropriate object of any such mastery.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          },
+          {
+            "strong": "G0317",
+            "lemma": "ἀναγκαστῶς"
+          },
+          {
+            "strong": "G1596",
+            "lemma": "ἑκουσίως"
+          }
+        ],
+        "force": "Shepherd the flock of God among you, exercising oversight not by compulsion but willingly. The hapax adverb anagkastos, by force, occurs only here in the NT canon and is rejected in favor of hekousios, freely, so the framing of oversight is voluntary care rather than imposed necessity binding the will of the one shepherded.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.1.24",
+        "key_terms": [
+          {
+            "strong": "G2961",
+            "lemma": "κυριεύω"
+          },
+          {
+            "strong": "G4904",
+            "lemma": "συνεργός"
+          },
+          {
+            "strong": "G2476",
+            "lemma": "ἵστημι"
+          }
+        ],
+        "force": "Not that we lord it over your faith, but we are fellow workers of your joy, for by faith you stand. The emphatic ouch hoti negates kyrieuomen, we master, over the believer faith, and synergoi reclassifies the apostle as a co-laborer. The perfect hestekate, you have stood and continue to stand, locates each believer directly on faith, not on submission to a leader.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.20.25",
+        "key_terms": [
+          {
+            "strong": "G2634",
+            "lemma": "κατακυριεύω"
+          },
+          {
+            "strong": "G2715",
+            "lemma": "κατεξουσιάζω"
+          }
+        ],
+        "force": "You know that the rulers of the gentiles lord it over them, and their great ones exercise authority over them. The two paired kata-prefixed verbs, katakyrieuousin and katexousiazousin, both with the directional kata of downward control, describe pagan domination as the foil that the next clause forbids for the disciples. The verbs together mark top-down control over persons as the gentile, not kingdom, pattern.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.20.26",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "It shall not be so among you, but whoever wishes to be great among you shall be your servant. The clause ouch houtos estai en hymin, formed with future indicative of prohibition, directly forbids the domination just described, and diakonos resets greatness as service, so the leader holds no mastering claim over the disciple but a serving role.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.42",
+        "key_terms": [
+          {
+            "strong": "G2634",
+            "lemma": "κατακυριεύω"
+          },
+          {
+            "strong": "G2715",
+            "lemma": "κατεξουσιάζω"
+          }
+        ],
+        "force": "The Markan parallel uses the same paired katakyrieuousin and katexousiazousin to describe gentile rulers and gentile great ones. That katexousiazo occurs in the canon only here and in the Matthew parallel, and katakyrieuo only four times, makes the verb choice deliberate and tightly bound to this prohibition, so its repetition across two gospels strengthens the negation of dominating control.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.43",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "But it shall not be so among you. Whoever wishes to become great among you shall be your servant. The same ouch houtos estai en hymin and the same diakonos reordering of rank repeat, so the Markan witness independently encodes the same negation of mastering authority over persons.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.22.25",
+        "key_terms": [
+          {
+            "strong": "G2961",
+            "lemma": "κυριεύω"
+          }
+        ],
+        "force": "The kings of the gentiles lord it over them, and those who exercise authority over them are called benefactors. The Lukan parallel uses simple kyrieuousin rather than the intensified katakyrieuo, but the same contrast with serving rank follows, so all three synoptic witnesses converge on forbidding leaders to relate to disciples as gentile rulers relate to subjects.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.10",
+        "key_terms": [
+          {
+            "strong": "G2519",
+            "lemma": "καθηγητής"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Neither be called guides, for one is your guide, the Christ. The aorist subjunctive prohibition with mede limits the title kathegetes, master-guide, to a single referent, Christ. Since kathegetes occurs only twice in the canon and both within this passage, the lexeme is functionally reserved, so no human leader may occupy the office that would warrant unconditional directive authority over another disciple.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.11",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "The greatest among you shall be your servant. The same diakonos word reorders rank toward service, parallel to Matt 20:26 and Mark 10:43, reinforcing that prominence in the community is measured by serving, not by the authority to command the lives of others.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.5.1",
+        "key_terms": [
+          {
+            "strong": "G1657",
+            "lemma": "ἐλευθερία"
+          },
+          {
+            "strong": "G2218",
+            "lemma": "ζυγός"
+          },
+          {
+            "strong": "G1397",
+            "lemma": "δουλεία"
+          }
+        ],
+        "force": "For freedom Christ set us free. Stand firm therefore and do not again be held in a yoke of slavery. The dative eleutheria of purpose, with the imperative stekete and the prohibition against the zygos douleias, frames submission of the conscience to imposed external requirement as a return to bondage, supporting the limit on binding what Scripture leaves free.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.5.3",
+        "to": "Ezek.34.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.5.1",
+        "to": "Gal.5.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "Isa.56.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.23.9",
+        "to": "Matt.6.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.20.25",
+        "to": "Mark.10.42",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.20.25",
+        "to": "Luke.22.25",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Heb.13.17",
+        "addressed": true,
+        "resolution": "Obey peithesthe (G3982) and submit hypeikete (G5226) to your leaders, for they keep watch over your souls as those who will give account. The lexical root-cause of confusion is that English obey flattens two different verbs. G3982 peitho means to be persuaded, to trust, to yield to, and across its 54 NT occurrences it predominantly carries the sense of being convinced, not coerced compliance. The middle voice peithesthe here means let yourselves be persuaded by. G5226 hypeiko is a hapax in the NT canon, so its sense cannot be triangulated from other NT uses, but its classical sense is to yield, to give way, to defer. Neither verb is the strong imperative compliance verb. The clause hos logon apodosontes, as those who will render account, binds the leader to God rather than vesting unconditional rule, and these leaders are explicitly framed as oversouls watchmen, not as those who lord it over. So the verse establishes a relationship of trusted persuasion and deference, not the unconditional submission of every life decision that the proposition denies, and it sits alongside the explicit prohibitions of katakyrieuo and kyrieuo over persons."
+      },
+      {
+        "ref": "1Cor.11.1",
+        "addressed": true,
+        "resolution": "Be imitators mimetai (G3402) of me as I also am of Christ. The lemma mimetes occurs only six times in the NT, always in patterns of becoming, and could be read as warranting a controlling pattern. But the kathos kago Christou clause, as I also am of Christ, bounds the imitation strictly to the apostle insofar as he tracks Christ. This matches the tupoi, examples, model of 1 Pet 5:3 rather than a conscience-binding directive authority over free matters, so it does not transfer unconditional life-decision authority to a human leader."
+      },
+      {
+        "ref": "1Pet.5.5",
+        "addressed": true,
+        "resolution": "Younger ones be subject hypotagete (G5293) to the elders. This is the only NT use of hypotasso in the elder-flock relation, and the immediately preceding verses bound the elder behavior with the same katakyrieuo prohibition. So the submission is reciprocal humility framed within already-forbidden domination, not a license for the elder to require unconditional submission of every life decision. The chapter opens and closes the relationship inside the same negation."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle for the 1 Peter 5, 2 Corinthians 1, Matthew 20, Matthew 23, Mark 10, Luke 22, or Galatians 5 anchors, and the bundle marks these outside published ECM scope. The editorial marks in the bundle text touch word order and minor spelling, none of which alters the negated verbs katakyrieuo, katexousiazo, and kyrieuo or the contrast between anagkastos and hekousios that carry the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "servant-leadership ecclesiology",
+      "directive-shepherding ecclesiology",
+      "high-church sacerdotalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "servant-leadership ecclesiology",
+        "verdict": "affirms",
+        "rationale": "Reads the negated katakyrieuo and katexousiazo and kyrieuo verbs, the anagkastos versus hekousios contrast, and the diakonos rank as forbidding coercive mastery over the disciple. Leaders model and serve. Heb 13:17 is read by way of peitho as persuasion and hypeiko as deference, not as unconditional command, so it does not override the explicit prohibitions of domination."
+      },
+      {
+        "framework": "directive-shepherding ecclesiology",
+        "verdict": "does not affirm the denial",
+        "rationale": "Would lean on Heb 13:17 obey and submit and on 1 Pet 5:5 be subject to maximize leader authority over personal decisions. Stated in its strongest form, this reading takes peitho and hypeiko as functional command compliance and takes hypotagete as broad submission, so the elder has standing directive authority. But this reading must override the explicit prohibitions on lording it over persons and the believer standing directly on faith in 2 Cor 1:24, and it must treat the negated katakyrieuo and kyrieuo as merely a tone restriction on otherwise unconditional authority, which the lexemes do not grant."
+      },
+      {
+        "framework": "high-church sacerdotalism",
+        "verdict": "does not affirm the denial",
+        "rationale": "Stated fairly, this lens would attach binding authority to ordained office independent of the verbs, locating it in the broader pattern of apostolic succession and the keys. On the lexical plane this reading must still explain the negation of katakyrieuo and kyrieuo over persons and the locating of the believer on his own faith in 2 Cor 1:24. The verbs do not vest a class of leaders with unconditional life-decision authority, so the lens does not find affirming lexical purchase even in its strongest form."
+      }
+    ],
+    "notes": "The verdict turns on the grammar of negated domination verbs and the voluntary versus compelled contrast, read across Peter, Paul, the synoptics by analogy of Scripture. The complicating obedience text is harmonized through its own qualifying clauses and through the lexical sense of peitho as persuasion."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the apostolic lexemes for oversight and leadership describe a relationship requiring the disciple to submit every life decision to a designated leader, or whether they limit such authority and locate the believer standing directly on faith.",
+    "notes": "The stem is framed as a denial, that shepherding does not require unconditional submission and that binding the conscience in free matters is contrary to the apostolic pattern. This carries an evaluative frame, so it was neutralized to a question about what the oversight lexemes actually describe. The verdict was derived on the original stem. The lexical pattern of negated katakyrieuo, katexousiazo, kyrieuo, the anagkastos versus hekousios contrast, the synergoi co-worker classification, and the believer hestekate standing on faith confirms the denial. Pan_canonical was raised to true because the pattern is attested in all three synoptic gospels and in Paul and Peter, spanning four NT corpora rather than gathering in only one or two."
+  },
+  "lay_summary": "Several passages anchor this proposition, and they speak with striking consistency about how leaders may relate to those they lead. In 1 Peter 5:2 to 3 elders are told to shepherd the flock not by compulsion but willingly, and not as lording it over those entrusted to them, but becoming examples. The verb translated lording it over is a strong word for top-down mastery, and it is flatly forbidden. The rare word for by compulsion appears only here in the canon, and it is rejected in favor of the word for freely. So the authorized picture is a leader who models, not one who masters. In 2 Corinthians 1:24 Paul says directly, not that we lord it over your faith, but we are fellow workers of your joy, for by faith you stand. He calls himself a co worker, and he says each believer stands on his own faith. In Matthew 20:25 to 26, repeated in Mark 10:42 to 43 and Luke 22:25, Jesus uses two paired verbs to describe how gentile rulers lord it over and exercise authority over people, and then says it shall not be so among you, but the great one must be a servant. In Matthew 23:8 to 12 the title of master guide and the title of father are reserved for Christ and for God, and the greatest is again the servant. Galatians 5:1 adds that Christ set us free for freedom, and warns against being placed again under a yoke of slavery. Where confusion enters is Hebrews 13:17, often rendered obey your leaders. The Greek uses one verb that across the New Testament means to be persuaded or to trust, and a second verb that occurs only once in the whole canon, whose sense leans toward deferring or giving way. Neither is the strong command-compliance verb. The same chapter calls the leaders watchmen who will give account to God, not masters. Read together, the words used forbid coercive control over a disciple and refuse to bind the conscience by force in matters the text leaves open. The leader serves, models, and works alongside, while the believer stands directly before God.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2634"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2715"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2961"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1596"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0317"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3982"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5226"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.5.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.5.2"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.1.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.13.17"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.1.24"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.10.42"
+    },
+    {
+      "type": "morphology",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Matt.20.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.5.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.20.25"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 and SBLGNT-text under SBLGNT-EULA, both of which forbid bulk redistribution, so the assembled evidence is not safe to publish in bulk."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "$schema_version": "3.0",
+  "id": "het-serpent-seed-anthropology",
+  "question_id": "het-serpent-seed-anthropology",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Gen 4:1 makes Adam the grammatical subject of yada (H3045, the marital-intercourse idiom when its subject is a husband and its object his wife) and immediately follows with Eve as subject of harah (H2029, conceived) and yalad (H3205, bore); Cain is named directly in the same clause as the issue of that one act, with no second male agent present. Acts 17:26 makes every nation ex henos (G1537 plus genitive G1520) and Rom 5:12 routes sin into the world di henos anthropou (G1223 plus G0444), a one-source grammar. The apostolic gloss on the seed motif is fixed by 1 John 3:10-12, where the same ek-paternity formula is used for both tekna tou theou (G5043 + G2316, children of God, by all sides spiritual) and tekna tou diabolou (G5043 + G1228, children of the devil), and Cain (G2535) is called the brother (G0080 adelphon) of Abel whom he slew, presupposing shared parentage. John 8:44 applies the same hymeis ek tou patros tou diabolou (G1537 + G3962 + G1228) to people whom v37 has already conceded are Abraham's biological sperma (seed), proving the construction is moral, not biological. 1 Tim 2:14 labels Eve's transgression apate (G0538, deception) and parabasis (G3847, transgression), not congress."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H3045",
+        "lemma": "יָדַע",
+        "transliteration": "yada",
+        "occurrences_in_canon": 860,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7069",
+        "lemma": "קָנָה",
+        "transliteration": "qanah",
+        "occurrences_in_canon": 83,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2029",
+        "lemma": "הָרָה",
+        "transliteration": "harah",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3205",
+        "lemma": "יָלַד",
+        "transliteration": "yalad",
+        "occurrences_in_canon": 466,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0802",
+        "lemma": "אִשָּׁה",
+        "transliteration": "ishshah",
+        "occurrences_in_canon": 781,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0376",
+        "lemma": "אִישׁ",
+        "transliteration": "ish",
+        "occurrences_in_canon": 2188,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7014B",
+        "lemma": "קַיִן",
+        "transliteration": "Qayin",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2332",
+        "lemma": "חַוָּה",
+        "transliteration": "Chavvah",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6754",
+        "lemma": "צֶלֶם",
+        "transliteration": "tselem",
+        "occurrences_in_canon": 16,
+        "in_anchors": false
+      },
+      {
+        "strong": "H1823",
+        "lemma": "דְּמוּת",
+        "transliteration": "demuth",
+        "occurrences_in_canon": 24,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1537",
+        "lemma": "ἐκ",
+        "transliteration": "ek",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1223",
+        "lemma": "διά",
+        "transliteration": "dia",
+        "occurrences_in_canon": 742,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2535",
+        "lemma": "Κάϊν",
+        "transliteration": "Kain",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1228",
+        "lemma": "διάβολος",
+        "transliteration": "diabolos",
+        "occurrences_in_canon": 38,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4190",
+        "lemma": "πονηρός",
+        "transliteration": "poneros",
+        "occurrences_in_canon": 78,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5043",
+        "lemma": "τέκνον",
+        "transliteration": "teknon",
+        "occurrences_in_canon": 99,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 418,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0538",
+        "lemma": "ἀπατάω",
+        "transliteration": "apatao",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3847",
+        "lemma": "παράβασις",
+        "transliteration": "parabasis",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "H3045",
+      "H7069",
+      "H2029",
+      "H3205",
+      "H0802",
+      "H0376",
+      "H0853",
+      "H0854",
+      "H2332",
+      "H7014B",
+      "H3068",
+      "H6754",
+      "H1823",
+      "G1520",
+      "G0444",
+      "G0076",
+      "G1537",
+      "G1223",
+      "G2535",
+      "G1228",
+      "G4190",
+      "G5043",
+      "G3962",
+      "G0538",
+      "G3847"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.4.1",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H2029",
+            "lemma": "הָרָה"
+          },
+          {
+            "strong": "H3205",
+            "lemma": "יָלַד"
+          },
+          {
+            "strong": "H7069",
+            "lemma": "קָנָה"
+          },
+          {
+            "strong": "H7014B",
+            "lemma": "קַיִן"
+          }
+        ],
+        "force": "Adam (ha-adam) is the subject of yada (knew) with his wife (ishto) as object, then Eve is subject of harah (conceived) and yalad (bore), and Cain (Qayin, H7014B) is the named issue. With a husband as subject and his wife as object, yada functions as the fixed Hebrew idiom for marital intercourse, and the wayyiqtol chain in the clause string locks the begetting between the two named human parents with no other male agent introduced. Eve's exclamation qaniti ish eth YHWH uses qanah (gotten, acquired) with the particle eth read as 'with the help of', crediting YHWH's enabling, not paternity. The serpent does not appear in the verse.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": "Gen.4.1"
+      },
+      {
+        "ref": "Gen.4.25",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H3205",
+            "lemma": "יָלַד"
+          },
+          {
+            "strong": "H7014B",
+            "lemma": "קַיִן"
+          }
+        ],
+        "force": "Adam knew (yada) his wife again, she bore (yalad) Seth, and the verse names Cain (H7014B) explicitly as the brother whom Seth replaces because Cain had slain Abel. The same lemma chain that produced Cain in Gen 4:1 produces Seth here, treating Cain, Abel, and Seth as one sibling set from one couple. Cain as Seth's brother in the syntax presupposes shared parentage with Adam and Eve.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Gen.4.25"
+      },
+      {
+        "ref": "Gen.5.3",
+        "key_terms": [
+          {
+            "strong": "H3205",
+            "lemma": "יָלַד"
+          },
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          },
+          {
+            "strong": "H1823",
+            "lemma": "דְּמוּת"
+          }
+        ],
+        "force": "Adam begot (yalad) in his own demuth (likeness) and after his tselem (image), the two lemmas that Gen 1:26 used for the human creation in God's image. The genealogy of Gen 5 traces all subsequent humanity through Adam by this same begetting verb, with no parallel line introduced. Every named human descends from one Adamic stock.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Gen.5.3"
+      },
+      {
+        "ref": "Gen.3.20",
+        "key_terms": [
+          {
+            "strong": "H2332",
+            "lemma": "חַוָּה"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          }
+        ],
+        "force": "Adam names his wife Chavvah (Eve, H2332, occurring only here and Gen 4:1 in the entire canon) because she was em kol chai (mother of all living). The clause makes Eve the universal matriarch of every living human, ruling out parallel non-Adamic human lineages by definition.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Gen.3.20"
+      },
+      {
+        "ref": "Acts.17.26",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          }
+        ],
+        "force": "epoiesen te ex henos pan ethnos anthropon, He made out of one every nation of men. The prepositional phrase ex henos (genitive singular heis governed by ek) marks one human source for the whole of humanity, and pan ethnos anthropon (every nation of men) makes the scope total. This forecloses divergent racial lineages with separate or satanic origins.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.17.26"
+      },
+      {
+        "ref": "Rom.5.12",
+        "key_terms": [
+          {
+            "strong": "G1223",
+            "lemma": "διά"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "di henos anthropou he hamartia eis ton kosmon eiselthen, through one man sin entered into the world. The instrumental dia plus genitive henos anthropou names one human being as the single conduit of sin and death for all, and v14 explicitly names that one man Adam (G0076). The argument presupposes one head over the whole race, not multiple seed-lines.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.12"
+      },
+      {
+        "ref": "Rom.5.19",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "dia tes parakoes tou henos anthropou hamartoloi katestathesan hoi polloi, through the disobedience of the one man the many were constituted sinners. Eden's transgression is named parakoe (disobedience), not any sexual act, and the single head produces the entire constituency of sinners.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.19"
+      },
+      {
+        "ref": "1Tim.2.14",
+        "key_terms": [
+          {
+            "strong": "G0538",
+            "lemma": "ἀπατάω"
+          },
+          {
+            "strong": "G3847",
+            "lemma": "παράβασις"
+          }
+        ],
+        "force": "he gyne exapatetheisa en parabasei gegonen, the woman, being deceived, came to be in transgression. Eve's Eden act is labeled lexically as apate (deception) and parabasis (a transgression of a command), the standard moral-cognitive vocabulary, not a sexual term. Where a sexual congress was intended, biblical Greek has explicit verbs (ginosko in a marital sense, suneimi, koitazomai); none appears here or in Gen 3.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Tim.2.14"
+      },
+      {
+        "ref": "1Cor.15.22",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "en to Adam pantes apothneskousin, in the Adam all die. The universal pantes (all) is grounded in the one Adam, parallel to en to Christo pantes zoopoiethesontai. Adam as the single federal head of all dying humanity rules out parallel non-Adamic human lines.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.15.22"
+      },
+      {
+        "ref": "Luke.3.38",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "tou Adam tou theou, of Adam, of God. The genealogy of Jesus terminates at Adam, and Adam at God, making one continuous descent from God through one originating man to the Christ. No parallel non-Adamic line is registered in the canon's only complete back-to-origin genealogy.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Luke.3.38"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.17.26",
+        "to": "Gen.3.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.4.1",
+        "to": "Gen.4.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.5.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.16",
+        "to": "Gen.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "1Cor.15.22",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gen.4.1",
+        "to": "1John.3.12",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gen.3.15",
+        "addressed": true,
+        "resolution": "The seed (zera, H2233) language sets enmity between the serpent's zera and the woman's zera. Zera carries two attested senses across the canon: literal biological offspring (Gen 15:5, Gen 17:7) and figurative posterity or line of allegiance (Isa 1:4 zera mereim, a brood of evildoers; Isa 57:4 zera sheker, a seed of falsehood). The syntax of Gen 3:15 supplies no copulation verb between the serpent and the woman; the verse names enmity (eyvah, H0342) and a head-heel strike (shuph H7779 plus aqeb H6119), not begetting. Read against 1 John 3:8-12, where the same hostility is named as belonging to those who ek tou diabolou and those ek tou theou, the canon ranks zera here as figurative line of allegiance, not literal physical paternity by the serpent."
+      },
+      {
+        "ref": "Gen.4.1",
+        "addressed": true,
+        "resolution": "The clause qaniti ish eth YHWH has been read by serpent-seed proponents as Eve crediting a being other than Adam for Cain. The preceding clause already supplies Adam as the father by yada plus ishto (knew his wife), the standard marital-intercourse idiom, so Eve's exclamation cannot grammatically displace the father just established. The particle eth in qaniti ish eth YHWH is best read as the preposition with (et, 'with the help of'), a common Hebrew use, which credits YHWH's enabling, not paternity. Read with Gen 4:25, where Adam again knows (yada) his wife and bears (yalad) Seth and Cain is explicitly named as the brother who slew Abel, Cain stands as Adam's biological son."
+      },
+      {
+        "ref": "1John.3.12",
+        "addressed": true,
+        "resolution": "Cain is said to be ek tou ponerou (out of the evil one). The polysemy of ek paternity language is resolved within the same paragraph: v10 contrasts ta tekna tou theou (children of God) and ta tekna tou diabolou (children of the devil), and no reader holds that the children of God are biologically begotten by God in the flesh, so the ek paternity formula must be moral and relational on both sides. The same verse then calls Cain the adelphos (brother) of Abel whom he slew, presupposing shared biological parentage with Abel and Adam. The paragraph itself ranks ek as moral, not biological."
+      },
+      {
+        "ref": "John.8.44",
+        "addressed": true,
+        "resolution": "hymeis ek tou patros tou diabolou este, you are of the father, the devil. Spoken to people whom Jesus has explicitly granted in v37 are Abraham's sperma (seed), the construction ek plus father plus genitive cannot be biological without contradicting v37. The very same chapter therefore ranks ek tou patros tou diabolou as a moral and volitional paternity ('the desires of your father you will to do', v44), the same lens 1 John 3:10-12 supplies. This forecloses any literal-paternity reading of seed-of-the-serpent language."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Anchor verses span Gen 3-5 (OT, no ECM scope), Acts 17:26, Rom 5:12-19, 1 Cor 15:22, Luke 3:38, 1 Tim 2:14, John 8:44, and 1 John 3:8-12 (NT outside the 3 John CBGM sample). No variant unit in the standard apparatus alters the yada-harah-yalad chain in Gen 4:1, the ex henos in Acts 17:26, or the di henos anthropou in Rom 5:12. The verdict does not turn on any disputed reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "Gen 4:1 yada plus ishah is the marital-intercourse idiom with Adam as subject; Acts 17:26 ex henos and Rom 5:12 di henos anthropou name a single human origin and head. 1 Tim 2:14 labels Eve's act apate and parabasis, not congress. The serpent never governs a begetting verb."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "The Adam-Christ federal parallel in Rom 5 and 1 Cor 15 requires one human head over the whole race. A bifurcated bloodline with a satanic branch would disable both the universal scope of the fall and the universal scope of the second-Adam remedy."
+      },
+      {
+        "framework": "patristic-typological",
+        "verdict": "affirms",
+        "rationale": "The typological reading of zera in Gen 3:15 as the woman's line culminating in the Messiah, opposed by the serpent's line as those who morally side with him, is the reading 1 John 3:8-12 explicitly canonicalizes (the one doing sin is ek tou diabolou; Cain ek tou ponerou). Typology here is spiritual paternity, not biological."
+      },
+      {
+        "framework": "serpent-seed-literal",
+        "verdict": "denies",
+        "rationale": "The serpent-seed lens reads zera in Gen 3:15 as literal biological offspring and qaniti ish eth YHWH in Gen 4:1 as Eve crediting another being for Cain. On its own terms it claims the morphology of Gen 4:1 leaves room for a non-Adamic father. The lens fails on the lexical data because v1a already supplies Adam as the father via yada plus ishto, because Gen 4:25 repeats the same chain to produce Seth while naming Cain as brother, and because 1 John 3:10 uses the identical ek paternity formula for tekna tou theou (which all sides agree is non-biological), ranking the construction moral on both sides of the parallel."
+      }
+    ],
+    "notes": "Verdict rests on plain morphology and syntax. Polysemy of zera (literal seed vs figurative posterity) and of ek paternity (origin vs moral allegiance) is resolved within the canon itself by 1 John 3:10's parallel use of tekna tou theou and John 8:44's address to those already conceded to be Abraham's sperma."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem denies a specific heterodox claim (serpent-seed or dual-seed anthropology, sometimes carrying racist applications). It states three lexically checkable propositions: Eden's transgression was disobedience, Cain is the natural son of Adam, and all humanity descends from one originating pair. These are testable against the morphology of Gen 4:1, Gen 4:25, Gen 5:3, Gen 3:20, Acts 17:26, Rom 5:12-19, 1 Cor 15:22, Luke 3:38, 1 Tim 2:14, John 8:44, and 1 John 3:8-12, so no neutralization was required."
+  },
+  "lay_summary": "The question denies the serpent-seed or dual-seed claim that Eve had sexual relations with the serpent or with Satan, that Cain was the offspring of that union, and that humanity then split into separate bloodlines, one of them traceable to Satan. The Hebrew of Genesis 4:1 settles the paternity directly. Adam knew (yada) Eve his wife, she conceived (harah) and bore (yalad) Cain. With a husband as subject of yada and his wife as object, this is the fixed Hebrew way of describing marital relations, and the verb chain locks the begetting between the two named human parents with no other male agent introduced. Eve's words, often rendered I have gotten a man with the help of the LORD, use the verb qanah (to get or acquire) and credit God's enabling, not the serpent's fathering. The same verb chain reappears in Genesis 4:25 to produce Seth, and the verse names Cain explicitly as the brother whom Seth replaces, presupposing shared parents. Genesis 5:3 then traces all later humanity through Adam by the same begetting verb in Adam's own likeness and image. Where confusion arises is around two words. The Hebrew word zera (seed) can mean either literal offspring or a figurative line of allegiance (as in seed of evildoers, Isaiah 1:4), and the Greek phrase ek tou patros (of the father) can describe biological origin or moral allegiance. The canon itself ranks the meaning. In 1 John 3:10-12 the same ek formula labels both children of God and children of the devil, and no reader holds that the children of God are physically begotten by God in the flesh, so the construction is moral and relational on both sides. The same passage then calls Cain the brother of Abel he killed, presupposing they shared parents. In John 8:44 Jesus tells opponents they are of their father the devil, even though He has just granted (v37) that they are Abraham's biological seed, so again the construction is spiritual, not biological. In the New Testament, Acts 17:26 says God made out of one (ex henos) every nation of men, and Romans 5:12 and 19 say sin and death entered through one man (di henos anthropou) by his disobedience (parakoe), with 1 Timothy 2:14 naming Eve's act apate (deception) and parabasis (transgression), not congress. Across both testaments the lexical pattern supports one originating human pair and an Eden transgression of disobedience, and gives no grammatical foothold for a satanic bloodline.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.4.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.4.25"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.5.3"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3045"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7069"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2332"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.3.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.8.44"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1537"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0538"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3847"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.4.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1John.3.10"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.8.44"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.17.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.4.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Hebrew, MACULA-Greek, and ETCBC-BHSA, all under CC-BY-NC-4.0, which prohibits bulk redistribution. The morphology and lexical observations are independently corroborated by the redistributable sources OSHB-morphology, STEPBible-TBESH, STEPBible-TBESG, MorphGNT-morphology, TSK, and OpenBible-cross-refs."
+  },
+  "flags": []
+}

@@ -1,0 +1,826 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-capital-punishment",
+  "question_id": "prc-capital-punishment",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.975,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The canon supplies two unranked lexical patterns. One chain (Gen 9:6 with the agent phrase ba-adam and the image-of-God ground, Num 35:30-31 regulating with edim and refusing kopher, Rom 13:4 calling the magistrate diakonos and ekdikos who bears the machaira ou eike) authorizes lethal requital by lawful human agency. A second chain (Matt 5:38-44 with the very verb anthistemi telling the disciple not to resist the evildoer, John 8:7 with the anamartetos qualifier against execution-on-demand, Ezek 18:23 with chaphets denying divine pleasure in the death of the wicked, Acts 25:11 conceding axios thanatou yet showing the apostolic refusal of private vengeance) significantly qualifies in-practice application and shifts the believer's posture. The same vocabulary, ratsach and anthistemi and orge, sits on both sides without lexical priority. The verdict is therefore disputed rather than affirmed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H8210",
+        "lemma": "שָׁפַךְ",
+        "transliteration": "shaphakh",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1818",
+        "lemma": "דָּם",
+        "transliteration": "dam",
+        "occurrences_in_canon": 360,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7523",
+        "lemma": "רָצַח",
+        "transliteration": "ratsach",
+        "occurrences_in_canon": 47,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4191",
+        "lemma": "מוּת",
+        "transliteration": "muth",
+        "occurrences_in_canon": 843,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3724",
+        "lemma": "כֹּפֶר",
+        "transliteration": "kopher",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5707",
+        "lemma": "עֵד",
+        "transliteration": "ed",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0120",
+        "lemma": "אָדָם",
+        "transliteration": "adam",
+        "occurrences_in_canon": 553,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6754",
+        "lemma": "צֶלֶם",
+        "transliteration": "tselem",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2654",
+        "lemma": "חָפֵץ",
+        "transliteration": "chaphets",
+        "occurrences_in_canon": 75,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7563",
+        "lemma": "רָשָׁע",
+        "transliteration": "rasha",
+        "occurrences_in_canon": 264,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3162",
+        "lemma": "μάχαιρα",
+        "transliteration": "machaira",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1558",
+        "lemma": "ἔκδικος",
+        "transliteration": "ekdikos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3709",
+        "lemma": "ὀργή",
+        "transliteration": "orge",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1500",
+        "lemma": "εἰκῇ",
+        "transliteration": "eike",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0436",
+        "lemma": "ἀνθίστημι",
+        "transliteration": "anthistemi",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0498",
+        "lemma": "ἀντιτάσσω",
+        "transliteration": "antitasso",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0361",
+        "lemma": "ἀναμάρτητος",
+        "transliteration": "anamartetos",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 120,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0514",
+        "lemma": "ἄξιος",
+        "transliteration": "axios",
+        "occurrences_in_canon": 41,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0599",
+        "lemma": "ἀποθνῄσκω",
+        "transliteration": "apothnesko",
+        "occurrences_in_canon": 111,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3868",
+        "lemma": "παραιτέομαι",
+        "transliteration": "paraiteomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0025",
+        "lemma": "ἀγαπάω",
+        "transliteration": "agapao",
+        "occurrences_in_canon": 143,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2190",
+        "lemma": "ἐχθρός",
+        "transliteration": "echthros",
+        "occurrences_in_canon": 32,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "H8210",
+      "H1818",
+      "H7523",
+      "H4191",
+      "H3724",
+      "H5707",
+      "H0120",
+      "H6754",
+      "H2654",
+      "H7563",
+      "G3162",
+      "G1558",
+      "G1249",
+      "G3709",
+      "G1500",
+      "G1849",
+      "G0436",
+      "G0498",
+      "G0361",
+      "G2288",
+      "G0514",
+      "G0599",
+      "G3868",
+      "G0025",
+      "G2190"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.9.6",
+        "key_terms": [
+          {
+            "strong": "H8210",
+            "lemma": "שָׁפַךְ"
+          },
+          {
+            "strong": "H1818",
+            "lemma": "דָּם"
+          },
+          {
+            "strong": "H0120",
+            "lemma": "אָדָם"
+          },
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          }
+        ],
+        "force": "The clause shofek dam ha-adam ba-adam damo yishshafek pairs the active participle of shaphakh (one shedding blood) with the niphal yishshafek (his blood shall be shed). The agent phrase ba-adam, by man, stands in the fronted slot, and the motive clause grounds the requital in be-tselem elohim, the image of God. This is a pre-Mosaic, creation-order, post-flood warrant that lodges lethal requital in human agency on behalf of human life. It supports the magisterial-sword chain.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.4",
+        "key_terms": [
+          {
+            "strong": "G3162",
+            "lemma": "μάχαιρα"
+          },
+          {
+            "strong": "G1558",
+            "lemma": "ἔκδικος"
+          },
+          {
+            "strong": "G1500",
+            "lemma": "εἰκῇ"
+          },
+          {
+            "strong": "G3709",
+            "lemma": "ὀργή"
+          },
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "The magistrate is twice named theou diakonos, God's servant, and an ekdikos eis orgen, an avenger for wrath, who ou gar eike ten machairan phorei, does not bear the sword in vain. The litotes ou eike asserts a real, sanctioned function, and machaira is the lethal short sword of judicial power rather than a mere symbol. The lexis ascribes coercive, potentially capital authority to civil rule as a divinely ordered instrument and supports the permissibility chain.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.35.30",
+        "key_terms": [
+          {
+            "strong": "H7523",
+            "lemma": "רָצַח"
+          },
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          },
+          {
+            "strong": "H5707",
+            "lemma": "עֵד"
+          }
+        ],
+        "force": "The murderer (ha-rotseach) is put to death (la-muth) le-phi edim, on the testimony of witnesses (plural), but a single witness shall not testify against a person la-muth, to cause death. The plural edim establishes a corroboration threshold and conditions execution on proven testimony rather than bare accusation, regulating rather than abolishing the practice.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.35.31",
+        "key_terms": [
+          {
+            "strong": "H3724",
+            "lemma": "כֹּפֶר"
+          },
+          {
+            "strong": "H7523",
+            "lemma": "רָצַח"
+          },
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          }
+        ],
+        "force": "The text forbids taking a kopher, a ransom or compensatory payment, le-nephesh rotseach asher hu rasha la-muth, for the life of a murderer who is guilty of death, since mot yumat, he shall surely be put to death. The non-commutability of the murderer's penalty, contrasted with the availability of kopher for lesser injuries elsewhere, marks capital sanction for murder as a fixed feature of the Mosaic code.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.35.27",
+        "key_terms": [
+          {
+            "strong": "H7523",
+            "lemma": "רָצַח"
+          },
+          {
+            "strong": "H1818",
+            "lemma": "דָּם"
+          }
+        ],
+        "force": "The avenger of blood (goel ha-dam) ve-ratsach et ha-rotseach, will kill the killer. The verb ratsach is applied here to the lawful executor, the same verb used in Exodus 20:13 lo tirtsach, the sixth commandment. The lexis itself does not distinguish lawful from unlawful taking of life, so the prohibition's scope is determined by context, not by the verb. This passage shows the word ratsach carrying both senses inside one legal corpus.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.20.13",
+        "key_terms": [
+          {
+            "strong": "H7523",
+            "lemma": "רָצַח"
+          }
+        ],
+        "force": "Lo tirtsach, the sixth word, employs ratsach without modifier. Read in isolation it can be extended to all life-taking. Read in the same Torah that uses the same verb of the lawful executor in Num 35:27, it most naturally targets unauthorized, private killing. The lexical overlap is the structural source of the dispute, since the words do not lexically settle the scope.",
+        "supports": "complicates",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.12.19",
+        "key_terms": [
+          {
+            "strong": "G3709",
+            "lemma": "ὀργή"
+          }
+        ],
+        "force": "Me heautous ekdikountes, do not avenge yourselves, but give place te orge, to wrath, with emoi ekdikesis, vengeance is mine. Read continuously with Romans 13:4 the same orge and the cognate ekdikos are then assigned to the magistrate, relocating lethal retribution from the individual to lawful authority. It restricts private vengeance and supports magisterial agency at the same time.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.38",
+        "key_terms": [
+          {
+            "strong": "G3788",
+            "lemma": "ὀφθαλμός"
+          },
+          {
+            "strong": "G3599",
+            "lemma": "ὀδούς"
+          }
+        ],
+        "force": "Ophthalmon anti ophthalmou kai odonta anti odontos, eye for eye and tooth for tooth, cites the Mosaic lex talionis and is the setup for the antithesis that follows. The preposition anti retains the strict equivalence sense.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.39",
+        "key_terms": [
+          {
+            "strong": "G0436",
+            "lemma": "ἀνθίστημι"
+          },
+          {
+            "strong": "G4190",
+            "lemma": "πονηρός"
+          }
+        ],
+        "force": "Me antistenai to ponero, do not resist the evildoer, with the aorist infinitive of anthistemi. The same root anthistemi appears in Rom 13:2 of the citizen who opposes ordained authority and is condemned. The disciple-toward-evildoer use and the citizen-toward-ruler use sit side by side in the New Testament without lexical ranking, leaving the canon with two postures the words do not adjudicate.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.44",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G2190",
+            "lemma": "ἐχθρός"
+          }
+        ],
+        "force": "Agapate tous echthrous humon, love your enemies, and proseuchesthe huper ton diokonton humas, pray for those persecuting you. The disposition demanded of the disciple is positive love toward the very persons a magistrate might lawfully execute. The two ethical frames operate in different spheres but the words do not specify how they cohere when the disciple is the magistrate.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.8.7",
+        "key_terms": [
+          {
+            "strong": "G0361",
+            "lemma": "ἀναμάρτητος"
+          },
+          {
+            "strong": "G0906",
+            "lemma": "βάλλω"
+          },
+          {
+            "strong": "G3037",
+            "lemma": "λίθος"
+          }
+        ],
+        "force": "Ho anamartetos humon protos ep auten baleto lithon, let the sinless one of you cast the first stone at her. The hapax anamartetos qualifies the would-be executors by their moral standing and short-circuits a Mosaic-law execution in this narrative. It does not lexically repeal the Mosaic penalty but it qualifies in-practice application. The pericope is textually disputed in the Greek tradition (variant-laden), which is itself a structural feature of the lexical case.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.18.23",
+        "key_terms": [
+          {
+            "strong": "H2654",
+            "lemma": "חָפֵץ"
+          },
+          {
+            "strong": "H4194",
+            "lemma": "מָוֶת"
+          },
+          {
+            "strong": "H7563",
+            "lemma": "רָשָׁע"
+          }
+        ],
+        "force": "He-chafots echpots mot rasha, do I really delight in the death of the wicked, declared with the interrogative he-particle expecting a negative answer. The verb chaphets denies divine pleasure in the executed outcome and prefers be-shuvo mi-derakhav ve-chayah, his turning from his ways and living. The lexis records a divine preference for repentance and life over death, which qualifies any zeal for the sanction without forbidding it.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.25.11",
+        "key_terms": [
+          {
+            "strong": "G0514",
+            "lemma": "ἄξιος"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          },
+          {
+            "strong": "G3868",
+            "lemma": "παραιτέομαι"
+          }
+        ],
+        "force": "Ei men oun adiko kai axion thanatou pepracha ti, ou paraitoumai to apothanein, if I am guilty and have done anything worthy of death, I do not refuse to die. Paul lexically concedes the category axios thanatou, deserving of death, and refuses paraiteomai, to beg off, the apothnesko, the dying. The apostle accepts the magisterial death-penalty category in principle for his own person, which is a notable lexical datum in the New Testament on the permissibility side.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gen.9.6",
+        "to": "Exod.21.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.9.6",
+        "to": "Gen.1.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Num.35.31",
+        "to": "Gen.9.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Num.35.30",
+        "to": "Deut.17.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "Deut.17.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.4",
+        "to": "Rom.12.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.4",
+        "to": "Prov.16.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.39",
+        "to": "Rom.13.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.18.23",
+        "to": "Ezek.18.32",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.25.11",
+        "to": "Rom.13.4",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Exod.20.13",
+        "addressed": true,
+        "resolution": "The verb ratsach in lo tirtsach is the abolitionist anchor, but the same Torah uses ratsach of the lawful executor in Num 35:27, ve-ratsach et ha-rotseach. The lexis itself does not distinguish lawful from unlawful taking of life. The prohibition reads most naturally as a ban on unauthorized private killing, but a comprehensive reading remains lexically defensible, which is the structural source of the dispute."
+      },
+      {
+        "ref": "Rom.12.19",
+        "addressed": true,
+        "resolution": "The ban on private ekdikesis is resolved by reading it continuously with Romans 13:4 where the same orge and the cognate ekdikos are assigned to the civil magistrate, relocating vengeance from the individual to lawful authority. This supports the permissibility chain at the level of the magistrate while binding the disciple to non-retaliation."
+      },
+      {
+        "ref": "Matt.5.38",
+        "addressed": true,
+        "resolution": "The citation of lex talionis is the foil for the antithesis. The text does not lexically repeal the Mosaic penal code but recalibrates the disciple's posture, which complicates rather than abolishes the magisterial-sword chain."
+      },
+      {
+        "ref": "Matt.5.39",
+        "addressed": true,
+        "resolution": "Me antistenai to ponero uses the same anthistemi root as Romans 13:2, where opposing ordained authority brings krima. The disciple-toward-evildoer and the citizen-toward-ruler senses coexist in the New Testament without lexical ranking, and the verb itself does not adjudicate, which is part of why the doctrine is disputed."
+      },
+      {
+        "ref": "Matt.5.44",
+        "addressed": true,
+        "resolution": "Agapao toward the echthros is a positive command on the disciple and does not by its vocabulary remove the magistrate's machaira. The two ethical frames coexist but the lexis does not specify how the disciple-who-is-a-magistrate should integrate them, leaving room for both retentionist and abolitionist applications."
+      },
+      {
+        "ref": "John.8.7",
+        "addressed": true,
+        "resolution": "The hapax anamartetos qualifies executors by moral standing and qualifies in-practice application without lexically repealing the Mosaic penalty. The pericope is textually disputed in the Greek tradition, which is a structural feature that should be flagged, not ignored. It does not settle the verdict either way."
+      },
+      {
+        "ref": "Ezek.18.23",
+        "addressed": true,
+        "resolution": "Chaphets in the rhetorical question denies divine pleasure in the death of the wicked and prefers repentance, but the same prophetic corpus elsewhere assigns the death penalty for grave sin. The lexis registers a divine disposition without forbidding the sanction, complicating but not overturning the permissibility chain."
+      },
+      {
+        "ref": "Acts.25.11",
+        "addressed": true,
+        "resolution": "Paul's concession of axios thanatou supports the permissibility chain at the lexical level. It does not, however, settle the disciple's posture toward administering it, so the surrounding dispute is not resolved by this verse alone."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "John.8.7",
+        "variant_id": "pericope-adulterae-johannine-attestation",
+        "verdict_impact": "minor",
+        "note": "The pericope John 7:53-8:11 is famously absent or relocated in early Greek witnesses and is not in the ECM-published apparatus window. The text-critical status complicates leaning on John 8:7 as a load-bearing anchor against execution and is part of why the doctrine is lexically disputed rather than abolitionist on the strength of this passage alone."
+      },
+      {
+        "ref": "Rom.13.1",
+        "variant_id": "rom-13-1-word-order-hupo-ousai",
+        "verdict_impact": "none",
+        "note": "Minor editorial variants visible in the bundle surface for Rom 13:1 affect word order around hupo and ousai but do not alter the lexical force of machaira, ekdikos, or diakonos in 13:4 that drives the magisterial-sword chain."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Romans 13 falls outside the ECM-published 3 John window, so its apparatus status is ecm-shadow. The Old Testament anchors are outside ECM scope. John 7:53-8:11 is text-critically disputed in the Greek tradition and is flagged here as variant-sensitive."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "new_covenant_theology",
+      "two_kingdoms",
+      "anabaptist_nonresistance",
+      "creation_ordinance_continuity"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "creation_ordinance_continuity",
+        "verdict": "permits",
+        "rationale": "Genesis 9:6 is read as a perpetual creation-order mandate grounded in the image of God and antedating Sinai, so the warrant for lawful capital sanction persists into the new covenant era and is reaffirmed by the magisterial sword of Romans 13:4. The Mosaic regulations (witnesses, no kopher) are seen as just-administration safeguards rather than as features specific to theocratic Israel."
+      },
+      {
+        "framework": "two_kingdoms_magisterial",
+        "verdict": "permits",
+        "rationale": "The diakonos and ekdikos language of Romans 13:4 assigns the machaira to the civil sphere as God's ordained instrument, distinct from the church's pacific witness. Capital sanction is lawful for the magistrate while private vengeance is forbidden to the individual, with Acts 25:11 confirming axios thanatou as a real apostolic category."
+      },
+      {
+        "framework": "anabaptist_nonresistance",
+        "verdict": "denies",
+        "rationale": "The Sermon on the Mount me antistenai to ponero, the agapate tous echthrous command, and the cross fulfilling the law's demand define a New Covenant disposition that the believer carries even into civil office. Ezekiel 18:23 chaphets, the John 8 anamartetos challenge, and the redemptive arc are read as relocating the lethal sanction out of the disciple's hands, leaving capital sanction at best a tolerated state act and not a positive endorsement."
+      },
+      {
+        "framework": "new_covenant_progressive",
+        "verdict": "qualifies",
+        "rationale": "Gen 9:6 remains a creation-order datum but is read through the redemptive arc that culminates in the cross satisfying the law's demand and inaugurating an age of grace, brotherly restoration, and patient witness. The magistrate's sword is left in place as a residual provision for a fallen order, but its use is severely qualified prudentially. The verdict is permissibility with strong cautions rather than retentionist enthusiasm."
+      },
+      {
+        "framework": "magisterial_retributive_natural_law",
+        "verdict": "affirms_strongly",
+        "rationale": "The image-of-God ground of Gen 9:6 establishes a proportionate retributive principle that natural reason endorses and that the magistrate's office is divinely instituted to enforce. Numbers 35 supplies due-process safeguards. The New Testament texts on non-retaliation address private conduct, not the office of the magistrate, so the warrant survives intact."
+      }
+    ],
+    "notes": "The doctrine sits at the intersection of creation-order continuity (Gen 9:6 + Rom 13:4 + Num 35), New Testament non-retaliation (Matt 5:38-44 + Rom 12:19), and a New Covenant disposition that prefers repentance and life (Ezek 18:23 + John 8:7). The vocabulary supplies materials for several lenses without lexically ranking them, which is why this lands as disputed."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The legitimacy of capital punishment as administered by lawful civil authority for the gravest crimes, considered as an open lexical question with both permissibility and non-retaliation readings in view.",
+    "notes": "VERDICT-CHANGED: prior file recorded affirms=true under the narrow stem reading permissible (open, with prudential cautions). The present pass changes affirms to disputed on lexical grounds. The vocabulary ratsach (used in Exod 20:13 for the prohibition and in Num 35:27 for the lawful executor) and anthistemi (used in Matt 5:39 to the disciple and in Rom 13:2 to the citizen of authority) carry both senses without internal ranking, and the canon supplies one chain authorizing the magisterial sword and another chain that radically qualifies in-practice application. The stem itself, by including the parenthetical (open, with prudential cautions), modestly preloads the permissibility reading; the neutralized form removes that loading and surfaces both readings symmetrically."
+  },
+  "lay_summary": "Three passages anchor this question and the words themselves pull in two directions that the canon does not lexically rank. Genesis 9:6 says whoever sheds the blood of a human, by a human his blood shall be shed, with the Hebrew phrase by man, ba-adam, standing in the emphatic fronted slot and the motive clause grounding requital in the image of God. This places lethal requital in human hands as a post-flood, creation-order warrant for all humanity. Romans 13 calls the governing authority God's servant, diakonos, and an avenger for wrath, ekdikos eis orgen, who does not bear the sword, machaira, in vain, ou eike, treating lethal judicial power as a real ordained function. Numbers 35 regulates rather than abolishes this, requiring more than one witness, edim, and refusing a ransom payment, kopher, for a convicted murderer, rotseach. Pulling the other way, Matthew 5:38-44 uses the same verb resist, antihistemi, that Romans 13:2 uses for opposing authority, but tells the disciple not to resist the evildoer and to love enemies. Ezekiel 18:23 says God does not delight, chaphets, in the death of the wicked but in his turning and living. The pericope in John 8 has Jesus tell the accusers let the sinless one, anamartetos, cast the first stone. Acts 25:11 has Paul concede that if he has done anything worthy of death, axios thanatou, he does not refuse to die. The lexical crux is genuine. The verb ratsach in the sixth commandment is also used in Numbers 35 of the avenger who kills the killer, so the word itself does not distinguish lawful from unlawful taking of life, leaving the prohibition's scope contextual. The same Greek root anthistemi runs through both the non-retaliation command and the magisterial sword text, with the disciple-toward-evildoer and the citizen-toward-ruler senses sitting side by side. The canon supplies one chain that authorizes a magistrate's sword and one that radically qualifies in-practice application, and the vocabulary does not rank them, which is why faithful readers of the same words land at permissibility with cautions on one side and at non-retaliation as the higher New Covenant disposition on the other.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.9.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8210"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7523"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2654"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.35.27"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.35.31"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.5.39"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.25.11"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3162"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1558"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0436"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0361"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gen.9.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.13.4"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.9.6"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Num.35.27"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA was used for the clause-function syntactic analysis of Gen 9:6 and Num 35:27, including the polysemy observation on ratsach. It is licensed CC-BY-NC-4.0, which forbids bulk redistribution, so the assembled evidence is not safe to publish until that non-commercial source is removed or relicensed."
+  },
+  "flags": [
+    "ecm-shadow",
+    "variant-sensitive",
+    "lexically-disputed",
+    "cross-tradition-divergent"
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-equality-of-worth-with-role-distinction",
+  "question_id": "prc-equality-of-worth-with-role-distinction",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.895,
+    "confidence": "low",
+    "variant_robust": false,
+    "pan_canonical": true,
+    "rationale": "The stem bundles two claims the vocabulary does not bundle. The equal worth half rests on stable lexical ground: Genesis 1.27 places both male and female under one tselem image without grading, 1 Peter 3.7 calls the wife syngkleronomos joint heir, and Galatians 3.28 denies a male and female divide in Christ using arsen and thelys. The role distinction half turns on lexically open terms: kephale carries two attested senses (authority over and source) that context does not disambiguate, and authentein at 1 Timothy 2.12 is a New Testament hapax legomenon whose sense cannot be triangulated from one occurrence. Two coherent readings arise from the identical word stock, so the conjunction is materially contested at the text level."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2776",
+        "lemma": "κεφαλή",
+        "transliteration": "kephale",
+        "occurrences_in_canon": 76,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0831",
+        "lemma": "αὐθεντέω",
+        "transliteration": "authenteo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0025",
+        "lemma": "ἀγαπάω",
+        "transliteration": "agapao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2398",
+        "lemma": "ἴδιος",
+        "transliteration": "idios",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4789",
+        "lemma": "συγκληρονόμος",
+        "transliteration": "syngkleronomos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0730",
+        "lemma": "ἄρσην",
+        "transliteration": "arsen",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2338",
+        "lemma": "θῆλυς",
+        "transliteration": "thelys",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1850",
+        "lemma": "ἐξουσιάζω",
+        "transliteration": "exousiazo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "H6754",
+        "lemma": "צֶלֶם",
+        "transliteration": "tselem",
+        "occurrences_in_canon": 16,
+        "in_anchors": false
+      },
+      {
+        "strong": "H5828",
+        "lemma": "עֵזֶר",
+        "transliteration": "ezer",
+        "occurrences_in_canon": 18,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2776",
+      "G5293",
+      "G0831",
+      "G0025",
+      "G2398",
+      "G4983",
+      "G1577",
+      "G0076",
+      "G4789",
+      "G0730",
+      "G2338",
+      "G1850",
+      "H6754",
+      "H5828"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.27",
+        "key_terms": [
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          }
+        ],
+        "force": "Both male (zakar) and female (neqebah) are placed under one and the same tselem of God in a single clause, with no modifier grading the image by sex. The Hebrew supplies no lexeme that ranks the dignity of the sexes at the creation root, which fixes equal worth at the canon's opening.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.2.18",
+        "key_terms": [
+          {
+            "strong": "H5828",
+            "lemma": "עֵזֶר"
+          }
+        ],
+        "force": "The woman is called ezer kenegdo, helper corresponding to him. The noun ezer is used elsewhere of God himself as Israel's helper (Exodus 18.4, Deuteronomy 33.7, 33.26, 33.29, Psalm 33.20, Psalm 121.1-2, Psalm 124.8, Psalm 146.5), so the term lexically cannot encode inferiority. The phrase asserts complementary fit without ranking, and the word does not by itself fix the question of role.",
+        "supports": "complicates",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.28",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσην"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θῆλυς"
+          }
+        ],
+        "force": "The clause ouk eni arsen kai thely en Christo Iesou negates the male and female divide in Christ Jesus. The same paired sequence (no Jew nor Greek, no slave nor free, no male and female) groups three distinctions whose practical scope the words do not separately rank, so whether the abolition reaches household and assembly role as well as soteriological standing is exactly what the lexeme leaves open.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.3",
+        "key_terms": [
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          }
+        ],
+        "force": "A three link chain places kephale of every man as Christ, kephale of woman as the man, and kephale of Christ as God. Because the same noun governs the Father and Christ relation (where essential subordination is excluded by the canon elsewhere), the term cannot by itself encode ranking of essence, and lexically it carries two attested senses, authority over and source or origin. The verse asserts an ordered relation but the precise force of kephale is not settled by the word alone.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.21",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          }
+        ],
+        "force": "The participle hypotassomenoi allelois en phobo Christou, submitting to one another in the fear of Christ, governs the household section. Ephesians 5.22 carries no second verb in the best textual witnesses, and grammatically borrows the participle from verse 21. Whether the wife specific application in verse 22 narrows the participle or merely instances a general mutual posture is the syntactic crux, and the construction permits both.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.23",
+        "key_terms": [
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "The husband is named kephale of the wife as Christ is kephale of the church, his soma body, and is at once called soter, savior, of that body. The head and body imagery binds the two parties into one organism rather than ranking two separable agents, so the verse supports an ordered pairing yet resists a bare command and control reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.25",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          }
+        ],
+        "force": "Husbands are commanded to love (agapate) their wives kathos, just as, Christ loved the church and gave himself up for her. The imperative assigned to the husband is self giving sacrifice (paredoken heauton), not dominance, so whatever ordering the passage sets up is defined by costly love rather than by privilege.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.12",
+        "key_terms": [
+          {
+            "strong": "G0831",
+            "lemma": "αὐθεντέω"
+          }
+        ],
+        "force": "Paul does not permit a woman didaskein, to teach, or authentein, a man. Authentein is a New Testament hapax legomenon, occurring only here in the entire canon, and its sense in attested koine ranges from to hold authority to to domineer or usurp. A single occurrence cannot triangulate which sense Paul invokes, so the verse clearly restricts something but whether it bars a settled office or an abusive seizure of control is lexically underdetermined.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.13",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "The rationale Adam gar protos eplasthe, eita Heua, for Adam was formed first, then Eve, grounds the preceding restriction in creation order. The conjunction gar marks a causal link, but the lexeme protos by itself encodes temporal sequence without necessarily encoding hierarchy, and whether priority of formation entails priority of role is what the proposition tests.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.2",
+        "key_terms": [
+          {
+            "strong": "G2398",
+            "lemma": "ἴδιος"
+          }
+        ],
+        "force": "The overseer must be mias gynaikos andra, a one woman man, and manage his own (idiou) household. The qualifying phrase is grammatically male coded, which the complementarian reading takes as legislating a sex distinction in the office, though the phrase primarily targets marital fidelity and the male coding may reflect the predominant local pattern rather than a transcultural sex bar.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.7",
+        "key_terms": [
+          {
+            "strong": "G4789",
+            "lemma": "συγκληρονόμος"
+          }
+        ],
+        "force": "Husbands are to grant honor to wives as synkleronomoi joint heirs of the grace of life, while the wife is called the asthenesteros skeuos, weaker vessel. The same clause asserts shared inheritance status and a functional or physical distinction in one breath, anchoring the equal worth claim while leaving the relational ordering open to either a hierarchical or a mutualist reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.4",
+        "key_terms": [
+          {
+            "strong": "G1850",
+            "lemma": "ἐξουσιάζω"
+          }
+        ],
+        "force": "The verb exousiazo, to exercise authority over, is applied reciprocally: the wife does not have authority (ouk exousiazei) over her own body but the husband does, and homoios, likewise, the husband does not have authority over his own body but the wife does. Where Paul wants to assign mutual authority he uses exousiazo with explicit symmetry, which lexically contrasts with the singular authentein in 1 Timothy 2.12 and is part of why the canon's authority vocabulary resists a single uniform pattern.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.5.33",
+        "to": "Eph.5.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.22",
+        "to": "Eph.5.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.25",
+        "to": "Eph.5.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.3",
+        "to": "1Cor.3.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.7",
+        "to": "Rom.8.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.7",
+        "to": "Eph.3.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.7",
+        "to": "Heb.11.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Gen.5.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Gen.9.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.28",
+        "to": "Col.3.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gen.2.18",
+        "to": "Ps.121.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.13",
+        "to": "Gen.2.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gal.3.28",
+        "addressed": true,
+        "resolution": "Galatians 3.28 negates the male and female divide en Christo Iesou. Set in soteriological context (justification and inheritance), the clause does not by its own wording cancel role language elsewhere, but the same clause yokes male/female with Jew/Greek and slave/free, and the words do not separately rank how far the abolition reaches. It is the strongest lexical anchor for equal worth and is read by one defensible lens as also flattening role distinction."
+      },
+      {
+        "ref": "Gen.1.27",
+        "addressed": true,
+        "resolution": "Genesis 1.27 places both male and female in the tselem of God, with no qualifier grading the image by sex. This fixes equal worth at the creation root and constrains any role reading to one that preserves equal dignity, but it does not itself address role ordering and does not by its own lexicon foreclose role distinction either."
+      },
+      {
+        "ref": "Gen.2.18",
+        "addressed": true,
+        "resolution": "Ezer kenegdo describes the woman as a corresponding helper, and the same noun ezer is used of God himself as Israel's helper across the Psalter and Deuteronomy. The lexeme therefore cannot encode inferiority. The phrase asserts complementary fit, and the words do not rank whether the relation is ordered or symmetrical."
+      },
+      {
+        "ref": "1Tim.2.12",
+        "addressed": false,
+        "resolution": "The hapax authentein cannot be resolved from a single canonical occurrence. The lexical store offers no second New Testament instance to triangulate the sense; the lexically symmetric mutual authority verb exousiazo at 1 Corinthians 7.4 sits in a different domain (the marriage bed) and cannot substitute. Whether 1 Timothy 2.12 reflects a permanent office distinction or a situational corrective against domineering teachers remains undetermined within the lexical evidence alone."
+      },
+      {
+        "ref": "1Cor.7.4",
+        "addressed": true,
+        "resolution": "Exousiazo is applied reciprocally to husband and wife over each other's bodies. The reciprocity does not by itself overturn ordering language in Ephesians 5 or 1 Timothy 2 (the domain is the marital body, not teaching authority), but it shows the canon's authority vocabulary is not uniformly asymmetrical. The complication is acknowledged and the domain difference is the lexical bound."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "1Tim.2.12",
+        "variant_id": "1Tim.2.12-word-order",
+        "verdict_impact": "minor",
+        "note": "The apparatus markers in the supplied text bracket a word order cluster around didaskein and authentein. The reordering does not change which acts are restricted, so the impact on the verdict is minor, but it confirms the clause sits in a textually noted zone."
+      },
+      {
+        "ref": "Eph.5.22",
+        "variant_id": "Eph.5.22-verb-presence",
+        "verdict_impact": "minor",
+        "note": "Manuscript witnesses divide on whether Ephesians 5.22 carries an explicit imperative hypotassesthe or borrows the participle hypotassomenoi from verse 21. The shorter reading is preferred by modern critical editions and sharpens the dependence on verse 21 mutual submission, but the verdict does not turn on this because the same dispute on scope persists either way."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "The bundle reports no ECM variant units within scope. The 1 Timothy word order and Ephesians 5.22 verb presence notes rest on standard apparatus signals in the supplied text, not on CBGM data."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "complementarian",
+      "egalitarian"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "complementarian",
+        "verdict": "affirms",
+        "rationale": "Reads kephale as authority over (the canon repeatedly pairs it with body and ordering language), takes 1 Timothy 2.13 creation order (Adam protos eplasthe) as a transcultural rationale that grounds the 2.12 restriction beyond any local situation, treats the male coded overseer qualifications in 1 Timothy 3.2 and Titus 1.6 as legislating a sex distinction in the office, and holds equal worth (Genesis 1.27, Galatians 3.28, 1 Peter 3.7 synkleronomoi) and distinct roles together as jointly affirmed."
+      },
+      {
+        "framework": "egalitarian",
+        "verdict": "affirms equal worth, denies fixed role distinction",
+        "rationale": "Reads kephale as source or origin (the same noun governs the Father and Christ relation, where ranking of essence is excluded), takes Ephesians 5.21 hypotassomenoi allelois as the controlling participle for the whole household section so verse 22 is one instance of mutual submission, reads authentein as a corrective against domineering or usurping teachers in the Ephesian situation (not a bar on settled office), notes Galatians 3.28 yokes male and female with slave and free (the latter presumed now abolished), and points to women in New Testament ministry (Phoebe as diakonos in Romans 16.1, Junia among the apostles in Romans 16.7, Priscilla teaching Apollos in Acts 18.26, daughters prophesying in Acts 21.9, women praying and prophesying in 1 Corinthians 11.5) as canon data the role distinction reading must absorb. On this lens equal worth stands but a permanent role distinction is not lexically secured."
+      }
+    ],
+    "notes": "The two lenses draw opposite conclusions from the same lexical stock because the load bearing terms kephale and authentein are semantically open and the canon supplies two patterns the words do not rank: ordering language (household codes, 1 Timothy 2.12, overseer qualifications) and equality and shared agency language (Genesis 1.27, Galatians 3.28, 1 Peter 3.7, women in ministry texts). The equal worth clause is not contested between the lenses; the role distinction clause is."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Men and women share equal worth and dignity before God. The biblical texts on household and gathered church order assign relational instructions whose force, whether a permanent role distinction or a context bound application, is contested at the level of the words themselves.",
+    "notes": "The phrase distinct, complementary roles in the stem embeds the complementarian conclusion by naming the roles as fixed and complementary; the egalitarian reader denies that lexical fixity, not equal worth. The verdict was derived on the original stem, but the neutralized form separates the uncontested equal worth claim from the contested role ordering claim so neither lens is loaded by the question."
+  },
+  "lay_summary": "This proposition joins two claims that the words carry very differently, and that is the whole story. The first claim, that men and women are equal in worth and dignity before God, sits on firm lexical ground. Genesis 1.27 places both male and female under one and the same tselem image of God with no term grading that image by sex. 1 Peter 3.7 calls the wife synkleronomos, joint heir, of the grace of life, a noun the canon uses elsewhere only for shared inheritance status (Romans 8.17, Ephesians 3.6, Hebrews 11.9). Galatians 3.28 denies a male and female divide in Christ using the paired arsen and thelys. No canonical lexeme ranks the sexes in dignity. The second claim, that distinct and complementary roles are fixed for household and gathered church, depends on terms whose sense the words alone do not settle. The key noun kephale, head, in 1 Corinthians 11.3 and Ephesians 5.23 is read in attested usage either as authority over or as source and origin, and the same noun governs the relation of God to Christ, so it cannot by itself encode a ranking of essence. The crucial verb in 1 Timothy 2.12, authentein, occurs only once in the whole canon, a hapax legomenon, and a single instance cannot fix whether Paul bars holding settled authority or bars domineering and usurping. Ephesians frames the household section with mutual submission in verse 21 before addressing wives, and commands husbands to love by self sacrifice rather than to rule. The overseer qualifications are phrased in male coded language, which one reading takes as legislating a sex distinction and another takes as targeting marital fidelity. Where Paul wants reciprocal authority, as in 1 Corinthians 7.4, he uses exousiazo symmetrically, so the canon's authority vocabulary is not uniformly asymmetrical. Two coherent readings, one ordered and one mutualist, arise from the identical word stock. The role distinction half is therefore materially contested at the text level while the equal worth half is not, and the combined statement reads as disputed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G2776"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G0831"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "H6754"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "H5828"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.23"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.28"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.2.18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.3.7"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.11.3"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.5.21"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek and MACULA-Hebrew are licensed CC-BY-NC-4.0, which forbids bulk commercial redistribution, so the aggregated evidence cannot be published as freely redistributable."
+  },
+  "flags": [
+    "lexically-disputed",
+    "variant-sensitive",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

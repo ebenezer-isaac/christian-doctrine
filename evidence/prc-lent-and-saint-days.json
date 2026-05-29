@@ -1,0 +1,554 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-lent-and-saint-days",
+  "question_id": "prc-lent-and-saint-days",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Col 2:16 places heorte, noumenia, and sabbaton inside a single prohibition, me oun tis hymas krineto, so the lexical pattern places fixed calendar items in the category over which no one may pass judgment, and Col 2:17 classes them as skia ton mellonton with the substance, soma, belonging to Christ. Rom 14:5-6 frames day-keeping as adiaphora where each is to be hekastos en to idio noi plerophoreistho, fully persuaded in his own mind, and both the day-keeper and the non-keeper act kyrio, to the Lord, with eucharistei. The same skia vocabulary recurs at Heb 8:5 and Heb 10:1 for tabernacle and law, reinforcing the typological reading of the festal calendar. The texts name first-century Jewish festal categories and never name Lent, Ash Wednesday, or saint-days, so the proposition's specific targets are reached only by analogy, and noumenia is a New Testament hapax at Col 2:16, so its single occurrence cannot triangulate scope. Competing readings, freely-permitted, prescribed-observance, and corrupted-observance, take the same data toward materially different conclusions, so the proposition is recorded as lexically disputed rather than plainly affirmed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 392,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1859",
+        "lemma": "ἑορτή",
+        "transliteration": "heorte",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3561",
+        "lemma": "νουμηνία",
+        "transliteration": "noumenia",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4521",
+        "lemma": "σάββατον",
+        "transliteration": "sabbaton",
+        "occurrences_in_canon": 68,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4639",
+        "lemma": "σκιά",
+        "transliteration": "skia",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4135",
+        "lemma": "πληροφορέω",
+        "transliteration": "plerophoreo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5426",
+        "lemma": "φρονέω",
+        "transliteration": "phroneo",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3563",
+        "lemma": "νοῦς",
+        "transliteration": "nous",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2168",
+        "lemma": "εὐχαριστέω",
+        "transliteration": "eucharisteo",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2250",
+      "G2919",
+      "G1859",
+      "G3561",
+      "G4521",
+      "G4639",
+      "G4983",
+      "G4135",
+      "G5426",
+      "G3563",
+      "G2168",
+      "G2068",
+      "G1035",
+      "G4213"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.14.5",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G4135",
+            "lemma": "πληροφορέω"
+          },
+          {
+            "strong": "G3563",
+            "lemma": "νοῦς"
+          }
+        ],
+        "force": "The clause hos men krinei hemeran par hemeran, hos de krinei pasan hemeran sets two believers in deliberate contrast over day-esteeming, and the imperative hekastos en to idio noi plerophoreistho, let each be fully convinced in his own mind, locates the matter in the sphere of personal persuasion rather than a binding command. The verb krino here carries the sense of esteem or rank a day, not judicial condemnation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.6",
+        "key_terms": [
+          {
+            "strong": "G5426",
+            "lemma": "φρονέω"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G2168",
+            "lemma": "εὐχαριστέω"
+          }
+        ],
+        "force": "Both the one who phronei, regards, the day and the one who does not are said to act kyrio, to the Lord, and the eater eucharistei to theo, gives thanks to God. The lexical symmetry treats observance and non-observance as equally acceptable when done unto the Lord, which supports liberty rather than obligation in calendar matters.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.16",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G1859",
+            "lemma": "ἑορτή"
+          },
+          {
+            "strong": "G3561",
+            "lemma": "νουμηνία"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σάββατον"
+          }
+        ],
+        "force": "The prohibition me oun tis hymas krineto governs a chained list of food, drink, en merei heortes e noumenias e sabbaton, that is festival, new moon, or sabbaths. Placing heorte, noumenia, and sabbaton under a single negated krino removes them from the sphere where one believer may pass judgment on another. noumenia, new moon, occurs only here in the New Testament (hapax), so its scope cannot be triangulated from other Pauline usage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.17",
+        "key_terms": [
+          {
+            "strong": "G4639",
+            "lemma": "σκιά"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G3195",
+            "lemma": "μέλλω"
+          }
+        ],
+        "force": "The relative clause ha estin skia ton mellonton classifies the festal calendar of v.16 as a shadow of the things to come, with to de soma tou Christou, but the body belongs to Christ. The skia, soma contrast subordinates the calendar to its fulfillment in Christ, which lexically grounds the claim that the observances are not themselves the binding substance.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.8.5",
+        "key_terms": [
+          {
+            "strong": "G4639",
+            "lemma": "σκιά"
+          }
+        ],
+        "force": "Hebrews 8:5 uses the same skia vocabulary for the earthly tabernacle service, hypodeigmati kai skia, copy and shadow of the heavenly things. The cognate use confirms a stable lexical pattern in which Old Testament ceremonial structure functions as skia pointing to a heavenly substance, which is the same logic Col 2:17 applies to the festal calendar.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.1",
+        "key_terms": [
+          {
+            "strong": "G4639",
+            "lemma": "σκιά"
+          }
+        ],
+        "force": "Hebrews 10:1 calls the law skian ton mellonton agathon, ouk auten ten eikona ton pragmaton, a shadow of the good things to come and not the very form, the same skia ton mellonton phrasing as Col 2:17. The recurring construction shows the festal calendar grouped with the law's typological shadow rather than treated as standalone perpetual ordinance.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.6.16",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "Jesus' instruction otan de nesteuete, mh ginesthe os oi hypokritai assumes that disciples will fast, regulating motive and posture rather than calendar. The wording is permissive of fasting practice while silent on prescribed seasons, which is the lexical seam where personal fasting is commendable but a binding calendar is not commanded.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.13.2",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "leitourgounton de auton to kyrio kai nesteuonton describes Antioch elders fasting in worship without any fixed calendar warrant in the surrounding text. Acts shows fasting as a real church practice tied to seeking the Lord's direction, neither prescribed by a Christian calendar nor forbidden, matching the freely-permitted reading of the proposition.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.10",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "hemeras paratereisthe kai menas kai kairous kai eniautous, you observe days and months and seasons and years, is rebuked as evidence of slipping back under ta stoicheia, the elemental principles. The wording warns against re-imposing a calendar where Christ has set free, which strengthens the not-binding reading of fixed-day observance, though the target is specifically Judaizing imposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.12.14",
+        "key_terms": [
+          {
+            "strong": "G1859",
+            "lemma": "ἑορτή"
+          }
+        ],
+        "force": "The Passover is instituted as a memorial day to be kept as a feast forever, by an everlasting statute. As a complicating witness this shows that under the prior covenant a calendar day was indeed commanded and bound on conscience, so the proposition's not-commanded claim holds only on the New Testament side of the skia, soma transition named in Col 2:17.",
+        "supports": "complicates",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.23.1",
+        "key_terms": [
+          {
+            "strong": "G1859",
+            "lemma": "ἑορτή"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σάββατον"
+          }
+        ],
+        "force": "Leviticus 23 enumerates the appointed feasts as holy convocations commanded by God, the very festal categories Col 2:16 later names. This complicates a flat not-commanded reading because the calendar was commanded in its season, and supports the proposition only on the redemptive-historical premise that these were shadow ordinances now fulfilled.",
+        "supports": "complicates",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.14.6",
+        "to": "Exod.12.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Lev.11.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Lev.16.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Lev.23.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Num.10.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.17",
+        "to": "Heb.8.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.17",
+        "to": "Heb.10.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.5",
+        "to": "Gal.4.10",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Exod.12.14",
+        "addressed": true,
+        "resolution": "Passover is commanded as a perpetual statute under the Mosaic covenant, showing a calendar day once bound on conscience. Col 2:17 reclassifies such days as skia ton mellonton, shadow of the things to come, whose substance is Christ, so the not-commanded claim is restricted to the New Testament economy rather than denied of the prior covenant."
+      },
+      {
+        "ref": "Lev.23.1",
+        "addressed": true,
+        "resolution": "The appointed feasts of Lev 23 are God-commanded holy convocations, the same heorte and sabbaton categories named in Col 2:16. They complicate any flat not-commanded reading; the proposition is sustained only on the premise that these were typological shadows now fulfilled, which is itself a contested framework judgment and a reason the verdict is recorded as disputed."
+      },
+      {
+        "ref": "Col.2.16",
+        "addressed": false,
+        "resolution": "The negated krino in Col 2:16 can be read as freely-permitted liberty to observe or not observe, matching Rom 14, or as a prescribed-observance exclusion of uncommanded calendar acts, or as a corrupted-observance rebuke of Judaizing imposition specifically. The lexical data alone does not disambiguate which target the proposition's not-binding claim reaches, so this text is left unresolved and drives the disputed verdict."
+      },
+      {
+        "ref": "Gal.4.10",
+        "addressed": true,
+        "resolution": "Paul rebukes observance of hemeras kai menas kai kairous kai eniautous as enslavement to ta stoicheia, but the targeted observance is Judaizing imposition. The text does not by its words decide whether a freely chosen non-mandatory Christian calendar falls under the same rebuke or under Rom 14 liberty, leaving the scope partly open."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units supplied in the bundle for Rom 14:5-6 or Col 2:16-17. The marked surface forms in the bundle, such as the moveable position of men and article variants, do not touch the festal vocabulary heorte, noumenia, sabbaton or the krino prohibition, so no plausible reading alters the verdict. CBGM is not in scope for these Pauline texts."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology",
+      "regulative_principle",
+      "normative_principle"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "freely_permitted_observance",
+        "verdict": "affirms",
+        "rationale": "Reads Rom 14:5-6 as paradigmatic adiaphora and Col 2:17 skia, soma as releasing the Mosaic calendar in Christ. Personal fasting and seasonal reflection are commendable per Matt 6:16-18 and Acts 13:2-3, but no calendar binds conscience, so Lent, Ash Wednesday, and saint-days are uncommanded yet not forbidden when freely chosen and not imposed."
+      },
+      {
+        "framework": "prescribed_observance_only",
+        "verdict": "affirms",
+        "rationale": "Holds that what Scripture does not command in worship is not to be bound; since Lent, Ash Wednesday, and saint-days are absent from the New Testament prescriptive data, they cannot be imposed on conscience, which converges on the proposition from the premise that worship requires positive command rather than mere permission."
+      },
+      {
+        "framework": "corrupted_observance",
+        "verdict": "disputed",
+        "rationale": "Reads Col 2:16 and Gal 4:10 as warning specifically against syncretistic or Judaizing calendars, and treats post-apostolic seasons that gather around veneration of saints or mandatory fasting as a parallel corruption. Under this lens the proposition's not-binding clause is granted, while the implicit acceptance of optional Lenten observance is contested as substantively corrupted rather than neutrally optional."
+      },
+      {
+        "framework": "covenant_continuity",
+        "verdict": "disputed",
+        "rationale": "Distinguishes the ceremonial calendar abrogated in Col 2 from a perpetual moral sabbath principle, so the negated krino does not by itself settle whether any recurring holy day binds conscience; the calendar question remains partly open and the Lord's Day case is read separately."
+      }
+    ],
+    "notes": "The verdict turns on the redemptive-historical move in Col 2:17 from shadow to substance and on the Rom 14 adiaphora frame. Whether the negated krino yields liberty, exclusion of uncommanded worship, or anti-corruption polemic is a framework decision the lexicon underdetermines, hence the divided lens verdicts. The three readings the hook names, prescribed-observance, freely-permitted, and corrupted-observance, are each represented in their strongest lexical form."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the New Testament lexical pattern command fixed annual or weekly calendar observances such as festivals, new moons, and sabbaths as obligations on the believer, or does it treat day-keeping as a matter of personal persuasion, and what does the festal vocabulary in Col 2:16-17 and Rom 14:5-6 indicate about their binding status?",
+    "notes": "The original stem embeds an evaluated framing through binding on the Christian conscience and a calendar treated as obligatory, which presupposes a position to be negated and pre-loads the liberty verdict. The neutralized form asks the lexical question without assuming the answer. The verdict was still derived against the original stem."
+  },
+  "lay_summary": "Two passages carry this question lexically. In Romans 14:5-6 Paul sets two believers side by side, one who esteems a day above others and one who treats every day alike, and tells each to be fully convinced in his own mind, using plerophoreo for full persuasion. Both the day-keeper and the non-keeper are said to act to the Lord and to give thanks to God, so the wording treats observance and non-observance as equally acceptable when done unto the Lord. In Colossians 2:16 a single command, let no one judge you, governs a chained list of food, drink, festival, new moon, and sabbaths, using heorte, noumenia, and sabbaton. Placing those calendar items under one negated krino removes them from the sphere where one believer may pass judgment on another. Verse 17 then calls them a shadow of the things to come, skia ton mellonton, while the body belongs to Christ, subordinating the calendar to its fulfillment. Hebrews 8:5 and 10:1 reuse the same skia vocabulary for tabernacle and law, confirming a stable shadow-to-substance pattern. Taken together the wording supports the idea that fixed observances are not binding on conscience and that day-keeping is a matter of personal liberty. Fasting itself is assumed and regulated in Matthew 6:16-18 and practiced in Acts 13:2-3, so personal fasting and seasonal reflection are commendable in the wording, but no New Testament calendar prescribes them. Three limits keep this from being a flat reading. First, the New Testament names only first-century Jewish festal categories and never names Lent, Ash Wednesday, or saint-days, so those specific targets are reached only by analogy, and noumenia occurs just once in the New Testament, a hapax, so its scope cannot be triangulated. Second, Exodus 12:14 and Leviticus 23 show that under the prior covenant a calendar was in fact commanded, so the not-commanded claim holds on the New Testament side of the shadow to substance shift. Third, the negated judging in Colossians can be read as freely-permitted liberty, as a prescribed-observance exclusion of uncommanded worship, or as a corrupted-observance rebuke of imposed Judaizing, and the words alone do not decide among them. Because competing frameworks read the same data toward materially different conclusions, the lexical pattern leans toward liberty but is recorded as contested rather than settled.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.2.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1859"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3561"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4639"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4135"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Col.2.17"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.17"
+    },
+    {
+      "type": "syntax",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Rom.14.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two sources are not bulk-redistributable: MACULA-Greek carries CC-BY-NC-4.0 (non-commercial), and SBLGNT-text is governed by the SBLGNT-EULA. Because at least one cited source has redistribute=false, the aggregate is not safe to publish."
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "complicating-unresolved",
+    "ecm-shadow"
+  ]
+}

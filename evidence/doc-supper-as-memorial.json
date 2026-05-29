@@ -1,0 +1,717 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-supper-as-memorial",
+  "question_id": "doc-supper-as-memorial",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.95,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The noun anamnesis (G0364) in the purpose clause eis ten emen anamnesin appears in Luke 22:19 and twice in 1 Cor 11:24-25, attached to the command poieite (G4160, do), and its sense is fixed by its only other canonical use, Heb 10:3, where the same word names the yearly anamnesis hamartion, the reminder of sins, of the repeated Old Testament sacrifices. That control plus the LXX memorial vocabulary it renders (zikaron H2146, Exod 12:14 Passover; azkarah H0234, Lev 24:7) and 1 Cor 11:26 katangellete (G2605, you proclaim, until he comes) make remembrance and proclamation of a once-for-all finished death (Heb 10:10-14 ephapax, mian thysian, tetelaiken perfect) a secure lexical function of the rite. The dispute is one of scope, not of whether memorial is present. The same apostle calls the same elements a koinonia (G2842, participation) of the body and blood in 1 Cor 10:16 and says metechomen (G3348, we partake) of the one loaf in 10:17, and the bare copula estin in touto estin to soma mou is unqualified. The vocabulary affirms memorial but does not rank it as the sole or primary function over participation, so the proposition's word primarily is lexically underdetermined and the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2605",
+        "lemma": "καταγγέλλω",
+        "transliteration": "katangello",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4160",
+        "lemma": "ποιέω",
+        "transliteration": "poieo",
+        "occurrences_in_canon": 568,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3348",
+        "lemma": "μετέχω",
+        "transliteration": "metecho",
+        "occurrences_in_canon": 8,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2378",
+        "lemma": "θυσία",
+        "transliteration": "thysia",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1336",
+        "lemma": "διηνεκής",
+        "transliteration": "dienekes",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2178",
+        "lemma": "ἐφάπαξ",
+        "transliteration": "ephapax",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5048",
+        "lemma": "τελειόω",
+        "transliteration": "teleioo",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0037",
+        "lemma": "ἁγιάζω",
+        "transliteration": "hagiazo",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4376",
+        "lemma": "προσφορά",
+        "transliteration": "prosphora",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1242",
+        "lemma": "διαθήκη",
+        "transliteration": "diatheke",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3740",
+        "lemma": "ὁσάκις",
+        "transliteration": "hosakis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2146",
+        "lemma": "זִכָּרוֹן",
+        "transliteration": "zikkaron",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "H0234",
+        "lemma": "אַזְכָּרָה",
+        "transliteration": "azkarah",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0364",
+      "G2605",
+      "G4160",
+      "G2842",
+      "G3348",
+      "G4983",
+      "G1510",
+      "G2378",
+      "G1336",
+      "G2178",
+      "G5048",
+      "G0037",
+      "G4376",
+      "G1242",
+      "G3740",
+      "G2806",
+      "G4221",
+      "G5228",
+      "G3860",
+      "H2146",
+      "H0234"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.22.19",
+        "key_terms": [
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "The command poieite touto eis ten emen anamnesin attaches the rite to a remembrance of Christ. The verb is poieo (G4160, do or make), present imperative, an ongoing instruction, and the participle didomenon, given on your behalf, points to the atoning death the act recalls. The copula in touto estin to soma mou is the unmarked estin (G1510) with no qualifier, so the verb itself does not specify whether the bread commemorates the body or relates to it in some fuller way. That open copula is where the primarily claim becomes contested.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "LUK 22:19!24"
+      },
+      {
+        "ref": "1Cor.11.24",
+        "key_terms": [
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "Paul repeats touto poieite eis ten emen anamnesin, doubling the remembrance frame and tying it to to soma to hyper hymon, the body on your behalf. The repetition inside the tradition Paul says he received and delivered (parelabon and paredoka) shows the remembrance function is fixed in the earliest transmitted institution wording. The same unqualified estin sits in touto estin to soma mou.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "1CO 11:24!19"
+      },
+      {
+        "ref": "1Cor.11.25",
+        "key_terms": [
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          }
+        ],
+        "force": "The cup is kaine diatheke en to emo haimati, the new covenant in my blood, and the same eis ten emen anamnesin clause governs the drinking. The covenant-blood language situates the rite within sacrificial and covenant categories while the anamnesis clause keeps the explicit stated purpose commemorative. Covenant-sign and remembrance functions sit side by side in the wording without one being ranked above the other.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:25!28"
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G3740",
+            "lemma": "ὁσάκις"
+          },
+          {
+            "strong": "G2605",
+            "lemma": "καταγγέλλω"
+          },
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          }
+        ],
+        "force": "Hosakis gar ean esthiete with the verb ton thanaton tou kyriou katangellete, you proclaim the Lord's death, defines the act as a recurring proclamation, bounded achri hou elthe, until he comes. The verb katangello (G2605) occurs 17 times in the canon and dominantly means to proclaim or declare publicly, as in Acts and the Pauline letters, so the rite is described in the vocabulary of announcement, not of re-performing the death. Proclamation of a past death plus expectation of a future coming is the lexical shape of a commemorative and forward-looking sign.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:26!16"
+      },
+      {
+        "ref": "1Cor.10.16",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          }
+        ],
+        "force": "The same apostle who gives the anamnesis command in chapter 11 calls the cup a koinonia (G2842, participation or communion) of the blood of Christ and the broken bread a koinonia of the body of Christ. Koinonia occurs 16 times in the canon and carries the sense fellowship, communion, participation. This text complicates the proposition because it applies participation language to the very same elements, and the words do not rank participation against remembrance, leaving open whether memorial is the sole or primary function.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 10:16!19"
+      },
+      {
+        "ref": "1Cor.10.17",
+        "key_terms": [
+          {
+            "strong": "G3348",
+            "lemma": "μετέχω"
+          },
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "Because there is one loaf, the many are one body, for we all metechomen, we partake (G3348), of the one loaf. The verb metecho means to share in or partake of, and it joins koinonia in framing the eating as a real sharing in the one body. This adds to the participation reading that competes with a bare-memorial reading on the question of scope, while not displacing the remembrance language of chapter 11.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 10:17!16"
+      },
+      {
+        "ref": "Heb.10.3",
+        "key_terms": [
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          }
+        ],
+        "force": "This is the only other canonical use of anamnesis (G0364) and it controls the sense of the word in the institution texts. The repeated yearly sacrifices produce en autais anamnesis hamartion kat eniauton, in them a reminder of sins year by year. Here anamnesis plainly means a calling to mind, a reminder, set against the sacrifices that can never take sins away. The same writer's vocabulary thus uses anamnesis for an act of remembrance, not for a repetition of the sacrifice itself, which constrains the sense of remembrance in Luke 22:19 and 1 Cor 11.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:3!4"
+      },
+      {
+        "ref": "Heb.10.10",
+        "key_terms": [
+          {
+            "strong": "G4376",
+            "lemma": "προσφορά"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          }
+        ],
+        "force": "Believers are sanctified dia tes prosphoras tou somatos Iesou Christou ephapax, through the offering of the body of Jesus Christ once for all. Ephapax (G2178) marks the offering as singular and unrepeatable, which constrains any reading that would make a later rite a repetition of the offering.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:10!12"
+      },
+      {
+        "ref": "Heb.10.12",
+        "key_terms": [
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          },
+          {
+            "strong": "G1336",
+            "lemma": "διηνεκής"
+          },
+          {
+            "strong": "G4374",
+            "lemma": "προσφέρω"
+          }
+        ],
+        "force": "Mian hyper hamartion prosenenkas thysian eis to dienekes ekathisen, having offered one sacrifice for sins forever he sat down. The single sacrifice (mian thysian) and the seating signal a completed, non-recurring offering. The same context (Heb 10:1) uses dienekes (G1336) of the yearly sacrifices that can never perfect, sharpening the contrast between the repeated reminder and the one finished offering.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:12!9"
+      },
+      {
+        "ref": "Heb.10.14",
+        "key_terms": [
+          {
+            "strong": "G4376",
+            "lemma": "προσφορά"
+          },
+          {
+            "strong": "G5048",
+            "lemma": "τελειόω"
+          },
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          }
+        ],
+        "force": "Mia gar prosphora tetelaiken eis to dienekes tous hagiazomenous, by one offering he has perfected forever those being sanctified. Tetelaiken is from teleioo (G5048) in the perfect tense, a completed action with abiding result, which lexically closes the atoning offering as finished and not in need of repetition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:14!4"
+      },
+      {
+        "ref": "Exod.12.14",
+        "key_terms": [
+          {
+            "strong": "H2146",
+            "lemma": "זִכָּרוֹן"
+          },
+          {
+            "strong": "H2282",
+            "lemma": "חַג"
+          }
+        ],
+        "force": "The Passover is appointed le-zikkaron, for a memorial (H2146), to be kept as a chag, a feast, throughout the generations. Zikkaron occurs 23 times in the Old Testament for memorial objects and observances, and it is the conceptual root behind the New Testament remembrance language for a covenant meal. The cross-reference graph links Exod 12:14 to 1 Cor 11:24, showing the institution wording draws on this established memorial-feast pattern.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.24.7",
+        "key_terms": [
+          {
+            "strong": "H0234",
+            "lemma": "אַזְכָּרָה"
+          }
+        ],
+        "force": "The bread set in rows before the LORD carries frankincense le-azkarah, as a memorial portion (H0234). The Septuagint renders azkarah here with anamnesis, the same Greek noun used in the institution texts, so the bread-memorial vocabulary of the sanctuary stands in the lexical background of eis ten emen anamnesin. This grounds the remembrance term in an established cultic memorial sense rather than a novel coinage.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Luke.22.19",
+        "to": "1Cor.11.23",
+        "source": "openbible",
+        "votes": 30
+      },
+      {
+        "from": "Luke.22.19",
+        "to": "1Cor.10.16",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "Luke.22.19",
+        "to": "Mark.14.22",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "Luke.22.19",
+        "to": "Luke.22.20",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "John.6.53",
+        "source": "openbible",
+        "votes": 19
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.10.16",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "Exod.12.14",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.5.7",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "Matt.26.26",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.11.23",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "1Cor.11.26",
+        "to": "Heb.9.28",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "1Cor.11.26",
+        "to": "Rev.1.7",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "1Cor.11.23",
+        "to": "1Cor.15.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.11",
+        "to": "Heb.7.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.10",
+        "to": "Heb.2.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.22.19",
+        "to": "Ps.78.4",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.10.16",
+        "addressed": true,
+        "resolution": "The same apostle applies participation language, ou koinonia (G2842) tou haimatos and tou somatos tou Christou, to the very cup and bread the chapter 11 anamnesis command governs, and 1 Cor 10:17 adds metechomen (G3348, we partake) of the one loaf. This is the strongest lexical lever for reading the rite as more than a bare memorial. It is addressed but it cannot be resolved in favor of either scope by the vocabulary alone, because the words establish that both remembrance and participation are present without ranking which is primary. That irreducible scope question is the lexical basis for the disputed verdict."
+      },
+      {
+        "ref": "1Cor.11.24",
+        "addressed": true,
+        "resolution": "The institution copula touto estin to soma mou is the unmarked estin (a form of eimi, G1510) with no qualifier. Some lenses read this verb as identifying the bread with the body more closely than a commemorative sign would allow. The verdict is set to disputed because the copula leaves the relation between sign and signified open, so the lexical data cannot adjudicate primary versus secondary function from the verb alone."
+      },
+      {
+        "ref": "1Cor.11.29",
+        "addressed": false,
+        "resolution": "Verse 29 warns of failing to discern to soma, the body, when eating, language that some read as weighing toward a presence beyond bare commemoration. This verse is outside the supplied anchor window and its full token data was not queried here, so it is noted but not resolved. It contributes to the disputed scope rather than overturning the remembrance frame established in verses 24-26."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Luke 22:19-20 has a known longer-versus-shorter reading involving the second cup and the touto poieite eis ten emen anamnesin clause, with the longer text well attested. The 1 Cor 11:24-25 anamnesis clauses and the Heb 10:3 occurrence are textually stable. The anchors fall outside the ingested ECM window (3 John 1.1 to 1.15), so no published apparatus was examined and the status is shadow. The remembrance term itself is not at risk in the stable Pauline witness, so the verdict holds across the plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "sacramental_realism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "bare-memorial reading",
+        "verdict": "affirms",
+        "rationale": "Reads eis ten emen anamnesin and katangellete as defining the rite strictly as remembrance and proclamation of a finished once-for-all death (Heb 10 ephapax, mian thysian, tetelaiken), and takes Heb 10:3, where anamnesis names the yearly reminder of sins, as fixing the word to a calling to mind. On this reading memorial is the primary and stated function and the elements are signs that point to the body and blood without conveying them."
+      },
+      {
+        "framework": "memorial-plus-participation reading",
+        "verdict": "complicates",
+        "rationale": "Accepts the remembrance language fully but reads it alongside 1 Cor 10:16, where the same elements are a koinonia (participation) of the body and blood, and 1 Cor 10:17 metechomen, we partake, plus the unqualified copula estin in touto estin to soma mou. On this reading anamnesis is a remembrance that does not exclude a real participation in Christ, so it denies that the words rank memorial as the sole or primary function, while still affirming the once-for-all death."
+      },
+      {
+        "framework": "covenant-sign reading",
+        "verdict": "neutral",
+        "rationale": "Reads kaine diatheke en to emo haimati and the Old Testament memorial-feast background (zikkaron, Exod 12:14; azkarah, Lev 24:7, rendered anamnesis in the Septuagint) as making the rite a covenant memorial and seal, in which remembrance is one true and central component among covenantal functions. It neither confirms nor denies the primarily claim from the lexicon alone."
+      }
+    ],
+    "notes": "Hebrews 10 governs the atonement arc: the death is offered once (ephapax) and completed (tetelaiken, perfect tense), which constrains the rite from being a repetition of the sacrifice, and Heb 10:3 supplies the only other use of anamnesis, anchoring the word to remembrance rather than re-sacrifice. The Old Testament memorial vocabulary (zikkaron, azkarah) reaches the institution wording through the Septuagint, giving the verdict a pan-canonical lexical base. The dispute is not over whether the death is once-for-all, which the lexicon affirms, nor over whether memorial is present, which it is, but over whether the words rank memorial above the participation language of 1 Cor 10:16-17."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The New Testament texts describing the Lord's Supper state its purpose using remembrance and proclamation language regarding Christ's once-accomplished atoning death.",
+    "notes": "The word primarily in the stem preloads the contested boundary, because it asserts that memorial outranks any other function, for example a participation function read from koinonia and metechomen in 1 Cor 10:16-17 or a presence read from the bare copula estin. The lexicon clearly supports a remembrance-and-proclamation function, fixed by anamnesis and its controlling use in Heb 10:3 and grounded in the Old Testament memorial vocabulary, and a once-for-all death, but it does not by itself rank that function as primary over the participation language attached to the same elements. The verdict is derived against the original stem and lands disputed for that reason. Verdict unchanged from the prior file; the enrichment grounds the same disputed result on the full four-occurrence distribution of anamnesis, the koinonia and metecho complicating texts, and the Septuagint memorial roots."
+  },
+  "lay_summary": "The verses that institute the Lord's Supper use a specific Greek phrase, eis ten emen anamnesin, meaning for my remembrance or as my memorial. It appears in Luke 22:19 and twice in 1 Corinthians 11, attached to the command do this, where the verb is poieo, an ongoing instruction. The word anamnesis occurs only four times in the whole New Testament, and the fourth use settles its meaning: in Hebrews 10:3 it names the yearly reminder of sins made by the old sacrifices, so the word means a calling to mind, not a re-doing of a sacrifice. Paul adds in 1 Corinthians 11:26 that whenever believers eat the bread and drink the cup they proclaim, katangello, the Lord's death until he comes, the language of public announcement. Hebrews 10 reinforces this: the body of Jesus was offered once for all, ephapax, as one sacrifice, and by that one offering he has perfected, in the completed perfect tense, those being made holy. The death is finished and not repeated. The memorial idea also has deep roots: the Passover is called a memorial, zikkaron, in Exodus 12:14, and the sanctuary bread a memorial portion in Leviticus 24:7, which the older Greek translation renders with this same word anamnesis. So calling the Supper a memorial of a once-for-all death is on very firm lexical ground. The contested word in the proposition is primarily. The same apostle who gives the remembrance command in chapter 11 calls the same cup and bread a koinonia, a participation, in the blood and body of Christ in 1 Corinthians 10:16, and says we all partake, metechomen, of the one loaf in 10:17. The short verb estin, is, in this is my body sits without any qualifier. The words clearly put both remembrance and participation in view, but they never rank one above the other, so the text alone cannot decide whether memorial is the single primary function or one true function among others. For that reason the lexical reading is recorded as disputed rather than simply affirmed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0364"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0364"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2842"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2605"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.22.19"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.12.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.11.23"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.11.26"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0 (non-commercial, redistribute=false), used here for the 1 Cor 10:16 koinonia interlinear anchor, so the aggregate evidence bundle is not safe for unrestricted bulk redistribution. All other sources (STEPBible-TBESG, STEPBible-TFLSJ, STEPBible-TAGNT, MorphGNT-morphology, OSHB-morphology, OpenBible-cross-refs, TSK, Nestle1904-text) are individually redistributable."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

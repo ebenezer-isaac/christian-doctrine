@@ -1,0 +1,632 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-christ-two-wills",
+  "question_id": "doc-christ-two-wills",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.7125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Across the Gethsemane prayer and the Johannine sending sayings the Greek text repeatedly sets one occurrence of the will-noun against another with distinct possessors. Luke 22:42 has the praying Son say me to thelema mou alla to son ginestho, marking the speaker's will by the genitive mou and the Father's by son, joined by the adversatives plen and alla. John 6:38 and John 5:30 articulate thelema twice, to thelema to emon over against to thelema tou pempsantos me, with ouch or ou. alla. Matt 26:39 and Mark 14:36 carry the same shape with the pronouns ego and su governing thelo. The vocabulary itself confirms the contrast is real, since thelema elsewhere names a genuine creaturely will (John 1:13, Eph 2:3, 1 Cor 7:37), so the Son's own thelema is not reducible to the divine will under another name. What the words do NOT state is the metaphysics: the contrast they draw is person to person, the praying Son set beside the Father, not two wills lodged in one person mapped to two natures. That mapping is a downstream synthesis the lexical data underdetermine, which holds confidence at medium."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelēma",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2309",
+        "lemma": "θέλω",
+        "transliteration": "thelō",
+        "occurrences_in_canon": 214,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0235",
+        "lemma": "ἀλλά",
+        "transliteration": "alla",
+        "occurrences_in_canon": 763,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4133",
+        "lemma": "πλήν",
+        "transliteration": "plēn",
+        "occurrences_in_canon": 49,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1473",
+        "lemma": "ἐγώ",
+        "transliteration": "egō",
+        "occurrences_in_canon": 908,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4771",
+        "lemma": "σύ",
+        "transliteration": "sy",
+        "occurrences_in_canon": 3085,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3992",
+        "lemma": "πέμπω",
+        "transliteration": "pempō",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "patēr",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4221",
+        "lemma": "ποτήριον",
+        "transliteration": "potērion",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2597",
+        "lemma": "καταβαίνω",
+        "transliteration": "katabainō",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2307",
+      "G2309",
+      "G1014",
+      "G0235",
+      "G4133",
+      "G1473",
+      "G4771",
+      "G3992",
+      "G3962",
+      "G4221",
+      "G2597",
+      "G1096"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.22.42",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G1014",
+            "lemma": "βούλομαι"
+          },
+          {
+            "strong": "G4133",
+            "lemma": "πλήν"
+          },
+          {
+            "strong": "G0235",
+            "lemma": "ἀλλά"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          }
+        ],
+        "force": "Verified text: Πάτερ, εἰ βούλει παρένεγκε τοῦτο τὸ ποτήριον ἀπ’ ἐμοῦ· πλὴν μὴ τὸ θέλημά μου ἀλλὰ τὸ σὸν γινέσθω. The praying Son distinguishes two owners of one and the same noun θέλημα: the first-person genitive μου marks his own will, the possessive σόν marks the Father's. The Father is addressed with βούλομαι (εἰ βούλει), a verb the lexicon marks as the stronger deliberate volition, while the contrast is forced by both the adversative πλήν and the disjunctive ἀλλά. The third-person imperative γινέσθω locates the resolution in the Father's will being done while the speaker renounces his own. Asking for the non-fulfillment of one and the fulfillment of the other is incoherent if μου and σόν name a single volition.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.38",
+        "key_terms": [
+          {
+            "strong": "G2597",
+            "lemma": "καταβαίνω"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G0235",
+            "lemma": "ἀλλά"
+          }
+        ],
+        "force": "Verified text: καταβέβηκα ἀπὸ τοῦ οὐρανοῦ οὐχ ἵνα ποιῶ τὸ θέλημα τὸ ἐμὸν ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με. θέλημα is articulated TWICE in one clause, confirmed by token query (G2307 occurs twice here). The possessive adjective ἐμόν marks one will-subject, the speaker, and the substantival genitive participle τοῦ πέμψαντός με marks another, the Father who sent. The οὐχ. ἀλλά construction places the two articulated wills side by side as distinct objects of doing, with the Son's purpose being to enact the sender's will rather than his own.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.39",
+        "key_terms": [
+          {
+            "strong": "G4336",
+            "lemma": "προσεύχομαι"
+          },
+          {
+            "strong": "G2309",
+            "lemma": "θέλω"
+          },
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          },
+          {
+            "strong": "G4771",
+            "lemma": "σύ"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          }
+        ],
+        "force": "Verified text: Πάτερ μου, εἰ δυνατόν ἐστιν, παρελθάτω ἀπ’ ἐμοῦ τὸ ποτήριον τοῦτο· πλὴν οὐχ ὡς ἐγὼ θέλω ἀλλ’ ὡς σύ. Two volitional pronominal subjects, ἐγώ for the praying speaker and σύ for the Father, each govern θέλω (the second elided). The conditional εἰ δυνατόν shows the request originates in the speaker's own desire, and the πλήν plus ἀλλά disjunction submits that desire to a different will-bearer. Token query confirms G2309, G1473, G4771, G4133, G0235 all present in this verse.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.42",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          }
+        ],
+        "force": "Verified text: Πάτερ μου, εἰ οὐ δύναται τοῦτο παρελθεῖν ἐὰν μὴ αὐτὸ πίω, γενηθήτω τὸ θέλημά σου. The second Gethsemane prayer drops the contrastive μου entirely and now voices only γενηθήτω τὸ θέλημά σου, the identical petition form of Matt 6:10 and Luke 11:2. This shows the resolution of the contrast: the speaker's distinct will, named in v. 39, is brought to enact the Father's will, σου. The progression from v. 39 to v. 42 displays two willings moving into concord through submission rather than two names for one willing.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.14.36",
+        "key_terms": [
+          {
+            "strong": "G2309",
+            "lemma": "θέλω"
+          },
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          },
+          {
+            "strong": "G4771",
+            "lemma": "σύ"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "Verified text: Αββα ὁ πατήρ, πάντα δυνατά σοι· παρένεγκε τὸ ποτήριον τοῦτο ἀπ’ ἐμοῦ· ἀλλ’ οὐ τί ἐγὼ θέλω ἀλλὰ τί σύ. The Markan parallel preserves the same two pronominal will-bearers ἐγώ and σύ governing θέλω, with the Aramaic Αββα plus ὁ πατήρ naming the second subject as the Father. Token query confirms G2309, G1473, G4771, G0235 present. The disjunction matches the Lukan and Matthean anchors.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.30",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          }
+        ],
+        "force": "Verified text: Οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν. ὅτι οὐ ζητῶ τὸ θέλημα τὸ ἐμὸν ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με. Same lexical pattern as John 6:38: θέλημα articulated against ἐμόν and the participial genitive τοῦ πέμψαντός με, with the οὐ. ἀλλά disjunction making the contrast real. The opening οὐ δύναμαι ἐγὼ ποιεῖν ἀπ’ ἐμαυτοῦ οὐδέν qualifies the source, not the existence, of the Son's willing.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.4.34",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          }
+        ],
+        "force": "Verified text: Ἐμὸν βρῶμά ἐστιν ἵνα ποιήσω τὸ θέλημα τοῦ πέμψαντός με καὶ τελειώσω αὐτοῦ τὸ ἔργον. The Son identifies an external object of obedience, τὸ θέλημα τοῦ πέμψαντός με, distinct from his own act of doing it (ποιήσω, first person). This presupposes a will-bearer other than the speaker whose θέλημα the speaker performs.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.7",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          }
+        ],
+        "force": "Verified text: τότε εἶπον· Ἰδοὺ ἥκω, ἐν κεφαλίδι βιβλίου γέγραπται περὶ ἐμοῦ, τοῦ ποιῆσαι, ὁ θεός, τὸ θέλημά σου. Citing Psalm 40, where the underlying Hebrew (Ps 40:9 MT) uses רָצוֹן (ratson, will) and חָפֵץ (chaphets, desire), confirmed by token query, the speaker subordinates his own coming to the doing of another's θέλημα addressed to God (σου). This is the one place the will-of-God concept reaches back into the Writings, though the contrastive TWO-wills grammar itself is confined to the Gospels.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.13",
+        "key_terms": [
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          }
+        ],
+        "force": "Verified text: οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ’ ἐκ θεοῦ ἐγεννήθησαν. This verse is not Christological but is load-bearing for sense triangulation: it shows θέλημα plainly denoting a genuine human will, θέλημα σαρκός and θέλημα ἀνδρός, set against the will of God (ἐκ θεοῦ). The same word that names the Son's own will in John 5:30 and 6:38 is the word the canon uses for creaturely volition, so the Son's θέλημα is not reducible to the divine will under a second label.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.10.30",
+        "key_terms": [
+          {
+            "strong": "G1510",
+            "lemma": "εἰμι"
+          }
+        ],
+        "force": "Verified text: ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν. The neuter ἕν (one thing, not one person) with the plural ἐσμεν asserts unity without collapsing the two grammatical subjects ἐγώ and ὁ πατήρ. Pressed for unity of will, the verse lexically preserves two volitional referents acting in concord rather than erasing them.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.26.39",
+        "to": "2Sam.15.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.26.39",
+        "to": "Gen.17.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.38",
+        "to": "John.4.34",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.22.42",
+        "to": "Luke.22.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.22.42",
+        "to": "Ps.40.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.26.39",
+        "to": "2Sam.15.26",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "John.6.38",
+        "to": "John.4.34",
+        "source": "openbible",
+        "votes": 2
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.10.30",
+        "addressed": true,
+        "resolution": "The unity assertion uses the neuter ἕν (one thing) with the plural verb ἐσμεν, which lexically preserves two grammatical subjects rather than collapsing them. It asserts oneness of essence or action without erasing the two referents that elsewhere carry distinct θέλημα ascriptions, so it does not overturn the contrastive pattern of Luke 22:42, John 5:30, and John 6:38. Verified verbatim in the store."
+      },
+      {
+        "ref": "John.5.19",
+        "addressed": true,
+        "resolution": "Verified text: οὐ δύναται ὁ υἱὸς ποιεῖν ἀφ’ ἑαυτοῦ οὐδέν. This could be read as denying any independent volition in the Son. Lexically, however, ἀφ’ ἑαυτοῦ negates origin or autonomy of source, not the existence of the Son's willing capacity, since the same context has the Son seeing and then doing, which presupposes a real subjective agent. The verse modifies the RELATION between two wills, one derivative and one originating, rather than denying that there are two."
+      },
+      {
+        "ref": "Phil.2.13",
+        "addressed": false,
+        "resolution": "Verified text: θεὸς γάρ ἐστιν ὁ ἐνεργῶν ἐν ὑμῖν καὶ τὸ θέλειν καὶ τὸ ἐνεργεῖν ὑπὲρ τῆς εὐδοκίας. The articular infinitive τὸ θέλειν (the act of willing) is addressed to believers, not to the incarnate Son, and is sometimes generalized to argue that divine working absorbs creaturely willing. Whether the grammar of divine energizing of human θέλειν here parallels or differs from the Son's volitional grammar was not resolved from the bundle, since the verse never names the Son and supplies no contrastive construction, so it remains an open lexical question rather than a settled counter-witness."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Luke.22.42",
+        "variant_id": "luke-22-42-43-44-block",
+        "verdict_impact": "none",
+        "note": "The disputed block at Luke 22:43-44 (angel and bloody sweat) is not part of the will-saying itself. Verse 42 with the θέλημα contrast and the marked variants at παρένεγκε and γινέσθω is textually stable across the major witnesses for the contrast that carries the verdict."
+      },
+      {
+        "ref": "Matt.26.39",
+        "variant_id": "matt-26-39-word-order",
+        "verdict_impact": "none",
+        "note": "Minor word-order and orthographic variants (παρελθάτω vs παρελθέτω, προελθών vs προσελθών) do not affect the πλὴν οὐχ ὡς ἐγὼ θέλω ἀλλ’ ὡς σύ contrast."
+      },
+      {
+        "ref": "John.6.38",
+        "variant_id": "john-6-38-apo-ek",
+        "verdict_impact": "none",
+        "note": "Variation between ἀπό and ἐκ before τοῦ οὐρανοῦ does not alter the οὐχ ἵνα ποιῶ τὸ θέλημα τὸ ἐμὸν ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με contrast, which preserves both articulated occurrences of θέλημα."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Each anchor verse lies outside the published ECM volumes (3 John only), so not_in_ecm_scope is true for all anchors. Variant assessment uses the surface apparatus markings on the stored SBLGNT text. CBGM-grade evaluation deferred."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "incarnational_christology",
+      "trinitarian_relations"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "dyothelite_reading",
+        "verdict": "supported",
+        "rationale": "Two articulated occurrences of θέλημα with distinct possessors (John 6:38, John 5:30), the οὐχ. ἀλλά and πλήν disjunctions, the contrast of ἐγώ and σύ over θέλω (Matt 26:39, Mark 14:36), and the fact that θέλημα independently names a real human will (John 1:13, Eph 2:3, 1 Cor 7:37) give a consistent grammatical pattern of a distinct human willing submitting to the divine will."
+      },
+      {
+        "framework": "monothelite_reading",
+        "verdict": "underdetermined",
+        "rationale": "The strongest single-will reading holds that the contrast is between two PERSONS, the praying man Jesus and the Father, not between two wills inside one person. On this reading μου and σόν name the speaker over against his addressee, and the will being submitted is the human Jesus's will set under the one shared will of the triune God, so the text shows a man's will yielding to God's will, not a second will in the divine Son. The vocabulary does not by itself decide between a distinct human faculty and a personal contrast, which is why the metaphysical claim remains underdetermined by the words alone."
+      },
+      {
+        "framework": "kenotic_reading",
+        "verdict": "compatible",
+        "rationale": "A reading that locates the human θέλημα in the incarnate Son's assumed condition fits the grammar, since the praying speaker has a genuine desire (εἰ βούλει, εἰ δυνατόν) that he subordinates. This is compatible with the lexical pattern but layers a theological account of the incarnation over it rather than reading it off the words."
+      }
+    ],
+    "notes": "The verdict rests on grammatical contrast within Synoptic and Johannine prayer and discourse material. The cross-references to 2 Sam 15:26 and Ps 40:8 support the structural pattern of a speaker submitting his own will to another's, and Ps 40:9 MT supplies the OT will-vocabulary (ratson, chaphets) behind Heb 10:7, but the verdict does not depend on those links."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Christ in the Gospels speaks of his own θέλημα as distinguishable from the Father's θέλημα, contrasting them with disjunctive particles and submitting one to the other.",
+    "notes": "The clause corresponding to His two natures imports conciliar dyothelite taxonomy into the stem. The phrase two wills is itself not in the canon, so this is a synthesis proposition. The lexical evidence supports the existence of a distinguishable human willing in Christological speech that submits to the divine will, but it does not by itself establish the metaphysical mapping of each will to a nature within one person. The verdict is derived on the original stem with this caveat noted, and confidence is held at medium because the words draw a person-to-person contrast that the two-wills-in-one-person metaphysics extends beyond."
+  },
+  "lay_summary": "When Jesus prays in Gethsemane, the Greek puts two willings side by side using sharp contrast words. Luke 22:42 reads, not my will but yours, where my (mou) and yours (son) point to two different owners of one and the same noun thelema, the word for will or wish, joined by plen and alla, which signal a real opposition rather than a polite turn of phrase. Matthew 26:39 keeps the pattern with the pronouns ego and su, each governing the verb thelo, and Mark 14:36 preserves the same shape. A verse later, Matthew 26:42 drops the my entirely and prays only, your will be done, showing the speaker's distinct will being brought to enact the Father's. John 6:38 and John 5:30 widen it: the speaker says he came not to do his own will (to thelema to emon) but the will of the one who sent him (to thelema tou pempsantos me), with thelema written twice in one breath. The same noun elsewhere clearly names a human will, the will of the flesh and of man in John 1:13, so the Son's own will is not just the divine will under a second name. That is why the pattern supports two distinct willings harmonized through submission. The honest limit is this: the text draws the contrast between two persons, the praying Son and the Father, not in so many words between two wills lodged in one person. A reader could take it as the man Jesus yielding his will to the one shared will of God. The words show a real human willing set under the divine will and brought into agreement with it, but whether each willing is tied to a specific nature is a framing the vocabulary alone does not settle, which is why this lands as supported but at medium confidence.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2307"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1014"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2307"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.22.42"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.26.39"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.6.38"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.14.36"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Luke.22.42"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.6.38"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Matt.26.42"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.5.30"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.1.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Heb.10.7"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.40.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.26.39"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.22.42"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.6.38"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "SBLGNT-text citations carry the SBLGNT-EULA, which is not redistributable for bulk publication. All other sources used (STEPBible-TBESG, STEPBible-TFLSJ, MorphGNT-morphology, OSHB-morphology, TSK, OpenBible-cross-refs) are redistributable."
+  },
+  "flags": [
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

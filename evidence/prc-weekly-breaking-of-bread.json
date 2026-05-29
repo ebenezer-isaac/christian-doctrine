@@ -1,0 +1,451 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-weekly-breaking-of-bread",
+  "question_id": "prc-weekly-breaking-of-bread",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The lexical data attests a first-day gathering whose stated purpose was to break bread (Acts 20:7, en de te mia ton sabbaton, the heis plus sabbaton idiom, klasai arton), and a habitual devotion to the breaking of the bread (Acts 2:42, te klasei tou artou, the noun klasis G2800, under the durative proskartereo G4342). But no term in the cited texts encodes a commanded weekly frequency or ranks the act above the others in the series. The only explicit frequency word in the institution texts is hosakis (G3740), which occurs three times in the canon and means as often as, grammatically indefinite, confirmed by its sole other use in Rev 11:6 (hosakis ean thelesosin, as often as they desire). The first-day idiom is canonically stable across seven verses, yet breaking of bread is joined to it only once (Acts 20:7), while the same idiom carries a collection in 1 Cor 16:2 and resurrection narrative elsewhere, and the word for the Lord's (kyriakos G2960) never co-occurs in a verse with the breaking of bread. The proposition is therefore lexically defensible by inference but materially contested at the level of frequency and primacy, so the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2806",
+        "lemma": "κλάω",
+        "transliteration": "klao",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2800",
+        "lemma": "κλάσις",
+        "transliteration": "klasis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0740",
+        "lemma": "ἄρτος",
+        "transliteration": "artos",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3740",
+        "lemma": "ὁσάκις",
+        "transliteration": "hosakis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1173",
+        "lemma": "δεῖπνον",
+        "transliteration": "deipnon",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4521",
+        "lemma": "σάββατον",
+        "transliteration": "sabbaton",
+        "occurrences_in_canon": 68,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2960",
+        "lemma": "κυριακός",
+        "transliteration": "kyriakos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4342",
+        "lemma": "προσκαρτερέω",
+        "transliteration": "proskartereo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2806",
+      "G2800",
+      "G0740",
+      "G3740",
+      "G0364",
+      "G1173",
+      "G1172",
+      "G4521",
+      "G1520",
+      "G2960",
+      "G4342",
+      "G1322",
+      "G2983",
+      "G3860",
+      "G4221",
+      "G5315",
+      "G4095"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.20.7",
+        "key_terms": [
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          },
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σάββατον"
+          }
+        ],
+        "force": "The phrase en de te mia ton sabbaton, on the first day of the week, locates a gathering whose stated purpose was klasai arton, to break bread, with the verb klao (G2806). The construction heis plus sabbaton is the standard idiom for the first day, and a canon query shows it recurring stably in seven first-day verses. The clause supplies a first-day datum but contains no adverb of recurrence and no word ranking the meal above the accompanying preaching, dielegeto. It is one reported occasion narrated in past tense (the same gathering continues in Acts 20:11, where klao recurs after midnight), not a stated rule of frequency.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G2800",
+            "lemma": "κλάσις"
+          },
+          {
+            "strong": "G4342",
+            "lemma": "προσκαρτερέω"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          }
+        ],
+        "force": "The breaking of the bread is te klasei tou artou, where the head noun is klasis (G2800), a near-hapax occurring only here and in Luke 24:35, not the verb klao. It is listed as one of four matters to which the believers were continually devoted, the participle proskarterountes (G4342) carrying durative force, the same verb that in Acts 2:46 governs the daily breaking. The list places breaking of bread in series with the apostles teaching, the fellowship, and the prayers, joined by kai, with no syntactic subordination of the others to it. The durative verb supports habitual practice but encodes neither a fixed weekly interval nor a designated day.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.20",
+        "key_terms": [
+          {
+            "strong": "G2960",
+            "lemma": "κυριακός"
+          },
+          {
+            "strong": "G1173",
+            "lemma": "δεῖπνον"
+          }
+        ],
+        "force": "Paul writes synerchomenon oun hymon epi to auto, when you come together in one place, framing the assembly as the setting for the kyriakon deipnon, the Lords supper. The adjective kyriakos (G2960) occurs only twice in the canon, here of the Lords supper and in Rev 1:10 of the Lords day, and the two never share a verse, so the wording does not itself fuse the meal to a named day. The participle of coming together marks a recurring corporate gathering, but it does not state how often, and the censure ouk estin, it is not, addresses abuse rather than fixing frequency.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.25",
+        "key_terms": [
+          {
+            "strong": "G3740",
+            "lemma": "ὁσάκις"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          }
+        ],
+        "force": "The institution command touto poieite, hosakis ean pinete, do this, as often as you drink, sets the explicit frequency term of the passage as hosakis (G3740) with ean, an indefinite frequency conjunction meaning as often as without specifying an interval. Hosakis occurs only three times in the canon, and its sole non-Pauline use, Rev 11:6 hosakis ean thelesosin, as often as they desire, confirms the indefinite open-ended sense. The remembrance clause eis ten emen anamnesin (G0364) gives the meals purpose, not its calendar. This is the load-bearing frequency word in the corpus and it is grammatically open-ended.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G3740",
+            "lemma": "ὁσάκις"
+          },
+          {
+            "strong": "G0891",
+            "lemma": "ἄχρι"
+          },
+          {
+            "strong": "G0740",
+            "lemma": "ἄρτος"
+          }
+        ],
+        "force": "Hosakis gar ean esthiete ton arton touton, for as often as you eat this bread, repeats the indefinite frequency idiom and bounds the practice temporally by achri hou elthe, until he comes, an eschatological terminus rather than a weekly cadence. The repetition of hosakis confirms that the canon marks the meal as recurring and ongoing while leaving its interval unspecified.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.16.2",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σάββατον"
+          }
+        ],
+        "force": "Kata mian sabbatou, on the first day of every week, uses the same heis plus sabbaton idiom as Acts 20:7 but attaches it to a different activity, the laying aside of a collection, par heauto titheto thesaurizon, with the noun logeia, a gathering of money. The kata plus accusative here does carry a distributive every week sense, but it governs the setting aside of funds, not the breaking of bread. The verse shows the first-day idiom was a recognized rhythm yet was tied in the words to more than one practice, none of them ranked.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.2.42",
+        "to": "Acts.20.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "Acts.2.46",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "Luke.24.35",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "1Cor.10.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "Heb.10.25",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.7",
+        "to": "Acts.20.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.23",
+        "to": "1Cor.15.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.5.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "Exod.12.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.11.25",
+        "addressed": true,
+        "resolution": "The only explicit frequency word in the institution texts is hosakis ean, as often as, a near-hapax of three canon uses whose indefinite sense is fixed by Rev 11:6, hosakis ean thelesosin, as often as they desire. The canon therefore commands repetition without prescribing a weekly interval, so the weekly claim of the proposition cannot be drawn from the institution command itself and must rest on the narrative inference from Acts 20:7."
+      },
+      {
+        "ref": "Acts.2.46",
+        "addressed": true,
+        "resolution": "Acts 2:46 reports breaking bread klontes te arton (the verb klao, G2806) kat oikon, from house to house, and kath hemeran, day by day, under the same durative proskartereo that governs Acts 2:42. A daily, house-based pattern stands in tension with a fixed once-weekly Lords-Day pattern, showing that the lexical record describes more than one cadence of breaking bread and does not lock the practice to a single weekly observance."
+      },
+      {
+        "ref": "Acts.20.7",
+        "addressed": true,
+        "resolution": "The first-day reference is a single narrative occasion describing what the gathered believers did, not a normative frequency rule. Of the seven verses where the first-day idiom heis plus sabbaton occurs, only this one ties it to breaking bread, while 1 Cor 16:2 ties the same idiom to a collection. Narrative description of one event does not by itself establish a commanded weekly ordinance, so the weekly and central elements of the proposition are inferred rather than lexically stated."
+      },
+      {
+        "ref": "1Cor.11.20",
+        "addressed": true,
+        "resolution": "The proposition uses the phrase Lords Day, but the adjective kyriakos, of the Lord, occurs only twice in the canon, of the Lords supper here and of the Lords day in Rev 1:10, and the two uses never share a verse. The words therefore do not lexically fuse the meal to a named day, so the conjunction of Lords Day and breaking of bread is a synthesis the reader supplies, not a phrase the text states. This is noted rather than left unaddressed."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "A direct query of the lexical store returned zero variant units on the cited Acts and 1 Corinthians anchors, and these books are outside the ingested ECM window (3 John). The NA-style apparatus marks at Acts 20:7 (hemon) and 1 Cor 11:24-26 affect pronouns and minor wording, not the presence of the first-day idiom, the breaking-of-bread phrase, or the hosakis frequency idiom, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "narrative_normativity",
+      "regulative_principle",
+      "command_only_normativity"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "narrative-as-normative-precedent",
+        "verdict": "affirms",
+        "rationale": "Reading Acts 20:7 together with the habitual breaking of bread in Acts 2:42 as a settled apostolic precedent yields a regular first-day observance. On this lens the recurring first-day idiom (heis plus sabbaton across seven verses), the durative proskartereo of Acts 2:42, and the explicit first-day gathering of Acts 20:7 are taken as a pattern the church is meant to follow, so weekly first-day breaking of bread is affirmed as the apostolic shape of corporate worship."
+      },
+      {
+        "framework": "command-only-normativity",
+        "verdict": "denies",
+        "rationale": "Restricting normativity to explicit command leaves only hosakis ean, as often as, which is indefinite, and the institution command names a purpose (anamnesis) not a calendar. On this lens Acts 20:7 is one narrated occasion, Acts 2:46 attests a different daily cadence, and no word ranks the meal as the central act, so neither the weekly frequency nor the central-act ranking is lexically commanded and the proposition is not established."
+      },
+      {
+        "framework": "frequency-and-primacy-underdetermined",
+        "verdict": "disputed",
+        "rationale": "Granting that the text attests both a first-day gathering for bread and a habitual practice, this lens holds that the specific quantifier weekly and the priority claim central are simply not lexicalized: hosakis is indefinite, the Acts 2:42 series is unranked, kyriakos never joins the meal to a day, and the canon supplies two cadences (first-day in Acts 20:7, daily in Acts 2:46) that the words do not rank. The reading that fits the vocabulary most cautiously is that the proposition asks for precision the wording does not supply, hence disputed."
+      }
+    ],
+    "notes": "The split among the lenses is precisely why the verdict is disputed. The texts supply a first-day datum and a habitual practice, but the proposition's specific quantifier, weekly, and its priority claim, central act, are supplied by inference, not by a lexical marker. Each lens is internally coherent on the same word data; they differ on whether descriptive narrative and an unranked series may be read as a binding frequency rule."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The breaking of bread is observed at corporate gatherings, and the texts attest its occurrence on the first day of the week and as a habitual practice; the questions of how frequently it is to be observed and what weight it holds relative to other elements of worship are examined rather than assumed.",
+    "notes": "The stem loads two contested claims into a single proposition: a fixed frequency, weekly, and a ranking, central act of corporate worship. Neither the quantifier nor the priority ranking is encoded by a lexical term in the cited texts; the canon's explicit frequency word is the indefinite hosakis, and the named-day word kyriakos never co-occurs with the breaking of bread. The verdict is derived on the original stem, but the preloaded quantifier and ranking are why the result is disputed rather than a clean affirmation. Verdict unchanged from the prior file (disputed, medium); the enrichment corrected the Acts 2:42 head word to the noun klasis G2800, added the kyriakos G2960 and proskartereo G4342 evidence, corrected the live occurrence counts for heis (355) and didache (30), and added 1 Cor 16:2 as the parallel first-day collection."
+  },
+  "lay_summary": "The claim has three parts that have to be tested separately: that the breaking of bread happens weekly, that it happens on the Lord's day, the first day of the week, and that it is the central act of the gathering. The word data supports the first-day part most clearly. In Acts 20:7 the believers met on the first day of the week, en de te mia ton sabbaton, for the stated purpose of breaking bread, klasai arton, and that exact first-day idiom recurs in seven verses across the New Testament, so it is a stable expression. In Acts 2:42 the breaking of the bread is something the early believers kept doing, a habit, listed beside teaching, fellowship, and prayers and joined to them simply by the word and, with none ranked above the rest. The trouble is the words weekly and central. No term in these verses fixes a once a week interval. The one frequency word that actually appears is hosakis in 1 Corinthians 11:25 and 26, do this as often as you drink it, and its only other use, in Revelation 11:6, also means as often as they wish, so it is open ended, not a calendar. Acts 2:46 even reports breaking bread day by day and house to house, a different rhythm in the same record, and 1 Corinthians 16:2 attaches the very same first-day phrase to setting aside a collection rather than to the meal. The phrase Lord's day leans on the word kyriakos, which appears only twice, once of the Lord's supper and once of the Lord's day, and the two never sit in the same verse, so the wording never fuses the meal to a named day. So a first-day breaking of bread is well attested, but the specific quantity weekly and the specific status central are inferences readers add, not labels the wording supplies, which is why the verdict here is disputed rather than a plain yes or no.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.20.7"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3740"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2800"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2960"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.20.7"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

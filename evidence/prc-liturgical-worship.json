@@ -1,0 +1,463 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-liturgical-worship",
+  "question_id": "prc-liturgical-worship",
+  "generated_at": "2026-05-28T10:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.825,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The cited corpus co-attests fixed set forms and free participatory contribution within the same Pauline material and never ranks one above the other, so the proposition that a formal liturgy is uncommanded yet permissible is materially contested. Romans 14:5-6 places the observance of days under each conscience with the present passive imperative pleroforeo (G4135, let each be fully convinced) and the present active participle phroneo (G5426, regarding), oriented to the Lord with eucharisteo (G2168, gives thanks), which yields a liberty principle for disputable matters but speaks to days and food and not to corporate worship form. 1 Cor 14:40 commands kata taxin (G5010) and euschemonos (G2156), arrangement and decorum, but taxis carries two attested senses across the canon, plain orderliness in 1 Cor 14:40 and Col 2:5 against fixed appointed arrangement in Luke 1:8 and the Melchizedek order in Hebrews, so the noun alone cannot mandate a set liturgy. Set forms are present, the Aramaic acclamation marana tha (G3134, hapax, 1 Cor 16:22) preserved untranslated, the model prayer introduced by houtos (G3779, in this way, Matt 6:9), the four articular elements of Acts 2:42 (te didache, te koinonia, te klasei tou artou, tais proseuchais), but none of these texts contains an imperative requiring a fixed liturgical script. Because the canon supplies BOTH set elements AND free contribution and the vocabulary does not rank them, the lexicon underdetermines the proposition's permissibility-as-liberty claim."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4135",
+        "lemma": "πληροφορέω",
+        "transliteration": "plerophoreo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5426",
+        "lemma": "φρονέω",
+        "transliteration": "phroneo",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2168",
+        "lemma": "εὐχαριστέω",
+        "transliteration": "eucharisteo",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3563",
+        "lemma": "νοῦς",
+        "transliteration": "nous",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 392,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5010",
+        "lemma": "τάξις",
+        "transliteration": "taxis",
+        "occurrences_in_canon": 10,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2156",
+        "lemma": "εὐσχημόνως",
+        "transliteration": "euschemonos",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3779",
+        "lemma": "οὕτως",
+        "transliteration": "houtos",
+        "occurrences_in_canon": 215,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4336",
+        "lemma": "προσεύχομαι",
+        "transliteration": "proseuchomai",
+        "occurrences_in_canon": 86,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3134",
+        "lemma": "μαράνα θά",
+        "transliteration": "marana tha",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4342",
+        "lemma": "προσκαρτερέω",
+        "transliteration": "proskartereo",
+        "occurrences_in_canon": 10,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 30,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4335",
+        "lemma": "προσευχή",
+        "transliteration": "proseuche",
+        "occurrences_in_canon": 36,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4135",
+      "G5426",
+      "G2919",
+      "G2168",
+      "G3563",
+      "G2250",
+      "G5010",
+      "G2156",
+      "G3779",
+      "G4336",
+      "G3134",
+      "G5568",
+      "G4342",
+      "G1322",
+      "G4335",
+      "G0281"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.14.5",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G4135",
+            "lemma": "πληροφορέω"
+          },
+          {
+            "strong": "G3563",
+            "lemma": "νοῦς"
+          }
+        ],
+        "force": "One person judges (krinei, G2919, present active indicative) one day above another, another judges every day alike. The closing clause is hekastos en to idio noi pleroforeistho (G4135, present passive imperative third singular, let each be fully convinced in his own mind, G3563 nous dative singular). The grammar commits the matter of observing days to settled individual conviction rather than to a binding rule, establishing a liberty frame for a disputable observance, but the referent is days and food, not corporate worship form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.6",
+        "key_terms": [
+          {
+            "strong": "G5426",
+            "lemma": "φρονέω"
+          },
+          {
+            "strong": "G2168",
+            "lemma": "εὐχαριστέω"
+          }
+        ],
+        "force": "The one who regards the day (ho phronon ten hemeran, G5426 present active participle) regards it to the Lord (kurio), and the one who eats gives thanks to God (eucharistei to theo, G2168). The repeated dative kurio and theo subordinates either practice to God-ward intent, so divergent observance is licit when oriented to the Lord, which supports liberty in disputable practice but does not name fixed corporate liturgy as the thing being permitted.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.40",
+        "key_terms": [
+          {
+            "strong": "G5010",
+            "lemma": "τάξις"
+          },
+          {
+            "strong": "G2156",
+            "lemma": "εὐσχημόνως"
+          }
+        ],
+        "force": "panta de euschemonos kai kata taxin ginestho, let all things be done decently and according to order. The imperative ginestho is the same form that governs 1 Cor 14:26 panta pros oikodomen, so one verb binds both the freedom and the order poles in the same chapter. taxis (G5010) is two-sensed across the canon, plain arrangement in 1 Cor 14:40 and Col 2:5 against a fixed appointed course in Luke 1:8 (priestly division) and the Melchizedek order in Hebrews 5:6, 5:10, 6:20, 7:11, 7:17, 7:21. The verse supplies an ordering imperative but the noun by itself cannot mandate a specific liturgy.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.16.22",
+        "key_terms": [
+          {
+            "strong": "G3134",
+            "lemma": "μαράνα θά"
+          }
+        ],
+        "force": "marana tha (G3134, our Lord, come) is an Aramaic transliteration preserved inside a Greek letter. The Strong code occurs exactly once in the canon (hapax), which is the very mark of a received liturgical acclamation imported from earlier worship usage rather than coined for the letter. The form evidences fixed set wording in the apostolic assemblies, which complicates any claim that only free unscripted utterance is apostolic, but the verse contains no imperative requiring its recitation.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.6.9",
+        "key_terms": [
+          {
+            "strong": "G3779",
+            "lemma": "οὕτως"
+          },
+          {
+            "strong": "G4336",
+            "lemma": "προσεύχομαι"
+          }
+        ],
+        "force": "houtos oun proseuchesthe humeis, in this way then pray (G3779 adverb, G4336 present middle imperative second plural). The adverb houtos has two attested ranges across its 215 canon occurrences, manner template (do it in this kind of way) and exact replication (in just this way), and the morphology here does not adjudicate between them, so the model prayer can be read as a free pattern or as a set recitation. The lexicon supplies warrant for patterned prayer without settling whether fixed recitation is commanded.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G4342",
+            "lemma": "προσκαρτερέω"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          },
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G4335",
+            "lemma": "προσευχή"
+          }
+        ],
+        "force": "esan de proskarterountes te didache ton apostolon kai te koinonia, te klasei tou artou kai tais proseuchais. Four articular datives, the teaching (G1322), the fellowship (G2842), the breaking of the bread (G0740), the prayers (G4335), governed by the periphrastic imperfect of proskartereo (G4342, devoted themselves continually). The definite articles mark these as named recognized recurring elements of the gathering, which warrants regularly ordered elements as a descriptive apostolic pattern, but the verse is indicative description not imperative prescription, so it does not command any specific liturgical script beyond the four headings.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.14.6",
+        "to": "Exod.12.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.14.40",
+        "addressed": true,
+        "resolution": "kata taxin commands ordering of corporate worship but the noun taxis denotes arrangement, not a prescribed text, and across the canon it splits into plain orderliness (1 Cor 14:40, Col 2:5) against fixed appointed arrangement (Luke 1:8, Heb 5:6 etc.). The verse therefore commands order without commanding a particular liturgy and is consistent with the liberty reading."
+      },
+      {
+        "ref": "1Cor.16.22",
+        "addressed": true,
+        "resolution": "The preserved Aramaic marana tha proves that fixed formulaic acclamation existed apostolically, which undercuts the claim that set forms are inherently illicit. But the verse does not contain an imperative requiring its recitation, so it shows the permissibility pole as historically attested without proving the proposition's liberty framing, which remains defensible rather than demonstrated."
+      },
+      {
+        "ref": "Matt.6.9",
+        "addressed": false,
+        "resolution": "The adverb houtos is lexically two-sensed (template manner vs exact replication) and the morphology of proseuchesthe (present plural imperative) does not disambiguate. The bundle supplies no syntactic feature ranking the senses, so whether the model prayer commands a fixed recitation or a free pattern cannot be resolved from the lexicon alone. This is the central lexical underdetermination behind the disputed verdict."
+      },
+      {
+        "ref": "Acts.2.42",
+        "addressed": true,
+        "resolution": "The four articular elements warrant recurring named elements of the gathering, the closest the canon comes to a normative description of corporate practice, but the verse is indicative narrative description of what the assembly actually did, not an imperative binding every assembly to a fixed script. It strengthens the case for ordered named elements without commanding any specific liturgical text."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units in the bundle for the cited verses bear on the order versus freedom question. The readings at Rom.14.5-6, 1Cor.14.40, 1Cor.16.22, Matt.6.9, and Acts.2.42 are not materially contested for this proposition. The CBGM 3 John window does not cover these references, so the apparatus is in ecm-shadow not ecm-published status."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "regulative_principle_of_worship",
+      "normative_principle_of_worship",
+      "christian_liberty_adiaphora"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "regulative_principle_of_worship",
+        "verdict": "disputed",
+        "rationale": "A reading that admits in worship only what Scripture positively warrants finds explicit lexical warrant for the four articular elements of Acts 2:42, for the order rule kata taxin in 1 Cor 14:40, and for the fixed marana tha acclamation in 1 Cor 16:22, but finds no imperative commanding a specific liturgy or lectionary. In its strongest form this lens treats the absence of a positive command as ruling out IMPOSING set forms, while still permitting ordered worship with the named scriptural elements, so the proposition's permissibility-as-liberty framing is contested rather than rejected."
+      },
+      {
+        "framework": "normative_principle_of_worship",
+        "verdict": "true",
+        "rationale": "A reading that permits whatever Scripture does not forbid notes that no text prohibits set forms and positive precedent appears in marana tha, the houtos-introduced model prayer, and the articular elements of Acts 2:42. In its strongest form this lens affirms fixed liturgy as a liberty matter when the gospel and Scripture's primacy are preserved, which is exactly the proposition as stated, so the lens reads the words as supporting the claim."
+      },
+      {
+        "framework": "christian_liberty_adiaphora",
+        "verdict": "true",
+        "rationale": "A reading that takes Rom 14:5-6 as the governing principle for disputable practices, settled by each conscience oriented to the Lord, extends the days/food principle to worship form. In its strongest form this lens grants that the extension is an inference beyond the text's explicit referent, but argues that the absence of any contrary imperative for set or free worship, plus the canon's co-attestation of both, places the matter in the same liberty class as the disputable practices Paul actually names."
+      }
+    ],
+    "notes": "All three lenses arrive within the same lexical underdetermination, the canon supplies set elements and free contribution and never ranks them, so the verdict turns on whether the Rom 14 liberty principle lawfully extends from days and food to corporate worship form. The lexicon supports a general liberty principle and supplies precedent for set wording, but does not name liturgy as the referent of the liberty grant, so competing worship principles yield divergent conclusions."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether the cited corpus commands, forbids, or leaves open the use of a formal liturgy or lectionary in corporate worship, and whether the Rom 14 liberty principle extends to worship form.",
+    "notes": "The original stem preloads the liberty conclusion with the clause is not commanded but is a permissible Christian-liberty matter, which assumes the very adiaphora classification under test. The qualifier when it preserves the gospel and Scripture's primacy is itself a substantive theological condition not directly named by the cited anchor verses. The verdict was derived on the original stem, then cross-checked against the neutralized form to confirm the lexicon independently neither licenses nor prohibits a fixed form. The lexicon leaves it open, which matches the prior verdict and the sibling prc-liturgical-vs-spontaneous-worship, hence disputed at medium confidence."
+  },
+  "lay_summary": "This proposition says a set liturgy or lectionary is not required by Scripture but is allowed as a matter of Christian freedom, so long as the gospel and the Bible's authority stay central. The Bible words pull in more than one direction, so the verdict is disputed. In Romans 14, verses 5 and 6, the apostle handles one believer treating certain days as special and another treating all days alike. The key verb means to be fully convinced in one's own mind, and the practice is done to the Lord with thanksgiving. That gives a clear freedom principle for disputed customs, but the passage is about days and food, not about how a congregation orders its service. First Corinthians 14, verse 40 commands that all things be done decently and in order. The Greek word for order, taxis, splits two ways across the Bible. It means plain tidiness here and in Colossians 2, verse 5, but elsewhere it means a fixed appointed arrangement, like the priestly course in Luke 1, verse 8, or the Melchizedek order in Hebrews. So the word warrants structure but cannot by itself prove a set liturgy is required. At the same time, the canon clearly carries set wording. The Aramaic cry maranatha is kept untranslated in First Corinthians 16, verse 22, and appears only once, which is the mark of a received fixed acclamation. The model prayer in Matthew 6, verse 9, is introduced with the adverb meaning pray in this way, and that adverb itself is two-sided. It can mean follow this template or recite just like this, and the grammar here does not settle which sense applies. Acts 2, verse 42 names four recurring activities of the early gathering, the teaching, the fellowship, the breaking of the bread, and the prayers, each marked with the word the, but the verse describes what the believers actually did rather than commanding any specific script. So the lexicon supplies precedent for set forms and supplies a freedom principle for disputable practice, yet no text actually commands or forbids a fixed liturgy. Whether the freedom rule from days and food rightly extends to the form of corporate worship is an inference the words allow but do not settle. Different worship principles read the same data to opposite conclusions, which is why the lexical pattern is best described as contested rather than settled.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.40"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.6.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4135"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5010"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3779"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3134"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4342"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.16.22"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.6.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.14.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

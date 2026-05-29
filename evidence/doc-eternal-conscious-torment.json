@@ -1,0 +1,587 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-eternal-conscious-torment",
+  "question_id": "doc-eternal-conscious-torment",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.95,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The torment vocabulary in Revelation is lexically strong for an unending conscious state: basanizo with eis tous aionas ton aionon in Rev 20:10 and basanismos plus the negated anapausin ouk echousin hemeras kai nuktos in Rev 14:11, and Matt 25:46 binds kolasin aionion to zoen aionion under one adjective aionios so the duration claim is symmetrical. The pattern is materially contested because the canon also names the final state with destruction vocabulary, olethros in 2 Thess 1:9, apollymi of soul and body in Gehenna in Matt 10:28, apoleia in Phil 3:19 and 2 Pet 3:7, and second-death thanatos in Rev 20:14, and because aionios in this canon also qualifies completed-event nouns like krima aionion in Heb 6:2 and lytrosis aioniou in Heb 9:12 so it can denote permanence of result rather than ongoing process. Two defensible lexical readings coexist; the words and grammar do not rank them."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 71,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0165",
+        "lemma": "αἰών",
+        "transliteration": "aion",
+        "occurrences_in_canon": 122,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4442",
+        "lemma": "πῦρ",
+        "transliteration": "pyr",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1067",
+        "lemma": "γέεννα",
+        "transliteration": "geenna",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0762",
+        "lemma": "ἄσβεστος",
+        "transliteration": "asbestos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0928",
+        "lemma": "βασανίζω",
+        "transliteration": "basanizo",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0929",
+        "lemma": "βασανισμός",
+        "transliteration": "basanismos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3639",
+        "lemma": "ὄλεθρος",
+        "transliteration": "olethros",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0622",
+        "lemma": "ἀπόλλυμι",
+        "transliteration": "apollymi",
+        "occurrences_in_canon": 93,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0684",
+        "lemma": "ἀπώλεια",
+        "transliteration": "apoleia",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2851",
+        "lemma": "κόλασις",
+        "transliteration": "kolasis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4663",
+        "lemma": "σκώληξ",
+        "transliteration": "skolex",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 120,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3041",
+        "lemma": "λίμνη",
+        "transliteration": "limne",
+        "occurrences_in_canon": 11,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0166",
+      "G0165",
+      "G4442",
+      "G1067",
+      "G0762",
+      "G0928",
+      "G0929",
+      "G3639",
+      "G0622",
+      "G0684",
+      "G2851",
+      "G4663",
+      "G2288",
+      "G3041",
+      "G0086"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.25.46",
+        "key_terms": [
+          {
+            "strong": "G2851",
+            "lemma": "κόλασις"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          }
+        ],
+        "force": "kolasin aionion stands in deliberate grammatical parallel with zoen aionion in one balanced sentence, the single adjective aionios governing both nouns. Whatever duration sense the adjective bears in the second clause it must bear in the first, because one word in one clause cannot carry two divergent temporal senses. The lexical caveat is that kolasis is a low-frequency noun in the canon, only 2 occurrences, the other in 1 John 4.18 of present fear, so its substantive sense cannot be triangulated against many parallel uses.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Matt.25.46"
+      },
+      {
+        "ref": "Rev.14.11",
+        "key_terms": [
+          {
+            "strong": "G0929",
+            "lemma": "βασανισμός"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "ho kapnos tou basanismou auton eis aionas aionon anabainei, the smoke of their torment goes up unto ages of ages, joined with kai ouk echousin anapausin hemeras kai nuktos, and they have no rest day and night. The rising smoke plus the explicit denial of rest by day and by night reads as an ongoing conscious experience. The lexical caveat is that basanismos in the canon occurs only 6 times and all 6 are in Revelation, in the apocalyptic genre where heavy symbolism is the norm.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "Rev.14.11"
+      },
+      {
+        "ref": "Rev.20.10",
+        "key_terms": [
+          {
+            "strong": "G0928",
+            "lemma": "βασανίζω"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          }
+        ],
+        "force": "kai basanisthesontai hemeras kai nuktos eis tous aionas ton aionon, and they will be tormented day and night unto the ages of the ages. The future passive of basanizo with the strongest duration phrase the canon possesses describes the devil, the beast, and the false prophet under torment without terminus. The subjects here are non-human cosmic agents, which is the lexical caveat conditionalists press when generalizing the verse to human unbelievers.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "Rev.20.10"
+      },
+      {
+        "ref": "Mark.9.48",
+        "key_terms": [
+          {
+            "strong": "G4663",
+            "lemma": "σκώληξ"
+          },
+          {
+            "strong": "G4442",
+            "lemma": "πῦρ"
+          },
+          {
+            "strong": "G0762",
+            "lemma": "ἄσβεστος"
+          }
+        ],
+        "force": "hopou ho skolex auton ou teleuta kai to pyr ou sbennytai, where their worm does not die and the fire is not quenched, quoting Isa 66.24. The two negated verbs and asbeston in v.43 mark the agents of judgment as perpetual. skolex is a hapax legomenon in the NT, only this single occurrence, so its sense is anchored only to its Isaiah donor text, where in the source context the worm and fire act on ptomata, corpses. Whether the perpetuity attaches to the sufferer's consciousness or only to the consuming agents is precisely the disputed point.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Mark.9.48"
+      },
+      {
+        "ref": "2Thess.1.9",
+        "key_terms": [
+          {
+            "strong": "G3639",
+            "lemma": "ὄλεθρος"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "olethron aionion apo prosopou tou kyriou, eternal destruction away from the presence of the Lord. The head noun is olethros, ruin or destruction, only 4 occurrences in the canon and never elsewhere a torment word. aionion can be read as eternal in result, on analogy with the same adjective in Heb 6.2 krima aionion (eternal judgment) and Heb 9.12 lytrosin aionian (eternal redemption), both event-nouns where the adjective denotes permanence of the act's result. This is the strongest single lexical foothold for a conditionalist reading and the principal reason the verdict is disputed.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Thess.1.9"
+      },
+      {
+        "ref": "Jude.1.7",
+        "key_terms": [
+          {
+            "strong": "G4442",
+            "lemma": "πῦρ"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "pyros aioniou diken hypechousai, undergoing the penalty of eternal fire, with Sodom and Gomorrah set forth as a deigma, example. The cities are no longer burning, so aionion fire here describes the enduring result of destruction rather than an observable ongoing burning. Annihilationists press this as a near-context lexical analogy for the final judgment fire vocabulary.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Jude.1.7"
+      },
+      {
+        "ref": "Matt.10.28",
+        "key_terms": [
+          {
+            "strong": "G0622",
+            "lemma": "ἀπόλλυμι"
+          },
+          {
+            "strong": "G1067",
+            "lemma": "γέεννα"
+          },
+          {
+            "strong": "G5590",
+            "lemma": "ψυχή"
+          }
+        ],
+        "force": "phobeisthe de mallon ton dynamenon kai psychen kai soma apolesai en geenne, fear the One able to destroy both soul and body in Gehenna. The verb is apollymi, the destruction word group, with both psyche (soul) and soma (body) as direct objects, and Gehenna as the location. The lexical caveat for ECT is that apollymi can mean perish or be lost as well as terminate, and the construction does not by itself force either reading; for conditionalism it is the strongest synoptic foothold pairing destruction vocabulary with the soul and Gehenna.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Matt.10.28"
+      },
+      {
+        "ref": "Rev.20.14",
+        "key_terms": [
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G3041",
+            "lemma": "λίμνη"
+          },
+          {
+            "strong": "G4442",
+            "lemma": "πῦρ"
+          }
+        ],
+        "force": "houtos ho thanatos ho deuteros estin, he limne tou pyros, this is the second death, the lake of fire. The narrator gives the lake of fire a name and the name is thanatos, death. Conditionalists read this as a definitional gloss in which the canon supplies its own equation of the final state with death, the cessation language; ECT readers take second death as a state, a separation analogous to spiritual death rather than extinction. Lexically the equation is given but not exposited.",
+        "supports": "complicates",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "Rev.20.14"
+      },
+      {
+        "ref": "Heb.6.2",
+        "key_terms": [
+          {
+            "strong": "G2917",
+            "lemma": "κρίμα"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "krimatos aioniou, eternal judgment. The head noun is krima, an act of judgment, not a process, and the same adjective aionios describes its result-permanence rather than an unending courtroom procedure. This is a parallel lexical use within Hebrews that demonstrates aionios in the canon can qualify a completed-event noun and denote permanence of outcome, which is the linguistic move conditionalists apply to olethros aionion in 2 Thess 1.9.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.6.2"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.25.46",
+        "to": "Matt.25.41",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.25.46",
+        "to": "Matt.13.43",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.14.11",
+        "to": "Rev.18.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.14.10",
+        "to": "Rev.16.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.9.44",
+        "to": "Isa.33.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Thess.1.9",
+        "to": "2Thess.2.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jude.1.7",
+        "to": "Gen.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jude.1.7",
+        "to": "Deut.29.23",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Thess.1.9",
+        "addressed": true,
+        "resolution": "olethron aionion uses olethros, destruction or ruin, as its head noun. The adjective aionios is the same word used in Heb 6.2 (krima aionion) and Heb 9.12 (lytrosin aionian) to describe completed acts whose RESULT is permanent. Conditionalists read this canonical pattern back into 2 Thess 1.9 as annihilation of eternal result, separation as cessation rather than as continued conscious existence. The ECT reading takes aionion adverbially of unending duration and reads olethros as ruinous, persistent separation from the Lord's presence. Both are grammatically defensible from the lexical data alone, so the text complicates a clean affirmation."
+      },
+      {
+        "ref": "Jude.1.7",
+        "addressed": true,
+        "resolution": "pyros aioniou with Sodom presented as deigma is read by annihilationists as evidence that aionios fire denotes a permanent outcome of destruction, since Sodom is not presently burning. The ECT reading distinguishes the fire's visible effect on cities from the fate of persons and points to Rev 14.11 and 20.10 for the personal-consciousness datum. The lexical analogy cannot by itself settle which referent governs, leaving the matter contested."
+      },
+      {
+        "ref": "Mark.9.48",
+        "addressed": true,
+        "resolution": "skolex ou teleuta and pyr ou sbennytai quote Isa 66.24, where in the donor text the worm and fire act on ptomata, corpses, which conditionalists take to support consumption rather than living torment. skolex is a NT hapax legomenon (one occurrence), so its sense is fixed by Isaiah alone. The ECT reading takes the perpetual worm and unquenchable fire as agents that never cease acting on a still-suffering object. The lexicon supports the perpetuity of the agents but does not by itself specify perpetual consciousness of the object."
+      },
+      {
+        "ref": "Matt.10.28",
+        "addressed": true,
+        "resolution": "apolesai (aor inf of apollymi) with both psyche and soma as objects, located en geenne, places the destruction word group on the same object that the ECT reading expects to be eternally conscious. Conditionalists read apollymi here in its strong sense, terminate, and treat the pairing of soul and body as comprehensive cessation. The ECT reading appeals to apollymi's range, which elsewhere can mean lost or ruined rather than annihilated (Matt 18.11 of lost persons; Luke 15 of lost coin, sheep, son who is restored). The verb's polysemy is the lexical reason this verse alone does not settle the question."
+      },
+      {
+        "ref": "Rev.20.14",
+        "addressed": true,
+        "resolution": "houtos ho thanatos ho deuteros estin equates the lake of fire with thanatos, death, in the canon's own gloss. Conditionalists treat the canon-supplied equation as authoritative: the final state IS death, the cessation language. The ECT reading takes second death as a category of separation from God analogous to spiritual death in Eph 2.1, a state of permanent ruin rather than extinction. The narrative equation is plain; what is contested is whether thanatos here keeps its ordinary cessation sense or carries a metaphorical separation sense."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.9.43",
+        "variant_id": "mark-9-44-46-omission",
+        "verdict_impact": "none",
+        "note": "Verses 44 and 46, which repeat the worm-and-fire refrain, are absent from the earliest witnesses (Sinaiticus, Vaticanus) and are widely regarded as harmonizations from v.48. Their omission does not change the verdict because v.48 retains the refrain in all major critical editions."
+      },
+      {
+        "ref": "Matt.25.46",
+        "variant_id": "matt-25-46-text-stable",
+        "verdict_impact": "none",
+        "note": "kolasin aionion / zoen aionion is textually stable across the principal critical editions; no material variant unit affects the duration parallel."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "No ECM apparatus was consulted; NT outside 3 John is treated as ecm-shadow. The cited torment, destruction, and second-death phrases are textually stable in the principal critical editions."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "traditionalism_eternal_conscious_torment",
+      "conditional_immortality",
+      "annihilationism",
+      "universal_reconciliation"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "traditionalism_eternal_conscious_torment",
+        "verdict": "affirms",
+        "rationale": "basanizo plus eis aionas aionon and the negated anapausin ouk echousin in Rev 14.11 and 20.10, joined with the kolasin aionion / zoen aionion parallel in Matt 25.46 governed by one adjective aionios, are read as unending conscious suffering. The duration vocabulary in Revelation is the strongest in the canon, and the symmetry in Matthew forecloses an asymmetric duration claim."
+      },
+      {
+        "framework": "conditional_immortality",
+        "verdict": "disputes",
+        "rationale": "olethros aionios in 2 Thess 1.9, apollymi of soul and body in Gehenna in Matt 10.28, apoleia in 2 Pet 3.7 and Phil 3.19, and the second-death equation in Rev 20.14 read as the destruction or cessation of the unsaved, with aionios denoting permanence of result on the model of krima aionion in Heb 6.2 and lytrosin aionian in Heb 9.12. Immortality is granted only to the redeemed."
+      },
+      {
+        "framework": "annihilationism",
+        "verdict": "disputes",
+        "rationale": "aionios fire in Jude 1.7 (Sodom no longer burning) is taken as a permanent-result idiom for fire vocabulary, and Revelation's torment imagery is read as apocalyptic symbol of definitive overthrow rather than a literal duration statement about persons. The destruction word group across the epistles is read as ranking the cessation pattern."
+      },
+      {
+        "framework": "universal_reconciliation",
+        "verdict": "disputes",
+        "rationale": "aionios is treated as derived from aion, age, with an age-defined rather than absolute-eternity sense in some contexts (e.g. Matt 12.32 hina mete en touto to aioni mete en to mellonti, neither in this age nor in the coming one), and kolasis, with its lexical range including corrective discipline, is read as remedial rather than terminal. The lexical foothold for this lens is narrower than the other two and turns on contested glosses of aion and kolasis."
+      }
+    ],
+    "notes": "The disagreement is not over whether judgment is real or final but over whether the lexical duration markers attach to ongoing consciousness or to permanence of outcome. The Revelation torment vocabulary and the synoptic/epistolary destruction vocabulary pull in different directions within the same canon, and aionios has attested uses in this canon for both unending process (zoe aionios) and permanent result (krima aionion, lytrosis aionian)."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What is the lexical duration and nature of the final state of the unsaved as described by the relevant Greek terms (aionios, basanizo / basanismos, kolasis, olethros, apollymi / apoleia, thanatos / second death)?",
+    "notes": "The original stem clause 'as the just judgment of a holy God' embeds an evaluative theological frame, and 'eternal, conscious punishment' presupposes the contested outcome (unending consciousness rather than cessation or restoration). The verdict is derived on the original stem, but the neutralized form isolates the testable lexical question so the destruction-vocabulary and result-permanence readings receive fair weight."
+  },
+  "lay_summary": "The Greek vocabulary across these passages pulls in two directions at once, which is why the lexical picture is disputed rather than settled. On one side, the torment vocabulary is strong. In Revelation 14.11 the smoke of their torment, basanismos, goes up to ages of ages, and they have no rest day or night, and Revelation 20.10 says they will be tormented day and night unto the ages of the ages, using basanizo, the verb for active torment, with the strongest duration phrase the language has. Matthew 25.46 places eternal punishment and eternal life side by side with the very same adjective aionios, so the punishment seems to last as long as the life. Mark 9.48 adds that the worm does not die and the fire is not quenched. On the other side, the destruction vocabulary complicates this. Second Thessalonians 1.9 speaks of eternal destruction using olethros, a word for ruin or perishing, not a torment word. Matthew 10.28 warns of the One able to destroy, apollymi, both soul and body in Gehenna, putting the destruction verb on the soul itself. Revelation 20.14 names the lake of fire as the second death, thanatos. Jude 7 calls Sodom an example of eternal fire, yet Sodom is no longer burning, which suggests aionios can describe a permanent result rather than an unending process. Hebrews 6.2 confirms this elsewhere, calling judgment itself aionion (an event with permanent result, not an unending courtroom). Readers who hold to unending conscious suffering lean on the torment texts. Readers who hold to conditional immortality or annihilation lean on the destruction texts and the canon's own usage of aionios for permanent result. Both readings can be defended from the words themselves, so the lexical evidence supports a real and final judgment but does not by itself decide between unending consciousness and final destruction. The stem also assumes the consciousness conclusion, so the testable lexical question was isolated separately.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G0166"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G0622"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.10.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.6.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.14.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Thess.1.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.14"
+    },
+    {
+      "type": "morphology",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Mark.9.48"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Jude.1.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mark.9.44"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cites MACULA-Greek (CC-BY-NC-4.0) for the aionios, apollymi, olethros, and basanizo lexical-semantic data and SBLGNT-text (SBLGNT-EULA) for the Mark 9.48 base text; both prohibit bulk redistribution, so the assembled evidence cannot be published in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

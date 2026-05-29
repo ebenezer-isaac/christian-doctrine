@@ -1,0 +1,717 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-congregational-singing",
+  "question_id": "prc-congregational-singing",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Corporate vocal song is commanded across both testaments with grammar that forecloses solo or platform-only readings. In Eph 5:19 and Col 3:16 the participles are plural and the addressee is the reciprocal pronoun heautois, heautous (G1438), so the singing is mutual address within the gathered body using psalmois, hymnois, odais pneumatikais. In Heb 13:15 anapheromen (G0399) is first person plural cohortative, offering thysian aineseos as a body. The verb hymneo (G5214) marks the Last Supper hymn at Matt 26:30 and Mark 14:26, the prison singing at Acts 16:25, and Christ singing in the midst of the assembly at Heb 2:12 (quoting Ps 22:22). In Ps 95:1 to 2 the cohortatives neranenah, nariah, neqademah (H7321, H6923) and the cognate noun zemirot (H2158) summon the assembly to sing together; shir (H7891) and zamar (H2167) carry the same plural praise-summons across the Psalter. The word primary in the stem is a comparative ranking the lexicon does not itself adjudicate, isolated in stem_audit, so the verdict affirms the strong pan-canonical corporate-singing pattern the texts carry."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5215",
+        "lemma": "ὕμνος",
+        "transliteration": "hymnos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5603",
+        "lemma": "ᾠδή",
+        "transliteration": "ode",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0103",
+        "lemma": "ᾄδω",
+        "transliteration": "ado",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5567",
+        "lemma": "ψάλλω",
+        "transliteration": "psallo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5214",
+        "lemma": "ὑμνέω",
+        "transliteration": "hymneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1438",
+        "lemma": "ἑαυτοῦ",
+        "transliteration": "heautou",
+        "occurrences_in_canon": 330,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2980",
+        "lemma": "λαλέω",
+        "transliteration": "laleo",
+        "occurrences_in_canon": 308,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1321",
+        "lemma": "διδάσκω",
+        "transliteration": "didasko",
+        "occurrences_in_canon": 96,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "noutheteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1774",
+        "lemma": "ἐνοικέω",
+        "transliteration": "enoikeo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0399",
+        "lemma": "ἀναφέρω",
+        "transliteration": "anaphero",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2378",
+        "lemma": "θυσία",
+        "transliteration": "thysia",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0133",
+        "lemma": "αἴνεσις",
+        "transliteration": "ainesis",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7891",
+        "lemma": "שִׁיר",
+        "transliteration": "shir",
+        "occurrences_in_canon": 71,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2167",
+        "lemma": "זָמַר",
+        "transliteration": "zamar",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7321",
+        "lemma": "רוּעַ",
+        "transliteration": "rua",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6923",
+        "lemma": "קָדַם",
+        "transliteration": "qadam",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2158",
+        "lemma": "זָמִיר",
+        "transliteration": "zamir",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8426",
+        "lemma": "תּוֹדָה",
+        "transliteration": "todah",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3034",
+        "lemma": "יָדָה",
+        "transliteration": "yadah",
+        "occurrences_in_canon": 85,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G5568",
+      "G5215",
+      "G5603",
+      "G0103",
+      "G5567",
+      "G5214",
+      "G1438",
+      "G2980",
+      "G1321",
+      "G3560",
+      "G1774",
+      "G0399",
+      "G2378",
+      "G0133",
+      "G4152",
+      "H7891",
+      "H2167",
+      "H7321",
+      "H6923",
+      "H2158",
+      "H8426",
+      "H3034"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.5.19",
+        "key_terms": [
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          },
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G5215",
+            "lemma": "ὕμνος"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          },
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          },
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          }
+        ],
+        "force": "lalountes heautois, speaking to one another, pairs the plural present participle laleo (G2980) with the reciprocal pronoun heautois (G1438), so the song is mutual address within the gathered body, not solo or platform performance. The triad psalmois, hymnois, odais pneumatikais (G5568, G5215, G5603) names three sung forms, and the closing participles adontes kai psallontes te kardia hymon to kyrio (G0103, G5567) direct the singing to the Lord from the heart of the assembly addressed in the plural hymon.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.16",
+        "key_terms": [
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G1321",
+            "lemma": "διδάσκω"
+          },
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          },
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G5215",
+            "lemma": "ὕμνος"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          }
+        ],
+        "force": "ho logos tou Christou enoikeito en hymin plousios (G1774, third person imperative, let the word of Christ dwell in you richly) governs didaskontes kai nouthetountes heautous (G1321, G3560, G1438), two plural participles teaching and admonishing one another, with the same triad psalmois, hymnois, odais pneumatikais and the closing adontes en chariti en tais kardiais hymon to theo. The grammar makes the song corporate, didactic, and reciprocal within the body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.13.15",
+        "key_terms": [
+          {
+            "strong": "G0399",
+            "lemma": "ἀναφέρω"
+          },
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          },
+          {
+            "strong": "G0133",
+            "lemma": "αἴνεσις"
+          }
+        ],
+        "force": "anapheromen (G0399) is first person plural present subjunctive, let us offer up, taking thysian aineseos (G2378, G0133), a sacrifice of praise, glossed as karpon cheileon homologounton to onomati autou, the fruit of lips that confess his name. The first person plural verb frames vocal praise as a continual corporate offering. ainesis is a hapax in the NT, but its sense is fixed here by the appositional gloss to vocal confession.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.2.12",
+        "key_terms": [
+          {
+            "strong": "G5214",
+            "lemma": "ὑμνέω"
+          }
+        ],
+        "force": "Hebrews quotes Ps 22:22 LXX with hymneso se (G5214, future active indicative, I will sing hymns to you) en meso ekklesias, in the midst of the assembly. The lexical force places Christ himself singing among the gathered congregation, anchoring sung praise inside the corporate gathering as the messianic pattern.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.30",
+        "key_terms": [
+          {
+            "strong": "G5214",
+            "lemma": "ὑμνέω"
+          }
+        ],
+        "force": "kai hymnesantes exelthon (G5214, aorist active participle plural, having sung a hymn they went out). The participle is plural, so Jesus and the disciples sing together at the close of the Last Supper. Mark 14:26 carries the identical wording, a double witness to communal singing as the gathered response to the meal.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.15",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          }
+        ],
+        "force": "psalo to pneumati, psalo de kai to noi (G5567, future active indicative). Paul makes singing a deliberate corporate act done with both spirit and mind in the assembly. The first person verb sits inside the gathered-church discourse of 1 Cor 14, where every act is for oikodome (edification) of the body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.26",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          }
+        ],
+        "force": "hotan synerchesthe, hekastos psalmon echei (G5568, when you come together, each one has a psalm). The setting is explicitly synerchomai, the gathered assembly, and psalmos is one of the contributions named as belonging to each member. The grammar of the distributive hekastos plus the gathered-assembly context makes congregational singing a participatory act of the body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.13",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          }
+        ],
+        "force": "kakopathei tis en hymin, proseuchestho. euthymei tis, psalleto (G5567, third person imperative, let him sing psalms). Singing is paired with prayer as a normal mode of believer response, addressed to anyone within the plural en hymin community.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.95.1",
+        "key_terms": [
+          {
+            "strong": "H7321",
+            "lemma": "רוּעַ"
+          }
+        ],
+        "force": "leku (let us go), neranenah (let us sing for joy), and nariah (H7321, let us shout) are first person plural cohortatives. The ETCBC-BHSA clause function marks these as predicate verbs in a hortatory summons, calling the assembly as a body to sing aloud to the LORD, the rock of our salvation.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.95.2",
+        "key_terms": [
+          {
+            "strong": "H6923",
+            "lemma": "קָדַם"
+          },
+          {
+            "strong": "H2158",
+            "lemma": "זָמִיר"
+          },
+          {
+            "strong": "H8426",
+            "lemma": "תּוֹדָה"
+          }
+        ],
+        "force": "neqademah (H6923, let us come before) his presence and the parallel nariah (H7321) continue the first person plural cohortatives, with betodah (H8426, with thanksgiving) and bizmirot (H2158, with songs) naming the sung means. The corporate first person plural plus the song nouns confirm communal vocal praise as the mode of approach.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.96.1",
+        "key_terms": [
+          {
+            "strong": "H7891",
+            "lemma": "שִׁיר"
+          }
+        ],
+        "force": "shiru laYHWH shir hadash, shiru laYHWH kol haarets (H7891, plural masculine imperative, sing to the LORD a new song, sing to the LORD all the earth). The verb is plural imperative and the addressee is the entire earth, the broadest possible corporate body, with the same pattern repeated at Ps 98:1 and Ps 149:1. This anchors corporate sung praise pan-canonically across the Psalter.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.95.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.47.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "1Chr.25.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.13.15",
+        "to": "Ps.18.49",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.13.15",
+        "to": "Lev.7.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.95.1",
+        "to": "Ps.34.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.95.1",
+        "to": "Ps.66.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.95.2",
+        "to": "Ps.105.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.2.12",
+        "to": "Ps.22.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.26.30",
+        "to": "Mark.14.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.26",
+        "to": "1Cor.14.15",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Chr.25.7",
+        "addressed": true,
+        "resolution": "This text counts trained temple musicians skilled in song with instruments, showing specialist instrumental and choral music inside OT worship. It could be read against the stem word primary, since it shows a parallel non-congregational musical mode. It is resolved by noting that the NT anchor texts (Eph 5:19, Col 3:16, 1 Cor 14:26) shift the locus of song to the whole gathered body using reciprocal pronouns and plural participles, and the lexicon does not itself rank instrumental versus vocal as primary, so this text broadens the worship-music picture without overturning the corporate-singing pattern that the cohortatives and reciprocal participles command."
+      },
+      {
+        "ref": "Lev.7.12",
+        "addressed": true,
+        "resolution": "The todah (H8426) here is a thank offering tied to sacrificial ritual rather than song, so it could narrow todah to cultic sacrifice. It is resolved by observing that Ps 95:2 and Heb 13:15 carry todah and ainesis into the realm of vocal praise (karpon cheileon, the fruit of lips), confirming that the praise-offering vocabulary extends to sung confession of the gathered people."
+      },
+      {
+        "ref": "Amos.5.23",
+        "addressed": true,
+        "resolution": "haser meali hamon shireka, take away from me the noise of your songs (H7892 derivative with H7891 cognate), is a prophetic rejection of song. It could be read as a lexical counter to corporate singing. It is resolved by noting that the rebuke targets song offered without justice (cf. Amos 5:24), not the act of singing itself, and the wider canon continues to command sung praise after this oracle, so the term is contextual, not categorical."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The NT anchor texts (Eph 5:19, Col 3:16, Heb 13:15, Heb 2:12, Matt 26:30) carry editorial sigla in the bundle morphology (for example the ado and psallo word order and the heautois reading in Eph 5:19, and the article placement in Col 3:16), but none of these readings touches the corporate, vocal, mutual-address force of the passages. No variant units were supplied for examination, and the Psalms anchors are outside ECM scope."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "regulative_principle",
+      "normative_principle",
+      "exclusive_psalmody"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "regulative_principle",
+        "verdict": "for",
+        "rationale": "A reading that limits public worship to elements Scripture explicitly commands still affirms corporate singing, since plural cohortatives (neranenah, nariah, neqademah) and plural participles with reciprocal pronouns (lalountes heautois, didaskontes heautous) make sung congregational praise an expressly commanded act."
+      },
+      {
+        "framework": "normative_principle",
+        "verdict": "for",
+        "rationale": "A reading that permits whatever Scripture does not forbid likewise affirms corporate singing as a clearly attested mode, though it would not derive the comparative word primary from the lexicon either, since the texts command congregational song without ranking it against instrumental or specialist forms."
+      },
+      {
+        "framework": "exclusive_psalmody",
+        "verdict": "for",
+        "rationale": "A reading that restricts sung content to canonical psalms still affirms corporate singing, since the same anchor texts that name psalmoi name the activity as congregational. The lexical question of whether hymnois and odais pneumatikais (G5215, G5603) are non-psalm compositions or sub-categories of the Psalter is a separate scope question the words alone do not settle."
+      }
+    ],
+    "notes": "Both testaments use first person plural and reciprocal grammar to make song a corporate act, so the analogy of Scripture and progressive revelation move in the same direction from Ps 95 cohortatives and Ps 96:1 plural imperatives to the NT body-edifying participles and the Last Supper hymnesantes."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Corporate vocal singing by the gathered people is a commanded mode of Christian worship.",
+    "notes": "The stem word primary asserts a comparative ranking of congregational singing above other musical modes (instrumental, choral, solo). The lexical data establishes that corporate vocal song is a commanded and pervasive mode of worship across the canon, but it does not itself rank that mode as first relative to others; 1Chr 25:7 and the Levitical instrumental cultus show specialist instrumental music coexisting in OT worship, and the NT corpus does not contain a comparative ranking verb. The verdict is derived on the original stem and affirms the strong pan-canonical corporate-singing pattern, while this audit isolates primary as the comparative loading the lexicon does not adjudicate."
+  },
+  "lay_summary": "Five passages set the lexical pattern for how the gathered people of God make music. In Ephesians 5:19 Paul writes lalountes heautois, speaking to one another, joining the plural participle to the reciprocal pronoun heautois, then names psalms, hymns, and spiritual songs, and closes with the whole assembly singing and making melody in the heart to the Lord. Colossians 3:16 repeats the pattern: teaching and admonishing one another (didaskontes kai nouthetountes heautous) through psalms, hymns, and spiritual songs as the word of Christ dwells richly among them. The grammar in both places makes song a mutual, corporate act of the body, not solo or platform performance. Hebrews 13:15 uses the first person plural let us offer (anapheromen) a sacrifice of praise, called the fruit of lips, presenting vocal praise as a continual communal offering. The Last Supper closes with hymnesantes, having sung a hymn, a plural participle covering Jesus and the disciples together (Matt 26:30, Mark 14:26), and Hebrews 2:12 has the risen Christ himself saying I will sing your praise in the midst of the assembly. First Corinthians 14:15 and 14:26 set psalo and psalmos inside the gathered-church discourse where each member contributes a psalm for the edification of the body. James 5:13 makes singing the normal believer response paired with prayer. In the Old Testament Psalm 95:1 to 2 stacks first person plural cohortatives, let us sing for joy, let us shout, let us come before him with thanksgiving and with songs, and Ps 96:1 issues the plural imperative sing to the LORD a new song, sing to the LORD all the earth. Across both testaments the verbs are plural or reciprocal and the addressees are the assembly. So the lexicon firmly supports congregational singing as a commanded mode of worship. One word in the proposition, primary, claims that this mode ranks above other musical modes such as instrumental or choral music. The lexical data does not itself rank the modes, and a text like First Chronicles 25:7 shows trained instrumental musicians within Old Testament worship. So the evidence strongly affirms corporate singing as a worship mode the texts command, while the comparative claim that it is the primary mode rests on a weighing the lexicon alone cannot settle.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.13.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.26.30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.5.13"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.95.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.95.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.96.1"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.95.1"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.95.2"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5214"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1438"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7891"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6923"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Ps.95.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA is licensed CC-BY-NC-4.0 (non-commercial), which the guard treats as non-redistributable in bulk, so the aggregate is not safe to publish even though the other six sources permit redistribution."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

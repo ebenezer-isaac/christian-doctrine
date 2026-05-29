@@ -1,0 +1,823 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-final-authority",
+  "question_id": "doc-scripture-final-authority",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across four canon sections the same lexical move recurs: a written, God-originated deposit is the standard, and competing voices are judged by it. Isa 8:20 pairs תּוֹרָה (H8451, queried 204 occurrences, pan-canonical) with תְּעוּדָה (H8584, only 3 occurrences) and pronounces the judgment-formula אֵין שַׁחַר on speech that does not match the prior word. Mark 7:8 to 13 sets ἐντολή/λόγος of θεός against παράδοσις of ἀνθρώπων using forensic verbs ἀθετέω (G0114, nullify) and ἀκυρόω (G0208, render legally void), the latter occurring only at Matt 15:6, Mark 7:13, and Gal 3:17, always of voiding a prior authoritative text. Acts 17:11 has the Bereans ἀνακρίνω (G0350, a judicial examination verb clustered in legal contexts in Luke, Acts, 1Cor) the γραφαί to test apostolic λόγος. 2 Tim 3:16 to 17 grounds it: πᾶσα γραφή is θεόπνευστος (G2315, a hapax) and sufficient πρός four functions so the man of God is ἄρτιος (G0739, hapax) and fully equipped. The pattern is dense, grammatically overt, and spans Torah, Prophets, Gospels, Acts, and Pastoral Epistles, so the verdict is high-confidence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H8451",
+        "lemma": "תּוֹרָה",
+        "transliteration": "torah",
+        "occurrences_in_canon": 204,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8584",
+        "lemma": "תְּעוּדָה",
+        "transliteration": "teudah",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0369",
+        "lemma": "אַיִן",
+        "transliteration": "ayin",
+        "occurrences_in_canon": 720,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 169,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7837",
+        "lemma": "שַׁחַר",
+        "transliteration": "shachar",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphe",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2315",
+        "lemma": "θεόπνευστος",
+        "transliteration": "theopneustos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3862",
+        "lemma": "παράδοσις",
+        "transliteration": "paradosis",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1785",
+        "lemma": "ἐντολή",
+        "transliteration": "entole",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0114",
+        "lemma": "ἀθετέω",
+        "transliteration": "atheteo",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0208",
+        "lemma": "ἀκυρόω",
+        "transliteration": "akyroo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0350",
+        "lemma": "ἀνακρίνω",
+        "transliteration": "anakrino",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1209",
+        "lemma": "δέχομαι",
+        "transliteration": "dechomai",
+        "occurrences_in_canon": 59,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1319",
+        "lemma": "διδασκαλία",
+        "transliteration": "didaskalia",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0739",
+        "lemma": "ἄρτιος",
+        "transliteration": "artios",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1822",
+        "lemma": "ἐξαρτίζω",
+        "transliteration": "exartizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosyne",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0018",
+        "lemma": "ἀγαθός",
+        "transliteration": "agathos",
+        "occurrences_in_canon": 106,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4314",
+        "lemma": "πρός",
+        "transliteration": "pros",
+        "occurrences_in_canon": 741,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H8451",
+      "H8584",
+      "H0369",
+      "H1697",
+      "H7837",
+      "G1124",
+      "G2315",
+      "G3862",
+      "G1785",
+      "G0114",
+      "G0208",
+      "G3056",
+      "G0350",
+      "G1209",
+      "G1319",
+      "G0739",
+      "G1822",
+      "G1343",
+      "G0018",
+      "G0444",
+      "G2316",
+      "G3956",
+      "G4314"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.8.20",
+        "key_terms": [
+          {
+            "strong": "H8451",
+            "lemma": "תּוֹרָה"
+          },
+          {
+            "strong": "H8584",
+            "lemma": "תְּעוּדָה"
+          },
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          }
+        ],
+        "force": "The paired construction לְתוֹרָה וְלִתְעוּדָה (to the instruction and to the testimony) names a prior written-revelation standard against which speakers are tested. The conditional אִם לֹא יֹאמְרוּ כַּדָּבָר הַזֶּה (if they do not speak according to this word) is followed by the verdict אֵין לוֹ שָׁחַר (there is no dawn for him), with אַיִן (H0369) functioning as the standard Hebrew judgment-of-absence formula. תּוֹרָה is well attested (queried 204 occurrences, spanning Law, Prophets, and Writings), so its sense as authoritative instruction is triangulated and stable. תְּעוּדָה occurs only 3 times, and one of those (Ruth 4:7) carries a distinct sense (a legal custom or attestation of a transaction), so the Isaiah sense rests almost entirely on Isa 8:16 and 8:20 themselves. The anti-mediumistic frame (Isa 8:19) sharpens the force: the prior written deposit outranks competing oracular voices.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism",
+          "idiom"
+        ],
+        "macula_anchor": "Isa.8.20"
+      },
+      {
+        "ref": "Mark.7.8",
+        "key_terms": [
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          },
+          {
+            "strong": "G3862",
+            "lemma": "παράδοσις"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "Direct antithesis: ἀφέντες τὴν ἐντολὴν τοῦ θεοῦ κρατεῖτε τὴν παράδοσιν τῶν ἀνθρώπων (forsaking the commandment of God you hold the tradition of men). The contrast is carried by the two genitives θεοῦ and ἀνθρώπων, which encode the authority asymmetry lexically: the divine commandment is the standard, the human tradition is the displacing rival. The decisive word is παράδοσις (G3862), which occurs 13 times and is morally neutral in itself: it labels the commended apostolic deposit in 1Cor 11:2 and 2Thess 2:15 but the condemned human accretion here and in Col 2:8 and Gal 1:14. The origin of the tradition, divine or human, is what the genitive specifies, and that is what determines authority.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "chiasm"
+        ],
+        "macula_anchor": "Mark.7.8"
+      },
+      {
+        "ref": "Mark.7.9",
+        "key_terms": [
+          {
+            "strong": "G0114",
+            "lemma": "ἀθετέω"
+          },
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          },
+          {
+            "strong": "G3862",
+            "lemma": "παράδοσις"
+          }
+        ],
+        "force": "ἀθετεῖτε τὴν ἐντολὴν τοῦ θεοῦ ἵνα τὴν παράδοσιν ὑμῶν τηρήσητε. The verb ἀθετέω (G0114, queried 17 occurrences, consistently to set aside, nullify, or reject) takes the commandment of God as its object, and the ἵνα purpose clause makes tradition-keeping the motive. The ironic Καλῶς intensifies the indictment. The authority of the divine commandment is presupposed, not argued, and the rebuke is precisely that men nullify it for the sake of their tradition.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "hyperbole",
+          "idiom"
+        ],
+        "macula_anchor": "Mark.7.9"
+      },
+      {
+        "ref": "Mark.7.10",
+        "key_terms": [
+          {
+            "strong": "G2036",
+            "lemma": "λέγω"
+          }
+        ],
+        "force": "The argument is grounded on a specific written text: Μωϋσῆς γὰρ εἶπεν introduces the Decalogue command (Honor your father and mother) and the Exodus and Leviticus capital-sanction clause (Ὁ κακολογῶν πατέρα ἢ μητέρα θανάτῳ τελευτάτω). Jesus appeals to inscripturated Torah, not oral elaboration, to establish divine authority. The grammar forecloses an oral-tradition reading here: the citation formula points to what stands written.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Mark.7.10"
+      },
+      {
+        "ref": "Mark.7.13",
+        "key_terms": [
+          {
+            "strong": "G0208",
+            "lemma": "ἀκυρόω"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G3862",
+            "lemma": "παράδοσις"
+          },
+          {
+            "strong": "G3946",
+            "lemma": "παρόμοιος"
+          }
+        ],
+        "force": "Climactic indictment: ἀκυροῦντες τὸν λόγον τοῦ θεοῦ τῇ παραδόσει ὑμῶν ᾗ παρεδώκατε. ἀκυρόω (G0208) is a forensic verb meaning to render legally void, and it occurs only 4 times across just 3 verses (Matt 15:6, Mark 7:13, Gal 3:17), in every case of voiding a prior authoritative text. The cognate verb παρεδώκατε (from παραδίδωμι, you handed down) sits beside the noun παράδοσις, exposing the human chain of transmission as the agent of nullification. καὶ παρόμοια τοιαῦτα πολλὰ ποιεῖτε generalizes the pattern. The lexical claim is direct: tradition cannot annul the word of God, and where the two clash the tradition is the violation.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": "Mark.7.13"
+      },
+      {
+        "ref": "Acts.17.11",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G0350",
+            "lemma": "ἀνακρίνω"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G1209",
+            "lemma": "δέχομαι"
+          }
+        ],
+        "force": "The Bereans ἐδέξαντο τὸν λόγον (received the word, the apostolic preaching of Paul) μετὰ πάσης προθυμίας, ἀνακρίνοντες τὰς γραφὰς (examining the writings) εἰ ἔχοι ταῦτα οὕτως. ἀνακρίνω (G0350) is a judicial term, and its queried distribution clusters in Luke, Acts, and 1 Corinthians in forensic or court-examination contexts, so the sense here is examine and adjudicate, not merely read. The input under examination is living apostolic speech; the standard is the prior γραφαί. The narrative explicitly commends this stance as εὐγενέστεροι (more noble). Lexically, prior written revelation is the norm even for apostolic preaching.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.17.11"
+      },
+      {
+        "ref": "2Tim.3.16",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G2315",
+            "lemma": "θεόπνευστος"
+          },
+          {
+            "strong": "G1319",
+            "lemma": "διδασκαλία"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G4314",
+            "lemma": "πρός"
+          }
+        ],
+        "force": "πᾶσα γραφὴ θεόπνευστος καὶ ὠφέλιμος πρὸς διδασκαλίαν, πρὸς ἐλεγμόν, πρὸς ἐπανόρθωσιν, πρὸς παιδείαν τὴν ἐν δικαιοσύνῃ. θεόπνευστος (G2315) is a verbal adjective and a true hapax (queried 1 occurrence in the whole canon), rooting the writings authority in divine origin rather than human reception. γραφή (G1124) is the stable technical term for the writings and is pan-canonical in the New Testament (queried across 13 books), so its referent is not in doubt. The fourfold πρός series enumerates the functional offices that make Scripture the operative norm for teaching, refutation, restoration, and ethical formation, and πᾶσα γραφή is universal in scope. One genuine grammatical ambiguity exists: θεόπνευστος may be read predicatively (all Scripture is God-breathed and profitable) or attributively (every God-breathed Scripture is also profitable). Both readings describe the same writings with the same functions and yield the same authority pattern.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Tim.3.16"
+      },
+      {
+        "ref": "2Tim.3.17",
+        "key_terms": [
+          {
+            "strong": "G0739",
+            "lemma": "ἄρτιος"
+          },
+          {
+            "strong": "G1822",
+            "lemma": "ἐξαρτίζω"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          }
+        ],
+        "force": "ἵνα ἄρτιος ᾖ ὁ τοῦ θεοῦ ἄνθρωπος, πρὸς πᾶν ἔργον ἀγαθὸν ἐξηρτισμένος. The two completeness terms are both rare: ἄρτιος (G0739) is a true hapax (queried 1 occurrence) and the perfect participle ἐξηρτισμένος (from ἐξαρτίζω, G1822, queried only 2 occurrences, Acts 21:5 and here) means fully equipped. The ἵνα purpose clause makes Scripture sufficiency for the full equipping of the man of God the explicit goal of verse 16. πρὸς πᾶν ἔργον ἀγαθόν (toward every good work) is exhaustive in scope. The honest caution is that the load-bearing completeness vocabulary is rare, so its precise nuance rests on these two clauses rather than on a broad concordance; the surrounding ἵνα grammar and the πᾶς quantifier, however, fix the direction firmly toward sufficiency.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Tim.3.17"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Mark.7.10",
+        "to": "Exod.21.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.10",
+        "to": "Mark.10.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.9",
+        "to": "Mark.7.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.13",
+        "to": "Mark.7.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.8",
+        "to": "Isa.1.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.13",
+        "to": "Ezek.18.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.8.20",
+        "to": "Isa.8.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.8.20",
+        "to": "Isa.30.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.8.20",
+        "to": "Prov.4.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.11",
+        "to": "Ps.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.11",
+        "to": "Prov.1.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.11",
+        "to": "Acts.2.41",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "Ps.19.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "2Sam.23.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "2Tim.2.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "2Tim.4.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.17",
+        "to": "2Tim.2.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.17",
+        "to": "Ps.119.98",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Thess.2.15",
+        "addressed": true,
+        "resolution": "παρακαλῶ ... κρατεῖτε τὰς παραδόσεις ἃς ἐδιδάχθητε εἴτε διὰ λόγου εἴτε δι' ἐπιστολῆς ἡμῶν. The verb κρατεῖτε is the same one used negatively of human tradition in Mark 7:8, and the noun is the same lemma παράδοσις (G3862). This is the strongest lexical complication, because it shows the very word condemned in Mark 7 being commanded here. The disambiguator is the genitive of origin: here the tradition is apostolic (handed down by the apostles' own spoken word or letter), the same content that becomes γραφή within the canon. The lemma is morally neutral; its referent fixes its authority. The verse supports binding apostolic deposit but does not authorize a post-apostolic tradition stream operating parallel to or against the written word, which is the precise target of Mark 7:13's ἀκυρόω indictment."
+      },
+      {
+        "ref": "1Cor.11.2",
+        "addressed": true,
+        "resolution": "ἐπαινῶ δὲ ὑμᾶς ... καθὼς παρέδωκα ὑμῖν τὰς παραδόσεις κατέχετε. Same lexical phenomenon as 2Thess 2:15: παράδοσις from an apostle, delivered by direct first-generation transmission. The verb παραδίδωμι in Paul's mouth identifies the content as apostolic deposit. Queried distribution confirms the dual pattern of the one lemma: commended in 1Cor 11:2, 2Thess 2:15, and 2Thess 3:6, condemned in Mark 7, Matt 15, Col 2:8, and Gal 1:14. God-originated and apostle-delivered is binding; human-originated and contrary to the commandment is nullifying."
+      },
+      {
+        "ref": "2Pet.1.20",
+        "addressed": true,
+        "resolution": "πᾶσα προφητεία γραφῆς ἰδίας ἐπιλύσεως οὐ γίνεται. Sometimes invoked against private examination of Scripture, but the genitive ἰδίας ἐπιλύσεως with the verse 21 explanation (men spoke ὑπὸ πνεύματος ἁγίου φερόμενοι) places the origin of prophecy, not the venue of its reading, at issue. This does not undercut Acts 17:11's commendation of ἀνακρίνω examining γραφαί. Together the two affirm that Scripture's origin is divine, so it judges other claims, while the reader's task is to test speech against Scripture."
+      },
+      {
+        "ref": "John.21.25",
+        "addressed": true,
+        "resolution": "Many other things Jesus did that are not written. Lexically this is a comment on the selectivity of the written record, not on extra-canonical authority. The verse names no parallel oral channel claiming jurisdictional parity with the written γραφή; it concedes a scope-limit while verses 20 to 24 vouch for the truthfulness of what is written."
+      },
+      {
+        "ref": "1Tim.3.15",
+        "addressed": true,
+        "resolution": "the church is στῦλος καὶ ἑδραίωμα τῆς ἀληθείας (pillar and support of the truth). The genitive τῆς ἀληθείας makes the church's function supportive, not generative: the truth is the prior reality the church upholds. The same Pauline corpus to Timothy contains the theopneustia of Scripture (2Tim 3:16) and the same pastoral examination pattern (Acts 17:11 ἀνακρίνω). The pillar holds up the truth; the truth, lexically anchored to γραφὴ θεόπνευστος, is what judges."
+      },
+      {
+        "ref": "Col.2.8",
+        "addressed": true,
+        "resolution": "βλέπετε μή τις ὑμᾶς ἔσται ὁ συλαγωγῶν διὰ τῆς φιλοσοφίας ... κατὰ τὴν παράδοσιν τῶν ἀνθρώπων. This is added in this pass as a third negative occurrence of παράδοσις (G3862) outside the Synoptic anchor, with the same genitive τῶν ἀνθρώπων as Mark 7:8. It confirms that the condemned sense of the lemma is not limited to Jesus' dispute with the scribes but recurs in the apostolic letters, strengthening rather than complicating the verdict. The complication it removes is the suspicion that the negative sense is a one-context idiom: it is a stable Pauline usage too."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle reports not_in_ecm_scope true for the anchor books at these verses, and the only ingested ECM window (3 John) contains none of them, so no published CBGM data applies here. No variant unit in the standard apparatus for 2Tim 3:16 to 17, Acts 17:11, Mark 7:8 to 13, or BHS Isa 8:20 disturbs the lexical pattern that grounds the verdict: παράδοσις against ἐντολή and λόγος of θεός, πᾶσα γραφὴ θεόπνευστος, ἀνακρίνω of γραφαί, תּוֹרָה and תְּעוּדָה. The only notable reading question is the predicative versus attributive construal of θεόπνευστος in 2Tim 3:16, which is a syntactic, not a manuscript, matter and does not change which writings are described or what functions they serve. The verdict therefore holds across all plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "grammatico-historical",
+      "analogia-scripturae"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "scripture-norms-all-subsequent-voices",
+        "verdict": "affirms",
+        "rationale": "Reading each anchor in its own clause and then across the four texts, the recurring lexical move is that a prior written, God-originated deposit (תּוֹרָה and תְּעוּדָה, γραφή, λόγος of θεός) is the fixed standard, and later voices (oracles, human tradition, even apostolic preaching) are judged by it using forensic verbs (ἀκυρόω, ἀθετέω, ἀνακρίνω). On this reading the proposition is affirmed: where Scripture and a later authority conflict on what Scripture addresses, Scripture holds."
+      },
+      {
+        "framework": "two-stream-deposit-scripture-plus-apostolic-tradition",
+        "verdict": "qualifies",
+        "rationale": "This lens takes seriously that the same lemma παράδοσις (G3862) is commanded in 1Cor 11:2, 2Thess 2:15, and 2Thess 3:6, and that 2Thess 2:15 explicitly pairs spoken word with letter as equally to be held. Stated in its strongest form, the words themselves do not say that the only legitimate transmission of apostolic teaching is the written one; they affirm a deposit that came by both speech and writing. The lexical reply, not a tradition reply, is that the canon nowhere ranks a continuing non-apostolic oral stream alongside γραφή, and the one word that could carry such a stream (παράδοσις) is condemned wherever its origin is human (Mark 7, Col 2:8, Gal 1:14). The vocabulary affirms an apostolic deposit but does not establish a self-standing post-apostolic tradition with parity to Scripture, so this lens qualifies the proposition's scope rather than denying its core."
+      }
+    ],
+    "notes": "The verdict is reached by grammatico-historical reading of each anchor in its immediate clause, then by analogia Scripturae across the four texts and their TSK and OpenBible cross-references. Progressive revelation is invoked only insofar as the New Testament authors treat the Hebrew γραφαί as a fixed prior deposit (Acts 17:11; 2Tim 3:15 calls Timothy's childhood writings ἱερὰ γράμματα) and the apostolic deposit (1Cor 11:2; 2Thess 2:15) is itself later named γραφή within the canon (2Pet 3:16 ranks Pauline letters with ταῖς λοιπαῖς γραφαῖς). No allegorical or fourfold reading is required; the lexical pattern is overt. The two competing lenses above are stated symmetrically: both rest on real queried distribution of παράδοσις, and they differ on scope, not on whether written Scripture norms what contradicts it."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Where Scripture and any other authority (tradition, church council, ecclesial office, or personal experience) conflict on a matter Scripture addresses, which holds the final word?",
+    "notes": "The stem's phrasing 'final and supreme authority above all tradition, councils, and personal experience' echoes a confessional formulary, and the explicit triad ('tradition, councils, and personal experience') is itself a later polemical inventory rather than a biblical idiom. Two clarifications keep the treatment honest. First, the lexical pattern in the anchors concerns Scripture against human tradition that contradicts the divine commandment (Mark 7:8 to 13) and Scripture as the examination standard for apostolic preaching (Acts 17:11); the words do not address the modern category of 'church council' directly, since the New Testament's one quasi-conciliar moment (Acts 15) itself reasons by appeal to prophetic Scripture (Acts 15:15 to 18). Second, the canon does affirm apostolic παράδοσις (1Cor 11:2; 2Thess 2:15), so the verdict concerns the relation of Scripture to non-apostolic post-canonical tradition, not the existence of authoritative apostolic transmission. Tagging the stem as verdict-preloaded does not change the lexical verdict, which is derived on the original stem; it flags that the stem's exhaustive triad imports a later taxonomy into a text-level question. Verdict affirms is unchanged from the prior evidence file; the deepened queries (paradosis dual pattern, akyroo only at Matt 15:6, Mark 7:13, Gal 3:17, theopneustos and artios hapax, teudah near-hapax with a divergent Ruth 4:7 sense) confirm rather than alter it."
+  },
+  "lay_summary": "Four passages anchor the question and they all point the same way. In Isaiah 8:20 the Hebrew pairs torah (written instruction) with teudah (the testimony) and tells the reader to test every speaker against this prior word; anyone who does not speak according to it has no dawn coming. In Mark 7:8 to 13 Jesus draws a clean line using two genitives: the commandment of God on one side, the tradition of men on the other. The verbs are blunt. They forsake, set aside, and nullify the commandment so they can keep the tradition. The word translated nullify is a legal term meaning to render void, and in the whole New Testament it appears only three places, always of voiding a prior authoritative text. The point is not that all tradition is bad but that when human transmission collides with what God has spoken in writing, the writing wins. In Acts 17:11 the Bereans are called more noble because they received Paul's preaching and then examined the Scriptures, using a courtroom word for examination, to see whether his preaching matched. Even apostolic preaching gets tested against prior written Scripture. In 2 Timothy 3:16 to 17 the foundation is stated outright: every Scripture is God-breathed (a word used nowhere else in the canon) and useful for teaching, rebuke, correction, and training, so that the man of God is complete and fully equipped for every good work. Now the honest part, which is also why readers diverge. The one word the Bible uses for tradition is the same in the verses that condemn it and the verses that command it; Paul tells the Thessalonians to hold the traditions he handed down by word or letter. The word itself does not settle the matter. What settles it in the text is the origin the grammar attaches: God-given and apostle-delivered tradition is binding, while tradition labeled of men is what gets nullified. So the divergence is not about whether Scripture judges what contradicts it; it is about how far an apostolic deposit extends and whether any later, non-apostolic stream stands beside the written word. On the words alone, the canon affirms the deposit but never ranks a separate ongoing tradition equal to Scripture.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.8.20"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.7.8"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.7.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.7.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.17.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Tim.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Tim.3.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3862"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0208"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2315"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0739"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8584"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8451"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.8.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.7.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.7.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.17.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.17"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.8.20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mark.7.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.17.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Tim.3.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Isa.8.20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Mark.7.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Three cited sources carry CC-BY-NC-4.0 terms. The MACULA-Hebrew and MACULA-Greek composite interlinear bundles resolve to CC-BY-NC-4.0 at the composite-slug level (they include MARBLE, SDBH, and Louw-Nida sense data). The ETCBC-BHSA syntactic context for Isa 8:20 is also CC-BY-NC-4.0. A downstream public-release filter must either restrict citations to the redistributable subset (STEPBible-TBESG, STEPBible-TBESH, OSHB-morphology, MorphGNT-morphology, TSK, OpenBible-cross-refs) or negotiate a license. The verdict and the queried lemma pattern, including the decisive paradosis dual-sense distribution and the akyroo and theopneustos and artios occurrence counts, stand independently on that redistributable subset."
+  },
+  "flags": []
+}

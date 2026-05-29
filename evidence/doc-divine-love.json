@@ -1,0 +1,504 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-love",
+  "question_id": "doc-divine-love",
+  "generated_at": "2026-05-27T12:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "In 1 John 4:8 and 4:16 the morphology gives an articular subject ho theos (T-NSM plus N-NSM) with an anarthrous qualitative predicate nominative agape (N-NSF) joined by the copula estin (V-PAI-3S). This is the same construction the same author uses for ho theos phos estin in 1 John 1:5 and that John 4:24 uses for pneuma ho theos, so love is predicated of God's nature, not reported as a mere occasional act. The proposition is non-convertible (it does not read he agape theos estin), which forecloses a flat God-equals-love identity while affirming love as constitutive of the divine being. The pattern is pan-canonical: agape and agapao occur 116 and 143 times with God or Christ frequently as subject, the Hebrew hesed (247) and ahav (209) carry steadfast covenant love through the Old Testament, and Exodus 34:6 places hesed at the center of God's self-revelation. John 17:24 sets divine love before the foundation of the world."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0026",
+        "lemma": "ἀγάπη",
+        "transliteration": "agapē",
+        "occurrences_in_canon": 116,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0025",
+        "lemma": "ἀγαπάω",
+        "transliteration": "agapaō",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1307,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3306",
+        "lemma": "μένω",
+        "transliteration": "menō",
+        "occurrences_in_canon": 118,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3439",
+        "lemma": "μονογενής",
+        "transliteration": "monogenēs",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4921",
+        "lemma": "συνίστημι",
+        "transliteration": "synistēmi",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2617",
+        "lemma": "חֶסֶד",
+        "transliteration": "ḥesed",
+        "occurrences_in_canon": 247,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0157",
+        "lemma": "אָהַב",
+        "transliteration": "ʾahav",
+        "occurrences_in_canon": 209,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0160",
+        "lemma": "אַהֲבָה",
+        "transliteration": "ʾahavah",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0026",
+      "G0025",
+      "G2316",
+      "G1510",
+      "G3306",
+      "G3439",
+      "G4921",
+      "G5547",
+      "G1325",
+      "G5207",
+      "H2617",
+      "H0157",
+      "H0160"
+    ],
+    "scripture": [
+      {
+        "ref": "1John.4.8",
+        "key_terms": [
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          }
+        ],
+        "force": "Token morphology confirms ho theos as T-NSM plus N-NSM (articular subject) with agape as N-NSF (anarthrous predicate nominative) and estin as V-PAI-3S (the simple copula of being). Article placement makes theos the subject and agape the qualitative predicate, so the clause states what God is in nature, not what he occasionally does. The negated converse ho me agapon ouk egno ton theon, with agapon as V-PAP-NSM, ties knowing God inseparably to active loving.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1JN 4:8"
+      },
+      {
+        "ref": "1John.4.16",
+        "key_terms": [
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3306",
+            "lemma": "μένω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "The formula ho theos agape estin is repeated with identical morphology (T-NSM, N-NSM, N-NSF, V-PAI-3S) and is framed by perfect verbs egnokamen and pepisteukamen (V-RAI-1P), signaling settled knowledge. The added clause ho menon en te agape en to theo menei (meno as V-PAP-NSM and V-PAI-3S) makes abiding in love and abiding in God mutually entailing, so love is presented as both definitional of God and the locus of communion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1JN 4:16"
+      },
+      {
+        "ref": "John.3.16",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          },
+          {
+            "strong": "G3439",
+            "lemma": "μονογενής"
+          }
+        ],
+        "force": "Aorist egapesen (V-AAI-3S) takes ho theos as subject and ton kosmon as object. The adverb Houtos plus the result conjunction hoste governs edoken (V-AAI-3S) and the giving of ton huion ton monogene (monogenes is a 9-occurrence term, A-ASM). Divine love is shown as self-giving and extended toward an undeserving world, putting the predicate of nature into concrete redemptive act.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 3:16"
+      },
+      {
+        "ref": "Rom.5.8",
+        "key_terms": [
+          {
+            "strong": "G4921",
+            "lemma": "συνίστημι"
+          },
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Present synistesin (V-PAI-3S, to demonstrate or establish by proof) takes ten heautou agapen as object, qualified by the genitive absolute eti hamartolon onton hemon (still being sinners). The reflexive heautou and the temporal qualifier place divine love logically prior to and independent of the worthiness of its object, ruling out merit-based or reactive readings of God's love. The 16-occurrence synistemi is rare but its demonstrative sense is stable here.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 5:8"
+      },
+      {
+        "ref": "John.17.24",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "egapesas me pro kataboles kosmou. Aorist egapesas (V-AAI-2S) has the Father as subject and the Son (me) as object, qualified by pro kataboles kosmou (before the foundation of the world). With John 17:26, where he agape hen egapesas me is to abide en autois, this anchors intra-Trinitarian love as pre-temporal and not contingent on creation, supporting the eternally loving within the Trinity clause of the proposition.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 17:24"
+      },
+      {
+        "ref": "Exod.34.6",
+        "key_terms": [
+          {
+            "strong": "H2617",
+            "lemma": "חֶסֶד"
+          },
+          {
+            "strong": "H7349",
+            "lemma": "רַחוּם"
+          }
+        ],
+        "force": "The divine self-revelation YHWH YHWH El rachum (H7349, compassionate) ve-channun (H2587, gracious) erekh appayim ve-rav hesed (H2617) ve-emet. Token morphology shows hesed as a common-noun absolute at the structural center of God's own name-disclosure. This grounds the New Testament love predicate in the Old Testament self-description of God's character and supplies the pan-canonical breadth (OT plus NT) the proposition requires.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1John.4.8",
+        "to": "1John.4.16",
+        "source": "openbible",
+        "votes": 45
+      },
+      {
+        "from": "1John.4.8",
+        "to": "Ps.86.15",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "1John.4.8",
+        "to": "Exod.34.6",
+        "source": "openbible",
+        "votes": 19
+      },
+      {
+        "from": "1John.4.8",
+        "to": "1John.1.5",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "1John.4.16",
+        "to": "1John.4.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.16",
+        "to": "Rom.5.8",
+        "source": "openbible",
+        "votes": 962
+      },
+      {
+        "from": "John.3.16",
+        "to": "1John.4.9",
+        "source": "openbible",
+        "votes": 682
+      },
+      {
+        "from": "John.3.16",
+        "to": "John.1.14",
+        "source": "openbible",
+        "votes": 165
+      },
+      {
+        "from": "Rom.5.8",
+        "to": "John.15.13",
+        "source": "openbible",
+        "votes": 171
+      },
+      {
+        "from": "Rom.5.8",
+        "to": "Isa.53.6",
+        "source": "openbible",
+        "votes": 84
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.9.13",
+        "addressed": true,
+        "resolution": "Token morphology gives ton Iakob egapesa (agapao, V-AAI-1S) ton de Esau emisesa (miseo, G3404, V-AAI-1S). The same agape verb pairs with miseo in a Semitic comparative idiom of elective preference, the construction also seen in Luke 14:26 set beside Matthew 10:37 where misei and ou philei mark relative priority. The text modulates the scope and economy of redemptive love but does not negate the predicate-nominative claim of 1 John 4:8 and 4:16, since the contrast is comparative election, not the denial that love is constitutive of God's nature."
+      },
+      {
+        "ref": "Ps.5.5",
+        "addressed": true,
+        "resolution": "In the Masoretic versification (Ps 5:6) sane (H8130, V-Qal perfect 2ms, you hate) takes kol poale aven (all workers of iniquity) as object. This predicates judicial opposition to persistent evil within the same canon that affirms God's love toward sinners in Romans 5:8. The two are not contradictory predicates: love as essential disposition and settled moral hatred of evil operate at different levels, and the lexical stock keeps both without ranking either away."
+      },
+      {
+        "ref": "Rom.9.13b",
+        "addressed": true,
+        "resolution": "The hesed lexeme itself carries an attested homonym. STEPBible-TBESH lists H2617 with two glosses, the dominant goodness, kindness, faithfulness sense and a rare reproach, shame sense (as in Leviticus 20:17, Proverbs 14:34). This polysemy is real but does not destabilize the verdict, because the covenant-love sense is overwhelmingly dominant across the 247 occurrences and is the sense in the Exodus 34:6 self-revelation. The minority sense never attaches to God as subject."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No anchor verse (1 John 4:8, 1 John 4:16, John 3:16, Romans 5:8, John 17:24, Exodus 34:6) falls within the ingested ECM window of 3 John 1:1 to 1:15, so this is not_in_ecm_scope. The predicate noun agape in ho theos agape estin is stable across the SBLGNT and Nestle1904 layers queried, with no flagged variant unit touching the copular construction. The verdict does not turn on any disputed reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "love_as_divine_essence",
+        "verdict": "affirms",
+        "rationale": "Reads the anarthrous qualitative predicate agape in ho theos agape estin as a statement about what God is, parallel to ho theos phos estin (1 John 1:5) and pneuma ho theos (John 4:24). On this reading love is constitutive of the divine being, not an added quality, and John 17:24 confirms it is eternal and intra-Trinitarian."
+      },
+      {
+        "framework": "love_as_one_coequal_attribute",
+        "verdict": "affirms_with_qualification",
+        "rationale": "Grants that love is truly predicated of God but notes the same anarthrous predicate construction also yields God is light and God is spirit, so on grammar alone love is one of several essential predicates and is not lexically ranked above holiness or justice. This reading affirms the proposition while resisting any inference that love overrides God's other attributes, and it is fairly represented by the co-predication pattern in the text."
+      },
+      {
+        "framework": "relational_dynamic_love",
+        "verdict": "affirms_with_qualification",
+        "rationale": "Reads divine love as essentially relational and self-giving, foregrounding agapao with God as subject acting toward the world (John 3:16, Romans 5:8). The pre-temporal Father-to-Son love of John 17:24, set before the foundation of the world, blocks any version of this reading that would make God's love contingent on or first activated by creation."
+      }
+    ],
+    "notes": "The verdict rests on grammatico-historical analysis of the anarthrous qualitative predicate-nominative construction in 1 John 4:8 and 4:16, read alongside the same author's parallel God-is-light clause, the pre-temporal egapesas me pro kataboles kosmou of John 17:24, and the Old Testament hesed self-revelation of Exodus 34:6. Analogia scripturae harmonizes Romans 9:13 and Psalm 5:5. Progressive revelation tracks the hesed and ahav vocabulary forward into the agape and agapao group."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem uses essence language (in His very essence) and intra-Trinitarian relation. These are theological terms but they track directly to observable grammar: the anarthrous qualitative predicate nominative of 1 John 4:8 and 4:16 supplies the essence claim, and the pro kataboles kosmou clause of John 17:24 supplies the intra-Trinitarian and eternal claim. The stem does not encode a single tradition's confessional taxonomy, so it is not verdict-preloaded. Cross-references were re-queried against the live store: the prior file labeled OpenBible edges as tsk with vote 1, and this pass corrects them to their real sources and vote counts, retaining 1John.4.16 to 1John.4.9 as TSK since that edge is present in TSK but not OpenBible."
+  },
+  "lay_summary": "The Greek of First John 4:8 and 4:16 reads ho theos agape estin. The morphology settles the question of who is the subject: theos carries the article (ho theos) and agape does not, so the sentence means God is love, telling us what God is in his nature, not merely that he sometimes acts lovingly. The verb estin is the plain is of being. The same writer builds the same kind of sentence when he says God is light in First John 1:5, and John 4:24 does it with God is spirit. That parallel is the key to why careful readers still differ. The grammar clearly makes love a defining predicate of God, but because the very same construction also predicates light and spirit, the words by themselves do not rank love above God's other essential qualities. So one reader hears love is the whole of God, another hears love is one of several things God essentially is, and both are reading the same grammar honestly. The wider canon settles the direction even if it leaves that ranking open. John 3:16 puts the love into action with the aorist egapesen and the giving of the only Son. Romans 5:8 uses synistesin, to prove or demonstrate, and adds while we were still sinners, which rules out a love that waits for worthiness. John 17:24 reaches back before the foundation of the world, where the Father loved the Son, so the love is eternal, not switched on by creation. In the Old Testament the words hesed, steadfast covenant love, appears about two hundred forty seven times and the verb ahav about two hundred nine times, and Exodus 34:6 places hesed at the center of God naming his own character. Texts where God hates, like Romans 9:13 and Psalm 5:5, speak of elective preference and judicial opposition to evil and do not cancel the predicate. Across the Old Testament and the Gospels and the letters, the pattern is steady and dense. Love is not an occasional mood in God. It is part of what God is.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.4.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.4.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.17.24"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.34.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0026"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0025"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2617"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1John.4.8"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.17.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.3.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1John.4.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.4.16"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids bulk commercial redistribution. The other sources used (MorphGNT-morphology, OSHB-morphology, STEPBible-TBESG, STEPBible-TBESH, OpenBible-cross-refs, TSK) are individually redistributable, but the aggregate is gated by the MACULA-Greek non-commercial term."
+  },
+  "flags": []
+}

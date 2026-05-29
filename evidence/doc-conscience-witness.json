@@ -1,0 +1,552 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-conscience-witness",
+  "question_id": "doc-conscience-witness",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.8,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The Greek noun συνείδησις (G4893) occurs in 28 verses across ten New Testament books (John, Acts, Romans, 1 and 2 Corinthians, 1 and 2 Timothy, Titus, Hebrews, 1 Peter) with a stable moral sense of an internal faculty that observes and renders a verdict on conduct. The witness claim is grammatically explicit and doubly attested: Romans 2.15 and Romans 9.1 both use the present active participle συμμαρτυρούσης (G4828, to co-witness) with συνειδήσεως in a genitive-absolute construction, and Romans 2.15 frames the act with the courtroom verbs κατηγορούντων (G2723, accusing) and ἀπολογουμένων (G0626, defending) over the law γραπτὸν ἐν ταῖς καρδίαις (written in the heart). Romans 1.19-20 places what is known of God ἐν αὐτοῖς (within them) and draws the conclusion ἀναπολογήτους (G0379, without excuse). The damage clause is also lexically secured. Conscience can be good (1 Tim 1.5), thrust away (1 Tim 1.19), seared (κεκαυστηριασμένων, 1 Tim 4.2), weak (1 Cor 8.7), defiled (Titus 1.15), or cleansed (Heb 9.14). The only genuine lexical slack is that συνείδησις is polysemous (a general awareness sense alongside the moral-conscience sense) and the faculty is documented as fallible, which bears on its reliability but not on whether it witnesses."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4893",
+        "lemma": "συνείδησις",
+        "transliteration": "syneidēsis",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4828",
+        "lemma": "συμμαρτυρέω",
+        "transliteration": "symmartyreō",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2723",
+        "lemma": "κατηγορέω",
+        "transliteration": "katēgoreō",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0626",
+        "lemma": "ἀπολογέομαι",
+        "transliteration": "apologeomai",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0379",
+        "lemma": "ἀναπολόγητος",
+        "transliteration": "anapologētos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1123",
+        "lemma": "γραπτός",
+        "transliteration": "graptos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1110",
+        "lemma": "γνωστός",
+        "transliteration": "gnōstos",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 146,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 200,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 177,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2743",
+        "lemma": "καυστηριάζω",
+        "transliteration": "kaustēriazō",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0683",
+        "lemma": "ἀπωθέομαι",
+        "transliteration": "apōtheomai",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4893",
+      "G4828",
+      "G3140",
+      "G2723",
+      "G0626",
+      "G0379",
+      "G1123",
+      "G1110",
+      "G2588",
+      "G3551",
+      "G2041",
+      "G2743",
+      "G0683",
+      "G0299",
+      "G0505",
+      "G0018",
+      "G0772",
+      "G3435",
+      "G3392"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.2.14",
+        "key_terms": [
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "Gentiles who do not possess the Mosaic Law nevertheless by nature (φύσει) do the things of the law and so are a law to themselves, establishing that moral knowledge operates apart from written revelation. OpenBible links this verse to Rom 2.12, Ps 147.19, and Acts 17.30, tying Gentile moral capacity to the giving of the law and to general moral accountability.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.2.15",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G4828",
+            "lemma": "συμμαρτυρέω"
+          },
+          {
+            "strong": "G1123",
+            "lemma": "γραπτός"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          }
+        ],
+        "force": "The work of the law is γραπτὸν (G1123, written, here a hapax adjective in A-ASN form) ἐν ταῖς καρδίαις, and the conscience co-witnesses. The verb is συμμαρτυρούσης (G4828), a present active participle (V-PAP-GSF) standing in a genitive-absolute with συνειδήσεως (genitive), so the grammar names conscience as the explicit subject of an ongoing act of joint testimony. The reasonings (λογισμοί) alternately accuse (κατηγορούντων, G2723) or defend (ἀπολογουμένων, G0626). This is the single most explicit lexical anchor for an internal witnessing faculty that prosecutes or defends moral action.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.1",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G4828",
+            "lemma": "συμμαρτυρέω"
+          }
+        ],
+        "force": "Paul says his conscience co-witnesses with him in the Holy Spirit, using the identical form συμμαρτυρούσης (G4828, V-PAP-GSF) with συνειδήσεώς (genitive) in a genitive-absolute, exactly the Rom 2.15 construction. The witness verb appears only three times in the New Testament (Rom 2.15, 8.16, 9.1), all in Romans, and twice with conscience, which makes the conscience-as-witness usage Paul's own settled idiom rather than a one-off metaphor.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.19",
+        "key_terms": [
+          {
+            "strong": "G1110",
+            "lemma": "γνωστός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "What can be known of God is φανερόν ἐν αὐτοῖς (manifest in them), because God has shown it to them. The locative ἐν αὐτοῖς places the knowledge inside the moral agent. OpenBible weights the Rom 1.19 and 1.20 mutual link heavily (16 and 56 votes), and links the passage to Ps 19.1 and Acts 14.16, confirming the general-revelation reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.20",
+        "key_terms": [
+          {
+            "strong": "G0517",
+            "lemma": "ἀόρατος"
+          },
+          {
+            "strong": "G0126",
+            "lemma": "ἀΐδιος"
+          },
+          {
+            "strong": "G0379",
+            "lemma": "ἀναπολόγητος"
+          }
+        ],
+        "force": "God's invisible attributes are clearly perceived (καθορᾶται) from the creation, with the explicit purpose εἰς τὸ εἶναι αὐτοὺς ἀναπολογήτους (so that they are without excuse). ἀναπολόγητος (G0379) occurs only twice, both in Romans (1.20, 2.1), and is built on the same ἀπολογ- root as the defending function of conscience in 2.15, so the witness that can defend is precisely the witness whose verdict leaves the suppressor with no defense. OpenBible links Rom 1.20 to Ps 19.1, Ps 8.3, and Ps 33.6, anchoring the creation-witness arm in the Hebrew canon even though the term ἀναπολόγητος is New Testament only.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.1.5",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          },
+          {
+            "strong": "G0505",
+            "lemma": "ἀνυπόκριτος"
+          }
+        ],
+        "force": "The goal of the charge is love ἐκ καθαρᾶς καρδίας καὶ συνειδήσεως ἀγαθῆς καὶ πίστεως ἀνυποκρίτου. A good conscience is paired with a clean heart and an unhypocritical faith, indicating that συνείδησις is a calibratable moral faculty whose state can be qualified as good.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.1.19",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G0683",
+            "lemma": "ἀπωθέομαι"
+          }
+        ],
+        "force": "Some, having thrust away (ἀπωσάμενοι, from ἀπωθέομαι G0683) a good conscience, have shipwrecked (ἐναυάγησαν) their faith. The verb shows conscience can be actively rejected, confirming the damage-but-persistence pattern stated in the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.14",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G0299",
+            "lemma": "ἄμωμος"
+          }
+        ],
+        "force": "The blood of Christ cleanses (καθαριεῖ) the conscience from dead works to serve the living God. Conscience is presented as defiled and in need of cleansing, which presupposes that it persists in damaged form prior to that cleansing. OpenBible heavily links Heb 9.14 to Heb 10.22 (45 votes), where the conscience is sprinkled clean.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Job.27.6",
+        "key_terms": [
+          {
+            "strong": "H3824",
+            "lemma": "לֵבָב"
+          }
+        ],
+        "force": "Job says his heart (לְבָבִי, lebab) does not reproach him for any of his days, using the heart as an inward moral monitor that can accuse or acquit. The Hebrew canon carries the conscience function with לֵב and לֵבָב (heart) rather than a dedicated term, which is why OpenBible links Rom 2.15 to Job 27.6 (6 votes). This shows the doctrine is conceptually cross-canonical even though the specific noun συνείδησις is New Testament only.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.2.15",
+        "to": "Gen.3.8",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "Rom.2.15",
+        "to": "Rom.9.1",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "Rom.2.15",
+        "to": "Titus.1.15",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Rom.2.15",
+        "to": "Job.27.6",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "Rom.2.14",
+        "to": "Rom.2.12",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Rom.1.20",
+        "to": "Rom.1.19",
+        "source": "openbible",
+        "votes": 56
+      },
+      {
+        "from": "Rom.1.20",
+        "to": "Ps.19.1",
+        "source": "openbible",
+        "votes": 42
+      },
+      {
+        "from": "Rom.1.19",
+        "to": "Acts.14.16",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "1Tim.1.5",
+        "to": "Ps.24.4",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "Heb.9.14",
+        "to": "Heb.10.22",
+        "source": "openbible",
+        "votes": 45
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.8.7",
+        "addressed": true,
+        "resolution": "Paul speaks of a weak conscience (συνείδησις ἀσθενής, G0772, weak occurs 23 times) that is defiled (μολύνεται, G3435) by eating food associated with idols. A textual footnote in the lexical apparatus even records an ancient variant reading συνηθείᾳ (custom) for συνειδήσει here, which underlines that the noun ranges across more than the strict moral sense. This complicates a reading of conscience as infallible but confirms the proposition: conscience is a real witness yet can be miscalibrated, exactly the damaged-by-sin clause under test."
+      },
+      {
+        "ref": "1Tim.4.2",
+        "addressed": true,
+        "resolution": "The conscience can be κεκαυστηριασμένων (from καυστηριάζω, G2743, a hapax meaning to brand or cauterize), seared as with a hot iron. This is the strongest damage term applied to conscience in the canon and reinforces the damaged-by-sin qualifier. The faculty can be cauterized toward insensibility, yet the lexical category persists as the thing that has been seared."
+      },
+      {
+        "ref": "Titus.1.15",
+        "addressed": true,
+        "resolution": "Both the mind (νοῦς) and the conscience (συνείδησις) of the defiled are themselves defiled (μεμίανται, from μιαίνω G3392). This complicates treating conscience as a reliable rule, but it does not negate its witnessing function. Paul still treats the defiled conscience as a real locus of moral disorder, which presumes it remains the faculty that registers right and wrong."
+      },
+      {
+        "ref": "2Cor.4.2",
+        "addressed": true,
+        "resolution": "Here συνείδησις carries the broader sense of awareness or self-perception (Paul commends himself to every person's conscience), a sense the standard lexicon lists separately from the strict moral-conscience sense. This polysemy is the chief lexical reason a reader could quibble over scope, but in the anchor verses Rom 2.15 and Rom 9.1 the moral sense is disambiguated by the witness verb and the accuse and defend pairing, so it does not weaken the verdict."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "None of the anchor verses fall in the ingested ECM window (3 John), so no published CBGM data applies. The Rom 2.14 ⸀ποιῶσιν word-order marker and the Heb 9.14 ⸀ἡμῶν pronoun marker are form and pronoun variants that do not touch the συνείδησις, συμμαρτυρέω, γραπτός, or ἀναπολόγητος readings, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "natural_law",
+      "covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "natural_law",
+        "verdict": "affirms",
+        "rationale": "Rom 2.14-15 is read as direct evidence of an internal moral knowledge available to all humans apart from special revelation. The genitive-absolute συμμαρτυρούσης with συνειδήσεως plus the accuse and defend pairing supplies the inward law-court this lens needs, and Rom 1.19-20 supplies the creation-witness that renders all ἀναπολογήτους."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the work of the law written on the heart in Rom 2.15 as a creation-order residue surviving the Fall, with conscience as its damaged but persistent register, harmonized with later covenant inscription language. On this lens the verdict is unaffected because the term-level witness is intact regardless of how the heart-writing is dated."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Treats Gentile conscience in Rom 2 as a distinct moral economy under which non-Mosaic humanity is judged. The lexical witness pattern is read the same way, so the verdict is shared even where the framework differs on covenantal arc."
+      },
+      {
+        "framework": "reliability-skeptical reading",
+        "verdict": "affirms-with-scope-limit",
+        "rationale": "A reader who stresses 1 Cor 8.7 (weak), 1 Tim 4.2 (seared), and Titus 1.15 (defiled) grants that conscience witnesses but denies it is an infallible guide, since the canon shows the same faculty can be miscalibrated or silenced. This reading is fully compatible with the proposition, which itself says the witness is damaged by sin. It limits the scope of conscience as a rule, not whether it bears witness."
+      }
+    ],
+    "notes": "The frameworks converge on the affirms verdict because the witness function is fixed at the level of grammar and recurring vocabulary rather than at the level of any framework. They diverge only on the reliability and scope of the witness, which the words address by qualifying conscience as good, weak, seared, defiled, or cleansed, never by denying that it testifies."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition describes the lexical phenomenon (internal witness, accuses or excuses, damaged by sin, renders without excuse) using terms drawn directly from Rom 2.14-15 (συμμαρτυρέω, κατηγορέω, ἀπολογέομαι) and Rom 1.20 (ἀναπολόγητος), so no tradition-laden framing is smuggled in. Verdict and confidence are unchanged from the prior file after direct querying of the lexical store confirmed every count and construction; the only structured corrections were the συνείδησις occurrence figure (the queried STEPBible-TAGNT count is 28 distinct verses rather than 31), the cross-reference source (the graph carries these as OpenBible with real vote counts, not TSK with one vote each), and the removal of a Rom 1.20 to Rom 16.26 link that does not exist in the cross-reference graph."
+  },
+  "lay_summary": "The Greek word syneidesis, usually translated conscience, appears in twenty-eight verses across ten New Testament books, and its moral sense is steady: an inward faculty that watches a person's conduct and returns a verdict. The clearest proof is grammatical. In Romans 2.15 and again in Romans 9.1 Paul uses the same present participle of the verb to co-witness, symmartyreo, with the word conscience, in a construction that names conscience as the active subject of an ongoing testimony. This verb occurs only three times in the whole New Testament, all in Romans, and twice it is conscience doing the witnessing, so this is Paul's settled way of speaking, not a stray image. Romans 2.15 surrounds it with courtroom words, accusing and defending, over a law that is written on the heart. Romans 1.19-20 says what can be known of God is plain within people and concludes that they are without excuse, a word built from the same root as the defending function of conscience. The damage clause is equally clear from the words. Conscience can be good, thrust away, seared as with a hot iron, weak, defiled, or washed clean by the blood of Christ. Why then do careful readers still differ? The reason is in the vocabulary itself, not in church history. The word syneidesis carries more than one attested sense. Sometimes it means general awareness or self-perception, and sometimes it means specifically the moral conscience, and a standard lexicon notes the two senses run together and even records an old variant reading at one verse. So a reader can grant that conscience witnesses yet argue about how far its verdict should be trusted, since the same texts show it can be miscalibrated or silenced. That tension is about the reliability and scope of the witness, never about whether it testifies. On the testimony itself the words leave no real room, which is why the proposition stands as affirmed. The Hebrew canon supports the same idea by other words, using heart for the inward monitor, as when Job says his heart does not reproach him.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4893"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4828"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0379"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.2.15"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.9.1"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.20"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.4.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.9.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Job.27.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.1.20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.2.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Heb.9.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

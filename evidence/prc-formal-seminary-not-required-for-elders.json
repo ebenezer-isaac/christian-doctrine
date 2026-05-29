@@ -1,0 +1,449 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-formal-seminary-not-required-for-elders",
+  "question_id": "prc-formal-seminary-not-required-for-elders",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The two qualification lists (1Tim 3:1-7, Titus 1:5-9) enumerate moral character, household management, and exactly one cognitive competence: didaktikos (G1317, able to teach, 1Tim 3:2) expanded in Titus 1:9 as being dunatos (G1415, able) to hold fast (antecho, G0472) the trustworthy word (pistos logos) according to the teaching (kata ten didachen, G1322), so as to exhort in sound doctrine and refute opponents. Neither list contains any term for formal scribal training, a school, an academic degree, or an ordination certificate. The requirement is a real capability and content fidelity, not an institution. Acts 4:13 positively labels Peter and John agrammatoi (G0062, a true hapax, unlettered) and idiotai (G2399, untrained, ordinary, the same word Paul uses for the non-specialist layperson), yet the council recognized they had been with Jesus, grounding competence in instruction by Christ rather than a credential. 2Tim 2:2 sets the transmission standard as faithful men competent (hikanos, G2425) to teach others, again a capability term. The positive criteria of the proposition are directly readable; the negative half rests on the absence of any credential lexeme plus the Acts 4:13 example. Confidence is medium because that negative claim is partly an argument from silence and the teaching requirement still presupposes genuine doctrinal competence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0062",
+        "lemma": "ἀγράμματος",
+        "transliteration": "agrammatos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2399",
+        "lemma": "ἰδιώτης",
+        "transliteration": "idiotes",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1317",
+        "lemma": "διδακτικός",
+        "transliteration": "didaktikos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1985",
+        "lemma": "ἐπίσκοπος",
+        "transliteration": "episkopos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4245",
+        "lemma": "πρεσβύτερος",
+        "transliteration": "presbyteros",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0410",
+        "lemma": "ἀνέγκλητος",
+        "transliteration": "anenkletos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2425",
+        "lemma": "ἱκανός",
+        "transliteration": "hikanos",
+        "occurrences_in_canon": 41,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1415",
+        "lemma": "δυνατός",
+        "transliteration": "dunatos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4291",
+        "lemma": "προΐστημι",
+        "transliteration": "proistemi",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4168",
+        "lemma": "ποίμνιον",
+        "transliteration": "poimnion",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4998",
+        "lemma": "σώφρων",
+        "transliteration": "sophron",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5382",
+        "lemma": "φιλόξενος",
+        "transliteration": "philoxenos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0062",
+      "G2399",
+      "G1317",
+      "G1318",
+      "G2312",
+      "G1985",
+      "G4245",
+      "G0410",
+      "G0423",
+      "G4291",
+      "G4168",
+      "G4998",
+      "G5382",
+      "G2425",
+      "G1415",
+      "G1322",
+      "G1319",
+      "G1321",
+      "G2727",
+      "G3052",
+      "G1651",
+      "G1163"
+    ],
+    "scripture": [
+      {
+        "ref": "1Tim.3.2",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπον"
+          },
+          {
+            "strong": "G1317",
+            "lemma": "διδακτικόν"
+          },
+          {
+            "strong": "G4998",
+            "lemma": "σώφρονα"
+          },
+          {
+            "strong": "G5382",
+            "lemma": "φιλόξενον"
+          }
+        ],
+        "force": "The overseer (episkopon) must be (dei einai) above reproach, husband of one wife, temperate, prudent (sophron), hospitable (philoxenon), and able to teach (didaktikon, G1317). Of the whole list this is the only cognitive or skill term, and it names a capability, not a qualification earned at an institution. No word for schooling, scribal status, or academic credential appears.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.9",
+        "key_terms": [
+          {
+            "strong": "G1415",
+            "lemma": "δυνατὸς"
+          },
+          {
+            "strong": "G0472",
+            "lemma": "ἀντεχόμενον"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχήν"
+          },
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχειν"
+          }
+        ],
+        "force": "The elder must hold fast (antechomenon, G0472) the trustworthy word (pistou logou) according to the teaching (kata ten didachen, G1322), so that he may be able (dunatos, G1415) both to exhort in sound doctrine (hygiainouse didaskalia) and to refute (elenchein, G1651) those who contradict. The standard is functional competence defined by fidelity to received teaching, a capability and a content, not an external academic qualification or the means by which competence is acquired.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.6",
+        "key_terms": [
+          {
+            "strong": "G0410",
+            "lemma": "ἀνέγκλητος"
+          },
+          {
+            "strong": "G4103",
+            "lemma": "πιστά"
+          }
+        ],
+        "force": "The elder is to be above reproach (anenkletos, G0410), husband of one wife, having faithful (pista) children not open to the charge of dissipation or rebellion. The qualifying criteria here are entirely character and household, with no mention of training or formal preparation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.13",
+        "key_terms": [
+          {
+            "strong": "G0062",
+            "lemma": "ἀγράμματοί"
+          },
+          {
+            "strong": "G2399",
+            "lemma": "ἰδιῶται"
+          },
+          {
+            "strong": "G1921",
+            "lemma": "ἐπεγίνωσκον"
+          }
+        ],
+        "force": "Peter and John are described as agrammatoi (G0062, unlettered, lacking formal scribal education, the word occurs only here) and idiotai (G2399, untrained, ordinary, the same term Paul applies to the non-specialist layperson), yet the council marvels at their boldness (parresia) and recognizes (epeginoskon, G1921) that they had been with Jesus. The text grounds their recognized competence in association with Christ, not in formal credentials, which directly supports that lack of formal training does not disqualify ministry.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Tim.2.2",
+        "key_terms": [
+          {
+            "strong": "G4103",
+            "lemma": "πιστοῖς"
+          },
+          {
+            "strong": "G2425",
+            "lemma": "ἱκανοὶ"
+          }
+        ],
+        "force": "What was heard is to be entrusted to faithful (pistois, G4103) men who will be competent (hikanoi, G2425) to teach others also. The transmission standard is reliability of character plus sufficiency or capability to teach, a competence term, not a documented academic qualification. The same letter calls the Lord's servant didaktikon (G1317) in 2Tim 2:24, confirming the teaching qualification is capability.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          },
+          {
+            "strong": "G1985",
+            "lemma": "ἐπισκοποῦντες"
+          }
+        ],
+        "force": "Elders are charged to shepherd (poimanate) the flock (poimnion, G4168) of God among them, exercising oversight (episkopountes, from G1985) willingly and not for shameful gain. The qualification framing is dispositional, eager rather than coerced, exemplary rather than domineering, with no credential prerequisite stated.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.18.25",
+        "key_terms": [
+          {
+            "strong": "G2727",
+            "lemma": "κατηχημένος"
+          },
+          {
+            "strong": "G1321",
+            "lemma": "ἐδίδασκεν"
+          }
+        ],
+        "force": "Apollos had been orally instructed (katechemenos, G2727) in the way of the Lord and taught (edidasken, G1321) accurately, though needing further private correction. The canon's recurring mechanism for acquiring doctrinal competence is oral, relational instruction (katecheo, didasko) and being taught by God (theodidaktos, G2312, 1Thess 4:9), never an institution. This locates the source of competence in instruction and content, not in a credential.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Titus.1.7",
+        "to": "Isa.56.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.3.2",
+        "to": "Isa.56.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.5.3",
+        "to": "Ezek.34.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.3.4",
+        "to": "1Tim.3.12",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Titus.1.9",
+        "addressed": true,
+        "resolution": "The requirement to be dunatos (G1415, able) to exhort in sound doctrine and to refute opponents (elenchein, G1651) sets a genuine competence bar that could be read as implying advanced study. The lexical resolution is that the bar is fidelity to the apostolic word held fast (antecho, G0472, the pistos logos kata ten didachen), a functional grasp of received doctrine, not an institutional qualification. The text specifies the content and the capability, not the means of acquiring them."
+      },
+      {
+        "ref": "2Tim.2.2",
+        "addressed": true,
+        "resolution": "The bar hikanos (G2425, competent, sufficient) to teach others is a real and demanding capability, which complicates any reading that treats the office as requiring no preparation at all. It is resolved lexically because hikanos denotes adequacy or sufficiency for a task, not a certified academic standing; the same term elsewhere describes practical sufficiency rather than scholastic attainment. So the texts demand competence yet name no credential."
+      },
+      {
+        "ref": "1Tim.3.6",
+        "addressed": true,
+        "resolution": "The prohibition against a neophyte (neophyton, recent convert) lest he be puffed up shows the lists do require maturity and seasoning over time, complicating a purely casual reading. It does not introduce a formal-credential requirement; the safeguard is spiritual maturity and proven character, which is a different axis from academic certification."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited texts (1Tim 3, Titus 1, 1Pet 5, Acts 4, Acts 18, 2Tim 2) carry minor orthographic and word-order variants flagged in the apparatus (for example the diamond markers on plekten in 1Tim 3:3 and apelipon in Titus 1:5), but none touch the qualification content, the didaktikos and hikanos competence terms, or the agrammatoi and idiotai description, so the verdict is variant robust. These books fall outside the ingested ECM window (3 John), hence shadow status; no VariantUnit data was available in scope."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "qualification-lists-as-the-operative-criteria",
+        "verdict": "affirms",
+        "rationale": "Reading the enumerated items as the working criteria, the lists name character, household, and one capability, the ability to teach (didaktikos, G1317; dunatos, G1415), with no credential lexeme. 2Tim 2:2 sets transmission on competence (hikanos, G2425). The proposition follows directly: the criteria are character, doctrinal soundness, and teaching ability, and no institutional credential is named."
+      },
+      {
+        "framework": "lists-as-illustrative-minimums",
+        "verdict": "neutral",
+        "rationale": "Read as a representative minimum rather than a closed set, silence on credentials neither requires nor forbids formal study. On this reading the negative claim (no credential needed) is under-determined by the wordlist alone and leans on the Acts 4:13 example to convert silence into a positive pattern, so by itself the lexicon does not settle whether an institution may legitimately be one means of forming the required competence."
+      },
+      {
+        "framework": "competence-realist reading",
+        "verdict": "affirms with caveat",
+        "rationale": "Stressing that didaktikos, dunatos, hikanos, antecho, and the elencho or contradiction pairing demand a genuine and demanding doctrinal ability, this reading affirms the proposition (no credential term exists) while insisting the texts still require real competence. It guards against treating no-credential as no-preparation; the words require the ability and the content, leaving the means open."
+      }
+    ],
+    "notes": "Acts 4:13 is the decisive narrative datum: it explicitly names the absence of formal scribal training (agrammatoi, idiotai) in recognized ministers, converting the qualification-list silence from pure argument from silence into a positive canonical pattern. The canon's vocabulary for transmitting doctrine (katecheo G2727, didasko G1321, theodidaktos G2312) is consistently oral and relational, never institutional."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What qualifications for elder or overseer do the New Testament lexical sources enumerate, and do those lists or related texts state or presuppose any formal educational credential?",
+    "notes": "The stem asserts formal seminary credentials are not biblically required, embedding the conclusion in the question, a practice-level and brethren-distinctive framing. The neutralized form asks what the wordlists actually enumerate and whether any credential term appears, without presupposing the answer. The verdict was derived on the neutral question: the lists enumerate character, household, and teaching ability (didaktikos G1317, dunatos G1415) with no credential lexeme; 2Tim 2:2 sets transmission on competence (hikanos G2425); and Acts 4:13 records recognized untrained ministers (agrammatoi G0062, idiotai G2399). Verdict unchanged from the prior file (affirms true, medium); the direct queries added the didaktikos, idiotes, and hikanos anchors and corrected three occurrence counts but did not move the verdict."
+  },
+  "lay_summary": "The two passages that list elder or overseer qualifications, 1 Timothy 3 verses 1 to 7 and Titus 1 verses 5 to 9, spell out their criteria item by item. The items are overwhelmingly about character and household life: above reproach, husband of one wife, temperate, prudent, hospitable, not a drunkard, not violent, not greedy, managing his own house well, with faithful children. On the side of competence the lists name one thing, the ability to teach, called didaktikos in 1 Timothy 3 verse 2, and the same word reappears in 2 Timothy 2 verse 24. Titus 1 verse 9 unfolds it: the elder must hold fast the trustworthy word according to the teaching, so that he is able, dunatos, both to encourage with sound doctrine and to refute those who contradict. That competence is defined by faithfulness to received apostolic teaching, not by a school, degree, or certificate. No word for formal training, scribal status, ordination credential, or academic qualification appears anywhere in either list. Two more datapoints sharpen the picture. In 2 Timothy 2 verse 2 the message is entrusted to faithful men who will be competent, hikanos, to teach others, a word meaning sufficient or capable for the task, not certified. In Acts 4 verse 13 Peter and John are called agrammatoi, unlettered, a word that occurs only there, and idiotai, untrained and ordinary, the same term Paul uses for an ordinary non-specialist, yet the ruling council marvels at their boldness and recognizes they had been with Jesus. The canon roots their competence in time with Christ and in oral instruction, the way Apollos was instructed in Acts 18, rather than in an institution. Taken together the wordlists supply the positive criteria of character, doctrinal soundness, and teaching ability, while the absence of any credential term plus the Acts example support the negative claim that formal seminary training is not a stated requirement. Two cautions temper this. The texts do demand real competence in doctrine and forbid placing a recent convert in office, so genuine maturity and ability are required even though a credential is not. The negative half also leans partly on the silence of the lists, which is why the reading is graded as moderately rather than highly certain.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0062"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2399"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1317"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.3.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Tim.2.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.4.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Titus.1.7"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

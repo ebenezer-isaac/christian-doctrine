@@ -1,0 +1,1050 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-vicarious-atonement",
+  "question_id": "doc-vicarious-atonement",
+  "generated_at": "2026-05-27T18:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across Isaiah 53, the ransom sayings of Mark 10:45 and Matthew 20:28, Romans 3:25, 2 Corinthians 5:21, 1 Peter 2:24, 1 Peter 3:18, and 1 John 2:2 the same substitution vocabulary recurs without lexical contradiction. Isaiah 53 stacks the sin-bearing verbs nasa (bear, vv. 4 and 12), sabal (carry, vv. 4 and 11), and paga in the causative (Yahweh causes the iniquity of us all to land on him, v. 6, and he intercedes for transgressors, v. 12), with first-person plural suffixes naming the speakers as the source of the load and the Servant as the one carrying it, and v. 10 calls his life an asham, the Levitical guilt offering. The New Testament reuses this engine: lytron anti pollon, where anti is the strongest substitution preposition, attested across the canon overwhelmingly in the sense in place of or instead of; hyper hemon and the dikaios hyper adikon construction; anaphero (the Greek Old Testament verb for offering up) with our sins as object on the tree; and hilasterion and hilasmos as the cultic locus where sin is dealt with. The verdict holds without dependence on disputed variant readings."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H5375",
+        "lemma": "נָשָׂא",
+        "transliteration": "nasa",
+        "occurrences_in_canon": 622,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5445",
+        "lemma": "סָבַל",
+        "transliteration": "sabal",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6293",
+        "lemma": "פָּגַע",
+        "transliteration": "paga",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0817",
+        "lemma": "אָשָׁם",
+        "transliteration": "asham",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5771",
+        "lemma": "עָוֺן",
+        "transliteration": "awon",
+        "occurrences_in_canon": 203,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6588",
+        "lemma": "פֶּשַׁע",
+        "transliteration": "pesha",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2483",
+        "lemma": "חֳלִי",
+        "transliteration": "choli",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4341",
+        "lemma": "מַכְאוֹב",
+        "transliteration": "makob",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2250",
+        "lemma": "חַבּוּרָה",
+        "transliteration": "chabburah",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7495",
+        "lemma": "רָפָא",
+        "transliteration": "rapha",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3083",
+        "lemma": "λύτρον",
+        "transliteration": "lytron",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0473",
+        "lemma": "ἀντί",
+        "transliteration": "anti",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5228",
+        "lemma": "ὑπέρ",
+        "transliteration": "hyper",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0399",
+        "lemma": "ἀναφέρω",
+        "transliteration": "anaphero",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3586",
+        "lemma": "ξύλον",
+        "transliteration": "xylon",
+        "occurrences_in_canon": 20,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3468",
+        "lemma": "μώλωψ",
+        "transliteration": "molops",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2390",
+        "lemma": "ἰάομαι",
+        "transliteration": "iaomai",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2435",
+        "lemma": "ἱλαστήριον",
+        "transliteration": "hilasterion",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2434",
+        "lemma": "ἱλασμός",
+        "transliteration": "hilasmos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3929",
+        "lemma": "πάρεσις",
+        "transliteration": "paresis",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1732",
+        "lemma": "ἔνδειξις",
+        "transliteration": "endeixis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 172,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosyne",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1342",
+        "lemma": "δίκαιος",
+        "transliteration": "dikaios",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0094",
+        "lemma": "ἄδικος",
+        "transliteration": "adikos",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0581",
+        "lemma": "ἀπογίνομαι",
+        "transliteration": "apoginomai",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2358",
+        "lemma": "θριαμβεύω",
+        "transliteration": "thriambeuo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5261",
+        "lemma": "ὑπογραμμός",
+        "transliteration": "hypogrammos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H5375",
+      "H5445",
+      "H6293",
+      "H0817",
+      "H5771",
+      "H6588",
+      "H2483",
+      "H4341",
+      "H2250",
+      "H7495",
+      "H1792",
+      "H3068",
+      "G3083",
+      "G0473",
+      "G5228",
+      "G0399",
+      "G3586",
+      "G3468",
+      "G2390",
+      "G2435",
+      "G2434",
+      "G3929",
+      "G1732",
+      "G0266",
+      "G1343",
+      "G1342",
+      "G0094",
+      "G1096",
+      "G0581",
+      "G2358",
+      "G5261",
+      "G4183"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.53.4",
+        "key_terms": [
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H5445",
+            "lemma": "סָבַל"
+          },
+          {
+            "strong": "H2483",
+            "lemma": "חֳלִי"
+          },
+          {
+            "strong": "H4341",
+            "lemma": "מַכְאוֹב"
+          }
+        ],
+        "force": "First-person plural pronominal suffixes (cholayenu, our sicknesses, and makovenu, our pains) name the burden, and the verbs nasa (bear) and sabal (carry) predicate a transfer of that burden onto the third-person singular subject hu, the Servant. The grammar predicates substitutive load-bearing rather than parallel suffering.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.5",
+        "key_terms": [
+          {
+            "strong": "H2490",
+            "lemma": "חָלַל"
+          },
+          {
+            "strong": "H1792",
+            "lemma": "דָּכָא"
+          },
+          {
+            "strong": "H6588",
+            "lemma": "פֶּשַׁע"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          },
+          {
+            "strong": "H4148",
+            "lemma": "מוּסָר"
+          },
+          {
+            "strong": "H7965",
+            "lemma": "שָׁלוֹם"
+          },
+          {
+            "strong": "H2250",
+            "lemma": "חַבּוּרָה"
+          },
+          {
+            "strong": "H7495",
+            "lemma": "רָפָא"
+          }
+        ],
+        "force": "The Pual participles mecholal (pierced) and medukka (crushed) attach via the prepositional phrases mippeshaenu (because of our transgressions) and meawonotenu (because of our iniquities), grammatically marking the speakers as the cause of his wounding. The construction musar shelomenu alav (the discipline of our peace was upon him) places the chastisement formally on him while the peace accrues to us, and ubachaburato nirpa lanu (by his wound there is healing for us) makes his stripe the means of our healing. The verse predicates a one-for-another exchange.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.6",
+        "key_terms": [
+          {
+            "strong": "H6293",
+            "lemma": "פָּגַע"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          }
+        ],
+        "force": "The Hiphil hifgia of paga with Yahweh as subject, bo (on him) as locus, and et awon kullanu (the iniquity of us all) as object predicates Yahweh causing the iniquity of all of us to strike or land on the Servant. The causative stem with the divine subject names the agent of the transfer, framing the iniquity itself as the thing transferred.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.10",
+        "key_terms": [
+          {
+            "strong": "H0817",
+            "lemma": "אָשָׁם"
+          },
+          {
+            "strong": "H1792",
+            "lemma": "דָּכָא"
+          }
+        ],
+        "force": "The clause im tasim asham nafsho (when his soul is made an asham) labels the Servant's life with asham, the technical Levitical term for the guilt or reparation offering. Asham occurs 41 times in the canon and is concentrated in Leviticus 5 to 7, the guilt-offering legislation. Applying that cultic term to the Servant imports the sacrificial substitution structure: a guilt offering bears liability so the offerer goes free.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.11",
+        "key_terms": [
+          {
+            "strong": "H5445",
+            "lemma": "סָבַל"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "The clause waawonotam hu yisbol (and he shall bear their iniquities) repeats sabal, the carry verb of v. 4, but now with awonot (iniquities) as the explicit object rather than sicknesses. The sin-bearing predication is therefore not confined to vv. 4 to 6 but recurs in the closing summary of the Song, with iniquity itself as what the Servant carries.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.12",
+        "key_terms": [
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H6293",
+            "lemma": "פָּגַע"
+          },
+          {
+            "strong": "H2399",
+            "lemma": "חֵטְא"
+          },
+          {
+            "strong": "H6586",
+            "lemma": "פָּשַׁע"
+          }
+        ],
+        "force": "The closing verse repeats nasa (wehu chet rabbim nasa, and he bore the sin of many) and paga (welapposhim yafgia, and he interceded or made contact on behalf of transgressors). Both sin-bearing verbs of vv. 4 and 6 return at the climax, with rabbim (many) as the beneficiaries, the same quantifier behind lytron anti pollon in the gospels. The bearing pattern brackets the whole Song.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.45",
+        "key_terms": [
+          {
+            "strong": "G3083",
+            "lemma": "λύτρον"
+          },
+          {
+            "strong": "G0473",
+            "lemma": "ἀντί"
+          },
+          {
+            "strong": "G4183",
+            "lemma": "πολύς"
+          }
+        ],
+        "force": "The phrase dounai ten psychen autou lytron anti pollon (to give his life a ransom in place of many) joins lytron (ransom price) to the preposition anti. Across its 20 attestations in the canon anti carries the sense in place of or instead of as its dominant force (for example reigning in place of Herod in Matt 2:22, eye for eye in Matt 5:38, evil for evil in 1 Pet 3:9). With a personal object (pollon, many) and a price noun, anti is the strongest single-word marker of substitution in the New Testament, and lytron is a New Testament noun limited to this saying and its parallel.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.20.28",
+        "key_terms": [
+          {
+            "strong": "G3083",
+            "lemma": "λύτρον"
+          },
+          {
+            "strong": "G0473",
+            "lemma": "ἀντί"
+          }
+        ],
+        "force": "The Matthean parallel preserves lytron anti pollon verbatim. The repetition of the same lytron plus anti construction in a second gospel confirms the substitution reading is not an isolated phrasing but a fixed saying, and the noun lytron occurs in the canon only here and at Mark 10:45.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.24",
+        "key_terms": [
+          {
+            "strong": "G0399",
+            "lemma": "ἀναφέρω"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3586",
+            "lemma": "ξύλον"
+          },
+          {
+            "strong": "G3468",
+            "lemma": "μώλωψ"
+          },
+          {
+            "strong": "G2390",
+            "lemma": "ἰάομαι"
+          },
+          {
+            "strong": "G0581",
+            "lemma": "ἀπογίνομαι"
+          }
+        ],
+        "force": "Anenenken (aorist of anaphero, the verb the Greek Old Testament uses for offering up sacrifices) takes tas hamartias hemon (our sins) as object and en to somati autou (in his body) plus epi to xylon (on the tree) as the place of bearing. The hina-clause apogenomenoi tais hamartiais te dikaiosyne zesomen (so that, having died to sins, we might live to righteousness) names the intended effect. The instrumental dative to molopi autou iathete (by his wound you were healed), echoing Isa 53:5, makes his stripe the means of the addressees healing. Anaphero occurs only 10 times in the canon, weighted toward cultic offering language.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.18",
+        "key_terms": [
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          },
+          {
+            "strong": "G0094",
+            "lemma": "ἄδικος"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "Christos hapax peri hamartion epathen, dikaios hyper adikon (Christ suffered once for sins, the righteous one for the unrighteous). The contrast dikaios (righteous) over against adikon (unrighteous), joined by hyper plus the genitive of persons, sets one party suffering on behalf of the opposite party. The pairing of an explicit righteous-for-unrighteous antithesis with a sin-suffering predicate states representative substitution in its plainest grammatical form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.21",
+        "key_terms": [
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "Ton me gnonta hamartian hyper hemon hamartian epoiesen (the one who knew no sin he made sin on our behalf) uses hyper hemon (on behalf of us) with the Father as the acting subject on the Son. The hina-clause hina hemeis genometha dikaiosyne theou en auto (so that we might become the righteousness of God in him) sets up an exchange: he becomes hamartia on our behalf, we become dikaiosyne in him. Hyper with a genitive of persons plus a sin-bearing predicate names representative substitution.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.25",
+        "key_terms": [
+          {
+            "strong": "G2435",
+            "lemma": "ἱλαστήριον"
+          },
+          {
+            "strong": "G3929",
+            "lemma": "πάρεσις"
+          },
+          {
+            "strong": "G1732",
+            "lemma": "ἔνδειξις"
+          },
+          {
+            "strong": "G0129",
+            "lemma": "αἷμα"
+          }
+        ],
+        "force": "Hon proetheto ho theos hilasterion dia pisteos en to autou haimati (whom God set forth as a hilasterion through faith in his blood). Hilasterion occurs only twice in the canon, the other being Heb 9:5 of the kapporet (mercy seat) where atoning blood was applied. Pairing hilasterion with en to autou haimati (in his own blood) ties that cultic locus to the Servant's own death. Paresin ton progegonoton hamartematon (the passing-over of previously committed sins) and eis endeixin tes dikaiosynes autou (for a demonstration of his righteousness) frame the death as God's righteous resolution of previously unpunished sin.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.2.2",
+        "key_terms": [
+          {
+            "strong": "G2434",
+            "lemma": "ἱλασμός"
+          },
+          {
+            "strong": "G4012",
+            "lemma": "περί"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2889",
+            "lemma": "κόσμος"
+          }
+        ],
+        "force": "Autos hilasmos estin peri ton hamartion hemon (he himself is a hilasmos concerning our sins). Hilasmos occurs only twice in the canon, both in this letter (here and 4:10), and in the Greek Bible denotes the means by which sin is dealt with in cultic context. The peri-phrase plus hamartion locates sin as what the hilasmos addresses, with autos predicating the Son himself as that means.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.15",
+        "key_terms": [
+          {
+            "strong": "G2358",
+            "lemma": "θριαμβεύω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "Apekdysamenos tas archas kai tas exousias edeigmatisen en parresia, thriambeusas autous (having disarmed the rulers and authorities he made a public spectacle of them, triumphing over them). Thriambeuo (lead in triumph) frames the cross as victory over hostile powers rather than as load-bearing. The vocabulary here is military and triumphal, not sacrificial, which is why this verse anchors a victory model of the cross that the substitution terms do not cover. It does not deny substitution but it is not stated in substitution words.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.21",
+        "key_terms": [
+          {
+            "strong": "G5261",
+            "lemma": "ὑπογραμμός"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          }
+        ],
+        "force": "Christos epathen hyper hymon, hymin hypolimpanon hypogrammon (Christ suffered for you, leaving you a hypogrammos). Hypogrammos, a writing copy for a pupil to trace, occurs only here in the canon and frames the suffering as an example to imitate. Standing three verses before the bearing language of 2:24, it shows the same author can describe the cross as pattern as well as substitution. The hypogrammos word names an exemplary function the substitution terms do not, so it anchors an example model sitting alongside the bearing model.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.2.24",
+        "to": "Isa.53.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Isa.53.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Gal.3.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Acts.5.30",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Acts.13.29",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "John.1.29",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Exod.25.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Heb.9.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "1John.2.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "1Pet.1.18",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Col.1.20",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Rom.3.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.5",
+        "to": "Isa.53.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.5",
+        "to": "Isa.53.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Deut.21.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Exod.28.38",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1John.2.2",
+        "addressed": true,
+        "resolution": "Peri holou tou kosmou (concerning the whole world) appears alongside peri ton hemeteron (concerning ours), which some read as undercutting a strictly definite substitution. Lexically, hilasmos with a peri-genitive specifies the domain the hilasmos addresses without by itself predicating equal application to every individual. The substitutionary-bearing predication is unaffected; the extent question is a separate lexical question the words here do not settle, not a defeater of the bearing pattern."
+      },
+      {
+        "ref": "Isa.53.4",
+        "addressed": true,
+        "resolution": "Matthew 8:17 applies Isa 53:4 to physical healings, which could suggest a non-penal reading of the verse in isolation. Lexically, nasa and sabal in Isa 53 take a chain of objects across vv. 4 to 6, 11, and 12 that includes both cholayenu and makovenu (sicknesses and pains, v. 4) AND awonot, pesha, and chet (iniquities, transgressions, sin, vv. 5 to 6, 11, 12). The same verbs operate over both sickness and iniquity; the Matthean citation foregrounds one object set without removing iniquity from the verbs grammar."
+      },
+      {
+        "ref": "Rom.3.25",
+        "addressed": true,
+        "resolution": "Hilasterion has been read both as expiation (sin-covering) and propitiation (wrath-absorbing). The Pauline grammar pairs hilasterion with endeixis tes dikaiosynes autou (a demonstration of his righteousness) and with paresis of previously unpunished sins, which presses toward a sense that includes the satisfaction of God's righteous response, not expiation alone. Either reading still predicates Christ as the cultic locus where sin is dealt with through his blood, so the substitutionary-bearing claim stands under both."
+      },
+      {
+        "ref": "Col.2.15",
+        "addressed": true,
+        "resolution": "Thriambeuo frames the cross as triumph over the powers, a victory model stated in military rather than sacrificial vocabulary. This is a genuine second canonical pattern, not a contradiction. The substitution words (anti, hyper, the bearing verbs, asham, hilasterion) and the victory word (thriambeuo) both stand in the canon; the text does not rank the two models against each other. The proposition asserts the substitution model is true, which the bearing vocabulary supports, but the canon also frames the same death as conquest, so divergence among readers is over which model is central, not over whether substitution words are present."
+      },
+      {
+        "ref": "1Pet.2.21",
+        "addressed": true,
+        "resolution": "Hypogrammos, a writing pattern to be traced, frames the suffering as an example to imitate, an exemplary model. It is not exhausted by the bearing language and the bearing language is not exhausted by it. The same author moves from example (v. 21) to bearing (v. 24) within one paragraph, so the example reading must sit alongside, rather than replace, the substitution reading. As with the victory model, the words attest both functions without ordering them."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Rom.3.25",
+        "variant_id": "rom-3-25-dia-pisteos",
+        "verdict_impact": "none",
+        "note": "Some witnesses vary the article before pisteos, with no impact on the substitutionary predication: hilasterion en to autou haimati remains intact under either reading."
+      },
+      {
+        "ref": "1Pet.2.24",
+        "variant_id": "1pet-2-24-molopi-vs-molopsin",
+        "verdict_impact": "none",
+        "note": "Singular versus plural variation on molopi (his wound or his wounds) does not affect the instrumental dative or the healing-by-his-stripe predication."
+      },
+      {
+        "ref": "2Cor.5.21",
+        "variant_id": "2cor-5-21-ton-me-gnonta-article",
+        "verdict_impact": "none",
+        "note": "Article placement variants around ton me gnonta do not affect the hyper hemon construction or the genometha exchange grammar."
+      },
+      {
+        "ref": "Mark.10.45",
+        "variant_id": "mark-10-45-lytron-anti-pollon",
+        "verdict_impact": "none",
+        "note": "The lytron anti pollon clause is firmly attested across the witnesses; the Matthean parallel at 20:28 preserves the same wording, so the substitution reading does not hang on a single disputed text."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "ECM editions do not cover Isaiah, the Synoptic gospels, Romans, 2 Corinthians, or 1 Peter at this writing, and the bundle reports not_in_ecm_scope true. Variant assessment relies on the standard apparatus; no variant materially affects the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "penal_substitution",
+      "christus_victor",
+      "moral_exemplar",
+      "sacrificial_cultic_typology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "substitutionary_reading",
+        "verdict": "affirms",
+        "rationale": "Takes the bearing verbs (nasa, sabal, paga), the guilt-offering term asham, the ransom construction lytron anti pollon, the dikaios hyper adikon contrast, and the hilasterion and hilasmos cultic terms at face value. On this reading the words plainly predicate one party bearing what belonged to another, in that party's place, which directly affirms the proposition."
+      },
+      {
+        "framework": "christus_victor_reading",
+        "verdict": "complicates",
+        "rationale": "Foregrounds the victory vocabulary, chiefly thriambeuo and the disarming of the powers in Col 2:15, and reads the cross primarily as conquest of hostile powers and liberation of captives. In its strongest form this reading is fully lexically grounded in its own texts: those texts use triumph and ransom-from-bondage language, not penal-bearing language. It complicates the proposition only by contesting whether substitution is the central model, not by denying that substitution words occur."
+      },
+      {
+        "framework": "moral_exemplar_reading",
+        "verdict": "complicates",
+        "rationale": "Foregrounds hypogrammos (1 Pet 2:21) and the call to follow in his steps, reading the death primarily as a moral pattern that shapes the believer. In its strongest form it notes that the very chapter that says he bore our sins also calls his suffering an example, so the example function is genuinely in the text. It complicates by disputing centrality, but the bearing verbs and the hyper and anti constructions are not reducible to example language, so on the lexical level the exemplar reading adds to rather than replaces the bearing predication."
+      },
+      {
+        "framework": "non_penal_sacrificial_reading",
+        "verdict": "affirms",
+        "rationale": "Accepts that the death is a sacrifice and a sin offering (asham, hilasterion, hilasmos, anaphero) but reads these cultically as expiation or cleansing of sin rather than as the bearing of a transferred legal penalty. This reading still affirms vicarious substitution in the sense the proposition states (Christ in the place of sinners, dealing with their sin) while declining the specifically penal framing of how. The substitution and place-taking claim is common ground; only the mechanism is contested."
+      }
+    ],
+    "notes": "Every reading that engages the cited texts grants that substitution and sin-bearing vocabulary is present and pan-canonical. The genuine divergence among readers is over which model (substitution, victory, example, non-penal sacrifice) is central or exclusive, and over whether the bearing is specifically penal. The words supply all these patterns but do not rank them, which is the lexical source of the remaining divergence even though the bare proposition (a substitute in the place of sinners) is affirmed."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem speaks of a substitute, bearing the penalty, and in their place. Substitute and in their place are descriptive of the lexical pattern (anti in place of, the bearing verbs nasa, sabal, paga, anaphero, the ransom lytron, the guilt offering asham, hyper on behalf of) and are not a denominational shibboleth. The single loaded word is penalty, which encodes the penal (legal punishment) mechanism that the non-penal sacrificial reading contests; the bare vicarious-substitution claim does not by itself require the penal framing. The clause the sins of His people names the beneficiaries, but the lexical case for substitution as such does not depend on the extent question."
+  },
+  "lay_summary": "Across the cited passages the same substitution vocabulary keeps recurring in both testaments. In Isaiah 53 the Hebrew verbs nasa (bear) and sabal (carry) take our sicknesses, our pains, and then our iniquities as their objects, with the Servant as the subject, and these verbs return at the end of the chapter: he bore the sin of many in verse 12, he shall bear their iniquities in verse 11. Verse 6 uses paga in the causative with the LORD as subject, he causes the iniquity of us all to land on the Servant, and verse 10 calls his life an asham, the technical word for the guilt offering that fills Leviticus 5 to 7. The first-person plural endings throughout keep the speakers as the source of the burden and the Servant as the one carrying it, so the grammar predicates transfer, not parallel suffering. The New Testament reuses this engine. Jesus says he gives his life a ransom in place of many, where the little word anti means in place of or instead of in most of its uses, the strongest single word for substitution. First Peter says the righteous one suffered for the unrighteous, and uses the offering-up verb anaphero with our sins on the tree, then by his wound you were healed. Second Corinthians says the sinless one was made sin on our behalf so that we might become the righteousness of God in him, a two-way exchange. Romans calls Christ the mercy seat in his own blood, and First John calls him the means by which our sins are dealt with. The pattern is dense, repeated, and spread across law, prophets, gospels, and letters, which is why the bare claim that Christ stood in the place of sinners lands firmly. Readers still diverge because the same texts also call the cross a victory over the powers and an example to follow, and because sacrifice words can be read as covering sin rather than as bearing a legal penalty. The words supply all these pictures but do not rank them, so the disagreement is over which picture is central, not over whether substitution language is there.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.4-12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.45"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.2.15"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5375"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5445"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0817"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6293"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3083"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0473"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5228"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0399"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2435"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.45"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.10-12"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.53.4-12"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Pet.2.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.2.24;Rom.3.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Isa.53.4-12;Rom.3.25;2Cor.5.21;1Pet.2.24"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Hebrew and MACULA-Greek are CC-BY-NC-4.0 and cannot be bulk-redistributed. They were cited because the syntax-tree predications for the Isaiah 53 bearing clauses and for the hyper and anti constructions in the New Testament loci are load-bearing for the verdict and no equivalent permissively licensed syntax source covers them. All other cited sources (OSHB, MorphGNT, STEPBible lexica and tagged texts, OpenBible cross-refs, TSK) are redistributable."
+  },
+  "flags": []
+}

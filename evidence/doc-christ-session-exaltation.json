@@ -1,0 +1,975 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-christ-session-exaltation",
+  "question_id": "doc-christ-session-exaltation",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two related seating verbs and a recurring location idiom carry this proposition across the canon. The NT citations of Ps 110:1 (Matt 22:44, Mark 12:36, Luke 20:42, Acts 2:34, Heb 1:13) keep the LXX wording with κάθημαι (G2521, present middle imperative Κάθου, be seated) plus ἐκ δεξιῶν (G1188, at the right hand) and a footstool clause. The declarative session statements use the aorist of καθίζω (G2523), either intransitive (ἐκάθισεν, Heb 1:3, Heb 8:1, Heb 10:12, Heb 12:2) or transitive with the Father as subject (καθίσας, Eph 1:20), both landing ἐν δεξιᾷ. The Hebrew of Ps 110:1 forecloses ambiguity: שֵׁב is a qal imperative addressed by יהוה to אדון, set at YHWH's יָמִין (H3225). Present-tense ἐντυγχάνω (G1793) in Heb 7:25 and Rom 8:34 binds ongoing intercession to the session. The pattern spans Psalter, Gospels, Acts, Paul, Hebrews, and 1 Peter, and holds across all surveyed variant readings."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2521",
+        "lemma": "κάθημαι",
+        "transliteration": "kathēmai",
+        "occurrences_in_canon": 89,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2523",
+        "lemma": "καθίζω",
+        "transliteration": "kathizō",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1188",
+        "lemma": "δεξιός",
+        "transliteration": "dexios",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1793",
+        "lemma": "ἐντυγχάνω",
+        "transliteration": "entynchanō",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5312",
+        "lemma": "ὑψόω",
+        "transliteration": "hypsoō",
+        "occurrences_in_canon": 20,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5251",
+        "lemma": "ὑπερυψόω",
+        "transliteration": "hyperypsoō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3427",
+        "lemma": "יָשַׁב",
+        "transliteration": "yashav",
+        "occurrences_in_canon": 1082,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3225",
+        "lemma": "יָמִין",
+        "transliteration": "yamin",
+        "occurrences_in_canon": 140,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3172",
+        "lemma": "μεγαλωσύνη",
+        "transliteration": "megalōsynē",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3875",
+        "lemma": "παράκλητος",
+        "transliteration": "paraklētos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2032",
+        "lemma": "ἐπουράνιος",
+        "transliteration": "epouranios",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2521",
+      "G2523",
+      "G1188",
+      "G1793",
+      "G5312",
+      "G5251",
+      "H3427",
+      "H3225",
+      "G3172",
+      "G3875",
+      "G2032",
+      "G1849",
+      "G1453",
+      "G2476",
+      "G5286",
+      "G2963"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.110.1",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0113",
+            "lemma": "אָדוֹן"
+          },
+          {
+            "strong": "H3427",
+            "lemma": "יָשַׁב"
+          },
+          {
+            "strong": "H3225",
+            "lemma": "יָמִין"
+          }
+        ],
+        "force": "OT enthronement oracle and the source-text of the whole cluster. The OSHB morphology confirms שֵׁב (H3427) as a qal imperative second masculine singular (HVqv2ms), so YHWH (H3068) commands David's Lord (H0113) to sit at his right hand (לִימִינִי, H3225) until enemies are made a footstool (H1916). The imperative addressed by YHWH to a second party forecloses any reading in which YHWH himself is the one seated. The LXX renders it κάθου ἐκ δεξιῶν μου, the exact wording the NT citations carry over.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.22.44",
+        "key_terms": [
+          {
+            "strong": "G2521",
+            "lemma": "κάθημαι"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "Jesus quotes Ps 110:1 with the LXX wording Κάθου ἐκ δεξιῶν μου. The verb is κάθημαι (G2521, present middle imperative Κάθου, V-PNM-2S), the seated-state verb, paired with ἐκ δεξιῶν μου and the footstool clause. Jesus presses that David calls this figure Lord, making the right-hand session a claim about the Messiah's status above David.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.34",
+        "key_terms": [
+          {
+            "strong": "G2521",
+            "lemma": "κάθημαι"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "Peter's Pentecost sermon quotes Ps 110:1 verbatim, Κάθου ἐκ δεξιῶν μου, again with κάθημαι (G2521) and ἐκ δεξιῶν (G1188). Verse 33 has just said Christ was exalted (ὑψωθεὶς, G5312) to the right hand, so Luke binds the explicit Ps 110 quotation to the narrated session.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.13",
+        "key_terms": [
+          {
+            "strong": "G2521",
+            "lemma": "κάθημαι"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "Hebrews quotes Ps 110:1 with κάθημαι (G2521, Κάθου, V-PNM-2S) and ἐκ δεξιῶν μου plus the footstool of the feet (ὑποπόδιον τῶν ποδῶν, G5286). The rhetorical question asks to which of the angels God ever said this, reserving the right-hand session for the Son alone.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.3",
+        "key_terms": [
+          {
+            "strong": "G2523",
+            "lemma": "καθίζω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G3172",
+            "lemma": "μεγαλωσύνη"
+          },
+          {
+            "strong": "G2512",
+            "lemma": "καθαρισμός"
+          }
+        ],
+        "force": "Declarative session statement. The Macula morphology reads ἐκάθισεν (G2523, V-AAI-3S, intransitive aorist, he sat down) ἐν δεξιᾷ τῆς Μεγαλωσύνης ἐν ὑψηλοῖς. The preceding aorist middle participle ποιησάμενος (having made purification, G2512) frames the seating as the result of completed atonement. Here the Son is the subject who sits, the complement to Eph 1:20 where the Father seats him.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.12",
+        "key_terms": [
+          {
+            "strong": "G2523",
+            "lemma": "καθίζω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          }
+        ],
+        "force": "μίαν ὑπὲρ ἁμαρτιῶν προσενέγκας θυσίαν εἰς τὸ διηνεκὲς ἐκάθισεν ἐν δεξιᾷ τοῦ Θεοῦ. The aorist ἐκάθισεν (G2523) of the seated Christ stands in deliberate verbal contrast to the standing priests of verse 11, so the seated posture marks the finished sufficiency of the one sacrifice.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.25",
+        "key_terms": [
+          {
+            "strong": "G1793",
+            "lemma": "ἐντυγχάνω"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          }
+        ],
+        "force": "πάντοτε ζῶν εἰς τὸ ἐντυγχάνειν ὑπὲρ αὐτῶν. The present participle ζῶν (G2198, living) plus the articular infinitive of purpose εἰς τὸ ἐντυγχάνειν (G1793, present infinitive, to intercede) make ongoing intercession the standing activity of the living, exalted Christ for those who draw near to God through him.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.34",
+        "key_terms": [
+          {
+            "strong": "G1453",
+            "lemma": "ἐγείρω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G1793",
+            "lemma": "ἐντυγχάνω"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          }
+        ],
+        "force": "Four clauses in sequence: died (ἀποθανών), was raised (ἐγερθείς, G1453, aorist passive participle), is at the right hand of God (ἐστιν ἐν δεξιᾷ τοῦ Θεοῦ, G1188), and intercedes for us (ἐντυγχάνει ὑπὲρ ἡμῶν, G1793, present indicative V-PAI-3S). Resurrection, session, and present intercession are bundled as the present ground for no condemnation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.20",
+        "key_terms": [
+          {
+            "strong": "G1453",
+            "lemma": "ἐγείρω"
+          },
+          {
+            "strong": "G2523",
+            "lemma": "καθίζω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G2032",
+            "lemma": "ἐπουράνιος"
+          }
+        ],
+        "force": "ἐγείρας αὐτὸν ἐκ νεκρῶν καὶ καθίσας ἐν δεξιᾷ αὐτοῦ ἐν τοῖς ἐπουρανίοις. The Macula morphology reads καθίσας (G2523) as a transitive aorist active participle (V-AAP-NSM, having seated him), so here the Father is the agent who raises and seats the Son. The same verb that is intransitive in Heb 1:3 is causative here, but both place Christ ἐν δεξιᾷ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.21",
+        "key_terms": [
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχή"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G1411",
+            "lemma": "δύναμις"
+          },
+          {
+            "strong": "G2963",
+            "lemma": "κυριότης"
+          }
+        ],
+        "force": "ὑπεράνω πάσης ἀρχῆς καὶ ἐξουσίας καὶ δυνάμεως καὶ κυριότητος. A four-fold catalogue of cosmic powers, with the comprehensive πάσης and the temporal pairing of this age and the age to come, brackets the right-hand session as supremacy over every rule.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.22",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "πάντα ὑπέταξεν ὑπὸ τοὺς πόδας αὐτοῦ καὶ αὐτὸν ἔδωκεν κεφαλὴν ὑπὲρ πάντα τῇ ἐκκλησίᾳ. The footstool image of all things under his feet reuses the Ps 110:1 and Ps 8:6 footstool motif and ties the cosmic reign to headship over the church.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.2.9",
+        "key_terms": [
+          {
+            "strong": "G5251",
+            "lemma": "ὑπερυψόω"
+          },
+          {
+            "strong": "G5483",
+            "lemma": "χαρίζομαι"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "διὸ καὶ ὁ Θεὸς αὐτὸν ὑπερύψωσεν καὶ ἐχαρίσατο αὐτῷ τὸ ὄνομα τὸ ὑπὲρ πᾶν ὄνομα. The verb ὑπερύψωσεν (G5251) is a single-occurrence compound, ὑπέρ over ὑψόω, found nowhere else in the canon, so its sense cannot be triangulated from parallels. The immediate clause disambiguates it: God grants the name above every name, an unmistakable supreme-exaltation sense.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.33",
+        "key_terms": [
+          {
+            "strong": "G5312",
+            "lemma": "ὑψόω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G1860",
+            "lemma": "ἐπαγγελία"
+          }
+        ],
+        "force": "τῇ δεξιᾷ οὖν τοῦ Θεοῦ ὑψωθεὶς. The aorist passive participle ὑψωθεὶς (G5312) ties the exaltation to the right hand directly to the outpouring of the Spirit, and verse 34 supplies the Ps 110:1 quotation as the proof.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.1",
+        "key_terms": [
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G2521",
+            "lemma": "κάθημαι"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "οὗ ὁ Χριστός ἐστιν ἐν δεξιᾷ τοῦ Θεοῦ καθήμενος. The present participle καθήμενος (G2521, V-PNP-NSM) describes the abiding seated state of Christ as the orientation point for the believer's life, the stative verb matching the Ps 110 citation verb rather than the aorist of καθίζω.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.2",
+        "key_terms": [
+          {
+            "strong": "G2523",
+            "lemma": "καθίζω"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "ἐν δεξιᾷ τε τοῦ θρόνου τοῦ Θεοῦ κεκάθικεν. The perfect ἐκάθικεν (G2523, perfect active) reports the completed and abiding result of the seating at the right hand of God's throne, adding a third aspectual witness (perfect) alongside the aorist of Heb 1:3 and the present of Col 3:1.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.22",
+        "key_terms": [
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "ὅς ἐστιν ἐν δεξιᾷ Θεοῦ πορευθεὶς εἰς οὐρανόν, ὑποταγέντων αὐτῷ ἀγγέλων καὶ ἐξουσιῶν καὶ δυνάμεων. An independent Petrine attestation of the right-hand session with the same subjected-powers vocabulary as Eph 1:20-21, showing the formula is not confined to one writer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.3.21",
+        "key_terms": [
+          {
+            "strong": "G2523",
+            "lemma": "καθίζω"
+          },
+          {
+            "strong": "G2362",
+            "lemma": "θρόνος"
+          }
+        ],
+        "force": "ὡς κἀγὼ ἐνίκησα καὶ ἐκάθισα μετὰ τοῦ Πατρός μου ἐν τῷ θρόνῳ αὐτοῦ. The aorist ἐκάθισα (G2523) has Christ as speaker reporting that he sat down with the Father on his throne, making the session a shared-throne enthronement, not mere proximity.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.2.1",
+        "key_terms": [
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          }
+        ],
+        "force": "παράκλητον ἔχομεν πρὸς τὸν πατέρα, Ἰησοῦν Χριστὸν δίκαιον. The forensic advocacy noun παράκλητος (G3875) supplies a second lexeme for the same heavenly office that ἐντυγχάνω names with a verb, an advocate with the Father on the believer's behalf.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.7.55",
+        "key_terms": [
+          {
+            "strong": "G2476",
+            "lemma": "ἵστημι"
+          },
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          }
+        ],
+        "force": "Stephen sees Jesus ἑστῶτα ἐκ δεξιῶν τοῦ Θεοῦ. The perfect participle ἑστῶτα (G2476, standing) differs from the seating verbs, but the location ἐκ δεξιῶν τοῦ Θεοῦ (G1188) is identical to every session text. The posture verb varies, the right-hand exaltation does not.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ps.110.1",
+        "to": "Heb.1.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Heb.1.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Eph.1.20",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Col.3.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Acts.2.34",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Matt.22.44",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Mark.12.36",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Luke.20.42",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "1Pet.3.22",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Phil.2.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "Heb.8.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.110.1",
+        "to": "1Cor.15.25",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.3",
+        "to": "Heb.4.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.9.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.34",
+        "to": "Rom.8.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.34",
+        "to": "Rom.4.25",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.7.55",
+        "addressed": true,
+        "resolution": "Stephen sees Jesus standing (ἑστῶτα, G2476, perfect active participle) at the right hand, against the otherwise uniform seated posture. The Macula morphology confirms the location phrase ἐκ δεξιῶν τοῦ Θεοῦ (G1188) is word-for-word the session location, so only the posture verb differs. The narrative depicts the Son rising in judicial witness for the dying martyr, a contextual exception that leaves the right-hand exaltation itself untouched. The verb κάθημαι or καθίζω never reverses anywhere else, so the standing is a single deliberate variation, not a competing pattern."
+      },
+      {
+        "ref": "Mark.16.19",
+        "addressed": true,
+        "resolution": "ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ (G2523, G1188) appears in the longer ending of Mark, which is text-critically disputed and absent from Sinaiticus and Vaticanus. The verdict does not rest on it, because the seating formula is independently and securely attested in Heb 1:3, Heb 8:1, Heb 10:12, Heb 12:2, Eph 1:20, Col 3:1, Acts 2:33-34, and 1 Pet 3:22."
+      },
+      {
+        "ref": "Heb.7.25",
+        "addressed": true,
+        "resolution": "The intercession verb ἐντυγχάνω (G1793) occurs only five times in the canon, which alone would be thin, but two of those five (Heb 7:25, Rom 8:34) are exactly this Christ-interceding-for-his-people sense and the noun παράκλητος (G3875, 1 John 2:1) supplies a second independent lexeme for the same office, so the low count is offset by a converging synonym rather than left as an unsupported hapax-like claim."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.19",
+        "variant_id": "mark-longer-ending",
+        "verdict_impact": "none",
+        "note": "The longer Markan ending is text-critically disputed, but the session formula it carries (ἐκάθισεν ἐκ δεξιῶν) is redundant with the securely attested cluster in Hebrews, Paul, Acts, and 1 Peter, so dropping it does not move the verdict."
+      },
+      {
+        "ref": "Rom.8.34",
+        "variant_id": "christos-iesous-word-order",
+        "verdict_impact": "none",
+        "note": "Witnesses vary on whether the subject reads Χριστὸς, Χριστὸς Ἰησοῦς, or adds ὁ ἀποθανών word order, but none of these touch the ἐν δεξιᾷ session clause or the ἐντυγχάνει intercession clause, so the lexical verdict holds across all readings."
+      },
+      {
+        "ref": "Heb.1.3",
+        "variant_id": "di-heautou-addition",
+        "verdict_impact": "none",
+        "note": "The phrase δι ἑαυτοῦ before καθαρισμὸν is omitted by p46 and B but present in the Majority text. The seating clause ἐκάθισεν ἐν δεξιᾷ τῆς Μεγαλωσύνης is untouched by this variant."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited NT verses sit in books not yet fully published in ECM (the ingested ECM window is 3 John 1.1 to 1.15 only). INTF NTVMR provides apparatus access but no CBGM stemma for these passages. The variants surveyed do not move the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads Ps 110 as the Davidic-covenant oracle fulfilled in the Son who sits as priest-king after the order of Melchizedek, with Heb 1:3 and Heb 7:25 binding session, royal reign, and priestly intercession into one continuous office."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Distinguishes a present heavenly session from a future earthly Davidic reign, yet still affirms Christ's current enthronement at the Father's right hand and ongoing intercession (Heb 7:25, Rom 8:34) throughout the present age. The disagreement is over the timing of the earthly kingdom, not the present session."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Treats the seated Christ of Heb 10:12 as the new-covenant high priest whose finished, once-for-all sacrifice ends the levitical pattern, with present intercession sustaining the people of the new covenant."
+      },
+      {
+        "framework": "right-hand idiom as spatial vs status",
+        "verdict": "affirms",
+        "rationale": "A minority reads ἐκ δεξιῶν and ἐν δεξιᾷ as primarily locating Christ in a place beside the Father, while the majority reads it as the Hebrew יָמִין idiom of supreme honor and delegated authority. Both readings affirm the proposition: whether the phrase is taken spatially or as a status idiom, the text places the risen Christ at the position of supreme honor and rule. The 140 OT occurrences of יָמִין favor the status sense, but the proposition holds under either reading, so this divergence is immaterial to the verdict."
+      }
+    ],
+    "notes": "All three major NT theological frameworks read the session-and-intercession cluster the same way. The only genuine divergence is over whether the right-hand phrase is heard as physical location or as a status idiom, and both hearings affirm the exaltation, so the divergence does not reach the verdict. The method is redemptive-historical because the verdict turns on the Ps 110 oracle being carried forward and fulfilled across the canon."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem reports observable lexical content (right-hand enthronement plus intercession) and does not preload a contested ecclesial taxonomy. The glosses reigning and interceding are exegetical renderings of the καθίζω and κάθημαι at-the-right-hand cluster and of ἐντυγχάνω respectively, both directly attested. Verdict and confidence are unchanged from the prior file; the enrichment separates κάθημαι (the Ps 110 citation verb) from καθίζω (the declarative session verb), records the genuine hapax status of ὑπερυψόω at Phil 2:9, and adds the spatial-versus-status idiom divergence as a fairly stated minority lens."
+  },
+  "lay_summary": "The New Testament repeats a tight word cluster whenever it describes what the risen Jesus is doing now, and it all traces back to one Old Testament verse. In Ps 110:1 the Lord tells David's Lord to sit at my right hand until I make your enemies a footstool. The Hebrew verb for sit there is a command, second person, addressed by God to a second figure, so the grammar cannot mean God seating himself. The Greek translation reads sit at my right hand, and the New Testament quotes those exact words in Matt 22:44, Mark 12:36, Luke 20:42, Acts 2:34, and Heb 1:13, every time using the seated-state verb kathemai with the phrase at the right hand. Alongside the quotations, several writers make their own session statement using a second seating verb, kathizo, in the aorist: Heb 1:3, Heb 8:1, Heb 10:12, and Heb 12:2 say he sat down at the right hand, and Eph 1:20 says the Father seated him there. The same verb is plain in Col 3:1, where Christ is seated, and Rev 3:21, where he says he sat down with the Father on his throne. Heb 10:12 sets the seated Christ against the standing priests to show the one sacrifice is finished. Two verses add the present-tense verb to intercede, entynchano: Heb 7:25 says he always lives to intercede for those who come to God, and Rom 8:34 stacks four clauses, died, raised, at God's right hand, intercedes for us. The word at the right hand is the Hebrew idiom of supreme honor and authority, used 140 times across the Old Testament, so even readers who hear it as a literal place agree it marks the highest status. The exaltation verb in Phil 2:9 occurs only once in the whole Bible, but its own clause, the name above every name, settles its meaning. Old Testament oracle, repeated session vocabulary across many writers, and a present-tense intercession verb all converge on the same conclusion, that the risen Christ is now exalted at the Father's right hand, reigning and interceding.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.110.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3225"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3427"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.34"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.1.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.34"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2521"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2523"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1188"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1793"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5251"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.1.3"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.1.20"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.2.34"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.7.55"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.110.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Ps.110.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.8.34"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.10.12"
+    },
+    {
+      "type": "variant",
+      "source": "INTF-NTVMR",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.16.19"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "INTF-NTVMR",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The MACULA-Greek and MACULA-Hebrew word-level and syntax citations are CC-BY-NC-4.0, which prohibits bulk redistribution. All other sources used are redistributable."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

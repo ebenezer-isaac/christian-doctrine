@@ -1,0 +1,746 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-scripture-inspiration-verbal-plenary",
+  "question_id": "doc-scripture-inspiration-verbal-plenary",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense and convergent on both halves of the claim. For plenary scope, 2 Tim 3:16 predicates theopneustos (G2315, a true hapax, queried occurrence count 1, morph A-NSF agreeing with graphe N-NSF, glossed God-breathed across all editions NA28 through TR and Byz) of pasa graphe (every writing), and 2 Pet 1:21 grounds prophecy in men borne along (pheromenoi, G5342 present passive participle) hypo pneumatos hagiou, with speech apo theou. For the verbal aspect, the canon supplies arguments that turn on the words themselves: Matt 5:18 fixes permanence at the iota (G2503 hapax) and keraia (G2762, smallest letter and stroke); John 10:35 treats a single scriptural clause as ou dynatai lythenai (G1410 plus G3089, categorically cannot be broken); Matt 22:32 hangs the resurrection on the present tense eimi (G1510, I am, not I was); and Gal 3:16 hangs a whole argument on the singular sperma (G4690, seed) versus the plural. These four word-level arguments are the strongest lexical evidence that inspiration attaches to the words, not only the ideas. OT echoes in TSK cross refs (2 Sam 23:2 the Spirit spoke and his word was on my tongue, Ps 119:89, Ps 19) confirm pan-canonical witness. No cited verse carries a textual variant that disturbs the verdict."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2315",
+        "lemma": "θεόπνευστος",
+        "transliteration": "theopneustos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphe",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5342",
+        "lemma": "φέρω",
+        "transliteration": "phero",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4394",
+        "lemma": "προφητεία",
+        "transliteration": "propheteia",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1955",
+        "lemma": "ἐπίλυσις",
+        "transliteration": "epilysis",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2398",
+        "lemma": "ἴδιος",
+        "transliteration": "idios",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2503",
+        "lemma": "ἰῶτα",
+        "transliteration": "iota",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2762",
+        "lemma": "κεραία",
+        "transliteration": "keraia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3928",
+        "lemma": "παρέρχομαι",
+        "transliteration": "parerchomai",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "lyo",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4690",
+        "lemma": "σπέρμα",
+        "transliteration": "sperma",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1319",
+        "lemma": "διδασκαλία",
+        "transliteration": "didaskalia",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1822",
+        "lemma": "ἐξαρτίζω",
+        "transliteration": "exartizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0739",
+        "lemma": "ἄρτιος",
+        "transliteration": "artios",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1882",
+        "lemma": "ἐπανόρθωσις",
+        "transliteration": "epanorthosis",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2315",
+      "G1124",
+      "G3956",
+      "G5342",
+      "G4394",
+      "G1955",
+      "G2398",
+      "G2503",
+      "G2762",
+      "G3928",
+      "G1410",
+      "G3089",
+      "G2316",
+      "G1510",
+      "G4690",
+      "G1319",
+      "G1822",
+      "G0739",
+      "G1882"
+    ],
+    "scripture": [
+      {
+        "ref": "2 Timothy 3:16",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G2315",
+            "lemma": "θεόπνευστος"
+          }
+        ],
+        "force": "Pasa graphe theopneustos kai ophelimos. The token order in the queried text is Pasa (A-NSF), graphe (N-NSF), theopneustos (A-NSF), kai, ophelimos. Theopneustos is a hapax legomenon (queried count 1, only here) glossed God-breathed and is morphologically an adjective agreeing with graphe. This drives the plenary half of the claim: whether read attributively (every God-breathed writing is also profitable) or predicatively (every writing is God-breathed and profitable), the source of whatever is graphe is the breath of God. Pasa with anarthrous graphe distributes (every instance), giving canon-wide scope.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek 2Tim.3.16"
+      },
+      {
+        "ref": "2 Timothy 3:17",
+        "key_terms": [
+          {
+            "strong": "G0739",
+            "lemma": "ἄρτιος"
+          },
+          {
+            "strong": "G1822",
+            "lemma": "ἐξαρτίζω"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "Hina-purpose clause of v.16: God-breathed Scripture renders the man of God artios (G0739, hapax, fitted) and exertismenos (from G1822, attested only twice in the canon) for every good work. The completeness vocabulary presupposes that the words themselves are adequate, not merely the general ideas.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2 Peter 1:20",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G4394",
+            "lemma": "προφητεία"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G1955",
+            "lemma": "ἐπίλυσις"
+          },
+          {
+            "strong": "G2398",
+            "lemma": "ἴδιος"
+          }
+        ],
+        "force": "Pasa propheteia graphes idias epilyseos ou ginetai. No prophetic writing comes from the prophet's own (idias) epilysis (G1955, a hapax, release or unloosing or interpretation). The negation targets human origin of the prophetic words, setting up the alla clause in v.21. The hapax epilysis is one reason this verse is read more than one way, but every reading still denies private human origination.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2 Peter 1:21",
+        "key_terms": [
+          {
+            "strong": "G5342",
+            "lemma": "φέρω"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Ou gar thelemati anthropou enechthe propheteia pote, alla hypo pneumatos hagiou pheromenoi elalesan apo theou anthropoi. Both forms of phero are passive in the queried morphology: enechthe (G5342, aorist passive indicative, was brought) and pheromenoi (G5342, present passive participle, being carried). The passive voice is the grammatical key: the propulsive agency lies outside the human speakers, in the Holy Spirit, while the men remain real speakers (elalesan, aorist active). Speech originates apo theou.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matthew 5:18",
+        "key_terms": [
+          {
+            "strong": "G2503",
+            "lemma": "ἰῶτα"
+          },
+          {
+            "strong": "G2762",
+            "lemma": "κεραία"
+          },
+          {
+            "strong": "G3928",
+            "lemma": "παρέρχομαι"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Heos an parelthe ho ouranos kai he ge, iota hen e mia keraia ou me parelthe apo tou nomou heos an panta genetai. Permanence is asserted at the graphic level: iota (G2503, a hapax, the smallest letter) and keraia (G2762, attested only twice, a tiny stroke or serif). The negation is the emphatic ou me with the aorist subjunctive parelthe. The verbal scope is explicit, the smallest written marks, not just the message.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John 10:35",
+        "key_terms": [
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G3089",
+            "lemma": "λύω"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          }
+        ],
+        "force": "Parenthetical kai ou dynatai lythenai he graphe. The queried morphology gives ou dynatai (G1410, present indicative, is not able) plus lythenai (G3089, aorist passive infinitive, to be loosed or dissolved or annulled). The construction expresses categorical impossibility and is applied to treat a single scriptural sentence (Ps 82:6) as binding precisely because it is graphe. Arguing from one clause presupposes that the words themselves carry the authority.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matthew 22:32",
+        "key_terms": [
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Ego eimi ho theos Abraam... ouk estin ho theos nekron alla zonton. The queried morphology shows eimi (G1510, present active indicative, I am) and estin (G1510, present active indicative, He is). The whole argument for the resurrection hangs on the present tense of a quoted scriptural copula rather than a past tense. This is among the clearest canonical cases where a doctrine is drawn from a single grammatical feature of the wording, direct evidence for the verbal aspect of inspiration.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Galatians 3:16",
+        "key_terms": [
+          {
+            "strong": "G4690",
+            "lemma": "σπέρμα"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "Ou legei kai tois spermasin, hos epi pollon, all hos eph henos, kai to spermati sou, hos estin Christos. The queried morphology contrasts the singular spermati (G4690, N-DSN, seed) with the plural spermasin (G4690, N-DPN, seeds) and henos (G1520, one). The argument turns entirely on grammatical number, the difference between singular and plural in the quoted promise. Like Matt 22:32, this shows a canonical author resting an argument on the precise form of a word, the verbal aspect of inspiration in action.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Tim.3.16",
+        "to": "2Sam.23.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "Ps.19.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.17",
+        "to": "Ps.119.98",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.17",
+        "to": "2Tim.2.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "2Tim.2.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Tim.3.16",
+        "to": "2Tim.4.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.1.21",
+        "to": "Deut.33.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.1.21",
+        "to": "Num.16.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Matt.24.35",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.18",
+        "to": "Ps.119.89",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.10.35",
+        "to": "Gen.15.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.22.32",
+        "to": "Exod.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.16",
+        "to": "Gal.3.8",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1 Corinthians 7:12",
+        "addressed": true,
+        "resolution": "Paul writes ego lego, ouch ho kyrios (I say, not the Lord), distinguishing a directive not traceable to a dominical saying. In the same chapter he also says ho kyrios (v.10) and claims pneuma theou echein (v.40). The distinction concerns the sourcing of an oral dominical logion, not the inspired status of the apostolic writing itself, which 2 Pet 3:16 (queried, exists) classes with the other graphai. So it does not narrow the scope of theopneustos."
+      },
+      {
+        "ref": "1 Corinthians 1:16",
+        "addressed": true,
+        "resolution": "Paul's memory aside (loipon ouk oida ei tina allon ebaptisa) is genuine authorial humanity inside the inspired text. The lexical claim of theopneustos is about the text as produced and preserved, not a claim of omniscient authorial recall during composition. The vocabulary does not equate inspiration with the suppression of an author's ordinary memory."
+      },
+      {
+        "ref": "2 Peter 3:15-16",
+        "addressed": true,
+        "resolution": "Peter calls Paul's letters tas loipas graphas (the rest of the Scriptures), extending graphe (the very anchor of 2 Tim 3:16) to apostolic writings. Queried as existing in the store. This widens the scope of theopneustos rather than complicating it."
+      },
+      {
+        "ref": "2 Peter 1:20",
+        "addressed": true,
+        "resolution": "The genitive idias epilyseos with the hapax epilysis (G1955) is itself genuinely ambiguous (release, origination, or interpretation), so this verse is read more than one way. It is addressed here rather than left open because, on every attested sense of the hapax, the clause denies that prophecy arises from the prophet's own private act, which is the point the verdict relies on. The ambiguity affects the precise nuance, not the direction."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "2Tim.3.16",
+        "variant_id": "theopneustos-attributive-vs-predicative",
+        "verdict_impact": "none",
+        "note": "Queried editions field on the theopneustos token reads NA28+NA27+Tyn+SBL+WH+Treg+TR+Byz, so there is no textual variant on the word. The remaining question is syntactic (attributive every God-breathed writing vs predicative every writing is God-breathed), and it does not alter the lexical claim that whatever is graphe is theopneustos."
+      },
+      {
+        "ref": "2Pet.1.21",
+        "variant_id": "hoi-article-and-apo-word-order",
+        "verdict_impact": "none",
+        "note": "Queried token markers show the article hoi at position 14 tagged k (TR and Byz only) and apo at position 15 tagged N(K)O (inclusion and order variation). Both the critical text and the TR preserve apo theou as the source of speech and pheromenoi as the participial agency. The doctrinal predicate is untouched."
+      },
+      {
+        "ref": "Matt.5.18",
+        "variant_id": "none-material",
+        "verdict_impact": "none",
+        "note": "Queried tokens for iota, mia keraia, and the double ou me parelthe are tagged NKO across editions. No material variant on the graphic-level statement."
+      },
+      {
+        "ref": "John.10.35",
+        "variant_id": "none-material",
+        "verdict_impact": "none",
+        "note": "Queried tokens for ou dynatai lythenai he graphe are tagged NKO across editions. No material variant on the indissolubility clause."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "Bundle reports not_in_ecm_scope=true and the ingested ECM window is 3 John 1.1 to 1.15 only. None of the eight cited verses sits on an ECM-active textual fault line, so no published CBGM signal applies."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "grammatico-historical",
+      "analogia-scripturae"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "verbal inspiration (words themselves God-breathed)",
+        "verdict": "affirms",
+        "rationale": "Reads theopneustos as predicated of graphe, the written text, and finds the inspired locus in the wording because canonical authors argue from word-level features: the present tense eimi in Matt 22:32, the singular sperma versus plural in Gal 3:16, the indissoluble single clause in John 10:35, and the iota and keraia in Matt 5:18. On this lens the verbal half of the proposition is directly demonstrated by how Scripture itself reasons from its own words."
+      },
+      {
+        "framework": "dynamic or conceptual inspiration (ideas inspired, wording human)",
+        "verdict": "partially affirms",
+        "rationale": "Grants that 2 Tim 3:16 and 2 Pet 1:21 locate the origin of Scripture in God, but reads pheromenoi (borne along) as leaving the choice of words to the human authors, and notes authorial-humanity texts (1 Cor 1:16, the ego lego of 1 Cor 7:12) as evidence that the human writers are not mere stenographers. This lens affirms plenary divine origin while declining to specify inspiration down to each word. It is represented here at full strength: the vocabulary of pheromenoi does describe agency, not dictation, so the text does not by itself settle the mechanism of word selection."
+      },
+      {
+        "framework": "attributive reading of 2 Tim 3:16",
+        "verdict": "affirms with a scope caveat",
+        "rationale": "Reads the verse as every God-breathed writing is also profitable, making theopneustos a qualifier rather than a fresh predicate. On this reading the verse asserts the profitability of inspired writings and presupposes, rather than newly proves, that graphe is inspired. It still affirms inspiration of Scripture but draws the proof of it more from the surrounding canon (2 Pet 1:21, John 10:35) than from 2 Tim 3:16 standing alone."
+      }
+    ],
+    "notes": "The verdict follows from lexeme-level exegesis (theopneustos, pheromenoi, lythenai, iota, keraia, the present eimi, the singular sperma) read across canon sections: gospel, Pauline epistle, Petrine epistle, and the OT cross refs (2 Sam 23:2, Psalms). Analogia scripturae links 2 Tim 3:16 with 2 Pet 1:21 to specify the mode. Progressive revelation matters mainly to extend the graphe category from OT to NT writings via 2 Pet 3:16. The three lenses agree that Scripture is of divine origin; they differ on whether the vocabulary settles inspiration down to each word, which is the genuine point of divergence."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does Scripture say about its own origin, scope, and durability, and does the lexical evidence locate inspiration in the words themselves or only in the concepts and the persons who wrote?",
+    "notes": "The phrase verbal and plenary is a later systematic-theology coinage that carries a specific defended position, so the stem encodes part of its own conclusion. The neutralized form lets the lexical data speak. The verdict on the original stem still stands because the queried lexical pattern matches what the technical term names: plenary scope from pasa graphe theopneustos (2 Tim 3:16) and pheromenoi (2 Pet 1:21), and the verbal aspect from canonical arguments built on single words and forms (the present eimi in Matt 22:32, the singular sperma in Gal 3:16, the one indissoluble clause in John 10:35, the iota and keraia in Matt 5:18)."
+  },
+  "lay_summary": "The proposition has two halves: that Scripture is inspired down to its words, and that this covers its full extent. The queried words speak to both. In 2 Timothy 3:16 the rare word theopneustos, literally God-breathed, occurs only this once in the whole canon, and it is grammatically an adjective tied to graphe, every writing. So the source of whatever counts as Scripture is the breath of God. In 2 Peter 1:21 both forms of the verb carry are passive: prophecy was brought and the prophets were being carried by the Holy Spirit while they really spoke. The wording places the driving power outside the human author yet keeps the author as a genuine speaker. For the half about the words themselves, the strongest evidence is how the biblical writers argue. In Matthew 22:32 the whole case for resurrection rests on the present tense, I am the God of Abraham, not I was. In Galatians 3:16 a whole argument rests on a single word being singular, seed and not seeds. In Matthew 5:18 permanence is promised down to the iota, the smallest letter, and the keraia, the smallest stroke. In John 10:35 a single sentence of Scripture is said to be unable to be broken. Each of these reasons from the precise form of a word, which is what verbal inspiration means. Why do careful readers still diverge? The divergence is not about whether Scripture comes from God; the words settle that clearly. It is about how far the wording fixes the mechanism. The word for carried, pheromenoi, describes guidance, not dictation, and the canon also shows ordinary human traces, such as Paul admitting in 1 Corinthians 1:16 that he does not recall whom else he baptized. So one reading takes the word-level arguments as proof that every word is chosen by God, while another grants full divine origin but says the vocabulary does not by itself spell out word-by-word selection. The hapax epilysis in 2 Peter 1:20 and the open question of whether theopneustos describes or asserts inspiration add the same kind of room. The lexical case for inspiration that reaches the words and the full extent of Scripture is strong, and the remaining debate is about the precise mechanism the words leave unstated.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2315 theopneustos"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5342 phero"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1124 graphe"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2503 iota"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2762 keraia"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1955 epilysis"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3089 lyo"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.16 theopneustos A-NSF agreeing with graphe N-NSF"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Pet.1.21 enechthe V-API-3S and pheromenoi V-PPP-NPM"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.10.35 lythenai V-APN with ou dynatai V-PNI-3S"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.5.18 iota N-NSN, keraia N-NSF, ou me parelthe V-2AAS-3S"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.22.32 eimi V-PAI-1S and estin V-PAI-3S present tense"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.16 spermati N-DSN singular vs spermasin N-DPN plural"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.16 pasa graphe theopneustos"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Pet.1.21 pheromenoi"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.16-17 pasa graphe theopneustos kai hina clause"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Pet.1.20-21 ou gar... alla hypo pneumatos hagiou"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Tim.3.16 -> 2Sam.23.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Tim.3.16 -> Ps.19.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.5.18 -> Ps.119.89"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.5.18 -> Matt.24.35"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Pet.1.21 -> Deut.33.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Pet.1.21 -> Num.16.28"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Tim.3.17 -> Ps.119.98"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.10.35 -> Gen.15.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.22.32 -> Exod.3.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.3.16 -> Gal.3.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

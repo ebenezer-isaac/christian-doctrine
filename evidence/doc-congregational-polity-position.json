@@ -1,0 +1,552 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-congregational-polity-position",
+  "question_id": "doc-congregational-polity-position",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The cited texts attest two streams of vocabulary that the words do not rank. One stream gives the gathered body real action: the multitude (πλῆθος) is pleased and chooses (ἐξελέξαντο) the seven in Acts 6:5, the assembly is told (εἴπατε τῇ ἐκκλησίᾳ) in Matt 18:17, the congregation is commanded to judge and remove (κρίνατε, ἐξάρατε) in 1 Cor 5:12-13, and a penalty is inflicted by the majority (ὑπὸ τῶν πλειόνων) in 2 Cor 2:6. The other stream gives appointed leaders real authority: the Twelve frame and appoint (καταστήσομεν, Acts 6:3), Titus and Paul appoint elders (κατέστησεν, Titus 1:5; ἐχειροτόνησαν, Acts 14:23), elders rule (προεστῶτες, 1 Tim 5:17), and believers are to obey and submit to their leaders (πείθεσθε, ὑπείκετε, ἡγουμένοις, Heb 13:17). The two sharpest commands, ἐξάρατε (remove) and ὑπείκετε (submit), each rest on a hapax verb (ἐξαίρω and ὑπείκω occur once), and the chief leadership verbs ἡγέομαι and προΐστημι are polysemous, so neither stream can be triangulated to outrank the other. The proposition's comparative claim that one arrangement best preserves autonomy and accountability is an evaluative judgment outside lexical reach, so the pattern is materially contested."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklēsia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4128",
+        "lemma": "πλῆθος",
+        "transliteration": "plēthos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1586",
+        "lemma": "ἐκλέγομαι",
+        "transliteration": "eklegomai",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krinō",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1808",
+        "lemma": "ἐξαίρω",
+        "transliteration": "exairō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4119",
+        "lemma": "πλείων",
+        "transliteration": "pleiōn",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4863",
+        "lemma": "συνάγω",
+        "transliteration": "synagō",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistēmi",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5500",
+        "lemma": "χειροτονέω",
+        "transliteration": "cheirotoneō",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4291",
+        "lemma": "προΐστημι",
+        "transliteration": "proistēmi",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2233",
+        "lemma": "ἡγέομαι",
+        "transliteration": "hēgeomai",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3982",
+        "lemma": "πείθω",
+        "transliteration": "peithō",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5226",
+        "lemma": "ὑπείκω",
+        "transliteration": "hypeikō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4862",
+        "lemma": "σύν",
+        "transliteration": "syn",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1577",
+      "G4128",
+      "G1586",
+      "G2919",
+      "G1808",
+      "G4119",
+      "G4863",
+      "G0652",
+      "G2525",
+      "G5500",
+      "G4291",
+      "G2233",
+      "G3982",
+      "G5226",
+      "G4862",
+      "G4245"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          }
+        ],
+        "force": "The imperative directs the offended believer to tell the assembly (εἴπατε τῇ ἐκκλησίᾳ) and, if the offender will not hear, to treat him as an outsider (ἐθνικός and τελώνης). The assembly is the terminal court in this disciplinary sequence, but the verse does not say whether the assembly acts as an undifferentiated body or through its leaders, so it grounds congregational involvement without isolating a sole congregational authority.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.3",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          }
+        ],
+        "force": "The Twelve frame the action: look out from among yourselves (ἐπισκέψασθε ἐξ ὑμῶν) seven attested men whom we will appoint (καταστήσομεν). The selecting is handed to the body, but the framing imperative and the appointing verb καθίστημι sit with the apostles, so authority is shared and sequenced, not concentrated in the congregation.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.5",
+        "key_terms": [
+          {
+            "strong": "G4128",
+            "lemma": "πλῆθος"
+          },
+          {
+            "strong": "G1586",
+            "lemma": "ἐκλέγομαι"
+          }
+        ],
+        "force": "The proposal pleased the whole multitude (ἤρεσεν ἐνώπιον παντὸς τοῦ πλήθους) and they chose (ἐξελέξαντο) the seven. The congregational selection is explicit and active here, which is genuine evidence for an assembly role, but the choosing follows apostolic instruction rather than originating final authority.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.22",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G4862",
+            "lemma": "σύν"
+          }
+        ],
+        "force": "It seemed good to the apostles and the elders with the whole church (σὺν ὅλῃ τῇ ἐκκλησίᾳ) to choose and send leading men (ἄνδρας ἡγουμένους). The preposition σύν conjoins three actors and the decision is corporate and translocal, sent out to other assemblies, but the grammar names apostles and elders first and joins the church to them, which complicates both a sole-congregation reading and a purely local reading.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.14.23",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul and Barnabas appointed elders for them in every church (χειροτονήσαντες αὐτοῖς κατ’ ἐκκλησίαν πρεσβυτέρους). The subject of the appointing verb is the visiting apostles, not the local assembly, so the verb of installation here sits with translocal workers, which complicates a reading that lodges the establishment of leaders in the gathered congregation.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          }
+        ],
+        "force": "Paul left Titus in Crete to appoint elders in every city (καταστήσῃς κατὰ πόλιν πρεσβυτέρους) as I directed you (ὡς ἐγώ σοι διεταξάμην). The appointing verb καθίστημι and the directive διατάσσω both rest on a delegate acting under apostolic instruction, not on the assembly, complicating a congregation-as-final-authority reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.17",
+        "key_terms": [
+          {
+            "strong": "G4291",
+            "lemma": "προΐστημι"
+          }
+        ],
+        "force": "The elders who rule well (οἱ καλῶς προεστῶτες πρεσβύτεροι) are to be counted worthy of double honor. The participle of προΐστημι ascribes a governing function to elders, but this same verb elsewhere means manage a household (1 Tim 3:4-5, 12) and devote oneself to good works (Titus 3:8, 14), so its sense here is read by context and does not by itself settle how far elder rule extends over the assembly.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.13.17",
+        "key_terms": [
+          {
+            "strong": "G2233",
+            "lemma": "ἡγέομαι"
+          },
+          {
+            "strong": "G3982",
+            "lemma": "πείθω"
+          },
+          {
+            "strong": "G5226",
+            "lemma": "ὑπείκω"
+          }
+        ],
+        "force": "Obey your leaders and submit to them (πείθεσθε τοῖς ἡγουμένοις ὑμῶν καὶ ὑπείκετε), for they keep watch over your souls. Three verbs stack to enjoin deference to leaders. ὑπείκω is a hapax (its only occurrence), and ἡγέομαι in the lead sense is the minority sense of a word that more often means consider or regard, so the strength of the leadership claim rests on words that cannot be triangulated against parallel uses.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.4",
+        "key_terms": [
+          {
+            "strong": "G4863",
+            "lemma": "συνάγω"
+          }
+        ],
+        "force": "When you are gathered together (συναχθέντων ὑμῶν) with my spirit and the power of the Lord Jesus, the assembly is to act. The body convenes and executes discipline, supporting congregational agency, but Paul states in v.3 that he has already judged (κέκρικα) the case, so the determination precedes the assembly that carries it out.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.13",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G1808",
+            "lemma": "ἐξαίρω"
+          }
+        ],
+        "force": "Do you not judge those inside (τοὺς ἔσω ὑμεῖς κρίνετε)? Remove the evil one from among yourselves (ἐξάρατε τὸν πονηρὸν ἐξ ὑμῶν αὐτῶν). The plural imperatives place the act of removal on the whole body, strong support for congregational accountability, yet ἐξαίρω is a hapax occurring only here, so this sharpest congregational command cannot be checked against any parallel use of the same verb.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.6",
+        "key_terms": [
+          {
+            "strong": "G4119",
+            "lemma": "πλείων"
+          }
+        ],
+        "force": "The punishment inflicted by the majority (ἡ ἐπιτιμία αὕτη ἡ ὑπὸ τῶν πλειόνων) is sufficient. The phrase by the more or the majority points to corporate disciplinary action by the body, supporting congregational participation, but it describes a past practice rather than defining a constitutional seat of final authority, and πλείων is a common comparative whose force here is supplied by context.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.5.5",
+        "to": "1Cor.5.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "1Cor.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.5",
+        "to": "Acts.15.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.5",
+        "to": "Acts.6.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.15.22",
+        "to": "Acts.15.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.3",
+        "to": "Acts.1.21",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.6.3",
+        "addressed": true,
+        "resolution": "The Twelve direct the selection and reserve the appointing (καταστήσομεν, καθίστημι) and laying on of hands to themselves, so the episode shows shared and sequenced authority rather than congregational finality. Weighed in the verdict as a counter to a sole-congregation reading."
+      },
+      {
+        "ref": "Acts.15.22",
+        "addressed": true,
+        "resolution": "The σύν construction joins the whole church to the apostles and elders, who are named first, and the decision is sent translocally. The text supports corporate decision-making but does not lexically isolate the congregation as the final earthly authority, nor restrict the action to one local body, recorded as material contestation."
+      },
+      {
+        "ref": "Acts.14.23",
+        "addressed": true,
+        "resolution": "The subject of χειροτονέω (appoint) is the visiting apostles, not the local assembly, so the installation of elders is performed by translocal workers here. This complicates locating the establishment of leaders in the gathered congregation and is weighed against a pure-congregational reading."
+      },
+      {
+        "ref": "Titus.1.5",
+        "addressed": true,
+        "resolution": "Titus, a delegate acting as Paul directed (διατάσσω), appoints (καθίστημι) elders city by city. The appointing authority runs through a delegate under apostolic instruction, not through the assembly, and the verdict treats this as unresolved between readings."
+      },
+      {
+        "ref": "1Tim.5.17",
+        "addressed": true,
+        "resolution": "προΐστημι ascribes a ruling function to elders, but the same verb means manage a household and devote oneself to good works elsewhere, so its governing scope is read from context and does not by itself rank elder rule above or below assembly action. Recorded as polysemy that the texts do not resolve."
+      },
+      {
+        "ref": "Heb.13.17",
+        "addressed": true,
+        "resolution": "πείθεσθε and ὑπείκετε enjoin obedience and submission to leaders (ἡγουμένοις), but ὑπείκω is a hapax and ἡγέομαι in the lead sense is a minority sense, so the strength of this leadership claim rests on words that cannot be triangulated. The texts attest leader authority without lexically ranking it against congregational action."
+      },
+      {
+        "ref": "1Cor.5.3",
+        "addressed": true,
+        "resolution": "Paul writes that he has already judged (κέκρικα) the matter and the gathered body is to ratify and execute. The apostolic judgment preceding the assembly action complicates locating final authority in the congregation, treated as unresolved between readings."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle reports not_in_ecm_scope=true and supplies no variant units for the cited verses, all outside the ingested ECM window of 3 John. Marginal sigla appear in the supplied text (for example the reading at Acts 6:3 between καταστήσομεν and καταστήσωμεν, and at 1 Cor 5:5 over the divine name), but none bears on whether authority rests with the assembly or its leaders, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "congregationalism",
+      "presbyterianism",
+      "connectionalism",
+      "apostolic_foundationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "congregationalism",
+        "verdict": "partly_supported",
+        "rationale": "Reads the whole-body verbs as decisive: the multitude chooses (ἐξελέξαντο, πλῆθος, Acts 6:5), the assembly is addressed as the court (εἴπατε τῇ ἐκκλησίᾳ, Matt 18:17), the congregation is commanded to judge and remove (κρίνατε, ἐξάρατε, 1 Cor 5:12-13), and discipline is by the majority (ὑπὸ τῶν πλειόνων, 2 Cor 2:6). On this reading final earthly action sits with the gathered body. The texts supply real and active congregational agency, but they never state that final authority rests in the congregation, and the sharpest command ἐξάρατε is a hapax."
+      },
+      {
+        "framework": "presbyterianism",
+        "verdict": "partly_supported",
+        "rationale": "Reads the elder-rule verbs as decisive: elders rule (προεστῶτες, 1 Tim 5:17), believers obey and submit to leaders (πείθεσθε, ὑπείκετε, ἡγουμένοις, Heb 13:17), and elders are installed by appointment (καθίστημι, χειροτονέω, Acts 6:3, 14:23, Titus 1:5) rather than by election, with apostles and elders named first in Acts 15:22. On this reading governance is led by a body of elders with congregational assent. The vocabulary genuinely attests ruling elders, but ἡγέομαι and προΐστημι are polysemous and ὑπείκω is a hapax, so the scope of elder rule is not fixed by the words."
+      },
+      {
+        "framework": "connectionalism",
+        "verdict": "partly_supported",
+        "rationale": "Reads Acts 15 as decisive: a translocal council of apostles and elders with the Jerusalem church issues a decree (ἔδοξεν, ἡγουμένους) that is carried and imposed on assemblies in Antioch, Syria and Cilicia. On this reading authority extends beyond the single congregation to a wider body. The σύν construction and the sending of the decree do attest translocal action, but the passage is a single narrative episode and does not lexically establish a standing connectional structure over local assemblies."
+      },
+      {
+        "framework": "apostolic_foundationalism",
+        "verdict": "complicates",
+        "rationale": "Reads the apostolic and delegated initiative throughout (καταστήσομεν, κέκρικα, χειροτονέω, διατάσσω, the Jerusalem decree) as a foundational authority not reducible to any ongoing polity, which cautions against drawing any fixed constitutional pattern, congregational, presbyterian or connectional, from these narratives at all."
+      }
+    ],
+    "notes": "The lemmas attest both corporate participation in selection and discipline and authoritative direction by apostles, delegates and ruling elders. The grammar names actors and sequences actions but does not adjudicate which party holds final earthly authority, and the comparative best preserves claim is an evaluative judgment outside lexical reach. The three polity lenses are stated symmetrically because the vocabulary underdetermines all three."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How is governing authority distributed among the gathered assembly, its appointed elders, and apostolic or delegated direction in the New Testament texts on selection, appointment and discipline, and where, if anywhere, does final earthly authority rest?",
+    "notes": "The stem asserts that one polity best preserves NT autonomy and accountability, embedding both a comparative ranking and the conclusion that final earthly authority rests in the gathered congregation under Christ with elders leading and the assembly affirming. The phrases best preserves and the located final earthly authority both preload a verdict. The verdict is derived on the original stem, but the neutralized form is the tradition-neutral question actually answerable from the lemmas. Congregational, presbyterian and connectional readings are judged on the same lexical footing."
+  },
+  "lay_summary": "The verses behind this question describe how the first assemblies chose people and disciplined wrongdoers, and the words fall into two streams that the text never ranks against each other. One stream gives the gathered body a real and active part. In Acts 6 the whole multitude is pleased and chooses the seven; in Matthew 18 the wronged believer is told to tell the assembly; in First Corinthians 5 the congregation is commanded to judge and to remove the evil person from among themselves; and in Second Corinthians 2 the penalty is one inflicted by the majority. The other stream gives appointed leaders real authority. In Acts 6 the twelve apostles frame the task and do the appointing; in Acts 14 and Titus 1 traveling workers and a delegate appoint elders city by city as instructed; in First Timothy 5 elders are said to rule; and in Hebrews 13 believers are told to obey and submit to their leaders. The trouble is that the strongest single word on each side is a word that appears only once in the whole New Testament. The command remove in First Corinthians 5 and the command submit in Hebrews 13 are each one of a kind, so neither can be compared with other uses to settle its weight. The main leadership words, lead and rule, also carry more than one meaning across the New Testament, where lead more often means to consider or regard, and rule elsewhere means to manage a household. Because the same passages clearly show both whole assembly participation and authoritative appointed leadership, and because the sharpest terms cannot be cross checked, the words do not single out the congregation, or the elders, or a wider connected body, as the one final earthly authority. On top of that, the claim that one arrangement best preserves autonomy and accountability is a comparison and a value judgment that the words on the page cannot decide. For these reasons the lexical pattern is genuinely contested and fairly supports more than one reading of how authority is ordered.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1577"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.6.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.15.22"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.13.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.5"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.6.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Matt.18.17"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0 (non-commercial, redistribute false) and SBLGNT-text is licensed SBLGNT-EULA (redistribute false). Because at least one cited source is non-redistributable for bulk publication, the aggregate is not safe to publish."
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "cross-tradition-divergent"
+  ]
+}

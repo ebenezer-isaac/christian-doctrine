@@ -1,0 +1,488 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-sinners-prayer-method",
+  "question_id": "doc-sinners-prayer-method",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Queried against the live corpus the salvation vocabulary is dense and pan-canonical, sozo 436 occurrences in 101 NT verses, pisteuo 980 in 217, yet every recorded conversion attaches deliverance to believing, confessing, and crying out, never to a fixed wording. Luke 18:13 has the tax collector say hilastheti moi to hamartolo, where hilaskomai is a near-hapax of 4 occurrences in only 2 verses, a spontaneous penitent cry while beating his breast, and Jesus calls him justified. Rom 10:9-10 conditions sothese on confessing kyrion Iesoun and believing that God raised him, content not form. Acts 16:31 answers ti me dei poiein hina sotho with the bare imperative Pisteuson, supplying no prayer text. The complicating chain Acts 2:21, Rom 10:13 quotes Joel and uses epikaleo, but epikaleo is two-sensed in the canon, legal appeal as in Acts 25:11 Kaisara epikaloumai versus calling on the Lord, and Rom 10:14 places calling downstream of believing, so the act is commanded while its words stay free. 1 John 5:13 grounds assurance in the present participle pisteuousin, ongoing belief, supporting the warning clause. Both halves hold."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 436,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 980,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3670",
+        "lemma": "ὁμολογέω",
+        "transliteration": "homologeo",
+        "occurrences_in_canon": 104,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1941",
+        "lemma": "ἐπικαλέω",
+        "transliteration": "epikaleo",
+        "occurrences_in_canon": 93,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2433",
+        "lemma": "ἱλάσκομαι",
+        "transliteration": "hilaskomai",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 483,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4750",
+        "lemma": "στόμα",
+        "transliteration": "stoma",
+        "occurrences_in_canon": 316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0268",
+        "lemma": "ἁμαρτωλός",
+        "transliteration": "hamartolos",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 408,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 213,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7121",
+        "lemma": "קָרָא",
+        "transliteration": "qara",
+        "occurrences_in_canon": 735,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4982",
+      "G4100",
+      "G3670",
+      "G1941",
+      "G2433",
+      "G2588",
+      "G4750",
+      "G0268",
+      "G2222",
+      "G0166",
+      "G1343",
+      "G1453",
+      "H7121",
+      "H3722"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.18.13",
+        "key_terms": [
+          {
+            "strong": "G2433",
+            "lemma": "ἱλάσκομαι"
+          },
+          {
+            "strong": "G0268",
+            "lemma": "ἁμαρτωλός"
+          }
+        ],
+        "force": "The tax collector says Ho theos, hilastheti moi to hamartolo, God be propitiated toward me the sinner. The verb hilaskomai is verified in the corpus as near unique, only 4 occurrences across just 2 verses, here and Heb 2:17, so this is the lone Gospel instance and its sense is fixed by context. He stands afar off, will not lift his eyes, and beats his breast with the iterative imperfect etupte. The cry is spontaneous contrition, not a recited script, and Jesus declares this man went down justified. The force is that a genuine penitent cry, not a set wording, is what is commended.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.9",
+        "key_terms": [
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Verified text reads ean homologeses en to stomati sou kyrion Iesoun kai pisteuses en te kardia sou hoti ho theos auton egeiren ek nekron, sothese. The conditional ean plus two aorist subjunctives makes salvation hinge on the confessed content, kyrion Iesoun, and the believed content, the resurrection, not on the form of any prayer. The instrument is christological belief and confession, which supports the permissibility clause of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.10",
+        "key_terms": [
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G4750",
+            "lemma": "στόμα"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "Kardia pisteuetai eis dikaiosynen, stomati de homologeitai eis soterian pairs inner faith with outward confession as two sides of one response. Both verbs are present passive, describing a settled state and its expression rather than a one time recital. This grounds salvation in believing and confessing rather than in the wording of a formula.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.30",
+        "key_terms": [
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G1163",
+            "lemma": "δεῖ"
+          }
+        ],
+        "force": "The jailer asks ti me dei poiein hina sotho, what must I do to be saved. The dei plus infinitive frame openly invites a method answer, which makes the reply that follows a clean test of whether Scripture supplies a fixed procedure.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.31",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Verified text gives the bare aorist imperative Pisteuson epi ton kyrion Iesoun, kai sothese su kai ho oikos sou. No prayer wording is supplied, only the command to believe on the Lord Jesus with the household result clause. The absence of any prescribed verbal formula at the very point a method was requested is itself the lexical datum against treating a fixed sinner's prayer as the required instrument.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.13",
+        "key_terms": [
+          {
+            "strong": "G1941",
+            "lemma": "ἐπικαλέω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Pas gar hos an epikalesetai to onoma kyriou sothesetai quotes Joel, and the parallel Acts 2:21 carries the identical clause. Corpus traversal shows epikaleo is two sensed across its 93 occurrences, a legal appeal as in Acts 25:11 Kaisara epikaloumai and the calling on the Lord of 1 Cor 1:2 and 2 Tim 2:22. Here the invocation sense is fixed by to onoma kyriou, and Rom 10:14 places calling downstream of believing, pos epikalesontai eis hon ouk episteusan, so the verb describes the act of calling in faith and leaves its wording open. It commends a real cry without canonizing any set formula.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.13",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "Verified text reads Tauta egrapsa hymin hina eidete hoti zoen echete aionion, tois pisteuousin eis to onoma tou huiou tou theou. The present participle pisteuousin and present indicative echete locate assurance in ongoing believing, not in a single past act of saying a prayer. This is the lexical anchor for the warning clause, that assurance resting on a one time formula apart from continued faith and fruit is misplaced.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.21",
+        "key_terms": [
+          {
+            "strong": "G1941",
+            "lemma": "ἐπικαλέω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Pas hos ean epikalesetai to onoma kyriou sothesetai repeats the Joel citation at Pentecost. The same future passive sothesetai and the same invocation idiom appear, confirming that the saving act is calling on the Lord, an act recorded with varied words across the canon rather than one prescribed sentence.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Joel.2.32",
+        "key_terms": [
+          {
+            "strong": "H7121",
+            "lemma": "קָרָא"
+          }
+        ],
+        "force": "The Hebrew at Joel 3:5 in the Masoretic numbering reads kol asher yiqra beshem YHWH yimmalet, everyone who calls on the name of YHWH will be delivered, using qara, which the corpus shows occurs 735 times. Acts 2:21 and Rom 10:13 quote this verse, so the New Testament invocation is rooted in an Old Testament pattern, liqro beshem YHWH at Gen 4:26, Ps 116:4 and 13, and Zeph 3:9, none of which fixes a wording. The act of calling is pan canonical, the formula is not.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Luke.18.13",
+        "to": "Luke.5.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.18.13",
+        "to": "Luke.15.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.18.13",
+        "to": "Ps.25.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.31",
+        "to": "Acts.16.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.31",
+        "to": "Acts.2.38",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.10.13",
+        "addressed": true,
+        "resolution": "Pas gar hos an epikalesetai to onoma kyriou sothesetai could be read as endorsing a verbal invocation that a fixed sinner's prayer formalizes. Corpus traversal of epikaleo across its 93 occurrences shows two attested senses, a legal appeal as in Acts 25:11 Kaisara epikaloumai and the invocation of the Lord in 1 Cor 1:2 and 2 Tim 2:22. Context here fixes the invocation sense by to onoma kyriou, and Rom 10:14 makes calling depend on prior believing, so epikaleo names the act of calling in faith and leaves the words free. It supports a genuine cry while not requiring or canonizing any set formula."
+      },
+      {
+        "ref": "Rom.10.10",
+        "addressed": true,
+        "resolution": "Because stomati homologeitai is joined to soterian, the verse can be pressed to make a spoken confession the saving instrument, edging toward a formula. The present passive verbs and the parallel kardia pisteuetai show confession as the outward expression of inward faith, one response viewed from two sides, which preserves the permissibility clause without supporting a saving recital."
+      },
+      {
+        "ref": "Acts.22.16",
+        "addressed": true,
+        "resolution": "Anastas baptisai kai apolousai tas hamartias sou epikalesamenos to onoma autou pairs the aorist middle participle of epikaleo with baptism, and could be read as making the spoken invocation a cleansing act. The participle is contemporaneous calling on the Lord that accompanies the response of faith, and like the other epikaleo texts it specifies no fixed wording, so it commends a real invocation without prescribing a formula."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Direct query confirms the 116 ingested ECM variant units are all in 3 John chapter 1, and none of the anchor verses Luke 18.13, Rom 10.9, Rom 10.10, Acts 16.30, Acts 16.31, 1 John 5.13 lie in that window, so not_in_ecm_scope is honest. The editorial sigla marked in the SBLGNT text of these verses touch word order, a pronoun, and aorist or future spelling, none of which alters sozo, pisteuo, homologeo, hilaskomai, or epikaleo, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "lexical-grammatical reading",
+        "verdict": "affirms",
+        "rationale": "The verb forms tie salvation to believing, confessing, and calling out, and tie assurance to present continuous believing in 1 John 5.13. No recorded conversion supplies a fixed prayer wording, and the bare imperative Pisteuson at Acts 16.31 withholds any script at the exact point a method was sought, so the words support the proposition's two halves."
+      },
+      {
+        "framework": "verbal-invocation reading",
+        "verdict": "complicates",
+        "rationale": "A reading that isolates stomati homologeitai eis soterian in Rom 10.10 and epikalesetai to onoma kyriou in Rom 10.13 and Acts 2.21, with the baptismal epikalesamenos of Acts 22.16, can make a spoken invocation the saving instrument and so treat a set prayer as the prescribed means. In its strongest form this lens reads the mouth confession and the calling as the very point at which salvation is enacted, which is the most that the formula position can claim from the vocabulary."
+      },
+      {
+        "framework": "covenantal calling-on-the-Lord reading",
+        "verdict": "affirms",
+        "rationale": "Read by progressive revelation, Acts 2.21 and Rom 10.13 quote Joel, whose Hebrew qara beshem YHWH runs back through Gen 4.26, Ps 116, and Zeph 3.9. The Old to New Testament arc shows a single act, calling on the name of the Lord in faith, with consistently varied wording, which strongly supports the act while denying any canonized formula."
+      }
+    ],
+    "notes": "The verdict rests on the grammatical force of the verbs across the anchor pericopes read together by analogia scripturae, the near unique hilaskomai cry in Luke 18.13, the bare imperative in Acts 16.31, the present participle pisteuousin in 1 John 5.13, and the two sensed epikaleo whose invocation sense is fixed by to onoma kyriou and made dependent on prior belief by Rom 10.14. Progressive revelation is marked because the New Testament invocation quotes and extends the Old Testament Joel pattern."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does Scripture identify as the means by which a person is saved and gains assurance, and does any cited text prescribe a fixed verbal prayer as that means or as the ground of assurance?",
+    "notes": "The stem uses the extra biblical methodological label sinner's prayer and frames a normative pastoral judgment with the evaluative terms permissible and dangerous, which preloads a verdict. The lexical engine cannot rule on pastoral permissibility, only on whether the cited texts make a fixed prayer formula the saving or assuring instrument. The verdict is derived on the original stem by testing that lexical sub question, which the words answer cleanly. The label sinner's prayer itself does not occur in the lexical store. Verdict unchanged from the prior file, affirms remains true, and the deeper queries strengthen rather than alter it."
+  },
+  "lay_summary": "The texts behind this question describe how a person is saved and how a believer comes to assurance, and the original word forms point away from any fixed prayer script. In Luke 18:13 the tax collector cries be merciful to me, the sinner, while beating his breast and refusing to lift his eyes. That word for be merciful is almost unique in the whole New Testament, appearing only here and one other place, and the cry is a spontaneous plea of sorrow, not a recited form, yet Jesus calls that man justified. In Romans 10:9-10 salvation is joined to believing in the heart and confessing with the mouth that Jesus is Lord and that God raised him from the dead. The focus is the content believed and the person confessed, not the wording of a prayer. In Acts 16:31, when the jailer asks what he must do to be saved, the answer is simply the command believe on the Lord Jesus, and no prayer text is given for him to repeat. So the part of the statement that allows a prayer when it carries real repentance and faith matches the pattern, because what counts is genuine belief and confession rather than a memorized sentence. The one place a reader might press for a set formula is the line everyone who calls on the name of the Lord will be saved, quoted from Joel in Acts 2:21 and Romans 10:13. But the verb for calling carries two senses across the canon, a legal appeal, as when Paul appeals to Caesar, and a trusting cry to the Lord, and Romans 10:14 says people cannot call on one they have not first believed. So calling is the overflow of faith, and its words stay open. The warning side also matches. First John 5:13 says these things were written so that those who go on believing may know they have eternal life, and the verbs for believing and having life are ongoing present forms, which places assurance in a faith that continues rather than in a single past moment of saying a prayer.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.18.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.16.31"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.21"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1941"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2433"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3670"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Joel.2.32"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.16.31"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.18.13"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

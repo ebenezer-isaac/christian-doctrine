@@ -1,0 +1,561 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-women-non-authoritative-ministry-open",
+  "question_id": "prc-women-non-authoritative-ministry-open",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9375,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The verb propheteuo (G4395) for prophesying occurs 28 times across the canon and is applied with explicit female subjects: in Acts.2.17-18 the daughters (thygateres, N-NPF) and handmaidens (doulas) prophesy (propheteusousin), in Acts.21.9 four daughters are prophesying (propheteuousai, present participle nominative plural feminine), and in 1Cor.11.5 a woman praying or prophesying carries two present participles nominative singular feminine (proseuchomene, propheteuousa) that presuppose the act as actually occurring. The Hebrew noun nebiah, prophetess (H5031), runs through the Law, Prophets, and Writings (Miriam in Exod.15.20, Deborah in Judg.4.4, Huldah in 2Kgs.22.14 and 2Chr.34.22, Isa.8.3), and Anna is a prophetis (G4398) in Luke.2.36. Women also labor in the gospel: kopiao (G2872) of Mary, Tryphena, Tryphosa, and Persis in Rom.16.6,12, synathleo (G4866) in Phil.4.3, and diakoneo (G1247) of the women in Luke.8.3. The restriction lexemes in 1Tim.2.12 attach to didaskein paired with authentein andros (an authoritative-teaching act over a man), and authenteo is a single-occurrence hapax. Confidence is high because the openness strand is dense and pan-canonical, while the lone contested verb only bounds the upper office edge, not the affirmation."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4395",
+        "lemma": "προφητεύω",
+        "transliteration": "propheteuo",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5031",
+        "lemma": "נְבִיאָה",
+        "transliteration": "nebiah",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4398",
+        "lemma": "προφῆτις",
+        "transliteration": "prophetis",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4336",
+        "lemma": "προσεύχομαι",
+        "transliteration": "proseuchomai",
+        "occurrences_in_canon": 86,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2872",
+        "lemma": "κοπιάω",
+        "transliteration": "kopiao",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1247",
+        "lemma": "διακονέω",
+        "transliteration": "diakoneo",
+        "occurrences_in_canon": 37,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2567",
+        "lemma": "καλοδιδάσκαλος",
+        "transliteration": "kalodidaskalos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4994",
+        "lemma": "σωφρονίζω",
+        "transliteration": "sophronizo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1321",
+        "lemma": "διδάσκω",
+        "transliteration": "didasko",
+        "occurrences_in_canon": 96,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0831",
+        "lemma": "αὐθεντέω",
+        "transliteration": "authenteo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2010",
+        "lemma": "ἐπιτρέπω",
+        "transliteration": "epitrepo",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2980",
+        "lemma": "λαλέω",
+        "transliteration": "laleo",
+        "occurrences_in_canon": 298,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2271",
+        "lemma": "ἡσυχία",
+        "transliteration": "hesychia",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2364",
+        "lemma": "θυγάτηρ",
+        "transliteration": "thygater",
+        "occurrences_in_canon": 28,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4395",
+      "H5031",
+      "G4398",
+      "G4336",
+      "G2872",
+      "G1247",
+      "G4866",
+      "G2567",
+      "G4994",
+      "G1321",
+      "G0831",
+      "G2010",
+      "G2980",
+      "G2271",
+      "G2364",
+      "G1135"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.2.17",
+        "key_terms": [
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          },
+          {
+            "strong": "G2364",
+            "lemma": "θυγάτηρ"
+          }
+        ],
+        "force": "Citing Joel, Peter says hai thygateres hymon propheteusousin, your daughters shall prophesy. The subject the daughters is a feminine plural noun and the verb propheteusousin is future active third plural, so prophecy is predicated of women as a Spirit-poured reality of the last days, not a hypothetical. The same clause that names the sons names the daughters, placing female prophecy on the same footing.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.18",
+        "key_terms": [
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          }
+        ],
+        "force": "The Joel citation continues epi tas doulas mou, upon my handmaidens, a feminine plural object, with the same verb propheteusousin, they shall prophesy. The repetition of the female subject in the second half of the parallel statement removes doubt that women are intended agents of prophecy, not merely recipients of the Spirit.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.21.9",
+        "key_terms": [
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          },
+          {
+            "strong": "G2364",
+            "lemma": "θυγάτηρ"
+          }
+        ],
+        "force": "Philip had thygateres tessares parthenoi propheteuousai, four daughters, virgins, prophesying. The participle propheteuousai is present active nominative plural feminine, agreeing directly with the four daughters, so the narrative reports actual ongoing female prophetic ministry as an unremarkable fact of the church's life.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.5",
+        "key_terms": [
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          },
+          {
+            "strong": "G4336",
+            "lemma": "προσεύχομαι"
+          }
+        ],
+        "force": "Paul writes pasa gyne proseuchomene e propheteousa, every woman praying or prophesying, with two present participles that are nominative singular feminine and presuppose the activity as already occurring. He regulates only the manner, an uncovered head dishonors her head, and issues no prohibition of the prayer or prophecy itself. The parallel verse 1Cor.11.4 uses the identical participles in the masculine for a man, so the grammar treats male and female praying and prophesying as the same kind of act to be ordered, not forbidden.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.2.36",
+        "key_terms": [
+          {
+            "strong": "G4398",
+            "lemma": "προφῆτις"
+          }
+        ],
+        "force": "Anna is called prophetis, prophetess, a feminine noun, who served in the temple and spoke of the child to all awaiting redemption. The noun designates a recognized prophetic standing for a woman, anchoring the prophesying-women pattern in the Gospel narrative alongside its appearance in Acts and the epistles.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.18.26",
+        "key_terms": [
+          {
+            "strong": "G0207",
+            "lemma": "Ἀκύλας"
+          },
+          {
+            "strong": "G0197",
+            "lemma": "ἀκριβέστερον"
+          }
+        ],
+        "force": "The base text reads Priskilla kai Akylas, naming Priscilla first, and the verbs proselabonto, took aside, and exethento, expounded, are aorist middle third plural. The plural makes Priscilla a joint agent who expounded the way of God to Apollos akribesteron, more accurately. The setting is private reception, not assembly proclamation, so a woman participates in instructing a man outside the formal teaching office.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.3",
+        "key_terms": [
+          {
+            "strong": "G2567",
+            "lemma": "καλοδιδάσκαλος"
+          }
+        ],
+        "force": "Older women, presbytidas, are to be kalodidaskalous, an adjective in the feminine plural meaning teachers of what is good. The compound directly assigns a teaching function to women, and the term appears only here in the canon, defining a recognized instructional role within the household and woman-to-woman sphere.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.4",
+        "key_terms": [
+          {
+            "strong": "G4994",
+            "lemma": "σωφρονίζω"
+          }
+        ],
+        "force": "The purpose clause hina sophronizosin tas neas, that they may train the young women, has sophronizo as a present active subjunctive with the young women as object. The lexical target is woman-to-woman formation in love of husband and children, locating the female teaching activity outside the man-directed authoritative office.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.16.12",
+        "key_terms": [
+          {
+            "strong": "G2872",
+            "lemma": "κοπιάω"
+          }
+        ],
+        "force": "Tryphena, Tryphosa, and Persis are commended with kopiao, the same labor verb Paul uses of his own gospel toil. Of the women he writes tas kopiosas en kyrio, those laboring in the Lord, and of Persis hetis polla ekopiasen, who labored much. The vocabulary places named women in genuine gospel labor, not a domestic-only role, broadening the ministry the proposition affirms.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.3",
+        "key_terms": [
+          {
+            "strong": "G4866",
+            "lemma": "συναθλέω"
+          }
+        ],
+        "force": "Paul asks help for women, autais aitines en to euangelio synethlesan moi, who labored together with me in the gospel. The verb synathleo is aorist active third plural with these women as subject, ranking their gospel labor alongside that of Clement and the rest of his co-workers, an explicitly public ministry partnership.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.8.3",
+        "key_terms": [
+          {
+            "strong": "G1247",
+            "lemma": "διακονέω"
+          }
+        ],
+        "force": "Joanna, Susanna, and many other women, aitines diekonoun autois, who were ministering to them out of their possessions. The verb diakoneo is imperfect, marking sustained ministry, and the relative clause makes the women the active subjects of the serving. This grounds the wide-ministry strand of the proposition in the Gospel narrative.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.12",
+        "key_terms": [
+          {
+            "strong": "G1321",
+            "lemma": "διδάσκω"
+          },
+          {
+            "strong": "G0831",
+            "lemma": "αὐθεντέω"
+          }
+        ],
+        "force": "The restriction reads didaskein de gynaiki ouk epitrepo oude authentein andros. The two infinitives didaskein and authentein are joined by oude and governed by andros in the genitive, targeting a teaching act coupled with exercising authority over a man. authenteo is a hapax legomenon, occurring once in the whole canon, so its precise force is lexically thin and contested. The prohibition is specific to this man-directed teaching-with-authority act and does not lexically reach prayer, prophecy, or the female instruction commanded in Titus.2.3-4.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.34",
+        "key_terms": [
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          },
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          }
+        ],
+        "force": "The clause hai gynaikes en tais ekklesiais sigatosan, the women should be silent in the churches, uses sigao with ouk epitrepetai autais lalein, it is not permitted them to speak, and hypotassesthosan, let them be submissive. Read absolutely it would bar all female speech, but the verb lalein here is glossed by the very next verse as the speech the women must instead take home, so the silence term is bounded to a specific kind of speaking rather than to prophecy or prayer.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.35",
+        "key_terms": [
+          {
+            "strong": "G3129",
+            "lemma": "μανθάνω"
+          }
+        ],
+        "force": "ei de ti mathein thelousin, en oiko tous idious andras eperotatosan, if they wish to learn anything let them ask their own husbands at home. The conditional ties the silenced speech to wanting to learn (manthano) and to asking (eperotao), framing the prohibited lalein as in-assembly questioning that should be deferred to the home, not as the prophetic or prayer speech the proposition affirms.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.21.9",
+        "to": "Acts.2.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.21.9",
+        "to": "Exod.15.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.21.9",
+        "to": "Judg.4.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.5",
+        "to": "Luke.2.36",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.5",
+        "to": "Acts.21.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.2.3",
+        "to": "Titus.2.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.17",
+        "to": "Acts.21.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.14.34-35",
+        "addressed": true,
+        "resolution": "The sigao silence command, taken as an absolute, would contradict the proposition and the praying-prophesying woman of 1Cor.11.5. Lexically it is bounded by its own context: v35 names the remedy as asking husbands at home about what the women wish to learn, mathein thelousin, so the silenced lalein is framed as disruptive in-assembly questioning rather than prophecy or prayer. The wide ministry the proposition affirms, prayer, prophecy, testimony, and woman-to-woman teaching, is not the speech the silence term targets, so the complication bounds rather than negates the practice."
+      },
+      {
+        "ref": "1Tim.2.11-15",
+        "addressed": true,
+        "resolution": "The restriction couples didaskein with authentein andros, naming an authoritative-teaching-over-a-man act, and authenteo is a single-occurrence hapax whose exact sense cannot be triangulated from canon usage. The passage limits one specific office function but does not lexically reach prayer, prophecy, testimony, or the kalodidaskalous teaching role of older women in Titus.2.3-4. It therefore constrains the upper boundary of the proposition, the authoritative-teaching office, while leaving the wider ministry activity standing."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle and these texts fall outside the open-cbgm 3 John ECM-published scope. The well-known transposition of 1Cor.14.34-35 in some witnesses is a placement variant that does not alter the lexical force used here, since the verdict treats that silence clause only as a bounded complicating text. The Acts.18.26 name order, with Priscilla first in the base text, is a known minor variant but does not change the plural-verb shared-agency reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "complementarian",
+      "egalitarian"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "complementarian",
+        "verdict": "affirms",
+        "rationale": "Reads the restriction in 1Tim.2.12 as limited to the authoritative-teaching-and-authority-over-a-man office, which leaves prayer, prophecy, testimony, and the instruction of women and children explicitly open. The kalodidaskalous role of Titus.2.3, the praying-prophesying woman of 1Cor.11.5, and the prophesying daughters of Acts.2.17-18 and Acts.21.9 confirm a real but bounded non-authoritative ministry."
+      },
+      {
+        "framework": "egalitarian",
+        "verdict": "affirms",
+        "rationale": "Notes the same prophecy and labor texts but reads authenteo as a narrow, disputed-sense hapax and 1Cor.14.34 as a bounded or text-critically suspect silence, concluding that female ministry is open even more broadly than the proposition states. Either way the narrower claim, that non-authoritative ministry is open, is affirmed, since both lenses grant the prophecy and gospel-labor texts."
+      }
+    ],
+    "notes": "Both frameworks converge in affirming the limited proposition under test, that women may minister outside the authoritative-teaching office. They diverge on the scope of the restricted office itself, which this question does not adjudicate. The convergence is what makes confidence high: the disagreement is about the ceiling, not about whether non-authoritative ministry is open."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem describes a set of ministry practices and names an authoritative-teaching office as a boundary category. The core claim, that women pray, sing, prophesy, give testimony, and teach women and children, is directly testable from the lexical pattern and is not framed to presuppose its answer. The phrase outside the authoritative-teaching office names a contested boundary, but the verdict is derived from the speech-act, prophecy, and labor lexemes themselves, so the stem is treated as neutral. Verdict unchanged from the prior file; confidence raised from medium to high and pan_canonical raised from false to true after direct queries showed the prophesying-women pattern spans the Law, Prophets, Writings, Gospels, Acts, and epistles."
+  },
+  "lay_summary": "The original-language pattern shows women clearly engaged in several kinds of ministry, and the strongest thread is prophecy. The word for prophesying occurs twenty-eight times across the canon, and it is applied directly to women: in Acts your daughters and handmaidens will prophesy, four daughters of Philip are described as prophesying with a feminine participle, and in First Corinthians 11 a woman praying or prophesying is spoken of with present participles that take the act as already happening, the very same words used one verse earlier of a man. The Old Testament noun for a prophetess names Miriam, Deborah, Huldah, and others, so the pattern runs from the Law through the Prophets and Writings into the Gospels, where Anna is called a prophetess, and on into Acts and the letters. Women also labor in the gospel: the same toil word Paul uses of himself is used of Mary, Tryphena, Tryphosa, and Persis, other women labored together with him, and women ministered to Jesus out of their own means. Priscilla, named first in the text, jointly explained the way of God to Apollos in private, and older women are called teachers of what is good who train the younger women. Set against all this, the limiting text in First Timothy attaches its prohibition to teaching joined with exercising authority over a man, and that authority word appears only once in the whole canon, so its exact force cannot be pinned down. The silence command in First Corinthians 14 reads strongly alone, but its own next verse ties it to questions that should be taken home to husbands, so it bounds a disruptive kind of speech, not prayer or prophecy. The words therefore support a real distinction. Women verifiably pray, prophesy, give testimony, labor in the gospel, and teach women and children, while the restricting texts target one specific authoritative office over men. Confidence is high because the openness is dense and spans the whole canon, and divergence is only about where the upper boundary falls.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.17"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.21.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.18.26"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.16.12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4395"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0831"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5031"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.34"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.21.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

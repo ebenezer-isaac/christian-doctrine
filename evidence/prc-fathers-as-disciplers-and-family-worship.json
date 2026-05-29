@@ -1,0 +1,779 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-fathers-as-disciplers-and-family-worship",
+  "question_id": "prc-fathers-as-disciplers-and-family-worship",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across law, narrative, wisdom, and epistle is dense, convergent, and pan-canonical. Deuteronomy 6:6-7 puts the commanded words on the parent's heart and then governs the verb veshinnantam, the Piel of shanan meaning to inculcate sharply, with the object levaneka, to your sons, set in the four-fold daily merism of sitting, walking, lying down, rising. Genesis 18:19 anticipates this with God's tsavah, command, that Abraham will direct his children and his household after him. Psalm 78:5-7 reads the same obligation as a divine charge to the avot, fathers, expressed by the Hiphil lehodiam, to cause to know, projected across three generations. Ephesians 6:4 addresses hoi pateres directly with ektrephete in paideia kai nouthesia kyriou, and Colossians 3:21 echoes the same vocative address with the parallel verb erethizete. The convergence of imperative transmission verbs, the parent-to-child vector, and the household setting carries the proposition. The contested margin is narrow and lexical: pateres in Greek can denote either fathers specifically or parents collectively, as Hebrews 11:23 demonstrates of Moses' parents, and Proverbs 1:8 pairs musar avika with torath imeka, so the words affirm parental and household responsibility decisively while leaving the precise weighting of fathers as primary alongside mothers a margin the vocabulary alone does not fully settle."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H8150",
+        "lemma": "שָׁנַן",
+        "transliteration": "shanan",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3045",
+        "lemma": "יָדַע",
+        "transliteration": "yada",
+        "occurrences_in_canon": 860,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6680",
+        "lemma": "צָוָה",
+        "transliteration": "tsavah",
+        "occurrences_in_canon": 472,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1755",
+        "lemma": "דּוֹר",
+        "transliteration": "dor",
+        "occurrences_in_canon": 137,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5608",
+        "lemma": "סָפַר",
+        "transliteration": "saphar",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0001",
+        "lemma": "אָב",
+        "transliteration": "av",
+        "occurrences_in_canon": 1568,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1121",
+        "lemma": "בֵּן",
+        "transliteration": "ben",
+        "occurrences_in_canon": 4929,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4148",
+        "lemma": "מוּסָר",
+        "transliteration": "musar",
+        "occurrences_in_canon": 50,
+        "in_anchors": false
+      },
+      {
+        "strong": "H0517",
+        "lemma": "אֵם",
+        "transliteration": "em",
+        "occurrences_in_canon": 220,
+        "in_anchors": false
+      },
+      {
+        "strong": "H8451",
+        "lemma": "תּוֹרָה",
+        "transliteration": "torah",
+        "occurrences_in_canon": 219,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1625",
+        "lemma": "ἐκτρέφω",
+        "transliteration": "ektrepho",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3809",
+        "lemma": "παιδεία",
+        "transliteration": "paideia",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3559",
+        "lemma": "νουθεσία",
+        "transliteration": "nouthesia",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5043",
+        "lemma": "τέκνον",
+        "transliteration": "teknon",
+        "occurrences_in_canon": 102,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3949",
+        "lemma": "παροργίζω",
+        "transliteration": "parorgizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2042",
+        "lemma": "ἐρεθίζω",
+        "transliteration": "erethizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3384",
+        "lemma": "μήτηρ",
+        "transliteration": "meter",
+        "occurrences_in_canon": 83,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "H8150",
+      "H3045",
+      "H6680",
+      "H1755",
+      "H5608",
+      "H1121",
+      "H0001",
+      "H0517",
+      "H4148",
+      "H8451",
+      "H5715",
+      "G1625",
+      "G3809",
+      "G3559",
+      "G3962",
+      "G5043",
+      "G3949",
+      "G2042",
+      "G3384"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.6.7",
+        "key_terms": [
+          {
+            "strong": "H8150",
+            "lemma": "שָׁנַן"
+          },
+          {
+            "strong": "H1121",
+            "lemma": "בֵּן"
+          }
+        ],
+        "force": "The Piel verb veshinnantam, you shall inculcate them, is a second-person singular form addressed to each covenant member, governing the object levaneka, to your sons. The clause sequence locates the teaching in the ordinary household and travel rhythm of sitting in your house, walking on the road, lying down, and rising up. The four daily postures form a merism that conveys continuous, not occasional, instruction, and the parent-to-child direction is explicit in the morphology. The singular address does not by itself rank father over mother, but it ties the obligation to the head of the household across the covenant community.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": "Deut.6.7"
+      },
+      {
+        "ref": "Deut.6.6",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H3824",
+            "lemma": "לֵבָב"
+          }
+        ],
+        "force": "The words commanded today are to be al levaveka, upon your heart, before they are transmitted. The internalization clause in verse 6 is the antecedent condition for the transmission verbs in verse 7, so what passes to the child is first the formed conviction of the adult addressee. This sequence ties spiritual formation of the child to the prior spiritual state of the parent and to the household setting where the teaching happens.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": "Deut.6.6"
+      },
+      {
+        "ref": "Deut.6.9",
+        "key_terms": [
+          {
+            "strong": "H3789",
+            "lemma": "כָּתַב"
+          },
+          {
+            "strong": "H4201",
+            "lemma": "מְזוּזָה"
+          }
+        ],
+        "force": "The continued verbs ukhtavtam, you shall write them, on the mezuzot of your house and on your gates, extend the transmission from speech into permanent household markers. The architectural placement of the words on doorposts and gates fixes the home itself as the catechetical site, which underwrites the household-worship and household-catechesis reading of the proposition.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": "Deut.6.9"
+      },
+      {
+        "ref": "Gen.18.19",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H6680",
+            "lemma": "צָוָה"
+          },
+          {
+            "strong": "H1121",
+            "lemma": "בֵּן"
+          }
+        ],
+        "force": "God says of Abraham, yedativ lemaan asher yetsavveh et banav ve-et beito acharav, I have known him so that he will command his children and his household after him to keep the way of the LORD. The verb tsavah, to command, is governed by Abraham as subject and takes both banav and beito as objects, so the head of the household is the explicit agent of directive transmission. The clause lemaan, so that, frames covenantal election as ordered to this household discipling function.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Gen.18.19"
+      },
+      {
+        "ref": "Ps.78.5",
+        "key_terms": [
+          {
+            "strong": "H6680",
+            "lemma": "צָוָה"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H0001",
+            "lemma": "אָב"
+          }
+        ],
+        "force": "God established a testimony, edut, and a law, torah, which he commanded, tsivvah, the fathers, avotenu, to make known, the Hiphil lehodiam from yada meaning to cause to know, to their children. The causative stem on yada is decisive: the avot are the active agents of transmission by divine command, the banim are the recipients. This is the lexical core of household catechesis grounded in obligation, not option.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.78.5"
+      },
+      {
+        "ref": "Ps.78.6",
+        "key_terms": [
+          {
+            "strong": "H1755",
+            "lemma": "דּוֹר"
+          },
+          {
+            "strong": "H5608",
+            "lemma": "סָפַר"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          }
+        ],
+        "force": "The purpose clause lemaan, in order that, projects the transmission across generations: that the latter generation, dor acharon, the children yet to be born, would know, yedu, and rise up and recount, the Piel visapperu from saphar, to their own children. The chain of three generations fixes catechesis as a repeating normal pattern, not a single event, and the verbs of knowing and recounting frame it as verbal instruction passed down a household line.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.78.6"
+      },
+      {
+        "ref": "Ps.78.7",
+        "key_terms": [
+          {
+            "strong": "H5341",
+            "lemma": "נָצַר"
+          },
+          {
+            "strong": "H7911",
+            "lemma": "שָׁכַח"
+          },
+          {
+            "strong": "H4687",
+            "lemma": "מִצְוָה"
+          }
+        ],
+        "force": "The intended outcome of the transmission is that the children set their confidence, kesel, in God, do not forget, lo yishkechu, the works of God, and keep, yintsoru from natsar, his commandments. The goal clause makes formation, not mere information, the aim of the teaching, and ties the success of catechesis to the spiritual disposition of the receiving generation.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Ps.78.7"
+      },
+      {
+        "ref": "Eph.6.4",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G1625",
+            "lemma": "ἐκτρέφω"
+          },
+          {
+            "strong": "G3809",
+            "lemma": "παιδεία"
+          },
+          {
+            "strong": "G3559",
+            "lemma": "νουθεσία"
+          },
+          {
+            "strong": "G3949",
+            "lemma": "παροργίζω"
+          }
+        ],
+        "force": "The vocative address hoi pateres is set against the prohibition me parorgizete, do not provoke to anger, and the positive command ektrephete auta, rear them, governed by the instrumental prepositional phrase en paideia kai nouthesia kyriou, in the discipline and admonition of the Lord. The verb ektrepho means to nourish up to maturity, the same verb used in Ephesians 5:29 of nourishing the body, so the formation in view is comprehensive nurture. Paideia denotes formative discipline and nouthesia denotes verbal admonition, and the genitive kyriou marks the content as belonging to the Lord, which assigns a defined formative role to the addressee.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Eph.6.4"
+      },
+      {
+        "ref": "Col.3.21",
+        "key_terms": [
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G2042",
+            "lemma": "ἐρεθίζω"
+          },
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          }
+        ],
+        "force": "The vocative hoi pateres me erethizete ta tekna hymon parallels Ephesians 6:4 with the verb erethizo, to provoke or stir up, instead of parorgizo. The parallel address to fathers in a second Pauline epistle, with the same parent-to-child relational vector and the same prohibition shape, doubles the lexical witness that the apostolic instruction is specifically and repeatedly directed at fathers. The purpose clause hina me athumosin, lest they become discouraged, frames the negative side of household formation as the father's responsibility too.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Col.3.21"
+      },
+      {
+        "ref": "Pro.1.8",
+        "key_terms": [
+          {
+            "strong": "H4148",
+            "lemma": "מוּסָר"
+          },
+          {
+            "strong": "H0001",
+            "lemma": "אָב"
+          },
+          {
+            "strong": "H8451",
+            "lemma": "תּוֹרָה"
+          },
+          {
+            "strong": "H0517",
+            "lemma": "אֵם"
+          }
+        ],
+        "force": "The verse pairs shema beni musar avika, hear my son the instruction of your father, with ve-al titosh torath imeka, and do not reject the teaching of your mother. The grammatical structure is a balanced couplet, with both parents named as sources of instruction, musar from the father and torah from the mother. The coordination shows that household formation in the wisdom tradition is jointly parental in lexical fact, which qualifies any reading that would lexically exclude or marginalize the mother's role.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": "Pro.1.8"
+      },
+      {
+        "ref": "Jos.24.15",
+        "key_terms": [
+          {
+            "strong": "H5647",
+            "lemma": "עָבַד"
+          },
+          {
+            "strong": "H1004",
+            "lemma": "בַּיִת"
+          }
+        ],
+        "force": "Joshua's declaration va-anokhi u-veiti naavod et YHWH, but I and my house, we will serve the LORD, fixes the household, bayit, as the unit of covenant worship and locates the head of the household as the one who speaks for that unit before God. The verb avad here carries the cultic sense of worship and serves as a lexical witness that family worship is a normal expected category in the canon.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Jos.24.15"
+      },
+      {
+        "ref": "1Ti.5.8",
+        "key_terms": [
+          {
+            "strong": "G4306",
+            "lemma": "προνοέω"
+          },
+          {
+            "strong": "G3609",
+            "lemma": "οἰκεῖος"
+          }
+        ],
+        "force": "The verse states that anyone who does not provide, pronoei, for his own and especially for those of his own household, oikeion, has denied the faith. The verb pronoeo and the noun oikeios extend the household-responsibility frame from spiritual formation to comprehensive provision, with the household marked as the primary sphere of obligation. This corroborates Ephesians 6:4 and Colossians 3:21 at the level of household structure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Ti.5.8"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Deut.6.6",
+        "to": "Deut.11.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.6.8",
+        "to": "Deut.11.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.6.9",
+        "to": "Deut.11.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.78.6",
+        "to": "Deut.4.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.78.7",
+        "to": "Deut.5.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.6.7",
+        "to": "Deut.6.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.78.5",
+        "to": "Exod.25.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "Gen.18.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "Col.3.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "Pro.22.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.78.5",
+        "to": "Ps.78.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.78.5",
+        "to": "Ps.81.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "2Ti.1.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "Pro.1.8",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Deut.6.7",
+        "to": "Jos.24.15",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Eph.6.4",
+        "addressed": true,
+        "resolution": "The noun pateres can denote fathers specifically or parents collectively. Hebrews 11:23 uses hoi pateres autou of Moses' parents, where the same vocabulary unambiguously means both mother and father, so the lexeme carries an attested joint-parental sense. The vocative in Ephesians 6:4 is most naturally read as fathers specifically given the prior household-code pairings, husbands-wives and slaves-masters, but the lexical option of parents-collectively is real and limits how strongly the words alone can rank fathers as primary over mothers. The underlying proposition that the household bears formative responsibility and catechesis is the normal pattern holds on either reading, while the precise father-primary weighting is the contestable margin."
+      },
+      {
+        "ref": "Pro.1.8",
+        "addressed": true,
+        "resolution": "Proverbs 1:8 pairs musar avika with torath imeka in a balanced couplet, naming both parents as sources of instruction. The same couplet form recurs in Proverbs 6:20. This is a direct lexical witness against any reading that would marginalize the mother's instructional role, and it qualifies the father-primary weighting in the stem without overturning the broader pattern of household and parental responsibility."
+      },
+      {
+        "ref": "2Ti.1.5",
+        "addressed": true,
+        "resolution": "Paul describes Timothy's sincere faith as having dwelt first in his grandmother Lois and his mother Eunice, with no father mentioned. The verb enokeo, to dwell in, with the adverb proton, first, and the maternal line in two generations, gives a concrete narrative case in which the formative spiritual transmission ran through mother and grandmother. The lexical data here does not displace the father's role where present, but it shows that scripture records and commends maternal formation in its own right, which qualifies any father-only reading."
+      },
+      {
+        "ref": "Deut.6.7",
+        "addressed": true,
+        "resolution": "The second-person singular verb forms in Deuteronomy 6 are addressed to each covenant member and to corporate Israel as a singular you, so they do not by themselves isolate the father over the mother. The text grounds individual and household responsibility for transmission without lexically ranking the two parents, which is consistent with the proposition naming both father and mother."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Ephesians 6:4 and Colossians 3:21 lie outside the published CBGM scope, which currently covers the Catholic Epistles in the sample. No variant unit in the bundle bears on the anchor lexemes ektrepho, paideia, nouthesia, parorgizo, or erethizo, and the Deuteronomy, Genesis, Joshua, Psalm, and Proverbs anchors are Old Testament with no ECM apparatus. The verdict does not turn on any contested reading."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "new_covenant_theology",
+      "dispensationalism",
+      "joint_parental_reading",
+      "father_primary_reading"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the Deuteronomy household-transmission mandate as carrying forward into the new covenant household, so the Ephesians and Colossians addresses to fathers are continuous with the Mosaic and patriarchal command to inculcate the words to children. The cross-reference chain from Genesis 18:19 to Deuteronomy 6 to Psalm 78 to Ephesians 6:4 and Colossians 3:21 supports unbroken obligation under the same canonical pattern."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Locates the binding force in the apostolic command of Ephesians 6:4 and Colossians 3:21 themselves, with the Deuteronomy, Genesis, and Psalm texts as illustrative of an enduring creational and wisdom pattern of parental nurture rather than as directly transferred Mosaic statute. The lexical convergence still yields affirmation on the central proposition."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Distinguishes the Mosaic economy of Deuteronomy from the church-age instruction of Ephesians and Colossians, yet both economies independently command parental and household formation of children, so the proposition is affirmed across the dispensational boundary without depending on direct continuity of statute."
+      },
+      {
+        "framework": "father_primary_reading",
+        "verdict": "affirms",
+        "rationale": "Reads hoi pateres in Ephesians 6:4 and Colossians 3:21 as a deliberate gender-specific vocative within the household-code series, which pairs husbands with wives and slaves with masters, and reads Genesis 18:19 as locating the directive role with Abraham as household head. On this reading the lexical data lines up cleanly with the proposition's father-primary weighting and admits the mother's role as joint but secondary in the catechetical lead."
+      },
+      {
+        "framework": "joint_parental_reading",
+        "verdict": "affirms with qualification",
+        "rationale": "Reads pateres in Ephesians 6:4 and Colossians 3:21 against Hebrews 11:23 where the same lexeme denotes both parents of Moses, and pairs Proverbs 1:8 musar avika with torath imeka and 2 Timothy 1:5 Lois and Eunice as direct canonical witnesses to maternal instruction. On this reading the words affirm household and parental responsibility decisively but underdetermine a strict father-primary ranking, since the same Greek lexeme carries a joint-parental sense and the wisdom and apostolic record names mothers as instructional agents in their own right."
+      }
+    ],
+    "notes": "The verdict draws on the covenantal and generational arc visible in Psalm 78, where the command to the fathers projects forward to a latter generation. The framework conflict concerns continuity mechanism and the weighting of father versus joint-parental responsibility, not the substance of household and parental obligation for spiritual formation, which all lenses affirm by analogia scripturae."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the lexical pattern assigns responsibility for the spiritual formation of children to parents and the household, and whether ongoing household instruction in the things of God is presented as a normal expected practice; assess separately whether fathers are weighted as primary alongside mothers.",
+    "notes": "The stem asserts that fathers bear primary responsibility, with mothers, which preloads a specific ranking of parental roles. The lexicon supports household and parental responsibility for formation strongly, and supports the father-directed vocative address in Ephesians 6:4 and Colossians 3:21, and supports the patriarchal directive role in Genesis 18:19. But the lexeme pateres carries an attested joint-parental sense in Hebrews 11:23, and Proverbs 1:8 and 2 Timothy 1:5 name mothers as direct instructional agents, so the primary-with-mothers weighting in the stem is partly assumed rather than lexically forced. The verdict above is derived on the original stem and rates true with the noted margin captured in complicating_texts and in the joint_parental_reading lens. The verdict has not changed from the prior file."
+  },
+  "lay_summary": "The original-language evidence points the same direction in the Law, in narrative, in the Psalms, in the wisdom books, and in the New Testament letters. In Deuteronomy 6:7 the command veshinnantam levaneka uses a verb, shanan, that means to repeat sharply or to inculcate, aimed at your sons. The surrounding words place the teaching in the ordinary rhythm of home life, sitting, walking, lying down, and rising, so instruction is meant to be constant rather than occasional. Verse 6 first puts the words on the parent's own heart, so what passes to the child is the parent's settled conviction. Verse 9 even writes the words on the doorposts, fixing the home itself as the catechetical site. Genesis 18:19 says God chose Abraham so that he would command his children and his household after him, which makes the head of the household the explicit directive agent. Psalm 78:5 to 7 says God commanded the fathers to make these things known to their children, using the causative form of the verb to know, and the goal is that the next generation would set their hope in God, not forget his works, and keep his commandments. The passage then projects the teaching across three generations. In Ephesians 6:4 Paul addresses fathers directly, tells them not to provoke their children to anger, and commands them to rear the children, the verb ektrepho meaning to nourish to maturity, in the discipline and admonition of the Lord. Colossians 3:21 repeats the same vocative address to fathers with a parallel verb. The two key nouns, paideia and nouthesia, cover formative discipline and verbal correction. Together these texts show that parents and the household carry responsibility for the spiritual formation of children and that ongoing instruction in the home is the expected pattern. One lexical nuance shapes where readers diverge. The Greek word for fathers can also mean parents taken together, as it does for the parents of Moses in Hebrews 11:23. Proverbs 1:8 names the instruction of the father and the teaching of the mother together, and 2 Timothy 1:5 records faith dwelling first in Timothy's grandmother and mother. So the words affirm parental and household responsibility decisively but underdetermine a strict father-primary ranking, and that lexical underdetermination is where the proposition's reading divides.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.6.7"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8150"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3045"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4148"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0001"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0517"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.18.19"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Pro.1.8"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.78.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jos.24.15"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1755"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1625"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3809"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3559"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3962"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2042"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.6.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Ti.1.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.6.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Ps.78.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

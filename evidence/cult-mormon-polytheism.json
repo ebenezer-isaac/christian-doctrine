@@ -1,0 +1,1007 @@
+{
+  "$schema_version": "3.0",
+  "id": "cult-mormon-polytheism",
+  "question_id": "cult-mormon-polytheism",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Four converging Hebrew exclusivity formulas stack across Deutero-Isaiah, with biladey (H1107, 16 canon occurrences concentrated in Isa 43-45) and zulah (H2108, 13 occurrences concentrated in Isa 45 and Hos 13:4) functioning as dedicated no-other-god particles, paired with the existential negator eyn (H0369) and the residue-negator od (H5750) over elohim (H0430) and el (H0410): Isa 43:10 lo notsar el, Isa 44:6,8 eyn elohim, Isa 45:5,21-22 eyn od, Isa 46:9 eyn od elohim, and Hos 13:4 elohim zulati lo teda all close the divine class to YHWH alone in both temporal directions. Hos 11:9 (el anokhi velo ish, I am God and not man) sets the creature-Creator line as a categorical foreclosure of the as-God-is-man-may-become trajectory. The Greek picks up the same pattern with heis (G1520) governing theos in 1Tim 2:5 and Jas 2:19 (heis estin ho theos), while John 1:1-3 places the Logos pros ton theon with predicate theos and panta di autou egeneto (G1096) marking him as the agent and not a product of becoming, Col 1:16-17 puts every spiritual rank (thronoi, kyriotetes, archai, exousiai) on the created side of his ktizo (G2936), and Heb 1:5-8 has the Father address the Son as ho theos and command angelic proskuneo. The pattern is pan-canonical and unaffected by the (none-in-scope) ECM apparatus."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H0259",
+        "lemma": "אֶחָד",
+        "transliteration": "echad",
+        "occurrences_in_canon": 944,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3068",
+        "lemma": "יְהוָה",
+        "transliteration": "YHWH",
+        "occurrences_in_canon": 6828,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0430",
+        "lemma": "אֱלֹהִים",
+        "transliteration": "elohim",
+        "occurrences_in_canon": 2606,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0410",
+        "lemma": "אֵל",
+        "transliteration": "el",
+        "occurrences_in_canon": 245,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3335",
+        "lemma": "יָצַר",
+        "transliteration": "yatsar",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3808",
+        "lemma": "לֹא",
+        "transliteration": "lo",
+        "occurrences_in_canon": 4825,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0369",
+        "lemma": "אַיִן",
+        "transliteration": "ayin",
+        "occurrences_in_canon": 720,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1107",
+        "lemma": "בִּלְעֲדֵי",
+        "transliteration": "biladey",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2108",
+        "lemma": "זוּלָה",
+        "transliteration": "zulah",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5750",
+        "lemma": "עוֹד",
+        "transliteration": "od",
+        "occurrences_in_canon": 490,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0376",
+        "lemma": "אִישׁ",
+        "transliteration": "ish",
+        "occurrences_in_canon": 2160,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1317,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 330,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 669,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2936",
+        "lemma": "κτίζω",
+        "transliteration": "ktizo",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 377,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2362",
+        "lemma": "θρόνος",
+        "transliteration": "thronos",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 97,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H0259",
+      "H3068",
+      "H0430",
+      "H0410",
+      "H3335",
+      "H3808",
+      "H0369",
+      "H1107",
+      "H2108",
+      "H5750",
+      "H0376",
+      "G1520",
+      "G2316",
+      "G3056",
+      "G1096",
+      "G2936",
+      "G5207",
+      "G2362",
+      "G1080",
+      "G3316"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.6.4",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H0259",
+            "lemma": "אֶחָד"
+          }
+        ],
+        "force": "The Shema predicates the numeral echad of YHWH our God in a verbless clause (ETCBC marks the closing element PreC, predicate complement). Whether rendered the LORD is one or the LORD alone, the construction asserts singular exclusivity of Israel's God, leaving no room for a plurality of true gods.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.4.35",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H5750",
+            "lemma": "עוֹד"
+          }
+        ],
+        "force": "YHWH hu ha-elohim, eyn od milvado (the LORD, he is God, there is no other besides him) supplies the foundation formula that Isa 43-46 will recycle. The bare od (still, more, besides) under the existential negator eyn closes the divine class with no remainder.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.43.10",
+        "key_terms": [
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          },
+          {
+            "strong": "H3335",
+            "lemma": "יָצַר"
+          },
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H0589",
+            "lemma": "אֲנִי"
+          }
+        ],
+        "force": "The clause lo notsar el, with the niphal of yatsar (was formed) negated by lo, denies that any god was ever formed before YHWH, and the following acharay (after me) extends the denial forward. A god that comes into being, the premise of any exaltation-to-godhood scheme, is exactly what this verse forecloses in both temporal directions.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.44.6",
+        "key_terms": [
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H1107",
+            "lemma": "בִּלְעֲדֵי"
+          },
+          {
+            "strong": "H7223",
+            "lemma": "רִאשׁוֹן"
+          }
+        ],
+        "force": "YHWH titles himself rishon (first) and acharon (last) and declares umibaladay eyn elohim, besides me there is no god, pairing the exclusion preposition biladey with the existential negator eyn over elohim. The merism first-and-last plus the explicit no-other formula closes the divine category to one.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.44.8",
+        "key_terms": [
+          {
+            "strong": "H1107",
+            "lemma": "בִּלְעֲדֵי"
+          },
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H6697",
+            "lemma": "צוּר"
+          }
+        ],
+        "force": "Hayesh eloah mibaladay ve-eyn tsur bal yadati: the rhetorical question with the dedicated no-other preposition biladey, answered by the negated eyn tsur (no Rock) plus YHWH's own non-knowledge, marks the lack of any other deity as YHWH's own attested datum, not merely a confessional claim.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.45.5",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H5750",
+            "lemma": "עוֹד"
+          },
+          {
+            "strong": "H2108",
+            "lemma": "זוּלָה"
+          }
+        ],
+        "force": "Ani YHWH followed by eyn od (there is none else) and zulati (besides me) repeats the exclusivity twice in one verse. The bare od under the negator leaves no remainder in the divine class, ruling out additional gods of any rank.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.45.21",
+        "key_terms": [
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H5750",
+            "lemma": "עוֹד"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H1107",
+            "lemma": "בִּלְעֲדֵי"
+          }
+        ],
+        "force": "Halo ani YHWH ve-eyn od elohim mibaladay: three exclusivity particles stacked in a single clause, eyn plus od plus biladey, all governing elohim. The grammatical density makes the foreclosure of additional gods explicit, not merely implied by henotheistic preference.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.46.9",
+        "key_terms": [
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H5750",
+            "lemma": "עוֹד"
+          },
+          {
+            "strong": "H0657",
+            "lemma": "אֶפֶס"
+          }
+        ],
+        "force": "Anokhi el ve-eyn od, elohim ve-efes kamoni: the cessative noun efes (cessation, no more) parallels eyn od and rules out any comparable being. The grammar excludes both numerical multiplicity and ontological likeness, closing both addition and similarity in the divine class.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Hos.13.4",
+        "key_terms": [
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H2108",
+            "lemma": "זוּלָה"
+          },
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          }
+        ],
+        "force": "Elohim zulati lo teda u-moshia ayin bilti (and apart from me you shall know no god, and there is no Savior besides me) supplies the same particle stack outside Isaiah, in the Twelve, with zulah and ayin combined. This is the pan-canonical signal that the no-other-god grammar is not confined to one corpus.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Hos.11.9",
+        "key_terms": [
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H0376",
+            "lemma": "אִישׁ"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          }
+        ],
+        "force": "Ki el anokhi velo ish (for I am God and not man) draws the creature-Creator line as a categorical opposition between el and ish under the negator lo. The grammar foreclosures any trajectory in which the categories merge, that is, man becoming God or God being one of the men.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.10.10",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H2416",
+            "lemma": "חַי"
+          }
+        ],
+        "force": "YHWH elohim emet, hu elohim chayyim u-melek olam (the LORD is the true God, he is the living God and everlasting King): emet (true) and chayyim (living) and olam (everlasting) qualify elohim with attributes the surrounding context denies to the fabricated gods of the nations, locating reality in the one and not many.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          }
+        ],
+        "force": "Heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous: the numeral heis governs theos (one God) and then the single mesites who is anthropos. The cardinal one matches the Hebrew echad and eyn-elohim pattern, and the man-mediator clause distinguishes the human mediator from the one God rather than multiplying gods.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.2.19",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Su pisteueis hoti heis estin ho theos (you believe that God is one): the predicate heis with the articular ho theos cites the Shema directly into NT idiom. James commends the bare numerical confession as orthodox even of demons, marking it as the baseline monotheistic affirmation across testaments.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.17.24",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G2962",
+            "lemma": "κύριος"
+          }
+        ],
+        "force": "Ho theos ho poiesas ton kosmon kai panta ta en autoi (the God who made the world and everything in it): the articular ho theos as the unique maker of the kosmos and panta places God on the Creator side of the line categorically, ruling out a divine being that itself came to be.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G4314",
+            "lemma": "πρός"
+          }
+        ],
+        "force": "The Logos was pros ton theon and theos en ho logos: the anarthrous predicate theos predicates full deity of the Logos while the articular ton theon and the preposition pros distinguish him personally from the Father. This is one divine identity in distinct persons, not a created spiritual being ranked among others.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.3",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G1223",
+            "lemma": "διά"
+          }
+        ],
+        "force": "Panta di autou egeneto and the emphatic oude hen (not even one thing) that came to be apart from him place the Logos as the agent through whom all things came into being. The verb ginomai (came to be) is applied to creation and explicitly not to him, marking the Logos as uncreated rather than a created elder brother.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.1.16",
+        "key_terms": [
+          {
+            "strong": "G2936",
+            "lemma": "κτίζω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          }
+        ],
+        "force": "En autoi ektisthe ta panta, with ktizo (create) governing ta panta including thronoi, kuriotetes, archai, exousiai (thrones, dominions, rulers, authorities), and the summary di autou kai eis auton ektistai. Every created order, including the spirit ranks, is the object of his creating, which excludes him from the class of created spiritual beings.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.1.17",
+        "key_terms": [
+          {
+            "strong": "G4253",
+            "lemma": "πρό"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G0846",
+            "lemma": "αὐτός"
+          }
+        ],
+        "force": "Autos estin pro panton (he is before all things) and ta panta en autoi synesteken (in him all things hold together). The temporal pro plus the present sustaining synesteken assert priority to and continuous upholding of the whole created order, a Creator role incompatible with being one created god among many.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.5",
+        "key_terms": [
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "γεννάω"
+          },
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελος"
+          }
+        ],
+        "force": "The rhetorical Tini gar eipen pote ton angelon (to which of the angels did he ever say) establishes that the Son-language (gegenneka, huion) is never said of any angel. This severs the Son from the angelic class outright, contradicting an elder-brother-to-angels-and-Satan placement among created spirits.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.6",
+        "key_terms": [
+          {
+            "strong": "G4416",
+            "lemma": "πρωτότοκος"
+          },
+          {
+            "strong": "G0032",
+            "lemma": "ἄγγελος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "When the prototokos is brought into the world, proskunesatosan autoi pantes angeloi theou (let all God's angels worship him). The angels rendering worship to the firstborn place him as the object, not a peer, of angelic worship, which is owed to God alone.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.1.8",
+        "key_terms": [
+          {
+            "strong": "G2362",
+            "lemma": "θρόνος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          }
+        ],
+        "force": "Pros de ton huion, ho thronos sou ho theos eis ton aiona tou aionos: the Father addresses the Son as ho theos with an eternal throne. The vocative or predicate theos applied directly to the Son confirms his full deity within the one God rather than a lesser derivative divinity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Deut.6.4",
+        "to": "Deut.4.35",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Deut.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.44.6",
+        "to": "Isa.41.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.43.10",
+        "to": "Isa.41.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.43.10",
+        "to": "Isa.43.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.44.6",
+        "to": "Isa.44.8",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.45.5",
+        "to": "Isa.45.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.45.5",
+        "to": "Isa.46.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.45.5",
+        "to": "Hos.13.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.5",
+        "to": "2Sam.7.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.1.6",
+        "to": "Deut.32.43",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.1.16",
+        "to": "Col.1.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.1.17",
+        "to": "Col.1.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Jas.2.19",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Ps.82.6",
+        "addressed": true,
+        "resolution": "Ani amarti elohim attem (I said you are gods) is read by the immediately following verse 7 (aken ke-adam temutun, but you shall die like men) as a judicial address to human judges or rulers, a figurative use of elohim for delegated authority. It does not posit additional ontological gods and so does not unsettle the eyn-elohim pattern of Isa 44:6 and 45:5."
+      },
+      {
+        "ref": "John.10.34",
+        "addressed": true,
+        "resolution": "Jesus citing Ps 82 (I said you are gods) is an a fortiori argument from the figurative elohim applied to those to whom the word of God came, not an endorsement of men becoming ontological deities. The Johannine context (theos en ho logos, John 1:1) keeps the term theos for the Son within the one divine identity, not a plurality of gods."
+      },
+      {
+        "ref": "John.1.1",
+        "addressed": true,
+        "resolution": "The anarthrous predicate theos in theos en ho logos could superficially suggest a second lesser god, but Greek predicate-nominative word order before the verb (Colwell-type fronting) marks a qualitative full-deity predication, not an indefinite a god. Combined with panta di autou egeneto in verse 3, the Logos is uncreated deity within the one God, not an added divine being."
+      },
+      {
+        "ref": "Col.1.15",
+        "addressed": true,
+        "resolution": "Prototokos pases ktiseos (firstborn of all creation) is glossed by the immediately following hoti clause: hoti en autoi ektisthe ta panta (because in him all things were created). The firstborn title denotes preeminence and priority over creation, not membership in it, since he is the agent of all creating. So it does not support an elder-brother-of-creatures reading."
+      },
+      {
+        "ref": "Gen.1.26",
+        "addressed": true,
+        "resolution": "Na'aseh adam betsalmenu (let us make man in our image): the cohortative first-person plural with elohim has been read as a plurality-of-gods proof, but the parallel verbless clauses in Deut 6:4 and the Isa 43-46 eyn-od formulas govern the canon-level reading. The plural here does not predicate multiple gods on YHWH (he remains echad), so it does not break the no-other-god grammar."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle reports not_in_ecm_scope true and supplies no variant_units. The anchor verses in Hebrew (Deut 6:4, Isa 43:10, 44:6,8, 45:5,21-22, 46:9, Hos 11:9, 13:4, Jer 10:10) are textually stable in the Masoretic tradition, and the Greek anchors (1Tim 2:5, Jas 2:19, Acts 17:24-25, John 1:1-3, Col 1:16-17, Heb 1:5-8) carry only minor orthographic or word-order variation in the apparatus that does not touch the monotheism or uncreated-Son claims. No CBGM data examined."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "strict_monotheism",
+      "creator_creature_distinction",
+      "plurality_of_gods_henotheism",
+      "exaltation_to_godhood"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "strict_monotheism",
+        "verdict": "affirms",
+        "rationale": "The Hebrew exclusivity formulas (echad, lo notsar el, eyn elohim, biladey, zulah, eyn od) read at face value assert one and only one God, directly excluding a plurality of true gods. The same grammar carries into Greek with heis theos in 1Tim 2:5 and Jas 2:19."
+      },
+      {
+        "framework": "plurality_of_gods_henotheism",
+        "verdict": "denies",
+        "rationale": "A reading that treats elohim as a class admitting many true gods (with YHWH merely supreme) cannot account for the explicit negators biladey, eyn, od, and efes stacked across Isa 43-46 and Hos 13:4 that close the divine class to one. Strongest form: the plurals in Gen 1:26 and the divine council of Ps 82 indicate other elohim. Lexical answer: those plurals are not predicated as ontological peers in any verbless eyn-od construction, while the exclusivity particles are."
+      },
+      {
+        "framework": "exaltation_to_godhood",
+        "verdict": "denies",
+        "rationale": "A reading on which a creature can come to be God by progression. Strongest form: Ps 82:6 calls humans elohim, and 2 Pet 1:4 speaks of becoming theias koinonoi physeos. Lexical answer: Ps 82:7 immediately qualifies them as dying like men (judicial figurative use), and the niphal lo notsar el of Isa 43:10 directly negates the very category of a god that came to be, in both temporal directions. Hos 11:9 (el anokhi velo ish) draws the same line under lo."
+      },
+      {
+        "framework": "creator_creature_distinction",
+        "verdict": "affirms",
+        "rationale": "John 1:3 (panta di autou egeneto), Col 1:16-17 (en autoi ektisthe ta panta including thronoi, kuriotetes, archai, exousiai), and Heb 1:5-8 (the Son addressed as ho theos and worshipped by angels) place the Son as agent and object of creation and angelic worship rather than within the created order, so the uncreated-Son clause of the stem holds without recourse to a created elder-brother category."
+      },
+      {
+        "framework": "lds_restorationist",
+        "verdict": "denies",
+        "rationale": "Strongest lexical form: theos in John 1:1 is anarthrous and could be read indefinitely (a god), Heb 1:6 has the Father bringing a firstborn into the world (compatible with a derivative deity), and Gen 1:26 plurals indicate council. Lexical answer: the predicate-nominative fronting in John 1:1 yields qualitative full deity, the prototokos title is glossed by Col 1:16 as creator-priority not creature-status, and the Isa 43-46 stack of biladey, eyn, od, efes forecloses any additional ontological god of any rank, including spirit-children."
+      }
+    ],
+    "notes": "Progressive revelation is in play: the OT Shema and Isaianic monotheism are read forward into the NT heis theos and the placement of the Son on the Creator side, with analogia scripturae linking the two testaments through the shared one-God grammar."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How many true Gods does Scripture recognize, can a human or any being come to be God, and is the Son of God presented as uncreated Creator or as a created spiritual being ranked among angels and humanity?",
+    "notes": "The stem phrases of one substance with the Father and eternal, uncreated Son in a conciliar idiom (the homoousios formula) that is a later dogmatic taxonomy, not a lexical term in the cited texts. The underlying claims, one God, no exaltation to deity, and a Son who creates rather than is created, are directly testable on the lexical data, so the verdict is derived from the original stem while the audit notes the imported creedal vocabulary. The minority lens (exaltation, plurality) was added with its strongest lexical form to avoid strawmanning."
+  },
+  "lay_summary": "Across both testaments the words used for God form a tight pattern of strict oneness. In Deuteronomy 6:4 the number one (echad) is predicated of the LORD our God, and Deuteronomy 4:35 says there is no other besides him. In Isaiah the LORD says no god was formed before me and none will be after me (43:10), there is no god besides me (44:6,8), there is none else and none besides me (45:5), no god other than me (45:21), and none like me (46:9), stacking the Hebrew exclusion particles biladey, zulah, eyn, od, and efes that close the divine class to exactly one. Hosea 13:4 repeats the same particle stack outside Isaiah, and Hosea 11:9 draws a categorical line between God and man (I am God and not man), which directly forecloses any trajectory of a creature becoming God. The Greek picks this up in 1 Timothy 2:5 with one God and one mediator the man Christ Jesus, and James 2:19 cites the Shema as one God outright. On the Son, John 1:1-3 places the Word with God and as God and then says all things came into being through him and not one thing came to be apart from him. The verb for coming to be is applied to created things and pointedly not to the Word, so he is uncreated. Colossians 1:16-17 says all things, including thrones, dominions, rulers, and authorities, were created in him, through him, and for him, that he is before all things, and that in him all things hold together. Hebrews 1 asks which of the angels was ever called Son, commands that all God's angels worship the firstborn, and has the Father address the Son as God with an eternal throne. Together these texts place the Son on the Creator side of the line, worshipped by angels rather than ranked among them. The lexical data therefore supports the proposition that there is one and only one true God, that no being becomes God, and that the Son is uncreated rather than a created spiritual elder brother to angels or humanity. Possible counter readings from Psalm 82 and John 10:34 use the word gods figuratively for human judges (who die like men in the next verse) and do not establish additional gods.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0259"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1107"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2108"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0369"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.43.10"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.44.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.8"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2936"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1096"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Col.1.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Deut.6.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.45.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include ETCBC-BHSA (CC-BY-NC-4.0) for Hebrew clause syntax of Deut 6:4 and Isa 43-44 and MACULA-Greek (CC-BY-NC-4.0) for Greek interlinear data on John 1:1 and Col 1:16, both non-commercial and therefore not redistributable in bulk."
+  },
+  "flags": []
+}

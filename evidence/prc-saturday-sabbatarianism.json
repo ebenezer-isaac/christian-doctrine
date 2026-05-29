@@ -1,0 +1,636 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-saturday-sabbatarianism",
+  "question_id": "prc-saturday-sabbatarianism",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Four independent New Testament passages converge on the same lexical move. Colossians 2:16-17 names sabbaton (G4521) inside the festival, new moon, sabbath triad and predicates of the whole set skia (G4639), shadow, set against soma (G4983), substance, which belongs to Christ. Romans 14:5-6 frames day esteeming with krino (G2919) and phroneo (G5426) as a sphere of individual conviction. Galatians 4:10-11 marks calendar observance with paratereo (G3906) as a regression to stoicheia (G4747). Hebrews 4:9-10 names the abiding reality with the hapax sabbatismos (G4520), defined by katapauo (G2664) from ergon (G2041), cessation from works on the pattern of God resting, which relocates the sabbath to a faith-rest entered through Christ. The lexical pattern supports the proposition that day-specific seventh-day observance is not imposed, while the rest principle endures."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4521",
+        "lemma": "σάββατον",
+        "transliteration": "sabbaton",
+        "occurrences_in_canon": 68,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4520",
+        "lemma": "σαββατισμός",
+        "transliteration": "sabbatismos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4639",
+        "lemma": "σκιά",
+        "transliteration": "skia",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 392,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1859",
+        "lemma": "ἑορτή",
+        "transliteration": "heorte",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2663",
+        "lemma": "κατάπαυσις",
+        "transliteration": "katapausis",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2664",
+        "lemma": "καταπαύω",
+        "transliteration": "katapauo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0620",
+        "lemma": "ἀπολείπω",
+        "transliteration": "apoleipo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2540",
+        "lemma": "καιρός",
+        "transliteration": "kairos",
+        "occurrences_in_canon": 84,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1763",
+        "lemma": "ἐνιαυτός",
+        "transliteration": "eniautos",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5426",
+        "lemma": "φρονέω",
+        "transliteration": "phroneo",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 177,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1525",
+        "lemma": "εἰσέρχομαι",
+        "transliteration": "eiserchomai",
+        "occurrences_in_canon": 197,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3906",
+        "lemma": "παρατηρέω",
+        "transliteration": "paratereo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4747",
+        "lemma": "στοιχεῖον",
+        "transliteration": "stoicheion",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1500",
+        "lemma": "εἰκῇ",
+        "transliteration": "eike",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7676",
+        "lemma": "שַׁבָּת",
+        "transliteration": "shabbat",
+        "occurrences_in_canon": 105,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4521",
+      "G4520",
+      "G4639",
+      "G4983",
+      "G2919",
+      "G2250",
+      "G1859",
+      "G2663",
+      "G2664",
+      "G0620",
+      "G2540",
+      "G1763",
+      "G5426",
+      "G2041",
+      "G1525",
+      "G3906",
+      "G4747",
+      "G1500",
+      "H7676"
+    ],
+    "scripture": [
+      {
+        "ref": "Col.2.16",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρινέτω"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σαββάτων"
+          },
+          {
+            "strong": "G1859",
+            "lemma": "ἑορτῆς"
+          }
+        ],
+        "force": "The third-person imperative krineto with the prohibitive Me forbids anyone to pass judgment on the Colossian believers en brosei e en posei e en merei heortes e neomenias e sabbaton, in food or drink or in the matter of a festival or new moon or sabbaths. The plural sabbaton (G4521) sits inside the standard Mosaic calendar triad of festival, new moon, and sabbath that recurs in Lev 23, 2 Chr 2, Ezek 45-46. The list places the weekly sabbath alongside the ceremonial calendar items rather than separating it as a moral pillar, which denies the day-specific obligation while leaving the underlying ethic of rest untouched.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.17",
+        "key_terms": [
+          {
+            "strong": "G4639",
+            "lemma": "σκιά"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "The neuter plural relative ha picks up the festival, new moon, and sabbath items of verse 16 and predicates of them skia ton mellonton, a shadow of the things coming, set against to de soma tou Christou, but the substance is of Christ. The lexical pairing skia (G4639) and soma (G4983) recurs in this same author cluster at Heb 8:5 and Heb 10:1, where Mosaic ritual is again called skia of the heavenly or the good things coming. The contrast is load-bearing: a shadow is real but anticipatory and gives way once the body that casts it arrives. The sabbath named in v16 is included in what is now classed as shadow.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.5",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνει"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέραν"
+          }
+        ],
+        "force": "The balanced clauses hos men krinei hemeran par hemeran, one esteems day above day, against hos de krinei pasan hemeran, another esteems every day alike, present day reckoning with the verb krino (G2919) used here in the sense of evaluating not condemning. The concluding hekastos en to idio noi plerophoreistho, let each be fully assured in his own mind, places day keeping in the sphere of individual conscience. The grammar offers no mandated day, only two acceptable postures.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.6",
+        "key_terms": [
+          {
+            "strong": "G5426",
+            "lemma": "φρονῶν"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέραν"
+          }
+        ],
+        "force": "The participle ho phronon ten hemeran, the one minding the day, minds it kurio, to the Lord, paralleled by the eater giving thanks to God. The verb phroneo (G5426) of day regard, used identically of both observance and non-observance, treats both stances as God-directed and acceptable. This is the grammar of adiaphora and excludes a single binding day.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.9",
+        "key_terms": [
+          {
+            "strong": "G4747",
+            "lemma": "στοιχεῖα"
+          },
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέφετε"
+          }
+        ],
+        "force": "Paul asks pos epistrephete palin epi ta asthene kai ptocha stoicheia, how do you turn back again to the weak and beggarly elements. The adverb palin, again, and the verb epistrepho (G1994), turn back, frame calendar reversion as a returning to the very stoicheia (G4747) Paul earlier said held them in bondage in v3. The same stoicheia term recurs at Col 2:8 and Col 2:20 in close proximity to the sabbath text. The grammar makes the v10 list a specimen of regression.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.10",
+        "key_terms": [
+          {
+            "strong": "G3906",
+            "lemma": "παρατηρεῖσθε"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρας"
+          },
+          {
+            "strong": "G2540",
+            "lemma": "καιροὺς"
+          },
+          {
+            "strong": "G1763",
+            "lemma": "ἐνιαυτούς"
+          }
+        ],
+        "force": "The middle verb paratereisthe (G3906), you scrupulously observe for yourselves, governs the fourfold list hemeras kai menas kai kairous kai eniautous, days and months and seasons and years. Paratereo elsewhere in the New Testament marks watchful, often hostile observation (Mark 3:2, Luke 6:7, Luke 14:1 of sabbath watching, Luke 20:20, Acts 9:24); its middle-voice use here for cultic self-application carries no positive endorsement. The day-month-season-year sequence covers the entire Jewish calendar including weekly sabbaths, monthly new moons, festival seasons, and sabbatical years, and is the syntactic object of the regression named in v9.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.11",
+        "key_terms": [
+          {
+            "strong": "G1500",
+            "lemma": "εἰκῇ"
+          }
+        ],
+        "force": "Paul fears phoboumai hymas, I fear for you, that he has labored eike (G1500), in vain, over them. Eike is a rare adverb (7 NT uses) and in the four Pauline occurrences (Rom 13:4, 1 Cor 15:2, Gal 3:4, Gal 4:11, Col 2:18) consistently marks something as void of saving force. To classify calendar observance as potentially nullifying Paul's apostolic labor lexically excludes it from being a positive Christian requirement.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.4.9",
+        "key_terms": [
+          {
+            "strong": "G0620",
+            "lemma": "ἀπολείπεται"
+          },
+          {
+            "strong": "G4520",
+            "lemma": "σαββατισμὸς"
+          }
+        ],
+        "force": "The clause ara apoleipetai sabbatismos to lao tou theou, there remains therefore a sabbath-keeping for the people of God, uses the hapax sabbatismos (G4520), found nowhere else in the canon. The author deliberately chose this rare noun rather than the standard sabbaton (G4521) of v8 and 1Macc references. The present passive apoleipetai (G0620) parallels its earlier use in v6, points the abiding reality forward, and the catchword chain links it to katapausis (G2663) which dominates Heb 3-4 (8 of its 9 NT uses). The morphology marks a shift in vocabulary precisely where a shift in referent is being argued.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.4.10",
+        "key_terms": [
+          {
+            "strong": "G1525",
+            "lemma": "εἰσελθὼν"
+          },
+          {
+            "strong": "G2664",
+            "lemma": "κατέπαυσεν"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργων"
+          }
+        ],
+        "force": "The aorist participle eiselthon, having entered, with main verb katepausen apo ton ergon autou hosper apo ton idion ho theos, has rested from his own works as God did from his own, defines the sabbatismos of v9 by appeal to the Genesis creation rest. The verb katapauo (G2664) and noun katapausis (G2663) appear 12 of 13 NT times in this Heb 3-4 cluster, citing Ps 95:11 and Gen 2:2. The grammar relocates the sabbath idea from a recurring weekly day to a once-for-all entry into the cessation pattern, accessed by faith.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Col.2.16",
+        "to": "Lev.23.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Num.10.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.16",
+        "to": "Lev.16.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.17",
+        "to": "Heb.10.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.17",
+        "to": "Heb.8.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gal.4.10",
+        "to": "Lev.23.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.4.10",
+        "to": "Col.2.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.9",
+        "to": "Heb.4.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.10",
+        "to": "Gen.2.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.10",
+        "to": "Ps.95.11",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Exod.20.8",
+        "addressed": true,
+        "resolution": "The fourth commandment zakhor et yom hashabbat leqaddesho, remember the sabbath day to keep it holy, is the strongest counter datum. The Hebrew noun shabbat (H7676) occurs 105 times in the canon, predominantly in Exodus, Leviticus, Numbers, Ezekiel, and the prophets, giving the seventh-day rest creational and covenantal warrant. Within the New Testament data, Colossians 2:16-17 explicitly classes sabbaton (G4521) among the skia (G4639) of what was coming and Hebrews 4:9-10 reads the abiding sabbath as the eschatological sabbatismos (G4520) entered by faith. The two layers do not contradict at the level of moral principle (rest endures) but do reframe the day-specific timing as fulfilled in Christ. The proposition explicitly preserves the one-in-seven ethic."
+      },
+      {
+        "ref": "Exod.31.16",
+        "addressed": true,
+        "resolution": "The phrase berit olam, perpetual covenant, applied to the sabbath as a sign (oth) between YHWH and Israel, suggests permanence. The lexical force of berith (H1285), occurring 266 times in the canon, ties this sign specifically to the Sinai covenant with Israel rather than to humanity universally. The New Testament evidence reframes such signs as skia tou mellontos in Christ. The tension is real at the Old Testament covenantal layer and is flagged accordingly, but the New Testament data does not transfer the day-specific obligation to Gentile believers."
+      },
+      {
+        "ref": "Acts.20.7",
+        "addressed": true,
+        "resolution": "Te mia ton sabbaton, on the first day of the week, the disciples gathered to break bread. Sabbaton (G4521) here is plural with idiomatic force for week, not for sabbath day. The pattern (with 1 Cor 16:2, Acts 20:7, Rev 1:10 kyriake hemera) reflects first-day assembly in early Christian practice. It complicates a strict adiaphora reading by suggesting a normative gathering day, but it does not lexically restore the seventh-day obligation under question, and Romans 14 still places the day in the sphere of conviction."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Col.2.16",
+        "variant_id": "col-2-16-he-conjunctions",
+        "verdict_impact": "none",
+        "note": "The apparatus marks minor conjunction variation around the second e, or, in the festival, new moon, sabbath list. Whether the items are joined by e or by kai does not alter that sabbaton stands in the shadow class, so the verdict is unaffected."
+      },
+      {
+        "ref": "Col.2.17",
+        "variant_id": "col-2-17-tou-christou",
+        "verdict_impact": "none",
+        "note": "The apparatus shows a marked reading at tou before Christou. The shadow and substance contrast and the identification of the substance with Christ hold under either reading, so there is no impact on the verdict."
+      },
+      {
+        "ref": "Rom.14.6",
+        "variant_id": "rom-14-6-kai-ho-me-phronon",
+        "verdict_impact": "minor",
+        "note": "Some witnesses add the clause about the one not regarding the day. Whether present or absent, the surviving clause already establishes day regard as a matter of mind directed to the Lord, so any addition reinforces rather than reverses the verdict."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament outside 3 John, so CBGM data were not consulted and the status is recorded as shadow. The variant units listed are read from the supplied apparatus marks and none reaches material impact."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology",
+      "sabbatarianism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads Colossians 2:16-17 and Hebrews 4:9-10 as fulfilling the sabbath in Christ so that no seventh-day obligation carries forward, while a faith-rest principle remains. This matches the lexical shadow-substance contrast and the deliberate selection of the hapax sabbatismos at Heb 4:9 directly."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms with qualification",
+        "rationale": "Holds a perpetual moral fourth commandment but locates the day on the first day of the week rather than the seventh, taking Acts 20:7, 1 Cor 16:2, and Rev 1:10 as evidence of a Christological transfer of the rest day. This lens also denies mandatory Saturday keeping and reads Col 2:16 as referring to ceremonial sabbaths within the broader Mosaic calendar rather than the creation-ordinance pattern."
+      },
+      {
+        "framework": "sabbatarianism",
+        "verdict": "denies",
+        "rationale": "In its strongest form treats Exod 20:8 and Exod 31:16 as creational and perpetually binding the seventh day on all humanity. Reads sabbaton at Col 2:16 as the plural of ceremonial sabbaths (Lev 23 holy convocations) rather than the weekly sabbath, and takes Heb 4:9 sabbatismos as the ongoing weekly sabbath-keeping itself, citing the cognate verb sabbatizo in the LXX. The reading is internally consistent and the lexical evidence does not single-handedly foreclose it without recourse to the wider canon."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Distinguishes Israel and the church and reads the sabbath as a sign of the Mosaic covenant terminating at the cross (Col 2:14-17). Calendar observance for Gentile believers is excluded by Gal 4:10-11 and the day is left to conscience by Rom 14:5-6. The lens reaches the same denial of binding seventh-day observance by a different covenantal route."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal arc from Mosaic calendar to fulfillment in Christ, so the primary method is redemptive-historical. Analogia scripturae links Colossians, Romans, Galatians, and Hebrews into one pattern, and progressive revelation governs the shift from shadow to substance. Three of the four frameworks converge on the denial; the materially competing reading is sabbatarianism, which restricts Col 2:16 sabbaton to ceremonial sabbaths and reads sabbatismos as continuing weekly observance."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the New Testament require Christians to observe the seventh-day Saturday Sabbath as a day-specific obligation, or is the day of observance left open while a rest principle continues?",
+    "notes": "The stem phrases its own conclusion by asserting the day is not binding while the one-in-seven principle endures, which embeds part of the verdict. The neutralized form poses the question without presupposing the answer. The verdict was still derived on the original stem from the lexical pattern."
+  },
+  "lay_summary": "Four New Testament passages decide this question and they point the same way. In Colossians 2:16-17 Paul tells the believers to let no one judge them about food, drink, a festival, a new moon, or sabbaths, and then calls all of these a shadow of what was coming, while the substance belongs to Christ. The Greek word for shadow, skia, set against soma, body or substance, is the load-bearing move. A shadow is real but it points beyond itself and gives way once the reality arrives, and the same shadow word reappears for Mosaic ritual in Hebrews 8 and 10. Romans 14:5-6 treats the esteeming of days as a matter of personal conviction, telling each person to be fully assured in his own mind, with both the one who keeps a day and the one who does not doing so to the Lord. Galatians 4:10-11 describes the scrupulous observing of days, months, seasons, and years as a return to weak elements, and Paul fears he labored over them in vain. Hebrews 4:9-10 says a sabbath-keeping, sabbatismos, remains for the people of God, and the writer chose this rare word rather than the standard sabbaton, defining the rest as ceasing from works on the pattern of God resting at creation, a rest entered by faith. The strongest counter evidence is the fourth commandment in Exodus 20:8, which gives the seventh day creational and covenantal weight. That Hebrew word for sabbath occurs over a hundred times in the Old Testament. The proposition itself grants that the one-in-seven principle of rest endures, so the commandment is honored at the level of principle even where the fixed seventh-day timing is not carried forward as a requirement. Where readers diverge is on the scope of sabbaton in Colossians 2:16. A sabbatarian reading restricts it to ceremonial sabbaths and reads sabbatismos in Hebrews as continuing weekly observance. The mainstream reading treats the festival, new moon, sabbath triad as the full Mosaic calendar including the weekly day. The text does not name which sabbaton is in view, and that single lexical underdetermination is where the dispute lives. On the New Testament data the proposition stands with high confidence.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.2.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.4.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.4.10"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4520"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4521"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4639"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2663"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3906"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7676"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.2.17"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.4.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Heb.4.10"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

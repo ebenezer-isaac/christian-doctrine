@@ -1,0 +1,614 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-gender-binary",
+  "question_id": "prc-gender-binary",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "This is the practice corollary of the already affirmed creation binary, and the same closed two-term pair carries from ontology into conduct across Torah, Gospels, and Writings. Gen 1:27 fixes zakar (H2145) and neqevah (H5347) as the bipartite object of bara (H1254A, 46 occurrences) with Elohim as subject. Direct lexical-store query confirms the pair co-occurs in 15 OT verses (Gen 1:27, 5:2, 6:19, 7:3, 7:9, 7:16, Lev 3:1, 3:6, 12:7, 15:33, 27:5, 27:6, 27:7, Num 5:3, Deut 4:16) and never adds a third anthropological term; Lev 27:3-7 prices every dedicated person under the conditional im zakar, veim neqevah with two prices per age bracket and no remainder, so the pair partitions persons exhaustively. Jesus quotes the pair as arsen and thely (G0730, G2338, the only NT co-occurrences are Matt 19:4, Mark 10:6, Rom 1:27, Gal 3:28) and locates it ap arches. Deut 22:5 turns the binary into conduct with two parallel HTn-marked negative commands, lo yihyeh keli geber al ishshah velo yilbash geber simlat ishshah, labeled toebah (H8441). Ps 139:13-16 grounds the same sexed body as God-given in the womb, with hapax golem (H1564, sole occurrence) and the pual ruqqamti (H7551) marking prenatal divine forming."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H2145",
+        "lemma": "זָכָר",
+        "transliteration": "zakar",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5347",
+        "lemma": "נְקֵבָה",
+        "transliteration": "neqevah",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0730",
+        "lemma": "ἄρσην",
+        "transliteration": "arsen",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2338",
+        "lemma": "θῆλυς",
+        "transliteration": "thelys",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1254A",
+        "lemma": "בָּרָא",
+        "transliteration": "bara",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6754",
+        "lemma": "צֶלֶם",
+        "transliteration": "tselem",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1397",
+        "lemma": "גֶּבֶר",
+        "transliteration": "geber",
+        "occurrences_in_canon": 60,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0802",
+        "lemma": "אִשָּׁה",
+        "transliteration": "ishshah",
+        "occurrences_in_canon": 781,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3627",
+        "lemma": "כְּלִי",
+        "transliteration": "keli",
+        "occurrences_in_canon": 310,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3847",
+        "lemma": "לָבֵשׁ",
+        "transliteration": "labesh",
+        "occurrences_in_canon": 105,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8441",
+        "lemma": "תּוֹעֵבָה",
+        "transliteration": "toebah",
+        "occurrences_in_canon": 112,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8071",
+        "lemma": "שִׂמְלָה",
+        "transliteration": "simlah",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3629",
+        "lemma": "כִּלְיָה",
+        "transliteration": "kilyah",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1564",
+        "lemma": "גֹּלֶם",
+        "transliteration": "golem",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7551",
+        "lemma": "רָקַם",
+        "transliteration": "raqam",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6108",
+        "lemma": "עֹצֶם",
+        "transliteration": "otsem",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7069",
+        "lemma": "קָנָה",
+        "transliteration": "qanah",
+        "occurrences_in_canon": 83,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H2145",
+      "H5347",
+      "G0730",
+      "G2338",
+      "H1254A",
+      "H6754",
+      "H1397",
+      "H0802",
+      "H3627",
+      "H3847",
+      "H8441",
+      "H8071",
+      "H3629",
+      "H1564",
+      "H7551",
+      "H6108",
+      "H7069",
+      "G2135"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.27",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          },
+          {
+            "strong": "H1254A",
+            "lemma": "בָּרָא"
+          },
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          }
+        ],
+        "force": "Triple bara (H1254A) with Elohim as subject and the adam as object, terminated by the bipartite specification zakar uneqevah, male and female, the OSHB morphology marks zakar HAamsa adjective masc sg abs and neqevah HC/Aafsa conjunction plus adj fem sg abs, so the pair functions grammatically as a paired predicative attribute of otam, them. The pair is the closed two-term taxonomy of the created human, supplying the fixed datum the practice question builds on, that sex is a created given and not a self-assigned status.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.27.4",
+        "key_terms": [
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          },
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          }
+        ],
+        "force": "veim neqevah hi vehaya erkekha, and if it is a female then your valuation shall be. Lev 27:3 through 27:7 sets two prices in each of four age brackets, one for the zakar and one for the neqevah, with the conditional im zakar, veim neqevah exhaustively classifying every vowed person, no third price, no remainder. This legal partition is the lexical signature that the pair is exhaustive and not merely two named poles of a continuum, which is what the practice claim presupposes, namely that every person is one or the other.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.4",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσεν"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θῆλυ"
+          },
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχή"
+          },
+          {
+            "strong": "G2936",
+            "lemma": "κτίζω"
+          }
+        ],
+        "force": "Jesus cites Gen 1:27 in Greek, ho ktisas ap arches arsen kai thely epoiesen autous, the one who created from the beginning made them male and female. The aorist epoiesen with the participle ktisas (G2936) and the phrase ap arches (G0575 plus G0746) places the binary at the act of creation, so the sexed pair is received from the Creator rather than constructed, which is the load-bearing premise of the practice claim that sex is given by God.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.22.5",
+        "key_terms": [
+          {
+            "strong": "H1397",
+            "lemma": "גֶּבֶר"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H3627",
+            "lemma": "כְּלִי"
+          },
+          {
+            "strong": "H8441",
+            "lemma": "תּוֹעֵבָה"
+          },
+          {
+            "strong": "H3847",
+            "lemma": "לָבֵשׁ"
+          }
+        ],
+        "force": "lo yihyeh keli geber al ishshah velo yilbash geber simlat ishshah, the gear of a man shall not be on a woman, and a man shall not wear a woman's garment, ki toebat YHWH eloheka kol oseh elleh, for all who do these are an abomination to YHWH your God. ETCBC parses two parallel Q clauses with doubled HTn negation over Pred yihyeh and Pred yilbash, with geber and ishshah as Subj. The structure yields two parallel negative commands, treating deliberate erasing of the man and woman distinction as conduct under prohibition, which is the practice claim that sex is to be kept and not overridden.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.13",
+        "key_terms": [
+          {
+            "strong": "H3629",
+            "lemma": "כִּלְיָה"
+          },
+          {
+            "strong": "H0517",
+            "lemma": "אֵם"
+          },
+          {
+            "strong": "H7069",
+            "lemma": "קָנָה"
+          }
+        ],
+        "force": "ki atta qanita kilyotai, tesukkeni beveten immi, for you formed my kidneys, you wove me in my mother's womb. The verb qanah (H7069), to acquire or form, with kilyot (H3629), the kidneys as a metonym for the inmost self, and the womb setting, attributes the whole interior person to God's prenatal action. The body and its constitution are God's work in the womb, which grounds the given by God and not chosen dimension of the practice.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.14",
+        "key_terms": [
+          {
+            "strong": "H6381",
+            "lemma": "פָּלָא"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H4639",
+            "lemma": "מַעֲשֶׂה"
+          }
+        ],
+        "force": "odeka al ki noraot niphleti, I praise you because I am fearfully and wonderfully made, niphlaim maasekha, your works are wonderful. The niphal of pala (H6381), to be wonderful or set apart, applied to the speaker's own formation, with maaseh (H4639), work, treats the individual body as a finished divine work to be received with thanks. The frame is acceptance of how one was made, not revision of it.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.15",
+        "key_terms": [
+          {
+            "strong": "H6108",
+            "lemma": "עֹצֶם"
+          },
+          {
+            "strong": "H3582",
+            "lemma": "כָּחַד"
+          },
+          {
+            "strong": "H7551",
+            "lemma": "רָקַם"
+          }
+        ],
+        "force": "lo nikhad otsmi mimmeka asher usseti vasseter, ruqqamti betahtiyot arets, my frame was not hidden from you when I was made in secret, woven in the depths of the earth. The pual ruqqamti (H7551), I was embroidered, sits in a semantic field that elsewhere in the canon names the embroidery of the tabernacle veil and ephod (Exod 26:36, 27:16, 28:39, 35:35, 36:37, 38:18, 38:23, 39:29), so the prenatal body is figured as careful divine craftsmanship. With otsem (H6108), frame, and the negated nikhad (H3582), was not hidden, the bodily form is God's secret handiwork fully known to him before birth.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.16",
+        "key_terms": [
+          {
+            "strong": "H1564",
+            "lemma": "גֹּלֶם"
+          },
+          {
+            "strong": "H3789",
+            "lemma": "כָּתַב"
+          },
+          {
+            "strong": "H3335",
+            "lemma": "יָצַר"
+          }
+        ],
+        "force": "golmi rau eineka, ve al siphreka kullam yikkatevu, your eyes saw my unformed substance, and in your book all of them were written, yamim yutsaru velo echad bahem, the days that were formed, and not one of them. The hapax golem (H1564, sole occurrence in canon, lexical-store query confirms 1 attestation, Ps 139:16) names the embryo or unformed mass under God's gaze, with niphal yikkatevu (H3789), were written, and yatsar, were formed, placing the person's entire developmental course under God's prior decree. The sex received in this divine forming is part of a settled given, not a later self-determination.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.19.4",
+        "to": "Gen.1.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.22.5",
+        "to": "Deut.18.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Gen.2.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Isa.43.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gal.3.28",
+        "addressed": true,
+        "resolution": "ouk eni arsen kai thely, there is no male and female, reuses the exact Gen 1:27 LXX vocabulary, and the Greek connective is decisive. The first two contrasts use oude (Ioudaios oude Hellen, doulos oude eleutheros), but the third switches to kai (arsen kai thely), the connective of the creation formula, marking the line as a deliberate echo of Gen 1:27 rather than a denial of the pair itself. The stated scope is en Christo Iesou, soteriological standing, and Paul still treats arsen and thely as bodily categories in 1 Cor 7 and Eph 5. The text complicates only a reading that conflates equal standing in salvation with the erasure of the creation binary, and does not license self-redefinition of sex."
+      },
+      {
+        "ref": "Matt.19.12",
+        "addressed": true,
+        "resolution": "Jesus names three eunouchos (G2135) states, born so, made so by others, and self-made for the kingdom. The lexical-store check confirms eunouchos occurs 8 times in the NT (Matt 19:12 plus the seven references to the Ethiopian official in Acts 8), and in each case it denotes a male who does not procreate, not a non-male or a third sex. The framing pair arsen and thely from Matt 19:4 stands unaffected, so the verse does not supply a category beyond the binary that the practice would have to accommodate."
+      },
+      {
+        "ref": "Deut.23.1",
+        "addressed": true,
+        "resolution": "The exclusion of one with crushed or severed parts from the assembly concerns ritual access for a damaged or altered male body, not the existence of a sex beyond male and female. It presupposes the man is still a man whose body has been harmed, and Isa 56:4-5 later promises such a one a name within God's house, so the text neither creates a third category nor commends bodily alteration of sex."
+      },
+      {
+        "ref": "Jer.31.22",
+        "addressed": true,
+        "resolution": "neqevah occurs here without zakar in the obscure clause neqevah tesovev gaver, a female shall encompass a man, the one canonical use of neqevah outside the creation and legal partition. Its sense is debated at the verse level, but it does not introduce a third term and does not redefine neqevah, it simply uses the female term in a figure whose referent is unclear, and cannot overturn the dense, repeated, exhaustive-sort usage that fixes the pair elsewhere."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle supplies an empty variant_units list and marks not_in_ecm_scope true. The verdict rests primarily on Hebrew anchors, the zakar uneqevah pair in Gen 1:27, the Lev 27:3-7 valuation series, the geber and ishshah clauses of Deut 22:5, and the Psalm 139 forming language, all uncontested in WLC and the consonantal tradition. The single Greek anchor, Matt 19:4, carries minor editorial sigla at eipen and ktisas that touch wording but not the arsen kai thely pair, so no plausible reading alters the verdict. Because the load-bearing evidence is Old Testament and outside any published CBGM unit, the status is recorded as n/a."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "creation_order",
+      "intra-canonical_citation",
+      "casuistic_law_application"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "creation_order",
+        "verdict": "affirms",
+        "rationale": "The binary is anchored ap arches by Jesus in Matt 19:4 and turned into binding conduct in Deut 22:5, where blurring the man and woman distinction is a toebah. Creation grounds both the category and the practice of keeping it, so the conduct of receiving and living the assigned sex is read directly off the creation account."
+      },
+      {
+        "framework": "exhaustive-binary reading",
+        "verdict": "affirms",
+        "rationale": "Direct lexical-store query confirms zakar and neqevah co-occur in 15 OT verses across Gen, Lev, Num, and Deut, and arsen and thely co-occur in 4 NT verses, with no third anthropological term ever added. Lev 27:3-7 prices each vowed person under im zakar, veim neqevah with two prices per bracket and no remainder, so the canon supplies an exhaustive partition rather than a sample of two poles. On this reading the practice claim that sex is binary and given is a direct consequence of the way the words actually distribute."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "Even the en Christo levelling of Gal 3:28 does not erase arsen kai thely as bodily categories, and the connective kai there deliberately echoes Gen 1:27 LXX rather than abolishing it. Ps 139 presents the formed body as God's settled prenatal work, so the creational sex persists as a given under redemption rather than as something the believer reassigns."
+      },
+      {
+        "framework": "creational-descriptive minority reading",
+        "verdict": "disputed-toward-affirm",
+        "rationale": "A reader could argue that Gen 1:27 alone is narrative, not legislation, and that Deut 22:5 is one casuistic ordinance about dress and ritual purity, not a metaphysics of sex. Stated in its strongest form, the minority reading would say the doctrine names a recurring biblical pattern about how the sexes ought to dress and present, without by itself foreclosing every possible bodily case the modern world raises, because the vocabulary speaks of zakar and neqevah and not of intersex bodies or modern category questions. The lexical answer is that the legal partition of Lev 27 and the flood texts treats the pair as exhaustive over actual persons brought to the priest, not as a stylistic pole, and that Ps 139 attributes the bodily form itself, not just dress, to God's prenatal making, so the words still ground the practice as stated even if they do not address every modern edge-case in its own vocabulary."
+      }
+    ],
+    "notes": "Jesus reads Gen 1:27 as a creational ordinance and applies it. Deut 22:5 applies the same binary to dress and bodily presentation, and Ps 139:13-16 attributes the body's formation to God in the womb. The practice that sex is binary, given, and to be kept rather than overridden rests on the same anchors as the doctrine, here extended from ontology to conduct, and the minority lens is recorded fairly so a reader holding it can see that the lexical answer goes through the legal partition and the prenatal forming language, not through smuggled modern framing."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Determine whether the canonical lexical pattern presents biological sex as a fixed two-term given received from God in creation and in the womb, such that a person is to live according to the sex God assigned rather than to redefine or override it, examining zakar uneqevah and arsen kai thely as a closed and exhaustive pair, the casuistic dress prohibition and toebah verdict of Deut 22:5, and the prenatal forming language of Ps 139:13-16.",
+    "notes": "The stem names a contemporary movement, transgender ideology, and a technical phrase, gender identity supersedes biological sex, neither of which is a lexeme in the cited texts, and it states the conclusion to reject that movement. That phrasing imports a modern framework and encodes the verdict. The neutralized form asks the lexical question, whether sex is a fixed God-given binary to be kept, without naming the movement. The verdict is derived on the original stem, but the audit records that the canon furnishes the binary pair and the keeping of it, while the specific modern terminology is supplied by the stem and not by the words. Toebah occurrence count was corrected from 117 to 112 against the lexical store as a quiet fix, with no verdict impact."
+  },
+  "lay_summary": "This is the practical side of the creation binary the doctrine already affirmed. The Bible uses one fixed pair of words for the two sexes and treats that pair as something a person receives and keeps. Genesis 1:27 says God created the human zakar uneqevah, male and female, and the Hebrew adjectives form a closed two-term description with no third term offered. The pair runs through the law and always sorts a group into two bins with nothing left over. The clearest case is Leviticus 27, the vow law, which sets two prices in each of four age brackets, one for a male and one for a female, with no third price. The flood texts even pair the two terms with the number two. When Jesus is asked about marriage in Matthew 19:4 he quotes that creation verse in Greek, arsen kai thely, and says the Creator made them so from the beginning, so the sexed pair is received from God, not constructed. Deuteronomy 22:5 turns this into conduct. It says the gear of a man, keli geber, shall not be on a woman, and a man shall not put on a woman's garment, calling all who do these things a toebah, an abomination to the LORD. The Hebrew marks two parallel negative commands with the man and the woman as subjects, so deliberately erasing the line between the sexes is treated as something a person must not do. Psalm 139 grounds the same sex as given by God from before birth. It says God formed my inmost parts and wove me in my mother's womb, that I am fearfully and wonderfully made, that my frame was not hidden when I was made in secret, woven like an embroiderer's craft, and that God saw my golem, my unformed substance, and wrote all my days in his book before any existed. Golem is a hapax, used only here, so the verse leans on the picture of craftsmanship in the womb. The body, with its sex, is God's prior work, received and not chosen. Two texts that might seem to push back do not. Galatians 3:28 says there is no male and female in Christ, but it speaks of equal standing in salvation, and it deliberately echoes Genesis with the and of the creation formula. Matthew 19:12 names men who do not procreate, which is a condition, not a third sex. A fair-minded minority reading would say Genesis 1:27 is narrative and Deuteronomy 22:5 is one rule about dress, so the verses describe a pattern without legislating every modern case. The text-level answer is that Leviticus 27 partitions actual people exhaustively into the same pair, and Psalm 139 attributes the body itself to God's prenatal making. Across the canon the same two-term pattern holds, so the words support the practice that biological sex is binary, given by God, and not to be overridden by self-definition.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.27.4"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.22.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2145"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5347"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8441"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1564"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7551"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0730"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2338"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2135"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.4"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Deut.22.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.27.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.19.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Deut.22.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA is CC-BY-NC-4.0 and is not bulk redistributable. The evidence record cites it for the clause-level syntactic parse of Deut.22.5, the doubled HTn negation over the two parallel Pred clauses with geber and ishshah as subjects, and is therefore gated from bulk republication."
+  },
+  "flags": []
+}

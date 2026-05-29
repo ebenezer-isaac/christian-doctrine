@@ -1,0 +1,632 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-tongues-as-evidence-of-salvation",
+  "question_id": "prc-tongues-as-evidence-of-salvation",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": false,
+    "lexical_score": 0.7375,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The lexical pattern foreclosing the proposition is concentrated in 1 Cor 12:29-30, where Paul stacks five rhetorical questions each opened by the negative particle mē (G3361) followed by pantes (G3956), a koine construction whose own grammar anticipates the answer no. Applied to tongues, mē pantes glōssais lalousin reads not all speak in tongues, do they. The same chapter establishes the underlying principle, 1 Cor 12:11 has the one Spirit energei (G1754) the gifts, diairoun idia hekastō kathōs bouletai (G1538, G1014), distributing to each one individually as he wills, a sovereign-selective clause that by definition rules out any single gift being universal. 1 Cor 12:13 places every believer within one Spirit baptism with the aorist passive ebaptisthēmen and the inclusive pantes (G0907, G3956), so Spirit baptism is asserted of all while tongues is denied of all, making them lexically distinct. The Acts narratives that report tongues at Pentecost, Caesarea, and Ephesus do not generalize that pattern, and Luke describes other receptions, Samaria, the Ethiopian eunuch, the jailer at Philippi, Lydia, the Athens converts, the Corinthian believers, without naming tongues at all (G1100 occurs in Acts only at chapters 2, 10, and 19). Rom 8:9, Rom 8:16, Eph 1:13, and Gal 3:2 ground possession of the Spirit and assurance of sonship in faith, hearing, indwelling, and the Spirit's own joint witness, not in glossolalia."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3361",
+        "lemma": "μή",
+        "transliteration": "mē",
+        "occurrences_in_canon": 1154,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2980",
+        "lemma": "λαλέω",
+        "transliteration": "laleō",
+        "occurrences_in_canon": 308,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1100",
+        "lemma": "γλῶσσα",
+        "transliteration": "glōssa",
+        "occurrences_in_canon": 50,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5486",
+        "lemma": "χάρισμα",
+        "transliteration": "charisma",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1538",
+        "lemma": "ἕκαστος",
+        "transliteration": "hekastos",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1754",
+        "lemma": "ἐνεργέω",
+        "transliteration": "energeō",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4828",
+        "lemma": "συμμαρτυρέω",
+        "transliteration": "symmartyreō",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0189",
+        "lemma": "ἀκοή",
+        "transliteration": "akoē",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizō",
+        "occurrences_in_canon": 77,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuō",
+        "occurrences_in_canon": 244,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3611",
+        "lemma": "οἰκέω",
+        "transliteration": "oikeō",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4972",
+        "lemma": "σφραγίζω",
+        "transliteration": "sphragizō",
+        "occurrences_in_canon": 15,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3956",
+      "G3361",
+      "G2980",
+      "G1100",
+      "G5486",
+      "G1014",
+      "G1538",
+      "G1754",
+      "G4828",
+      "G0189",
+      "G2386",
+      "G1329",
+      "G0907",
+      "G4100",
+      "G4151",
+      "G3611",
+      "G4972"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.12.30",
+        "key_terms": [
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1100",
+            "lemma": "γλῶσσα"
+          },
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          }
+        ],
+        "force": "The clause mē pantes glōssais lalousin (G3361, G3956, G1100, G2980) is the second of two rhetorical questions in this verse and the sixth of seven in 12:29-30 taken together. In koine Greek a direct question introduced by mē anticipates a negative answer, the grammatical opposite of an ou-question which expects yes. Paul stacks seven such mē-questions, apostles, prophets, teachers, miracles, gifts of healings, tongues, interpretation, all framed the same way, so the structure is doing the work, no single gift is asserted of every member. The rendering is, not all speak in tongues, do they.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.29",
+        "key_terms": [
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Five rhetorical questions all opened by mē (G3361) and pantes (G3956), mē pantes apostoloi, mē pantes prophētai, mē pantes didaskaloi, mē pantes dynameis, mē pantes charismata hiamatōn. The repetition establishes the pattern that flows directly into 12:30 with tongues and interpretation. The mē-question grammar is repeated five times by Paul precisely to foreclose universality of any one gift. The token sequence in the canonical text confirms five occurrences of G3361 with G3956 immediately following.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.11",
+        "key_terms": [
+          {
+            "strong": "G1754",
+            "lemma": "ἐνεργέω"
+          },
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          },
+          {
+            "strong": "G1014",
+            "lemma": "βούλομαι"
+          }
+        ],
+        "force": "The verse states that one and the same Spirit energei (G1754) all these things, dividing idia hekastō (G1538), to each one individually, kathōs bouletai (G1014), just as he wills. The present middle bouletai locates the apportionment of gifts in the Spirit's sovereign volition, not in a uniform endowment. The diairoun participle (the act of dividing) plus the distributive hekastos plus the will-clause makes selective allocation the explicit operating principle, which is incompatible with any single gift being a mandatory marker present in every recipient.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.13",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "Kai gar en heni pneumati hēmeis pantes eis hen sōma ebaptisthēmen. The aorist passive ebaptisthēmen (G0907) with the all-inclusive pantes (G3956) places every believer (Jew, Greek, slave, free) within the one Spirit-baptism. Spirit baptism is thus asserted of all (pantes) the baptized, while 1 Cor 12:30 denies that tongues is asserted of all (mē pantes). The two clauses standing only seventeen verses apart dissociate Spirit baptism from any necessary tongues sign within the same argument by the same author.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.16",
+        "key_terms": [
+          {
+            "strong": "G4828",
+            "lemma": "συμμαρτυρέω"
+          }
+        ],
+        "force": "The Spirit symmartyrei (G4828), bears joint witness, with our spirit that we are tekna theou, children of God. The compound verb (syn-plus-martyreō) locates the testimony of belonging within the Spirit's own witness to the believer's spirit, an internal attestation. There is no lexical link to glossolalia as the channel of that assurance. The verse occurs three times in the canon and each time names internal witness, never an audible glossolalic sign.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.9",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "Ei de tis pneuma Christou ouk echei, houtos ouk estin autou. The conditional ei tis (anyone) with the negation ouk (G3756) sets the binary, possession of the Spirit equals belonging to Christ, lack of the Spirit equals not his. The earlier clause uses oikei (G3611, dwell) for the Spirit dwelling in believers. The lexical contrast is between having the Spirit and not having him, with no third category and no tongues-condition added. Possession of the Spirit is the operative test, named with pneuma plus oikei plus echei, and the test is not glossolalic.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.13",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G4972",
+            "lemma": "σφραγίζω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "Akousantes ton logon... pisteusantes esphragisthēte tō pneumati tēs epangelias, having heard the word and having believed you were sealed with the Spirit of the promise. The aorist participles akousantes (heard) and pisteusantes (G4100, believed) link to the aorist passive esphragisthēte (G4972, you were sealed). The lexical pattern is hearing then believing then being sealed by the Spirit, with no glossolalic verb in the chain. Sphragizō names the seal, not laleō glōssais.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.2",
+        "key_terms": [
+          {
+            "strong": "G0189",
+            "lemma": "ἀκοή"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Paul asks whether the Galatians received the Spirit ex ergōn nomou, by works of law, or ex akoēs pisteōs (G0189), by hearing with faith. The expected answer, hearing with faith, ties reception of the Spirit (G4151) to the response of faith to the proclaimed message. The lexical anchor is akoē (hearing), not laleō glōssais (speaking in tongues), and the verse undercuts any claim that a subsequent glossolalic sign is the necessary evidence of having received the Spirit.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.8.12",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          }
+        ],
+        "force": "Hote de episteusan tō Philippō... ebaptizonto. The Samaritans believed (G4100) and were being baptized (G0907) with water. The token grid for Acts 8:12-13 records G4100 and G0907 but contains no G1100 (glōssa). In Acts, G1100 appears only in chapters 2, 10, and 19, three boundary cases. The narrative report of Samaria conversion has belief plus baptism without a tongues notice in the text itself, complicating any claim that tongues is the indispensable verbal sign of every reception.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.12.30",
+        "to": "1Cor.12.29",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.12.30",
+        "to": "1Cor.12.11",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.12.13",
+        "to": "Gal.3.27",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Rom.8.16",
+        "to": "Rom.8.9",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.1.13",
+        "to": "Gal.3.2",
+        "source": "tsk",
+        "votes": 2
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.2.4",
+        "addressed": true,
+        "resolution": "Eplēsthēsan pantes pneumatos hagiou kai ērxanto lalein heterais glōssais. At Pentecost all (pantes) were filled and began to speak in other tongues. This is narrative description of one inaugural event tied to the public out-pouring of Joel 2 and the Babel-reversal motif, not a didactic claim that tongues is the universal and necessary evidence for every subsequent believer. The didactic statement of 1 Cor 12:30, framed by mē expecting a negative answer, governs the universality question. G1100 in Acts occurs in only three episodes (chapters 2, 10, 19) out of many conversion accounts."
+      },
+      {
+        "ref": "Acts.10.46",
+        "addressed": true,
+        "resolution": "ēkouon gar autōn lalountōn glōssais kai megalynontōn ton theon. Cornelius household was heard speaking in tongues, which functioned as a recognition-sign to the Jewish witnesses (Peter explicitly invokes this in Acts 11:15-17) that the Gentiles had received the Spirit just as the Jewish believers had at Pentecost. The text reports a confirming sign in a redemptive-historical boundary moment (Gentile inclusion), not a doctrinal claim that tongues is the necessary mark in every conversion."
+      },
+      {
+        "ref": "Acts.19.6",
+        "addressed": true,
+        "resolution": "Twelve former disciples of John the Baptist receive Paul's laying on of hands and speak in tongues and prophesy. The setting is also boundary-transitional, John-Baptist disciples re-baptized into Jesus' name then receiving the Spirit. As with chapters 2 and 10, the narrative records the phenomenon at a redemptive seam, not a normative test. The text neither generalizes the experience to every believer nor uses the kind of didactic universal-quantifier grammar found in 1 Cor 12:13."
+      },
+      {
+        "ref": "Acts.8.16",
+        "addressed": true,
+        "resolution": "In Samaria the Spirit had not yet fallen on the baptized believers, and reception followed apostolic laying on of hands, with no tongues notice in the recorded narrative (G1100 absent from Acts 8). The Samaritan delay is interpreted historically as preventing a separate Samaritan Pentecost, but lexically the relevant point is that the canon does not consistently pair tongues with every reception of the Spirit, and the silence here further weakens a universal claim."
+      },
+      {
+        "ref": "Acts.16.31",
+        "addressed": true,
+        "resolution": "Pisteuson epi ton kyrion Iēsoun kai sōthēsē. The jailer is told believe (G4100) and you will be saved (G4982), then he and his household are baptized (G0907 at 16:33). The token grid for Acts 16:31-34 contains G4100, G4982, G0907 but no G1100. The narrative reports salvation language and water-baptism with no tongues sign attached."
+      },
+      {
+        "ref": "Mark.16.17",
+        "addressed": true,
+        "resolution": "Sēmeia de tois pisteusasin tauta parakolouthēsei... glōssais lalēsousin kainais. Sign-promises (plural) will accompany those who believe, including new tongues alongside casting out demons, drinking poison, healing. The clause is in the longer ending of Mark, which is text-critically debated (absent from Sinaiticus and Vaticanus). Even at face value the clause names tongues as one accompanying sign in a list, not as the necessary or sole evidence of belief, and the verb form parakolouthēsei means accompany or follow, not constitute."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.17",
+        "variant_id": "longer-ending-mark",
+        "verdict_impact": "minor",
+        "note": "The longer ending of Mark (16:9-20) is absent from Codex Sinaiticus and Codex Vaticanus and bracketed in modern critical editions. The tongues-as-sign clause depends on this disputed ending. Even granting it as canonical for this analysis, the clause lists tongues as one of several accompanying signs and does not state that tongues is necessary for every believer."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "1 Cor 12, Rom 8, Eph 1, Gal 3, and the Acts conversion narratives lie outside published ECM scope (CBGM published only for 3 John in this run), so NT status is treated as ecm-shadow. The verdict-load-bearing clauses, the negated rhetorical question of 1 Cor 12:30, the kathōs bouletai of 1 Cor 12:11, the all-inclusive ebaptisthēmen of 12:13, the ouk-echei conditional of Rom 8:9, the akoē-pisteōs of Gal 3:2, the sphragizō chain of Eph 1:13, are textually stable in SBLGNT and Nestle1904 with no verdict-affecting variation."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "classical_pentecostalism",
+      "continuationism_non_pentecostal",
+      "cessationism",
+      "third_wave_continuationism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "classical_pentecostalism",
+        "verdict": "affirms",
+        "rationale": "Reads the Acts narratives (2:4, 10:46, 19:6) as establishing tongues as the initial physical evidence of a distinct second-blessing Spirit baptism subsequent to conversion, treating the three-fold Acts pattern as normative for every believer. Harmonizes 1 Cor 12:30 by distinguishing the public gift of tongues for the assembly (which is selectively distributed) from a private prayer-language tongues that may accompany all who are Spirit baptized. On this lens, the prosecution texts of 1 Cor 12 address ministry-gifts in the body, not the initial-evidence question, so the proposition stands."
+      },
+      {
+        "framework": "third_wave_continuationism",
+        "verdict": "denies",
+        "rationale": "Affirms the ongoing operation of all the gifts including tongues but denies the two-tier subsequence model and denies tongues as initial evidence. Holds that 1 Cor 12:13 places all believers in one Spirit baptism at conversion (pantes ebaptisthēmen), and 1 Cor 12:30 with the mē-question explicitly denies tongues to all. The Acts narratives are read as actual receptions but not as a normative subsequence-and-evidence template."
+      },
+      {
+        "framework": "continuationism_non_pentecostal",
+        "verdict": "denies",
+        "rationale": "Affirms the ongoing operation of tongues as a genuine gift, but denies that it is the necessary evidence, since 1 Cor 12:30 with the mē-question and 1 Cor 12:11 kathōs bouletai make tongues one selectively distributed gift among many rather than a universal mark."
+      },
+      {
+        "framework": "cessationism",
+        "verdict": "denies",
+        "rationale": "Denies the contemporary necessity of tongues entirely and reads the Acts occurrences as transitional sign-phenomena attesting the inaugural extension of the Spirit to Jew, Samaritan-via-silence, Gentile, and John-Baptist-disciple categories. On this lens, tongues cannot be the necessary evidence of salvation or Spirit baptism today because the gift itself is held to have functionally ceased."
+      }
+    ],
+    "notes": "The cross-tradition lexical divergence is concentrated at one hermeneutical hinge, whether the threefold Acts pattern (2, 10, 19) is read as descriptive boundary-cases or as a normative subsequence-and-evidence template. The didactic Greek of 1 Cor 12, in particular the mē-question grammar of 12:29-30 and the kathōs bouletai distribution clause of 12:11, settles the universality question against tongues-as-necessary-evidence on the words alone. The remaining dispute (Pentecostal versus the three other lenses) is over whether Acts narrative can override that didactic grammar, which is a hermeneutical methodology disagreement more than a lexical disagreement."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the Greek of the New Testament present speaking in tongues (laleō glōssais) as a sign that is asserted of every believer who has received the Spirit, or as one of several spiritual gifts that the Spirit distributes selectively?",
+    "notes": "The original stem embeds a strong claim by using the word necessary, which presupposes a universal-marker reading and tilts toward the classical Pentecostal position. The neutralized form poses the universality of tongues as an open question rather than asserting it. The verdict is derived on the original stem and remains false on the lexical pattern, since 1 Cor 12:30 framed by mē anticipates the answer no to universal tongues and 1 Cor 12:13 places all (pantes) believers in one Spirit baptism while denying tongues of all (mē pantes)."
+  },
+  "lay_summary": "The question asks whether speaking in tongues is the necessary evidence that someone has been baptized in the Spirit or is truly saved. The most direct text is 1 Corinthians 12:29-30, where Paul asks seven rhetorical questions back to back, are all apostles, are all prophets, are all teachers, do all have miracles, do all have gifts of healings, do all speak in tongues, do all interpret. Each one begins with the Greek negative particle me. In Greek a question opened with me expects the answer no, the grammatical opposite of a question opened with ou which expects yes. Paul stacks five me-questions in verse 29 and two more in verse 30, including the tongues question, and the construction itself does the work. No single gift belongs to every believer. Just before this, in 12:11, Paul says the one Spirit energizes the gifts and distributes to each one individually, just as he wills, which means the gifts are handed out by the Spirit's own choice, not given uniformly to all. A few verses earlier, in 12:13, Paul says that in one Spirit we were all baptized into one body, so Spirit baptism is true of every believer while tongues is not, and the two cannot be the same thing on the words alone. When Paul wants to name what assures a believer of belonging, in Romans 8:16 he points to the Spirit himself bearing joint witness with our spirit that we are children of God, an inner testimony. Romans 8:9 sets the binary, having or not having the Spirit, with no tongues-condition added. Ephesians 1:13 ties the seal of the Spirit to hearing the word and believing, and Galatians 3:2 ties receiving the Spirit to hearing with faith. The narrative passages in Acts where people spoke in tongues at Pentecost, at Cornelius house, and at Ephesus describe specific inaugural and recognition moments at redemptive seams. Other conversions in Acts including Samaria, the jailer, Lydia, the Corinthians, the Athens converts, report belief and baptism without naming tongues. On the words and grammar alone, the claim that tongues is the necessary evidence does not hold, because the texts present tongues as one selectively distributed gift among many. Readers who hold the proposition treat the Acts narrative pattern as normative for every believer; the disagreement is hermeneutical, whether narrative descriptions of three boundary cases override didactic grammar that explicitly denies tongues of all.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.12.30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.12.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.12.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.12.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.1.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3361"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1014"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4828"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0189"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4972"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3611"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.12.30"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.12.11"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.12.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.8.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.3.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.8.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "1Cor.12.13"
+    },
+    {
+      "type": "variant",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Mark.16.17"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cites MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute=false) for the syntactic and interlinear analysis of 1 Cor 12:30, 12:11, and 12:13, BibleHub-interlinear under fair-use-policy (redistribute=false) for 1 Cor 12:13, and SBLGNT-text under SBLGNT-EULA (redistribute=false) for the Mark 16:17 longer-ending variant, so the aggregated evidence cannot be redistributed in bulk."
+  },
+  "flags": [
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

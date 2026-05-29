@@ -1,0 +1,930 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-idolatry-root-sin",
+  "question_id": "doc-idolatry-root-sin",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition makes a ranking claim, that idolatry is THE single root of all sin. The lexical data support that idolatry is A central, pan-canonical category, but they do not establish it as the one fundamental sin, because the canon assigns root and source language to more than one sin and never ranks a single fundamental one. FOR: Rom 1.21-25 chains gnontes ton theon, ouch hos theon edoxasan (knowing God, they did not glorify him), then ellaxan (G0236, they exchanged) the doxa for an eikon and metellaxan (G3337) the aletheia for the pseudos, serving the ktisis para ton ktisanta, with dio paredoken (therefore he gave them up) making the vice list downstream. Col 3.5 predicates hetis estin eidololatria of pleonexia. Exod 20.3 heads the Decalogue. AGAINST a unique ranking: 1 Tim 6.10 reads riza gar panton ton kakon estin he philargyria, where anarthrous riza, a root, is predicated of philargyria, love of money, a hapax, not of idolatry. Heb 12.15 names a riza pikrias, root of bitterness. Jas 1.14-15 and 1 John 2.16, the same author who closes with phylaxate apo ton eidolon, make epithymia the generative or structuring category. The words supply two patterns they do not rank, so the strict ranking claim is underdetermined."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1497",
+        "lemma": "εἴδωλον",
+        "transliteration": "eidolon",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1495",
+        "lemma": "εἰδωλολατρία",
+        "transliteration": "eidololatria",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1391",
+        "lemma": "δόξα",
+        "transliteration": "doxa",
+        "occurrences_in_canon": 167,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0236",
+        "lemma": "ἀλλάσσω",
+        "transliteration": "allasso",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3337",
+        "lemma": "μεταλλάσσω",
+        "transliteration": "metallasso",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1504",
+        "lemma": "εἰκών",
+        "transliteration": "eikon",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0818",
+        "lemma": "ἀτιμάζω",
+        "transliteration": "atimazo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1939",
+        "lemma": "ἐπιθυμία",
+        "transliteration": "epithymia",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0167",
+        "lemma": "ἀκαθαρσία",
+        "transliteration": "akatharsia",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4491",
+        "lemma": "ῥίζα",
+        "transliteration": "rhiza",
+        "occurrences_in_canon": 17,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5365",
+        "lemma": "φιλαργυρία",
+        "transliteration": "philargyria",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2549",
+        "lemma": "κακία",
+        "transliteration": "kakia",
+        "occurrences_in_canon": 11,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0862",
+        "lemma": "ἄφθαρτος",
+        "transliteration": "aphthartos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2062",
+        "lemma": "ἑρπετόν",
+        "transliteration": "herpeton",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0312",
+        "lemma": "אַחֵר",
+        "transliteration": "acher",
+        "occurrences_in_canon": 166,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6459",
+        "lemma": "פֶּסֶל",
+        "transliteration": "pesel",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8544",
+        "lemma": "תְּמוּנָה",
+        "transliteration": "temunah",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7812",
+        "lemma": "שָׁחָה",
+        "transliteration": "shahah",
+        "occurrences_in_canon": 172,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5647",
+        "lemma": "עָבַד",
+        "transliteration": "abad",
+        "occurrences_in_canon": 290,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7067",
+        "lemma": "קַנָּא",
+        "transliteration": "qanna",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1544",
+        "lemma": "גִּלּוּל",
+        "transliteration": "gillul",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3820",
+        "lemma": "לֵב",
+        "transliteration": "lev",
+        "occurrences_in_canon": 600,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1497",
+      "G1495",
+      "G1391",
+      "G1392",
+      "G0236",
+      "G3337",
+      "G1504",
+      "G0818",
+      "G1939",
+      "G0167",
+      "G4491",
+      "G5365",
+      "G2549",
+      "G0862",
+      "G2062",
+      "G2588",
+      "G2316",
+      "G1097",
+      "G2168",
+      "G1261",
+      "G0801",
+      "G0444",
+      "H0312",
+      "H6459",
+      "H8544",
+      "H7812",
+      "H5647",
+      "H7067",
+      "H1544",
+      "H3820",
+      "H0430",
+      "H3068"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.1.21",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1392",
+            "lemma": "δοξάζω"
+          },
+          {
+            "strong": "G2168",
+            "lemma": "εὐχαριστέω"
+          },
+          {
+            "strong": "G0801",
+            "lemma": "ἀσύνετος"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          }
+        ],
+        "force": "Dioti gnontes ton theon ouch hos theon edoxasan e eucharistesan. The aorist participle gnontes (knowing) sets the ground, then the aorist indicatives edoxasan and eucharistesan are negated by ouch and e. The result is ematataiothesan (they became futile) in their dialogismoi, and the asynetos kardia (senseless heart) eskotisthe (was darkened). The verse establishes failure to give God the doxa due as the originating turn that produces moral darkening, which is the strongest lexical support for the idolatry-as-headwater reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.23",
+        "key_terms": [
+          {
+            "strong": "G0236",
+            "lemma": "ἀλλάσσω"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          },
+          {
+            "strong": "G0862",
+            "lemma": "ἄφθαρτος"
+          },
+          {
+            "strong": "G1504",
+            "lemma": "εἰκών"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2062",
+            "lemma": "ἑρπετόν"
+          }
+        ],
+        "force": "Ellaxan ten doxan tou aphthartou theou en homoiomati eikonos phthartou anthropou kai peteinon kai tetrapodon kai herpeton. The aorist allasso (G0236, exchange) takes doxan as direct object and en homoiomati eikonos as the substitute. The catalogue man, birds, quadrupeds, creeping things, inverts the Gen 1.20-26 creation order, marking the exchange as anti-creation reversal. This is the lexical core of the FOR reading, idolatry framed as a fundamental exchange.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.24",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1939",
+            "lemma": "ἐπιθυμία"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G0167",
+            "lemma": "ἀκαθαρσία"
+          },
+          {
+            "strong": "G0818",
+            "lemma": "ἀτιμάζω"
+          }
+        ],
+        "force": "Dio paredoken autous ho theos en tais epithymiais ton kardion auton eis akatharsian (therefore God gave them up in the desires of their hearts unto uncleanness). The connective dio is load-bearing for the FOR reading, the exchange of v.23 grounds the judicial paredoken, presenting epithymia and akatharsia as downstream effects of the prior worship inversion rather than as independent root sins.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.25",
+        "key_terms": [
+          {
+            "strong": "G3337",
+            "lemma": "μεταλλάσσω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3748",
+            "lemma": "ὅστις"
+          }
+        ],
+        "force": "Hoitines metellaxan ten aletheian tou theou en to pseudei kai esebasthesan kai elatreusan te ktisei para ton ktisanta. The verb is metallasso (G3337, confirmed by query, occurs only here and in v.26, exchange across), taking aletheia as object and en to pseudei as substitute. Esebasthesan kai elatreusan (worshipped and served) the ktisis para (instead of) the ktisanta. Verse 25 restates v.23 in cultic vocabulary. Note the correction, the store tags this verb as G3337 metallasso, not G3338.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.20.3",
+        "key_terms": [
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H0312",
+            "lemma": "אַחֵר"
+          },
+          {
+            "strong": "H6440",
+            "lemma": "פָּנִים"
+          }
+        ],
+        "force": "Lo yihyeh leka elohim acherim al panay (there shall be for you no other gods before my face). The first commandment heads the Decalogue, establishing a priority structure, exclusive devotion to YHWH before subsequent commandments. The ETCBC clause analysis tags this as a negated nominal clause (NQ, Nega plus Pred). The ordering supports the FOR reading that worship loyalty is constitutive, but it is positional priority and does not by itself rank idolatry above every other sin as the single generative root.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.20.4",
+        "key_terms": [
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          },
+          {
+            "strong": "H6459",
+            "lemma": "פֶּסֶל"
+          },
+          {
+            "strong": "H8544",
+            "lemma": "תְּמוּנָה"
+          }
+        ],
+        "force": "Lo taaseh leka pesel ve kol temunah (you shall not make for yourself an idol or any likeness). The catalogue heavens above, earth beneath, waters under (b shamayim, b aretz, b mayim) is a merism covering all created realms. Pesel and temunah parallel eikon and homoioma of Rom 1.23, demonstrating shared image vocabulary across the Testaments.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.20.5",
+        "key_terms": [
+          {
+            "strong": "H7812",
+            "lemma": "שָׁחָה"
+          },
+          {
+            "strong": "H5647",
+            "lemma": "עָבַד"
+          },
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H7067",
+            "lemma": "קַנָּא"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "Lo tishtahaveh lahem ve lo taabdem ki anoki YHWH eloheka el qanna poqed avon (you shall not bow to them or serve them, for I am YHWH your God, a jealous God, visiting iniquity). The hithpael shahah (prostrate) plus qal abad (serve) is the cultic doublet. The el qanna predicate ties worship loyalty to YHWH covenant character. Avon (iniquity) follows the breach, consistent with the FOR reading.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.5",
+        "key_terms": [
+          {
+            "strong": "G1939",
+            "lemma": "ἐπιθυμία"
+          },
+          {
+            "strong": "G0167",
+            "lemma": "ἀκαθαρσία"
+          },
+          {
+            "strong": "G1495",
+            "lemma": "εἰδωλολατρία"
+          },
+          {
+            "strong": "G3748",
+            "lemma": "ὅστις"
+          }
+        ],
+        "force": "Nekrosate oun ta mele, porneian, akatharsian, pathos, epithymian kaken, kai ten pleonexian, hetis estin eidololatria. The relative hetis estin (which is) predicates idolatry of pleonexia (greed). The grammar is identity predication. This is the strongest FOR datum for reducing a non-cultic vice to idolatry. But note the direction is local, greed is called idolatry here, which supports idolatry as a deep structure, yet 1 Tim 6.10 runs the opposite reduction, calling love of money a root of all evils, so the canon predicates root status in both directions and does not settle which is fundamental.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.5",
+        "key_terms": [
+          {
+            "strong": "G1496",
+            "lemma": "εἰδωλολάτρης"
+          },
+          {
+            "strong": "G4123",
+            "lemma": "πλεονέκτης"
+          }
+        ],
+        "force": "Pas pornos e akathartos e pleonektes ho estin eidololatres (every immoral or impure or covetous person, who is an idolater). Ho estin with masculine eidololatres predicates the identity of the pleonektes, a second Pauline witness alongside Col 3.5 that fuses greed and idolatry. This strengthens the FOR reading but is still a local identification of one vice with idolatry, not a ranking of idolatry over all sins.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.21",
+        "key_terms": [
+          {
+            "strong": "G5040",
+            "lemma": "τεκνίον"
+          },
+          {
+            "strong": "G1497",
+            "lemma": "εἴδωλον"
+          }
+        ],
+        "force": "Teknia, phylaxate heauta apo ton eidolon (little children, guard yourselves from the idols). The aorist imperative with reflexive heauta closes the epistle, and the article ton generalizes over the whole class. The closing position lexically marks idolatry as a comprehensive danger, supporting the FOR reading. But the same author at 1 John 2.16 anatomizes worldly sin as epithymia of flesh, epithymia of eyes, and alazoneia of life, which is a desire-and-pride structure, not an idolatry structure, so the author does not lexically rank idolatry as the single root.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.14.3",
+        "key_terms": [
+          {
+            "strong": "H1544",
+            "lemma": "גִּלּוּל"
+          },
+          {
+            "strong": "H3820",
+            "lemma": "לֵב"
+          },
+          {
+            "strong": "H4383",
+            "lemma": "מִכְשׁוֹל"
+          },
+          {
+            "strong": "H6440",
+            "lemma": "פָּנִים"
+          },
+          {
+            "strong": "H1875",
+            "lemma": "דָּרַשׁ"
+          }
+        ],
+        "force": "He elu gillulehem al libbam u mikshol avonam natnu nokach penehem (they have set up their gillulim upon their heart and placed the stumbling block of their iniquity before their face). Gillul is Ezekiel contemptuous term for idols. The locative al libbam (upon their heart) internalizes idolatry, and mikshol avon links interior idolatry to the production of avon. The verse supports the FOR reading that heart idolatry generates iniquity, though it speaks of these idolaters specifically, not of a universal single root for every sin.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.6.10",
+        "key_terms": [
+          {
+            "strong": "G4491",
+            "lemma": "ῥίζα"
+          },
+          {
+            "strong": "G5365",
+            "lemma": "φιλαργυρία"
+          },
+          {
+            "strong": "G2549",
+            "lemma": "κακία"
+          }
+        ],
+        "force": "Riza gar panton ton kakon estin he philargyria (for a root of all the evils is the love of money). This is the decisive complicating text. The predicate noun riza (G4491) is anarthrous, a root, not the article-bearing he philargyria which is the subject, so the construction reads love of money IS a root of all evils, not the only root. Crucially this is the one place in the canon where root-of-all language is lexically predicated of a named sin, and that sin is philargyria, a hapax (single occurrence), not idolatry. This shows the canon attaches generative-root vocabulary to a different sin, which directly underdetermines the claim that idolatry is THE root.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.15",
+        "key_terms": [
+          {
+            "strong": "G4491",
+            "lemma": "ῥίζα"
+          }
+        ],
+        "force": "Me tis riza pikrias ano phyousa enochle (lest any root of bitterness springing up cause trouble). Again anarthrous riza is predicated of pikria, bitterness. A second sin given explicit root metaphor distinct from idolatry, reinforcing that the canon uses root and source language for several sins and never lexically singles out one as the fundamental root.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.1.15",
+        "key_terms": [
+          {
+            "strong": "G1939",
+            "lemma": "ἐπιθυμία"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "He epithymia syllabousa tiktei hamartian (desire, having conceived, gives birth to sin). The birth metaphor (syllabousa, tiktei, apokyei) names epithymia, not idolatry, as the generative source of hamartia. Jas 1.14 grounds temptation in tes idias epithymias (one own desire). This is a second competing root-pattern, desire as generative, that the FOR reading must subordinate by adding a structural why-question that the words of James do not themselves supply.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.3.12",
+        "key_terms": [
+          {
+            "strong": "G0570",
+            "lemma": "ἀπιστία"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          }
+        ],
+        "force": "Kardia ponera apistias en to apostenai apo theou zontos (an evil heart of unbelief in departing from the living God). The genitive apistias characterizes the evil heart, and apostenai (to depart) frames the fundamental fault as unbelief and apostasy. This presents unbelief as a candidate fundamental disposition, a further root-level term the canon uses that is not idolatry, though it is conceptually adjacent to it.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.1.23",
+        "to": "Deut.4.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.23",
+        "to": "Rom.1.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.21",
+        "to": "Gen.6.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.25",
+        "to": "Isa.44.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.1.24",
+        "to": "Ps.81.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.21",
+        "to": "Exod.20.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Exod.20.3",
+        "to": "Exod.15.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Exod.20.5",
+        "to": "Exod.34.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Exod.20.4",
+        "to": "Exod.32.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.14.3",
+        "to": "Ezek.14.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.14.3",
+        "to": "Ezek.20.3",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Tim.6.10",
+        "addressed": true,
+        "resolution": "Riza gar panton ton kakon estin he philargyria predicates a root of all the evils of love of money, not of idolatry. This is the single clearest root-of-all statement in the canon and it names a different sin, which is why the strict ranking claim cannot be sustained at high confidence. The FOR reading replies that Col 3.5 and Eph 5.5 in turn call greed idolatry, so the two reduce into each other. That bridge is real and defensible, but it is a synthesis the words do not compel, because the reductions run in opposite directions and neither text says idolatry outranks love of money. Recorded as genuinely complicating rather than resolved, which is the basis for the disputed verdict."
+      },
+      {
+        "ref": "Heb.12.15",
+        "addressed": true,
+        "resolution": "Riza pikrias gives a second anarthrous root metaphor, this time of bitterness. Together with 1 Tim 6.10 it shows the canon freely applies root and source vocabulary to multiple sins. It does not contradict the importance of idolatry, but it does block any claim that the lexicon uniquely assigns root status to idolatry. Addressed by noting the pattern of plural roots."
+      },
+      {
+        "ref": "Jas.1.14-15",
+        "addressed": true,
+        "resolution": "James traces sin to ekastos peirazetai hypo tes idias epithymias, with epithymia conceiving and bearing hamartia, and never mentions idolatry. The FOR reading subordinates this by saying idolatry answers the deeper why does desire for the creature outweigh love of God. That is a coherent theological move, but the James text itself supplies a complete generative account from desire alone, so at the level of the words there are two unranked source-accounts. Addressed but not dissolved."
+      },
+      {
+        "ref": "1John.2.16",
+        "addressed": true,
+        "resolution": "The same author who closes with phylaxate apo ton eidolon analyzes worldly sin one chapter earlier as epithymia tes sarkos, epithymia ton ophthalmon, and alazoneia tou biou, a desire-and-pride taxonomy, not an idolatry taxonomy. This shows that even within a single author the canon does not consistently route every sin through idolatry as the formal root. Addressed by acknowledging the author uses more than one structuring frame."
+      },
+      {
+        "ref": "Gen.3.6",
+        "addressed": true,
+        "resolution": "The first sin is eating from the forbidden tree, prompted by taavah (desire) of the eyes and the prospect of wisdom, with no idol present. The FOR reading retrojects Rom 1.25 and reads the serpent offer eritis hos elohim (Gen 3.5) as the original exchange. That reading is available but interpretive, the Gen 3 vocabulary itself foregrounds desire and the wish for autonomous wisdom, not cultic idolatry. Addressed, and it illustrates why the proposition is underdetermined rather than false."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Rom.1.24",
+        "variant_id": "auto-rom1-24-pronoun",
+        "verdict_impact": "none",
+        "note": "Witnesses split between en autois and en heautois for the pronoun after akatharsian. Neither affects the disputed verdict, since the dispute turns on whether the canon ranks a single root, not on this pronoun."
+      },
+      {
+        "ref": "1John.5.21",
+        "variant_id": "auto-1jn5-21-eidolon",
+        "verdict_impact": "none",
+        "note": "Some witnesses add amen at the close, and the article ton before eidolon is stable. The plural ton eidolon is uniformly attested and does not bear on the ranking question."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "No anchor verse falls in the ingested ECM window (3 John 1.1 to 1.15), per inputs not_in_ecm_scope true. No load-bearing textual decision rests on a contested variant."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "decalogue_priority",
+      "pauline_natural_theology",
+      "biblical_theology_of_worship",
+      "hamartiology_of_desire"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "Idolatry-as-root reading (Rom 1.21-25, Col 3.5, Eph 5.5, Exod 20.3 priority)",
+        "verdict": "affirms",
+        "rationale": "Rom 1 traces the vice list back through dio paredoken to the originating exchange of doxa for eikon and aletheia for pseudos, serving ktisis para ton ktisanta. Col 3.5 and Eph 5.5 then predicate eidololatria of greed, and the Decalogue places no other gods first. On this reading every sin is a derivative form of misdirected worship, and idolatry is the formal root."
+      },
+      {
+        "framework": "Multiple-unranked-roots reading (1 Tim 6.10, Heb 12.15, Heb 3.12, Prov 16.18)",
+        "verdict": "denies",
+        "rationale": "The only explicit root-of-all-evils predication in the canon, riza panton ton kakon, names philargyria, love of money, with an anarthrous riza (a root). Heb 12.15 names a root of bitterness, Heb 3.12 an evil heart of unbelief in apostasy, and Prov 16.18 places gaon and gobah ruach, pride, before destruction. Since the lexicon assigns generative-root language to several sins and never ranks one as fundamental, singling out idolatry as THE root is not lexically established. This lens reads the proposition as overreaching the data."
+      },
+      {
+        "framework": "Desire-as-generative reading (Jas 1.14-15, 1 John 2.16, Gen 3.6, Rom 7.7)",
+        "verdict": "qualifies",
+        "rationale": "James gives a complete generative account, epithymia conceives and bears hamartia, and 1 John 2.16 anatomizes worldly sin as desire of flesh, desire of eyes, and pride of life. Gen 3.6 foregrounds taavah, and Rom 7.7 isolates epithymia via the tenth commandment. On this lens desire, not idolatry, is the proximate root. It can be harmonized with the idolatry reading only by adding a structural layer that the desire texts do not themselves state, so it qualifies rather than confirms the proposition."
+      },
+      {
+        "framework": "Greed-as-idolatry predication (Col 3.5, Eph 5.5)",
+        "verdict": "affirms",
+        "rationale": "Two Pauline witnesses use hetis estin and ho estin to predicate eidololatria of pleonexia, identity not analogy, which supports treating at least one non-cultic vice as a species of idolatry. This is strong support for idolatry as a deep structure, but it identifies one vice with idolatry rather than ranking idolatry above all sins, and 1 Tim 6.10 runs the converse reduction."
+      }
+    ],
+    "notes": "The proposition is a ranking claim, idolatry is THE root of ALL sin. The lexical data robustly support a weaker claim, idolatry is a central and pan-canonical category and at least some vices are predicated of it. The strong ranking claim is contested because the canon supplies root, source, and generative language for more than one sin (idolatry, love of money, bitterness, unbelief, pride, desire) and never lexically ranks one as the single fundamental root. Hence disputed at medium confidence rather than a high-confidence affirm."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture presents idolatry, the exchange of the Creator for created things, as a fundamental form of sin, and describes other transgressions as connected to misdirected worship.",
+    "notes": "VERDICT-CHANGED: prior file affirmed true at high confidence. Changed to disputed at medium confidence on lexical grounds gathered by direct query. The stem encodes a strong ranking conclusion (idolatry is THE root of ALL sin, every transgression a derivative form of misplaced worship). Direct queries show the canon predicates root-of-all language not of idolatry but of love of money (1 Tim 6.10, riza panton ton kakon, anarthrous riza, with philargyria a hapax), and gives further root and generative language to bitterness (Heb 12.15), unbelief and apostasy (Heb 3.12), pride (Prov 16.18), and desire (Jas 1.14-15, 1 John 2.16, Gen 3.6). The FOR texts (Rom 1.21-25 with dio paredoken, Col 3.5 and Eph 5.5 predicating eidololatria of greed, Decalogue priority) genuinely support idolatry as a central, possibly deepest category, but the words do not rank a single fundamental sin. Two unranked canon patterns, so the strict ranking is underdetermined. The neutralized_form drops the universal THE-root and every-transgression quantifiers; the verdict was derived on the original stem."
+  },
+  "lay_summary": "This proposition makes a ranking claim, that idolatry is the one root of all sin and every other sin is just misdirected worship. The text strongly supports a softer version of this. In Romans 1 verses 21 to 25 Paul says people knew God but did not glorify him, then exchanged his glory for images and served created things instead of the Creator, and the word therefore introduces the long list of other sins, which makes those sins look downstream of the worship failure. Colossians 3 verse 5 and Ephesians 5 verse 5 even say that greed is idolatry, using language of identity, not comparison. The first of the Ten Commandments also comes first, no other gods before my face. So idolatry is clearly a deep and pan-canonical category. But the stronger ranking claim runs into a problem in the words themselves. The one place the Bible plainly says a sin is a root of all evils is 1 Timothy 6 verse 10, and there the sin named is the love of money, not idolatry, and the word root has no the in front of it, so it means a root, not the only root. Hebrews 12 verse 15 speaks of a root of bitterness, Hebrews 3 verse 12 of an evil heart of unbelief that departs from God, and Proverbs 16 verse 18 puts pride before a fall. James 1 verses 14 and 15 say desire conceives and gives birth to sin, and 1 John, the same letter that ends guard yourselves from idols, earlier sorts worldly sin into desire of the flesh, desire of the eyes, and pride of life. So the canon hands us several roots and never lines them up to crown one as the single fundamental sin. You can knit them together, since greed is called idolatry and idolatry can be called the deepest exchange, but that knitting is a reading the bare words allow rather than force. That is why this lands as disputed, the vocabulary supports idolatry as a central root but does not by itself rank it as the only root.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1495"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G4491"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G5365"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G3337"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.25"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.3.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.6.10"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1John.5.21"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.20.3"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.20.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.14.3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.20.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.6.10"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Exod.20.3"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Exod.20.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.1.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.5.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.1.25"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek and ETCBC-BHSA, both licensed CC-BY-NC-4.0, which prohibits bulk redistribution. The lexical evidence remains usable internally and citable in derivative analyses, but the raw evidence record cannot be republished as a redistributable dataset without removing or substituting these two sources."
+  },
+  "flags": [
+    "lexically-disputed"
+  ]
+}

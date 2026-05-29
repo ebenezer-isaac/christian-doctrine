@@ -1,0 +1,617 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-indwelling",
+  "question_id": "doc-spirit-indwelling",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense, recurring, and convergent across the New Testament. Three distinct residence verbs are used of the Spirit in believers: oikeo (present indicative, the Spirit of God dwells in you, Rom 8:9, 1 Cor 3:16), the intensified compound enoikeo (the Spirit indwelling us, Rom 8:11, 2 Tim 1:14), and meno (the Spirit of truth stays alongside you, John 14:17), each carrying the locative en hymin or en hemin. The temple metaphor naos at 1 Cor 3:16, 6:19, and 2 Cor 6:16 and the pledge terms arrabon and sphragizo at Eph 1:13-14 add a second and third independent line. The negative test in Rom 8:9 (ei tis pneuma Christou ouk echei, houtos ouk estin autou) makes possession of the indwelling Spirit coextensive with belonging to Christ, leaving no class of true believer without the Spirit. Permanence is encoded by eis ton aiona in John 14:16 and arrabon in Eph 1:14. The same dwelling verb oikeo also takes sin as its subject in Rom 7:17-20, which shows the verb is location-neutral and the doctrine rides on the subject, the Spirit, not on the verb alone, but every occurrence with the Spirit as subject points one direction."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3611",
+        "lemma": "οἰκέω",
+        "transliteration": "oikeo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1774",
+        "lemma": "ἐνοικέω",
+        "transliteration": "enoikeo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3306",
+        "lemma": "μένω",
+        "transliteration": "meno",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0728",
+        "lemma": "ἀρραβών",
+        "transliteration": "arrabon",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4972",
+        "lemma": "σφραγίζω",
+        "transliteration": "sphragizo",
+        "occurrences_in_canon": 25,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1722",
+        "lemma": "ἐν",
+        "transliteration": "en",
+        "occurrences_in_canon": 2937,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 765,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3611",
+      "G1774",
+      "G3306",
+      "G3485",
+      "G0728",
+      "G4972",
+      "G1722",
+      "G2192",
+      "G2316",
+      "G5547",
+      "G1510",
+      "G4983",
+      "G1860",
+      "G0243"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.8.9",
+        "key_terms": [
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          }
+        ],
+        "force": "Twin conditional contrast. You are not in flesh but in Spirit, since the Spirit of God dwells in you, uses oikei (present indicative of oikeo) with locative en hymin, asserting an ongoing residence. The follow-up clause, if anyone does not have the Spirit of Christ, this one is not his (ei tis pneuma Christou ouk echei, houtos ouk estin autou), makes echo of the Spirit a definitional test for belonging to Christ, ruling out a true believer who lacks the indwelling. Token check confirms oikeo, en, echo, the negation ou, and the indefinite tis are all present.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.10",
+        "key_terms": [
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "The conditional, if Christ is in you (ei de Christos en hymin), parallels the prior Spirit clause and extends the indwelling to Christ by the Spirit. The body is reckoned dead because of sin but the spirit is life because of righteousness, indicating a present soteric reality and not a future or intermittent state.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.11",
+        "key_terms": [
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G1453",
+            "lemma": "ἐγείρω"
+          }
+        ],
+        "force": "The participle enoikoun (present of enoikeo, the intensified compound to in-dwell) is applied to the Spirit of the one who raised Jesus, dwelling en hymin. The compound form (en plus oikeo) makes the locative force explicit and the present tense marks habitual residence. The same indwelling Spirit is also the guarantee of bodily resurrection, tying indwelling to eschatological completion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.16",
+        "key_terms": [
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          },
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          }
+        ],
+        "force": "Do you not know that you are God's temple and the Spirit of God dwells in you (to pneuma tou theou oikei en hymin)? Token check confirms oikeo, naos, en, and theos together in one clause. This pairs the same dwelling verb as Rom 8:9 with the temple metaphor, addressed to the whole congregation, which extends the indwelling claim from individuals to the collective body of believers and uses the present tense for ongoing residence.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.16",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G1519",
+            "lemma": "εἰς"
+          }
+        ],
+        "force": "Jesus promises to ask the Father, who will give another Paraclete (allon parakleton) to be with the disciples eis ton aiona. The temporal phrase eis ton aiona, into the age, marks unending duration in Johannine usage and grammatically attaches to the giving, not to any conditional retention. This is the explicit permanence anchor.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.17",
+        "key_terms": [
+          {
+            "strong": "G3306",
+            "lemma": "μένω"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          }
+        ],
+        "force": "The Paraclete is the Spirit of truth (to pneuma tes aletheias). Two prepositional clauses describe location, par hymin menei (stays alongside you) and en hymin estai (will be in you). Token check confirms meno, the preposition para, en, and the future of eimi. The verb meno plus the future estai specify continued and incoming residence, distinguishing the disciples from the world that cannot receive him. The clause boundary between menei and estai marks a transition from alongside to within, not a withdrawal.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.19",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          }
+        ],
+        "force": "Rhetorical question, do you not know that your body is a temple of the Holy Spirit who is in you (tou en hymin hagiou pneumatos), whom you have from God (hou echete apo theou)? Token check confirms naos, soma, en, and echo. The naos metaphor presupposes ongoing residence, and echete (present indicative of echo) again predicates possession of the Spirit on the believer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.16",
+        "key_terms": [
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          }
+        ],
+        "force": "For we are the temple of the living God, as God said, I will dwell in them and walk among them (enoikeso en autois). Token check confirms enoikeo, naos, theos, en, and the walking verb emperipateo. The first person future enoikeso has God himself as the explicit subject of the indwelling, picking up an Old Testament dwelling promise and applying it to the believing community, which grounds the New Testament indwelling in the divine self-commitment to dwell among his people.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Tim.1.14",
+        "key_terms": [
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          }
+        ],
+        "force": "Guard the good deposit through the Holy Spirit who indwells in us (dia pneumatos hagiou tou enoikountos en hemin). Token check confirms enoikeo, en, and the preposition dia. The participle enoikountos, the same compound as Rom 8:11, with first person plural en hemin, broadens the indwelling beyond the Roman and Corinthian audiences to a general first person plural, supporting the every-believer scope.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.13",
+        "key_terms": [
+          {
+            "strong": "G4972",
+            "lemma": "σφραγίζω"
+          },
+          {
+            "strong": "G1860",
+            "lemma": "ἐπαγγελία"
+          }
+        ],
+        "force": "Sequence, having heard, having believed, you were sealed with the Holy Spirit of promise (esphragisthete to pneumati tes epangelias to hagio). Token check confirms sphragizo, the participles of akouo and pisteuo, and epangelia. The aorist passive esphragisthete with the participial chain places the sealing at the point of faith, not as a subsequent stage. Sealing as a metaphor for ownership and security supports both initiation and permanence of the indwelling.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.14",
+        "key_terms": [
+          {
+            "strong": "G0728",
+            "lemma": "ἀρραβών"
+          },
+          {
+            "strong": "G0629",
+            "lemma": "ἀπολύτρωσις"
+          }
+        ],
+        "force": "The Spirit is the arrabon (commercial term, downpayment or earnest) of our inheritance, eis apolytrosin tes peripoieseos. Token check confirms arrabon, apolytrosis, and kleronomia. The arrabon image guarantees the rest of the transaction, so the Spirit's present indwelling is the legal pledge of future glorification, which secures permanence on the indwelling itself. The same arrabon term recurs at 2 Cor 1:22 and 5:5, all of the Spirit.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.20",
+        "key_terms": [
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          }
+        ],
+        "force": "It is no longer I who do it but sin that dwells in me (he oikousa en emoi hamartia). Token grounding shows the same verb oikeo with the same locative en emoi but with sin, not the Spirit, as its subject, repeated at Rom 7:17 and 7:18. This demonstrates that oikeo by itself is location-neutral and does not name what dwells. The indwelling doctrine therefore rests on the identity of the subject in the indwelling clauses, the Spirit of God, not on the bare verb, which is why this verse complicates a naive verb-only argument without weakening the verdict.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.6.19",
+        "to": "1Cor.3.16",
+        "source": "openbible",
+        "votes": 122
+      },
+      {
+        "from": "1Cor.6.19",
+        "to": "2Cor.6.16",
+        "source": "openbible",
+        "votes": 93
+      },
+      {
+        "from": "1Cor.6.19",
+        "to": "Eph.2.21",
+        "source": "openbible",
+        "votes": 65
+      },
+      {
+        "from": "Rom.8.9",
+        "to": "Gal.4.6",
+        "source": "openbible",
+        "votes": 41
+      },
+      {
+        "from": "Rom.8.9",
+        "to": "1Cor.3.16",
+        "source": "openbible",
+        "votes": 40
+      },
+      {
+        "from": "Rom.8.9",
+        "to": "2Tim.1.14",
+        "source": "openbible",
+        "votes": 31
+      },
+      {
+        "from": "John.14.17",
+        "to": "Ezek.36.27",
+        "source": "openbible",
+        "votes": 38
+      },
+      {
+        "from": "Eph.1.14",
+        "to": "2Cor.1.22",
+        "source": "openbible",
+        "votes": 34
+      },
+      {
+        "from": "Eph.1.14",
+        "to": "Eph.4.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.11",
+        "to": "Rom.8.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.9",
+        "to": "Rom.8.2",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.7.17",
+        "addressed": true,
+        "resolution": "The dwelling verb oikeo at Rom 7:17, 18, and 20 takes sin (hamartia) as its subject, dwelling en emoi, not the Spirit. Queried distribution confirms oikeo occurs nine times in the canon and the subject varies (sin in Rom 7, the Spirit in Rom 8:9 and 1 Cor 3:16, a believing or unbelieving spouse in 1 Cor 7:12-13, God in unapproachable light in 1 Tim 6:16). This proves the verb is location-neutral and does not by itself name the indweller. The indwelling-of-the-Spirit verdict therefore rests on the subject of the clause in Rom 8 and 1 Cor 3, where the subject is explicitly the Spirit of God, not on the bare verb. The verdict is unaffected once the subject is fixed."
+      },
+      {
+        "ref": "Ps.51.11",
+        "addressed": true,
+        "resolution": "The Davidic plea, do not take your Holy Spirit from me, belongs to an earlier covenantal pattern where the Spirit empowered specific roles (king, prophet, craftsman) and could be withdrawn (compare 1 Sam 16:14). The Johannine and Pauline indwelling texts mark a later, settled gift, with John 14:16 promising the Paraclete eis ton aiona and the canon itself cross-linking John 14:17 to Ezek 36:27 (38 OpenBible votes), the promise to put the Spirit within. The lexical permanence in the New Testament verses is not contradicted by the earlier withdrawal language because the arrangement described differs. The Hebrew Spirit-withdrawal vocabulary is not queryable at lemma depth in this store, so this resolution rests on the New Testament permanence terms and the cross-ref bridge, not on a counted Hebrew anchor."
+      },
+      {
+        "ref": "Eph.4.30",
+        "addressed": true,
+        "resolution": "The exhortation, do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption, is the cross-referenced link from Eph 1:13-14. Token data confirms sphragizo (G4972) at both Eph 1:13 and 4:30. The verse warns against grieving but presupposes continued indwelling and sealing eis hemeran apolytroseos, for the day of redemption. Lexically it reinforces permanence rather than threatening it."
+      },
+      {
+        "ref": "John.14.17",
+        "addressed": true,
+        "resolution": "The verse distinguishes the world (which cannot receive the Spirit) from disciples (with whom he stays and in whom he will be). The clause boundary between menei (present) and estai (future of eimi) has been read by some as a future-only indwelling, but meno occurs 119 times in the canon, heavily in Johannine abiding language (John 15:4-7, 1 John 2:24, 3:24, 4:13) for stable ongoing residence, and the future estai marks the Pentecost transition from alongside to within rather than a conditional or temporary state. The continuous-indwelling reading is the lexically dominant one."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Rom.8.11",
+        "variant_id": "rom8-11-genitive-accusative",
+        "verdict_impact": "none",
+        "note": "Witnesses vary between accusative (dia to enoikoun autou pneuma) and genitive (dia tou enoikountos autou pneumatos) constructions for the agency of resurrection. Both readings retain enoikeo applied to the Spirit in believers, so the indwelling claim is invariant across the variant. This verse is outside the ingested ECM 3 John window, so the apparatus reading is recorded from morphology, not from CBGM data."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses fall outside the ingested 3 John CBGM sample (not_in_ecm_scope is true in the bundle). Wider ECM for the Pauline and Johannine corpora is not yet published in this store, so status is recorded as ecm-shadow rather than ecm-published."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "every-believer-permanent-indwelling",
+        "verdict": "lexically supported",
+        "rationale": "Three dwelling verbs (oikeo, enoikeo, meno) with locative en hymin and en hemin across the gospel and four Pauline letters, the temple metaphor naos at 1 Cor 3:16, 6:19, and 2 Cor 6:16, and the pledge terms arrabon and sphragizo at Eph 1:13-14, converge on a present residence that begins at faith and is guaranteed for the future. The negative test at Rom 8:9 makes having the Spirit definitional of belonging to Christ, so no true believer is excluded."
+      },
+      {
+        "framework": "earlier-covenant-spirit-pattern",
+        "verdict": "complicating but not overturning",
+        "rationale": "Earlier Spirit-coming and Spirit-withdrawal language (Judg 16:20, 1 Sam 16:14, Ps 51:11) describes the Spirit empowering particular persons for particular tasks, with possible withdrawal. Stated at its strongest, this lens reads the indwelling texts as the culmination of a promise (the canon itself links John 14:17 to Ezek 36:27) rather than a flat denial of any change. The New Testament terms eis ton aiona and arrabon supply the duration that the earlier pattern lacked, so the lens informs the timeline without overturning the verdict."
+      },
+      {
+        "framework": "subsequence-or-second-stage",
+        "verdict": "lexically unsupported",
+        "rationale": "Stated fairly, this lens reads the sealing of Eph 1:13 or the receiving of the Spirit as a stage after initial faith. The grammar resists it. The participles akousantes and pisteusantes with the aorist passive esphragisthete in Eph 1:13 align hearing, believing, and sealing as one event, and Rom 8:9 makes echo of the Spirit the test of belonging to Christ, which a class of Spirit-less true believers would falsify. The verb tenses, not church practice, are what decide against subsequence here."
+      },
+      {
+        "framework": "verb-only-reading",
+        "verdict": "lexically incomplete",
+        "rationale": "A reading that argues the doctrine from the dwelling verb alone is incomplete, because oikeo at Rom 7:17-20 takes sin as its subject in the same locative construction. The verb names residence, not the resident. The strongest form of the doctrine specifies the subject of each clause (the Spirit of God, Christ, God himself) rather than leaning on the verb, and on that basis the verdict holds."
+      }
+    ],
+    "notes": "Progressive revelation is in play because the duration terms (eis ton aiona, arrabon) attach to the later indwelling texts and the canon cross-links the promise to Ezek 36:27. Analogia scripturae harmonizes the earlier withdrawal texts with the later permanence terms by fixing the subject and the covenantal timeline, both from the words themselves."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem uses true believer, which is descriptive rather than tradition-loaded, and the words permanently and from the moment of regeneration are the testable lexical claims, carried by enoikeo and eis ton aiona for permanence, by esphragisthete aligned with the believing participles for the moment of faith, and by the Rom 8:9 echo test for every-believer scope. The verb-only objection (oikeo also dwells of sin in Rom 7) was examined and resolved by fixing the clause subject. Verdict affirms unchanged from the prior file; lexical work widened the spread to gospel plus epistle, so pan_canonical was raised from false to true."
+  },
+  "lay_summary": "The Greek New Testament uses three different dwelling words for the Holy Spirit and the believer. In Romans 8:9-11 Paul uses oikeo, dwells, and the stronger compound enoikeo, in-dwells, both present tense, locating the Spirit inside the believer with the phrase en hymin, in you. The same enoikeo recurs at 2 Timothy 1:14, the Spirit who indwells in us, and at 2 Corinthians 6:16, where God himself says I will dwell in them. In John 14:16-17 Jesus uses meno, stays alongside, and the future will be in you, with the explicit phrase eis ton aiona, into the age, marking permanence. In 1 Corinthians 3:16 and 6:19 Paul calls believers a naos, temple, of the Spirit who is in you and whom you have from God. In Ephesians 1:13-14 believers were sealed at the point of believing, and the Spirit is the arrabon, the downpayment guaranteeing the inheritance. Across these texts the pattern is consistent. The Spirit resides in the believer, the residence begins at faith, and it is tied to permanence. Romans 8:9 adds a sharp negative test. The one who does not have the Spirit of Christ is not Christ's, which makes having the indwelling Spirit definitional of being a true believer. One honest wrinkle in the words. The verb oikeo is location-neutral. In Romans 7:17-20 the very same verb has sin, not the Spirit, as what dwells in a person. So the doctrine does not ride on the verb alone but on the subject of each sentence, and in every indwelling clause that subject is named as the Spirit of God, Christ, or God. Read that way, the spread across a gospel and several letters all points one direction, and the text supports both halves of the claim. The Spirit indwells every true believer, and that indwelling is permanent.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.9-11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.16-17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.6.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.6.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.1.13-14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.7.17-20"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3611"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1774"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3306"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0728"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.6.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.8.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.14.17"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.1.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

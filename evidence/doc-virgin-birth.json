@@ -1,0 +1,707 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-virgin-birth",
+  "question_id": "doc-virgin-birth",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two independent NT infancy narratives converge lexically on a conception ek pneumatos hagiou apart from a human father. Matt 1:18 reports eurethe en gastri echousa ek pneumatos hagiou prin e synelthein autous, placing the pregnancy before marital union, and Matt 1:25 negates marital relations with ouk eginosken auten heos hou eteken huion, where ginosko carries the sexual sense (Louw-Nida domain 23.61, the same domain the lexical store assigns at Luke 1:34, distinct from cognitive ginosko at e.g. John 17:3). Luke 1:27 names Mariam parthenos twice (Louw-Nida primary domain 9.39, virgin), Luke 1:34 records her own andra ou ginosko, and Luke 1:35 attributes conception to pneuma hagion ... epeleusetai and dynamis hypsistou episkiasei, the verb episkiazo being a non-sexual covering term (its other NT uses are the transfiguration cloud, Luke 9:34, Matt 17:5, Mark 9:7). Matt 1:23 cites Isa 7:14 with parthenos. The genuine dispute is confined to the Hebrew almah of Isa 7:14, which denotes marriageable youth rather than virginity as such, but the NT verdict does not depend on the Hebrew word choice."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3933",
+        "lemma": "παρθένος",
+        "transliteration": "parthenos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 97,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5088",
+        "lemma": "τίκτω",
+        "transliteration": "tikto",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1097",
+        "lemma": "γινώσκω",
+        "transliteration": "ginosko",
+        "occurrences_in_canon": 221,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1064",
+        "lemma": "γαστήρ",
+        "transliteration": "gaster",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3423",
+        "lemma": "μνηστεύομαι",
+        "transliteration": "mnesteuomai",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4815",
+        "lemma": "συλλαμβάνω",
+        "transliteration": "syllambano",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3880",
+        "lemma": "παραλαμβάνω",
+        "transliteration": "paralambano",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1537",
+        "lemma": "ἐκ",
+        "transliteration": "ek",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5310",
+        "lemma": "ὕψιστος",
+        "transliteration": "hypsistos",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1982",
+        "lemma": "ἐπισκιάζω",
+        "transliteration": "episkiazo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 386,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5959",
+        "lemma": "עַלְמָה",
+        "transliteration": "almah",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1330",
+        "lemma": "בְּתוּלָה",
+        "transliteration": "betulah",
+        "occurrences_in_canon": 50,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2030",
+        "lemma": "הָרָה",
+        "transliteration": "harah",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3205",
+        "lemma": "יָלַד",
+        "transliteration": "yalad",
+        "occurrences_in_canon": 497,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6005",
+        "lemma": "עִמָּנוּ אֵל",
+        "transliteration": "Immanuel",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3933",
+      "G1080",
+      "G5088",
+      "G1097",
+      "G1064",
+      "G3423",
+      "G4815",
+      "G3880",
+      "G1537",
+      "G4151",
+      "G5310",
+      "G1982",
+      "G5207",
+      "H5959",
+      "H1330",
+      "H1331",
+      "H2030",
+      "H3205",
+      "H3045",
+      "H6005"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.1.18",
+        "key_terms": [
+          {
+            "strong": "G3423",
+            "lemma": "μνηστεύομαι"
+          },
+          {
+            "strong": "G1064",
+            "lemma": "γαστήρ"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "μνηστευθείσης τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ πνεύματος ἁγίου. The aorist passive participle μνηστευθείσης (G3423) names a binding betrothal preceding cohabitation. The temporal clause πρὶν ἢ συνελθεῖν αὐτούς (G4905 συνέρχομαι, gloss coming together) places the conception before sexual union. The agent of pregnancy is named with the prepositional phrase ἐκ πνεύματος ἁγίου, the construction ἐκ plus genitive of source, not from Joseph or any man. The idiom ἐν γαστρὶ ἔχειν (G1064) is the standard New Testament expression for being pregnant.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MAT 1:18"
+      },
+      {
+        "ref": "Matt.1.20",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεννάω"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "τὸ γὰρ ἐν αὐτῇ γεννηθὲν ἐκ πνεύματός ἐστιν ἁγίου. The angel grounds Joseph's reassurance with γάρ, identifying the child with the aorist passive participle γεννηθέν (G1080, gloss having been conceived) as ἐκ πνεύματος ἁγίου. The same ἐκ plus genitive of source construction repeats and confirms 1:18. The verb γεννάω across its 97 canon occurrences ranges over physical begetting (Matt 1:2 to 16 genealogy) and spiritual birth (John 3:3 to 8), and here the passive with the prepositional source phrase fixes the cause of the begetting in the Spirit.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MAT 1:20"
+      },
+      {
+        "ref": "Matt.1.23",
+        "key_terms": [
+          {
+            "strong": "G3933",
+            "lemma": "παρθένος"
+          },
+          {
+            "strong": "G1064",
+            "lemma": "γαστήρ"
+          },
+          {
+            "strong": "G5088",
+            "lemma": "τίκτω"
+          }
+        ],
+        "force": "ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν. Matthew cites the Greek form of Isa 7:14 with παρθένος (G3933) bearing the definite article ἡ, and the lexical store glosses this token virgin and assigns Louw-Nida domain 9.39 (the virgin sense). The fulfilment is anchored in the same lexeme παρθένος that Luke 1:27 applies twice to Mariam. The verbal pair ἕξει (future of ἔχω in the idiomatic ἐν γαστρὶ ἔχειν) and τέξεται (G5088) binds conception to parturition in a virgin subject.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MAT 1:23"
+      },
+      {
+        "ref": "Matt.1.25",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G5088",
+            "lemma": "τίκτω"
+          }
+        ],
+        "force": "καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν υἱόν. The imperfect ἐγίνωσκεν (G1097) is tagged by the lexical store with Louw-Nida domain 23.61, the sexual-relations sense of γινώσκω, the same domain assigned at Luke 1:34 and distinct from the cognitive sense (domain 27) at John 17:3 or the acknowledge sense (domain 31) at Matt 7:23. It is negated by οὐκ across the whole gestation marked by ἕως οὗ ἔτεκεν (G5088), locking the conception as occurring without marital intercourse. The Hebrew counterpart of this euphemism appears at Gen 4:1, where יָדַע (H3045) of Adam knowing Eve his wife issues in conception and birth.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MAT 1:25"
+      },
+      {
+        "ref": "Luke.1.27",
+        "key_terms": [
+          {
+            "strong": "G3933",
+            "lemma": "παρθένος"
+          },
+          {
+            "strong": "G3423",
+            "lemma": "μνηστεύομαι"
+          }
+        ],
+        "force": "πρὸς παρθένον ἐμνηστευμένην ἀνδρὶ ᾧ ὄνομα Ἰωσήφ ... καὶ τὸ ὄνομα τῆς παρθένου Μαριάμ. The noun παρθένος (G3933, glossed virgin) is repeated twice in a single verse, marking it as Luke's deliberate descriptor of Mariam at Gabriel's arrival. The perfect passive participle ἐμνηστευμένην (G3423) places her in a binding betrothal not yet consummated. Across its 15 canon occurrences παρθένος denotes a sexually intact unmarried person (the ten παρθένοι of Matt 25:1 to 11, the unmarried in 1 Cor 7:25 to 38, the undefiled in Rev 14:4), so the lexeme itself carries the virginity that Isa 7:14 leaves to inference.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "LUK 1:27"
+      },
+      {
+        "ref": "Luke.1.31",
+        "key_terms": [
+          {
+            "strong": "G4815",
+            "lemma": "συλλαμβάνω"
+          },
+          {
+            "strong": "G1064",
+            "lemma": "γαστήρ"
+          },
+          {
+            "strong": "G5088",
+            "lemma": "τίκτω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "ἰδοὺ συλλήμψῃ ἐν γαστρὶ καὶ τέξῃ υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν. The futures συλλήμψῃ (G4815 συλλαμβάνω, gloss you will conceive) and τέξῃ (G5088, you will bring forth) are addressed to a παρθένος (v.27) and answered in v.34 by ἄνδρα οὐ γινώσκω, so the conception they predict is one apart from any man. συλλαμβάνω in its 16 canon uses includes ordinary conception (Luke 1:24 of Elizabeth, Luke 1:36) which makes the announcement to a virgin the marked case.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "LUK 1:31"
+      },
+      {
+        "ref": "Luke.1.34",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          }
+        ],
+        "force": "πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω. Mariam's own objection uses γινώσκω (G1097) with a personal object ἄνδρα (G435 ἀνήρ, a man), and the lexical store tags this token Louw-Nida domain 23.61, the sexual-relations sense, the same tagging as Matt 1:25. The present tense οὐ γινώσκω asserts her ongoing state at the moment Gabriel announces the conception, foreclosing any reading that places the conception in normal marital relations. The grammar is decisive here: a present-tense first-person denial of sexual relations to a man, voiced by the mother herself.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "LUK 1:34"
+      },
+      {
+        "ref": "Luke.1.35",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G5310",
+            "lemma": "ὕψιστος"
+          },
+          {
+            "strong": "G1982",
+            "lemma": "ἐπισκιάζω"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "γεννάω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "πνεῦμα ἅγιον ἐπελεύσεται ἐπὶ σὲ καὶ δύναμις ὑψίστου ἐπισκιάσει σοι, διὸ καὶ τὸ γεννώμενον ἅγιον κληθήσεται υἱὸς θεοῦ. Gabriel's answer to v.34 names the cause as πνεῦμα ἅγιον plus δύναμις ὑψίστου (G5310). The verb ἐπισκιάζω (G1982) is glossed will overshadow, and its four other New Testament occurrences are all non-sexual covering or enveloping (the cloud at the transfiguration in Luke 9:34, Matt 17:5, Mark 9:7, and Peter's shadow in Acts 5:15), which excludes any sexual sense for the cause of the conception. The inferential διό grounds the divine-sonship designation in this non-marital conception, not in a human father.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "LUK 1:35"
+      },
+      {
+        "ref": "Isa.7.14",
+        "key_terms": [
+          {
+            "strong": "H5959",
+            "lemma": "עַלְמָה"
+          },
+          {
+            "strong": "H2030",
+            "lemma": "הָרָה"
+          },
+          {
+            "strong": "H3205",
+            "lemma": "יָלַד"
+          },
+          {
+            "strong": "H6005",
+            "lemma": "עִמָּנוּ אֵל"
+          }
+        ],
+        "force": "הִנֵּה הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן וְקָרָאת שְׁמוֹ עִמָּנוּ אֵל. The definite הָעַלְמָה (article plus H5959, parsed as common noun feminine singular absolute) is paired with the adjective הָרָה (H2030, pregnant, parsed adjective feminine singular) and the active participle יֹלֶדֶת (H3205, bearing). The participle and stative adjective leave the timing open between present and imminent, which is one strand of the dispute. עַלְמָה occurs only 7 times in the Hebrew Bible (Gen 24:43, Exod 2:8, Isa 7:14, Prov 30:19, Ps 68:26, Song 1:3, Song 6:8), never of a demonstrably married or non-virgin woman, yet the word denotes a young woman of marriageable age rather than specifying virginity. The more technical בְּתוּלָה (H1330, 50 occurrences) is not used here, and even בְּתוּלָה requires disambiguation in Gen 24:16 (where the clause and no man had known her is added) and in Joel 1:8 (a בְּתוּלָה mourning the husband of her youth). The name עִמָּנוּ אֵל (God with us, H6005, occurring only here and Isa 8:8) marks the child as bearing divine presence.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": "Isa.7.14"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.1.23",
+        "to": "Isa.7.14",
+        "source": "openbible",
+        "votes": 180
+      },
+      {
+        "from": "Isa.7.14",
+        "to": "Matt.1.23",
+        "source": "openbible",
+        "votes": 139
+      },
+      {
+        "from": "Isa.7.14",
+        "to": "Luke.1.31",
+        "source": "openbible",
+        "votes": 48
+      },
+      {
+        "from": "Isa.7.14",
+        "to": "Luke.1.35",
+        "source": "openbible",
+        "votes": 31
+      },
+      {
+        "from": "Isa.7.14",
+        "to": "Gen.3.15",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "Luke.1.35",
+        "to": "Matt.1.18",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "Luke.1.35",
+        "to": "Matt.1.20",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Matt.1.20",
+        "to": "Judg.13.3",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Luke.1.31",
+        "to": "Gal.4.4",
+        "source": "openbible",
+        "votes": 12
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Isa.7.14",
+        "addressed": true,
+        "resolution": "The Hebrew uses עַלְמָה (almah), not בְּתוּלָה (betulah). The almah-only reading argues that the word denotes a young woman of marriageable age without specifying virginity, so the verse in its own horizon promises a normal birth as a sign to Ahaz. The lexical findings, all queried: (a) the 7 canon occurrences of almah are Gen 24:43, Exod 2:8, Isa 7:14, Prov 30:19, Ps 68:26, Song 1:3, Song 6:8, and none denotes a married or non-virgin woman (the almah of Gen 24:43 is the same Rebekah called betulah with the clause no man had known her in 24:16); (b) but the word's force is youth, not virginity as such, so taken alone it does not lexically prove a virgin; (c) even betulah is not airtight, needing the clause no man had known her in Gen 24:16. The OT term is therefore genuinely under-determined. The NT does not inherit this gap: Matt 1:23 quotes the verse with παρθένος (Louw-Nida domain 9.39, virgin) and Luke 1:27 plus 1:34 anchor the virginity claim independently of the Hebrew word choice."
+      },
+      {
+        "ref": "Matt.1.16",
+        "addressed": true,
+        "resolution": "The genealogy of Matt 1:1 to 16 traces ἐγέννησεν through male links but breaks the pattern at v.16: Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰωσήφ, τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς. Matthew shifts from active ἐγέννησεν (X begot Y) to passive ἐγεννήθη with the feminine relative ἐξ ἧς (out of whom, feminine singular), excluding Joseph from biological paternity while preserving legal-Davidic descent through him as husband. This is consistent with, not against, the proposition."
+      },
+      {
+        "ref": "Luke.3.23",
+        "addressed": true,
+        "resolution": "Luke 3:23 writes ὢν υἱός, ὡς ἐνομίζετο, Ἰωσήφ. The parenthetical ὡς ἐνομίζετο (as was supposed, imperfect passive of νομίζω, to reckon) flags Joseph's relation to Jesus as legal presumption, not biological reality, and qualifies the whole genealogy that follows. Consistent with Luke 1:34 to 35."
+      },
+      {
+        "ref": "John.1.45",
+        "addressed": true,
+        "resolution": "Philip says Ἰησοῦν υἱὸν τοῦ Ἰωσήφ. This is reported speech from a new disciple and reflects social knowledge in Nazareth (Joseph as legal father). It does not contradict Matt 1 or Luke 1, which supply catechetical clarification that the speaker at this narrative point does not have."
+      },
+      {
+        "ref": "Mark.6.3",
+        "addressed": true,
+        "resolution": "ὁ υἱὸς τῆς Μαρίας. Mark uniquely names the mother and omits the father in a culture where the patronymic was standard. The construction is striking but is reported crowd speech and does not directly assert the proposition; it is consistent with it and is recorded as a complicating text that does not unseat the verdict."
+      },
+      {
+        "ref": "Matt.1.25",
+        "addressed": true,
+        "resolution": "The clause οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν is sometimes pressed toward post-partum marital relations and away from perpetual virginity. That secondary question is outside this proposition. ἕως οὗ ἔτεκεν directly supports virginity through gestation and delivery, which is exactly what the proposition asserts; the use of ἕως marks the terminus of the negated state at birth and bears no load against the conception claim."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "Isa.7.14",
+        "variant_id": "isa-7-14-almah-vs-parthenos",
+        "verdict_impact": "minor",
+        "note": "The Masoretic Text reads הָעַלְמָה (the almah, young woman), confirmed at the consonantal level by the OSHB morphology. The Old Greek renders παρθένος (virgin), the form Matt 1:23 quotes. Later Jewish revisers (Aquila, Symmachus, Theodotion) substituted νεᾶνις (young woman). Verdict impact is minor, not material: the New Testament case does not depend on Isa 7:14 in isolation. Luke 1:27 calls Mariam παρθένος twice, Luke 1:34 records her own ἄνδρα οὐ γινώσκω, Matt 1:18 and 1:20 attribute the conception ἐκ πνεύματος ἁγίου, and Matt 1:25 negates marital relations until birth. Even if the Hebrew almah were read as merely young woman, the queried Greek lexical pattern (παρθένος at Louw-Nida 9.39, γινώσκω at Louw-Nida 23.61, ἐπισκιάζω as a non-sexual covering verb) would carry the verdict."
+      },
+      {
+        "ref": "Matt.1.16",
+        "variant_id": "matt-1-16-sinaitic-syriac-variant",
+        "verdict_impact": "none",
+        "note": "The Sinaitic Syriac at Matt 1:16 has been read as Joseph begot Jesus, advanced as evidence of an early non-virginal tradition. The Greek manuscript tradition uniformly preserves the feminine-relative construction ἐξ ἧς ἐγεννήθη Ἰησοῦς, and the same Syriac witness still contains 1:18 to 25 affirming the virginal conception, which points to a copyist assimilation to the surrounding ἐγέννησεν pattern rather than a competing tradition. Verdict not affected."
+      },
+      {
+        "ref": "Luke.1.34",
+        "variant_id": "luke-1-34-omission-conjecture",
+        "verdict_impact": "none",
+        "note": "A conjectural emendation proposed that Luke 1:34 (Mariam's objection ἄνδρα οὐ γινώσκω) was a later interpolation. The Greek manuscript tradition is uniform in retaining v.34 and v.35. The verdict survives even the conjecture, because Matt 1:18 to 25 carries the lexical case independently."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "NT data outside 3 John remains in ECM-shadow status for this project. The Isa 7:14 Old Greek versus Masoretic variant is Old Testament and falls outside ECM scope; it was handled directly against the OSHB consonantal text and the παρθένος rendering preserved in Matt 1:23. The Matt 1:16 Sinaitic Syriac variant and the Luke 1:34 omission conjecture were examined and judged non-load-bearing."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "typology-prophecy-fulfilment"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "natural-conception-with-theological-overlay",
+        "verdict": "fails",
+        "rationale": "A reading that takes ἐκ πνεύματος ἁγίου as a theological gloss over a normal conception by Joseph or another must neutralise five separate lexical markers: the temporal πρὶν ἢ συνελθεῖν αὐτούς in Matt 1:18, the negated sexual-sense imperfect οὐκ ἐγίνωσκεν αὐτήν (Louw-Nida 23.61) in Matt 1:25, Mariam's present-tense ἄνδρα οὐ γινώσκω in Luke 1:34, the genealogical break to the feminine ἐξ ἧς in Matt 1:16, and the parenthetical ὡς ἐνομίζετο in Luke 3:23. Each points independently to non-paternity for Joseph, so the reading must treat all five as inert, which the texts resist."
+      },
+      {
+        "framework": "almah-only-young-woman",
+        "verdict": "fails-as-load-bearer",
+        "rationale": "This is the strongest minority reading at the Old Testament layer, and it is lexically defensible there. עַלְמָה (H5959) denotes a young woman of marriageable age, not virginity as such; the word never specifies sexual status the way a disambiguating clause does, and its 7 occurrences include settings (Prov 30:19, Song 1:3) where the focus is youth, not virginity. On this reading Isa 7:14, in the Ahaz horizon, promises a sign-child born in the ordinary way. The reading can stand for the Hebrew taken in isolation. It cannot bear the New Testament Christological verdict, because Matt 1:23 cites the verse with παρθένος (Louw-Nida 9.39, virgin) and the Lukan narrative anchors the virginity claim independently in Luke 1:27 and 1:34, neither of which depends on the Hebrew word choice in Isaiah."
+      },
+      {
+        "framework": "typology-prophecy-fulfilment",
+        "verdict": "holds",
+        "rationale": "On a double-horizon or typological reading, Isa 7:14 functions as a near sign to Ahaz and a far sign to David's house culminating in Jesus. Matthew's quotation in 1:23 makes the παρθένος reading load-bearing for the Christological fulfilment without erasing the near horizon. This lens accommodates both the Greek rendering preserved in Matthew and the independent lexical pattern in Matt 1 and Luke 1."
+      }
+    ],
+    "notes": "A grammatico-historical reading of Matt 1 and Luke 1 yields the verdict directly from the Greek, independent of the Hebrew word choice in Isaiah. The prophecy-fulfilment lens supplies the Old Testament anchor but is not strictly required to derive the proposition from the New Testament text alone. The genuine interpretive divergence is located at the Old Testament term, not at the New Testament claim."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem (Jesus Christ was conceived by the Holy Spirit and born of the virgin Mary) names exactly what Matt 1:18 to 25 and Luke 1:26 to 35 lexically assert: conception ἐκ πνεύματος ἁγίου, παρθένος as descriptor (Louw-Nida 9.39), ἄνδρα οὐ γινώσκω, and οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκεν (γινώσκω at Louw-Nida 23.61). No tradition-specific vocabulary is smuggled in. The stem stops at the moment of birth and does not extend to perpetual virginity or to Marian veneration, both outside this proposition. The verdict was re-derived against the original stem after exhaustive queried lexical work and is unchanged from the prior file; counts were corrected to the queried values (γεννάω 97, τίκτω 18, γινώσκω 221, Immanuel 2, almah 7, betulah 50)."
+  },
+  "lay_summary": "The Greek of Matthew 1 and Luke 1 says the same thing in two independent voices. Matthew 1:18 reports that before Joseph and Mary came together she was found pregnant from the Holy Spirit, using the preposition ek with the genitive to name the source of the conception. Verse 20 has the angel repeat the same construction: what is begotten in her is from the Holy Spirit. Verse 25 adds that Joseph did not know her, where the verb know is tagged in the lexical data with the sexual-relations sense, the same sense it carries when Mary herself says in Luke 1:34, I do not know a man, in the present tense, at the moment the conception is announced. Luke 1:27 calls Mary parthenos twice, a word whose primary lexical meaning is virgin and whose other uses across the New Testament are the ten virgins, the unmarried in First Corinthians 7, and the undefiled in Revelation 14. Luke 1:35 names the cause as the Holy Spirit coming upon her and the power of the Most High overshadowing her, and that verb overshadow appears elsewhere only of the cloud at the transfiguration, never of anything sexual. So the New Testament settles its own claim plainly. Where readers genuinely diverge is one step back, in the Hebrew of Isaiah 7:14, which Matthew quotes. Isaiah uses almah, a word for a young woman of marriageable age. Across its seven occurrences in the Hebrew Bible almah is never used of a married or non-virgin woman, but it names youth rather than virginity as such, and Isaiah does not use the more technical word betulah. So the Hebrew, taken by itself, leaves the question open, and an honest reading can take Isaiah's sign-child as born in the ordinary way within the prophet's own day. That open Hebrew word is the real root of the dispute. It does not carry over into the Gospel claim, because Matthew quotes the verse in its Greek form with parthenos, and Luke calls Mary parthenos and records her own statement that she has not known a man, neither of which depends on the Hebrew word in Isaiah.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.1.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.1.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.1.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.1.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.1.34"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.1.35"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.1.31"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.7.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.24.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek-louw-nida",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G3933"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek-louw-nida",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1097"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1982"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5959"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1330"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.1.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.7.14"
+    },
+    {
+      "type": "variant",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.1.16"
+    },
+    {
+      "type": "variant",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.7.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek-louw-nida",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek (morphology and glosses on Matt 1:18 to 25 and Luke 1:27 to 35) and MACULA-Greek-louw-nida (the domain tags 9.39 for παρθένος and 23.61 for γινώσκω) are CC-BY-NC-4.0 and bar bulk redistribution. These citations are load-bearing: the Louw-Nida domain split between the sexual-relations sense (23.61) and the cognitive sense (27) of γινώσκω, and the virgin domain (9.39) of παρθένος, supply the decisive disambiguation and were not down-substituted to a redistributable source."
+  },
+  "flags": [
+    "variant-sensitive",
+    "ecm-shadow"
+  ]
+}

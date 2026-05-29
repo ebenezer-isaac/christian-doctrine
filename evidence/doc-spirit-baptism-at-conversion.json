@@ -1,0 +1,643 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-baptism-at-conversion",
+  "question_id": "doc-spirit-baptism-at-conversion",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The Pauline epistles state a universal, completed initiation: the aorist passive of baptizo (G0907) with eis plus accusative governs all believers without remainder (1 Cor 12.13 hemeis pantes ebaptisthemen eis hen soma, V-API-1P; Rom 6.3 hosoi ebaptisthemen; Gal 3.27 hosoi ebaptisthete), and Rom 8.9 makes having the Spirit coextensive with belonging to Christ. Read alone, this pattern places Spirit baptism at conversion. But the same verb baptizo in Acts is future (Acts 1.5 and 11.16 baptisthesesthe en pneumati), and Acts narrates Spirit reception with a different verb cluster, lambano to receive, epipipto and erchomai epi to fall or come upon, epitithemi cheiras laying on of hands, pimplemi to fill, sometimes after water baptism (Acts 8.16, those already baptized had the Spirit not yet fallen on them). The vocabulary itself does not rank the Pauline universal didactic aorist above the Acts narrative-descriptive sequence, so two defensible readings stand on real lexical data."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 76,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0908",
+        "lemma": "βάπτισμα",
+        "transliteration": "baptisma",
+        "occurrences_in_canon": 20,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1519",
+        "lemma": "εἰς",
+        "transliteration": "eis",
+        "occurrences_in_canon": 1766,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 336,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 142,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1242,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3745",
+        "lemma": "ὅσος",
+        "transliteration": "hosos",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 258,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1968",
+        "lemma": "ἐπιπίπτω",
+        "transliteration": "epipipto",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1746",
+        "lemma": "ἐνδύω",
+        "transliteration": "endyo",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4916",
+        "lemma": "συνθάπτω",
+        "transliteration": "synthapto",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0907",
+      "G0908",
+      "G1519",
+      "G1520",
+      "G4983",
+      "G3956",
+      "G3745",
+      "G4151",
+      "G2983",
+      "G1968",
+      "G1746",
+      "G4916",
+      "G2007",
+      "G4130",
+      "G2222",
+      "G5547"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.12.13",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Confirmed by query: ebaptisthemen is V-API-1P, aorist passive indicative first plural, a single completed past action. The subject is hemeis pantes (P-1NP plus A-NPM, we all) and the eite pairs Ioudaioi, Hellenes, douloi, eleutheroi leave no believer outside the verbal scope. The goal is eis hen soma, the same eis plus accusative Paul uses for entry into Christ. The instrument or sphere is en heni pneumati, and the parallel clause hen pneuma epotisthemen (potizo, V-API-1P) repeats the universal first plural. This is the strongest AT-CONVERSION text: a didactic, universal, completed incorporation predicated of every believer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.5",
+        "key_terms": [
+          {
+            "strong": "G0908",
+            "lemma": "βάπτισμα"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "The triad heis Kyrios, mia pistis, hen baptisma sets baptisma (N-NSN) among the singularities grounding the unity of the body. Numeric hen foregrounds non-repeatability. The catalogue assumes the whole church already shares these realities. This supports a single, shared baptism rather than a tiered or repeatable one, which weighs toward the AT-CONVERSION reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.3",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G1519",
+            "lemma": "εἰς"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G3745",
+            "lemma": "ὅσος"
+          }
+        ],
+        "force": "Confirmed: hosoi ebaptisthemen eis Christon Iesoun, with ebaptisthemen V-API-1P and the relative hosoi (K-NPM, as many as) marking an unrestricted scope over the addressed community. The repeated eis plus accusative pairs Christ and his death as goals of the one aorist event. Paul appeals to it as something already undergone, supporting a past conversion-initiation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.4",
+        "key_terms": [
+          {
+            "strong": "G4916",
+            "lemma": "συνθάπτω"
+          },
+          {
+            "strong": "G0908",
+            "lemma": "βάπτισμα"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          }
+        ],
+        "force": "Confirmed: synetaphemen (synthapto V-2API-1P) dia tou baptismatos eis ton thanaton treats the baptisma as the channel of a finished co-burial. The purpose clause hina en kainoteti zoes peripatesomen grounds present walking on a past initiation, which favors a completed entrance rather than a separable later crisis.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.27",
+        "key_terms": [
+          {
+            "strong": "G3745",
+            "lemma": "ὅσος"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G1746",
+            "lemma": "ἐνδύω"
+          }
+        ],
+        "force": "Confirmed: hosoi gar eis Christon ebaptisthete (ebaptisthete V-API-2P) is co-extensive with the huioi theou of 3.26. The aorist enedysasthe (endyo V-AMI-2P, you clothed yourselves) pairs being clothed with Christ as the same single past event. The verse warrants the prior sonship claim, so the scope of those clothed with Christ is the scope of believers, supporting AT-CONVERSION.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.9",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Confirmed: ei de tis Pneuma Christou ouk echei, houtos ouk estin autou, if anyone does not have the Spirit of Christ he is not his. The present echei makes possession of the Spirit coextensive with belonging to Christ, leaving no class of believer who lacks the Spirit. This is a strong AT-CONVERSION support because it forecloses a Spirit-less believer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.13",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Confirmed: pisteusantes esphragisthete to Pneumati, having believed you were sealed with the Spirit. The aorist participle pisteusantes (V-AAP) ties sealing to believing. This supports AT-CONVERSION on a coincident reading of the participle, but the participle is the lexical crux: an aorist participle can be coincident (when you believed) or antecedent (after you had believed), and the grammar alone does not settle which, which is precisely where a subsequent-reception reading finds room.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.5",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Confirmed: hymeis de en Pneumati baptisthesesthe Hagio, you will be baptized in the Holy Spirit. baptisthesesthe is V-FPI-2P, future passive, set in contrast to Iohn who baptized with water (ebaptisen, V-AAI-3S). Here baptizo plus en pneumati names a promised future enduement of the apostles, a distinct event from initial belief, and it is fulfilled in Acts 2. The same verb that Paul uses in the aorist of all believers is here future and event-specific, which is the lexical root of the divergence.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.8.16",
+        "key_terms": [
+          {
+            "strong": "G1968",
+            "lemma": "ἐπιπίπτω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Confirmed: the Spirit had not yet fallen, epipeptokos (epipipto V-RAP-NSN) with epi, on any of them, though they had already been baptized, bebaptismenoi hyperchon (perfect periphrastic of baptizo) into the name of the Lord Jesus. The Spirit comes later by laying on of hands (epitithemi, 8.17) and they receive it (elambanon, lambano V-IAI-3P). The verbs of Spirit reception here are epipipto and lambano, not baptizo eis soma. This narrates a temporal gap between water baptism and Spirit reception, the strongest SUBSEQUENT-EXPERIENCE datum, and it uses vocabulary distinct from the Pauline incorporation idiom.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.19.2",
+        "key_terms": [
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "Confirmed: ei Pneuma Hagion elabete pisteusantes, did you receive the Holy Spirit having believed. elabete is lambano V-2AAI-2P (receive, not baptizo), and pisteusantes is an aorist participle (V-AAP-NPM). The question's phrasing is the crux: pisteusantes can be coincident (when you believed) or antecedent (after you believed). The same participle ambiguity as Eph 1.13. The pericope then has them baptized (ebaptisthesan, 19.5) and the Spirit comes upon them at the laying on of hands (19.6, elthe to Pneuma epi autous). The vocabulary supports both a believing-coincident reception and a sequenced one.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.2",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Confirmed: pantes eis ton Mousen ebaptisanto (baptizo V-AMI-3P) en te nephele kai en te thalasse. This corroborates Paul's idiom that baptizo with pantes and eis plus accusative marks corporate incorporation of an undivided group at a single moment, here the wilderness generation. It strengthens the AT-CONVERSION reading of the Pauline pattern, though it is a typological narrative within an epistle.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.12.13",
+        "to": "1Cor.10.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.12.13",
+        "to": "Acts.1.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.12.13",
+        "to": "Rom.6.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.12.13",
+        "to": "Eph.4.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.12.13",
+        "to": "Song.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.27",
+        "to": "Acts.2.38",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.27",
+        "to": "1Cor.12.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.27",
+        "to": "Job.29.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.6.3",
+        "to": "Matt.28.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.1.5",
+        "addressed": true,
+        "resolution": "The same verb baptizo that Paul uses in the aorist of all believers appears here in the future passive (baptisthesesthe en pneumati, V-FPI-2P) of a promised enduement of the apostles, distinct from their prior belief and fulfilled at Pentecost. The AT-CONVERSION reading harmonizes this as the inauguration of an era in which the Pauline universal then operates. The SUBSEQUENT reading takes it at face value as a separable Spirit-baptism after belief. The vocabulary supports both: it neither forces the harmonization nor the separation."
+      },
+      {
+        "ref": "Acts.8.16",
+        "addressed": false,
+        "resolution": "Not resolvable on lexical grounds alone. Persons already water-baptized into the name of the Lord Jesus (bebaptismenoi, perfect) are explicitly said not yet to have had the Spirit fall on them (epipeptokos epi, epipipto), which then occurs at the apostles laying on hands and they receive it (lambano). The verbs of Spirit reception here (epipipto, lambano, epitithemi cheiras) are different from Pauline baptizo eis soma. A reader can subordinate this narrative datum to the Pauline didactic universal, or read it as evidence of a separable subsequent reception, and the words do not adjudicate between the two."
+      },
+      {
+        "ref": "Acts.19.6",
+        "addressed": false,
+        "resolution": "Not resolvable lexically. After the Ephesian disciples are baptized (ebaptisthesan, 19.5), the Spirit comes upon them (elthe to Pneuma epi autous) only at Paul laying on hands, with tongues and prophecy. The reception verb is erchomai epi, not baptizo. The aorist participle pisteusantes in 19.2 is ambiguous between coincident and antecedent time, so the pericope reads either as belief-coincident reception delayed only by inadequate prior baptism, or as a genuine subsequent enduement. The construction underdetermines the temporal relation."
+      },
+      {
+        "ref": "1Cor.12.13",
+        "addressed": true,
+        "resolution": "Some parse en heni pneumati as locative sphere rather than instrumental agent, which would shift the agent from the Spirit to Christ as in the Gospel baptizo en pneumati sayings. The AT-CONVERSION force is preserved under both parsings because the verbal subject remains pantes and the goal remains hen soma, so this particular ambiguity does not by itself create the dispute. The dispute comes from the Acts sequence, not from this preposition."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "1Cor.12.13",
+        "variant_id": "1Cor.12.13-pantes-position",
+        "verdict_impact": "none",
+        "note": "Manuscripts vary on the position and articulation of the second pantes in the clause but every attested reading preserves the universal first plural subject and the aorist passive verb. The verdict does not turn on the disputed word order."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Confirmed by query that the anchor verses 1Cor.12.13, Eph.4.5, Rom.6.3-4, Gal.3.27 and the Acts texts are outside the ingested ECM window, which covers only 3 John 1.1 to 1.15. No CBGM apparatus is available for these books in this build, so variant assessment relies on the printed Nestle1904 and SBLGNT editions."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "pauline_corporate_solidarity",
+      "lukan_narrative_sequence",
+      "subsequent_reception_separability"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "pauline_corporate_solidarity",
+        "verdict": "supports",
+        "rationale": "The aorist passives ebaptisthemen, synetaphemen, ebaptisthete and the participle enedysasthe bind all believers (pantes, hosoi) into a single past initiating act, and Rom 8.9 makes having the Spirit coextensive with belonging to Christ. On this lens Spirit baptism is a constituent of conversion-incorporation with no remainder class, so the proposition is affirmed."
+      },
+      {
+        "framework": "subsequent_reception_separability",
+        "verdict": "supports",
+        "rationale": "Stated in its strongest lexical form: Acts narrates the Spirit being received (lambano), falling or coming upon (epipipto, erchomai epi), and being given at the laying on of hands (epitithemi cheiras), in several cases after initial belief or water baptism (Acts 8.16 explicitly, Acts 19.6, Acts 2 for the apostles). baptizo en pneumati in Acts 1.5 and 11.16 is future and event-specific. The aorist participle pisteusantes in Acts 19.2 and Eph 1.13 is grammatically ambiguous between coincident and antecedent time. On this lens the text leaves real room for a Spirit-reception that is distinguishable in time from conversion."
+      },
+      {
+        "framework": "lukan_narrative_sequence",
+        "verdict": "neutral",
+        "rationale": "Luke uses a reception-and-filling vocabulary (lambano, epipipto, pimplemi, epitithemi cheiras) and reserves baptizo en pneumati for the promised enduement. Whether these narrative thresholds are descriptive of a transitional era or normative for every believer is a question the vocabulary itself does not answer, so this lens neither confirms nor denies the proposition and supplies the second canon pattern that the words do not rank against the Pauline didactic statement."
+      }
+    ],
+    "notes": "The two patterns are not reconciled by vocabulary. Paul's statements are didactic, universal, aorist, and use baptizo eis to mark incorporation. Acts statements are narrative, particular, and use reception verbs for the Spirit while reserving future baptizo en pneumati for a promised enduement. The disagreement is genuinely text-level: which register, didactic-universal or narrative-descriptive, governs the timing question."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine when the New Testament locates the Spirit baptizing a believer into the body of Christ relative to conversion, and whether the text presents it as a once-for-all initiation or allows a distinguishable subsequent reception.",
+    "notes": "VERDICT-CHANGED: prior file affirmed true (medium); changed to disputed (medium). Lexical reason: direct query confirms the canon supplies two patterns the vocabulary does not rank. Paul predicates an aorist passive baptizo plus eis incorporation of all believers (1Cor.12.13 ebaptisthemen V-API-1P with hemeis pantes, Rom.6.3, Gal.3.27, reinforced by Rom.8.9), which read alone yields true. But Acts uses a distinct reception cluster (lambano, epipipto, erchomai epi, epitithemi cheiras, pimplemi) and a future baptizo en pneumati (Acts.1.5, 11.16), and Acts.8.16 explicitly separates water baptism from a not-yet-fallen Spirit, while the aorist participle pisteusantes (Acts.19.2, Eph.1.13) is grammatically ambiguous between coincident and antecedent time. Neither cluster lexically overrides the other, so the honest verdict is disputed. The stem is preloaded because it pre-frames the answer as once-for-all rather than separable, so the original-stem derivation was checked against the neutralized form and still lands on disputed."
+  },
+  "lay_summary": "Paul uses one Greek verb, baptizo, with a destination phrase using eis plus a noun, to say believers were placed into Christ and into one body. In 1 Corinthians 12.13 the verb is a past completed aorist, ebaptisthemen, and the subject is hemeis pantes, all of us, with the pairs Jews or Greeks, slaves or free, so no believer is left outside. Romans 6.3, Galatians 3.27, and Ephesians 4.5 (one baptism) repeat this completed, shared, once for all pattern, and Romans 8.9 says anyone who does not have the Spirit of Christ does not belong to him, so on these words alone the Spirit baptism happens at conversion. The trouble is that the book of Acts tells the story with different words. There the Spirit is received (lambano), falls or comes upon people (epipipto, erchomai epi), is given when hands are laid on them (epitithemi), or fills them (pimplemi), and in Acts 8.16 people who had already been baptized in water are plainly said not yet to have the Spirit, which comes later. The phrase baptized in the Spirit in Acts 1.5 is future and is about a promised event, not the past incorporation Paul describes. On top of this, the participle having believed in Acts 19.2 and Ephesians 1.13 can mean either when you believed or after you believed, and the grammar does not settle which. So the canon gives two patterns. Paul teaches a universal, completed initiation, while Acts narrates Spirit receptions that are spread out in time and described with reception and falling words rather than the incorporation word. The words themselves do not rank the teaching statement above the narrative sequence, or the reverse. That is why careful readers land on different timings, and why this lands as disputed rather than settled at the level of the text.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.12.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.8.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.1.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.6.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.19.6"
+    },
+    {
+      "type": "morphology",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.8.9"
+    },
+    {
+      "type": "morphology",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.1.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0907"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2983"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1968"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0908"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.12.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.3.27"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Includes MACULA-Greek under CC-BY-NC-4.0, used for the morphological tagging of 1Cor.12.13, Acts.8.16, and Acts.1.5 (aorist passive baptizo, the epipipto and lambano reception verbs, and the future baptizo en pneumati). CC-BY-NC-4.0 prohibits bulk redistribution, so the bundle is not safe to publish in bulk."
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "complicating-unresolved"
+  ]
+}

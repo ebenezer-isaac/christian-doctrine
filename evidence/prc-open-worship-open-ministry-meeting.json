@@ -1,0 +1,544 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-open-worship-open-ministry-meeting",
+  "question_id": "prc-open-worship-open-ministry-meeting",
+  "generated_at": "2026-05-27T08:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.725,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The participatory shape is plainly attested at the level of description. In 1 Cor 14:26 the distributive subject ἕκαστος (each one, 91 NT occurrences, stable sense) governs ἔχει repeated five times, and that verb is present active INDICATIVE, so Paul states what happens when the gathered church assembles (ὅταν συνέρχησθε), not a command to do it. Likewise 14:31 δύνασθε...προφητεύειν is indicative plus infinitive (you are able to prophesy), with καθ’ ἕνα marking one by one turns. The only IMPERATIVES in the unit attach to purpose and order, not to the open format: γινέσθω πρὸς οἰκοδομήν (14:26), διερμηνευέτω, σιγάτω, λαλείτωσαν, διακρινέτωσαν (14:27-30), and κατὰ τάξιν γινέσθω (14:40). The verdict is disputed because the grammar describes the every-member contribution but commands only edification and order, so the text does not by itself fix whether this is a mandated worship form or the regulation of one charismatic assembly. The stem also imports a brothers-only limit drawn from the separate 14:34 clause, which 26-33 does not lexically supply."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1538",
+        "lemma": "ἕκαστος",
+        "transliteration": "hekastos",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echō",
+        "occurrences_in_canon": 765,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4396",
+        "lemma": "προφήτης",
+        "transliteration": "prophētēs",
+        "occurrences_in_canon": 149,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4395",
+        "lemma": "προφητεύω",
+        "transliteration": "prophēteuō",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3619",
+        "lemma": "οἰκοδομή",
+        "transliteration": "oikodomē",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5010",
+        "lemma": "τάξις",
+        "transliteration": "taxis",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotassō",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4601",
+        "lemma": "σιγάω",
+        "transliteration": "sigaō",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0181",
+        "lemma": "ἀκαταστασία",
+        "transliteration": "akatastasia",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklēsia",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0240",
+        "lemma": "ἀλλήλων",
+        "transliteration": "allēlōn",
+        "occurrences_in_canon": 101,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1438",
+        "lemma": "ἑαυτοῦ",
+        "transliteration": "heautou",
+        "occurrences_in_canon": 331,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1538",
+      "G2192",
+      "G3956",
+      "G4396",
+      "G4395",
+      "G3619",
+      "G5010",
+      "G5293",
+      "G4601",
+      "G0181",
+      "G1577",
+      "G0240",
+      "G1438",
+      "G5568",
+      "G1520",
+      "G1417",
+      "G5140",
+      "G0303",
+      "G4905",
+      "G1322",
+      "G0602",
+      "G1100"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.14.23",
+        "key_terms": [
+          {
+            "strong": "G4905",
+            "lemma": "συνέρχομαι"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "συνέλθῃ ἡ ἐκκλησία ὅλη ἐπὶ τὸ αὐτό (if the whole church comes together to the same place) fixes the setting for the unit: συνέρχομαι is the assembly gathering verb, the same verb that opens 14:26 as ὅταν συνέρχησθε. This locates the every member contribution of 14:26 specifically in the gathered church meeting and not in general daily life, which strengthens the participatory reading at the descriptive level.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.26",
+        "key_terms": [
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G3619",
+            "lemma": "οἰκοδομή"
+          }
+        ],
+        "force": "The distributive subject ἕκαστος (each one) governs ἔχει five times, and the morphology marks ἔχει as present active INDICATIVE third person singular, so the verse states what occurs when they assemble (ψαλμόν, διδαχήν, ἀποκάλυψιν, γλῶσσαν, ἑρμηνείαν) rather than commanding it. The single imperative is γινέσθω (let it be done), and it governs not the open format but the purpose πάντα πρὸς οἰκοδομήν (all things for building up). So the grammar describes the contributions and commands only their edifying aim. This is the central verse for the participatory shape and also the central reason the format itself is not lexically mandated here.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.27",
+        "key_terms": [
+          {
+            "strong": "G1417",
+            "lemma": "δύο"
+          },
+          {
+            "strong": "G5140",
+            "lemma": "τρεῖς"
+          }
+        ],
+        "force": "The numerical caps κατὰ δύο ἢ τὸ πλεῖστον τρεῖς (by two or at most three) and ἀνὰ μέρος (in turn, one at a time), together with the imperative διερμηνευέτω requiring an interpreter, show the openness is bounded and conditioned. The imperative mood here regulates who may voice a contribution and how, which complicates a reading of the meeting as unrestricted free participation.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.29",
+        "key_terms": [
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          }
+        ],
+        "force": "προφῆται δὲ δύο ἢ τρεῖς λαλείτωσαν (let two or three prophets speak) again caps the speakers by an imperative, while οἱ ἄλλοι διακρινέτωσαν (let the others weigh) is a third person plural imperative assigning the rest of the gathered an active discerning role. The plural imperatives distribute speaking and discernment across the assembly, supporting a participatory shape that is nonetheless under command and order.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.31",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G4395",
+            "lemma": "προφητεύω"
+          }
+        ],
+        "force": "δύνασθε γὰρ καθ’ ἕνα πάντες προφητεύειν (for you can all prophesy one by one) is the broadest warrant for participation, but δύνασθε is present indicative (you are able) plus the infinitive προφητεύειν, a statement of capacity rather than a command to adopt a format. The distributive καθ’ ἕνα (one by one) marks sequential turns and the purpose ἵνα πάντες μανθάνωσιν καὶ πάντες παρακαλῶνται (that all may learn and all be encouraged) ties the capacity to mutual edification. πάντες occurs three times, generalizing the ability to the gathered believers.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.32",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          }
+        ],
+        "force": "πνεύματα προφητῶν προφήταις ὑποτάσσεται (the spirits of prophets are subject to prophets), with ὑποτάσσεται a present passive indicative, places the contributions under the speaker's controllable self governance. This undercuts a model of irresistible Spirit prompting that overrides order, and it conditions how the spontaneity in the stem (as the Spirit leads) must operate.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.33",
+        "key_terms": [
+          {
+            "strong": "G0181",
+            "lemma": "ἀκαταστασία"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "οὐ γάρ ἐστιν ἀκαταστασίας ὁ θεὸς ἀλλὰ εἰρήνης (for God is not of disorder but of peace) supplies the theological rationale governing the whole unit. The contrast ἀκαταστασία (disorder, 5 NT occurrences) versus εἰρήνη frames participation as something to be ordered for peace, which both supports a structured open meeting and warns against unregulated contribution.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.40",
+        "key_terms": [
+          {
+            "strong": "G5010",
+            "lemma": "τάξις"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "πάντα δὲ εὐσχημόνως καὶ κατὰ τάξιν γινέσθω (let all be done decently and in order) closes the chapter with the same imperative γινέσθω that governs the purpose in 14:26, now governing τάξις (order). This is the prescriptive counterweight to the descriptive openness: the words that command are about order and seemliness, not about an open format, so the lexical data favor regulated participation rather than either pure spontaneity or a fixed liturgy.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.16",
+        "key_terms": [
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          }
+        ],
+        "force": "The present participles διδάσκοντες καὶ νουθετοῦντες ἑαυτούς (teaching and admonishing one another) in ψαλμοῖς, ὕμνοις, ᾠδαῖς πνευματικαῖς show mutual member to member activity in song and word, but they hang on the imperative ἐνοικείτω (let the word of Christ dwell), describing the manner of that indwelling rather than a regulated assembly order. The reflexive ἑαυτούς functions reciprocally and broadens the participatory pattern beyond a single instructor.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.19",
+        "key_terms": [
+          {
+            "strong": "G1438",
+            "lemma": "ἑαυτοῦ"
+          },
+          {
+            "strong": "G0240",
+            "lemma": "ἀλλήλων"
+          }
+        ],
+        "force": "λαλοῦντες ἑαυτοῖς ψαλμοῖς καὶ ὕμνοις καὶ ᾠδαῖς πνευματικαῖς (speaking to one another in psalms and hymns and spiritual songs) uses a reciprocal dative for mutual address, paralleling Col 3:16, and the related ὑποτασσόμενοι ἀλλήλοις (submitting to one another) in 5:21 uses ἀλλήλων. These are present participles dependent on the imperative πληροῦσθε (be filled, 5:18), so they describe the manner of Spirit filling and general thanksgiving rather than a regulated worship order, which both supports mutual participation and limits how far it prescribes a meeting form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.14.26",
+        "to": "Eph.5.19",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "1Cor.14.26",
+        "to": "Rom.14.19",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "1Cor.14.26",
+        "to": "1Cor.14.40",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "1Cor.14.40",
+        "to": "Titus.1.5",
+        "source": "openbible",
+        "votes": 16
+      },
+      {
+        "from": "1Cor.14.40",
+        "to": "1Cor.14.26",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "1Cor.14.31",
+        "to": "1Thess.5.11",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.14.32",
+        "to": "1Cor.14.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Col.4.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.14.34",
+        "addressed": true,
+        "resolution": "The following clause αἱ γυναῖκες ἐν ταῖς ἐκκλησίαις σιγάτωσαν (let the women keep silent in the churches) restricts who may speak audibly in the same assembly, which is why the proposition limits contributors to brothers. The verb σιγάτωσαν is imperative, but this clause sits outside the cited 26-33 bundle and its scope is itself contested in the wider chapter. It can be read to support the brothers only specification, but it does not lexically establish the proposition's larger claim that open Spirit led participation is a normative worship pattern. It complicates rather than confirms and is one ground of the disputed verdict."
+      },
+      {
+        "ref": "1Cor.14.40",
+        "addressed": true,
+        "resolution": "πάντα δὲ εὐσχημόνως καὶ κατὰ τάξιν γινέσθω (let all be done decently and in order) closes the chapter by subordinating the openness to decorum and order through the imperative γινέσθω over τάξις. This is addressed in the scripture list as a for and neutral counterweight: the proposition's phrase as the Spirit leads must be read alongside commanded order, so the lexical data favor regulated participation, which the proposition captures only in part."
+      },
+      {
+        "ref": "1Tim.5.17",
+        "addressed": false,
+        "resolution": "The recognized teaching office, οἱ καλῶς προεστῶτες πρεσβύτεροι... οἱ κοπιῶντες ἐν λόγῳ καὶ διδασκαλίᾳ (elders who rule well, who labor in word and teaching), and the order language of Titus 1:5 (cross referenced from 14:40) attest a designated, laboring teaching role that coexists with the every member contribution of 1 Cor 14. This is left unresolved because the vocabulary does not rank the two: the canon supplies both an every member participation pattern and a recognized eldership teaching pattern, and the words do not themselves specify how a meeting should weight or combine them, which is a core reason the normativity question is underdetermined."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "1 Corinthians is outside the open-cbgm 3 John published sample, so CBGM data were not consulted directly and no variant units were available in the bundle. The apparatus markers visible in 14:26-30 (transposition of ἀποκάλυψιν and γλῶσσαν, the διερμηνευτής reading in 14:28) touch word order and a single lexical choice but not the indicative force of ἕκαστος ἔχει or δύνασθε...προφητεύειν, nor the imperatives γινέσθω, σιγάτω, λαλείτωσαν. The descriptive versus prescriptive grammar that drives the verdict holds across the readings in view, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "descriptive_vs_prescriptive",
+      "continuationism",
+      "cessationism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "descriptive_reading",
+        "verdict": "disputed",
+        "rationale": "Because ἔχει (14:26) and δύνασθε (14:31) are indicative and the only imperatives govern edification and order, this lens reads 26-33 as Paul describing and then regulating a specific Corinthian assembly. The participation is real but the open meeting form is not commanded as a universal pattern, so the proposition's normativity claim is underdetermined and the verdict is disputed."
+      },
+      {
+        "framework": "prescriptive_reading",
+        "verdict": "affirms",
+        "rationale": "This lens takes the present indicatives ἔχει and δύνασθε as describing a settled apostolic norm for the gathered church (located by συνέρχομαι in 14:23, 14:26), reinforced by the reciprocal ἑαυτούς and ἀλλήλων of Col 3:16 and Eph 5:19. On this reading the every member, one by one (καθ’ ἕνα) contribution is the pattern Paul expects whenever the church assembles, so a meeting open to qualified contributors reflects it directly."
+      },
+      {
+        "framework": "continuationism",
+        "verdict": "affirms",
+        "rationale": "If the prophetic and revelatory gifts described in 14:26-31 continue, the participatory open meeting reads as a directly reproducible pattern, since ἕκαστος ἔχει and καθ’ ἕνα πάντες describe an ongoing assembly practice that the church should still expect."
+      },
+      {
+        "framework": "cessationism",
+        "verdict": "disputed",
+        "rationale": "If the revelatory gifts (ἀποκάλυψις, γλῶσσα, προφητεία) have ceased, then the chapter regulates a now historical situation, and only the general principle of ordered mutual edification (πρὸς οἰκοδομήν, κατὰ τάξιν) transfers. The specific open ministry form is then underdetermined by the text and left to wisdom rather than command."
+      }
+    ],
+    "notes": "The verdict turns on a mood contrast in the Greek: the every member contribution is stated in the indicative (ἔχει, δύνασθε) while the imperatives command edification and order (γινέσθω, διερμηνευέτω, σιγάτω, λαλείτωσαν, διακρινέτωσαν, κατὰ τάξιν γινέσθω). Analogia scripturae is engaged by reading 14:26-33 with the gathering verb in 14:23, the silence and order clauses of 14:27-28, 14:34, 14:40, and the recognized teaching office of 1 Tim 5:17 and Titus 1:5."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the lexical data of 1 Corinthians 14:26-33 describe a gathering in which multiple members contribute audibly (reading, prayer, thanksgiving, song, a word), and on what grammatical terms (described practice or commanded form), and who is in view.",
+    "notes": "The phrase reflects the participatory pattern Paul describes presupposes both that 14:26-33 sets a pattern and that an open ministry meeting matches it, which front loads part of the verdict. The qualifier qualified brothers imports a gender restriction drawn from 14:34 rather than from 26-33. The verdict was derived on the original stem, but the neutralized form isolates the bare lexical questions of who contributes, under what grammatical force, and under what constraint. No VERDICT-CHANGED: the prior disputed verdict is confirmed by the indicative versus imperative mood evidence gathered in this pass."
+  },
+  "lay_summary": "First Corinthians 14:26-33 describes a Christian gathering in which more than one person contributes out loud. Verse 26 opens, when you come together, then says each one has, and lists a psalm, a teaching, a revelation, a tongue, and an interpretation, picturing different members each bringing something. Verse 31 adds you can all prophesy one by one, so that all may learn and all be encouraged. A key grammatical detail explains where readers divide. The words for the contributions, has in verse 26 and you can in verse 31, are stated as plain facts, in the indicative mood, so Paul is describing what happens when the church assembles. The words that give commands, in the imperative mood, attach not to the open format but to its aim and its order: let all be done for building up in verse 26, let an interpreter be present, let only two or three speak, let them take turns, let the others weigh what is said, and at the end let all be done decently and in order in verse 40. So the text commands edification and order, and describes, rather than commands, the every member format. That is why the basic shape the proposition points to is genuinely present, while whether it is a binding pattern for all worship is left open by the words themselves. The reciprocal language of Colossians 3:16 and Ephesians 5:19, teaching and admonishing one another and speaking to one another in song, supports mutual participation, but those phrases describe the manner of being filled with the Spirit and letting the word dwell, not a regulated meeting order. The proposition also adds that contributors are limited to qualified brothers, which leans on the separate and contested silence clause a few verses later, and the canon elsewhere also speaks of a recognized teaching role for elders, which the vocabulary here does not rank against the every member pattern. Because the words clearly support audible, multi member participation but do not on their own settle the normativity claim or the brothers only restriction packed into the statement, the lexical verdict is disputed rather than a plain yes or no.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.31"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.40"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.23"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1538"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.14.40"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.14.32"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "complicating-unresolved"
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-inherited-guilt",
+  "question_id": "doc-inherited-guilt",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.8,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The narrow proposition is that Adam's guilt itself, as distinct from inherited corruption, is legally reckoned to all descendants so that humanity stands guilty in him from conception. The wording of Rom 5:12-19 anchors a real Adam-and-Christ representative structure and supplies forensic vocabulary, but it does not univocally settle the guilt question. Verified morphology shows Rom 5:12 ἐφ' ᾧ is ἐπί plus the dative relative ᾧ, which is grammatically open between causal, because all sinned, and relative, in whom all sinned, and the verb ἥμαρτον is third person aorist active, a form that everywhere else in the corpus marks completed personal sinning. Rom 5:19 κατεστάθησαν is the aorist passive of καθίστημι, a verb attested across the canon dominantly for appoint or put in charge but also with a real causal sense, render or cause to be, so its sense here is not fixed by the lexicon. κατάκριμα occurs only three times, all in Romans, so its precise ground cannot be triangulated. The three readings, imputed guilt of Adam's act, ontological participation in Adam, and inherited corruption that issues in personal sin, are each lexically defensible. The pattern is materially contested in the wording itself."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartanō",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0268",
+        "lemma": "ἁμαρτωλός",
+        "transliteration": "hamartōlos",
+        "occurrences_in_canon": 47,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistēmi",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2631",
+        "lemma": "κατάκριμα",
+        "transliteration": "katakrima",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2917",
+        "lemma": "κρίμα",
+        "transliteration": "krima",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3900",
+        "lemma": "παράπτωμα",
+        "transliteration": "paraptōma",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1345",
+        "lemma": "δικαίωμα",
+        "transliteration": "dikaiōma",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1347",
+        "lemma": "δικαίωσις",
+        "transliteration": "dikaiōsis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1909",
+        "lemma": "ἐπί",
+        "transliteration": "epi",
+        "occurrences_in_canon": 918,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3739",
+        "lemma": "ὅς",
+        "transliteration": "hos",
+        "occurrences_in_canon": 1535,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5375",
+        "lemma": "נָשָׂא",
+        "transliteration": "nasa",
+        "occurrences_in_canon": 650,
+        "in_anchors": false
+      },
+      {
+        "strong": "H5771",
+        "lemma": "עָוֺן",
+        "transliteration": "avon",
+        "occurrences_in_canon": 233,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2399",
+        "lemma": "חֵטְא",
+        "transliteration": "chet",
+        "occurrences_in_canon": 33,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0076",
+      "G0264",
+      "G0268",
+      "G2525",
+      "G2631",
+      "G2917",
+      "G3900",
+      "G1345",
+      "G1347",
+      "G1520",
+      "G1909",
+      "G3739",
+      "G2288",
+      "H5375",
+      "H5771",
+      "H2399"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.5.12",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G3739",
+            "lemma": "ὅς"
+          },
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          },
+          {
+            "strong": "G1909",
+            "lemma": "ἐπί"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "δι' ἑνὸς ἀνθρώπου, through one man, sin entered the world, and death came εἰς πάντας ἀνθρώπους, to all humans, ἐφ' ᾧ πάντες ἥμαρτον. The verified morphology shows ἐφ' ᾧ is the preposition ἐπί governing the relative pronoun ᾧ, parsed dative singular, lemma ὅς. That construction is genuinely open. Read as the fixed Koine idiom ἐπί plus the dative it is causal, because all sinned, which points to personal sin. Read as a true relative with ᾧ reaching back to ἑνὸς ἀνθρώπου it means in whom all sinned, which points to participation in Adam. The verb ἥμαρτον is third person plural aorist active indicative, and the same form elsewhere in the corpus, for example I have sinned in the parable, always marks a completed personal act of sinning, which weighs toward the causal personal reading. The verse establishes the Adam channel but does not by the words alone settle imputed guilt.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.13",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "ἁμαρτία δὲ οὐκ ἐλλογεῖται μὴ ὄντος νόμου. Sin is not reckoned, ἐλλογεῖται, present passive of a bookkeeping verb meaning to charge to an account, where there is no law. This creates an internal pressure for a strict imputed guilt reading, because if Adamic guilt were reckoned to every descendant apart from the Mosaic law then ἐλλογεῖται here must be limited to personal sin under explicit law rather than the Adamic charge. The lexeme itself is account neutral and does not name whose sin is being charged.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.14",
+        "key_terms": [
+          {
+            "strong": "G0936",
+            "lemma": "βασιλεύω"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως καὶ ἐπὶ τοὺς μὴ ἁμαρτήσαντας ἐπὶ τῷ ὁμοιώματι τῆς παραβάσεως Ἀδάμ. Death reigned from Adam to Moses even over those who did not sin in the likeness of Adam's transgression. The aorist participle ἁμαρτήσαντας is negated, so death reaches people whose sinning was not patterned on Adam's specific παράβασις. This shows the consequence of Adam's act extends past personal violation of an explicit command, which is consistent with solidarity in Adam, but the words do not specify whether that solidarity is legal imputation of Adam's guilt or inherited corruption that produces death.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.15",
+        "key_terms": [
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G4183",
+            "lemma": "πολύς"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          }
+        ],
+        "force": "τῷ τοῦ ἑνὸς παραπτώματι οἱ πολλοὶ ἀπέθανον. By the trespass of the one, the many died. ἀπέθανον is aorist active of ἀποθνῄσκω, a death verb, and παράπτωμα carries the base sense false step, slip, trespass. The lexical force locates a corporate outcome in Adam's single trespass, but the verb names dying, not legal sentencing, so this verse contributes solidarity and consequence rather than an explicit forensic imputation.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.16",
+        "key_terms": [
+          {
+            "strong": "G2917",
+            "lemma": "κρίμα"
+          },
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          },
+          {
+            "strong": "G1345",
+            "lemma": "δικαίωμα"
+          }
+        ],
+        "force": "τὸ μὲν γὰρ κρίμα ἐξ ἑνὸς εἰς κατάκριμα. The judgment, κρίμα, arising ἐξ ἑνὸς, from one, leads εἰς κατάκριμα, to condemnation. κατάκριμα is forensic, condemnatory sentence, and the lexicon glosses it condemnation, judgement, punishment. This is the strongest single forensic clue that the Adamic consequence has a legal dimension. But the verified canon count for κατάκριμα is only three, all in Romans, so its precise ground cannot be triangulated, and the genitive ἐξ ἑνὸς is itself ambiguous between out of the one trespass and out of the one man. The word establishes a legal verdict but not whose specific act grounds it.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.18",
+        "key_terms": [
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          },
+          {
+            "strong": "G1347",
+            "lemma": "δικαίωσις"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "δι' ἑνὸς παραπτώματος εἰς πάντας ἀνθρώπους εἰς κατάκριμα, paralleled by δι' ἑνὸς δικαιώματος εἰς πάντας ἀνθρώπους εἰς δικαίωσιν ζωῆς. Through one trespass, condemnation to all humans, matched word for word by through one righteous act, justification of life to all humans. The εἰς πάντας ἀνθρώπους clause is comprehensive and the structure is exactly symmetrical. Read alone it fits a representative model. Read with its twin clause, the πάντες on the condemnation side and the πάντες on the life side must be held to the same scope, which the words do not themselves fix, since δικαίωσις occurs only twice in the whole corpus. The symmetry forces qualification of πᾶς that the lexeme alone cannot supply.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.19",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          },
+          {
+            "strong": "G0268",
+            "lemma": "ἁμαρτωλός"
+          },
+          {
+            "strong": "G4183",
+            "lemma": "πολύς"
+          }
+        ],
+        "force": "διὰ τῆς παρακοῆς τοῦ ἑνὸς ἀνθρώπου ἁμαρτωλοὶ κατεστάθησαν οἱ πολλοί, matched by διὰ τῆς ὑπακοῆς τοῦ ἑνὸς δίκαιοι κατασταθήσονται οἱ πολλοί. The verified morphology shows κατεστάθησαν is aorist passive, third person plural, of καθίστημι, and the parallel κατασταθήσονται is the future passive of the same verb. The verified canon distribution of καθίστημι, twenty one occurrences, is dominated by the sense appoint or put in charge, set over a household or office, but it also carries a real causal sense, make or render, as when the tongue is constituted among the members or friendship with the world is rendered enmity. So in v.19 the verb is genuinely two valued, were placed in the status of sinners, forensic declarative, or were caused to be sinners, effective. The strict structural parallel with the righteous clause, read forensically by justification, presses v.19a toward a declarative sense, but the parallel is structural and the verb itself remains polysemous.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.22",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          }
+        ],
+        "force": "ἐν τῷ Ἀδὰμ πάντες ἀποθνῄσκουσιν, οὕτως καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται. In Adam all die, in Christ all shall be made alive. The verified morphology shows ἀποθνῄσκουσιν is present active, a verb of dying, paralleled by the future passive ζῳοποιηθήσονται, be made alive. The locative phrase ἐν τῷ Ἀδάμ asserts solidarity in Adam as the basis of universal death. The lexical force is universal mortality through union with Adam, with no forensic verb present, so this verse anchors solidarity and a death outcome but says nothing by its words about imputed legal guilt.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.51.7",
+        "key_terms": [
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          },
+          {
+            "strong": "H2399",
+            "lemma": "חֵטְא"
+          }
+        ],
+        "force": "בְּעָוֺן חוֹלָלְתִּי וּבְחֵטְא יֶחֱמַתְנִי אִמִּי, in iniquity I was brought forth and in sin my mother conceived me. This is Psalm 51 verse 7 in the Hebrew versification of the source, the verse numbered 51:5 in English versification. The verified Hebrew lemmas are עָוֺן, iniquity, and חֵטְא, sin, naming the speaker's condition from conception. The lexical pattern anchors an innate sinful state at origin, but the words describe a condition belonging to the speaker, not a transfer or reckoning of a prior agent's specific guilt to him.",
+        "supports": "neutral",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.18.20",
+        "key_terms": [
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "הַנֶּפֶשׁ הַחֹטֵאת הִיא תָמוּת בֵּן לֹא יִשָּׂא בַּעֲוֺן הָאָב. The soul that sins, it shall die. A son shall not bear, יִשָּׂא from נָשָׂא, the iniquity, עָוֺן, of the father. The verified Hebrew uses the verb to bear or carry with iniquity as object, an explicit statement that one person does not carry another person's guilt. This is a complicating principle for an imputed Adamic guilt reading, because the verb is the standard term for bearing guilt and the principle is stated in general terms. The store records a verified cross reference from Rom 5:12 to the companion verse Ezek 18:4 with eleven votes, so the chain is real in the data.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.5.19",
+        "source": "openbible",
+        "votes": 44
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "1Cor.15.21",
+        "source": "openbible",
+        "votes": 73
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.3.23",
+        "source": "openbible",
+        "votes": 32
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "1John.1.8",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Ps.51.5",
+        "source": "openbible",
+        "votes": 21
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Ezek.18.4",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Rom.5.18",
+        "to": "1Cor.15.22",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "1Cor.15.45",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "Rom.5.15",
+        "to": "Rom.5.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.16",
+        "to": "Gen.3.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Ezek.18.20",
+        "addressed": true,
+        "resolution": "The verified Hebrew states that a son does not bear, נָשָׂא, the iniquity, עָוֺן, of the father, using the standard term for carrying guilt. This is a general juridical principle that one agent's guilt is not transferred to another. A representative reading answers that Adam's case is structurally unique because he is the one through whom the whole race came, not merely an individual father, so the Ezekiel principle and the Adam parallel address different relations. The complication remains material because the Ezekiel statement is stated generally and uses the very vocabulary of bearing guilt that an imputation reading needs. The store confirms a real cross reference chain from Rom 5:12 to Ezek 18:4."
+      },
+      {
+        "ref": "Deut.24.16",
+        "addressed": true,
+        "resolution": "The verified Hebrew reads איש בחטאו יומתו, each shall be put to death for his own sin, חֵטְא, with the verb מות for capital punishment, denying that fathers die for sons or sons for fathers. This is the same personal responsibility principle as Ezek 18:20 in Torah form, and it is a material complication because it makes legal death personal in the plain wording. A representative reading restricts it to civil-judicial penalty among humans rather than the Adamic relation, which is exegetically possible but not stated by the words themselves, so the tension stays visible."
+      },
+      {
+        "ref": "Rom.5.12",
+        "addressed": true,
+        "resolution": "The verified verb ἥμαρτον is aorist active third plural, a form that everywhere else in the corpus marks completed personal sinning. If the proposition required all to have personally committed Adam's specific act, this aorist would be straightforward, but Adam is one and the πάντες are many. So the aorist must either describe corporate participation in Adam's act, which strains the ordinary aorist sense, or describe each person's own sinning, which weakens a strict imputation reading. This unresolved grammatical pull is the heart of the dispute and is addressed but not dissolved by the lexicon."
+      },
+      {
+        "ref": "Rom.9.11",
+        "addressed": true,
+        "resolution": "μήπω γὰρ γεννηθέντων μηδὲ πραξάντων τι ἀγαθὸν ἢ φαῦλον, before being born and before having done anything good or bad. Paul can discuss persons as not yet having performed personal acts, which shows that personal moral status is a category he treats apart from any imputed Adamic guilt. A representative reading notes Paul is here addressing election rather than Adamic imputation, which is consistent, but the verse does establish that the vocabulary of personal performance is available in Paul and is not collapsed into Adamic reckoning."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The anchor verses Rom 5:12-19 and 1 Cor 15:22 fall outside the ingested ECM window, which covers only 3 John, so no CBGM apparatus was examined and none was invented. The reading ἐφ' ᾧ in Rom 5:12 and κατεστάθησαν in Rom 5:19 are stable across the manuscript tradition. The dispute over inherited guilt is interpretive and grammatical, not text critical, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "federal_headship",
+      "realist_seminal_headship",
+      "mediate_imputation",
+      "corruption_without_imputed_guilt"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "federal_headship",
+        "verdict": "affirms_proposition",
+        "rationale": "Reads ἐφ' ᾧ as relative, in whom all sinned, or as causal in the sense that in Adam's representative act all are counted as having sinned. Reads κατεστάθησαν ἁμαρτωλοί in v.19 as forensic declarative, were constituted in the status of sinners, in strict parallel to δίκαιοι κατασταθήσονται, which justification reads as a declarative reckoning. The κρίμα ἐξ ἑνὸς εἰς κατάκριμα of v.16 supplies the legal verdict. On this reading Adam's one trespass is judicially reckoned to all he represents, which is exactly imputed guilt. Strongest lexical support is the symmetrical εἰς πάντας ἀνθρώπους of v.18 and the twin καθίστημι clauses of v.19."
+      },
+      {
+        "framework": "realist_seminal_headship",
+        "verdict": "affirms_with_modification",
+        "rationale": "Reads ἐφ' ᾧ as relative or modal, in whom all sinned, taken as actual ontological participation, the whole race seminally present in Adam at the trespass. On this reading the guilt of all in Adam is real but its basis is participation rather than legal representation. The aorist ἥμαρτον is honored as a real completed act in which all shared by being in Adam. This lens affirms that all are truly guilty in Adam but grounds it differently than a purely representative reckoning."
+      },
+      {
+        "framework": "mediate_imputation",
+        "verdict": "affirms_with_modification",
+        "rationale": "Reads the chain as inherited corruption first, which is the immediate ground, with condemnation following upon the corrupt condition that all share from Adam. κατάκριμα and ἁμαρτωλοὶ κατεστάθησαν are taken to describe a real guilt of the race, but mediated through the propagated corrupt nature rather than the direct reckoning of Adam's discrete act. This lens affirms inherited guilt while ordering it after corruption, so it sits between strict imputation and the corruption only reading."
+      },
+      {
+        "framework": "corruption_without_imputed_guilt",
+        "verdict": "denies_proposition",
+        "rationale": "Reads ἐφ' ᾧ as the fixed Koine causal idiom, because all sinned, and reads κατεστάθησαν ἁμαρτωλοί as effective, were made to be sinners through an inherited corruption that issues in actual personal sin. Holds that the race inherits Adamic corruption and mortality, the ἐν τῷ Ἀδάμ death of 1 Cor 15:22, but that guilt is incurred upon personal sinning, with Ezek 18:20 and Deut 24:16 as the governing principle that one does not bear another's guilt. κατάκριμα in v.18 is anchored in the consequence pattern of a corrupted humanity that all sin, not in legal reckoning of Adam's specific act. This lens is fairly served by the dominant attested sense of καθίστημι, cause to be, and by the aorist ἥμαρτον as personal sinning."
+      }
+    ],
+    "notes": "The proposition is narrower than inherited corruption. Many who affirm an inherited corrupt nature deny inherited guilt. The verified lexical pattern in Rom 5 establishes a strong Adam and Christ representative structure, anchors κατάκριμα as forensic, and sets κατεστάθησαν and κατασταθήσονται in strict parallel. But the lexicon alone does not force the imputed guilt reading over the realist, the mediate, or the corruption only readings. The decision turns on disambiguating ἐφ' ᾧ, the attested polysemy of καθίστημι between appoint to a status and cause to be, the unfixable scope of πᾶς across the twin clauses of v.18 given that δικαίωσις is a near hapax, and the weight of the general personal responsibility principle of Ezek 18:20 and Deut 24:16."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture's lexical pattern on the relation between Adam's sin and his descendants includes forensic vocabulary, κρίμα and κατάκριμα and δικαίωμα, a status verb of two senses, ἁμαρτωλοὶ κατεστάθησαν, and language of solidarity, ἐν τῷ Ἀδάμ and the aorist ἥμαρτον.",
+    "notes": "The stem builds in a specific taxonomy that partitions guilt from corruption and fixes legal reckoning at conception. That partition is itself a framework specific construct, and the verified text supplies a representative structure between Adam and Christ without lexically separating guilt from corruption with the precision the stem assumes, nor specifying conception as the moment. The verdict is rendered on the original stem and remains disputed because the wording is materially contested. Affirms is unchanged from the prior evidence."
+  },
+  "lay_summary": "Paul's argument in Romans 5:12 to 19 sets Adam beside Christ. Through Adam's one trespass, death reached all humans, and through Christ's one act of obedience, justification and life reach the many. The wording is dense with legal vocabulary, especially katakrima, the noun for a condemning sentence, and dikaioma, the noun for a righteous verdict. Verse 19 uses the same verb kathistemi twice, once for the many being constituted sinners through the disobedience of the one and once for the many being constituted righteous through the obedience of the one. The verified canon distribution of that verb shows it usually means to appoint or put someone in charge, but it also carries a real sense to make or cause to be, so in this verse it could mean placed in the status of sinners, a legal verdict, or caused to be sinners, an effect. Romans 5:12 holds the most disputed phrase, eph ho pantes hemarton. The verified grammar shows it is the preposition epi with a relative pronoun, which can mean because all sinned or in whom all sinned, and the verb hemarton is an aorist that everywhere else marks a completed personal act of sinning. The narrow question here is whether Adam's guilt itself, not just a corrupted nature, is charged to every descendant from conception. The words supply three honest readings the vocabulary does not rank. One, Adam acts as representative and his guilt is reckoned to all. Two, the whole race shared in Adam's act by being in him. Three, the race inherits corruption and mortality from Adam, seen in Adam all die in First Corinthians 15:22, but each person becomes guilty by his own sinning. Two general statements pull on the third reading, since Ezekiel 18:20 and Deuteronomy 24:16 say in the plain Hebrew that a son does not bear the father's iniquity and each dies for his own sin. The forensic verdict word katakrima appears only three times in the whole corpus, all in Romans, so its exact ground cannot be triangulated, and the justification word in verse 18 occurs only twice. The text builds solidarity in Adam, a forensic consequence reaching all, and parallel constitutions of sinners and righteous, but it does not by its own wording separate imputed legal guilt of Adam's act from inherited corruption that issues in personal sin. That is why careful readers land in different places.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2525"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2631"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3900"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1345"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0264"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.18.20"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.24.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.51.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.5.18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

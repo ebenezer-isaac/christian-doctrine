@@ -1,0 +1,611 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-amillennialism",
+  "question_id": "doc-amillennialism",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The whole proposition turns on six occurrences of chilia ete in one passage (Rev 20:2-7), and the Greek words underdetermine the framework. The cardinal chilioi carries no morphological marker of literal versus symbolic reference, and the same number-stem (chilias) is used elsewhere in the same book for figures that read most naturally as symbolic (144000, 12000 per tribe, the 12000-stadion city). The decisive verb is ezesan from zao, which the book itself uses with multiple senses (Christ's ongoing life in 1:18, the beast revived after death-stroke in 13:14, the living creatures in 4:9-10), so the same verb cannot by itself fix whether Rev 20:4 names bodily resurrection or non-bodily living of souls. Because two and arguably three internally consistent readings survive the morphology and concordance, the lexical verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5507",
+        "lemma": "χίλιοι",
+        "transliteration": "chilioi",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5505",
+        "lemma": "χιλιάς",
+        "transliteration": "chilias",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2094",
+        "lemma": "ἔτος",
+        "transliteration": "etos",
+        "occurrences_in_canon": 49,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0386",
+        "lemma": "ἀνάστασις",
+        "transliteration": "anastasis",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2198",
+        "lemma": "ζάω",
+        "transliteration": "zao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0936",
+        "lemma": "βασιλεύω",
+        "transliteration": "basileuo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1210",
+        "lemma": "δέω",
+        "transliteration": "deo",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5055",
+        "lemma": "τελέω",
+        "transliteration": "teleo",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4105",
+        "lemma": "πλανάω",
+        "transliteration": "planao",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0012",
+        "lemma": "ἄβυσσος",
+        "transliteration": "abyssos",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0254",
+        "lemma": "ἅλυσις",
+        "transliteration": "halysis",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0726",
+        "lemma": "ἁρπάζω",
+        "transliteration": "harpazo",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2478",
+        "lemma": "ἰσχυρός",
+        "transliteration": "ischyros",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1208",
+        "lemma": "δεύτερος",
+        "transliteration": "deuteros",
+        "occurrences_in_canon": 43,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0554",
+        "lemma": "ἀπεκδύομαι",
+        "transliteration": "apekdyomai",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1165",
+        "lemma": "δειγματίζω",
+        "transliteration": "deigmatizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G5507",
+      "G5505",
+      "G2094",
+      "G0386",
+      "G2198",
+      "G0936",
+      "G1210",
+      "G5055",
+      "G4105",
+      "G0012",
+      "G0254",
+      "G0726",
+      "G2478",
+      "G1208",
+      "G0554",
+      "G1165"
+    ],
+    "scripture": [
+      {
+        "ref": "Rev.20.2",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G5507",
+            "lemma": "χίλιοι"
+          },
+          {
+            "strong": "G2094",
+            "lemma": "ἔτος"
+          }
+        ],
+        "force": "The angel bound (edesen, aorist of deo) the dragon for chilia ete, a thousand years. The verb deo occurs 44 times in the NT and overwhelmingly denotes physical or judicial binding (e.g., John 11:44, Acts 12:6, Matt 14:3), with the metaphorical strong-man binding of Matt 12:29 being a notable exception. The cardinal chilioi is morphologically identical whether the years are counted literally or read as a symbolic round figure. The triple apposition naming the dragon as the ancient serpent, the devil, and Satan is a glossing identification and contributes nothing to dating the binding.",
+        "supports": "neutral",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.3",
+        "key_terms": [
+          {
+            "strong": "G5055",
+            "lemma": "τελέω"
+          },
+          {
+            "strong": "G4105",
+            "lemma": "πλανάω"
+          },
+          {
+            "strong": "G0012",
+            "lemma": "ἄβυσσος"
+          }
+        ],
+        "force": "Satan is sealed in the abyss so that he should not deceive (planao) the nations until (achri) the thousand years are completed (telesthe, aorist passive subjunctive of teleo). Planao in this book is consistently end-time deceptive activity (Rev 13:14, 19:20, 20:8, 20:10), and abyssos occurs 9 times in the canon (7 in Rev, including 9:1-2, 11:7, 17:8) for a concrete place of demonic restraint, matching Luke 8:31. The clause sets a terminus for a restraint on deception. Whether that restraint already obtains in the present age or awaits a future seizure cannot be settled from teleo or achri, which mark sequence without dating the start point.",
+        "supports": "neutral",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.4",
+        "key_terms": [
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          },
+          {
+            "strong": "G0936",
+            "lemma": "βασιλεύω"
+          }
+        ],
+        "force": "The souls (psychas) of the beheaded came to life (ezesan, aorist of zao) and reigned (ebasileusan, aorist of basileuo) with Christ for the thousand years. This is the load-bearing clause. Zao occurs 13 times in Rev with multiple senses: Christ's ongoing life (1:18 ho zon, the one living), the smyrna gloss that Christ died and lived again (2:8), the living creatures (4:9-10), the beast revived from a death-stroke (13:14), and the contested 20:4-5. The verb is therefore polysemous within the very book, and the morphology alone cannot decide bodily resurrection versus intermediate-state reigning. Basileuo in Rev is used both for the saints' future reign (5:10, 22:5) and for the inaugurated kingdom (11:15-17), so it likewise underdetermines timing.",
+        "supports": "neutral",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.5",
+        "key_terms": [
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          },
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασις"
+          }
+        ],
+        "force": "The rest of the dead did not come to life (ezesan) until the thousand years were completed. This is the first resurrection (anastasis prote). The same verb ezesan is applied to the rest of the dead as to those who reign in verse 4, which is the strongest internal argument that the two living events are the same kind of event. Anastasis occurs 42 times in the canon, and every other instance (1 Cor 15:12-21, John 11:24-25, the Sadducee dispute in Matt 22, Acts 17:32, Acts 24:15) refers to bodily resurrection, never to spiritual regeneration. If ezesan is the same sense in both clauses and anastasis carries its canon-wide sense, the first resurrection is bodily and future, but if the narrator shifts sense across the verse the symbolic-present reading remains open. The lexical repetition pulls toward one reading without strictly closing the other.",
+        "supports": "complicates",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.6",
+        "key_terms": [
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασις"
+          },
+          {
+            "strong": "G0936",
+            "lemma": "βασιλεύω"
+          },
+          {
+            "strong": "G1208",
+            "lemma": "δεύτερος"
+          }
+        ],
+        "force": "Blessed and holy is the one having part in the first resurrection (anastasis prote), over whom the second death (ho deuteros thanatos) has no authority, and they will reign (basileusousin) with Christ for the thousand years. The ordinal prote, first, implies a sequence with a later resurrection, and the future basileusousin places the reign after the qualifying event. The pairing first resurrection with second death (deuteros recurs in Rev 20:14, 21:8) is a deliberate symmetry within Revelation's own vocabulary, but the text correlates a first resurrection with the millennial reign without stating whether either is present or future, leaving the framing disputed.",
+        "supports": "neutral",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.12.29",
+        "key_terms": [
+          {
+            "strong": "G1210",
+            "lemma": "δέω"
+          },
+          {
+            "strong": "G2478",
+            "lemma": "ἰσχυρός"
+          },
+          {
+            "strong": "G0726",
+            "lemma": "ἁρπάζω"
+          }
+        ],
+        "force": "No one can plunder the strong man's house unless he first binds (dese, aorist subjunctive of deo) the strong man. The shared verb deo is the lexical bridge one reading uses to locate the binding of Satan at Christ's first advent, equating present-age restraint with the binding of Revelation 20. The parallel is real and verbal, but deo is overwhelmingly a literal-binding verb in the NT, and the Matt 12:29 metaphor is unmarked by any temporal index that would extend it to a thousand-year duration. The link is suggestive, not decisive.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.15",
+        "key_terms": [
+          {
+            "strong": "G0554",
+            "lemma": "ἀπεκδύομαι"
+          },
+          {
+            "strong": "G1165",
+            "lemma": "δειγματίζω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "Having disarmed (apekdysamenos, hapax-near-hapax with 3 NT occurrences for the verb) the rulers and authorities, he made a public spectacle of them (edeigmatisen, 2 NT occurrences), triumphing over them in the cross. This describes a decisive subjugation of hostile powers accomplished at the cross. One reading treats this present triumph as the substance of Satan's binding, supporting a present millennial restraint, but the vocabulary here does not overlap with deo of Revelation 20 and so functions as a thematic, not a lexical, link.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.28",
+        "key_terms": [
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G3419",
+            "lemma": "μνημεῖον"
+          }
+        ],
+        "force": "An hour is coming in which all who are in the tombs (mnemeiois) will hear his voice. The single hour and the tombs locate this as a future bodily event embracing all the dead together. This is the principal complicating context for the proposition, since one reading argues a single general resurrection leaves no room for two resurrections separated by a thousand years.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.29",
+        "key_terms": [
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασις"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          }
+        ],
+        "force": "Those who did good come out to a resurrection of life (anastasin zoes) and those who did evil to a resurrection of judgment. Both groups are raised in connection with the same hour, which one reading uses to argue against two temporally separated resurrections and so against any literal intervening millennium. A staged reading of the one hour keeps a future earthly reign possible, since hora in John can span an extended period (the same word is used in John 4:23 of a present-and-coming hour), so the verse weighs against a strictly two-stage scheme without settling the present-versus-future question.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.8",
+        "key_terms": [
+          {
+            "strong": "G5507",
+            "lemma": "χίλιοι"
+          },
+          {
+            "strong": "G2094",
+            "lemma": "ἔτος"
+          }
+        ],
+        "force": "With the Lord one day is as a thousand years (chilia ete) and a thousand years as one day. This is the only other NT verse joining chilioi with etos, and it explicitly disclaims a fixed human calendar for divine durations. The verse is sometimes cited to license a non-literal reading of the Revelation 20 number, but it is a comparative simile about divine patience, not a key to apocalyptic chronology, and it neither requires nor forbids a literal millennium.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rev.20.2",
+        "to": "Gen.3.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.15",
+        "to": "Gen.3.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.12.29",
+        "to": "Isa.49.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.3",
+        "to": "Ps.90.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.4",
+        "to": "Dan.7.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.4",
+        "to": "Rev.6.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.6",
+        "to": "Rev.1.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.5.29",
+        "to": "Dan.12.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.5.28",
+        "to": "John.6.39",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.5.28",
+        "addressed": true,
+        "resolution": "The single coming hour in which all in the tombs hear the voice is the strongest text against two resurrections separated by a thousand years. It is addressed by noting that hora, hour, in John can span an extended period (compare John 4:23, John 16:32), so a staged fulfillment is grammatically available and the verse does not by itself refute a future millennium, though it does pressure any strictly two-stage scheme. The tension is acknowledged, not eliminated."
+      },
+      {
+        "ref": "John.5.29",
+        "addressed": true,
+        "resolution": "The two outcomes good and evil are tied to one resurrection hour, which weighs against separating the resurrection of the just from that of the unjust by a thousand years. The reading that keeps a future earthly reign treats the contrast as kind of resurrection (life versus judgment) rather than time of resurrection. Both construals survive the lexicon, so the verse complicates without deciding."
+      },
+      {
+        "ref": "Rev.20.5",
+        "addressed": true,
+        "resolution": "The phrase the rest of the dead did not come to life until the thousand years were completed uses the same verb ezesan as the reigning saints, which argues that both events are bodily resurrections and that the first resurrection is therefore future and literal. The present-symbolic reading must take ezesan in a different sense for the two groups, which is possible (zao itself is polysemous in Rev: 1:18, 2:8, 4:9-10, 13:14) but lexically strained, so this internal repetition is the central unresolved pressure on the proposition."
+      },
+      {
+        "ref": "Ps.90.4",
+        "addressed": false,
+        "resolution": "The cross-reference associating a thousand years with a day in God's sight is sometimes used to justify a non-literal reading of the number in Rev 20. It is not resolved lexically here because the bundle and direct query supply no Hebrew lemma data for this verse, and the link to Revelation 20 is thematic rather than a shared lexeme; 2 Pet 3:8 explicitly cites the Psalm 90 formula but as a comparative simile about divine patience, not as a hermeneutical key to apocalyptic durations. A strictly lexical adjudication of literal versus symbolic duration cannot be completed from the available data."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Revelation is outside the open-cbgm 3 John sample, so CBGM data was not consulted and ECM status is treated as shadow. The supplied bundle reports an empty variant_units list and not_in_ecm_scope true. The known apparatus variants in Rev 20:2-6 (orthographic and minor word-order readings flagged by the brackets in the surface text) do not change the presence of chilia ete, ezesan, or anastasis prote, so the disputed verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "amillennialism",
+      "premillennialism",
+      "postmillennialism",
+      "dispensationalism",
+      "covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "amillennialism",
+        "verdict": "affirms",
+        "rationale": "Reads chilia ete as a symbolic round figure for the whole inter-advent age, taking cues from Revelation's own pattern of symbolic cardinal numbers (the 144000 in Rev 7 and 14, the 12000 stadia of the city in 21:16, the 7000 in 11:13). Takes the binding of Satan as begun at the first advent on the strength of the shared deo with Matt 12:29 and the present triumph of Col 2:15, and construes ezesan in Rev 20:4 as the souls of the departed living and reigning with Christ in the intermediate state rather than a bodily resurrection. Treats the single resurrection hour of John 5:28-29 as decisive against two bodily resurrections separated by a long span. On this lens the proposition is affirmed, though the reading must take ezesan in a different sense between verses 4 and 5."
+      },
+      {
+        "framework": "premillennialism",
+        "verdict": "denies",
+        "rationale": "Reads ezesan identically in Rev 20:4 and 20:5 as bodily coming to life, so the first resurrection is future and literal and the thousand-year reign follows Christ's return rather than spanning the present age. Reads anastasis with its 41 other canon occurrences as bodily resurrection. Treats the chronological flow from Rev 19 (the returning rider) to Rev 20 (the binding and reign) as sequential narrative, and the pairing of anastasis prote with deuteros thanatos as a real first-and-second ordering. On this lens the proposition is denied. The reading must absorb the single-hour language of John 5:28-29 as a kind-not-time contrast or as a staged fulfillment."
+      },
+      {
+        "framework": "postmillennialism",
+        "verdict": "partially_affirms",
+        "rationale": "Agrees the thousand years are within history before the bodily return but identifies them with a future golden era of gospel triumph rather than the entire present age between the advents. Reads basileuo and the Rev 5:10 anticipation as forecasting an actual earthly reign of the saints' influence prior to the parousia. On this lens the proposition's claim that the period is the present church age is only partly affirmed, since the timing of the period relative to now is read differently from the amillennial construal."
+      }
+    ],
+    "notes": "The verdict turns on the redemptive-historical placement of the millennium within the covenantal arc and on whether ezesan is univocal across Rev 20:4-5, neither of which the morphology or concordance settles. Analogia scripturae is engaged through John 5:28-29, Matt 12:29, and 2 Pet 3:8 but yields contested results. Each lens above is stated in its strongest lexical form so that a reader holding any one of them is fairly represented."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Revelation 20 describes a thousand-year period; the question is whether that period is a literal future epoch, a symbolic span equal to the present age between Christ's advents, or a future era within history before the bodily return.",
+    "notes": "The proposition embeds the amillennial conclusion in its own statement by asserting in advance that the thousand years is a symbolic representation of the present church age. That phrasing presupposes both the symbolic reading of the number and the present-age referent, which are the very points in dispute. The verdict was derived on the original stem, and the neutralized form is recorded only to expose the preloading. Verdict unchanged from the prior file; deeper canon-distribution queries (chilioi only outside Rev in 2 Pet 3:8, chilias 23x in Revelation's symbolic-number ecosystem, anastasis 41 of 42 occurrences bodily, zao polysemous in Rev itself) sharpen but do not resolve the dispute."
+  },
+  "lay_summary": "Revelation 20 says Satan is bound, then certain people come to life and reign with Christ for a thousand years, called the first resurrection, after which the rest of the dead come to life. The Greek words carry the weight of this question, and they do not settle it. The cardinal number translated thousand, chilioi, appears in the New Testament only here in this passage and once in 2 Peter where one day is as a thousand years (a comparative simile about divine patience). The related number-word chilias appears 23 times in this same book for figures that most readers take symbolically (the 144000, the 12000 per tribe, the 12000-stadion city), so nothing in the form of the word tells us whether the thousand years is meant to be counted literally or read as a symbolic round figure. The decisive verb is the one translated they came to life, from the root zao, which this very book uses for several different things: Christ's ongoing life, a city revived from a death-stroke, the four living creatures, and the contested verses. If that verb means the same thing in verse 4 as in verse 5, the most natural reading is a bodily resurrection of the saints, which would make the thousand years a future literal period. If the verb shifts sense between the two verses, a non-bodily reading of the reigning souls becomes available and the present-age view stays open. The word for resurrection, anastasis, appears 42 times in the New Testament and every other instance plainly means bodily resurrection, which pulls toward a literal reading; yet only here is it called the first. The word for bound, deo, is overwhelmingly literal binding in the New Testament; the strong-man parallel of Matthew 12:29 supplies a verbal link some use to place the binding at Christ's first coming, but that link is one metaphor among many literal uses. John chapter 5 speaks of a single hour in which all in the tombs are raised, which presses against two resurrections separated by a long span, yet hour in John can stretch (compare John 4:23), keeping a future reign possible. Because several careful readings of the actual words survive, the lexical data does not establish that the thousand years is a symbol for the present church age. The position is genuinely contested at the level of the text itself, so the lexical finding is disputed rather than confirmed or denied.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.5"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2198"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5507"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5505"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0386"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1210"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4105"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rev.20.4"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rev.20.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.12.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.5.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Pet.3.8"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "Rev.20.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two cited sources are not redistributable in bulk: MACULA-Greek syntax under CC-BY-NC-4.0 (non-commercial) and BibleHub-interlinear under fair-use-policy. Their presence sets the aggregate publish-safety to false."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

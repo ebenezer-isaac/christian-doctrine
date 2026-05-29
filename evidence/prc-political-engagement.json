@@ -1,0 +1,624 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-political-engagement",
+  "question_id": "prc-political-engagement",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern firmly supports an active, ordered, prayerful, debt-paying relation to the civil order. Jer 29:7 commands darash (H1875) and palal (H6419) for the shalom (H7965) of ha-ir (H5892); 1 Tim 2:1-2 commands deesis (G1162) hyper (G5228) basileon (G0935) toward a quiet eusebes life; Rom 13:1-7 commands hypotassesthai (G5293) to exousiai (G1849) because the archon is theou diakonos (G1249) and apodote (G0591) phoros (G5411), telos (G5056), phobos (G5401), time (G5092) is owed. What the vocabulary does NOT settle is the SCOPE of engagement. G1849 exousia is broadly polysemic across 93 verses (Eph 6.12 cosmic, 1 Cor 7-9 personal right, Matt 28.18 Christ's authority, Rev 13 beastly power), so its civil-state sense in Rom 13 sits within a wider semantic field that other texts use differently. G1249 diakonos in Rom 13.4 names the ruler, but across its 28 verses it elsewhere names church servants and Christ himself. G4175 politeuma in Phil 3.20 is a hapax: a single occurrence cannot triangulate whether heavenly citizenship abolishes, relativizes, or merely orders earthly engagement. G3980 peitharcheo appears in Titus 3.1 (obey rulers) and Acts 5.29 (obey God rather than men), the same verb at both ends of the limit. The canon thus supplies a strongly attested submission-and-payment pattern AND a heavenly-citizenship pattern without lexically ranking them, and it never names voting, advocacy, or public office. Hence disputed in degree."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H7965",
+        "lemma": "שָׁלוֹם",
+        "transliteration": "shalom",
+        "occurrences_in_canon": 237,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1875",
+        "lemma": "דָּרַשׁ",
+        "transliteration": "darash",
+        "occurrences_in_canon": 165,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6419",
+        "lemma": "פָּלַל",
+        "transliteration": "palal",
+        "occurrences_in_canon": 84,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5892",
+        "lemma": "עִיר",
+        "transliteration": "ir",
+        "occurrences_in_canon": 1093,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 93,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5411",
+        "lemma": "φόρος",
+        "transliteration": "phoros",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5056",
+        "lemma": "τέλος",
+        "transliteration": "telos",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5092",
+        "lemma": "τιμή",
+        "transliteration": "time",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1162",
+        "lemma": "δέησις",
+        "transliteration": "deesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0935",
+        "lemma": "βασιλεύς",
+        "transliteration": "basileus",
+        "occurrences_in_canon": 104,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0018",
+        "lemma": "ἀγαθός",
+        "transliteration": "agathos",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5228",
+        "lemma": "ὑπέρ",
+        "transliteration": "hyper",
+        "occurrences_in_canon": 142,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5401",
+        "lemma": "φόβος",
+        "transliteration": "phobos",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0591",
+        "lemma": "ἀποδίδωμι",
+        "transliteration": "apodidomi",
+        "occurrences_in_canon": 47,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4175",
+        "lemma": "πολίτευμα",
+        "transliteration": "politeuma",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3980",
+        "lemma": "πειθαρχέω",
+        "transliteration": "peitharcheo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2150",
+        "lemma": "εὐσέβεια",
+        "transliteration": "eusebeia",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H7965",
+      "H1875",
+      "H6419",
+      "H5892",
+      "G5293",
+      "G1849",
+      "G1249",
+      "G5411",
+      "G5056",
+      "G5092",
+      "G1162",
+      "G0935",
+      "G0018",
+      "G5228",
+      "G5401",
+      "G0591",
+      "G4175",
+      "G3980",
+      "G2150"
+    ],
+    "scripture": [
+      {
+        "ref": "Jer.29.7",
+        "key_terms": [
+          {
+            "strong": "H7965",
+            "lemma": "שָׁלוֹם"
+          },
+          {
+            "strong": "H1875",
+            "lemma": "דָּרַשׁ"
+          },
+          {
+            "strong": "H6419",
+            "lemma": "פָּלַל"
+          },
+          {
+            "strong": "H5892",
+            "lemma": "עִיר"
+          }
+        ],
+        "force": "Two imperatives, darash (seek) and palal (pray, hithpael, intercessory stem), take the shalom of ha-ir (the city) as object. The ki-clause ties the exiles' welfare to that city's welfare (ki bishlomah yihyeh lakem shalom). The text directs covenant people to the common good of a pagan polity they did not choose. The means specified are seeking and intercession, not the broader modern repertoire.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.1",
+        "key_terms": [
+          {
+            "strong": "G1162",
+            "lemma": "δέησις"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          }
+        ],
+        "force": "Four nouns of petition, deeseis, proseuchas, enteuxeis, eucharistias, are commanded poieisthai hyper panton anthropon (to be made for all people). The breadth panton and the preposition hyper position the believer toward all, including outsiders, as one who intercedes rather than withdraws.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.2",
+        "key_terms": [
+          {
+            "strong": "G0935",
+            "lemma": "βασιλεύς"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G2150",
+            "lemma": "εὐσέβεια"
+          }
+        ],
+        "force": "Intercession is specified hyper basileon kai panton ton en hyperoche onton, with hina-purpose that believers diagomen (lead) a quiet life en pasei eusebeiai kai semnoteti. The aim is a peaceable civic order conducive to godly living, not seizure of office and not withdrawal. The text commands a posture toward rulers but does not stipulate whether believers themselves hold office.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.1",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "Pasa psyche is to be subject (hypotassestho, present middle/passive imperative) to the prevailing exousiai. The grounds: ou gar estin exousia ei me hypo theou, ai de ousai hypo theou tetagmenai eisin. Hypotasso establishes ordered placement-under, not partisan identification, as the baseline relation. Exousia here is the civil-political sense, one node of a polysemic lemma whose other 93 attestations span cosmic powers (Eph 6.12), personal right (1 Cor 9), Christ's authority (Matt 28.18), and beastly power (Rev 13).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.4",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          }
+        ],
+        "force": "The archon is twice called theou diakonos: soi eis to agathon, and ekdikos eis orgen for the evildoer, bearing the machaira not eikei. The lexical assignment of a divinely commissioned, good-promoting function to civil office grants the office positive standing, which underwrites legitimate cooperation with that function. The same lemma diakonos elsewhere names church servants (1 Tim 3.8, Phil 1.1) and Christ himself (Rom 15.8), so its application here does not collapse the civil and ecclesial spheres.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.7",
+        "key_terms": [
+          {
+            "strong": "G0591",
+            "lemma": "ἀποδίδωμι"
+          },
+          {
+            "strong": "G5411",
+            "lemma": "φόρος"
+          },
+          {
+            "strong": "G5056",
+            "lemma": "τέλος"
+          },
+          {
+            "strong": "G5092",
+            "lemma": "τιμή"
+          },
+          {
+            "strong": "G5401",
+            "lemma": "φόβος"
+          }
+        ],
+        "force": "Apodote (aorist active imperative) governs four debts: phoros (direct tribute), telos (indirect tax/custom), phobos (fear), time (honor), each pasin tas opheilas. The vocabulary of owed dues frames civic obligations as debts to be discharged, active rather than passive, yet still in the register of obligation rather than elective public participation. Apodidomi here connects directly to the synoptic Caesar logion (Matt 22.21, Mark 12.17, Luke 20.25), where the same verb commands to render to Caesar what is Caesar's.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.22.21",
+        "key_terms": [
+          {
+            "strong": "G0591",
+            "lemma": "ἀποδίδωμι"
+          }
+        ],
+        "force": "Apodote ta Kaisaros Kaisari kai ta tou theou to theo (render Caesar's things to Caesar and God's things to God). The same imperative apodidomi as Rom 13.7. The dominical saying lexically distinguishes spheres without ranking the degree of involvement in either; it sets a dual obligation and a boundary, leaving the scope of either rendering underdetermined.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.1",
+        "key_terms": [
+          {
+            "strong": "G3980",
+            "lemma": "πειθαρχέω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "Believers are to hypotassesthai archais exousiais and peitharchein, to be ready pros pan ergon agathon. Peitharcheo (obey) here is the same lemma as Acts 5.29 peitharchein dei theo mallon e anthropois. The single vocabulary item bookends both obedience to rulers and obedience to God over rulers; the lexical limit is internal to the same word.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.13.1",
+        "to": "1Sam.2.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "Deut.17.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.29.7",
+        "to": "Dan.4.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.29.7",
+        "to": "Ezra.6.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.2",
+        "to": "Ezra.6.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.7",
+        "to": "Exod.20.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.7",
+        "to": "Matt.22.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.4",
+        "to": "Prov.16.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.4",
+        "to": "Rom.12.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "Titus.3.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "1Pet.2.13",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.18.36",
+        "addressed": true,
+        "resolution": "He basileia he eme ouk estin ek tou kosmou toutou. Lexically the clause asserts the ORIGIN and CHARACTER of Christ's basileia (ek with genitive, source), not a prohibition on the citizen acts of his followers. It stands alongside Rom 13 and Jer 29.7 rather than canceling them. It does constrain the church's corporate mission from partisan identity, which supports the second clause of the proposition, but it does not settle the permitted scope of individual engagement."
+      },
+      {
+        "ref": "Phil.3.20",
+        "addressed": true,
+        "resolution": "Hemon gar to politeuma en ouranois hyparchei (our politeuma is in the heavens). G4175 politeuma is a HAPAX in the New Testament. A single attestation cannot triangulate whether the noun denotes commonwealth, citizenship-status, or seat-of-government, and ancient usage covers all three. The hapax explains why readers diverge: the same word lexically supports both an abolish-earthly-belonging reading and an order-but-do-not-abolish reading, and the canon does not disambiguate it."
+      },
+      {
+        "ref": "Acts.25.11",
+        "addressed": true,
+        "resolution": "Kaisara epikaloumai (I appeal to Caesar). The middle-voice epikaleo shows a believer actively invoking the legal and civic machinery of the state for his protection and the advance of his testimony. This narrative datum weighs toward legitimacy of engagement using civic institutions, but as a single apostolic instance under compulsion it does not by itself establish the broad modern modes named in the proposition, so it informs rather than resolves the dispute."
+      },
+      {
+        "ref": "Acts.5.29",
+        "addressed": true,
+        "resolution": "Peitharchein dei theo mallon e anthropois (we must obey God rather than men). Peitharcheo (G3980) here is the same verb commanded in Titus 3.1 toward rulers. The single lemma carries both the command to obey civil powers and the limit when obedience to God conflicts; the boundary is internal to the vocabulary itself, not external. This qualifies the scope of submission and shape of engagement, contributing to the verdict of disputed-in-degree."
+      },
+      {
+        "ref": "Matt.22.21",
+        "addressed": true,
+        "resolution": "Apodote ta Kaisaros Kaisari kai ta tou theou to theo. The dual apodidomi with hina-less coordination (kai) sets two non-collapsible spheres but does not lexically rank the magnitude of either rendering. It supports legitimate civic obligation and a divinely held boundary, but it leaves the scope of permitted engagement underdetermined, which is the lexical heart of the dispute."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Rom.13.1",
+        "variant_id": "rom13.1-hypo-ousai",
+        "verdict_impact": "none",
+        "note": "Witnesses vary on the order and form of hypo theou tetagmenai eisin and the participle ousai. No reading removes the divine ordering or the imperative hypotassestho; the verdict is robust across attested forms."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Anchor verses lie outside the published 3 John ECM window. Rom 13.1 carries minor Greek witness variation in the placement and form of hypo and the participle ousai, but no variant alters the subjection imperative or the divine ordering. Jer 29.7 is Hebrew and outside ECM scope. 1 Tim 2.1-2 shows no doctrinally weighty variation for this question."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "two_kingdoms",
+      "transformationalist",
+      "separatist_pilgrim",
+      "augustinian_two_cities"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "two_kingdoms",
+        "verdict": "affirms",
+        "rationale": "Reads Rom 13 and 1 Tim 2 as locating civil rule in a distinct God-ordained sphere where believers may participate as citizens under its ordinary instruments, while the gathered church's commission remains gospel-focused, matching both clauses of the proposition closely. Grounds: diakonos applied to ruler (Rom 13.4) signals a sphere with its own divine commission distinct from ecclesial diakonia."
+      },
+      {
+        "framework": "transformationalist",
+        "verdict": "affirms",
+        "rationale": "Treats Jer 29.7 darash-the-shalom and the ruler-as-diakonos-for-good language as a positive mandate to pursue civic good actively across all available means including advocacy and public service, reading the texts as warranting more than they explicitly name on the strength of the seek-the-good pattern."
+      },
+      {
+        "framework": "separatist_pilgrim",
+        "verdict": "disputed",
+        "rationale": "Emphasizes John 18.36 (ouk ek tou kosmou toutou) and Phil 3.20 (politeuma in heaven) to limit believers to subjection, intercession, and tax-paying rather than elective participation such as voting or office. Reads the proposition's scope as going beyond what the lemmas command; treats civic engagement as permitted but not authorized as a positive Christian practice."
+      },
+      {
+        "framework": "augustinian_two_cities",
+        "verdict": "affirms",
+        "rationale": "Holds both cities together: the believer renders Caesar's things to Caesar (Matt 22.21, Rom 13.7 apodote) while citizenship resides in the heavenly city (Phil 3.20). Participation is legitimate but always penultimate; the church as church does not bind partisan allegiance, while individual believers may act within civic institutions."
+      }
+    ],
+    "notes": "The texts uniformly establish ordered subjection, intercession, the payment of tribute, tax, fear, and honor, and concern for the surrounding city. They do not lexically fix the modern repertoire of engagement, do not name voting or public office, and do not draw a sharp boundary between individual participation and the church's corporate mission. Polysemy of exousia and diakonos and the hapax status of politeuma are the precise lexical sites where defensible frameworks diverge."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine what Scripture's vocabulary says about the believer's relation to civil authority and the public order, including whether participation in civic life is permitted, required, or limited, and whether the gathered church's corporate mission is distinguished from partisan political alignment.",
+    "notes": "The stem bundles two claims: a permission for individual political engagement framed as neighbor-love, and a restriction on the church's corporate mission. The neighbor-love framing and the gospel-not-partisan clause are interpretive overlays the anchor texts permit but do not directly state. The verdict is derived on the original wording while flagging that the precise degree of engagement is the contested element."
+  },
+  "lay_summary": "The vocabulary across these passages moves in one consistent direction. In Jeremiah 29:7 the exiles are commanded to seek (darash) and pray (palal, in its intercessory stem) for the shalom of the very city that holds them captive, tying their own welfare to its welfare. In 1 Timothy 2:1-2 four words for petition are commanded for kings and all in high office so believers may lead a quiet and godly life. In Romans 13:1-7 every person is to be subject (hypotasso) to the governing authorities (exousiai) because the ruler is twice called God's servant (diakonos) for the good, and the closing imperative is the same verb (apodidomi, render) used in Jesus' Caesar saying: pay back what is owed, tribute (phoros), custom (telos), fear (phobos), honor (time). Together the words establish an active, ordered, prayerful, debt-paying relation to the civil order rather than withdrawal. What the words do not settle is the SCOPE of that engagement, and the lexical reasons for that are specific. The word exousia is broadly polysemic across more than ninety verses, naming cosmic powers, personal rights, the authority of Christ, and beastly power, not only civil rule, so its Romans-13 sense does not lexically constrain the rest. The word diakonos applied to a ruler is the same word applied to church servants and to Christ, so it does not collapse civic and ecclesial spheres. The noun politeuma in Philippians 3:20, the key term for citizenship in heaven, occurs only once in the New Testament, which means a single attestation cannot triangulate whether it abolishes, relativizes, or merely orders earthly belonging. The verb peitharcheo (obey) is commanded in Titus 3:1 toward rulers and in Acts 5:29 toward God over rulers, the same word at both ends of the limit. The canon thus supplies a strong civic-obligation pattern and a heavenly-citizenship pattern without ranking them, and it never names voting, advocacy, or public office. The legitimacy of engagement is well grounded; the permitted degree and the precise gospel-not-partisan boundary are not fixed by the words alone, so the lexical pattern is best read as genuinely contested in scope while affirming the underlying obligations.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7965"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1849"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4175"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jer.29.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.7"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.13.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jer.29.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.13.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.13.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Tim.2.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek and MACULA-Hebrew were used for syntax and interlinear evidence on Rom 13.7 and Jer 29.7 and resolve to CC-BY-NC-4.0, which forbids commercial redistribution. Their presence makes the aggregate not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

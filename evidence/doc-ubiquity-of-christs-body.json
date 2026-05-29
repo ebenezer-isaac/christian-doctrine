@@ -1,0 +1,479 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-ubiquity-of-christs-body",
+  "question_id": "doc-ubiquity-of-christs-body",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across the canon the vocabulary that describes the risen and ascended body is uniformly spatial and locative. In Acts 1:9-11 a cloud lifts Jesus up (ἐπήρθη, G1869) and removes him from the disciples' eyes (ἀπὸ τῶν ὀφθαλμῶν, G0575), this same one (οὗτος, G3778) is taken up (ἀναλημφθεὶς, G0353) into heaven (εἰς τὸν οὐρανόν, G3772, singular destination), and will come (ἐλεύσεται, G2064) in the same manner. A dense pan-canonical chain then locates the body at one place: he sat down (ἐκάθισεν, G2523) at the right hand (ἐν δεξιᾷ, G1188, 54 occurrences clustered at Acts 2:33, 7:55-56, Rom 8:34, Eph 1:20, Col 3:1, Heb 1:3, 10:12, 1 Pet 3:22), where Stephen sees him standing (ἑστῶτα, G2476). Luke 24:39 offers a touchable body of flesh and bones (σάρκα καὶ ὀστέα, G4561, G3747), and 1 Cor 11:26 bounds the supper until he comes (ἄχρι οὗ ἔλθῃ, G0891). These words describe a circumscribed, locatable body and never predicate omnipresence of it. The proposition, however, is not a claim the lexemes make: it is an inference about how the divine nature shares properties with the human nature, sitting one level above what the morphology of these verses settles, so the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0353",
+        "lemma": "ἀναλαμβάνω",
+        "transliteration": "analambano",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1869",
+        "lemma": "ἐπαίρω",
+        "transliteration": "epairo",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1188",
+        "lemma": "δεξιός",
+        "transliteration": "dexios",
+        "occurrences_in_canon": 54,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2523",
+        "lemma": "καθίζω",
+        "transliteration": "kathizo",
+        "occurrences_in_canon": 45,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2476",
+        "lemma": "ἵστημι",
+        "transliteration": "histemi",
+        "occurrences_in_canon": 153,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3747",
+        "lemma": "ὀστέον",
+        "transliteration": "osteon",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3772",
+        "lemma": "οὐρανός",
+        "transliteration": "ouranos",
+        "occurrences_in_canon": 280,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0575",
+        "lemma": "ἀπό",
+        "transliteration": "apo",
+        "occurrences_in_canon": 675,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0891",
+        "lemma": "ἄχρι",
+        "transliteration": "achri",
+        "occurrences_in_canon": 50,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2064",
+        "lemma": "ἔρχομαι",
+        "transliteration": "erchomai",
+        "occurrences_in_canon": 640,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3778",
+        "lemma": "οὗτος",
+        "transliteration": "houtos",
+        "occurrences_in_canon": 1419,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1519",
+        "lemma": "εἰς",
+        "transliteration": "eis",
+        "occurrences_in_canon": 1793,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4137",
+        "lemma": "πληρόω",
+        "transliteration": "pleroo",
+        "occurrences_in_canon": 87,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0353",
+      "G1869",
+      "G1188",
+      "G2523",
+      "G2521",
+      "G2476",
+      "G4561",
+      "G3747",
+      "G3772",
+      "G0575",
+      "G0891",
+      "G2064",
+      "G3778",
+      "G1519",
+      "G4137",
+      "G4983",
+      "G1209",
+      "G5602"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.1.9",
+        "key_terms": [
+          {
+            "strong": "G1869",
+            "lemma": "ἐπαίρω"
+          },
+          {
+            "strong": "G0575",
+            "lemma": "ἀπό"
+          }
+        ],
+        "force": "A cloud lifts Jesus up (ἐπήρθη, G1869) and takes him away from their eyes (ὑπέλαβεν αὐτὸν ἀπὸ τῶν ὀφθαλμῶν αὐτῶν). The verb of being lifted plus ἀπό with the genitive of the disciples' eyes marks a single body departing from one location, the language of removal from a place, not of a body becoming present everywhere. The same verb ἐπαίρω is used a few verses earlier at Luke 24:50 for lifting the hands, a concrete physical motion.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.11",
+        "key_terms": [
+          {
+            "strong": "G0353",
+            "lemma": "ἀναλαμβάνω"
+          },
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανός"
+          },
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          }
+        ],
+        "force": "This same Jesus (οὗτος ὁ Ἰησοῦς), having been taken up (ἀναλημφθεὶς, G0353) from you into heaven (εἰς τὸν οὐρανόν), will so come (οὕτως ἐλεύσεται, G2064) in the manner you saw him going. The demonstrative οὗτος fixes one personal identity, εἰς τὸν οὐρανόν names one destination, and the future middle ἐλεύσεται with the comparative οὕτως describes a bodily return from that place. The verb ἀναλαμβάνω carries a stable directional sense across its 13 occurrences (Acts 1:2, 1:22, Mark 16:19, 1 Tim 3:16), all of taking up or away.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.7.55",
+        "key_terms": [
+          {
+            "strong": "G1188",
+            "lemma": "δεξιός"
+          },
+          {
+            "strong": "G2476",
+            "lemma": "ἵστημι"
+          }
+        ],
+        "force": "Stephen gazes into heaven and sees Jesus standing (ἑστῶτα, G2476) at the right hand of God (ἐκ δεξιῶν τοῦ θεοῦ, G1188). A located posture (standing) at a named position (the right hand) is the plain force. The right-hand idiom recurs across the canon for the exalted Christ (Acts 2:33, Rom 8:34, Eph 1:20, Col 3:1, Heb 1:3, 1 Pet 3:22), a pan-canonical pattern placing the body at one position rather than diffused through all space.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.24.39",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G3747",
+            "lemma": "ὀστέον"
+          }
+        ],
+        "force": "See my hands and feet, that it is I myself; handle me and see, for a spirit does not have flesh and bones (σάρκα καὶ ὀστέα, G4561, G3747) as you see me having. The risen body is offered as touchable, occupying definite space, and is explicitly contrasted with a bodiless spirit (πνεῦμα), a description of a bounded physical body. ὀστέον is rare (5 occurrences) and here grounds the concrete corporeality of the resurrection body.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.63",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "The Spirit is the life-giver, the flesh profits nothing (ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν); the words I have spoken are spirit and are life. The contrast set between σάρξ and πνεῦμα warns against a crassly fleshly hearing and concerns the mode of receiving Christ's words, not the spatial extension of the glorified body. It neither asserts nor denies that the body is everywhere, so it is neutral on the proposition.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.24",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "This is my body which is for you (τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν, G3778, G4983, G1510); do this in remembrance of me. The copula ἐστιν links the demonstrative τοῦτο to σῶμα, and the referent of τοῦτο (the bread held, or the body it signifies) is grammatically open. The remembrance command (εἰς τὴν ἐμὴν ἀνάμνησιν) frames the act commemoratively, but the clause specifies neither the mode nor the location of the body, so it neither establishes nor refutes ubiquity. This ambiguous copula is the syntactic crux the whole dispute hangs on.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G0891",
+            "lemma": "ἄχρι"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          }
+        ],
+        "force": "As often as you eat this bread and drink the cup you proclaim the Lord's death until he comes (ἄχρι οὗ ἔλθῃ, G0891, G2064). The temporal ἄχρι with the aorist subjunctive ἔλθῃ bounds the rite by a future coming, implying the Lord is not yet bodily present in the way he will be at that coming. The same ἄχρι frames 1 Cor 15:25, he must reign until (ἄχρι) he has put all enemies under his feet, a bounded interval, reinforcing the absence-then-coming structure.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.1.11",
+        "to": "Dan.7.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.1.9",
+        "to": "Acts.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.1.9",
+        "to": "Exod.19.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.24.39",
+        "to": "Luke.23.46",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Eph.4.10",
+        "addressed": true,
+        "resolution": "The clause that he ascended far above all the heavens that he might fill all things (ἵνα πληρώσῃ τὰ πάντα, πληρόω G4137) is the strongest lexical support cited for the proposition. Queried in context, the grammatical subject is the one who descended and ascended (ὁ καταβὰς, ὁ ἀναβάς), a personal subject, and the purpose clause ἵνα πληρώσῃ predicates filling of that person, not spatial extension of the σῶμα. The same verb πληρόω is used non-spatially across the canon (Eph 1:23, 3:19, Col 1:9, Rom 15:13), so filling here need not mean bodily presence everywhere. The text supports a claim about the ascended person filling all things but does not lexically force that the human body is omnipresent, which is why it is contested rather than decisive."
+      },
+      {
+        "ref": "Acts.3.21",
+        "addressed": true,
+        "resolution": "Peter states that heaven must receive him (ὃν δεῖ οὐρανὸν μὲν δέξασθαι, δέχομαι G1209) until the times of restoration (ἄχρι, G0891). The verb δέξασθαι (receive, contain) with the impersonal δεῖ (it is necessary) places the ascended body in heaven for a defined interval, reinforcing a localized rather than ubiquitous bodily presence and weighing against the proposition."
+      },
+      {
+        "ref": "John.6.63",
+        "addressed": true,
+        "resolution": "The flesh-profits-nothing saying is sometimes read as detaching the body's life-giving power from its physical location, which could open room for a non-localized presence. The clause is a contrast between fleshly and spiritual reception of Christ's words, not a statement about the spatial extension of the glorified body, so it does not by itself supply lexical support for bodily omnipresence."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle (variant_units empty) and not_in_ecm_scope is true: every anchor (Acts 1, Luke 24, John 6, 1 Cor 11) lies outside the ingested ECM window (3 John 1.1 to 1.15), so the apparatus is structurally absent rather than silently empty. The known textual variation at 1 Cor 11:24 (whether κλώμενον, broken, stands in the body clause) does not bear on localization versus ubiquity, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "communicatio_idiomatum",
+      "two_natures_christology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "communicated_majesty_to_the_human_nature",
+        "verdict": "disputed",
+        "rationale": "On this reading the personal union is so close that genuinely divine properties, including omnipresence, are truly predicated of the assumed human nature, so the body can be present wherever the person is. Its strongest lexical footing is Eph 4:10 (he ascended that he might fill all things, πληρόω) read as filling by the whole Christ including the flesh, joined to the union texts where the one person acts. The reading is coherent at the level of dogmatic inference, but the surface lexicon of the cited verses speaks only of a body lifted, seated at one named position, touched, and awaited, and never says the body fills space, so the words underdetermine rather than confirm it."
+      },
+      {
+        "framework": "natures_remain_distinct_body_locatable",
+        "verdict": "false",
+        "rationale": "On this reading the two natures retain their proper attributes within the one person, so the human body stays finite and locatable while the divine person remains unbounded. It rests directly on the plain force of the queried verbs: ἀναλημφθεὶς εἰς τὸν οὐρανόν (taken up into one heaven), the pan-canonical right-hand session (ἐν δεξιᾷ, sat down, standing), the tangible σάρξ and ὀστέα of Luke 24:39, and ἄχρι οὗ ἔλθῃ. These describe a circumscribed body, so on the words alone the proposition reads as false. Eph 4:10 is taken as the person filling all things, with πληρόω in its frequent non-spatial sense."
+      }
+    ],
+    "notes": "The proposition turns on a metaphysical claim about how the natures share properties, a level above what the morphology and lexemes of the cited verses adjudicate. The locative verbs and the dense right-hand session chain consistently localize the body, while the one filling text (Eph 4:10) is grammatically about the ascended person and uses a verb attested in a non-spatial sense. The competing inferences diverge, which is recorded as cross-tradition divergence."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Question whether Christ's glorified human body is present in more than one place at once, or whether it remains spatially circumscribed while the divine person is unbounded.",
+    "notes": "The phrase 'is ubiquitous (omnipresent) by virtue of its union with the divine nature' encodes a specific account of the communication of attributes, embedding one disputed metaphysical conclusion in the stem itself. The neutralized form poses the spatial question without assuming the mechanism. The verdict is derived on the original stem. The prior verdict (disputed, medium) is retained: the deepened query (the G1188 right-hand session chain across Acts, Romans, Ephesians, Colossians, Hebrews, 1 Peter, and the in-context reading of Eph 4:10 πληρόω) confirms rather than overturns it, so affirms is unchanged."
+  },
+  "lay_summary": "The words of these passages describe Christ's body in spatial, bounded terms. In Acts 1 a cloud lifts him up and takes him away from the disciples' eyes, and the angels say this same Jesus, taken into heaven, will come back the same way they saw him go. The Greek marks one identifiable person, one destination named as heaven, and a future bodily return, the language of a body that moves from place to place and is for now in one place. A whole chain of texts then locates that body at one position: he sat down at the right hand, where Stephen sees him standing, and the right-hand phrase recurs again and again across the writings. Luke 24 has the risen Jesus invite the disciples to touch him, since a spirit does not have flesh and bones as they see him having, so the resurrection body is tangible and occupies definite space. Paul says the supper is kept until he comes, which implies the Lord is not yet present bodily in the full way he will be at that coming. The proposition, though, is not just a claim about where the body is. It claims the body is everywhere at once because of its union with the divine nature. That is a reasoned conclusion about how the two natures share properties, and the plain vocabulary of these verses does not state it. The one verse that comes closest, that he ascended to fill all things, has the ascended person as its subject and uses a verb that elsewhere means fill in a non-spatial way, so it can be read either as the whole Christ filling all things or simply as the divine person doing so. One reading attributes the divine quality of being everywhere to the human body through the union; another keeps the body finite and located while the divine person stays unbounded. Because the surface words consistently point to a located, touchable, awaited body, while the metaphysical claim sits above the level the words themselves settle, the lexical verdict is disputed rather than a clean yes or no.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.1.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.1.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.7.55"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.24.39"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.10"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0353"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1188"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4137"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4561"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.3.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.1.11"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

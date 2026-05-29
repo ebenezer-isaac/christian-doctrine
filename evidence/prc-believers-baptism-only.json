@@ -1,0 +1,556 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-believers-baptism-only",
+  "question_id": "prc-believers-baptism-only",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.6575,
+    "confidence": "medium",
+    "variant_robust": false,
+    "pan_canonical": false,
+    "rationale": "The grammar of the clear narrative cases does place a verb of personal response before the act of baptism. In Acts 2:38 metanoesate parses as aorist active imperative second plural (V-AAM-2P, repent), then baptisthetо as aorist passive imperative third singular (V-APM-3S, let each be baptized). In Mark 16:16 pisteusas is an aorist participle (V-AAP-NSM, having believed) standing before baptistheis, and the condemnation clause names only apistesas (having disbelieved), not the unbaptized. But the proposition adds the word only, and the vocabulary does not encode that exclusivity. The household texts split: in Acts 18:8 Crispus episteusen (V-AAI-3S, believed) and the household ebaptizonto with episteuon stated, yet in Acts 16:31 pisteuson and sothese are both second singular (addressed to the jailer) while the appended oikos is silent on each member, Acts 16:34 panoikei is a hapax, and Acts 2:39 extends the promise to tekna (children) without ranking whether that warrants their baptism. The same verb koluo welcomes an adult petitioner in Acts 8:36 and the brought children in Luke 18:16, so the canon supplies two patterns the words do not adjudicate. Lexically disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2597",
+        "lemma": "καταβαίνω",
+        "transliteration": "katabaino",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2967",
+        "lemma": "κωλύω",
+        "transliteration": "koluo",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3100",
+        "lemma": "μαθητεύω",
+        "transliteration": "matheteuo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5043",
+        "lemma": "τέκνον",
+        "transliteration": "teknon",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3832",
+        "lemma": "πανοικεί",
+        "transliteration": "panoikei",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2632",
+        "lemma": "κατακρίνω",
+        "transliteration": "katakrino",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0569",
+        "lemma": "ἀπιστέω",
+        "transliteration": "apisteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0859",
+        "lemma": "ἄφεσις",
+        "transliteration": "aphesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3624",
+        "lemma": "οἶκος",
+        "transliteration": "oikos",
+        "occurrences_in_canon": 227,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0907",
+      "G4100",
+      "G3340",
+      "G2597",
+      "G4982",
+      "G2967",
+      "G3100",
+      "G5043",
+      "G3832",
+      "G2632",
+      "G0569",
+      "G0859",
+      "G3624",
+      "G3614",
+      "G1025",
+      "G3813"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.2.38",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοέω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσις"
+          }
+        ],
+        "force": "The store parse shows metanoesate as G3340 V-AAM-2P, an aorist active imperative second plural, do repent, addressed to responsible hearers, standing before baptisthetо G0907 V-APM-3S, an aorist passive imperative third singular, let each of you be baptized. The command to repent presumes moral agency in the candidate and stands first in clause order. The phrase eis aphesin ton hamartion ties baptism to forgiveness, but the sequence places personal response ahead of the act. This supports a response preceding baptism, though it says nothing explicit about excluding any class of recipient.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.16.16",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G0569",
+            "lemma": "ἀπιστέω"
+          }
+        ],
+        "force": "The parse confirms pisteusas as G4100 V-AAP-NSM, an aorist participle, having believed, standing before baptistheis G0907 V-APP-NSM, and the main verb sothesetai G4982 V-FPI-3S. An aorist participle in this position naturally reads as antecedent or coincident to the main verb, so faith stands first. The contrasting clause names only apistesas G0569 V-AAP-NSM, having disbelieved, as the ground of katakrithesetai G2632 V-FPI-3S, not the absence of baptism. This favors faith preceding baptism, but the clause belongs to the long ending of Mark whose manuscript witnesses are divided, which reduces its evidentiary weight.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.8.36",
+        "key_terms": [
+          {
+            "strong": "G2967",
+            "lemma": "κωλύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G5204",
+            "lemma": "ὕδωρ"
+          }
+        ],
+        "force": "The eunuch sees water and asks ti koluei me baptisthenai, what hinders me from being baptized, with baptisthenai parsed G0907 V-APN, an aorist passive infinitive. The question presupposes a personal, articulate desire on the part of the one to be baptized, which describes a believing adult petitioner rather than a passive recipient. The lexeme koluo G2967 frames baptism as something the candidate actively seeks and could in principle be barred from. This case fits a professing agent, but the same verb koluo recurs in Luke 18:16 of children welcomed, so the word alone does not settle who may be the subject.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.8.38",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G2597",
+            "lemma": "καταβαίνω"
+          },
+          {
+            "strong": "G5204",
+            "lemma": "ὕδωρ"
+          }
+        ],
+        "force": "Both Philip and the eunuch katebesan eis to hydor, went down into the water, with katabaino G2597 a motion verb plus eis with hydor depicting entry into the water, and then ebaptisen, he baptized him. Verse 39 completes the picture with anabaino, they came up out of the water. The eunuch acts as a questioning adult agent who first asks what hinders him. This narrative describes a professing recipient, but it neither states nor denies any rule that only such recipients are eligible, so it bears on mode and on the eunuch's own profession, not on the scope word only.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.18.8",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3624",
+            "lemma": "οἶκος"
+          }
+        ],
+        "force": "Crispus episteusen G4100 V-AAI-3S, believed, the Lord with his whole oiko G3624, and many Corinthians akouontes episteuon G4100 V-IAI-3P, hearing were believing, kai ebaptizonto G0907 V-IPI-3P, and were being baptized. Here faith is explicitly predicated of the household and the wider group, and the imperfects link believing with being baptized. This is the household case where the text does lexically tie faith to baptism, which is why it reads as support, but it stands beside the silent household formulas and so shows the canon does not use a single fixed pattern.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.31",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G3624",
+            "lemma": "οἶκος"
+          }
+        ],
+        "force": "Pisteuson parses G4100 V-AAM-2S, an aorist active imperative second singular addressed to the jailer alone, and sothese parses G4982 V-FPI-2S, future passive second singular, you will be saved. The promise then appends kai ho oikos sou G3624, and your household. The singular verbs attach to the believing head while the household noun is grammatically tied to him without a separate verb of faith for each member. Whether the household is saved and baptized on its own individual faith or included on the head's faith is not resolved by the lexeme oikos, which denotes household and is silent on the ages or personal response of those included.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.33",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Ho jailer ebaptisthe G0907 autos kai hoi autou pantes G3956, he was baptized, he and all his, in the same hour of the night. The adjective pas, all, is demographically open and the surrounding text does not lexically specify the ages of those baptized, and the following verse 34 uses panoikei G3832, a hapax meaning with the whole household. These household formulas neither state nor exclude the presence of dependents who do not personally profess, so the vocabulary does not settle the word only in the proposition either way.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.39",
+        "key_terms": [
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          }
+        ],
+        "force": "He gar epangelia is to you kai tois teknois hymon, and to your children, with teknois parsed G5043 N-DPN, dative plural neuter, children. The noun teknon occurs 99 times across the canon with a stable sense of offspring or children, so its meaning is not in doubt. What is undetermined is the inference: the promise is extended to the children, but the verse does not lexically state whether that extension warrants administering baptism to those children or only describes the reach of the gospel call. The word names the children but does not rank the practice.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.18.16",
+        "key_terms": [
+          {
+            "strong": "G2967",
+            "lemma": "κωλύω"
+          },
+          {
+            "strong": "G3813",
+            "lemma": "παιδίον"
+          }
+        ],
+        "force": "Jesus says aphete ta paidia G3813 erchesthai pros me kai me koluete auta, let the little children come to me and do not forbid them, with koluete parsed G2967 V-PAM-2P, present active imperative second plural, and Luke 18:15 calls them brephe G1025, infants. This is the same verb koluo that the eunuch uses in Acts 8:36 when asking what hinders his baptism. The shared lexeme attaches to a believing adult petitioner in one place and to brought infants in another, so the word does not by itself decide whether the young may be subjects of the ordinance.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G3100",
+            "lemma": "μαθητεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "Matheteusate parses G3100 V-AAM-2P, aorist active imperative second plural, make disciples, and baptizontes parses G0907 V-PAP-NPM, a present active participle subordinate to that imperative, baptizing them. The pronoun autous refers back to panta ta ethne, all the nations, or to those discipled. The verb matheteuo is rare, only 4 occurrences in the canon, so its precise relation to baptizing cannot be triangulated from many parallels. The grammar links baptizing to disciple-making but does not specify whether the recipients must first profess, leaving the believers-only requirement underdetermined at the word level.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.8.36",
+        "to": "Acts.10.47",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.31",
+        "to": "Acts.16.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.33",
+        "to": "Acts.16.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.38",
+        "to": "Acts.2.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.31",
+        "to": "Acts.2.38",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Ps.22.27",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.16.31",
+        "addressed": true,
+        "resolution": "The verbs pisteuson G4100 V-AAM-2S and sothese G4982 V-FPI-2S are both second singular, addressed to the jailer, and the household noun oikos is appended without a separate verb of faith per member. The vocabulary leaves open whether the household is included on its own individual faith or on the faith of the head, so the verse neither confirms nor denies the exclusivity word only."
+      },
+      {
+        "ref": "Acts.16.33",
+        "addressed": true,
+        "resolution": "Hoi autou pantes G3956 and the verse 34 hapax panoikei G3832 are demographically open. The terms do not specify ages or individual profession, so the verse can be read as a household of believing dependents or as inclusive of non-professing members. The vocabulary alone does not exclude the latter, which is why household texts cannot lexically confirm the proposition."
+      },
+      {
+        "ref": "Acts.2.39",
+        "addressed": true,
+        "resolution": "Teknois G5043 N-DPN extends the promise to your children. The noun has a stable sense across 99 occurrences, but the verse does not lexically state whether the promise to the children warrants administering baptism to them or describes the reach of the call. The inference from promise to practice is not encoded in the words, so the text neither establishes nor refutes infant inclusion."
+      },
+      {
+        "ref": "Luke.18.16",
+        "addressed": true,
+        "resolution": "The verb me koluete G2967 V-PAM-2P, do not forbid, with paidia G3813 and brephe G1025, is the identical lexeme the eunuch uses in Acts 8:36 of his own baptism. The shared word attaches to a professing adult in one context and to brought infants in another, and the lexicon does not rank which context governs baptismal subjects, so it stands unresolved at the word level as a limiting consideration."
+      },
+      {
+        "ref": "Mark.16.16",
+        "addressed": false,
+        "resolution": "Mark 16:16 belongs to the long ending of Mark 16:9 to 20, whose earliest Greek manuscript attestation is contested and absent from major early codices. The bundle supplied no variant unit data for this clause and the anchor lies outside the ingested ECM window, so the believing-then-baptized sequence here cannot be treated as a variant-robust anchor, and the matter is left unresolved at the manuscript level."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.16",
+        "variant_id": "mark-long-ending-16-9-20",
+        "verdict_impact": "material",
+        "note": "The clearest faith-precedes-baptism clause, ho pisteusas kai baptistheis, sits in the long ending of Mark whose authenticity is contested in the manuscript tradition. If the long ending is set aside, this anchor falls away and the verdict leans more heavily on Acts narrative sequence alone, where the order is shown by imperatives and participles rather than a direct rule."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Acts, Matthew, Mark, and Luke lie outside the published ECM apparatus available here and the bundle supplied no variant units, so they are treated as ecm-shadow. The Mark long-ending issue is flagged from standard manuscript reference knowledge rather than from supplied CBGM data. The bundle reported not_in_ecm_scope true for every anchor."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "credobaptist_new_covenant_theology",
+      "covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "credobaptist_new_covenant_theology",
+        "verdict": "for",
+        "rationale": "Reads the recurring sequence in which a verb of response precedes baptism as the controlling pattern: metanoesate before baptisthetо in Acts 2:38, pisteusas before baptistheis in Mark 16:16, the eunuch's own request in Acts 8:36, and explicit household faith in Acts 18:8 where Crispus episteusen and the group episteuon kai ebaptizonto. On this reading every recorded recipient whose disposition is stated is a professing agent, so the demonstrated baptismal subject is a believer."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "complicates",
+        "rationale": "Reads the household texts through covenantal continuity. Acts 16:31 promises salvation to the jailer kai ho oikos sou with the verbs singular to the head, Acts 16:33 to 34 use the open pas and the hapax panoikei, and Acts 2:39 extends the promise tois teknois hymon, to your children. On this reading oikos can include dependents incorporated on the faith of the head, baptizo never lexically requires the subject's own prior profession, and koluo welcomes the brought children in Luke 18:16, so the restriction only believers is not demanded by the vocabulary."
+      }
+    ],
+    "notes": "Both lenses operate on the same lexical data. The clear narrative cases set a response before the act, and one household text Acts 18:8 ties faith to the group explicitly, while the other household formulas Acts 16:15, 16:33 to 34 and the promise of Acts 2:39 are silent on each member. The divergence is whether the stated-faith cases govern the silent ones or whether oikos and teknon are read as covenantally inclusive. The lexemes baptizo, oikos, and teknon do not by themselves adjudicate, and the scope word only is not lexically present in any anchor."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine the New Testament lexical and grammatical data on the order of faith or repentance relative to baptism and on the demographic scope of those baptized, without presuming whether infants or other dependents are included or excluded.",
+    "notes": "The original stem asserts that baptism is for professing believers only and that faith precedes baptism in the New Testament pattern, which preloads both the sequence claim and the exclusivity claim flagged by the phase prompt. The verdict was derived on the original stem, but the neutralized form was used to keep the lexical reading from being steered. The prior verdict of disputed is retained; the gathered grammar (singular imperatives in Acts 16:31, the panoikei hapax, the shared koluo lexeme, and the explicit household faith of Acts 18:8 set beside the silent formulas) confirms rather than overturns it, so there is no VERDICT-CHANGED event."
+  },
+  "lay_summary": "In the clear narrative cases the words do put a personal response before the act. In Acts 2:38 the form for repent is a command, so it presumes a hearer who can repent, and it stands ahead of the call to be baptized. In Mark 16:16 the one who has believed and is baptized is named in that order, and the only thing said to bring condemnation is unbelief, not a missing baptism. In Acts 8:36 the Ethiopian himself asks what hinders him from being baptized, which fits an adult who already wants it. So the plain cases describe people who first respond. The picture is not uniform, though. The household texts split. In Acts 18:8 the text does say the household believed and were baptized, faith stated. But in Acts 16:31 the words believe and you will be saved are both singular, spoken to the jailer, and only then is and your household added, with no separate word of faith for each member. Acts 16:34 uses a word for with his whole house that appears only once in the whole New Testament, so it cannot be cross checked. Acts 2:39 says the promise is to you and to your children, but it does not say whether that warrants baptizing those children. On top of this, the same verb for forbid that the eunuch uses about his own baptism is the verb Jesus uses when he says do not forbid the little children to come to him, so one word points two ways. And the clearest faith-first line, in Mark 16:16, sits in a part of Mark whose manuscript support is contested. So the words lean toward a response before baptism in the plain cases, but they never use the word only, and the silent household formulas, the lone hapax, the children of Acts 2:39, and the shared forbid verb leave the believers-only claim open. The same verses are read in opposite directions depending on which pattern is treated as governing.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.38"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.16.31"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.18.8"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.16.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.18.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3832"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5043"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.8.38"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.16.31"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "variant-sensitive",
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

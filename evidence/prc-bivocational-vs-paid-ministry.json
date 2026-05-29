@@ -1,0 +1,515 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-bivocational-vs-paid-ministry",
+  "question_id": "prc-bivocational-vs-paid-ministry",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The canon positively attests two patterns that its own vocabulary refuses to rank. For support, 1 Corinthians 9:14 uses the aorist διέταξεν, the Lord arranged that gospel proclaimers live from the gospel, and 1 Timothy 5:17-18 grants laboring (κοπιῶντες) elders διπλῆ τιμή and quotes the wage maxim ἄξιος ὁ ἐργάτης τοῦ μισθοῦ verbatim from Luke 10:7. For self-support, Acts 18:3, Acts 20:34-35, and 2 Thessalonians 3:8 narrate Paul working with his hands and eating no bread δωρεάν. The hinge is the recurring noun ἐξουσία (right), asserted five times across 1 Corinthians 9 (vv. 4-18) and then, at 2 Thessalonians 3:9, expressly named as a right Paul possessed but declined, offering himself as a τύπος to μιμεῖσθαι. Because a right may be exercised or surrendered, the lexicon establishes both forms as legitimate and ranks neither as the sole mandate, so any exclusive reading is contested while the both-valid claim is supported."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1299",
+        "lemma": "διατάσσω",
+        "transliteration": "diatasso",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2872",
+        "lemma": "κοπιάω",
+        "transliteration": "kopiao",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2038",
+        "lemma": "ἐργάζομαι",
+        "transliteration": "ergazomai",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3408",
+        "lemma": "μισθός",
+        "transliteration": "misthos",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2040",
+        "lemma": "ἐργάτης",
+        "transliteration": "ergates",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0514",
+        "lemma": "ἄξιος",
+        "transliteration": "axios",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1362",
+        "lemma": "διπλοῦς",
+        "transliteration": "diplous",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0248",
+        "lemma": "ἀλοάω",
+        "transliteration": "aloao",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1432",
+        "lemma": "δωρεάν",
+        "transliteration": "dorean",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3401",
+        "lemma": "μιμέομαι",
+        "transliteration": "mimeomai",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5179",
+        "lemma": "τύπος",
+        "transliteration": "typos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1849",
+      "G1299",
+      "G2872",
+      "G2038",
+      "G3408",
+      "G2040",
+      "G0514",
+      "G1362",
+      "G0248",
+      "G1432",
+      "G3401",
+      "G5179",
+      "G2098",
+      "G0482",
+      "G5092",
+      "G0812"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.9.12",
+        "key_terms": [
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "Paul affirms the right (ἐξουσία) over the Corinthians yet says he did not use this right but endures all things so as not to hinder the gospel. The same noun that grounds the support pattern is here owned and then declined, the first half of the right-exercised-or-surrendered structure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.9.14",
+        "key_terms": [
+          {
+            "strong": "G1299",
+            "lemma": "διατάσσω"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "The aorist διέταξεν, the Lord arranged or ordained, plus the infinitive of living, establishes that those who proclaim the gospel may rightfully live from the gospel. The verb places material support of gospel workers within a dominical arrangement, so support is a legitimate and authorized form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.9.18",
+        "key_terms": [
+          {
+            "strong": "G3408",
+            "lemma": "μισθός"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          }
+        ],
+        "force": "Paul makes his reward (μισθός) the offering of the gospel free of charge (ἀδάπανον) so as not to make full use of his right (ἐξουσία) in the gospel. The verse shows that declining support is a voluntary choice taken precisely against an acknowledged right, not a denial that the right exists.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.17",
+        "key_terms": [
+          {
+            "strong": "G1362",
+            "lemma": "διπλοῦς"
+          },
+          {
+            "strong": "G2872",
+            "lemma": "κοπιάω"
+          }
+        ],
+        "force": "Elders who rule well, especially those laboring (κοπιῶντες) in word and teaching, are to be counted worthy of double honor (διπλῆς τιμῆς). The participle κοπιάω denotes wearying labor, and the following verse's wage maxim shows τιμή here carries a material sense, supporting compensated teaching ministry.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.18",
+        "key_terms": [
+          {
+            "strong": "G2040",
+            "lemma": "ἐργάτης"
+          },
+          {
+            "strong": "G3408",
+            "lemma": "μισθός"
+          },
+          {
+            "strong": "G0514",
+            "lemma": "ἄξιος"
+          },
+          {
+            "strong": "G0248",
+            "lemma": "ἀλοάω"
+          }
+        ],
+        "force": "Two scriptural maxims ground supporting laborers. The threshing ox not to be muzzled (citing Deut 25:4, verb ἀλοάω) and ἄξιος ὁ ἐργάτης τοῦ μισθοῦ, the worker worthy of his wage. The three terms ἐργάτης, ἄξιος, μισθός match Luke 10:7 word for word, so the formula ἡ γραφή λέγει here cites a dominical saying and roots the supported pattern in canonical warrant.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.10.7",
+        "key_terms": [
+          {
+            "strong": "G2040",
+            "lemma": "ἐργάτης"
+          },
+          {
+            "strong": "G3408",
+            "lemma": "μισθός"
+          },
+          {
+            "strong": "G0514",
+            "lemma": "ἄξιος"
+          }
+        ],
+        "force": "Jesus instructs the seventy to remain in one house eating what is provided, for ἄξιος ὁ ἐργάτης τοῦ μισθοῦ αὐτοῦ, the laborer is worthy of his wage. This dominical saying, repeated at Matt 10:10 with ἐργάτης and τροφή, is the source quoted by 1 Tim 5:18, supplying the gospel-side warrant that the support of workers is the Lord's own arrangement.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.18.3",
+        "key_terms": [
+          {
+            "strong": "G2038",
+            "lemma": "ἐργάζομαι"
+          }
+        ],
+        "force": "Paul, being of the same trade (ὁμότεχνον), being tentmakers (σκηνοποιοί), worked (ἠργάζετο, imperfect of continued action) at the craft. The narrative records sustained self-support by manual labor as an actual apostolic practice, evidencing the bivocational pattern.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.34",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          }
+        ],
+        "force": "Paul appeals to direct knowledge that these hands (αἱ χεῖρες αὗται) supplied his needs and those with him. The self-reference to manual provision presents bivocational support as a deliberate and exemplary apostolic choice.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.35",
+        "key_terms": [
+          {
+            "strong": "G2872",
+            "lemma": "κοπιάω"
+          },
+          {
+            "strong": "G0482",
+            "lemma": "ἀντιλαμβάνομαι"
+          }
+        ],
+        "force": "By laboring (κοπιῶντας) one must (δεῖ) support (ἀντιλαμβάνεσθαι) the weak. The same κοπιάω applied to compensated elders in 1 Tim 5:17 is here applied to Paul's self-supporting toil, and the dominical saying on giving and receiving frames self-support as a positive model, not a deficiency.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.8",
+        "key_terms": [
+          {
+            "strong": "G2038",
+            "lemma": "ἐργάζομαι"
+          },
+          {
+            "strong": "G1432",
+            "lemma": "δωρεάν"
+          }
+        ],
+        "force": "Paul ate no one's bread freely (δωρεάν) but in toil and labor worked (ἐργαζόμενοι) night and day so as not to burden anyone. The vocabulary of free provision refused and labor undertaken documents a chosen self-supporting practice.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.9",
+        "key_terms": [
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G5179",
+            "lemma": "τύπος"
+          },
+          {
+            "strong": "G3401",
+            "lemma": "μιμέομαι"
+          }
+        ],
+        "force": "The decisive qualifier: this was done not because we have no right (ἐξουσία) but to give ourselves as a pattern (τύπος) to imitate (μιμεῖσθαι). The same noun ἐξουσία that anchors the support claim in 1 Cor 9 is named here as a right Paul holds yet surrenders, so self-support is presented as exemplary choice rather than a rule binding others.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Tim.5.18",
+        "to": "Deut.25.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.18",
+        "to": "Lev.19.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.33",
+        "to": "Num.16.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.35",
+        "to": "Ps.41.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.35",
+        "to": "Isa.35.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Thess.3.8",
+        "to": "2Thess.3.12",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.9.14",
+        "addressed": true,
+        "resolution": "The dominical directive that gospel workers may live from the gospel could be read as mandating support, but the same author four verses later (1 Cor 9:18) makes declining support his reward, and at 2 Thess 3:9 classes that support as a right (ἐξουσία) he may forgo, and in Acts 18:3 he forgoes it. A right exercised or surrendered is not an exclusive obligation, so this text supports the legitimacy of support without excluding self-support."
+      },
+      {
+        "ref": "Acts.18.3",
+        "addressed": true,
+        "resolution": "Paul's continued tentmaking could be read as making self-support the only valid model, but 1 Cor 9:14 and the wage maxim of 1 Tim 5:18 (quoting Luke 10:7) affirm a parallel right to support. The imperfect ἠργάζετο records what Paul did in his context, not a universal prohibition on receiving support, so it complicates an exclusive-support reading without overturning the validity of support."
+      },
+      {
+        "ref": "2Thess.3.10",
+        "addressed": true,
+        "resolution": "The rule that one unwilling to work should not eat could be read as condemning supported ministry as idleness, but its target is the ἀτακτέω, the disorderly idle (3:11), not gospel laborers, and 1 Tim 5:17-18 treats κοπιάω in word and teaching as genuine wage-worthy labor. The text rebukes refusal to work, not the legitimate support of those who do labor in the word."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No variant units supplied in the bundle, and these passages fall outside ECM scope per not_in_ecm_scope (the ingested ECM window is 3 John 1.1 to 1.15 only). The marginal sigla on surface tokens in Acts 18:3 and 2 Thess 3:8 reflect apparatus markers but do not bear on the lexical patterns of work, right, and wage that drive the verdict, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "exclusive-support reading",
+        "verdict": "partial",
+        "rationale": "A reading that elevates 1 Cor 9:14 and the wage maxim of 1 Tim 5:17-18 into a mandate for paid ministry captures the genuine dominical directive (διέταξεν) and the verbatim Luke 10:7 maxim ἄξιος ὁ ἐργάτης τοῦ μισθοῦ, which give support real canonical weight. But it must explain away Paul's commended self-support in Acts 18 and 20 and his own statement at 1 Cor 9:18 and 2 Thess 3:9 that support is a right (ἐξουσία) he may freely decline."
+      },
+      {
+        "framework": "exclusive-tentmaking reading",
+        "verdict": "partial",
+        "rationale": "A reading that elevates Acts 18:3 and 2 Thess 3:7-9 into a norm against paid ministry captures a real and repeatedly stressed apostolic example of working night and day. But 2 Thess 3:9 itself denies the example is a binding rule by affirming the underlying right (ἐξουσία) to support, and 1 Cor 9:14 with 1 Tim 5:18 root the support of workers in a directive of the Lord."
+      },
+      {
+        "framework": "both-legitimate reading",
+        "verdict": "supported",
+        "rationale": "Holding the texts together by analogia scripturae yields a single coherent picture: a right (ἐξουσία) to support that may be exercised (1 Cor 9:14, 1 Tim 5:17-18, Luke 10:7) or freely surrendered (1 Cor 9:12,18; Acts 18, 20; 2 Thess 3:8-9). This matches the lexical data on both sides without forcing either pattern to silence the other, and accounts for why the same author voices both."
+      }
+    ],
+    "notes": "Both clusters are read at face value in their own contexts and then harmonized by Scripture interpreting Scripture, since one author (Paul) articulates both the right and the chosen exception, and the recurring noun ἐξουσία is the explicit lexical bridge between them."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the New Testament establish exactly one legitimate mode of supporting those who lead and teach in the assembly, or does it attest more than one mode as valid?",
+    "notes": "The proposition embeds two loaded elements. First, the closing clause that a particular tradition has favoured bivocational/lay eldership is a historical-tradition claim that the lexical store cannot evaluate and that lies outside the cultural air gap, so it is excluded from the verdict and the verdict rests only on the canonical patterns. Second, the framing both are valid; neither is the only legitimate form pre-asserts the conclusion, so the stem was neutralized to a genuine question before deriving the verdict on the lexical evidence alone. The lexical evidence independently supports the both-valid reading, so the verdict is not merely inherited from the stem."
+  },
+  "lay_summary": "The words show two patterns sitting side by side, and neither cancels the other. On one side, supporting those who teach is treated as a settled arrangement. In 1 Corinthians 9:14 the verb dietaxen says the Lord arranged that those who announce the good news may live from it. In 1 Timothy 5:17 elders who rule well, especially those who labor (kopiao) in word and teaching, deserve double honor, and the next verse backs this with two maxims, the ox not muzzled while it threshes and the worker (ergates) worthy (axios) of his wage (misthos). Those three words match Luke 10:7 exactly, which is Jesus speaking, so the support side rests on the Lord's own saying. On the other side, the same apostle works with his hands. Acts 18:3 calls Paul and his hosts tentmakers with an imperfect verb (ergazeto) for ongoing labor. Acts 20:34 has him pointing to these hands as his provision. In 2 Thessalonians 3:8 he ate no one's bread free of charge (dorean) but worked night and day so as not to burden anyone. The hinge is one repeated noun, exousia, meaning right. Paul asserts this right five times across 1 Corinthians 9, then says in verse 12 and verse 18 that he chose not to use it, and at 2 Thessalonians 3:9 he states plainly that he worked not because he lacked the right but to make himself a pattern (typos) to imitate (mimeomai). That is the whole puzzle in one word. A right can be exercised or set aside, and the text records Paul doing both and commending both. So the vocabulary affirms that support is genuine and authorized, and that freely earning one's own keep is genuine and praiseworthy. What the words never do is rank one above the other or forbid either. Readers diverge because the canon hands them two patterns it does not rank, so the verdict is disputed in the sense that more than one practice is plainly legitimate rather than one being the single required form.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.18.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Thess.3.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.9.18"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1849"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1299"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3408"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2040"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.5.18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.20.35"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed"
+  ]
+}

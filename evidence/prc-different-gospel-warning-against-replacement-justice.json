@@ -1,0 +1,567 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-different-gospel-warning-against-replacement-justice",
+  "question_id": "prc-different-gospel-warning-against-replacement-justice",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9375,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical core is firm: Galatians 1:6-9 pronounces anathema (G0331) on anyone who preaches a gospel beside (G3844, para) the one Paul preached, marking it heteron (G2087, other in kind) which Paul immediately qualifies as ouk allo (G0243, not even another of the same class) but a perversion (G3344, metastrepho). Micah 6:8, Isaiah 1:17 and James 1:27 establish that justice (H4941, mishpat) and care for the vulnerable are genuine divine demands set as covenant duty. What the lexemes alone cannot settle is the proposition's modern application: the immediate referent of the heteron euangelion in Galatians is a circumcision and law gospel, so extending the curse to a specific modern group-based or this-worldly justice scheme is a historical-critical and theological inference, not a direct lexical datum. The pattern firmly supports the principle that any message put in place of the Christ-content gospel is condemned, but the specific category the stem names is an extrapolation, hence disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2098",
+        "lemma": "εὐαγγέλιον",
+        "transliteration": "euangelion",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2097",
+        "lemma": "εὐαγγελίζω",
+        "transliteration": "euangelizo",
+        "occurrences_in_canon": 55,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2087",
+        "lemma": "ἕτερος",
+        "transliteration": "heteros",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0331",
+        "lemma": "ἀνάθεμα",
+        "transliteration": "anathema",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3344",
+        "lemma": "μεταστρέφω",
+        "transliteration": "metastrepho",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3346",
+        "lemma": "μετατίθημι",
+        "transliteration": "metatithemi",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 581,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3844",
+        "lemma": "παρά",
+        "transliteration": "para",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4941",
+        "lemma": "מִשְׁפָּט",
+        "transliteration": "mishpat",
+        "occurrences_in_canon": 422,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1875",
+        "lemma": "דָּרַשׁ",
+        "transliteration": "darash",
+        "occurrences_in_canon": 164,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2617",
+        "lemma": "חֶסֶד",
+        "transliteration": "chesed",
+        "occurrences_in_canon": 245,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8199",
+        "lemma": "שָׁפַט",
+        "transliteration": "shaphat",
+        "occurrences_in_canon": 202,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2356",
+        "lemma": "θρησκεία",
+        "transliteration": "threskeia",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3737",
+        "lemma": "ὀρφανός",
+        "transliteration": "orphanos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2098",
+      "G2097",
+      "G2087",
+      "G0243",
+      "G0331",
+      "G3344",
+      "G3346",
+      "G5547",
+      "G3844",
+      "H4941",
+      "H1875",
+      "H2617",
+      "H8199",
+      "G2356",
+      "G3737"
+    ],
+    "scripture": [
+      {
+        "ref": "Gal.1.6",
+        "key_terms": [
+          {
+            "strong": "G3346",
+            "lemma": "μετατίθεσθε"
+          },
+          {
+            "strong": "G2087",
+            "lemma": "ἕτερον"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "Paul marvels (thaumazo) that the Galatians are so quickly being turned away (metatithesthe, present middle, deserting) from the one who called them in grace to a different (heteron, other in kind) gospel. The choice of heteron rather than allos signals a message of an entirely other character, not a benign variant.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.7",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλο"
+          },
+          {
+            "strong": "G3344",
+            "lemma": "μεταστρέψαι"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "Paul immediately qualifies: it is ouk allo, not another of the same kind. There is only one gospel; the rival is no gospel at all, merely certain agitators who trouble (tarasso) and wish to pervert (metastrepho) the gospel of Christ. The lexical contrast heteron then ouk allo defines a genuine substitution, not a supplement.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.8",
+        "key_terms": [
+          {
+            "strong": "G2097",
+            "lemma": "εὐαγγελίζηται"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρ"
+          },
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          }
+        ],
+        "force": "Even if Paul himself or an angel from heaven should preach a gospel contrary to (para, beside or against) what was preached, let him be anathema (devoted to destruction). The preposition para sets the standard as the already-delivered gospel; any message beside it incurs the curse. Anathema is a rare term, occurring in only 6 verses across the NT (Acts.23.14, Rom.9.3, 1Cor.12.3, 1Cor.16.22, Gal.1.8, Gal.1.9), and Galatians is the only context where it is pronounced over a rival gospel.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.9",
+        "key_terms": [
+          {
+            "strong": "G2097",
+            "lemma": "εὐαγγελίζεται"
+          },
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρ"
+          }
+        ],
+        "force": "The repetition (as we have said before, so now I say again) intensifies the verdict: anyone preaching a gospel beside (para) what was received is anathema. The doubling functions as a formal, fixed pronouncement rather than rhetorical heat.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mic.6.8",
+        "key_terms": [
+          {
+            "strong": "H4941",
+            "lemma": "מִשְׁפָּט"
+          },
+          {
+            "strong": "H2617",
+            "lemma": "חֶסֶד"
+          },
+          {
+            "strong": "H1875",
+            "lemma": "דּוֹרֵשׁ"
+          }
+        ],
+        "force": "What the LORD seeks (darash, participle, actively requires) is to do justice (mishpat), love mercy (chesed), and walk humbly with God. The clause structure presents justice as covenant obligation of the redeemed, what God seeks from man, not the means by which man is reconciled. The verse commands ethics; it does not state a saving message or define a means of forgiveness.",
+        "supports": "neutral",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.1.17",
+        "key_terms": [
+          {
+            "strong": "H8199",
+            "lemma": "שִׁפְטוּ"
+          },
+          {
+            "strong": "H4941",
+            "lemma": "מִשְׁפָּט"
+          },
+          {
+            "strong": "H3490",
+            "lemma": "יָתוֹם"
+          }
+        ],
+        "force": "A string of imperatives: learn to do good, seek justice (mishpat), correct oppression, defend (shaphat) the orphan (yatom), plead for the widow. The grammar is command, addressed to a covenant people whose worship the prophet has just rejected as defiled, defining the required conduct that must accompany cleansing (Isa 1:18). It establishes that pursuit of justice is divinely mandated, distinct from the question of how sins are forgiven.",
+        "supports": "neutral",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.1.27",
+        "key_terms": [
+          {
+            "strong": "G2356",
+            "lemma": "θρησκεία"
+          },
+          {
+            "strong": "G3737",
+            "lemma": "ὀρφανούς"
+          },
+          {
+            "strong": "G2513",
+            "lemma": "καθαρά"
+          }
+        ],
+        "force": "Pure and undefiled religion (threskeia, outward religious observance, only 4 NT occurrences: Acts.26.5, Col.2.18, Jas.1.26, Jas.1.27) before God is to visit orphans and widows in their affliction and keep oneself unstained from the world. The term threskeia denotes the practice or expression of devotion, not the gospel content itself. Care for the vulnerable is the evidence and exercise of true devotion, set alongside, not in place of, the message of forgiveness.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gal.1.9",
+        "to": "Deut.4.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.6",
+        "to": "Gal.3.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.8",
+        "to": "Gal.3.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.7",
+        "to": "Gal.5.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mic.6.8",
+        "to": "Deut.10.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.1.27",
+        "to": "Job.29.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.1.17",
+        "to": "Isa.1.23",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gal.1.6",
+        "addressed": true,
+        "resolution": "The immediate referent of the heteron euangelion in Galatians is the Judaizing message that added circumcision and law-works to faith in Christ (Gal 3:1-3, 5:2-4), not a this-worldly justice program. The lexemes establish that ANY message put in place of the Christ-content gospel is anathematized, but they do not by themselves name the modern category in the stem. The application is a theological inference beyond the lexical datum, which is why the verdict is disputed rather than a flat affirm."
+      },
+      {
+        "ref": "Isa.1.17",
+        "addressed": true,
+        "resolution": "Isaiah 1:17 and Micah 6:8 could be read by a justice-centered framework as locating the heart of true religion in social righteousness, suggesting justice IS the message rather than a fruit of it. The grammar resolves this in part: these are imperatives to an already-covenant people about required conduct, set within oracles that simultaneously call for atonement and cleansing (Isa 1:18). They mandate justice without defining it as the instrument of forgiveness, so they neither equate justice with the gospel nor exclude justice from Christian duty. The lexemes themselves do not rank the relationship; that is the interpretive step a reader takes."
+      },
+      {
+        "ref": "Jas.1.27",
+        "addressed": true,
+        "resolution": "James 1:27 defines pure threskeia as caring for orphans and widows, which a replacement reading could press into making social action the gospel. But threskeia denotes the outward exercise of devotion, not the saving content, and James elsewhere grounds salvation in the implanted word that saves the soul (Jas 1:21). The verse commends justice as the expression of true faith, not as a substitute for the message of forgiveness in Christ."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Galatians 1:6-9 has minor variation (word order of euangelion in v6, the spelling of euangelizetai or euangelizontai forms, and the omission or inclusion of euangelizetai in v8 witnesses), but no documented variant changes the anathema pronouncement, the heteron versus allo contrast, or the para standard. Galatians is outside the open-cbgm 3 John sample, so ECM data was not directly examined and the unit is treated as ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "law_gospel_distinction",
+      "social_gospel",
+      "liberation_theology",
+      "redemptive_historical"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "law_gospel_distinction",
+        "verdict": "affirms",
+        "rationale": "Reads heteron euangelion as any message that displaces Christ-for-sins with a different ground or content, and extends the Galatians curse to any system, legal or social or political, that is preached as the saving message in place of the cross. Under this lens the proposition holds because the lexical structure of Gal 1:6-9 is general (anyone, even an angel) and the para standard fixes the original Christ-content as non-negotiable."
+      },
+      {
+        "framework": "social_gospel",
+        "verdict": "denies",
+        "rationale": "Reads Micah 6:8, Isaiah 1:17 and James 1:27 as locating the substance of true religion in justice and mercy, so a justice-centered proclamation is not a heteron euangelion but a faithful expression of the one gospel. The prophets place mishpat at the heart of what God seeks, and threskeia in James is defined precisely by care for orphans and widows. Under this lens the proposition over-reaches by anathematizing legitimate gospel-shaped emphasis on justice."
+      },
+      {
+        "framework": "liberation_theology",
+        "verdict": "denies",
+        "rationale": "Reads the canon as giving systemic justice for the oppressed a load-bearing place in the gospel itself, drawing on the prophetic indictments and the exodus pattern. Under this lens, calling a justice-centered preaching a heteron euangelion is itself a distortion that domesticates the biblical demand. The lexical data do not foreclose this reading; they require an interpretive judgment about whether the modern teaching in view replaces or expresses the gospel."
+      },
+      {
+        "framework": "redemptive_historical",
+        "verdict": "disputed",
+        "rationale": "Locates the gospel in the accomplished work of Christ (death for sins, burial, resurrection) and reads justice texts as covenant ethics flowing from redemption. This lens affirms the principle that the gospel cannot be replaced, but cautions that Galatians 1 addresses a specific law-gospel error, so labeling a modern justice scheme as falling under that exact curse requires careful demonstration that it actually substitutes for, rather than merely accompanies, the Christ-message."
+      }
+    ],
+    "notes": "The lexical layer firmly establishes (a) a single gospel with fixed content, (b) an anathema on any substitute, and (c) justice as commanded covenant duty distinct from the saving message. The leap from this to the stem's specific target depends on whether a given justice scheme genuinely replaces the Christ-content, which is a case-by-case theological judgment the lexemes cannot adjudicate. Both the affirming and denying lenses are recorded in their strongest form so a reader can see what the words foreclose and what they leave open."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does Galatians 1:6-9 pronounce a curse on the preaching of any message put in place of the gospel of forgiveness in Christ, and do Micah 6:8, Isaiah 1:17 and James 1:27 present justice and care for the vulnerable as commanded covenant duty rather than as the saving message itself?",
+    "notes": "The original stem is heavily preloaded. The phrases group-based and this-worldly justice scheme encode a specific contemporary polemic and pre-judge that the targeted teaching is in fact a heteron euangelion. The lexical store can verify the underlying mechanics (one gospel, anathema on substitutes, justice as duty not saving content) but cannot verify the contested empirical claim that any particular modern justice teaching replaces rather than accompanies the gospel. The verdict is derived on the original stem and rendered disputed because the lexemes support the principle while the application is an extrapolation."
+  },
+  "lay_summary": "Galatians 1:6-9 sets up a sharp lexical contrast. Paul says the Galatians are turning to a different gospel, using the word heteron, meaning other in kind, then immediately corrects himself: it is not really another gospel at all, using ouk allo, because there is only one. The rivals merely trouble the believers and try to pervert the gospel of Christ. Twice Paul pronounces anathema, a rare word for being devoted to destruction that occurs in only 6 NT verses, on anyone, even himself or an angel, who preaches a gospel contrary to the one already delivered. The preposition para fixes the standard as the original Christ-content message. So the text firmly establishes one gospel with settled content and a curse on any substitute. Micah 6:8, Isaiah 1:17, and James 1:27 use the language of justice, mishpat, mercy, chesed, and care for orphans and widows. These are real and binding commands, but their grammar is imperative conduct addressed to a covenant people, describing what God seeks from those already his, not the means by which sins are forgiven. James calls visiting orphans and widows pure religion, using threskeia, a word for the outward exercise of devotion, not for the saving message. Putting the pieces together, the lexical pattern supports a clear principle: the gospel has fixed content centered on Christ, justice is commanded duty that flows from it, and anything preached in place of that gospel is condemned. What the words alone cannot decide is the proposition's specific target. The Galatians passage directly addressed a circumcision and law message, so applying the same curse to a modern justice program depends on whether that program actually replaces the Christ-message or merely accompanies it. Because that application is an inference beyond the lexical data, and because Micah, Isaiah, and James can be read by different frameworks as either evidence or fruit of the gospel, the verdict is disputed: the principle is firm, the specific modern case is a judgment call the vocabulary alone does not settle.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0331"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2087"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2098"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3344"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2356"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mic.6.8"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.1.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4941"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2617"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.1.17"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mic.6.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.1.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mic.6.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA is licensed CC-BY-NC-4.0 (non-commercial, redistribute=false), used for the clause-level syntactic roles on Isa.1.17 and Mic.6.8. Its presence makes the aggregate not safe for bulk redistribution."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

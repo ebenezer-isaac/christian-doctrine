@@ -1,0 +1,475 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-persecution-expected",
+  "question_id": "prc-persecution-expected",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The anchor verses present persecution and suffering as the foreseen condition of those who follow Christ. 2 Tim 3:12 universalizes it with the subject pantes hoi thelontes eusebos zen en Christo Iesou and the future passive diochthesontai, all who desire to live godly in Christ Jesus will be persecuted, with no exempted class. John 15:20 grounds it in the master-servant relation, ei eme edioxan kai hymas dioxousin, treating the disciples' persecution as the direct entailment of Christ's. 1 Pet 4:12 issues the present imperative me xenizesthe at the pyrosis, the fiery trial, denying that suffering is foreign, and Matt 5:10-12 calls the persecuted makarioi and sets them in continuity with the prophets. Querying the canon, dioko (G1377) recurs in 45 verses across the Gospels, Acts, Paul, Hebrews, Peter, and Revelation, and pascho (G3958) in 42 verses with the same spread, so the lexical pattern is pan-canonical and dense."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1377",
+        "lemma": "διώκω",
+        "transliteration": "dioko",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3958",
+        "lemma": "πάσχω",
+        "transliteration": "pascho",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3404",
+        "lemma": "μισέω",
+        "transliteration": "miseo",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2153",
+        "lemma": "εὐσεβῶς",
+        "transliteration": "eusebos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3107",
+        "lemma": "μακάριος",
+        "transliteration": "makarios",
+        "occurrences_in_canon": 50,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2347",
+        "lemma": "θλῖψις",
+        "transliteration": "thlipsis",
+        "occurrences_in_canon": 44,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3579",
+        "lemma": "ξενίζω",
+        "transliteration": "xenizo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3679",
+        "lemma": "ὀνειδίζω",
+        "transliteration": "oneidizo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4451",
+        "lemma": "πύρωσις",
+        "transliteration": "pyrosis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3804",
+        "lemma": "πάθημα",
+        "transliteration": "pathema",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1377",
+      "G3958",
+      "G3404",
+      "G2153",
+      "G3107",
+      "G2347",
+      "G3579",
+      "G3679",
+      "G4451",
+      "G3804"
+    ],
+    "scripture": [
+      {
+        "ref": "2Tim.3.12",
+        "key_terms": [
+          {
+            "strong": "G1377",
+            "lemma": "διώκω"
+          },
+          {
+            "strong": "G2153",
+            "lemma": "εὐσεβῶς"
+          }
+        ],
+        "force": "The clause pantes hoi thelontes eusebos zen en Christo Iesou diochthesontai places pantes, all, as the subject and the future passive diochthesontai, will be persecuted, as the predicate. The universal quantifier with the adverb eusebos, godly, and the qualifier en Christo ties persecution to the very desire to live a godly life in Christ, leaving no exempt category, which is the affirmative core of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.15.18",
+        "key_terms": [
+          {
+            "strong": "G3404",
+            "lemma": "μισέω"
+          }
+        ],
+        "force": "Ei ho kosmos hymas misei, ginoskete hoti eme proton hymon memiseken. The present misei for the world's hatred of the disciples and the perfect memiseken for its prior settled hatred of Christ place the disciples' experience inside Christ's, establishing hostility as the expected backdrop rather than a surprise.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.15.20",
+        "key_terms": [
+          {
+            "strong": "G1377",
+            "lemma": "διώκω"
+          }
+        ],
+        "force": "The first-class condition ei eme edioxan, kai hymas dioxousin treats Christ's having been persecuted, aorist edioxan, as the premise and the disciples' being persecuted, future dioxousin, as the entailed result. The maxim ouk estin doulos meizon tou kyriou autou makes the servant's persecution follow from the master's by necessity.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.10",
+        "key_terms": [
+          {
+            "strong": "G1377",
+            "lemma": "διώκω"
+          },
+          {
+            "strong": "G3107",
+            "lemma": "μακάριος"
+          }
+        ],
+        "force": "Makarioi hoi dediogmenoi heneken dikaiosynes uses the perfect passive participle dediogmenoi, those who have been and stand persecuted, joined to the beatitude word makarioi. Persecution for righteousness is named as a settled condition that carries the blessing and the kingdom, so it is treated as an expected mark of the righteous, not an exception.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.11",
+        "key_terms": [
+          {
+            "strong": "G3679",
+            "lemma": "ὀνειδίζω"
+          },
+          {
+            "strong": "G1377",
+            "lemma": "διώκω"
+          }
+        ],
+        "force": "Hotan oneidisosin hymas kai dioxosin uses hotan with the aorist subjunctive, framing the reviling and persecuting not as a remote possibility but as a recurring whenever, with the qualifier heneken emou, for my sake, locating the cause in allegiance to Christ.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.12",
+        "key_terms": [
+          {
+            "strong": "G1377",
+            "lemma": "διώκω"
+          }
+        ],
+        "force": "Chairete kai agalliasthe commands present rejoicing and exultation, and the clause houtos gar edioxan tous prophetas, for so they persecuted the prophets, sets the disciples' persecution in continuity with the prophets before them. The aorist edioxan supplies a canonical precedent that normalizes the experience.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.4.12",
+        "key_terms": [
+          {
+            "strong": "G3579",
+            "lemma": "ξενίζω"
+          },
+          {
+            "strong": "G4451",
+            "lemma": "πύρωσις"
+          }
+        ],
+        "force": "Me xenizesthe te en hymin pyrosei is a present imperative with me, do not be surprised at the fiery trial among you, and the appositional hos xenou hymin symbainontos, as though something strange were happening to you, explicitly denies that the trial is foreign. The lexical force is that suffering is to be expected, not regarded as alien.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.4.13",
+        "key_terms": [
+          {
+            "strong": "G3804",
+            "lemma": "πάθημα"
+          }
+        ],
+        "force": "Katho koinoneite tois tou Christou pathemasin, insofar as you share in the sufferings of Christ, uses pathemasin to fold the believers' suffering into Christ's, and chairete with the purpose clause hina kai en te apokalypsei tes doxes autou charete treats present suffering as the path to future joy at his revelation, again presenting it as the normal disciple's portion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.4.16",
+        "key_terms": [
+          {
+            "strong": "G3958",
+            "lemma": "πάσχω"
+          }
+        ],
+        "force": "Ei de hos Christianos, me aischynestho, but if anyone suffers as a Christian, let him not be ashamed. The conditional ei with the label Christianos ties the suffering directly to the name of the disciple and commands honoring God in it, presupposing that suffering as a Christian is an anticipated rather than aberrant case.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.4.19",
+        "key_terms": [
+          {
+            "strong": "G3958",
+            "lemma": "πάσχω"
+          }
+        ],
+        "force": "Hoste kai hoi paschontes kata to thelema tou theou closes the unit by speaking of those who suffer according to the will of God, the present participle paschontes treating such suffering as an ongoing class within God's will, and directs them to entrust their souls to a faithful Creator. Suffering is thus located inside, not outside, the will of God for the believer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.1.29",
+        "key_terms": [
+          {
+            "strong": "G3958",
+            "lemma": "πάσχω"
+          }
+        ],
+        "force": "Hoti hymin echaristhe to hyper Christou, ou monon to eis auton pisteuein alla kai to hyper autou paschein. The verb echaristhe, was granted as a gift, governs both believing in Christ and suffering for him, ranking suffering as a gift on a par with faith, which canonically reinforces that suffering is an expected and given component of discipleship.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.14.22",
+        "key_terms": [
+          {
+            "strong": "G2347",
+            "lemma": "θλῖψις"
+          }
+        ],
+        "force": "Dia pollon thlipseon dei hemas eiselthein eis ten basileian tou theou. The impersonal dei, it is necessary, with dia pollon thlipseon, through many tribulations, attaches necessity to the believer's path into the kingdom, making affliction not optional but constitutive of entrance, which extends the persecution pattern beyond persecution narrowly to suffering broadly.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.5.11",
+        "to": "Matt.10.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.10",
+        "to": "Matt.10.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.11",
+        "to": "Matt.10.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.4.12",
+        "to": "1Pet.1.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.4.13",
+        "to": "1Pet.1.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.4.12",
+        "to": "1Pet.4.4",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Pet.4.15",
+        "addressed": true,
+        "resolution": "Me gar tis hymon paschete hos phoneus e kleptes, let none of you suffer as a murderer or thief, could be read as qualifying the proposition by allowing that some suffering is deserved and not for Christ. The verb paschete is bounded by the comparative hos clauses, so it separates suffering for wrongdoing from suffering as a Christian in verse 16, and thus narrows the kind of suffering in view rather than denying that suffering for Christ is expected."
+      },
+      {
+        "ref": "1Pet.4.17",
+        "addressed": true,
+        "resolution": "Hoti ho kairos tou arxasthai to krima apo tou oikou tou theou frames the trial as judgment beginning at the household of God, which could be heard as a unique end-time episode rather than ordinary discipleship. The noun krima here is the refining trial of believers contrasted with the worse end of the disobedient, so it reinforces rather than restricts the expectation that the godly pass through suffering in this age."
+      },
+      {
+        "ref": "John.16.33",
+        "addressed": true,
+        "resolution": "En to kosmo thlipsin echete, in the world you have tribulation, joined to tharseite, ego nenikeka ton kosmon, could be read as a once-spoken comfort rather than a normative expectation. The present indicative echete, you have, expresses an ongoing state, and the cause is the world rather than a singular crisis, so the verse generalizes thlipsis as the disciples' standing condition in this age and confirms rather than complicates the proposition."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament and outside the published CBGM scope, which covers only 3 John in this run, so ecm_status is ecm-shadow. The bundle provided no variant units for these passages. The marked apparatus readings, such as the bracketed word order at 2 Tim 3:12 and the spelling and pronoun variants at John 15:18-20 and 1 Pet 4:14-19, do not touch the load-bearing terms pantes, diochthesontai, dioxousin, me xenizesthe, or dediogmenoi, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "dispensationalism",
+      "amillennialism",
+      "redemptive-historical"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "amillennialism",
+        "verdict": "affirms",
+        "rationale": "Reads this age as the present overlap in which the church suffers with Christ until his return, so 2 Tim 3:12 and 1 Pet 4:12-19 describe the normal pilgrim condition of the church throughout the age, directly affirming the proposition."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Holds that the present church age precedes a future tribulation, yet still affirms that the godly are persecuted now per the universal pantes of 2 Tim 3:12 and the master-servant entailment of John 15:20, so persecution remains an expected feature of discipleship in this age even on a futurist reading of later judgment texts."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "Sets the disciples' persecution in continuity with the persecuted prophets of Matt 5:12 and with Christ's own suffering in John 15:20 and 1 Pet 4:13, reading suffering as participation in Christ along the redemptive arc, which affirms the proposition on covenantal grounds."
+      }
+    ],
+    "notes": "The lexical data supports the substantive claim across all three lenses. The frameworks diverge on how later judgment and tribulation texts relate to the present age, a divergence the anchor bundle does not need to adjudicate, since each lens affirms that the godly are persecuted in the present age."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem states a descriptive lexical claim, that persecution and suffering for Christ are normal and expected aspects of discipleship in this age, which is asserted in the anchor texts themselves rather than smuggled in by tradition-laden phrasing. 2 Tim 3:12 supplies the universal pantes and the future diochthesontai, and 1 Pet 4:12 supplies the explicit denial that such trial is strange, so the proposition can be tested directly on the words. The qualifier in this age carries a mild eschatological framing but does not preload the verdict, since the texts locate the persecution in the present experience of believers."
+  },
+  "lay_summary": "The anchor verses present persecution and suffering for Christ as the expected experience of those who follow him, not as a rare exception. The clearest single statement is 2 Timothy 3:12, where Paul says that all who want to live a godly life in Christ Jesus will be persecuted. The word all leaves out no group, and the verb is a plain future, will be persecuted, so the text ties hostility directly to the desire to live godly in Christ. In John 15:20 Jesus reasons from himself to his followers. If they persecuted me, they will also persecute you, and a servant is not greater than his master, so the disciples' persecution follows from his own. John 15:18 has already framed the world's hatred of the disciples as flowing from its earlier hatred of Christ. In the Beatitudes, Matthew 5:10-12, Jesus calls the persecuted blessed and tells them to rejoice and be glad, because the prophets before them were persecuted in the same way, which sets their experience in a long line rather than treating it as strange. First Peter 4:12 is explicit on the point of expectation. Do not be surprised at the fiery trial among you, as though something strange were happening to you. Peter then calls suffering a sharing in the sufferings of Christ, says the one who suffers as a Christian should not be ashamed but glorify God, and speaks of those who suffer according to the will of God. Paul widens the picture in Philippians 1:29 by saying that suffering for Christ has been granted as a gift alongside faith, and Acts 14:22 says it is through many tribulations that we enter the kingdom of God, attaching necessity to the path. One verse that could seem to qualify the claim, First Peter 4:15, warns against suffering as a wrongdoer, but the very next verse contrasts that with suffering as a Christian, narrowing the kind of suffering in view rather than denying the expectation. The text-level verbs are dense and repeat across many books. The word for persecute occurs in around forty five places across the Gospels, Acts, Paul, Hebrews, Peter, and Revelation, and the word for suffer in about forty more, so the pattern is not local to one writer. Taken together the words present persecution and suffering as a normal and foreseen part of following Christ in the present age, and the verdict affirms the proposition with strong and consistent support.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Tim.3.12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1377"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3579"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3958"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.15.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.5.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.5.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "1Pet.4.12"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, non-commercial and not redistributable in bulk, and SBLGNT-text is under the SBLGNT-EULA, also not redistributable in bulk. Because these two sources were used for the Greek morphology, syntax, and text, the aggregate evidence is not safe to publish."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

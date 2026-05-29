@@ -1,0 +1,575 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-final-judgment",
+  "question_id": "doc-final-judgment",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The judgment word-group krino (G2919, 115 NT occurrences), krisis (G2920, 48), and krima (G2917, 27) recurs across Gospels, Acts, epistles, and apocalyptic. Acts 17:31 sets a fixed day, mellei krinein the inhabited world by an appointed man whom God raised; Heb 9:27 makes apothanein hapax then krisis the human sequence; Rev 20:12-13 reads ekrithesan twice with kata ta erga as the standard. Two outcomes are lexically explicit and grammatically symmetrical: Matt 25:46 attaches one adjective aionios (G0166) to both kolasin (G2851) and zoen (G2222) in a single sentence, and Rom 2:7-9 pairs zoen aionion with orge kai thymos. Universality is carried by pantas (2 Cor 5:10), panta ta ethne (Matt 25:32), tois anthropois (Heb 9:27), and the OT pattern of shafat (H8199, 184 occurrences) judging all the earth. The verdict holds; the anchor lemmas span both testaments."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2920",
+        "lemma": "κρίσις",
+        "transliteration": "krisis",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2917",
+        "lemma": "κρίμα",
+        "transliteration": "krima",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2851",
+        "lemma": "κόλασις",
+        "transliteration": "kolasis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4442",
+        "lemma": "πῦρ",
+        "transliteration": "pyr",
+        "occurrences_in_canon": 72,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 176,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0968",
+        "lemma": "βῆμα",
+        "transliteration": "bema",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3498",
+        "lemma": "νεκρός",
+        "transliteration": "nekros",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0975",
+        "lemma": "βιβλίον",
+        "transliteration": "biblion",
+        "occurrences_in_canon": 35,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1538",
+        "lemma": "ἕκαστος",
+        "transliteration": "hekastos",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1263,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2596",
+        "lemma": "κατά",
+        "transliteration": "kata",
+        "occurrences_in_canon": 477,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8199",
+        "lemma": "שָׁפַט",
+        "transliteration": "shafat",
+        "occurrences_in_canon": 184,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2919",
+      "G2920",
+      "G2917",
+      "G0166",
+      "G2222",
+      "G2851",
+      "G4442",
+      "G2041",
+      "G0968",
+      "G3498",
+      "G0975",
+      "G1538",
+      "G3956",
+      "G2596",
+      "G1391",
+      "H8199",
+      "H6663"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.25.46",
+        "key_terms": [
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιον"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωὴν"
+          },
+          {
+            "strong": "G2851",
+            "lemma": "κόλασιν"
+          }
+        ],
+        "force": "The verse closes the throne scene with two destinations in strict grammatical balance: kai apeleusontai houtoi eis kolasin aionion, hoi de dikaioi eis zoen aionion. The same adjective aionios (G0166) modifies both kolasin (G2851, punishment) and zoen (G2222, life). A canon-wide query shows aionios pairs with zoe in more than thirty verses and pairs with pyr in three places (Matt 18:8, Matt 25:41, Jude 7), but pairs with kolasis only here. The contrast is binary, the righteous (dikaioi) against the cursed of the preceding verses, with no third outcome named.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.12",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "ἐκρίθησαν"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργα"
+          },
+          {
+            "strong": "G0975",
+            "lemma": "βιβλία"
+          }
+        ],
+        "force": "The dead, great and small, stand before the throne and biblia were opened, and ekrithesan hoi nekroi ek ton gegrammenon en tois bibliois kata ta erga auton. The aorist passive ekrithesan (from krino G2919) names a completed judgment act, and kata ta erga fixes the standard as deeds. Verse 15 then assigns those not found written in the book of life to the lake of fire, the lexical pairing of records with outcome. The same root recurs in Rev 20:13 (ekrithesan), tying the throne sequence into a single judgment cluster.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.17.31",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνειν"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶσιν"
+          },
+          {
+            "strong": "G3498",
+            "lemma": "νεκρῶν"
+          }
+        ],
+        "force": "God set a day (hemeran) in which he is about to judge (mellei krinein, G2919) the oikoumene in righteousness by a man whom he appointed (horisen), having given assurance to all (pasin) by raising him ek nekron. The judging agent is a designated man tied to resurrection, the scope is the inhabited world, and the standard is dikaiosyne. This supplies the agency and universality of the proposition. The grammar holds the appointed day and the appointed man together in a single divine act.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.27",
+        "key_terms": [
+          {
+            "strong": "G2920",
+            "lemma": "κρίσις"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἀνθρώποις"
+          }
+        ],
+        "force": "Kath hoson apokeitai tois anthropois hapax apothanein, meta de touto krisis. The clause sets a fixed sequence for human beings (tois anthropois, dative of reference): once to die, and after this krisis (G2920, judgment). The single death is matched by a single subsequent judgment, with no qualifier limiting it to one class of person. The adverb hapax (once) is paralleled in v.28 with Christ offered hapax, so the literary frame locks one death and one judgment to one offering.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.10",
+        "key_terms": [
+          {
+            "strong": "G0968",
+            "lemma": "βήματος"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντας"
+          },
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          }
+        ],
+        "force": "Tous gar pantas hemas dei phanerothenai emprosthen tou bematos tou Christou, hina komisetai hekastos ta dia tou somatos pros ha epraxen, eite agathon eite phaulon. The bema (G0968, judgment seat, 12 NT occurrences mostly in Acts judicial scenes plus Rom 14:10) is explicitly tou Christou, the subjects are tous pantas (all of us), and recompense is per individual (hekastos) according to deeds done, sorted agathon against phaulon. This grounds Christ as judge and the per-person, deed-indexed character of the assessment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.2.6",
+        "key_terms": [
+          {
+            "strong": "G1538",
+            "lemma": "ἑκάστῳ"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργα"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατὰ"
+          }
+        ],
+        "force": "Hos apodosei hekasto kata ta erga autou, then verses 7-9 unfold the two outcomes: to those persevering in good work, zoen aionion; to the self-seeking who disobey the truth, orge kai thymos, thlipsis kai stenochoria. Verse 11 closes with ou gar estin prosopolempsia para to theo, no partiality, and v.16 names the day God judges the secrets of men dia Christou Iesou. The lexical frame is render-to-each, two destinies, impartial standard, with Christ as the operative agent.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eccl.12.14",
+        "key_terms": [
+          {
+            "strong": "H4941",
+            "lemma": "מִשְׁפָּט"
+          }
+        ],
+        "force": "Ki et kol-maaseh ha-Elohim yavi ve-mishpat al kol-ne'lam. The verse closes Qoheleth with God bringing every work into mishpat (H4941, judgment), including every hidden thing. The scope marker kol (every) twice and the parallel to ergon in Rev 20:12 and 2 Cor 5:10 establishes the deed-indexed comprehensive judgment in the OT terms the NT then carries forward.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Dan.7.10",
+        "key_terms": [
+          {
+            "strong": "H1780",
+            "lemma": "דִּין"
+          }
+        ],
+        "force": "Dina yetiv ve-sifrin petichu. A judgment court (dina, Aramaic) was seated and books (sifrin) were opened before the Ancient of Days. The pairing of throne, court, and opened books is the lexical template Rev 20:11-12 reuses (thronos, biblia eneochthesan, ekrithesan), so the apocalyptic judgment scene is not a NT innovation but a canonical pattern.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rev.20.12",
+        "to": "Dan.7.10",
+        "source": "tsk",
+        "votes": 3
+      },
+      {
+        "from": "Rev.20.12",
+        "to": "Eccl.12.14",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Rom.2.11",
+        "to": "Deut.10.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.2.9",
+        "to": "Ezek.18.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.10",
+        "to": "Gen.18.25",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "2Cor.5.10",
+        "to": "Rom.14.10",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "Heb.9.27",
+        "to": "Gen.3.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.25.46",
+        "to": "Dan.12.2",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "Acts.17.31",
+        "to": "Ps.96.13",
+        "source": "tsk",
+        "votes": 2
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.25.46",
+        "addressed": true,
+        "resolution": "The noun kolasis (G2851) is a hapax in this judgment sense (only 2 NT occurrences, here and 1 John 4:18 where it means the inward dread of an unloving heart), so its lexical range cannot be triangulated from canonical use alone. A reading that presses kolasis toward remedial correction rather than retributive punishment relies on extra-canonical Greek usage. The grammar inside the verse resists that move because aionios (G0166) modifies kolasin and zoen identically in the same sentence, and a canon-wide query shows aionios habitually attaches to zoe (more than thirty pairings) as a positive durational term, so whatever durational weight the adjective gives to life it gives to the penalty. The symmetry is load-bearing."
+      },
+      {
+        "ref": "2Cor.5.10",
+        "addressed": true,
+        "resolution": "The bema (G0968) language differs from the great white throne language of Rev 20:11-15. One reading takes the bema of 2 Cor 5:10 and Rom 14:10 as a believer-only assessment of works distinct from a separate general judgment of the dead; another reading takes the lexical material as one judgment described from different angles. The lexicon presents bema in Acts as a generic judicial dais and reserves thronos for Rev 20, but neither term lexically requires that the events be one or two. This is a sequencing question the vocabulary underdetermines, and the verdict on agent, scope, and two outcomes holds either way."
+      },
+      {
+        "ref": "Acts.17.31",
+        "addressed": true,
+        "resolution": "The proposition says Christ judges at his return, but Acts 17:31 names a set day (hemeran) and an appointed man without explicitly fusing the judging day to the parousia event. The cited NT data establishes Christ as the appointed judge and a comprehensive judgment but does not by itself collapse every judgment text to one moment. This is noted in the stem audit; the core claim of agency, universality, and two outcomes is unaffected."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The anchor verses sit outside the ECM-published window (3 John 1.1 to 1.15). The SBLGNT apparatus marks minor sigla at Rev.20.11 (epi epi tou prosopou autou ordering) and Matt.25.31 (article variants), and TR readings at Rev.20.12 vary on the genitive of biblos, but none of the recorded variant units touches the operative lexemes krino, krisis, krima, aionios, kolasis, ergon, or bema, nor the binary clause structure of Matt 25:46. The verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "two-stage-judgment",
+      "single-general-judgment",
+      "annihilationism",
+      "universalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "two-stage-judgment",
+        "verdict": "compatible",
+        "rationale": "A reading that distinguishes the bema of 2 Cor 5:10 and Rom 14:10 as a believer-specific assessment from the throne of Rev 20:11-15 as the judgment of the dead takes the differing terminology (bema vs thronos) and differing subject markers (pantas hemas in 2 Cor vs hoi nekroi in Rev 20) as lexical signals of two events. The vocabulary permits this distinction but does not compel it."
+      },
+      {
+        "framework": "single-general-judgment",
+        "verdict": "compatible",
+        "rationale": "A reading that takes Matt 25:31-46, Rev 20:11-15, 2 Cor 5:10, Acts 17:31, and Heb 9:27 as different descriptions of one event leans on the shared krino word-group, the shared kata ta erga standard, and the shared universal scope (pantes, panta ta ethne, tois anthropois). The vocabulary permits this fusion but does not compel it either, since bema and thronos are not interchangeable in their other NT occurrences."
+      },
+      {
+        "framework": "annihilationism",
+        "verdict": "weakly-complicates",
+        "rationale": "A reading that takes the second death and lake of fire as cessation of being rather than ongoing conscious penalty leans on apoleia and apothnesko language. The parallel grammar of Matt 25:46, where one aionios modifies both clauses, is the main lexical pressure against this reading: whatever durational sense aionios gives the dikaioi it gives the kolasis."
+      },
+      {
+        "framework": "universalism",
+        "verdict": "complicates",
+        "rationale": "A reading that takes kolasis as remedial correction culminating in restoration relies on the extra-canonical sense of kolasis as discipline. The canonical data (only 2 NT occurrences of kolasis) cannot triangulate this sense, and the grammar of Matt 25:46 attaches the same aionios to both clauses, which the universalist reading must then construe non-symmetrically."
+      }
+    ],
+    "notes": "Each text is read for its own grammar first, then the shared word-group (krino, krisis, krima, aionios, kata ta erga) and the repeated two-destination structure are compared across the canon. OT cross-references (Dan 7:10 books opened, Gen 18:25 the Judge of all the earth, Eccl 12:14 every work into judgment) show the pattern is not novel to the NT. The two competing event-structures (one judgment vs two judgments) are recorded symmetrically; the verdict on agent, scope, and outcome does not depend on resolving them."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Christ judges all people, assigning two outcomes, eternal life and eternal punishment, on a deed-indexed and impartial standard.",
+    "notes": "The stem phrase 'at his return' fuses the timing of judgment with the second advent. The lexical data names Christ or an appointed man as judge (Acts 17:31, 2 Cor 5:10, Rom 2:16), a comprehensive scope, and two outcomes, but the cited texts do not uniformly pin the judgment to a single return-event. Rev 20 sits in a distinct narrative slot after the millennium in the Apocalypse sequence, and 2 Cor 5:10 uses bema not thronos. The verdict was derived on the original stem; the temporal clause is flagged so the affirmation rests on agent, scope, and outcome rather than on a contested chronology. Audited anchors: krino (G2919), krisis (G2920), krima (G2917), bema (G0968), aionios (G0166), kolasis (G2851), and the Rev 20 throne scene."
+  },
+  "lay_summary": "The Greek behind these passages lines up tightly. Three related judgment words carry the weight: krino (the verb, 115 occurrences), krisis (the noun, 48), and krima (a related noun, 27). Acts 17:31 says God will judge, krinein, the whole inhabited world in righteousness through a man he appointed and certified by raising him from the dead. Hebrews 9:27 sets a plain sequence for human beings: once to die, and after that krisis, judgment. Revelation 20:12 and 13 use the same verb in the aorist passive, ekrithesan, the dead were judged, and twice adds the standard, according to their works. So the texts agree on who judges, that it reaches everyone, and that deeds are the measure. The Old Testament supplies the same pattern with the Hebrew verb shafat and the noun mishpat (Ecclesiastes 12:14 says God brings every work into judgment; Daniel 7:10 places the court and the opened books before the Ancient of Days). The two outcomes are also explicit and balanced. Matthew 25:46 ends the throne scene with a single sentence holding two destinations side by side: these go away into eternal punishment, but the righteous into eternal life. One and the same adjective, aionios, modifies both punishment and life, so whatever lasting force it gives the reward it gives the penalty. Romans 2:6 to 9 repeats the shape: God renders to each according to his works, eternal life for the patient in good, but wrath and distress for the self-seeking, and verse 11 caps it with no partiality. Second Corinthians 5:10 names the seat itself, the bema of Christ, before which all of us must appear so that each may receive according to what he has done, whether good or bad. Two places of real lexical underdetermination are worth naming, because they explain divergence among careful readers. First, the word kolasis appears only twice in the New Testament (Matthew 25:46 and 1 John 4:18), so its sense cannot be triangulated from canonical use alone, which is the seam where a softer corrective reading tries to enter; the parallel grammar of Matthew 25:46 holds the two outcomes together. Second, Paul uses bema (judgment seat) of Christ in 2 Corinthians 5:10 and Romans 14:10, while Revelation 20 uses thronos (throne) for the judgment of the dead, and the vocabulary does not by itself decide whether these describe one event from two angles or two distinct events. The agent, the scope, and the two outcomes are lexically secure; the timing and event-count are where the words leave room.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0166"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2920"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2919"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2851"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0968"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8199"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4941"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.5.10"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rev.20.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "interlinear",
+      "source": "Nestle1904-text",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.9.27"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eccl.12.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "Nestle1904-text",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "One source is non-redistributable in bulk: MACULA-Greek under CC-BY-NC-4.0. It was used because the MACULA-Greek syntax layer carries the bema clause structure of 2 Cor 5:10 and the symmetric two-destination clause structure of Matt 25:46, which is load-bearing for the verdict, so the aggregate is not safe to bulk-publish."
+  },
+  "flags": []
+}

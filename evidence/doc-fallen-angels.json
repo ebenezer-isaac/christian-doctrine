@@ -1,0 +1,591 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-fallen-angels",
+  "question_id": "doc-fallen-angels",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Three independent NT texts directly attach sin and rebellion vocabulary to angeloi and pair it with judicial confinement. 2 Pet 2:4 uses hamartesanton (aorist active participle of G0264) of angeloi and the verb tartaroo (G5020, a NT hapax) describes God casting them into zophos (G2217). Jude 6 in parallel uses me teresantas of their archen and apolipontas (G0620) of their oiketerion, with the result that they are kept in aidios desmos (G0126 plus G1199) under zophos eis krisin. Matt 25:41 names eternal fire prepared for the diabolos and tois angelois autou, and Rev 12:7-9 narrates polemos in heaven in which ho drakon and his angeloi are cast down. The lexical pattern spans gospel, epistle, and apocalyptic and the grammar is not ambiguous: sin and abandonment are predicated of angelic subjects."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0620",
+        "lemma": "ἀπολείπω",
+        "transliteration": "apoleipo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2217",
+        "lemma": "ζόφος",
+        "transliteration": "zophos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0126",
+        "lemma": "ἀΐδιος",
+        "transliteration": "aidios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1199",
+        "lemma": "δεσμός",
+        "transliteration": "desmos",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1228",
+        "lemma": "διάβολος",
+        "transliteration": "diabolos",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 71,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1404",
+        "lemma": "δράκων",
+        "transliteration": "drakon",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4170",
+        "lemma": "πολεμέω",
+        "transliteration": "polemeo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2032",
+        "lemma": "ἐπουράνιος",
+        "transliteration": "epouranios",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0744",
+        "lemma": "ἀρχαῖος",
+        "transliteration": "archaios",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2920",
+        "lemma": "κρίσις",
+        "transliteration": "krisis",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5020",
+        "lemma": "ταρταρόω",
+        "transliteration": "tartaroo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3789",
+        "lemma": "ὄφις",
+        "transliteration": "ophis",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4567",
+        "lemma": "Σατανᾶς",
+        "transliteration": "Satanas",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2888",
+        "lemma": "κοσμοκράτωρ",
+        "transliteration": "kosmokrator",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidomi",
+        "occurrences_in_canon": 123,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0264",
+      "G0620",
+      "G2217",
+      "G0126",
+      "G1199",
+      "G1228",
+      "G0166",
+      "G1404",
+      "G4170",
+      "G1849",
+      "G2032",
+      "G0744",
+      "G2920",
+      "G5020",
+      "G3789",
+      "G4567",
+      "G2888",
+      "G3860"
+    ],
+    "scripture": [
+      {
+        "ref": "2Pet.2.4",
+        "key_terms": [
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτησάντων"
+          },
+          {
+            "strong": "G5020",
+            "lemma": "ταρταρώσας"
+          },
+          {
+            "strong": "G2217",
+            "lemma": "ζόφου"
+          },
+          {
+            "strong": "G2920",
+            "lemma": "κρίσιν"
+          },
+          {
+            "strong": "G3860",
+            "lemma": "παρέδωκεν"
+          }
+        ],
+        "force": "The aorist active participle hamartesanton predicates sin directly of angeloi. The main verb chain runs ouk ephesato, alla tartarosas paredoken eis krisin teroumenous (did not spare, but having cast into Tartarus handed over to be kept for judgment). The participle tartarosas is from tartaroo (G5020), a NT hapax used here only, which makes the verse a lexical fingerprint rather than a generic image, and the entire grammar predicates the sin to the angelic subject without ambiguity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jude.1.6",
+        "key_terms": [
+          {
+            "strong": "G0620",
+            "lemma": "ἀπολιπόντας"
+          },
+          {
+            "strong": "G0126",
+            "lemma": "ἀϊδίοις"
+          },
+          {
+            "strong": "G1199",
+            "lemma": "δεσμοῖς"
+          },
+          {
+            "strong": "G2217",
+            "lemma": "ζόφον"
+          },
+          {
+            "strong": "G2920",
+            "lemma": "κρίσιν"
+          }
+        ],
+        "force": "Angeloi who me teresantas (did not keep) their own arche (domain) but apolipontas (G0620, having abandoned) their proper oiketerion are now held in aidios desmos (G0126 plus G1199, everlasting bonds) under zophos eis krisin megales hemeras (for the judgment of the great day). Two complementary participles describe a willful failure to keep and a positive abandonment of station, followed by penal confinement. The judicial vocabulary (krisis, desmos, tetereken) is unmistakable, and aidios (G0126) occurs in the NT only here and Rom 1:20 (of God's eternal power), so its sense here is calibrated against that controlled pair.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.25.41",
+        "key_terms": [
+          {
+            "strong": "G1228",
+            "lemma": "διαβόλῳ"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιον"
+          }
+        ],
+        "force": "The aionios fire is hetoimasmenon (perfect passive participle, prepared) toi diabolo kai tois angelois autou (for the devil and his angeloi). The possessive autou attaches a body of angeloi to the diabolos as their chief and assigns them his appointed end. Christ himself speaks the line, giving the proposition pan-canonical reach beyond the epistles.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.12.7",
+        "key_terms": [
+          {
+            "strong": "G4170",
+            "lemma": "πολεμῆσαι"
+          },
+          {
+            "strong": "G1404",
+            "lemma": "δράκοντος"
+          }
+        ],
+        "force": "Egeneto polemos en toi ourano (there was war in heaven). Michael kai hoi angeloi autou tou polemesai meta tou drakontos, kai ho drakon epolemesen kai hoi angeloi autou (Michael and his angeloi to make war with the dragon, and the dragon fought and his angeloi). The grammar gives the drakon a parallel possessive cohort (hoi angeloi autou) symmetrical with Michael's, presenting two organized angelic armies.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.12.8",
+        "key_terms": [
+          {
+            "strong": "G2480",
+            "lemma": "ἴσχυσεν"
+          },
+          {
+            "strong": "G2147",
+            "lemma": "εὑρέθη"
+          }
+        ],
+        "force": "Kai ouk ischusen, oude topos heurethe auton eti en toi ourano (and he did not prevail, nor was a place found for them any longer in heaven). The third person singular ischusen subject is the drakon, while auton is the genitive plural of the dragon's group, jointly losing place in heaven. The construction makes the dragon and his angeloi a single defeated party.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.12.9",
+        "key_terms": [
+          {
+            "strong": "G1404",
+            "lemma": "δράκων"
+          },
+          {
+            "strong": "G0744",
+            "lemma": "ἀρχαῖος"
+          },
+          {
+            "strong": "G3789",
+            "lemma": "ὄφις"
+          },
+          {
+            "strong": "G1228",
+            "lemma": "Διάβολος"
+          },
+          {
+            "strong": "G4567",
+            "lemma": "Σατανᾶς"
+          }
+        ],
+        "force": "Eblethe ho drakon ho megas, ho ophis ho archaios, ho kaloumenos Diabolos kai ho Satanas (the great dragon was cast down, the ancient serpent, the one called Devil and Satan). Four labels are explicitly equated by appositional articles: drakon, ophis archaios, Diabolos, Satanas. Kai hoi angeloi autou met autou eblethesan (and his angeloi were cast down with him). The text identifies one antagonist by four lexical handles and assigns him a co-cast cohort of angeloi.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.6.12",
+        "key_terms": [
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσίας"
+          },
+          {
+            "strong": "G2032",
+            "lemma": "ἐπουρανίοις"
+          },
+          {
+            "strong": "G2888",
+            "lemma": "κοσμοκράτορας"
+          }
+        ],
+        "force": "Ouk estin hemin he pale pros haima kai sarka, alla pros tas archas, pros tas exousias, pros tous kosmokratoras tou skotous toutou, pros ta pneumatika tes ponerias en tois epouraniois. Four prepositional phrases enumerate hostile spirit categories with kosmokrator (G2888) a NT hapax. The phrase en tois epouraniois places them in a heavenly sphere, lexically aligned with the angeloi described elsewhere as cast from heaven, but the verse does not itself name them angeloi, so it corroborates rather than carries the verdict.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Pet.2.4",
+        "to": "2Pet.2.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.2.4",
+        "to": "Isa.14.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.2.4",
+        "to": "Job.4.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.25.41",
+        "to": "Matt.7.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.12",
+        "to": "Eph.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.12.9",
+        "to": "Rev.9.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.12.9",
+        "to": "Rev.20.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.12.9",
+        "to": "Job.1.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.12.7",
+        "to": "Rev.13.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Isa.14.12",
+        "addressed": true,
+        "resolution": "The Hebrew heylel ben shachar (H1966) is a Hebrew hapax, found only here. The immediate context (Isa 14:4) addresses a mashal against the melek Babel (king of Babylon). The lexical evidence for an angelic-fall reading depends on identifying the king as a cipher for Satan, which the words alone do not force. The verdict on doc-fallen-angels does not rest on Isa 14. It rests on the explicit NT vocabulary in 2 Pet 2:4, Jude 6, Matt 25:41, and Rev 12:7-9, which name angelic subjects directly."
+      },
+      {
+        "ref": "Ezek.28.12",
+        "addressed": true,
+        "resolution": "The qinah is addressed melek tsor (to the king of Tyre) in the immediate framing, with cherub-imagery and Eden language complicating the referent. The lexical material does not by itself rank a primary angelic referent over the human king. Like Isa 14, it is treated as corroborative at most. The verdict carries on the explicit NT predications, not on this disputed OT layer."
+      },
+      {
+        "ref": "Job.4.18",
+        "addressed": true,
+        "resolution": "Eliphaz says God charges his angels with toholah (folly or error). The speaker is a friend of Job whose theology is later challenged by God in Job 42:7, so the verse is unsafe to use as standalone doctrine. It is invoked here only as a cross-reference, not as a load-bearing anchor."
+      },
+      {
+        "ref": "Eph.6.12",
+        "addressed": true,
+        "resolution": "Eph 6:12 names archai, exousiai, kosmokratoras, and pneumatika tes ponerias, but does not call them angeloi or assert their origin in a fall. It is suggestive of organized hostile spirit-powers in the heavenly places, and corroborates the existence of an arrayed adversary, but the angelic-fall claim itself is carried by 2 Pet 2:4, Jude 6, Matt 25:41, and Rev 12:7-9 where angeloi is on the page."
+      },
+      {
+        "ref": "Gen.6.2",
+        "addressed": true,
+        "resolution": "The phrase bene ha-elohim (sons of God) taking benoth ha-adam (daughters of men) is read by some as an early angelic fall narrative, partly because of Jude 6 and 7 juxtaposition. The Hebrew bene ha-elohim is ambiguous lexically: it is used of angelic beings in Job 1:6 and Job 2:1 but also of Sethite human descent in older readings. The verdict does not depend on resolving Gen 6:2, only on the explicit NT predications, so the ambiguity is noted and left as a complicating text."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "2Pet.2.4",
+        "variant_id": "seirais-vs-sirois",
+        "verdict_impact": "none",
+        "note": "Some manuscripts read seirais (chains, G4577) while others read sirois (pits, related to seiros). G4577 is a NT hapax found only at 2 Pet 2:4 either way. Whether chains or pits, the construction kept reserved eis krisin remains and the predication of sin to angeloi is untouched, so the variant does not move the verdict."
+      },
+      {
+        "ref": "Rev.12.7",
+        "variant_id": "rev-12-7-word-order",
+        "verdict_impact": "none",
+        "note": "Minor word-order differences in the war-in-heaven clause do not affect the two parallel possessive cohorts (Michael and his angeloi, the dragon and his angeloi) nor the casting-down result in Rev 12:9. The verdict holds across the variant readings."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "These verses fall outside the ingested ECM scope (the only ingested ECM window is 3 John 1:1 to 1:15). The verdict-relevant readings are stable across the standard NT critical texts."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "Direct predication of hamartano to angeloi in 2 Pet 2:4, plus me teresantas and apolipontas of their arche and oiketerion in Jude 6, grammatically assert angelic sin and abandonment of station. Rev 12:7-9 narrates the drakon and his angeloi cast down, and Matt 25:41 has aionios fire prepared for the devil and his angeloi. The grammar does not leave room for a metaphorical reading without violating the cited subjects."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "Across the canon the ancient serpent of Gen 3 is identified as the drakon, ophis archaios, Diabolos, and Satanas in Rev 12:9, and the eternal fire of Matt 25:41 is prepared for the devil and his angeloi, tracing an arc of angelic rebellion and reserved judgment that closes in Rev 20:10."
+      },
+      {
+        "framework": "minimalist-mythopoetic",
+        "verdict": "complicates",
+        "rationale": "A minority reading takes the drakon and his angeloi in Rev 12 as imagery for human-political opposition (Roman empire, persecutors) and treats 2 Pet 2:4 and Jude 6 as drawing on intertestamental Watchers tradition (1 Enoch, frequently quoted in Jude) rather than asserting a literal angelic fall. On this reading the texts attest a tradition rather than ratify it. The reading is lexically defensible only by demoting hamartesanton, apolipontas, and the explicit angeloi subjects to figurative use, which the genre alone (apocalyptic for Rev 12) does not require for the epistles. The verdict does not adopt this lens but represents it fairly."
+      }
+    ],
+    "notes": "The proposition is reachable by ordinary grammatical sense of the cited verbs. The redemptive-historical reading reinforces it. The minimalist reading is included to represent the minority lens fairly, but it requires reclassifying explicit predication as figurative, which the lexical material does not compel."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem describes a portion of angels falling into rebellion under Satan and now being demons opposed to God. The components angelic sin (2 Pet 2:4, Jude 6), a chief adversary commanding them (Rev 12:7-9, Matt 25:41), and present opposition (Eph 6:12) are each tied to explicit lexical anchors, so the stem is descriptive rather than tradition-loaded. The further identification of these fallen angeloi specifically as demons (daimonion, G1140) is an inference from the wider witness rather than from the cited verses themselves, but it does not preload the verdict on angelic rebellion, which holds whether or not the demon equation is granted."
+  },
+  "lay_summary": "Several New Testament passages directly attach the language of sin and rebellion to angels and then describe their judgment in plain grammatical terms. In 2 Peter 2:4 the participle translated sinned (hamartesanton, from G0264) is predicated of angeloi, and the main verbs say God did not spare them but cast them into gloom (zophos), having handed them over to be kept for judgment. The verse uses tartaroo (G5020), a one-occurrence word found nowhere else in the New Testament, so the picture is locked to this one event rather than a generic image. Jude 6 runs parallel: angels who did not keep their own domain but abandoned (apolipontas, G0620) their proper dwelling are now held in everlasting (aidios) bonds under darkness for the judgment of the great day. Aidios appears in the New Testament only here and in Romans 1:20 of God's eternal power, so its sense here is calibrated against that one controlled pair, and the bonds are real. Matthew 25:41 has Jesus himself speak of eternal (aionios) fire prepared for the devil and his angels, where the possessive his attaches a body of angels to the chief adversary and assigns them his sentence. Revelation 12:7-9 narrates war (polemos) in heaven in which the dragon and his angels fight Michael and his angels, after which the great dragon, the ancient serpent called the devil and Satan, is cast down to earth with his angels. Four labels are explicitly equated for the same antagonist (dragon, ancient serpent, devil, Satan), and a co-cast cohort follows him. Ephesians 6:12 names organized hostile spirit-powers, the rulers, authorities, and world-rulers of this darkness in the heavenly places, corroborating the picture even though it does not itself call them angels. The vocabulary is consistent across gospel, epistle, and apocalyptic, the subjects are stated, and the grammar does not bend to a figurative reading without recategorizing explicit predication. Old Testament passages sometimes brought in (Isaiah 14 on the king of Babylon, Ezekiel 28 on the king of Tyre) address human kings in their immediate context, so they are treated as at most corroborative and the verdict does not depend on them. Variant readings in 2 Peter 2:4 (chains versus pits) and Revelation 12 word order do not touch the predication of sin to angels.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Pet.2.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jude.1.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.12.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0264"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5020"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0620"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0126"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2888"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jude.1.6"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.12.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.25.41"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rev.12.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rev.12.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

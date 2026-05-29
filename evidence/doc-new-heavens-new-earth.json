@@ -1,0 +1,765 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-new-heavens-new-earth",
+  "question_id": "doc-new-heavens-new-earth",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense and consistent across both Testaments. In Isaiah the participle bore (H1254, a verb whose subject in the Hebrew Bible is always God, 54 canon occurrences) governs shamayim chadashim (H8064 with H2319) and erets chadashah (H0776 with H2319), with Isa 66:22 adding the verb amad (H5975) to mark their enduring standing. The Greek matches: 2 Pet 3:13 reads kainous ouranous kai gen kainen with dikaiosyne katoikei, Rev 21:1 reads ouranon kainon kai gen kainen, and Rom 8:19-21 supplies he ktisis (G2937) eleutherothesetai, the same creation set free. The verdict is high-confidence on the proposition as stated. The renewal-versus-replacement nuance is real but lexically subordinate: it turns on whether kainos (G2537, 44x) signals qualitative renewal of the same kind or substitution by a different kind, and the canon supplies both directions of usage without forcing the choice."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H1254",
+        "lemma": "בָּרָא",
+        "transliteration": "bara",
+        "occurrences_in_canon": 54,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2319",
+        "lemma": "חָדָשׁ",
+        "transliteration": "chadash",
+        "occurrences_in_canon": 53,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8064",
+        "lemma": "שָׁמַיִם",
+        "transliteration": "shamayim",
+        "occurrences_in_canon": 421,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0776",
+        "lemma": "אֶרֶץ",
+        "transliteration": "erets",
+        "occurrences_in_canon": 2504,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5975",
+        "lemma": "עָמַד",
+        "transliteration": "amad",
+        "occurrences_in_canon": 524,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2142",
+        "lemma": "זָכַר",
+        "transliteration": "zakar",
+        "occurrences_in_canon": 232,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7223",
+        "lemma": "רִאשׁוֹן",
+        "transliteration": "rishon",
+        "occurrences_in_canon": 182,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2537",
+        "lemma": "καινός",
+        "transliteration": "kainos",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3501",
+        "lemma": "νέος",
+        "transliteration": "neos",
+        "occurrences_in_canon": 25,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3772",
+        "lemma": "οὐρανός",
+        "transliteration": "ouranos",
+        "occurrences_in_canon": 280,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2937",
+        "lemma": "κτίσις",
+        "transliteration": "ktisis",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosyne",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2730",
+        "lemma": "κατοικέω",
+        "transliteration": "katoikeo",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0553",
+        "lemma": "ἀπεκδέχομαι",
+        "transliteration": "apekdechomai",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0603",
+        "lemma": "ἀποκαραδοκία",
+        "transliteration": "apokaradokia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3928",
+        "lemma": "παρέρχομαι",
+        "transliteration": "parerchomai",
+        "occurrences_in_canon": 29,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3089",
+        "lemma": "λύω",
+        "transliteration": "luo",
+        "occurrences_in_canon": 44,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3824",
+        "lemma": "παλιγγενεσία",
+        "transliteration": "palingenesia",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0565",
+        "lemma": "ἀπέρχομαι",
+        "transliteration": "aperchomai",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2362",
+        "lemma": "θρόνος",
+        "transliteration": "thronos",
+        "occurrences_in_canon": 64,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1144",
+        "lemma": "δάκρυον",
+        "transliteration": "dakryon",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H1254",
+      "H2319",
+      "H8064",
+      "H0776",
+      "H5975",
+      "H2142",
+      "H7223",
+      "G2537",
+      "G3501",
+      "G3772",
+      "G2937",
+      "G1343",
+      "G2730",
+      "G0553",
+      "G0603",
+      "G3928",
+      "G3089",
+      "G3824",
+      "G0565",
+      "G2362",
+      "G1144",
+      "G0444"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.65.17",
+        "key_terms": [
+          {
+            "strong": "H1254",
+            "lemma": "בּוֹרֵא"
+          },
+          {
+            "strong": "H8064",
+            "lemma": "שָׁמַיִם"
+          },
+          {
+            "strong": "H2319",
+            "lemma": "חֲדָשִׁים"
+          },
+          {
+            "strong": "H0776",
+            "lemma": "אֶרֶץ"
+          },
+          {
+            "strong": "H7223",
+            "lemma": "הָרִאשֹׁנוֹת"
+          },
+          {
+            "strong": "H2142",
+            "lemma": "תִזָּכַרְנָה"
+          }
+        ],
+        "force": "The active participle bore (H1254), a verb whose only attested subject in the Hebrew Bible is God, takes a double object: shamayim chadashim (new heavens) and erets chadashah (new earth). The following clause uses welo tizzakarnah harishonot welo taalenah al-lev, the former things will not be remembered nor come up on the heart, foregrounding decisive newness. The ETCBC clause analysis tags this as a quotation clause with the standard subject-object pattern. The Hebrew poetic pairing of heavens and earth functions as a merism for the whole created order.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.66.22",
+        "key_terms": [
+          {
+            "strong": "H8064",
+            "lemma": "הַשָּׁמַיִם"
+          },
+          {
+            "strong": "H2319",
+            "lemma": "הַחֲדָשָׁה"
+          },
+          {
+            "strong": "H0776",
+            "lemma": "הָאָרֶץ"
+          },
+          {
+            "strong": "H5975",
+            "lemma": "עֹמְדִים"
+          }
+        ],
+        "force": "hashamayim hachadashim wehaarets hachadashah, the new heavens and the new earth, are said to stand (omedim, H5975 participle) before YHWH, with the verb amad carrying the sense of enduring permanence in cultic and covenantal contexts. The kaasher . . . ken construction ties the permanence of the new creation to the permanence of the seed and name of God's people, framing them as joint, lasting realities.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.13",
+        "key_terms": [
+          {
+            "strong": "G2537",
+            "lemma": "καινούς"
+          },
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανούς"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G2730",
+            "lemma": "κατοικεῖ"
+          }
+        ],
+        "force": "kainous ouranous kai gen kainen, new heavens and a new earth, are awaited kata to epangelma autou, according to his promise, with the verb prosdokomen (present indicative) describing ongoing expectation. The relative clause en hois dikaiosyne (G1343) katoikei uses the present indicative katoikei (G2730), the standard verb for settled habitation, to fix righteousness as the abiding character of that realm. The selection of kainos (G2537), the adjective the canon reserves for qualitatively-fresh items (new covenant Heb 8:13, new creation 2 Cor 5:17, new self Eph 4:24), rather than neos (G3501) which mostly marks young-in-time items, signals the kind of newness intended.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.10",
+        "key_terms": [
+          {
+            "strong": "G3089",
+            "lemma": "λυθήσεται"
+          },
+          {
+            "strong": "G3928",
+            "lemma": "παρελεύσονται"
+          }
+        ],
+        "force": "ouranoi rhoizedon pareleusontai, the heavens will pass with a rushing noise, and stoicheia de kausoumena luthesetai, the elements will be dissolved with burning heat. The verb luo (G3089) in this passive future, applied to the stoicheia, can describe either disintegration of the existing order or its undoing for remaking. Parerchomai (G3928) here, the same root used in Matt 24:35 of heaven and earth passing, parallels apelthan in Rev 21:1. This is the principal lexical complication for the renewal reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.21.1",
+        "key_terms": [
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανὸν"
+          },
+          {
+            "strong": "G2537",
+            "lemma": "καινὸν"
+          },
+          {
+            "strong": "G2089",
+            "lemma": "ἔτι"
+          },
+          {
+            "strong": "G0565",
+            "lemma": "ἀπῆλθαν"
+          }
+        ],
+        "force": "eidon ouranon kainon kai gen kainen, the seer perceives a new heaven and a new earth, because ho gar protos ouranos kai he prote ge apelthan, the first heaven and the first earth have passed away (aorist of aperchomai G0565). The summary clause kai he thalassa ouk estin eti uses ouk plus eti to mark the absolute end of the sea as a feature of the prior order. The lexical pairing of qualitatively-new (kainos) with passed-away (apelthan) is the very pairing that drives the two competing readings.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.21.3",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεὸς"
+          },
+          {
+            "strong": "G3326",
+            "lemma": "μετ’"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἀνθρώπων"
+          },
+          {
+            "strong": "G2362",
+            "lemma": "θρόνου"
+          }
+        ],
+        "force": "A voice from the throne (thronou, G2362) declares idou he skene tou theou meta ton anthropon, behold the tabernacle of God is with men, and kai skenosei met auton, and he will tabernacle with them. The cognate skene-noun and skenoo-verb plus the doubled preposition meta (G3326) establish the new creation as the permanent shared habitation of God and the redeemed.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.21.4",
+        "key_terms": [
+          {
+            "strong": "G1144",
+            "lemma": "δάκρυον"
+          },
+          {
+            "strong": "G2089",
+            "lemma": "ἔτι"
+          },
+          {
+            "strong": "G0565",
+            "lemma": "ἀπῆλθαν"
+          }
+        ],
+        "force": "kai exaleipsei pan dakryon, and he will wipe away every tear, and ho thanatos ouk estai eti, oute penthos oute krauge oute ponos ouk estai eti, death, mourning, crying, pain will be no more, each negated with ouk or oute plus eti (G2089). The closing clause hoti ta prota apelthan, because the former things have passed away, mirrors Isaiah's harishonot, confirming the lexical bridge between the prophetic and apocalyptic descriptions.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.21.5",
+        "key_terms": [
+          {
+            "strong": "G2537",
+            "lemma": "καινὰ"
+          }
+        ],
+        "force": "The one seated on the throne declares idou kaina poio panta, behold I make all things new. The neuter plural kaina (G2537) ranges over panta, all things, and the present indicative poio describes the ongoing divine act. This is the decisive lexical statement of the verdict: the same created categories named throughout the canon are the things being made new, not different things substituted for them.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.19",
+        "key_terms": [
+          {
+            "strong": "G2937",
+            "lemma": "κτίσεως"
+          },
+          {
+            "strong": "G0553",
+            "lemma": "ἀπεκδέχεται"
+          },
+          {
+            "strong": "G0603",
+            "lemma": "ἀποκαραδοκία"
+          },
+          {
+            "strong": "G0602",
+            "lemma": "ἀποκάλυψιν"
+          }
+        ],
+        "force": "he apokaradokia tes ktiseos ten apokalypsin ton huion tou theou apekdechetai, the eager expectation of the creation awaits the revealing of the sons of God. apokaradokia (G0603) is a New Testament hapax-pair (only here and Phil 1:20), built from apo, kara, dokein, a craned-neck expectation. apekdechomai (G0553, 8 occurrences) carries the doubled prefix apo plus ek of straining forward. The grammar makes ktisis itself the subject of expectation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "personification"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.21",
+        "key_terms": [
+          {
+            "strong": "G2937",
+            "lemma": "κτίσις"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δόξης"
+          }
+        ],
+        "force": "hoti kai aute he ktisis eleutherothesetai apo tes douleias tes phthoras eis ten eleutherian tes doxes ton teknon tou theou, that the creation itself will be set free from the bondage of corruption into the freedom of the glory of the children of God. The future passive eleutherothesetai locates the deliverance of the same ktisis (G2937), not its replacement, at the eschatological revealing. This text is the load-bearing lexical argument for the renewal reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.28",
+        "key_terms": [
+          {
+            "strong": "G3824",
+            "lemma": "παλιγγενεσίᾳ"
+          }
+        ],
+        "force": "en te paliggenesia hotan kathise ho huios tou anthropou epi thronou doxes autou, in the regeneration when the Son of Man sits on the throne of his glory. paliggenesia (G3824) occurs only twice in the New Testament, here for cosmic re-genesis and Titus 3:5 for personal re-genesis. The compound palin plus genesis lexically signals a doing-again of genesis, supporting the continuity-through-renewal lens.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.43.19",
+        "key_terms": [
+          {
+            "strong": "H2319",
+            "lemma": "חֲדָשָׁה"
+          },
+          {
+            "strong": "H1254",
+            "lemma": "בָּרָא"
+          }
+        ],
+        "force": "hineni oseh chadashah, behold I am doing a new thing, an intra-Isaianic precedent for the new-heavens-new-earth promise. Here chadash (H2319) describes an act of YHWH that transforms an existing situation, a way in the wilderness and rivers in the desert, illustrating the renewal sense of the same root that recurs in Isa 65:17 and 66:22.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Pet.3.13",
+        "to": "Isa.65.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.66.22",
+        "to": "Isa.65.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.19",
+        "to": "Isa.65.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.4",
+        "to": "Rev.21.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.1",
+        "to": "Rev.21.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.4",
+        "to": "Rev.7.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.65.17",
+        "to": "Jer.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.5",
+        "to": "Isa.42.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.3",
+        "to": "Zech.8.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.4",
+        "to": "Isa.30.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.21.2",
+        "to": "Rev.3.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.20",
+        "to": "Rom.8.22",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Pet.3.10",
+        "addressed": true,
+        "resolution": "The dissolution language pareleusontai (G3928 parerchomai, pass away) and luthesetai (G3089 luo, be loosed or dissolved) applied to stoicheia (elements) can be read as annihilation rather than renewal. Lexically the same paragraph supplies the affirmative outcome at verse 13 (kainous ouranous kai gen kainen prosdokomen kata to epangelma autou), and the participle prosdokomen brackets verse 10 with verse 13 as one expectation. luo across its 44 canon occurrences ranges from untying sandals (John 1:27) to breaking down walls (Eph 2:14) to releasing prisoners (Acts 22:30), so the verb's semantics cover both dismantling-for-replacement and dismantling-for-remaking. The verdict on the proposition itself holds either way because verse 13 names what God brings about."
+      },
+      {
+        "ref": "Rev.21.1",
+        "addressed": true,
+        "resolution": "The clause ho protos ouranos kai he prote ge apelthan (aorist of aperchomai G0565) can be read as total ontological replacement. Three lexical considerations qualify but do not unseat the verdict: (1) kainos (G2537) is consistently chosen over neos (G3501), and across its 44 canon occurrences kainos clusters with renewal contexts (new covenant, new creature, new self) rather than substitution-by-different-substance, (2) Rom 8:21 keeps the subject he ktisis the same across phthora and eleutheria, and (3) Matt 19:28 paliggenesia (G3824) lexically encodes again-genesis of the existing order. The proposition that God creates new heavens and a new earth as the eternal home of the redeemed is affirmed on either lens; only the mode of continuity differs."
+      },
+      {
+        "ref": "Matt.24.35",
+        "addressed": true,
+        "resolution": "ho ouranos kai he ge pareleusetai, heaven and earth will pass away, uses the same parerchomai (G3928) as 2 Pet 3:10. In context the verb foregrounds the impermanence of the present cosmos relative to Christ's words (hoi de logoi mou ou me parelthosin), which is consistent with both renewal and replacement readings: the present order does not endure as it stands, and the proposition speaks of a new order God brings about. The verdict is unaffected."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited verses are outside the published CBGM scope (only 3 John is ECM-published in the ingested apparatus). No variant units in the bundle touch the anchor lexemes kainos, ouranos, ge, dikaiosyne, ktisis, bara, chadash, or amad. The text-critical variation around 2 Pet 3:10 (heurethesetai vs katakaesetai for the fate of the earth) does not change the lexical anchor kainous ouranous kai gen kainen in verse 13, so the verdict is variant-robust."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "renewal_reading",
+        "verdict": "affirms",
+        "rationale": "Reads kainos (G2537) as qualitative renewal of the same created kinds, weighs Rom 8:21 (aute he ktisis eleutherothesetai, the same creation set free) and Matt 19:28 paliggenesia as load-bearing for continuity, and treats the parerchomai and luo language as the undoing of corruption rather than annihilation of substance. On this lens new heavens and new earth are the transformed and liberated present order, which fully affirms the proposition."
+      },
+      {
+        "framework": "replacement_reading",
+        "verdict": "affirms",
+        "rationale": "Reads 2 Pet 3:10 luthesetai of the stoicheia and Rev 21:1 apelthan of the first heaven and first earth as decisive lexical signals for the abolition of the prior order, followed by a fresh creative act announced in Rev 21:5 idou kaina poio panta. Even on this lens the proposition that God creates new heavens and a new earth as the eternal home of the redeemed is fully affirmed. The lens reads kainos as marking the genuine novelty of the resulting order rather than dissolving the contrast with the old."
+      }
+    ],
+    "notes": "Both lenses converge on affirmation. The framework dispute does not destabilize the verdict; it only disambiguates the mode of continuity. Both readings are represented in their strongest lexical form so neither feels caricatured."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition states a future divine act and its character without smuggling a tradition-specific taxonomy. The phrase righteousness dwells tracks 2 Pet 3:13 (dikaiosyne katoikei) and eternal home of the redeemed tracks Rev 21:3 (skene tou theou meta ton anthropon). No rephrasing was needed."
+  },
+  "lay_summary": "The words across the Old and New Testaments line up tightly on this proposition. In Isaiah the verb bara, create, which the Hebrew Bible reserves for God alone, takes new heavens and a new earth as its objects, and the next line says the former things will not be remembered. Isaiah repeats the promise and says these new heavens and new earth will stand, that is endure, before the LORD. Peter writes that believers await new heavens and a new earth, adding the key clause in which righteousness dwells, with a present tense verb fixing righteousness as the abiding condition of that place. Revelation reports a new heaven and a new earth, with the first heaven and first earth having passed away and the sea no more, and the throne voice then announces I make all things new. Paul fills in the picture in Romans, where the whole creation groans and eagerly awaits being set free from decay into the freedom of the glory of the children of God. Read together these texts say one consistent thing. God will bring about new heavens and a new earth marked by righteousness and that is the lasting home of his redeemed people. Where readers diverge is on the mode of continuity, and the divergence comes from the words themselves. The Greek adjective kainos points to qualitative newness, fresh in kind, and is used elsewhere for new covenant and new creature, which suggests renewal of the same order. But the same paragraph in 2 Peter says the elements will be loosed or dissolved with heat, and Revelation says the first heaven and first earth passed away, which can read as outright replacement. The verb chosen for new in Hebrew, chadash, likewise carries both senses elsewhere, a new heart and a new covenant on the renewal side, a new cart and a new king on the chronological side, and context does not force the choice. So both a renewal lens and a replacement lens land on the same affirmation about what God does, with only the mode in dispute.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.65.17"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.66.22"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.65.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1254"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2319"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5975"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Pet.3.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.21.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.21"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2537"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3501"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2937"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3824"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3089"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.8.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Pet.3.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rev.21.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA (CC-BY-NC-4.0) and MACULA-Greek (CC-BY-NC-4.0) are non-commercial and treated by the license guard as non-redistributable for bulk publication. All other sources used are redistributable, so removing those two syntactic citations would flip this to safe."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

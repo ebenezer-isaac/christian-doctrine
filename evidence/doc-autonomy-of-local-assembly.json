@@ -1,0 +1,564 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-autonomy-of-local-assembly",
+  "question_id": "doc-autonomy-of-local-assembly",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.725,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Direct queries confirm the positive half of the proposition with grammatical precision. Each local body receives its own plurality of elders, distributively (Acts 14:23 χειροτονήσαντες πρεσβυτέρους G4245 plural with κατ' ἐκκλησίαν, Titus 1:5 πρεσβυτέρους κατὰ πόλιν), and the same plural cohort named πρεσβυτέρους in Acts 20:17 is renamed ἐπισκόπους G1985 in Acts 20:28, so elder and overseer are one office over one local flock, with Christ alone as ἀρχιποίμην G0750 (hapax, 1 Pet 5:4). What the lexicon does not establish is the negative claim of non-subordination. The very verb of Titus 1:5's local directive, διατάσσω G1299, is the verb Paul applies to all the churches at once in 1 Cor 7:17 (ἐν ταῖς ἐκκλησίαις πάσαις διατάσσομαι) and 1 Cor 16:1, and at Acts 16:4 binding decrees (δόγματα G1378, κεκριμένα G2919) from the Jerusalem assembly are delivered to the local churches κατὰ τὰς πόλεις to keep. Because ἐκκλησία G1577 itself denotes both the single local assembly and the one supra-local church, and the same authority vocabulary reaches both levels, the polity scope is materially contested and the verdict is recorded as disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklēsia",
+        "occurrences_in_canon": 114,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4245",
+        "lemma": "πρεσβύτερος",
+        "transliteration": "presbyteros",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1985",
+        "lemma": "ἐπίσκοπος",
+        "transliteration": "episkopos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4165",
+        "lemma": "ποιμαίνω",
+        "transliteration": "poimainō",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4168",
+        "lemma": "ποίμνιον",
+        "transliteration": "poimnion",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5500",
+        "lemma": "χειροτονέω",
+        "transliteration": "cheirotoneō",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistēmi",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0750",
+        "lemma": "ἀρχιποίμην",
+        "transliteration": "archipoimēn",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4850",
+        "lemma": "συμπρεσβύτερος",
+        "transliteration": "sympresbyteros",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2596",
+        "lemma": "κατά",
+        "transliteration": "kata",
+        "occurrences_in_canon": 477,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1299",
+        "lemma": "διατάσσω",
+        "transliteration": "diatassō",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1378",
+        "lemma": "δόγμα",
+        "transliteration": "dogma",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2634",
+        "lemma": "κατακυριεύω",
+        "transliteration": "katakyrieuō",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1577",
+      "G4245",
+      "G1985",
+      "G4165",
+      "G4168",
+      "G5500",
+      "G2525",
+      "G0750",
+      "G4850",
+      "G2596",
+      "G1299",
+      "G1378",
+      "G2919",
+      "G2634",
+      "G2819"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.14.23",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          },
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατά"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Queried morphology reads χειροτονήσαντες (G5500, aorist active participle) πρεσβυτέρους (G4245, accusative plural) κατ' ἐκκλησίαν (G2596 preposition, distributive in every church). The preposition κατά here is distributive, placing a plurality of elders in each individual congregation. The grammar secures local elder governance but is silent about any higher coordinating structure either way. χειροτονέω is rare: only one other genuine occurrence (2 Cor 8:19), where a man is chosen by the churches plural for the collection, so the appointment verb itself appears in a trans-local coordination setting too.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.14.23"
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          },
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατά"
+          },
+          {
+            "strong": "G1299",
+            "lemma": "διατάσσω"
+          },
+          {
+            "strong": "G4172",
+            "lemma": "πόλις"
+          }
+        ],
+        "force": "Titus is to καταστήσῃς (G2525, appoint) πρεσβυτέρους κατὰ πόλιν (G2596 plus G4172, city by city), the same distributive κατά as Acts 14:23, grounding a local plurality per town. Decisively, the verse states the appointment proceeds because Paul διεταξάμην (G1299, first person singular, I directed). The identical verb G1299 reappears in 1 Cor 7:17 directed at all the churches, so the very word that authorizes local elders is also the word for trans-local apostolic ordering. This is why the verse simultaneously supports local elders and complicates a strict no-external-authority reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Titus.1.5"
+      },
+      {
+        "ref": "Acts.20.17",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul summons the πρεσβυτέρους (G4245, accusative plural) of τῆς ἐκκλησίας (G1577, genitive singular) of one city, Ephesus. The plural elders are the standing leadership of a single local congregation, and that single local assembly is the addressed unit.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.20.17"
+      },
+      {
+        "ref": "Acts.20.28",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          },
+          {
+            "strong": "G4165",
+            "lemma": "ποιμαίνω"
+          },
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "The same men called πρεσβυτέρους in verse 17 are here named ἐπισκόπους (G1985, accusative plural), set in office by the Holy Spirit, charged to ποιμαίνειν (G4165) τὴν ἐκκλησίαν τοῦ θεοῦ over the ποιμνίῳ (G4168). Elder and overseer are grammatically one office, the same plural cohort under two titles, over one local flock. No higher human officer is named as the source of their charge; the Spirit and the God who purchased the church are. ἐπίσκοπος also appears as a plural in one city at Phil 1:1, reinforcing local plurality.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.20.28"
+      },
+      {
+        "ref": "1Pet.5.1",
+        "key_terms": [
+          {
+            "strong": "G4850",
+            "lemma": "συμπρεσβύτερος"
+          },
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          }
+        ],
+        "force": "Peter addresses elders as a συμπρεσβύτερος (G4850, a hapax, fellow elder), not as a ruling bishop above them. The compound levels the writer with the local elders rather than placing him over a graded hierarchy of them, which weighs against a single external bishop ruling congregations from above.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.5.1"
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4165",
+            "lemma": "ποιμαίνω"
+          },
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          },
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          }
+        ],
+        "force": "Elders are told ποιμάνατε (G4165) τὸ ἐν ὑμῖν ποίμνιον (G4168, the flock that is among you), ἐπισκοποῦντες (cognate of G1985, exercising oversight). The phrase that is among you locates the flock as their own immediate congregation, and the oversight verb again coincides with the elder noun in one office.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.5.2"
+      },
+      {
+        "ref": "1Pet.5.3",
+        "key_terms": [
+          {
+            "strong": "G2634",
+            "lemma": "κατακυριεύω"
+          },
+          {
+            "strong": "G2819",
+            "lemma": "κλῆρος"
+          },
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          }
+        ],
+        "force": "Elders are not to be κατακυριεύοντες τῶν κλήρων (G2634 plus G2819, lording it over those allotted) but τύποι, examples. κατακυριεύω is rare (G2634, four occurrences, twice of Gentile rulers in Mark 10:42 and Matt 20:25). The prohibition constrains the manner of governance but says nothing about its scope, so it neither establishes nor rules out trans-local structure.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.5.3"
+      },
+      {
+        "ref": "1Pet.5.4",
+        "key_terms": [
+          {
+            "strong": "G0750",
+            "lemma": "ἀρχιποίμην"
+          }
+        ],
+        "force": "Christ is the ἀρχιποίμην (G0750, Chief Shepherd, a hapax confirmed by direct query as occurring only here) before whom the under-shepherd elders give account. The single supreme head over all elders grounds the Christ headship clause of the proposition but is silent on whether intermediate human structures exist beneath that headship.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.5.4"
+      },
+      {
+        "ref": "Acts.16.4",
+        "key_terms": [
+          {
+            "strong": "G1378",
+            "lemma": "δόγμα"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G4172",
+            "lemma": "πόλις"
+          }
+        ],
+        "force": "Queried morphology reads τὰ δόγματα (G1378, accusative plural neuter, the decrees) τὰ κεκριμένα (G2919, perfect passive participle, having been decided) ὑπὸ τῶν ἀποστόλων καὶ πρεσβυτέρων, which they παρεδίδοσαν (delivered) to the local assemblies φυλάσσειν (to keep) κατὰ τὰς πόλεις (G4172, throughout the cities). A decision made by the Jerusalem assembly is binding and is distributed to the local churches city by city. This is trans-local authority reaching into local congregations and is the central datum complicating strict autonomy.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.16.4"
+      },
+      {
+        "ref": "1Cor.7.17",
+        "key_terms": [
+          {
+            "strong": "G1299",
+            "lemma": "διατάσσω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "The verse closes ἐν ταῖς ἐκκλησίαις πάσαις διατάσσομαι (G1299, present middle indicative first person, thus in all the churches I prescribe), with ἐκκλησίαις (G1577, dative plural). The identical authority verb that installs local elders in Titus 1:5 is here exercised over all churches simultaneously. The same word spanning both levels is precisely why the vocabulary cannot rank a fully autonomous polity against a connectional one.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.7.17"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.20.28",
+        "to": "1Pet.5.2",
+        "source": "openbible",
+        "votes": 37
+      },
+      {
+        "from": "1Pet.5.3",
+        "to": "Ezek.34.4",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Acts.14.23",
+        "to": "Titus.1.5",
+        "source": "openbible",
+        "votes": 10
+      },
+      {
+        "from": "Acts.20.28",
+        "to": "Ps.74.2",
+        "source": "openbible",
+        "votes": 8
+      },
+      {
+        "from": "Acts.20.28",
+        "to": "Acts.20.29",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "1Pet.5.1",
+        "to": "1Pet.5.4",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "Acts.16.4",
+        "to": "Acts.15.28",
+        "source": "openbible",
+        "votes": 5
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.16.4",
+        "addressed": true,
+        "resolution": "Direct query confirms τὰ δόγματα G1378 τὰ κεκριμένα G2919 by the apostles and elders were delivered to the local assemblies κατὰ τὰς πόλεις to keep. This is a verified trans-local act of binding authority distributed to local congregations, cutting against strict congregational independence. It does not establish a permanent denominational hierarchy, but it does show authority flowing beyond a single local elder body, which is the principal reason the autonomy claim is recorded as disputed rather than affirmed."
+      },
+      {
+        "ref": "Acts.15.22",
+        "addressed": true,
+        "resolution": "Query confirms ἔδοξεν G1380 τοῖς ἀποστόλοις καὶ τοῖς πρεσβυτέροις σὺν ὅλῃ τῇ ἐκκλησίᾳ (G1577, dative singular, the whole church) at Jerusalem, with the burden language βάρος G0922 in v. 28. A conciliar body deliberates and decides for assemblies beyond itself. The text shows trans-local conciliar authority without setting up a standing hierarchy, so it qualifies the no-external-authority half of the stem."
+      },
+      {
+        "ref": "1Cor.7.17",
+        "addressed": true,
+        "resolution": "The verb διατάσσω G1299 that installs local elders in Titus 1:5 is here exercised over all the churches at once (ἐν ταῖς ἐκκλησίαις πάσαις). 1 Cor 16:1 uses the same verb for the collection across the churches of Galatia. The single vocabulary covering both local and trans-local ordering means the words themselves do not delimit the scope of legitimate authority, so the negative clause of the proposition is lexically underdetermined."
+      },
+      {
+        "ref": "Acts.9.31",
+        "addressed": false,
+        "resolution": "Query shows ἐκκλησία G1577 here is N-NSF, nominative singular, in NA28, SBL, WH, and Tregelles (the church throughout all Judea and Galilee and Samaria), while TR and Byzantine read the plural ἐκκλησίαι. This bears on whether the canon speaks of one supra-local church spanning regions, but the textual split is itself unresolved at the lexical level and the polity-scope verdict does not turn on it, so it is left open rather than adjudicated here."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Acts.20.28",
+        "variant_id": "Acts.20.28-theou-kyriou",
+        "verdict_impact": "none",
+        "note": "The θεοῦ versus κυρίου variant (church of God versus church of the Lord) affects Christology and the purchase clause but does not bear on the polity question of local elder governance, so the polity verdict is variant robust."
+      },
+      {
+        "ref": "Acts.9.31",
+        "variant_id": "Acts.9.31-ekklesia-number",
+        "verdict_impact": "minor",
+        "note": "Critical text reads ἐκκλησία singular (N-NSF in NA28, SBL, WH, Treg), TR and Byzantine read plural ἐκκλησίαι. This nudges the universal church reading but does not settle the autonomy scope, so impact on this verdict is minor, not material."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Neither anchor variant falls in the 3 John ECM window, so no CBGM data was examined; this NT material is ecm-shadow. The bundle reported not_in_ecm_scope true with zero variant units, but direct query surfaced the two textual points above, neither of which overturns the polity reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "congregationalism",
+      "presbyterianism",
+      "episcopalianism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "congregationalism",
+        "verdict": "affirms",
+        "rationale": "Reads the distributive κατ' ἐκκλησίαν and κατὰ πόλιν, the elder equals overseer identity confirmed across Acts 20:17 and 28, the fellow elder self description of 1 Pet 5:1, and Christ as the sole ἀρχιποίμην, as establishing a self governing local assembly under Christ with no permanent human officer above the local eldership in the text. Treats the Jerusalem decree and apostolic directives as a temporary apostolic foundation, not a standing supra-local court."
+      },
+      {
+        "framework": "presbyterianism",
+        "verdict": "disputed",
+        "rationale": "Accepts the local plurality of elders and the elder overseer identity, but reads Acts 15 to 16 (the binding δόγματα delivered to the churches), the trans-local directive verb διατάσσω in 1 Cor 7:17, and the coordinated collection across churches in 1 Cor 16 and 2 Cor 8, as warranting an ongoing connectional authority of assembled elders, so the no hierarchy clause is not lexically secured."
+      },
+      {
+        "framework": "episcopalianism",
+        "verdict": "false",
+        "rationale": "Points to Titus appointing elders κατὰ πόλιν under Paul's personal διεταξάμην, and to a single delegate installing and ordering elders across multiple congregations, reading the same data as a regional or monarchical oversight pattern in which a single overseer ranks above local elderships, which it takes to contradict strict local autonomy."
+      }
+    ],
+    "notes": "The positive elements (local plurality of elders, elder equals overseer, Christ as sole Chief Shepherd) are lexically secure across all three lenses and are not in dispute. The division is over the negative clause of non-subordination, which the lexicon underdetermines because the same authority vocabulary, especially διατάσσω G1299 and the conciliar decree language of Acts 15 to 16, reaches both the local and the trans-local level. Hebrew background texts (Ezek 34, Isa 56) reinforce the shepherd flock relation through the cross references but do not settle polity scope."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine how the New Testament describes the governance of a local assembly, including who appoints and oversees its leaders, and what relationship, if any, the text shows between one assembly's leadership and any wider authority.",
+    "notes": "The stem is verdict preloaded in two ways. The word autonomous and the clause not subordinate to a denominational hierarchy or external bishop assert a contested negative conclusion before the evidence is weighed, and denominational hierarchy and external bishop are tradition specific targets that the first century vocabulary does not frame. The verdict was derived on the original stem; the neutral rephrasing isolates the lexical question (who appoints, who oversees, what wider relation) from the polity conclusion. Verdict unchanged from the prior file: still disputed, now grounded by direct queries that confirmed both the local elder pattern and the trans-local decree and directive pattern."
+  },
+  "lay_summary": "The Greek behind these passages gives a clear, consistent picture for one half of the question. In Acts 14:23 Paul and Barnabas appoint elders church by church, and in Titus 1:5 Titus appoints elders city by city. The same small word kata distributes a group of elders, never a single ruler, across each town. In Acts 20 the very men called elders in verse 17 are called overseers in verse 28, so elder and overseer are two names for one office, and they shepherd the flock of God in their own city. First Peter 5 agrees: the writer calls himself a fellow elder, not a bishop above the elders, the elders shepherd the flock that is among them, they must not lord it over the people, and Christ alone is named the Chief Shepherd over them all. That much the words support strongly. What the words cannot prove is the second half, that no wider authority exists. The same verb that tells Titus to appoint local elders, diatasso, is the verb Paul uses when he says he gives the same order in all the churches in First Corinthians 7:17, and again for the offering across many churches. In Acts 16:4 decrees decided by the apostles and elders at Jerusalem are carried to the local churches, city by city, to keep. The word church itself names both a single local assembly, like the church of Ephesus or each of the seven churches in Revelation, and one larger church that Christ builds. Because the same authority words and the same word church reach both the local and the wider level, the text settles who governs a congregation locally but does not rank a fully independent model against a connected one. For that reason this proposition is best recorded as genuinely contested, well grounded in its positive half, unsettled in its negative half.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.14.23"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.20.28"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.16.4"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.7.17"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.9.31"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0750"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1299"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.20.28"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.16.4"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

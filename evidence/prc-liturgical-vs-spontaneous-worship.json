@@ -1,0 +1,491 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-liturgical-vs-spontaneous-worship",
+  "question_id": "prc-liturgical-vs-spontaneous-worship",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7375,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The cited corpus attests both a free and an ordered pole within the same Pauline material and ranks neither into a single mandated form, so the proposition that both are defensible across a wide spectrum is supported while any one form is underdetermined. The grammar is decisive on this point. In 1 Cor 14:26 the present active indicative echei (G2192), repeated for each item, describes that each one (ekastos, G1538) actually has a psalm, a teaching, a revelation, a tongue, an interpretation, and the present middle imperative ginestho (G1096) caps it with panta pros oikodomen, let all things be done toward building up. The identical imperative ginestho governs 1 Cor 14:40, panta euschemonos kai kata taxin, let all things be done decently and in order. One verb thus binds freedom and order together and forecloses neither. The order word taxis (G5010) is itself two-sensed across the canon, plain orderliness in 1 Cor 14:40 and Col 2:5 but a fixed appointed arrangement in Luke 1:8 and the Melchizedek order of Hebrews, so the word cannot by itself mandate a set liturgy. Set elements are nonetheless present, the articular Amen (G0281) presupposed in 1 Cor 14:16, the articular triad te anagnosei, te paraklesei, te didaskalia in 1 Tim 4:13, and psalmos (G5568) which itself names both the inherited Psalter and a brought song. Because the vocabulary co-attests fixed and free without ranking them, the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1538",
+        "lemma": "ἕκαστος",
+        "transliteration": "hekastos",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 765,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2156",
+        "lemma": "εὐσχημόνως",
+        "transliteration": "euschemonos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5010",
+        "lemma": "τάξις",
+        "transliteration": "taxis",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3619",
+        "lemma": "οἰκοδομή",
+        "transliteration": "oikodome",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0320",
+        "lemma": "ἀνάγνωσις",
+        "transliteration": "anagnosis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3874",
+        "lemma": "παράκλησις",
+        "transliteration": "paraklesis",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1319",
+        "lemma": "διδασκαλία",
+        "transliteration": "didaskalia",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0103",
+        "lemma": "ᾄδω",
+        "transliteration": "ado",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4152",
+        "lemma": "πνευματικός",
+        "transliteration": "pneumatikos",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "noutheteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0602",
+        "lemma": "ἀποκάλυψις",
+        "transliteration": "apokalypsis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0281",
+        "lemma": "ἀμήν",
+        "transliteration": "amen",
+        "occurrences_in_canon": 129,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1538",
+      "G2192",
+      "G1096",
+      "G2156",
+      "G5010",
+      "G3619",
+      "G0320",
+      "G3874",
+      "G1319",
+      "G5568",
+      "G0103",
+      "G4152",
+      "G3560",
+      "G0602",
+      "G0281"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.14.26",
+        "key_terms": [
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G0602",
+            "lemma": "ἀποκάλυψις"
+          },
+          {
+            "strong": "G3619",
+            "lemma": "οἰκοδομή"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          }
+        ],
+        "force": "The morphology is load-bearing here. ekastos (G1538, nominative singular, each one) is the subject, and echei (G2192) is present active indicative third singular, repeated once per item, so the verse describes what is actually the case when the assembly gathers, each one has a psalm, has a teaching, has a revelation, has a tongue, has an interpretation. The clause closes with panta pros oikodomen ginestho, where ginestho (G1096) is present middle imperative third singular, let all things be done toward building up (oikodome, G3619). The distributive subject plus the open inventory of contributions warrants participatory and varied worship, while the governing imperative subordinates that freedom to edification rather than to any named script.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.14.26"
+      },
+      {
+        "ref": "1Cor.14.40",
+        "key_terms": [
+          {
+            "strong": "G2156",
+            "lemma": "εὐσχημόνως"
+          },
+          {
+            "strong": "G5010",
+            "lemma": "τάξις"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          }
+        ],
+        "force": "panta de euschemonos kai kata taxin ginestho closes the chapter that authorized open contribution with the SAME present middle imperative ginestho (G1096) used in verse 26, now constrained by euschemonos (G2156, adverb, decently or becomingly) and kata taxin (G5010, according to order). The single repeated imperative is what binds the free pole and the order pole together. taxis is two-sensed across the canon, plain orderliness in this verse and in Col 2:5 but a fixed appointed arrangement in Luke 1:8 (priestly course) and the Melchizedek order of Hebrews, so the word warrants structure without by itself mandating a set liturgy.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.14.40"
+      },
+      {
+        "ref": "Col.3.16",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          },
+          {
+            "strong": "G4152",
+            "lemma": "πνευματικός"
+          },
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          }
+        ],
+        "force": "Mutual teaching and admonishing (present active participles didaskontes and nouthetountes, G3560) in psalmois, hymnois, odais pneumatikais, three juxtaposed dative nouns with no copula or ranking between them. The adjective pneumatikais (G4152) agrees grammatically only with the feminine odais, so the text does not force whether all three are fixed categories or one loose threefold description. psalmos (G5568) itself names both the inherited Psalter (its sense in Luke 20:42 and Acts 1:20) and a brought congregational song, so a single word holds both inherited and free. The participle adontes (G0103, singing) is governed by the imperative enoiketo, let the word of Christ dwell richly. The verse supports breadth of song form rather than one mandated mode.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Col.3.16"
+      },
+      {
+        "ref": "1Tim.4.13",
+        "key_terms": [
+          {
+            "strong": "G0320",
+            "lemma": "ἀνάγνωσις"
+          },
+          {
+            "strong": "G3874",
+            "lemma": "παράκλησις"
+          },
+          {
+            "strong": "G1319",
+            "lemma": "διδασκαλία"
+          }
+        ],
+        "force": "prosechē (G4337, present active imperative second singular, give attention to) governs three articular datives, tē anagnōsei, tē paraklēsei, tē didaskalia, the public reading (anagnosis, G0320, used elsewhere only of public or Scripture reading), the exhortation (paraklesis, G3874), the teaching (didaskalia, G1319). The repeated definite article designates recurring, assignable elements of the gathering, the closest the cited corpus comes to a fixed order of service, and grounds the set-form pole. The verse is a charge to one overseer, so the words do not state whether the triad is a closed script binding every assembly.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Tim.4.13"
+      },
+      {
+        "ref": "1Cor.14.16",
+        "key_terms": [
+          {
+            "strong": "G0281",
+            "lemma": "ἀμήν"
+          }
+        ],
+        "force": "The phrase to Amen (G0281) is articular, the Amen, the recognized fixed congregational response that someone is expected to say at the giving of thanks (eucharistia). Paul presupposes this set word as a known element of the gathering rather than introducing it, which is a concrete instance of an inherited fixed form embedded in the same chapter that authorizes open each-one contribution, so it stands alongside verse 26 rather than against it.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.14.16"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Col.3.16",
+        "to": "1Chr.25.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Col.1.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Col.4.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.4.13",
+        "to": "Deut.17.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Deut.6.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.14.40",
+        "addressed": true,
+        "resolution": "The order rule euschemonos kai kata taxin sits in the same chapter as the open ekastos contribution of 1 Cor 14:26 and could be read as canceling spontaneity. It is resolved as a regulating constraint rather than a competing form, because the very same present middle imperative ginestho governs both verses, so order describes HOW the varied contributions proceed and does not forbid them. taxis carries a fixed-arrangement sense elsewhere (Luke 1:8, Hebrews on Melchizedek), but its sense in 1 Cor 14:40 parallels Col 2:5 plain orderliness, so it cannot be pressed into a mandated liturgy. Both poles therefore stand together and the verdict is disputed rather than tilted to set forms."
+      },
+      {
+        "ref": "1Tim.4.13",
+        "addressed": true,
+        "resolution": "The articular triad of reading, exhortation, and teaching could be read as a fixed mandated liturgy that excludes free contribution. It is resolved as a designation of recurring elements within Timothy's pastoral charge (the imperative prosechē is second singular, addressed to one overseer), not a closed script binding every assembly, so it warrants structure without ruling out the participatory pattern of 1 Cor 14:26."
+      },
+      {
+        "ref": "1Cor.14.16",
+        "addressed": true,
+        "resolution": "The articular Amen could be read as proof that worship is fundamentally fixed and formulaic, overriding the each-one freedom of verse 26. It is resolved as one inherited set element presupposed within an otherwise participatory gathering, which is precisely why the chapter co-attests both, a known fixed response word AND open varied contribution, leaving the overall form underdetermined rather than settling it toward liturgy."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited verses lie outside the open-cbgm 3 John sample, so CBGM was not consulted (not_in_ecm_scope). The text-critical marks carried in the bundle for 1 Cor 14:26, Col 3:16, and 1 Tim 4:13 touch word order and minor lexical choice (for example the editorial sigla on ekastos, apokalypsin, and the song nouns) and do not bear on the order versus freedom question, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "regulative_principle",
+      "normative_principle",
+      "scriptural_warrant_spectrum"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "regulative_principle",
+        "verdict": "partial",
+        "rationale": "A reading that admits in worship only what Scripture positively warrants finds explicit lexical warrant for public reading, exhortation, teaching (1 Tim 4:13), congregational song (Col 3:16), and the fixed Amen response (1 Cor 14:16), and treats euschemonos kai kata taxin as the controlling rule. In its strongest form this lens reads the articular triad and the set Amen as evidence that the gathering already carried inherited fixed elements, favoring ordered forms, while still conceding that the breadth of psalms, hymns, and spiritual songs leaves the precise shape open."
+      },
+      {
+        "framework": "normative_principle",
+        "verdict": "partial",
+        "rationale": "A reading that permits whatever Scripture does not forbid leans on the present indicative echei and the distributive ekastos in 1 Cor 14:26, plus the unranked, copula-free song triad of Col 3:16, to license spontaneous and varied contribution as the actual described shape of the assembly. In its strongest form this lens notes that the only imperative attached is ginestho pros oikodomen, toward building up, not a command to adopt any set script, so freedom is the warranted default, bounded only by edification and order, which yields the same wide spectrum from the other direction."
+      },
+      {
+        "framework": "scriptural_warrant_spectrum",
+        "verdict": "affirm",
+        "rationale": "A reading that takes the proposition on its own terms, that both set and free worship are defensible if what is done has scriptural warrant, finds the strongest support, because the canon supplies BOTH patterns in one chapter and never ranks them. The single repeated imperative ginestho and the two-sensed taxis are exactly the lexical features that keep either pole from being made the exclusive rule, so the spectrum claim is the reading the words best sustain."
+      }
+    ],
+    "notes": "All three interpretive lenses land on or inside a spectrum rather than a single mandated form, which is why the lexical witness is recorded as disputed. The two-pole material is co-attested in the same Pauline chapter (1 Cor 14) and is reinforced, not resolved, by Col 3:16 and 1 Tim 4:13."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What forms may a gathered assembly use in corporate worship, and does the cited corpus mandate one form, permit a range, or leave the matter open.",
+    "notes": "The stem pairs liturgical with set forms and spontaneous with Spirit-led, and the Spirit-led label preloads the conclusion that unscripted worship is the work of the Spirit, which is a contested framing the words do not establish. The phrases biblically defensible and scriptural warrant also gesture toward a regulative posture. The verdict is derived on the original stem, but the neutralized form strips the loaded labels so the lexical question is simply which forms the words warrant. Verdict unchanged from the prior file: disputed."
+  },
+  "lay_summary": "This question asks whether Scripture mandates one form of corporate worship or allows a range, from set written forms to free Spirit prompted participation. The cited Greek words pull in two directions at once, and the grammar is the key. In 1 Corinthians 14:26 the word each one, ekastos, is the subject, and the verb has, echei, is a present tense that simply describes what is the case when believers gather, each one has a psalm, a teaching, a revelation, a tongue, an interpretation. That open list, with no command to adopt any script, supports varied participatory worship. The verse ends with a command, let all things be done toward building up, and a few lines later the very same command verb returns in 1 Corinthians 14:40, let all things be done decently and in order. One verb governs both the freedom and the order, so neither cancels the other. The word for order, taxis, is itself two-sided across the Bible, it means plain tidiness here but a fixed appointed arrangement elsewhere, like a priest serving in his appointed course, so the word alone cannot prove that a set liturgy is required. At the same time fixed elements are clearly present. The same chapter assumes the Amen as a known set response, First Timothy 4:13 lists three regular activities each marked with the word the, the reading, the exhortation, the teaching, and the word psalm names both the inherited book of Psalms and a freshly brought song. Colossians 3:16 lists psalms, hymns, and spiritual songs side by side with nothing ranking them. Because the words hold fixed and free together and never put one above the other, the evidence does not single out one required form. It supports the claim that a wide spectrum can carry scriptural warrant while leaving any single form undecided, which is why the verdict is recorded as disputed rather than a plain yes or no.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.40"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.4.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1538"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5010"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2156"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0320"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.4.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Tim.4.13"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek interlinear data for Col.3.16 and 1Tim.4.13 is licensed CC-BY-NC-4.0, which forbids commercial redistribution, so the bundled evidence cannot be published in full."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

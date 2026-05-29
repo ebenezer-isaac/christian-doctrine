@@ -1,0 +1,507 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-canon-protestant-66",
+  "question_id": "doc-canon-protestant-66",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.895,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The vocabulary marks a category and two brackets but never states a number. In Luke 24:44 the risen Christ names the older Scriptures under three rubrics, ἐν τῷ νόμῳ Μωϋσέως καὶ τοῖς προφήταις καὶ ψαλμοῖς, a threefold naming that matches the Hebrew arrangement with Psalms heading the third section. In Luke 11:51 the line of murdered righteous runs ἀπὸ αἵματος Ἅβελ ἕως αἵματος Ζαχαρίου, a bracket whose endpoints sit in the first and last books of the Hebrew arrangement, Genesis 4 and 2 Chronicles 24, both confirmed in the canon as Old Testament verses. Romans 3:2 assigns τὰ λόγια τοῦ θεοῦ to Israelite custody. On the apostolic side 2 Peter 3:16 places Paul's ἐπιστολαί alongside τὰς λοιπὰς γραφάς, and 1 Timothy 5:18 introduces a Gospel saying with λέγει ἡ γραφή, so apostolic writings enter the γραφή category. The arithmetic 39 plus 27 is not a lexical datum. The words fix a category and a bracket type, not a numbered list, which is why the verdict affirms the boundary while confidence stays medium."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphē",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1125",
+        "lemma": "γράφω",
+        "transliteration": "graphō",
+        "occurrences_in_canon": 209,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 198,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4396",
+        "lemma": "προφήτης",
+        "transliteration": "prophētēs",
+        "occurrences_in_canon": 149,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3051",
+        "lemma": "λόγιον",
+        "transliteration": "logion",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1992",
+        "lemma": "ἐπιστολή",
+        "transliteration": "epistolē",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3062",
+        "lemma": "λοιπός",
+        "transliteration": "loipos",
+        "occurrences_in_canon": 55,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0006",
+        "lemma": "Ἅβελ",
+        "transliteration": "Habel",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2379",
+        "lemma": "θυσιαστήριον",
+        "transliteration": "thysiastērion",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2315",
+        "lemma": "θεόπνευστος",
+        "transliteration": "theopneustos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4761",
+        "lemma": "στρεβλόω",
+        "transliteration": "strebloō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0793",
+        "lemma": "ἀστήρικτος",
+        "transliteration": "astēriktos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0261",
+        "lemma": "ἀμαθής",
+        "transliteration": "amathēs",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1425",
+        "lemma": "δυσνόητος",
+        "transliteration": "dysnoētos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1124",
+      "G1125",
+      "G3551",
+      "G4396",
+      "G5568",
+      "G3051",
+      "G1992",
+      "G3062",
+      "G0006",
+      "G2379",
+      "G2315",
+      "G4761",
+      "G0793",
+      "G0261",
+      "G1425"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.24.44",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          }
+        ],
+        "force": "The risen Christ enumerates the older Scriptures under three rubrics, ἐν τῷ νόμῳ Μωϋσέως καὶ τοῖς προφήταις καὶ ψαλμοῖς. All three head words are present in the verified token sequence, νόμος, προφήτης, ψαλμός. The threefold naming matches the Hebrew arrangement, Torah, Prophets, and Writings with Psalms at the head of the third section. The naming bounds the older collection by structural division, but it lists divisions, not a count of books, so it does not by itself fix a total.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.11.51",
+        "key_terms": [
+          {
+            "strong": "G0006",
+            "lemma": "Ἅβελ"
+          },
+          {
+            "strong": "G2379",
+            "lemma": "θυσιαστήριον"
+          },
+          {
+            "strong": "G1567",
+            "lemma": "ἐκζητέω"
+          }
+        ],
+        "force": "Jesus brackets the murdered righteous ἀπὸ αἵματος Ἅβελ ἕως αἵματος Ζαχαρίου, with Ἅβελ and θυσιαστήριον verified in the token sequence and Zechariah tracked as a named person rather than a tagged lemma. Abel is killed in Genesis 4 and the Zechariah killed by the altar is recorded in 2 Chronicles 24, and both endpoint verses are confirmed as Old Testament verses in the canon. The first to last span fits the Hebrew arrangement that begins with Genesis and ends with 2 Chronicles, so the saying presupposes a bounded older corpus, though it states a span and not a numbered list.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.2",
+        "key_terms": [
+          {
+            "strong": "G3051",
+            "lemma": "λόγιον"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "ἐπιστεύθησαν τὰ λόγια τοῦ θεοῦ. The verb form ἐπιστεύθησαν is a passive of πιστεύω locating the trust with the Jewish people, and λόγιον occurs only four times in the New Testament, here and in Acts 7:38, Hebrews 5:12, and 1 Peter 4:11. λόγιον means an oracle or divine utterance and is not itself a word for a fixed book list, so it identifies the custodial line of the older Scripture by community rather than enumerating titles.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.15",
+        "key_terms": [
+          {
+            "strong": "G0027",
+            "lemma": "ἀγαπητός"
+          },
+          {
+            "strong": "G1992",
+            "lemma": "ἐπιστολή"
+          }
+        ],
+        "force": "Peter calls Paul ὁ ἀγαπητὸς ἡμῶν ἀδελφὸς Παῦλος and credits the wisdom given to him in his written letters. The framing classes Paul's correspondence as written under given wisdom for the churches, the precondition for treating that correspondence inside the writing category, but it names no list of letters.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.16",
+        "key_terms": [
+          {
+            "strong": "G1992",
+            "lemma": "ἐπιστολή"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G3062",
+            "lemma": "λοιπός"
+          }
+        ],
+        "force": "ἐν πάσαις ταῖς ἐπιστολαῖς, then ἃ οἱ ἀμαθεῖς καὶ ἀστήρικτοι στρεβλοῦσιν ὡς καὶ τὰς λοιπὰς γραφάς. The token sequence verifies ἐπιστολή, γραφή, and λοιπός in order. The phrase τὰς λοιπὰς γραφάς, the rest of the writings, places Paul's letters in the same category as the other γραφαί. This is the single explicit New Testament point where apostolic letters are reflexively grouped with γραφή. It fixes the category but uses the open word the rest, which does not enumerate which writings or close a count.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.18",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "λέγει γὰρ ἡ γραφή, the Scripture says, then two quotations, Βοῦν ἀλοῶντα οὐ φιμώσεις from Deuteronomy 25:4 and Ἄξιος ὁ ἐργάτης τοῦ μισθοῦ αὐτοῦ, the worker deserves his wages, which is the wording of Luke 10:7. A single γραφή formula introduces an Old Testament text and a Gospel saying together. This shows the writing category already reaching a New Testament saying, while still not naming a numbered set.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Tim.3.16",
+        "key_terms": [
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          },
+          {
+            "strong": "G2315",
+            "lemma": "θεόπνευστος"
+          }
+        ],
+        "force": "πᾶσα γραφὴ θεόπνευστος. The word θεόπνευστος, God-breathed, occurs only here in the whole New Testament, a single occurrence, so its precise sense cannot be triangulated across the canon. With anarthrous γραφή and πᾶσα the clause marks the recognized writing as wholly God-breathed, but it does not define the membership of that collection.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Luke.11.51",
+        "to": "Gen.4.8",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.11.51",
+        "to": "2Chr.24.20",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.11.51",
+        "to": "2Chr.24.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.24.44",
+        "to": "Luke.24.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.2",
+        "to": "Rom.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.3.16",
+        "to": "2Pet.2.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Jude.1.14",
+        "addressed": true,
+        "resolution": "Jude cites Enoch verbally but uses a prophesying verb of a person, not a γραφή formula of a book. Lexically this is a quotation of a saying attributed to Enoch, not a placement of that writing inside the γραφή category. The distinction between citing a tradition and classifying a writing as γραφή holds."
+      },
+      {
+        "ref": "Jude.1.9",
+        "addressed": true,
+        "resolution": "Jude alludes to a dispute between Michael and the devil associated with a Moses assumption tradition. The verb of speaking is used, not γέγραπται or any γραφή-categorizing word. The writing category is not extended to that source."
+      },
+      {
+        "ref": "1Cor.15.33",
+        "addressed": true,
+        "resolution": "Paul quotes the poet Menander with no γραφή marker. The absence of a writing formula when citing a pagan line contrasts with its presence for Scripture citation, showing the γραφή category is restrictive in apostolic usage."
+      },
+      {
+        "ref": "Rom.3.2",
+        "addressed": true,
+        "resolution": "λόγιον carries the broad sense oracle or divine utterance and is not a book-list term, so this verse marks the custodial line of the older Scripture rather than enumerating its titles. The category is identified by who was entrusted, which is consistent with the bracket evidence but does not by itself produce a count."
+      },
+      {
+        "ref": "2Pet.3.16",
+        "addressed": false,
+        "resolution": "The verse classes Paul's letters within τὰς λοιπὰς γραφάς but the word λοιπάς, the rest, is open. It does not enumerate which letters or fix the boundary of the apostolic corpus. The lexical witness establishes the category yet underdetermines the exact New Testament list at the level of named books, so the closure point is left lexically unspecified."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle reports not_in_ecm_scope true and none of the four anchor passages fall inside the ingested ECM window of 3 John 1.1 to 1.15, so no variant units were examined. The verdict turns on category and bracket markers, γραφή, τὰς λοιπὰς γραφάς, Moses Prophets Psalms, and Abel to Zechariah, rather than on any contested wording."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "tripartite_hebrew_canon",
+      "septuagintal_inclusive_lens",
+      "apostolic_authority"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "tripartite_hebrew_canon",
+        "verdict": "supports",
+        "rationale": "Luke 24:44 names νόμος, προφῆται, and ψαλμοί as three divisions, which fits the Hebrew Tanak ordering with Psalms heading the third part, and Luke 11:51 brackets Abel in Genesis to Zechariah in 2 Chronicles, the first and last books of that arrangement. On this reading the older collection is bounded by structure and span and excludes appendices that have no slot in the threefold division."
+      },
+      {
+        "framework": "septuagintal_inclusive_lens",
+        "verdict": "complicates",
+        "rationale": "Greek Scripture collections in circulation carried additional books and the apostles often quote Greek wording, so a reader could argue the operative older corpus was the wider Greek reading set. Stated at its strongest, this lens notes that the texts never list which books fill the three divisions, so the divisions alone do not by themselves exclude a broader contents. The counterweight inside the words is that Luke 11:51 brackets by the Hebrew first and last books and Romans 3:2 assigns custody to the Jewish line, but citation of Greek wording is not the same as endorsing a Greek scope, and the vocabulary does not settle the dispute."
+      },
+      {
+        "framework": "apostolic_authority",
+        "verdict": "supports",
+        "rationale": "2 Peter 3:16 groups Paul's letters with τὰς λοιπὰς γραφάς and 1 Timothy 5:18 introduces a Gospel saying with a γραφή formula, so apostolic writings enter the writing category. Stated fairly, this lens grants that the open word the rest does not enumerate a closed New Testament list, so it warrants the category of apostolic Scripture without producing a fixed count of 27."
+      }
+    ],
+    "notes": "Method is grammatico-historical, weighing category words, γραφή and the rest of the γραφαί, named older divisions, and the Abel to Zechariah span. The three lenses agree that a category and bracket exist and disagree only over whether the unstated contents are the Hebrew set or a wider Greek set, a gap the words leave open."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The recognized Scripture collection is bounded by the older Hebrew arrangement on the prior covenant side and by apostolic writings on the new covenant side, with the exact enumeration of books being a question the vocabulary does not state.",
+    "notes": "The stem names a specific count, 39 plus 27, that encodes a particular tradition-bounded enumeration set against the wider Greek reading collection. Lexically the texts mark category and bracket, γραφή, the rest of the γραφαί, Moses Prophets Psalms, Abel to Zechariah, and oracles entrusted to Israel, without naming any number. The verdict was derived on the original stem by treating the category and the Hebrew bracket as the lexical question and the arithmetic as the practical settlement that the bracket implies, while recording that the precise total is underdetermined by the words."
+  },
+  "lay_summary": "The biblical texts never state a number like sixty six. What they do is mark a category and two boundaries. In Luke 24 verse 44 the risen Jesus names the older Scriptures under three headings, the Law of Moses, the Prophets, and the Psalms. That three part naming matches the Jewish way of arranging the older books, with Psalms heading the third section. In Luke 11 verse 51 Jesus marks a span of murdered righteous from Abel in Genesis to a Zechariah killed by the altar, whose death is recorded in 2 Chronicles 24. Because the Hebrew arrangement begins with Genesis and ends with 2 Chronicles, this span works like a bracket around the older collection, and both endpoint verses are real Old Testament verses. In Romans 3 verse 2 Paul says the oracles of God were entrusted to the Jewish people, which points to the line that kept the Hebrew books. On the newer side, 2 Peter 3 verse 16 puts Paul's letters in the same category as the rest of the writings, using the ordinary word for Scripture, and 1 Timothy 5 verse 18 introduces a saying that matches Luke with the words the Scripture says, so a Gospel line is treated as Scripture. So the words give a category, called writing or Scripture, and they mark a Hebrew bracket on the older side and a letter and Gospel category on the newer side. Here is why readers still divide. The texts list divisions and a span, not a numbered list, and they use open words like the rest, so the exact contents are not spelled out. One reading takes the Genesis to 2 Chronicles bracket and the Jewish custody as fixing the smaller Hebrew set. Another notes that Greek collections in use carried extra books and that the texts never list which books fill the divisions, leaving room for a wider set. The words establish the boundary type that the practical sixty six book list follows, but they do not by themselves count the books, and that gap is the honest reason for the divergence.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1124"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3051"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.24.44"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.11.51"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Pet.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.18"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Tim.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Pet.3.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Luke.11.51"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.24.44"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is CC-BY-NC-4.0, a non-commercial license. The interlinear citation of 2 Peter 3:16 used to verify the τὰς λοιπὰς γραφάς grouping draws on that source, so bulk redistribution is restricted by the non-commercial clause. The STEPBible-TAGNT, STEPBible-TBESG, OpenBible-cross-refs, and TSK material is freely redistributable, but the aggregate is gated by the single non-commercial source."
+  },
+  "flags": [
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

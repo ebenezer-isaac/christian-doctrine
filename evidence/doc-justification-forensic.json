@@ -1,0 +1,718 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-justification-forensic",
+  "question_id": "doc-justification-forensic",
+  "generated_at": "2026-05-27T09:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The decisive datum is the antonym pairing. Both the Hebrew verb tsadaq in the Hiphil (H6663, to declare righteous) and the Greek verb dikaioo (G1344, 39 occurrences) stand in fixed antithesis to the condemn verbs (Hebrew rasha Hiphil H7561, Greek katakrino G2632 and katadikazo G2613). Deut 25:1, Prov 17:15, and 1 Kgs 8:32 set hitsdiq against hirshia as the two verdicts a judge renders, and Rom 8:33-34 places ho dikaion (the one justifying) directly opposite ho katakrinon (the one condemning) in adjacent clauses. Since condemnation is a sentence pronounced and not a moral state infused, its antonym is likewise a verdict pronounced. Rom 4:5 seals it: God justifies ton asebe (the ungodly) and faith is reckoned (logizetai, G3049) as righteousness, so the standing changes while the person is still ungodly, which a make-righteous reading cannot hold."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioō",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosynē",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1342",
+        "lemma": "δίκαιος",
+        "transliteration": "dikaios",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1347",
+        "lemma": "δικαίωσις",
+        "transliteration": "dikaiōsis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1345",
+        "lemma": "δικαίωμα",
+        "transliteration": "dikaiōma",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3049",
+        "lemma": "λογίζομαι",
+        "transliteration": "logizomai",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2632",
+        "lemma": "κατακρίνω",
+        "transliteration": "katakrinō",
+        "occurrences_in_canon": 17,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2613",
+        "lemma": "καταδικάζω",
+        "transliteration": "katadikazō",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2631",
+        "lemma": "κατάκριμα",
+        "transliteration": "katakrima",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistēmi",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6663",
+        "lemma": "צָדַק",
+        "transliteration": "tsadaq",
+        "occurrences_in_canon": 41,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7561",
+        "lemma": "רָשַׁע",
+        "transliteration": "rashaʿ",
+        "occurrences_in_canon": 35,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0765",
+        "lemma": "ἀσεβής",
+        "transliteration": "asebēs",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0629",
+        "lemma": "ἀπολύτρωσις",
+        "transliteration": "apolytrōsis",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuō",
+        "occurrences_in_canon": 241,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1344",
+      "G1343",
+      "G1342",
+      "G1347",
+      "G1345",
+      "G3049",
+      "G2632",
+      "G2613",
+      "G2631",
+      "G2525",
+      "G2917",
+      "G2920",
+      "G0765",
+      "G0629",
+      "G4100",
+      "H6663",
+      "H7561",
+      "H6662",
+      "H7563"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.25.1",
+        "key_terms": [
+          {
+            "strong": "H6663",
+            "lemma": "צָדַק"
+          },
+          {
+            "strong": "H7561",
+            "lemma": "רָשַׁע"
+          }
+        ],
+        "force": "When men go to court the judges are to justify the righteous (wehitsdiqu, H6663 in the Hiphil) and condemn the wicked (wehirshiu, H7561 in the Hiphil). The two verbs are the two verdicts a court issues. The Hiphil stem here is causative in form but plainly declarative in sense, since a judge does not morally remake the litigant standing before him, he renders a sentence. This is the Hebrew matrix the Greek verb inherits.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.17.15",
+        "key_terms": [
+          {
+            "strong": "H6663",
+            "lemma": "צָדַק"
+          },
+          {
+            "strong": "H7561",
+            "lemma": "רָשַׁע"
+          }
+        ],
+        "force": "One justifying the wicked (matsdiq rasha, H6663 Hiphil participle) and one condemning the righteous (marshia tsaddiq, H7561 Hiphil participle) are both an abomination to the LORD. A bribed or corrupt judge cannot literally infuse righteousness into a guilty man, so to justify here can only mean to pronounce an unwarranted verdict. The verse is decisive against a make-righteous reading of the Hiphil.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Kgs.8.32",
+        "key_terms": [
+          {
+            "strong": "H6663",
+            "lemma": "צָדַק"
+          },
+          {
+            "strong": "H7561",
+            "lemma": "רָשַׁע"
+          }
+        ],
+        "force": "Solomon prays that God as judge will act, to condemn the wicked (leharshia rasha) and to justify the righteous (ulehatsdiq tsaddiq), giving each according to his way. The antithetical verdict pair is here predicated of God himself in the heavenly court, the prototype of Rom 8:33. God justifying does not mean God morally transforming in that act but God declaring a standing.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.33",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "tis enkalesei kata eklekton theou; theos ho dikaion. Who will bring a legal charge against God's elect? It is God who justifies (ho dikaion, present active participle of G1344). The verb sits inside explicit courtroom vocabulary (enkaleo, to lay a charge) and answers the charge with a verdict, not with a moral change.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.34",
+        "key_terms": [
+          {
+            "strong": "G2632",
+            "lemma": "κατακρίνω"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "tis ho katakrinon; Christos ho apothanon. Who is the one condemning (ho katakrinon, G2632)? Set immediately after ho dikaion in 8:33, this makes justify and condemn the matched pair of opposing verdicts. Because condemnation is indisputably a sentence pronounced and not a state infused, the antonymic justify in the prior verse is likewise declarative. This adjacency is the single clearest lexical proof of the forensic sense.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.18.14",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          }
+        ],
+        "force": "katebe houtos dedikaiomenos eis ton oikon autou. The tax collector went down to his house justified (dedikaiomenos, perfect passive participle of G1344) rather than the Pharisee. Nothing in the man changed morally between his prayer and his walk home, yet he is now in a settled justified standing. The act is a declared verdict received, in narrative outside Paul, which widens the pattern beyond the epistles.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.4.5",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G0765",
+            "lemma": "ἀσεβής"
+          },
+          {
+            "strong": "G3049",
+            "lemma": "λογίζομαι"
+          }
+        ],
+        "force": "to de me ergazomeno, pisteuonti de epi ton dikaiounta ton asebe, logizetai he pistis autou eis dikaiosynen. God justifies (dikaiounta, G1344) the ungodly (ton asebe, G0765) and faith is reckoned (logizetai, G3049, the ledger verb) as righteousness. The verb is applied to a person still labelled ungodly at that very moment, which a make-morally-righteous gloss renders self-contradictory. The accounting verb logizomai (40 occurrences, dense in Romans 4) supplies the imputational, status-crediting register.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.24",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G0629",
+            "lemma": "ἀπολύτρωσις"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "dikaioumenoi dorean te autou chariti dia tes apolytroseos tes en Christo Iesou. Present passive participle of G1344, freely (dorean), by grace, through the redemption (apolytrosis, G0629) in Christ. The verb is grounded in ransom and atonement vocabulary, a legal-sacrificial ground for a verdict, not the language of internal moral cleansing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.26",
+        "key_terms": [
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          },
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "eis to einai auton dikaion kai dikaiounta ton ek pisteos Iesou. God is at once just (dikaion, G1342) and the one justifying (dikaiounta, G1344) the believer. A judge can be simultaneously just and the one who acquits the guilty party only on a declarative reading where the ground of the verdict lies in the propitiation just named (3:25), not on a reading where the same act makes the defendant intrinsically righteous.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.1",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "Dikaiothentes oun ek pisteos eirenen echomen pros ton theon. Aorist passive participle of G1344: having been justified out of faith, we have peace toward God. The aorist marks a completed punctiliar act and the result is a changed relational standing (peace, reconciliation), the profile of a verdict rendered rather than a moral process underway.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.18",
+        "key_terms": [
+          {
+            "strong": "G1347",
+            "lemma": "δικαίωσις"
+          },
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          }
+        ],
+        "force": "di henos paraptomatos eis pantas anthropous eis katakrima, houtos kai di henos dikaiomatos eis pantas anthropous eis dikaiosin zoes. The noun dikaiosis (G1347, only 2 occurrences, both Romans) is set in direct parallel against katakrima (G2631, condemnation, 3 occurrences, all Romans). Since katakrima is uncontestably a sentence pronounced, its parallel partner dikaiosis is a corresponding favourable verdict, not an infusion. The noun pair confirms what the verb pair shows.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.19",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          },
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          },
+          {
+            "strong": "G0268",
+            "lemma": "ἁμαρτωλός"
+          }
+        ],
+        "force": "hamartoloi katestathesan hoi polloi ... dikaioi katastathesontai hoi polloi. The verb kathistemi (G2525, to constitute or appoint to a status) governs both clauses. The many were constituted sinners through one man's disobedience as a legal-representative status, and the many are constituted righteous through one man's obedience in the same constitutive sense. The symmetry forbids reading the second as moral infusion unless the first is moral infusion, which the one-act-of-one-man frame excludes.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.21",
+        "key_terms": [
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "ton me gnonta hamartian hyper hemon hamartian epoiesen, hina hemeis genometha dikaiosyne theou en auto. A double exchange: the sinless one was made sin for us so that we might become God's righteousness in him (en auto, locative). Christ was not turned into a sinner intrinsically (he knew no sin), so by the controlled parallel our becoming righteousness is likewise a reckoned, relational standing located in Christ, not an infused quality.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.3.9",
+        "key_terms": [
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "me echon emen dikaiosynen ten ek nomou, alla ten dia pisteos Christou, ten ek theou dikaiosynen epi te pistei. An explicit contrast between my own righteousness from law (emen ... ek nomou) and the righteousness from God (ek theou) received through faith. The repeated prepositions of source (ek nomou versus ek theou) frame the righteousness as conferred from outside the believer, received not produced.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.3.21",
+        "to": "Rom.1.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.4.5",
+        "to": "Rom.4.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.4.5",
+        "to": "Rom.1.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Exod.25.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Rom.3.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.25",
+        "to": "Rom.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.24",
+        "to": "Rom.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.19",
+        "to": "Isa.53.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.9",
+        "to": "Phil.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.9",
+        "to": "Ps.71.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.26",
+        "to": "Deut.32.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.23",
+        "to": "Rom.3.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.5.19",
+        "addressed": true,
+        "resolution": "The verb kathistemi (G2525) can mean to appoint or to make, and a transformative reader takes dikaioi katastathesontai as being made actually righteous. Read against its own parallel, the same verb in the same verse says the many were constituted sinners through Adam, which the one-act frame cannot mean an infusion of personal sin into each individual at that moment. So the symmetrical second clause is a constitutive, status-conferring sense, not moral remaking. The complication is real at the verb level but resolved by the immediate parallel."
+      },
+      {
+        "ref": "Jas.2.24",
+        "addressed": true,
+        "resolution": "horate hoti ex ergon dikaioutai anthropos kai ouk ek pisteos monon. James uses dikaioo (G1344) of Abraham at the binding of Isaac (Gen 22), the demonstration of a faith credited long before in Gen 15:6. The verb keeps its declarative sense in James, a vindication shown to be genuine, but the audience of the declaration shifts toward observable evidence. James never uses dikaioo for moral cleansing, so even this text does not yield a transformative sense of the verb."
+      },
+      {
+        "ref": "1Cor.6.11",
+        "addressed": true,
+        "resolution": "apelousasthe, hegiasthete, edikaiothete. Three aorist passives in a row: you were washed, sanctified, justified. The fact that dikaioo (G1344) stands as a distinct item beside hagiazo shows Paul does not collapse justification into the cleansing or sanctifying verbs. The distinct listing preserves the forensic verb as its own category rather than as a synonym for moral transformation."
+      },
+      {
+        "ref": "Rom.6.7",
+        "addressed": true,
+        "resolution": "ho gar apothanon dedikaiotai apo tes hamartias. The perfect passive of dikaioo with apo (freed from) is read by some as transformative liberation from sin's power. It reads equally as the forensic register, the one who has died is acquitted of, or released from, sin's legal claim. Romans uses the verb uniformly forensically at 5:1, 5:9, 8:30, and 8:33, so the legal-release sense is the better fit, and either reading remains declarative-relational rather than infused."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle and the anchor texts fall outside the ingested ECM window (3 John 1.1 to 1.15), so not_in_ecm_scope holds. The cited Pauline verses carry known minor variants (word-order and the reading at Rom 3:22, Western expansions at Rom 3:24-25, the article at 2 Cor 5:21) but none disturbs the dik- verb or noun, the ledger verb logizomai at Rom 4, or the katakrima parallel at Rom 5:18. The verdict holds across the realistic spread of readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "forensic_declarative_lens",
+      "transformative_infusion_lens",
+      "covenant_membership_lens",
+      "apocalyptic_rectification_lens"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "forensic_declarative_lens",
+        "verdict": "Strongly affirms. Justification is a verdict of acquittal and accepted standing, grounded in Christ's atonement and the reckoning of righteousness, not an infusion of moral quality.",
+        "rationale": "dikaioo (G1344) is fixed in antithesis to the condemn verbs katakrino (G2632) and katadikazo (G2613), with Rom 8:33-34 setting ho dikaion against ho katakrinon. The Hebrew Hiphil of tsadaq (H6663) versus rasha (H7561) at Deut 25:1, Prov 17:15, and 1 Kgs 8:32 supplies the same courtroom pair. Rom 4:5 applies the verb to the ungodly with the ledger verb logizomai. The semantic field is the law court, so the act is a declared verdict."
+      },
+      {
+        "framework": "transformative_infusion_lens",
+        "verdict": "Reads dikaioo causatively as to make righteous, so justification begins or includes a real interior renewal, with sanctification not sharply separable from it.",
+        "rationale": "This is the strongest form of the minority reading. Greek verbs in -oo can be factitive or causative (for example douloo, to enslave, and eleutheroo, to free, effect a real change), so to make righteous is morphologically possible, and texts like 1 Cor 6:11 list justification beside washing and sanctifying, and Rom 5:19 uses kathistemi (to constitute or make). The lens takes righteousness language to describe an imparted condition rather than only a credited status. The lexical pressure against it is that the very same Hiphil and -oo stems in Deut 25:1, Prov 17:15, and Rom 4:5 must be declarative there (a judge cannot infuse righteousness into the guilty, and the ungodly is still ungodly when justified), which caps how much the causative morphology can carry."
+      },
+      {
+        "framework": "covenant_membership_lens",
+        "verdict": "Affirms a declarative sense but takes the content of the declaration to be inclusion in God's covenant people rather than the crediting of an alien righteousness.",
+        "rationale": "On this reading dikaioo still names a verdict, not a transformation, so it agrees that the verb is declarative. The dispute is over what is declared (membership and right standing in the covenant community versus imputed righteousness), and the antithesis with the condemn verbs is preserved either way, since exclusion or condemnation is the opposing verdict."
+      },
+      {
+        "framework": "apocalyptic_rectification_lens",
+        "verdict": "Affirms God's dikaiosyne as a saving, world-righting verdict enacted in Christ's faithful death, declarative in character and external in source.",
+        "rationale": "This lens stresses dikaiosyne theou (Rom 3:21-26) as God's own saving action rather than a moral attribute produced in the believer, which keeps the righteousness alien, conferred, and verdict-shaped, consistent with the forensic verb usage even while reframing its scope."
+      }
+    ],
+    "notes": "The genuine lexical contest is forensic-declarative against transformative-infusion. The covenant-membership and apocalyptic lenses both land on the declarative side and differ only over the content and scope of the declaration. The decisive constraint is that the antonym of dikaioo across both Testaments is a condemn verb, and condemnation is never an infusion, so the matched term is a verdict. The transformative lens is represented in its strongest morphological form (the causative -oo and Hiphil stems) and is not strawmanned, but the same stems are demonstrably declarative where the object is the ungodly or where a judge is the subject."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition asks whether justification is God's declarative act of pardoning and accepting the sinner as righteous on Christ's account, received by faith. This is the lexical-semantic question of whether dikaioo and its Hebrew counterpart denote a declared verdict or an effected moral change, which is the object of investigation rather than a smuggled conclusion. The stem does not encode a tradition-specific taxonomy. Prior affirms true is retained: the queried data strengthen rather than overturn it, so no VERDICT-CHANGED tag is warranted."
+  },
+  "lay_summary": "The whole question turns on one verb and the word it is set against. The Greek verb dikaioo (justify, 39 times in the New Testament) and the Hebrew verb it grows out of, tsadaq in its causative form, are repeatedly placed in flat opposition to the verbs that mean condemn. In Deuteronomy 25:1 the judges are to justify the righteous and condemn the wicked. Proverbs 17:15 calls justifying the wicked and condemning the righteous both an abomination. In 1 Kings 8:32 God as judge condemns the wicked and justifies the righteous. Romans 8:33 and 34 put it in two breaths: it is God who justifies, who is the one to condemn? Condemning is plainly a sentence handed down, never a remaking of a person on the inside, so its exact opposite, justifying, must also be a verdict handed down. That single fact is the strongest evidence, because the meaning of a word is fixed partly by its opposite. A second clue clinches it: Romans 4:5 says God justifies the ungodly, and faith is reckoned to him as righteousness using an accounting word. If the verb meant to make a person actually good, you could not call him ungodly in the same breath. Luke 18:14 shows the tax collector going home justified though nothing inside him had changed, only his standing before God. The honest counter-reading notes that this verb can sometimes mean to make or to cause, the way other verbs of its type do, and that justifying sits near washing and sanctifying in some lists. That reading is real and is why some diverge. But the very same form, in the courtroom texts and in justifying the ungodly, cannot mean make, since a judge does not infuse goodness into a guilty man. So the words land on a declared standing, granted on the basis of Christ and received by faith.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1344"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2632"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6663"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7561"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.25.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.17.15"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Kgs.8.32"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.8.33-34"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.4.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.18.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.5.18-19"
+    },
+    {
+      "type": "interlinear",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.24-26"
+    },
+    {
+      "type": "interlinear",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.4.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Phil.3.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek tokens were queried for the morphology of dikaioo at Rom 8:33-34, Rom 4:5, Luke 18:14, and Rom 5:18-19. MACULA-Greek is licensed CC-BY-NC-4.0, which forbids bulk redistribution. The other cited sources (STEPBible-TBESG, STEPBible-TBESH, OSHB-morphology, MorphGNT-morphology, TSK) are redistributable, but the aggregate cannot be published as a whole without dropping the MACULA-Greek citations or obtaining a separate license."
+  },
+  "flags": []
+}

@@ -1,0 +1,467 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-baptism-faith-precedes",
+  "question_id": "doc-baptism-faith-precedes",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.8125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "In every cited conversion account the verbs of receiving, hearing, repenting, or believing stand grammatically and temporally before the verbs of baptizing. Acts 2:41 makes the aorist participle apodexamenoi (having received the word) the subject of the aorist passive ebaptisthesan. Acts 8:12 reads hote de episteusan (when they believed) and then the imperfect ebaptizonto. Acts 18:8 chains akouontes, then the imperfect episteuon, then ebaptizonto. Mark 16:16 orders pisteusas before baptistheis and pairs condemnation only with unbelief. Acts 2:38 puts the imperative Metanoesate before baptistheto. So the recorded sequence consistently places a conscious response ahead of baptism, which supports the proposition. Confidence stays medium, not high, because the pattern rests on one author across mostly one book, because it is narrated description rather than stated rule, and because the household baptisms (Acts 16:15, 16:33, 1 Cor 1:16) report the baptizing of an oikos without itemizing each member's faith, with the one collective word panoikei in Acts 16:34 being a single-occurrence term whose scope the text does not fix."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 251,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0588",
+        "lemma": "ἀποδέχομαι",
+        "transliteration": "apodechomai",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0191",
+        "lemma": "ἀκούω",
+        "transliteration": "akouo",
+        "occurrences_in_canon": 452,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3753",
+        "lemma": "ὅτε",
+        "transliteration": "hote",
+        "occurrences_in_canon": 124,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0569",
+        "lemma": "ἀπιστέω",
+        "transliteration": "apisteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3624",
+        "lemma": "οἶκος",
+        "transliteration": "oikos",
+        "occurrences_in_canon": 114,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3832",
+        "lemma": "πανοικεί",
+        "transliteration": "panoikei",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0907",
+      "G4100",
+      "G0588",
+      "G0191",
+      "G3340",
+      "G3753",
+      "G0569",
+      "G2632",
+      "G0859",
+      "G3624",
+      "G3832",
+      "G3614",
+      "G4982"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.2.41",
+        "key_terms": [
+          {
+            "strong": "G0588",
+            "lemma": "ἀποδέχομαι"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          }
+        ],
+        "force": "The morphology confirms the order directly. The aorist deponent participle apodexamenoi (G0588, V-ADP-NPM), having received or welcomed his word, is the nominative plural substantival subject of the aorist passive main verb ebaptisthesan (G0907, V-API-3P), they were baptized. The participle describes a completed reception of the proclaimed word that is logically and temporally antecedent to the act of baptism, so the ones baptized are exactly the ones who first received the message. The same subjects are then said to be added (prosetethesan) and numbered about three thousand souls. Reception of the apostolic word stands grammatically prior to the baptismal act.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.2.41"
+      },
+      {
+        "ref": "Acts.8.12",
+        "key_terms": [
+          {
+            "strong": "G3753",
+            "lemma": "ὅτε"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          }
+        ],
+        "force": "The temporal conjunction hote (G3753, when) governs the aorist episteusan (G4100, V-AAI-3P, they believed), and the imperfect ebaptizonto (G0907, V-IPI-3P, they were being baptized) follows. The construction hote de episteusan ... ebaptizonto sets believing the proclamation about the kingdom of God and the name of Jesus Christ as the antecedent condition, with the ongoing baptizing following upon that belief. The named subjects are andres te kai gunaikes, men and also women (G0435 and G1135, both nominative plural), persons capable of the conscious act the verb pisteuo denotes.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.8.12"
+      },
+      {
+        "ref": "Acts.18.8",
+        "key_terms": [
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          }
+        ],
+        "force": "The clause polloi ton Korinthion akouontes episteuon kai ebaptizonto chains a present participle of hearing (akouontes, G0191, V-PAP-NPM) to the imperfect verbs of believing (episteuon, G4100, V-IAI-3P) and being baptized (ebaptizonto, G0907, V-IPI-3P). The verb order places hearing, then believing, then baptizing, with the same subjects carried through all three. In the same verse Crispus the synagogue ruler is said to believe (episteusen, G4100, V-AAI-3S) the Lord with his whole household (sun holo to oiko autou, G3624), so the household notice itself is attached to a stated act of belief by the head of the house, though the faith of each member is not separately itemized.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.18.8"
+      },
+      {
+        "ref": "Mark.16.16",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G0569",
+            "lemma": "ἀπιστέω"
+          }
+        ],
+        "force": "The substantival aorist participles ho pisteusas kai baptistheis (G4100, V-AAP-NSM, and G0907, V-APP-NSM), the one having believed and having been baptized, place believing first and baptism second in the coordinated pair before the future sothesetai (will be saved). The contrasting clause ho de apistesas katakrithesetai (G0569, having disbelieved, will be condemned) pairs only with unbelief, never with non-baptism, an asymmetry that foregrounds faith as the operative condition. This verse stands within the longer ending of Mark, which in the lexical store is carried only under the K and O edition markers (Byzantine and majority witnesses) and is absent from the earliest critical text, so its evidential weight is qualified.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Mark.16.16"
+      },
+      {
+        "ref": "Acts.2.38",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοέω"
+          },
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσις"
+          }
+        ],
+        "force": "The aorist imperative Metanoesate (G3340, V-AAM-2P, repent) precedes the aorist passive imperative baptistheto hekastos hymon (G0907, V-APM-3S, let each of you be baptized), so the called-for repentance heads the order of commands before baptism. Repentance is a conscious turning that stands first. The verse functions partly as a complicating datum, because the prepositional phrase eis aphesin ton hamartion (G1519 plus accusative, G0859, for the forgiveness of sins) can be read as making baptism the instrument of forgiveness rather than the seal of prior faith. The eis phrase is grammatically open between a purpose or result sense and a causal or referential sense, and the words alone do not settle it, so this verse is marked neutral.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.2.38"
+      },
+      {
+        "ref": "Acts.16.34",
+        "key_terms": [
+          {
+            "strong": "G3832",
+            "lemma": "πανοικεί"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "The jailer rejoiced (egalliasato, G0021, V-ADI-3S) panoikei (G3832), having believed in God (pepisteukos to theo, G4100, V-RAP-NSM). The participle pepisteukos is perfect active and masculine singular nominative, so it agrees grammatically with the jailer alone, not with a plural household subject. The adverb panoikei sits between the rejoicing verb and the believing participle, and its scope is genuinely open, it can attach to the rejoicing (the whole house rejoiced) or extend the believing to the whole house. panoikei occurs exactly once in the New Testament, so its precise sense and scope cannot be triangulated against any other usage. This verse is therefore the lexical pivot of the contested case.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.16.34"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.2.41",
+        "to": "Acts.2.47",
+        "source": "openbible",
+        "votes": 8
+      },
+      {
+        "from": "Acts.8.12",
+        "to": "Acts.2.38",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Acts.18.8",
+        "to": "Rom.10.14",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "Mark.16.16",
+        "to": "John.3.36",
+        "source": "openbible",
+        "votes": 194
+      },
+      {
+        "from": "Acts.2.38",
+        "to": "Acts.22.16",
+        "source": "openbible",
+        "votes": 88
+      },
+      {
+        "from": "Acts.16.31",
+        "to": "John.1.12",
+        "source": "openbible",
+        "votes": 39
+      },
+      {
+        "from": "Acts.16.15",
+        "to": "Acts.11.14",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Acts.16.33",
+        "to": "Acts.16.15",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "Acts.16.33",
+        "to": "1Cor.1.16",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Acts.2.38",
+        "to": "Acts.2.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.18.8",
+        "to": "Acts.10.2",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.16.15",
+        "addressed": true,
+        "resolution": "Lydia is baptized together with her household (ebaptisthe kai ho oikos autes, G3624). The preceding verse 14 reports that she was hearing (ekouen, G0191, imperfect) and that the Lord opened her heart (dienoixen ten kardian) to attend to what Paul said, and verse 15 has her call herself faithful to the Lord (pisten to kurio, G4103). So her own attentive faith is stated, but the faith of each household member is not. The verbs fix the sequence for Lydia herself and are silent about the rest, so the text is compatible with faith preceding baptism for her while neither asserting nor denying prior faith for every member of the oikos. The silence complicates a strict universal rule without overturning the verbal order seen for the named converts."
+      },
+      {
+        "ref": "Acts.16.33",
+        "addressed": true,
+        "resolution": "The jailer and all who were his (autos kai hoi autou pantes, G3956) are baptized at once after verse 32 says the word of the Lord was spoken to all in his house (pasin tois en te oikia autou, G3614), which puts hearing before baptizing for the household. Verse 34 then says he rejoiced panoikei (G3832), having believed in God (pepisteukos, G4100, perfect active masculine singular). The believing participle is grammatically singular and agrees with the jailer, while panoikei is an adverb occurring only this once in the New Testament whose scope between the rejoicing and the believing the grammar does not fix. So the case is consistent with faith preceding baptism for those who heard, but it leaves the faith status of any non-speaking members unsettled on lexical grounds alone, and that one hapax adverb is the precise point the words do not resolve."
+      },
+      {
+        "ref": "1Cor.1.16",
+        "addressed": true,
+        "resolution": "Paul says he baptized the household of Stephanas (ton Stephana oikon, G3624) with no statement of who believed and in what order. The notice is purely retrospective and incidental, prompted by his point that he baptized few. 1 Cor 16:15 later describes the same household (oikian, G3614) as the firstfruits of Achaia who devoted themselves to ministry, which implies conscious commitment by that household, but the baptism notice itself carries no verbal marker of antecedent faith for each member. The oikos formula here is silent on sequence, so it neither supports nor contradicts the proposition and stands as an unresolved silence rather than a counter-pattern."
+      },
+      {
+        "ref": "Col.2.12",
+        "addressed": true,
+        "resolution": "Colossians 2:11 to 12 sets a circumcision and baptism parallel (peritome, G4061, and baptismo, G0909), which can be read as aligning baptism with a covenant sign given apart from the recipient's prior conscious faith. But verse 12 itself states that the burial and rising with Christ in baptism is dia tes pisteos (G4102, through faith), naming faith as the operative means even within the covenant sign language. The lexical data thus supplies the covenant parallel and a faith clause in the same breath, so the words neither establish a sign administered without faith nor exclude one, and the construction is the kind of two readings the vocabulary does not rank. It is addressed and left honestly open."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.16",
+        "variant_id": "mark-longer-ending",
+        "verdict_impact": "minor",
+        "note": "Mark 16:16 belongs to the longer ending (16:9 to 20). In the lexical store its tokens carry only the K and O edition markers (Byzantine and majority text) and the passage is absent from the earliest Alexandrian witnesses. Removing it weakens one anchor, but the Acts narratives carry the believe then baptize verbal sequence independently, so the impact on the verdict is minor rather than material."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "Inputs report not_in_ecm_scope true and an empty variant_units list, and a direct query found zero VariantUnit nodes for Mark 16, since the ingested ECM window is 3 John only. The Mark longer-ending question is a macro text-critical matter handled outside CBGM micro-variant tooling, so ecm_status is recorded as n/a for this run."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "credobaptism",
+      "paedobaptism",
+      "covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "credobaptism",
+        "verdict": "affirmed",
+        "rationale": "Reads the verb order in Acts 2:41, 8:12, 18:8, Mark 16:16, and Acts 2:38 as a consistent and therefore normative pattern in which receiving the word, hearing, repenting, or believing always precedes baptism. On this reading the household texts are instances where the believing members were the ones baptized, and Acts 16:34 with its perfect singular pepisteukos and the word spoken to all in the house in 16:32 shows the household hearing and believing before being baptized."
+      },
+      {
+        "framework": "paedobaptism",
+        "verdict": "disputed",
+        "rationale": "Reads the oikos formula in Acts 16:15, 16:33, and 1 Cor 1:16 as household-inclusive baptism that does not require each member's prior personal faith, treating the believer baptism narratives as descriptions of adult converts rather than a rule excluding members who cannot yet believe. It notes that the conversion accounts never state a universal exclusion, that the household texts itemize no individual faith, that panoikei in Acts 16:34 is a single-occurrence word whose scope is open, and that Colossians 2:11 to 12 links baptism to the covenant sign of circumcision."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "disputed",
+        "rationale": "Reads Colossians 2:11 to 12 as making baptism the new covenant counterpart to circumcision, a sign that under the prior covenant was applied to the household including infants, and treats the household baptisms as continuity of that household principle. The same passage names faith (dia tes pisteos) as the operative means, so the vocabulary supplies both the covenant sign parallel and the faith clause without ranking them, leaving the scope question open at the level of the words."
+      }
+    ],
+    "notes": "The lexical data settles the verbal order for the named adult converts but cannot by itself decide whether the oikos baptisms included members who had not personally believed. That is the exact point where the frameworks diverge, and the words supply a clear pattern for the persons they describe without supplying a stated universal rule about household members who cannot yet believe."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether, in the conversion accounts of the New Testament, the verbs of believing, receiving the word, or repenting stand prior to the verbs of baptizing, and whether any baptisms are recorded without antecedent personal faith for every person baptized.",
+    "notes": "The phrase the New Testament pattern presupposes that the narratives establish a single normative rule, which is itself part of what is contested. The verdict was derived on the original stem by testing the verbal sequence directly in the morphology, confirming that receiving, hearing, repenting, or believing precedes baptizing in every named conversion, then noting that the household texts narrate baptism of an oikos without itemizing each member's faith and that the one collective term panoikei is a hapax of open scope."
+  },
+  "lay_summary": "Look at how the Greek verbs line up in the conversion stories, confirmed word by word in the morphology. In Acts 2:41 the people who first received the word, named by the participle apodexamenoi, are the very ones the verb says were baptized. In Acts 8:12 the wording is hote de episteusan, when they believed, and only then were they being baptized, and the people are named as men and women. Acts 18:8 stacks three verbs in order for the many Corinthians, hearing, then believing, then being baptized. Mark 16:16 names believing before baptism in the phrase the one having believed and having been baptized, and it ties condemnation to unbelief alone, not to a lack of baptism. Acts 2:38 opens with the command to repent before the command to be baptized. So in these reported cases the language consistently places a conscious response ahead of the act of baptism, which is why the proposition lands as affirmed. The harder texts are the household baptisms. Acts 16:15 baptizes Lydia and her house, Acts 16:33 baptizes the jailer and all his, and 1 Cor 1:16 baptizes the house of Stephanas. In each the Greek records the baptism of an oikos, a household, without spelling out the faith of every single member. The text does state the faith of the head of the house, and in the jailer's case it says he rejoiced and had believed in God, but that believing word is singular and agrees with the jailer, and the one word that might stretch the believing to the whole house, panoikei, occurs only once in the whole New Testament, so its reach cannot be checked against any other verse. That single open word, plus the plain silence about each member, is the lexical reason careful readers divide. The verbs give a clear order for the named adult converts but do not by themselves prove or disprove that everyone in those households believed before being baptized.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.41"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.8.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.18.8"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.16.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.38"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.16.34"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0907"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4100"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3832"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.16.33"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.2.38"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

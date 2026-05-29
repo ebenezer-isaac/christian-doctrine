@@ -1,0 +1,713 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-honesty-and-restitution",
+  "question_id": "prc-honesty-and-restitution",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern is dense and pan-canonical. Explicit truth-speech prohibitions stack across the Decalogue (Exod 20:16, lo plus the imperfect of anah with ed sheqer in object position), the Holiness Code (Lev 19:11, do not steal, do not deal falsely with kachash, do not lie one to another with shaqar), wisdom (Prov 12:22, toebat YHWH siphtei sheqer), and the apostolic letters (Eph 4:25, apothemenoi to pseudos plus the present imperative laleite aletheian; Col 3:9, me pseudesthe eis allelous). Explicit restitution verbs match. The piel shillem in Exod 22 and the heshib asham of Lev 5:23-24 (MT 6:4-5) and Num 5:6-7 require returning the stolen good plus a fifth, and Luke 19:8 narrates apodidomi tetraploun as Jesus affirms salvation has come. The vocabulary forecloses a no reading."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "aletheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0659",
+        "lemma": "ἀποτίθημι",
+        "transliteration": "apotithemi",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0591",
+        "lemma": "ἀποδίδωμι",
+        "transliteration": "apodidomi",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5579",
+        "lemma": "ψεῦδος",
+        "transliteration": "pseudos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5574",
+        "lemma": "ψεύδομαι",
+        "transliteration": "pseudomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4811",
+        "lemma": "συκοφαντέω",
+        "transliteration": "sukophanteo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2195",
+        "lemma": "Ζακχαῖος",
+        "transliteration": "Zakchaios",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2255",
+        "lemma": "ἥμισυς",
+        "transliteration": "hemisus",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0554",
+        "lemma": "ἀπεκδύομαι",
+        "transliteration": "apekduomai",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0341",
+        "lemma": "ἀνακαινόω",
+        "transliteration": "anakainoo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8267",
+        "lemma": "שֶׁקֶר",
+        "transliteration": "sheqer",
+        "occurrences_in_canon": 113,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8266",
+        "lemma": "שָׁקַר",
+        "transliteration": "shaqar",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5707",
+        "lemma": "עֵד",
+        "transliteration": "ed",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7453",
+        "lemma": "רֵעַ",
+        "transliteration": "rea",
+        "occurrences_in_canon": 186,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6030",
+        "lemma": "עָנָה",
+        "transliteration": "anah",
+        "occurrences_in_canon": 315,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7999",
+        "lemma": "שָׁלֵם",
+        "transliteration": "shalem",
+        "occurrences_in_canon": 116,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shub",
+        "occurrences_in_canon": 1057,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0817",
+        "lemma": "אָשָׁם",
+        "transliteration": "asham",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1497",
+        "lemma": "גָּזַל",
+        "transliteration": "gazal",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3584",
+        "lemma": "כָּחַשׁ",
+        "transliteration": "kachash",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0225",
+      "G0659",
+      "G0591",
+      "G5579",
+      "G5574",
+      "G4811",
+      "G2195",
+      "G2255",
+      "G0554",
+      "G0341",
+      "H8267",
+      "H8266",
+      "H5707",
+      "H7453",
+      "H6030",
+      "H7999",
+      "H7725",
+      "H0817",
+      "H1497",
+      "H3584",
+      "H3808"
+    ],
+    "scripture": [
+      {
+        "ref": "Exod.20.16",
+        "key_terms": [
+          {
+            "strong": "H8267",
+            "lemma": "שֶׁקֶר"
+          },
+          {
+            "strong": "H5707",
+            "lemma": "עֵד"
+          },
+          {
+            "strong": "H7453",
+            "lemma": "רֵעַ"
+          },
+          {
+            "strong": "H6030",
+            "lemma": "עָנָה"
+          }
+        ],
+        "force": "The ninth word of the Decalogue forbids answering (H6030 anah) as a false witness (ed sheqer) against a neighbor (rea). The construction is lo plus the imperfect of anah, the same negation-plus-imperfect pattern used for the other apodictic prohibitions of the Decalogue, which fixes it as a categorical, ongoing ban rather than a contingent rule. ETCBC tags the clause as a negative direct quotation (NQ) with the false-witness phrase in object position, making truthful testimony a binding covenant obligation.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.19.11",
+        "key_terms": [
+          {
+            "strong": "H3584",
+            "lemma": "כָּחַשׁ"
+          },
+          {
+            "strong": "H8266",
+            "lemma": "שָׁקַר"
+          }
+        ],
+        "force": "The Holiness Code chains three prohibitions in a single triad. Do not steal, do not deal falsely (kachash), and do not lie (shaqar) one to a neighbor. This is the cross-reference cited from both Eph 4:25 and Col 3:9 in the TSK data, and it anchors the apostolic prohibitions in the Mosaic moral law, demonstrating that the New Testament puts-off vocabulary is reaching back into this exact verbal triad.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.22.1",
+        "key_terms": [
+          {
+            "strong": "H7999",
+            "lemma": "שָׁלֵם"
+          }
+        ],
+        "force": "The theft statute commands the offender to repay (shillem, the piel of shalem, to make whole, complete) fivefold for a stolen ox and fourfold for a stolen sheep. The piel intensive carries the sense of fully completed compensation rather than partial return. This statute supplies the Mosaic background for the fourfold figure picked up by Zacchaeus in Luke 19:8, an explicit lexical link the TSK cross-references record.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.6.5",
+        "key_terms": [
+          {
+            "strong": "H7999",
+            "lemma": "שָׁלֵם"
+          },
+          {
+            "strong": "H0817",
+            "lemma": "אָשָׁם"
+          },
+          {
+            "strong": "H1497",
+            "lemma": "גָּזַל"
+          }
+        ],
+        "force": "The trespass-offering statute, which in the MT runs Lev 5:20-26 and in the English canon Lev 6:1-7, treats lying about a neighbor's deposit, swearing falsely to sheqer, robbery (gazal), and extortion as covenant offenses requiring real restitution. The offender must restore (shub) what was robbed, repay (shalem) it in full, add a fifth (chamishit) on the day of his guilt (asham), and only then bring the ram of asham to the priest. The lexical ordering is restitution first, then atonement, which forecloses any reading that treats financial restoration as optional or merely symbolic.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.5.7",
+        "key_terms": [
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּב"
+          },
+          {
+            "strong": "H0817",
+            "lemma": "אָשָׁם"
+          }
+        ],
+        "force": "The numbers parallel chains confession (yadah) with restoration. He will confess the sin he has done, and he will restore (heshib, hifil of shub) his asham (his compensation) in full, adding its fifth, and give it to the one to whom he was guilty. The hifil of shub here means to bring back, return, restore, and pairing it with asham fixes restitution to the victim as the lexical centerpiece of repentance for wrong done.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.12.22",
+        "key_terms": [
+          {
+            "strong": "H8267",
+            "lemma": "שֶׁקֶר"
+          }
+        ],
+        "force": "The proverb declares lips of falsehood (siphtei sheqer) an abomination (toebah) to YHWH, while those who deal faithfully (emunah) are his delight. The construct chain pins the moral weight on the type of speech itself, not the social effect, and the wisdom witness joins the legal witness in treating truthful speech as a categorical demand. Prov 19:5 and 19:9 reinforce the same ed shaqarim, the false witness, with the threat of punishment.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.25",
+        "key_terms": [
+          {
+            "strong": "G0659",
+            "lemma": "ἀποτίθημι"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G5579",
+            "lemma": "ψεῦδος"
+          },
+          {
+            "strong": "G3196",
+            "lemma": "μέλος"
+          },
+          {
+            "strong": "G4139",
+            "lemma": "πλησίον"
+          }
+        ],
+        "force": "The aorist middle participle apothemenoi (having put off) the lie (to pseudos) governs the present imperative laleite aletheian, pairing a decisive break with falsehood and an ongoing practice of speaking truth with the neighbor (plesion). The grounding clause, because we are members (mele) one of another, ties truth-telling to the integrity of the body. The verb apotithemi is the same put-off vocabulary used elsewhere for laying aside garments and the old conduct (Heb 12:1, James 1:21).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.9",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G0554",
+            "lemma": "ἀπεκδύομαι"
+          },
+          {
+            "strong": "G3820",
+            "lemma": "παλαιός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "The prohibition me pseudesthe eis allelous (do not lie to one another) is a present imperative with me, which targets the ongoing practice of lying as such and not merely a single act. It is grounded on the aorist middle participle apekdusamenoi, having stripped off the old man with its practices (praxesin). The stripping-off verb apekduomai is a strengthened form of the put-off vocabulary, framing truthful speech as the visible mark of renewed identity rather than an optional addition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.10",
+        "key_terms": [
+          {
+            "strong": "G0341",
+            "lemma": "ἀνακαινόω"
+          },
+          {
+            "strong": "G1922",
+            "lemma": "ἐπίγνωσις"
+          },
+          {
+            "strong": "G1504",
+            "lemma": "εἰκών"
+          }
+        ],
+        "force": "The new man is being renewed (anakainoumenon, present passive participle) in knowledge (epignosis) after the image (eikon) of its Creator. The continuous renewal supplies the positive counterpart to the prohibition against lying in v.9, locating honest conduct within ongoing conformity to the Creator and recalling the image-of-God language of Gen 1:26.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.19.8",
+        "key_terms": [
+          {
+            "strong": "G2195",
+            "lemma": "Ζακχαῖος"
+          },
+          {
+            "strong": "G0591",
+            "lemma": "ἀποδίδωμι"
+          },
+          {
+            "strong": "G4811",
+            "lemma": "συκοφαντέω"
+          },
+          {
+            "strong": "G2255",
+            "lemma": "ἥμισυς"
+          }
+        ],
+        "force": "Zacchaeus declares he gives half (hemisia) of his goods to the poor and, where he has defrauded by false accusation (esukophantesa, aorist of sukophanteo, a hapax-pair verb found only here and Luke 3:14), he restores (apodidomi) fourfold (tetraploun). The narrative joins confession of dishonest gain with concrete restitution exceeding the Mosaic minimum of fourfold for a sheep, and Jesus pronounces salvation come to the house. The lexical force of apodidomi tetraploun is restitution regardless of whether the present-tense verbs are read as habitual or vow.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Luke.19.8",
+        "to": "Exod.22.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.4.25",
+        "to": "Lev.19.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.9",
+        "to": "Lev.19.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.4.25",
+        "to": "Eph.4.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Exod.20.16",
+        "to": "Exod.23.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Gen.1.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Col.3.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Ps.51.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.19.8",
+        "to": "Luke.3.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.19.8",
+        "to": "Luke.3.8",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Josh.2.4-6",
+        "addressed": true,
+        "resolution": "Rahab's concealment of the spies and the midwives' speech in Exod 1:19 are narrated descriptively. The commendations in Heb 11:31 and James 2:25 are anchored on pistis (faith) and on receiving the messengers, not on the false speech itself. The texts narrate without legislating, so they do not establish a competing norm against the explicit prohibitive constructions of Exod 20:16 (lo plus imperfect of anah), Lev 19:11 (do not shaqar), Eph 4:25 (apothemenoi to pseudos), and Col 3:9 (me pseudesthe present imperative). The proposition concerns required practice, which the imperatives establish directly."
+      },
+      {
+        "ref": "1Sam.16.2",
+        "addressed": true,
+        "resolution": "YHWH instructs Samuel to bring a heifer and say he has come to sacrifice, concealing the anointing of David from Saul. The instruction does not include shaqar or sheqer language, and the cover statement is materially true. Samuel does in fact sacrifice. The text reports a strategic non-disclosure, not the false witness (ed sheqer) that Exod 20:16 prohibits. The lexical category of the Decalogue prohibition, false testimony injurious to a neighbor, is not engaged."
+      },
+      {
+        "ref": "1Kgs.22.22",
+        "addressed": true,
+        "resolution": "The lying spirit (ruach sheqer) in the mouth of Ahab's prophets is narrated as a judicial act of God against Ahab, not as a prescriptive norm. The vocabulary here borrows the same sheqer root, but the text frames it as a sentence on a king who has rejected the truthful prophet Micaiah. It does not commend lying for humans. The Decalogue and the apostolic imperatives remain the prescriptive layer."
+      },
+      {
+        "ref": "Luke.19.8",
+        "addressed": true,
+        "resolution": "Zacchaeus speaks in the present tense (didomi, apodidomi), which some read as describing his existing habit rather than a new vow. Either reading supports the proposition, because in both cases honest restitution is the conduct Jesus affirms as evidence that salvation has come to the house. The lexical force of apodidomi tetraploun, give back fourfold, is restitution regardless of the temporal nuance."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Luke.19.8",
+        "variant_id": "luke-19-8-word-order",
+        "verdict_impact": "none",
+        "note": "The SBLGNT apparatus marks word-order and minor lexical variation in the clause about giving half to the poor and restoring fourfold, but every witness retains both the giving to the poor and the apodidomi tetraploun restitution. The verdict on restitution holds across all readings."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "The anchor verses span Exodus, Leviticus, Numbers, Proverbs, Luke, Ephesians, and Colossians, none of which falls within the open-cbgm 3 John published scope. The bundle reports not_in_ecm_scope true and supplies no material variant units."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "new_covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the Decalogue and Holiness Code prohibitions on false witness and lying as the abiding moral law of the one covenant of grace, carried forward into the apostolic imperatives of Eph 4:25 and Col 3:9. The Mosaic restitution statutes of Exod 22, Lev 6, and Num 5 are read as case-law applications of the same moral principle, so restitution remains binding equity for the church."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Locates the requirement in the renewed new-man identity of Col 3:10 and the one-body grounding of Eph 4:25, where truthful speech and restitution flow from union with Christ and regeneration rather than from the Mosaic code as such. The verdict is the same because the apostolic imperatives use direct prohibitive constructions (me pseudesthe, apothemenoi to pseudos) that are independent of the Mosaic citation."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Treats the Mosaic restitution statutes as covenantally bound to Israel under the Sinai administration, but reads the New Testament imperatives in Eph 4:25 and Col 3:9 as direct commands to the church grounded in the new identity in Christ. Truth-telling and the restitution example of Luke 19:8 (affirmed by Jesus) remain required Christian practice in the present dispensation."
+      }
+    ],
+    "notes": "All three lenses reach the same verdict because the New Testament imperatives are explicit and lexically independent of the Mosaic citation chain, and the gospel narrative of Luke 19 attaches restitution to a verdict of salvation. The lenses differ on the path, not the result."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem speaks of truth-telling, integrity in word, and restitution as required Christian practice. The terms are descriptive of conduct, not loaded with a tradition-specific taxonomy or a contested verdict-assuming phrase, so no neutralization was required. The verdict is derived from the lexical pattern of the cited anchors. Direct lexical queries against the lexical store confirmed canon counts (sheqer 113 distinct verses, ed 69, rea 186, anah 315, shalem 116, shub 1057, asham 46, gazal 30, kachash 22, pseudos 10, pseudomai 12, apodidomi 48, sukophanteo 2) and the verse-level token presence of the cited lemmas in Exod 20:16, Lev 19:11, Exod 22:1-4, Lev 5:23-24 (English 6:1-7), Num 5:6-7, Prov 12:22, Eph 4:25, Col 3:9-10, and Luke 19:8."
+  },
+  "lay_summary": "The words used across the anchor verses point in one direction with little room for confusion. In Exodus 20:16 the Hebrew forbids answering as a false witness (ed sheqer) against a neighbor, built with the negative particle lo plus the verb to answer or testify (anah), the same flat prohibitive grammar used for the other commands of the Decalogue. Leviticus 19:11, the cross-reference linked from both Pauline passages in the TSK data, chains do not steal, do not deal falsely (kachash), and do not lie (shaqar) one to another, fixing honest speech in the moral law. Wisdom backs it up. Proverbs 12:22 calls lips of falsehood (siphtei sheqer) an abomination to YHWH and Proverbs 19:5 and 19:9 warn the false witness (ed shaqarim) of punishment. The restitution side is just as explicit. Exodus 22 commands the thief to repay (the piel of shalem, to make whole) fourfold for a stolen sheep and fivefold for an ox. Leviticus 5:23-24 (English 6:1-7) and Numbers 5:6-7 require the offender to restore (heshib, the hifil of shub) what was taken, add a fifth, and bring the asham offering, with restitution to the victim coming first and atonement following. The gospel narrative of Luke 19:8 picks up the same restitution vocabulary when Zacchaeus says he restores (apodidomi) fourfold whatever he defrauded by false accusation (sukophanteo) and gives half his goods to the poor, and Jesus answers that salvation has come to this house. The apostolic letters use direct present-tense prohibitive constructions. Ephesians 4:25 uses the participle apothemenoi (having put off) the lie (to pseudos) plus the present imperative laleite aletheian (speak truth), grounded in being members of one body. Colossians 3:9 uses me pseudesthe (do not lie) as a continuous prohibition, grounded in having stripped off the old man. Three patterns line up. Truthful speech is commanded in both Testaments with imperative and prohibition forms. Lying is named as conduct to be put off. Restitution to the wronged neighbor is the legal and narrative remedy and is presented as the fruit of repentance rather than as its price. Narrative texts where deception is reported, such as Rahab or the midwives, describe events without legislating a norm and do not overturn the explicit prohibitions. There is no rival vocabulary in the canon that commends false witness or denies restitution.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.20.16"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Exod.20.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7999"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0817"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8267"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0591"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5579"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5574"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.9"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.19.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Lev.6.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Num.5.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.19.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Eph.4.25"
+    },
+    {
+      "type": "morphology",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Luke.19.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include ETCBC-BHSA and MACULA-Greek and MACULA-Hebrew under CC-BY-NC-4.0, which forbid bulk redistribution, and SBLGNT-text under SBLGNT-EULA, which is non-redistributable. The lexical observations on Hebrew syntax (ETCBC), interlinear alignment (MACULA), and the critical Greek text (SBLGNT) were load-bearing for the verdict, so they were cited honestly rather than dropped to preserve a safe-to-publish flag."
+  },
+  "flags": []
+}

@@ -1,0 +1,507 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-tobacco-liberty",
+  "question_id": "prc-tobacco-liberty",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7125,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Tobacco is unknown to the biblical world and is named by no Hebrew or Greek word, so the proposition cannot be settled by a direct word study and must be derived from general categories. Two text-level streams pull in opposite directions and the vocabulary does not rank them. Romans 14 builds a real diakrisis dialogismon category in which opposite practices are validated coram Deo with thanksgiving and mutual judging is forbidden, which is the strongest internal warrant for treating an unforbidden substance as adiaphora. Against this, naos in 1 Cor 6:19 with the perfect passive egorasthete and the imperative doxasate ton theon en to somati, the panta exestin yet ou panta sympherei and ouk exousiasthesomai pair in 1 Cor 6:12 and 10:23, and the proskomma-skandalon vocabulary of Rom 14:13 to 14:21 impose a real stewardship and brotherly-love qualification. Because the canon supplies the framework but not a verdict on this specific substance, the lexical pattern is materially contested rather than settled."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1392",
+        "lemma": "δοξάζω",
+        "transliteration": "doxazo",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0059",
+        "lemma": "ἀγοράζω",
+        "transliteration": "agorazo",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1832",
+        "lemma": "ἔξεστιν",
+        "transliteration": "exestin",
+        "occurrences_in_canon": 31,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4851",
+        "lemma": "συμφέρω",
+        "transliteration": "sympherei",
+        "occurrences_in_canon": 17,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2068",
+        "lemma": "ἐσθίω",
+        "transliteration": "esthio",
+        "occurrences_in_canon": 65,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4355",
+        "lemma": "προσλαμβάνω",
+        "transliteration": "proslambano",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1848",
+        "lemma": "ἐξουθενέω",
+        "transliteration": "exoutheneo",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5426",
+        "lemma": "φρονέω",
+        "transliteration": "phroneo",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2168",
+        "lemma": "εὐχαριστέω",
+        "transliteration": "eucharisteo",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4348",
+        "lemma": "πρόσκομμα",
+        "transliteration": "proskomma",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4625",
+        "lemma": "σκάνδαλον",
+        "transliteration": "skandalon",
+        "occurrences_in_canon": 15,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2840",
+        "lemma": "κοινόω",
+        "transliteration": "koinoo",
+        "occurrences_in_canon": 14,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4983",
+      "G3485",
+      "G1392",
+      "G0059",
+      "G1832",
+      "G4851",
+      "G2068",
+      "G2919",
+      "G4355",
+      "G1848",
+      "G5426",
+      "G2168",
+      "G4348",
+      "G4625",
+      "G2840",
+      "G2316"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.6.19",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "to soma humon naos tou en humin hagiou pneumatos estin, your body is a temple of the indwelling Holy Spirit. naos is the inner sanctuary, used 46 times in the canon and overwhelmingly of the temple proper, which lifts the body from neutral matter to consecrated space. The second-person plural oidate frames this as something believers hold in trust rather than own outright. This grounds a stewardship duty over the body that any liberty claim must accommodate. The verse names no specific substance and so cannot by itself classify tobacco as sin or as permitted.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.20",
+        "key_terms": [
+          {
+            "strong": "G0059",
+            "lemma": "ἀγοράζω"
+          },
+          {
+            "strong": "G1392",
+            "lemma": "δοξάζω"
+          }
+        ],
+        "force": "egorasthete gar times, you were bought with a price, is aorist passive and locates ownership in the buyer rather than the body. doxasate de ton theon en to somati humon, glorify God in your body, is aorist imperative second-person plural and pairs an actor with a sphere of action. Together the warrant and imperative orient bodily conduct toward God's honor and supply the stewardship caution clause of the proposition. The verse does not by lexeme decide whether a particular use dishonors that trust.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.1",
+        "key_terms": [
+          {
+            "strong": "G4355",
+            "lemma": "προσλαμβάνω"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          }
+        ],
+        "force": "ton asthenounta te pistei proslambanesthe me eis diakriseis dialogismon, receive the one weak in faith but not for quarrels over opinions, opens a defined category of practices that are not to be tests of fellowship. proslambano in its 13 canon occurrences carries the warm sense of welcoming or taking to oneself, used both of Christ welcoming believers and of believers welcoming each other. diakrisis dialogismon, distinctions of opinions, is the technical phrase that defines what the chapter governs. This creates the structural slot of a disputable matter into which a substance with no direct prohibition could fall.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.3",
+        "key_terms": [
+          {
+            "strong": "G2068",
+            "lemma": "ἐσθίω"
+          },
+          {
+            "strong": "G1848",
+            "lemma": "ἐξουθενέω"
+          }
+        ],
+        "force": "ho esthion ton me esthionta me exoutheneito, the one who eats must not despise the one who abstains, and ho me esthion ton esthionta me krineto, the abstainer must not judge the eater, because ho theos auton proselabeto, God has welcomed him. The reciprocal third-person imperative prohibition on contempt and judgment sets practice in this category outside the sin or not-sin binary at the level of mutual standing, which favors a liberty framing while leaving the concrete act unevaluated.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.6",
+        "key_terms": [
+          {
+            "strong": "G5426",
+            "lemma": "φρονέω"
+          },
+          {
+            "strong": "G2168",
+            "lemma": "εὐχαριστέω"
+          }
+        ],
+        "force": "ho esthion kurio esthiei, eucharistei gar to theo, the eater eats to the Lord and gives thanks to God, and the abstainer likewise abstains to the Lord and gives thanks. Both opposite practices are validated when done coram Deo with thanksgiving, which is the strongest internal signal that the category tolerates either choice. The validation is conditioned on Godward orientation through the dative kurio and the eucharistic clause, not unconditional, so it does not license self-harm.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.12",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "ekastos hemon peri heautou logon dosei to theo, each of us will give account of himself to God. The verse closes the disputable-matter unit by locating final adjudication in personal accountability to God rather than communal verdict, which supports liberty in conscience but also preserves a real standard of accountability that a stewardship caution can attach to.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.13",
+        "key_terms": [
+          {
+            "strong": "G4348",
+            "lemma": "πρόσκομμα"
+          },
+          {
+            "strong": "G4625",
+            "lemma": "σκάνδαλον"
+          }
+        ],
+        "force": "me tithenai proskomma to adelpho e skandalon, do not place a stumbling block or trap before your brother. proskomma occurs only 6 times in the canon and skandalon 15, and Romans 14 to 15 with 1 Cor 8 to 10 are the densest concentration. The liberty granted in Rom 14:1-6 is here explicitly bounded by neighbor-love. The vocabulary makes the boundary part of the liberty teaching, not external to it, which complicates any reading that takes Romans 14 as unqualified permission.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.14",
+        "key_terms": [
+          {
+            "strong": "G2840",
+            "lemma": "κοινόω"
+          }
+        ],
+        "force": "ouden koinon di heautou, nothing is unclean in itself, with koinon as the predicate adjective uses the same word family as Mark 7:18-19 where Jesus declares foods clean. The construction di heautou, of itself, removes intrinsic defilement from material things while preserving conscience as the operative category in the next clause. Applied to a substance the canon never names, the sentence by itself permits a non-prohibition reading, but the verse continues with ei me to logizomeno ti koinon einai, ekeino koinon, which restores subjective conscience as binding for the one who so reckons.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.7.19",
+        "key_terms": [
+          {
+            "strong": "G2840",
+            "lemma": "κοινόω"
+          }
+        ],
+        "force": "katharizon panta ta bromata, cleansing all foods, is the Evangelist's editorial gloss on Jesus' saying that what enters the mouth from outside cannot defile. koinoo, to render common or unclean, occurs 14 times and clusters in the Markan and Matthean cleanness controversies and Peter's Acts 10 vision. The principle abrogates intrinsic ritual defilement of ingested matter, which removes one possible class of objection to tobacco but does not address health damage or dependency, which are different categories entirely.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.14.2",
+        "to": "Gen.1.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.12",
+        "to": "Eccl.11.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.10",
+        "to": "Rom.2.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.13",
+        "to": "1Cor.8.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.14",
+        "to": "Mark.7.19",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.19",
+        "to": "1Cor.3.16",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.6.12",
+        "addressed": true,
+        "resolution": "panta moi exestin all ou panta sympherei, panta moi exestin all ouk ego exousiasthesomai hypo tinos, all things are lawful but not all are beneficial and I will not be brought under the power of anything. The paired contrast structure exestin yet sympherei, plus the future passive exousiasthesomai, qualifies any bare liberty claim with a benefit and non-domination test. Across the canon exestin appears 31 times and sympherei 17, and they co-occur at 1 Cor 6:12 and 10:23, so the qualification is internal to the very chapters the proposition cites. The proposition already concedes health-stewardship cautions, so the text limits but does not contradict the liberty framing."
+      },
+      {
+        "ref": "1Cor.10.23",
+        "addressed": true,
+        "resolution": "panta exestin all ou panta sympherei, panta exestin all ou panta oikodomei, all things are lawful but not all are beneficial, not all build up. The slogan from 6:12 is reissued in 10:23 with the added test of oikodomei, edification of others, before Paul tells the Corinthians eite oun esthiete eite pinete eite ti poieite, panta eis doxan theou poieite in 10:31. This subordinates indifferent acts to a Godward end and a community-building test. It does not classify tobacco by lexeme but raises the bar for any practice that cannot pass both tests."
+      },
+      {
+        "ref": "1Cor.6.19",
+        "addressed": false,
+        "resolution": "The naos and bought-with-a-price language can be read as a stewardship boundary strong enough to count health-damaging or dependency-forming use as failure of trust, or as a general dedication that leaves specific bodily choices to conscience. The bundle gives no lexical datum that selects between these readings for a substance the text never names. The tension remains open and drives the disputed verdict and the low confidence."
+      },
+      {
+        "ref": "Rom.14.21",
+        "addressed": true,
+        "resolution": "kalon to me phagein krea mede piein oinon mede en ho ho adelphos sou proskoptei, good not to eat meat or drink wine or anything by which your brother stumbles. The construction kalon to me with infinitive states a positive evaluation of voluntary abstention rather than a prohibition of the act, which is the exact lexical shape the liberty-with-stewardship reading predicts. The clause bounds liberty by neighbor effect, which the proposition's cautions clause already accommodates."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Romans 14 and 1 Corinthians 6 to 10 fall outside the CBGM 3 John sample scope. The cited verses carry minor scribal variation noted by the editorial sigla in the bundle, such as placement of ho de in Rom 14.3 and a kyriou or theou reading at Rom 14.10 and 14.12, but none of these touch the lexemes that carry the disputable-matter, stewardship, or stumbling-block force, so the verdict is stable across the plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "new_covenant_theology",
+      "covenant_theology",
+      "ascetic-holiness"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "liberty-and-conscience reading of Romans 14 with Mark 7:19 and Rom 14:14",
+        "verdict": "for",
+        "rationale": "Reads tobacco as a paradigm disputable matter governed by Rom 14:3 to 14:6 where opposite practices are both validated coram Deo with thanksgiving, reinforced by ouden koinon di heautou in 14:14 and the Markan declaration that abrogates intrinsic defilement of ingested matter. Use is not sin per se and judgment of the abstaining or using brother is forbidden. Stumbling-block restraint of 14:13 and 14:21 is internal to the liberty teaching rather than a refutation of it."
+      },
+      {
+        "framework": "stewardship-of-the-body reading of 1 Cor 6 and 10",
+        "verdict": "disputed",
+        "rationale": "Reads naos in 6:19, the egorasthete and doxasate pair in 6:20, the exestin-sympherei and exousiasthesomai clauses of 6:12, and the panta eis doxan theou poieite rule of 10:31 as raising a real question whether a known health-damaging or dependency-forming practice can be conducted to God's glory. The body as consecrated sanctuary rather than neutral instrument shifts the burden of proof onto any specific use that demonstrably degrades it."
+      },
+      {
+        "framework": "ascetic-holiness reading taking 1 Cor 6 as a quasi-prohibition",
+        "verdict": "against",
+        "rationale": "On its strongest lexical form, this lens reads exousiasthesomai as a categorical refusal of habitual dependency, naos as ruling out willing pollution of consecrated space, and the proskomma-skandalon density of Rom 14 as making any conspicuous self-harming practice a positive offense against weaker conscience. The lens is lexically possible because the words it leans on are real and emphatic, but it must derive a verdict on a substance the canon never names from category arguments, which is the same constraint the liberty reading faces."
+      }
+    ],
+    "notes": "The two New Testament loci are harmonized by analogia scripturae rather than set against each other. Romans 14 establishes the disputable-matter category, 1 Corinthians 6 and 10 bound it with stewardship and edification tests, and Mark 7:19 with Rom 14:14 removes intrinsic ritual defilement from ingested matter. The proposition sits where these intersect, and the absence of any anchor lexeme for the substance is what prevents a single-direction verdict."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether tobacco use belongs to the category of practices that Scripture leaves to individual conscience subject to a duty of bodily stewardship and neighbor love, or whether it is intrinsically prohibited.",
+    "notes": "The original stem preloads the conclusion in two ways. The phrase matter of Christian liberty already assigns the practice to the adiaphora category that is the question at issue, and not sin per se asserts the negative verdict the analysis is meant to test. The verdict was derived against the neutralized form, which states the open question without presupposing the liberty classification. Because the substance is absent from the lexicon, even the neutral form cannot be resolved from word study alone, and that absence is the lexical root-cause of the disputed verdict."
+  },
+  "lay_summary": "Tobacco does not appear anywhere in the Hebrew or Greek Bible, so there is no word to look up and the question has to be answered from broader principles. Two streams of text pull in different directions and the vocabulary does not rank them. Romans 14 builds a real category of disputable matters. Paul tells believers that one person eats and another abstains, that each does so before the Lord with thanksgiving, and that neither may despise or judge the other, because God has welcomed them both. Each will finally give account of himself to God. The chapter even says outright that nothing is unclean in itself, and the Gospel of Mark records Jesus declaring that what enters the mouth from outside does not defile. That pattern fits a substance Scripture never directly forbids and points toward treating it as a matter of conscience. The other stream sets a boundary. In 1 Corinthians 6 the body is called a sanctuary of the Holy Spirit, bought with a price, so the believer is to glorify God in the body. Just before that, Paul says all things are lawful but not all are beneficial, and that he will not be mastered by anything. In 1 Corinthians 10 he repeats the slogan with a community test added, then says whether we eat or drink we should do all to the glory of God. Romans 14 itself bounds liberty with stumbling-block language, telling the strong not to harm the weak. These verses do not name tobacco either, but they raise a genuine question about whether a habit known to harm the body or create dependency can be carried out to God's honor without becoming a snare to others. Because the specific subject is missing from the text and the general principles cut both ways, with freedom of conscience on one side and stewardship plus neighbor-love on the other, the lexical pattern does not settle the matter in one direction. The words establish the framework but leave the concrete verdict on this particular substance contested.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4983"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3485"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1832"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4851"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4348"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2840"
+    },
+    {
+      "type": "syntax",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.6.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.14.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.14.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-inclusivism-denial",
+  "question_id": "doc-inclusivism-denial",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two unranked canon patterns govern this proposition. Pattern one ties saving outcome to a named, heard, confessed object, Rom 10:14-17 builds a four-link chain (calling presupposes believing, believing presupposes hearing, hearing presupposes a preacher, ἡ πίστις ἐξ ἀκοῆς, ἡ δὲ ἀκοὴ διὰ ῥήματος Χριστοῦ), John 3:18 grounds standing condemnation on not having believed εἰς τὸ ὄνομα τοῦ μονογενοῦς υἱοῦ, and Acts 4:12 excludes any other name. Pattern two states that in every nation the God-fearer who works righteousness is δεκτός (Acts 10:35), that Gentiles without the law do by nature τὰ τοῦ νόμου with conscience excusing at the judgment (Rom 2:14-16), and that faith justified Abraham apart from gospel content (Rom 4:3-5) while Heb 11:6 demands only faith that God is and rewards seekers. The vocabulary does not rank these patterns or settle the unevangelized and pre-incarnation cases, so the proposition's exclusive scope is lexically underdetermined."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuō",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3670",
+        "lemma": "ὁμολογέω",
+        "transliteration": "homologeō",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1941",
+        "lemma": "ἐπικαλέω",
+        "transliteration": "epikaleō",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0189",
+        "lemma": "ἀκοή",
+        "transliteration": "akoē",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2784",
+        "lemma": "κηρύσσω",
+        "transliteration": "kēryssō",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2097",
+        "lemma": "εὐαγγελίζω",
+        "transliteration": "euangelizō",
+        "occurrences_in_canon": 55,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sōzō",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 380,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1184",
+        "lemma": "δεκτός",
+        "transliteration": "dektos",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5449",
+        "lemma": "φύσις",
+        "transliteration": "physis",
+        "occurrences_in_canon": 14,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4893",
+        "lemma": "συνείδησις",
+        "transliteration": "syneidēsis",
+        "occurrences_in_canon": 30,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3406",
+        "lemma": "μισθαποδότης",
+        "transliteration": "misthapodotēs",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0544",
+        "lemma": "ἀπειθέω",
+        "transliteration": "apeitheō",
+        "occurrences_in_canon": 15,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4100",
+      "G3670",
+      "G1941",
+      "G0189",
+      "G2784",
+      "G2097",
+      "G4991",
+      "G4982",
+      "G3686",
+      "G5207",
+      "G0166",
+      "G2222",
+      "G1184",
+      "G1484",
+      "G5449",
+      "G4893",
+      "G3406",
+      "G0544",
+      "G0859"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.10.9",
+        "key_terms": [
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Conditional ἐὰν construction with two parallel subjunctives, ὁμολογήσῃς (confess with the mouth) and πιστεύσῃς (believe in the heart), governs the future passive σωθήσῃ. The object of confession is κύριον Ἰησοῦν, the named historical referent. The verbal pair binds external profession and internal trust to the saving outcome.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.14",
+        "key_terms": [
+          {
+            "strong": "G1941",
+            "lemma": "ἐπικαλέω"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G2784",
+            "lemma": "κηρύσσω"
+          }
+        ],
+        "force": "Four πῶς questions build a causal chain in reverse, calling upon presupposes believing, believing presupposes hearing, hearing presupposes a preacher. πῶς δὲ πιστεύσωσιν οὗ οὐκ ἤκουσαν makes prior hearing a stated prerequisite of the saving response, and the rhetorical questions assume each prior link is required.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.17",
+        "key_terms": [
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          },
+          {
+            "strong": "G0189",
+            "lemma": "ἀκοή"
+          },
+          {
+            "strong": "G4487",
+            "lemma": "ῥῆμα"
+          }
+        ],
+        "force": "Summary clause, ἄρα ἡ πίστις ἐξ ἀκοῆς, ἡ δὲ ἀκοὴ διὰ ῥήματος Χριστοῦ. Faith is sourced (ἐξ) from hearing, hearing comes through (διὰ) the spoken word of Christ. The chain anchors saving faith to an externally proclaimed content.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.18",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "Contrastive present participles, ὁ πιστεύων is not judged, ὁ μὴ πιστεύων is judged already (ἤδη κέκριται, perfect passive marking a standing verdict). The causal ὅτι clause names the content, εἰς τὸ ὄνομα τοῦ μονογενοῦς υἱοῦ τοῦ θεοῦ. Failure to believe in this specific name is the stated ground of condemnation.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.36",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G0544",
+            "lemma": "ἀπειθέω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          }
+        ],
+        "force": "Antithetic pair, ὁ πιστεύων εἰς τὸν υἱόν has eternal life, ὁ ἀπειθῶν τῷ υἱῷ will not see life (οὐκ ὄψεται ζωήν). The opposite of believing here is ἀπειθέω, to refuse to be persuaded or to disobey, which presents the negative case as active rejection of a presented Son rather than mere non-exposure.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.12",
+        "key_terms": [
+          {
+            "strong": "G4991",
+            "lemma": "σωτηρία"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Double exclusion, οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία negates salvation in any other, and οὐδὲ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις excludes any other name given among humans. The clause forecloses an alternate name but speaks of the means of salvation, not explicitly of every person's required epistemic access to that name.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.6",
+        "key_terms": [
+          {
+            "strong": "G3598",
+            "lemma": "ὁδός"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          }
+        ],
+        "force": "Predicate-nominative self-identification, ἐγώ εἰμι ἡ ὁδός, followed by οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ διʼ ἐμοῦ. The exclusive διʼ ἐμοῦ marks Christ as the sole channel to the Father. The clause fixes the means as Christ but the lexis does not specify whether access to that means requires explicit knowledge of him.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.12",
+        "key_terms": [
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "Balanced conditional, ὁ ἔχων τὸν υἱὸν ἔχει τὴν ζωήν, ὁ μὴ ἔχων τὸν υἱὸν τοῦ θεοῦ τὴν ζωὴν οὐκ ἔχει. Possessing life is co-extensive with possessing the Son. The verb ἔχω frames the link as having or not having the Son, leaving open how having is mediated.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.10.35",
+        "key_terms": [
+          {
+            "strong": "G1184",
+            "lemma": "δεκτός"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G5399",
+            "lemma": "φοβέομαι"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "ἐν παντὶ ἔθνει ὁ φοβούμενος αὐτὸν καὶ ἐργαζόμενος δικαιοσύνην δεκτὸς αὐτῷ ἐστιν. The universal scope (παντὶ ἔθνει) plus the participial subject (the one fearing God and working righteousness) is predicated δεκτός, acceptable to him. δεκτός occurs only five times in the canon (Phil 4:18, 2Cor 6:2, Luke 4:19, 4:24, here), where it means welcome or acceptable rather than saved, so its force here is not lexically pinned to final salvation.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.10.43",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσις"
+          }
+        ],
+        "force": "Same narrative, πάντα τὸν πιστεύοντα εἰς αὐτὸν ἄφεσιν ἁμαρτιῶν λαβεῖν διὰ τοῦ ὀνόματος αὐτοῦ. Forgiveness is received διὰ τοῦ ὀνόματος through believing in him. Verses 35 and 43 sit in one episode, one calls the God-fearer δεκτός before proclamation, the other ties forgiveness to believing the name, and the text does not lexically rank δεκτός against the subsequent πιστεύω requirement.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.2.14",
+        "key_terms": [
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G5449",
+            "lemma": "φύσις"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "ἔθνη τὰ μὴ νόμον ἔχοντα φύσει τὰ τοῦ νόμου ποιῶσιν. Gentiles lacking the written law do by nature (φύσει, dative of manner) the things of the law and are a law to themselves. The clause grants a category of law-keeping apart from special revelation but does not state that this confers saving access.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.2.15",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G2723",
+            "lemma": "κατηγορέω"
+          },
+          {
+            "strong": "G0626",
+            "lemma": "ἀπολογέομαι"
+          }
+        ],
+        "force": "συμμαρτυρούσης αὐτῶν τῆς συνειδήσεως καὶ μεταξὺ ἀλλήλων τῶν λογισμῶν κατηγορούντων ἢ καὶ ἀπολογουμένων. Conscience co-witnesses and thoughts accuse (κατηγορέω) or even defend (ἀπολογέομαι). The disjunction ἢ leaves both outcomes open at the judgment, so the verse describes a real defending verdict for some but does not specify its saving weight.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.4.5",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G3049",
+            "lemma": "λογίζομαι"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "τῷ δὲ μὴ ἐργαζομένῳ, πιστεύοντι δὲ ἐπὶ τὸν δικαιοῦντα τὸν ἀσεβῆ, λογίζεται ἡ πίστις αὐτοῦ εἰς δικαιοσύνην. Abraham (Rom 4:3) is justified by πιστεύω whose stated object is the God who justifies the ungodly, not the historical content of the incarnation. The lexis fixes faith as the instrument but its explicit object here predates gospel proclamation.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.11.6",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G3406",
+            "lemma": "μισθαποδότης"
+          },
+          {
+            "strong": "G1567",
+            "lemma": "ἐκζητέω"
+          }
+        ],
+        "force": "πιστεῦσαι γὰρ δεῖ τὸν προσερχόμενον τῷ θεῷ ὅτι ἔστιν καὶ τοῖς ἐκζητοῦσιν αὐτὸν μισθαποδότης γίνεται. Faith is required (δεῖ), but the stated propositional object is that God is and rewards those who seek him out. μισθαποδότης is a hapax (only here), so the precise content demanded cannot be triangulated, and the named object is God-who-rewards rather than the historical Jesus.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.10.15",
+        "to": "Isa.52.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.10.16",
+        "to": "Isa.53.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.10.13",
+        "to": "Ps.86.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.36",
+        "to": "Ps.2.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.4.12",
+        "to": "Acts.2.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.10.35",
+        "to": "Acts.15.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.10.35",
+        "to": "Acts.10.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.10.43",
+        "to": "Acts.26.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.11.6",
+        "to": "Heb.7.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.4.5",
+        "to": "Rom.4.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.14.6",
+        "to": "John.10.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.10.34-35",
+        "addressed": true,
+        "resolution": "δεκτός (G1184) in 10:35 predicates the God-fearer of every nation as acceptable to God, but the lemma occurs only five times in the canon and elsewhere means welcome or acceptable (an offering, a favorable season), not saved. Within the same episode 10:43 ties forgiveness to believing in the name, and the Spirit falls only after Peter's proclamation (10:44). The vocabulary therefore presents two statements in one narrative, acceptable-before-hearing and forgiveness-through-believing-the-name, and does not lexically rank them, which is precisely why the unevangelized case stays open."
+      },
+      {
+        "ref": "Rom.2.14-16",
+        "addressed": true,
+        "resolution": "φύσει (G5449) governs Gentiles without the law doing the things of the law, and συνείδησις (G4893) accuses (κατηγορέω) or defends (ἀπολογέομαι) at the judgment. The disjunction ἢ keeps a defending verdict genuinely possible for some, but the passage never attaches the word σῴζω or ζωή to that defending verdict, so the words establish a non-revelatory law-awareness without stating that it grants saving access. The text underdetermines the saving weight of conscience."
+      },
+      {
+        "ref": "Rom.4.3-5",
+        "addressed": true,
+        "resolution": "πιστεύω justifies Abraham with λογίζεται εἰς δικαιοσύνην, but the explicit object of his faith is the promise and the God who justifies the ungodly, content available before the incarnation. The lexis fixes faith as the saving instrument yet shows a saving faith whose explicit propositional object was not the historical Jesus, which the proposition's wording (faith in the historical Jesus) does not accommodate without supplement."
+      },
+      {
+        "ref": "Heb.11.6",
+        "addressed": true,
+        "resolution": "δεῖ plus πιστεῦσαι makes faith mandatory for the one approaching God, but the stated object is that God is and is a rewarder of seekers. μισθαποδότης (G3406) is a hapax, so its content cannot be triangulated, and the verse defines required faith by God-who-rewards rather than by explicit Christ-knowledge, leaving the pre-incarnation and unevangelized object of faith lexically open."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were flagged in the supplied bundle for Rom 10:9-17, John 3:18, John 3:36, or Acts 4:12, and these passages fall outside the ingested ECM window (3 John). The minor apparatus sigla visible on the surface forms (σου, ἀκούσωσιν, πιστεύσωσιν, ἐπικαλέσωνται, καθὼς, εὐαγγελιζομένων, κηρύξωσιν, τὰ, Χριστοῦ, ὑπὸ, οὐδὲ, δὲ) touch word order and auxiliary phrasing but not the load-bearing lexemes πιστεύω, ὁμολογέω, ἐπικαλέω, ὄνομα, σωτηρία, ἀκοή, δεκτός. The disputed status arises from canon-wide distribution, not from textual variants, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "exclusivism",
+      "inclusivism",
+      "wider-hope"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "exclusivism",
+        "verdict": "for",
+        "rationale": "Reads Rom 10:14-17 as a binding chain (faith from hearing, hearing through the word of Christ), John 3:18 as grounding condemnation on not believing the named Son, and Acts 4:12 plus John 14:6 as excluding any other name and channel. On this reading the named, heard, confessed object is the only saving access and inclusivism is therefore false."
+      },
+      {
+        "framework": "inclusivism",
+        "verdict": "complicates",
+        "rationale": "Reads Acts 10:35 (the God-fearer of every nation is δεκτός), Rom 2:14-16 (conscience may defend at the judgment), Rom 4 (Abraham justified by faith without gospel content), and Heb 11:6 (faith that God is and rewards seekers) as showing that Christ's work can be applied through faith whose explicit object is not yet the historical Jesus. The sole-channel texts (Acts 4:12, John 14:6) fix the means as Christ without lexically requiring conscious knowledge of him, so the exclusive scope is not secured by the words."
+      },
+      {
+        "framework": "wider-hope",
+        "verdict": "complicates",
+        "rationale": "Holds that the same canon that demands hearing also calls the unevangelized God-fearer acceptable, so the unevangelized and pre-incarnation cases are left open. The condemnation texts use ἀπειθέω (refusing a presented Son) and perfect κέκριται, which describe rejection of revealed content and do not by their vocabulary settle the status of one who never heard."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal arc, the OT saints and Gentile God-fearers are described with saving faith whose explicit object predates or lacks the proclaimed gospel, while the post-incarnation texts tie response to the named Son. Progressive revelation is in play because the object of saving faith is presented as growing in explicitness across the canon, and the words do not state whether the fuller explicitness is retroactively required of all."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does saving access to Christ's work require conscious, explicit faith in the historical Jesus, or can that work be applied to some who respond in faith without explicit knowledge of the gospel?",
+    "notes": "VERDICT-CHANGED: prior file recorded affirms=true, high confidence. Changed to disputed, medium confidence. Lexical reason: the canon supplies two patterns the vocabulary does not rank. One ties saving outcome to a named, heard, confessed object (Rom 10:14-17, John 3:18, Acts 4:12). The other predicates δεκτός of the God-fearer in every nation before proclamation (Acts 10:35, where δεκτός is a five-occurrence term meaning acceptable not saved), grants conscience a defending verdict (Rom 2:15, κατηγορέω ἢ ἀπολογέομαι), and shows faith justifying Abraham and the Heb 11 saints without explicit Christ-content (Rom 4:5, Heb 11:6 where the object is the hapax μισθαποδότης, God-who-rewards). The proposition asserts an exclusive scope (no saving faith apart from explicit response to the historical Jesus) that the lexis underdetermines on the unevangelized and pre-incarnation cases. The original stem also preloads its conclusion (saving faith is not granted apart from such explicit response), so the neutralized form restates it as an open question. The verdict is derived on the original stem."
+  },
+  "lay_summary": "The Greek words give two patterns that the canon does not rank, and that is why readers divide. The first pattern ties being saved to a named, heard, spoken object. Romans 10:14-17 builds a chain in reverse: calling on the Lord assumes believing, believing assumes hearing, hearing assumes a preacher, so faith comes from hearing and hearing through the word of Christ. John 3:18 says the one not believing in the name of the only Son is judged already, and Acts 4:12 with John 14:6 says there is no other name and no other way to the Father. Read alone, these make conscious response to the proclaimed Jesus the only door, so inclusivism would be false. The second pattern uses different words for different people. Acts 10:35 calls the God-fearer in every nation who works righteousness dektos, acceptable to God, and that word appears only five times in the whole canon and elsewhere means welcome or acceptable, not saved, so it does not by itself say the man is finally saved. Romans 2:14-16 says Gentiles without the law do by nature what the law requires and their conscience may accuse or even defend them at the judgment. Romans 4 says Abraham was justified by faith whose stated object was the promise and the God who justifies, not the historical Jesus, and Hebrews 11:6 requires only faith that God exists and rewards those who seek him, using a one-time-only word for rewarder. So the same canon both demands hearing and names a faith without the gospel's full content. The vocabulary fixes Christ as the means of salvation but never states in plain words whether a person must consciously know him to receive that salvation, and it does not settle the case of the one who never heard or who lived before the incarnation. Because the words give two unranked patterns and leave that scope open, the proposition lands as genuinely disputed rather than plainly settled.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.9-17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.10.35"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.2.14-16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.11.6"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.9-17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4100"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1184"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3406"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4893"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0544"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0189"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.10.35"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.11.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.10.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.10.14"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.10.35"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.2.15"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek syntactic data is licensed CC-BY-NC-4.0 and is not redistributable in bulk. It is retained because it carries the load-bearing syntactic observations (the reverse-causal πῶς chain in Rom 10:14, the participial subject of δεκτός in Acts 10:35, the κατηγορέω ἢ ἀπολογέομαι disjunction in Rom 2:15) that ground the disputed verdict. Removing it would understate why the two patterns are unranked, so the bundle is marked unsafe to publish in bulk."
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "cross-tradition-divergent"
+  ]
+}

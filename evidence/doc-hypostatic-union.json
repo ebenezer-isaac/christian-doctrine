@@ -1,0 +1,810 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-hypostatic-union",
+  "question_id": "doc-hypostatic-union",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across John, Philippians, Colossians, 1 Timothy, Hebrews, and Romans the canon attaches full divine identity and full human identity to one grammatical subject without lexical trace of two persons. In John the same nominative ho logos that verse 1 calls theos is the subject of sarx egeneto in verse 14 (verified second-aorist deponent, V-2ADI-3S). In Philippians 2.6 to 8 a single relative pronoun hos (R-NSM) governs both en morphe theou hyparchon and morphen doulou labon, and the same hos humbles himself to death. Colossians 2.9 keeps the whole pleroma of theotes dwelling in him bodily in the present tense. So the one-subject-two-predicate pattern is decisive. Confidence is medium, not high, because the precise nature-vocabulary that the technical formula leans on (morphe occurs only 3 times, harpagmos and theotes are each hapax) is too thin to triangulate the exact metaphysics, so the words establish one subject bearing both sets of predicates but underdetermine the four Chalcedonian adverbs."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3739",
+        "lemma": "ὅς",
+        "transliteration": "hos",
+        "occurrences_in_canon": 1535,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5225",
+        "lemma": "ὑπάρχω",
+        "transliteration": "hyparcho",
+        "occurrences_in_canon": 60,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3444",
+        "lemma": "μορφή",
+        "transliteration": "morphe",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0725",
+        "lemma": "ἁρπαγμός",
+        "transliteration": "harpagmos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2470",
+        "lemma": "ἴσος",
+        "transliteration": "isos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2758",
+        "lemma": "κενόω",
+        "transliteration": "kenoo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1401",
+        "lemma": "δοῦλος",
+        "transliteration": "doulos",
+        "occurrences_in_canon": 134,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3667",
+        "lemma": "ὁμοίωμα",
+        "transliteration": "homoioma",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2730",
+        "lemma": "κατοικέω",
+        "transliteration": "katoikeo",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4138",
+        "lemma": "πλήρωμα",
+        "transliteration": "pleroma",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2320",
+        "lemma": "θεότης",
+        "transliteration": "theotes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4985",
+        "lemma": "σωματικῶς",
+        "transliteration": "somatikos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3439",
+        "lemma": "μονογενής",
+        "transliteration": "monogenes",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3348",
+        "lemma": "μετέχω",
+        "transliteration": "metecho",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3898",
+        "lemma": "παραπλησίως",
+        "transliteration": "paraplesios",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3056",
+      "G4561",
+      "G1096",
+      "G3739",
+      "G5225",
+      "G3444",
+      "G2316",
+      "G0725",
+      "G2470",
+      "G2758",
+      "G1401",
+      "G3667",
+      "G0444",
+      "G2288",
+      "G2730",
+      "G4138",
+      "G2320",
+      "G4985",
+      "G1520",
+      "G3316",
+      "G3439",
+      "G3348",
+      "G3898",
+      "G2841"
+    ],
+    "scripture": [
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Queried tokens read kai theos en ho logos, with theos (G2316, parsed N-NSM) predicated of the nominative subject ho logos (G3056, N-NSM). The qualitative anarthrous theos is asserted of the same lexical subject that becomes sarx in verse 14, so divine predication is fixed on the subject before any human predication appears.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.1.1"
+      },
+      {
+        "ref": "John.1.14",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "ἐγένετο"
+          },
+          {
+            "strong": "G3439",
+            "lemma": "μονογενοῦς"
+          }
+        ],
+        "force": "Queried tokens read ho logos sarx egeneto, where egeneto (G1096) is parsed V-2ADI-3S, a real second-aorist of becoming, and the subject is the same nominative ho logos carried from verse 1. The predicate noun is sarx (G4561, N-NSF), the ordinary word for human flesh, not a likeness term. Monogenous (G3439, A-GSM) marks continuous filial identity. Subject continuity here is grammatical, not inferred.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "John.1.14"
+      },
+      {
+        "ref": "Phil.2.6",
+        "key_terms": [
+          {
+            "strong": "G3739",
+            "lemma": "ὃς"
+          },
+          {
+            "strong": "G3444",
+            "lemma": "μορφῇ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεοῦ"
+          },
+          {
+            "strong": "G5225",
+            "lemma": "ὑπάρχων"
+          },
+          {
+            "strong": "G0725",
+            "lemma": "ἁρπαγμόν"
+          }
+        ],
+        "force": "Queried tokens open with the relative pronoun hos (G3739, parsed R-NSM), the single masculine nominative subject of the whole hymn. The participle hyparchon (G5225, V-PAP-NSM) is durative present, so en morphe theou describes an ongoing state, and to einai isa theo treats equality with God as a real status not seized as harpagmon (G0725, a hapax). Divine condition is asserted of the same hos who in verse 7 takes a slave form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Phil.2.6"
+      },
+      {
+        "ref": "Phil.2.7",
+        "key_terms": [
+          {
+            "strong": "G2758",
+            "lemma": "ἐκένωσεν"
+          },
+          {
+            "strong": "G3444",
+            "lemma": "μορφὴν"
+          },
+          {
+            "strong": "G1401",
+            "lemma": "δούλου"
+          },
+          {
+            "strong": "G3667",
+            "lemma": "ὁμοιώματι"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἀνθρώπων"
+          }
+        ],
+        "force": "Queried tokens read heauton ekenosen morphen doulou labon, en homoiomati anthropon genomenos. The aorist participle labon (G2983, V-2AAP-NSM) names what the emptying ADDS, the slave form, and genomenos (G1096, V-2ADP-NSM) with homoioma (G3667) marks a real entrance into human likeness. The same subject hos governs both the morphe theou of verse 6 and the morphe doulou of verse 7.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Phil.2.7"
+      },
+      {
+        "ref": "Phil.2.8",
+        "key_terms": [
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θανάτου"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γενόμενος"
+          },
+          {
+            "strong": "G3360",
+            "lemma": "μέχρι"
+          }
+        ],
+        "force": "Queried tokens read etapeinosen heauton genomenos hypekoos mechri thanatou. The death predication, thanatou (G2288) reached mechri (G3360), binds a genuinely human experience to the same subject from verse 6. Death requires a real human nature, so the lexical chain runs unbroken from divine status to human death within one grammatical subject.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Phil.2.8"
+      },
+      {
+        "ref": "Col.2.9",
+        "key_terms": [
+          {
+            "strong": "G2730",
+            "lemma": "κατοικεῖ"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶν"
+          },
+          {
+            "strong": "G4138",
+            "lemma": "πλήρωμα"
+          },
+          {
+            "strong": "G2320",
+            "lemma": "θεότητος"
+          },
+          {
+            "strong": "G4985",
+            "lemma": "σωματικῶς"
+          }
+        ],
+        "force": "Queried tokens read en auto katoikei pan to pleroma tes theotetos somatikos. The verb katoikei (G2730) is parsed V-PAI-3S, durative present dwelling, and theotetos (G2320, abstract deity, a hapax) is the noun for deity itself, not the divine-quality word theiotes of Romans 1.20. Somatikos (G4985, also a hapax) ties the dwelling to a body. Whole deity and a body are predicated of the one referent en auto.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Col.2.9"
+      },
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "Queried tokens read heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous. The appositional anthropos (G0444, N-NSM) sits directly on the named mediator, while the same clause asserts heis theos (G1520, G2316). The mediator stands between theos and anthropoi yet is himself named anthropos, one subject named in human terms within a monotheistic frame.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Tim.2.5"
+      },
+      {
+        "ref": "Heb.2.14",
+        "key_terms": [
+          {
+            "strong": "G3348",
+            "lemma": "μετέσχεν"
+          },
+          {
+            "strong": "G3898",
+            "lemma": "παραπλησίως"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σαρκός"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θανάτου"
+          }
+        ],
+        "force": "Queried tokens read kai autos paraplesios metesche ton auton. The children kekoinoneken (G2841) of flesh and blood, and he likewise metesche (G3348, V-2AAI-3S, took part in) the same things, with paraplesios (G3898, a hapax adverb meaning in like manner). This same-kind sharing of flesh by the one called Son in Hebrews 1 lexically blocks a merely apparent humanity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.2.14"
+      },
+      {
+        "ref": "Rom.1.3",
+        "key_terms": [
+          {
+            "strong": "G5207",
+            "lemma": "υἱοῦ"
+          },
+          {
+            "strong": "G1096",
+            "lemma": "γενομένου"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρκα"
+          }
+        ],
+        "force": "Queried tokens read peri tou huiou autou tou genomenou ek spermatos Dauid kata sarka. One genitive head, tou huiou (G5207), is modified by the participle genomenou (G1096, V-2ADP-GSM) descending from David kata sarka (G4561). The human descent is predicated of the one Son.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.1.3"
+      },
+      {
+        "ref": "Rom.1.4",
+        "key_terms": [
+          {
+            "strong": "G3724",
+            "lemma": "ὁρισθέντος"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱοῦ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεοῦ"
+          }
+        ],
+        "force": "Queried tokens read tou horisthentos huiou theou en dynamei kata pneuma hagiosynes. The second genitive participle horisthentos (G3724, V-APP-GSM) declares the same Son as Son of God in power kata pneuma. Two kata phrases, sarka and pneuma, are predicated of one subject, the same Son, not two subjects.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.1.4"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.14",
+        "to": "John.1.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.14",
+        "to": "John.1.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.6",
+        "to": "Isa.7.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.7",
+        "to": "Isa.42.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.8",
+        "to": "Deut.21.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.9",
+        "to": "Col.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Deut.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Job.9.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.7",
+        "to": "Ps.22.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.8",
+        "to": "Ps.40.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.13.32",
+        "addressed": true,
+        "resolution": "Queried tokens confirm oude ho huios oiden (G5207 Son, G6063 knows, V-RAI-3S), a predicate of human non-knowing ascribed to the one subject also named Son. The same Greek verb oida appears at John 21.17 where Peter tells him su panta oidas, you know all things (V-RAI-2S), predicated of the same subject. Two contrary knowledge predicates rest on one referent, the very pattern of one subject carrying divine and human attributions, so the person is not divided."
+      },
+      {
+        "ref": "John.14.28",
+        "addressed": true,
+        "resolution": "Queried tokens give ho pater meizon mou estin, with meizon parsed G3173 A-NSM-C, a comparative. A comparative of greatness read with the Philippians 2.6 to 7 grammar is the same one subject speaking from the assumed morphe doulou. The comparative does not negate the prior to einai isa theo predication that the relative pronoun hos still carries."
+      },
+      {
+        "ref": "Luke.2.52",
+        "addressed": true,
+        "resolution": "Queried tokens give Iesous proekopten en sophia kai helikia (G4298, V-IAI-3S, imperfect, continuing to advance). Growth in wisdom and stature is a durative human-development predicate on the same named subject Jesus, mirroring the John 1.1 then 1.14 pattern of one subject bearing both registers."
+      },
+      {
+        "ref": "Acts.2.36",
+        "addressed": true,
+        "resolution": "Queried tokens give kyrion auton kai christon epoiesen ho theos (G4160, V-AAI-3S). The aorist epoiesen here is functional, economic exaltation language about the crucified and risen Jesus named in the same verse, not ontological origination, so the chain does not establish a temporally created divinity for the subject who is divine in John 1.1."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "John.1.18",
+        "variant_id": "monogenes-theos-vs-monogenes-huios",
+        "verdict_impact": "minor",
+        "note": "Either reading still places monogenes on the same subject who is in the bosom of the Father. Both support full divine identity coupled with relational sonship and leave the John 1.14 enfleshment grammar untouched."
+      },
+      {
+        "ref": "1Tim.3.16",
+        "variant_id": "theos-ephanerothe-vs-hos-ephanerothe",
+        "verdict_impact": "minor",
+        "note": "Queried tokens for 1Tim.3.16 read hos ephanerothe (G3739 R-NSM, relative pronoun), the harder and better-attested reading. Even on hos, the subject is revealed en sarki, the same one-subject pattern. The verdict does not hinge on this unit since Colossians 2.9 and Philippians 2.6 to 8 carry the load independently."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "Inputs declare not_in_ecm_scope for the concrete bundle, since the ingested CBGM window is 3 John only. These anchors sit in the NT outside 3 John, so I record ecm-shadow per the standing convention. No examined variant materially shifts the single-subject predication pattern."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "one-subject-two-predicate",
+      "kenosis-as-addition",
+      "kenosis-as-subtraction"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "one-subject-two-predicate (single hypostasis bearing both natures)",
+        "verdict": "supports",
+        "rationale": "John 1.14 and Philippians 2.6 to 8 attach divine and human predicates to a single grammatical subject, ho logos and the relative pronoun hos, verified as one nominative carried through each passage. This is the lexical pattern the proposition encodes, and it is the strongest reading: the words give one acting subject predicated in two registers."
+      },
+      {
+        "framework": "two-subject reading (the divine Word and the man Jesus as distinct persons cooperating)",
+        "verdict": "underdetermined by, but not supported by, the cited grammar",
+        "rationale": "Stated at its strongest, this reading appeals to the real distinction the texts draw between divine and human predicates (knowing all things versus not knowing the hour, equal to God versus obedient to death) and asks whether such opposite predicates can share one subject. The lexical answer is that the grammar supplies only ONE subject term in each passage. There is no second nominative, no second relative pronoun, no second name to carry the human predicates separately. So the texts do not furnish the two subjects this reading needs."
+      },
+      {
+        "framework": "one-blended-nature reading (the two natures fuse into a single mixed nature)",
+        "verdict": "not supported",
+        "rationale": "Stated at its strongest, this reading takes sarx egeneto and morphen doulou labon as a real change of the divine into something composite. But Colossians 2.9 keeps the WHOLE pleroma of theotes present in him (durative present katoikei), and Philippians 2.7 names what was ADDED (morphen doulou labon), not what was lost or mixed away. The vocabulary marks addition and continued fullness, not fusion."
+      },
+      {
+        "framework": "kenosis as subtraction (he emptied himself of divine attributes)",
+        "verdict": "lexically thin",
+        "rationale": "Stated fairly, this reads ekenosen as a divestment of deity. But the queried grammar of Philippians 2.7 names the content of the emptying as morphen doulou labon, the slave form taken, an addition, and Colossians 2.9 holds pleroma theotetos in the present tense. The words describe what was assumed, not what was surrendered."
+      },
+      {
+        "framework": "adoptionist reading (a man later made divine)",
+        "verdict": "contradicts",
+        "rationale": "John 1.1 fixes theos on the logos BEFORE the egeneto sarx of verse 14, so divinity precedes humanity in the lexical order. Acts 2.36 epoiesen is functional exaltation of the already-existing subject, not ontological elevation, as the same verse names him the crucified Jesus."
+      }
+    ],
+    "notes": "The verdict rests on subject-continuity grammar across multiple authors, John, Paul, and Hebrews. The lexical chain derives one subject bearing both sets of predicates. It does NOT itself derive the four Chalcedonian adverbs (without confusion, change, division, separation), which are a later technical summary the rare nature-vocabulary underdetermines."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture predicates both divine identity and human identity of a single subject named Jesus Christ, without lexical evidence that these are two persons or that either set of properties is removed or blended away.",
+    "notes": "The original stem uses a technical taxonomy (one person, two natures, without confusion, change, division, or separation). Those four adverbs are not lexical categories of the New Testament, and the words that the formula leans on are very rare (morphe occurs 3 times total, harpagmos and theotes and somatikos and paraplesios are each hapax). The verdict is derived on the neutralized form. The lexical pattern supports the neutralized form, which the technical taxonomy was later built to summarize, but the precise metaphysics is underdetermined by the vocabulary. Confidence is therefore medium rather than high; affirms is unchanged because the single-subject predication pattern itself is dense and pan-canonical."
+  },
+  "lay_summary": "The Bible attaches both divine identity and human identity to one named subject, Jesus Christ, in passages whose grammar leaves no room for splitting him into two persons. John 1.1 calls the Word God, and thirteen verses later the same Word, the same single subject, becomes flesh and lives among us. The verb for becoming is an ordinary one, the noun for flesh is the ordinary word for human flesh, and the subject does not change between verse 1 and verse 14. Philippians 2.6 to 8 runs the same pattern inside one Greek sentence. A single relative pronoun, who, governs both existing in the form of God and taking the form of a servant, being found as a human, and being obedient to death on a cross. The one who could regard equality with God as his own is the same one who dies. Colossians 2.9 says the entire fullness of deity dwells in him bodily, using a present tense verb of continuous dwelling and the noun for deity itself. There is only ever one subject in each passage, one word for him, never a second name or pronoun to carry the human side separately. That is why the reading of one subject bearing both registers is strong. Verses raised as problems, the Son not knowing the hour, the Father being greater, growth in wisdom and stature, being made Lord and Christ, all attach to that same one subject and describe the human side or the appointed role, the same subject who elsewhere is said to know all things. Where the text leaves room, and why careful readers still differ, is on the precise mechanics. The key words the technical definition leans on are very rare. Form appears only three times in the whole New Testament, and the words for deity, for bodily, and for grasping each appear exactly once, so their exact shade cannot be cross-checked from other verses. The words clearly give one subject who is both fully God and fully human. They do not, by themselves, settle the fine philosophical formula of how the two natures relate, which is why the conclusion is firm on the one subject but only moderately firm on the exact definition.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.8"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.2.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.4"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.13.32"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.2.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3444"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2320"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0725"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2758"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3898"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4985"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.1.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

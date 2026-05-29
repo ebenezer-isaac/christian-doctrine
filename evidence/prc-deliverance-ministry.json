@@ -1,0 +1,570 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-deliverance-ministry",
+  "question_id": "prc-deliverance-ministry",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.87,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The first clause is lexically decisive. Demonic reality is named with dense vocabulary, diabolos (G1228, 38 occurrences pan-canonical), pneuma akatharton (G4151 with G0169, 32 akathartos occurrences), and concrete narrative expulsion, ekballo plus daimonion (G1544 with G1140) co-occurring in 23 verses across Synoptics and Acts, while Mark 9:25 to 29 records Jesus rebuking and commanding exelthe and then saying touto to genos can come out by nothing except en proseuche, by prayer. The believer response in the epistles is named with anthistemi (G0436, 14 occurrences spanning Romans, Galatians, Ephesians, James, 1 Peter), nepho (G3525, 6 occurrences all in vigilance contexts), and gregoreo (G1127, 23 occurrences) plus hypotasso (G5293, 40 occurrences) at James 4:7. The second clause, that routinizing deliverance and locating a demon behind every sin and trauma is unbalanced, is an evaluative inference. The Sceva episode and Matt 7:22 supply strong negative cases against name-as-formula, and the canon prescribes no standing technique, but the vocabulary illustrates rather than legislates the frequency judgment, so the aggregate sits as disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1228",
+        "lemma": "διάβολος",
+        "transliteration": "diabolos",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0436",
+        "lemma": "ἀνθίστημι",
+        "transliteration": "anthistemi",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1544",
+        "lemma": "ἐκβάλλω",
+        "transliteration": "ekballo",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1140",
+        "lemma": "δαιμόνιον",
+        "transliteration": "daimonion",
+        "occurrences_in_canon": 63,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1831",
+        "lemma": "ἐξέρχομαι",
+        "transliteration": "exerchomai",
+        "occurrences_in_canon": 224,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0216",
+        "lemma": "ἄλαλος",
+        "transliteration": "alalos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 251,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4335",
+        "lemma": "προσευχή",
+        "transliteration": "proseuche",
+        "occurrences_in_canon": 35,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3525",
+        "lemma": "νήφω",
+        "transliteration": "nepho",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1127",
+        "lemma": "γρηγορέω",
+        "transliteration": "gregoreo",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 40,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3823",
+        "lemma": "πάλη",
+        "transliteration": "pale",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2888",
+        "lemma": "κοσμοκράτωρ",
+        "transliteration": "kosmokrator",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3833",
+        "lemma": "πανοπλία",
+        "transliteration": "panoplia",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0169",
+        "lemma": "ἀκάθαρτος",
+        "transliteration": "akathartos",
+        "occurrences_in_canon": 32,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1228",
+      "G0436",
+      "G1544",
+      "G1140",
+      "G1831",
+      "G0216",
+      "G4100",
+      "G4335",
+      "G3525",
+      "G1127",
+      "G5293",
+      "G3823",
+      "G2888",
+      "G3833",
+      "G0169",
+      "G2008",
+      "G1410"
+    ],
+    "scripture": [
+      {
+        "ref": "Mark.9.25",
+        "key_terms": [
+          {
+            "strong": "G2008",
+            "lemma": "ἐπιτιμάω"
+          },
+          {
+            "strong": "G1831",
+            "lemma": "ἐξέρχομαι"
+          },
+          {
+            "strong": "G0216",
+            "lemma": "ἄλαλος"
+          }
+        ],
+        "force": "Jesus epetimesen the pneuma to akatharton, addresses it as to alalon kai kophon pneuma, and commands exelthe ex autou kai meketi eiselthes eis auton. The aorist imperative plus prohibition encodes a direct one-event authoritative command, not a recurring procedure. The verb alalos (G0216) is a Markan cluster of three occurrences, descriptive of the manifestation, not of a method.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.9.29",
+        "key_terms": [
+          {
+            "strong": "G1831",
+            "lemma": "ἐξέρχομαι"
+          },
+          {
+            "strong": "G4335",
+            "lemma": "προσευχή"
+          }
+        ],
+        "force": "Touto to genos en oudeni dynatai exelthein ei me en proseuche. The prepositional phrase en proseuche locates the remedy in dependence on God, not in a transmissible technique. The disciples earlier failure, ouk ischysan (Mark 9:18), grounds the lexical point: prior commissioning does not guarantee mechanical efficacy.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.9.18",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "Eipa tois mathetais sou hina auto ekbalosin kai ouk ischysan. The aorist subjunctive ekbalosin paired with ouk ischysan registers that the act exists as a real category yet is not a guaranteed-output procedure. This undercuts any mechanistic frequency claim from inside the same pericope.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.6.12",
+        "key_terms": [
+          {
+            "strong": "G3823",
+            "lemma": "πάλη"
+          },
+          {
+            "strong": "G2888",
+            "lemma": "κοσμοκράτωρ"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "Hoti ouk estin hemin he pale pros haima kai sarka alla pros tas archas, pros tas exousias, pros tous kosmokratoras tou skotous toutou, pros ta pneumatika tes ponerias en tois epouraniois. The hapax pale (G3823, only here) and the hapax kosmokrator (G2888, only here) frame an organized spiritual opposition. The accumulation of rank terms supports clause one (real demonic activity), but the prescriptive verses that follow (6:13 to 18) name panoplia (G3833, breastplate, shield, helmet, sword) and proseuche, not ekballo or any expulsion verb.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.4.7",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G0436",
+            "lemma": "ἀνθίστημι"
+          },
+          {
+            "strong": "G1228",
+            "lemma": "διάβολος"
+          }
+        ],
+        "force": "Hypotagete oun to theo, antistete de to diabolo, kai pheuxetai aph hymon. The paired aorist passive imperative (hypotagete) and aorist active imperative (antistete) prescribe the believer response to the diabolos as submission to God and resistance, with the future pheuxetai as outcome. The verbs are ordinary discipleship verbs, hypotasso (G5293, 40 occurrences) and anthistemi (G0436, 14 occurrences pan-NT), not specialized expulsion vocabulary.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.8",
+        "key_terms": [
+          {
+            "strong": "G3525",
+            "lemma": "νήφω"
+          },
+          {
+            "strong": "G1127",
+            "lemma": "γρηγορέω"
+          },
+          {
+            "strong": "G1228",
+            "lemma": "διάβολος"
+          }
+        ],
+        "force": "Nepsate, gregoresate, ho antidikos hymon diabolos hos leon oryomenos peripatei zeton tina katapiein. The aorist imperatives nepho (G3525, 6 occurrences, every one a vigilance command in 1 Thess, 2 Tim, 1 Pet) and gregoreo (G1127, 23 occurrences spanning Synoptics, Pauline, Revelation) describe the normative posture toward the diabolos as sobriety and watchfulness, not routine expulsion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.9",
+        "key_terms": [
+          {
+            "strong": "G0436",
+            "lemma": "ἀνθίστημι"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "Ho antistete stereoi te pistei. The same anthistemi as James 4:7, paired with stereoi te pistei, marks the believer response as resistance grounded in steadfast faith. The cross-letter agreement between James and 1 Peter on antistete to diabolo is the strongest lexical signal that the apostolic prescription is steady resistance rather than a frequency-driven program.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.1.39",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          }
+        ],
+        "force": "Kerysson eis tas synagogas auton eis holen ten Galilaian kai ta daimonia ekballon. The participial ekballon is paired with kerysson, locating expulsion alongside proclamation in Jesus mission. The ekballo plus daimonion idiom co-occurs in 23 verses across Synoptics and Acts, establishing the act as a real lexical category quite apart from any frequency rule.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.18",
+        "key_terms": [
+          {
+            "strong": "G1831",
+            "lemma": "ἐξέρχομαι"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "Paul commands the pneuma Pythona exelthein ap autes en onomati Iesou Christou, and it leaves auto te hora. The aorist infinitive exelthein plus the prepositional phrase en onomati grounds the expulsion in the named Christ. This is the apostolic precedent that demonic activity may be answered by direct deliverance when the case is genuinely manifest, but the narrative also marks it as an episodic response to a public manifestation, not a scheduled rite.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Mark.9.29",
+        "to": "Dan.9.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.12",
+        "to": "Eph.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.5.8",
+        "to": "Job.1.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.9.25",
+        "to": "Mark.1.25",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.19.13",
+        "addressed": true,
+        "resolution": "The itinerant exorkistai (G1845, true hapax) epecheiresan (G2021, three NT occurrences and all of an undertaking that miscarries) to invoke the onoma of the Lord Jesus as a borrowed formula. The lexical choice marks them as outsiders adopting a technique, and the verb of attempting telegraphs failure. This is the strongest internal warrant for the second clause: it shows the name deployed as a transferable formula by those without standing fails."
+      },
+      {
+        "ref": "Acts.19.16",
+        "addressed": true,
+        "resolution": "The pneuma to poneron answers ton Iesoun ginosko kai ton Paulon epistamai, hymeis de tines este, and the possessed man overpowers them so they flee gymnous (G1131, naked) kai tetraumatismenous. The narrative outcome embeds the abuse-and-danger warning directly in the text, supplying the canonical basis for calling routinized deliverance unbalanced. Resolved as illustrative."
+      },
+      {
+        "ref": "Matt.7.22",
+        "addressed": true,
+        "resolution": "Speakers protest to to so onomati daimonia exebalomen, and Jesus answers ouk egnon hymas. The aorist exebalomen shows that casting out demons in Jesus name may be claimed by those whom Christ disowns, so the activity by itself, separated from a real relation to Christ, is not a sign of standing. This is the second strongest internal warrant for the caution clause."
+      },
+      {
+        "ref": "1Tim.3.1",
+        "addressed": false,
+        "resolution": "The pastoral epistles list episkopos, diakonos, presbyteros and gifts but contain no exorkistes office and no instruction to institute one. The absence is lexical: there is no office word for the role. Absence is suggestive of the caution clause but is not a positive prescription, so it remains an inferential rather than decisive datum, unresolved on its own."
+      },
+      {
+        "ref": "Mark.16.17",
+        "addressed": true,
+        "resolution": "Tois pisteusasin de tauta parakolouthesei, en to onomati mou daimonia ekbalousin. The future ekbalousin attaches expulsion to believers, but the verse sits in the longer ending of Mark which the manuscript tradition transmits unevenly. The act is still attested undisputedly across Mark 1:34, 1:39, Matt 10:8, and Acts 16:18, so the warrant for clause one does not depend on this verse, and the variant exposure does not move the aggregate."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.17",
+        "variant_id": "mark-longer-ending",
+        "verdict_impact": "minor",
+        "note": "Mark 16:17 sits in the longer ending (16:9 to 20), text-critically contested. Because Mark 1:34, 1:39, Matt 10:8, and Acts 16:18 carry the act of casting out demons undisputedly, the contested status of 16:17 does not alter the aggregate verdict, hence minor."
+      },
+      {
+        "ref": "Mark.9.29",
+        "variant_id": "mark-9-29-fasting",
+        "verdict_impact": "minor",
+        "note": "Some witnesses add kai nesteia (and fasting) to en proseuche. The addition does not change the lexical point that the remedy is named in a prepositional phrase of dependence on God rather than as a technique, so the verdict is unaffected."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "The anchor verses lie outside the published ECM window (3 John 1:1 to 1:15). The longer ending of Mark and the kai nesteia variant in Mark 9:29 are well-known and noted, but neither moves the aggregate because the warrant is multiply attested elsewhere."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "continuationism",
+      "cessationism",
+      "charismatic_deliverance",
+      "cautious_pastoral_practice"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "continuationism",
+        "verdict": "disputed",
+        "rationale": "Reads the gospels and Acts as a continuing pattern: ekballo plus daimonion as a live category, Mark 16:17 (with text-critical asterisks) as warrant, and Acts 16:18 as apostolic precedent. The first clause of the proposition is affirmed straightforwardly. The second clause is read as legitimately cautioning against unauthorized formulas (Sceva, Matt 7:22) but some lineages within this lens do treat habitual sin and trauma as frequently demonic, so the evaluative second half is not uniformly accepted, leaving the aggregate disputed within the lens itself."
+      },
+      {
+        "framework": "charismatic_deliverance",
+        "verdict": "false",
+        "rationale": "Reads Eph 6:12 as a programmatic, ongoing spiritual conflict with named adversary ranks (archai, exousiai, kosmokratores), and the gospel and Acts expulsion idiom as paradigmatic for a standing pastoral practice. Within this lens, treating routine deliverance as unbalanced is itself unbalanced because the danger of underdiagnosis is real. The proposition is therefore contested from this side."
+      },
+      {
+        "framework": "cessationism",
+        "verdict": "true",
+        "rationale": "Affirms demonic reality from diabolos (G1228, 38 occurrences) and the gospel narratives while reading the absence of any prescribed standing rite, the panoplia plus proseuche prescription in Eph 6:13 to 18, the Sceva warning, and Matt 7:22 as direct support for both halves of the proposition. The first clause is affirmed by occasional pastoral care including prayer (Mark 9:29 en proseuche); the second clause is affirmed by the absence of an exorkistes office and by the negative cases."
+      },
+      {
+        "framework": "cautious_pastoral_practice",
+        "verdict": "true",
+        "rationale": "Holds that Scripture attests both real expulsion and real danger of misuse, with the apostolic prescription being submission, resistance, sobriety, watchfulness, steadfast faith, and prayer (Jas 4:7, 1 Pet 5:8 to 9). The proposition mirrors that synthesis: yes to demonic reality and occasional prayerful deliverance, no to a frequency-driven program that diagnoses a demon behind every sin and trauma."
+      }
+    ],
+    "notes": "Both halves draw on analogia scripturae, holding narrative deliverance accounts together with the epistolary resistance commands. Lenses converge on clause one (demonic reality is real, prayerful response to genuine cases is legitimate) and diverge on clause two (whether the lexical pattern materially supports calling routinization unbalanced, or whether that judgment imports a prudential rule the vocabulary does not legislate). The divergence on clause two is what keeps the aggregate verdict disputed."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the canonical vocabulary (diabolos, daimonion, pneuma akatharton, ekballo, exelthe, en proseuche, anthistemi, hypotasso, nepho, gregoreo) show about whether demonic activity is real, whether believers may respond with prayer for deliverance, and whether the canon prescribes, permits, or leaves open a routine, technique-driven deliverance ministry that attributes sin and trauma to demonic causes by default?",
+    "notes": "The original stem encodes an evaluative verdict in two phrases: routinized deliverance ministry that locates a demon behind every sin and trauma, and is unbalanced. Both are conclusions, not neutral descriptions. The verdict is derived on the original stem, but the neutralized form was used to test whether the lexical pattern matches the evaluative half. The lexicon supports the warrant for clause one and lends real but not decisive weight to clause two through negative cases (Sceva, Matt 7:22) and the absence of an exorkistes office word in the pastoral epistles."
+  },
+  "lay_summary": "Scripture plainly treats evil spirits as real and uses dense vocabulary for them. The word diabolos (the devil) occurs thirty-eight times across Revelation, John, Peter, James, Hebrews, the Pastoral Epistles, and Acts. The phrase to cast out demons, ekballo plus daimonion, co-occurs in twenty-three verses across Matthew, Mark, Luke, and Acts. In Mark 9 a boy is afflicted by an unclean mute spirit, the disciples cannot drive it out, and Jesus rebukes it and commands it to come out and not return, then tells the disciples this kind comes out by nothing except by prayer. Acts 16:18 records Paul commanding a spirit to come out in the name of Jesus Christ, and it leaves at once. So the first half of the proposition, that demonic activity is real and that prayer for deliverance can be a real pastoral need, rests on clear words across many books. The second half is a wisdom inference. James 4:7 and 1 Peter 5:8 to 9 prescribe the normal believer response with everyday discipleship verbs: submit, resist, be sober, be watchful, stand firm in faith. Ephesians 6:12 frames the conflict spiritually with the hapax words pale (wrestling) and kosmokrator (world-ruler), but the verses that follow tell the reader to put on the full armor and to pray, not to perform a casting-out procedure. The pastoral epistles list overseer, deacon, and elder as offices but include no exorcist office. Acts 19 sharpens the warning: itinerant exorcists who use the name of Jesus as a borrowed formula are overpowered by an evil spirit and flee naked and wounded. Matthew 7:22 sharpens it further: some will claim to have cast out demons in Jesus name and yet hear, I never knew you. Together these warn that successful-looking expulsion language is not by itself proof of standing. The vocabulary supports calling routinization unbalanced, but the canon does not state a rule on frequency, so faithful readers divide on the evaluative half. The first half is decisively grounded, the second is a wise reading of the emphasis, and the aggregate verdict is recorded as disputed.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.9.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.9.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.6.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.4.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.5.8"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1228"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0436"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1544"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3525"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1127"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3823"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2888"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mark.9.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.5.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which is non-commercial and not bulk-redistributable, so the aggregated evidence cannot be published for unrestricted redistribution while that source is cited."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

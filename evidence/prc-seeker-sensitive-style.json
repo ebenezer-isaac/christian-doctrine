@@ -1,0 +1,542 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-seeker-sensitive-style",
+  "question_id": "prc-seeker-sensitive-style",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9625,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The cited texts ground worship as God-directed (proskuneo G4352 terminating on theos and pater in John 4:23-24 and 1Cor 14:25) and as acceptable only with reverence and awe before a consuming fire (Heb 12:28-29). They also show that intelligible truth-speech in the assembly is the very thing that convicts the outsider and produces worship (1Cor 14:24-25, elegchetai G1651 and anakrinetai G0350 and ta krypta G2927 made phaneros). The canon-wide distribution of elegcho (17 occurrences, almost uniformly tied to exposure of sin or false teaching, e.g. John 3:20, John 16:8, Eph 5:11, 2Tim 4:2, Titus 1:9) reinforces that conviction comes through more truth-exposure and not less, which cuts against systematic removal of sin, judgment, and cross content. But the canon offers no lemma legislating worship style or service design as such, and 1Cor 9:22 (panta gegona pasin hina pantos tinas soso) commends adaptive accommodation for evangelistic ends, so the specific normative claim that accessibility-driven design reorients worship away from its God-ward end is not directly commanded or condemned at the lexical level. The proposition is therefore lexically disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4352",
+        "lemma": "προσκυνέω",
+        "transliteration": "proskuneo",
+        "occurrences_in_canon": 60,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "aletheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0571",
+        "lemma": "ἄπιστος",
+        "transliteration": "apistos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elegcho",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0350",
+        "lemma": "ἀνακρίνω",
+        "transliteration": "anakrino",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2927",
+        "lemma": "κρυπτός",
+        "transliteration": "kryptos",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2399",
+        "lemma": "ἰδιώτης",
+        "transliteration": "idiotes",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2124",
+        "lemma": "εὐλάβεια",
+        "transliteration": "eulabeia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2102",
+        "lemma": "εὐαρέστως",
+        "transliteration": "euarestos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2654",
+        "lemma": "καταναλίσκω",
+        "transliteration": "katanalisko",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2212",
+        "lemma": "ζητέω",
+        "transliteration": "zeteo",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1341,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 418,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0228",
+        "lemma": "ἀληθινός",
+        "transliteration": "alethinos",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4352",
+      "G0225",
+      "G0571",
+      "G1651",
+      "G0350",
+      "G2927",
+      "G2124",
+      "G2102",
+      "G2654",
+      "G2212",
+      "G2316",
+      "G3962",
+      "G0228",
+      "G2399",
+      "G1577",
+      "G0932",
+      "G2588",
+      "G0761",
+      "G0518",
+      "G3779"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.14.23",
+        "key_terms": [
+          {
+            "strong": "G0571",
+            "lemma": "ἄπιστος"
+          },
+          {
+            "strong": "G2399",
+            "lemma": "ἰδιώτης"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul pictures the whole assembly (ekklesia) speaking unintelligibly in tongues so that an entering outsider (idiotes) or unbeliever (apistos) would judge them mad. The concern is intelligibility for the outsider, not the softening of content. The verse sets up the contrast that the next two verses resolve in favor of comprehensible truth-speech. Note that idiotes occurs only 5 times in the canon and is clustered in 1Cor 14 (vv. 16, 23, 24), so the corpus for triangulating its sense is thin and locally Pauline.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.24",
+        "key_terms": [
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          },
+          {
+            "strong": "G0350",
+            "lemma": "ἀνακρίνω"
+          },
+          {
+            "strong": "G0571",
+            "lemma": "ἄπιστος"
+          }
+        ],
+        "force": "When all prophesy and an unbeliever enters, he is convicted (elegchetai, present passive of elegcho G1651) by all and examined (anakrinetai, present passive of anakrino G0350) by all. The two passives locate the effect of intelligible prophetic truth on the outsider as exposure and conviction, not comfort. The canon distribution of elegcho across 17 verses (John 3:20, John 16:8, Eph 5:11-13, 2Tim 4:2, Titus 1:9, Heb 12:5, Rev 3:19, Jas 2:9, etc.) overwhelmingly carries the sense of bringing hidden sin or error into the light, which is the very dynamic Paul wants in the assembly. This cuts directly against worship designed to downplay sin and judgment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.25",
+        "key_terms": [
+          {
+            "strong": "G2927",
+            "lemma": "κρυπτός"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G4352",
+            "lemma": "προσκυνέω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "The secrets (krypta) of the outsider's heart (kardias) are made manifest (phanera), he falls on his face and worships (proskunesei, future active of proskuneo) God (theo), declaring that God is really (ontos) among you. The grammatical chain moves from exposure to prostration to confession, with the dative theo as the terminus of proskuneo. The accessible outcome the assembly should want is conversion through conviction, not a service stripped of confronting content.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.4.23",
+        "key_terms": [
+          {
+            "strong": "G4352",
+            "lemma": "προσκυνέω"
+          },
+          {
+            "strong": "G0228",
+            "lemma": "ἀληθινός"
+          },
+          {
+            "strong": "G2212",
+            "lemma": "ζητέω"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "True (alethinoi) worshipers worship the Father (patri) in spirit (en pneumati) and truth (en aletheia), and the Father actively seeks (zetei) such worshipers. Worship is defined by its object (the Father) and its mode (spirit and truth), establishing a God-ward and truth-bound criterion against which any worship design must be measured. The double en phrase governs the mode; the dative patri fixes the terminus.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.4.24",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G4352",
+            "lemma": "προσκυνέω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          }
+        ],
+        "force": "God is spirit, and those who worship him must (dei, impersonal of obligation) worship in spirit and truth. The deontic dei attaches necessity to truth as a non-negotiable mode of worship, so a design that systematically subtracts truth content runs against the stated requirement. The verse does not, however, prescribe any particular style, order, music, or visible form of service.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.28",
+        "key_terms": [
+          {
+            "strong": "G0761",
+            "lemma": "ἀσάλευτος"
+          },
+          {
+            "strong": "G2102",
+            "lemma": "εὐαρέστως"
+          },
+          {
+            "strong": "G2124",
+            "lemma": "εὐλάβεια"
+          }
+        ],
+        "force": "Having received an unshakeable (asaleuton) kingdom, believers are to serve God acceptably (euarestos) with reverence (eulabeias) and awe (deous). Acceptable worship is bound to reverence and godly fear, a posture oriented toward God rather than toward the comfort of the worshiper or observer. The adverb euarestos is a hapax (1 occurrence) and eulabeia occurs only twice (Heb 5:7 and here), so the lexical base for the explicit posture vocabulary is thin, though the conceptual force is reinforced by the immediate context.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.29",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G2654",
+            "lemma": "καταναλίσκω"
+          }
+        ],
+        "force": "For our God is a consuming fire (pyr katanaliskon, attributive participle). The clause grounds the reverence of the prior verse in the character of God, reinforcing a God-ward seriousness that resists trivializing or softening worship. As a single-occurrence verb katanalisko (NT hapax) is lexically thin but rhetorically decisive in context and echoes Deut 4:24 LXX.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.4.24",
+        "to": "1Sam.16.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.25",
+        "to": "Gen.44.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.29",
+        "to": "Heb.10.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.28",
+        "to": "Heb.4.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.23",
+        "to": "Hos.9.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.4.23",
+        "to": "Isa.1.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.25",
+        "to": "Isa.45.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.4.23",
+        "to": "Prov.15.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.28",
+        "to": "Ps.19.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.9.22",
+        "addressed": true,
+        "resolution": "Paul writes egenomen tois pasin panta hina pantos tinas soso, I became all things to all people that by all means I might save some. The verb ginomai with the dative of advantage and the double pas commends adaptive accommodation for the sake of the gospel and is the central counter-text to the proposition. It is resolved by scope. The accommodation in view is missional flexibility in the apostle's own conduct toward different audiences (food, law-observance, social posture per the preceding vv. 19-21), not the subtraction of sin, judgment, or cross content from gathered worship. Paul nowhere accommodates by removing the message that convicts, and in the same letter at 1Cor 1:23 he insists hemeis de kerussomen Christon estauromenon (we preach Christ crucified), and at 14:24-25 he expects the assembly to convict outsiders through truth. The tension is real enough that the verdict is disputed rather than affirmed."
+      },
+      {
+        "ref": "2Tim.4.2",
+        "addressed": true,
+        "resolution": "kerukon ton logon, preach the word in season and out of season, reprove (elegxon, aorist imperative of elegcho), rebuke, exhort, for the time will come when people will not endure sound doctrine (hugiainouses didaskalias) but accumulate teachers to suit their own desires. This warns against shaping the message to the audience's preferences and supports the proposition's concern, but it speaks to the content of preaching rather than to service design or worship style, so it does not by itself convert the disputed verdict to an affirmation."
+      },
+      {
+        "ref": "1Cor.14.23",
+        "addressed": true,
+        "resolution": "Paul's concern that an outsider would judge the assembly mad (mainesthe) shows a real apostolic interest in intelligibility for the unbeliever present. A seeker-conscious instinct is therefore not condemned in principle. The verse is resolved by noting that the remedy Paul prescribes is intelligible prophecy that convicts, not content reduction, which is why this text both complicates and ultimately supports the truth-bearing reading."
+      },
+      {
+        "ref": "Acts.17.22",
+        "addressed": true,
+        "resolution": "Paul on the Areopagus opens with kata panta hos deisidaimonesterous humas theoro, addressing his Athenian audience on their own cultural terrain and quoting their poets (v. 28). This is genuine rhetorical accommodation. It is resolved as not bearing directly on the question because Acts 17 is missional preaching in a public civic forum, not a description of gathered Christian worship. The lemmas that govern gathered-assembly conduct (1Cor 14 ekklesia, idiotes) do not appear here. The text shows accommodation in evangelism without legislating service design."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No variant units were supplied in the bundle and the cited verses lie outside the open-cbgm 3 John sample scope. Minor Byzantine or Alexandrian readings at 1Cor 14:25 (the order of the falling-and-worshiping clauses) and at Heb 12:28 (echomen vs echomen subjunctive lambanontes) do not touch the lemmas that carry the verdict (proskuneo G4352, elegcho G1651, anakrino G0350, eulabeia G2124, euarestos G2102, katanalisko G2654, dei G1163), so the reading is treated as variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "regulative_principle_of_worship",
+      "normative_principle_of_worship",
+      "missional_accommodation",
+      "evangelistic_intelligibility"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "truth-conviction reading of 1Cor 14:24-25",
+        "verdict": "for",
+        "rationale": "Conviction of the outsider arises from intelligible prophetic truth that exposes the heart (elegcho, anakrino, ta krypta phanera), so subtracting confronting content removes the very means God uses to reach the unbeliever. The canon-wide pattern of elegcho corroborates that the term denotes exposure of sin or error, which tells against accessibility-driven content reduction."
+      },
+      {
+        "framework": "missional accommodation reading of 1Cor 9:22 and Acts 17:22-31",
+        "verdict": "neutral",
+        "rationale": "Becoming all things to all people (egenomen tois pasin panta) and addressing Athenians on their own cultural footing commend flexibility in form and rhetorical entry-point to reach hearers, and the canon nowhere fixes a worship style or service order. Accommodation in posture and manner is therefore not in itself condemned, and the proposition's specific normative claim about service design is not lexically established."
+      },
+      {
+        "framework": "God-ward terminus reading of John 4:23-24 and Heb 12:28-29",
+        "verdict": "for",
+        "rationale": "Worship in spirit and truth, offered with reverence and awe before a consuming fire, fixes worship's end on God (the dative theo and patri as termini of proskuneo; the deontic dei). Any design whose stated end is the comfort or attraction of the observer is in tension with the texts' stated orientation, though the texts do not legislate the visible form of the service."
+      },
+      {
+        "framework": "audience-intelligibility reading of 1Cor 14:23",
+        "verdict": "neutral",
+        "rationale": "Paul's concern that an outsider (idiotes, apistos) entering the assembly would judge the church mad (mainesthe) is a genuine seeker-conscious instinct. The remedy he prescribes is intelligible prophecy rather than content reduction, but the bare instinct of considering the outsider's perception is apostolic, which keeps the proposition from collapsing into a simple affirmation that any consideration of the unbeliever's presence reorients worship."
+      }
+    ],
+    "notes": "The verdict rests on analogia scripturae across the Fourth Gospel, the Corinthian correspondence, and Hebrews. The unresolved divergence between the accommodation lens (1Cor 9:22, Acts 17) and the truth-conviction and God-ward-terminus lenses (1Cor 14:24-25, John 4:23-24, Heb 12:28-29), together with the absence of any lemma that legislates worship style or service design as such, is what drives the disputed classification. No covenantal arc or typology is load-bearing here, so the method stays grammatico-historical."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the lexical pattern of the New Testament locate the end of corporate worship in God, and does it treat the intelligible proclamation of sin, judgment, and the cross as the means by which outsiders are convicted and brought to worship, and does it speak directly to service design.",
+    "notes": "The original stem embeds its conclusion in the clause reorients worship away from its God-ward end, which presupposes both that worship has a fixed God-ward end and that accessibility-driven design necessarily moves away from it. The phrases systematically downplays and to make the service more accessible also carry an evaluative loading. The category seeker-sensitive worship style is a modern descriptor, and the lexical store contains no corresponding lemma or construction for service design or worship style. The verdict was derived on the original stem, but the neutralized form was used to keep the lexical reading honest. The texts can speak decisively to worship's object (theos, pater) and to the role of truth (aletheia, elegcho) but cannot directly adjudicate the design claim, which is why the result is disputed at low confidence."
+  },
+  "lay_summary": "The words behind these verses point in two directions, which is why the question is best called contested at the level of the original languages. On one side, the Greek fixes the target of worship on God. In John 4 the true worshipers worship the Father, and the verb for must signals that worship in spirit and truth is required, not optional. In 1 Corinthians 14 the secrets of an outsider's heart are exposed by intelligible prophetic speech, he falls down and worships God, and he says God is really among you. The verb the Greek uses for what happens to him, elegcho, appears seventeen times across the New Testament and almost always means bringing hidden sin or error into the light. In Hebrews 12 acceptable service is offered with reverence and awe because our God is a consuming fire. Read together, the vocabulary makes worship God-directed and serious, and it makes intelligible truth the very thing that convicts a visitor and turns him toward God. That tells against a service that quietly removes sin, judgment, and the cross to keep things comfortable, because conviction in the text comes through more truth and not less. On the other side, Paul writes that he became all things to all people so that he might save some, and on the Areopagus he speaks to Athenians on their own cultural ground. These commend flexible adaptation to reach different audiences. Nowhere does the Greek give a command about service style, order, music, or design. So the specific charge in the question, that accessibility-driven design moves worship away from its purpose, is not something a single word or grammatical form settles. The texts strongly anchor the object of worship and the role of confronting truth, yet they leave room for adaptation in form, and the apostle himself adapted. The category of worship style is a modern one the New Testament vocabulary does not directly address. Because both readings are defensible from the text, and because the languages do not legislate worship style as such, the honest lexical result is disputed rather than a clean yes or no.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.14.24"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1651"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G4352"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.4.24"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.12.28"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.9.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.12.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.4.23"
+    },
+    {
+      "type": "syntax",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "1Cor.14.23"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute false) for interlinear and lexical glossing of 1Cor 14:24, G1651 elegcho, and G4352 proskuneo, and SBLGNT-text under SBLGNT-EULA (redistribute false) for the base Greek text of 1Cor 14:23. Both block bulk redistribution, so the aggregate evidence is not safe to publish without substituting public-domain or CC-BY licensed equivalents."
+  },
+  "flags": [
+    "lexically-disputed"
+  ]
+}

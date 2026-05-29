@@ -1,0 +1,507 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-legalism-denial",
+  "question_id": "doc-legalism-denial",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9375,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The works-of-law negation is dense and pan-Pauline, not local to one letter. The collocation of erga (G2041) and nomos (G3551) recurs in Gal 2:16, 3:2, 3:5, 3:10 and Rom 2:15, 3:20, 3:27, 3:28, 9:32, and in those same verses the verb dikaioo (G1344) is negated with ou or oudeis, so being justified ex ergon nomou is foreclosed (Gal 2:16 stacks the negated present passive dikaioutai three times, Rom 3:20 the future passive ou dikaiothesetai pasa sarx). Gal 5:3-4 makes accepting circumcision as a condition a debt to keep the whole law, with the result katergethete apo Christou and tes charitos exepesate. In the Gospels Mark 7:7-9 opposes the entole of God (G1785) to the paradosis of men (G3862), and Col 2:22 repeats the exact phrase entalmata kai didaskalias ton anthropon, branding food, festival, and sabbath rules as ethelothreskia (G1479) with no power against the flesh. The texts therefore support the proposition: human-rule conditions and law-works as the ground of acceptance distort the gospel, while obedience remains its fruit."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioo",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 176,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3862",
+        "lemma": "παράδοσις",
+        "transliteration": "paradosis",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1785",
+        "lemma": "ἐντολή",
+        "transliteration": "entole",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1778",
+        "lemma": "ἔνταλμα",
+        "transliteration": "entalma",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1479",
+        "lemma": "ἐθελοθρησκία",
+        "transliteration": "ethelothreskia",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5273",
+        "lemma": "ὑποκριτής",
+        "transliteration": "hypokrites",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5330",
+        "lemma": "Φαρισαῖος",
+        "transliteration": "Pharisaios",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 570,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4102",
+        "lemma": "πίστις",
+        "transliteration": "pistis",
+        "occurrences_in_canon": 243,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1344",
+      "G2041",
+      "G3551",
+      "G3862",
+      "G1785",
+      "G1778",
+      "G1479",
+      "G5273",
+      "G5330",
+      "G5547",
+      "G4102",
+      "G0444",
+      "G2673",
+      "G1601",
+      "G2671",
+      "G3759"
+    ],
+    "scripture": [
+      {
+        "ref": "Gal.2.16",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          }
+        ],
+        "force": "The clause ou dikaioutai anthropos ex ergon nomou pairs the negated present passive of dikaioo (G1344, parsed V-PPI-3S) with ergon nomou (G2041 genitive plural plus G3551 genitive singular) as the would-be ground of acceptance. The law-works phrase recurs three times in the one verse, and the contrasting dia pisteos and ek pisteos (G4102) names faith, not rule-keeping, as the means. The triple negation drives the disjunction home.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.20",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "ex ergon nomou ou dikaiothesetai pasa sarx puts the future passive of dikaioo (G1344, V-FPI-3S) under negation, so no flesh will be justified out of works of law. This is the same lexical pattern as Gal 2:16 in a different letter, which shows the negation is not confined to the Galatian dispute but is a settled Pauline usage. The clause closes by assigning the law the role of knowledge of sin, not the ground of standing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.10",
+        "key_terms": [
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G2671",
+            "lemma": "κατάρα"
+          }
+        ],
+        "force": "hosoi gar ex ergon nomou eisin hypo kataran eisin places those whose standing rests on works of law under a curse (katara, G2671), grounded in the citation that everyone is cursed who does not continue in all that is written to do it. The text makes law-as-ground self-defeating, since the law itself pronounces a curse on incomplete obedience.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.5.3",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "panti anthropo peritemnomeno...opheiletes estin holon ton nomon poiesai states that every man who accepts circumcision as a condition becomes a debtor (opheiletes, G3781) to keep the whole law (G3551). The lexical point is that adopting one imposed rule as a ground of standing obligates the entire law, which verse 4 then ties to being severed from Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.5.4",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "katergethete apo Christou (you were severed from Christ, G2673 aorist passive) and tes charitos exepesate (you fell out of grace, G1601) describe the result for hoitines en nomo dikaiousthe, those seeking justification in law (G1344 present passive). The aorist verbs mark a decisive break and treat law-as-ground as forfeiture of grace, the sharpest lexical statement that such conditioning distorts the gospel.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.7.7",
+        "key_terms": [
+          {
+            "strong": "G1778",
+            "lemma": "ἔνταλμα"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "didaskontes didaskalias entalmata anthropon (teaching as doctrines the precepts of men, G1778 plus G0444) makes worship maten (in vain, G3155), and verses 8 to 9 contrast the entole of God (G1785) with the paradosis of men (G3862), using the verbs aphentes, atheteite, and stesete to mark the human rule as a displacement of the divine command. The lexical opposition between God's command and human tradition is explicit.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.4",
+        "key_terms": [
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G5273",
+            "lemma": "ὑποκριτής"
+          }
+        ],
+        "force": "desmeuousin de phortia barea kai dysbastakta (they tie up heavy and hard-to-bear burdens) and lay them on the shoulders of men while refusing to move them with a finger. The lexical picture is added human obligation imposed as a load, and the surrounding woes label the speakers hypokritai (G5273) and tuphloi, framing rule-multiplication as failure rather than the path of acceptance.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.22",
+        "key_terms": [
+          {
+            "strong": "G1778",
+            "lemma": "ἔνταλμα"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G1479",
+            "lemma": "ἐθελοθρησκία"
+          }
+        ],
+        "force": "kata ta entalmata kai didaskalias ton anthropon (according to the precepts and teachings of men, G1778 plus G0444) describes the touch-taste-handle prohibitions and the food, festival, new-moon, and sabbath rules of the surrounding verses. Verse 23 calls them ethelothreskia (self-imposed worship, G1479), having an appearance of wisdom but no value against the indulgence of the flesh. The phrase entalmata kai didaskalias ton anthropon matches Mark 7:7 word for word, a cross-book lexical echo.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.3.9",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          }
+        ],
+        "force": "me echon emen dikaiosynen ten ek nomou alla ten dia pisteos Christou sets a righteousness ek nomou (out of law, G3551) against a righteousness dia pisteos and ek theou epi te pistei (G4102). The contrast of the two sources of dikaiosyne (G1343) confirms in a third letter that law-keeping is not the ground of right standing, faith is.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gal.3.10",
+        "to": "Deut.27.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.5.3",
+        "to": "Deut.8.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.10",
+        "to": "Exod.21.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.7.9",
+        "to": "2Kgs.16.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.2.18",
+        "to": "Col.2.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.2.21",
+        "to": "Gal.2.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.23.4",
+        "to": "Matt.23.23",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Jas.2.24",
+        "addressed": true,
+        "resolution": "horate hoti ex ergon dikaioutai anthropos kai ouk ek pisteos monon uses the identical lemmas dikaioo (G1344) and erga (G2041) as Gal 2:16 and Rom 3:20 but states the opposite surface claim, that a man is justified by works and not by faith alone. The vocabulary alone does not rank the two patterns, which is the genuine lexical tension. It resolves on two text-level cues that the words supply. First, Paul attaches the genitive nomou (works of law) and James does not, so James is not addressing law-keeping as the meritorious ground at all. Second, James targets ek pisteos monon, a bare or dead faith (verses 17 and 26 call such faith nekra), so dikaioo in James carries the demonstrative sense of being shown righteous by fruit, while in Paul it carries the forensic sense of being declared righteous as to ground. The same word, two attested senses, disambiguated by context, so James does not overturn the negation of law-works as ground."
+      },
+      {
+        "ref": "Matt.23.3",
+        "addressed": true,
+        "resolution": "panta oun hosa ean eiposin hymin poiesate kai tereite commands obedience to what the leaders teach from Moses seat, which could appear to endorse their rule-system. The lexical context resolves it: verse 3b condemns their practice (kata de ta erga auton me poieite) and verse 4 names their added phortia as heavy burdens. The endorsement attaches to the Mosaic content they recite, not to the human paradosis that the parallel Mark 7 explicitly rejects, so it does not support rule-as-ground."
+      },
+      {
+        "ref": "Gal.2.17",
+        "addressed": true,
+        "resolution": "heurethemen kai autoi hamartoloi, me genoito raises whether justification apart from law-works makes Christ a servant of sin. Paul answers with the emphatic me genoito (G3361 plus aorist) and in verse 18 ties transgression to rebuilding what was torn down, so the verse reinforces rather than weakens the verdict that law cannot be the ground."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited verses lie outside the open-cbgm 3 John ECM sample, and not_in_ecm_scope is true in the bundle, so the verdict is treated as ecm-shadow. The direct lexical query confirmed the readings that carry the verdict, the triple ex ergon nomou plus negated dikaioutai in Gal 2:16, the future passive in Rom 3:20, and katergethete apo Christou in Gal 5:4, are stable and not text-critically contested in a way that touches the proposition."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "law_gospel_distinction",
+      "covenant_theology",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "law_gospel_distinction",
+        "verdict": "affirms",
+        "rationale": "Reads Gal 2:16 and 5:4 as a categorical contrast between law as ground and faith as instrument, so the negated dikaioo plus ergon nomou forecloses law-keeping as a basis of acceptance, and adding human rules as conditions distorts the gospel."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Treats the moral law as the rule of the redeemed life but not its ground. Paul targets ergon nomou as a basis of standing while obedience remains the fruit of grace, which matches the fruit-not-ground ordering in the proposition. The continuing function of the moral law is a separate question the verdict does not need to settle."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Locates the believer under the law of Christ rather than the Mosaic statute and reads the Galatians and Colossians polemic, including ethelothreskia in Col 2:23, as rejecting any human-rule supplement to grace, consistent with the verdict."
+      },
+      {
+        "framework": "works-evidential reading (James 2 weighting)",
+        "verdict": "affirms",
+        "rationale": "Gives full weight to Jas 2:24, where ex ergon dikaioutai anthropos uses the same lemmas to opposite surface effect. On its strongest form this lens still affirms the proposition, because James addresses works as the demonstrative fruit that shows a living faith, not works of law as the meritorious ground, so it denies legalism while refusing antinomianism. The divergence is over the sense of dikaioo, not over whether law-keeping is the ground."
+      }
+    ],
+    "notes": "All lenses converge that ergon nomou cannot be the ground of acceptance. The only lexical tension is the shared vocabulary of Paul and James around dikaioo and erga, which the words underdetermine and context disambiguates. The verdict does not depend on resolving the covenantal disagreement about the continuing role of the moral law."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Some texts address whether acceptance, fellowship, or sanctification may be grounded on human rules added to God's commands, and whether obedience functions as the ground or the fruit of standing with God.",
+    "notes": "The original stem embeds the conclusion in the phrase distorts the gospel and in the fruit-not-ground ordering, which presupposes a gospel-versus-legalism frame. The neutralized form states the question without the verdict so the lexical data can be weighed on its own. The verdict above is derived on the original stem, and the negated dikaioo plus ergon nomou pattern across Gal 2:16, 3:10, Rom 3:20, the entole-versus-paradosis opposition in Mark 7:7-9, and the entalmata ton anthropon language in Col 2:22 independently support it. Prior affirms true is retained, the direct query strengthened it without forcing a change."
+  },
+  "lay_summary": "The biblical words draw a sharp line between how a person comes into right standing with God and what people add on their own. The verb for being justified is repeatedly negated and set against the phrase works of law. In Galatians 2:16 that phrase appears three times in one verse, and Romans 3:20 says no flesh will be justified by works of law, so doing law-deeds cannot be the basis of acceptance. The same negated pattern recurs across Galatians 3 and Romans 2 to 9, which shows it is a settled usage and not a one-letter argument. The means is named instead as faith. Galatians 5 sharpens this: a person who takes on circumcision as a condition becomes a debtor to keep the whole law, and those who seek to be justified in law were severed from Christ and fell out of grace, with verbs that mark a decisive cutting off. The Gospels add the same picture from a different angle. In Mark 7 worship becomes empty when people teach as doctrines the precepts of men, and the command of God is set against the tradition of men. In Matthew 23 the leaders tie up heavy, hard-to-bear burdens and lay them on others. Colossians 2 calls food, festival, and sabbath rules the precepts and teachings of men, self-made worship that looks wise but has no power against the flesh, using the very same wording as Mark 7. Obedience is never denied. What is denied is making added human rules or law-keeping the ground of acceptance. The one verse that seems to push back, James 2:24, says a person is justified by works and not by faith alone, using the same two words. Readers can diverge here because the words alone do not rank the two statements. The tension eases at the text level: James drops the qualifier of law and speaks of a bare, dead faith, so he means works that show a living faith, while Paul means works of law offered as the basis of standing. Same word, two senses, settled by context.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.2.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.20"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.5.4"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mark.7.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.2.22"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jas.2.24"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1344"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3862"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.3.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.2.18"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-substitutionary-atonement",
+  "question_id": "doc-substitutionary-atonement",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The in-place-of pattern is dense and spans both testaments on three independent lexical tracks. The Hebrew preposition tachat (H8478, 505 occurrences, core sense in place of) describes the ram offered as a burnt offering tachat Isaac's son in Genesis 22:13, the substitute victim. The Greek preposition anti (G0473, 22 occurrences, attested sense in place of or in exchange for, as in Matthew 2:22 and Matthew 5:38) stands in the ransom saying lytron anti pollon in Mark 10:45 and Matthew 20:28, the tightest exchange idiom. The sin-bearing verbs nasa (H5375) and sabal (H5445) in Isaiah 53:4, 53:11 and Leviticus 16:22, with paga in the Hiphil causative in Isaiah 53:6 (YHWH made the iniquity of all of us fall on him), and Greek anaphero (G0399) in 1 Peter 2:24 and Hebrews 9:28 (he bore the sins of many), all place the guilt of the many onto one. The broader hyper texts (Romans 5:8, 2 Corinthians 5:21, Galatians 3:13, 1 Peter 3:18) confirm the same exchange where context supplies a one-for-many frame or a just-for-unjust antithesis."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0473",
+        "lemma": "ἀντί",
+        "transliteration": "anti",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8478",
+        "lemma": "תַּחַת",
+        "transliteration": "tachat",
+        "occurrences_in_canon": 505,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5228",
+        "lemma": "ὑπέρ",
+        "transliteration": "hyper",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5375",
+        "lemma": "נָשָׂא",
+        "transliteration": "nasa",
+        "occurrences_in_canon": 651,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5445",
+        "lemma": "סָבַל",
+        "transliteration": "sabal",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6293",
+        "lemma": "פָּגַע",
+        "transliteration": "paga",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0399",
+        "lemma": "ἀναφέρω",
+        "transliteration": "anaphero",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3083",
+        "lemma": "λύτρον",
+        "transliteration": "lytron",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1805",
+        "lemma": "ἐξαγοράζω",
+        "transliteration": "exagorazo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2671",
+        "lemma": "κατάρα",
+        "transliteration": "katara",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 172,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0094",
+        "lemma": "ἄδικος",
+        "transliteration": "adikos",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1342",
+        "lemma": "δίκαιος",
+        "transliteration": "dikaios",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0473",
+      "G5228",
+      "G0399",
+      "G3083",
+      "G1805",
+      "G2671",
+      "G0266",
+      "G0094",
+      "G1342",
+      "G1343",
+      "H8478",
+      "H5375",
+      "H5445",
+      "H6293",
+      "H3605",
+      "H5771",
+      "H6588"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.22.13",
+        "key_terms": [
+          {
+            "strong": "H8478",
+            "lemma": "תַּחַת"
+          },
+          {
+            "strong": "H0352",
+            "lemma": "אַיִל"
+          },
+          {
+            "strong": "H5930",
+            "lemma": "עֹלָה"
+          }
+        ],
+        "force": "Abraham offered up the ram (H0352 ayil) as a burnt offering (H5930 olah) tachat (H8478, in place of) his son. The token order in the source places tachat directly between the burnt offering and his son, which is the lexical signature of a substitute victim: an animal dies in the position the son was about to occupy. tachat occurs 505 times with a stable core sense of under, instead of, in place of, so the in-place-of reading here is not strained.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.16.22",
+        "key_terms": [
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "The live goat bears (H5375 nasa) upon itself all their iniquities (H5771 avon) into a solitary land. The same verb nasa that Isaiah 53:4 uses of the Servant is here used of the substitute animal that carries the people's guilt away from them. The grammar attaches the bearing to the goat and the iniquities to the people, the lexical structure of transfer.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.4",
+        "key_terms": [
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H5445",
+            "lemma": "סָבַל"
+          },
+          {
+            "strong": "H2483",
+            "lemma": "חֳלִי"
+          }
+        ],
+        "force": "The corrective particle aken opens it: surely it was our sicknesses he bore (H5375 nasa) and our pains he carried (H5445 sabal). The possessive suffixes mark the burdens as ours while the subject pronoun (H1931 hu, he) marks the bearer as a distinct single person. The ETCBC clause data repeats Object functions for the burden nouns, confirming the Servant as the one who takes the others load.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.6",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H6293",
+            "lemma": "פָּגַע"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "All of us (H3605 kol, repeated as an inclusive frame opening and closing the verse) strayed like sheep, and YHWH caused to fall (H6293 paga, parsed Hiphil perfect 3ms, the causative stem) on him the iniquity (H5771 avon) of all of us. The Hiphil with the divine subject is the grammatical hinge of penal transfer: God himself lays the guilt of the whole group onto the single Servant, which forecloses a merely coincidental suffering reading.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.11",
+        "key_terms": [
+          {
+            "strong": "H5445",
+            "lemma": "סָבַל"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          }
+        ],
+        "force": "He shall bear (H5445 sabal) their iniquities (H5771 avon). sabal occurs only nine times in the canon, and two of them are in this one Servant Song (here and in 53:4), with Lamentations 5:7 using it of bearing the iniquities of others. The narrow distribution clustered on guilt-bearing fixes the sense as carrying moral liability, not mere physical weight.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.45",
+        "key_terms": [
+          {
+            "strong": "G3083",
+            "lemma": "λύτρον"
+          },
+          {
+            "strong": "G0473",
+            "lemma": "ἀντί"
+          },
+          {
+            "strong": "G4183",
+            "lemma": "πολύς"
+          }
+        ],
+        "force": "The Son of Man came to give his life a ransom in place of many (lytron anti pollon). The source token order is lytron (G3083), then anti (G0473), then pollon (G4183) in immediate sequence. anti is the Greek preposition whose core lexical sense is over against, instead of, in exchange for (seen plainly in Matthew 2:22 of one ruler reigning in place of another and in Matthew 5:38 eye for eye), so lytron anti pollon is the lexically tightest substitution idiom in the set: one life given in the stead of the many. Matthew 20:28 carries the identical phrase.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.11.50",
+        "key_terms": [
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          }
+        ],
+        "force": "It is expedient that one man (G1520 heis) die for (G5228 hyper) the people (G2992 laos) and the whole nation not perish. Here hyper alone is broad, but the numeral one set against the people supplies a one-instead-of-many structure: a single death stands in the place of the destruction owed to the group. The frame, not the bare preposition, carries the substitution.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.24",
+        "key_terms": [
+          {
+            "strong": "G0399",
+            "lemma": "ἀναφέρω"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3586",
+            "lemma": "ξύλον"
+          }
+        ],
+        "force": "He himself (autos) bore up (anenenken, aorist of G0399 anaphero) our sins (tas hamartias hemon) in his body onto the tree (epi to xylon). anaphero is the Septuagint cultic term for carrying an offering up to the altar, attested that way in this same book and letter group (Hebrews 7:27, Hebrews 13:15, 1 Peter 2:5). Applied to sins lifted onto the cross it echoes Isaiah 53 nasa and lands on healing by his wound (molops). Our sins, his body: the structure of transfer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.28",
+        "key_terms": [
+          {
+            "strong": "G0399",
+            "lemma": "ἀναφέρω"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G4183",
+            "lemma": "πολύς"
+          }
+        ],
+        "force": "Christ was offered once to bear (G0399 anaphero) the sins (G0266 hamartia) of many (G4183 pollon). The token sequence sets the many as the genitive whose sins the one carries, the same one-bears-the-guilt-of-many shape as Isaiah 53:6 and Mark 10:45. anaphero here pairs with the cultic verb prosphero earlier in the verse, locking the sin-bearing into a sacrificial frame.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.18",
+        "key_terms": [
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          },
+          {
+            "strong": "G0094",
+            "lemma": "ἄδικος"
+          }
+        ],
+        "force": "Christ suffered once concerning sins, just for unjust (dikaios hyper adikon, G1342 set directly over against G0094), in order that (hina) he might bring you to God (prosagago). The hyper is here flanked by an explicit righteous-for-unrighteous antithesis, which is the clearest exchange formula: the one who is dikaios stands in the place of those who are adikos, and the purpose clause names reconciliation. The antithesis, not hyper by itself, secures the substitution.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.21",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "The one not knowing sin (ton me gnonta hamartian) God made to be sin for us (hyper hemon), so that (hina) we might become the righteousness (dikaiosyne) of God in him. The double accusative made-sin sets up a deliberate interchange: his sinlessness and our sin trade places so his righteous standing transfers to us. hyper here sits inside the made-sin and become-righteousness exchange, which supplies the in-place-of force.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.8",
+        "key_terms": [
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          },
+          {
+            "strong": "G0268",
+            "lemma": "ἁμαρτωλός"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          }
+        ],
+        "force": "While we were still (eti) sinners (hamartolon onton hemon) Christ died for us (hyper hemon apethanen). Read on its own this verse only states a death on behalf of the unworthy, since hyper can mean for the sake of without exchange. The substitution sense it carries comes from the surrounding atonement texts (the one-for-many frame and the just-for-unjust antithesis), not from this clause by itself. This is the legitimate point where readers diverge.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.13",
+        "key_terms": [
+          {
+            "strong": "G1805",
+            "lemma": "ἐξαγοράζω"
+          },
+          {
+            "strong": "G2671",
+            "lemma": "κατάρα"
+          },
+          {
+            "strong": "G5228",
+            "lemma": "ὑπέρ"
+          }
+        ],
+        "force": "Christ redeemed us (exegorasen, G1805, bought out) from the curse of the law (katara, G2671) by becoming (genomenos) a curse for us (hyper hemon katara), citing the law that everyone hanged on a tree is cursed. The participle genomenos plus hyper plus the predicate katara is an exchange of status: he takes the cursed position so the curse is lifted from us. Commercial buy-out plus curse-transfer doubly encode substitution.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.2.24",
+        "to": "Isa.53.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.8",
+        "to": "Isa.53.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.3.13",
+        "to": "Deut.21.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Deut.21.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.5",
+        "to": "Isa.53.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.18",
+        "to": "1Pet.2.21",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.5.8",
+        "addressed": true,
+        "resolution": "The preposition hyper (G5228) is genuinely broad. Across its 151 occurrences it most often means on behalf of, for the sake of, or concerning with no exchange in view (for example prayers offered hyper all people in 1 Timothy 2:1, affliction hyper your comfort in 2 Corinthians 1:6, was Paul crucified hyper you in 1 Corinthians 1:13). So hyper by itself does not prove that one party stands in the place of another. It is resolved because the canon supplies the in-place-of sense from other words and frames: the preposition anti (in place of) in Mark 10:45 and Matthew 20:28, the Hebrew tachat (in place of) in Genesis 22:13, the one-instead-of-many structure in John 11:50 and 2 Corinthians 5:14, and the explicit just-for-unjust antithesis in 1 Peter 3:18. Where hyper sits inside one of those frames it carries substitution; where it stands alone it carries only benefit. The atonement texts repeatedly supply the frame."
+      },
+      {
+        "ref": "Isa.53.4",
+        "addressed": true,
+        "resolution": "The first colon (our sicknesses and pains) is quoted in Matthew 8:17 of physical healing, which could narrow the bearing to disease rather than guilt. But Isaiah 53:5 to 53:6 immediately recast the same bearing in moral terms (pesha transgression, avon iniquity, with paga in the Hiphil placing guilt on him), and 53:11 says he shall bear (sabal) their iniquities. The healing language is one facet of the bearing, not a competing reading; the lexical field is penalty-bearing for sin."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle for the anchor verses, and the cited apparatus marks in the printed text (the raised dots in 1 Peter and 2 Corinthians) touch pronoun and word-order readings (hymas versus hemas, presence of the article) that do not disturb the anti, tachat, hyper, or sin-bearing-verb structure. The Hebrew anchors in Genesis 22, Leviticus 16, and Isaiah 53 are outside ECM scope. The verdict holds across the plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "substitution_reading",
+        "verdict": "affirms",
+        "rationale": "Takes anti (in place of) in the ransom saying and tachat (in place of) in Genesis 22:13 as lexicalized replacement, then reads the surrounding hyper and sin-bearing-verb texts in their light: one stands in the position of the many and dies the death they were owed. The dikaios-for-adikos antithesis of 1 Peter 3:18 and the made-sin interchange of 2 Corinthians 5:21 are read as exchange formulas, and Isaiah 53:6 paga Hiphil as God transferring guilt onto the Servant."
+      },
+      {
+        "framework": "representation_benefit_reading",
+        "verdict": "affirms_with_qualification",
+        "rationale": "Stresses that hyper (G5228) lexically means on behalf of or for the sake of and does not by itself require strict exchange, as its many non-atonement uses show. On this reading the death is for the benefit of and as the representative of sinners, which is real and reconciling, while pressing it into a one-to-one penal swap is held to read more than the bare preposition states. This reading still affirms that Christ died for sinners in a way that reconciles them, the proposition under test, but is cautious about the exact mechanism. It is represented fairly here in its strongest form."
+      },
+      {
+        "framework": "typological_reading",
+        "verdict": "affirms",
+        "rationale": "Reads the substitute victim of Genesis 22:13 (ram tachat the son) and the scapegoat of Leviticus 16:22 (nasa, bearing iniquities away) as types whose pattern of one-in-place-of-the-guilty is realized in the Servant of Isaiah 53 and in Christ. The typological chain itself carries the in-place-of force independent of any single New Testament preposition."
+      }
+    ],
+    "notes": "All three lenses affirm the proposition that Christ died for sinners in a reconciling way. They diverge on how strictly the mechanism is substitution, and the divergence tracks a real lexical fact: anti and tachat lexicalize replacement, while hyper lexicalizes benefit or representation and acquires replacement force only from a one-for-many frame or an antithesis. The Genesis-Leviticus-Isaiah-to-New-Testament arc is the load-bearing redemptive-historical link."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition states that Christ died for sinners in their place and that his death is, among other things, a substitute death by which those for whom he died are reconciled to God. The hedge among other things keeps it from smuggling a single atonement theory label, and substitute death plus in their place is the very claim the lexis is then allowed to confirm or deny rather than a tradition-specific taxonomy. No neutralization is required. Verdict unchanged from the prior file: affirms true, high confidence. Key terms verified against live lexical-store counts (anti G0473 22, tachat H8478 505, hyper G5228 151, nasa H5375 651, sabal H5445 9, anaphero G0399 10, lytron G3083 2) and against verified token sequences for Mark 10:45, Matthew 20:28, Genesis 22:13, Isaiah 53:6, John 11:50, 2 Corinthians 5:14, Hebrews 9:28, 1 Peter 2:24, 1 Peter 3:18, 2 Corinthians 5:21, Galatians 3:13."
+  },
+  "lay_summary": "The plain sense of the words points firmly toward substitution: Christ dying in the place of sinners so that they are brought back to God. Two words carry in place of as their own meaning. The Greek anti, used of one ruler reigning in place of another and of eye for eye, appears in the ransom saying where the Son of Man gives his life as a ransom in place of many, the tightest exchange phrase in the canon. The Hebrew tachat, a very common word meaning under or instead of, describes the ram offered up as a burnt offering in place of Abraham's son, a substitute victim. Alongside these run the bearing verbs. In Isaiah 53 the Servant bears and carries burdens the speakers call ours, and verse six uses a causative form to say God made the iniquity of us all fall on him, a transfer of guilt onto one person. The scapegoat bears the people's iniquities away in Leviticus, using the same verb. In the New Testament he bore up our sins in his body onto the tree, and he was offered to bear the sins of many, using a word that elsewhere means to lift an offering onto the altar. There is one honest place where readers diverge, and it comes straight from the words. A third preposition, hyper, appears in many of these texts, but hyper by itself only means on behalf of or for the sake of. It is used of praying for people and of suffering for someone's comfort, where no one stands in anyone else's place. So a death described only as hyper sinners proves that it was for their benefit, not by itself that it was instead of them. What settles the matter is that the canon does not leave hyper alone. It pairs it with the numeral one set against many, as in one man dying for the people, and with a blunt antithesis, the just for the unjust, and with the exchange where the sinless one is made sin so that we become righteousness. In those frames hyper carries the same in place of force that anti and tachat carry on their own. So the case rests on anti and tachat and the bearing verbs, with hyper joining them wherever the surrounding words supply a one-for-many or just-for-unjust frame. The pattern is dense, it spans law, prophets, gospels, and letters, and it survives the manuscript variants, so the lexical case for substitution is strong while the exact mechanism is where careful readers still differ.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.10.45"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.9.28"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.22.13"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0473"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5228"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0399"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8478"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5445"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.18"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.53.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.3.13"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two sources carry CC-BY-NC-4.0 and cannot be redistributed in bulk: MACULA-Greek (used for the verified token sequences of Mark 10:45 lytron anti pollon and Hebrews 9:28 anaphero hamartias) and ETCBC-BHSA (used for the Isaiah 53 clause and function data). The verdict itself can be re-derived from the redistributable OSHB, STEPBible, MorphGNT, and TSK citations if a publishable subset is required, since the anti idiom and the tachat substitute-victim are recoverable from those sources."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

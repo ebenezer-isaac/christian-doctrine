@@ -1,0 +1,644 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-means-of-grace",
+  "question_id": "doc-means-of-grace",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The cited verses converge on one stable, canon-wide pattern: God ordinarily works through appointed, repeated practices. Acts 2:42 binds four datives under one durative participle, proskarterountes G4342, the apostles teaching, koinonia, the breaking of the bread, and the prayers, proseuchais G4335. Romans 10:17 grounds faith, pistis, ek akoes, out of hearing, and the hearing dia rhematos Christou, through the word of Christ, naming source and instrument. First Corinthians 11:23-26 hands on a repeated rite, paralambano and paradidomi, with present imperatives poieite and the indefinite-frequency adverb hosakis G3740. Hebrews 10:24-25 and 1 Timothy 4:13 add the gathered assembly, episynagoge G1997, mutual stirring, and the reading, exhortation, and teaching of the word. The means-vocabulary is decisive. What the words do NOT settle is the MODE of efficacy: koinonia G2842 in 1 Corinthians 10:16 means sharing or participation but does not by itself say whether grace is conferred by the rite or received by faith in it. The bare proposition stands; the contested mechanism is underdetermined by the lexicon."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0189",
+        "lemma": "ἀκοή",
+        "transliteration": "akoe",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4487",
+        "lemma": "ῥῆμα",
+        "transliteration": "rhema",
+        "occurrences_in_canon": 67,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2806",
+        "lemma": "κλάω",
+        "transliteration": "klao",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2800",
+        "lemma": "κλάσις",
+        "transliteration": "klasis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3740",
+        "lemma": "ὁσάκις",
+        "transliteration": "hosakis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidomi",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3880",
+        "lemma": "παραλαμβάνω",
+        "transliteration": "paralambano",
+        "occurrences_in_canon": 49,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4342",
+        "lemma": "προσκαρτερέω",
+        "transliteration": "proskartereo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4335",
+        "lemma": "προσευχή",
+        "transliteration": "proseuche",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0907",
+        "lemma": "βαπτίζω",
+        "transliteration": "baptizo",
+        "occurrences_in_canon": 76,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1997",
+        "lemma": "ἐπισυναγωγή",
+        "transliteration": "episynagoge",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2657",
+        "lemma": "κατανοέω",
+        "transliteration": "katanoeo",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0240",
+        "lemma": "ἀλλήλων",
+        "transliteration": "allelon",
+        "occurrences_in_canon": 100,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2605",
+        "lemma": "καταγγέλλω",
+        "transliteration": "katangello",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1319",
+        "lemma": "διδασκαλία",
+        "transliteration": "didaskalia",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0320",
+        "lemma": "ἀνάγνωσις",
+        "transliteration": "anagnosis",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1242",
+        "lemma": "διαθήκη",
+        "transliteration": "diatheke",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2842",
+      "G0189",
+      "G4487",
+      "G2806",
+      "G2800",
+      "G0364",
+      "G3740",
+      "G3860",
+      "G3880",
+      "G4342",
+      "G4335",
+      "G0907",
+      "G1997",
+      "G2657",
+      "G0240",
+      "G2605",
+      "G1322",
+      "G1319",
+      "G0320",
+      "G1242",
+      "G4221",
+      "G0740"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.2.42",
+        "key_terms": [
+          {
+            "strong": "G4342",
+            "lemma": "προσκαρτερέω"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          },
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G2800",
+            "lemma": "κλάσις"
+          },
+          {
+            "strong": "G4335",
+            "lemma": "προσευχή"
+          }
+        ],
+        "force": "One durative participle, proskarterountes G4342, present active, were continuing steadfastly, governs four datives joined by repeated kai: the apostles teaching, didache G1322, the koinonia G2842, the breaking, klasis G2800, of the bread, and the prayers, proseuchais G4335. The grammar treats them as a coordinated ongoing set of practices, not single events, which supports these as appointed, repeated means that sustained the early community. Note the word for the breaking here is the noun klasis G2800, not the verb klao.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "ACT 2:42!3"
+      },
+      {
+        "ref": "Rom.10.17",
+        "key_terms": [
+          {
+            "strong": "G0189",
+            "lemma": "ἀκοή"
+          },
+          {
+            "strong": "G4487",
+            "lemma": "ῥῆμα"
+          }
+        ],
+        "force": "Faith, pistis G4102, is ex akoes G0189, out of hearing, with ek G1537 marking source, and the hearing dia rhematos Christou G4487, through the word of Christ, with dia G1223 marking instrument. The proclaimed word is named as the appointed channel through which faith arises. Akoe occurs twice in this verse, first genitive then nominative, and across its 24 canon occurrences it carries two attested senses, the act of hearing and the thing heard or report, for example Romans 10:16 and Galatians 3:2,5. Either sense keeps the word as the operative channel.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 10:17!5"
+      },
+      {
+        "ref": "1Cor.10.16",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          }
+        ],
+        "force": "The cup of blessing which we bless, eulogoumen G2127 present active, and the bread which we break, klomen G2806 present active, are each said to be a koinonia G2842, a participation or sharing, of the blood and of the body of Christ. Koinonia here governs an objective genitive, tou haimatos and tou somatos tou Christou. This genitive is the crux: koinonia is genuinely two-sided in sense, a sharing IN something or a communion produced BY sharing, and the word alone does not say whether the rite conveys that participation or whether it is received by faith. This is where readings diverge.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 10:16!19"
+      },
+      {
+        "ref": "1Cor.11.23",
+        "key_terms": [
+          {
+            "strong": "G3880",
+            "lemma": "παραλαμβάνω"
+          },
+          {
+            "strong": "G3860",
+            "lemma": "παραδίδωμι"
+          }
+        ],
+        "force": "Paul uses parelabon G3880, I received, and paredoka G3860, I delivered, the technical verbs for handing on and receiving tradition, marking the supper as a fixed ordinance received apo tou Kyriou, from the Lord, and delivered to the church. The same root paradidomi also describes the Lord being handed over, paredideto, in the same verse, an aorist or imperfect passive, but the transmission language frames the rite itself as appointed rather than improvised.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:23!3"
+      },
+      {
+        "ref": "1Cor.11.24",
+        "key_terms": [
+          {
+            "strong": "G2806",
+            "lemma": "κλάω"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          }
+        ],
+        "force": "He broke it, eklasen G2806, and the command touto poieite G4160, keep doing this, present imperative, plus eis ten emen anamnesin G0364, for my remembrance, establishes a repeated commemorative act tied to the broken bread. The present imperative carries iterative force, supporting an ongoing appointed practice. Anamnesis is rare, 4 occurrences, Luke 22:19, here, the next verse, and Hebrews 10:3, and it states the function of the act, remembrance, not the mechanism by which grace is communicated.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:24!19"
+      },
+      {
+        "ref": "1Cor.11.25",
+        "key_terms": [
+          {
+            "strong": "G3740",
+            "lemma": "ὁσάκις"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          },
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          }
+        ],
+        "force": "Touto poieite, hosakis ean pinete G3740, do this, as often as you drink, with the cup named he kaine diatheke G1242, the new covenant, in my blood, presents the rite as recurring and covenantal. Hosakis is a rare adverb, only 3 occurrences, here, the next verse, and Revelation 11:6, and its indefinite-frequency clause assumes a continuing observance rather than a single event.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:25!22"
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G3740",
+            "lemma": "ὁσάκις"
+          },
+          {
+            "strong": "G2605",
+            "lemma": "καταγγέλλω"
+          }
+        ],
+        "force": "Hosakis gar G3740, for as often as you eat the bread and drink the cup, you proclaim, katangellete G2605 present active, the Lord death, achri hou elthe G0891, until he comes. The verb katangellete makes the meal itself a proclamation, and the until-clause sets it on a continuing timeline bounded by Christ return. Both features support an appointed, durative practice.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 11:26!16"
+      },
+      {
+        "ref": "Heb.10.24",
+        "key_terms": [
+          {
+            "strong": "G2657",
+            "lemma": "κατανοέω"
+          },
+          {
+            "strong": "G0240",
+            "lemma": "ἀλλήλων"
+          }
+        ],
+        "force": "Katanoomen allelous G2657, G0240, present subjunctive, let us consider one another, eis paroxysmon agapes kai kalon ergon, toward a stirring up of love and good works, makes mutual attentiveness a deliberate communal stimulus. The reciprocal pronoun allelous shows the body acting on its own members, supporting Spirit-empowered fellowship as a means of growth.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:24!2"
+      },
+      {
+        "ref": "Heb.10.25",
+        "key_terms": [
+          {
+            "strong": "G1997",
+            "lemma": "ἐπισυναγωγή"
+          },
+          {
+            "strong": "G1459",
+            "lemma": "ἐγκαταλείπω"
+          }
+        ],
+        "force": "Me egkataleipontes G1459, present participle, not forsaking, ten episynagogen heauton G1997, the assembling of ourselves, with the present participle parakalountes G3870, encouraging, treats the gathered assembly as a normative ongoing habit. Episynagoge is a rare noun, only 2 occurrences, here and 2 Thessalonians 2:1. The prohibition against abandoning it implies the assembly is the setting where the other means operate.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:25!4"
+      },
+      {
+        "ref": "1Tim.4.13",
+        "key_terms": [
+          {
+            "strong": "G0320",
+            "lemma": "ἀνάγνωσις"
+          },
+          {
+            "strong": "G1319",
+            "lemma": "διδασκαλία"
+          }
+        ],
+        "force": "Proseche te anagnosei, te paraklesei, te didaskalia G4337, attend to the reading G0320, the exhortation, the teaching G1319. Three definite-article datives name fixed public ministries of the word, and the present imperative proseche commands sustained devotion to them. Anagnosis is rare, 3 occurrences, here, Acts 13:15, and 2 Corinthians 3:14, and denotes public reading of Scripture, supporting the Word read and preached as an appointed means.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1TI 4:13!5"
+      },
+      {
+        "ref": "Acts.2.38",
+        "key_terms": [
+          {
+            "strong": "G0907",
+            "lemma": "βαπτίζω"
+          },
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          }
+        ],
+        "force": "Metanoesate kai baptistheto hekastos G0907, repent and let each be baptized, aorist passive imperative, eis aphesin ton hamartion, and you will receive, lempsesthe G2983 future middle, the gift of the Holy Spirit. Baptizo occurs 76 times across the canon and is a commanded, appointed practice, which supplies the lexical basis for baptism named in the proposition. Whether the eis-clause marks instrument, occasion, or ground of forgiveness is the same kind of underdetermination seen with koinonia, the syntax does not by itself fix the mode.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "ACT 2:38!7"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.2.42",
+        "to": "Acts.20.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "Acts.1.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.42",
+        "to": "Acts.2.46",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.10.17",
+        "to": "Rom.10.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.10.17",
+        "to": "Jer.23.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.10.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "1Cor.11.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.23",
+        "to": "1Cor.15.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "1Cor.5.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.24",
+        "to": "Exod.12.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.11.25",
+        "to": "Luke.22.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.24",
+        "to": "Heb.13.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.25",
+        "to": "Matt.18.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.4.13",
+        "to": "Deut.17.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.10.16",
+        "addressed": true,
+        "resolution": "Koinonia G2842 of the blood and body governs an objective genitive that the word itself does not disambiguate. Koinonia means sharing, participation, or partnership, and it occurs 19 times from Acts 2:42 to 1 John 1:3 with that range stable, but it never specifies the metaphysics of HOW the sharing is effected. So the verse supports the supper as a means by which believers share in Christ, which the proposition affirms, while leaving open whether the rite conveys grace or whether grace is received by faith in the rite. The verdict rests on the appointed, participatory character the vocabulary does establish and does not overreach into the mode the vocabulary leaves open."
+      },
+      {
+        "ref": "1Cor.11.24",
+        "addressed": true,
+        "resolution": "Eis ten emen anamnesin G0364, for my remembrance, locates the stated function of the rite in commemoration and proclamation. Anamnesis is rare, 4 occurrences, and names the purpose of the act rather than an automatic conferral mechanism. This neither requires nor excludes an efficacious sense, so it does not by itself decide the mode question. The appointed and repeated character carried by the present imperative poieite and the frequency clauses still stands regardless of which mode a reader adopts."
+      },
+      {
+        "ref": "Acts.2.38",
+        "addressed": true,
+        "resolution": "Baptistheto eis aphesin ton hamartion, be baptized for the forgiveness of sins, places an eis-clause after the baptism command. Eis G1519 can mark goal, result, ground, or occasion, and the syntax does not select one. This is the same underdetermination as koinonia: the verse establishes baptism as a commanded appointed practice, which the proposition affirms, but the preposition does not by itself fix whether baptism conveys forgiveness or accompanies a forgiveness received otherwise. The verdict affirms baptism as an appointed means without resolving the disputed mode."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No variant units were supplied in the bundle and all cited passages fall outside the ingested ECM published window, which covers only 3 John. The minor marked readings in the supplied text, for example paredideto in 1 Corinthians 11:23 and the cup clause wording, do not touch the lemmas that carry the verdict. The means-vocabulary, hearing, breaking, koinonia, remembrance, frequency, assembly, baptism, and the reading and teaching terms, is textually stable, so the verdict does not depend on any disputed manuscript choice."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "efficacious or conferring reading of the ordinances",
+        "verdict": "consistent",
+        "rationale": "On this reading koinonia G2842 in 1 Corinthians 10:16 is a real participation that the rite effects, an objective sharing in the blood and body, and the eis-clause of Acts 2:38 ties baptism to the forgiveness it names. The handing-on verbs, the covenant cup, he kaine diatheke, and the present imperative poieite present the supper as a divinely appointed channel through which grace is communicated. The lexicon permits this because koinonia genuinely can denote participation IN a thing, and eis can mark the ground or goal of the act."
+      },
+      {
+        "framework": "instrumental or symbolic reading of the ordinances",
+        "verdict": "consistent",
+        "rationale": "On this reading anamnesis G0364, for my remembrance, and katangello G2605, you proclaim the Lord death, frame the supper as a commemorative proclamation in which grace is received by faith looking to Christ, not conferred by the elements. Koinonia denotes the fellowship and shared belonging that faith enjoys, and the eis-clause of Acts 2:38 marks goal or occasion rather than instrument. The lexicon permits this equally because koinonia can denote communion produced BY sharing and eis is multivalent. The means are appointed occasions where faith receives what the word promises."
+      }
+    ],
+    "notes": "The verdict on the bare proposition rests on grammatical features observable independent of any tradition: a durative present participle, present imperatives, indefinite-frequency adverbs, reciprocal pronouns, and prepositions marking source and instrument. Both lenses agree these are appointed, repeated means. They diverge only on the MODE of efficacy, and that divergence traces to a genitive and a preposition the vocabulary does not rank, not to any external framework."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "God ordinarily nourishes faith and sanctifies His people through appointed and repeated practices: the reading and proclamation of His word, prayer, the breaking of bread, baptism, and mutual fellowship in the assembly.",
+    "notes": "The phrase means of grace is a theological category term that can imply a specific conferral mechanism. The neutralized form replaces it with appointed and repeated practices and keeps the question on whether the cited verbs, participles, and frequency clauses establish these as ongoing God-appointed channels. The verdict was derived on that neutralized sense and affirms the bare proposition. Two corrections to the prior file, neither verdict-changing: in Acts 2:42 the breaking term queried in the canon is the noun klasis G2800, not the verb klao G2806, and the assembling noun in Hebrews 10:25 is episynagoge G1997, not the verb episynago G1996. Baptism, named in the proposition but absent from the supplied bundle, is now grounded directly: baptizo G0907 occurs 76 times including Acts 2:38, so the baptism leg no longer rests only on the general pattern."
+  },
+  "lay_summary": "The verses here share one consistent pattern in the Greek. In Acts 2:42 a single ongoing verb, were continuing steadfastly, holds together four practices joined by repeated and: the apostles teaching, the fellowship, the breaking of the bread, and the prayers. The grammar treats these as a regular set of activities, not a one-time event. Romans 10:17 says faith comes out of hearing, and the hearing through the word of Christ. The small words for out of and through name a source and a channel, so the spoken and read word is the appointed pipe through which faith arises and grows. In 1 Corinthians 11 Paul uses the standard verbs for handing on and receiving a tradition, marking the supper as a fixed ordinance from the Lord. The command keep doing this is a present tense that carries repeated force, and the words as often as you drink, with until he comes, set the meal on a continuing timeline that proclaims the Lord death. Hebrews 10 tells believers to consider one another so as to stir up love and not to abandon the gathering, treating the assembly and mutual encouragement as a normal habit. First Timothy 4:13 commands devotion to the reading, the exhortation, and the teaching. Acts 2:38 commands baptism, a word used 76 times across the canon. So the bare claim, that God uses these appointed and repeated practices, is decisive and runs across the whole canon. Where careful readers still divide is not whether these means exist but HOW they work. The key word is koinonia in 1 Corinthians 10:16, where the cup and the bread are each called a participation of the blood and body of Christ. That word means sharing or communion, but the grammar leaves open whether the rite itself conveys that sharing or whether it is received by faith in the rite. The remembrance word and the for forgiveness phrase at baptism are open in the same way. The vocabulary settles that the means are appointed, but it does not rank the two ways of explaining their effect, and that single open point is the honest source of divergence.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.2.42"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.25"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2842"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0189"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0364"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3740"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.2.42"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which is non-commercial and not bulk redistributable. Its interlinear token and gloss layer was used to confirm the koinonia construction in 1 Corinthians 10:16 and the klasis and proskartereo tokens in Acts 2:42, so the aggregate evidence is not safe to publish without removing or relicensing that source."
+  },
+  "flags": []
+}

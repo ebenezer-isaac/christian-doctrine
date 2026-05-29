@@ -1,0 +1,786 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-word-of-faith",
+  "question_id": "prc-word-of-faith",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The anchor cluster lexically locates outcome-producing speech in the divine first person. Isaiah 55:11 reads devari, my word, going out mippi, from my mouth, and not returning reqam, empty, but accomplishing what YHWH chaphets, delights or wills. The same passage raises shamayim above the earth (gavhu, H1361) to mark divine derek and machashavah as categorically above the human (Isa 55:8-9). Psalm 115:3 grounds outcome in elohim doing kol asher chaphets, all that he pleases, never in a human declaration. The asking-promise texts that the positive-confession reading cites (Mark 11:23-24, Matt 7:7-8, John 14:13-14, John 15:7, Jas 1:5-6) are addressed to God in the second person and resolved by the kata-to-thelema condition in 1 John 5:14, ean ti aitometha kata to thelema autou. James 4:13-15 rebukes confident self-decree with ean ho kyrios thelese, if the Lord wills. Across canon the lexical pattern places efficacious creative force in the Creator's word and will, not in the creature's spoken decree, supporting the proposition."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H1697",
+        "lemma": "דָּבָר",
+        "transliteration": "dabar",
+        "occurrences_in_canon": 1442,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2654",
+        "lemma": "חָפַץ",
+        "transliteration": "chaphets",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 2629,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4284",
+        "lemma": "מַחֲשָׁבָה",
+        "transliteration": "machashabah",
+        "occurrences_in_canon": 52,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1361",
+        "lemma": "גָּבַהּ",
+        "transliteration": "gabah",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6310",
+        "lemma": "פֶּה",
+        "transliteration": "peh",
+        "occurrences_in_canon": 498,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7387",
+        "lemma": "רֵיקָם",
+        "transliteration": "reqam",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1254",
+        "lemma": "בָּרָא",
+        "transliteration": "bara",
+        "occurrences_in_canon": 54,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2309",
+        "lemma": "θέλω",
+        "transliteration": "thelo",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelema",
+        "occurrences_in_canon": 63,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1437",
+        "lemma": "ἐάν",
+        "transliteration": "ean",
+        "occurrences_in_canon": 374,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2596",
+        "lemma": "κατά",
+        "transliteration": "kata",
+        "occurrences_in_canon": 477,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0154",
+        "lemma": "αἰτέω",
+        "transliteration": "aiteo",
+        "occurrences_in_canon": 70,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 264,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 243,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4487",
+        "lemma": "ῥῆμα",
+        "transliteration": "rhema",
+        "occurrences_in_canon": 71,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4647",
+        "lemma": "σκόλοψ",
+        "transliteration": "skolops",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2150",
+        "lemma": "εὐσέβεια",
+        "transliteration": "eusebeia",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4200",
+        "lemma": "πορισμός",
+        "transliteration": "porismos",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H1697",
+      "H2654",
+      "H6213",
+      "H4284",
+      "H1361",
+      "H6310",
+      "H7387",
+      "H8064",
+      "H1254",
+      "G2309",
+      "G2307",
+      "G1437",
+      "G2596",
+      "G0154",
+      "G2983",
+      "G4100",
+      "G4487",
+      "G4647",
+      "G2150",
+      "G4200",
+      "G0444"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.55.8",
+        "key_terms": [
+          {
+            "strong": "H4284",
+            "lemma": "מַחֲשָׁבָה"
+          },
+          {
+            "strong": "H1870",
+            "lemma": "דֶּרֶךְ"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          }
+        ],
+        "force": "First-person divine speech, neum YHWH, declares lo machshevotai machshevotekem, my thoughts are not your thoughts. The negation lo (H3808) governs the equation of human and divine thought and way, which establishes the qualitative gap the proposition asserts.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": "Isa.55.8"
+      },
+      {
+        "ref": "Isa.55.9",
+        "key_terms": [
+          {
+            "strong": "H1361",
+            "lemma": "גָּבַהּ"
+          },
+          {
+            "strong": "H8064",
+            "lemma": "שָׁמַיִם"
+          }
+        ],
+        "force": "The verb gavhu, are higher, with shamayim, heavens, above the earth measures the distance between divine and human derek and machashavah. The vertical comparison is the lexical engine of categorical distinction. The creature's way and thought are not elevated to the Creator's by any utterance.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.55.11",
+        "key_terms": [
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          },
+          {
+            "strong": "H6310",
+            "lemma": "פֶּה"
+          },
+          {
+            "strong": "H7387",
+            "lemma": "רֵיקָם"
+          },
+          {
+            "strong": "H2654",
+            "lemma": "חָפַץ"
+          }
+        ],
+        "force": "The effective word is devari, my word, marked by first-person suffix and qualified mippi, from my mouth (YHWH). It does not return reqam, empty (rare, 16 OT occurrences), but accomplishes asher chaphatsti, what I willed, and prospers what He sent it to do. The accomplishing power is bound to divine speech and divine will, never to a human speaker. The text gives no warrant for transferring this self-fulfilling force to the creature's word.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.115.3",
+        "key_terms": [
+          {
+            "strong": "H6213",
+            "lemma": "עָשָׂה"
+          },
+          {
+            "strong": "H2654",
+            "lemma": "חָפַץ"
+          }
+        ],
+        "force": "Eloheinu vashamayim kol asher chaphets asah, our God in the heavens, all that he pleased he did. Outcome (asah, H6213) is tied to divine chaphets, pleasure or will, located bashamayim, in the heavens. The locus of efficacious will is God, not a human declaration on earth.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.4.13",
+        "key_terms": [
+          {
+            "strong": "G1710",
+            "lemma": "ἐμπορεύομαι"
+          },
+          {
+            "strong": "G2770",
+            "lemma": "κερδαίνω"
+          }
+        ],
+        "force": "The merchants confidently announce future action and profit, semeron e aurion poreusometha, today or tomorrow we will go, and kerdesomen, we will make a profit, in future indicatives. James frames this self-declaring certainty about outcomes as the error to be corrected, not as a model of speech that secures results.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.4.15",
+        "key_terms": [
+          {
+            "strong": "G2309",
+            "lemma": "θέλω"
+          },
+          {
+            "strong": "G1437",
+            "lemma": "ἐάν"
+          },
+          {
+            "strong": "G2198",
+            "lemma": "ζάω"
+          }
+        ],
+        "force": "The corrected speech form is ean ho kyrios thelese, if the Lord wills, with conditional ean (G1437) plus aorist subjunctive of thelo (G2309). Human plans and life itself are subordinated to the Lord's will. Outcome is suspended on divine thelo, not produced by the speaker's assertion, which directly counters any creative force in human decree.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.14",
+        "key_terms": [
+          {
+            "strong": "G0154",
+            "lemma": "αἰτέω"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατά"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          }
+        ],
+        "force": "ean ti aitometha kata to thelema autou akouei hemon, if we ask anything according to his will, he hears us. The asking-promise carries an explicit conditional, ean plus subjunctive aitometha, with the qualifier kata to thelema autou, according to his will. The construction makes divine will the controlling clause, not the speaker's wish. This single verse integrates the asking-promise texts (Matt 7:7-8, John 14:13-14, John 15:7, Mark 11:24, Jas 1:5-6) by giving their lexical scope.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.6.5",
+        "key_terms": [
+          {
+            "strong": "G2150",
+            "lemma": "εὐσέβεια"
+          },
+          {
+            "strong": "G4200",
+            "lemma": "πορισμός"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          }
+        ],
+        "force": "Paul names a corrupted class, diephtharmenon ton noun kai apesteremenon tes aletheias, having a corrupted mind and bereft of the truth, nomizonton porismon einai ten eusebeian, supposing godliness to be a means of gain. porismos (G4200) is a near-hapax (only 1 Tim 6:5-6), and Paul uses it precisely to label and reject the gain-from-piety equation. The lexical force directly targets any teaching that recasts faith as a technique for procuring material outcomes.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.11.3",
+        "key_terms": [
+          {
+            "strong": "G4487",
+            "lemma": "ῥῆμα"
+          },
+          {
+            "strong": "G2675",
+            "lemma": "καταρτίζω"
+          }
+        ],
+        "force": "katertisthai tous aionas rhemati theou, the worlds were framed by the word of God. The creative rhema is anchored to theou (genitive), God's, and to the act of katartizo, framing or fitting. The text grammatically restricts world-framing speech to God, never extending it to believers. faith (pistei) here is the means of cognition, not the engine of creation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.11.23",
+        "key_terms": [
+          {
+            "strong": "G3735",
+            "lemma": "ὄρος"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G1252",
+            "lemma": "διακρίνω"
+          }
+        ],
+        "force": "hos an eipe to orei touto, whoever may say to this mountain, with the proviso me diakrithe en te kardia autou alla pisteue, does not waver in his heart but believes. The next verse pairs this with proseuchesthe, when you pray, framing the saying as believing prayer addressed to God. The mountain-saying is a prayer act, with God as the agent who moves the mountain, not an autonomous creative utterance.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.12.7",
+        "key_terms": [
+          {
+            "strong": "G4647",
+            "lemma": "σκόλοψ"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "skolops te sarki, a thorn in the flesh, edothe moi (passive of didomi, was given to me). skolops is a NT hapax. Paul asks (parekalesa) three times for its removal and is denied with arkei soi he charis mou, my grace is sufficient for you. The asking-receiving formula does not produce the asked outcome here, which lexically forecloses any reading of the asking-promises as unconditional guarantees of speaker-stated results.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ps.115.3",
+        "to": "Ps.135.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.115.3",
+        "to": "Ps.2.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.4.13",
+        "to": "Prov.27.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Isa.44.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.4.15",
+        "to": "2Sam.15.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.9",
+        "to": "Ps.36.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.14",
+        "to": "John.14.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.14",
+        "to": "John.15.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.14",
+        "to": "Matt.7.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Mark.11.23",
+        "to": "Matt.21.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.11.24",
+        "to": "Jas.1.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.12.7",
+        "to": "2Cor.12.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.6.5",
+        "to": "1Tim.6.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.11",
+        "to": "Heb.11.3",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.11.24",
+        "addressed": true,
+        "resolution": "panta hosa proseuchesthe kai aiteisthe, pisteuete hoti elabete, kai estai hymin, all things whatever you pray and ask, believe that you have received, and it will be to you. The verbs proseuchesthe (you pray) and aiteisthe (you ask) make the saying an act of petition directed to God, with God as agent. The phrase is integrated by 1 John 5:14 ean ti aitometha kata to thelema autou (asking kata, according to his will), and is qualified by the suffering data where the same asking pattern fails to produce the asked outcome (2 Cor 12:7-9). The lexical structure is conditional petition, not autonomous decree."
+      },
+      {
+        "ref": "Matt.7.7",
+        "addressed": true,
+        "resolution": "aiteite kai dothesetai hymin, ask and it will be given to you, with passive dothesetai (G1325 didomi) marking God as the unstated agent. The asking-promise has a divine grantor, not a self-fulfilling word. The same writer (Matt 26:39) records Jesus' Gethsemane prayer plen ouch hos ego thelo all hos sy, nevertheless not as I will but as you will. The asking-promises operate within the will of the Father, not above it."
+      },
+      {
+        "ref": "John.14.13",
+        "addressed": true,
+        "resolution": "ho ti an aitesete en to onomati mou touto poieso, whatever you ask in my name I will do it. The agent of poieso is the Son, hina doxasthe ho pater en to huio, so that the Father may be glorified in the Son. en to onomati mou, in my name, is not a verbal formula appended to a wish; it locates the asking within the Son's mission and the Father's glory. 1 John 5:14 supplies the explicit scope, kata to thelema autou."
+      },
+      {
+        "ref": "John.15.7",
+        "addressed": true,
+        "resolution": "ho ean thelete aitesasthe, kai genesetai hymin, whatever you wish ask, and it will be done for you, is conditioned by the prior clause ean meinete en emoi kai ta rhemata mou en hymin meine, if you remain in me and my words remain in you. The abiding (meino) and the indwelling rhemata (Christ's words, not the speaker's) precondition the asking. The promise is not detachable from the abiding-in-Christ constraint."
+      },
+      {
+        "ref": "Jas.1.6",
+        "addressed": true,
+        "resolution": "aiteito de en pistei meden diakrinomenos, let him ask in faith, doubting nothing. The wider context is asking God for sophia, wisdom (Jas 1:5), within God's gift. The same letter (Jas 4:3) immediately corrects misdirected asking, aiteite kai ou lambanete, dioti kakos aiteisthe, you ask and do not receive because you ask wrongly. Faith is the posture of asking, not a force that compels the answer."
+      },
+      {
+        "ref": "Prov.18.21",
+        "addressed": true,
+        "resolution": "mavet vechayim beyad lashon, death and life are in the power of the tongue, is a wisdom proverb about the moral and relational consequences of speech (blessing, slander, counsel), as the parallel clause about eating its fruit shows. The genre is proverbial generalization about human conduct, not a metaphysical claim that the tongue possesses intrinsic creative force over external reality. It does not transfer the Creator's efficacious word to the creature."
+      },
+      {
+        "ref": "John.10.34",
+        "addressed": true,
+        "resolution": "ego eipa theoi este, I said you are gods, quoting Ps 82:6. In the psalm the elohim addressed are Israel's judges or rulers under indictment, and the next clause (Ps 82:7) declares aken keadam temutun, nevertheless you will die like men, stripping any ontological deity from them. The lemma elohim here functions as a title of delegated office under judgment, not a claim that humans share divine being or wield divine creative speech."
+      },
+      {
+        "ref": "Heb.11.3",
+        "addressed": true,
+        "resolution": "katertisthai tous aionas rhemati theou, the worlds were framed by the word of God. The creative rhema is grammatically restricted by the genitive theou, of God, and the chapter offers Hebrews 11's heroes as those who acted by pistei, by faith, never as speakers whose word framed worlds. Faith perceives the divine creative word; it does not replicate it."
+      },
+      {
+        "ref": "Gen.1.3",
+        "addressed": true,
+        "resolution": "vayomer elohim yehi or vayehi or, and God said let there be light and there was light. The subject of vayomer is elohim, God. The creative speech is the Creator's, formally marked by the bara' (H1254) verb (54 OT occurrences) whose grammatical subject is God in every theologically loaded use (Gen 1:1, 1:21, 1:27). bara' has no recorded human agent. The creation pattern lexically restricts world-calling speech to God."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Jas 4:13-15 carries marked variation in the apparatus (emporeusometha versus poreusometha, poiesomen, kerdesomen, zesomen, kai poiesomen), but every reading keeps the same conditional ean ho kyrios thelese structure. Mark 11:23-24 has minor variation in echei versus echete (have versus you have) and order of clauses, none disturbing the proseuchesthe-aiteisthe-pisteuete petition frame. 1 John 5:14 ean ti aitometha is textually stable in the manuscripts. Isaiah and Psalm anchors are OT and outside ECM scope. The verdict holds across all plausible variant readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "creator_creature_distinction",
+      "word_of_faith_positive_confession",
+      "kingdom_now_dominion"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "creator_creature_distinction",
+        "verdict": "affirms the proposition",
+        "rationale": "Isa 55:8-11 lexically separates the divine word from the mouth (mippi) of YHWH from human thought and way. Gen 1's bara' (H1254) has only God as grammatical subject. Heb 11:3 attributes world-framing to rhemati theou, the word of God. Outcome-effecting speech is grammatically restricted to the divine first person across the canon. Asking-promises (Matt 7:7-8, John 14:13-14, John 15:7, Mark 11:24, Jas 1:5-6) are petitions to God, scoped by 1 John 5:14's kata to thelema autou, and qualified by the suffering data (2 Cor 12:7-9 hapax skolops, Paul's denied request; 1 Tim 5:23 Timothy's stomach; Phil 2:27 Epaphroditus ill; 2 Tim 4:20 Trophimus left sick) where the asking pattern does not produce the asked outcome."
+      },
+      {
+        "framework": "word_of_faith_positive_confession",
+        "verdict": "denies the proposition",
+        "rationale": "This lens reads the asking-promise cluster as a class of unconditional guarantees keyed by spoken faith. Strongest texts: Mark 11:23 hos an eipe (whoever may say) with pisteue (believe) yielding estai auto (it will be to him); Matt 7:7-8 aiteite kai dothesetai with the universal pas ho aiton lambanei, everyone asking receives; John 14:13-14 ho ti an aitesete poieso, whatever you ask I will do; John 15:7 ho ean thelete aitesasthe kai genesetai; Prov 18:21 mavet vechayim beyad lashon; the Gen 1 vayomer pattern read as a transferable principle. The strongest form of the lens treats spoken faith as the activating mechanism the Father has bound himself to. Its lexical weakness is that 1 John 5:14 explicitly attaches kata to thelema autou to the asking-promise, and the canon supplies the suffering data where the same pattern fails."
+      },
+      {
+        "framework": "kingdom_now_dominion",
+        "verdict": "partially affirms the lens, denies the proposition's converse",
+        "rationale": "Reads Gen 1:26 radah, have dominion, plus Ps 8 and Rom 5:17 reign in life, as restoring a creative speech function to believers. Lexically radah (H7287) governs over fish, fowl, beasts, never over reality-by-decree, and basileuo in Rom 5:17 is en zoe, in life, not en logo, in word. The lens has biblical content about delegated rule but does not lexically reach the claim that human utterance carries creative force."
+      }
+    ],
+    "notes": "The verdict rests on grammatical analysis of who speaks the efficacious word (divine first-person suffixes and mippi in Isaiah; bara' with God as subject in Gen 1; rhemati theou in Heb 11:3) and on the conditional structure of the asking-promises (ean ho kyrios thelese in Jas 4:15; kata to thelema autou in 1 John 5:14; abiding-in-Christ in John 15:7; en to onomati mou bounded by hina doxasthe ho pater in John 14:13). The suffering data (2 Cor 12 hapax skolops, Timothy, Epaphroditus, Trophimus) operates as the canonical control on any reading of the asking-promises as unconditional speaker-controlled guarantees."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does human speech possess intrinsic creative force such that decreeing or declaring causes God to bring about the speaker's stated outcome, and is the Creator's word the same kind of thing as the creature's word or categorically distinct?",
+    "notes": "The stem is framed as a denial (human speech does not possess intrinsic creative force; the words are categorically distinct), which preloads a verdict against positive-confession theology. The neutralized form poses it as an open question about the locus of efficacious speech and the relation of divine and human word. The verdict is still derived on the original stem from the lexical data, which independently locates outcome-binding force in the divine word (Isa 55:11 devari mippi, Gen 1 bara' with God as subject, Heb 11:3 rhemati theou) and scopes the asking-promises by an explicit divine-will conditional (1 John 5:14 kata to thelema autou, Jas 4:15 ean ho kyrios thelese)."
+  },
+  "lay_summary": "The question asks whether a human can speak words that carry their own creative power, so that decreeing and declaring forces God to produce the stated result, and whether a person's word is the same kind of thing as God's word. The Bible's own wording answers this carefully. In Isaiah 55, the word that goes out and never returns empty, and that accomplishes its purpose, is repeatedly marked as God's word: my word that goes out of my mouth, says the Lord. The same chapter says God's thoughts and ways are as high above ours as the heavens are above the earth. Genesis 1 uses the Hebrew verb bara, to create, only with God as subject, never with a human. Hebrews 11:3 says the worlds were framed by the word of God, with the word grammatically attached to God. Psalm 115 says God in heaven does whatever he pleases, placing outcome-power in God's will. In James 4, people who confidently say we will go and do business and make a profit are corrected. The right way to speak is, if the Lord wills, we will live and do this. The other side raises a real cluster of asking-promises: Mark 11:23-24 about telling a mountain to move while believing, Matthew 7:7-8 ask and it will be given, John 14:13-14 whatever you ask in my name I will do, John 15:7 ask whatever you wish. These are strong promises. But the same letter cluster supplies the limit. 1 John 5:14 says, if we ask anything according to his will, he hears us, using the Greek phrase kata to thelema autou, according to his will. John 15:7 ties asking to remaining in Christ and to Christ's words remaining in the speaker. The canon then supplies the suffering data: Paul's thorn in 2 Corinthians 12 (the word for thorn appears only once in the whole New Testament) was asked away three times and denied. Timothy's stomach trouble, Epaphroditus' illness, Trophimus left sick, all stand inside the period when the asking-promises were in force. So the words do say ask and receive, but they grammatically place God as the giver and divine will as the scope. The human word can bless, pray, plan, and trust, but it does not carry the Creator's power to call things into being or to compel God. The lexical pattern across both Testaments supports the proposition.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1697"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2654"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1254"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.115.3"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2307"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0154"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4647"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4200"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.4.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.12.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.11.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ps.115.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Mark.11.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.6.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1John.5.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.55.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "John.10.34"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Hebrew is CC-BY-NC-4.0 (non-commercial, redistribute=false) and BibleHub-interlinear is fair-use-policy (redistribute=false). Because at least one source is non-redistributable, the aggregate evidence is not safe to publish in bulk."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

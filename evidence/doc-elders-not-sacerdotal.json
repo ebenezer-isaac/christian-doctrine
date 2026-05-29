@@ -1,0 +1,595 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-elders-not-sacerdotal",
+  "question_id": "doc-elders-not-sacerdotal",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two word fields run through the New Testament and never touch. Congregational leaders are named only with presbyteros (elder), episkopos (overseer), poimen (shepherd), poimaino (the shepherd verb) over poimnion (the flock), and diakonos (servant). The sacrificing-priest noun hiereus occurs 31 times and its referents split cleanly into three groups: the Aaronic priests of the gospels and Acts, the once-for-all priesthood of Christ argued in Hebrews 7 to 10, and the whole believing people in Revelation 1.6, 5.10, and 20.6. A direct co-occurrence query over the canon returns zero verses in which hiereus or archiereus shares a verse with any leadership word, so the priest vocabulary is structurally segregated from the office vocabulary. The one priesthood noun applied to people, hierateuma, falls in 1Pet.2.5 and 1Pet.2.9 and is predicated of the entire congregation, not of leaders. Peter, an elder, commands elders to poimanate (shepherd) the flock and forbids domineering, and Jesus makes the greatest a diakonos, which fixes a servant-shepherd sense rather than a sacerdotal one."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4245",
+        "lemma": "πρεσβύτερος",
+        "transliteration": "presbyteros",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1985",
+        "lemma": "ἐπίσκοπος",
+        "transliteration": "episkopos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4166",
+        "lemma": "ποιμήν",
+        "transliteration": "poimen",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4165",
+        "lemma": "ποιμαίνω",
+        "transliteration": "poimaino",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4168",
+        "lemma": "ποίμνιον",
+        "transliteration": "poimnion",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2233",
+        "lemma": "ἡγέομαι",
+        "transliteration": "hegeomai",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4291",
+        "lemma": "προΐστημι",
+        "transliteration": "proistemi",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2406",
+        "lemma": "ἱεράτευμα",
+        "transliteration": "hierateuma",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2409",
+        "lemma": "ἱερεύς",
+        "transliteration": "hiereus",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0749",
+        "lemma": "ἀρχιερεύς",
+        "transliteration": "archiereus",
+        "occurrences_in_canon": 122,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2099",
+        "lemma": "εὐαγγελιστής",
+        "transliteration": "euangelistes",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1320",
+        "lemma": "διδάσκαλος",
+        "transliteration": "didaskalos",
+        "occurrences_in_canon": 59,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4245",
+      "G1985",
+      "G4166",
+      "G4165",
+      "G4168",
+      "G1249",
+      "G2233",
+      "G4291",
+      "G2406",
+      "G2409",
+      "G0749",
+      "G2407",
+      "G2405",
+      "G2420",
+      "G2418",
+      "G3011",
+      "G2379",
+      "G0652",
+      "G2099",
+      "G1320"
+    ],
+    "scripture": [
+      {
+        "ref": "1Pet.2.9",
+        "key_terms": [
+          {
+            "strong": "G2406",
+            "lemma": "ἱεράτευμα"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          }
+        ],
+        "force": "The priesthood noun hierateuma stands beside laos (people), ethnos (nation), eklekton (chosen), and basileion (royal), all corporate terms for the entire addressed congregation, drawn from the Exodus 19 and Isaiah covenant language. The text assigns priestly identity to the whole body, not to a separate sacrificing caste, which removes the lexical ground for a clergy-only sacerdotal class. The OpenBible cross-reference graph links this verse most heavily to Exod.19.5, Deut.7.6, Rev.1.6, and Rev.5.10, the corporate and all-believer priesthood chain.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.5",
+        "key_terms": [
+          {
+            "strong": "G2406",
+            "lemma": "ἱεράτευμα"
+          }
+        ],
+        "force": "Hierateuma occurs a second time here, a holy priesthood that offers up spiritual sacrifices, again predicated of the believers being built as living stones into a spiritual house. The offering is spiritual and corporate, performed by the whole people, so even where priestly and sacrificial language appears it is assigned to all believers rather than to an office-holding leader.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.1",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          }
+        ],
+        "force": "Peter addresses presbyterous (elders) and calls himself sympresbyteros (a fellow-elder), placing himself alongside, not above, the leaders he instructs. The chosen title is elder, the seniority and deliberative term, not hiereus, the sacrificing-priest term, and the priest word never appears anywhere in the passage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4165",
+            "lemma": "ποιμάνατε"
+          },
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          }
+        ],
+        "force": "The elder's mandated action is poimanate, the aorist imperative of poimaino, shepherd the flock (poimnion) of God among you. The verb is pastoral husbandry, feeding and guarding, with no sacrificial-cultic content, and the flock belongs to God and not to the shepherd. The same verb is used of God-appointed overseers in Acts.20.28, confirming a stable pastoral sense.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.3",
+        "key_terms": [
+          {
+            "strong": "G2634",
+            "lemma": "κατακυριεύοντες"
+          }
+        ],
+        "force": "The elders are forbidden to lord it over (katakurieuontes) those allotted to them and are commanded instead to become typoi, patterns, for the flock. The cross-reference graph ties this directly to Matt.20.25, Mark.10.42, Matt.23.8, and Luke.22.24, the servant-not-lord cluster, which bars a domineering or hierarchical posture and reinforces servant-shepherd rather than a sacerdotal office set over the laity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.11",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          },
+          {
+            "strong": "G3173",
+            "lemma": "μέγας"
+          }
+        ],
+        "force": "Jesus inverts rank, the greater (megas, comparative) among you will be your diakonos (servant or table-attendant). The directive sits inside the prohibition against being called rabbi (G4461), father (G3962), and kathegetes (G2519, instructor) in Matt.23.8-10, dismantling a titled hierarchy and defining leadership as service rather than as a priestly station.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.11",
+        "key_terms": [
+          {
+            "strong": "G4166",
+            "lemma": "ποιμένας"
+          },
+          {
+            "strong": "G1320",
+            "lemma": "διδασκάλους"
+          }
+        ],
+        "force": "The risen Christ gives apostolous (G0652), prophetas (G4396), euangelistas (G2099), and poimenas (shepherds) and didaskalous (teachers). Every gifted office in the list is named with sending, speaking, shepherding, or teaching vocabulary, and hiereus is absent from the list, so the equipping offices are pastoral and instructional rather than sacrificial.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.12",
+        "key_terms": [
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G1248",
+            "lemma": "διακονίας"
+          }
+        ],
+        "force": "The purpose clause states the gifted leaders exist to equip the saints for the work of ministry (diakonias), distributing the serving work across the whole body rather than reserving it to a priestly few. The leaders enable the laity, which is the opposite of a sacerdotal monopoly.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.28",
+        "key_terms": [
+          {
+            "strong": "G5087",
+            "lemma": "ἔθετο"
+          },
+          {
+            "strong": "G1320",
+            "lemma": "διδασκάλους"
+          }
+        ],
+        "force": "God set in the church apostles, prophets, teachers, then powers, gifts of healings, helps, governings, and tongues. The ordered list of functions in the body is gift-based and serving, and contains no sacrificing-priest office, so the catalogue of appointed roles supplies no cultic-priest slot.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.13.17",
+        "key_terms": [
+          {
+            "strong": "G2233",
+            "lemma": "ἡγουμένοις"
+          }
+        ],
+        "force": "Where the New Testament most plainly speaks of congregational leaders to be obeyed, it calls them hegoumenoi (G2233, those who lead or guide), the same participle used in Heb.13.7 and Heb.13.24. The word is governance and guidance vocabulary, not priestly, and hiereus does not appear in the passage, so even the strongest leader-authority text avoids sacerdotal language.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.26",
+        "key_terms": [
+          {
+            "strong": "G0749",
+            "lemma": "ἀρχιερεύς"
+          }
+        ],
+        "force": "The high-priest noun archiereus is fastened to Christ, such a high priest, holy, harmless, undefiled, separated from sinners. Across Hebrews 7 to 10 the once-for-all sacrificing priesthood is located exclusively in Christ (archiereus also at Heb.2.17, 3.1, 4.14, 5.5), which is why no residual sacrificing-priest office is left for congregational leaders to occupy.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.10",
+        "key_terms": [
+          {
+            "strong": "G2409",
+            "lemma": "ἱερεῖς"
+          }
+        ],
+        "force": "Here hiereis (priests) is applied to the redeemed, you made them a kingdom and priests to our God, paralleling Rev.1.6 and Rev.20.6. This is one of only three places hiereus describes Christians, and in every case it is the whole redeemed people, never an ordained subset, so the priest noun confirms an all-believer priesthood rather than a clergy class.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.2.9",
+        "to": "Exod.19.5",
+        "source": "openbible",
+        "votes": 202
+      },
+      {
+        "from": "1Pet.2.9",
+        "to": "Deut.7.6",
+        "source": "openbible",
+        "votes": 190
+      },
+      {
+        "from": "1Pet.2.9",
+        "to": "Rev.1.6",
+        "source": "openbible",
+        "votes": 127
+      },
+      {
+        "from": "1Pet.2.9",
+        "to": "Rev.5.10",
+        "source": "openbible",
+        "votes": 110
+      },
+      {
+        "from": "1Pet.2.9",
+        "to": "Isa.61.6",
+        "source": "openbible",
+        "votes": 99
+      },
+      {
+        "from": "1Pet.2.5",
+        "to": "Rev.5.10",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "Titus.1.7",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "1Tim.3.8",
+        "source": "openbible",
+        "votes": 10
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "Acts.20.26",
+        "source": "openbible",
+        "votes": 8
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "Ezek.34.2",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "1Pet.5.3",
+        "to": "Matt.20.25",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "1Pet.5.3",
+        "to": "Matt.23.8",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "1Pet.5.3",
+        "to": "Acts.20.28",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "Rev.1.6",
+        "to": "Exod.19.6",
+        "source": "openbible",
+        "votes": 24
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Pet.2.9",
+        "addressed": true,
+        "resolution": "Hierateuma (priesthood) sits inside an anchor verse and could look like priestly-office language, but it is predicated of the whole addressed people (laos, ethnos, eklekton), not of leaders, so it undercuts a clergy-only priesthood rather than supporting one. The royal priesthood is corporate, and the same is true of its companion text 1Pet.2.5."
+      },
+      {
+        "ref": "Heb.13.10",
+        "addressed": true,
+        "resolution": "Some read the altar (thusiasterion, G2379) of Heb.13.10 as warrant for a New Testament sacrificing priesthood at the table. The verse was lexically traversed here: it contains thusiasterion, latreuo (G3000, serve), and skene (G4633, tabernacle), but no hiereus (G2409) and no leadership word, and it contrasts the new altar with the old tabernacle service rather than installing leaders as sacrificers. The sacrificing priesthood across Hebrews 7 to 10 is reserved to Christ, so the altar image does not establish a clergy priesthood."
+      },
+      {
+        "ref": "Rom.15.16",
+        "addressed": true,
+        "resolution": "Paul uses cultic vocabulary for his gospel ministry, traversed here as hierourgeo (G2418, to minister as a priest), leitourgos (G3011, minister), and prosphora (G4376, offering). The terms are a figure for offering the converted Gentiles to God, Paul never takes the title hiereus, and the subject is an apostle's evangelism rather than a local elder presiding, so the metaphor does not create a sacrificing office."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament outside 3 John, so CBGM data is not in scope (not_in_ecm_scope true in the bundle). The marginal sigla in the apparatus for Matt.23 and 1Cor.12 touch word order and minor readings, none of which adds hiereus to the office vocabulary or removes the corporate referent of hierateuma."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "sacerdotalism",
+      "covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "The office words are presbyteros, episkopos, poimen, poimaino, poimnion, diakonos, and hegoumenoi, and a canon-wide co-occurrence query finds no verse where hiereus or archiereus stands with any of them, so plain lexical usage keeps leaders and sacrificing priests in separate vocabularies."
+      },
+      {
+        "framework": "sacerdotalism",
+        "verdict": "complicates",
+        "rationale": "A sacerdotal lens reads its strongest case from the altar (thusiasterion) of Heb.13.10, the priestly metaphor Paul applies to ministry in Rom.15.16, and the spiritual sacrifices of the priesthood in 1Pet.2.5, taking these as warrant for leaders who offer at the table. On the words, the altar verse carries no priest noun, Paul never titles himself hiereus, and the 1Pet.2.5 priesthood is the whole people, so the lens depends on extending metaphor rather than on a leader ever being called a priest."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "The covenantal arc transfers the Exodus 19 priestly-nation identity to the whole believing people in 1Pet.2.9 and Rev.1.6, and Hebrews 7 to 10 locates the once-for-all sacrificing priesthood in Christ as archiereus, leaving congregational leaders the residual roles of shepherding, oversight, and equipping."
+      }
+    ],
+    "notes": "Analogia scripturae is load-bearing: the corporate priesthood of 1Pet.2.5 and 2.9 read alongside the elder, shepherd, and overseer instructions of 1Pet.5.1-4, Acts.20.28, and Eph.4.11-12, and the high-priest Christology of Hebrews, yields a consistent servant-shepherd office with the sacrificing-priest role reserved to Christ and the priestly identity shared by all believers."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the New Testament vocabulary for congregational leaders (elder, overseer, shepherd, servant, those who lead) carries pastoral, governing, and serving force or sacrificial-priestly force, and whether the priest word group (hiereus, archiereus, hierateuma) is ever applied to those leaders.",
+    "notes": "The original stem asserts the conclusion (servant-shepherds, not a sacerdotal priesthood offering sacrifice), which is verdict-preloaded; the neutralized form states the question without presupposing the outcome, and the verdict was derived on the original stem from queried lexical usage. This proposition is flagged Brethren-distinctive in the question metadata, so neutrality is paramount: the verdict rests on the canon-wide segregation of the priest and leader word fields, on the corporate referent of hierateuma, and on the Christ-only referent of archiereus in Hebrews, not on any tradition's framing. The sacerdotal reading is stated in its strongest lexical form in the competing lenses."
+  },
+  "lay_summary": "The question asks whether the New Testament pictures church leaders as servant-shepherds or as sacrificing priests, and the decisive evidence is simply which Greek words the writers use. For leaders they consistently use presbyteros (elder), episkopos (overseer), poimen (shepherd) with the verb poimaino over the flock, diakonos (servant), and in Hebrews 13 hegoumenoi, those who lead or guide. They never use hiereus, the word for a sacrificing priest, of any congregational office-holder. A search across the whole canon finds no single verse where the priest words sit together with any leader word, so the two vocabularies stay completely apart. The priest noun hiereus does appear thirty-one times, but its uses fall into three groups: the old Jewish priests in the gospels and Acts, Christ as the one great priest argued through Hebrews 7 to 10, and the entire redeemed people in Revelation 1, 5, and 20. The one priesthood word applied to people in the letters, hierateuma, comes in 1 Peter 2:5 and 2:9, where it describes the whole congregation as a holy and royal priesthood, language carried over from Exodus 19 and confirmed by the cross-reference links that point to Exodus and to the all-believer priesthood of Revelation. So when Scripture does call people priests, it means all believers together, not a separate clergy class. When Peter writes to leaders he calls himself a fellow-elder and tells the elders to shepherd the flock while forbidding them to lord it over the people, and Jesus makes the greatest leader the servant of all. The texts a sacrificial reading leans on are real but indirect: the altar of Hebrews 13:10, which carries no priest word, and Paul calling his gospel work a priestly offering in Romans 15:16, where he never takes the title priest. Weighing the consistent leader vocabulary against the corporate use of the priest word, the lexical pattern supports the proposition that New Testament elders and overseers are servant-shepherds rather than a sacerdotal priesthood offering sacrifice.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2406"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2409"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0749"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2233"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.5.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.11"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.13.10"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.7.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.2.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.5.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rev.1.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

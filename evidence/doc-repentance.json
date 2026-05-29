@@ -1,0 +1,504 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-repentance",
+  "question_id": "doc-repentance",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct query of the lexical store grounds the verdict on both Testaments. In Greek, metanoeo (G3340, 34 occurrences) and metanoia (G3341, 24 occurrences) recur across Gospels, Acts, Paul, Hebrews, Peter and Revelation, and they sit inside the call to be saved rather than beside it. Mark 1.15 holds metanoeite together with pisteuete by kai, Acts 2.38 ties metanoesate to forgiveness, Acts 17.30 universalizes the command, Luke 13.3 makes it the condition of not perishing, and 2 Cor 7.10 marks the godly-grief metanoia as eis soterian and ametameleton. In the Old Testament the dominant turning verb shuv (H7725) occurs 1056 times across 38 books, concentrated in the prophetic summons to return, and nacham (H5162) 108 times across 21 books. The LXX bridge in the store maps shuv to epistrepho (G1994) and nacham to metanoeo (G3340) and metamelomai (G3338), and Acts 3.19 and Acts 26.20 explicitly pair metanoeo with epistrepho, joining inward change of mind to outward turning. The pattern is dense, pan-canonical, and stable, so repentance integral to conversion and bound to faith is well supported."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3341",
+        "lemma": "μετάνοια",
+        "transliteration": "metanoia",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1994",
+        "lemma": "ἐπιστρέφω",
+        "transliteration": "epistrepho",
+        "occurrences_in_canon": 36,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3338",
+        "lemma": "μεταμέλομαι",
+        "transliteration": "metamelomai",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0278",
+        "lemma": "ἀμεταμέλητος",
+        "transliteration": "ametameletos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3077",
+        "lemma": "λύπη",
+        "transliteration": "lype",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0859",
+        "lemma": "ἄφεσις",
+        "transliteration": "aphesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shuv",
+        "occurrences_in_canon": 1056,
+        "in_anchors": false
+      },
+      {
+        "strong": "H5162",
+        "lemma": "נָחַם",
+        "transliteration": "nacham",
+        "occurrences_in_canon": 108,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3340",
+      "G3341",
+      "G1994",
+      "G3338",
+      "G0278",
+      "G3077",
+      "G0266",
+      "G0859",
+      "G2316",
+      "G5547",
+      "H7725",
+      "H5162"
+    ],
+    "scripture": [
+      {
+        "ref": "Mark.1.15",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοεῖτε"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Jesus opens his public proclamation with two present imperatives held together by kai, metanoeite kai pisteuete en to euangelio, repent and believe in the gospel. Direct query confirms both metanoeo (G3340) and pisteuo (G4100) stand in this verse. The two commands stand in the same breath, so repentance and faith are issued as a single summons rather than a sequence that could be split. The verb metanoeo names the change of mind demanded in response to the announced nearness of the reign of God.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.21",
+        "key_terms": [
+          {
+            "strong": "G3341",
+            "lemma": "μετάνοιαν"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεόν"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστόν"
+          }
+        ],
+        "force": "Paul summarizes his testimony to Jews and Greeks as metanoian eis theon kai pistin eis ton kyrion hemon Iesoun, repentance toward God and faith toward our Lord Jesus. Query confirms metanoia (G3341) present in the verse alongside the surface form pistin. The single participial frame diamartyromenos governs both nouns, so metanoia and pistis are the two coordinated objects of one act of solemn witness. The directional phrases, eis theon for repentance and eis Christon for faith, show the same conversion turning from sin toward God and resting on Christ as one movement.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.3.19",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοήσατε"
+          },
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέψατε"
+          }
+        ],
+        "force": "Peter commands metanoesate kai epistrepsate, repent and turn back, that your sins may be blotted out. Direct query confirms both metanoeo (G3340) and epistrepho (G1994) occur in this verse. The pairing of the change-of-mind verb with the turning-back verb shows in the words themselves that biblical repentance is not bare mind-change but issues in a behavioral turn, which addresses directly the question of whether metanoia includes turning from sin.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.26.20",
+        "key_terms": [
+          {
+            "strong": "G3341",
+            "lemma": "μετάνοιας"
+          },
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέφειν"
+          }
+        ],
+        "force": "Paul reports preaching that men should repent and turn to God, metanoein kai epistrephein epi ton theon, doing works worthy of repentance, axia tes metanoias erga. Query confirms metanoia (G3341) and epistrepho (G1994) both present. Here the same metanoeo plus epistrepho pairing recurs and is explicitly joined to corresponding deeds, so the lexical chain binds inward change, turning to God, and consequent conduct into one conversion.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.38",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "Μετανοήσατε"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτιῶν"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσιν"
+          }
+        ],
+        "force": "Peter answers the convicted crowd with the aorist imperative Metanoesate, repent, joined to baptism and tied to eis aphesin ton hamartion, for the forgiveness of sins, with the promise of the Spirit. Query confirms metanoeo (G3340) and aphesis (G0859) present in the verse. The aorist marks a decisive turn, and its placement at the head of the response to the question what shall we do shows repentance as the entry response of saving conversion. The link to forgiveness sets repentance within the salvation event, not outside it.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.17.30",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοεῖν"
+          },
+          {
+            "strong": "G0052",
+            "lemma": "ἀγνοίας"
+          }
+        ],
+        "force": "Paul declares that God now commands all people everywhere to repent, paraggellei tois anthropois pantas pantachou metanoein, the present infinitive metanoein as the universal demand replacing the prior times of ignorance. Query confirms metanoeo (G3340) present in the verse. The scope marker pantas pantachou makes repentance the required human response to God in the present age. This universalizes the call so that no class of hearer is exempt from the change of mind.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.7.10",
+        "key_terms": [
+          {
+            "strong": "G3341",
+            "lemma": "μετάνοιαν"
+          },
+          {
+            "strong": "G3077",
+            "lemma": "λύπη"
+          },
+          {
+            "strong": "G0278",
+            "lemma": "ἀμεταμέλητον"
+          }
+        ],
+        "force": "Paul contrasts he kata theon lype, godly grief, which works metanoian eis soterian ametameleton, repentance unto salvation that is not to be regretted, against the grief of the world that works death. Query confirms metanoia (G3341), lype (G3077), ametameletos (G0278) and soteria (G4991) all present in the verse. The phrase eis soterian explicitly ties the genuine metanoia to salvation, and ametameleton signals a repentance that does not reverse itself. The grief that produces it is qualified kata theon, oriented toward God, which matches the proposition that repentance is a turning toward God and not mere remorse over consequences.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.13.3",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοῆτε"
+          },
+          {
+            "strong": "G0622",
+            "lemma": "ἀπολεῖσθε"
+          }
+        ],
+        "force": "Jesus warns ean me metanoete pantes homoios apoleisthe, unless you repent you will all likewise perish, setting repentance as the dividing condition between perishing and not perishing. Query confirms metanoeo (G3340) present in the verse. The present subjunctive in the conditional clause and the future apoleisthe present repentance as the necessary turn that averts ruin. This places the change of mind at the heart of escaping judgment, integral to the saving response.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.33.11",
+        "key_terms": [
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּבוּ"
+          }
+        ],
+        "force": "God declares that he has no pleasure in the death of the wicked but rather that the wicked turn from his way and live, shuvu shuvu midarkekem haraim. Query confirms three tokens of shuv (H7725) in this verse. The repeated imperative to turn, set against death and toward life, is the Old Testament engine of the conversion-turning idea, and the LXX bridge in the store maps this verb to epistrepho, the same verb Acts 3.19 and Acts 26.20 join to metanoeo. The verse shows turning from sin and turning to God as the life-or-death summons.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Joel.2.12",
+        "key_terms": [
+          {
+            "strong": "H7725",
+            "lemma": "שֻׁבוּ"
+          }
+        ],
+        "force": "Yahweh calls return to me with all your heart, shuvu adai bekol levavkem, with fasting and weeping and mourning. Query confirms a token of shuv (H7725) here and in the following verse. The verb shuv carries the directional turning toward God with the whole heart, and joins inward sorrow to a reorientation of life, the same coupling of grief and turning that 2 Cor 7.10 names godly grief producing repentance. This grounds repentance as wholehearted turning, not mere regret.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.20.21",
+        "to": "Acts.2.38",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.7.10",
+        "to": "2Cor.12.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.30",
+        "to": "Acts.14.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.38",
+        "to": "Acts.2.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.1.15",
+        "to": "Dan.2.44",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.7.10",
+        "to": "Gen.4.13",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Cor.7.10",
+        "addressed": true,
+        "resolution": "The verse could be read to separate grief from repentance, but the text distinguishes worldly grief that produces death from godly grief that produces a saving and non-regretted metanoia. The presence of the distinct lexeme metamelomai (G3338, regret) elsewhere, used of Judas in Matt 27.3, shows the canon has a separate word for mere remorse, which sharpens rather than weakens the claim that true metanoia is bound to salvation."
+      },
+      {
+        "ref": "Acts.2.38",
+        "addressed": true,
+        "resolution": "The eis aphesin phrase has been read either as causal, repent in order to obtain forgiveness, or resultative, repent because of forgiveness, but on either reading repentance is positioned inside the conversion event tied to forgiveness, so the inseparability of repentance from the saving response holds regardless of which prepositional sense is adopted."
+      },
+      {
+        "ref": "Acts.20.21",
+        "addressed": true,
+        "resolution": "The proposition holds repentance and faith inseparable, yet here they are named as two coordinated objects, metanoian and pistin, which could be read as two distinct acts. The single governing participle diamartyromenos and the parallel directional phrases eis theon and eis Christon present them as two facets of one witnessed turning, so distinguishable in vocabulary but not separable in the conversion the words describe. The text does not rank one before the other, which is the locus of the remaining lens divergence noted in hermeneutics."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The cited verses lie outside 3 John, the only book with examined CBGM data in this run, and the store reports no variant units bearing on metanoeo, metanoia, epistrepho or shuv in these passages. The marginal sigla in the morphology surface forms of inputs.json reflect standard apparatus markers but none alter the presence of the repentance and turning lexemes, which direct query confirmed in each verse."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_continuity",
+      "lordship_emphasis",
+      "free_grace_emphasis"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_continuity",
+        "verdict": "affirms",
+        "rationale": "A reading that treats the Testaments as one unfolding call finds the Old Testament shuv summons, return to me, mapped by the LXX onto epistrepho and metanoeo and recapitulated in the apostolic command to repent and turn to God in Acts 3.19 and 26.20, so repentance is the pan-canonical turning that conversion completes, never separable from the faith that rests on Christ."
+      },
+      {
+        "framework": "lordship_emphasis",
+        "verdict": "affirms",
+        "rationale": "A reading that stresses repentance as turning from sin to submission finds direct lexical support in the metanoeo plus epistrepho pairing of Acts 3.19 and 26.20 and in axia tes metanoias erga, deeds worthy of repentance, so the change of mind is inseparable from a turn of life and from faith in conversion."
+      },
+      {
+        "framework": "free_grace_emphasis",
+        "verdict": "partial",
+        "rationale": "A reading that defines repentance strictly as a change of mind about Christ rather than as a separate turning from sin can still affirm that metanoia is integral to conversion, since metanoeo lexically denotes a change of mind and Acts 20.21 names metanoia and pistis as two facets of one message. It contests only whether turning from sin is a distinct condition added to faith, since the words coordinate the two without ranking them, and this is the genuine point the vocabulary leaves open."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal arc, so the primary method is redemptive-historical. Acts 20.21 and the metanoeo plus epistrepho pairing in Acts 3.19 and 26.20 are the controlling texts, joining inward change of mind to outward turning. The Old Testament shuv pattern, 1056 occurrences across 38 books, and nacham, 108 across 21, supply the pan-canonical background, confirmed in the store through the LXX bridge of shuv to epistrepho and nacham to metanoeo and metamelomai. The one open question the words do not settle is the precise ordering and relation of repentance to faith, distinct condition, component of faith, or fruit, which the texts coordinate but do not rank."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the lexical pattern of metanoeo, metanoia, and the Old Testament turning verbs presents repentance as occurring together with saving faith in conversion, or whether the terms appear in contexts that separate repentance from faith.",
+    "notes": "The stem embeds an interpretive frame by calling repentance Spirit-given and never separable from saving faith, which preloads a conclusion about agency and inseparability. The verdict was derived on the original stem, but the neutralized form states the lexical question without the embedded verdict. The Spirit-given clause is a theological attribution not directly recoverable from the morphology of these verses, so it is treated as outside the lexical scope and left unscored. Affirms is UNCHANGED from the prior file. Confidence was raised from medium to high and pan_canonical from false to true after direct query established the Old Testament turning vocabulary, shuv 1056 occurrences across 38 books and nacham 108 across 21 books, and its LXX bridge to the Greek repentance and turning verbs, which the prior file lacked and had cited as its only reason for the lower rating."
+  },
+  "lay_summary": "The proposition says repentance is part of true conversion and cannot be split off from saving faith. The Greek words at issue are the verb metanoeo, to change one's mind, and the noun metanoia, repentance, and direct search of the word data confirms they occur 34 and 24 times spread across the Gospels, Acts, Paul, Hebrews, Peter and Revelation. Across the cited verses these words consistently sit inside the call to be saved rather than beside it. In Mark 1.15 Jesus issues two commands together, repent and believe in the gospel, joined by the simple connector and. In Acts 20.21 Paul sums up his message as repentance toward God and faith toward the Lord Jesus, both held under one grammatical frame. In Acts 3.19 and Acts 26.20 he tells hearers to repent and turn, placing the change of mind verb next to a turning verb, which shows in the words themselves that repentance is not bare thinking but issues in a turn of life. In Acts 2.38 repentance is tied to forgiveness, in Acts 17.30 it is commanded to everyone everywhere, and in Luke 13.3 it is the condition for not perishing. In 2 Corinthians 7.10 godly grief produces a repentance leading to salvation that is never regretted, and the canon even keeps a separate word, metamelomai, for mere remorse like that of Judas, so true repentance is marked off from regret. Crucially, the Old Testament supplies the same engine. The verb shuv, to turn or return, occurs over a thousand times across thirty eight books, thick in the prophets calling people to return to God, and the Greek Old Testament renders it with the very turning word the apostles use. So the pattern is not a New Testament novelty but runs through the whole canon. The one thing the words leave open is the exact order and relation of repentance to faith, whether a distinct step, a part of faith, or its fruit, since the texts pair them without ranking them. The core claim that repentance is integral to conversion and bound to faith is strongly and broadly supported.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3340"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3341"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1994"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7725"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.33.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.3.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.7.10"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.20.21"
+    },
+    {
+      "type": "lexicon",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "H7725"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.20.21"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The Acts 20.21 syntax citation draws on MACULA-Greek and the H7725 shuv lemma citation draws on MACULA-Hebrew, both carrying CC-BY-NC-4.0, which is not redistributable in bulk, so the aggregate evidence cannot be published without removing or relicensing those two sources."
+  },
+  "flags": []
+}

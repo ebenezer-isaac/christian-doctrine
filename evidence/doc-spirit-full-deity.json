@@ -1,0 +1,616 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-full-deity",
+  "question_id": "doc-spirit-full-deity",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two converging lexical lines establish the proposition. First, full deity: Acts 5:3-4 brackets one act with two predicates, lying to the Holy Spirit (ψεύσασθαί τὸ πνεῦμα τὸ ἅγιον) is restated as did not lie to men but to God (οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ), a direct grammatical equation that Acts 5:9 extends with τὸ πνεῦμα κυρίου. Matt 28:19 places πνεύματος ἁγίου under one singular ὄνομα beside πατρός and υἱοῦ, 1 Cor 3:16 grounds ναὸς θεοῦ on τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν, Heb 9:14 calls it πνεύματος αἰωνίου (the eternity attribute), and Ps 139:7 ties the Spirit (ruach) to inescapable presence. Second, personhood against an impersonal-force reading: the Spirit wills (βούλεται, 1 Cor 12:11), is grieved (λυπεῖτε, Eph 4:30), and speaks in the first person (Acts 13:2). The pattern is pan-canonical and variant-stable."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1317,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0040",
+        "lemma": "ἅγιος",
+        "transliteration": "hagios",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2962",
+        "lemma": "κύριος",
+        "transliteration": "kyrios",
+        "occurrences_in_canon": 717,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5574",
+        "lemma": "ψεύδομαι",
+        "transliteration": "pseudomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 45,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3611",
+        "lemma": "οἰκέω",
+        "transliteration": "oikeo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3076",
+        "lemma": "λυπέω",
+        "transliteration": "lypeo",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 70,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1565",
+        "lemma": "ἐκεῖνος",
+        "transliteration": "ekeinos",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7307",
+        "lemma": "רוּחַ",
+        "transliteration": "ruach",
+        "occurrences_in_canon": 378,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 413,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 377,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4151",
+      "G2316",
+      "G0040",
+      "G2962",
+      "G5574",
+      "G3485",
+      "G3611",
+      "G3686",
+      "G1014",
+      "G3076",
+      "G0166",
+      "G1565",
+      "G3962",
+      "G5207",
+      "G0907",
+      "H7307",
+      "H1272"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.5.3",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          }
+        ],
+        "force": "Peter charges that Satan filled Ananias's heart to lie to the Holy Spirit. The aorist infinitive ψεύσασθαί takes τὸ πνεῦμα τὸ ἅγιον as its direct object. Morphology confirms the Spirit phrase is accusative singular neuter (N-ASN with the article and adjective also neuter), the grammatical object of an act of deception, which presupposes a personal addressee who can be lied to, not an impersonal influence.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "ACT 5:3!17"
+      },
+      {
+        "ref": "Acts.5.4",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "The next clause re-predicates the identical act. οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ. The οὐκ, ἀλλά contrast frame sets men against God as the two candidate addressees of the single verb ἐψεύσω, and assigns the act to τῷ θεῷ. Since the object lied to in v.3 was the Holy Spirit, the same lie now predicated of God identifies the Spirit with God as one referent. The equation is grammatical, not analogical.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.16",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G3611",
+            "lemma": "οἰκέω"
+          }
+        ],
+        "force": "Paul predicates ναὸς θεοῦ of the believers, then grounds it with καὶ τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν. The present indicative οἰκεῖ (V-PAI-3S) makes the indwelling Spirit the operative reason the locus is God's temple. The temple-making presence is the Spirit's presence, so Spirit-presence functions as divine presence.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος. Morphology confirms ὄνομα is one accusative singular noun (N-ASN), governed once, distributed across three articular genitives joined by καί. The Spirit shares the single baptismal naming with Father and Son, placed at the same grammatical level, not as a lesser fourth term.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.11",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G1014",
+            "lemma": "βούλομαι"
+          }
+        ],
+        "force": "πάντα δὲ ταῦτα ἐνεργεῖ τὸ ἓν καὶ τὸ αὐτὸ πνεῦμα, διαιροῦν ἰδίᾳ ἑκάστῳ καθὼς βούλεται. The Spirit is the explicit subject of βούλεται (V-PNI-3S, present indicative, to will or decide). Willing and apportioning at one's own discretion are acts of a personal agent, telling against an impersonal-power reading of πνεῦμα.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.30",
+        "key_terms": [
+          {
+            "strong": "G3076",
+            "lemma": "λυπέω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "μὴ λυπεῖτε τὸ πνεῦμα τὸ ἅγιον τοῦ θεοῦ. The Spirit is the object of λυπεῖτε (V-PAM-2P, to grieve), and the genitive τοῦ θεοῦ ties the Spirit to God. To be grieved is an affective response proper to a person, again resisting an impersonal-force reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.13.2",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          }
+        ],
+        "force": "εἶπεν τὸ πνεῦμα τὸ ἅγιον, Ἀφορίσατε δή μοι τὸν Βαρναβᾶν καὶ Σαῦλον. The Spirit is the subject of εἶπεν (to say) and speaks in the first person, μοι, set apart for ME, claiming the missionaries as the Spirit's own. First-person speech and self-reference are personal acts.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.16.13",
+        "key_terms": [
+          {
+            "strong": "G1565",
+            "lemma": "ἐκεῖνος"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "ὅταν δὲ ἔλθῃ ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας. Morphology confirms ἐκεῖνος is masculine nominative singular (D-NSM) while its antecedent τὸ πνεῦμα is neuter (N-NSN). The deliberate masculine pronoun over a grammatically neuter noun signals a personal referent, not a thing, and the Spirit then performs personal verbs, will guide, will speak, will declare.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 16:13!6"
+      },
+      {
+        "ref": "2Cor.3.17",
+        "key_terms": [
+          {
+            "strong": "G2962",
+            "lemma": "κύριος"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "ὁ δὲ κύριος τὸ πνεῦμά ἐστιν. The copula ἐστιν (V-PAI-3S) links κύριος and τὸ πνεῦμα. Whatever the precise scope of the predication, the verse places the Spirit on the κύριος side of the divine ledger rather than the creature side. The following clause speaks of τὸ πνεῦμα κυρίου, the Spirit of the Lord, reinforcing the divine association.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.14",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "διὰ πνεύματος αἰωνίου. The Spirit is qualified by αἰωνίου (A-GSN, eternal), an attribute the canon reserves for God and divine realities. Eternity predicated of the Spirit supplies the co-eternal element of the proposition at the word level, since a creature is not termed eternal in this sense.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.7",
+        "key_terms": [
+          {
+            "strong": "H7307",
+            "lemma": "רוּחַ"
+          }
+        ],
+        "force": "אָנָה אֵלֵךְ מֵרוּחֶךָ וְאָנָה מִפָּנֶיךָ אֶבְרָח. Where can I go from your ruach, and where can I flee from your face. Hebrew morphology confirms ruach (H7307) in parallel with paneka (your face, your presence). The Spirit is here coextensive with God's inescapable presence, an OT attestation of divine omnipresence predicated of the Spirit, which anchors the proposition outside the New Testament.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.5.4",
+        "to": "Acts.5.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.3",
+        "to": "Acts.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.4",
+        "to": "Acts.8.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.3.16",
+        "to": "Ezek.36.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.13.14",
+        "to": "Num.6.23",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.5.9",
+        "addressed": true,
+        "resolution": "Acts 5:9 names the same offense πειράσαι τὸ πνεῦμα κυρίου, testing the Spirit of the Lord. The genitive κυρίου chains the Spirit to the divine title, so the third predication of one event reinforces rather than complicates the identification across vv.3, 4, 9."
+      },
+      {
+        "ref": "1Cor.6.19",
+        "addressed": true,
+        "resolution": "1 Cor 6:19 calls the body ναὸς τοῦ ἐν ὑμῖν ἁγίου πνεύματος, the temple of the Holy Spirit, parallel to 1 Cor 3:16 where the same indwelt locus is ναὸς θεοῦ. Two temple predications of one referent equate Spirit and God in the temple-presence category."
+      },
+      {
+        "ref": "John.3.8",
+        "addressed": true,
+        "resolution": "John 3:8 plays on πνεῦμα in its impersonal sense, the wind blows where it wills, which shows the word can denote breath or wind. This is the lexical foothold for an impersonal-force reading. It does not overturn the verdict because the contested verses supply personal verbs (wills, is grieved, speaks, is lied to) and a masculine pronoun for the neuter noun (John 16:13), which an impersonal sense cannot carry. Context disambiguates the polysemy in each anchor."
+      },
+      {
+        "ref": "2Cor.3.17",
+        "addressed": true,
+        "resolution": "The copula in ὁ κύριος τὸ πνεῦμά ἐστιν is read by some as functional identification (the Lord experienced now is the Spirit) rather than ontological identity, so this verse alone does not settle full deity. It is retained because it still places the Spirit on the divine side and is corroborated by the stronger God-equation in Acts 5:3-4. Treated as supporting, not load-bearing."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Direct query of the lexical store returns zero VariantUnit nodes attached to Acts 5:3, Acts 5:4, 1 Cor 3:16, or Matt 28:19. None of these anchors falls in the ingested ECM window (3 John 1.1 to 1.15), so they are not_in_ecm_scope. The trinitarian baptismal command at Matt 28:19 is textually stable in all extant Greek manuscripts. No variant reading at any anchor disturbs the Spirit-God predication."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "impersonal_force_reading",
+        "verdict": "incompatible",
+        "rationale": "Strongest form: πνεῦμα is grammatically neuter and lexically denotes breath or wind (so John 3:8), so the Holy Spirit could be read as God's active power or influence rather than a person. The data resists this. The Spirit wills (βούλεται, 1 Cor 12:11), is grieved (λυπεῖτε, Eph 4:30), speaks in the first person (Acts 13:2), and is the object of a lie (Acts 5:3). John 16:13 even takes the masculine ἐκεῖνος for the neuter τὸ πνεῦμα. Personal predicates are not predicable of an impersonal force."
+      },
+      {
+        "framework": "subordinationist_reading",
+        "verdict": "incompatible",
+        "rationale": "Strongest form: the Spirit could be a created or lesser divine agent, not co-equal God. The lexical equations block this. Lying to the Spirit is lying to God (Acts 5:3-4), the Spirit-indwelt body is God's temple (1 Cor 3:16 with 6:19), the Spirit shares the single divine ὄνομα (Matt 28:19), is called eternal (Heb 9:14), and is omnipresent (Ps 139:7). Divine attributes and the God-equation are not predicable of a creature."
+      },
+      {
+        "framework": "modalist_reading",
+        "verdict": "incompatible",
+        "rationale": "Strongest form: Father, Son, and Spirit could be one person in three successive modes. The grammar of distinction blocks this. Matt 28:19 names three articular genitives under one ὄνομα as distinct, the Spirit speaks of itself and of another (Acts 13:2, John 16:13-14, ἐκεῖνος ἐμὲ δοξάσει, he will glorify me), and 2 Cor 13:14 distributes distinct relations to three named agents. The text requires distinction-in-unity, not one person in masks."
+      }
+    ],
+    "notes": "Two lexical lines converge: divine identity (the Acts 5 God-equation, the shared single ὄνομα, temple-presence, the eternity and omnipresence attributes) and personhood (the personal verbs and the masculine pronoun for the neuter noun). Each answers a distinct denial, the subordinationist or modalist on deity and the impersonal-force reading on personhood."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem uses descriptive predicates (fully and truly God, co-equal, co-eternal) without importing a tradition-specific taxonomy. The lexical question is twofold and tested on the original stem: does the canon predicate of the Spirit what it predicates of God (deity), and does it predicate personal acts of the Spirit (personhood). Both are answered from queried morphology and concordance. Verdict unchanged from the prior file."
+  },
+  "lay_summary": "Two questions sit inside this proposition, and the words answer both. First, is the Spirit God. In Acts 5:3 Peter says Ananias lied to the Holy Spirit, and one verse later, restating the same act, says he did not lie to men but to God. One event, two predicates, one addressee. The Spirit is God. Acts 5:9 adds that he tested the Spirit of the Lord. In 1 Corinthians 3:16 the believers are God's temple because God's Spirit dwells in them, and 6:19 calls the same body the temple of the Holy Spirit, so Spirit-presence is divine presence. Matthew 28:19 puts Father, Son, and Holy Spirit under one singular name in baptism. Hebrews 9:14 calls him the eternal Spirit, and Psalm 139:7 says no one can flee from God's Spirit, which is omnipresence. Second, is the Spirit a person or just God's power. The word for spirit, pneuma, can mean breath or wind and is grammatically neuter, which is why some read it as an impersonal force. But the same texts say the Spirit wills and apportions gifts as he chooses (1 Corinthians 12:11), can be grieved (Ephesians 4:30), speaks and says set apart for me (Acts 13:2), and can be lied to. In John 16:13 the masculine word he is used of the neuter noun spirit on purpose. Willing, grieving, speaking, and being lied to are things only a person does, not a force. The evidence runs across the Old Testament and the New, across narrative, gospel, wisdom, and letters, and no manuscript variant at these verses unsettles it. The only room for divergence is the surface ambiguity of one neuter word, which the personal verbs and the God-equation close.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.5.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.16.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.12.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.9.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.3-4"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4151"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1014"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7307"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.3.16"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek morphology is licensed CC-BY-NC-4.0, which prohibits bulk commercial redistribution. It was used to confirm the accusative singular neuter parsing of τὸ πνεῦμα τὸ ἅγιον at Acts 5:3, the single accusative ὄνομα governing three genitives at Matt 28:19, the masculine ἐκεῖνος with neuter antecedent at John 16:13, and the subject role of πνεῦμα with βούλεται at 1 Cor 12:11. The morphology-only claims at Acts 5:4, Eph 4:30, Heb 9:14, and Ps 139:7 are independently grounded in the CC-BY MorphGNT and OSHB sources."
+  },
+  "flags": []
+}

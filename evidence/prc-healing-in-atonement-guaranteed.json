@@ -1,0 +1,811 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-healing-in-atonement-guaranteed",
+  "question_id": "prc-healing-in-atonement-guaranteed",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": false,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition fuses two claims. The first, that the Servant bears real disease at the cross, has genuine Hebrew support, choli and makob in Isaiah 53:4 are concrete sickness and pain, and rapha stands in 53:5. The second, that physical healing is therefore a present guaranteed entitlement so that lack of healing implies lack of faith, is what the canon will not say. Matthew 8:17 quotes Isaiah 53:4 as fulfilled, pleroo, in Jesus' own evening of healing ministry, not as a standing promise to every later believer. 1 Peter 2:24 puts iaomai inside a sentence framed by hamartia and apoginomai, dying to sin, and the wound, molops, is anchored to the cross. Paul's own skolops, a hapax in 2 Corinthians 12:7, was prayed off three times and refused. Astheneia and astheneo are used 24 and 33 times in the New Testament for legitimate weakness in believers, including the apostle, Timothy, Epaphroditus near death, and Trophimus left behind sick. Romans 8:23 keeps the redemption of the body future for Spirit-filled believers. The lexical pattern denies the second clause decisively."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H2483",
+        "lemma": "חֳלִי",
+        "transliteration": "choli",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4341",
+        "lemma": "מַכְאוֹב",
+        "transliteration": "makob",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5375",
+        "lemma": "נָשָׂא",
+        "transliteration": "nasa",
+        "occurrences_in_canon": 654,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5445",
+        "lemma": "סָבַל",
+        "transliteration": "sabal",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7495",
+        "lemma": "רָפָא",
+        "transliteration": "rapha",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2250",
+        "lemma": "חַבּוּרָה",
+        "transliteration": "chaburah",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6588",
+        "lemma": "פֶּשַׁע",
+        "transliteration": "pesha",
+        "occurrences_in_canon": 93,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5771",
+        "lemma": "עָוֺן",
+        "transliteration": "avon",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0941",
+        "lemma": "βαστάζω",
+        "transliteration": "bastazo",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2390",
+        "lemma": "ἰάομαι",
+        "transliteration": "iaomai",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3554",
+        "lemma": "νόσος",
+        "transliteration": "nosos",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3468",
+        "lemma": "μώλωψ",
+        "transliteration": "molops",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0581",
+        "lemma": "ἀπογίνομαι",
+        "transliteration": "apoginomai",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 173,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0769",
+        "lemma": "ἀσθένεια",
+        "transliteration": "astheneia",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0770",
+        "lemma": "ἀσθενέω",
+        "transliteration": "astheneo",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0772",
+        "lemma": "ἀσθενής",
+        "transliteration": "asthenes",
+        "occurrences_in_canon": 25,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4647",
+        "lemma": "σκόλοψ",
+        "transliteration": "skolops",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0629",
+        "lemma": "ἀπολύτρωσις",
+        "transliteration": "apolytrosis",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0536",
+        "lemma": "ἀπαρχή",
+        "transliteration": "aparche",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1311",
+        "lemma": "διαφθείρω",
+        "transliteration": "diaphtheiro",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0553",
+        "lemma": "ἀπεκδέχομαι",
+        "transliteration": "apekdechomai",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2937",
+        "lemma": "κτίσις",
+        "transliteration": "ktisis",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 107,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H2483",
+      "H4341",
+      "H5375",
+      "H5445",
+      "H7495",
+      "H2250",
+      "H6588",
+      "H5771",
+      "G0941",
+      "G2390",
+      "G3554",
+      "G3468",
+      "G0581",
+      "G0266",
+      "G0769",
+      "G0770",
+      "G0772",
+      "G4647",
+      "G0629",
+      "G0536",
+      "G1311",
+      "G0553",
+      "G2937",
+      "G4982"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.53.4",
+        "key_terms": [
+          {
+            "strong": "H2483",
+            "lemma": "חֳלִי"
+          },
+          {
+            "strong": "H4341",
+            "lemma": "מַכְאוֹב"
+          },
+          {
+            "strong": "H5375",
+            "lemma": "נָשָׂא"
+          },
+          {
+            "strong": "H5445",
+            "lemma": "סָבַל"
+          }
+        ],
+        "force": "Surely our sicknesses, choli, he bore, nasa, and our pains, makob, he carried, sabal. The two nouns are concrete bodily terms for physical illness and pain, and the two verbs, to lift or bear and to bear as a load, place these on the Servant. The clause does establish that real disease and suffering, not only guilt, sit in what the Servant carries. It does not by itself name the timing or scope of relief for later sufferers, and the same poetic unit frames what others thought was divine punishment as misjudgment of the Servant.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.5",
+        "key_terms": [
+          {
+            "strong": "H6588",
+            "lemma": "פֶּשַׁע"
+          },
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          },
+          {
+            "strong": "H2250",
+            "lemma": "חַבּוּרָה"
+          },
+          {
+            "strong": "H7495",
+            "lemma": "רָפָא"
+          }
+        ],
+        "force": "He was pierced for our transgressions, pesha, crushed for our iniquities, avon, and by his wound, chaburah, we are healed, rapha, Niphal nirpa. The verb of healing stands in close parallel with the chastisement that brought our peace, shalom, and the bearing in this verse is named as transgression and iniquity, with the bruise being his own. The Niphal sets the healing inside a clause whose stated cause is the bearing of sin, so the most natural sense of the healing is restoration from the breach caused by sin. Rapha covers both physical and covenantal restoration in the canon, the lexeme alone does not isolate guaranteed bodily cure.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.8.16",
+        "key_terms": [
+          {
+            "strong": "G2390",
+            "lemma": "ἰάομαι"
+          }
+        ],
+        "force": "When evening came they brought many demon-possessed to him, and he cast out the spirits by a word and healed all who were sick, pantas tous kakos echontas etherapeusen, with iaomai in the surrounding context. The healing is universal within that gathered crowd and is performed by Jesus himself in person. The verse describes the Lord's direct sovereign action in his earthly ministry, not a transferable claim activated by the sufferer's faith level.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.8.17",
+        "key_terms": [
+          {
+            "strong": "G0941",
+            "lemma": "βαστάζω"
+          },
+          {
+            "strong": "G3554",
+            "lemma": "νόσος"
+          }
+        ],
+        "force": "This was to fulfill, pleroo, what was spoken through Isaiah, he himself took our weaknesses and bore, bastazo, our diseases, nosos. Matthew applies Isaiah 53:4 to the immediate scene of verse 16, where Jesus has just healed the sick brought to him during his earthly ministry. The fulfillment verb pleroo and the surrounding aorists locate the carrying of disease in the historical healing acts of the incarnate Christ, not in a future guarantee operating in the church age. The verse gives no marker that this healing is a standing entitlement of every later believer, no conditioning of it on the believer's faith.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.24",
+        "key_terms": [
+          {
+            "strong": "G3468",
+            "lemma": "μώλωψ"
+          },
+          {
+            "strong": "G2390",
+            "lemma": "ἰάομαι"
+          },
+          {
+            "strong": "G0581",
+            "lemma": "ἀπογίνομαι"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "Who himself bore our sins in his body on the tree, that we might die to sin, tais hamartiais apogenomenoi, and live to righteousness, dikaiosune, by whose wound, molops, you were healed, iathete. The verse takes Isaiah 53 directly into the Petrine context and the surrounding clauses name sin twice, righteousness, and the dying-to-sin verb apoginomai, a New Testament hapax. The aorist passive iathete is set inside a sin-bearing argument, and the next verse adds that you have returned to the Shepherd of your souls. The wound-language molops is itself a hapax. The Greek explicitly anchors the healing in the moral and spiritual sphere, not in a present claim on bodily cure.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.23",
+        "key_terms": [
+          {
+            "strong": "G0536",
+            "lemma": "ἀπαρχή"
+          },
+          {
+            "strong": "G0553",
+            "lemma": "ἀπεκδέχομαι"
+          },
+          {
+            "strong": "G0629",
+            "lemma": "ἀπολύτρωσις"
+          }
+        ],
+        "force": "Even we who have the firstfruits, aparche, of the Spirit groan within ourselves, eagerly awaiting, apekdechomai, the adoption, the redemption, apolytrosis, of our body. This is the decisive lexical witness against the proposition's second clause. The very people who already possess the Spirit are still groaning and still waiting, and what they wait for is named the redemption of the body, set in the future. If bodily redemption is the object of present groaning and future expectation for Spirit-filled believers, then complete bodily healing is not a present guarantee, and the absence of it cannot be made a measure of failed faith.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.22",
+        "key_terms": [
+          {
+            "strong": "G2937",
+            "lemma": "κτίσις"
+          }
+        ],
+        "force": "We know that the whole creation, ktisis, groans together and labors in birth pains together until now, achri tou nyn. The temporal phrase until now extends the groaning of creation through the present age, the same age in which the proposition claims a guaranteed cure. The lexical frame is one of ongoing travail awaiting future release, not of realized bodily wholeness in this life.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.4.16",
+        "key_terms": [
+          {
+            "strong": "G1311",
+            "lemma": "διαφθείρω"
+          }
+        ],
+        "force": "Therefore we do not lose heart, but though our outer man is being destroyed, diaphtheiro, yet our inner man is being renewed day by day. The present passive of diaphtheiro states that the body of the apostle, a man of conspicuous faith, is undergoing ongoing decay even while the inner man is renewed. The contrast itself presumes that bodily deterioration continues for the believer in this life, which is incompatible with a present guarantee of physical healing for all who believe.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.4.17",
+        "key_terms": [
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "Our momentary light affliction is working for us an eternal, aionios, weight of glory beyond all measure. Present affliction is treated as the instrument that produces future glory, not as a sign of failed faith to be banished now. The qualifier aionios sets the resolution in the age to come, reinforcing the already and not-yet pattern that the proposition collapses.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.12.7",
+        "key_terms": [
+          {
+            "strong": "G4647",
+            "lemma": "σκόλοψ"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          }
+        ],
+        "force": "There was given to me a thorn, skolops, in the flesh, sarx, a messenger of Satan to buffet me. The noun skolops occurs only here in the New Testament, a hapax, and is paired with en sarki, in the flesh, which is the same body the proposition says must now be healed. The grammar locates the affliction in the apostle's own bodily existence and names its source ironically, given to me, as a divine permission tied to suppressing pride.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.12.8",
+        "key_terms": [
+          {
+            "strong": "G3870",
+            "lemma": "παρακαλέω"
+          },
+          {
+            "strong": "G5151",
+            "lemma": "τρίς"
+          }
+        ],
+        "force": "Concerning this I asked, parakaleo, the Lord three times, tris, that it might depart from me. The aorist of parakaleo with tris records three explicit prayers for the thorn to be lifted, by the apostle, with the next verse recording the Lord's refusal. The proposition's claim that lack of healing implies lack of faith would here implicate an apostle who saw the third heaven, the lexical case against the conditional clause is direct.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.12.9",
+        "key_terms": [
+          {
+            "strong": "G0769",
+            "lemma": "ἀσθένεια"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          }
+        ],
+        "force": "He said to me, my grace, charis, is sufficient for you, for power is perfected in weakness, astheneia. The reply uses astheneia, the same noun used 24 times across the New Testament for bodily and other weakness in believers, and reframes the unhealed body as the very arena where Christ's power rests. The lexical pattern is the opposite of failed faith, it is faith confessed under a refused petition, treating bodily astheneia as the chosen vehicle of grace.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.2.27",
+        "key_terms": [
+          {
+            "strong": "G0770",
+            "lemma": "ἀσθενέω"
+          }
+        ],
+        "force": "Indeed he was sick, astheneo, near to death, paraplesion thanato, but God had mercy on him, and not on him only but also on me, lest I should have sorrow upon sorrow. Epaphroditus, a co-worker described as Paul's brother and fellow-soldier, became gravely ill with the verb astheneo, and the recovery is attributed to God's mercy, eleos, not to the patient's faith level. The lexical phrasing treats the illness of a faithful Christian as a real bodily fact, not as a faith-deficiency signal.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.23",
+        "key_terms": [
+          {
+            "strong": "G0769",
+            "lemma": "ἀσθένεια"
+          },
+          {
+            "strong": "G4751",
+            "lemma": "στόμαχος"
+          }
+        ],
+        "force": "Use a little wine for the sake of your stomach, stomachos, and your frequent ailments, pyknas astheneias. The apostle directs Timothy, a delegate ordained by him, to a remedy for chronic stomach trouble and frequent bodily weakness, with astheneia in the plural. The advice presupposes that recurring sickness in a Spirit-filled minister is ordinary and to be managed by means, not banished as proof of unbelief.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Tim.4.20",
+        "key_terms": [
+          {
+            "strong": "G0620",
+            "lemma": "ἀπολείπω"
+          }
+        ],
+        "force": "Trophimus I left behind, apoleipo, in Miletus sick, asthenounta. An associate of Paul during ministry travel was left behind because of bodily weakness, the verb astheneo in participial form. The apostle does not pray him well in person, does not rebuke unbelief, simply leaves him sick. The lexical record of an unhealed faithful companion under apostolic ministry counters the proposition's conditional.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.14",
+        "key_terms": [
+          {
+            "strong": "G0770",
+            "lemma": "ἀσθενέω"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "Is any among you sick, astheneo, let him call the elders of the church and let them pray over him, anointing him with oil in the name of the Lord, and the prayer of faith will save, sozo, the sick one. The verb sozo is used for the recovery, the construction is conditional and pastoral, summoning elders, prayer, oil. The text presents prayer for the sick as a normal church practice, the response is framed by the Lord's prerogative and by confession of sin in the next verse. The grammar gives a pastoral promise tied to elder-prayer in particular cases, not a blanket guarantee held privately by every believer that any failure to be healed indicts the sufferer's faith.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.13",
+        "key_terms": [
+          {
+            "strong": "G2390",
+            "lemma": "ἰάομαι"
+          }
+        ],
+        "force": "Make straight paths for your feet, so that what is lame may not be put out of joint but rather be healed, iathe. The verb iaomai here is used inside a metaphor about discipline and walking straight in the Christian life, the healing is moral and pastoral, not a guarantee of bodily cure. The same verb that 1 Peter 2:24 uses appears here in a clearly figurative sense, which demonstrates the lexeme's range and resists collapsing iaomai into present bodily restoration as a default.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.8.17",
+        "to": "Isa.53.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.24",
+        "to": "Isa.53.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.4",
+        "to": "Isa.53.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.5",
+        "to": "Isa.53.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.53.5",
+        "to": "Isa.53.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.20",
+        "to": "Rom.8.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.4.17",
+        "to": "2Cor.3.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.4.17",
+        "to": "Ps.119.67",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.12.9",
+        "to": "2Cor.13.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.27",
+        "to": "2Tim.4.20",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Isa.53.4",
+        "addressed": true,
+        "resolution": "The strongest lexical support for the proposition's first clause is that choli, sickness, and makob, pains, are genuinely among what the Servant bears. This is addressed by observing that Matthew 8:17 applies the carrying of disease to the historical healing ministry of Jesus, fulfilled, pleroo, in his lifetime, and the wider Isaiah 53 unit names transgression and iniquity as the load. So the bearing of sickness is real and effected at the cross-anchored work of Christ, but the text does not promise universal present healing and does not condition healing on the believer's faith. The disease is genuinely borne, yet the timing and scope of bodily relief are settled by other lexical witnesses."
+      },
+      {
+        "ref": "Isa.53.5",
+        "addressed": true,
+        "resolution": "By his wound we are healed, rapha, is the verse most often read as a present healing guarantee. It is addressed by noting that the line names transgression and iniquity as what is borne, and pairs the healing with the chastisement that brought peace, shalom, so the dominant reference is restoration from the breach of sin. The verb rapha covers physical and covenantal restoration in the canon, the lexeme cannot be narrowed to guaranteed bodily cure now. The tension between a sickness-bearing reading and a sin-bearing reading is acknowledged and resolved toward the latter by clause-internal context, not by suppression."
+      },
+      {
+        "ref": "1Pet.2.24",
+        "addressed": true,
+        "resolution": "By whose wound you were healed, iathete, is the second strongest text for the proposition because iaomai is a normal Greek verb of bodily healing. It is addressed by the sentence's own grammar, the aorist iathete sits inside a clause framed by sin-bearing, by the New Testament hapax apoginomai, dying to sin, and by zao te dikaiosune, live to righteousness, with the very next verse declaring you have returned to the Shepherd of your souls. The lexical envelope is moral and spiritual, the wound, molops, also a hapax, points to the cross. The same verb iaomai is used metaphorically in Hebrews 12:13 for moral healing. The lexical case for reading 1 Peter 2:24 as guaranteed bodily cure cannot be sustained against its own surrounding clauses."
+      },
+      {
+        "ref": "Matt.8.17",
+        "addressed": true,
+        "resolution": "Matthew explicitly applies the Isaiah bearing-of-disease text to the historical evening of Jesus' healings, the fulfillment verb pleroo is past-tense, and the surrounding aorists locate the action in that scene. There is no future or universal modal in the sentence, and no faith-conditional. So this verse establishes that the Servant truly carries disease, and that this was demonstrated in his earthly ministry, but it does not create a standing entitlement detached from that ministry and conditioned on the believer's faith."
+      },
+      {
+        "ref": "2Cor.12.9",
+        "addressed": true,
+        "resolution": "Paul's unhealed thorn, skolops a New Testament hapax in 2 Corinthians 12:7, directly contradicts the conditional clause that lack of healing implies lack of faith. His petition is refused with the principle that astheneia, the same noun used 24 times in the New Testament for bodily and other weakness, is the chosen arena of Christ's power. No lexical reading of the proposition's second clause survives this case, the proposition's conditional is denied."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle supplied an empty variant_units list and reports not_in_ecm_scope true. The cited New Testament texts in Matthew, Romans, 2 Corinthians, Philippians, 1 Timothy, 2 Timothy, James, Hebrews, and 1 Peter lie outside the published ECM scope, which currently covers only 3 John, so they are treated as ecm-shadow. The Hebrew of Isaiah 53 is textually stable in the relevant clauses. None of the known minor variants in these verses touches the lexemes that carry the verdict, the iathete of 1 Peter 2:24, the bastazo and nosos of Matthew 8:17, the skolops of 2 Corinthians 12:7, or the apolytrosis tou somatos of Romans 8:23. The finding holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "already_not_yet_eschatology",
+      "word_of_faith",
+      "inaugurated_eschatology",
+      "cessationist_skeptical"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "already_not_yet_eschatology",
+        "verdict": "denies",
+        "rationale": "Reads Romans 8:23 and 2 Corinthians 4:16-17 as placing full bodily wholeness in the future redemption of the body while present affliction continues, so healing is a secured but not-yet-consummated benefit. On this lens the atonement guarantees final bodily redemption, not invariable present cure, and unhealed sickness is not a marker of failed faith but part of the groaning of the firstfruits-bearing believer. The proposition is denied."
+      },
+      {
+        "framework": "word_of_faith",
+        "verdict": "affirms",
+        "rationale": "Reads Isaiah 53:4-5 with Matthew 8:17 and 1 Peter 2:24 as placing physical healing inside the same finished work as forgiveness, with iathete in 1 Peter as a perfective claim on bodily wholeness now. On this lens the proposition is affirmed, and faith is the appropriating instrument. To sustain this reading the lens must take Romans 8:23 groaning, 2 Corinthians 4:16 decay, Paul's skolops, Epaphroditus' near-death sickness, Timothy's stomach, and Trophimus left behind sick as exceptions rather than as the governing pattern of the apostolic age."
+      },
+      {
+        "framework": "inaugurated_eschatology",
+        "verdict": "partially_affirms",
+        "rationale": "Agrees that healing is genuinely grounded in the atoning work and breaks into the present age in real but partial ways, while reserving comprehensive bodily restoration for the resurrection. On this lens the first part of the proposition, that real disease is borne, is partly affirmed, and the second part, a universal present guarantee tied to the believer's faith, is denied. Healings happen, faith is welcomed, but the canon names sick believers without naming them as faithless."
+      },
+      {
+        "framework": "cessationist_skeptical",
+        "verdict": "denies",
+        "rationale": "Treats Matthew 8:17 as confined to Christ's earthly ministry and the apostolic period, and reads iathete in 1 Peter 2:24 as exclusively spiritual healing in light of its sin-bearing clause envelope. On this lens the proposition is denied, the canon's pattern of unhealed faithful believers is treated as the rule for the church age rather than as an exception. The lexical evidence for sin-anchored iaomai in 1 Peter and for ongoing astheneia in apostolic letters supports this reading independently of any cessationist stance about miraculous gifts in general."
+      }
+    ],
+    "notes": "The verdict turns on the redemptive-historical placement of bodily redemption within the already and not-yet structure, read through analogia scripturae across Isaiah, the Gospels, Acts, and the Pauline, Petrine, Jacobean, and Hebrews epistles. The morphology of the Isaiah verbs and the Pauline futures does not support collapsing the not-yet of the body into a present guarantee, and the sin-bearing envelope of 1 Peter 2:24 specifies the natural sense of its healing-verb. The four lenses converge against the proposition's conditional clause even when they diverge on whether the atonement secures any present healing at all."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether the atonement secures physical healing as a present and certain entitlement for every believer in this life, and whether the absence of healing should be attributed to insufficient faith.",
+    "notes": "The stem embeds its own conclusion through the parenthetical that lack of healing implies lack of faith, which converts a contested doctrinal claim into a built-in test that interprets every counterexample as unbelief. That clause makes the proposition difficult to falsify on its own terms and prejudges the cases of unhealed faithful believers. The verdict was derived on the original stem, the neutralized form is recorded only to expose the preloading. The first clause of the original proposition has real lexical purchase, the second clause does not survive the canon's astheneia and skolops data, so the combined proposition is rejected."
+  },
+  "lay_summary": "The claim has two parts. The first is that Christ bore our sicknesses in his suffering. The second is that healing is therefore guaranteed for every believer now, so that staying sick means your faith failed. On the words themselves the first part has real footing. Isaiah 53:4 uses concrete Hebrew terms for sickness and pain and says the Servant bore them, and verse 5 says by his wound we are healed. Disease and suffering, not only guilt, are part of what he takes up. But Isaiah 53:5 also names transgression and iniquity as what he bears and pairs the healing with the chastisement that brought our peace, so the healing word is most naturally about restoration from the damage of sin. When Matthew 8:17 quotes this Isaiah line he applies it to the evening when Jesus healed all the sick brought to him in his earthly ministry. The fulfillment is set in those historical healings, with no statement that every later believer is owed the same cure and no hint that faith is the switch that turns it on. The strongest New Testament text for present bodily healing, by whose wound you were healed in 1 Peter 2:24, sits inside a single Greek sentence about bearing sins in the body on the tree, dying to sin, and living to righteousness, with returning to the Shepherd of your souls coming in the very next breath. The same healing verb is used metaphorically in Hebrews 12:13 for moral repair. The second part of the claim runs hard against the rest of the New Testament. Believers who already have the firstfruits of the Spirit still groan and wait for the redemption of their body in Romans 8:23, placing full bodily wholeness in the future. The outer man wastes away day by day in 2 Corinthians 4:16. Paul prayed three times for a thorn in the flesh, a word used only once in the New Testament, and was told that grace is sufficient and power is perfected in weakness, with weakness as the same Greek word used twenty-four times for bodily and other weakness in believers. Epaphroditus was sick to the point of death, Timothy had frequent stomach ailments, Trophimus was left behind sick. Unhealed faithful believers and an unhealed apostle stand in the lexical record without ever being called unbelieving. The words simply do not carry a guaranteed present healing measured by faith.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.4"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.5"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7495"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.8.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.4.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.12.7"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0769"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4647"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2390"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0629"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.8.17"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.2.24"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

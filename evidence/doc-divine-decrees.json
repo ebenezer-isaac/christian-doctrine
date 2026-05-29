@@ -1,0 +1,745 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-decrees",
+  "question_id": "doc-divine-decrees",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct lexical queries confirm a dense, recurring planning vocabulary predicated of God as fixed and effective across both Testaments. Acts 2:23 couples the perfect passive participle of horizo (G3724, marked out) with boule (G1012, counsel) and prognosis (G4268, foreknowledge) and in the same sentence charges the hearers aneilate (you killed). Acts 4:28 names the determined event with hosa plus a divine subject (the verb form proorisen is tagged in MACULA under proorao G4275, with the parallel sense to proorizo, both rendering predetermined to happen). Eph 1:11 escalates scope with the present participle energountos plus ta panta (all things) governed by boule and thelema. Isaiah 14:24 uses Piel damah (devise) plus Qal yaats (purpose) with qal qum (will stand) in the kaasher, ken correspondence, and Isa 46:10, Prov 19:21, and Job 23:13 repeat etsah plus qum to say the LORD's counsel stands. The words assert an effective decree but do not themselves rank its EXTENT (all events vs the redemptive purpose) nor specify its relation to the real human agency the same texts affirm, so the verdict is true while the open seam is scope and mode, not existence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1012",
+        "lemma": "βουλή",
+        "transliteration": "boulē",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4286",
+        "lemma": "πρόθεσις",
+        "transliteration": "prothesis",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4309",
+        "lemma": "προορίζω",
+        "transliteration": "proorizō",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4275",
+        "lemma": "προοράω",
+        "transliteration": "prooraō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3724",
+        "lemma": "ὁρίζω",
+        "transliteration": "horizō",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4268",
+        "lemma": "πρόγνωσις",
+        "transliteration": "prognōsis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelēma",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1754",
+        "lemma": "ἐνεργέω",
+        "transliteration": "energeō",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0459",
+        "lemma": "ἄνομος",
+        "transliteration": "anomos",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2820",
+        "lemma": "κληρόω",
+        "transliteration": "klēroō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1560",
+        "lemma": "ἔκδοτος",
+        "transliteration": "ekdotos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3289",
+        "lemma": "יעץ",
+        "transliteration": "yaʿats",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1819",
+        "lemma": "דמה",
+        "transliteration": "damah",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6098",
+        "lemma": "עצה",
+        "transliteration": "ʿetsah",
+        "occurrences_in_canon": 89,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2656",
+        "lemma": "חפץ",
+        "transliteration": "chephets",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6965",
+        "lemma": "קום",
+        "transliteration": "qum",
+        "occurrences_in_canon": 628,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2706",
+        "lemma": "חק",
+        "transliteration": "choq",
+        "occurrences_in_canon": 127,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1012",
+      "G4286",
+      "G4309",
+      "G4275",
+      "G3724",
+      "G4268",
+      "G2307",
+      "G1754",
+      "G0459",
+      "G2820",
+      "G1560",
+      "H3289",
+      "H1819",
+      "H6098",
+      "H2656",
+      "H6965",
+      "H2706",
+      "H2803"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.2.23",
+        "key_terms": [
+          {
+            "strong": "G1012",
+            "lemma": "βουλή"
+          },
+          {
+            "strong": "G4268",
+            "lemma": "πρόγνωσις"
+          },
+          {
+            "strong": "G3724",
+            "lemma": "ὁρίζω"
+          },
+          {
+            "strong": "G0459",
+            "lemma": "ἄνομος"
+          }
+        ],
+        "force": "Peter pairs te hōrismenē boulē kai prognōsei tou theou (horizō G3724 perfect passive participle, fixed counsel and foreknowledge of God) with the active charge aneilate (you killed) mediated by dia cheiros anomōn. The store confirms horizō here is the perfect passive (V-RPP-DSF), the lexically strongest fixity form. Both clauses stand in one sentence with no harmonizing connective. prognōsis (G4268) occurs only twice in the canon (here and 1 Pet 1:2), so its precise force, prior knowing versus effective fore-determination, cannot be triangulated from usage alone.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.27",
+        "key_terms": [
+          {
+            "strong": "G4863",
+            "lemma": "συνάγω"
+          },
+          {
+            "strong": "G4194",
+            "lemma": "Πόντιος"
+          },
+          {
+            "strong": "G4091",
+            "lemma": "Πιλᾶτος"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          }
+        ],
+        "force": "The prayer names specific responsible agents (Herod, Pontius Pilate, the Gentiles, the peoples of Israel) as the ones who synēchthēsan (gathered) against the holy servant Jesus. Named, accountable human actors are catalogued in v.27 immediately before v.28 attributes the same event to God's prior determination, so responsibility is asserted as densely as decree.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.28",
+        "key_terms": [
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G3745",
+            "lemma": "ὅσος"
+          },
+          {
+            "strong": "G5495",
+            "lemma": "χείρ"
+          },
+          {
+            "strong": "G1012",
+            "lemma": "βουλή"
+          },
+          {
+            "strong": "G4275",
+            "lemma": "προοράω"
+          }
+        ],
+        "force": "poiēsai hosa hē cheir sou kai hē boulē sou proōrisen genesthai. The infinitive of purpose plus the relative quantifier hosa (G3745, as many things as) plus the aorist active proōrisen assigns the full set of v.27 events to God's prior determination, coordinating cheir (hand) and boulē (counsel) as the determining cause. The store tags proōrisen under proorao (G4275, a single canon occurrence) rather than proorizo (G4309); standard parsing reads it as the aorist of proorizo, and both carry the divine predetermine to happen force, so the verdict does not turn on the lemma split.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.11",
+        "key_terms": [
+          {
+            "strong": "G2820",
+            "lemma": "κληρόω"
+          },
+          {
+            "strong": "G4309",
+            "lemma": "προορίζω"
+          },
+          {
+            "strong": "G4286",
+            "lemma": "πρόθεσις"
+          },
+          {
+            "strong": "G1754",
+            "lemma": "ἐνεργέω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G1012",
+            "lemma": "βουλή"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          }
+        ],
+        "force": "Store-verified token order: proorizō (G4309 aorist passive participle, we having been predestined) governs the elect we, while a separate clause has energeō (G1754 present active participle, working) with object ta panta (pas G3956 accusative plural neuter, all things) kata tēn boulēn tou thelēmatos autou. The present tense of energeō signals ongoing operation. The reach to whatsoever comes to pass rests on the energeō ta panta clause, not on proorizō, which across its 5 canon occurrences (Rom 8:29, 8:30, 1 Cor 2:7, Eph 1:5, Eph 1:11) consistently governs salvific objects.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.14.24",
+        "key_terms": [
+          {
+            "strong": "H3068",
+            "lemma": "יהוה"
+          },
+          {
+            "strong": "H6635",
+            "lemma": "צבאות"
+          },
+          {
+            "strong": "H1819",
+            "lemma": "דמה"
+          },
+          {
+            "strong": "H3289",
+            "lemma": "יעץ"
+          },
+          {
+            "strong": "H6965",
+            "lemma": "קום"
+          },
+          {
+            "strong": "H7650",
+            "lemma": "שבע"
+          }
+        ],
+        "force": "Sworn oath formula confirmed by OSHB morphology: damah (H1819) Piel perfect 1cs (devise, plan) and yaats (H3289) Qal perfect 1cs (purpose, counsel) paired with hayatah (H1961) Qal perfect 3fs (it has come about) and qum (H6965) Qal imperfect 3fs (it will stand). The kaasher, ken correspondence asserts one to one realization of divine purpose. damah is polysemous (its dominant Qal sense is resemble), so the decree weight here rests on the Piel devise sense plus yaats, which the construction supplies.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.46.10",
+        "key_terms": [
+          {
+            "strong": "H6098",
+            "lemma": "עצה"
+          },
+          {
+            "strong": "H6965",
+            "lemma": "קום"
+          },
+          {
+            "strong": "H2656",
+            "lemma": "חפץ"
+          }
+        ],
+        "force": "OSHB-verified: atsati taqum vekol chephtsi eeseh. etsah (H6098, my counsel) plus qum (H6965 Qal imperfect 3fs, will stand) plus chephets (H2656, my pleasure or purpose) plus asah (H6213 Qal imperfect 1cs, I will do). OpenBible links this to Eph 1:11 (20 votes) and to Isa 14:24 (24 votes). It generalizes the Isa 14:24 cadence to all divine pleasure, the strongest scope-extending OT witness for the lemma cluster.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.19.21",
+        "key_terms": [
+          {
+            "strong": "H6098",
+            "lemma": "עצה"
+          },
+          {
+            "strong": "H6965",
+            "lemma": "קום"
+          },
+          {
+            "strong": "H4284",
+            "lemma": "מחשבה"
+          }
+        ],
+        "force": "OSHB-verified: rabbot machashavot belev ish, vaatsat YHWH hi taqum. The wisdom genre sets many plans (machashavah H4284) in a man's heart against the counsel (etsah H6098) of the LORD that will stand (qum H6965 Qal imperfect 3fs, the identical verb form as Isa 14:24 and 46:10). OpenBible links it to Isa 14:24 with 27 votes. It extends the lemma cluster into the Writings and states the human-plan, divine-counsel pairing in one verse.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.50.20",
+        "key_terms": [
+          {
+            "strong": "H2803",
+            "lemma": "חשב"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אלהים"
+          },
+          {
+            "strong": "H7451",
+            "lemma": "רע"
+          }
+        ],
+        "force": "OSHB-verified dual-agency paradigm in the Torah: chashav (H2803) Qal perfect 2mp (you devised) evil plus chashav (H2803) Qal perfect 3ms with God as subject (God devised it) for good, on a single event. One verb, two subjects, one outcome, with human culpability and divine purpose both stated. OpenBible links it to Acts 2:23 (11 votes) and Acts 4:28 (6 votes), grounding the responsibility pole of the proposition in narrative.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.22.22",
+        "key_terms": [
+          {
+            "strong": "G3724",
+            "lemma": "ὁρίζω"
+          },
+          {
+            "strong": "G2596",
+            "lemma": "κατά"
+          }
+        ],
+        "force": "MACULA-verified: kata to hōrismenon, horizō (G3724) perfect passive participle (according to what has been determined), followed by ouai (woe) to the betrayer. Decree and human guilt in one sentence, mirroring Acts 2:23. OpenBible links it to Acts 2:23 with 11 votes. The same perfect passive fixity form of horizō recurs, confirming the term's stable decretal sense.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.1.11",
+        "to": "Rom.8.28",
+        "source": "openbible",
+        "votes": 53
+      },
+      {
+        "from": "Eph.1.11",
+        "to": "Isa.46.10",
+        "source": "openbible",
+        "votes": 20
+      },
+      {
+        "from": "Isa.14.24",
+        "to": "Prov.19.21",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "Isa.14.24",
+        "to": "Isa.46.10",
+        "source": "openbible",
+        "votes": 24
+      },
+      {
+        "from": "Isa.14.24",
+        "to": "Job.23.13",
+        "source": "openbible",
+        "votes": 23
+      },
+      {
+        "from": "Acts.2.23",
+        "to": "Gen.50.20",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Acts.2.23",
+        "to": "Luke.22.22",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Acts.2.23",
+        "to": "Acts.4.28",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "Acts.4.28",
+        "to": "Isa.53.10",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "Acts.4.28",
+        "to": "Acts.2.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.4.27",
+        "to": "Isa.49.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.4.28",
+        "to": "Job.12.13",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.2.23",
+        "addressed": true,
+        "resolution": "The same verse that asserts the decree (hōrismenē boulē kai prognōsei) also indicts the hearers (aneilate). The text softens neither pole. The proposition's qualifier (consistent with creaturely responsibility) is the lexical pattern itself, not a gloss imposed on the verse. The store confirms horizō here as perfect passive, the firmest fixity form available."
+      },
+      {
+        "ref": "Acts.4.27",
+        "addressed": true,
+        "resolution": "Verse 27 names Herod, Pontius Pilate, the Gentiles, and the peoples of Israel as the synēchthēsan subjects before verse 28 attributes the event to God's predetermining hand and counsel. Named, accountable agents are not depersonalized by the decree language."
+      },
+      {
+        "ref": "Eph.1.11",
+        "addressed": true,
+        "resolution": "ta panta is unqualified in the energeō clause, but proorizō (the strict predestination verb) in the same verse governs only the elect we, and across its 5 canon occurrences proorizō is consistently salvific. So the verse asserts comprehensive divine operation through energeō ta panta while the predestination verb itself stays soteriological. Whether ta panta means literally all events or all things pertaining to the inheritance is not ranked by the vocabulary, which is the genuine scope seam, but it does not negate the effective-decree reading."
+      },
+      {
+        "ref": "Acts.4.28",
+        "addressed": true,
+        "resolution": "The store lemmatizes proōrisen under proorao (G4275) rather than proorizo (G4309), a single divergent canon tag. This is a lemmatization difference, not a sense difference: both render God predetermined the event to happen, and the BriefLexEntry for proorizo cites Acts 4:28 as an instance of foreordain. The verdict does not depend on resolving the tag, so it is noted rather than treated as defeating."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Acts 2:23, Acts 4:27-28, and Eph 1:11 fall outside the ingested ECM window (3 John 1.1 to 1.15), so not_in_ecm_scope is honest for them. No variant unit in the bundle or the store touches the decree vocabulary in a verdict-altering way. Isa 14:24, Isa 46:10, Prov 19:21, and Gen 50:20 are OT, n/a for ECM."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "compatibilism",
+      "libertarian_freedom",
+      "molinism",
+      "open_theism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "compatibilism",
+        "verdict": "affirms",
+        "rationale": "Reads Acts 2:23, Acts 4:27-28, and Gen 50:20 as straightforward conjunction: divine predetermination and human guilt both stand because the texts assert both in single sentences without ranking them. Eph 1:11 energeō ta panta and Isa 46:10 etsah plus qum are taken at full extent. This reading uses every term at its strongest and leaves nothing lexically unaccounted."
+      },
+      {
+        "framework": "libertarian_freedom",
+        "verdict": "partially_affirms",
+        "rationale": "Grants that God decrees and that his redemptive purpose stands, but restricts the strict predestination verb proorizō to elective and salvific objects, which is exactly its attested distribution (Rom 8:29-30, 1 Cor 2:7, Eph 1:5, and the we of Eph 1:11). On this reading whatsoever comes to pass overreaches, since the universal reach hangs only on the polysemous energeō ta panta clause, which could be bounded to all things pertaining to the inheritance in context. This is a real lexical foothold, not a strawman."
+      },
+      {
+        "framework": "molinism",
+        "verdict": "affirms",
+        "rationale": "Reads prognōsis in Acts 2:23 as knowledge of what creatures would freely do, with the decree consequent on that knowledge. This is lexically permissible because prognōsis occurs only twice in the canon and its precise force cannot be triangulated from usage; the gloss foreknowledge is itself neutral between prior knowing and effective fore-determination. It is not lexically required, since in 1 Pet 1:2 and the cognate verb prognōsis sits beside elective acts."
+      },
+      {
+        "framework": "open_theism",
+        "verdict": "denies",
+        "rationale": "Must re-read Isa 14:24 kaasher damah ken hayatah and Isa 46:10 atsati taqum, plus Prov 19:21 atsat YHWH taqum, as conditional rather than as the settled qal perfect plus qal imperfect of standing they morphologically are. The pan-canonical pattern of an unfailing, already-purposed counsel that qum (stands) is the chief lexical obstacle to this lens, which is why it scores as a denial here rather than a partial reading."
+      }
+    ],
+    "notes": "The proposition states two clauses (an eternal effective decree, and real creaturely responsibility) that the texts place side by side without discursive reconciliation. The lenses differ on how to relate them and on the EXTENT of the decree, but all four agree the words assert an effective divine purpose. The unresolved item is scope and mode, which the vocabulary underdetermines, not the existence of the decree."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "God's prior purpose stands behind what occurs in history, while human and angelic agents act with real responsibility and culpability.",
+    "notes": "The phrase whatsoever comes to pass, in a way consistent with creaturely responsibility is a confessional cadence and encodes both a comprehensive-extent claim and a compatibility claim. The lexical evidence (Acts 2:23, Acts 4:27-28, Eph 1:11, Isa 14:24, Isa 46:10, Prov 19:21, Gen 50:20, Luke 22:22) fits the neutralized form fully and fits the original except that the words do not themselves rank the EXTENT of the decree (all events versus the redemptive purpose); proorizō stays soteriological in all 5 occurrences while only energeō ta panta reaches all things. The verdict is rendered on the original stem and holds, because the proposition asks whether such an effective, responsibility-compatible decree is asserted, and the vocabulary asserts it; the open scope question is recorded for transparency, not as a defeater."
+  },
+  "lay_summary": "The Bible's vocabulary for God's planning is dense, recurring, and pan-canonical. In Acts 2:23 Peter says Jesus was handed over by God's fixed counsel and foreknowledge, using a perfect-passive form of horizo (mark out, fix) with boule (counsel) and prognosis (foreknowledge), and in the same breath tells the crowd they killed him. Acts 4:27-28 names Herod, Pilate, the Gentiles, and the peoples of Israel as the ones who actually gathered, then says they did whatever God's hand and counsel had determined beforehand to happen. Ephesians 1:11 says God works all things, ta panta, according to the counsel of his will. In the Old Testament Isaiah 14:24, Isaiah 46:10, and Proverbs 19:21 repeat one cadence: as God has purposed, so it will stand, using etsah (counsel) with qum (to stand). Genesis 50:20 shows the responsibility side with one verb and two subjects, you devised evil but God devised it for good. So the words clearly assert two things at once, an effective prior purpose and real, accountable human action, and they never explain how the two fit. That dual assertion is exactly what the proposition states, so the verdict is yes, with high confidence, because the lemma cluster spans law, prophets, writings, gospel, narrative, and letter and the strongest verses pair both clauses in one sentence. Where careful readers diverge is not whether God decrees, but how far it reaches. The strict predestination verb proorizo, in all five of its uses, governs salvation and the elect, while the reach to every event hangs on the broader phrase God works all things, which the words do not pin down to literally everything versus everything tied to his saving plan. And the word foreknowledge appears only twice, too few times to settle whether it means prior knowing or effective fore-determining. Those are the genuine open seams, and they come from the words themselves, not from any outside frame.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.2.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.4.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.1.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.22.22"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.14.24"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.46.10"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.19.21"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.50.20"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4268"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4286"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1012"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3724"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6098"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3289"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1819"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2656"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.14.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Eph.1.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.14.24"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.2.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.4.28"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek and ETCBC-BHSA under CC-BY-NC-4.0, which forbids bulk redistribution. The MACULA-Greek morphology (perfect-passive horizō in Acts 2:23 and Luke 22:22, the proorao versus proorizo tag at Acts 4:28, and the energeō present participle plus ta panta in Eph 1:11) and the ETCBC clause structure for Isa 14:24 are load-bearing for the verdict and cannot be omitted."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

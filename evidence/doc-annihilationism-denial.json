@@ -1,0 +1,705 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-annihilationism-denial",
+  "question_id": "doc-annihilationism-denial",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.975,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two text-grounded lexical patterns coexist and the vocabulary does not rank them. Pattern A, ongoing conscious punishment: basanisthesontai eis tous aionas ton aionon (Rev 20:10) paired with ouk echousin anapausin hemeras kai nyktos (Rev 14:11), the durative double negation ou teleuta and ou sbennytai in Mark 9:48, and the strict grammatical parallel of kolasin aionion with zoen aionion in Matt 25:46 where one adjective aionios governs both nouns. Pattern B, terminal destruction or cessation: the active apollesai of both psyche and soma in gehenna (Matt 10:28, with apollymi attested 93 times across the NT and ordinarily denoting ruin or loss), olethron aionion in 2 Thess 1:9, the apoleia word-group (19 NT occurrences, Phil 3:19, 2 Pet 3:7), the explicit gloss of the lake of fire as ho thanatos ho deuteros, the second death, in Rev 20:14, and the canon's reservation of athanasia (G0110, 3 occurrences) and aphtharsia for the redeemed alone, with Dan 12:2 carrying deraon, a hapax-class noun shared only with Isa 66:24 whose imagery acts on pegarim, corpses. The pivotal adjective aionios (69 NT, 71 with anchor count) is genuinely two-valued, lexically durative in some contexts and qualitative of the age in others. Both patterns are defensible from the words on the page, so the lexical evidence supports the stem on its strongest texts but is materially contested by the destruction vocabulary."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0929",
+        "lemma": "βασανισμός",
+        "transliteration": "basanismos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 71,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2851",
+        "lemma": "κόλασις",
+        "transliteration": "kolasis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4663",
+        "lemma": "σκώληξ",
+        "transliteration": "skolex",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4570",
+        "lemma": "σβέννυμι",
+        "transliteration": "sbennumi",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5053",
+        "lemma": "τελευτάω",
+        "transliteration": "teleutao",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2586",
+        "lemma": "καπνός",
+        "transliteration": "kapnos",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0372",
+        "lemma": "ἀνάπαυσις",
+        "transliteration": "anapausis",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0622",
+        "lemma": "ἀπόλλυμι",
+        "transliteration": "apollymi",
+        "occurrences_in_canon": 93,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3639",
+        "lemma": "ὄλεθρος",
+        "transliteration": "olethros",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0684",
+        "lemma": "ἀπώλεια",
+        "transliteration": "apoleia",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 120,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0110",
+        "lemma": "ἀθανασία",
+        "transliteration": "athanasia",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5356",
+        "lemma": "φθορά",
+        "transliteration": "phthora",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "H1860",
+        "lemma": "דֵּרָאוֹן",
+        "transliteration": "deraon",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5769",
+        "lemma": "עוֹלָם",
+        "transliteration": "olam",
+        "occurrences_in_canon": 439,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2416",
+        "lemma": "חַי",
+        "transliteration": "chay",
+        "occurrences_in_canon": 503,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0929",
+      "G0928",
+      "G0166",
+      "G0165",
+      "G2851",
+      "G4663",
+      "G4570",
+      "G5053",
+      "G2586",
+      "G0372",
+      "G0622",
+      "G3639",
+      "G0684",
+      "G2288",
+      "G0110",
+      "G5356",
+      "H1860",
+      "H5769",
+      "H2416",
+      "H6297"
+    ],
+    "scripture": [
+      {
+        "ref": "Rev.20.10",
+        "key_terms": [
+          {
+            "strong": "G0929",
+            "lemma": "βασανισμός"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          }
+        ],
+        "force": "The verb basanisthesontai is future passive of basanizo, to torment, and is governed by the unbounded temporal phrase eis tous aionas ton aionon, unto the ages of the ages, the strongest duration formula the canon possesses. The grammatical subject is a personal triad, ho diabolos, to therion, ho pseudoprophetes, already cast eis ten limnen tou pyros. A future passive verb of torment with an open-ended ages-of-ages phrase reads most naturally as durative ongoing experience, not instantaneous extinction. This is the strongest single text for the stem.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "Rev.20.10"
+      },
+      {
+        "ref": "Rev.14.11",
+        "key_terms": [
+          {
+            "strong": "G2586",
+            "lemma": "καπνός"
+          },
+          {
+            "strong": "G0372",
+            "lemma": "ἀνάπαυσις"
+          },
+          {
+            "strong": "G0929",
+            "lemma": "βασανισμός"
+          }
+        ],
+        "force": "ho kapnos tou basanismou auton eis aionas aionon anabainei, the smoke of their torment goes up unto ages of ages, coupled with ouk echousin anapausin hemeras kai nyktos, they have no rest day and night. The negated anapausis with the merism hemeras kai nyktos predicates an unceasing experiential state of the worshippers. This favors the stem. The rising-smoke image also draws on Isa 34:10 (Edom) and Gen 19:28 (Sodom), where the smoke marks a completed destruction whose memorial endures, which is why the verse is also pressed by the destruction reading.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "Rev.14.11"
+      },
+      {
+        "ref": "Matt.25.46",
+        "key_terms": [
+          {
+            "strong": "G2851",
+            "lemma": "κόλασις"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          }
+        ],
+        "force": "kolasin aionion stands in strict syntactic parallel with zoen aionion within a single antithetic clause, the lone adjective aionios governing both nouns. The construction means whatever duration is predicated of the life is predicated of the punishment. The complication is lexical, not syntactic: whether kolasis (only 2 NT occurrences, here and 1 John 4:18) denotes the ongoing act of punishing or the resultant state of having been punished, and whether aionios is durative (everlasting) or qualitative (of the coming age).",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Matt.25.46"
+      },
+      {
+        "ref": "Mark.9.48",
+        "key_terms": [
+          {
+            "strong": "G4663",
+            "lemma": "σκώληξ"
+          },
+          {
+            "strong": "G4570",
+            "lemma": "σβέννυμι"
+          },
+          {
+            "strong": "G5053",
+            "lemma": "τελευτάω"
+          }
+        ],
+        "force": "Two coordinated negated presents, ho skolex auton ou teleuta kai to pyr ou sbennytai, the worm does not die and the fire is not quenched, asserts perpetuity of the agents of judgment. The clause is a direct citation of Isa 66:24 LXX. Whether the perpetuity attaches to a conscious sufferer or only to the unquenchable means of destruction is exactly the disputed point, because the source text describes the agents working on dead bodies. The text fixes the agents as undying and unquenched but does not by itself fix the object's mode of presence.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Mark.9.48"
+      },
+      {
+        "ref": "Dan.12.2",
+        "key_terms": [
+          {
+            "strong": "H1860",
+            "lemma": "דֵּרָאוֹן"
+          },
+          {
+            "strong": "H5769",
+            "lemma": "עוֹלָם"
+          },
+          {
+            "strong": "H2416",
+            "lemma": "חַי"
+          }
+        ],
+        "force": "The resurrection of the rabbim divides into lechayye olam, to everlasting life, and lecherpot ledeeraon olam, to reproach and everlasting abhorrence. The single qualifier olam stands over both destinies in poetic parallel, so the duration assigned to the chayyim of the righteous is the duration assigned to the cherpah and deraon of the wicked. The noun deraon is a hapax-class lexeme, occurring only here and in Isa 66:24, binding the Daniel resurrection oracle directly to the worm-and-fire imagery. The post-resurrection setting argues against simple cessation, but deraon denotes abhorrence or aversion (something looked upon) rather than torment, so the term does not by itself specify ongoing consciousness of the abhorred.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.66.24",
+        "key_terms": [
+          {
+            "strong": "H1860",
+            "lemma": "דֵּרָאוֹן"
+          },
+          {
+            "strong": "H6297",
+            "lemma": "פֶּגֶר"
+          }
+        ],
+        "force": "The source-image quoted by Mark 9:48. The onlookers gaze on the pegarim, the corpses, of the rebels, whose worm does not die and whose fire is not quenched. The objects of the undying worm and unquenched fire are explicitly dead bodies (pegarim, root pgr, a strong concrete noun for slain corpses), not living conscious persons. This is the principal lexical anchor for the destruction reading, because the deathless worm consumes the slain rather than tormenting the awake. A durative reading must argue that the NT transposes the imagery from completed slaughter to a conscious post-resurrection state.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.10.28",
+        "key_terms": [
+          {
+            "strong": "G0622",
+            "lemma": "ἀπόλλυμι"
+          },
+          {
+            "strong": "G1067",
+            "lemma": "γέεννα"
+          }
+        ],
+        "force": "apolesai active aorist infinitive with God as agent and both psyche and soma as direct objects in gehenna. The verb apollymi occurs 93 times across the NT and carries a sense-range from render-lost or ruin (John 6:12 of fragments, John 17:12 ho huios tes apoleias) to destroy or put to death (Matt 2:13 Herod seeks the child apolesai, Matt 27:20). The collocation here, apolesai both soul and body in gehenna with God as agent, sits at the destruction end of the range. The eternal-torment reading takes apollymi here in the metaphorical sense of ruining a person's flourishing without extinguishing existence; the destruction reading takes it at the strong sense of putting out of existence. The lexeme allows both, with the gehenna context pressing toward the strong sense without forcing it.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.1.9",
+        "key_terms": [
+          {
+            "strong": "G3639",
+            "lemma": "ὄλεθρος"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "olethron aionion apo prosopou tou kyriou. The head noun is olethros (4 NT occurrences: here, 1 Cor 5:5, 1 Thess 5:3, 1 Tim 6:9), a destruction or ruin word, not a torment word. A destruction reading takes aionios as qualifying an irreversible outcome, eternal in result. A durative reading answers that aionios in 2 Thess 1:9 functions adjectivally as in Matt 25:46 and need not collapse into cessation; olethros can denote ruinous separation from the Lord's presence (the prepositional phrase apo prosopou) rather than extinction. The lexeme alone does not decide.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.14",
+        "key_terms": [
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G3041",
+            "lemma": "λίμνη"
+          }
+        ],
+        "force": "ho thanatos kai ho hades eblethesan eis ten limnen tou pyros. houtos ho thanatos ho deuteros estin, he limne tou pyros. The text supplies an explicit lexical gloss: the lake of fire IS the second death (thanatos). Thanatos is the canon's primary death word (120 NT occurrences) and ordinarily denotes the cessation of biological life. The destruction reading presses this as a decisive identification: whatever the lake of fire is, the apostle defines it as a death, not as an unending vital state. The eternal-torment reading answers that Rev 20:10 has just predicated unending torment of the personal triad cast into the same lake, so deuteros thanatos must be a metaphorical death-state of ongoing alienation rather than literal cessation. The gloss is real and the reconciliation must be argued.",
+        "supports": "complicates",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.53",
+        "key_terms": [
+          {
+            "strong": "G0110",
+            "lemma": "ἀθανασία"
+          },
+          {
+            "strong": "G0861",
+            "lemma": "ἀφθαρσία"
+          }
+        ],
+        "force": "dei gar to phtharton touto endusasthai aphtharsian kai to thneton touto endusasthai athanasian. The terms athanasia (immortality, 3 NT occurrences: here, 1 Cor 15:54, 1 Tim 6:16 of God alone) and aphtharsia (incorruption) are predicated of the redeemed at the resurrection. The destruction reading takes the canon's restriction of athanasia to God and to the redeemed (conditional immortality) as a structural argument that the unredeemed do not naturally possess unending existence. The eternal-torment reading answers that athanasia is here a positive-quality term for the glorified body, not a metaphysical claim that the lost cease to exist. The text supports conditional immortality lexically without contradicting either eschatology.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.23",
+        "key_terms": [
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "ta gar opsonia tes hamartias thanatos, to de charisma tou theou zoe aionios. The Pauline antithesis sets thanatos (death) against zoe aionios (eternal life), not against zoe basanismou aioniou (eternal life of torment). The contrast term for unending life is death itself. The destruction reading takes this as the canon's own lexical opposition. The eternal-torment reading takes thanatos here as the present consequence of sin (cf. Rom 5:12) leaving the mode of the final state to be specified by other texts. The asymmetry is real: the wage of sin is not named as eternal punishment but as death.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rev.14.11",
+        "to": "Deut.28.65",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Isa.66.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Job.19.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.25.46",
+        "to": "Matt.13.43",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.25.46",
+        "to": "Matt.25.41",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.14.11",
+        "to": "Rev.18.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.14.11",
+        "to": "Rev.4.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.9.48",
+        "to": "Isa.66.24",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.10",
+        "to": "Rev.20.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.14",
+        "to": "Rev.21.8",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Isa.66.24",
+        "addressed": true,
+        "resolution": "The undying worm and unquenched fire in the Markan source act on pegarim, corpses. A durative reading must argue that Mark transposes the imagery from completed slaughter onto the conscious post-resurrection state, since Dan 12:2, which shares the rare noun deraon with Isa 66:24, locates the abhorrence after resurrection. The transfer is plausible but not lexically forced, which is part of why the verdict is disputed."
+      },
+      {
+        "ref": "2Thess.1.9",
+        "addressed": true,
+        "resolution": "olethron aionion. olethros (4 NT occurrences) denotes ruin or destruction, not torment. A destruction reading takes aionios here as qualifying an irreversible outcome, eternal in result. A durative reading takes olethros as ruinous separation from the Lord's presence (apo prosopou) rather than extinction, with aionios functioning adverbially as in Matt 25:46. Neither reading is lexically excluded."
+      },
+      {
+        "ref": "Matt.10.28",
+        "addressed": true,
+        "resolution": "apolesai active aorist of apollymi with God as agent and both psyche and soma as objects in gehenna. The verb's 93-occurrence canon range spans render-lost (John 6:12 of fragments) and put-to-death (Matt 2:13 of Herod's intent toward the child), so the verbal sense in Matt 10:28 is genuinely two-valued. The gehenna setting and the collocation of soul-and-body presses toward the strong sense (extinction of the whole person) without lexically forcing it, since apollymi is also used metaphorically of ruined flourishing in the Johannine 'lose oneself' idiom. This is the strongest single destruction-language datum against the stem."
+      },
+      {
+        "ref": "Rev.20.14",
+        "addressed": true,
+        "resolution": "houtos ho thanatos ho deuteros estin, he limne tou pyros. The clause identifies the lake of fire as the second death (thanatos, the canon's primary cessation-of-life word). A destruction reading takes the apostle's own gloss as decisive: the final state IS a death. A durative reading must argue that Rev 20:10, which predicates basanisthesontai eis tous aionas ton aionon of the personal triad in the same lake, forces a metaphorical sense of thanatos here (separation, alienation from the source of life) rather than cessation. The text supplies the gloss and supplies the tension simultaneously."
+      },
+      {
+        "ref": "1Cor.15.53",
+        "addressed": true,
+        "resolution": "The canon attests athanasia (G0110, 3 occurrences) only of God (1 Tim 6:16) and of the redeemed at resurrection (1 Cor 15:53 to 54). A conditional-immortality reading takes this restriction as structural: the unredeemed do not naturally possess unending existence, so destruction of the lost is the default lexical expectation. A durative reading takes athanasia as a positive-quality term for glorified bodily life, not a metaphysical claim about who exists. Both can be sustained; the texts say what they say about the redeemed and leave the negative case to inference."
+      },
+      {
+        "ref": "Rom.6.23",
+        "addressed": true,
+        "resolution": "thanatos against zoe aionios. The Pauline antithesis names the wage of sin as thanatos, not as kolasis aionios or basanismos. A destruction reading takes the contrast term as the canon's own naming of the negative outcome: death, not unending pain. A durative reading reads thanatos here as the present penalty of sin (Rom 5:12) whose final mode is specified by other texts (Rev 14:11, 20:10). The lexical asymmetry is real and is recorded honestly."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.9.43",
+        "variant_id": "mark-9-44-46-omission",
+        "verdict_impact": "none",
+        "note": "Verses 44 and 46, which repeat the worm-and-fire refrain, are absent from the earliest witnesses and are widely regarded as harmonizations from v.48. Their omission does not change the verdict because v.48 retains the refrain in all major texts."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units supplied in the bundle for the anchor verses. Rev 20:10, Rev 14:11, Matt 25:46, Dan 12:2, and Mark 9:48 are outside the open-cbgm 3 John sample, so CBGM was not consulted. The verdict-relevant clauses in all anchors are textually stable in the principal critical editions."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "traditionalist_eternal_conscious_torment",
+      "conditional_immortality",
+      "annihilationism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "traditionalist_eternal_conscious_torment",
+        "verdict": "affirms",
+        "rationale": "Reads basanisthesontai eis tous aionas ton aionon (Rev 20:10), ouk echousin anapausin hemeras kai nyktos (Rev 14:11), ou teleuta and ou sbennytai (Mark 9:48), the aionios parallel in Matt 25:46, and the post-resurrection deraon olam of Dan 12:2 as predicating unending conscious experience of the punished. Treats apollymi in Matt 10:28 in the metaphorical sense of ruining a person's flourishing, olethros in 2 Thess 1:9 as ruinous separation rather than extinction, and the second death of Rev 20:14 as the apostolic metaphor for the alienated state of those already named as tormented in Rev 20:10."
+      },
+      {
+        "framework": "conditional_immortality",
+        "verdict": "disputes",
+        "rationale": "Reads the canon's reservation of athanasia (1 Cor 15:53 to 54, 1 Tim 6:16) and aphtharsia for the redeemed as structural: immortality is a gift to believers, not a natural endowment of every human soul. The wages of sin in Rom 6:23 is thanatos, set in contrast to zoe aionios, with thanatos as the canon's primary cessation-of-life word. The lost therefore cease, not because the destruction language is metaphorical but because they were never made unending."
+      },
+      {
+        "framework": "annihilationism",
+        "verdict": "disputes",
+        "rationale": "Reads apollymi active in Matt 10:28 at its strong sense of putting out of existence, olethros in 2 Thess 1:9 and apoleia (Phil 3:19, 2 Pet 3:7) as terminal destruction, the Isa 66:24 worm-and-fire as acting on pegarim, corpses, the Sodom and Edom smoke-imagery as memorial of completed ruin rather than ongoing burning, and the explicit second death gloss of Rev 20:14 as the apostle's own identification of the lake of fire. Construes aionios as qualifying permanence of result (eternal in effect, as the Sodom fire in Jude 7 is now extinct yet aionios), so the wicked are destroyed rather than kept conscious."
+      }
+    ],
+    "notes": "All three frameworks read the same lexemes (aionios, basanismos, apollymi, olethros, thanatos, athanasia, skolex) in opposite directions. The decision turns on the sense selected for aionios (durative or qualitative), on whether torment-verbs and destruction-verbs describe one process or two phases, and on whether the canon's restriction of athanasia to the redeemed is structural or merely a positive-quality term. The lexical data underdetermines the choice, hence the disputed verdict."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Describe the lexical force of the final-state passages for the unjust (Matt 25:46 kolasin aionion, Rev 14:11 and 20:10 basanismos and basanizo, Mark 9:48 undying worm, Dan 12:2 deraon olam) alongside the destruction word-family (apollymi in Matt 10:28, olethros in 2 Thess 1:9, apoleia, the second death gloss of Rev 20:14, and the canon's reservation of athanasia to the redeemed) and report whether Scripture's language indicates ongoing conscious punishment, terminal destruction of the person, or is materially contested between the two.",
+    "notes": "The stem 'the wicked are not ultimately destroyed and reduced to non-existence; the punishment of the unjust in the final state is conscious and ongoing' is a denial-stem that builds in the eternal-conscious conclusion and prejudges the destruction word-family as non-literal. It also selects a contested sense of aionios (durative) without arguing for it. The neutralized form names the texts on both sides without presupposing which reading wins. The verdict is derived on the original stem and returned disputed precisely because the neutral framing exposes a live lexical contest in which the destruction terminology, expanded in this pass to include apollymi (93 NT), apoleia (19), thanatos (120, with the Rev 20:14 gloss), and athanasia (3, restricted to God and the redeemed), is genuinely defensible from the words on the page. Verdict held consistent with the sibling doc-eternal-conscious-torment evidence, which records the same lexical contest from the opposite stem direction."
+  },
+  "lay_summary": "This question asks whether the Bible's words about the final fate of the wicked describe punishment that is conscious and unending, or whether the wicked are finally destroyed and cease to exist. The strongest torment words point toward ongoing conscious punishment. Revelation 20:10 says they will be tormented to the ages of the ages. Revelation 14:11 says the smoke of their torment rises and they have no rest day or night. Mark 9:48 says the worm does not die and the fire is not quenched. Matthew 25:46 sets eternal punishment in the same grammar as eternal life, so one word for duration covers both. Daniel 12:2 sets everlasting life beside everlasting abhorrence for the raised dead. Read together these favor punishment that continues. But the picture is contested by another set of words. The verb in Matthew 10:28 says God can destroy both soul and body in gehenna, and across the New Testament this verb spans senses from render lost to put to death. Second Thessalonians 1:9 calls the end eternal destruction, using a ruin word rather than a torment word. Revelation 20:14 gives its own gloss of the lake of fire, calling it the second death, using the canon's primary word for the end of life. Romans 6:23 names the wage of sin as death, set against eternal life, not as eternal torment. The word for immortality appears only three times in the New Testament and is granted only to God and to the redeemed at resurrection, suggesting that unending existence is a gift, not a default. The worm-and-fire image in Mark comes from Isaiah 66:24 where the worm and fire act on corpses, not living sufferers. The adjective translated eternal can mean either lasting forever or belonging to the age to come, and Sodom is called an example of eternal fire even though it is no longer burning. The same vocabulary is honestly pulled in two directions. Both readings can be built from the words on the page, so the lexical evidence is best recorded as disputed, with the torment passages reading naturally as ongoing experience and the destruction vocabulary reading naturally as terminal end.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.25.46"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.9.48"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.10.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.6.23"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.66.24"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0166"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2851"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0622"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3639"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0110"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2288"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1860"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Mark.9.48"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rev.20.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA syntactic data for Dan.12.2 is licensed CC-BY-NC-4.0 (non-commercial, redistribute=false), which makes the assembled evidence non-redistributable in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

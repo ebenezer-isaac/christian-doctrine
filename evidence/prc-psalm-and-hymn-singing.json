@@ -1,0 +1,663 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-psalm-and-hymn-singing",
+  "question_id": "prc-psalm-and-hymn-singing",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.95,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The command to sing praise to God is lexically unambiguous and pan-canonical: Ps 100:1-2 stacks three imperatives (H7321 shout, H5647+H8057 serve with gladness, H0935+H7445 come with ringing song), and Eph 5:19 and Col 3:16 hang the participles ado (G0103) and psallo (G5567) on the governing imperatives pleroustho (Eph 5:18) and enoiketo (Col 3:16). Additional NT verbs hymneo (G5214) at Matt 26:30, Mark 14:26, Acts 16:25 and Heb 2:12 and the 'each one has a psalmos' construction at 1 Cor 14:26 (ekastos psalmon echei) confirm congregational sung praise as commanded NT practice. What the lexical pattern does NOT settle is the scope claim embedded in the proposition. The three nouns psalmos (G5568), hymnos (G5215), and ode (G5603) all attach to canonical psalms in the LXX (psalmos and ode as Psalter superscriptions; hymnos as Ps 72:20 LXX). The triad can be read either as three labels for the inspired Psalter, or as three distinct genres one of which (hymnos) is non-Psalter composition. The morphology and Greek lexicon alone do not adjudicate. Hence affirms is disputed on the precise proposition as worded while the singing core is affirmed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5215",
+        "lemma": "ὕμνος",
+        "transliteration": "hymnos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5603",
+        "lemma": "ᾠδή",
+        "transliteration": "ode",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5214",
+        "lemma": "ὑμνέω",
+        "transliteration": "hymneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5567",
+        "lemma": "ψάλλω",
+        "transliteration": "psallo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0103",
+        "lemma": "ᾄδω",
+        "transliteration": "ado",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4152",
+        "lemma": "πνευματικός",
+        "transliteration": "pneumatikos",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1774",
+        "lemma": "ἐνοικέω",
+        "transliteration": "enoikeo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1321",
+        "lemma": "διδάσκω",
+        "transliteration": "didasko",
+        "occurrences_in_canon": 98,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "noutheteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2537",
+        "lemma": "καινός",
+        "transliteration": "kainos",
+        "occurrences_in_canon": 44,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7891",
+        "lemma": "שִׁיר",
+        "transliteration": "shir",
+        "occurrences_in_canon": 71,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2167",
+        "lemma": "זָמַר",
+        "transliteration": "zamar",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "H8416",
+        "lemma": "תְּהִלָּה",
+        "transliteration": "tehillah",
+        "occurrences_in_canon": 47,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7321",
+        "lemma": "רוּעַ",
+        "transliteration": "rua",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7445",
+        "lemma": "רְנָנָה",
+        "transliteration": "renanah",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8057",
+        "lemma": "שִׂמְחָה",
+        "transliteration": "simchah",
+        "occurrences_in_canon": 84,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G5568",
+      "G5215",
+      "G5603",
+      "G5214",
+      "G5567",
+      "G0103",
+      "G4152",
+      "G1774",
+      "G1321",
+      "G3560",
+      "G2537",
+      "H7891",
+      "H2167",
+      "H8416",
+      "H7321",
+      "H7445",
+      "H8057"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.5.19",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G5215",
+            "lemma": "ὕμνος"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          },
+          {
+            "strong": "G4152",
+            "lemma": "πνευματικός"
+          },
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          },
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          }
+        ],
+        "force": "Three datives psalmois, hymnois, and odais pneumatikais stand in series as the means of mutual address (laloontes heautois), with the participles ado (singing) and psallo (making melody) dependent on the prior imperative in v.18 pleroustho en pneumati (be filled with the Spirit). The force is hortatory: congregational singing is enjoined. The adjective pneumatikais is morphologically feminine plural and so attaches grammatically only to odais (also feminine), although by sense it can govern the whole triad. The three nouns themselves are not lexically defined in context, so whether they mark three distinct genres or three Psalter labels is left open by the syntax.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.16",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G5215",
+            "lemma": "ὕμνος"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          },
+          {
+            "strong": "G4152",
+            "lemma": "πνευματικός"
+          },
+          {
+            "strong": "G1321",
+            "lemma": "διδάσκω"
+          },
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          },
+          {
+            "strong": "G1774",
+            "lemma": "ἐνοικέω"
+          },
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          }
+        ],
+        "force": "The governing imperative enoiketo (let the word of Christ dwell richly, plousios) is filled out by the participles didasko and noutheteo, with psalmois, hymnois, and odais pneumatikais as the dative instrument of that mutual teaching and admonishing, capped by ado en te chariti en tais kardiais hymon to theo. The didactic verbs tie sung praise to instruction, which suits content of real doctrinal weight. As in Ephesians the three nouns are listed without lexical definition, and the parallel construction reinforces both readings (Psalter triad vs three genres).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.100.1",
+        "key_terms": [
+          {
+            "strong": "H7321",
+            "lemma": "רוּעַ"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H4210",
+            "lemma": "מִזְמוֹר"
+          }
+        ],
+        "force": "The opening imperative hariu (make a joyful shout, H7321 Hiphil imperative) is addressed to all the earth (kol haarets), with the superscription mizmor letodah (a psalm for thanksgiving) framing the whole. The verbal command to vocal praise is direct and universal in address, establishing the OT command-to-sing baseline that the NT participles in Eph 5:19 and Col 3:16 inherit.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.100.2",
+        "key_terms": [
+          {
+            "strong": "H5647",
+            "lemma": "עָבַד"
+          },
+          {
+            "strong": "H8057",
+            "lemma": "שִׂמְחָה"
+          },
+          {
+            "strong": "H7445",
+            "lemma": "רְנָנָה"
+          },
+          {
+            "strong": "H0935",
+            "lemma": "בּוֹא"
+          }
+        ],
+        "force": "Three imperatives: ivdu et YHWH besimcha (serve YHWH with gladness), bou lefanav birnanah (come before him with ringing song). The pairing of joyful corporate service with sung approach shows worship-song as enjoined corporate response, reinforcing that singing praise is commanded, not merely permitted.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.26",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          }
+        ],
+        "force": "When you come together hekastos psalmon echei, didachen echei, apokalypsin echei (each one has a psalm, a teaching, a revelation). The verb echei (G2192 present active) with hekastos describes individual contributions brought to the assembly; psalmos here stands alongside teaching and revelation as something one brings, which on the surface reads more naturally as a contributed sung composition than as a recitation of a Psalter text. This is the strongest NT lexical datum that psalmos in the NT vocabulary can name something composed, not solely a canonical Psalm.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.30",
+        "key_terms": [
+          {
+            "strong": "G5214",
+            "lemma": "ὑμνέω"
+          }
+        ],
+        "force": "Kai hymnesantes exelthon eis to oros ton elaion (and having hymned they went out to the Mount of Olives). The aorist participle of hymneo (G5214) names the Last Supper sung praise. The verb cognate to hymnos (G5215) is used here without specifying content, but the Passover liturgical setting makes the Hallel psalms (Ps 113-118) the natural referent. The verse documents NT congregational hymning as a fact of Jesus' own practice.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.25",
+        "key_terms": [
+          {
+            "strong": "G5214",
+            "lemma": "ὑμνέω"
+          }
+        ],
+        "force": "Paulos kai Silas proseuchomenoi hymnoun ton theon (Paul and Silas praying were hymning God). The imperfect of hymneo (G5214) describes sustained sung praise by two NT apostles in prison. The content is not specified; the practice is recorded as ordinary NT worship.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.13",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          }
+        ],
+        "force": "Euthumei tis? psalleto (Is anyone cheerful? Let them make melody/sing-psalm). The third-person singular imperative of psallo (G5567) is the NT command that pairs joy with sung response, parallel to Eph 5:19 psallontes. The verb's range covers both 'play a stringed instrument' and 'sing a psalm', and the absence of a specified object leaves content underdetermined.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.9",
+        "key_terms": [
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          },
+          {
+            "strong": "G2537",
+            "lemma": "καινός"
+          }
+        ],
+        "force": "Adousin oden kainen (they sing a new song). The collocation of ado and ode with kainos picks up the OT pattern shiru lYHWH shir chadash at Ps 33:3, 96:1, 98:1, 149:1, Isa 42:10. The heavenly song is sung with explicit content (worthy is the Lamb), so in the NT use ode is not restricted to the OT Psalter; a 'new song' is composed and sung in response to the slain Lamb. This is decisive lexical evidence that ode (G5603) in NT use names sung praise that is not coextensive with the canonical Psalter.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.2.12",
+        "key_terms": [
+          {
+            "strong": "G5214",
+            "lemma": "ὑμνέω"
+          }
+        ],
+        "force": "En meso ekklesias hymneso se (in the midst of the congregation I will hymn you). Heb 2:12 quotes Ps 22:22 LXX, putting hymneo (G5214) on the lips of Christ as the leader of congregational praise. This both grounds NT hymning in the Psalter and connects the verb hymneo to ecclesial sung praise as Christological practice.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.95.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.47.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "1Chr.25.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Col.4.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.100.1",
+        "to": "Ps.32.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.100.2",
+        "to": "Ps.42.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.100.2",
+        "to": "Ps.63.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ps.100.1",
+        "to": "Ps.67.4",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Eph.5.19",
+        "addressed": true,
+        "resolution": "The same verse that commands congregational singing is the chief proof-text for the exclusive-psalmody minority reading. Because psalmos, hymnos, and ode all attach to canonical psalms in the LXX (psalmos in superscriptions like Ps 3, 4, 5; ode in Ps 4, 18, 30; hymnos at Ps 72:20 LXX), the threefold list can be read as a triple designation of the inspired Psalter rather than as three distinct genres. Lexical data permits both the inclusive reading (three categories, only one of which is the Psalter) and the restrictive reading (three Psalter labels). The matter is not dissolved at the morphology layer."
+      },
+      {
+        "ref": "Col.3.16",
+        "addressed": true,
+        "resolution": "Parallel to Ephesians, the identical three-noun series with pneumatikais governs the dispute. The didactic verbs didasko (G1321) and noutheteo (G3560) establish that sung content carries doctrinal instruction, which one reading takes as favoring richly composed hymns and the other reading takes as describing the canonical Psalter teaching the church. The morphology and lexicon do not adjudicate."
+      },
+      {
+        "ref": "1Cor.14.26",
+        "addressed": true,
+        "resolution": "Ekastos psalmon echei (each one has a psalmos) construes psalmos as something individually brought, which weighs against the restrictive Psalter-only reading of the noun. However, exclusive-psalmody advocates respond that 'has a psalm' could still mean 'has a psalm to offer from the Psalter' (i.e. has memorized and presents). The construction reduces but does not eliminate the ambiguity in the NT use of psalmos."
+      },
+      {
+        "ref": "Rev.5.9",
+        "addressed": true,
+        "resolution": "Adousin oden kainen (they sing a new song) with specified non-Psalter content is the strongest lexical argument that ode (G5603) in NT use is not coextensive with the canonical Psalter. The minority response is that Rev 5:9 records a heavenly, eschatological song that does not licence congregational composition in time. The lexical pattern itself favors the inclusive reading but does not, by morphology alone, settle whether earthly congregational use of non-Psalter ode is commanded."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The supplied bundle lists no variant units for Eph 5:19, Col 3:16, Ps 100:1-2. The SBLGNT apparatus marks on Eph 5:19 (the precise placement of pneumatikais) and Col 3:16 (en vs no en before psalmois; theo vs kyrio at clause close) touch arrangement of vocabulary, not the presence of the three song-nouns. No plausible variant reading would change the verdict on the singing core or on the scope question. ECM is not in scope for these books outside 3 John."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "regulative_principle_of_worship",
+      "normative_principle_of_worship",
+      "exclusive_psalmody"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "exclusive_psalmody",
+        "verdict": "false",
+        "rationale": "Psalmos (G5568), hymnos (G5215), and ode (G5603) are read as three LXX titles for canonical psalms, so the Eph 5:19 and Col 3:16 triad commands singing the inspired Psalter and warrants no non-canonical hymn. On this lens the proposition as worded, which expressly includes composed historic hymns and modern songs, is denied. The strongest lexical support for this reading is that all three Greek nouns appear in LXX Psalm superscriptions, and pneumatikais (G4152) is read as 'inspired' (i.e. canonically Spirit-given), restricting the triad to inspired Psalter song."
+      },
+      {
+        "framework": "inclusive_psalmody_and_hymnody",
+        "verdict": "true",
+        "rationale": "The three nouns mark genuinely distinct genres; ode in NT use (Rev 5:9, 14:3, 15:3 paired with kainos) is not coextensive with the Psalter, and 1 Cor 14:26 (ekastos psalmon echei) treats psalmos as an individually contributed item. The didactic verbs didasko and noutheteo in Col 3:16 invite Spirit-shaped composed praise. Hymneo (G5214) at Matt 26:30, Acts 16:25, Heb 2:12 records NT sung praise as ordinary practice. So doctrinally rich hymns and biblically grounded songs are licensed, and congregational singing is commanded."
+      },
+      {
+        "framework": "core_command_to_sing",
+        "verdict": "true",
+        "rationale": "Stripped of the scope dispute, both testaments command congregational sung praise: Ps 100:1-2 OT imperatives hariu, ivdu, bou; Eph 5:19 and Col 3:16 NT participles ado and psallo under the governing imperatives pleroustho and enoiketo; Jas 5:13 psalleto as direct imperative; hymneo (G5214) at Matt 26:30, Mark 14:26, Acts 16:25, Heb 2:12 as descriptive of NT sung praise. The act of singing praise to God is good and commanded on any defensible reading of the words."
+      }
+    ],
+    "notes": "The verdict turns not on whether singing is commanded (it plainly is, OT and NT) but on the scope of admissible song content. The lexical pattern is genuinely contested at the scope layer. Both lenses preserve the singing imperative; they diverge only on whether the triad's nouns include non-Psalter composition."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What kinds of sung material does Scripture command for the gathered people of God, and do the NT terms psalmos (G5568), hymnos (G5215), and ode (G5603) denote three distinct genres or three designations of the canonical Psalter?",
+    "notes": "The original stem bundles an uncontested claim (singing praise to God is good and commanded) with a contested scope claim (that composed historic hymns and modern songs are among what is commanded). The parenthetical pre-decides the exclusive-psalmody dispute in favor of inclusion. The verdict is derived on the original stem, which is why affirms is disputed rather than true: the command core is affirmed but the embedded scope verdict is lexically open."
+  },
+  "lay_summary": "The words behind this question are plain that singing praise to God is commanded, and that command runs through the whole Bible. In Psalm 100 the verbs are direct orders: make a joyful shout, serve with gladness, come before him with ringing song. In Ephesians 5:19 and Colossians 3:16 the acts of singing (ado) and making melody (psallo) hang on the governing commands to be filled with the Spirit and to let the word of Christ dwell richly, so congregational singing is enjoined, not merely allowed. The teaching and admonishing verbs in Colossians tie sung praise to instruction, which fits content of real doctrinal weight. James 5:13 puts the imperative directly: if anyone is cheerful, let them psalm. Matthew 26:30 and Acts 16:25 record Jesus with the Twelve and Paul with Silas actually hymning. Where the words stop short is the precise scope of what may be sung. Both Ephesians and Colossians list the same three nouns: psalmos, hymnos, and spiritual ode. In the Greek Old Testament all three of these words attach to canonical psalms, so the threefold list can be read two ways. One reading takes them as three labels for the inspired Psalter, which would limit sung worship to the Book of Psalms. The other reading takes them as three distinct kinds of song, one of which is freshly composed praise, which would licence rich hymns and biblically grounded songs. Two NT data points push toward the second reading without finally settling it: in 1 Corinthians 14:26 each person in the assembly is said to have a psalmos as something brought (like a teaching or a revelation), and in Revelation 5:9 the heavenly company sings a new song with non-Psalter content (worthy is the Lamb). But the minority reading has answers to both. The morphology, the lexicon, and the cross-references do not by themselves decide. So the act of singing praise is affirmed without reservation, while the specific claim that composed hymns and modern songs are among what is commanded is left genuinely open by the words alone. That is why the overall verdict on this proposition, as it is worded, is recorded as contested rather than settled.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.5.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.26.30"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5568"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5215"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5603"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5214"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5567"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0103"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.100.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.100.2"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7321"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7445"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7891"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2167"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-conversion",
+  "question_id": "doc-conversion",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The conversion vocabulary is dense, stable, and spans the whole canon. In the Greek the verb epistrepho (G1994, to turn) occurs 36 times and in its religious use is consistently a turning to God away from sin or idols, and across the anchor verses the believers are the grammatical subject of an active verb of turning: 1 Thess 1.9 epestrepsate (aorist active indicative 2pl) pros ton theon apo ton eidolon, Acts 3.19 epistrepsate (aorist active imperative 2pl) paired with metanoesate, Acts 26.18 epistrepsai (aorist active infinitive of purpose) apo skotous eis phos, Acts 11.21 epestrepsen (aorist active indicative 3sg) of a great number who had believed. The turning is regularly paired with repentance and faith as its two facets (Mark 1.15 metanoeite kai pisteuete, Acts 20.21 metanoian eis theon kai pistin eis ton kyrion). Behind this stands the Hebrew shuv (H7725), which occurs 1056 times across 950 verses in every section of the canon and supplies the turn-back-to-God call (Jer 3.14, Joel 2.12, Zech 1.3, Mal 3.7, Isa 44.22), so the motif is genuinely pan-canonical and not a single-author idiom. The both gift and act claim is also lexically visible: Lam 5.21 sets the Hiphil hashivenu, turn us (God as agent), beside the Qal venashuv, and we shall return (the people), and Acts 11.18 says God granted the repentance, while 1 Pet 2.25 uses the passive epestraphete, you were turned. The same roots therefore carry both a divine causative and a human active sense, which is exactly the dual agency the proposition states."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1994",
+        "lemma": "ἐπιστρέφω",
+        "transliteration": "epistrepho",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shuv",
+        "occurrences_in_canon": 1056,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0859",
+        "lemma": "ἄφεσις",
+        "transliteration": "aphesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1497",
+        "lemma": "εἴδωλον",
+        "transliteration": "eidolon",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1398",
+        "lemma": "δουλεύω",
+        "transliteration": "douleuo",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1813",
+        "lemma": "ἐξαλείφω",
+        "transliteration": "exaleipho",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1994",
+      "H7725",
+      "G3340",
+      "G4100",
+      "G2316",
+      "G0266",
+      "G0859",
+      "G1497",
+      "G1398",
+      "G1813",
+      "G2819"
+    ],
+    "scripture": [
+      {
+        "ref": "1Thess.1.9",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπεστρέψατε"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεόν"
+          },
+          {
+            "strong": "G1497",
+            "lemma": "εἰδώλων"
+          },
+          {
+            "strong": "G1398",
+            "lemma": "δουλεύειν"
+          }
+        ],
+        "force": "Paul describes the Thessalonians with epestrepsate, parsed aorist active indicative second person plural, you turned, so the converts themselves are the grammatical subject of the verb of turning. The two prepositional phrases set the movement directionally, pros ton theon marking the goal and apo ton eidolon marking the point left behind, so conversion is a turning toward God and away from false worship. The following infinitive douleuein theo zonti kai alethino, to serve the living and true God, states the purpose, so the turn issues in changed allegiance. The active voice with the believers as subject matches the proposition that conversion is the conscious human response.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.3.19",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοήσατε"
+          },
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέψατε"
+          },
+          {
+            "strong": "G1813",
+            "lemma": "ἐξαλειφθῆναι"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτίας"
+          }
+        ],
+        "force": "Peter commands the crowd with two coordinated aorist active imperatives joined by kai, metanoesate kai epistrepsate, repent and turn, both parsed second person plural, so the response holds repentance and turning as one summons rather than two unrelated demands. The purpose phrase pros to exaleiphthenai hymon tas hamartias, toward the blotting out of your sins, links the human turning to the removal of guilt. The pairing of the change of mind verb with the turning verb shows that conversion as a turning includes repentance and is aimed at forgiveness, which is the saving outcome the proposition describes.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.26.18",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέψαι"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσιν"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτιῶν"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πίστει"
+          }
+        ],
+        "force": "Christ states the goal of Paul's mission with epistrepsai, parsed aorist active infinitive, epistrepsai apo skotous eis phos kai tes exousias tou Satana epi ton theon, to turn from darkness to light and from the authority of Satan to God, the same turning verb framed by apo and eis and epi prepositions of movement. The purpose phrase names the receiving of aphesin hamartion, forgiveness of sins, and an inheritance among the sanctified, given pistei te eis eme, by faith in Christ. The turning, the forgiveness, and the faith stand in one purpose chain, so conversion as turning is bound to faith and yields the saving benefits.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.11.21",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπέστρεψεν"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύσας"
+          }
+        ],
+        "force": "Luke reports polys te arithmos ho pisteusas epestrepsen epi ton kyrion, a great number having believed turned to the Lord, joining the aorist active participle pisteusas to the aorist active indicative epestrepsen, both active, so believing and turning describe the one conversion event. The clause is preceded by en cheir kyriou met auton, the hand of the Lord was with them, which places a statement of divine action immediately before the human turning and believing. The single sentence therefore holds together the enabling of the Lord and the responding act of the people, matching the proposition that conversion is both gift of God and act of the believer.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.1.15",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοεῖτε"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύετε"
+          }
+        ],
+        "force": "Jesus opens his preaching with metanoeite kai pisteuete, repent and believe, two present active imperatives joined by kai and addressed to the hearers, which states the two facets of the one summons to turn. Repentance and faith are not ranked or separated here but issued together as the called for response to the gospel, which is the human side of conversion the proposition names. The present imperatives frame this turning as a demanded act of the hearers.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.21",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετάνοιαν"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πίστιν"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεόν"
+          }
+        ],
+        "force": "Paul summarizes his testimony as ten eis theon metanoian kai pistin eis ton kyrion hemon Iesoun, the repentance toward God and faith toward our Lord Jesus, placing the two nouns side by side under one article each with their own directional eis phrase. This is the clearest single statement that the human response divides into the two coordinated facets of repentance directed to God and faith directed to Christ, which is precisely the repentance and faith the proposition couples. The pairing confirms that the turning of conversion is articulated in the canon as these two together.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lam.5.21",
+        "key_terms": [
+          {
+            "strong": "H7725",
+            "lemma": "הֲשִׁיבֵנוּ"
+          }
+        ],
+        "force": "The verse uses the root shuv twice in two different stems within one line. The opening word hashivenu is parsed Hiphil imperative with a first person plural suffix, turn us, with God as the agent of the causative turning, and the answering clause venashuv is parsed Qal imperfect first person plural, and we shall return, with the people as the subject of the simple turning. The same root therefore carries a divine causative sense and a human active sense in immediate succession. This is the lexical seam where the both gift and act claim sits, and it shows the canon itself can express the turning as something God works in people and something the people do.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Zech.1.3",
+        "key_terms": [
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּבוּ"
+          }
+        ],
+        "force": "The Lord says shuvu elay, return to me, with shuvu parsed Qal imperative second person masculine plural addressed to the people, and then ve-ashuv aleykem, and I will return to you, with ashuv parsed Qal imperfect first person common singular of the same root with God as subject. The human turning and the divine turning use the identical root in answering clauses, so the canon frames conversion as a turning the people are commanded to make and a turning God reciprocates. This grounds the New Testament epistrepho call in the older shuv summons and shows the motif is canon wide.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.11.18",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετάνοιαν"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεὸς"
+          }
+        ],
+        "force": "The Jerusalem believers conclude ara kai tois ethnesin ho theos ten metanoian eis zoen edoken, then God has granted the repentance unto life to the Gentiles also, with edoken parsed aorist active indicative, gave, and ho theos as subject and ten metanoian as object. Here the repentance that is the inward side of the human turning is spoken of as something God grants, so the same item that is commanded of people in Acts 3.19 is here said to be given by God. This is the lexical witness to the gift side of the dual claim and the legitimate nuance the lenses divide over.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.25",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπεστράφητε"
+          }
+        ],
+        "force": "Peter tells his readers alla epestraphete nyn epi ton poimena, but now you have returned to the shepherd, where epestraphete is parsed aorist passive indicative second person plural. The same turning verb that stands in the active voice in 1 Thess 1.9 and Acts 11.21 appears here in the passive, you were turned, which states the believers turning as something that happened to them rather than something they straightforwardly did. The active and passive uses of the one verb across the canon show the words themselves carrying both the human act and the worked upon receiving, which is the dual agency the proposition asserts.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.3.19",
+        "to": "Isa.44.22",
+        "source": "openbible",
+        "votes": 38
+      },
+      {
+        "from": "Acts.3.19",
+        "to": "Acts.2.38",
+        "source": "openbible",
+        "votes": 38
+      },
+      {
+        "from": "Acts.3.19",
+        "to": "Isa.1.16",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "Acts.3.19",
+        "to": "Matt.13.15",
+        "source": "openbible",
+        "votes": 23
+      },
+      {
+        "from": "Acts.26.18",
+        "to": "1Pet.2.9",
+        "source": "openbible",
+        "votes": 44
+      },
+      {
+        "from": "Acts.26.18",
+        "to": "Isa.42.7",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "Acts.11.21",
+        "to": "2Chr.30.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.3.19",
+        "to": "Deut.4.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Thess.1.9",
+        "to": "Deut.5.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.26.18",
+        "to": "Isa.49.24",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.3.19",
+        "addressed": true,
+        "resolution": "Because metanoesate and epistrepsate are both aorist active imperatives addressed to the hearers, the verse could be taken to make conversion wholly a human work with no divine enabling. The imperative mood, however, concerns the demanded response and says nothing against prior divine action, and the canon supplies the complementary statement directly, since Acts 11.18 says God granted the same repentance and Lam 5.21 sets the Hiphil turn us beside the Qal we shall return, so the command does not exclude the gift and the proposition that conversion is both gift and act is not contradicted."
+      },
+      {
+        "ref": "Lam.5.21",
+        "addressed": true,
+        "resolution": "The Hiphil hashivenu, turn us, with God as the agent could be pressed to mean the human turning is unreal and only God turns, which would weaken the act side of the claim. The same verse answers this by following the causative with the Qal venashuv, and we shall return, predicated of the people as subject, so the verse holds both the divine causing and the genuine human turning in one line, which is the dual agency rather than its denial."
+      },
+      {
+        "ref": "Acts.11.18",
+        "addressed": true,
+        "resolution": "The statement that God granted the repentance could be read to make conversion entirely a divine gift with no real human act, the mirror image of the imperative problem. The wider canon balances this, since the same metanoia is commanded of people as their response in Acts 3.19 and Mark 1.15, and the active turning verbs in 1 Thess 1.9 and Acts 11.21 keep the believers as subject, so the gift language and the act language co-exist and the words do not rank one over the other, which is itself the lexical source of the lens divergence."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The cited verses lie outside 3 John, the only book with examined CBGM data in this run, so they are not_in_ecm_scope. The marginal sigla on the morphology surface forms, such as the markers before pros in Acts 3.19 and before epistrepsai in Acts 26.18 and before the article in Acts 11.21, reflect apparatus notations of minor wording. The store records meaning_variants on epistrepho in the Byzantine and Textus Receptus traditions that read hypostrepho, to return, instead at some sites, but none of these touch the anchor conversion clauses or remove the turning verb, so the verdict holds across the plausible variant readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "monergism",
+      "synergism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "divine_initiative_priority",
+        "verdict": "affirms",
+        "rationale": "A reading that gives logical priority to God's work finds strong lexical footing. Lam 5.21 places the Hiphil hashivenu, turn us, on God before the people return, Acts 11.18 says God granted the repentance, and 1 Pet 2.25 uses the passive epestraphete, you were turned, so the turning is something worked in the person. This reading still affirms the proposition because the human active verbs of turning and believing remain in the text, but it locates them downstream of the gift, which the proposition concedes by naming conversion a gift of God and by describing the sinner as already regenerated."
+      },
+      {
+        "framework": "genuine_human_response_priority",
+        "verdict": "affirms",
+        "rationale": "A reading that stresses the reality of the human response also has strong lexical footing. The dominant grammar of the conversion verb is active with the believers as subject, epestrepsate in 1 Thess 1.9, epestrepsen in Acts 11.21, the imperatives metanoesate kai epistrepsate in Acts 3.19 and metanoeite kai pisteuete in Mark 1.15, and the shuv summons shuvu in Zech 1.3 and Joel 2.12. On this reading conversion is a true act of the person, and the gift language sets the human turning in its enabling context without dissolving it. The proposition is affirmed because it names conversion an act of the believer."
+      }
+    ],
+    "notes": "The two lenses do not produce different verdicts on the proposition, which both affirm, but they rank the gift and the act differently. The lexical reason they can both stand is that the canon uses the same roots in both a causative or passive form, the Hiphil shuv of Lam 5.21 and the passive epestraphete of 1 Pet 2.25 and the granted metanoia of Acts 11.18, and a simple active form, the Qal shuv summons and the active epistrepho of the anchors, without a grammatical device that subordinates one to the other. The Old Testament shuv, attested 1056 times, supplies the turning motif that the New Testament epistrepho continues, so the reading rests on progressive revelation of one motif rather than a single author idiom."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the lexical pattern of epistrepho and shuv, together with metanoeo and pisteuo in the anchor verses, presents conversion as a turning from sin to God that is both predicated of the person as an act and attributed to divine working.",
+    "notes": "The stem embeds a theological frame by naming the converting sinner regenerated and by labeling conversion at once gift of God and act of the believer, which preloads a conclusion about the order and the dual agency of salvation. The verdict was derived on the original stem, but the neutralized form states the lexical question without the embedded verdict. The regenerated sinner ordering is a systematic category not directly recoverable from the morphology of these verses, so it is treated as background, while the dual agency is in fact lexically visible in the active and causative or passive uses of the turning roots. The verdict stays affirms true as in the prior file. It was not changed. Confidence is raised from medium to high and pan_canonical from false to true because direct querying of the lexical store recovered the Hebrew shuv data, 1056 occurrences across 950 verses in every canon section, that the prior Greek only bundle lacked."
+  },
+  "lay_summary": "The proposition says conversion is the conscious human response to the gospel, a turning from sin to Christ in repentance and faith, and that it is at once a gift of God and an act of the believer. The central Greek word is the verb epistrepho, to turn, which occurs thirty six times, and in all four anchor verses the believers are the subject of an active form of it. In 1 Thessalonians 1.9 Paul says the readers turned to God from idols to serve the living and true God, with two small words marking direction, toward God and away from the idols. In Acts 3.19 Peter gives two commands together, repent and turn, tied to the blotting out of sins, and Jesus opens his preaching the same way in Mark 1.15, repent and believe. In Acts 26.18 the risen Christ describes turning people from darkness to light so they receive forgiveness by faith, and in Acts 11.21 a great number, having believed, turned to the Lord, right after Luke says the hand of the Lord was with them. Repentance and faith are the two named facets of this one turning, stated plainly in Acts 20.21 as repentance toward God and faith toward the Lord. Behind all this stands the Hebrew word shuv, to turn back, which appears more than a thousand times across the whole Old Testament and carries the call to return to God in Joel 2.12, Zechariah 1.3, and Isaiah 44.22, so the motif runs through the entire canon rather than one writer. The genuine open question the words leave is how the human turning relates to God's work. The text itself uses the same roots both ways. In Lamentations 5.21 one line reads turn us, with God as the one who turns, and then and we shall return, with the people turning. In Acts 11.18 God is said to grant the repentance, and in 1 Peter 2.25 the turning verb is passive, you were turned, while everywhere else it is active and the person turns. Because the canon states both the divine working and the human act with the same vocabulary and never ranks one over the other in the grammar, readers can stress either side and still affirm the proposition, which is why both gift and act stand together.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1994"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7725"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3340"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Thess.1.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.3.19"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lam.5.21"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Zech.1.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.26.18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.3.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.26.18"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

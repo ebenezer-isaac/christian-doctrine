@@ -1,0 +1,813 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-omnipotence",
+  "question_id": "doc-divine-omnipotence",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The canon predicates exhaustive divine capability through a stable recurring formula that pairs negation with a universal. In Hebrew the verb H6381 (palaʾ) stands as a niphal imperfect under an interrogative he, asking rhetorically whether any matter is too wonderful or too hard for the LORD (Gen 18.14, Jer 32.17, Jer 32.27, Zech 8.6), and at Job 42.2 H3201 (yakol, you are able) is paired with universal H3605 (kol) while the negated niphal of H1219 (batsar) declares no purpose can be withheld from God. The title H7706 (El Shadday) names God by overwhelming sufficiency. In Greek the same pattern is lexicalized by G0101 (adynateo) negated at Luke 1.37 with universal G3956 (pas) and the source genitive G3844 (para tou theou), and by the formula panta dynata para to theo at Matt 19.26, Mark 10.27, and Luke 18.27. The LXX renders Shadday and Sabaoth by G3841 (pantokrator, Almighty), which recurs as a divine title across 2 Cor 6.18 and Revelation, binding the Testaments lexically. Cross-genre, multi-section attestation with consistent semantics yields a high-confidence affirmation, with the one open edge being that this vocabulary speaks to tasks and purposes and is silent on self-contradiction, which the canon itself marks at Heb 6.18 and 2 Tim 2.13."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H7706",
+        "lemma": "שַׁדַּי",
+        "transliteration": "Shadday",
+        "occurrences_in_canon": 47,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6381",
+        "lemma": "פָּלָא",
+        "transliteration": "palaʾ",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1219",
+        "lemma": "בָּצַר",
+        "transliteration": "batsar",
+        "occurrences_in_canon": 35,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3201",
+        "lemma": "יָכֹל",
+        "transliteration": "yakol",
+        "occurrences_in_canon": 183,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4209",
+        "lemma": "מְזִמָּה",
+        "transliteration": "mezimmah",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2220",
+        "lemma": "זְרוֹעַ",
+        "transliteration": "zeroaʿ",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5186",
+        "lemma": "נָטָה",
+        "transliteration": "natah",
+        "occurrences_in_canon": 195,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3808",
+        "lemma": "לֹא",
+        "transliteration": "loʾ",
+        "occurrences_in_canon": 4825,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0101",
+        "lemma": "ἀδυνατέω",
+        "transliteration": "adynateo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0102",
+        "lemma": "ἀδύνατος",
+        "transliteration": "adynatos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1415",
+        "lemma": "δυνατός",
+        "transliteration": "dynatos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3841",
+        "lemma": "παντοκράτωρ",
+        "transliteration": "pantokrator",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3844",
+        "lemma": "παρά",
+        "transliteration": "para",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4487",
+        "lemma": "ῥῆμα",
+        "transliteration": "rhema",
+        "occurrences_in_canon": 71,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3756",
+        "lemma": "οὐ",
+        "transliteration": "ou",
+        "occurrences_in_canon": 1747,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H7706",
+      "H6381",
+      "H1219",
+      "H3201",
+      "H4209",
+      "H2220",
+      "H5186",
+      "H3605",
+      "H3808",
+      "H3027",
+      "H7114",
+      "H6635",
+      "G0101",
+      "G0102",
+      "G1415",
+      "G3841",
+      "G3956",
+      "G3844",
+      "G4487",
+      "G3756"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.17.1",
+        "key_terms": [
+          {
+            "strong": "H7706",
+            "lemma": "שַׁדַּי"
+          },
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          }
+        ],
+        "force": "Self-disclosure formula אֵל שַׁדַּי (El Shadday) names God by an attribute of overwhelming sufficiency and power, framing the Abrahamic covenant grant. Of the 47 occurrences of Shadday, 31 cluster in Job and the rest in patriarchal Genesis (28.3, 35.11, 43.14, 48.3, 49.25) and Exodus 6.3, where the title is the covenant self-designation. The Septuagint regularly renders Shadday by pantokrator, lexically binding this title to the New Testament Almighty.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Job.42.2",
+        "key_terms": [
+          {
+            "strong": "H3201",
+            "lemma": "יָכֹל"
+          },
+          {
+            "strong": "H1219",
+            "lemma": "בָּצַר"
+          },
+          {
+            "strong": "H4209",
+            "lemma": "מְזִמָּה"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          }
+        ],
+        "force": "Job confesses תּוּכַל כֹּל (qal imperfect 2ms of yakol with universal kol, you are able of all) paired with the negated niphal יִבָּצֵר (no plan, mezimmah, can be restrained from you). The pairing of yakol plus universal kol with negated batsar of mezimmah predicates unrestricted capacity and unfrustratable purpose. Note that batsar is dominantly used elsewhere of fortified or inaccessible cities (its sense at Gen 11.6, the same niphal imperfect, is applied to human builders), so the omnipotence force here rests on the universal subject and the divine addressee, not on the verb in isolation.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.18.14",
+        "key_terms": [
+          {
+            "strong": "H6381",
+            "lemma": "פָּלָא"
+          },
+          {
+            "strong": "H1697",
+            "lemma": "דָּבָר"
+          }
+        ],
+        "force": "The rhetorical הֲיִפָּלֵא מֵיְהוָה דָּבָר (interrogative he plus niphal imperfect 3ms of palaʾ, is any matter too wonderful or too hard for the LORD) introduces the formula at the Isaac annunciation. The niphal of palaʾ with the interrogative he is the fixed grammatical shape of the question. The expected answer is no.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.32.17",
+        "key_terms": [
+          {
+            "strong": "H6381",
+            "lemma": "פָּלָא"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "לֹא"
+          },
+          {
+            "strong": "H2220",
+            "lemma": "זְרוֹעַ"
+          },
+          {
+            "strong": "H5186",
+            "lemma": "נָטָה"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          }
+        ],
+        "force": "Jeremiah's prayer combines creation language (heaven and earth made by the outstretched arm, זְרוֹעַ נְטוּיָה, zeroaʿ netuyah) with the negated niphal יִפָּלֵא מִמְּךָ כָּל דָּבָר (no matter with respect to all is too wonderful or too hard from you). The outstretched arm is a stock collocation for divine power-in-action, recurring across Deuteronomy and Exodus. The niphal imperfect of palaʾ matches Gen 18.14.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.32.27",
+        "key_terms": [
+          {
+            "strong": "H6381",
+            "lemma": "פָּלָא"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          }
+        ],
+        "force": "God's reply uses the same palaʾ niphal in a self-referential rhetorical question, הֲמִמֶּנִּי יִפָּלֵא כָּל דָּבָר (is any matter with respect to all too hard for me), restating the prayer's logic from the divine side and confirming the predication. The pairing with universal kol again scopes the claim to every matter.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Zech.8.6",
+        "key_terms": [
+          {
+            "strong": "H6381",
+            "lemma": "פָּלָא"
+          },
+          {
+            "strong": "H5869",
+            "lemma": "עַיִן"
+          }
+        ],
+        "force": "Even if a thing is too wonderful (יִפָּלֵא, the same palaʾ niphal) in the eyes of the remnant, will it also be too wonderful in my eyes, says the LORD of hosts. The doubled niphal contrasts human estimation of impossibility with the divine perspective, the same logic that Luke 18.27 lexicalizes in Greek.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.11.23",
+        "key_terms": [
+          {
+            "strong": "H3027",
+            "lemma": "יָד"
+          },
+          {
+            "strong": "H7114",
+            "lemma": "קָצַר"
+          }
+        ],
+        "force": "The LORD answers Moses with הֲיַד יְהוָה תִּקְצָר (interrogative he plus qal imperfect of qatsar, is the LORD's hand too short). The shortened-hand idiom is a second rhetorical-question power formula parallel to the palaʾ pattern, predicating sufficient reach for any promised act.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.1.37",
+        "key_terms": [
+          {
+            "strong": "G0101",
+            "lemma": "ἀδυνατέω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G4487",
+            "lemma": "ῥῆμα"
+          }
+        ],
+        "force": "Gabriel echoes Gen 18.14 with οὐκ ἀδυνατήσει παρὰ τοῦ θεοῦ πᾶν ῥῆμα (every word or matter will not be impossible from God). The verb adynateo stands as a future active indicative 3rd singular negated by ouk, with universal pas and the source genitive para tou theou locating the impossibility-of-failure in God. Adynateo occurs only twice in the New Testament (here and Matt 17.20), so its sense is read from these two contexts and from the Septuagint of Gen 18.14, not triangulated across many uses.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.26",
+        "key_terms": [
+          {
+            "strong": "G0102",
+            "lemma": "ἀδύνατος"
+          },
+          {
+            "strong": "G1415",
+            "lemma": "δυνατός"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          }
+        ],
+        "force": "παρὰ ἀνθρώποις τοῦτο ἀδύνατόν ἐστιν, παρὰ δὲ θεῷ πάντα δυνατά (with men this is impossible, but with God all things are possible). The antithesis sets adynatos against dynatos and scopes the divine side with universal neuter plural panta. The para plus dative construction marks the sphere in which the capacity holds.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.27",
+        "key_terms": [
+          {
+            "strong": "G1415",
+            "lemma": "δυνατός"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "παρὰ ἀνθρώποις ἀδύνατον ἀλλ οὐ παρὰ θεῷ, πάντα γὰρ δυνατὰ παρὰ τῷ θεῷ (impossible with men but not with God, for all things are possible with God). The doubled para plus dative and the universal panta dynata restate the Matthean formula, and the explanatory gar makes the universal-possibility clause the ground of the whole saying.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.18.27",
+        "key_terms": [
+          {
+            "strong": "G0102",
+            "lemma": "ἀδύνατος"
+          },
+          {
+            "strong": "G1415",
+            "lemma": "δυνατός"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "τὰ ἀδύνατα παρὰ ἀνθρώποις δυνατὰ παρὰ τῷ θεῷ ἐστιν (the things impossible with men are possible with God). The substantival neuter plural adynata set against dynata predicates capable status of all such matters from God's side, mirroring Matt 19.26 and Mark 10.27 and the Lukan annunciation lexeme.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.19.6",
+        "key_terms": [
+          {
+            "strong": "G3841",
+            "lemma": "παντοκράτωρ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "ἐβασίλευσεν κύριος ὁ θεὸς ὁ παντοκράτωρ (the Lord God the Almighty reigns). Pantokrator, the Septuagint rendering of Shadday and Sabaoth, is a fixed divine title in Revelation (nine of its ten New Testament occurrences) and binds the reigning verb basileuo to the all-ruling title. The term joins exhaustive power to sovereign dominion (ruler of all), so its force is title and rule as much as raw capacity.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.46.9",
+        "key_terms": [
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H0657",
+            "lemma": "אֶפֶס"
+          }
+        ],
+        "force": "I am God and there is none else (אֵפֶס כָּמוֹנִי, none like me), grounding omnipotence in incomparability rather than in the power vocabulary directly. The negation-plus-universal logic continues in the second-Isaiah self-disclosure series, where the same outstretched-hand and creation language of Jer 32.17 recurs (Isa 44.24, 45.12).",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gen.17.1",
+        "to": "Gen.18.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.32.17",
+        "to": "Jer.32.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jer.32.17",
+        "to": "Job.42.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jer.32.17",
+        "to": "Gen.18.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Job.42.2",
+        "to": "Gen.18.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Job.42.2",
+        "to": "Job.23.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Gen.18.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Jer.32.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Matt.19.26",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Mark.10.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Luke.18.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Num.11.23",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.37",
+        "to": "Zech.8.6",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Heb.6.18",
+        "addressed": true,
+        "resolution": "ἐν οἷς ἀδύνατον ψεύσασθαι θεόν predicates an impossibility of God lying, using the same adynatos stem (G0102) as the omnipotence affirmations of Matt 19.26 and Luke 18.27. Lexically this is a constraint internal to God's nature, not an external limit on power. It marks from inside the canon the very scope the power vocabulary leaves silent, and harmonizes with the stem qualifier limited only by His own nature rather than contradicting all-power."
+      },
+      {
+        "ref": "2Tim.2.13",
+        "addressed": true,
+        "resolution": "ἀρνήσασθαι γὰρ ἑαυτὸν οὐ δύναται (he cannot deny himself) predicates a nature-internal constraint using ou dynamai, the negated cognate of the dynatos affirmed of God elsewhere. Consistent with the stem qualifier on the scope of capability, and the inability is moral self-consistency, not deficiency of power."
+      },
+      {
+        "ref": "Matt.17.20",
+        "addressed": true,
+        "resolution": "οὐδὲν ἀδυνατήσει ὑμῖν is the only other New Testament use of adynateo (G0101) besides Luke 1.37, and here nothing will be impossible is said of the disciples acting in faith, not of God directly. This shows the verb is not lexically reserved for God, so the omnipotence force at Luke 1.37 rests on the source genitive para tou theou, which fixes God as the one for whom no word fails."
+      },
+      {
+        "ref": "Mark.6.5",
+        "addressed": true,
+        "resolution": "οὐκ ἐδύνατο ἐκεῖ ποιῆσαι οὐδεμίαν δύναμιν reports Jesus could do no mighty work there because of unbelief. The narrative immediately notes he healed a few sick, so the imperfect describes contextual fittingness within the unbelief, not absolute metaphysical incapacity."
+      },
+      {
+        "ref": "Judg.1.19",
+        "addressed": true,
+        "resolution": "Statement that Judah could not drive out the inhabitants of the plain because they had chariots of iron concerns human agency under covenant conditions, not divine capability. The Hebrew subject of the inability is Judah, not YHWH."
+      },
+      {
+        "ref": "Gen.11.6",
+        "addressed": true,
+        "resolution": "וְעַתָּה לֹא יִבָּצֵר מֵהֶם uses the identical negated niphal imperfect of batsar (H1219) found at Job 42.2, but here nothing will be withheld from them is said of the human builders at Babel. This confirms that the unfrustratable-purpose force of batsar is not exclusive to God lexically, so Job 42.2 establishes divine omnipotence by its universal kol and divine addressee, not by the verb alone."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Luke.1.37",
+        "variant_id": "luke-1-37-rhema-vs-pragma",
+        "verdict_impact": "none",
+        "note": "Witnesses vary between ῥῆμα and πρᾶγμα at the close of Luke 1.37. Either reading preserves the structure ouk adynatesei para tou theou pan plus a referent for matter or word, so the universal-negation logic and the verdict are unaffected."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "The New Testament anchors are outside the published ECM volumes, which cover 3 John only. The Old Testament anchors are not in ECM scope. Greek readings checked against the MACULA-Greek Nestle1904 and SBLGNT editions in the lexical store, which agree at all anchor words."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "open_theism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "El Shadday at Gen 17.1 and the outstretched arm at Jer 32.17 ground omnipotence in covenant-making and creating capability, and the Septuagint pantokrator that renders Shadday carries the same title into the New Testament. The lexical chain is read continuously across the Testaments."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "The same negation-plus-universal pattern is acknowledged across the dispensations. No reading partition disturbs the predication of unrestricted capacity to God, and the Revelation pantokrator title is read as the consummate disclosure of the Almighty."
+      },
+      {
+        "framework": "classical-theism-with-nature-limit",
+        "verdict": "affirms",
+        "rationale": "Reads the power vocabulary as exhaustive over every possible task and purpose, while taking Heb 6.18 and 2 Tim 2.13 to show the canon itself excludes self-contradiction and self-denial from the scope. The stem qualifier limited only by His own nature states this directly, so all-power and the inability to lie are not in tension."
+      },
+      {
+        "framework": "open_theism",
+        "verdict": "qualified",
+        "rationale": "Affirms omnipotence as capacity in its strongest form but argues God may voluntarily self-limit in relation to the future free acts of creatures, so that some future contingents are not objects of present exhaustive control. This reading grants every text cited here, since the negated palaʾ and adynateo speak to God's ability and to the certainty of his promised word, and the vocabulary does not by itself adjudicate whether God has chosen to leave creaturely futures open. Job 42.2, where no mezimmah of God can be restrained, presses against the open reading but is about God's own purpose rather than creaturely contingency."
+      }
+    ],
+    "notes": "The stem includes the qualifier limited only by His own nature. The lexical witness at Heb 6.18 and 2 Tim 2.13 supplies exactly that nature-internal boundary, removing self-contradiction and self-denial from the scope of the predication. The divergence among lenses is about scope, not about whether God is all-powerful."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem all-powerful, able to do all that He wills, limited only by His own nature does not embed tradition-specific terminology. The nature-internal qualifier it carries is the plain reading of the canon's own boundary texts (Heb 6.18, 2 Tim 2.13) rather than an imported philosophical taxonomy, so the verdict is derived honestly from the lexical pattern. Verdict unchanged from the prior file."
+  },
+  "lay_summary": "The vocabulary for divine omnipotence is dense and remarkably consistent across the whole Bible. In Hebrew, the verb palaʾ (to be too wonderful or too hard) appears as a fixed rhetorical question, with God as the one for whom no matter is too hard, at Genesis 18.14, Jeremiah 32.17, Jeremiah 32.27, and Zechariah 8.6, each time in the same grammatical form. At Job 42.2 the words you are able paired with the universal all and the statement that no plan can be withheld from you predicate unrestricted capacity. The title El Shadday names God by overwhelming sufficiency, and the outstretched arm at Jeremiah 32.17 ties creating power to covenant action. Strikingly, the Greek Old Testament translates Shadday and Lord of hosts by pantokrator, Almighty, which then becomes a fixed title in Revelation, so the same word-thread runs from Genesis to the last book. In Greek, Luke 1.37 says no word will be impossible from God, and Matthew 19.26, Mark 10.27, and Luke 18.27 repeat that with God all things are possible. So the affirmation lands as true with high confidence: the terms recur, span every section of the canon, and the grammar is stable. Where readers diverge, the reason is also in the words. This vocabulary speaks about tasks and purposes and never addresses whether God could contradict himself. The canon marks that gap from inside: Hebrews 6.18 says it is impossible for God to lie and 2 Timothy 2.13 says he cannot deny himself, which are limits set by his own nature, not failures of power. Because the words affirm a category without delimiting its scope against self-contradiction, careful readers add the qualifier limited only by His own nature, and the small remaining debate (such as whether God may leave future free choices open) is about that scope, not about whether God is all-powerful.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.18.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Job.42.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jer.32.17"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.11.6"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.11.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.1.37"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.27"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6381"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1219"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7706"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0101"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3841"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.1.37"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.10.27"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rev.19.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Job.42.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Luke.1.37"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.17.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.1.37"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The MACULA-Greek citations (CC-BY-NC-4.0) carry the token-level morphology and gloss for the adynateo construction at Luke 1.37, the panta dynata para to theo construction at Mark 10.27, and the pantokrator title with its Louw-Nida domain at Rev 19.6, so that source is cited honestly and is not bulk-redistributable."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

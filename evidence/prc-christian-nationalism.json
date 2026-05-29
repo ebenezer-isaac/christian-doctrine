@@ -1,0 +1,490 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-christian-nationalism",
+  "question_id": "prc-christian-nationalism",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Christian nationalism is a modern political category with no Greek or Hebrew lexeme that names it, so the proposition cannot be settled by direct word study. The supplied anchors lean against fusing nation and kingdom: John 18:36 sources the kingdom ek tou kosmou toutou where ek with the genitive marks origin rather than mere location, Phil 3:20 places to politeuma en ouranois though politeuma itself is a single NT occurrence so its precise civic scope cannot be triangulated, Gal 3:28 relativizes Ioudaios and Hellen in the one Christ identity, and Rev 5:9-10 constitutes the redeemed people ek pases phyles kai glosses kai laou kai ethnous. Against this stand Rom 13:1 with hypotasso, exousia, and tetagmenai marking civil order as divinely ordained, and the OT national-covenant pattern not in the Greek bundle. The canon supplies two patterns the words do not rank, so the precise boundary the proposition draws stays a contested lexical inference."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0932",
+        "lemma": "basileia",
+        "transliteration": "basileia",
+        "occurrences_in_canon": 164,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2889",
+        "lemma": "kosmos",
+        "transliteration": "kosmos",
+        "occurrences_in_canon": 187,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1537",
+        "lemma": "ek",
+        "transliteration": "ek",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1484",
+        "lemma": "ethnos",
+        "transliteration": "ethnos",
+        "occurrences_in_canon": 164,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "heis",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0936",
+        "lemma": "basileuo",
+        "transliteration": "basileuo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4175",
+        "lemma": "politeuma",
+        "transliteration": "politeuma",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2453",
+        "lemma": "Ioudaios",
+        "transliteration": "Ioudaios",
+        "occurrences_in_canon": 194,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1672",
+        "lemma": "Hellen",
+        "transliteration": "Hellen",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2992",
+        "lemma": "laos",
+        "transliteration": "laos",
+        "occurrences_in_canon": 142,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1849",
+        "lemma": "exousia",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5293",
+        "lemma": "hupotasso",
+        "transliteration": "hupotasso",
+        "occurrences_in_canon": 40,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3941",
+        "lemma": "paroikos",
+        "transliteration": "paroikos",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3927",
+        "lemma": "parepidemos",
+        "transliteration": "parepidemos",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0932",
+      "G2889",
+      "G1537",
+      "G1484",
+      "G1520",
+      "G0936",
+      "G4175",
+      "G2453",
+      "G1672",
+      "G2992",
+      "G1849",
+      "G5293",
+      "G3941",
+      "G3927"
+    ],
+    "scripture": [
+      {
+        "ref": "John.18.36",
+        "key_terms": [
+          {
+            "strong": "G0932",
+            "lemma": "basileia"
+          },
+          {
+            "strong": "G2889",
+            "lemma": "kosmos"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ek"
+          }
+        ],
+        "force": "Jesus says he basileia he eme ouk estin ek tou kosmou toutou. The preposition ek with the genitive marks origin and source, not mere location, so the claim is that the kingdom does not derive its power or legitimacy from worldly polity. The contrary to fact conditional that follows, ei ek tou kosmou toutou en he basileia he eme, hoi hyperetai hoi emoi egonizonto, ties the point to the refusal of armed national struggle. This cuts against treating any nation state as the vehicle of Christ's reign.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.3.20",
+        "key_terms": [
+          {
+            "strong": "G4175",
+            "lemma": "politeuma"
+          },
+          {
+            "strong": "G2889",
+            "lemma": "kosmos"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ek"
+          }
+        ],
+        "force": "hemon gar to politeuma en ouranois hyparchei. The noun politeuma occurs exactly once in the New Testament, a hapax legomenon, which means its precise civic scope cannot be triangulated from canon usage and must be inferred from word formation (the politeu stem of commonwealth or polity) and from this single context. It is placed en ouranois with hyparchei stressing settled existence, and a Savior is awaited ex hou. The locative phrase relativizes earthly national citizenship as the locus of ultimate allegiance, but the hapax leaves open whether earthly citizenship is replaced, subordinated, or simply de-centered.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.28",
+        "key_terms": [
+          {
+            "strong": "G2453",
+            "lemma": "Ioudaios"
+          },
+          {
+            "strong": "G1672",
+            "lemma": "Hellen"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "heis"
+          }
+        ],
+        "force": "ouk eni Ioudaios oude Hellen, ouk eni doulos oude eleutheros, ouk eni arsen kai thely, pantes gar hymeis heis este en Christo Iesou. The ethnic pair Ioudaios and Hellen is the first abolished boundary, and heis este declares one corporate identity in Christ. The verb eni (contracted enesti, there is) negates the in-Christ standing of these distinctions, not their continued empirical existence, so national markers are demoted as grounds of standing without being erased as social categories.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.9",
+        "key_terms": [
+          {
+            "strong": "G1484",
+            "lemma": "ethnos"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "laos"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ek"
+          }
+        ],
+        "force": "The new song praises the Lamb who egorasas to theo en to haimati sou ek pases phyles kai glosses kai laou kai ethnous. The fourfold ek phrase, with ek again marking source, makes the redeemed a body purchased out of all nations rather than coextensive with any one ethnos. The piling up of phyle, glossa, laos, and ethnos covers tribal, linguistic, ethnic, and political categories together, so no one nation can be the bearer of the kingdom.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.10",
+        "key_terms": [
+          {
+            "strong": "G0932",
+            "lemma": "basileia"
+          },
+          {
+            "strong": "G0936",
+            "lemma": "basileuo"
+          }
+        ],
+        "force": "kai epoiesas autous to theo hemon basileian kai hiereis, kai basileusousin epi tes ges. The redeemed from all nations are themselves made a basileia, a kingdom and priests, who will reign upon the earth. The kingdom is constituted of the cross national redeemed and reigns by divine action expressed in epoiesas (an aorist of accomplished constitution), not as the political ascendancy of a particular nation state.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Phil.3.20",
+        "to": "Isa.26.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.18.36",
+        "to": "John.6.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.20",
+        "to": "Phil.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.10",
+        "to": "Rev.1.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.10",
+        "to": "Rev.20.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.9",
+        "to": "Rev.7.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.9",
+        "to": "Rev.7.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.20",
+        "to": "1Pet.2.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.20",
+        "to": "Heb.11.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.18.36",
+        "to": "Rom.13.1",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.13.1",
+        "addressed": true,
+        "resolution": "Direct lexical query confirms Rom 13:1 contains hupotasso (G5293, 40 NT occurrences) governing pasa psyche, with exousiais hyperechousais and the verbal tetagmenai (from G5021 tasso, ordered) governed by hypo theou. The grammar makes civil authority the object of divine ordering, which is not the same as making any specific nation state the vehicle of Christ's kingdom but is also not its abolition. The text grounds a separate sphere of obedience to civil order that the proposition's caution should not flatten, leaving the precise boundary contested by the canon, not by the words alone."
+      },
+      {
+        "ref": "Exod.19.6",
+        "addressed": false,
+        "resolution": "Israel is called mamleket kohanim ve goy qadosh, a kingdom of priests and a holy nation, where goy denotes the political-ethnic nation. The lexical store loaded for this query is Greek only (no Hebrew tokens returned for H1471 goy or H5971 am), so the OT national-covenant pattern cannot be word-studied here. The Rev 5:10 echo (basileia kai hiereis) lexically transfers the formula to the cross-national redeemed, but whether this transfer exhausts or coexists with a holy-nation pattern is not resolvable from the available bundle."
+      },
+      {
+        "ref": "1Pet.2.11",
+        "addressed": true,
+        "resolution": "Lexical query confirms paroikos (G3941, 4 NT occurrences) and parepidemos (G3927, 3 NT occurrences) co-occur here as paroikous kai parepidemous, technical terms for resident alien and sojourning stranger. Their rarity (combined seven occurrences) means the in-the-world but not-of-it stance is articulated by a small but precise vocabulary, consistent with the Phil 3:20 politeuma cluster but not lexically prescriptive about specific civic structures."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied for the cited verses and not_in_ecm_scope is true for this question. The Rev 5:10 reading basileian and basileusousin carries minor textual fluctuation but does not alter the multinational, divinely constituted kingdom sense, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "two_kingdoms",
+      "national_covenant",
+      "transformationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "two_kingdoms",
+        "verdict": "for",
+        "rationale": "Reading John 18:36 ek tou kosmou toutou and Phil 3:20 politeuma en ouranois as marking a distinct heavenly polity supports caution toward fusing the nation state with Christ's kingdom, since the church's citizenship and the civil order are kept on separate planes and the kingdom is sourced from outside the world."
+      },
+      {
+        "framework": "national_covenant",
+        "verdict": "disputed",
+        "rationale": "If the Exod 19:6 pattern of goy qadosh (holy nation) and the Rom 13:1 ordination of exousiai by God carry into the new covenant era as a continuing template for civil order under Christ's lordship, then a nation that orders its laws toward Christ is not lexically excluded, leaving the proposition contested rather than settled by the cited anchors."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "for",
+        "rationale": "Tracing the covenant arc from one national people to a multinational body purchased ek pases phyles kai glosses kai laou kai ethnous in Rev 5:9 demotes any single nation as the vehicle of the kingdom and reads the basileia kai hiereis of Rev 5:10 as the eschatological fulfillment of Exod 19:6, transferring the holy-nation pattern to the redeemed of all nations."
+      },
+      {
+        "framework": "transformationalism",
+        "verdict": "disputed",
+        "rationale": "If Christ's lordship in Rev 5:10 extends epi tes ges (over the earth) and Rom 13 marks civil authority as ordained by God, a transformationalist lens reads this as a mandate to bring national life under Christ's reign through Christian witness, which the cited words neither prescribe nor forbid since they speak of the source and constitution of the kingdom rather than its mode of civic engagement."
+      }
+    ],
+    "notes": "The verdict turns on whether the new covenant arc transforms the Old Testament national-covenant pattern into a cross-national people, and on how the heavenly politeuma relates to ongoing earthly civic responsibility. The cited Greek anchors lean toward the former, but the bundle omits Hebrew theocratic texts and the precise vocabulary cluster of Rom 13, so the lens conflict cannot be fully adjudicated lexically and each framework above is given in its strongest form."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How does the canon relate Christian identity to national or civil identity, and does the lexical pattern treat any nation state as a vehicle of Christ's kingdom?",
+    "notes": "The original stem carries the evaluative phrase to be regarded with caution and largely rejected, which preloads a negative verdict on a modern political category that has no direct biblical lexeme. The neutralized form asks the antecedent text question. The verdict is derived on the original stem and remains disputed because the lexical pattern leans against fusion of nation and kingdom but does not by itself prescribe the precise civic posture the proposition recommends."
+  },
+  "lay_summary": "The phrase Christian nationalism is a modern political idea, and no single Greek or Hebrew word in the Bible names it, so we cannot settle this question by looking up one term. We have to read the verses the question points to and let the words do the work. In John 18:36 Jesus tells Pilate that his kingdom is not ek tou kosmou toutou, out of this world. The small word ek with what follows it points to where something comes from, like saying water out of a spring, so Jesus is saying the source of his reign is not worldly government, and he refuses to let his followers fight for it by force. In Philippians 3:20 Paul says our politeuma, our commonwealth or citizenship, is in the heavens. Here is one important lexical limit. The word politeuma appears only once in the whole New Testament, so we cannot triangulate its exact scope by comparing other uses. It clearly puts a believer's deepest belonging above any earthly nation, but it does not by itself spell out how Christians should engage civic life. In Galatians 3:28 the labels Jew and Greek are set aside because all are one in Christ, which lowers the importance of ethnic and national identity as a basis for standing before God. In Revelation 5:9-10 the Lamb purchases people from every tribe and tongue and people and nation, and those redeemed people, drawn from all nations, are themselves made a kingdom and priests. The piling up of four categories together rules out coextending the kingdom with any one nation. Pulling the other way is Romans 13:1, where the words hypotasso (be subject) and exousia (authority) and tetagmenai (ordained) make civil order something God himself sets up. The Bible therefore gives us two patterns: a kingdom sourced from outside the world and centered in the redeemed of all nations, and civil authority ordained by God. The words do not rank these two patterns, and the question's specific phrase to be regarded with caution and largely rejected goes further than the vocabulary by itself requires. That is why the lexical evidence here is best described as contested rather than decisive.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "John.18.36"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "Phil.3.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.5.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.5.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4175"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3941"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3927"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.18.36"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rev.5.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Phil.3.20"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "BibleHub-interlinear is used under fair-use-policy and is not redistributable in bulk, so the aggregate evidence is not safe to publish."
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

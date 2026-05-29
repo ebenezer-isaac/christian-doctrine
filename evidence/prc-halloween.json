@@ -1,0 +1,833 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-halloween",
+  "question_id": "prc-halloween",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 1.0,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The canon lexically does not name Halloween or any analogous late-autumn observance, so the verdict is reached by composition. The first clause of the proposition, rejecting occult and death-glorifying practice, sits on a dense, pan-canonical occult wordstock: toebah, nachash, kashaph, ob, yiddeoni, darash el hammethim in Deut 18:9-12, and synkoinoneo with the akarpa erga tou skotous in Eph 5:11, reinforced by 1 Cor 10:20-21 where pagan ritual is offered to daimonia and incompatible with the cup and table of the Lord. The second clause, that otherwise harmless cultural participation is a matter of conscience, has no lexeme that names a calendar custom; it rests on the general criterion eis doxan theou (1 Cor 10:31), the conscience vocabulary of 1 Cor 8 (syneidesis, eidolothuton, exousia, proskomma), and the day-judging clause of Rom 14:5-6 (hemera, krino, ekastos, plerophoreo) plus Col 2:16 (heorte, noumenia, sabbaton). Because the wordstock decides the occult side cleanly but lets the application-level conscience side stand on a general standard rather than a named permission or prohibition, the composite proposition is lexically contested at exactly the seam where readers diverge."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H8441",
+        "lemma": "תּוֹעֵבַה",
+        "transliteration": "toebah",
+        "occurrences_in_canon": 112,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5172",
+        "lemma": "נָחַשׁ",
+        "transliteration": "nachash",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3784",
+        "lemma": "כָּשַׁף",
+        "transliteration": "kashaph",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0178",
+        "lemma": "אוֹב",
+        "transliteration": "ob",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3049",
+        "lemma": "יִדְּעֹנִי",
+        "transliteration": "yiddeoni",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1875",
+        "lemma": "דָּרַשׁ",
+        "transliteration": "darash",
+        "occurrences_in_canon": 146,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4191",
+        "lemma": "מוּת",
+        "transliteration": "muth",
+        "occurrences_in_canon": 807,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7081",
+        "lemma": "קֶסֶם",
+        "transliteration": "qesem",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2267",
+        "lemma": "חֶבֶר",
+        "transliteration": "cheber",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4790",
+        "lemma": "συγκοινωνέω",
+        "transliteration": "synkoinoneo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0175",
+        "lemma": "ἄκαρπος",
+        "transliteration": "akarpos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4655",
+        "lemma": "σκότος",
+        "transliteration": "skotos",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 177,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elegcho",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1391",
+        "lemma": "δόξα",
+        "transliteration": "doxa",
+        "occurrences_in_canon": 167,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1140",
+        "lemma": "δαιμόνιον",
+        "transliteration": "daimonion",
+        "occurrences_in_canon": 63,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4221",
+        "lemma": "ποτήριον",
+        "transliteration": "poterion",
+        "occurrences_in_canon": 33,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4893",
+        "lemma": "συνείδησις",
+        "transliteration": "syneidesis",
+        "occurrences_in_canon": 30,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1494",
+        "lemma": "εἰδωλόθυτον",
+        "transliteration": "eidolothuton",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1495",
+        "lemma": "εἰδωλολατρία",
+        "transliteration": "eidololatria",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1859",
+        "lemma": "ἑορτή",
+        "transliteration": "heorte",
+        "occurrences_in_canon": 26,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3561",
+        "lemma": "νουμηνία",
+        "transliteration": "noumenia",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 392,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 114,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4135",
+        "lemma": "πληροφορέω",
+        "transliteration": "plerophoreo",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4348",
+        "lemma": "πρόσκομμα",
+        "transliteration": "proskomma",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "H8441",
+      "H5172",
+      "H3784",
+      "H0178",
+      "H3049",
+      "H1875",
+      "H4191",
+      "H7081",
+      "H2267",
+      "G4790",
+      "G0175",
+      "G4655",
+      "G2041",
+      "G1651",
+      "G1391",
+      "G1140",
+      "G4221",
+      "G4893",
+      "G1494",
+      "G1495",
+      "G1859",
+      "G3561",
+      "G2250",
+      "G2919",
+      "G4135",
+      "G1849",
+      "G4348"
+    ],
+    "scripture": [
+      {
+        "ref": "Deut.18.9",
+        "key_terms": [
+          {
+            "strong": "H8441",
+            "lemma": "תּוֹעֵבַה"
+          },
+          {
+            "strong": "H1471A",
+            "lemma": "גֹּויִם"
+          }
+        ],
+        "force": "The verse opens the unit by forbidding Israel to learn to do according to the abominations (toebah) of the nations (goyim), framing the whole following catalog as gentile occult practice that is categorically off limits, not as morally indifferent custom.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.18.10",
+        "key_terms": [
+          {
+            "strong": "H5172",
+            "lemma": "נָחַשׁ"
+          },
+          {
+            "strong": "H3784",
+            "lemma": "כָּשַׁף"
+          },
+          {
+            "strong": "H7081",
+            "lemma": "קֶסֶם"
+          },
+          {
+            "strong": "H0784",
+            "lemma": "אֵשׁ"
+          }
+        ],
+        "force": "A chain of negated participial agents, qosem qesamim (one who practices divination), menahesh (a diviner via nachash), mekhasheph (a sorcerer via kashaph), and the one who makes his son or daughter pass through the fire (esh), enumerates concrete occult and death-dealing acts. The passing-through-fire clause ties the prohibition to ritual that takes life and yokes the prohibition explicitly to death-glorifying practice.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.18.11",
+        "key_terms": [
+          {
+            "strong": "H2267",
+            "lemma": "חֶבֶר"
+          },
+          {
+            "strong": "H0178",
+            "lemma": "אוֹב"
+          },
+          {
+            "strong": "H3049",
+            "lemma": "יִדְּעֹנִי"
+          },
+          {
+            "strong": "H1875",
+            "lemma": "דָּרַשׁ"
+          },
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          }
+        ],
+        "force": "The clause doresh el hammethim, one who inquires (darash) of the dead (muth), together with ob (medium) and yiddeoni (familiar spirit) and chober chaber (a binder of spells), targets necromancy and contact with the dead. This is the closest lexical analogue inside the canon to the death-glorifying aspect of the proposition, and it is condemned outright. The same cluster recurs in Lev 19:31, Lev 20:6, Lev 20:27, 1 Sam 28:3-9, 2 Kgs 21:6, 2 Kgs 23:24, Isa 8:19, and Isa 19:3, giving the prohibition a pan-canonical OT footprint.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.18.12",
+        "key_terms": [
+          {
+            "strong": "H8441",
+            "lemma": "תּוֹעֵבַה"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          }
+        ],
+        "force": "Summary verdict: kol oseh elleh toabath YHWH, everyone (kol) doing these things is an abomination (toebah) to YHWH, and on account of these abominations the nations are being dispossessed. The universal scope (kol) and the covenant judgment seal the prohibition as absolute for every occult act named in verses 10-11.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.11",
+        "key_terms": [
+          {
+            "strong": "G4790",
+            "lemma": "συγκοινωνέω"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G0175",
+            "lemma": "ἄκαρπος"
+          },
+          {
+            "strong": "G4655",
+            "lemma": "σκότος"
+          },
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          }
+        ],
+        "force": "me synkoinoneite tois ergois tois akarpois tou skotous, do not have joint fellowship (synkoinoneo, a rare verb of shared participation occurring only here, Phil 4:14, Rev 18:4) with the unfruitful (akarpos) works of darkness (skotos), but rather expose (elegcho) them. The imperative bars shared participation in any pattern characterized by darkness and barrenness, supporting rejection of the occult dimension, but it defines darkness morally (akarpos, fruitless) rather than by any calendar marker, so its application to a named holiday is mediated, not direct.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.20",
+        "key_terms": [
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          },
+          {
+            "strong": "G2380",
+            "lemma": "θύω"
+          }
+        ],
+        "force": "ha thuousin, daimoniois thuousin kai ou theo, what they sacrifice, they sacrifice to demons (daimonia) and not to God. Paul reframes pagan cultic acts as actually directed to demonic powers, not merely to nothing, which sharpens the occult-rejection side of the proposition by giving the spiritual rationale for the Deut 18 ban.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.21",
+        "key_terms": [
+          {
+            "strong": "G4221",
+            "lemma": "ποτήριον"
+          },
+          {
+            "strong": "G5132",
+            "lemma": "τράπεζα"
+          },
+          {
+            "strong": "G3348",
+            "lemma": "μετέχω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          }
+        ],
+        "force": "ou dynasthe poterion kyriou pinein kai poterion daimonion, you cannot drink the cup of the Lord and the cup of demons, nor metechein (partake of) the table of the Lord and the table of demons. The dynasthe construction states a categorical impossibility for cultic participation in both spheres, locking the occult-rejection clause as absolute when the act is actually religious sharing with daimonia.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.31",
+        "key_terms": [
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          },
+          {
+            "strong": "G4160",
+            "lemma": "ποιέω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "eite oun esthiete eite pinete eite ti poieite, panta eis doxan theou poieite, whether you eat or drink or whatever you do, do all to the glory (doxa) of God. The eite-eite-panta construction supplies a comprehensive doxological criterion governing all conduct, but names no holiday and lexically neither affirms nor forbids a specific cultural custom. It can ground a conscience reading only by application, not by direct lexeme, which is the seam where readers diverge.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.5",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          },
+          {
+            "strong": "G4135",
+            "lemma": "πληροφορέω"
+          },
+          {
+            "strong": "G3563",
+            "lemma": "νοῦς"
+          }
+        ],
+        "force": "hos men gar krinei hemeran par hemeran, hos de krinei pasan hemeran, hekastos en to idio noi plerophoreistho, one judges (krino) one day above another, another judges every day alike, let each (hekastos) be fully convinced (plerophoreo) in his own mind (nous). The grammar privatizes the day-judgment to the individual conscience formed before God. The lexeme plerophoreo, attested only 6 times in the canon, is the key verb for the conscience-formation step and is the direct lexical hook for the proposition's matter-of-conscience clause, though it does not name any specific holiday.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.2.16",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G1859",
+            "lemma": "ἑορτή"
+          },
+          {
+            "strong": "G3561",
+            "lemma": "νουμηνία"
+          },
+          {
+            "strong": "G4521",
+            "lemma": "σάββατον"
+          }
+        ],
+        "force": "me oun tis hymas krineto en brosei kai en posei e en merei heortes (festival) e noumenias (new moon, a NT hapax occurring only here) e sabbaton, let no one judge (krino) you about food or drink or in respect of a festival or new moon or sabbath. The prohibition on inter-personal day-judgment is explicit, and heorte is a lexically named festival category, so this passage provides the closest available NT word for general festival liberty. But the named festivals are Jewish calendar items, not pagan-origin observances, so the analogy to a contested cultural-origin holiday is by extension, not by direct denotation.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.8.7",
+        "key_terms": [
+          {
+            "strong": "G4893",
+            "lemma": "συνείδησις"
+          },
+          {
+            "strong": "G1494",
+            "lemma": "εἰδωλόθυτον"
+          }
+        ],
+        "force": "all ouk en pasin he gnosis, tines de te synetheia heos arti tou eidolou hos eidolothuton esthiousin, kai he syneidesis auton asthenes ousa molynetai, but not everyone has this knowledge; some, accustomed until now to the idol, eat the food as if it were truly offered to an idol, and their conscience (syneidesis), being weak, is defiled. The lexeme syneidesis, with eidolothuton (food sacrificed to idols), supplies the NT vocabulary for a cultural-religious participation question that depends on conscience and knowledge rather than on a bright-line ban. This is the closest NT analogue to a participation-with-discernment reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.8.9",
+        "key_terms": [
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G4348",
+            "lemma": "πρόσκομμα"
+          }
+        ],
+        "force": "blepete de mepos he exousia hymon haute proskomma genetai tois asthenesin, see that this liberty (exousia) of yours does not somehow become a stumbling block (proskomma) to the weak. The text affirms a real Christian liberty (exousia) in such matters yet binds it by neighbor-love, which is the lexical shape of the conscience-with-discernment reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Deut.18.9",
+        "to": "Deut.12.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.10",
+        "to": "Deut.12.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.10",
+        "to": "Exod.22.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.11",
+        "to": "1Sam.28.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.11",
+        "to": "Lev.19.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.11",
+        "to": "Lev.20.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.11",
+        "to": "Isa.8.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.18.12",
+        "to": "Deut.9.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.11",
+        "to": "Eph.5.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.11",
+        "to": "Eph.4.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.31",
+        "to": "1Cor.7.34",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.21",
+        "to": "1Cor.10.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.5",
+        "to": "Col.2.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.5",
+        "to": "Gal.4.10",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.10.31",
+        "addressed": true,
+        "resolution": "The eis doxan theou rule is comprehensive but criterial, not casuistic. It supplies a test for any act yet names no calendar custom, so it can support a conscience carve-out only by application. The lexeme itself leaves the harmless-participation clause undetermined, which is why the composite proposition is rated disputed rather than affirmed."
+      },
+      {
+        "ref": "Rom.14.5",
+        "addressed": true,
+        "resolution": "Direct query of the lexical store confirms Rom 14:5 contains G2250 hemera (day), G2919 krino (judge), G1538 hekastos (each), G3563 nous (mind), and the rare G4135 plerophoreo (be fully convinced). The grammar privatizes day-judgment to the individual conscience, supporting a matter-of-conscience reading on day observances. But Paul addresses Jewish vs gentile calendar disputes in a Roman house-church, and no lexeme names a pagan-origin holiday, so the application to a culturally contested observance is by extension, not by direct denotation. This is why the second clause of the proposition is lexically supported but not lexically determined."
+      },
+      {
+        "ref": "Col.2.16",
+        "addressed": true,
+        "resolution": "Col 2:16 forbids inter-personal judging on heorte (festival), noumenia (new moon, a NT hapax), and sabbaton, and so generalizes the day-liberty principle beyond Rom 14. But the festival category in view is Mosaic-cycle observance, not pagan-origin observance, and noumenia is a hapax with no other canon disambiguation, so a clean application to Halloween requires an inference the wordstock does not itself perform."
+      },
+      {
+        "ref": "1Cor.10.20",
+        "addressed": true,
+        "resolution": "Paul says pagan sacrifice is offered to daimonia (G1140, 63 NT occurrences, semantically stable as malevolent spiritual beings) and not to God, and one cannot share the cup and the table of demons. This sharpens the rejection clause as a categorical impossibility for actually-religious participation in occult or demonic ritual. It does not weaken the rejection half of the verdict; it strengthens it."
+      },
+      {
+        "ref": "1Cor.8.7",
+        "addressed": true,
+        "resolution": "1 Cor 8 introduces syneidesis (conscience, 30 NT occurrences) and eidolothuton (food offered to idols, 9 occurrences, confined to 1 Cor 8, 1 Cor 10, Acts 15, Rev 2). Paul rules that the idol is nothing yet binds the strong's exousia by the weak brother's proskomma. Lexically this is the closest NT analogue to a culturally-tinged participation question, but the named referent is meat from pagan sacrifice, not a calendar custom, so it grounds the principle without naming Halloween."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied for the cited verses. Eph 5:11, Rom 14:5, Col 2:16, 1 Cor 8, and 1 Cor 10 are NT outside 3 John, so CBGM is treated as shadow only and the verdict does not turn on any contested reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "continuity_of_moral_law",
+      "christian_liberty",
+      "separation_from_world"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "continuity_of_moral_law",
+        "verdict": "affirms the rejection clause, leaves the conscience clause open",
+        "rationale": "Reading Deut 18:9-12 as an enduring moral prohibition on occult practice and consultation of the dead, carried forward by Eph 5:11 and 1 Cor 10:20-21, yields a firm no on the occult and death-glorifying half. The same lens says nothing decisive about indifferent custom, so it leaves the second clause genuinely open rather than answered."
+      },
+      {
+        "framework": "christian_liberty",
+        "verdict": "affirms the conscience clause as a legitimate application",
+        "rationale": "Reading 1 Cor 8 through 10 plus Rom 14:5-6 and Col 2:16 as establishing real exousia in things adiaphora supports treating non-occult cultural participation as a matter of individual conscience under the doxological rule of 1 Cor 10:31. This lens depends on an application step the wordstock supplies in principle but not by direct denotation, which is the contested join."
+      },
+      {
+        "framework": "separation_from_world",
+        "verdict": "treats the conscience clause as a category error",
+        "rationale": "Reading Eph 5:11 strictly (do not even share fellowship with the works of darkness, but expose them) together with the pagan-origin character of Samhain-derived practice argues that nothing once shaped by death-ritual is recoverable as indifferent custom. On this lens the proposition's second clause concedes too much to cultural participation. The lexeme synkoinoneo is rare (3 NT occurrences) and morally absolute in tone, which fairly supports this reading even if it does not force it."
+      }
+    ],
+    "notes": "The two clauses of the proposition are governed by different lexical centers. The prohibition rests on a dense, pan-canonical occult vocabulary (toebah, ob, yiddeoni, nachash, kashaph, daimonion). The conscience carve-out rests on general criteria and lexical analogues (eis doxan theou, syneidesis, exousia, plerophoreo, heorte) that, while real, do not name pagan-origin calendar customs. The verdict turns on whether the second clause counts as a legitimate application of named principles or as an unwarranted extension into a category the canon never lexicalizes."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How does the canonical wordstock treat participation in occult or death-related ritual, and does it license, forbid, or leave open participation in cultural customs of pagan-religious origin that the participant judges otherwise harmless.",
+    "notes": "The original stem preloads a verdict by partitioning Halloween into rejected occult and death-glorifying aspects versus a permitted harmless category that is declared a matter of conscience. The terms harmless and matter of conscience encode the conclusion of the second clause before the lexeme is consulted. The verdict was derived on the original stem, but the neutralized form separates the empirical lexical question from the embedded conclusion. No verdict change from the prior file; the prior disputed verdict is confirmed by the deeper query, which adds Rom 14:5, Col 2:16, 1 Cor 8:7, 1 Cor 8:9, and 1 Cor 10:20-21 as resolving lexical anchors for both lenses."
+  },
+  "lay_summary": "The canon does not name Halloween, so the verdict is reached by composition. On the rejection side the Hebrew of Deuteronomy 18:9-12 stacks a precise occult vocabulary: divination (nachash), sorcery (kashaph), a medium (ob), a familiar spirit (yiddeoni), inquiring (darash) of the dead (muth), and one who passes a child through the fire. The whole list is sealed by toebah, abomination, and by the statement that everyone (kol) doing these things is detestable to the LORD. The same word cluster recurs in Leviticus, 1 Samuel 28, 2 Kings, and Isaiah, giving the prohibition pan-canonical reach. In the New Testament Ephesians 5:11 uses the rare verb synkoinoneo, have joint fellowship, attested only three times, and tells readers not to share in the unfruitful (akarpos) works of darkness (skotos) but instead to expose (elegcho) them. 1 Corinthians 10:20-21 sharpens this: pagan ritual is offered to daimonia, demons, and you cannot drink the cup of the Lord and the cup of demons. The first clause of the proposition, that occult and death-glorifying activity is rejected, sits on firm word-level ground across both Testaments. The second clause, that harmless cultural participation is a matter of conscience, has no lexeme that names a calendar custom. It rests on the comprehensive eis doxan theou rule of 1 Corinthians 10:31, on the conscience vocabulary of 1 Corinthians 8 (syneidesis, eidolothuton, exousia, proskomma), on the day-judgment grammar of Romans 14:5-6 where each (hekastos) is to be fully convinced (plerophoreo, only 6 canon uses) in his own mind, and on Colossians 2:16 which forbids inter-personal judging about heorte (festival) and noumenia (a hapax, attested only here). Each of these is genuine lexical material, but none denote a pagan-origin observance. The wordstock decides the occult side clearly. It supplies principles, not denotations, for the cultural side. That is the lexical root of the disagreement: the same canon yields a categorical no to actual occult and demonic communion and a principled but unnamed yes to liberty under conscience, and the proposition welds them at exactly the seam the words leave open.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.18.9-12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8441"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0178"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3049"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.2.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.10.20-21"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4790"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1140"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4893"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4135"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3561"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Deut.18.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.14.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.10.21"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

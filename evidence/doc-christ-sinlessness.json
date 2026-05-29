@@ -1,0 +1,679 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-christ-sinlessness",
+  "question_id": "doc-christ-sinlessness",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Five independent witnesses negate sin of Jesus with the core noun ἁμαρτία (G0266, 151 NT verses, stable sense) under absolute negation. The writer of Hebrews ends the high-priest description χωρὶς ἁμαρτίας (Heb 4:15), Paul names him τὸν μὴ γνόντα ἁμαρτίαν (2 Cor 5:21), Peter quotes the Servant of Isa 53:9 as ἁμαρτίαν οὐκ ἐποίησεν οὐδὲ εὑρέθη δόλος ἐν τῷ στόματι αὐτοῦ (1 Pet 2:22), John writes ἁμαρτία ἐν αὐτῷ οὐκ ἔστιν (1 John 3:5), and in John 8:46 Jesus asks τίς ἐξ ὑμῶν ἐλέγχει με περὶ ἁμαρτίας. Negators (οὐ, μὴ, οὐδέ, χωρίς) stack across Gospel, Pauline, Petrine, Johannine, and Hebrews material, with no lexical text predicating ἁμαρτία of Jesus. The proposition that he DID not sin is lexically foreclosed. The vocabulary leaves open only the SCOPE question of whether sinlessness means inability to sin or ability not to sin, since temptation (Heb 4:15) and ἔμαθεν τὴν ὑπακοήν (Heb 5:8) are predicated alongside the negations."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5565",
+        "lemma": "χωρίς",
+        "transliteration": "chōris",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1097",
+        "lemma": "γινώσκω",
+        "transliteration": "ginōskō",
+        "occurrences_in_canon": 206,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1388",
+        "lemma": "δόλος",
+        "transliteration": "dolos",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4750",
+        "lemma": "στόμα",
+        "transliteration": "stoma",
+        "occurrences_in_canon": 72,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2147",
+        "lemma": "εὑρίσκω",
+        "transliteration": "heuriskō",
+        "occurrences_in_canon": 167,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elenchō",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3756",
+        "lemma": "οὐ",
+        "transliteration": "ou",
+        "occurrences_in_canon": 1443,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3361",
+        "lemma": "μή",
+        "transliteration": "mē",
+        "occurrences_in_canon": 951,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3761",
+        "lemma": "οὐδέ",
+        "transliteration": "oude",
+        "occurrences_in_canon": 129,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4834",
+        "lemma": "συμπαθέω",
+        "transliteration": "sympatheō",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3665",
+        "lemma": "ὁμοιότης",
+        "transliteration": "homoiotēs",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3985",
+        "lemma": "πειράζω",
+        "transliteration": "peirazō",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3129",
+        "lemma": "μανθάνω",
+        "transliteration": "manthanō",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5218",
+        "lemma": "ὑπακοή",
+        "transliteration": "hypakoē",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosynē",
+        "occurrences_in_canon": 87,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3741",
+        "lemma": "ὅσιος",
+        "transliteration": "hosios",
+        "occurrences_in_canon": 8,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0283",
+        "lemma": "ἀμίαντος",
+        "transliteration": "amiantos",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0266",
+      "G5565",
+      "G1097",
+      "G1388",
+      "G4750",
+      "G2147",
+      "G1651",
+      "G4160",
+      "G3756",
+      "G3361",
+      "G3761",
+      "G4834",
+      "G3665",
+      "G3985",
+      "G3129",
+      "G5218",
+      "G1343",
+      "G3741",
+      "G0283"
+    ],
+    "scripture": [
+      {
+        "ref": "Heb.4.15",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G5565",
+            "lemma": "χωρίς"
+          },
+          {
+            "strong": "G3985",
+            "lemma": "πειράζω"
+          },
+          {
+            "strong": "G4834",
+            "lemma": "συμπαθέω"
+          },
+          {
+            "strong": "G3665",
+            "lemma": "ὁμοιότης"
+          }
+        ],
+        "force": "The verse text in the store reads πεπειρασμένον δὲ κατὰ πάντα καθ’ ὁμοιότητα χωρὶς ἁμαρτίας. The perfect passive participle of πειράζω (G3985) enumerates testing in every respect, and the closing prepositional phrase χωρὶς ἁμαρτίας uses χωρίς (G5565) with the genitive as an absolute exclusion that carves sin out of that totality. The construction limits the OUTCOME of testing, not the testing itself. ὁμοιότης (G3665) is near-hapax, occurring only here and Heb 7:15, which is why the totality phrase rests on the broader καθ’ ὁμοιότητα idea rather than a frequent term.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.21",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          }
+        ],
+        "force": "The store text reads τὸν μὴ γνόντα ἁμαρτίαν ὑπὲρ ἡμῶν ἁμαρτίαν ἐποίησεν. τὸν μὴ γνόντα ἁμαρτίαν is an articular aorist participle of γινώσκω (G1097) under the subjective negation μή (G3361), naming Christ as the one who did not experientially know sin. γινώσκω across its 206 NT verses carries a relational and experiential sense, not merely cognitive, so the negation reaches lived practice. The second clause ἁμαρτίαν ἐποίησεν, framed by ὑπὲρ ἡμῶν, marks a substitutionary action and presupposes the prior sinlessness stated in the participle. The lexical order is sinlessness then imputation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.22",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1388",
+            "lemma": "δόλος"
+          },
+          {
+            "strong": "G2147",
+            "lemma": "εὑρίσκω"
+          },
+          {
+            "strong": "G4750",
+            "lemma": "στόμα"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G3761",
+            "lemma": "οὐδέ"
+          }
+        ],
+        "force": "The store text reads ὃς ἁμαρτίαν οὐκ ἐποίησεν οὐδὲ εὑρέθη δόλος ἐν τῷ στόματι αὐτοῦ. The first clause negates deed with οὐ (G3756) plus ἁμαρτία (G0266), the second negates speech with οὐδέ (G3761) plus δόλος (G1388, only 11 NT verses) in the mouth. The aorist passive εὑρέθη (G2147) extends the negation to any external finding of guile. This bicolon reproduces the Servant clause of Isa 53:9, where the Hebrew reads לֹא חָמָס עָשָׂה וְלֹא מִרְמָה בְּפִיו, no violence done and no deceit in his mouth, so the negation is anchored in prior canonical typology.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.5",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "The store text reads καὶ ἁμαρτία ἐν αὐτῷ οὐκ ἔστιν. The present indicative ἔστιν (G1510) under οὐ (G3756) is an ontological denial, and the locative ἐν αὐτῷ pushes the negation from outward act to inhering principle. The present tense generalizes the claim across time rather than restricting it to one episode. The demonstrative ἐκεῖνος earlier in the verse fixes the referent as Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.8.46",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "The store text reads τίς ἐξ ὑμῶν ἐλέγχει με περὶ ἁμαρτίας. The verb ἐλέγχω (G1651, 17 NT verses) means to convict or expose with proof, and the rhetorical question expecting the answer none places the burden of producing any ἁμαρτία (G0266) on the hostile audience. This is the only anchor in narrative gospel genre, and it puts the sinlessness claim on the lips of Jesus himself rather than a later writer, widening the canonical spread beyond the epistles.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.26",
+        "key_terms": [
+          {
+            "strong": "G3741",
+            "lemma": "ὅσιος"
+          },
+          {
+            "strong": "G0283",
+            "lemma": "ἀμίαντος"
+          },
+          {
+            "strong": "G5565",
+            "lemma": "χωρίς"
+          }
+        ],
+        "force": "The store text reads ἀρχιερεύς, ὅσιος, ἄκακος, ἀμίαντος, κεχωρισμένος ἀπὸ τῶν ἁμαρτωλῶν. The same Hebrews argument that opens with χωρὶς ἁμαρτίας (Heb 4:15) closes with a chain of positive and privative terms: ὅσιος (G3741, 8 verses), ἄκακος, ἀμίαντος (G0283, 4 verses), and the perfect participle κεχωρισμένος from the same root as χωρίς (G5565). The cluster of low-frequency separative and purity terms reinforces the lexical case for separation from ἁμαρτία.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.5.8",
+        "key_terms": [
+          {
+            "strong": "G3129",
+            "lemma": "μανθάνω"
+          },
+          {
+            "strong": "G5218",
+            "lemma": "ὑπακοή"
+          }
+        ],
+        "force": "The store text reads καίπερ ὢν υἱός, ἔμαθεν ἀφ’ ὧν ἔπαθεν τὴν ὑπακοήν. The aorist ἔμαθεν of μανθάνω (G3129) predicates a learning of ὑπακοή (G5218) through suffering. This text does not predicate ἁμαρτία of Jesus, so it does not complicate the proposition that he DID not sin, but it is the lexical seed of the SCOPE question, because a sinless one who nonetheless learns obedience by experience invites the unresolved distinction between inability to sin and ability not to sin.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.53.9",
+        "key_terms": [
+          {
+            "strong": "G1388",
+            "lemma": "δόλος"
+          },
+          {
+            "strong": "G4750",
+            "lemma": "στόμα"
+          }
+        ],
+        "force": "The store carries the Hebrew of Isa 53:9: עַל לֹא חָמָס עָשָׂה וְלֹא מִרְמָה בְּפִיו, because of no violence done and no deceit in his mouth, predicating innocence of deed and of speech to the Servant under the doubled negation לֹא. The Greek of 1 Pet 2:22 reproduces this bicolon, substituting ἁμαρτία for the lawlessness or violence term and keeping δόλος (G1388) in the mouth (στόμα, G4750). The Petrine substitution widens the scope from a specific wrong to sin in general while preserving the two-part deed and word structure. The key_terms here are cited as the Greek lemmas that 1 Pet 2:22 carries forward.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Cor.5.21",
+        "to": "1Pet.2.22",
+        "source": "openbible",
+        "votes": 121
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "1John.3.5",
+        "source": "openbible",
+        "votes": 71
+      },
+      {
+        "from": "Heb.4.15",
+        "to": "Heb.2.17",
+        "source": "openbible",
+        "votes": 71
+      },
+      {
+        "from": "Heb.4.15",
+        "to": "2Cor.5.21",
+        "source": "openbible",
+        "votes": 54
+      },
+      {
+        "from": "Heb.4.15",
+        "to": "Heb.7.26",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "1Pet.2.22",
+        "to": "Isa.53.9",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "1Pet.2.22",
+        "to": "Heb.4.15",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "1John.3.5",
+        "to": "2Cor.5.21",
+        "source": "openbible",
+        "votes": 20
+      },
+      {
+        "from": "1Pet.2.22",
+        "to": "Isa.53.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.21",
+        "to": "Isa.53.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.15",
+        "to": "Heb.7.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.3.5",
+        "to": "1John.1.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.10.18",
+        "addressed": true,
+        "resolution": "The store text reads Τί με λέγεις ἀγαθόν; οὐδεὶς ἀγαθὸς εἰ μὴ εἷς ὁ θεός. The clause is an interrogative probing the ruler's category for ἀγαθός, and it predicates no ἁμαρτία (G0266) or defect of Jesus. The five direct anchors negate ἁμαρτία of him explicitly, so the lexical balance is not disturbed."
+      },
+      {
+        "ref": "Heb.5.8",
+        "addressed": true,
+        "resolution": "ἔμαθεν ἀφ’ ὧν ἔπαθεν τὴν ὑπακοήν predicates learning of ὑπακοή (G5218) by suffering, with no ἁμαρτία lemma attached to Christ. Learning obedience by experience is not sinning. The same author opens with χωρὶς ἁμαρτίας (Heb 4:15) and closes with the κεχωρισμένος ἀπὸ τῶν ἁμαρτωλῶν chain (Heb 7:26), so within the letter sin is consistently negated of him. This verse feeds the SCOPE question (peccability) but does not predicate sin."
+      },
+      {
+        "ref": "Heb.4.15",
+        "addressed": true,
+        "resolution": "πεπειρασμένον κατὰ πάντα, tested in every respect, is real temptation predicated of Christ via πειράζω (G3985). Taken alone the universal κατὰ πάντα might be read to imply susceptibility to sin, but the same clause ends with χωρὶς ἁμαρτίας (G5565 plus G0266), which excludes the sin outcome from the tested totality. The lexis affirms genuine temptation and denies sin in the same breath, leaving open only whether the inability to sin was metaphysical or moral."
+      },
+      {
+        "ref": "2Cor.5.21",
+        "addressed": true,
+        "resolution": "The clause ἁμαρτίαν ἐποίησεν, isolated, could be misread as predicating sin of Christ. But the same verse opens with τὸν μὴ γνόντα ἁμαρτίαν and the frame ὑπὲρ ἡμῶν marks the action as substitutionary. The lexical sequence is sinlessness then imputation, not sinfulness."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No anchor falls in the ingested ECM window of 3 John, so this is outside published CBGM scope and recorded as ecm-shadow. Heb 4:15 carries an editorial marker on πεπειρασμένον in the bundle, but the participle and the closing χωρὶς ἁμαρτίας are uncontested across the stored editions (MACULA-Greek-SBLGNT, MACULA-Greek-Nestle1904, STEPBible-TTESV all carry the verse). The Isa 53:9 wording carried into 1 Pet 2:22 is stable. The negation clauses are not variant sensitive."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "Five witnesses across gospel, Pauline, Petrine, Johannine, and Hebrews material negate ἁμαρτία of Christ with absolute negators (οὐ, μὴ, οὐδέ, χωρίς) and distinct constructions. The recurring core noun ἁμαρτία (151 NT verses) under stacked negation makes the claim that he DID not sin lexically convergent and decisive."
+      },
+      {
+        "framework": "redemptive-historical",
+        "verdict": "affirms",
+        "rationale": "The Isa 53:9 Servant, innocent in deed and speech under the doubled Hebrew לֹא, supplies the canonical pattern that 1 Pet 2:22 applies to Jesus. The covenant arc from sin-free Servant to χωρὶς ἁμαρτίας High Priest (Heb 4:15, 7:26) reinforces the same lexical claim across testaments."
+      },
+      {
+        "framework": "impeccability (non posse peccare)",
+        "verdict": "affirms with stronger scope",
+        "rationale": "On this reading the present indicative ἁμαρτία ἐν αὐτῷ οὐκ ἔστιν (1 John 3:5), located at the level of inhering principle by ἐν αὐτῷ, plus the categorical negations, imply not merely that Christ did not sin but that he could not. The temptation language (πειράζω, Heb 4:15) is real testing that nonetheless could not have succeeded. This reading is fully consistent with every negation but goes beyond what the negators alone state."
+      },
+      {
+        "framework": "peccability (posse non peccare)",
+        "verdict": "affirms the fact, leaves scope open",
+        "rationale": "On this reading the vocabulary fixes only that Christ DID not sin, not that he was unable to. πεπειρασμένον κατὰ πάντα (Heb 4:15) describes genuine temptation, and ἔμαθεν τὴν ὑπακοήν (Heb 5:8) describes obedience learned through suffering, which on this lens presupposes a real, resistible possibility. The negations report the outcome (no sin) without specifying the modal capacity. A reader holding this lens is fairly represented: it affirms the proposition and treats the inability question as underdetermined by the words."
+      }
+    ],
+    "notes": "All four lenses affirm the proposition that Christ did not sin. They diverge only on SCOPE, whether sinlessness entails inability to sin (impeccability) or only the fact of not sinning under a real capacity (peccability). The negation vocabulary settles the fact and underdetermines the modal scope, which is why the divergence is genuine and lexical rather than a dispute over the verdict."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem describes the proposition in the ordinary categories of thought, word, and deed and does not assume a contested taxonomy. The lexis matches these categories directly: 1 Pet 2:22 negates deed (ἁμαρτίαν οὐκ ἐποίησεν) and word (δόλος in the mouth), 1 John 3:5 negates the inhering state (ἐν αὐτῷ), and John 8:46 challenges anyone to convict him. The verdict is derived from the stacked negations of ἁμαρτία in the queried text, not from the stem. Lexical correction made in this pass: the temptation verb in Heb 4:15 is πειράζω, Strong G3985; the prior file listed G3987 (πειράω), which is a different and rarer lemma. The proper Strong is now used."
+  },
+  "lay_summary": "Five New Testament voices, working independently, deny sin of Jesus using the same core word for sin and different ways of saying no. Hebrews 4:15 ends its description of him with the phrase without sin, after stating he was tested in every respect, so the word without carves sin out of an otherwise complete list of testings. Paul in 2 Corinthians 5:21 calls Christ the one not knowing sin, where the verb for knowing means knowing by experience, so the denial reaches lived practice. Peter in 1 Peter 2:22 takes the wording of Isaiah 53:9, which in Hebrew says no violence done and no deceit in his mouth, and applies it to Jesus, denying both deed and speech in one breath. John in 1 John 3:5 uses the present tense to say that in him sin is not, placing the denial at the level of what he is, not only what he does. And in John 8:46 Jesus himself asks which of you convicts me of sin, expecting the answer none. These witnesses span a gospel, Paul, Peter, John, and Hebrews, and they draw their background from the suffering Servant of Isaiah 53. No verse in the queried text ever pins sin on Jesus. The texts some readers find hard, such as Mark 10:18 or the statements that he was tempted and learned obedience through suffering, describe a rhetorical question or real testing and growth, not an act of sin. So the fact that he did not sin is lexically settled. The one thing the words leave open, and the reason careful readers still differ, is scope: the same vocabulary that reports real temptation and learned obedience does not say whether being sinless means he was unable to sin or only that he never did. The denials fix the outcome and stop short of fixing that inner capacity, and that gap, not any disagreement over the fact, is where the divergence lives.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.4.15"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Pet.2.22"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1John.3.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.8.46"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.7.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.5.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.4.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.22"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0266"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5565"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3985"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1097"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1651"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.53.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "2Cor.5.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.2.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Heb.4.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.3.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek interlinear and gloss data is licensed CC-BY-NC-4.0 and is not bulk redistributable. The other cited sources (MorphGNT-morphology CC-BY-SA-4.0, STEPBible-TBESG and STEPBible-TAHOT CC-BY-4.0, OpenBible-cross-refs CC-BY, TSK public_domain) are redistributable, but the aggregate cannot be republished without removing the MACULA-Greek citations."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

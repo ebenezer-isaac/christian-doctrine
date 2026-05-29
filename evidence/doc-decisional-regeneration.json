@@ -1,0 +1,512 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-decisional-regeneration",
+  "question_id": "doc-decisional-regeneration",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct morphology query of the four anchors yields one stable pattern, the new birth is grammatically God's act done to a passive recipient. John 1:13 egennethesan is G1080 aorist passive third plural, and the verse stacks three ek genitive of source phrases under negation (ouk ex haimaton, oude ek thelematos sarkos, oude ek thelematos andros) before the adversative alla ek theou, naming thelema (will) twice and excluding it as a source. John 3:8 gegennemenos is G1080 perfect passive participle and the pneuma thelei (G2309 present active) blows where it wills, putting initiative on the Spirit. 1 Peter 1:23 anagegennemenoi is G0313 perfect passive participle, again ouk ek sporas phthartes alla aphthartou. James 1:18 apekuesen is G0616 aorist active with God as subject and hemas as object, the participle boultheis (G1014) naming the divine resolve as cause. The genuine human-response verbs (pisteuon, pisteuson aorist imperative, epikalesetai) are real commands, but Romans 10:13 still frames the outcome passively, sothesetai future passive, so the saving event remains something received, not self-generated. The grammar therefore supports the proposition, an outward act of decision is not itself the effecting cause of the new birth."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 98,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0313",
+        "lemma": "ἀναγεννάω",
+        "transliteration": "anagennao",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0616",
+        "lemma": "ἀποκυέω",
+        "transliteration": "apokueo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelema",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2309",
+        "lemma": "θέλω",
+        "transliteration": "thelo",
+        "occurrences_in_canon": 214,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1537",
+        "lemma": "ἐκ",
+        "transliteration": "ek",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0235",
+        "lemma": "ἀλλά",
+        "transliteration": "alla",
+        "occurrences_in_canon": 763,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4701",
+        "lemma": "σπορά",
+        "transliteration": "spora",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 245,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1941",
+        "lemma": "ἐπικαλέω",
+        "transliteration": "epikaleo",
+        "occurrences_in_canon": 31,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 106,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 258,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1080",
+      "G0313",
+      "G0616",
+      "G2307",
+      "G1014",
+      "G2309",
+      "G1537",
+      "G0235",
+      "G4701",
+      "G3056",
+      "G4100",
+      "G1941",
+      "G4982",
+      "G2983",
+      "G0862",
+      "G5349",
+      "G4154"
+    ],
+    "scripture": [
+      {
+        "ref": "John.1.13",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "ἐγεννήθησαν"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θελήματος"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          },
+          {
+            "strong": "G0235",
+            "lemma": "ἀλλά"
+          }
+        ],
+        "force": "Queried morphology confirms egennethesan is G1080 V-API-3P, aorist passive indicative third plural, so the begotten ones are the patients and do not generate themselves. The clause runs ouk ex haimaton oude ek thelematos sarkos oude ek thelematos andros alla ek theou, four parallel ek phrases marking genitive of source, three negated human sources then the adversative all to God. thelema (G2307) is named twice and ruled out, which is the sharpest lexical bar in the canon against locating the new birth in a human act of will or decision. The prior verse uses elabon (received) and pisteuousin (those believing) for human response, but the begetting verb here is passive, so response and begetting sit in different grammatical slots.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.8",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεγεννημένος"
+          },
+          {
+            "strong": "G2309",
+            "lemma": "θέλει"
+          },
+          {
+            "strong": "G4154",
+            "lemma": "πνεῖ"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          }
+        ],
+        "force": "Queried morphology confirms thelei is G2309 V-PAI-3S (present active, the Spirit wills) and gegennemenos is G1080 V-RPP-NSM, perfect passive participle, the one having been begotten. to pneuma hopou thelei pnei, the Spirit blows where it wills, with pnei (G4154) and pneuma sharing a root so the sound carries the sense. The grammar places initiative and direction with the pneuma and makes the born one the result of an action upon him, not the controller of it. This supports Spirit-initiated rather than decision-controlled birth.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.1.18",
+        "key_terms": [
+          {
+            "strong": "G1014",
+            "lemma": "βουληθεὶς"
+          },
+          {
+            "strong": "G0616",
+            "lemma": "ἀπεκύησεν"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγῳ"
+          },
+          {
+            "strong": "G0536",
+            "lemma": "ἀπαρχήν"
+          }
+        ],
+        "force": "Queried morphology confirms boultheis is G1014 V-AOP-NSM, an aorist participle of willing, and apekuesen is G0616 V-AAI-3S, aorist active with God as subject and hemas (us) as object. boultheis apekuesen hemas logo aletheias, having willed it He brought us forth by the word of truth. The verb apokueo occurs only twice in the canon, both in James, and both place the one bringing forth in the subject slot, sin brings forth death in 1.15 and God brings forth us in 1.18. Here the divine resolve is the cause, the word of truth (logos, G3056) is the instrument, and no human decisional act stands in the causal slot.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.1.23",
+        "key_terms": [
+          {
+            "strong": "G0313",
+            "lemma": "ἀναγεγεννημένοι"
+          },
+          {
+            "strong": "G4701",
+            "lemma": "σπορᾶς"
+          },
+          {
+            "strong": "G0862",
+            "lemma": "ἀφθάρτου"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγου"
+          }
+        ],
+        "force": "Queried morphology confirms anagegennemenoi is G0313 V-RPP-NPM, perfect passive participle, the readers stand in a completed state of having been born again that they did not effect. anagegennemenoi ouk ek sporas phthartes alla aphthartou dia logou zontos theou. The ouk ek X alla Y frame parallels John 1:13 exactly, and the source is an imperishable seed (spora, G4701, a canon hapax) and the living word of God, not any perishable human action. The companion verse 1.3 uses the same verb actively, anagennesas hemas, He having begotten us again, with God as subject, confirming the agent.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.13",
+        "key_terms": [
+          {
+            "strong": "G1941",
+            "lemma": "ἐπικαλέσηται"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σωθήσεται"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Queried morphology shows epikalesetai is G1941 V-AMS-3S, aorist middle subjunctive, whoever calls on the name, a genuine human act, while the outcome sothesetai is G4982 V-FPI-3S, future passive, shall be saved. This text states the human-response side most strongly, pas hos an epikalesetai, everyone who calls, yet the saving verb is passive, so even where a human act is named, the salvation is received and not self-generated. This shows the canon commands a real response without making the act the effecting cause, which is exactly the distinction the proposition draws.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.13",
+        "to": "1John.5.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.1.13",
+        "to": "1John.3.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.1.13",
+        "to": "1Pet.1.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.1.13",
+        "to": "Titus.3.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.1.13",
+        "to": "Phil.2.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.1.13",
+        "to": "John.3.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.3.8",
+        "to": "Ezek.37.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.3.8",
+        "to": "Job.37.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.1.18",
+        "to": "2Thess.2.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jas.1.18",
+        "to": "Eph.2.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.23",
+        "to": "1Pet.1.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.23",
+        "to": "John.3.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.23",
+        "to": "John.6.63",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.23",
+        "to": "1John.5.18",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.1.12",
+        "addressed": true,
+        "resolution": "Queried morphology shows elabon is G2983 V-2AAI-3P (received) and pisteuousin is G4100 V-PAP-DPM (to those believing), and genesthai is G1096 aorist middle infinitive, to become children of God. This appears to make reception and belief a condition. But the very next verse specifies the mode of that becoming as ek theou egennethesan with human will excluded, so receiving and believing are the appointed means through which the begetting is given, in a different grammatical slot from the passive begetting verb. The lexical sequence subordinates human response to the divine begetting in the next clause."
+      },
+      {
+        "ref": "Rev.22.17",
+        "addressed": true,
+        "resolution": "Queried morphology shows labeto is G2983 V-2AAM-3S (let him take, aorist active imperative) and ho thelon is G2309 V-PAP-NSM (the one willing). ho thelon labeto to hudor zoes dorean, let the one who wills take the water of life freely. This is a real invitation that engages the human will and contains a command to take, which a decision-based reading rightly invokes. It is addressed to desire and response and uses no gennao or anagennao birth vocabulary, so it commands a genuine response without identifying that act as the begetting cause. It stands alongside, not against, the passive birth grammar of the anchors, which is why supports is neutral on the Romans 10 companion text."
+      },
+      {
+        "ref": "Acts.16.31",
+        "addressed": true,
+        "resolution": "Queried morphology shows pisteuson is G4100 V-AAM-2S (believe, aorist imperative) and sothese is G4982 V-FPI-2S (you shall be saved, future passive). Believe and you will be saved frames faith as a commanded human response that a decision-based reading can cite. The imperative specifies the object of trust, the Lord Jesus, and the saving verb is passive, and no begetting vocabulary appears, so it does not contradict the anchor pattern that the new birth itself is sourced ek theou. Faith is the appointed means and not the begetting event in itself."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle reports no variant units for the four anchor verses and not_in_ecm_scope is true, so none of these texts fall in the ingested ECM window (3 John 1.1 to 1.15). John 1:13 carries a known singular reading tradition (hos egennethe, who was begotten) attested in a few Latin and patristic witnesses, but the Greek manuscript tradition is overwhelmingly the plural egennethesan, and even the singular reading still grounds the begetting ek theou and excludes human will, so the verdict holds across plausible readings. 1 Peter 1:23 shows only a minor trailing variant on menontos with no bearing on the source clause. No invented variant signal."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "monergism",
+      "synergism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "divine-agency new-birth reading",
+        "verdict": "for",
+        "rationale": "Takes the passive and God-subject begetting verbs (egennethesan API, gegennemenos and anagegennemenoi RPP, apekuesen AAI, anagennesas AAP) and the double exclusion of thelema in John 1:13 to locate the whole effecting cause of the new birth in God, so no outward human act can be the saving event. This reading also notes that gennao for new birth recurs as perfect passive ten times in 1 John, a stable canon-wide pattern of having been begotten of God."
+      },
+      {
+        "framework": "genuine human-response reading",
+        "verdict": "for",
+        "rationale": "Stresses the real imperatives and response verbs the canon commands, pisteuson (aorist imperative, Acts 16:31), labeto and ho thelon (Rev 22:17), pas hos an epikalesetai (Rom 10:13), and the present participle pisteuousin in John 1:12. On its strongest form this reading insists faith is a necessary instrumental human response, not a fiction. Yet even here the saving verb is future passive (sothesetai), and the birth vocabulary stays passive, so this reading still cannot make a raised hand, walked aisle, or repeated prayer the begetting cause itself. It therefore also affirms the narrow claim under test, that the outward act is not itself the saving event, while insisting the response is genuine."
+      }
+    ],
+    "notes": "The proposition draws a fine distinction, faith as the appointed means versus an outward decisional act treated as itself the saving event. The lexical data bears on the second clause directly because the begetting vocabulary is passive or has God as subject in all four anchors. The two causal lenses disagree about how much weight human faith carries instrumentally, a disagreement the words underdetermine, but both converge on the narrow proposition because no text puts a human act in the begetting subject slot."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Is the new birth that brings salvation grammatically presented as an act of God upon a recipient received through faith, or can an outward act of decision such as a raised hand, walked aisle, or repeated prayer be the cause that itself effects salvation?",
+    "notes": "The stem is contrastive rather than blandly neutral, and the phrase an outward act of decision treated as itself the saving event subtly preloads the disfavored reading by framing it as a mistaken treatment, so verdict_preloaded is set true and a tradition-neutral rephrasing is supplied. This is a neutrality correction over the prior file, not a verdict change. The descriptors raised hand, walked aisle, repeated prayer name a practice rather than a confessional code word, so the stem is not tradition-coded. The verdict is still derived on the original wording, and the lexical grammar (passive begetting verbs, double exclusion of thelema in John 1:13, God as subject of apekuesen and anagennesas) supports the original proposition on its own terms."
+  },
+  "lay_summary": "Four passages were checked word by word for how they describe the new birth, and the grammar lands the same way each time. In John 1:13 the children of God are said to be born not of blood, nor of the will of the flesh, nor of the will of a husband, but of God. The Greek piles up three phrases for human origin under a negation, then turns with a strong but to God as the source, and the word for will is named twice and ruled out. The verb means they were begotten and is passive, so the people are the ones acted upon, not the ones producing the birth. In John 3:8 the Spirit is compared to wind that blows where it wills, and the one born of the Spirit shares that pattern, so the initiative rests with the Spirit. James 1:18 says God, having willed it, brought us forth by the word of truth, with God as the active subject and us as the object. First Peter 1:23 says believers have been born again, not of perishable seed but of imperishable, through the living word of God, using a completed verb form for a state they did not bring about. So far the words place the cause of the new birth in God and in the word. The other side of the picture is real too. The canon plainly commands a human response, believe, call on the name, let the one who desires take the water of life freely. These are genuine imperatives, not decorations. The reason readers still divide is that the words do not say exactly how much weight that human response carries as a means, and they leave that ranking open. What the words do settle is narrower, in Romans 10:13 even the result is stated as shall be saved, a passive, and no verse ever puts a human act in the grammatical slot of the one doing the begetting. That is why the new birth reads as something received through faith rather than produced by an outward act such as a raised hand, a walked aisle, or a repeated prayer.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.1.13"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.3.8"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jas.1.18"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.1.3"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0313"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0616"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.1.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.1.23"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

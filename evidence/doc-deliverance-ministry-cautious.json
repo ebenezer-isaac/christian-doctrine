@@ -1,0 +1,532 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-deliverance-ministry-cautious",
+  "question_id": "doc-deliverance-ministry-cautious",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.615,
+    "confidence": "low",
+    "variant_robust": false,
+    "pan_canonical": false,
+    "rationale": "The verb phrase ekballo ta daimonia (G1544 with G1140) is a fixed idiom in the Gospels and Acts, attested in roughly two dozen verses, and Acts 16:18 records Paul commanding an unclean spirit to come out (G1831) en to onomati Iesou Christou with immediate effect, so the act of expelling demons in Jesus name is lexically established. The cautionary half is also embedded in the canon. Acts 19:13 to 16 narrates itinerant Jewish exorkistai (G1845, a true hapax) who epecheiresan (G2021, to take in hand, used only three times) to invoke the onoma as a borrowed formula and are overpowered, and Matt 7:22 to 23 has Jesus disowning those who say did we not ekbalomen daimonia in your name. But the compound proposition adds prudential qualifiers, a standing ministry, genuine cases of possession, great caution, that the bare vocabulary illustrates by negative example but does not itself encode as a rule, and the pastoral epistles supply no office word for an exorcist. One of the four anchors, Mark 16:17, sits in the contested longer ending of Mark, so the warrant clause is not variant-robust. The lexical pattern is therefore materially contested and best recorded as disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1544",
+        "lemma": "ἐκβάλλω",
+        "transliteration": "ekballo",
+        "occurrences_in_canon": 82,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1140",
+        "lemma": "δαιμόνιον",
+        "transliteration": "daimonion",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1831",
+        "lemma": "ἐξέρχομαι",
+        "transliteration": "exerchomai",
+        "occurrences_in_canon": 219,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1845",
+        "lemma": "ἐξορκιστής",
+        "transliteration": "exorkistes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4190",
+        "lemma": "πονηρός",
+        "transliteration": "poneros",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2021",
+        "lemma": "ἐπιχειρέω",
+        "transliteration": "epicheireo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1278",
+        "lemma": "διαπονέομαι",
+        "transliteration": "diaponeomai",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0746",
+        "lemma": "ἀρχή",
+        "transliteration": "arche",
+        "occurrences_in_canon": 57,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1544",
+      "G1140",
+      "G1831",
+      "G1845",
+      "G4190",
+      "G3686",
+      "G2021",
+      "G1278",
+      "G0746",
+      "G1849",
+      "G1628"
+    ],
+    "scripture": [
+      {
+        "ref": "Mark.16.17",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "The future ekbalousin (from G1544) plus daimonia, set en to onomati mou, attaches the expelling of demons to those who believe. This is the warrant clause, but the verse belongs to the longer ending of Mark, which the manuscript tradition treats as a contested addition, so the force is real yet text-critically qualified.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.16.18",
+        "key_terms": [
+          {
+            "strong": "G1831",
+            "lemma": "ἐξέρχομαι"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "Paul, after being diaponetheis (G1278, deeply troubled, a verb used only here and Acts 4:2), turns and commands the spirit exelthein (G1831, aorist infinitive) ap autes en onomati Iesou Christou, and it comes out that same hour. The aorist command plus the prepositional phrase in the name grounds expulsion in the authority of the named Christ, not in a technique of the speaker.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.1.39",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          }
+        ],
+        "force": "A representative undisputed gospel instance of the fixed phrase: Jesus kerysson kai ta daimonia ekballon eis holen ten Galilaian. The idiom ekballo plus daimonion is attested across more than twenty verses in the Synoptics and Acts, which is what establishes the act of casting out demons as a lexically real pattern independent of Mark 16:17.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.10.8",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          }
+        ],
+        "force": "The commission to the twelve includes daimonia ekballete in the imperative, but the command is set within a specific sending to the lost sheep of the house of Israel (10:6) and is paired with raising the dead, cleansing lepers, and healing the sick as a bounded mission charge. The grammar gives a real authorization but the literary scope is the immediate mission, which is why a standing institution cannot be read off the imperative alone.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.7.22",
+        "key_terms": [
+          {
+            "strong": "G1544",
+            "lemma": "ἐκβάλλω"
+          },
+          {
+            "strong": "G1140",
+            "lemma": "δαιμόνιον"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "Speakers protest to to so onomati daimonia exebalomen, yet Jesus answers ouk egnon hymas. The aorist ekbalomen treats casting out demons as something even those whom Christ disowns may claim to have done, which means the activity by itself, separated from a real relation to Jesus, is not a sign of standing. This is the strongest internal warrant for the caution clause.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.6.12",
+        "key_terms": [
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχή"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G4190",
+            "lemma": "πονηρός"
+          }
+        ],
+        "force": "The pale is ou pros haima kai sarka but pros tas archas, tas exousias, tous kosmokratoras, ta pneumatika tes ponerias en tois epouraniois. The accumulation of rank terms frames the conflict as genuinely spiritual, which supplies background for any expulsion language, yet the very next verses prescribe the panoplia tou theou (helmet, breastplate, shield, sword of the Spirit which is the rhema theou) and proseuche, not a deliverance procedure. The lexical inventory in the prescriptive half is armor and prayer, not ekballo.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.19.13",
+        "key_terms": [
+          {
+            "strong": "G1845",
+            "lemma": "ἐξορκιστής"
+          },
+          {
+            "strong": "G2021",
+            "lemma": "ἐπιχειρέω"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "The itinerant Jewish exorkistai (G1845, the only canonical occurrence) epecheiresan (G2021, to attempt or take in hand, three times in the NT and always of an undertaking that miscarries or is suspect) to name the name of the Lord Jesus over those with evil spirits. The lexical choice marks them as outsiders adopting a technique, and the verb of attempting already telegraphs failure.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.19.15",
+        "key_terms": [
+          {
+            "strong": "G4190",
+            "lemma": "πονηρός"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G1987",
+            "lemma": "ἐπίσταμαι"
+          }
+        ],
+        "force": "The pneuma to poneron answers ton Iesoun ginosko kai ton Paulon epistamai, hymeis de tines este. The deliberate pairing of two knowing-verbs (ginosko of Jesus, epistamai of Paul) against a hymeis de tines este exposes that the name without a real relation to its bearer carries no authority for the speaker.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.19.16",
+        "key_terms": [
+          {
+            "strong": "G4190",
+            "lemma": "πονηρός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G1131",
+            "lemma": "γυμνός"
+          }
+        ],
+        "force": "The man with the evil spirit leaps on them, masters (katakurieusas) both (amphoteron), and they flee that house gymnous (G1131, naked) kai tetraumatismenous. The narrative outcome embeds the abuse-and-danger warning directly in the text, which is the lexical basis for the caution clause.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jude.1.9",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          }
+        ],
+        "force": "Even Michael ho archangelos disputing peri tou Mouseos somatos ouk etolmesen krisin epenenkein blasphemias but said epitimesai soi kyrios. The lexical pattern is restraint: a higher being defers to the Lord rather than pronouncing a railing judgment, which models the caution clause from the angelic side of the same conflict.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.19.15",
+        "to": "Acts.16.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.12",
+        "to": "Eph.2.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.19.13",
+        "to": "Gen.4.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.19.13",
+        "to": "Josh.6.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.7.22",
+        "to": "Acts.19.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.16.18",
+        "to": "Mark.1.25",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.16.17",
+        "addressed": true,
+        "resolution": "The warrant clause for casting out demons in Jesus name is here, but Mark 16:9 to 20 is the contested longer ending; the manuscript tradition does not transmit it uniformly, so this verse cannot bear the full weight of the warrant on its own. The act is still attested undisputedly across Mark 1:34, 1:39, Matt 10:8, Acts 16:18, which carry the load."
+      },
+      {
+        "ref": "Acts.19.13",
+        "addressed": true,
+        "resolution": "The Sceva episode is not a denial of expelling demons; it is a negative case showing that the onoma deployed as a detached formula by those without standing fails. It supports the caution clause rather than overturning the warrant, so it is resolved as illustrating, not contradicting, the proposition."
+      },
+      {
+        "ref": "Matt.7.22",
+        "addressed": true,
+        "resolution": "Jesus disowns speakers who claim daimonia exebalomen in his name, which establishes that successful-looking expulsion language by itself is not a credential. This complicates a routine-deliverance reading from the inside and is resolved as the canonical basis for the caution clause."
+      },
+      {
+        "ref": "Eph.6.12",
+        "addressed": false,
+        "resolution": "Ephesians 6:12 frames the conflict spiritually but contains no expulsion verb and no command formula; the following verses prescribe armor and prayer rather than ekballo. The bundle supplies no syntactic link from the warfare metaphor to the casting-out idiom, so its bearing on a standing deliverance ministry stays inferential and remains unresolved."
+      },
+      {
+        "ref": "1Tim.3.1",
+        "addressed": false,
+        "resolution": "The pastoral epistles list offices (episkopos, diakonos, presbyteros) and gifts but contain no exorkistes role and no command to institute one; the absence is lexical, not silence about a known item. It is unresolved here because absence is suggestive but not decisive on its own."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": true,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.16.17",
+        "variant_id": "mark-longer-ending",
+        "verdict_impact": "material",
+        "note": "Mark 16:17 sits within the longer ending (16:9 to 20), which the manuscript tradition transmits unevenly; this materially affects the warrant clause because one of the four named anchor verses is text-critically contested, though Mark 1:39, Matt 10:8, and Acts 16:18 carry the warrant undisputedly."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle reports not_in_ecm_scope and an empty variant_units list, but the longer ending of Mark is a well-known major variant that bears on the warrant clause, so it is recorded here rather than ignored."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "cessationism",
+      "continuationism",
+      "charismatic_deliverance",
+      "office-bound_ministry"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "continuationism",
+        "verdict": "affirms",
+        "rationale": "Reads ekballo ta daimonia as a continuing pattern available to believers, takes Mark 16:17 at face value as warrant, and reads the Sceva episode and Matt 7:22 as warnings against unauthorized practice rather than bans. The caution clause is satisfied by the narratives; the warrant is satisfied by the imperatives and Acts 16:18."
+      },
+      {
+        "framework": "charismatic_deliverance",
+        "verdict": "affirms",
+        "rationale": "Reads Eph 6:12 as a programmatic statement of an ongoing spiritual conflict, taking the rank-terms (archai, exousiai, kosmokratores) as a real classification of adversaries, and treats the gospel and Acts expulsion idiom as paradigmatic for a standing pastoral practice with safeguards drawn from the Sceva episode."
+      },
+      {
+        "framework": "cessationism",
+        "verdict": "disputed",
+        "rationale": "Treats the casting-out events as concentrated in the apostolic and gospel period and reads the contested status of Mark 16:17 plus the absence of any exorkistes office in the pastoral epistles plus the prescription of armor and prayer rather than ekballo in Eph 6:13 to 18 as evidence that a standing deliverance ministry is not lexically mandated."
+      },
+      {
+        "framework": "office-bound_ministry",
+        "verdict": "disputed",
+        "rationale": "Reads the lack of an exorkistes office among episkopos, diakonos, presbyteros and the Matt 7:22 disowning of name-only expellers as a constraint: the act may occur, but the canon does not authorize a routine pastoral institution carrying that title. The caution clause is satisfied; the warrant for a ministry is not."
+      }
+    ],
+    "notes": "The lexical data attest the act of expelling demons in Jesus name and the danger of misusing the name, but the prudential synthesis into an ongoing, cautious ministry depends on a framework the bare morphology cannot adjudicate. Continuationism and cessationism diverge on canon distribution; charismatic-deliverance and office-bound readings diverge on whether the absent office word matters."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the canonical vocabulary for casting out demons (ekballo ta daimonia, command formulas in Jesus name) together with the Sceva episode (G1845, G2021) and Matt 7:22 to 23 show about who may expel demons, on what basis, and whether the canon institutes an ongoing office?",
+    "notes": "The original stem bundles a warrant clause, a restriction to genuine cases of possession, and the prudential qualifiers open to abuse and requires great caution into one proposition. The qualifiers encode a verdict the lexical data illustrate by the negative Sceva case and Matt 7:22 but do not establish as a doctrine, and the proposition does not address whether an office should exist. The verdict is still derived on the original stem."
+  },
+  "lay_summary": "The Greek phrase behind casting out demons, ekballo ta daimonia, is a fixed expression used in more than twenty Synoptic and Acts verses, so the activity is firmly in the text. In Acts 16:18 Paul commands a spirit to come out in the name of Jesus Christ and it leaves at once, which grounds the act in the named Christ rather than in a speaker technique. The caution side is built into Scripture as well. Acts 19:13 to 16 introduces wandering Jewish exorcists, a word used only here, who attempt to use the name of Jesus as a borrowed formula. The evil spirit answers that it knows Jesus and is acquainted with Paul but does not recognize them, then the possessed man overpowers them so they flee the house naked and wounded. Matt 7:22 sharpens the warning: speakers will say did we not cast out demons in your name, and Jesus answers I never knew you, which shows that successful-looking expulsion language is not by itself proof of standing. Ephesians 6:12 frames the conflict as against rulers and authorities in heavenly places, yet the prescription that follows is armor and prayer, not a casting-out procedure. The pastoral epistles list offices (overseer, deacon, elder) but no exorcist role, and Jude 9 notes that even Michael did not pronounce a railing judgment but deferred to the Lord. Taken together the vocabulary supports both that demons were expelled in Jesus name and that misuse is real and dangerous, but the proposition adds qualifiers, a standing ministry, genuine cases of possession, and great caution, that the words illustrate by the failed Sceva attempt and the Matthew disowning yet do not by themselves turn into an institution. One of the four named anchors, Mark 16:17, sits in the longer ending of Mark which the manuscripts transmit unevenly, so that anchor is text-critically shaky even though other verses carry the act undisputedly. Readers diverge because the canon supplies two patterns the words do not rank: a clear warrant for the act paired with no command formula or office label for an ongoing ministry, leaving the prudential packaging as a synthesis the bare lexical evidence does not settle.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.16.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.19.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1544"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1845"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2021"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.19.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.6.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.7.22"
+    },
+    {
+      "type": "variant",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Mark.16.17"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cites MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute false) and SBLGNT-text under SBLGNT-EULA (redistribute false); both block bulk redistribution of this evidence file."
+  },
+  "flags": [
+    "variant-sensitive",
+    "ecm-shadow",
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

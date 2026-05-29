@@ -1,0 +1,908 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-omniscience",
+  "question_id": "doc-divine-omniscience",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across both Testaments presents God knowing all things exhaustively and eternally. In the OSHB Hebrew layer the verb yada (H3045, queried at 945 word occurrences over 874 verses, OT only) is the qal perfect predicate over Ps 139, where eyn millah bilshoni (H0369 plus H4405) negates any word God does not already know. Isa 46:10 stacks maggid (H5046) with the temporal pair reshit (H7225) and acharit (H0319) plus etsah (H6098) taqum to declare the end from the beginning. The Greek lexicon adds proginosko (G4267), proorizo (G4309), ginoskei panta (G1097 plus G3956) in 1 John 3:20, and the absolute negation ouk estin ktisis aphanes (G0852) in Heb 4:13. The complicating now-I-know texts use the same qal-perfect yada inside a nasah testing frame (Gen 22:1 H5254 then Gen 22:12 H3045, paired explicitly in Deut 8:2), so they read as demonstration, not acquisition. Pan-canonical density is high and the verdict is variant robust."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H3045",
+        "lemma": "יָדַע",
+        "transliteration": "yada",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5413,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0369",
+        "lemma": "אַיִן",
+        "transliteration": "ayin",
+        "occurrences_in_canon": 788,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3808",
+        "lemma": "לֹא",
+        "transliteration": "lo",
+        "occurrences_in_canon": 5186,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5046",
+        "lemma": "נָגַד",
+        "transliteration": "nagad",
+        "occurrences_in_canon": 370,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213A",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 2629,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1847",
+        "lemma": "דַּעַת",
+        "transliteration": "daath",
+        "occurrences_in_canon": 93,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6383",
+        "lemma": "פִּלְאִי",
+        "transliteration": "peliah",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6098",
+        "lemma": "עֵצָה",
+        "transliteration": "etsah",
+        "occurrences_in_canon": 89,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7225",
+        "lemma": "רֵאשִׁית",
+        "transliteration": "reshit",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0319",
+        "lemma": "אַחֲרִית",
+        "transliteration": "acharit",
+        "occurrences_in_canon": 61,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4309",
+        "lemma": "προορίζω",
+        "transliteration": "proorizo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4267",
+        "lemma": "προγινώσκω",
+        "transliteration": "proginosko",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1097",
+        "lemma": "γινώσκω",
+        "transliteration": "ginosko",
+        "occurrences_in_canon": 222,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1243,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 156,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0852",
+        "lemma": "ἀφανής",
+        "transliteration": "aphanes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1131",
+        "lemma": "γυμνός",
+        "transliteration": "gymnos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1799",
+        "lemma": "ἐνώπιον",
+        "transliteration": "enopion",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1012",
+        "lemma": "βουλή",
+        "transliteration": "boule",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelema",
+        "occurrences_in_canon": 62,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1754",
+        "lemma": "ἐνεργέω",
+        "transliteration": "energeo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H3045",
+      "H3605",
+      "H0369",
+      "H3808",
+      "H5046",
+      "H6213A",
+      "H1847",
+      "H6383",
+      "H6098",
+      "H7225",
+      "H0319",
+      "H2714",
+      "H8394",
+      "H5254",
+      "H5927",
+      "H3820",
+      "H7200",
+      "G4309",
+      "G4267",
+      "G1097",
+      "G3956",
+      "G2588",
+      "G0852",
+      "G1131",
+      "G1799",
+      "G1012",
+      "G2307",
+      "G1754",
+      "G3724",
+      "G0459"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.139.1",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H2713",
+            "lemma": "חָקַר"
+          }
+        ],
+        "force": "YHWH is addressed with chaqartani (you have searched me) and the qal imperfect-consecutive wattedaa (and you know me). The opening colon places exhaustive personal knowing as the controlling predicate over the whole psalm. Queried yada (H3045) here is the same root that recurs in verses 2 and 4.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.2",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H7350",
+            "lemma": "רָחוֹק"
+          }
+        ],
+        "force": "yadata shivti uqumi pairs sitting and rising as a merism of total daily action, and merachoq adds spatial distance. The queried yada here is qal perfect 2ms (HVqp2ms), identical in form to the divine heart-knowing of 1 Kgs 8:39. The lexical force is that no posture or distance limits the divine knowing.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.3",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H1870",
+            "lemma": "דֶּרֶךְ"
+          }
+        ],
+        "force": "wekol derakhay hiskantah uses kol (H3605, the highest-frequency totalizing quantifier in the OSHB layer at over five thousand occurrences) with derek to assert that all my ways are familiar to YHWH. The object of the knowing is grammatically total.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.4",
+        "key_terms": [
+          {
+            "strong": "H0369",
+            "lemma": "אַיִן"
+          },
+          {
+            "strong": "H4405",
+            "lemma": "מִלָּה"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          }
+        ],
+        "force": "ki eyn millah bilshoni hen yadata kullah states that before a word is on the tongue YHWH already knows the whole of it. The existential negator ayin (H0369) forecloses any prior moment in which the word is unknown to God, so the construction asserts prior knowledge of an unspoken word.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.139.6",
+        "key_terms": [
+          {
+            "strong": "H1847",
+            "lemma": "דַּעַת"
+          },
+          {
+            "strong": "H6383",
+            "lemma": "פִּלְאִי"
+          }
+        ],
+        "force": "peliah daat mimmenni nisgevah confesses that this knowledge is too wonderful and too high. peliah (H6383) is a near-hapax, queried at only two occurrences in the canon (here and Judg 13:18, of the angel's wonderful name), so the speaker grades the divine knowing as qualitatively beyond creaturely reach.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.40.28",
+        "key_terms": [
+          {
+            "strong": "H2714",
+            "lemma": "חֵקֶר"
+          },
+          {
+            "strong": "H8394",
+            "lemma": "תְּבוּנָה"
+          }
+        ],
+        "force": "eyn cheqer litvunato states there is no searching out of his understanding. The noun cheqer (H2714, searching) under the negator eyn declares that the divine understanding has no findable limit, the positive counterpart to the creature unable to reach it in Ps 139:6. Ps 147:5 echoes this with tevunah (H8394) ein mispar.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.46.9",
+        "key_terms": [
+          {
+            "strong": "H0410",
+            "lemma": "אֵל"
+          },
+          {
+            "strong": "H0657",
+            "lemma": "אֶפֶס"
+          }
+        ],
+        "force": "anoki el we-eyn od we-efes kamoni places God in an exclusivity claim. The piled negations eyn (H0369) and efes (H0657) deny any peer who could rival the knowing asserted in the next verse, so the omniscience claim is grounded in unique deity.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.46.10",
+        "key_terms": [
+          {
+            "strong": "H5046",
+            "lemma": "נָגַד"
+          },
+          {
+            "strong": "H7225",
+            "lemma": "רֵאשִׁית"
+          },
+          {
+            "strong": "H0319",
+            "lemma": "אַחֲרִית"
+          },
+          {
+            "strong": "H6098",
+            "lemma": "עֵצָה"
+          }
+        ],
+        "force": "maggid mereshit acharit umiqqedem asher lo naasu declares the end from the beginning, and from antiquity what is not yet done. The hiphil participle maggid (nagad, H5046) with the temporal pair reshit (H7225) and acharit (H0319) asserts present declaration of future events. atsati taqum we-kol cheftsi eeseh adds that the divine counsel (etsah, H6098) stands and every desire is enacted, so prior knowing and prior purpose are joined.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.94.11",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H4284",
+            "lemma": "מַחֲשָׁבָה"
+          }
+        ],
+        "force": "YHWH yodea machshevot adam states that the LORD knows the thoughts of man. Queried yada here is the qal participle (HVqrmsa), framing the knowing as a standing characteristic, and the object machshevot (thoughts) makes inner cognition the field of divine knowledge.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Kgs.8.39",
+        "key_terms": [
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          },
+          {
+            "strong": "H3824",
+            "lemma": "לֵבָב"
+          }
+        ],
+        "force": "attah yadata levadeka eth levav kol bene haadam confesses that you alone know the heart of all the sons of men. Queried yada here is qal perfect 2ms (HVqp2ms), the exact morphological form used in Ps 139:2 and 4, which is the positive control showing that the verb form itself carries exhaustive divine heart-knowledge.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.20",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          }
+        ],
+        "force": "meizon estin ho theos tes kardias hemon kai ginoskei panta states that God is greater than our heart and knows all things. The neuter plural panta (G3956) as object of the present indicative ginoskei (G1097) makes the field of knowing exhaustive with no temporal qualifier.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.4.13",
+        "key_terms": [
+          {
+            "strong": "G0852",
+            "lemma": "ἀφανής"
+          },
+          {
+            "strong": "G1131",
+            "lemma": "γυμνός"
+          },
+          {
+            "strong": "G1799",
+            "lemma": "ἐνώπιον"
+          }
+        ],
+        "force": "ouk estin ktisis aphanes enopion autou panta de gymna kai tetrachelismena tois ophthalmois autou denies any creature is hidden before him and declares all things bare and exposed to his eyes. aphanes (G0852) is a queried hapax (one canon occurrence), and the perfect passive pair gymna and tetrachelismena secures both the totality and the durative state of exposure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.34",
+        "key_terms": [
+          {
+            "strong": "G0281",
+            "lemma": "ἀμήν"
+          },
+          {
+            "strong": "G0220",
+            "lemma": "ἀλέκτωρ"
+          },
+          {
+            "strong": "G0533",
+            "lemma": "ἀπαρνέομαι"
+          }
+        ],
+        "force": "amen lego soi hoti en taute te nykti prin alektora phonesai tris aparnese me records a future free human act predicted in advance with numeric precision (three times) and a timing marker (before the rooster crows). The lexical force is foreknowledge of a future free choice down to count and timing.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.23",
+        "key_terms": [
+          {
+            "strong": "G3724",
+            "lemma": "ὁρίζω"
+          },
+          {
+            "strong": "G4268",
+            "lemma": "πρόγνωσις"
+          },
+          {
+            "strong": "G1012",
+            "lemma": "βουλή"
+          },
+          {
+            "strong": "G0459",
+            "lemma": "ἄνομος"
+          }
+        ],
+        "force": "te horismene boule kai prognosei tou theou couples the definite plan of God with his prior knowledge. The dative prognosei (G4268) conjoined with boule (G1012) grounds the free human action of lawless executioners (anomos, G0459) in a prior divine knowing, so a future free act is held as foreknown.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.11",
+        "key_terms": [
+          {
+            "strong": "G4309",
+            "lemma": "προορίζω"
+          },
+          {
+            "strong": "G1012",
+            "lemma": "βουλή"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θέλημα"
+          },
+          {
+            "strong": "G1754",
+            "lemma": "ἐνεργέω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "prooristhentes kata prothesin tou ta panta energountos kata ten boulen tou thelematos autou places predetermination in line with the one who works all things (ta panta, G3956) according to the counsel of his will. The genitive present participle energountos (G1754) with ta panta asserts exhaustive providential operation rooted in prior counsel.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.29",
+        "key_terms": [
+          {
+            "strong": "G4267",
+            "lemma": "προγινώσκω"
+          },
+          {
+            "strong": "G4309",
+            "lemma": "προορίζω"
+          },
+          {
+            "strong": "G4832",
+            "lemma": "σύμμορφος"
+          }
+        ],
+        "force": "hous proegno kai proorisen symmorphous tes eikonos tou huiou autou couples prior knowing (proginosko, G4267) and prior determining (proorizo, G4309) of those conformed to the Son. The aorist active pair presents the divine prior cognition as a completed perspective from God's vantage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.30",
+        "key_terms": [
+          {
+            "strong": "G4309",
+            "lemma": "προορίζω"
+          },
+          {
+            "strong": "G2564",
+            "lemma": "καλέω"
+          },
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G1392",
+            "lemma": "δοξάζω"
+          }
+        ],
+        "force": "hous de proorisen toutous kai ekalesen kai edikaiosen kai edoxasen chains four aorist actives. The aorist edoxasen places future glorification in the same completed-aspect frame as the prior verbs, consistent with comprehensive divine knowing that views the future as settled.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Heb.4.13",
+        "to": "1Sam.16.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.13",
+        "to": "Eccl.12.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.4.13",
+        "to": "Job.26.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1John.3.20",
+        "to": "Job.27.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.23",
+        "to": "Acts.3.18",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Eph.1.11",
+        "to": "Isa.46.10",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.46.9",
+        "to": "Isa.42.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.46.10",
+        "to": "Isa.41.22",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.46.10",
+        "to": "Isa.46.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.139.5",
+        "to": "Deut.33.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ps.139.3",
+        "to": "2Sam.12.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.46.9",
+        "to": "Isa.45.5",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gen.22.12",
+        "addressed": true,
+        "resolution": "attah yadati ki yere elohim attah uses yada (H3045) in the queried qal perfect 1cs form (HVqp1cs). The same root, the same form, is used of God exhaustively knowing the heart in 1 Kgs 8:39 (HVqp2ms) and Ps 139:2,4, so the verb form is neutral. What shifts the sense is the frame: the unit opens in Gen 22:1 with nasah (H5254, God tested Abraham), and the identical nasah plus yada pairing recurs in Deut 8:2 (both H5254 and H3045 in one verse, to test you and to know what was in your heart). In a testing frame yada denotes acknowledgment by demonstration, knowledge made manifest, not cognitive acquisition. The lexical pattern resolves the verse as forensic disclosure."
+      },
+      {
+        "ref": "Gen.18.21",
+        "addressed": true,
+        "resolution": "eredah na ve-ereh uses raah (H7200, let me see) and then yada (H3045) in the queried qal imperfect cohortative 1cs form (HVqi1cs, edaah, let me know). This is descent-and-investigation language inside a theophanic narrative, the speech of judicial action rather than a report of prior ignorance. Read with the pan-canonical yada pattern (1 Kgs 8:39, Ps 94:11, Ps 139) the cohortative is the idiom of a judge coming to act, not deprivation of knowledge. The vocabulary supplies a juridical-investigation sense well attested in covenant-lawsuit contexts."
+      },
+      {
+        "ref": "Jer.19.5",
+        "addressed": true,
+        "resolution": "asher lo tsivviti ve-lo dibbarti ve-lo altah al libbi states what did not come up on my heart. The queried verb is alah (H5927, came up) with leb (H3820, heart). The exact idiom alah al leb recurs with the same H5927 in Jer 7:31 and Jer 32:35, both speaking of child sacrifice that God did not command or will. The idiom marks what was not decreed or commanded, engaging volition, not bare cognition, so the verse does not deny that God foreknew the act. The lexical parallel across three Jeremiah verses fixes the sense as decretal, not epistemic."
+      },
+      {
+        "ref": "Mark.13.32",
+        "addressed": true,
+        "resolution": "peri de tes hemeras ekeines oudeis oiden ei me ho pater uses oida of the Son not knowing the day. The lexeme predicates a limitation in the Son during the incarnate mission, a knowing relative to the economy of his earthly role, set against the broader canonical pattern panta ginoskei (1 John 3:20) and ouk estin ktisis aphanes (Heb 4:13). The vocabulary distinguishes a stated economic limit on the incarnate Son from the divine attribute of exhaustive knowing, so it qualifies a role, not the essence."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No anchor verse falls in the ingested ECM window (3 John 1.1 to 1.15); not_in_ecm_scope is true in the bundle. Acts 2:23 carries a known variant on cheiros, immaterial to prognosei and boule. Eph 1:11 has a Western reading on ekleerothemen, but the boule and thelema language is stable. None of these alter the lexical force, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "classical_theism",
+      "molinism",
+      "open_theism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "classical_theism",
+        "verdict": "affirms exhaustive divine knowledge including future free human actions, held timelessly",
+        "rationale": "Reads proginosko and proorizo plus maggid mereshit acharit as a direct lexical assertion of exhaustive, settled knowing. The now-I-know and let-me-see texts are taken as accommodated narrative idiom (forensic yada in a nasah frame), consistent with eyn millah bilshoni and ginoskei panta."
+      },
+      {
+        "framework": "molinism",
+        "verdict": "affirms exhaustive foreknowledge, including counterfactuals of creaturely freedom",
+        "rationale": "Coordinates prognosis (Acts 2:23) and boule with a knowledge of how free creatures would freely act. The same lexical data (foreknown free act of the executioners, predicted free denial of Peter) is read as middle knowledge that preserves libertarian freedom. The words assert that the free acts are foreknown without specifying the mode."
+      },
+      {
+        "framework": "open_theism",
+        "verdict": "denies exhaustive definite foreknowledge of future free actions, affirms knowledge of all settled reality",
+        "rationale": "Takes the now-I-know of Gen 22:12 and the let-me-see of Gen 18:21 as real divine learning, and reads alah al leb in Jer 19:5 against fixed foreknowledge of the contingent. On this lens the future free act is genuinely open, so God knows it as possibility, not as settled fact. The lexical counterweight is that yada in Gen 22:12 is the same qal perfect form used of exhaustive heart-knowing in 1 Kgs 8:39, the testing frame (nasah, Deut 8:2) reads yada as demonstration, and the Jer 19:5 idiom recurs decretally in Jer 7:31 and 32:35."
+      }
+    ],
+    "notes": "Pan-canonical density on yada, ginoskei panta, proginosko, proorizo, eyn millah, eyn cheqer, and the maggid mereshit acharit declaration favors exhaustive knowing across both Testaments. The divergence among lenses turns on whether the anthropomorphic knowing and testing idioms are accommodated narrative speech or ontologically binding limits, and on whether future free acts are foreknown as settled or as open possibility. Each lens is stated in its strongest lexical form; the verdict is not assigned to any tradition."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem states that God knows all things (actual and possible, past, present, future) exhaustively and eternally, including all future free human actions. This is descriptive of the claim under test, not loaded toward one tradition, since the future-free-actions clause is precisely the contested scope that open theism disputes. The lexicon was queried to test whether the canon language carries exhaustive knowing and whether the now-I-know and let-me-see idioms qualify it. The prior file verdict of affirms true is retained on real queried evidence."
+  },
+  "lay_summary": "Across both Testaments the words point clearly to God knowing all things exhaustively and eternally. In Psalm 139 the verb yada (Strong H3045, queried at 945 occurrences in the Hebrew text) is used for God searching the writer, knowing his sitting and rising, his ways, and a word before it reaches the tongue. The phrase eyn millah bilshoni declares there is no word in the mouth that God does not already know. Isaiah 40:28 adds eyn cheqer, no searching out of his understanding, and Isaiah 46:10 has maggid mereshit acharit, declaring the end from the beginning. The New Testament continues the pattern. First John 3:20 puts ginoskei panta, knows all things, with God as subject, the object made total. Hebrews 4:13 stacks the negation ouk estin ktisis aphanes, no creature is hidden, with the perfect participles gymna and tetrachelismena, all things bare and laid open to his eyes. Matthew 26:34 has Jesus predict Peter denying him three times before the rooster crows, and Acts 2:23 binds foreknowledge with the divine plan, so future free human acts are spoken of as foreknown. The recurring terms and their spread across narrative, wisdom, prophecy, gospel, and letter make the pattern decisive. Where readers diverge is on a small set of texts that sound like God learning. Genesis 22:12 says now I know that you fear God, but the verb there is the very same form of yada used in 1 Kings 8:39 for God alone knowing every heart, and the chapter opens by saying God tested Abraham, the same testing-plus-knowing pairing found in Deuteronomy 8:2, so the words read as knowledge shown by a test rather than knowledge gained. Genesis 18:21 has God descend to see, the speech of a judge coming to act. Jeremiah 19:5 says a thing did not come up on my heart, but the same idiom in Jeremiah 7:31 and 32:35 means God did not command or will it. So the divergence is genuinely lexical. It hangs on whether these knowing and testing idioms are accommodated narrative speech or real limits, and on whether a future free choice is known as settled fact or open possibility. The wider word pattern weighs toward accommodated idiom and settled knowing.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3045"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0369"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2714"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5927"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6383"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4267"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0852"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.139.4"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.22.12"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Kgs.8.39"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.46.10"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jer.19.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.3.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.4.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.2.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Heb.4.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Eph.1.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.46.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1John.3.20"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

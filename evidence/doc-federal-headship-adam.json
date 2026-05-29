@@ -1,0 +1,834 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-federal-headship-adam",
+  "question_id": "doc-federal-headship-adam",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.825,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Romans 5:12-19 and 1 Corinthians 15:21-22, 45-49 build a tightly structured one-and-many parallel between Adam and Christ. The Greek repeats di' henos anthropou (through one man) against hoi polloi (the many), binds the two halves with hosper, G5618, and houtos, G3779, names Adam typos tou mellontos (a type of the one to come, G5179) in 5:14, and frames 1 Corinthians 15:22 with the incorporative en plus dative, en to Adam pantes apothneskousin set against en to Christo. The text therefore plainly establishes Adam as a representative whose one act has corporate consequence and as the counterpart head to Christ. What the vocabulary does NOT do is name the mechanism. It never calls Adam a covenant or federal head, and Paul's technical reckoning verb logizomai, G3049, which saturates Romans 4, is absent from the Adam passage. The crux phrase eph' ho pantes hemarton in 5:12 carries both epi, G1909, and the relative hos, G3739, so it reads either causally (because all sinned) or relatively (in whom all sinned). The same data fit a federal, a seminal, and an influence-analogy account, so the structural claim is supported but the specific federal-imputation form is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0076",
+        "lemma": "Ἀδάμ",
+        "transliteration": "Adam",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3900",
+        "lemma": "παράπτωμα",
+        "transliteration": "paraptoma",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2631",
+        "lemma": "κατάκριμα",
+        "transliteration": "katakrima",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistemi",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1677",
+        "lemma": "ἐλλογέω",
+        "transliteration": "ellogeo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3049",
+        "lemma": "λογίζομαι",
+        "transliteration": "logizomai",
+        "occurrences_in_canon": 40,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5179",
+        "lemma": "τύπος",
+        "transliteration": "typos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3667",
+        "lemma": "ὁμοίωμα",
+        "transliteration": "homoioma",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3876",
+        "lemma": "παρακοή",
+        "transliteration": "parakoe",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5218",
+        "lemma": "ὑπακοή",
+        "transliteration": "hypakoe",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 581,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1722",
+        "lemma": "ἐν",
+        "transliteration": "en",
+        "occurrences_in_canon": 2937,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5517",
+        "lemma": "χοϊκός",
+        "transliteration": "choikos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2032",
+        "lemma": "ἐπουράνιος",
+        "transliteration": "epouranios",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1504",
+        "lemma": "εἰκών",
+        "transliteration": "eikon",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2227",
+        "lemma": "ζῳοποιέω",
+        "transliteration": "zoopoieo",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1345",
+        "lemma": "δικαίωμα",
+        "transliteration": "dikaioma",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0076",
+      "G1520",
+      "G0444",
+      "G3900",
+      "G2631",
+      "G2525",
+      "G2288",
+      "G0266",
+      "G0264",
+      "G1677",
+      "G3049",
+      "G5179",
+      "G3667",
+      "G3876",
+      "G5218",
+      "G5547",
+      "G1722",
+      "G5517",
+      "G2032",
+      "G1504",
+      "G2227",
+      "G1345",
+      "G1909",
+      "G3739",
+      "G3779",
+      "G5618"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.5.12",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          }
+        ],
+        "force": "Token query of this verse returns the chain di' henos anthropou (G1223, G1520, G0444), hamartia (G0266), eis ton kosmon (G1519, G2889), and houtos (G3779) introducing eis pantas anthropous death came. The closing clause eph' ho pantes hemarton contains BOTH epi (G1909) and the relative pronoun hos (G3739), confirmed in the queried token sequence. That dual morphology is the heart of the dispute. As epi plus relative read causally it means because all sinned, grounding universal death in each person's own sinning. With henos anthropou as the antecedent of hos it reads in whom all sinned, grounding death in corporate inclusion in the one man. The Greek supplies both possibilities and does not rank them. The one-to-many transmission is explicit, the mechanism is not.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.12"
+      },
+      {
+        "ref": "Rom.5.13",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1677",
+            "lemma": "ἐλλογέω"
+          }
+        ],
+        "force": "hamartia de ouk ellogeitai me ontos nomou, sin is not reckoned (ellogeo, G1677) where there is no law. ellogeo occurs only twice in the canon (here and Philemon 18), so its sense as charge to an account is set by the commercial Philemon usage, not triangulated from a wide field. Paired with verse 14, that death nonetheless reigned from Adam to Moses, it signals that the death of those between Adam and Moses cannot be charged purely to their own statutory violations and must trace back to Adam's act. This favors a corporate or representative reading but does not by itself isolate federal imputation from seminal participation or inherited mortality.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.14",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G5179",
+            "lemma": "τύπος"
+          },
+          {
+            "strong": "G3667",
+            "lemma": "ὁμοίωμα"
+          }
+        ],
+        "force": "Death reigned (ebasileusen ho thanatos) from Adam to Moses even over those who did not sin in the likeness, homoioma (G3667), of Adam's transgression. This is the strongest single-verse hint that the death pronounced on Adam reaches descendants apart from their own Adam-like statutory violation. Paul then names Adam typos tou mellontos, type of the coming one, using typos (G5179), a term that elsewhere means pattern, model, or example (1 Pet 5:3, Phil 3:17, 1 Cor 10:6, 15 canon occurrences). typos formalizes the Adam-to-Christ correspondence as an analogical type, which is why one defensible reading treats the whole comparison as a representative analogy rather than a juridical transfer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.15",
+        "key_terms": [
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "to tou henos paraptomati hoi polloi apethanon, by the trespass of the one the many died. paraptoma (G3900) occurs 21 times in the canon and clusters densely in Romans 5 (verses 15, 16, 17, 18, 20), confirming it is the controlling term for Adam's act in this paragraph. It is paired with the gift in grace by the one man Jesus Christ abounding to the many, the contrast qualified pollo mallon, so much more, asserting asymmetric superiority of the gift over the trespass.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.16",
+        "key_terms": [
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          },
+          {
+            "strong": "G1345",
+            "lemma": "δικαίωμα"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "krima ex henos eis katakrima, judgment from one issuing in condemnation, set against charisma ek pollon paraptomaton eis dikaioma. katakrima (G2631) occurs only 3 times in the canon, all in Romans (5:16, 5:18, 8:1), so it is a narrow Pauline forensic term. The judicial register of krima, katakrima, and dikaioma (G1345) is the strongest lexical support for understanding the one-to-many transmission in a legal frame, though ex henos is itself ambiguous between one trespass and one man.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.18",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          },
+          {
+            "strong": "G1345",
+            "lemma": "δικαίωμα"
+          }
+        ],
+        "force": "di' henos paraptomatos eis pantas anthropous eis katakrima, houtos kai di' henos dikaiomatos eis pantas anthropous eis dikaiosin zoes. The strict parallel runs through one trespass to all men for condemnation, so through one righteous act to all men for justification of life. The same preposition eis carries the result both times, anchoring a symmetric one-to-all flow. The verse states the scope (to all) and the channel (through one) but does not encode whether the channel is covenantal appointment, natural descent, or analogy.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.19",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          },
+          {
+            "strong": "G3876",
+            "lemma": "παρακοή"
+          },
+          {
+            "strong": "G5218",
+            "lemma": "ὑπακοή"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "Token query confirms kathistemi (G2525) occurs TWICE in this verse, hamartoloi katestathesan hoi polloi by the parakoe (disobedience, G3876) of the one, and dikaioi katastathesontai by the hypakoe (obedience, G5218) of the one. kathistemi occurs 22 times in the canon and its dominant attested sense is to appoint or set in office or place (set over the household Matt 24:45, appoint Acts 6:3, appoint elders Titus 1:5). That appoint or constitute-into-a-status nuance is the closest the Greek comes to status-conferral language. It is genuine but not the technical reckoning verb logizomai (G3049) which Paul uses 11 times across Romans 4 and never here, so kathistemi underdetermines whether the constituting is forensic imputation or realistic incorporation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.19"
+      },
+      {
+        "ref": "1Cor.15.21",
+        "key_terms": [
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          }
+        ],
+        "force": "epeide gar di' anthropou thanatos, kai di' anthropou anastasis nekron. Since through a man came death, also through a man resurrection of the dead. The dia plus genitive of agent restates the channel from one human to a consequence reaching others, applied first to Adam (implied) and then to Christ. It establishes paired human agency without naming the basis on which the one man's act binds others.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.22",
+        "key_terms": [
+          {
+            "strong": "G1722",
+            "lemma": "ἐν"
+          },
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G2227",
+            "lemma": "ζῳοποιέω"
+          }
+        ],
+        "force": "hosper gar en to Adam pantes apothneskousin, houtos kai en to Christo pantes zoopoiethesontai. Token query confirms en (G1722) appears TWICE, once with Adam and once with Christ, framed by hosper (G5618) and houtos (G3779). The incorporative en plus dative, in Adam all die, in Christ all will be made alive, is the clearest pan-NT statement of corporate solidarity in Adam and it is exactly symmetric with solidarity in Christ. The phrase makes the two-head corporate pattern explicit. It does not, by itself, adjudicate between forensic imputation, seminal-realist inclusion, and representative analogy, because en plus dative is a locative-incorporative idiom that all three readings can claim.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.15.22"
+      },
+      {
+        "ref": "1Cor.15.45",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G2227",
+            "lemma": "ζῳοποιέω"
+          }
+        ],
+        "force": "ho protos anthropos Adam eis psychen zosan, ho eschatos Adam eis pneuma zoopoioun. Token query confirms Adam (G0076) appears twice in the verse with eschatos (last). Calling Christ the last Adam formally constitutes Adam and Christ as the paired representative men of two humanities. The genitive of source from Genesis 2:7 is reused for Adam and extended to Christ as life-giving spirit. This is the lexical hinge that turns a single typological comparison into a two-representative framework.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.47",
+        "key_terms": [
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G5517",
+            "lemma": "χοϊκός"
+          }
+        ],
+        "force": "ho protos anthropos ek ges choikos, ho deuteros anthropos ex ouranou. The first man from earth, dusty (choikos, G5517, a 4-occurrence term confined to this passage, verses 47, 48, 49), the second man from heaven. The numbering protos and deuteros formalizes the two-head structure and underlines that the contrast is between two persons who stand for two orders of humanity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.49",
+        "key_terms": [
+          {
+            "strong": "G1504",
+            "lemma": "εἰκών"
+          },
+          {
+            "strong": "G5517",
+            "lemma": "χοϊκός"
+          },
+          {
+            "strong": "G2032",
+            "lemma": "ἐπουράνιος"
+          }
+        ],
+        "force": "kathos ephoresamen ten eikona tou choikou, phoresomen kai ten eikona tou epouraniou. Bearing the image (eikon, G1504) of the dusty one and the image of the heavenly one. The eikon language of corporate likeness ties each set of people to their respective head, reinforcing the representative pattern by likeness rather than by an explicit covenant or legal term.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.5.15",
+        "to": "Rom.5.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.17",
+        "to": "Rom.5.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.5.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.14",
+        "to": "Rom.5.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "1Cor.15.45",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.47",
+        "to": "1Cor.15.45",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.48",
+        "to": "1Cor.15.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.13",
+        "to": "Gen.4.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.16",
+        "to": "Gen.3.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.49",
+        "to": "Gen.5.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Rom.6.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.14",
+        "to": "Rom.8.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "1Cor.15.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Gen.2.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.12",
+        "to": "Gen.3.19",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "Rom.5.12",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.22",
+        "to": "1Cor.15.45",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.18",
+        "to": "2Cor.5.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.19",
+        "to": "Phil.2.8",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.5.12",
+        "addressed": true,
+        "resolution": "The phrase eph' ho pantes hemarton is the central complicating sub-clause and the token query confirms it is built from epi (G1909) plus the relative pronoun hos (G3739). Read causally, because all sinned, it grounds death in each person's actual sinning and weakens a strict imputation reading. Read as a relative phrase with henos anthropou as antecedent, in whom all sinned, it grounds death in corporate inclusion in Adam. Greek lexis and grammar permit both and Romans 5:13-14, death from Adam to Moses without statutory law, immediately tensions the purely causal reading. Decisively for neutrality, Paul does NOT deploy his technical reckoning verb logizomai (G3049) for Adam's trespass even though he uses it 11 times across Romans 4 (4:3, 4:4, 4:5, 4:6, 4:8, 4:9, 4:10, 4:11, 4:22, 4:23, 4:24). The verb the federal-imputation reading would most want is present in the canon and absent from this paragraph, which is why the strict forensic-transfer form remains underdetermined while kathistemi (G2525) in 5:19 only partially substitutes."
+      },
+      {
+        "ref": "Ezek.18.20",
+        "addressed": true,
+        "resolution": "psyche he hamartanousa aute apothaneitai, the soul that sins shall die, a son does not bear the iniquity of the father. This OT principle pulls against any reading in which guilt is mechanically transferred across generations. It is naturally read as governing judicial proceedings within Israel rather than the foundational anthropological situation of the first man, but the lexical tension between this rule and a strict cross-generational imputation reading of Romans 5 is real, and is part of why the canon supplies two patterns the words do not rank."
+      },
+      {
+        "ref": "Deut.24.16",
+        "addressed": true,
+        "resolution": "Fathers shall not be put to death for children nor children for fathers, each shall die for his own sin. Same lexical principle as Ezekiel 18:20. Same resolution: it sets a judicial norm for human courts in Israel, while the Pauline universal-death-from-Adam of Romans 5:14 is the explanandum that no purely individual-guilt model accounts for. The two principles coexist in the canon and the vocabulary does not tell the reader which frame governs the Adam case."
+      },
+      {
+        "ref": "1Tim.2.14",
+        "addressed": true,
+        "resolution": "Adam (G0076) appears here, kai Adam ouk epatethe, and Adam was not deceived but the woman being deceived came into transgression (parabasis, G3847). This is one of only nine canon occurrences of Adam and it locates primary responsibility with Adam without using any covenant-head or federal vocabulary. It supports Adam's representative weight but, like the anchor passages, names no mechanism, so it neither settles nor unsettles the federal-versus-seminal-versus-analogy question."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "1Cor.15.49",
+        "variant_id": "phoresomen-vs-phoresomen-subj",
+        "verdict_impact": "none",
+        "note": "Indicative future phoresomen versus aorist subjunctive hortatory phoresomen is a real variant with strong external support for the subjunctive but adopted as indicative in most critical editions. It affects only the mood of bearing the image of the heavenly man, not the Adam-Christ headship verdict."
+      },
+      {
+        "ref": "1Cor.15.47",
+        "variant_id": "addition-ho-kyrios",
+        "verdict_impact": "none",
+        "note": "Some witnesses add ho kyrios after the second man from heaven. Critical editions omit. The addition does not affect the protos-deuteros two-head structure."
+      },
+      {
+        "ref": "Rom.5.14",
+        "variant_id": "me-omitted",
+        "verdict_impact": "minor",
+        "note": "A small minority omits me in epi tous me hamartesantas. Without me the sense becomes those who did sin in Adam's likeness, removing the strongest internal hint that death reaches non-statutory-violators. The critical text retains me so the default reading stands, but if the variant were adopted the corporate-transmission case would weaken. This is a sub-question detail, not a flip of the disputed verdict."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are NT and outside the CBGM-published 3 John scope, so this is ecm-shadow. Variant judgments rely on Nestle-Aland and SBLGNT apparatus, not on a published ECM for these books."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "federal_representative_headship",
+      "seminal_realist_headship",
+      "representative_analogy_of_influence",
+      "mediate_imputation",
+      "covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "federal_representative_headship",
+        "verdict": "affirms",
+        "rationale": "Reads Adam as covenant-representative by appointment, so his one act is reckoned to those he represents. Takes eph' ho of Rom 5:12 with henos anthropou as antecedent or as cause-in-Adam, treats katestathesan hamartoloi in 5:19 as forensic constitution of status, and reads di' henos paraptomatos eis pantas anthropous eis katakrima as a juridical transaction strictly parallel to the one righteous act reckoned to the many. Its strongest lexical footing is the dense forensic vocabulary katakrima, krima, and dikaioma plus the appoint sense of kathistemi."
+      },
+      {
+        "framework": "seminal_realist_headship",
+        "verdict": "affirms",
+        "rationale": "Reads eph' ho pantes hemarton as all actually sinned in Adam because all humanity was naturally or biologically present in him, and reads en to Adam in 1 Cor 15:22 as real ontological inclusion rather than legal representation. It reaches the same universal liability rooted in one man but by participation in his nature rather than by an appointed legal headship. Its strongest lexical footing is the incorporative en plus dative and the absence of any explicit covenant or appointment term."
+      },
+      {
+        "framework": "representative_analogy_of_influence",
+        "verdict": "affirms_partial",
+        "rationale": "Reads the whole comparison as a typos (G5179) analogy: Adam's act sets in motion a sphere of sin and death that conditions his descendants, and Christ inaugurates the opposite sphere, without a transfer of personal guilt. It honors the explicit one-to-many structure and the type language while declining the forensic-transfer specification. Its strongest lexical footing is typos tou mellontos and the homoioma (likeness) language of 5:14, plus the silence of logizomai in the paragraph."
+      },
+      {
+        "framework": "mediate_imputation",
+        "verdict": "affirms_partial",
+        "rationale": "Holds that corruption is transmitted naturally from Adam and that liability follows from the inherited corruption which produces actual sin, locating the legal moment downstream of Adam's own act rather than in a direct imputation of it. It accepts the one-to-many transmission the text makes explicit but reads kathistemi and the eph' ho clause as describing a derived, not immediate, constitution as sinners."
+      }
+    ],
+    "notes": "The lexical bundle anchors the Adam-Christ one-and-many parallelism cleanly and pan-passage, but adjudication among the named lenses turns on the dual morphology of eph' ho in Rom 5:12, on the appoint-versus-impute range of kathistemi in 5:19, and on the absence of logizomai from the paragraph. None of these is settled by the vocabulary alone, so each lens is recorded in its strongest lexical form."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture pairs Adam and Christ as representative figures whose single acts have corporate consequence for those associated with them, and names Adam a type of the one to come. The precise mechanism by which Adam's transgression reaches his descendants, whether by covenant-representative appointment, natural or seminal participation, or analogy of influence, is the disputed specification.",
+    "notes": "The words covenant and federal head and imputed in the question stem encode a specific representative-headship taxonomy and its forensic mechanism, neither of which the Greek of the anchor texts names of Adam. The underlying biblical claim, that one man's act reaches many and that Adam is the type of Christ, is explicit and broadly held. The narrower federal-imputation form is the contested part. The verdict is derived on the original stem and remains disputed, unchanged from the prior file."
+  },
+  "lay_summary": "Paul builds an unmistakable one-to-many parallel between Adam and Christ in Romans 5:12-19 and 1 Corinthians 15:21-22, 45-49. The Greek hammers on di' henos anthropou, through one man, set against hoi polloi, the many, and locks the two halves together with the matched pair hosper, just as, and houtos, so also. Through one man sin entered the world and death through sin, and through one man Jesus Christ the gift comes to many. In 1 Corinthians 15:22 the preposition en, in, frames two corporate humanities: in Adam all die, in Christ all will be made alive. Paul even calls Adam a typos, a type or pattern, of the one to come. The strongest single verb is katestathesan in Romans 5:19, were constituted, which elsewhere most often means appointed or set in place, so the many were placed in the category of sinners through one disobedience and will be placed in the category of righteous through one obedience. The forensic words krima, katakrima, and dikaioma add a judicial tone. So the words clearly establish that one man's act reaches many and that Adam stands as the counterpart to Christ. What the words do not do is name how. They never call Adam a covenant or federal head. The crux phrase eph' ho pantes hemarton in Romans 5:12 is built from epi plus a relative pronoun, so it can mean because all sinned or in whom all sinned, and Greek alone cannot decide. Tellingly, the precise reckoning verb logizomai that Paul repeats again and again in Romans 4 never appears in this Adam paragraph. Because of that gap, a representative-by-appointment reading, a we-were-all-in-him-by-nature reading, and an analogy-of-influence reading all fit the same text. The structural claim is supported, but the strict federal-imputation form is left open by the vocabulary, and that is why faithful readers diverge.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.12-19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.21-22"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.45-49"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2525"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2631"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1677"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3049"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5179"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0076"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.5.19"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.5.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.15.22"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Rom.5.12-19"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "1Cor.15.21-49"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cited MACULA-Greek under CC-BY-NC-4.0 for the queried syntactic and token anchors on Rom.5.12, Rom.5.19, and 1Cor.15.22, and cited SBLGNT-text under SBLGNT-EULA for the interlinear Greek text. Both forbid bulk redistribution, so the aggregate is not safe to publish."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

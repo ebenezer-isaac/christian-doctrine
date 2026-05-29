@@ -1,0 +1,459 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-formal-church-membership",
+  "question_id": "prc-formal-church-membership",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.75,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Two lenses are both lexically defensible, so the compound proposition does not resolve cleanly. The substrate it presupposes is real and well attested: ekklesia (G1577) occurs in 112 verses across Acts, the Pauline letters, Hebrews, James and Revelation as a definable assembly; hegeomai used substantivally for leaders (G2233) clusters in Heb 13 as a defined oversight relationship that renders account; 1 Cor 5:12 sorts persons by esO (inside) and exO (outside); melos (G3196, 24 verses) makes believers organic members of one body. But no lexeme names a formal membership roll, register, joining covenant or enrollment process. The closest term, katalego (G2639, let a widow be enrolled), is a hapax in 1 Tim 5:9 attached to a widow support list with age criteria, not a congregational roster. Other supporting words are generic and polysemous given community force only by context (prostithemi added, krino judge, esO and exO which are mostly literal spatial elsewhere). So the bounded, overseen, disciplinable body is warranted while the specific named institution is an inference, not a command."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 112,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3196",
+        "lemma": "μέλος",
+        "transliteration": "melos",
+        "occurrences_in_canon": 24,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2639",
+        "lemma": "καταλέγω",
+        "transliteration": "katalego",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2080",
+        "lemma": "ἔσω",
+        "transliteration": "eso",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1854",
+        "lemma": "ἔξω",
+        "transliteration": "exo",
+        "occurrences_in_canon": 64,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2233",
+        "lemma": "ἡγέομαι",
+        "transliteration": "hegeomai",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0069",
+        "lemma": "ἀγρυπνέω",
+        "transliteration": "agrupneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0591",
+        "lemma": "ἀποδίδωμι",
+        "transliteration": "apodidomi",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4369",
+        "lemma": "προστίθημι",
+        "transliteration": "prostithemi",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3878",
+        "lemma": "παρακούω",
+        "transliteration": "parakouo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0588",
+        "lemma": "ἀποδέχομαι",
+        "transliteration": "apodechomai",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0080",
+        "lemma": "ἀδελφός",
+        "transliteration": "adelphos",
+        "occurrences_in_canon": 321,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1577",
+      "G3196",
+      "G2639",
+      "G2080",
+      "G1854",
+      "G1855",
+      "G2233",
+      "G0069",
+      "G0591",
+      "G4369",
+      "G3878",
+      "G0588",
+      "G2919",
+      "G0080"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G3878",
+            "lemma": "παρακούω"
+          }
+        ],
+        "force": "The discipline procedure escalates to the ekklesia as the final earthly tribunal: eipon te ekklesia, tell it to the assembly. The article plus the local court function presupposes a bounded, identifiable body that can hear a case and act, and a person who disregards it (parakouo, refuse to heed) is then treated as an outsider. This requires a recognizable membership boundary in practice but names no roll, register, or covenant document. parakouo (G3878) occurs in only 2 verses in the canon (here and Mark 5:36), so the disciplinary refuse to hear sense rests on a near singular use.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.12",
+        "key_terms": [
+          {
+            "strong": "G2080",
+            "lemma": "ἔσω"
+          },
+          {
+            "strong": "G1854",
+            "lemma": "ἔξω"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          }
+        ],
+        "force": "Paul contrasts tous esO (those inside) with tous exO (those outside) as the proper scope of the assembly's judgment: ti gar moi tous exO krinein. The inside and outside pair marks a definite disciplinary edge. The force is sharpened by distribution: esO (G2080) occurs in only 9 verses and elsewhere is literal spatial (inside the courtyard, the inner man), and exO (G1854) occurs in 64 verses overwhelmingly literal (go outside, cast outside). The community boundary sense is therefore a contextual idiom Paul applies here, not a fixed technical membership term, and krino (G2919, 99 verses) is a general judge verb given in house force only by context.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.13.17",
+        "key_terms": [
+          {
+            "strong": "G2233",
+            "lemma": "ἡγέομαι"
+          },
+          {
+            "strong": "G0069",
+            "lemma": "ἀγρυπνέω"
+          },
+          {
+            "strong": "G0591",
+            "lemma": "ἀποδίδωμι"
+          }
+        ],
+        "force": "The readers must obey and submit to their hegoumenoi (G2233, leaders) who agrupnousin (G0069, keep watch) over their souls as those who will logon apodosontes (G0591, render an account). The substantival hegeomai for leaders clusters in this very chapter (Heb 13:7, 13:17, 13:24) plus Acts 14:12 and 15:22, showing a defined accountable oversight relationship in which named leaders answer for named persons. agrupneo is rare (4 verses) and apodidomi is common and generic (46 verses, mostly repay or give back), so the account rendering force is carried by the construction logon apodidomi, not by a dedicated office vocabulary. The verse commands the relationship and the posture but supplies no term for enrollment or formal covenant.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.12.27",
+        "key_terms": [
+          {
+            "strong": "G3196",
+            "lemma": "μέλος"
+          }
+        ],
+        "force": "humeis de este soma Christou kai mele ek merous, you are the body of Christ and members individually. melos (G3196) appears in 24 verses, and its body sense is dense in 1 Cor 12, Rom 12, and Eph 4 to 5, but the word is organic body imagery (limb, part of a body) and is also used literally of bodily members (Matt 5:29 to 30, Rom 6, Jas 3 to 4). It never denotes an administrative roster entry. So membership in the New Testament sense that is lexically loaded is organic incorporation into one body, which neither requires nor names a formal roll.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.9",
+        "key_terms": [
+          {
+            "strong": "G2639",
+            "lemma": "καταλέγω"
+          }
+        ],
+        "force": "chera katalegestho me elatton eton hexekonta gegonuia, let a widow be enrolled who is not less than sixty years old. katalego (G2639) is the single closest lexeme in the canon to a formal register, and it is a hapax, occurring in this one verse only. It governs a specific widow support list with explicit age criteria (sixty years), not a congregational membership roll for all believers. The one place the canon does name an enrollment, it is a narrow benevolence roster, which shows the vocabulary for formal lists existed but was not extended to church membership as such.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.2.41",
+        "key_terms": [
+          {
+            "strong": "G4369",
+            "lemma": "προστίθημι"
+          },
+          {
+            "strong": "G0588",
+            "lemma": "ἀποδέχομαι"
+          }
+        ],
+        "force": "Those who apodexamenoi (G0588, received) the word were baptized and prosetethesan (G4369, were added), and the number is counted at about three thousand psuchai (souls). The passive added plus an enumerated count shows a countable, additive community. But prostithemi occurs in 18 verses and is a generic add verb (add years to life, add to faith); only the Acts cluster (2:41, 2:47, 5:14, 11:24) carries the join the community sense, and that by context. Acts 2:42 then has them proskarterountes (devoting themselves continually). This is narrative description of conversion and growth, not a prescriptive command to institute formal membership.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.5.13",
+        "to": "1Cor.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.2.41",
+        "to": "Acts.2.47",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Lev.19.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.16",
+        "to": "Num.35.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.13.17",
+        "to": "Ezek.3.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.13.17",
+        "to": "Heb.13.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.2.41",
+        "addressed": true,
+        "resolution": "The added and counted language proves a countable community but is narrative description of conversion and growth, not a command to enroll. prostithemi is a generic add verb that carries the join the community sense only in the local Acts cluster, so it supports the existence of a bounded body without lexically establishing a formal covenanted membership rite. It cuts toward the boundary substrate while leaving the named practice unwarranted."
+      },
+      {
+        "ref": "1Tim.5.9",
+        "addressed": true,
+        "resolution": "katalego (let a widow be enrolled) is the one place the canon uses a formal enrollment verb, and it is a hapax governing a widow support list with an age threshold, not a membership roll for all believers. It cuts both ways: it shows enrollment vocabulary existed, which a membership advocate can cite by analogy, yet the canon never applies it to congregational membership, which a skeptic reads as decisive silence. Because the single occurrence cannot be triangulated to a general practice, it is addressed but leaves the dispute open."
+      },
+      {
+        "ref": "Matt.18.20",
+        "addressed": true,
+        "resolution": "Where two or three are gathered eis to emon onoma, Christ is present in their midst. The minimal threshold of two or three for valid gathered action shows the assembly's authority does not depend on a formal roster or institutional scale, which complicates the claim that formal membership is prudentially essential rather than the gathered body itself being the operative unit."
+      },
+      {
+        "ref": "1Cor.12.27",
+        "addressed": true,
+        "resolution": "melos makes believers members of one body, but the word is organic body imagery, never an administrative roster entry. This complicates the proposition by showing that the only lexicalized sense of membership in the canon is incorporation into the body of Christ, which neither requires nor names a formal local roll, so the named practice is not what the membership vocabulary actually denotes."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "A direct query of the lexical store returned zero VariantUnit nodes on any anchor verse (Matt 18:15 to 20, 1 Cor 5:12 to 13, Acts 2:41 to 42, Heb 13:17), and not_in_ecm_scope is true for these passages. The minor apparatus marks visible in the bundle (the moi placement in 1 Cor 5:12, the exarate spelling in 1 Cor 5:13) do not touch the boundary, oversight, or enrollment vocabulary on which the verdict turns, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "congregational_polity",
+      "elder_oversight_polity",
+      "covenant_membership_ecclesiology",
+      "organic_body_ecclesiology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "bounded_disciplined_overseen_assembly",
+        "verdict": "for",
+        "rationale": "Matt 18:17 makes the ekklesia the terminal court of discipline, 1 Cor 5:12 sorts persons into inside (esO) and outside (exO), and Heb 13:17 commands submission to hegoumenoi who keep watch over souls and render account. Acts 2:41 shows a countable body that can be added to. Together these lexically warrant a recognizable, accountable, bounded community with a real edge, which is the strongest form of the affirming reading: you can be added, be inside, submit to known leaders, and be removed."
+      },
+      {
+        "framework": "formal_covenanted_membership_institution",
+        "verdict": "null",
+        "rationale": "No lexeme names a membership roll, register, joining ceremony beyond baptism, or public covenant rite between believer and assembly. The closest enrollment word, katalego, is a hapax for a widow support list, not church membership. The specific institutional form of a formal, publicly covenanted membership that is prudentially essential is an inference from boundary language, not a command carried by a verb or noun, so the precise stem claim is lexically underdetermined."
+      },
+      {
+        "framework": "organic_body_membership",
+        "verdict": "for",
+        "rationale": "Stated in its strongest form, the only lexicalized sense of being a member is melos, organic incorporation into the one body of Christ (1 Cor 12:27, Rom 12:5, Eph 4:25). On this reading membership is a real and biblical category, but its content is union in the body effected by the Spirit, which is fully present wherever believers are joined to Christ and to one another, independent of any local administrative roll."
+      },
+      {
+        "framework": "minimal_gathered_body_sufficiency",
+        "verdict": "against",
+        "rationale": "Matt 18:20 grounds valid gathered authority in two or three gathered in Christ's name, which in its strongest form says the operative unit is the gathered believers in Christ's presence, not a formal membership structure. On this reading making formal membership prudentially essential adds a requirement the words do not impose."
+      }
+    ],
+    "notes": "The texts converge on a bounded, overseen, disciplinable body (analogia scripturae across gospel, narrative, and epistle). The dispute is about whether that substrate entails the named practice of formal covenanted membership. Two affirming lenses (bounded assembly, organic body) and one negative lens (minimal gathered body) each have lexical footing, and the canon supplies the substrate without ranking the institutional forms, so the lexis does not settle the compound stem."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the New Testament vocabulary for the local assembly establish a defined, bounded membership boundary and an accountable oversight relationship, and if so does it lexically prescribe a formal public covenanted enrollment as the means of constituting that boundary?",
+    "notes": "The original stem is preloaded twice. First, biblically warranted and prudentially essential pre-judges both the exegetical and the practical verdict before the lexis is read. Second, public covenanted commitment between believer and local assembly under elder oversight names a specific institutional ecclesiology that no single lexeme carries. The verdict is derived on the original stem and the answer remains disputed: the boundary and oversight substrate is warranted but the named formal practice is not lexically commanded. Direct canon queries this pass confirmed the prior reading and did not force a change: ekklesia is dense and pan New Testament (112 verses), melos is organic body imagery (24 verses, never a roster), the inside and outside terms are mostly literal spatial elsewhere, and the one enrollment verb katalego is a hapax for a widow list."
+  },
+  "lay_summary": "The claim has two parts and the original words of Scripture treat them differently. The first part, that a local assembly has a real edge with people inside and people outside and with leaders who answer for those souls, is carried by the vocabulary. In Matthew 18:17 the offended believer finally tells it to the ekklesia, and that word for the gathered assembly appears in about 112 verses across the New Testament, so it is a settled, recognizable thing. In First Corinthians 5:12 Paul speaks of those inside and those outside, and in Hebrews 13:17 the readers submit to leaders who keep watch over their souls and will give an account. Together these show a bounded, accountable, overseen body. The second part is different. There is no word in any of these texts for a membership roll, a register, a joining ceremony beyond baptism, or a signed covenant between a believer and a congregation. The one enrollment word in the whole New Testament, used of widows in First Timothy 5:9, occurs exactly once and governs a widow support list with an age rule, not a church roster. The supporting words are also slippery: added in Acts 2:41 is a general verb for adding anything, and inside and outside are normally just spatial words for being in or out of a house, given community meaning only by the surrounding sentence. There is one word that does mean member, melos in First Corinthians 12:27, but it pictures believers as organic parts of one body, like limbs, never as names on a list. So the picture is genuinely mixed. The boundary and the oversight are written into the words. The specific practice named in the claim, a formal publicly covenanted membership that is essential, is a reasonable inference some draw from the boundary, but no lexeme states it, and others read the body language and the two or three gathered in Matthew 18:20 as making the gathered believers themselves the operative unit. Because the substrate is warranted while the named practice is not lexically commanded, the honest reading is disputed rather than a clean yes or no.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1577"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2639"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3196"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.18.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.5.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.12.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.13.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.9"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.18.15-20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "Acts.2.41"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two cited sources are not redistributable in bulk: MACULA-Greek carries CC-BY-NC-4.0 (non-commercial, redistribute=false) and BibleHub-interlinear is under fair-use-policy (redistribute=false). Because not all sources permit redistribution, the aggregate evidence_safe_to_publish is false."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

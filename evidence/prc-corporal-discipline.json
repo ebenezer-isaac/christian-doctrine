@@ -1,0 +1,937 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-corporal-discipline",
+  "question_id": "prc-corporal-discipline",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.978571,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The Hebrew lexical cluster around parental discipline is dense and pan-canonical, the nouns shevet (H7626, rod) and musar (H4148, discipline) and the verb yasar (H3256, discipline) recur across Proverbs with parallel terms tokachat (H8433, reproof) and chokmah (H2451, wisdom), and Prov 23:13-14 uses the verb nakah (H5221, strike) with shevet plus the explicit clause that the child will not die (mut, H4191), which is grammatically the most physical of the anchors. At the same time the same Solomonic cluster commands yasar without any shevet in Prov 29:17 and Prov 19:18, so the canon supplies two parental discipline patterns that the words themselves do not rank, and the New Testament brake terms paroggizo (G3949) in Eph 6:4 and erethizo (G2042) with athymeo (G0120) in Col 3:21 lexically forbid the provoking and discouraging mode while the Heb 12 vocabulary paideuo (G3811) and the severe term mastigoo (G3146, scourge, used six other times in the Gospels for literal flogging) frames divine pedagogy in striking imagery, and Rev 3:19 ties phileo (G5368) with elencho (G1651) and paideuo. The lexical pattern decisively affirms parental discipline and decisively forbids the provoking mode, but underdetermines whether the corporal mode specifically is mandated, permitted, or pictured figuratively, so the verdict is materially contested rather than affirmed or denied."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H7626",
+        "lemma": "שֵׁבֶט",
+        "transliteration": "shevet",
+        "occurrences_in_canon": 190,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4148",
+        "lemma": "מוּסָר",
+        "transliteration": "musar",
+        "occurrences_in_canon": 50,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3256",
+        "lemma": "יָסַר",
+        "transliteration": "yasar",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5221",
+        "lemma": "נָכָה",
+        "transliteration": "nakah",
+        "occurrences_in_canon": 475,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5288",
+        "lemma": "נַעַר",
+        "transliteration": "naar",
+        "occurrences_in_canon": 230,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0157",
+        "lemma": "אָהַב",
+        "transliteration": "ahav",
+        "occurrences_in_canon": 208,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2820",
+        "lemma": "חָשַׂךְ",
+        "transliteration": "chasak",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0200",
+        "lemma": "אִוֶּלֶת",
+        "transliteration": "ivvelet",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2451",
+        "lemma": "חָכְמָה",
+        "transliteration": "chokmah",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8433",
+        "lemma": "תּוֹכַחַת",
+        "transliteration": "tokachat",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4191",
+        "lemma": "מוּת",
+        "transliteration": "mut",
+        "occurrences_in_canon": 850,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3809",
+        "lemma": "παιδεία",
+        "transliteration": "paideia",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3811",
+        "lemma": "παιδεύω",
+        "transliteration": "paideuo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3146",
+        "lemma": "μαστιγόω",
+        "transliteration": "mastigoo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3949",
+        "lemma": "παροργίζω",
+        "transliteration": "paroggizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2042",
+        "lemma": "ἐρεθίζω",
+        "transliteration": "erethizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0120",
+        "lemma": "ἀθυμέω",
+        "transliteration": "athymeo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elencho",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosune",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1516",
+        "lemma": "εἰρηνικός",
+        "transliteration": "eirenikos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1590",
+        "lemma": "ἐκλύω",
+        "transliteration": "ekluo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1128",
+        "lemma": "γυμνάζω",
+        "transliteration": "gumnazo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5368",
+        "lemma": "φιλέω",
+        "transliteration": "phileo",
+        "occurrences_in_canon": 25,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0025",
+        "lemma": "ἀγαπάω",
+        "transliteration": "agapao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H7626",
+      "H4148",
+      "H3256",
+      "H5221",
+      "H5288",
+      "H0157",
+      "H2820",
+      "H0200",
+      "H2451",
+      "H8433",
+      "H4191",
+      "G3809",
+      "G3811",
+      "G3146",
+      "G3949",
+      "G2042",
+      "G0120",
+      "G1651",
+      "G1343",
+      "G1516",
+      "G1590",
+      "G1128",
+      "G5368",
+      "G0025"
+    ],
+    "scripture": [
+      {
+        "ref": "Prov.13.24",
+        "key_terms": [
+          {
+            "strong": "H7626",
+            "lemma": "שֵׁבֶט"
+          },
+          {
+            "strong": "H2820",
+            "lemma": "חָשַׂךְ"
+          },
+          {
+            "strong": "H0157",
+            "lemma": "אָהַב"
+          },
+          {
+            "strong": "H4148",
+            "lemma": "מוּסָר"
+          }
+        ],
+        "force": "The verse pairs one who withholds (chasak, H2820) his rod (shevet, H7626) against one who loves (ahav, H0157) his son and seeks him with discipline (musar, H4148). The Hebrew poetic structure aligns the two clauses antithetically, and the rod functions as a stock figure standing for corrective action. Whether shevet here denotes a physical striking instrument or operates as a wisdom-genre figure for parental correction generally is the central contested lexical point, because the same noun elsewhere means shepherd staff, governing scepter, and tribal authority.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.22.15",
+        "key_terms": [
+          {
+            "strong": "H0200",
+            "lemma": "אִוֶּלֶת"
+          },
+          {
+            "strong": "H5288",
+            "lemma": "נַעַר"
+          },
+          {
+            "strong": "H7626",
+            "lemma": "שֵׁבֶט"
+          },
+          {
+            "strong": "H4148",
+            "lemma": "מוּסָר"
+          }
+        ],
+        "force": "Folly (ivvelet, H0200) is bound up in the heart of a youth (naar, H5288), the rod of discipline (shevet musar, H7626 + H4148) drives it far from him. The genitive chaining of shevet to musar in the Masoretic text reads the rod as the instrument or embodiment of discipline rather than as bare violence, which both supports a corporal reading and leaves room for shevet as a figure for corrective authority paired with the discipline noun.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.23.13",
+        "key_terms": [
+          {
+            "strong": "H5221",
+            "lemma": "נָכָה"
+          },
+          {
+            "strong": "H7626",
+            "lemma": "שֵׁבֶט"
+          },
+          {
+            "strong": "H5288",
+            "lemma": "נַעַר"
+          },
+          {
+            "strong": "H4148",
+            "lemma": "מוּסָר"
+          },
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          }
+        ],
+        "force": "Do not withhold (mana, the verbal sense) from a youth (naar, H5288) discipline (musar, H4148), for if you strike (nakah, H5221) him with the rod (shevet, H7626) he will not die (mut, H4191). The verb nakah is the standard Hebrew verb for striking or smiting and is grammatically physical, paired here with shevet by means of the preposition b (with the rod). This is the most lexically explicit corporal anchor in the canon, and the very clause that asserts the action also builds a hard bound into the saying, the child will not die, which lexically excludes lethal or severe harm. This is the strongest single text for a literal-corporal reading and at the same time builds in a built-in lethality limit.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.23.14",
+        "key_terms": [
+          {
+            "strong": "H5221",
+            "lemma": "נָכָה"
+          },
+          {
+            "strong": "H7626",
+            "lemma": "שֵׁבֶט"
+          },
+          {
+            "strong": "H5337",
+            "lemma": "נָצַל"
+          }
+        ],
+        "force": "You shall strike (nakah, H5221) him with the rod (shevet, H7626) and deliver (natsal, H5337) his soul (nephesh) from Sheol. The continuation extends the nakah plus shevet collocation and frames the disciplinary aim soteriologically, deliverance from Sheol rather than retribution. Lexically the verse foregrounds a salvific, formation-oriented intent for the physical act, which neither softens the literal sense of nakah nor reduces the act to a metaphor on its own grammatical terms.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.29.15",
+        "key_terms": [
+          {
+            "strong": "H7626",
+            "lemma": "שֵׁבֶט"
+          },
+          {
+            "strong": "H8433",
+            "lemma": "תּוֹכַחַת"
+          },
+          {
+            "strong": "H2451",
+            "lemma": "חָכְמָה"
+          },
+          {
+            "strong": "H5288",
+            "lemma": "נַעַר"
+          }
+        ],
+        "force": "The rod (shevet, H7626) and reproof (tokachat, H8433) give wisdom (chokmah, H2451), but a youth (naar, H5288) left to himself shames his mother. The explicit pairing of shevet with verbal reproof signals that the disciplinary instrument operates alongside formative speech toward a wisdom aim, which complicates reading shevet as purely physical force isolated from instructive speech.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.29.17",
+        "key_terms": [
+          {
+            "strong": "H3256",
+            "lemma": "יָסַר"
+          },
+          {
+            "strong": "H1121",
+            "lemma": "בֵּן"
+          }
+        ],
+        "force": "Discipline (yasar, H3256) your son and he will give you rest, he will give delights to your soul. The parental command here uses the verb yasar without any mention of shevet, and the immediate aim is restful relationship and delight. This is lexically important because the same Solomonic cluster that elsewhere foregrounds the rod here commands discipline without the rod-image, showing that the disciplinary frame is broader than the corporal mode and does not depend on shevet as the sole instrument.",
+        "supports": "complicates",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.19.18",
+        "key_terms": [
+          {
+            "strong": "H3256",
+            "lemma": "יָסַר"
+          },
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          }
+        ],
+        "force": "Discipline (yasar, H3256) your son while there is hope, but do not set your soul on his death (mut, H4191). The proverb commands parental discipline using yasar and explicitly forbids any orientation toward the child's death, which builds a severity bound directly into the lexical command. As with Prov 29:17 the parental imperative does not require shevet, and as with Prov 23:13 the saying installs a lethality limit on whatever disciplinary action is in view.",
+        "supports": "complicates",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.8.5",
+        "key_terms": [
+          {
+            "strong": "H3256",
+            "lemma": "יָסַר"
+          },
+          {
+            "strong": "H1121",
+            "lemma": "בֵּן"
+          }
+        ],
+        "force": "As a man disciplines (yasar, H3256) his son, so the LORD your God disciplines you. The parental disciplinary act is presented as the analogical ground for divine pedagogy, which assumes parental discipline as a known and legitimate practice and treats yasar as the descriptive verb. The verse is parental-discipline assuming, not method-prescribing, and does not specify corporal or non-corporal mode.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.6",
+        "key_terms": [
+          {
+            "strong": "G3811",
+            "lemma": "παιδεύω"
+          },
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G3146",
+            "lemma": "μαστιγόω"
+          }
+        ],
+        "force": "Whom the Lord loves (agapao, G0025) he disciplines (paideuo, G3811), and scourges (mastigoo, G3146) every son he receives. The verb paideuo carries the broad sense of child-rearing and correction, and the clause ties discipline to love rather than to wrath. The parallel verb mastigoo is the standard term for literal scourging or flogging, used elsewhere in the Gospels for the physical scourging inflicted on Jesus, so the divine pedagogy image in this verse is lexically severe even though it is framed as love. The verse establishes the loving qualifier of the proposition but speaks to divine discipline by analogy to parental discipline, which makes its bearing on the parental method by inference rather than by direct command.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.11",
+        "key_terms": [
+          {
+            "strong": "G3809",
+            "lemma": "παιδεία"
+          },
+          {
+            "strong": "G1516",
+            "lemma": "εἰρηνικός"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G1128",
+            "lemma": "γυμνάζω"
+          }
+        ],
+        "force": "No discipline (paideia, G3809) seems joyful at the time but grievous, yet afterward it yields the peaceable (eirenikos, G1516) fruit of righteousness (dikaiosune, G1343) to those trained (gumnazo, G1128) by it. The stated telos is peaceable righteousness, which lexically bounds legitimate discipline toward a restorative outcome and stands against any abusive or wrathful practice, while the participle gumnazo casts the disciplined as athletes-in-training, framing the experience as formative rather than punitive.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.6.4",
+        "key_terms": [
+          {
+            "strong": "G3809",
+            "lemma": "παιδεία"
+          },
+          {
+            "strong": "G3949",
+            "lemma": "παροργίζω"
+          },
+          {
+            "strong": "G3559",
+            "lemma": "νουθεσία"
+          }
+        ],
+        "force": "Fathers, do not provoke (paroggizo, G3949) your children to anger but bring them up in the discipline (paideia, G3809) and admonition (nouthesia, G3559) of the Lord. The negated imperative caps parental discipline with a prohibition against provoking, and pairs paideia with the verbal-formation term nouthesia, which lexically supports the proposition that abusive or exasperating practice is excluded while measured formation is commanded. The verse forbids the harsh mode but does not specify or prohibit the corporal mode by name.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.21",
+        "key_terms": [
+          {
+            "strong": "G2042",
+            "lemma": "ἐρεθίζω"
+          },
+          {
+            "strong": "G0120",
+            "lemma": "ἀθυμέω"
+          }
+        ],
+        "force": "Fathers, do not provoke (erethizo, G2042) your children, lest they become discouraged (athymeo, G0120). The pair erethizo plus athymeo gives a second, independent New Testament prohibition against the provoking mode of parenting and adds a psychological outcome bound, the loss of heart, which is grammatically distinct from Eph 6:4 yet pointed in the same direction. Lexically this strengthens the canon-wide brake on harshness without addressing the corporal mode itself.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.3.19",
+        "key_terms": [
+          {
+            "strong": "G5368",
+            "lemma": "φιλέω"
+          },
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          },
+          {
+            "strong": "G3811",
+            "lemma": "παιδεύω"
+          }
+        ],
+        "force": "Those whom I love (phileo, G5368) I rebuke (elencho, G1651) and discipline (paideuo, G3811). The chain phileo plus elencho plus paideuo lexically binds warm affection to verbal reproof and to disciplinary action, which rebuts any reading in which divine love precludes correction. The verse uses phileo rather than agapao, distinguishing the bond as familial-affectionate, and frames discipline as an expression of that love.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Prov.23.13",
+        "to": "Prov.13.24",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Prov.22.15",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Prov.29.15",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Prov.29.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Prov.19.18",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Eph.6.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.23.13",
+        "to": "Heb.12.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Prov.22.15",
+        "to": "Prov.13.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Prov.29.15",
+        "to": "Prov.29.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Prov.29.15",
+        "to": "Prov.10.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.21",
+        "to": "Eph.6.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.21",
+        "to": "Ps.103.13",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.21",
+        "to": "Prov.3.12",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.6",
+        "to": "Deut.8.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.11",
+        "to": "Prov.15.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.6.4",
+        "to": "Gen.18.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Prov.29.17",
+        "addressed": true,
+        "resolution": "The same Solomonic discipline cluster commands the parent to yasar (H3256, discipline) the son with no shevet (H7626, rod) in view, and frames the aim as restful relationship and delight to the soul. This shows that the canon supplies a yasar-without-shevet parental imperative inside the very corpus where the rod texts sit, so the disciplinary frame is broader than the corporal mode and does not lexically require the rod as the indispensable instrument. The complication is addressed by recognizing that shevet is one figure within a broader yasar and musar discipline-frame, not the sole prescribed instrument."
+      },
+      {
+        "ref": "Prov.19.18",
+        "addressed": true,
+        "resolution": "The verse commands yasar (H3256) and explicitly forbids any orientation toward the child's death (mut, H4191), which builds a severity bound directly into the lexical command. This harmonizes with the non-abusive qualifier of the proposition and with Prov 23:13's he-will-not-die clause, the rod-cluster texts themselves contain internal limits on severity. The complication is addressed by reading the proverbs together as a self-bounding discipline-frame."
+      },
+      {
+        "ref": "Eph.6.4",
+        "addressed": true,
+        "resolution": "The prohibition against provoking (paroggizo, G3949) children to anger sits in the same clause as the command to discipline (paideia, G3809), so the verse simultaneously authorizes formative discipline and forbids the harsh or abusive form. This is consistent with the measured, non-abusive qualifier of the proposition and does not contradict it."
+      },
+      {
+        "ref": "Col.3.21",
+        "addressed": true,
+        "resolution": "The pair erethizo (G2042, provoke) plus athymeo (G0120, become discouraged) gives a second, independent New Testament prohibition against the provoking mode of parenting, lexically distinct from paroggizo in Eph 6:4. The complication is addressed by treating the two prohibitions as a canon-wide brake on harshness, which the proposition's measured-and-not-abusive qualifier honors."
+      },
+      {
+        "ref": "Heb.12.11",
+        "addressed": true,
+        "resolution": "The stated end of discipline is the peaceable (eirenikos, G1516) fruit of righteousness (dikaiosune, G1343), which bounds legitimate discipline away from wrath and toward restorative outcome. It complicates a maximal reading of the rod texts but harmonizes with the loving and measured framing of the proposition."
+      },
+      {
+        "ref": "Heb.12.6",
+        "addressed": true,
+        "resolution": "The verb mastigoo (G3146) used here for divine discipline is the standard Greek term for literal scourging, used six other times in the Gospels for the physical flogging of Christ. This complicates any reading that takes the New Testament vocabulary as softening the corporal image of OT discipline, because the divine-pedagogy analogy in Heb 12 itself uses a grammatically severe term. The complication is addressed by noting that the verse is divine-analogical rather than parental-prescriptive, and that the surrounding clauses cap severity through paideuo and the peaceable-fruit telos."
+      },
+      {
+        "ref": "Prov.13.24",
+        "addressed": false,
+        "resolution": "The lexeme shevet (H7626) is polysemous across literal rod, shepherd staff, and governing scepter, and the wisdom-genre saying compresses both prescription and figure into a single line. The lexical store alone cannot determine, for this verse on its own grammatical terms, whether the proverb prescribes physical striking as the operative mode or commands corrective parental authority figured under the rod-image. Prov 23:13-14 makes the physical reading explicit through nakah, but Prov 13:24 by itself remains underdetermined on the corporal-specific point and is the locus of the contemporary lexical dispute."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No variant units supplied in the bundle and the cited books fall outside ECM scope. The Hebrew Proverbs anchors are textually stable for the disciplinary terms across Masoretic witnesses, and the New Testament readings of paideia, paroggizo, erethizo, mastigoo, and the phileo-elencho-paideuo chain in Rev 3:19 are not in dispute among the cited witnesses."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "wisdom_genre_application",
+      "covenant_theology",
+      "new_covenant_theology",
+      "biblical_theology_of_discipline"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "literal_corporal_reading",
+        "verdict": "affirms",
+        "rationale": "Reads Prov 23:13-14 at face value, the verb nakah (H5221, strike) plus shevet (H7626, rod) is grammatically physical, and the very clause that commands the act installs a lethality bound, he will not die. The same cluster (Prov 13:24, 22:15, 29:15) treats the rod as a real disciplinary instrument paired with musar and tokachat, and the New Testament does not retract the parental imperative but only forbids the harsh, provoking mode. On this lens the proposition's loving-measured-and-not-abusive corporal practice is directly affirmed."
+      },
+      {
+        "framework": "wisdom_genre_figurative_reading",
+        "verdict": "disputed",
+        "rationale": "Treats Proverbs as wisdom-genre generalizations that use shevet as a figure for corrective parental authority within the broader frame of yasar and musar. Prov 29:17 and Prov 19:18 command parental discipline without any shevet, showing that the figure is not the indispensable instrument but one image within the discipline-frame. On this lens the proverbs commend disciplined formation without binding parents to a specific corporal method, leaving the corporal-specific claim underdetermined."
+      },
+      {
+        "framework": "new_testament_telos_reading",
+        "verdict": "disputed",
+        "rationale": "Foregrounds Eph 6:4 (paroggizo prohibition), Col 3:21 (erethizo plus athymeo prohibition), and Heb 12:11 (peaceable-fruit telos with gumnazo training imagery), where discipline is bounded against provocation and aimed at peaceable righteousness. On this lens abusive practice is clearly excluded while the permissibility of the corporal mode itself is left to application rather than mandated lexically. The Heb 12:6 mastigoo image is read as analogical-divine, not as a parental method-prescription."
+      },
+      {
+        "framework": "mixed_mandate_bounded_reading",
+        "verdict": "affirms",
+        "rationale": "Reads Prov 23:13-14 literally (nakah plus shevet is grammatically explicit physical striking) but treats the proverbs as a self-bounding cluster, the rod text itself installs the lethality limit (he will not die) and pairs with verbal reproof (tokachat, H8433) and instructive discipline (yasar, H3256). The New Testament brakes (paroggizo, erethizo, peaceable-fruit telos) are read as compatible severity-caps on a permitted but limited corporal mode rather than as redirecting the mode itself. On this lens the proposition's loving-measured-and-not-abusive practice is affirmed and the cultural-and-legal qualifier becomes the prudential outworking."
+      },
+      {
+        "framework": "biblical_theology_of_discipline",
+        "verdict": "disputed",
+        "rationale": "Traces the discipline-frame across yasar (H3256) and musar (H4148) in the OT and paideia (G3809) and paideuo (G3811) in the NT, finds the throughline to be formation toward wisdom and righteousness rather than any specific method, and observes that the canon supplies both rod-cluster texts and yasar-without-rod texts inside the same Solomonic corpus. On this lens the lexical pattern decisively affirms the disciplinary aim and the severity-cap, but the method question is treated as a wisdom-application matter that the words underdetermine, hence disputed."
+      }
+    ],
+    "notes": "The verdict turns on whether the Hebrew wisdom proverbs are read as method-specific prescription or as genre-typical commendation of corrective discipline figured under the rod, whether Prov 23:13-14's nakah-plus-shevet is the canonical anchor for a literal corporal mode or a particularly vivid figure inside a broader yasar discipline-frame, and how the New Testament discipline vocabulary bounds severity. Analogia scripturae harmonizes the rod texts with the Eph 6:4 and Col 3:21 brakes and with the peaceable-fruit telos in Heb 12:11."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What do the disciplinary terms in the cited texts, the Hebrew shevet, musar, yasar, and nakah in Proverbs and Deuteronomy, and the Greek paideia, paideuo, mastigoo, paroggizo, and erethizo in the New Testament, indicate about whether and how Scripture treats physical correction of young children, including any bounds it places on severity and any cultural or legal qualifications it installs by its own grammar.",
+    "notes": "The original stem embeds three evaluative qualifiers, that corporal discipline is permitted, that loving and measured forms are in view, and that abusive practice is sinful and unlawful, and a fourth contextual qualifier about cultural and legal application, which together preload a permissive-with-limits verdict. The lexicon strongly supports the severity-cap qualifier via paroggizo in Eph 6:4, erethizo plus athymeo in Col 3:21, the peaceable-fruit telos in Heb 12:11, and the internal Proverbs limits in Prov 23:13 (he will not die) and Prov 19:18 (do not set your soul on his death). The lexicon also supplies a grammatically explicit corporal anchor in Prov 23:13-14 through nakah plus shevet. The permissibility of the corporal mode specifically rests on whether the Prov 23 anchor is read as universal binding prescription, as bounded permission, or as a vivid wisdom-figure within a broader yasar discipline-frame that the canon elsewhere commands without the rod. The verdict is derived on the original stem and reported as disputed because the lexicon decisively affirms the disciplinary aim and the severity-cap but underdetermines the method question."
+  },
+  "lay_summary": "The Hebrew Proverbs cluster around parental discipline uses several closely linked words. Shevet (rod) appears with musar (discipline or instruction) in Prov 13:24, 22:15, and 29:15. Prov 23:13-14 goes further, using the verb nakah (strike) with shevet and adding the clause he will not die, so the corporal image is grammatically as explicit as the Hebrew gets and at the same time installs its own lethality bound. The same Solomonic cluster then turns around and commands the parent to yasar (discipline) the son in Prov 29:17 and Prov 19:18 without any mention of the rod, and Prov 19:18 again forbids any orientation toward the child's death. So the canon supplies both a rod-pattern and a yasar-without-rod pattern inside the same body of wisdom sayings. Deuteronomy 8:5 uses yasar to describe parental discipline as the analogical ground for divine discipline. In the New Testament the parental command in Eph 6:4 places paideia (training) alongside an explicit prohibition, do not provoke (paroggizo) your children to anger. Col 3:21 repeats the brake with different words, do not provoke (erethizo) lest they become discouraged (athymeo). Hebrews 12 frames divine discipline as the work of a loving Father, uses paideuo and even the severe term mastigoo (the same verb used for the literal scourging of Christ), and lands the discussion on the peaceable fruit of righteousness in those trained by it. Rev 3:19 ties phileo (warm love) to elencho (rebuke) and paideuo. Reading the canon together, the words clearly affirm two things, that parental discipline is commanded as an expression of love and that the harsh, provoking, exasperating mode is forbidden. What the words do not settle on their own is whether the corporal mode specifically is mandated for every parent, permitted as one bounded method, or pictured under the rod-figure as one image within a broader discipline-frame, because shevet is a flexible noun, Prov 29:17 commands discipline without it, and the New Testament brakes do not address the corporal mode by name. That is why the lexical evidence is best described as genuinely contested.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7626"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4148"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3256"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5221"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.13.24"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.22.15"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.23.13"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.23.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.29.15"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.29.17"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.19.18"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3809"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3811"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3146"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3949"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2042"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.12.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.12.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.6.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.3.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Prov.22.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Prov.23.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Col.3.21"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Prov.13.24"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Prov.22.15"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA syntactic data is licensed CC-BY-NC-4.0, which prohibits commercial redistribution, so the bundled evidence cannot be published in bulk without removing or relicensing the ETCBC-BHSA clause-function citations for Prov.13.24 and Prov.22.15."
+  },
+  "flags": [
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-excommunication-as-final-step",
+  "question_id": "prc-excommunication-as-final-step",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.925,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Three convergent lexical strands carry the proposition. Matt 18:15-17 is overtly stepwise: a private word, then with witnesses, then the gathered assembly, with the apodosis esto soi hosper ho ethnikos kai ho telones, let him be to you as the Gentile and the tax collector, made conditional on ean de parakouse tes ekklesias, if he refuses to hear even the assembly, so the outsider-treatment is the terminal tier. The verb that commands removal in 1 Cor 5:13, exarate, is a hapax in the Greek New Testament, so its force is triangulated not from New Testament distribution but from the recurring Hebrew expulsion formula behind it (Deut 17:7; 19:19; 21:21; 22:21,24; 24:7, purge the evil from your midst), all present in the corpus. 1 Cor 5:11 spells out the removal as me synanamignysthai and mede synesthiein, do not associate and do not even eat together, withdrawing table fellowship. The purpose is stated in the text: protection (1 Cor 5:6, a little leaven leavens the whole lump) and restoration (the hina clauses of 1 Cor 5:5 to pneuma sothe, 2 Thess 3:14 hina entrape, 1 Tim 1:20 hina paideuthosi). The vocabulary supports both the terminal ordering and the dual aim the proposition asserts."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1808",
+        "lemma": "ἐξαίρω",
+        "transliteration": "exairo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3878",
+        "lemma": "παρακούω",
+        "transliteration": "parakouo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1482",
+        "lemma": "ἐθνικός",
+        "transliteration": "ethnikos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5057",
+        "lemma": "τελώνης",
+        "transliteration": "telones",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4874",
+        "lemma": "συναναμίγνυμι",
+        "transliteration": "synanamignymi",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidomi",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2219",
+        "lemma": "ζύμη",
+        "transliteration": "zyme",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "noutheteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1788",
+        "lemma": "ἐντρέπω",
+        "transliteration": "entrepo",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3868",
+        "lemma": "παραιτέομαι",
+        "transliteration": "paraiteomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4205",
+        "lemma": "πόρνος",
+        "transliteration": "pornos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1808",
+      "G3878",
+      "G1482",
+      "G5057",
+      "G4874",
+      "G3860",
+      "G2219",
+      "G3560",
+      "G1788",
+      "G3868",
+      "G1577",
+      "G4205",
+      "G4593",
+      "G1496",
+      "G0727",
+      "G3366"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.18.15",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The protasis ean de hamartese eis se ho adelphos sou, if your brother sins against you, opens a graded procedure: hypage elegxon auton metaxy sou kai autou monou, go and reprove him between you and him alone. This first private tier is explicit in the words and establishes that what follows is a sequence, not a single isolated act.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.16",
+        "key_terms": [
+          {
+            "strong": "G3878",
+            "lemma": "παρακούω"
+          }
+        ],
+        "force": "The conditional ean de me akouse, but if he does not listen, advances to paralabe meta sou eti hena e duo, take with you one or two more, citing the two-or-three-witnesses rule. The second tier is named in the grammar, confirming an escalating order before the assembly is involved.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          },
+          {
+            "strong": "G1482",
+            "lemma": "ἐθνικός"
+          }
+        ],
+        "force": "The third tier eipon te ekklesia, tell it to the assembly, then the conditional ean de kai tes ekklesias parakouse, if he refuses to hear even the assembly, yields the apodosis esto soi hosper ho ethnikos kai ho telones, let him be to you as the Gentile and the tax collector. The verb parakouo is rare (3 occurrences, twice here) but its sense, refuse to listen, is fixed by the immediate contrast with akouo in 18:15-16, and ethnikos (4 occurrences, all marking an outsider) sets the disciplined one outside the community. This is the terminal tier of the sequence.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.13",
+        "key_terms": [
+          {
+            "strong": "G1808",
+            "lemma": "ἐξαίρω"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          }
+        ],
+        "force": "The imperative exarate ton poneron ex hymon auton, remove the evil person from among yourselves, uses exairo, which occurs only here in the Greek New Testament. Because it is a hapax its sense is read from the recurring Hebrew expulsion formula it reproduces, purge the evil from your midst (Deut 17:7; 19:19; 21:21; 22:21,24; 24:7). The flanking contrast tous exo ho theos krinei against the assembly judging tous eso, those inside, locates the removal squarely within the gathered community.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.5",
+        "key_terms": [
+          {
+            "strong": "G3860",
+            "lemma": "παραδίδωμι"
+          }
+        ],
+        "force": "The infinitive paradounai ton toiouton to Satana, to hand such a one over to Satan, governs the purpose clause hina to pneuma sothe en te hemera tou kyriou, that the spirit may be saved in the day of the Lord. paradidomi is a common verb (121 occurrences) meaning hand over or deliver up, so the disciplinary sense here is supplied by its object, to Satan, and the salvific hina clause makes the handover restorative in aim, not merely punitive.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.11",
+        "key_terms": [
+          {
+            "strong": "G4874",
+            "lemma": "συναναμίγνυμι"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The directive me synanamignysthai, do not keep company with, applied to a so-called brother who persists in named sins, is intensified by the climactic to toiouto mede synesthiein, with such a one not even to eat. synanamignymi occurs only three times (here, 5:9, and 2 Thess 3:14), each time of disciplinary social separation, so the sense is stable across its small distribution. The withdrawal of shared table fellowship is the concrete content of the removal commanded in 5:13.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.7",
+        "key_terms": [
+          {
+            "strong": "G2219",
+            "lemma": "ζύμη"
+          }
+        ],
+        "force": "The command ekkatharate ten palaian zymen, cleanse out the old leaven, with the explanatory mikra zyme holon to phyrama zymoi, a little leaven leavens the whole lump (5:6), supplies the protective rationale. zyme carries a stable figurative sense of pervasive corrupting influence across its 13 occurrences in the Synoptics and Paul. Removal guards the gathered body from corruption spreading, the protect the assembly element of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.14",
+        "key_terms": [
+          {
+            "strong": "G4874",
+            "lemma": "συναναμίγνυμι"
+          },
+          {
+            "strong": "G1788",
+            "lemma": "ἐντρέπω"
+          }
+        ],
+        "force": "The imperative semeiousthe, take note of, and me synanamignysthai auto, do not associate with him, carry the explicit purpose hina entrape, that he may be put to shame and so brought to repentance. entrepo (9 occurrences) regularly means to shame into a change of conduct, so the corrective design of the social separation is stated in the text itself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.15",
+        "key_terms": [
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The qualifying clause kai me hos echthron hegeisthe alla noutheteite hos adelphon, yet do not regard him as an enemy but admonish him as a brother, fences the separation against hostility. noutheteo (8 occurrences) means corrective admonition, so the disciplined person remains within the scope of restorative correction, confirming the aim is recovery rather than permanent rejection.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.1.20",
+        "key_terms": [
+          {
+            "strong": "G3860",
+            "lemma": "παραδίδωμι"
+          }
+        ],
+        "force": "The verb paredoka to Satana, I handed over to Satan, applied to Hymenaeus and Alexander, governs hina paideuthosi me blasphemein, that they may be disciplined not to blaspheme. The same handover verb and a paideuo purpose clause repeat the corrective intent of 1 Cor 5:5, reinforcing that exclusion aims at instruction.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.10",
+        "key_terms": [
+          {
+            "strong": "G3868",
+            "lemma": "παραιτέομαι"
+          }
+        ],
+        "force": "The instruction hairetikon anthropon meta mian kai deuteran nouthesian paraitou, reject a divisive person after a first and second warning, again stakes a final action on prior graded warnings. paraiteomai (12 occurrences) carries a range from excuse oneself to decline or reject, and the object plus the meta mian kai deuteran nouthesian phrase fix the sense here as refuse further fellowship, paralleling the terminal step in Matt 18 and 1 Cor 5.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.5.13",
+        "to": "1Cor.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.5.5",
+        "to": "1Cor.5.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.5.11",
+        "to": "1Cor.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.5.8",
+        "to": "Exod.12.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Thess.3.15",
+        "to": "Lev.19.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "Matt.6.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Thess.3.15",
+        "addressed": true,
+        "resolution": "The clause me hos echthron alla noutheteite hos adelphon could be read as forbidding any formal exclusion. Lexically it does not, because alla coordinates with and qualifies the manner of the already commanded me synanamignysthai rather than cancelling it. The separation stands but is bounded by ongoing admonition, which is exactly the proposition's stated aim to provoke repentance."
+      },
+      {
+        "ref": "1Cor.5.10",
+        "addressed": true,
+        "resolution": "Paul clarifies ou pantos tois pornois tou kosmou toutou, not at all meaning the sexually immoral of this world, distinguishing outsiders from a so-called brother. This confines the removal to the gathered community and does not soften the 5:13 imperative against an insider, so it does not undercut the proposition."
+      },
+      {
+        "ref": "Matt.18.17",
+        "addressed": true,
+        "resolution": "Hosper ho ethnikos kai ho telones could be taken merely as a private change of attitude without any assembly action. The aorist subjunctive parakouse tes ekklesias requires the assembly to have already spoken corporately, and the parallel hapax imperative exarate in 1 Cor 5:13 shows the canon reads this comparison as concrete corporate removal, resolving the ambiguity toward the proposition."
+      },
+      {
+        "ref": "1Cor.5.13",
+        "addressed": true,
+        "resolution": "Because exairo is a hapax in the Greek New Testament its exact force cannot be triangulated from internal distribution alone. The reading is anchored instead in the recurring Hebrew expulsion formula it echoes (purge the evil from your midst), which is well attested across Deuteronomy and present in the corpus, so the single occurrence is interpretively secure rather than ambiguous."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle for the cited verses, and none of these anchors fall in the ingested ECM window (3 John 1.1 to 1.15). The 1 Cor 5:13 reading exarate, aorist imperative, versus a future indicative does not change the directive force of removal, so any such variation is verdict-neutral. CBGM data was not examined for these books, hence ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "restorative_final_step",
+        "verdict": "affirms",
+        "rationale": "On this reading the action is final-in-process but aimed at recovery. The hina clauses in 1 Cor 5:5 (to pneuma sothe), 2 Thess 3:14 (hina entrape), and 1 Tim 1:20 (hina paideuthosi), plus the noutheteite hos adelphon of 2 Thess 3:15, fix the goal as repentance and reinstatement, so exclusion is the last disciplinary step but not a permanent verdict. This represents the proposition's intended to provoke repentance clause in its strongest form."
+      },
+      {
+        "framework": "protective_final_step",
+        "verdict": "affirms",
+        "rationale": "On this reading the same action primarily guards the community. The leaven figure of 1 Cor 5:6-7 and the exairo command read removal as purging corrupting influence from the body, matching the proposition's protect the assembly clause. The two lenses are not rivals here; both purposes are stated in the text and the verdict holds on either."
+      },
+      {
+        "framework": "non_codified_pattern",
+        "verdict": "disputed",
+        "rationale": "A minority reading notes that the vocabulary establishes a graded discipline culminating in exclusion but does not legislate one fixed universal procedure. Matt 18 addresses a personal sin between brothers and 1 Cor 5 a public scandal addressed by apostolic directive; the words give two scenes of escalation, not a single codified sequence binding every case. On this lens the proposition's specific claim that exclusion is the final step of the Matthew 18 process overstates a procedural uniformity the texts do not spell out, though the underlying terminal-exclusion pattern is granted."
+      }
+    ],
+    "notes": "The Deuteronomic expulsion formula carried into the 1 Cor 5:13 hapax exairo illustrates progressive revelation of a single covenant-community discipline principle. Reading Matt 18:15-17, 1 Cor 5, 2 Thess 3, 1 Tim 1:20, and Titus 3:10 together by analogy of Scripture yields a coherent terminal step with both protective and restorative aims, while honestly noting the words describe a graded principle rather than one codified procedure."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Removal from fellowship and the shared table is described in the New Testament as an action taken when an insider refuses correction, reached after lesser graded steps, and certain texts attach to it stated aims of repentance and of guarding the community. Whether it constitutes the single fixed final step of one codified Matthew 18 sequence is the matter under examination.",
+    "notes": "The phrases final step of the Matthew 18 process and intended to provoke repentance and protect the assembly partly encode the conclusion in the stem. The lexical evidence independently supports the terminal-tier ordering in Matt 18:15-17 (graded by the akouo / parakouo conditionals) and the dual purpose stated in the hina clauses, so the verdict is derived on the original stem rather than the neutralized one. The one element the words underdetermine is whether a single fixed procedure is in view, which is why a non_codified_pattern lens is recorded."
+  },
+  "lay_summary": "The words in these passages point the same direction. In Matthew 18 Jesus lays out a clear sequence: first a private word, then one or two witnesses, then the gathered assembly, and only if the person refuses to hear even the assembly is he to be treated as an outsider, like a Gentile or a tax collector. The grammar marks each stage as conditional on the previous one failing, so this is plainly the last stage, not the first. In 1 Corinthians 5 Paul issues a sharp command, remove the evil one from among yourselves. The verb he uses for remove appears only this once in the Greek New Testament, so its meaning is read from the repeated Old Testament formula it echoes, purge the evil from your midst, found again and again in Deuteronomy. Paul says what removal means in practice: do not keep company with such a person, and do not even share a meal, which withdraws table fellowship. Two reasons sit plainly in the text. First, protection: a little leaven leavens the whole lump, so the action guards the body from spreading corruption. Second, restoration: the offender is handed over so that the spirit may be saved, and in 2 Thessalonians 3 the separation is done so that he may be ashamed and turn back, while still being admonished as a brother and not treated as an enemy. The same restorative aim appears in 1 Timothy 1:20 and in Titus 3:10, where a divisive person is rejected only after a first and second warning. So across a gospel and several letters one pattern holds: a final step taken after lesser efforts fail, carried out by the gathered community against one of its own, aimed both at guarding the assembly and at recovering the person. Where readers can diverge is narrow. The words give two vivid scenes of escalation but do not spell out one fixed universal procedure, and they make removal final in the disciplinary process while leaving the door to repentance and return open, not a permanent banishment.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.18.17"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.5.5"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1808"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3878"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4874"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.5.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "$schema_version": "3.0",
+  "id": "het-rc-marian-dogmas",
+  "question_id": "het-rc-marian-dogmas",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 1.0,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The stem bundles four claims and the canon's vocabulary speaks unevenly to them. Three components are well grounded in the words. In Luke 1:47 Mary calls God ho soter mou, my savior, placing herself in the class of those who require salvation. Romans 3:23 makes pantes hemarton, all sinned, an unrestricted universal aorist with no named exception. First Timothy 2:5 fixes heis mesites, one mediator, between God and people, and Hebrews 7:25 grounds a saving eis to panteles, to the uttermost, with pantote zon eis to entugchanein, always living to intercede, so the mediating role is exclusive and complete in Christ. Acts 4:12 reinforces the exclusivity with ouk estin en allo oudeni he soteria. The fourth component, that Mary did not remain ever virgin, hangs on the semantic range of adelphos at Matt 13:55, Mark 6:3, Acts 1:14, and Gal 1:19 plus the heos hou clause at Matt 1:25 and prototokos at Luke 2:7. Lexically these data lean toward the stem, but a defensible kinship-semantic reading of adelphos exists, so this component remains contested on the words alone. Because one of four components is genuinely contested the bundled stem is disputed even though three components are decisively supported."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4990",
+        "lemma": "σωτήρ",
+        "transliteration": "soter",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0021",
+        "lemma": "ἀγαλλιάω",
+        "transliteration": "agalliao",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 44,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5302",
+        "lemma": "ὑστερέω",
+        "transliteration": "hustereo",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1793",
+        "lemma": "ἐντυγχάνω",
+        "transliteration": "entugchano",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3838",
+        "lemma": "παντελής",
+        "transliteration": "panteles",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3842",
+        "lemma": "πάντοτε",
+        "transliteration": "pantote",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0080",
+        "lemma": "ἀδελφός",
+        "transliteration": "adelphos",
+        "occurrences_in_canon": 348,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0079",
+        "lemma": "ἀδελφή",
+        "transliteration": "adelphe",
+        "occurrences_in_canon": 26,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0431",
+        "lemma": "ἀνεψιός",
+        "transliteration": "anepsios",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4773",
+        "lemma": "συγγενής",
+        "transliteration": "sungenes",
+        "occurrences_in_canon": 11,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5487",
+        "lemma": "χαριτόω",
+        "transliteration": "charitoo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4416",
+        "lemma": "πρωτότοκος",
+        "transliteration": "prototokos",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2193",
+        "lemma": "ἕως",
+        "transliteration": "heos",
+        "occurrences_in_canon": 147,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1097",
+        "lemma": "γινώσκω",
+        "transliteration": "ginosko",
+        "occurrences_in_canon": 222,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G4990",
+      "G0021",
+      "G0264",
+      "G5302",
+      "G3316",
+      "G1520",
+      "G1793",
+      "G3838",
+      "G3842",
+      "G2316",
+      "G0444",
+      "G0080",
+      "G0079",
+      "G0431",
+      "G4773",
+      "G5487",
+      "G4416",
+      "G2193",
+      "G1097"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.1.47",
+        "key_terms": [
+          {
+            "strong": "G0021",
+            "lemma": "ἀγαλλιάω"
+          },
+          {
+            "strong": "G4990",
+            "lemma": "σωτήρ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Mary's own words egalliasen to pneuma mou epi to theo to soteri mou, my spirit rejoiced on God my savior. The first person possessive mou attached to soter places her in the class of those who require salvation, and the aorist agalliao is her own response of joy at a salvation she receives, not one she dispenses, so the verse situates Mary as a recipient inside redemption.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.23",
+        "key_terms": [
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          },
+          {
+            "strong": "G5302",
+            "lemma": "ὑστερέω"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          }
+        ],
+        "force": "Pantes hemarton, all sinned, is an unqualified universal aorist, and husterountai tes doxes tou theou, they fall short of the glory of God, is a present middle describing a continuing deficit. The quantifier pantes admits no named exception. On the plain lexical reading the universal includes Mary among those who sinned and fall short, which presses against a preservation from original sin at her conception.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "Heis theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous. The numeral heis is repeated and applied to mesites, the mediator, and the mediating role is grounded in the shared humanity, anthropos, of Christ. The singular cardinal forecloses a second mediating party, so the construction excludes any co-mediating function for Mary or any other named human.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.25",
+        "key_terms": [
+          {
+            "strong": "G3838",
+            "lemma": "παντελής"
+          },
+          {
+            "strong": "G3842",
+            "lemma": "πάντοτε"
+          },
+          {
+            "strong": "G1793",
+            "lemma": "ἐντυγχάνω"
+          }
+        ],
+        "force": "Sozein eis to panteles, to save to the uttermost or completely, paired with pantote zon eis to entugchanein huper auton, always living to intercede for them. Panteles marks the salvation as complete with no remainder for another to supply, and pantote with the present infinitive entugchanein marks the intercession as continuous and his own. The completeness and the permanence leave no mediatorial gap for a co-mediatrix to fill.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.12",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G2087",
+            "lemma": "ἕτερος"
+          },
+          {
+            "strong": "G4991",
+            "lemma": "σωτηρία"
+          }
+        ],
+        "force": "Ouk estin en allo oudeni he soteria, oude gar onoma estin heteron, salvation is in no other, for there is no other name. The double negation oudeni and heteron with onoma fixes the saving name as singular and exclusive, which on the plain reading rules out a co-saving or co-mediating second party.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.1.25",
+        "key_terms": [
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G4416",
+            "lemma": "πρωτότοκος"
+          }
+        ],
+        "force": "Ouk eginosken auten heos hou eteken huion, he did not know her until she bore a son, here the verb ginosko is the standard koine euphemism for marital relations. The clause uses heos hou plus aorist indicative, a temporal limit construction whose default reading sets a bound at the birth, after which the negation lapses. The noun prototokos, firstborn, naturally suggests later siblings though it does not strictly require them. Lexically this leans toward the denial of perpetual virginity, but the heos hou idiom is not strictly implicative in every koine sample, so the construction is contested rather than decisive.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.13.55",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          },
+          {
+            "strong": "G3384",
+            "lemma": "μήτηρ"
+          }
+        ],
+        "force": "The townspeople name his mother and his adelphoi by personal name, Iakobos kai Ioseph kai Simon kai Ioudas. The naming pattern, mother then named brothers, is the standard koine pattern for siblings of one household. The default sense of adelphos is biological brother, though the term has an attested wider kinship range.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.13.56",
+        "key_terms": [
+          {
+            "strong": "G0079",
+            "lemma": "ἀδελφή"
+          }
+        ],
+        "force": "Hai adelphai autou ouchi pasai pros hemas eisin, are not all his sisters with us. The feminine adelphe has the same primary biological sense as adelphos, and the plural with pasai together with the implication that these women live in the same town as the family points to ordinary siblings rather than wider kin.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.14",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          },
+          {
+            "strong": "G3384",
+            "lemma": "μήτηρ"
+          }
+        ],
+        "force": "Maria he meter tou Iesou kai sun tois adelphois autou, Mary the mother of Jesus and with his adelphoi. The juxtaposition of mother and adelphoi in one clause, distinguishing the disciples from this household group, is the standard koine way of naming a nuclear family, which is consistent with biological brothers though not exclusively so.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.19",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "Iakobon ton adelphon tou kuriou, James the brother of the Lord. The genitive ton adelphon tou kuriou is the apostolic-letter style of personal identification, and Paul uses adelphos in the figurative believer sense extensively elsewhere yet here applies it as a personal identifier, which marks this James off from other Jameses by household relation rather than spiritual fellowship.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.4.10",
+        "key_terms": [
+          {
+            "strong": "G0431",
+            "lemma": "ἀνεψιός"
+          }
+        ],
+        "force": "Markos ho anepsios Barnaba, Mark the cousin of Barnabas. This is the sole NT occurrence of anepsios, but its presence demonstrates that koine had a distinct word for cousin available. When the gospels and Acts name the family of Jesus with adelphos and adelphe rather than anepsios or sungenes, the lexical choice has weight on the biological-sibling reading.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.1.28",
+        "key_terms": [
+          {
+            "strong": "G5487",
+            "lemma": "χαριτόω"
+          }
+        ],
+        "force": "Chaire, kecharitomene, ho kurios meta sou, rejoice, having been graced, the Lord is with you. The form kecharitomene is a perfect passive participle of charitoo, which marks Mary as having received favor that abides in present effect. The verb charitoo occurs only twice in the canon, here and Eph 1:6, where it describes grace bestowed on all believers in Christ. The participle marks bestowal of grace, not a metaphysical assertion of preservation from original sin.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.6.3",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          },
+          {
+            "strong": "G0079",
+            "lemma": "ἀδελφή"
+          }
+        ],
+        "force": "Ho adelphos Iakobou kai Iosetos kai Iouda kai Simonos, kai ouk eisin hai adelphai autou hode pros hemas. The pericope names four adelphoi by personal name and references adelphai resident in the same village. The default sense of adelphos and adelphe is biological sibling, but the lexeme has an attested wider kinship range that a reader can press, which is why this verse alone is taken to leave the perpetual virginity question contested rather than decided.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Tim.2.5",
+        "to": "Deut.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Job.9.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.2.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.7.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.9.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.47",
+        "to": "Luke.2.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.23",
+        "to": "Rom.3.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.1.25",
+        "to": "Luke.2.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.13.55",
+        "to": "Mark.6.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.13.55",
+        "to": "Acts.1.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.19",
+        "to": "Matt.13.55",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.1.28",
+        "to": "Eph.1.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Acts.4.12",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mark.6.3",
+        "addressed": true,
+        "resolution": "The hearers list adelphoi and adelphai of Jesus by personal name. The lexeme adelphos has a primary biological-sibling sense but an attested wider kinship range in koine and LXX usage, so a reader weighting the wider range can hold the verse compatible with a perpetual virginity claim. The verse is addressed by acknowledging that the term has range, but noting that the gospels and Acts repeatedly choose adelphos rather than the available distinct words anepsios or sungenes when naming this group, which gives the biological reading the default position without strictly forbidding the wider reading."
+      },
+      {
+        "ref": "Luke.1.28",
+        "addressed": true,
+        "resolution": "The greeting kecharitomene is a perfect passive participle of charitoo, marking Mary as a recipient of bestowed grace that has present standing effect. The verb occurs only twice in the canon, here and Eph 1:6 where it describes grace bestowed on all believers, so the lexical pattern of charitoo is grace given to recipients rather than a metaphysical property predicated of the recipient. The term is resolved as describing bestowed favor, not a constitutional preservation from sin."
+      },
+      {
+        "ref": "Matt.1.25",
+        "addressed": true,
+        "resolution": "The clause ouk eginosken auten heos hou eteken uses heos hou with aorist indicative, a temporal limit construction whose default reading places a terminus at the birth. A minority koine usage of heos hou is non-implicative for the period after the limit, so the construction does not strictly force a change of state after the birth, but the default reading and the presence of prototokos in the same context together lean toward the denial of perpetual virginity."
+      },
+      {
+        "ref": "Luke.2.7",
+        "addressed": true,
+        "resolution": "Eteken ton huion autes ton prototokon, she bore her firstborn son. The substantive prototokos can mark first in a series, and elsewhere in the canon it carries the honorific sense of preeminent rank as at Col 1:15 and Heb 1:6. In a household narrative the natural reading of prototokos is first of more, but the honorific sense is lexically attested, so the term is contested rather than decisive on its own."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited verses lie outside the published CBGM scope, which presently covers the 3 John sample only, so variant assessment is shadow. No variant unit at 1Tim.2.5, Heb.7.25, Luke.1.47, Rom.3.23, Matt.1.25, Matt.13.55, Acts.1.14, Gal.1.19, or Acts.4.12 disturbs heis mesites, panteles, soter mou, pantes hemarton, heos hou, prototokos, adelphos, or onoma heteron."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "lexical_plain_reading_with_default_senses",
+        "verdict": "supports the denial as a whole, with one component contested",
+        "rationale": "Soter mou, pantes hemarton, heis mesites, panteles, pantote, and oude onoma heteron decisively support the redemption, sinlessness, and sole-mediation denials. For perpetual virginity, the default biological sense of adelphos and adelphe, the heos hou construction, prototokos, and the availability but non-use of anepsios and sungenes for the Jesus-household relatives together lean toward the denial without quite forcing it."
+      },
+      {
+        "framework": "wider_kinship_semantics_for_adelphos",
+        "verdict": "leaves the perpetual virginity component lexically open",
+        "rationale": "Adelphos has an attested wider kinship range in koine and LXX usage, heos hou is on a minority but real reading non-implicative for the period after its limit, and prototokos has an honorific sense of preeminent rank attested at Col 1:15 and Heb 1:6. A reader weighting these ranges can hold the perpetual virginity component undecided on the words alone."
+      },
+      {
+        "framework": "kecharitomene_as_constitutive_grace",
+        "verdict": "does not affect the canon-silence on bodily assumption or on the immaculate conception",
+        "rationale": "A reader can press the perfect passive participle kecharitomene for an enduring graced state, but charitoo also occurs at Eph 1:6 for grace bestowed on all believers, so the lexical pattern of charitoo is bestowal rather than metaphysical constitution. The canon supplies no verse at all narrating Mary's bodily assumption, so on that component the lexical evidence is silence, not contest."
+      }
+    ],
+    "notes": "The verdict rests on analogia scripturae, reading Luke 1:47 with Rom 3:23 and 1 Tim 2:5 with Heb 7:25 and Acts 4:12. The bundled stem mixes three components with strong lexical support, one component lexically silent, the canon nowhere reports Mary's bodily assumption, and one component genuinely contested on the semantic range of adelphos and the heos hou construction."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem is framed descriptively, stating that Mary is among the redeemed, was not preserved at conception, was not bodily assumed, and does not co-mediate. It asserts a position but does not smuggle a tradition-specific taxonomy or a conclusion-bearing definition, so it reads as a testable proposition rather than a preloaded one. The verdict is derived on the original wording."
+  },
+  "lay_summary": "This proposition rolls four separate claims about Mary into one statement, and the original-language words behind the cited verses do not speak to all four the same way. In Luke 1:47 Mary calls God soter mou, my savior, which puts her among the people who need to be saved rather than among those who do the saving. Romans 3:23 says pantes hemarton, all sinned, and that all fall short of the glory of God, using a word, all, that names no exception. First Timothy 2:5 says there is heis mesites, one mediator, between God and people, the man Christ Jesus, and the repeated word for one leaves no room for a second person who shares the mediating work. Hebrews 7:25 reinforces this, saying Christ saves panteles, completely, and always lives to intercede, so the saving and the interceding are full and ongoing in him alone. Acts 4:12 adds that there is no other name by which we must be saved. Together these texts press strongly against the ideas that Mary was sinless, that she was taken up by her own merit, and that she helps mediate redemption. The canon also nowhere narrates Mary being taken up bodily, so on that one the words are silent rather than divided. The fourth claim, about whether Mary remained ever virgin, depends on the word adelphos, brothers, in Mark 6:3, Matthew 13:55, Acts 1:14, and Galatians 1:19, plus the clause heos hou, until, in Matthew 1:25, and prototokos, firstborn, in Luke 2:7. The default sense of adelphos is a brother by birth, and koine Greek had a separate word for cousin, anepsios, attested at Colossians 4:10 but never used for the family of Jesus. That choice carries weight. Still, adelphos has a wider kin range in some texts, heos hou is on a minority reading non-implicative for what comes after, and prototokos can mark rank as well as birth order. So the words lean toward the denial of perpetual virginity but do not strictly force it. Since the statement asks for all four parts to be accepted together, and one part is genuinely contested on the words alone, the careful reading is that the bundle as a whole is disputed even though three of its parts are decisively supported.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4990"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3316"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0080"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0431"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5487"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4416"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.1.47"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.6.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.1.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.13.55"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.4.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.1.28"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.13.55"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

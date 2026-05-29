@@ -1,0 +1,614 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-civil-disobedience",
+  "question_id": "prc-civil-disobedience",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Rom 13:1 commands hypotassestho, a present passive imperative, of pasa psyche, every soul, and grounds the duty in ouk estin exousia ei me hypo theou, there is no authority except from God. Rom 13:2 then warns that ho antitassomenos te exousia, the one ranging himself against the authority, anthesteken te tou theou diatage, has set himself against the ordinance of God. Acts 5:29 supplies the limiting clause with the same root family: peitharchein dei theo mallon e anthropois, it is binding to obey God rather than men. Decisively, the very verb peitharcheo, G3980, is also the verb Paul uses in Titus 3:1 to command obedience to rulers, archais exousiais hypotassesthai peitharchein, so the canon uses ONE word in both directions and ranks them only by the comparative mallon e at the point of conflict. The OT defiance narratives, Exod 1, Dan 3, Dan 6, enact the same pattern: refuse the sinful command, accept the lawful penalty."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3980",
+        "lemma": "πειθαρχέω",
+        "transliteration": "peitharcheo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1849",
+        "lemma": "ἐξουσία",
+        "transliteration": "exousia",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0498",
+        "lemma": "ἀντιτάσσω",
+        "transliteration": "antitasso",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0436",
+        "lemma": "ἀνθίστημι",
+        "transliteration": "anthistemi",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1296",
+        "lemma": "διαταγή",
+        "transliteration": "diatage",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1163",
+        "lemma": "δεῖ",
+        "transliteration": "dei",
+        "occurrences_in_canon": 107,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3123",
+        "lemma": "μᾶλλον",
+        "transliteration": "mallon",
+        "occurrences_in_canon": 81,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G5293",
+      "G3980",
+      "G1849",
+      "G0498",
+      "G0436",
+      "G1296",
+      "G1163",
+      "G3123",
+      "G1249",
+      "G2316",
+      "G0444",
+      "G0758",
+      "G1558",
+      "G3709"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.13.1",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτασσέσθω"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσία"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεοῦ"
+          }
+        ],
+        "force": "The verb hypotassestho is third person singular present passive imperative of hypotasso, so the command is for every soul to keep being subject to the higher exousiai. The subject pasa psyche, every soul, leaves no class exempt. The grounding clause ouk estin exousia ei me hypo theou, there is no authority except from God, and the perfect passive participle tetagmenai, have been ordained, anchors every existing authority in God's own appointment. That grounding is the seed of the limiting clause: the duty is derivative, not absolute, because the office is God's, not its own.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.2",
+        "key_terms": [
+          {
+            "strong": "G0498",
+            "lemma": "ἀντιτασσόμενος"
+          },
+          {
+            "strong": "G1296",
+            "lemma": "διαταγῇ"
+          },
+          {
+            "strong": "G0436",
+            "lemma": "ἀνθέστηκεν"
+          }
+        ],
+        "force": "ho antitassomenos, present middle participle of antitassomai, names the one who ranges himself against the authority. The verb anthesteken is perfect of anthistemi, has come to stand against and now stands against, the diatage, ordinance, of God. The noun diatage, only twice in the NT, links the human institution back to a divine arrangement, so ordinary resistance is opposition to God's order, not merely to a magistrate. The verse condemns rejection of the office, which is consistent with refusing a specific sinful command without rejecting the office itself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.13.4",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεοῦ"
+          },
+          {
+            "strong": "G1558",
+            "lemma": "ἔκδικος"
+          }
+        ],
+        "force": "The ruler is named theou diakonos, God's servant, twice within one verse, and ekdikos eis orgen, an avenger for wrath, on the wrongdoer. The lexical chain is repeated and emphatic: the authority is functional, instrumental, and accountable to the God whose servant it is. That servant framing is the hinge that allows the higher claim of God to override a lower claim of his servant when they diverge, without rejecting the institution itself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.5.29",
+        "key_terms": [
+          {
+            "strong": "G3980",
+            "lemma": "πειθαρχεῖν"
+          },
+          {
+            "strong": "G1163",
+            "lemma": "δεῖ"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεῷ"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἀνθρώποις"
+          },
+          {
+            "strong": "G3123",
+            "lemma": "μᾶλλον"
+          }
+        ],
+        "force": "peitharchein dei theo mallon e anthropois, it is binding to obey God rather than men. peitharcheo, G3980, is the verb for obedience to one in authority and occurs only four times in the NT. The impersonal dei marks divine necessity. The comparative mallon e, rather than, names a ranking, not a rejection. The construction does not deny that men have any claim, it ranks God's claim above the human claim precisely at the point of conflict. This is a comparative limit on the human claim, not its abolition.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.19",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεοῦ"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούειν"
+          },
+          {
+            "strong": "G3123",
+            "lemma": "μᾶλλον"
+          }
+        ],
+        "force": "ei dikaion estin enopion tou theou hymon akouein mallon e tou theou, whether it is right before God to listen to you rather than to God, frames the same mallon e choice as a question of righteousness before God one chapter before Acts 5:29 states it as a maxim. The two passages set up a fixed apostolic pattern, not a one-off exception.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Tit.3.1",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσεσθαι"
+          },
+          {
+            "strong": "G3980",
+            "lemma": "πειθαρχεῖν"
+          },
+          {
+            "strong": "G1849",
+            "lemma": "ἐξουσίαις"
+          },
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχαῖς"
+          }
+        ],
+        "force": "Paul stacks the two key verbs of this whole question side by side: archais exousiais hypotassesthai peitharchein, to be subject to rulers and authorities, to be obedient. The verb peitharchein here, G3980, is the SAME verb the apostles use in Acts 5:29 toward God. The canon therefore uses one word in both directions, and so the question is not whether to obey men, the answer is yes, but how to rank that obedience when a particular human command conflicts with God's. The vocabulary itself is the bridge between Rom 13 and Acts 5:29.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.13",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "Ὑποτάγητε"
+          },
+          {
+            "strong": "G2962",
+            "lemma": "κύριον"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάσῃ"
+          }
+        ],
+        "force": "Hypotagete pase anthropine ktisei dia ton kyrion, be subject to every human institution for the Lord's sake. The aorist passive imperative of hypotasso is paired with dia ton kyrion, naming the Lord as the reason for the subjection, which mirrors Rom 13's hypo theou grounding. The duty is owed for the Lord's sake, and that framing again caps the duty at the Lord himself when the two claims would diverge.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.17",
+        "key_terms": [
+          {
+            "strong": "G5091",
+            "lemma": "τιμήσατε"
+          },
+          {
+            "strong": "G5399",
+            "lemma": "φοβεῖσθε"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεὸν"
+          },
+          {
+            "strong": "G0935",
+            "lemma": "βασιλέα"
+          }
+        ],
+        "force": "ton theon phobeisthe, ton basilea timate, fear God, honor the king. The verbs are deliberately different, phobeo for God and timao for the king, and they are not interchangeable in the verse. The king receives time, honor, the same word Paul uses in Rom 13:7. God alone receives phobos in the loaded sense. The lexical asymmetry inside one sentence is the OT and apostolic pattern in miniature: real obedience to civil authority, but reserved fear, the deepest loyalty, for God.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.1.17",
+        "key_terms": [
+          {
+            "strong": "H3372",
+            "lemma": "יִרְאֶ֖יןָ"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִ֑ים"
+          }
+        ],
+        "force": "The Hebrew midwives wattirena hammeyalledot et haelohim, the midwives feared God, and so did not act as the king of Egypt spoke to them, welo asu kaasher dibber. The verb fear, yare with elohim as object, names the loyalty that overrules the king's word. The narrator then records that God blessed them and built them houses. The text approves the act lexically by attaching divine reward, not merely by reporting the refusal.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Dan.3.18",
+        "key_terms": [
+          {
+            "strong": "H0426",
+            "lemma": "אֱלָהָנָ֤א"
+          },
+          {
+            "strong": "H6680",
+            "lemma": "פָלְחִ֖ין"
+          }
+        ],
+        "force": "The three answer that even if their God whom they serve does not deliver them, they will not serve the king's gods or worship the gold image. The verb palach, to serve, religiously, is the very verb the decree commanded for the image, so they refuse the religious act of submission while accepting the furnace as a civil penalty. The text combines refusal of the sinful command with acceptance of the lawful punishment, which is the exact contour of the proposition.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Dan.6.10",
+        "key_terms": [
+          {
+            "strong": "H6739",
+            "lemma": "מְצַלֵּ֤א"
+          },
+          {
+            "strong": "H0426",
+            "lemma": "אֱלָהֵ֔הּ"
+          }
+        ],
+        "force": "Daniel continues praying toward Jerusalem three times a day kal qabel di hawah abed min qadmat denah, as he had been doing before. The decree forbade petition to any but the king. Daniel preserves the prior commanded act of worship and accepts the lions' den as the civil penalty. The text emphasizes the continuation of the previous practice, marking the issue as a forbidden act of commanded obedience, exactly the second half of the proposition.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.11.23",
+        "key_terms": [
+          {
+            "strong": "G5399",
+            "lemma": "φοβηθέντες"
+          },
+          {
+            "strong": "G1297",
+            "lemma": "διάταγμα"
+          }
+        ],
+        "force": "Moses' parents hid him three months me phobethentes to diatagma tou basileos, not fearing the king's edict. The cognate of diatage from Rom 13:2 appears here as diatagma, edict, and the action of disobeying it is recorded by faith, en pistei, in the roll call. The same noun family that grounds the duty of submission also names the kind of edict that may rightly be refused when it commands the killing of an innocent child.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.5.29",
+        "to": "Acts.4.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "1Sam.2.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "Deut.17.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.4",
+        "to": "Rom.12.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.7",
+        "to": "Exod.20.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.5",
+        "to": "1Sam.24.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.29",
+        "to": "Tit.3.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.13.1",
+        "to": "1Pet.2.13",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.13.1",
+        "addressed": true,
+        "resolution": "The unqualified pasa psyche hypotassestho could be read as absolute, unconditional obedience, which would contradict Acts 5:29 and the OT defiance narratives. The grounding clause resolves it lexically: subjection is owed because the authority is hypo theou tetagmene, ordained by God, so the duty cannot extend to commands that set the creature against the God who ordained the office. The norm is general, not absolute, by the very logic the clause itself supplies."
+      },
+      {
+        "ref": "Rom.13.2",
+        "addressed": true,
+        "resolution": "antitassomenos opposing the diatage of God appears to condemn all non-compliance. But the object antitassomai te exousia takes is the standing authority and the divine ordinance of authority, not a particular sinful command of a magistrate. Refusing a specific command to sin is not opposing God's ordinance, it is honoring the God whose servant the authority is, as Acts 5:29, Titus 3:1 with peitharchein used both ways, and the Daniel narratives demonstrate."
+      },
+      {
+        "ref": "1Pet.2.13",
+        "addressed": true,
+        "resolution": "Hypotagete pase anthropine ktisei dia ton kyrion appears to ground subjection without limit. But the prepositional phrase dia ton kyrion, for the Lord's sake, caps the duty at the Lord himself. A subjection done dia ton kyrion cannot extend to an act that the kyrios forbids, as 1 Pet 2:17's contrast between phobeo for God and timao for the king inside the same paragraph confirms."
+      },
+      {
+        "ref": "1Sam.24.5",
+        "addressed": true,
+        "resolution": "David's stricken conscience for cutting Saul's robe shows restraint toward the Lord's anointed even when wronged, and could be pressed toward absolute passivity under unjust rulers. The text limits private vengeance and armed rebellion against the office, not the refusal to personally commit a sin commanded by the office, so it coheres with the proposition's narrow exception rather than overturning it."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units in the bundle bear on the verdict. The Rom 13:1 apparatus marks word-order and the hypo theou reading, but every attested reading still grounds the authorities in God. Acts 5:29 peitharchein dei theo mallon is textually stable across NA27, NA28, SBL, WH, Treg, TR, Byz, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "absolute-subjection reading of Rom 13",
+        "verdict": "partial",
+        "rationale": "Read in isolation, hypotassestho and antitassomenos look unconditional, and on that lens the apostles in Acts 5:29 should have complied with the sanhedrin. The lens has real lexical purchase on the unqualified universal pasa psyche, every soul, and on the warning that resisters incur krima. But it cannot account for dei theo mallon e anthropois in Acts 5:29, for Heb 11:23's praise of Moses' parents for not fearing the king's diatagma, or for Dan 3 and Dan 6 commending refusal. Analogia scripturae corrects it to a general norm with a God-priority limit."
+      },
+      {
+        "framework": "harmonized norm-with-exception reading",
+        "verdict": "affirms",
+        "rationale": "Treating Rom 13 and 1 Pet 2:13-17 as the default duty and Acts 4:19, 5:29, and the OT defiance narratives as the limiting clause where the two commands conflict integrates every cited text. The lexical bridge is Titus 3:1, which uses peitharchein, G3980, of human rulers and Acts 5:29 which uses the same verb of God: the canon uses one word in both directions, and only the comparative mallon e ranks them at the conflict point."
+      },
+      {
+        "framework": "anarchist or political-quietist reading",
+        "verdict": "denies",
+        "rationale": "A reader could press Acts 5:29 and the defiance narratives to deny any positive duty to civil authority, treating Rom 13 as concession to weak conscience. The lens is real but does not survive the lexical data: Rom 13:1 grounds the authorities in God, Rom 13:4 calls the magistrate theou diakonos twice, 1 Pet 2:13-14 commands subjection dia ton kyrion, and Titus 3:1 stacks hypotassesthai with peitharchein toward archais exousiais. The duty is positive, not concessive."
+      }
+    ],
+    "notes": "The verdict rests on reading the Romans and 1 Peter commands together with the Acts maxim, not pitting them against each other. The lexical hinge is repeatedly grounding the authority in God, hypo theou, diatage theou, theou diakonos, dia ton kyrion, so a higher claim of God can override a lower claim of his servant without contradicting the institution itself. The use of the SAME verb peitharcheo, G3980, toward both God and rulers in the canon is the decisive cross-link."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition is balanced and tradition-neutral. It states the default duty of subjection AND the limiting condition, laws commanding sin or forbidding commanded obedience, in descriptive terms rather than smuggling a verdict into the stem. The verdict is derived on the original stem from the lexical evidence."
+  },
+  "lay_summary": "The question asks whether Christians must obey civil rulers as God's servants AND must obey God instead when a human law commands sin or forbids something God commands. The lexical evidence is unusually clean. In Romans 13:1 the present passive imperative hypotassestho commands every soul, pasa psyche, to keep being subject to the higher authorities, and Paul grounds this in a clause that says there is no authority except from God and that existing authorities have been ordained, tetagmenai, by God. The ruler is then named theou diakonos, God's servant, twice in one verse. Subjection is therefore the standing rule, and ranging oneself against the office is set against God's own arrangement. In Acts 5:29 the apostles answer with a fixed maxim, peitharchein dei theo mallon e anthropois, it is binding to obey God rather than men. The impersonal dei signals divine necessity, and the comparative mallon e, rather than, ranks the two obligations only at the point where they collide. The cleanest single proof that the canon means what the proposition says is this: the verb peitharcheo, Strong G3980, occurs only four times in the New Testament, and Paul uses it in Titus 3:1 to command obedience to archais exousiais, to rulers and authorities, while the apostles use the same verb in Acts 5:29 toward God. The canon uses one word in both directions and ranks them only by mallon e at the conflict point. 1 Peter 2:13-17 ties the same knot, hypotagete pase anthropine ktisei dia ton kyrion, be subject for the Lord's sake, then phobeisthe ton theon, timate ton basilea, fear God, honor the king, using different verbs for each. The OT defiance narratives act it out: the Hebrew midwives feared God and the text rewards them, the three refuse the image and accept the furnace, Daniel keeps praying and accepts the lions' den, and Heb 11:23 praises Moses' parents for not fearing the king's diatagma. In every case the believer submits to the lawful penalty while refusing the sinful command. The lexical pattern supports both halves of the proposition, default subjection plus a God-priority limit, with high confidence across narrative, law, and epistle, and the same root family carries the duty both ways.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.13.2"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.5.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Tit.3.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3980"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0498"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1296"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3123"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3372"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.5.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.13.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

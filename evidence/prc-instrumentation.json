@@ -1,0 +1,711 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-instrumentation",
+  "question_id": "prc-instrumentation",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The Hebrew worship corpus repeatedly commands physical instruments and Psalm 150 enumerates the shofar, kinnor (lyre), nevel (harp), toph (timbrel), minim (strings), ugab (pipe), and cymbals as the proper apparatus of praise, so any absolute lexical prohibition of instruments collapses against the canon. The Greek assembly texts Eph 5:19 and Col 3:16 use the verbs laleo, ado, and psallo with the dative locative en te kardia, making melody in the heart, and name psalmos, hymnos, ode without naming any physical instrument, while Jas 5:13 commands psallo for the cheerful with no heart phrase and no instrument either. Against that, kithara (G2788) appears positively four times in the NT, three in heavenly worship scenes (Rev 5:8, 14:2, 15:2) and once as Pauline analogy (1 Cor 14:7), and 1 Cor 14:26 lets each bring a psalmos to the assembly. Because the words neither command instruments for the gathered church nor forbid them, and the heart locative in Eph 5:19 is grammatically ambiguous between sincere mode and inward medium, the proposition that instrumentation is a free choice is one defensible reading the lexicon allows, but not the only one, so the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5567",
+        "lemma": "ψάλλω",
+        "transliteration": "psallo",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5603",
+        "lemma": "ᾠδή",
+        "transliteration": "ode",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5215",
+        "lemma": "ὕμνος",
+        "transliteration": "hymnos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0103",
+        "lemma": "ᾄδω",
+        "transliteration": "ado",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2980",
+        "lemma": "λαλέω",
+        "transliteration": "laleo",
+        "occurrences_in_canon": 308,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4152",
+        "lemma": "πνευματικός",
+        "transliteration": "pneumatikos",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2788",
+        "lemma": "κιθάρα",
+        "transliteration": "kithara",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2789",
+        "lemma": "κιθαρίζω",
+        "transliteration": "kitharizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2167",
+        "lemma": "זָמַר",
+        "transliteration": "zamar",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "H3658",
+        "lemma": "כִּנּוֹר",
+        "transliteration": "kinnor",
+        "occurrences_in_canon": 37,
+        "in_anchors": false
+      },
+      {
+        "strong": "H5035B",
+        "lemma": "נֵבֶל",
+        "transliteration": "nevel",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7782",
+        "lemma": "שֹׁופָר",
+        "transliteration": "shofar",
+        "occurrences_in_canon": 68,
+        "in_anchors": false
+      },
+      {
+        "strong": "H8596",
+        "lemma": "תֹּף",
+        "transliteration": "toph",
+        "occurrences_in_canon": 16,
+        "in_anchors": false
+      },
+      {
+        "strong": "H4700",
+        "lemma": "מְצֵלֶת",
+        "transliteration": "metzeltayim",
+        "occurrences_in_canon": 13,
+        "in_anchors": false
+      },
+      {
+        "strong": "H5748",
+        "lemma": "עוּגָב",
+        "transliteration": "ugab",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G5567",
+      "G5568",
+      "G5603",
+      "G5215",
+      "G0103",
+      "G2980",
+      "G2588",
+      "G4152",
+      "G2788",
+      "G2789",
+      "H2167",
+      "H3658",
+      "H5035B",
+      "H7782",
+      "H8596",
+      "H4700",
+      "H5748",
+      "H8629",
+      "H8643",
+      "H1984B"
+    ],
+    "scripture": [
+      {
+        "ref": "Ps.150.3",
+        "key_terms": [
+          {
+            "strong": "H8629",
+            "lemma": "תֵּקַע"
+          },
+          {
+            "strong": "H7782",
+            "lemma": "שֹׁופָר"
+          },
+          {
+            "strong": "H3658",
+            "lemma": "כִּנּוֹר"
+          },
+          {
+            "strong": "H5035B",
+            "lemma": "נֵבֶל"
+          }
+        ],
+        "force": "Praise him with the blast of the shofar, praise him with the nevel and the kinnor. The verse pairs the imperative hallelu with named physical instruments, and verses 4 and 5 add toph (timbrel), minim (strings), ugab (pipe), and metzeltayim (cymbals). The grammar places instruments inside the act of praise as command, which forecloses any reading that the canon as a whole forbids instruments.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.33.2",
+        "key_terms": [
+          {
+            "strong": "H2167",
+            "lemma": "זָמַר"
+          },
+          {
+            "strong": "H3658",
+            "lemma": "כִּנּוֹר"
+          },
+          {
+            "strong": "H5035B",
+            "lemma": "נֵבֶל"
+          }
+        ],
+        "force": "Give thanks to YHWH with the kinnor, with the nevel of ten strings make melody (zamar) to him. The instrumental command pairs the verb zamar (the Hebrew cognate behind LXX psallo) with named stringed instruments, showing that in the worship vocabulary making melody and physical instruments coincide rather than oppose.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.149.3",
+        "key_terms": [
+          {
+            "strong": "H1984B",
+            "lemma": "הָלַל"
+          },
+          {
+            "strong": "H8596",
+            "lemma": "תֹּף"
+          },
+          {
+            "strong": "H3658",
+            "lemma": "כִּנּוֹר"
+          },
+          {
+            "strong": "H2167",
+            "lemma": "זָמַר"
+          }
+        ],
+        "force": "Let them praise his name with dancing, with toph and kinnor let them make melody to him. The same imperative hallelu controls both bodily and instrumental acts of praise, integrating instruments inside the corporate worship vocabulary of Israel.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.19",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G5215",
+            "lemma": "ὕμνος"
+          },
+          {
+            "strong": "G5603",
+            "lemma": "ᾠδή"
+          }
+        ],
+        "force": "Speaking to one another (laloumtes heautois) in psalms and hymns and spiritual songs, singing and making melody (ado and psallo) to the Lord in your heart (te kardia hymon). The verb psallo carries the etymological sense of plucking a string but in koine usage glosses simply as sing praise. The dative te kardia is grammatically ambiguous between mode (sincere singing) and locus (inward medium). The verse names no physical instrument and neither commands nor prohibits one, leaving the instrumental question lexically open.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.16",
+        "key_terms": [
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G0103",
+            "lemma": "ᾄδω"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          }
+        ],
+        "force": "Teaching and admonishing one another in psalms, hymns, and spiritual songs, singing with grace (en chariti) in your hearts (en tais kardiais hymon) to God. The parallel to Eph 5:19 again specifies singing and a heart locus without naming or forbidding instruments, and the en chariti phrase reinforces that the dative phrases describe disposition. The lexical data does not settle the practice either way.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.13",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          },
+          {
+            "strong": "G2114",
+            "lemma": "εὐθυμέω"
+          }
+        ],
+        "force": "Is anyone cheerful? Let him sing praise (psalleto). The verb stands alone without any kardia phrase, without any named instrument, and without any prohibition. It shows that by the apostolic period psallo is a stand-alone verb for the act of praising, which is what makes Eph 5:19 ambiguous: the verb does not by itself carry an instrument or its absence.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.15",
+        "key_terms": [
+          {
+            "strong": "G5567",
+            "lemma": "ψάλλω"
+          },
+          {
+            "strong": "G4336",
+            "lemma": "προσεύχομαι"
+          },
+          {
+            "strong": "G3563",
+            "lemma": "νοῦς"
+          }
+        ],
+        "force": "I will pray (proseuxomai) with the spirit and pray with the mind (to noi), I will sing (psallo) with the spirit and sing with the mind. Paul pairs psallo with proseuchomai and with the dual mode of pneuma and nous in the assembly, treating psallo as a regular verbal act of the gathered congregation alongside prayer. It is silent on whether an instrument accompanies the verb.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.14.7",
+        "key_terms": [
+          {
+            "strong": "G0836",
+            "lemma": "αὐλός"
+          },
+          {
+            "strong": "G2788",
+            "lemma": "κιθάρα"
+          },
+          {
+            "strong": "G2789",
+            "lemma": "κιθαρίζω"
+          }
+        ],
+        "force": "Lifeless instruments (apsuxa), whether aulos (pipe) or kithara (harp), if they do not give distinction in tones, how will it be known what is piped or harped (kitharizetai)? Paul deploys the pipe and harp as a positive analogy for intelligibility in spiritual gifts, with no hint of disapproval of the instruments themselves. The matter-of-fact use complicates a reading that NT worship vocabulary categorically excludes physical instruments.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.8",
+        "key_terms": [
+          {
+            "strong": "G2788",
+            "lemma": "κιθάρα"
+          },
+          {
+            "strong": "G2368",
+            "lemma": "θυμίαμα"
+          }
+        ],
+        "force": "The twenty-four elders fell before the Lamb, each holding a kithara (harp) and golden bowls of incense which are the prayers of the saints. The kithara appears in the depicted heavenly worship of Christ alongside prayer-incense. The image is symbolic but the symbol is drawn from positive instrumental worship vocabulary, which a regulative reader must absorb rather than dismiss.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.15.2",
+        "key_terms": [
+          {
+            "strong": "G2788",
+            "lemma": "κιθάρα"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Those who had conquered the beast stood on the sea of glass holding kitharas tou theou, harps of God, and they sang the song (oden) of Moses and of the Lamb. The construct kitharas tou theou identifies the harp as a divine-provenance instrument of consummated worship, which weighs against any blanket lexical hostility to instruments in the renewed economy.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.92.3",
+        "key_terms": [
+          {
+            "strong": "H5035B",
+            "lemma": "נֵבֶל"
+          },
+          {
+            "strong": "H3658",
+            "lemma": "כִּנּוֹר"
+          }
+        ],
+        "force": "To the music of the lute and the harp, to the melody of the lyre. The naming of multiple instruments in a Sabbath song (the superscription mizmor shir leyom ha-shabbat) confirms that the Hebrew worship pattern integrates instruments rather than treating them as forbidden, which complicates any blanket a cappella mandate.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Chr.5.13",
+        "key_terms": [
+          {
+            "strong": "H2689",
+            "lemma": "חֲצֹצְרָה"
+          },
+          {
+            "strong": "H4700",
+            "lemma": "מְצֵלֶת"
+          },
+          {
+            "strong": "H7892A",
+            "lemma": "שִׁיר"
+          }
+        ],
+        "force": "When the trumpeters and singers were as one to make one sound for praising and giving thanks to YHWH, and lifted up the voice with chatsotseroth (trumpets), metzeltayim (cymbals), and instruments of song, the house was filled with the cloud of glory. The temple dedication explicitly fuses vocal and instrumental praise as the cause of the manifest glory, which a regulative-principle reading must explain as ceremonial-shadow before applying NT silence as restriction.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.47.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.19",
+        "to": "Ps.95.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.16",
+        "to": "Eph.5.19",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.8",
+        "to": "Rev.15.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.14.7",
+        "to": "1Cor.14.8",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Eph.5.19",
+        "addressed": true,
+        "resolution": "The dative phrase en te kardia hymon, in your heart, and the verb psallo whose root sense is to pluck a string, are read by one lexical school as relocating the instrument to the heart, implying that physical instruments are superseded in the assembly. The competing reading treats en te kardia as describing inward sincerity, not the medium, parallel to en chariti in Col 3:16. The morphology alone cannot adjudicate between mode and locus datives here, which is why the verdict is disputed rather than affirmed or denied. Jas 5:13 shows psallo can stand alone without the kardia phrase, so the verb does not by itself encode either an internal or an external instrument."
+      },
+      {
+        "ref": "Amos.5.23",
+        "addressed": true,
+        "resolution": "Take away from me the noise (hamon) of your songs (shirekha), to the melody (zimrat) of your nevalim (harps) I will not listen. The rejection targets hollow worship divorced from justice, since the same prophetic corpus (Amos 6:5) refers to David's invention of instruments and the broader canon assumes instrumental praise. The lexical force is against hypocrisy rather than the medium, so it does not establish a prohibition."
+      },
+      {
+        "ref": "1Cor.14.7",
+        "addressed": true,
+        "resolution": "Paul names aulos and kithara as positive analogies for intelligible spiritual gifts without any hint of disapproval of the instruments themselves. A regulative-principle reading must treat this as illustrative rather than prescriptive for the assembly, which is a coherent move but it does require explaining why Paul's natural reach for these instruments in argument did not extend to using them. The lexicon alone does not foreclose either reading."
+      },
+      {
+        "ref": "Rev.5.8",
+        "addressed": true,
+        "resolution": "The kithara appears in a vision of heavenly worship. One reading treats the harps as literal-and-fitting in consummated worship, so instruments belong to the renewed economy and a fortiori to the present church. Another treats the harps as symbol drawn from Hebrew temple imagery, just as the bowls of incense in the same verse are symbol for prayer. The vision is symbolic, but the choice of symbol presupposes that instrumental worship is a positive image, not a negative one, which weighs against a categorical lexical hostility to instruments."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "Eph 5:19 has minor readings (the apparatus marks psallontes and heautois) but none of the attested variants add or remove an instrument term, so the instrumental question is untouched by the textual transmission. The anchor verses are outside the published ECM scope (3 John)."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "regulative_principle",
+      "normative_principle",
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "regulative_principle",
+        "verdict": "leans against binding instruments in the gathered assembly",
+        "rationale": "Reads the NT assembly texts as the prescriptive pattern. The NT names no physical instrument when describing the gathered church (Eph 5:19, Col 3:16, 1 Cor 14:26, Heb 13:15 with karpon cheilon, fruit of lips), and Eph 5:19 locates the melody en te kardia. The OT instruments belonged to temple worship, which is ceremonial-shadow fulfilled in Christ (Heb 8 to 10). What is not commanded for the new-covenant assembly is not required and is plausibly excluded. Rev 5:8 and 15:2 are read as apocalyptic symbol borrowing temple-era vocabulary, not prescription for the church."
+      },
+      {
+        "framework": "normative_principle",
+        "verdict": "leans toward liberty in the gathered assembly",
+        "rationale": "Reads the canon as permitting what is not forbidden. The OT instrumental commands are explicit, the NT neither commands nor forbids physical instruments in the assembly, and Paul's matter-of-fact use of aulos and kithara as analogy in 1 Cor 14:7 plus the heavenly harps of Rev 5:8 and 15:2 show no inherited hostility. The dative en te kardia is read as mode (sincere singing) parallel to en chariti in Col 3:16, not locus that displaces a physical instrument. Therefore instrumentation is free."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "varies by sub-school",
+        "rationale": "Some covenantal readings tie temple instruments to the ceremonial shadow now fulfilled in Christ, inferring discontinuity. Others see continuity of praise practice from Israel into the church. The lexical data alone does not select between these sub-schools, because nothing in the words ranks the canonical patterns against each other."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "leans toward liberty",
+        "rationale": "Treats the assembly as a distinct economy from temple Israel and from the millennial kingdom. Since the NT neither commands nor forbids instruments for the church-age assembly, the question falls into the realm of Christian liberty. Rev 5:8 and 15:2 are read as describing a different economy and so do not directly govern present assembly practice either way."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "leans toward liberty",
+        "rationale": "Holds that NT assembly practice is governed by NT precept and apostolic example. The NT does not name instruments in the gathered church but does name them positively elsewhere (1 Cor 14:7, Rev 5:8, 15:2), and the silence is read as openness not exclusion, so the practice is free."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal arc from temple worship in the Psalms and Chronicles to assembly worship in the Pauline letters, which is why redemptive-historical is the primary method. The lexical layer establishes the data on both sides (dense OT instrumental commands, NT assembly texts silent on instruments but using the heart locative, NT non-assembly texts naming instruments positively) but the words alone cannot rank the canonical patterns against each other."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the canon teach about whether musical instruments are commanded, permitted, or forbidden in corporate worship.",
+    "notes": "The stem frames instrumentation as a matter of Christian liberty and not binding on others, which presupposes the normative-principle outcome and embeds the verdict. The neutralized form asks the open question. The verdict was derived against the original stem and found disputed because the lexical data supports neither a binding command nor a binding prohibition for the gathered NT assembly."
+  },
+  "lay_summary": "The question asks whether using musical instruments in worship is a free choice rather than something the Bible commands or bans. The word study points in two directions. In the Hebrew songbook, instruments are everywhere and openly commanded. Psalm 150 names the shofar, kinnor (lyre), nevel (harp), toph (timbrel), strings, ugab (pipe), and cymbals, and other psalms pair the verb for making melody (zamar) with named stringed instruments. The temple dedication in 2 Chronicles 5 fuses trumpets, cymbals, and singers as the cause of the manifest glory. So the whole Bible cannot be read as forbidding instruments outright. When we move to the Greek letters that describe gathered worship, the picture changes. Ephesians 5:19 and Colossians 3:16 tell believers to speak to one another with psalms, hymns, and spiritual songs, singing and making melody to the Lord in the heart. These verses name no physical instrument, and they locate the melody in the heart. The key Greek verb psallo once meant to pluck a string, but by the time of James 5:13 it stands alone for the act of praising with no instrument and no heart phrase. Here is the unresolved part. One reading says the phrase in your heart moves the instrument inward, so physical instruments are no longer the point in the assembly. The other reading says in your heart only means sincere singing, parallel to with grace in Colossians 3:16, and since instruments are neither named nor banned in the assembly, they remain a free choice. The grammar by itself does not decide between these two readings of the dative. Outside the assembly texts the NT uses instruments positively: Paul uses pipe and harp as analogy in 1 Corinthians 14:7, and Revelation 5:8 and 15:2 picture heavenly worship with harps of God. A regulative reader treats these as ceremonial-shadow or apocalyptic symbol; a normative reader treats them as evidence of unbroken positive vocabulary. The Old Testament rejection of harp music in Amos 5:23 targets empty worship, not instruments as such. Because the canon neither commands instruments for the gathered church nor forbids them, and because the silence in the letters can be read more than one way, the lexical evidence is genuinely contested. The proposition that instrumentation is a free choice is one defensible reading, but it is not the only one the words allow, so the data are recorded as disputed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5567"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2788"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.14.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.5.8"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2167"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5035B"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.150.3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.33.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Col.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.149.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rev.5.8"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.5.19"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.150.3"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations of MACULA-Greek (Eph 5:19 syntactic analysis) and MACULA-Hebrew (Ps 150:3 clause structure) carry the CC-BY-NC-4.0 license, which prohibits commercial redistribution, so the bundled evidence cannot be published for redistribution as a whole."
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent"
+  ]
+}

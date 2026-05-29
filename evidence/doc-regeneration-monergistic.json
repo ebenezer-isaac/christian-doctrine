@@ -1,0 +1,657 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-regeneration-monergistic",
+  "question_id": "doc-regeneration-monergistic",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across the anchor texts the grammar makes God or the Spirit the sole acting agent of the new birth and the person the recipient. The verb gennao stands in the passive throughout John 3 (gennethe, aorist passive subjunctive, and gegennemenon, perfect passive participle), in John 1:13 (egennethesan, aorist passive indicative) and in 1 John (gegennetai, perfect passive indicative), and John 1:13 negates three human sources of the birth in a row (not of bloods, nor of the will of the flesh, nor of the will of a man) before the single positive ek theou. Where the verb is active the subject is God (synezoopoiesen in Eph 2:5 of those who were dead, esosen in Titus 3:5 after denying works we did, anagennesas in 1 Pet 1:3, and bouletheis apekuesen in James 1:18). Ezekiel 36 stacks first person divine verbs (natan, sur, asah, all 1cs) ahead of the second person human response verbs. The agency claim is therefore lexically decisive. The stricter sub-claim that the new birth is logically prior to and the cause of faith is a defensible inference from the enabling language of John 6:65 (no one is able to come unless it has been given), but the words state dependence rather than an explicit ordo, so overall confidence is medium rather than high."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 97,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0509",
+        "lemma": "ἄνωθεν",
+        "transliteration": "anothen",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3498",
+        "lemma": "νεκρός",
+        "transliteration": "nekros",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2227",
+        "lemma": "ζῳοποιέω",
+        "transliteration": "zoopoieo",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4806",
+        "lemma": "συζωοποιέω",
+        "transliteration": "synzoopoieo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3824",
+        "lemma": "παλιγγενεσία",
+        "transliteration": "paliggenesia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0313",
+        "lemma": "ἀναγεννάω",
+        "transliteration": "anagennao",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0616",
+        "lemma": "ἀποκυέω",
+        "transliteration": "apokueo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2307",
+        "lemma": "θέλημα",
+        "transliteration": "thelema",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5414",
+        "lemma": "נָתַן",
+        "transliteration": "natan",
+        "occurrences_in_canon": 2014,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7307",
+        "lemma": "רוּחַ",
+        "transliteration": "ruach",
+        "occurrences_in_canon": 378,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5493",
+        "lemma": "סוּר",
+        "transliteration": "sur",
+        "occurrences_in_canon": 298,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3820",
+        "lemma": "לֵב",
+        "transliteration": "lev",
+        "occurrences_in_canon": 598,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1656",
+        "lemma": "ἔλεος",
+        "transliteration": "eleos",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1080",
+      "G0509",
+      "G4151",
+      "G1410",
+      "G3498",
+      "G2227",
+      "G4806",
+      "G3824",
+      "G0313",
+      "G0616",
+      "G1014",
+      "G2307",
+      "G3762",
+      "H5414",
+      "H7307",
+      "H5493",
+      "H3820",
+      "G1656"
+    ],
+    "scripture": [
+      {
+        "ref": "John.3.3",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεννηθῇ"
+          },
+          {
+            "strong": "G0509",
+            "lemma": "ἄνωθεν"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναται"
+          }
+        ],
+        "force": "The verb gennethe parses as aorist passive subjunctive (third singular), so the person is born, not the one who does the birthing, and the adverb anothen (from above, or again) marks the source as upper, not human. The negated dynatai (cannot see the kingdom of God) makes entry depend on undergoing the birth. The grammatical subject of the begetting is left open and the surrounding discourse supplies the Spirit.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.6",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεγεννημένον"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεύματος"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σαρκὸς"
+          }
+        ],
+        "force": "Twice gegennemenon stands as a perfect passive participle (that which has been born), once ek tes sarkos and once ek tou pneumatos, so flesh begets flesh and Spirit begets spirit. The perfect passive frames the begotten as the settled result of an action done to it, and the two ek phrases keep the originating source outside the one born.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.8",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "γεγεννημένος"
+          }
+        ],
+        "force": "The wind or Spirit pneuma blows hopou thelei, where it wills (third singular present active of thelo), and the perfect passive participle gegennemenos describes everyone born of the Spirit. The willing belongs to the Spirit and the person is the patient, an analogy of an origin that is real but not at human disposal.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.63",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμά"
+          },
+          {
+            "strong": "G2227",
+            "lemma": "ζῳοποιοῦν"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σὰρξ"
+          }
+        ],
+        "force": "The Spirit is the one that gives life (zoopoioun, present active participle) and the flesh profits nothing (ouden). Life-giving is assigned to the Spirit and explicitly denied to the sphere of the flesh, locating the source of spiritual life outside human capacity.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.65",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδεὶς"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναται"
+          },
+          {
+            "strong": "G1437",
+            "lemma": "ἐὰν"
+          }
+        ],
+        "force": "No one (oudeis) is able (dynatai) to come to me unless (ean me) it has been given (dedomenon, perfect passive participle of didomi) to him from the Father. The negated capacity plus the conditional perfect-passive gift places the enabling act prior to and as the ground of the coming, which is the lexical basis for the priority sub-claim.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.36.26",
+        "key_terms": [
+          {
+            "strong": "H5414",
+            "lemma": "וְנָתַתִּי"
+          },
+          {
+            "strong": "H3820",
+            "lemma": "לֵב"
+          },
+          {
+            "strong": "H5493",
+            "lemma": "וַהֲסִרֹתִי"
+          }
+        ],
+        "force": "A chain of first person verbs governs the verse. Natan stands as first common singular (I will give a new heart and a new spirit) and sur as a Hiphil first common singular (I will remove the heart of stone). Yahweh is the only subject of the transforming verbs and the people are the recipients, with no human verb of contribution in the giving.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.36.27",
+        "key_terms": [
+          {
+            "strong": "H7307",
+            "lemma": "רוּחִי"
+          },
+          {
+            "strong": "H5414",
+            "lemma": "אֶתֵּן"
+          }
+        ],
+        "force": "I will put my Spirit (ruach, first common singular natan) within you and I will bring it about (asah, first common singular) that you walk in my statutes. The divine first person verbs come first and the human response verbs that follow (you will keep, you will walk, you will do) are all second person, so the morphology itself orders cause before effect.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.5",
+        "key_terms": [
+          {
+            "strong": "G3498",
+            "lemma": "νεκροὺς"
+          },
+          {
+            "strong": "G4806",
+            "lemma": "συνεζωοποίησεν"
+          }
+        ],
+        "force": "While we were dead (ontas nekrous, present participle of being plus the adjective dead) in trespasses, God made us alive together (synezoopoiesen, aorist active indicative third singular) with Christ, by grace. The compound syn-zoopoieo is rare (only here and Col 2:13), and the active verb has God as subject acting on those whose state is described as dead, so the dead do not contribute to their own vivifying.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.5",
+        "key_terms": [
+          {
+            "strong": "G3824",
+            "lemma": "παλιγγενεσίας"
+          },
+          {
+            "strong": "G1656",
+            "lemma": "ἔλεος"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐκ"
+          }
+        ],
+        "force": "Not (ouk) from works in righteousness that we did (a aorist active first plural, we did), but according to his mercy (eleos) he saved us (esosen, aorist active third singular) through the washing of regeneration (paliggenesia, a near hapax) and renewing of the Holy Spirit. The explicit denial of human works as the cause and the assignment to divine mercy and the Spirit make the regenerating act monocausal.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.1.3",
+        "key_terms": [
+          {
+            "strong": "G0313",
+            "lemma": "ἀναγεννήσας"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεὸς"
+          }
+        ],
+        "force": "God (theos) is the active subject of the aorist active participle anagennesas, having begotten us again. The believers are the object (hemas) and the ground is divine mercy. Anagennao occurs only twice in the canon, both in this letter, so its sense is read mainly from this immediate context, where the agent is unambiguously God.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.1.18",
+        "key_terms": [
+          {
+            "strong": "G1014",
+            "lemma": "βουληθεὶς"
+          },
+          {
+            "strong": "G0616",
+            "lemma": "ἀπεκύησεν"
+          }
+        ],
+        "force": "Having willed it (bouletheis, aorist participle of boulomai), he brought us forth (apekuesen, aorist active indicative third singular of apokueo, a birth verb used only twice, both in James). The participle of deliberate willing modifies the divine subject, so the begetting flows from God's own will and act, with the readers again as the object (hemas).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.1",
+        "key_terms": [
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύων"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "γεγέννηται"
+          }
+        ],
+        "force": "Everyone who believes (pas ho pisteuon, present active participle) that Jesus is the Christ has been begotten of God (ek tou theou gegennetai, perfect passive indicative). The perfect passive presents the begetting as a settled accomplished state and the believing as present, which some read as the birth grounding the faith, but the grammar states a correlation of a present state with a perfect state and does not by itself fix which is logically first.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.13",
+        "key_terms": [
+          {
+            "strong": "G3756",
+            "lemma": "οὐκ"
+          },
+          {
+            "strong": "G2307",
+            "lemma": "θελήματος"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "ἐγεννήθησαν"
+          }
+        ],
+        "force": "Those who were begotten (egennethesan, aorist passive indicative third plural) were begotten not of bloods (ouk ex haimaton) nor of the will of the flesh nor of the will of a man (oude ek thelematos sarkos oude ek thelematos andros), but of God (all ek theou). Three genitive ek phrases of human origin are each negated and the noun thelema, will, is denied twice before the single positive ek theou. This is the clearest grammatical exclusion of human will from the new birth in the anchor set.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.3.8",
+        "to": "John.1.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.5",
+        "to": "John.1.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.26",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.6",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.26",
+        "to": "Deut.30.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.27",
+        "to": "Ezek.37.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "Gen.2.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.5",
+        "to": "John.3.3",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.3.5",
+        "addressed": true,
+        "resolution": "The phrase born of water and Spirit (ex hydatos kai pneumatos) is sometimes read sacramentally, which could appear to make a human rite the instrument of regeneration. Lexically the verb gennethe stays aorist passive subjunctive and the construction keeps the person as the one born, while water most plausibly stands with pneuma as a single cleansing image echoing the water and new spirit of Ezek 36:25-27, a link the cross-reference data confirms (John.3.5 to John.1.13 and the Ezekiel chain). The verse introduces no human causal verb, so it does not weaken the divine-agency reading."
+      },
+      {
+        "ref": "Titus.3.5",
+        "addressed": true,
+        "resolution": "The genitive phrase dia loutrou (through the washing) can be pressed as a baptismal-instrument argument that would make the rite the operative cause. The verse itself first denies works in righteousness that we did (the verb is first person plural, we did) and assigns the saving to his mercy and the Spirit, so even on an instrumental reading of loutron the originating cause stays with God and the monocausal lexical pattern holds."
+      },
+      {
+        "ref": "John.1.12",
+        "addressed": true,
+        "resolution": "The verse immediately before grants the right to become children of God to those who received and believed (elabon, aorist active, and pisteuousin, present active participle), which can be read as faith preceding sonship and so contradicting the ordering claim. Verse 13 then grounds that same group in a birth not of human will but of God. The text holds reception and divine begetting together without lexically ranking which is logically first, which is exactly why the causal-priority sub-claim is rated as inference and the overall confidence is medium."
+      },
+      {
+        "ref": "1John.5.1",
+        "addressed": true,
+        "resolution": "The pairing of the present participle pisteuon (believing) with the perfect gegennetai (has been begotten) is read by some as the new birth being settled before the believing, and by others as the present believing being the visible mark of the begetting without a stated temporal gap. The Greek tenses establish a real correlation of a present act with an accomplished state but do not by themselves order the two, so this verse is the precise locus where the words leave the ordo open, and it is addressed here rather than resolved one way."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "No variant units were supplied in the bundle and the cited books are outside current ECM scope (only 3 John is ingested for CBGM). The known transposition and punctuation discussions in John 3 do not touch the passive voice of gennao or the agency of the Spirit, and the singular versus plural reading of John 1:13 in a few witnesses does not change the negated human will and the positive ek theou, so the verdict is variant robust on the available evidence."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "monergistic-priority lens",
+        "verdict": "affirms",
+        "rationale": "Reads the recurring passive of gennao, the triple negation of human will in John 1:13, the perfect passive gegennetai of 1 John 5:1, the negated dynamai with the perfect-passive gift of John 6:65, and the dead-then-made-alive sequence of Eph 2:5 as establishing both sole divine agency and the logical priority of new life over faith. On this reading the perfect tense of being begotten functions as the standing cause behind the believing and obeying that the same passages describe."
+      },
+      {
+        "framework": "synergistic-response lens",
+        "verdict": "partially affirms",
+        "rationale": "Grants that God alone is the grammatical agent of the new birth, since the passive verbs and the divine-subject active verbs are not in dispute, but reads John 1:12, the conditional ean clauses of John 3, the second person response verbs of Ezek 36:27, and the present participle pisteuon of 1 John 5:1 as leaving the begetting and Spirit-enabled faith concurrent rather than strictly sequenced. On this reading the text affirms divine sole-agency in the birth while declining to settle the strict causal-priority of regeneration before faith, treating that ordering as a systematic inference the vocabulary underdetermines."
+      }
+    ],
+    "notes": "Both lenses agree on the agency question because the morphology is the same for both (passive gennao, divine-subject active verbs, the human as object). They diverge only on the ordering sub-claim, and that divergence is itself lexical in origin: the canon supplies tense correlations (present faith alongside perfect begetting) that the words relate but do not rank. The verdict affirms the proposition while marking the ordering portion as inference, which is why confidence is medium."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The new birth is a work in which God or the Holy Spirit is the sole acting agent who imparts spiritual life to those described as dead in sin, with this divine action presented as the ground that enables saving faith.",
+    "notes": "The term monergistic is a systematic-theology label coded to a particular tradition and is not itself a lexical datum, and the phrase logically prior to and the cause of saving faith imports an ordo-salutis ordering. The verdict was derived on the neutral substance, divine sole-agency and the enabling-then-response sequence, which the queried grammar of the anchor texts supports (passive gennao throughout, divine-subject active verbs, first person divine verbs ahead of second person human verbs in Ezek 36). The ordering sub-claim is treated as an inference drawn from the enabling texts rather than an explicit lexical statement, which is reflected in the medium confidence rating. Verdict unchanged from the prior file; the direct lexical queries confirmed the morphology the prior verdict assumed."
+  },
+  "lay_summary": "Looking only at the original-language words, the new-birth passages share one striking pattern. The verb for being born, gennao, keeps appearing in the passive voice all through John 3, so the person is born, not someone who births himself, and Jesus compares the Spirit to wind that blows where it wills. In John 6 the Spirit is the one that gives life and the flesh profits nothing, and no one is able to come unless it has been given to him from the Father. Ezekiel 36 stacks up first-person verbs spoken by God: I will give you a new heart, I will remove the heart of stone, I will put my Spirit within you, and only after those does the people's own keeping and walking follow. Ephesians 2 says God made us alive while we were dead in our trespasses, and dead people cannot revive themselves. Titus 3 says he saved us not by works we did but according to his mercy, through the washing of regeneration. First Peter 1 and James 1 both make God the one acting and us the ones acted upon, James adding that God did it because he willed to. John 1:13 is the sharpest: those born were born not of blood, nor of the will of the flesh, nor of the will of a man, but of God, three denials of human origin before one positive source. So the words consistently put all the initiative on God and the Spirit and treat the person as the recipient. That settles the agency question firmly. The further claim that this birth comes logically before faith and causes it fits the enabling language of John 6:65 and the perfect tense of having been begotten in 1 John 5:1, but those verses correlate faith and the new birth without flatly stating which is first, so that part of the claim is a reasonable inference rather than something the grammar nails down, and that is where careful readers can still differ.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.1.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1080"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4806"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0616"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ezek.36.26"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.36.27"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5414"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.3.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The Hebrew verb morphology and glosses for Ezek.36.26 (the first person divine verb chain natan and sur) were read from MACULA-Hebrew, which carries CC-BY-NC-4.0 and is not redistributable in bulk. All other sources used are redistributable, but the aggregate is false because of the MACULA-Hebrew dependency."
+  },
+  "flags": []
+}

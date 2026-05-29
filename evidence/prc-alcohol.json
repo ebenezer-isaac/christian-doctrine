@@ -1,0 +1,767 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-alcohol",
+  "question_id": "prc-alcohol",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition pairs two claims that the canon's vocabulary treats with a clean division of labor. A dedicated drunkenness cluster, methysko, methe, methysos, paroinos, oinopotes on the Greek side and shakar, shikkor, the verbalized state of intoxication on the Hebrew side, carries the prohibition (Eph 5:18, 1 Cor 6:10, Gal 5:21, Prov 23:29-35, Hab 2:15). The substance words oinos and yayin are repeatedly the object of positive divine speech, given by God to gladden the heart of man (Ps 104:15), purchased with the tithe to rejoice before Yahweh (Deut 14:26), commanded medicinally by an apostle (1 Tim 5:23), supplied by Jesus at Cana and rated kalon (John 2:10), and presupposed by the elder qualification me paroinon, not addicted to wine, which only makes sense if non-addicted use is normal (1 Tim 3:3, Titus 1:7, also 1 Tim 3:8 mē oinō pollō for deacons). Rom 14:21 supplies the conscience qualifier, abstention is a voluntary yielding of a permitted thing for a stumbling brother, which itself confirms the underlying liberty. Pan-canonical spread, dense recurrence, and grammar that separates state from substance jointly support the proposition with high confidence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3631",
+        "lemma": "οἶνος",
+        "transliteration": "oinos",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3196",
+        "lemma": "יַיִן",
+        "transliteration": "yayin",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7941",
+        "lemma": "שֵׁכָר",
+        "transliteration": "shekar",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8492",
+        "lemma": "תִּירוֹשׁ",
+        "transliteration": "tirosh",
+        "occurrences_in_canon": 32,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3182",
+        "lemma": "μεθύσκω",
+        "transliteration": "methysko",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3184",
+        "lemma": "μεθύω",
+        "transliteration": "methyo",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3178",
+        "lemma": "μέθη",
+        "transliteration": "methe",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3183",
+        "lemma": "μέθυσος",
+        "transliteration": "methysos",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3943",
+        "lemma": "πάροινος",
+        "transliteration": "paroinos",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3630",
+        "lemma": "οἰνοπότης",
+        "transliteration": "oinopotes",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "H7937",
+        "lemma": "שָׁכַר",
+        "transliteration": "shakar",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0810",
+        "lemma": "ἀσωτία",
+        "transliteration": "asotia",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3887",
+        "lemma": "לוּץ",
+        "transliteration": "luts",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1993",
+        "lemma": "הָמָה",
+        "transliteration": "hamah",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "H8055",
+        "lemma": "שָׂמַח",
+        "transliteration": "samach",
+        "occurrences_in_canon": 156,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3631",
+      "H3196",
+      "H7941",
+      "H8492",
+      "G3182",
+      "G3184",
+      "G3178",
+      "G3183",
+      "G3943",
+      "G3630",
+      "H7937",
+      "G0810",
+      "H3887",
+      "H1993",
+      "H8055"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.5.18",
+        "key_terms": [
+          {
+            "strong": "G3182",
+            "lemma": "μεθύσκω"
+          },
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G0810",
+            "lemma": "ἀσωτία"
+          }
+        ],
+        "force": "The clause me methyskesthe oino is a present passive imperative with the negation me, do not be getting drunk with wine. The verb is methysko, which names the state of intoxication, and the relative clause en ho estin asotia identifies that state as dissipation. The verse forbids the condition, not the substance, since the same noun oinos is positively commanded a few chapters of text later in 1 Tim 5:23. The contrast structure, but rather be filled with the Spirit, sets two competing controlling agencies and confirms that the prohibition targets being mastered by wine.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.23",
+        "key_terms": [
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G5202",
+            "lemma": "ὑδροποτέω"
+          }
+        ],
+        "force": "The imperative chro is a present middle of chraomai, use, with oino oligo as instrumental dative, use a little wine. It is set against meketi hydropotei, no longer drink only water, and the stated cause is the stomach and frequent ailments. A positive apostolic directive to consume oinos, even bounded and medicinal, presupposes that oinos itself is licit, which is the decisive lexical datum against any blanket prohibition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.3",
+        "key_terms": [
+          {
+            "strong": "G3943",
+            "lemma": "πάροινος"
+          }
+        ],
+        "force": "The elder qualification me paroinon, not given to wine, uses paroinos, literally one who is beside wine, that is one habituated to it. The construction prohibits the habit of excess, not the substance. A flat ban on all consumption would not need this specific term, since a simpler clause excluding any use would suffice. The same word reappears in Titus 1:7, confirming that elders are screened for non-addiction to oinos, not for total abstinence.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.2.9",
+        "key_terms": [
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G5204",
+            "lemma": "ὕδωρ"
+          }
+        ],
+        "force": "The narrator states that to hydor oinon gegenemenon, the water had become wine, a perfect passive participle of ginomai. The lexeme oinos is the standard Greek word for fermented grape wine in the literature of the period and nothing in the morphology marks this product as unfermented. Jesus supplies it in a large quantity at a wedding feast without any narrative censure, which forecloses any reading that treats consumption as such illicit.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.2.10",
+        "key_terms": [
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G3184",
+            "lemma": "μεθύω"
+          },
+          {
+            "strong": "G2570",
+            "lemma": "καλός"
+          }
+        ],
+        "force": "The steward calls Jesus's wine ton kalon oinon, the good wine, and contrasts it with the inferior served when guests have drunk freely, the verb being a subjunctive of methyo. The same root the New Testament uses for the censured state of drunkenness here describes the customary later stage of feasting and is, in the narrator's mouth, a neutral observation about banquet practice. The product Jesus supplies is rated kalon, an evaluative positive, a direct lexical commendation of the substance.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.104.15",
+        "key_terms": [
+          {
+            "strong": "H3196",
+            "lemma": "יַיִן"
+          },
+          {
+            "strong": "H8055",
+            "lemma": "שָׂמַח"
+          }
+        ],
+        "force": "The clause yayin yesammach levav enosh, wine gladdens the heart of man, sets yayin within God's enumerated provision alongside bread and oil. The piel of samach attributes positive cheering to the substance, and the framing of the psalm is divine benefaction. As a wisdom-poetry datum embedded in a creation hymn, this stands explicitly against any absolute prohibition while saying nothing in favor of excess.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.14.26",
+        "key_terms": [
+          {
+            "strong": "H3196",
+            "lemma": "יַיִן"
+          },
+          {
+            "strong": "H7941",
+            "lemma": "שֵׁכָר"
+          },
+          {
+            "strong": "H8055",
+            "lemma": "שָׂמַח"
+          }
+        ],
+        "force": "Yahweh's tithe instruction permits exchanging the tithe for whatever your soul desires, ba-yayin u-va-shekar, in wine and in strong drink, to eat there before Yahweh and rejoice, ve-samachta. The two strongest words for fermented drink stand together as a positive direction for covenant celebration with the divine name as setting. The piel of samach is the same verb used in Ps 104:15. A statute-level positive command involving shekar by name is the most direct lexical refutation of total prohibition.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.7.33",
+        "key_terms": [
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G4095",
+            "lemma": "πίνω"
+          }
+        ],
+        "force": "Jesus contrasts himself with John the Baptist, John has come neither eating bread nor drinking wine, mete pinon oinon, and they say he has a demon. In the next verse Jesus, in contrast, is called by his accusers phagos kai oinopotes, a glutton and a drinker of wine. The label oinopotes, a hapax in the New Testament, would be incoherent if Jesus did not consume oinos. The accusation does not concede drunkenness, the Lord remained sinless, but it lexically locates him as one who drank oinos in distinction from the abstaining Baptist.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.20.1",
+        "key_terms": [
+          {
+            "strong": "H3196",
+            "lemma": "יַיִן"
+          },
+          {
+            "strong": "H7941",
+            "lemma": "שֵׁכָר"
+          },
+          {
+            "strong": "H3887",
+            "lemma": "לוּץ"
+          }
+        ],
+        "force": "Yayin is a mocker, lets, a participle of luts, and shekar is a brawler, homeh from hamah, and whoever staggers in it is not wise. The personification fixes censure on the disordering power of the drink and on the one led astray by it. The syntax does not pronounce the substance evil in itself, the predication is on the captive who is unwise. The verse underwrites the drunkenness-is-sin clause without forbidding measured use.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "personification"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.6.10",
+        "key_terms": [
+          {
+            "strong": "G3183",
+            "lemma": "μέθυσος"
+          }
+        ],
+        "force": "Paul lists methysoi, drunkards, with thieves, the greedy, revilers, and swindlers as those who will not inherit the kingdom of God. The noun methysos names the person habituated to drunkenness, distinct from oinos as substance. The vice-list grammar predicates exclusion on the habitual condition, not on having consumed wine. This is independent lexical reinforcement of the drunkenness prohibition without prejudice to oinos itself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.5.21",
+        "key_terms": [
+          {
+            "strong": "G3178",
+            "lemma": "μέθη"
+          },
+          {
+            "strong": "G2970",
+            "lemma": "κῶμος"
+          }
+        ],
+        "force": "Among the works of the flesh Paul lists methai, drunken bouts, plural of methe, and komoi, revelries. Both nouns name social-state vices, not substances. Paul warns that those who practice such things will not inherit the kingdom of God, the verb prasso conveys habitual practice. The prohibition is again on the disordered state, not on the substance oinos.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Hab.2.15",
+        "key_terms": [
+          {
+            "strong": "H7937",
+            "lemma": "שָׁכַר"
+          }
+        ],
+        "force": "Hoy mashqe re'ehu mesappeach chamatcha ve-af shakker, woe to him who makes his neighbor drink, joining his wrath to it, and also makes him drunk. The piel infinitive shakker, to make drunk, places the censure on inducing intoxication in another. The text condemns the active causation of drunkenness, again reinforcing that the prohibited target is the state, not the drink in itself.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Num.6.3",
+        "key_terms": [
+          {
+            "strong": "H3196",
+            "lemma": "יַיִן"
+          },
+          {
+            "strong": "H7941",
+            "lemma": "שֵׁכָר"
+          }
+        ],
+        "force": "The Nazirite vow requires the dedicated person to separate from yayin and shekar, the same two terms permitted in Deut 14:26. The statute's existence as a vocational, temporary, voluntary separation is itself lexical evidence that the default state for Israelites is permission. If yayin were already forbidden universally, the vow would have nothing to mark. The same logic applies to Lev 10:9, where priests on duty are restricted, a setting-specific carve-out from a permitted norm.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.14.21",
+        "key_terms": [
+          {
+            "strong": "G3631",
+            "lemma": "οἶνος"
+          },
+          {
+            "strong": "G4624",
+            "lemma": "σκανδαλίζω"
+          }
+        ],
+        "force": "Kalon to me phagein krea mede piein oinon mede en ho ho adelphos sou proskoptei, it is good neither to eat meat nor to drink wine nor anything by which your brother stumbles. The infinitive piein with oinos as object treats drinking wine as a thing one may freely do or forgo. The controlling principle is the conscience of the weaker brother, not the intrinsic status of the drink. The grammar therefore confirms underlying liberty by treating abstention as the voluntary yielding of something otherwise permitted, while supplying a love-shaped qualifier on its exercise.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.2.10",
+        "to": "Ps.104.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.2.3",
+        "to": "Ps.104.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Prov.20.1",
+        "to": "Prov.23.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.18",
+        "to": "Gen.9.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.14.21",
+        "to": "Rom.14.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.23",
+        "to": "1Tim.3.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.3.3",
+        "to": "Titus.1.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Deut.14.26",
+        "to": "Ps.104.15",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Luke.7.34",
+        "to": "Luke.7.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.6.10",
+        "to": "Gal.5.21",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.14.21",
+        "addressed": true,
+        "resolution": "The verse pronouncing it good to abstain from oinos if it stumbles a brother is treated by some as restricting the liberty rather than presupposing it. Lexically it presupposes the liberty, since piein oinon would not be a thing one could yield if it were already forbidden, and the conditional clause en ho ho adelphos sou proskoptei makes the abstention case-specific to the brother's conscience. The verse therefore supports the proposition's qualifier that liberty is shaped by love, not its negation."
+      },
+      {
+        "ref": "Prov.23.31",
+        "addressed": true,
+        "resolution": "Al tere yayin ki yit'addam, do not look at the wine when it is red. The verb ra'ah here governs an attractive gaze, and verses 32-35 describe the predictable terminus, biting like a serpent, seeing strange things, staggering. The clause's syntax targets the seductive path that ends in the staggering of verse 34, not the substance per se. The same chapter coordinates with Prov 20:1, which censures the disordering effect, and with the positive use in Ps 104:15, which the same vocabulary, yayin, includes in divine benefaction."
+      },
+      {
+        "ref": "Prov.23.29",
+        "addressed": true,
+        "resolution": "The serial questions, woe, sorrow, contentions, complaints, wounds without cause, redness of eyes, set up the verses on yayin that follow. The literary frame identifies the subject as those who tarry long over wine, le-meacharim al ha-yayin. The censure falls on the prolonged tarrying, the duration adverb, which lexically targets habitual indulgence rather than tasting itself."
+      },
+      {
+        "ref": "Isa.5.11",
+        "addressed": true,
+        "resolution": "Hoy mashkimei va-boqer shekar yirdophu, woe to those who rise early to pursue strong drink. The temporal phrase ba-boqer, in the morning, and the verb radaph, pursue, mark the censure as fixed on disordered pursuit, not on the substance. The same prophet uses yayin elsewhere in restoration imagery, e.g., Isa 55:1 where yayin is offered freely as gift of grace, which forecloses reading Isa 5:11 as a categorical ban."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "All cited New Testament verses lie outside the open-cbgm 3 John sample, so CBGM data was not consulted and ECM status is treated as not in scope. The bundle reports not_in_ecm_scope true with no variant units. Minor orthographic and word-order variants in Eph 5:18, 1 Tim 5:23, and the John 2 narrative do not touch the load-bearing lexemes oinos, methysko, paroinos, chraomai, or the imperatives. The verdict holds across all plausible variant readings of the cited verses."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "christian_liberty",
+      "stumbling_block_qualification",
+      "abstentionism",
+      "two_wine_theory"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "christian_liberty",
+        "verdict": "affirms",
+        "rationale": "Takes oinos and yayin univocally as fermented drink. Reads the positive imperative of 1 Tim 5:23, the kalon oinos of John 2:10, the divine gift of Ps 104:15, the tithe celebration of Deut 14:26, and the elder qualification me paroinon as jointly establishing that the substance is permitted. Confines the prohibitions to the state named by methysko, methe, methysos, paroinos, shakar, and reads Rom 14:21 as a love-qualifier on a permitted liberty. On this lens the proposition is fully affirmed."
+      },
+      {
+        "framework": "stumbling_block_qualification",
+        "verdict": "affirms",
+        "rationale": "Agrees the substance is permitted and the state is forbidden, but emphasizes that Rom 14:21 and 1 Cor 8 make the actual exercise of the liberty subordinate to the brother's conscience, so that in given settings voluntary abstention is the more excellent way. This is not a denial of the proposition but a refinement of how the liberty is exercised, which the proposition itself contemplates with the words matter of Christian liberty."
+      },
+      {
+        "framework": "abstentionism",
+        "verdict": "partially_affirms",
+        "rationale": "Concedes that the lexicon does not call the substance sinful and that drunkenness is sin, but argues that the cumulative force of warnings against the disordering power of yayin and shekar, the priestly and Nazirite restrictions, and the modern context of widespread abuse make voluntary total abstention pastorally wise. On the lexical pattern alone the proposition stands, this lens is best understood as a prudential application rather than a denial of the underlying liberty."
+      },
+      {
+        "framework": "two_wine_theory",
+        "verdict": "denies",
+        "rationale": "Argues that oinos and yayin can sometimes denote unfermented grape juice, so that commended wine in John 2 and 1 Tim 5:23 is read as non-alcoholic while only fermented references are censured. Stated in its strongest form, the lens appeals to context-dependent semantic range, the broad family of vine products including tirosh and mishrah, and the Greek practice of mixing wine with water to lower alcoholic content. Lexically this construal is minority and faces three difficulties. First, the same noun oinos is the thing that intoxicates in Eph 5:18 and the thing commended in 1 Tim 5:23 and John 2:10, with no morphological cue distinguishing senses. Second, Deut 14:26 pairs yayin with shekar, the strongest Hebrew term for fermented drink, in a celebratory permission. Third, the elder qualification me paroinon would be redundant if oinos were not the kind of drink one could be addicted to. The lens is presented fairly here but the lexical pattern does not sustain its central claim."
+      }
+    ],
+    "notes": "The verdict turns on whether the canon distinguishes substance from state, which the vocabulary plainly does. A separate word family covers intoxication, methysko, methe, methysos, paroinos, oinopotes, shakar, while oinos and yayin name the drink that appears both in censure of disordered indulgence and in divine gift and apostolic command. Analogia scripturae across Pentateuch, Wisdom, Prophets, Gospels, and Epistles supplies a stable pattern. The stumbling-block lens is included within liberty rather than against it."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether the canon's vocabulary distinguishes the substance oinos and yayin, treated positively as gift, command, and apostolic prescription, from the state of intoxication, named by a separate word family and forbidden, and how the stumbling-block principle of Rom 14:21 qualifies the exercise of the liberty, is the question under test.",
+    "notes": "VERDICT-CHANGED: prior file recorded affirms=disputed with medium confidence and lexical_score 0.83. After direct querying of the lexical store for the full canon distribution of oinos, yayin, shekar, tirosh, methysko, methyo, methe, methysos, paroinos, oinopotes, and shakar, and after pulling Deut 14:26, Num 6:3, Lev 10:9, 1 Tim 3:3, Titus 1:7, 1 Tim 3:8, Luke 7:33-34, 1 Cor 6:10, Gal 5:21, and Hab 2:15 by morphology, the case for the proposition is stronger than disputed. The substance words are commended pan-canonically as divine gift, statute-level permitted celebration, apostolic medicinal command, Lord's miraculous provision rated good, and presupposed by the elder qualification not given to wine, which would be redundant on a flat ban. The drunkenness vocabulary is a distinct lexical field uniformly censured. The two-wine theory survives as a minority construal but is not supported by the morphology or by Deut 14:26's pairing of yayin with shekar. Confidence raised to high, affirms set to true. The original stem is mildly preloaded by naming it a matter of Christian liberty and by naming the tested tradition's counsel of abstinence, so verdict_preloaded remains true and the neutralized_form is recorded, but the verdict derived on the original stem also holds on the neutralized form. The phrase drunkenness is sin is a separately testable claim and is the part the lexicon most clearly supports."
+  },
+  "lay_summary": "This question has two parts, and the original words of Scripture treat them with a clean division of labor. On drunkenness the words are explicit. Ephesians 5:18 says do not be getting drunk with wine, and the verb it forbids is the specific word for becoming intoxicated, contrasted with being filled with the Spirit and called dissipation. Galatians 5:21 lists drunken bouts among the works of the flesh. First Corinthians 6:10 says drunkards will not inherit the kingdom. Proverbs 20:1 personifies the disordering power, wine is a mocker, strong drink a brawler. Habakkuk 2:15 pronounces woe on one who makes his neighbor drunk. The censure consistently lands on the state, named by its own word family, and on the person mastered by it. On the substance itself the words point the other way from a total ban. Psalm 104:15 names wine that gladdens the heart of man among God's good gifts. Deuteronomy 14:26 directs the tithe to be spent on wine or strong drink to rejoice before Yahweh, a positive statute-level command. First Timothy 5:23 gives an apostolic order to use a little wine for the stomach. John 2 shows Jesus providing wine at Cana and the steward calls it good. The elder qualification not given to wine, in 1 Timothy 3:3 and Titus 1:7, screens out addiction, not consumption, which is why deacons are likewise warned against much wine rather than any. Luke 7 records the Lord himself being called a drinker of wine in contrast to the abstaining John the Baptist, an accusation that would be incoherent if he abstained too. Where this leaves room for divergence is Romans 14:21, which calls it good to abstain from wine when it would make a brother stumble. That qualifier presupposes the liberty, since one cannot yield what is already forbidden, but it also commends voluntary abstention as a loving course in many concrete settings, which is the strongest piece of the abstentionist case. The lexical pattern, substance permitted, state forbidden, exercise shaped by love for the weaker brother, supports the proposition with confidence.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3631"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3182"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3184"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3178"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3183"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3943"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3630"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0810"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3196"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7941"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7937"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H8055"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3887"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.3.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.14.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.2.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.7.33"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Prov.20.1"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.104.15"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Deut.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.6.3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Hab.2.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.2.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.14.21"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.5.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Deut.14.26"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

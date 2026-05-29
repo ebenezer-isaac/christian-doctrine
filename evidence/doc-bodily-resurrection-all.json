@@ -1,0 +1,766 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-bodily-resurrection-all",
+  "question_id": "doc-bodily-resurrection-all",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition that both just and unjust are bodily raised is grounded in a dense, pan-canonical lexical pattern. Daniel 12:2 has rabbim from those sleeping in admat aphar, dust of the ground, waking with the verb quts, then partitioned by doubled eleh into everlasting life and everlasting deraon, contempt. John 5:28-29 places pantes hoi en tois mnemeiois, all those in the tombs, under one anastasis governed by twin genitives zoes and kriseos, life and judgment. Acts 24:15 makes the scope explicit by the te-kai construction coordinating dikaion and adikon, just and unjust, under a single future anastasis. The witness is dense and not variant-sensitive at any cited unit, so the affirm is decisive on the both-classes claim, even though the question of one timing versus two is lexically distinct."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0386",
+        "lemma": "ἀνάστασις",
+        "transliteration": "anastasis",
+        "occurrences_in_canon": 42,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1453",
+        "lemma": "ἐγείρω",
+        "transliteration": "egeiro",
+        "occurrences_in_canon": 147,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4687",
+        "lemma": "σπείρω",
+        "transliteration": "speiro",
+        "occurrences_in_canon": 56,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3498",
+        "lemma": "νεκρός",
+        "transliteration": "nekros",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5591",
+        "lemma": "ψυχικός",
+        "transliteration": "psychikos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4152",
+        "lemma": "πνευματικός",
+        "transliteration": "pneumatikos",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5517",
+        "lemma": "χοϊκός",
+        "transliteration": "choikos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2032",
+        "lemma": "ἐπουράνιος",
+        "transliteration": "epouranios",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1504",
+        "lemma": "εἰκών",
+        "transliteration": "eikon",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1607",
+        "lemma": "ἐκπορεύομαι",
+        "transliteration": "ekporeuomai",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3062",
+        "lemma": "λοιπός",
+        "transliteration": "loipos",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2198",
+        "lemma": "ζάω",
+        "transliteration": "zao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5037",
+        "lemma": "τέ",
+        "transliteration": "te",
+        "occurrences_in_canon": 215,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6974",
+        "lemma": "קוץ",
+        "transliteration": "quts",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3463",
+        "lemma": "יָשֵׁן",
+        "transliteration": "yashen",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6083",
+        "lemma": "עָפָר",
+        "transliteration": "aphar",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2416",
+        "lemma": "חַי",
+        "transliteration": "chay",
+        "occurrences_in_canon": 503,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1860",
+        "lemma": "דְּרָאוֹן",
+        "transliteration": "deraon",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7227",
+        "lemma": "רַב",
+        "transliteration": "rab",
+        "occurrences_in_canon": 712,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0386",
+      "G1453",
+      "G4687",
+      "G2222",
+      "G2919",
+      "G3498",
+      "G4983",
+      "G5591",
+      "G4152",
+      "G5517",
+      "G2032",
+      "G1504",
+      "G1607",
+      "G3062",
+      "G2198",
+      "G5037",
+      "H6974",
+      "H3463",
+      "H6083",
+      "H2416",
+      "H1860",
+      "H7227"
+    ],
+    "scripture": [
+      {
+        "ref": "Dan.12.2",
+        "key_terms": [
+          {
+            "strong": "H7227",
+            "lemma": "רַבִּים"
+          },
+          {
+            "strong": "H6974",
+            "lemma": "יָקִיצוּ"
+          },
+          {
+            "strong": "H3463",
+            "lemma": "יְּשֵׁנֵי"
+          },
+          {
+            "strong": "H6083",
+            "lemma": "עָפָר"
+          },
+          {
+            "strong": "H2416",
+            "lemma": "חַיֵּי"
+          },
+          {
+            "strong": "H1860",
+            "lemma": "דִרְאוֹן"
+          }
+        ],
+        "force": "Rabbim of those sleeping in admat aphar, soil of dust, yaqitsu, will awake. The verb quts is a physical waking from sleep, and the location is the dust of the ground, which points to bodies in the earth rather than a disembodied state. The clause then partitions the awakened into two destinies marked by the prepositional lamed, some to chayye olam, everlasting life, and these others to chereph and deraon olam, reproaches and everlasting contempt. The doubled eleh, these and those, syntactically splits one waking event into a just and an unjust outcome. The lemma deraon is a hapax-adjacent hardline pair appearing only here and in Isaiah 66:24, anchoring the negative outcome to bodily corpses seen by the redeemed in Isaiah's matching scene.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.28",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πάντες"
+          },
+          {
+            "strong": "G3739",
+            "lemma": "ᾗ"
+          }
+        ],
+        "force": "An hour erchetai, is coming, in which pantes hoi en tois mnemeiois, all those in the tombs, will hear his voice. The universal subject pantes plus the locative en tois mnemeiois, in the tombs, ties the rising to bodies presently in graves, which is the bodily and not merely spiritual sense. The relative clause structure under one hour sets up the partition that follows in the next verse.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.29",
+        "key_terms": [
+          {
+            "strong": "G1607",
+            "lemma": "ἐκπορεύσονται"
+          },
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασιν"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωῆς"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "κρίσεως"
+          }
+        ],
+        "force": "Those in the tombs ekporeusontai, will come out, a verb of bodily egress from the grave. The single noun anastasis is then qualified by two genitives in parallel, anastasin zoes, resurrection of life, for those who did good things, and anastasin kriseos, resurrection of judgment, for those who did worthless things. One resurrection word governs both groups, which encodes a single bodily rising that issues in two verdicts. The grammar here decides only that both classes rise. It does not specify whether the two anastaseis occur in one hour or are temporally distinct, since the singular hora can be a fixed appointed time or the wider eschatological era.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.24.15",
+        "key_terms": [
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασιν"
+          },
+          {
+            "strong": "G1342",
+            "lemma": "δικαίων"
+          },
+          {
+            "strong": "G0094",
+            "lemma": "ἀδίκων"
+          },
+          {
+            "strong": "G5037",
+            "lemma": "τε"
+          },
+          {
+            "strong": "G3195",
+            "lemma": "μέλλειν"
+          }
+        ],
+        "force": "Paul professes a hope of anastasin esesthai, a resurrection that is going to be, the future infinitive with mellein making this an eschatological expectation. The single anastasis is explicitly scoped over dikaion te kai adikon, of both just and unjust. The te-kai construction is a tight Greek coordinator that yokes two members under one shared noun. The grammar here is the most direct lexical statement in the canon that the unjust as well as the just are raised under one resurrection-word. It does not specify simultaneity, since te kai pairs membership not timing.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.42",
+        "key_terms": [
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασις"
+          },
+          {
+            "strong": "G4687",
+            "lemma": "σπείρεται"
+          },
+          {
+            "strong": "G1453",
+            "lemma": "ἐγείρεται"
+          },
+          {
+            "strong": "G3498",
+            "lemma": "νεκρῶν"
+          }
+        ],
+        "force": "Houtos kai he anastasis ton nekron, so also is the resurrection of the dead. The matched passive pair speiretai, it is sown, and egeiretai, it is raised, frames the dead body as a seed that goes into the ground and is raised, sown in phthora, corruption, raised in aphtharsia, incorruption. The seed and harvest framing presupposes that the same entity that is buried is the one raised, which is bodily continuity rather than replacement.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.44",
+        "key_terms": [
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G5591",
+            "lemma": "ψυχικόν"
+          },
+          {
+            "strong": "G4152",
+            "lemma": "πνευματικόν"
+          }
+        ],
+        "force": "Speiretai soma psychikon, egeiretai soma pneumatikon. The noun soma, body, is retained on both sides of the contrast, so the spiritual state is still a body, not a non-bodily existence. Psychikon and pneumatikon are adjectives of governing mode, soul-animated versus Spirit-animated, not adjectives that remove corporeality. The same psychikon contrasts with pneumatikon in 1 Corinthians 2:14-15 where the question is mode of orientation, not material composition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.15.49",
+        "key_terms": [
+          {
+            "strong": "G5409",
+            "lemma": "φορέσομεν"
+          },
+          {
+            "strong": "G1504",
+            "lemma": "εἰκόνα"
+          },
+          {
+            "strong": "G5517",
+            "lemma": "χοϊκοῦ"
+          },
+          {
+            "strong": "G2032",
+            "lemma": "ἐπουρανίου"
+          }
+        ],
+        "force": "As we bore the eikona, image, of the choikos, the man of dust, we will also bear the image of the epouranios, the heavenly one. The verb phoreo, to wear or carry, with eikon ties the future state to a concrete bearing of a heavenly bodily form patterned on the risen Christ. The dust to heavenly axis echoes the aphar of Daniel 12:2, joining the Hebrew and Greek witnesses on the same somatic continuity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.3.21",
+        "key_terms": [
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G3345",
+            "lemma": "μετασχηματίσει"
+          },
+          {
+            "strong": "G4832",
+            "lemma": "σύμμορφον"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξης"
+          }
+        ],
+        "force": "Christ metaschematisei, will transform, to soma tes tapeinoseos hemon, the body of our lowliness, to be symmorphon, conformed, to the body of his glory. The retained noun soma plus the transformation verb confirms that the resurrection state is a glorified body, the lowly body itself reshaped rather than discarded. This corroborates the somatic reading of 1 Corinthians 15 but speaks only of the believers' transformation, not the rising of the unjust.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.13",
+        "key_terms": [
+          {
+            "strong": "G3498",
+            "lemma": "νεκροὺς"
+          },
+          {
+            "strong": "G2919",
+            "lemma": "ἐκρίθησαν"
+          },
+          {
+            "strong": "G0086",
+            "lemma": "ᾅδης"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργα"
+          }
+        ],
+        "force": "The sea gave up tous nekrous, the dead, in it, and death and Hades gave up the dead in them, and ekrithesan, they were judged, each kata ta erga auton, according to their works. The dead are restored from sea and Hades before being judged, which presupposes that the unjust dead are also raised, matching the resurrection of judgment in John 5:29 and the unjust in Acts 24:15.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.26.19",
+        "key_terms": [
+          {
+            "strong": "H2421",
+            "lemma": "יִחְיוּ"
+          },
+          {
+            "strong": "H6974",
+            "lemma": "הָקִיצוּ"
+          },
+          {
+            "strong": "H6083",
+            "lemma": "עָפָר"
+          }
+        ],
+        "force": "Yichyu metheka, your dead shall live, with the imperative haqitsu we-rannenu shokne aphar, awake and sing, dwellers of dust. The verb chayah, to live, and quts, to awake, both used of physical revival, are stacked with the locative shokne aphar, dwellers of dust. The lexis matches Daniel 12:2 in waking-from-dust idiom and supplies an additional Hebrew witness to bodily rising prior to its New Testament restatement.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Job.19.26",
+        "key_terms": [
+          {
+            "strong": "H1320",
+            "lemma": "בָּשָׂר"
+          },
+          {
+            "strong": "H5785",
+            "lemma": "עוֹר"
+          },
+          {
+            "strong": "H2372",
+            "lemma": "אֶחֱזֶה"
+          }
+        ],
+        "force": "After my or, skin, has been struck off, yet from my basar, flesh, I will see eloah. The concrete somatic nouns or and basar plus the verb chazah, to see with the eyes, ground a future seeing of God in the body, not as a disembodied shade. This is an early canonical foothold for bodily continuity through death into a future seeing.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.5.29",
+        "to": "Dan.12.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.24.15",
+        "to": "Acts.23.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Isa.66.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Job.19.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Isa.26.19",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.42",
+        "to": "Gen.3.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.49",
+        "to": "Gen.5.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.3.21",
+        "to": "Isa.25.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.12",
+        "to": "Dan.7.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.20.12",
+        "to": "Rev.20.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.15.42",
+        "to": "1Cor.15.52",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.15.50",
+        "addressed": true,
+        "resolution": "The phrase sarx kai haima basileian theou kleronomesai ou dunatai, flesh and blood cannot inherit the kingdom of God, could seem to deny bodily resurrection. In context sarx kai haima is an idiom for mortal perishable humanity in its present corruptible mode, and the parallel clause equates it with phthora, corruption, not inheriting aphtharsia, incorruption. The verse denies that the perishable mode enters unchanged, not that the body is abandoned, which is consistent with the transformation language of verses 42 to 49 and Philippians 3:21."
+      },
+      {
+        "ref": "1Cor.15.44",
+        "addressed": true,
+        "resolution": "Soma pneumatikon, spiritual body, could be read as immaterial, which would undercut bodily resurrection. The lexis resists that. The head noun soma is retained, and pneumatikos elsewhere in the same letter, for example pneumatikos in 1 Corinthians 2 and 3, describes the Spirit as the animating and governing power, not the absence of matter. The matched antonym psychikon, soul-animated, names the present physical body, so pneumatikon names a Spirit-empowered body, not a ghost. Bodily resurrection stands."
+      },
+      {
+        "ref": "Rev.20.5",
+        "addressed": true,
+        "resolution": "Hoi loipoi ton nekron ouk ezesan achri telesthe ta chilia ete, the rest of the dead did not live until the thousand years were completed, immediately followed by haute he anastasis he prote, this is the first resurrection. The vocabulary loipoi nekron, rest of the dead, plus the temporal achri, until, plus the demonstrative haute marking a first anastasis, lexically opens room for two distinct rising events at different times rather than one simultaneous event. This text does not undo the affirm that both classes rise, since loipoi nekron presupposes their later rising. It only complicates whether the just and unjust rise at one hora or at temporally separated anastaseis. The proposition under test asks only that both are raised, which all readings affirm."
+      },
+      {
+        "ref": "1Cor.15.23",
+        "addressed": true,
+        "resolution": "Hekastos de en to idio tagmati, each in his own order, with aparche Christos, epeita hoi tou Christou en te parousia autou, then eita to telos, then the end. The noun tagma, ordered rank, and the temporal adverbs aparche, epeita, eita, encode sequence among groups within the resurrection complex. Like Rev 20:5, this does not deny the bodily rising of the unjust but is the lexical seedbed for ordered-stages readings of the resurrection."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "None of the cited verses fall in the ingested ECM window (3 John 1:1 to 1:15). The Nestle apparatus markers visible in the surface text at John 5:28, Acts 24:15, 1 Corinthians 15:44, 15:47, 15:49, and Philippians 3:21 affect spelling, word order, and verbal aspect on phoreo, but they do not affect the presence of anastasis, the universal pantes scope, the two-destiny partition, or the retention of soma. The verdict therefore holds across all plausible readings, and not_in_ecm_scope is the honest status."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "general_resurrection",
+      "two_stage_resurrection",
+      "covenant_theology",
+      "premillennial",
+      "amillennial"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "general_resurrection_one_hour",
+        "verdict": "affirms",
+        "rationale": "Reads the singular hora of John 5:28-29 and the single throne scene of Revelation 20:12-13 as one resurrection of just and unjust at the end. The lexis supports this since one anastasis governs both genitives zoes and kriseos in John 5:29 and the te-kai of Acts 24:15 yokes dikaion and adikon under one anastasis. On this reading the two destinies are sorted at one event, not at separated times."
+      },
+      {
+        "framework": "two_stage_resurrection",
+        "verdict": "affirms",
+        "rationale": "Reads Revelation 20:5-6 as supplying a lexical distinction between he anastasis he prote, the first resurrection, and the later rising of hoi loipoi ton nekron, the rest of the dead, with the temporal achri, until the thousand years are completed, marking the gap. Combined with the ordered tagmata of 1 Corinthians 15:23 and the future infinitive esesthai in Acts 24:15, this reading takes the resurrection of life and the resurrection of judgment as one anastasis-word naming two temporally separated events. It still affirms that both just and unjust are bodily raised, which is the proposition under test."
+      },
+      {
+        "framework": "covenant_one_eschaton",
+        "verdict": "affirms",
+        "rationale": "Reads Daniel 12:2 and John 5:28-29 as one covenant-climactic event because the doubled eleh of Daniel 12:2 and the singular hora of John 5:28 do not lexically force a temporal gap. Affirms both-classes from the te-kai of Acts 24:15."
+      }
+    ],
+    "notes": "The proposition asks only whether both classes are bodily raised, which every defensible reading of the cited texts affirms. The disagreement is over WHEN they rise, one hora versus two anastaseis separated by the thousand years of Revelation 20, not whether the unjust rise. That timing question is decided downstream from this verdict and does not weaken the affirm here."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem states a bodily resurrection of both the just and the unjust at the end of the age in plain terms and does not embed a single tradition's distinctive. The phrase end of the age is broad enough to host both one-event and two-stage readings, and the te-kai construction of Acts 24:15 is the lexical floor the stem rests on. No neutralization is required, and the verdict was derived on the original stem."
+  },
+  "lay_summary": "Across both Testaments the same vocabulary points to a future physical rising of all the dead, sorted into two outcomes. In Daniel 12:2 many of those who sleep in the dust of the earth awake, some to everlasting life and some to everlasting shame and contempt. The verb means to wake from sleep and the location is the dust of the ground, which locates this in buried bodies. Isaiah 26:19 stacks the same Hebrew words, your dead shall live, awake and sing, dwellers of dust, and Job 19:26 says that from his flesh he will see God. In John 5:28-29 Jesus says an hour is coming when all who are in the tombs hear his voice and come out, one group to a resurrection of life and the other to a resurrection of judgment. One word for resurrection covers both groups, so a single rising leads to two verdicts. Paul restates the same hope in Acts 24:15, a resurrection of both the just and the unjust, where a tight Greek pairing yokes both classes under one rising. In 1 Corinthians 15 the dead body is described like a seed that is sown and then raised, sown in corruption and raised in incorruption, sown a natural body and raised a spiritual body. The word body is kept on both sides, so the raised state is still a body but one transformed and ruled by the Spirit, not a ghost. Philippians 3:21 adds that the lowly body itself is reshaped to match the glory of the risen Christ. Where readers differ is whether the just and the unjust rise at the same hour or at two separated events. Revelation 20:5 says the rest of the dead did not live until the thousand years were completed, calling the earlier rising the first resurrection, and 1 Corinthians 15:23 names ordered ranks. Those texts open the timing question, but they do not unsettle the claim that both classes are bodily raised, which the words in every cited passage support.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.26.19"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6974"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1860"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0386"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5037"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.5.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.24.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.15.44"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.5"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.15.42"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.5.29"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.24.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Dan.12.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Two sources carry the non-commercial CC-BY-NC-4.0 license and cannot be bulk redistributed: MACULA-Greek (used for syntactic framing of 1 Corinthians 15:42 and the te-kai construction in Acts 24:15) and ETCBC-BHSA (used for the clause and function analysis of Daniel 12:2). The remaining sources are individually redistributable, but the aggregate is gated by these two."
+  },
+  "flags": []
+}

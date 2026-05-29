@@ -1,0 +1,746 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-apostolic-succession-denial",
+  "question_id": "doc-apostolic-succession-denial",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct queries confirm the lexical pattern lands on both sides of this proposition, which is why it is disputed rather than settled. The foundation half is strong: Eph 2:20 builds believers with the aorist passive participle epoikodomethentes on a single themelios of apostles and prophets, Christ the akrogoniaios cornerstone, and 1 Cor 3:11 says no one (oudeis) is able (dynatai, present) to lay (theinai, aorist infinitive of tithemi) another (allon) foundation than the one already laid (keimenon), so the base is fixed once. The apostle's own qualification also looks non-repeatable: Acts 1:21-22 requires one who accompanied the disciples (synelthonton) and is a witness (martys) of the resurrection (anastasis), 1 Cor 9:1 grounds apostleship in the perfect heoraka, I have seen the Lord, and 1 Cor 15:8 calls Paul eschaton, last of all. But the canon also transmits and appoints: 2 Tim 2:2 commands parathou (aorist middle imperative of paratithemi, entrust) the deposit to pistois, faithful men, Jude 3 calls the faith hapax paradotheise, once delivered, and the hand-laying lexemes are real and effective, charisma given dia epitheseos ton cheiron in 1 Tim 4:14 and 2 Tim 1:6, with kathistemi appointing elders in Titus 1:5 and cheirotoneo in Acts 14:23. The words establish succession of teaching and a genuine ordination rite, but they do not lexically rank whether that rite conveys the foundational apostolic authority itself or only ongoing teaching office, so the proposition's exclusive contrast is underdetermined."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2310",
+        "lemma": "θεμέλιος",
+        "transliteration": "themelios",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0204",
+        "lemma": "ἀκρογωνιαῖος",
+        "transliteration": "akrogoniaios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2026",
+        "lemma": "ἐποικοδομέω",
+        "transliteration": "epoikodomeo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0652",
+        "lemma": "ἀπόστολος",
+        "transliteration": "apostolos",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4396",
+        "lemma": "προφήτης",
+        "transliteration": "prophetes",
+        "occurrences_in_canon": 149,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2749",
+        "lemma": "κεῖμαι",
+        "transliteration": "keimai",
+        "occurrences_in_canon": 25,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5087",
+        "lemma": "τίθημι",
+        "transliteration": "tithemi",
+        "occurrences_in_canon": 100,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 248,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 171,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3101",
+        "lemma": "μαθητής",
+        "transliteration": "mathetes",
+        "occurrences_in_canon": 275,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1294",
+        "lemma": "διαστρέφω",
+        "transliteration": "diastrepho",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0645",
+        "lemma": "ἀποσπάω",
+        "transliteration": "apospao",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3708",
+        "lemma": "ὁράω",
+        "transliteration": "horao",
+        "occurrences_in_canon": 668,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3144",
+        "lemma": "μάρτυς",
+        "transliteration": "martys",
+        "occurrences_in_canon": 35,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0386",
+        "lemma": "ἀνάστασις",
+        "transliteration": "anastasis",
+        "occurrences_in_canon": 42,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2078",
+        "lemma": "ἔσχατος",
+        "transliteration": "eschatos",
+        "occurrences_in_canon": 52,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3908",
+        "lemma": "παρατίθημι",
+        "transliteration": "paratithemi",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3860",
+        "lemma": "παραδίδωμι",
+        "transliteration": "paradidomi",
+        "occurrences_in_canon": 121,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4103",
+        "lemma": "πιστός",
+        "transliteration": "pistos",
+        "occurrences_in_canon": 67,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1936",
+        "lemma": "ἐπίθεσις",
+        "transliteration": "epithesis",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2007",
+        "lemma": "ἐπιτίθημι",
+        "transliteration": "epitithemi",
+        "occurrences_in_canon": 39,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5500",
+        "lemma": "χειροτονέω",
+        "transliteration": "cheirotoneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistemi",
+        "occurrences_in_canon": 22,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5486",
+        "lemma": "χάρισμα",
+        "transliteration": "charisma",
+        "occurrences_in_canon": 17,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3866",
+        "lemma": "παραθήκη",
+        "transliteration": "paratheke",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2310",
+      "G0204",
+      "G2026",
+      "G0652",
+      "G4396",
+      "G2749",
+      "G5087",
+      "G3762",
+      "G1410",
+      "G0243",
+      "G3101",
+      "G1294",
+      "G0645",
+      "G3708",
+      "G3144",
+      "G0386",
+      "G2078",
+      "G3908",
+      "G3860",
+      "G4103",
+      "G1936",
+      "G2007",
+      "G5500",
+      "G2525",
+      "G5486",
+      "G3866"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.2.20",
+        "key_terms": [
+          {
+            "strong": "G2310",
+            "lemma": "θεμέλιος"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G0204",
+            "lemma": "ἀκρογωνιαῖος"
+          },
+          {
+            "strong": "G2026",
+            "lemma": "ἐποικοδομέω"
+          },
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          }
+        ],
+        "force": "Believers are described with the aorist passive participle epoikodomethentes (parsing -APPNPM-, having been built upon), set on the foundation (themelios) of the apostles and prophets, Christ Jesus himself being the cornerstone (akrogoniaios, genitive). The aorist participle and the single themelios frame the apostolic foundation as a completed, once-laid base of the building, not a status handed on repeatedly. The cornerstone is Christ, the controlling reference point of the whole structure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "Eph.2.20"
+      },
+      {
+        "ref": "1Cor.3.11",
+        "key_terms": [
+          {
+            "strong": "G2310",
+            "lemma": "θεμέλιος"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G5087",
+            "lemma": "τίθημι"
+          },
+          {
+            "strong": "G2749",
+            "lemma": "κεῖμαι"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          }
+        ],
+        "force": "Paul writes that no one (oudeis) is able (dynatai, present indicative 3PMI-S) to lay (theinai, aorist active infinitive -AAN of tithemi) another (allon) foundation (themelios) besides the one already laid (keimenon, present middle participle -PMPASM of keimai), which is Jesus Christ. The exclusive negation oudeis with the present participle keimenon presents the foundation as a fixed, accomplished reality centered on Christ, ruling out any later re-founding. The construction supports a singular, non-repeatable apostolic foundation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "1Cor.3.11"
+      },
+      {
+        "ref": "Acts.20.30",
+        "key_terms": [
+          {
+            "strong": "G0450",
+            "lemma": "ἀνίστημι"
+          },
+          {
+            "strong": "G2980",
+            "lemma": "λαλέω"
+          },
+          {
+            "strong": "G1294",
+            "lemma": "διαστρέφω"
+          },
+          {
+            "strong": "G0645",
+            "lemma": "ἀποσπάω"
+          },
+          {
+            "strong": "G3101",
+            "lemma": "μαθητής"
+          }
+        ],
+        "force": "Paul foretells that from among the elders themselves men will rise up (anastesontai) speaking distorted things (diestrammena, perfect passive participle of diastrepho) to draw away (apospan) the disciples after them. The warning that corruption can emerge from within the ordained eldership cuts against any guarantee attached to office or lineage itself and foregrounds fidelity of teaching as the safeguard rather than positional standing.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.20.30"
+      },
+      {
+        "ref": "Acts.1.22",
+        "key_terms": [
+          {
+            "strong": "G3144",
+            "lemma": "μάρτυς"
+          },
+          {
+            "strong": "G0386",
+            "lemma": "ἀνάστασις"
+          }
+        ],
+        "force": "In choosing one to fill the apostolic number, the requirement (Acts 1:21-22) is a man who accompanied the others (synelthonton, aorist participle of synerchomai) the whole time the Lord moved among them and who becomes a witness (martys) of the resurrection (anastasis). The qualification is firsthand presence with Jesus and eyewitness of the risen Christ, which is a personal, time-bound condition that cannot be conferred by a later rite. This makes the apostolic office, as defined here, non-repeatable.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "Acts.1.22"
+      },
+      {
+        "ref": "1Cor.9.1",
+        "key_terms": [
+          {
+            "strong": "G3708",
+            "lemma": "ὁράω"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          }
+        ],
+        "force": "Paul defends his apostleship by asking, have I not seen (heoraka, perfect active indicative 1XAI-S of horao) Jesus our Lord. The perfect tense marks an abiding result of a completed seeing, and Paul rests his standing as an apostle on having personally seen the risen Christ. Apostleship here is tied to direct sight of the Lord, not to an office handed forward by ordination.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.9.1"
+      },
+      {
+        "ref": "1Cor.15.8",
+        "key_terms": [
+          {
+            "strong": "G2078",
+            "lemma": "ἔσχατος"
+          }
+        ],
+        "force": "After listing resurrection appearances, Paul says last of all (eschaton, neuter accusative of eschatos), as to one untimely born (ektromati), he appeared (ophthe, aorist passive 3API-S) also to me. The word last places Paul at the close of the series of resurrection witnesses who became apostles. If the apostolic seeing of the risen Christ has a last member, the eyewitness foundation is a closed set, not an ongoing line.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Cor.15.8"
+      },
+      {
+        "ref": "Rev.21.14",
+        "key_terms": [
+          {
+            "strong": "G2310",
+            "lemma": "θεμέλιος"
+          },
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          }
+        ],
+        "force": "The wall of the new Jerusalem has twelve foundations (themelious), and on them the twelve names of the twelve apostles of the Lamb. The apostolic foundation is fixed at a definite number, twelve, and named, which presents the apostles as a settled foundational set built into the final city rather than an office that is added to over time. This reinforces the once-laid, countable, non-repeatable picture.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "Rev.21.14"
+      },
+      {
+        "ref": "2Tim.2.2",
+        "key_terms": [
+          {
+            "strong": "G3908",
+            "lemma": "παρατίθημι"
+          },
+          {
+            "strong": "G4103",
+            "lemma": "πιστός"
+          },
+          {
+            "strong": "G1321",
+            "lemma": "διδάσκω"
+          }
+        ],
+        "force": "Paul commands, the things you heard from me, entrust (parathou, aorist middle imperative 2AMD-S of paratithemi) to faithful (pistois) men who will be competent to teach (didaxai) others also. The verb governs the handing on of taught content, what was heard, and the criterion is faithfulness and teaching ability. This is a real chain of transmission, Paul to Timothy to faithful men to others, but the thing transmitted in the words is the teaching deposit, not explicitly an authority-conferring rite.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Tim.2.2"
+      },
+      {
+        "ref": "Jude.1.3",
+        "key_terms": [
+          {
+            "strong": "G3860",
+            "lemma": "παραδίδωμι"
+          },
+          {
+            "strong": "G4102",
+            "lemma": "πίστις"
+          }
+        ],
+        "force": "Jude urges contending for the faith once delivered (hapax paradotheise, aorist passive participle -APPDSF of paradidomi with the adverb hapax, once for all) to the saints. The aorist passive participle with hapax presents the body of faith as handed over a single time and not subject to later supplement. Continuity is framed as guarding a once-delivered deposit, which aligns with grounding continuity in fidelity to apostolic teaching.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Jude.1.3"
+      },
+      {
+        "ref": "1Tim.4.14",
+        "key_terms": [
+          {
+            "strong": "G1936",
+            "lemma": "ἐπίθεσις"
+          },
+          {
+            "strong": "G5495",
+            "lemma": "χείρ"
+          },
+          {
+            "strong": "G5486",
+            "lemma": "χάρισμα"
+          },
+          {
+            "strong": "G4244",
+            "lemma": "πρεσβυτέριον"
+          }
+        ],
+        "force": "Timothy is told not to neglect the gift (charisma) in him, which was given through prophecy with the laying on (epitheseos, genitive of epithesis) of the hands (cheiron) of the eldership (presbyteriou). Here a real, hands-on rite conveys a charisma. The lexemes show that hand-laying is not empty and that ministerial gifting is associated with it, which complicates a flat denial of any role for the laying-on of hands.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Tim.4.14"
+      },
+      {
+        "ref": "2Tim.1.6",
+        "key_terms": [
+          {
+            "strong": "G1936",
+            "lemma": "ἐπίθεσις"
+          },
+          {
+            "strong": "G5495",
+            "lemma": "χείρ"
+          },
+          {
+            "strong": "G5486",
+            "lemma": "χάρισμα"
+          }
+        ],
+        "force": "Paul reminds Timothy to rekindle the gift (charisma) of God that is in him through the laying on (epitheseos) of my hands (cheiron). The same charisma is tied to the apostle's own hand-laying. The phrase places a concrete transmission of gifting in the hand-laying act, which is the strongest lexical counterweight to a reading that excludes any tactile transmission, though the word here is charisma, gifting, and not the word apostolos or a stated transfer of apostolic authority.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Tim.1.6"
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          },
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          }
+        ],
+        "force": "Titus is left in Crete to set in order what remained and to appoint (katasteses, aorist active subjunctive 2AAS-S of kathistemi) elders in every city. The verb kathistemi is the standard term for installing officers, and elders are appointed city by city by Paul's delegate. The text shows an ordered appointing of officers carrying forward, which is a genuine continuity of office, though the act named is appointing elders, not a stated handing on of apostolic standing.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Titus.1.5"
+      },
+      {
+        "ref": "Eph.4.11",
+        "key_terms": [
+          {
+            "strong": "G0652",
+            "lemma": "ἀπόστολος"
+          },
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          }
+        ],
+        "force": "The risen Christ is the one who gave (edoken) apostles, prophets, evangelists, shepherds and teachers. The giving subject is Christ rather than a human chain of ordainers, so ministry gifts come from the ascended Lord. This complicates a reading that locates ministerial standing only in transmitted office, but it does not by itself decide the hand-laying question, since gifts given by Christ and rites administered by men are both present in the canon.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Eph.4.11"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.2.20",
+        "to": "Eph.4.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.3.11",
+        "to": "Isa.28.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.2.20",
+        "to": "Isa.28.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.30",
+        "to": "Prov.19.1",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Tim.4.14",
+        "addressed": true,
+        "resolution": "Now adjudicated by direct query, not merely flagged. The lexemes are real: charisma (G5486) is conveyed dia epitheseos (G1936, laying on) ton cheiron (G5495) of the presbyterion. This shows the canon does use a hands-on rite that conveys ministerial gifting, so a flat denial of any role for hand-laying overreaches. It does not resolve the disputed verdict in favor of a sacramental succession, because the object given is charisma (gifting for service), and the text does not lexically equate this with conferral of the foundational apostolic authority defined by eyewitness of the risen Christ. The rite is real; what it transmits in the words is gifting and office, not stated apostolic standing."
+      },
+      {
+        "ref": "2Tim.1.6",
+        "addressed": true,
+        "resolution": "Parallel to 1 Tim 4:14 and now lexically tested. The same charisma is rekindled through the laying on (epitheseos) of Paul's own hands (cheiron). This is the strongest single-text counterweight to the denial, because here the apostle himself lays hands and a gift follows. It is addressed by observing that the noun is charisma, gifting, and the verb governs rekindling of a gift, with no lexeme transferring the apostolos title or the eyewitness qualification. So it confirms a meaningful hand-laying transmission of gifting while leaving open whether that equals apostolic succession, which is exactly why the verdict stays disputed."
+      },
+      {
+        "ref": "2Tim.2.2",
+        "addressed": true,
+        "resolution": "Directly queried this time. The verb parathou (aorist middle imperative of paratithemi, entrust) governs the things you heard from me, that is, taught content, handed to faithful (pistois) men competent to teach others. This establishes a four-link chain of transmission but its grammatical object is the teaching deposit, not a rite. It therefore supports grounding continuity in fidelity to apostolic teaching while neither asserting nor denying a tactile authority transfer, so it is marked as complicating rather than decisive."
+      },
+      {
+        "ref": "Eph.4.11",
+        "addressed": true,
+        "resolution": "The fivefold gifting names apostles and prophets as categories of gift given by the ascended Christ (edoken). Read against Eph 2:20 and 1 Cor 3:11, the once-laid foundational apostles are distinguished from later gifted ministers, and the giving subject is Christ, not a human succession. It is resolved as complicating but not decisive: the canon contains both Christ-given gifts and man-administered appointment, and the vocabulary does not rank the two."
+      },
+      {
+        "ref": "1Cor.15.8",
+        "addressed": true,
+        "resolution": "Resolved in favor of the foundation half. Paul calling himself eschaton, last of all, of the resurrection witnesses who became apostles, with ektromati, places a final member on the eyewitness apostolic set. There is no lexeme here opening the set to later additions, so it supports the non-repeatability of the apostolic office and is not a complicating text in tension with the denial, but it is recorded for transparency because it bears directly on whether the office can be transmitted."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units supplied and not_in_ecm_scope is true for every anchor (the only ingested CBGM window is 3 John 1.1 to 1.15). The verdict turns on settled wording in Eph 2:20, 1 Cor 3:11, Acts 20:30, 2 Tim 2:2, 1 Tim 4:14, 2 Tim 1:6, Titus 1:5, Jude 3, and Rev 21:14, none of which carries a verdict-affecting variant in the standard apparatus."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "episcopal_succession",
+      "presbyterial_ordination",
+      "congregational_polity",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "foundation-and-eyewitness-as-closed-set",
+        "verdict": "supports the proposition (denies a transmissible apostolic authority chain)",
+        "rationale": "Eph 2:20 aorist epoikodomethentes on one themelios, 1 Cor 3:11 oudeis dynatai theinai allon, and Rev 21:14 twelve named foundations present the apostolic foundation as laid once and countable. The apostle's qualification is eyewitness of the risen Christ (Acts 1:22 martys of the anastasis, 1 Cor 9:1 perfect heoraka, 1 Cor 15:8 eschaton, last of all), a personal, time-bound condition no rite can confer. On this reading continuity attaches to that fixed foundation and to fidelity to its teaching, not to a transmitted office."
+      },
+      {
+        "framework": "ordination-rite-transmits-office",
+        "verdict": "weighs against the exclusive denial",
+        "rationale": "The canon institutes a real hands-on rite: charisma is given dia epitheseos ton cheiron in 1 Tim 4:14 (of the presbytery) and 2 Tim 1:6 (of Paul himself), hands are not to be laid hastily in 1 Tim 5:22, and officers are appointed by kathistemi in Titus 1:5 and cheirotoneo in Acts 14:23. Read in its strongest form, the deposit-and-appointment chain of 2 Tim 2:2 plus the gift-conveying hand-laying shows office and gifting genuinely handed forward, so continuity is not grounded in teaching alone but also in an ordered, tactile transmission of ministry."
+      },
+      {
+        "framework": "scope-underdetermination",
+        "verdict": "the words do not rank the two patterns, hence disputed",
+        "rationale": "Both patterns are lexically present and neither vocabulary set forecloses the other. The hand-laying texts use charisma (gifting) and office terms (presbyteros, episkopos), never apostolos, for what is transmitted by the rite, and the apostle texts use the eyewitness qualification, never a rite, for what makes an apostle. The proposition asks whether the rite conveys apostolic authority or only ongoing office, a scope question the lexemes leave open, so a fair reader can land on either the teaching-fidelity emphasis or the office-transmission emphasis without contradicting the words."
+      }
+    ],
+    "notes": "Verdict compares two lexically attested patterns: a once-laid, eyewitness-qualified apostolic foundation versus a real ordination rite that conveys charisma and appoints officers. The two halves of the proposition are evaluated separately. The foundation and qualification half is lexically strong; the exclusive denial of any tactile transmission is undercut by the hand-laying lexemes, while a positive doctrine of apostolic-authority succession is not lexically stated either. The vocabulary supports succession of doctrine and a genuine ordination rite but does not equate that rite with conferral of the foundational apostolic office."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "On what basis does the Church remain in continuity with the apostles: fidelity to the apostles' teaching, the transmission of office through the laying-on of hands, both together, or neither?",
+    "notes": "The stem is framed as a contrast that prefers teaching-fidelity over hand-laying succession, which presupposes a verdict against tactile transmission of office. The neutral form poses the basis as an open question. The verdict is derived on the original stem and reported as disputed: the foundation lexemes and the eyewitness qualification cleanly establish that the apostolic office is once-laid and non-repeatable, while the hand-laying and appointment lexemes (epithesis, epitithemi, cheirotoneo, kathistemi, charisma) show a genuine ordination rite that conveys gifting and office, so the two halves of the proposition are not jointly settled by the words. Verdict unchanged from the prior file; the prior file marked the office side not lexically testable for want of those lexemes, which have now been queried directly and found to weigh against the exclusive denial without establishing a sacramental succession either."
+  },
+  "lay_summary": "This statement says the Church stays linked to the apostles by holding to their teaching, not by an unbroken chain of bishops passing on office through the laying-on of hands. The original-language evidence cuts in two directions, which is why the result is marked disputed. On one side, the picture of a foundation is strong. In Ephesians 2:20 believers are spoken of with a past-tense verb, having been built on the foundation of the apostles and prophets, with Christ as the cornerstone. In First Corinthians 3:11 Paul says flatly that no one is able to lay any other foundation than the one already in place, Jesus Christ. Revelation 21:14 even fixes the apostolic foundations at twelve, named. And what made someone an apostle looks one-time: Acts 1 requires a man who had been with Jesus and saw him risen, Paul defends himself by saying I have seen the Lord, and he calls himself the last of all to whom the risen Christ appeared. A seeing that has a last member is a closed set, not a line that continues. On the other side, the same writings clearly use a hands-on rite. A gift is given through the laying on of hands in First Timothy 4:14 and Second Timothy 1:6, hands are not to be laid hastily, and elders are appointed city by city in Titus 1:5 and Acts 14:23. Second Timothy 2:2 tells Timothy to entrust what he heard to faithful men who can teach others, a real chain. So the words plainly support passing on the teaching and a genuine ordination, but here is the crux: when the texts describe the laying-on of hands, the thing handed over is called a gift for service and an office of elder or overseer, never the word apostle, and the thing that makes an apostle, seeing the risen Lord, is never tied to a rite. The vocabulary therefore does not tell us whether ordination passes on apostolic authority itself or only ongoing ministry. That gap, not any outside opinion, is why careful readers land on different answers.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.3.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.9.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.2.2"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jude.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.4.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Tim.1.6"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1936"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3908"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2310"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.2.20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.3.11"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-future-for-israel",
+  "question_id": "doc-future-for-israel",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.95,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Romans 11:26 reads kai houtos pas Israel sothesetai, and three lexical pressure points sit under the proposition. First, the noun Israel (G2474, 69 NT occurrences) is demonstrably two-valued in Paul himself. Romans 9:6 places G2474 twice in one clause and explicitly denies that all from G2474 are G2474; Galatians 6:16 attaches G2474 to a benediction on those who walk by the cross-rule (ton Israel tou theou); Romans 11:1 to 2 names ethnic Israel as ton laon autou hon proegno and emphatically denies that God has rejected them. The same lemma carries ethnic and redefined senses in the same author, so pas Israel in 11:26 is not univocal. Second, the adverb houtos (G3779, 215 NT occurrences) is lexically a manner adverb ('in this way'); the temporal-sequential sense ('and then') cannot be extracted from morphology and depends on the preceding achri-clause to license it. Third, the adjective ametameletos (G0278) occurs only twice in the canon (Rom 11:29; 2 Cor 7:10), which forces the irrevocability claim to lean on a near-hapax. The future passive sothesetai (G4982) plus the unconditional Abrahamic berit olam (Gen 17:7 to 8) plus the new berit named to bet Yisrael (Jer 31:31 to 37) plus the future mourning of Jerusalem over the pierced one (Zech 12:10) together establish a durable covenant standing and a coming corporate turning, but the lexemes do not by themselves rank an ethnic-corporate-event reading against a redefined-people-of-God reading. The pattern is materially contested, so the proposition is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2474",
+        "lemma": "Ἰσραήλ",
+        "transliteration": "Israel",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3478",
+        "lemma": "יִשְׂרָאֵל",
+        "transliteration": "Yisrael",
+        "occurrences_in_canon": 2412,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1285",
+        "lemma": "בְּרִית",
+        "transliteration": "berit",
+        "occurrences_in_canon": 266,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0278",
+        "lemma": "ἀμεταμέλητος",
+        "transliteration": "ametameletos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5769",
+        "lemma": "עוֹלָם",
+        "transliteration": "olam",
+        "occurrences_in_canon": 438,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4843",
+        "lemma": "מָרַר",
+        "transliteration": "marar",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0891",
+        "lemma": "ἄχρι",
+        "transliteration": "achri",
+        "occurrences_in_canon": 50,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3779",
+        "lemma": "οὕτως",
+        "transliteration": "houtos",
+        "occurrences_in_canon": 215,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1263,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4138",
+        "lemma": "πλήρωμα",
+        "transliteration": "pleroma",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0600",
+        "lemma": "ἀποκαθίστημι",
+        "transliteration": "apokathistemi",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2992",
+        "lemma": "λαός",
+        "transliteration": "laos",
+        "occurrences_in_canon": 142,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2474",
+      "H3478",
+      "H1285",
+      "G0278",
+      "H5769",
+      "H4843",
+      "G0891",
+      "G3779",
+      "G3956",
+      "G4982",
+      "G4138",
+      "G0600",
+      "G2992",
+      "G0654",
+      "G0763",
+      "H1992",
+      "H5002",
+      "H3605"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.11.26",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G3779",
+            "lemma": "οὕτως"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G0654",
+            "lemma": "ἀποστρέφω"
+          },
+          {
+            "strong": "G0763",
+            "lemma": "ἀσέβεια"
+          }
+        ],
+        "force": "The crux clause kai houtos pas Israel sothesetai compounds three contested lexical points. The verb sothesetai is future passive of G4982, so an eschatological deliverance is asserted, but the verb alone does not fix who its subject is or whether it names a single visible event. The quantifier pas (G3956) with G2474 fixes scope only relative to whatever Israel denotes. The adverb houtos (G3779, 215 NT occurrences) is a manner adverb in its core lexical sense ('in this way, after this manner'); a strictly temporal-sequential reading ('and then') is not a morphological feature of the word and is inferred only by reading houtos as picking up the achri-clause of v.25. The cited oracle (Isa 59:20 to 21 plus Isa 27:9) supplies the Deliverer who comes ek Sion and apostrepsei asebeias ('will turn away ungodliness'), grounding the saving act in a redemptive intervention. The lexical bundle anchors a coming deliverance but does not by morphology rank the ethnic-corporate reading against a redefined or remnant reading.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.25",
+        "key_terms": [
+          {
+            "strong": "G0891",
+            "lemma": "ἄχρι"
+          },
+          {
+            "strong": "G4138",
+            "lemma": "πλήρωμα"
+          }
+        ],
+        "force": "The partial hardening (apo merous porosis) of Israel holds achri hou (G0891 plus the relative, 'until') to pleroma ton ethnon eiselthe ('the fulness of the Gentiles comes in'). The preposition achri is consistently a terminus marker across its 50 NT occurrences, setting a boundary point for the hardening. What achri does NOT specify by morphology is what happens after the terminus, whether a single national event, an ongoing ingathering, or simply the end of the hardening as such. The terminus reading is genuinely there in the word, but the inference to a future visible salvation of the nation as a whole is supplied by reading houtos in v.26 sequentially rather than modally.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.1",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          }
+        ],
+        "force": "Paul opens the unit with me apesato ho theos ton laon autou? me genoito, denying with the strongest available negation that God has rejected his people, and grounds the denial in his own descent as an Israelite (G2475) from the seed of Abraham. The pairing of laos autou with the foreknowledge verb in v.2 (hon proegno) gives ethnic Israel a divinely held standing and is the load-bearing premise for any future-for-Israel reading. It does not itself assert a future mass salvation, so it supplies the covenant premise but not the disputed conclusion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.28",
+        "key_terms": [
+          {
+            "strong": "G0027",
+            "lemma": "ἀγαπητός"
+          },
+          {
+            "strong": "G0278",
+            "lemma": "ἀμεταμέλητος"
+          }
+        ],
+        "force": "Israel is echthroi ('enemies') with respect to the gospel but agapetoi ('beloved') with respect to election, dia tous pateras ('on account of the fathers'). The patriarchal grounding ties present standing to the Abrahamic promise. Verse 29 then declares ametameleta (G0278) gar ta charismata kai he klesis tou theou, that the gifts and calling are 'not to be repented of, irrevocable.' G0278 occurs only twice in the canon (here and 2 Cor 7:10, where it modifies a repentance 'not to be regretted'), so the irrevocability claim leans on a near-hapax whose semantic field is 'never recalled, never withdrawn.' The word strongly supports an unbroken covenant standing for ethnic Israel, but the leap from 'gifts and calling are irrevocable' to 'a future visible corporate salvation event' remains an interpretive step beyond the lexeme.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.17.7",
+        "key_terms": [
+          {
+            "strong": "H1285",
+            "lemma": "בְּרִית"
+          },
+          {
+            "strong": "H5769",
+            "lemma": "עוֹלָם"
+          }
+        ],
+        "force": "God hekim ('establishes', H6965) his berit (H1285) between himself and Abraham and zaro acharav ('his seed after him') le-dorotam ('throughout their generations') li-berit olam ('for an everlasting covenant'), li-hyot lekha le-Elohim ('to be God to you'). The pairing berit olam marks the covenant as perpetual, and v.8 extends it to the land as an ahuzzat olam. The lexical force grounds an enduring relationship with the seed of Abraham. It is the OT root of the irrevocability claim Paul echoes with ametameleta, but the covenant text speaks of relationship and land, not explicitly of a future mass conversion.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.31.33",
+        "key_terms": [
+          {
+            "strong": "H1285",
+            "lemma": "בְּרִית"
+          },
+          {
+            "strong": "H3478",
+            "lemma": "יִשְׂרָאֵל"
+          }
+        ],
+        "force": "The new berit is cut with bet Yisrael (and v.31 with bet Yehudah), with the torah written al libbam and the covenant formula 'I will be their God and they shall be my people.' The naming of the house of Israel and house of Judah as the covenant partners keeps an ethnic-national referent in view, and vv.35 to 37 stake the continuance of zera Yisrael as a goy lefanai on the choq of sun, moon and sea (sham shemesh, yareah, kokhavim) and the immeasurability of the heavens. The lexical pattern guarantees Israel's permanence as a people but describes covenant renewal and forgiveness, not a single future visible salvation event.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Zech.12.10",
+        "key_terms": [
+          {
+            "strong": "H4843",
+            "lemma": "מָרַר"
+          },
+          {
+            "strong": "H1856",
+            "lemma": "דקר"
+          }
+        ],
+        "force": "YHWH pours out (shafakhti, H8210) a ruah hen ve-tahanunim on the house of David and the inhabitants of Jerusalem, and they look on (ve-hibitu, H5027) eth asher daqaru (H1856, 'whom they pierced') and mourn (ve-safdu, H5594), with the verb marar (H4843) describing bitter lamentation ke-misped al ha-yahid ('as one mourns for an only child'), ve-hamer ke-hamer al ha-bekhor ('and bitter as one is bitter over a firstborn'). The text portrays a future corporate turning of the people of Jerusalem toward the pierced one. Whether this is a single visible salvation of the ethnic people as a whole, or a representative corporate turning fulfilled in part at Pentecost (Acts 2) and extended in the gospel age, is not settled by the lexemes alone.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.6",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "Two chapters before Rom 11:26 Paul writes ou gar pantes hoi ex Israel houtoi Israel, 'for not all those from Israel are Israel.' G2474 appears twice in one clause with two distinct referents: a wider ethnic descent ('out from Israel') and a narrower theological remnant ('these are Israel'). Verses 7 to 8 reinforce this by distinguishing ta tekna tes sarkos from ta tekna tes epangelias and reckoning only the latter eis sperma. This intra-Pauline polysemy of Israel within three chapters of 11:26 is the principal lexical reason pas Israel in 11:26 cannot be assumed to denote the ethnic nation as a whole; the same author has just demonstrated that the noun does not require that referent.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.6.16",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          },
+          {
+            "strong": "G2583",
+            "lemma": "κανών"
+          }
+        ],
+        "force": "Paul closes with peace and mercy 'kai epi ton Israel tou theou' ('and upon the Israel of God'). The conjunction kai is ambiguous between additive ('and also upon') and explicative ('that is, upon'), and the referent of G2474 here is contested between believing ethnic Jews and the believing community as a whole. The lexeme G2474 itself does the same double duty here that it does at Rom 9:6, supplying a New Testament data point for a redefined or extended use of the name. This complicates a reading of Rom 11:26 that assumes G2474 must denote the ethnic nation.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.29",
+        "key_terms": [
+          {
+            "strong": "G0011",
+            "lemma": "Ἀβραάμ"
+          },
+          {
+            "strong": "G2818",
+            "lemma": "κληρονόμος"
+          }
+        ],
+        "force": "ei de hymeis Christou, ara tou Abraam sperma este, kat' epangelian kleronomoi ('and if you are Christ's, then you are Abraham's seed, heirs according to promise'). The lexemes sperma Abraam (G4690 plus G0011) and kleronomoi (G2818) are applied to all who are en Christo, irrespective of ethnicity, redistributing covenant-heir vocabulary to a non-ethnic body. Combined with v.7 (hoi ek pisteos houtoi huioi eisin Abraam), this supports a reading in which Abrahamic-covenant categories are inherited through faith. It complicates any reading that strictly limits the Abrahamic-promise vocabulary to ethnic descent.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.12",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          }
+        ],
+        "force": "Gentiles before Christ were 'apellotriomenoi tes politeias tou Israel' ('alienated from the commonwealth of Israel') and 'xenoi ton diathekon tes epangelias' ('strangers to the covenants of promise'). Here G2474 names the historic covenant people from which Gentiles were excluded; vv.13 to 16 then say that Christ has 'made the two one' (ta amphotera hen) and broken down the mesotoichon tou fragmou (G3320 plus G5418) to create hena kainon anthropon. The lexical pattern uses G2474 in a clearly ethnic-historic sense, then describes Gentile incorporation into the same covenant body, supplying both a non-redefined use of Israel and a one-new-man motif at once.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.9",
+        "key_terms": [
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          },
+          {
+            "strong": "G1085",
+            "lemma": "γένος"
+          }
+        ],
+        "force": "Believers are addressed as genos eklekton (G1085 plus G1588), basileion hierateuma (G0934 plus G2406), ethnos hagion (G1484 plus G0040), and laos eis peripoiesin (G2992), reusing the Exodus 19:5 to 6 and Isaiah 43 vocabulary that originally named ethnic Israel. The lexeme G2474 itself is not present here, so this is a transfer of covenant-people titles rather than a renaming of the addressees as 'Israel.' The lexical pattern supports a redistribution of Israel's titular vocabulary to the believing community but does not by itself absorb the noun G2474 into the church.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.6",
+        "key_terms": [
+          {
+            "strong": "G0600",
+            "lemma": "ἀποκαθίστημι"
+          },
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          }
+        ],
+        "force": "The disciples ask 'ei en to chrono touto apokathistaneis ten basileian to Israel?' ('Are you at this time restoring the kingdom to Israel?'). The verb G0600 apokathistemi means 'restore to a prior state.' Jesus' answer in v.7 ('ouk hymon estin gnonai chronous e kairous') corrects the timing but does not deny the category of restoration or the propriety of using G2474 in this sense. Lexically the exchange leaves the restoration-to-Israel hope intact and denies only the knowability of its timing. This supports a future-for-Israel reading without specifying scope or whether the restoration is realized within the gospel-age incorporation of the nations or as a distinct future event.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.11.26",
+        "to": "Isa.27.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.27",
+        "to": "Isa.55.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.26",
+        "to": "Isa.11.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.17.7",
+        "to": "Gen.15.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jer.31.33",
+        "to": "Deut.30.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.17.7",
+        "to": "Exod.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.28",
+        "to": "Gen.26.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.17.8",
+        "to": "Exod.6.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.9.6",
+        "addressed": true,
+        "resolution": "Paul's own statement ou gar pantes hoi ex Israel houtoi Israel establishes that G2474 carries a narrower-than-ethnic sense within the same argument. This means pas Israel in 11:26 cannot be read as unambiguously denoting the entire ethnic people; the same lemma in the same author refuses that constraint. The proposition is graded disputed rather than affirmed because of this intra-Pauline polysemy."
+      },
+      {
+        "ref": "Gal.6.16",
+        "addressed": true,
+        "resolution": "The phrase ton Israel tou theou places G2474 in apposition or addition to those who 'walk by this rule' (toi kanoni). The conjunction kai can be additive (a separate group of believing ethnic Jews) or explicative ('that is, the Israel of God'), and the lexeme G2474 itself permits both. Direct lexical query confirms G2474 is used at Gal 6:16, Eph 2:12 (commonwealth of Israel in an ethnic-historic sense), Rom 9:6 (two referents in one clause), and Rom 11:1 to 2 (ethnic Israel as ton laon autou). The noun is genuinely two-valued in the Pauline corpus, and this Galatians datum is the strongest single complicating reference for the ethnic-corporate reading of Rom 11:26."
+      },
+      {
+        "ref": "Rom.11.25",
+        "addressed": true,
+        "resolution": "The terminus achri hou ('until') in v.25 sets an end to the hardening but does not by morphology determine what follows the terminus. The adverb houtos in v.26 (G3779) is a manner adverb lexically ('in this way'); a strictly temporal-then-national reading is not encoded in the word and must be inferred from the achri-clause it follows. Both modal ('and in this manner') and sequential-modal ('and then, in this way') are lexically licensed. The proposition leans on the sequential-modal reading, which is defensible but not lexically forced."
+      },
+      {
+        "ref": "Gal.3.7",
+        "addressed": true,
+        "resolution": "hoi ek pisteos houtoi huioi eisin Abraam ('those of faith, these are sons of Abraham') applies covenant-descent vocabulary (huioi Abraam) to believers irrespective of ethnicity. Together with Gal 3:29 (heirs kat' epangelian), this complicates any reading that confines Abrahamic-promise vocabulary to ethnic descent and therefore complicates the inference from the Abrahamic berit olam directly to a future event for the ethnic nation as a corporate body."
+      },
+      {
+        "ref": "1Pet.2.9",
+        "addressed": true,
+        "resolution": "The Exodus and Isaiah titles (genos eklekton, basileion hierateuma, ethnos hagion, laos) are transferred to believers, but the noun G2474 itself is not used of the church here. The lexical pattern supports a transfer of covenant-people titles to the believing community without absorbing the noun Israel into the church. This complicates a strong supersessionist reading that would identify the church as Israel and equally complicates a strong ethnic-only reading that would deny any transfer of Israel's vocabulary to believers."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle reports not_in_ecm_scope true and supplies no variant units for the Romans 11 anchor verses. The apparatus markers in Rom 11:25 (eta) and 11:26 (rhuomenos) are orthographic and citation-form variants that do not bear on the disputed referent of pas Israel or on the future passive sothesetai. Zech 12:10 has a known textual question between daqaru and the LXX rendering, but it does not affect the lexical force of the corporate mourning. The verdict holds across the plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "future_national_reading",
+        "verdict": "affirms",
+        "rationale": "Reads pas Israel as the ethnic nation viewed corporately, takes houtos as sequential-modal after the achri-terminus of the Gentile fulness, and reads the ametameleta of Rom 11:29 plus the berit olam of Gen 17:7 to 8 plus the corporate mourning of Zech 12:10 over the pierced one as converging on a future visible salvation of the people. The strongest lexical anchors for this reading are the near-hapax ametameletos guaranteeing the gifts and calling cannot be withdrawn, the achri-terminus marking an end to the hardening, and the disciples' apokathistemi-question in Acts 1:6 that Jesus does not lexically deny but only relocates in time."
+      },
+      {
+        "framework": "fulfilled_in_christ_reading",
+        "verdict": "denies",
+        "rationale": "Reads pas Israel as either the elect remnant of ethnic Israel summed across history or the combined Jew and Gentile people of God in Christ, takes houtos as modal ('in this way, by the gospel'), and grounds the redefinition in Rom 9:6 (G2474 as two-valued in Paul himself), Gal 6:16 (ton Israel tou theou), Gal 3:7 and 29 (hoi ek pisteos are sons and heirs of Abraham), Eph 2:11 to 22 (the wall is broken down, the two are made hena kainon anthropon), and the redistribution of Israel's titles to believers in 1 Pet 2:9 (genos eklekton, basileion hierateuma, ethnos hagion). On this reading the salvation of pas Israel is the in-Christ ingathering itself, not a separate future event."
+      },
+      {
+        "framework": "mediating_reading",
+        "verdict": "disputed",
+        "rationale": "Affirms an unbroken covenant standing for ethnic Israel from Rom 11:1 to 2 and 11:28 to 29 plus a future large-scale conversion of ethnic Jews at the close of the gospel age, while denying a distinct national-territorial program separate from the one people of God in Christ. The lexemes ametameleta (G0278), laos autou hon proegno (Rom 11:2), and corporate mourning at Zech 12:10 support the future-conversion side, while the polysemy of G2474 in Paul and the one-new-man vocabulary of Eph 2 constrain it. The morphology supports this mediating reading at least as well as the strict ethnic-corporate-event reading."
+      }
+    ],
+    "notes": "The verdict turns on three lexical facts the morphology does not adjudicate: the referent of G2474 in Rom 11:26 given its proven polysemy at Rom 9:6 and Gal 6:16, the force of G3779 (modal versus sequential-modal), and the scope of G3956 with G2474. Each lens above can be assembled from real lexical data. The proposition is disputed because the words supply all three lenses and rank none."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Romans 11:26 states that kai houtos pas Israel sothesetai ('and in this way all Israel will be saved'); the lexical question is what pas Israel denotes (ethnic nation as a corporate future body, elect ethnic remnant across history, or combined Jew and Gentile people of God in Christ) and whether kai houtos is modal or sequential, which together control whether a future visible salvation of the ethnic nation as such is asserted.",
+    "notes": "The original stem encodes a specific reading ('future, visible salvation of ethnic Israel as a people') of contested lexemes. 'As a people' presupposes the ethnic-corporate referent of pas Israel that Rom 9:6 and Gal 6:16 show is not the only available sense, and 'future, visible' presupposes a sequential-modal reading of houtos. The verdict is derived on the original stem and graded disputed because the neutral form exposes multiple defensible lexical readings the morphology does not rank."
+  },
+  "lay_summary": "The proposition stands on Romans 11:26, where Paul writes kai houtos pas Israel sothesetai, 'and in this way all Israel will be saved.' Three small pieces of Greek do the heavy lifting, and each is genuinely open. First, the noun 'Israel' is two-valued in Paul himself. Only two chapters earlier, in Romans 9:6, he writes that 'not all those from Israel are Israel,' using the same word twice in one sentence with two different meanings. In Galatians 6:16 he speaks of 'the Israel of God,' attached to those who walk by his cross-rule, and the word 'Israel' there is contested between believing ethnic Jews and the believing community as a whole. So 'all Israel' in Romans 11:26 could mean the ethnic nation viewed as a body, or the saved remnant of that nation gathered across all of history, or Jewish and Gentile believers together. The word itself does not pick. Second, the little adverb houtos, translated 'so' or 'in this way' or 'and then,' is by default a manner word, not a time word. A strict 'and then, after the Gentiles' reading is a context-driven inference, not a feature of the word itself. Third, the rare word translated 'irrevocable' in verse 29 appears only twice in the whole New Testament, here and in 2 Corinthians 7:10. That word does guarantee that God's gifts and calling for ethnic Israel cannot be withdrawn, which is the strongest single anchor on the future-for-Israel side. The surrounding context strengthens that side further. Paul says God has not rejected his foreknown people in Romans 11:1 to 2. The Old Testament backs him up. Genesis 17 makes the covenant with Abraham and his seed an everlasting covenant, Jeremiah 31 names the house of Israel and Judah as the covenant partners and ties their survival as a nation to the unbreakable order of sun, moon, and sea, and Zechariah 12:10 pictures the people of Jerusalem mourning bitterly as they look on the one they pierced. The other side has lexical weight too. Galatians 3 calls those who believe sons of Abraham and heirs of the promise, Ephesians 2 says the wall between Jew and Gentile is broken down to make one new man, and 1 Peter 2:9 transfers Israel's titles, elect race, royal priesthood, holy nation, to believers. Acts 1:6 to 7 keeps a 'restore the kingdom to Israel' hope intact but refuses to set its time. Both lenses are built from real words. The Greek and Hebrew together supply both a durable standing for ethnic Israel and a redefinition vocabulary in Christ, and they do not rank the two. That is why the lexical pattern here is contested rather than settled in either direction.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.11.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Zech.12.10"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0278"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3779"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1285"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.17.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.11.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.6.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.9.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.11.26"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek and MACULA-Hebrew, both under CC-BY-NC-4.0 (non-commercial), which forbids bulk redistribution. The remaining sources (STEPBible-TBESG, STEPBible-TBESH, OSHB-morphology under CC-BY-4.0, MorphGNT-morphology under CC-BY-SA-4.0, and TSK public domain) are individually redistributable, but the aggregate is not safe to publish because of the two MACULA composite sources."
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "complicating-unresolved",
+    "ecm-shadow"
+  ]
+}

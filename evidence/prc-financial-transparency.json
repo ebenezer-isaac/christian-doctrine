@@ -1,0 +1,428 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-financial-transparency",
+  "question_id": "prc-financial-transparency",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.725,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The middle participle stellomenoi in 2 Cor 8:20 marks the apostolic team as deliberately arranging matters so that no one can blame them in administering the large gift, hadrotes, with hadrotes itself being a New Testament hapax that concentrates the lexical signal on this single administrative act. 2 Cor 8:21 then states the principle, pronooumen kala ou monon enopion kyriou alla kai enopion anthropon, taking forethought for what is honorable not only before the Lord but also before people, and the same triplet pronoeo plus kala plus enopion anthropon recurs in Rom 12:17, showing this is a settled Pauline ethical formula for visible accountability rather than a one-off. The fund-bearer in 8:19 is cheirotonetheis hypo ton ekklesion, appointed by the churches, and Acts 6:3-6 shows the plethos selecting trusted men whom the apostles then set, kathistemi, over the daily diakonia, both witnessing plural oversight and congregational involvement. The cluster of administrative terms across two genres converges cleanly on the proposition with no lexical counter-signal."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4724",
+        "lemma": "στέλλω",
+        "transliteration": "stellomai",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0100",
+        "lemma": "ἁδρότης",
+        "transliteration": "hadrotes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4306",
+        "lemma": "προνοέω",
+        "transliteration": "pronoeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1799",
+        "lemma": "ἐνώπιον",
+        "transliteration": "enopion",
+        "occurrences_in_canon": 95,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5500",
+        "lemma": "χειροτονέω",
+        "transliteration": "cheirotoneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1248",
+        "lemma": "διακονία",
+        "transliteration": "diakonia",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1247",
+        "lemma": "διακονέω",
+        "transliteration": "diakoneo",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1980",
+        "lemma": "ἐπισκέπτομαι",
+        "transliteration": "episkeptomai",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2525",
+        "lemma": "καθίστημι",
+        "transliteration": "kathistemi",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4128",
+        "lemma": "πλῆθος",
+        "transliteration": "plethos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1586",
+        "lemma": "ἐκλέγω",
+        "transliteration": "eklego",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1381",
+        "lemma": "δοκιμάζω",
+        "transliteration": "dokimazo",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4724",
+      "G0100",
+      "G4306",
+      "G1799",
+      "G5500",
+      "G1248",
+      "G1247",
+      "G1980",
+      "G2525",
+      "G4128",
+      "G1586",
+      "G1381"
+    ],
+    "scripture": [
+      {
+        "ref": "2Cor.8.19",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          },
+          {
+            "strong": "G1248",
+            "lemma": "διακονία"
+          }
+        ],
+        "force": "The delegate carrying the relief fund was cheirotonetheis hypo ton ekklesion, hand-appointed by the churches, so the handler of money is selected by the plural congregations rather than self-appointed, and the gift itself is described as a diakonia administered pros ten autou tou kyriou doxan, for the glory of the Lord himself.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.20",
+        "key_terms": [
+          {
+            "strong": "G4724",
+            "lemma": "στέλλω"
+          },
+          {
+            "strong": "G0100",
+            "lemma": "ἁδρότης"
+          }
+        ],
+        "force": "The middle participle stellomenoi expresses Paul deliberately arranging matters so that no one can find fault, with the negative purpose clause me tis hemas momesetai en te hadroteti taute te diakonoumene hyph hemon, lest anyone blame us in this abundant gift administered by us. The verb of guarding against blame is tied directly to the handling of a large sum, and hadrotes is a hapax that fixes the lexical signal on this single administrative occasion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.21",
+        "key_terms": [
+          {
+            "strong": "G4306",
+            "lemma": "προνοέω"
+          },
+          {
+            "strong": "G1799",
+            "lemma": "ἐνώπιον"
+          }
+        ],
+        "force": "pronooumen kala ou monon enopion kyriou alla kai enopion anthropon, we take forethought for honorable things not only before the Lord but also before people. The double enopion sets a deliberate dual-audience standard, integrity that is real before God and demonstrably visible before the community, which is the lexical core of financial transparency.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.12.17",
+        "key_terms": [
+          {
+            "strong": "G4306",
+            "lemma": "προνοέω"
+          },
+          {
+            "strong": "G1799",
+            "lemma": "ἐνώπιον"
+          }
+        ],
+        "force": "Paul repeats the same lexical triplet, pronooumenoi kala enopion panton anthropon, taking forethought for what is honorable in the sight of all people. This is one of only three pronoeo occurrences in the canon, and its overlap with 2 Cor 8:21 shows the dual-witness, visible-before-people standard is a settled Pauline ethical formula, not an isolated rhetorical flourish in the fund-raising context.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.16.3",
+        "key_terms": [
+          {
+            "strong": "G1381",
+            "lemma": "δοκιμάζω"
+          }
+        ],
+        "force": "hous ean dokimasete, di epistolon toutous pempso, whomever you approve I will send with letters to carry your gift. The church tests and approves the bearers of the collection, placing the choice of money-handlers under congregational scrutiny rather than the apostle acting alone, and dokimazo recurs in 2 Cor 8:22 of the second tested delegate.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.16.4",
+        "key_terms": [
+          {
+            "strong": "G4198",
+            "lemma": "πορεύομαι"
+          }
+        ],
+        "force": "kan de axion e tou kame poreuesthai, syn emoi poreusontai, and if it is fitting that I also go, they will travel with me. Paul does not handle the funds in isolation but moves together with the church-approved delegates, reinforcing plural accompaniment in the carrying of money.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.3",
+        "key_terms": [
+          {
+            "strong": "G1980",
+            "lemma": "ἐπισκέπτομαι"
+          },
+          {
+            "strong": "G2525",
+            "lemma": "καθίστημι"
+          }
+        ],
+        "force": "episkepsasthe de, adelphoi, andras ex hymon hous katastesomen epi tes chreias tautes, look out from among yourselves men whom we will set over this need. The congregation selects and the apostles appoint, a two-stage shared oversight of the daily distribution of resources to widows, with the men explicitly required to be martyroumenous, well-attested.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.5",
+        "key_terms": [
+          {
+            "strong": "G4128",
+            "lemma": "πλῆθος"
+          },
+          {
+            "strong": "G1586",
+            "lemma": "ἐκλέγω"
+          }
+        ],
+        "force": "eresen ho logos enopion pantos tou plethous, the proposal pleased the whole multitude, and they chose the seven. The decision over administration of relief funds is enacted before and by the entire assembly, an explicit instance of openness to the congregation, and eklego is the same verb used elsewhere of corporate selection in Acts 1:23-26 and Acts 15:22.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.14.23",
+        "key_terms": [
+          {
+            "strong": "G5500",
+            "lemma": "χειροτονέω"
+          }
+        ],
+        "force": "cheirotonesantes de autois kat ekklesian presbyterous, having appointed elders for them in every church. The same verb used of the fund-bearer in 2 Cor 8:19 reappears here for the appointment of plural elders in each local assembly, anchoring cheirotoneo as the standard New Testament verb for assembly-witnessed appointment of accountable officers, including over resources.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.6.3",
+        "to": "Acts.1.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.2",
+        "to": "Exod.18.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.1",
+        "to": "Acts.9.39",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.5",
+        "to": "Acts.15.22",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.12.6",
+        "addressed": true,
+        "resolution": "Judas held the common purse alone, to glossokomon echon, and pilfered from it, kleptes en. Far from undermining the proposition, this negative example shows the danger of sole unaccountable custody of funds and so reinforces the positive case for plural oversight and visible transparency seen in 2 Cor 8 and Acts 6. The lexical contrast is sharp: solo custody plus klepto in John 12:6 against plural appointment by cheirotoneo, dokimazo, and eklego across the Pauline and Lukan administrative passages."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units in the bundle for the cited verses. The apparatus markers in the bundle text, the sigla around autou and syn in 2 Cor 8:19 and pneumatos in Acts 6:3, touch wording details that do not bear on the administrative and transparency vocabulary carrying the verdict. 2 Corinthians, 1 Corinthians, Romans, and Acts are outside the published CBGM scope, so status is ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "strict-apostolic-pattern",
+        "verdict": "affirms",
+        "rationale": "Reads 2 Cor 8:18-21 and Acts 6:1-6 as a directly normative blueprint: congregations choose, plural delegates handle, accounts are honorable in sight of God and people. The lexical density of administrative verbs supports treating this as a fixed pattern, not a culturally bound expedient."
+      },
+      {
+        "framework": "wisdom-principle",
+        "verdict": "affirms",
+        "rationale": "Reads the same passages as crystallizing a wisdom principle of visible integrity, pronoeo kala enopion anthropon, which Paul applies independently in Rom 12:17 to all conduct. On this reading the principle binds while the specific mechanism, voting by raised hand or appointment of seven, may vary in form. Either way the proposition of integrity, transparency, plural oversight, and openness to the congregation is affirmed lexically."
+      }
+    ],
+    "notes": "The verdict rests on the plain grammatical sense of administrative vocabulary in two distinct apostolic settings, an epistolary collection in 1-2 Corinthians and a narrative diaconal appointment in Acts, reinforced by an independent Pauline echo in Rom 12:17. No covenantal-arc or typological reading is required. The two lenses above differ on whether the specific mechanism is binding or only the principle, but both lenses affirm the proposition as worded."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem describes a practice using neutral administrative terms, integrity, transparency, plural oversight, openness to the congregation, without embedding a tradition-specific verdict or a contested theological label. No neutralization needed. The terms map onto observable lexical features, stellomenoi guarding against blame, the double enopion of dual-witness accountability, congregational appointment by cheirotoneo and election by the plethos, and apostolic kathistemi of the chosen men."
+  },
+  "lay_summary": "This proposition asks whether the New Testament pattern for church money involves integrity, transparency, plural oversight, and openness to the congregation. The vocabulary lines up cleanly. In 2 Corinthians 8:20 Paul uses stellomenoi, a deliberate middle participle of arranging matters so that no one can blame the team in handling this large gift, the hadrotes or bountiful collection being administered. hadrotes is a New Testament hapax, used only here, which concentrates the lexical attention on this single administrative act. In 8:21 Paul states the principle directly, taking forethought, pronoeo, for what is honorable not only before the Lord but also before people. The phrase before people, enopion anthropon, set alongside before the Lord, is the lexical heart of transparency, conduct that is honest before God and visibly above reproach before the watching community. Paul repeats the same triplet pronoeo plus kala plus enopion anthropon in Romans 12:17, and these are two of only three uses of pronoeo in the canon, showing that the dual-audience standard is a settled Pauline ethical formula, not a one-off in the collection context. The handler of the fund in 8:19 was appointed by the churches, the verb cheirotoneo, so the man carrying money is chosen by the plural congregations rather than self-selected. The same verb reappears in Acts 14:23 for the appointment of plural elders in each local church. In 1 Corinthians 16:3 the church approves, dokimazo, whomever will carry the gift, and Paul travels with them rather than alone. Acts 6 supplies the narrative parallel. When a complaint arose over the daily distribution to widows, the apostles told the whole multitude to select seven trustworthy men whom the apostles would then set, kathistemi, over this need. The congregation chose and the leaders appointed, a two-stage shared oversight, and the proposal pleased the whole assembly, eresen ho logos enopion pantos tou plethous. Across these passages the cluster of administrative terms converges on accountability, visible honesty, plural handling, and congregational participation in deciding who handles resources. The one apparent counter-text, the lone unaccountable purse-keeper who pilfered in John 12:6, actually reinforces the point by showing the danger the apostolic pattern guards against. The lexical pattern supports the proposition with high confidence. Where readers differ, it is over the question of degree, whether the specific mechanisms of voting by raised hand and appointment of seven are themselves binding form or whether only the principle of visible integrity is binding while the form may vary. The words affirm the principle either way.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.8.20"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.8.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.12.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4724"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5500"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0100"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4306"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.6.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.6.3"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

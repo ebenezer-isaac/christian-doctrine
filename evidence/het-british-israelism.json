@@ -1,0 +1,504 @@
+{
+  "$schema_version": "3.0",
+  "id": "het-british-israelism",
+  "question_id": "het-british-israelism",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across the canon supports the proposition. The canon contains zero names for Britain, Anglo-Saxon, or any modern European people, so no verse predicates anything of them. Where Scripture speaks of the twelve tribes it treats them as PRESENT categories, not lost ones. Acts 26:7 uses dodekaphylon (G1429), the twelve-tribe nation, of contemporary Israel hoping to attain the promise. James 1:1 addresses the twelve tribes (tais dodeka phylais, G1427 plus G5443) in the diaspora (diaspora, G1290). Acts 17:26 grounds every nation (ethnos, G1484) in one source (heis, G1520), removing any privileged modern bloodline, and Galatians 3:28 with Colossians 3:11 use the existential eni (G1762) plus the negation ou (G3756) to deny that ethnic categories define standing in Christ."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1484",
+        "lemma": "ἔθνος",
+        "transliteration": "ethnos",
+        "occurrences_in_canon": 167,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2474",
+        "lemma": "Ἰσραήλ",
+        "transliteration": "Israel",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1762",
+        "lemma": "ἔνι",
+        "transliteration": "eni",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2453",
+        "lemma": "Ἰουδαῖος",
+        "transliteration": "Ioudaios",
+        "occurrences_in_canon": 203,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1672",
+        "lemma": "Ἕλλην",
+        "transliteration": "Hellen",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0444",
+        "lemma": "ἄνθρωπος",
+        "transliteration": "anthropos",
+        "occurrences_in_canon": 567,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0915",
+        "lemma": "βάρβαρος",
+        "transliteration": "barbaros",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1429",
+        "lemma": "δωδεκάφυλον",
+        "transliteration": "dodekaphylon",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5443",
+        "lemma": "φυλή",
+        "transliteration": "phyle",
+        "occurrences_in_canon": 31,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1427",
+        "lemma": "δώδεκα",
+        "transliteration": "dodeka",
+        "occurrences_in_canon": 77,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1290",
+        "lemma": "διασπορά",
+        "transliteration": "diaspora",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1484",
+      "G2474",
+      "G1520",
+      "G1762",
+      "G2453",
+      "G1672",
+      "G0444",
+      "G3956",
+      "G0915",
+      "G1429",
+      "G5443",
+      "G1427",
+      "G1290",
+      "G1658",
+      "G1401",
+      "G5547"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.17.26",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "The phrase ex henos (out of one) makes every nation (pan ethnos) of men share a single origin. The clause assigns appointed times and boundaries to all peoples alike, with no clause privileging one race as the true Israel. This undercuts any claim that a modern ethnic group is the hidden continuation of the ten tribes.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.26.7",
+        "key_terms": [
+          {
+            "strong": "G1429",
+            "lemma": "δωδεκάφυλον"
+          },
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          }
+        ],
+        "force": "Paul speaks of our twelve-tribe nation (to dodekaphylon hemon) earnestly serving God night and day, hoping to attain the promise. The compound dodekaphylon, a hapax in the canon, treats the twelve tribes as a PRESENT and continuing entity in Paul's own day, not as a lost body whose identity has migrated elsewhere. The pronoun hemon attaches them to first-century Jewish covenant identity, foreclosing any claim that the tribes are hidden in some other ethnos.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.1.1",
+        "key_terms": [
+          {
+            "strong": "G1427",
+            "lemma": "δώδεκα"
+          },
+          {
+            "strong": "G5443",
+            "lemma": "φυλή"
+          },
+          {
+            "strong": "G1290",
+            "lemma": "διασπορά"
+          }
+        ],
+        "force": "James addresses the twelve tribes (tais dodeka phylais) in the diaspora (en te diaspora). The dative phrase locates them in dispersion (a known scattered condition outside the land), addressable by a letter, not lost. James writes TO them. The lexeme diaspora names scattering, not loss of identity, and the recipient designation presupposes that the twelve tribes can still be reached by name in the apostolic generation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.28",
+        "key_terms": [
+          {
+            "strong": "G1762",
+            "lemma": "ἔνι"
+          },
+          {
+            "strong": "G2453",
+            "lemma": "Ἰουδαῖος"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "The existential eni with the negation ouk states there is neither Jew (Ioudaios) nor Greek (Hellen), and the predicate heis (one) declares all are one in Christ Jesus. Ethnic descent is removed as the marker of covenant standing, so no bloodline, ancient or modern, defines the people of God.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.11",
+        "key_terms": [
+          {
+            "strong": "G1762",
+            "lemma": "ἔνι"
+          },
+          {
+            "strong": "G1672",
+            "lemma": "Ἕλλην"
+          },
+          {
+            "strong": "G0915",
+            "lemma": "βάρβαρος"
+          }
+        ],
+        "force": "The verse stacks the broadest ethnic and social pairs, Greek and Jew, barbarian and Scythian, slave and free, then declares Christ is all and in all (panta kai en pasin). The enumeration deliberately exhausts the categories of human ethnicity to deny that any of them constitutes the renewed humanity. Scythes, the most remote northern barbarian known to the writer, stands inside the list, not outside it, so no remote northern people can claim a privileged identity beyond what Christ is for all.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.25",
+        "key_terms": [
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          }
+        ],
+        "force": "Paul holds Israel (Israel) and the fullness of the Gentiles (to pleroma ton ethnon) as two distinct referents in one sentence. The terms are not collapsed into a single ethnic identity, which is the opposite of the British-Israelite move that fuses a modern nation with the tribes.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.28",
+        "key_terms": [
+          {
+            "strong": "G2453",
+            "lemma": "Ἰουδαῖος"
+          },
+          {
+            "strong": "G0027",
+            "lemma": "ἀγαπητός"
+          }
+        ],
+        "force": "Israel is beloved (agapetoi) for the sake of the fathers and elect (kata eklogen), a standing rooted in covenant election, not in transferable ethnicity. The verse anchors Israel's identity in God's calling rather than in a genealogy that could resurface in another people.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.11.29",
+        "key_terms": [
+          {
+            "strong": "G0278",
+            "lemma": "ἀμεταμέλητος"
+          }
+        ],
+        "force": "The gifts and the calling of God are irrevocable (ametameleta). Because Israel's election is secured by God and not by bloodline migration, there is no lexical basis for a lost-tribe identity passing into and being recovered within a modern ethnic group.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.3.5",
+        "key_terms": [
+          {
+            "strong": "G5443",
+            "lemma": "φυλή"
+          },
+          {
+            "strong": "G2474",
+            "lemma": "Ἰσραήλ"
+          }
+        ],
+        "force": "Paul names himself of the tribe (phyles) of Benjamin and of the people of Israel. A tribal identity (Benjamin, one of the northern-kingdom-adjacent tribes by descent) is still known and claimable in the apostolic generation. The lexeme phyle attaches by genealogy to a living person, not to a lost or migrated body, contradicting the premise that the tribes have been absorbed into a remote modern population.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.17.26",
+        "to": "Gen.3.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.28",
+        "to": "Gen.26.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.29",
+        "to": "Num.23.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.25",
+        "to": "Ps.22.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.11.26",
+        "to": "Isa.11.11",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.11.26",
+        "addressed": true,
+        "resolution": "All Israel will be saved (pas Israel sothesetai) could be misread as a special ethnic destiny that British-Israelism then claims for a modern people. The lexical context refutes this misuse. The deliverer comes from Zion (Sion) per the Isaiah and Psalm citation pattern, and Israel here remains the covenant people named in v.25, not transferred to any Anglo-Saxon or European group. The verse predicts salvation for Israel, it does not relocate Israel's identity to another race."
+      },
+      {
+        "ref": "1Kgs.12.16",
+        "addressed": true,
+        "resolution": "The split of the northern kingdom (the ten tribes go after Jeroboam) is the historical seed of the lost-tribes story. The OT later records the Assyrian deportation of the northern tribes (2 Kgs 17), but the canon NEVER traces them to any named modern people. The NT then treats the twelve tribes as still addressable (Jas 1:1) and Israel as still a named ethnos through Paul. The historical scattering is real, the modern identification is absent from the words."
+      },
+      {
+        "ref": "Hos.1.10",
+        "addressed": true,
+        "resolution": "The promise that Israel becomes as the sand of the sea, and that those called not my people will be called sons of the living God, is cited in Rom 9:25-26 and 1 Pet 2:10 of the gathering of believers (including Gentiles) into God's people. The lexeme laos (people) is transferred to those who believe, not to a specific modern ethnic bloc. The canon uses the promise of expansion to include the nations through faith, not to identify any one nation as the hidden tribes."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited verses lie outside the 3 John CBGM sample. The apparatus marks listed in the bundle (for example variant placement of pantes in Gal 3:28 and minor word order in Acts 17:26) do not touch the lexemes that carry the verdict, so the reading is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "british_israelism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the church as the one covenant people gathered from all nations, so no single race continues the tribes. The negation of Jew and Greek in Gal 3:28 and Col 3:11 supports the denial of British-Israelism."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Keeps Israel and the church distinct, which is exactly why Romans 11 refuses to merge Israel with the Gentile nations. Even on this lens no modern ethnic group is identified with the lost tribes, since Israel's identity stays with the covenant people, traceable by tribe (Phil 3:5) and still addressable as the twelve tribes (Jas 1:1)."
+      },
+      {
+        "framework": "british_israelism",
+        "verdict": "denies",
+        "rationale": "In its strongest form this lens reads the Assyrian deportation of the northern ten tribes (2 Kgs 17) plus prophetic restoration promises (Hos 1:10, Isa 11:11) as a migration of identity into a later western European population, often Anglo-Saxon. The lexical case against it is that the canon names zero modern peoples, treats the twelve tribes as still present and addressable in the NT (Acts 26:7, Jas 1:1, Phil 3:5), and applies the restoration promises canonically to Israel and to the believing nations through faith, never to one ethnic successor. The reading depends on extra-canonical genealogical identifications the words do not supply."
+      }
+    ],
+    "notes": "Both major covenantal frameworks reach the same verdict on this lexical pattern. The British-Israelite lens is recorded fairly as the position under test, and the lexical reasons it does not survive are named in its row, not by appeal to tradition."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem is a negative claim that no modern ethnic group is biblically identified with the lost tribes and that the church is not coextensive with one race. It states the denial plainly without smuggling in a tradition-specific verdict label, so no neutralization is required. The verdict is derived on the original stem."
+  },
+  "lay_summary": "The question asks whether the Bible identifies any modern ethnic group, such as Anglo-Saxons or other Europeans, with the lost ten tribes of Israel, and whether the church is bound to one race or nation. The biblical words point clearly against that idea. First, the canon never names Britain, Anglo-Saxons, Celts, or any other modern European people, so no verse can predicate tribal identity of them. Second, where the New Testament speaks of the twelve tribes it treats them as a PRESENT body, not a lost one. Paul in Acts 26:7 calls his own first-century people the twelve-tribe nation (dodekaphylon) earnestly serving God, attaching the tribes to living Jewish covenant identity. James 1:1 writes a letter to the twelve tribes in the diaspora, where diaspora names dispersion, not lost identity. Paul still knows his own tribe, Benjamin, in Philippians 3:5. Third, Acts 17:26 grounds every nation in one human source through the words heis (one) and ethnos (nation), so no people holds a hidden tribal pedigree above the rest. Fourth, Galatians 3:28 and Colossians 3:11 use the verb eni paired with ou, there is not, to deny that being Jew, Greek, barbarian, or Scythian defines belonging in Christ. Scythes, the most remote northern people the writer knew, is included inside the list, not exempted as a special hidden tribe. Fifth, Romans 11 keeps Israel and the Gentiles as two distinct words in the same sentence, grounding Israel's standing in God's irrevocable calling rather than in a bloodline that could migrate. The one verse that could be misread, all Israel will be saved, names a deliverer from Zion and still speaks of the covenant people. The historical fact that the northern tribes were scattered by Assyria is acknowledged in the Old Testament, but the canon never traces them onward to any named modern people. Reasonable readers diverge only when they import an identification the words themselves do not supply.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1762"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1429"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1290"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.11"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.17.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.26.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jas.1.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.11.25"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.3.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.11.29"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

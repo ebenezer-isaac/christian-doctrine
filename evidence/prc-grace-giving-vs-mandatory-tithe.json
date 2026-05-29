@@ -1,0 +1,630 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-grace-giving-vs-mandatory-tithe",
+  "question_id": "prc-grace-giving-vs-mandatory-tithe",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.975,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The first clause of the proposition (NT giving is willing, proportional, cheerful) is lexically dense and stable: 2 Cor 9:7 commands a hilaron (G2431) doten (G1395) and explicitly excludes ek lypes e anagkes (out of grief or compulsion), pinning the gift to ek proaireseos (G4255, prior choice); 2 Cor 8:3 calls the Macedonians authairetoi (G0830, self-chosen); 2 Cor 8:8 denies an epitage (G2003, command); 2 Cor 8:12 measures by what one has, indexed to prothymia (G4288, readiness); 1 Cor 16:2 ties the amount to kata ho ti euodotai (as one prospers). The second clause (the Mosaic ten percent tithe is not directly binding) hangs on the silence of the NT giving vocabulary, which never uses maaser (H4643) or apodekatoo (G0586) as a church-age command, plus the discontinuity signaled by ou kat epitagen. But the canon also supplies a parallel tithe vocabulary spanning Gen 14:20, Lev 27:30 to 32, Num 18:21, Mal 3:8 to 10, Matt 23:23, and Heb 7:2 to 9, which a continuity reading uses to argue the principle abides. The words do not rank these two patterns, so the negative half of the proposition and the useful-baseline rider remain genuinely contested at the lexical level."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2431",
+        "lemma": "ἱλαρός",
+        "transliteration": "hilaros",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1395",
+        "lemma": "δότης",
+        "transliteration": "dotes",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4255",
+        "lemma": "προαιρέω",
+        "transliteration": "proaireo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0830",
+        "lemma": "αὐθαίρετος",
+        "transliteration": "authairetos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2003",
+        "lemma": "ἐπιταγή",
+        "transliteration": "epitage",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4288",
+        "lemma": "προθυμία",
+        "transliteration": "prothymia",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5485",
+        "lemma": "χάρις",
+        "transliteration": "charis",
+        "occurrences_in_canon": 176,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2129",
+        "lemma": "εὐλογία",
+        "transliteration": "eulogia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4052",
+        "lemma": "περισσεύω",
+        "transliteration": "perisseuo",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1538",
+        "lemma": "ἕκαστος",
+        "transliteration": "hekastos",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1411",
+        "lemma": "δύναμις",
+        "transliteration": "dynamis",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0026",
+        "lemma": "ἀγάπη",
+        "transliteration": "agape",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2168",
+        "lemma": "εὐοδόω",
+        "transliteration": "euodoo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0586",
+        "lemma": "ἀποδεκατόω",
+        "transliteration": "apodekatoo",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1183",
+        "lemma": "δεκατόω",
+        "transliteration": "dekatoo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1181",
+        "lemma": "δεκάτη",
+        "transliteration": "dekate",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "H4643",
+        "lemma": "מַעֲשֵׂר",
+        "transliteration": "maaser",
+        "occurrences_in_canon": 32,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2431",
+      "G1395",
+      "G4255",
+      "G0830",
+      "G2003",
+      "G4288",
+      "G5485",
+      "G2129",
+      "G4052",
+      "G1538",
+      "G1411",
+      "G0026",
+      "G2168",
+      "G0586",
+      "G1183",
+      "G1181",
+      "H4643"
+    ],
+    "scripture": [
+      {
+        "ref": "2Cor.9.7",
+        "key_terms": [
+          {
+            "strong": "G2431",
+            "lemma": "ἱλαρός"
+          },
+          {
+            "strong": "G1395",
+            "lemma": "δότης"
+          },
+          {
+            "strong": "G4255",
+            "lemma": "προαιρέω"
+          }
+        ],
+        "force": "The verse pivots on hilaron doten, a cheerful giver, whom God loves, and explicitly excludes the wrong motive with me ek lypes e anagkes, not from grief or from compulsion. The giving flows ek proaireseos, from prior willing choice. The cluster is unusually concentrated: hilaros, dotes, and proaireo are each NT hapaxes (one NT occurrence each) gathered in a single sentence, which makes this the strongest single lexical witness that NT giving is governed by free, glad disposition rather than by a fixed legal quota. The grammar (kathos proeretai te kardia, present middle indicative with hekastos as subject) locates the measure inside the individual heart, not in an external numeric standard.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.16.2",
+        "key_terms": [
+          {
+            "strong": "G1538",
+            "lemma": "ἕκαστος"
+          },
+          {
+            "strong": "G2168",
+            "lemma": "εὐοδόω"
+          },
+          {
+            "strong": "G2343",
+            "lemma": "θησαυρίζω"
+          }
+        ],
+        "force": "Each one (hekastos) is told to set aside and store up kata ho ti ean euodotai, in keeping with however he prospers. The measure is indexed to personal prosperity by a present passive subjunctive (euodotai), a sliding proportional rather than a flat percentage rule. Notably Paul, having a perfect opportunity to install a Mosaic-style tithe statute for the Jerusalem collection, instead uses the open kata ho ti euodotai formula, supporting the proportional and willing emphasis of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.3",
+        "key_terms": [
+          {
+            "strong": "G0830",
+            "lemma": "αὐθαίρετος"
+          },
+          {
+            "strong": "G1411",
+            "lemma": "δύναμις"
+          }
+        ],
+        "force": "The Macedonians gave kata dynamin and beyond, and crucially authairetoi, of their own accord. The adjective authairetos (G0830) is itself almost a NT hapax (only 2 Cor 8:3 and 8:17), and its components autos plus haireomai foreground self-chosen action. The pairing of kata dynamin (proportional) with authairetoi (voluntary) twins the two governing categories the proposition asserts: ability and willingness, not imposed tithe.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.8",
+        "key_terms": [
+          {
+            "strong": "G2003",
+            "lemma": "ἐπιταγή"
+          },
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          }
+        ],
+        "force": "Paul states ou kat epitagen lego, I am not speaking by way of command, framing the collection as a test of the genuineness of love rather than a binding ordinance. The explicit denial of epitage, the standard NT word for an authoritative command, is the clearest lexical signal that this giving is not legislated like a covenant statute. The grammar is a flat negative declaration, not a softening qualifier, so the disavowal cannot be read down.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.8.12",
+        "key_terms": [
+          {
+            "strong": "G4288",
+            "lemma": "προθυμία"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          }
+        ],
+        "force": "The acceptable gift is measured katho ean eche, according to what one has, and not according to what one does not have, with prothymia, readiness, as the governing condition. The conditional ean eche (third class, present subjunctive of echo) makes the standard floor-floating with actual capacity, not a fixed fraction. This is the clearest internal lexical statement that the operative standard is capacity plus willingness.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.34",
+        "key_terms": [
+          {
+            "strong": "G5532",
+            "lemma": "χρεία"
+          },
+          {
+            "strong": "G1729",
+            "lemma": "ἐνδεής"
+          }
+        ],
+        "force": "The Jerusalem believers distributed kathoti an tis chreian eichen, as anyone had need, so that no one was endees, in need. The measure here is recipient need met from voluntary sale of property, which is neither a tithe nor a fixed percentage. The imperfect ektonto and the imperfect dieidoto picture an iterated voluntary pattern, not a single legal act. This narrative illustrates need-based generosity rather than a legal quota.",
+        "supports": "neutral",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mal.3.8",
+        "key_terms": [
+          {
+            "strong": "H4643",
+            "lemma": "מַעֲשֵׂר"
+          },
+          {
+            "strong": "H6906",
+            "lemma": "קָבַע"
+          }
+        ],
+        "force": "The verse uses maaser, tithe, and the strong verb qaba, to rob, framing withholding the tithe as robbing God. The grammar is direct address within covenant lawsuit (rib) speech, addressed to Israel under the Mosaic covenant. Its lexical force on the proposition depends on whether the addressees and obligations extend across covenants. Within Malachi the obligation is unambiguous; the question whether it transfers to the church is what the giving texts in 2 Cor 8 to 9 and 1 Cor 16:2 do not positively answer.",
+        "supports": "complicates",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.23",
+        "key_terms": [
+          {
+            "strong": "G0586",
+            "lemma": "ἀποδεκατόω"
+          }
+        ],
+        "force": "Jesus says of tithing mint, dill, and cumin, tauta de edei poiesai kakeina me aphienai, these you ought to have done without neglecting the others. The verb apodekatoo (G0586) is the technical Greek for tithing. The aorist edei plus aorist infinitive poiesai is most naturally read as endorsing the Pharisaic tithe-practice on its own terms, but the discourse setting is mid-Mosaic-covenant rebuke of scribes and Pharisees still living under the law. The words by themselves neither extend the obligation to the church age nor cancel it, leaving the binding question genuinely open.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.14.20",
+        "key_terms": [
+          {
+            "strong": "H4643",
+            "lemma": "מַעֲשֵׂר"
+          }
+        ],
+        "force": "Abraham gives Melchizedek maaser mikkol, a tenth of everything, before the Mosaic covenant is given. The pre-Mosaic position of this act is the principal lexical basis for arguing that tithing is a creation-or-patriarchal principle that predates and survives the Sinai covenant rather than a covenant-specific statute. The text reports a single act and does not by itself codify a recurring rate, so it grounds the continuity argument without by itself imposing a rule on later generations.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.5",
+        "key_terms": [
+          {
+            "strong": "G0586",
+            "lemma": "ἀποδεκατόω"
+          },
+          {
+            "strong": "G1183",
+            "lemma": "δεκατόω"
+          },
+          {
+            "strong": "G1181",
+            "lemma": "δεκάτη"
+          }
+        ],
+        "force": "Hebrews 7:2 to 9 concentrates a dense tithe-vocabulary cluster (dekate, dekatoo, apodekatoo) around the Melchizedek-Abraham episode, arguing typologically from Abraham's tenth that the Melchizedek priesthood outranks the Levitical. The author uses the tithe data to make a christological priesthood argument, not to install a church-age tithe statute; the lexical observation is that the NT does retain the tithe vocabulary as theologically significant while never repeating an Old Testament style legislative command for the church.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Cor.8.12",
+        "to": "2Cor.9.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.9.7",
+        "to": "2Cor.8.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.9.7",
+        "to": "Deut.15.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.8.15",
+        "to": "Exod.16.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.16.2",
+        "to": "Gen.26.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.9.8",
+        "to": "2Chr.25.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.5",
+        "to": "Num.18.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.2",
+        "to": "Gen.14.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.23.23",
+        "to": "Lev.27.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mal.3.10",
+        "to": "Lev.27.30",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Mal.3.8-10",
+        "addressed": true,
+        "resolution": "The classic tithe-as-binding text uses maaser (H4643) and frames withholding as robbing God (qaba, H6906). The lexical question is whether the obligation is covenant-specific (Mosaic Israel under the temple system, where the tithe funds Levites and the storehouse) or trans-covenantal. The vocabulary in Malachi itself does not settle that scope question, and the NT giving texts (2 Cor 8 to 9, 1 Cor 16:2) neither repeat maaser nor positively abolish it. The verdict therefore treats this as a genuine complicating witness rather than a defeater of the proposition's first half, while acknowledging the second half (tithe not directly binding) is exactly where this text creates the tension."
+      },
+      {
+        "ref": "Matt.23.23",
+        "addressed": true,
+        "resolution": "Jesus uses apodekatoo (G0586) and says tauta edei poiesai, these you ought to have done. The aorist edei plus poiesai naturally endorses the practice on its current covenantal footing; the audience is scribes and Pharisees under the Mosaic order, and Jesus is reordering priorities (krisis, eleos, pistis come first) without abrogating tithe. Whether the endorsement extends to the church or only describes faithful Mosaic-covenant practice is not adjudicated by the verb itself, so this remains a real complication rather than a closed case."
+      },
+      {
+        "ref": "Heb.7.2-9",
+        "addressed": true,
+        "resolution": "Hebrews concentrates the tithe vocabulary (dekate, dekatoo, apodekatoo) around the Abraham-Melchizedek episode to make a priesthood argument: the Levitical tithe-collecting priests themselves implicitly paid the tenth through Abraham, so the Melchizedek (Christ) priesthood is greater. The author uses the tithe data theologically but never re-issues a tithe command to the church; the silence on a continuing rate is itself the lexical observation. The complicating witness is real (the NT retains tithe vocabulary as significant), but its weight against the proposition's first half is small and its weight on the second half is exactly the contested point."
+      },
+      {
+        "ref": "Gen.14.20",
+        "addressed": true,
+        "resolution": "Abraham's pre-Mosaic tithe is the strongest case that tithing predates the Sinai covenant and so survives its abrogation. The lexical observation is that the text reports one act, not a recurring rate or a generalized command; whether the singular act founds a perpetual principle is an inference the verse itself does not make. The verdict registers this as a genuine anchor for the continuity reading without overreading a single narrative report into a binding rate."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "2Cor.9.7",
+        "variant_id": "2Cor9.7-proeretai",
+        "verdict_impact": "none",
+        "note": "The verb proeretai, carrying the sense of prior choice, is marked with an editorial sigil in the supplied text but no competing reading alters the willing-heart sense; the cheerful-giver clause is stable across attested readings."
+      },
+      {
+        "ref": "Heb.7.5",
+        "variant_id": "Heb7.5-apodekatoun-form",
+        "verdict_impact": "none",
+        "note": "WH reads apodekatoin against the NA28 apodekatoun; both are forms of G0586 to tithe and neither changes the verdict on whether the church is given a tithe-statute."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses lie outside the 3 John ECM window, so CBGM data is not directly examined; the flagged forms do not bear on the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the Mosaic tithe as a covenant-specific statute superseded by the new-covenant pattern of free, proportional, cheerful giving in 2 Cor 8 to 9 and 1 Cor 16:2. Ou kat epitagen, kata ho ti euodotai, and authairetoi are taken as decisive that the church-age principle is grace-shaped willingness, so the tithe is not directly binding while the giving virtues are."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "disputed",
+        "rationale": "Reads tithing as a moral-creational or patriarchal principle predating Moses (Gen 14:20 Abraham, Gen 28:22 Jacob) that abides as a baseline, with NT giving vocabulary intensifying rather than replacing it. On this reading the second clause (tithe not directly binding) is too strong, while the first clause (cheerful, proportional, willing) is affirmed; the proposition's useful-baseline rider is acceptable but framed too weakly."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Sharply separates the law of Moses from the church age, so the tithe-statute lapses entirely with the rest of the Mosaic code and church-age giving is governed by the grace principle of 2 Cor 8 to 9. The proposition's not-directly-binding clause matches this reading exactly; the useful-baseline rider is accepted as wisdom but not as obligation."
+      },
+      {
+        "framework": "trans-covenantal-tithe",
+        "verdict": "denies",
+        "rationale": "Treats Gen 14:20, Lev 27:30, Mal 3:8 to 10, Matt 23:23, and Heb 7:2 to 9 as a single trans-covenantal witness that the tenth is the divinely set minimum, with NT cheerfulness/proportion language describing the spirit of giving above that floor, not abolishing it. On this reading the proposition's negative clause is wrong: the tithe remains directly binding, and Paul's silence is not abolition."
+      }
+    ],
+    "notes": "The verdict turns on the covenantal arc from Mosaic statute to new-covenant giving, hence redemptive-historical. The first half (giving disposition) is lexically secure across all four frameworks. The second half (tithe not directly binding) plus the useful-baseline rider is exactly where the frameworks diverge, because the canon supplies two parallel vocabularies (tithe-vocabulary in OT and Heb 7, free-giving vocabulary in 2 Cor 8 to 9 and 1 Cor 16:2) that the texts themselves do not rank against each other. The consolidated verdict is therefore disputed rather than a clean affirm."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the New Testament giving vocabulary (cheerful, willing, proportional, ek proaireseos, ou kat epitagen) indicate about how Christian giving is governed, and does that vocabulary, together with the continuing tithe vocabulary in Matt 23:23 and Heb 7:2 to 9, settle whether the Mosaic ten percent tithe continues as a binding obligation, lapses entirely, or persists as a recommended baseline?",
+    "notes": "The original stem encodes two lineage-specific conclusions: that the tithe is not directly binding and that tithing is nonetheless a useful baseline. Both are positions held within particular interpretive lineages rather than neutral lexical observations. The verdict was derived on the original stem; the neutralized form makes the preloading explicit. The lexical data secures the giving-disposition portion (cheerful, willing, proportional) but cannot adjudicate the baseline policy claim, which is why the consolidated verdict is disputed."
+  },
+  "lay_summary": "The Greek of the giving passages in this bundle speaks clearly about how Christians are to give. In 2 Corinthians 9:7 God loves a hilaron giver, a cheerful one, and Paul says the gift must not come ek lypes e anagkes, out of grief or out of compulsion, but ek proaireseos, from a settled willing choice. Strikingly, hilaros, dotes, and proaireo are each used only this one time in the New Testament, packed into a single sentence, which makes the cheerful-giver clause unusually concentrated. In 2 Corinthians 8:3 the Macedonians gave authairetoi, of their own accord, and kata dynamin, according to ability. In 8:8 Paul insists ou kat epitagen, not by command. In 8:12 the gift is measured by what a person has and by prothymia, readiness. First Corinthians 16:2 ties the amount to however each one prospers. Taken together this vocabulary points firmly to giving that is willing, cheerful, and proportional rather than a flat legal quota. That is the part of the proposition the words strongly support. The harder question is the second clause, that the Mosaic ten percent tithe is no longer directly binding yet still serves as a useful baseline. The standard tithe word, maaser in Hebrew and apodekatoo in Greek, never appears in the New Testament giving texts as a church-age command. But the canon also keeps a real tithe vocabulary: Abraham gives a tenth to Melchizedek in Genesis 14:20 before the Mosaic covenant is even given; Malachi 3 calls withholding the tithe robbing God; Jesus in Matthew 23:23 says of tithing, these you ought to have done; and Hebrews 7 clusters tithe-vocabulary around Abraham and Melchizedek. The texts themselves do not rank these two vocabularies against each other. The proposition asks readers to draw a line the words leave open: did the cheerful-giving vocabulary replace the tithe vocabulary, intensify it without removing it, or supplement it with a recommended baseline. Because the canon supplies both patterns and the giving texts neither repeat nor positively abolish the tithe word, the giving-disposition half is well established and the tithe-binding half remains contested, which is why the overall proposition is marked disputed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2431"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1395"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0830"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4288"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H4643"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.9.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.8.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.7.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Mal.3.8"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.14.20"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.8.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.9.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.16.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cited MACULA-Greek syntactic layer is licensed CC-BY-NC-4.0, which forbids bulk commercial redistribution, so the aggregate evidence is not safe to publish in bulk even though STEPBible (TBESG, TBESH, TAGNT, TAHOT), MorphGNT, TSK, and OpenBible are individually redistributable."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

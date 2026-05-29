@@ -1,0 +1,649 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-gender-binary",
+  "question_id": "doc-gender-binary",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "A single fixed two-term word pair describes humanity at creation across Torah and Gospels. Gen 1:27 makes zakar (H2145, male) and neqevah (H5347, female) the terminal specification of bara (H1254A) with God as subject, repeated at Gen 5:2. The whole-canon distribution settles the merism question against an open reading: in the 15 verses where the pair stands together it always sorts a set exhaustively into exactly two bins, and the Lev 27:3-7 vow valuations price every person as either ha-zakar or la-neqevah with no third bracket, so the pair partitions a whole rather than gesturing at a spectrum. Jesus quotes the pair verbatim in Matt 19:4 and Mark 10:6 as arsen kai thely epoiesen autous, anchored ap arches, and Paul reuses arsen and thely with phusike chresis in Rom 1:26-27. No canonical text places a third anthropological term beside zakar and neqevah or arsen and thely."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H2145",
+        "lemma": "זָכָר",
+        "transliteration": "zakar",
+        "occurrences_in_canon": 80,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5347",
+        "lemma": "נְקֵבָה",
+        "transliteration": "neqevah",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0730",
+        "lemma": "ἄρσην",
+        "transliteration": "arsen",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2338",
+        "lemma": "θῆλυς",
+        "transliteration": "thelys",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1254A",
+        "lemma": "בָּרָא",
+        "transliteration": "bara",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6754",
+        "lemma": "צֶלֶם",
+        "transliteration": "tselem",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0376",
+        "lemma": "אִישׁ",
+        "transliteration": "ish",
+        "occurrences_in_canon": 2188,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0802",
+        "lemma": "אִשָּׁה",
+        "transliteration": "ishshah",
+        "occurrences_in_canon": 781,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1320",
+        "lemma": "בָּשָׂר",
+        "transliteration": "basar",
+        "occurrences_in_canon": 250,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0259",
+        "lemma": "אֶחָד",
+        "transliteration": "echad",
+        "occurrences_in_canon": 944,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5446",
+        "lemma": "φυσικός",
+        "transliteration": "phusikos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5540",
+        "lemma": "χρῆσις",
+        "transliteration": "chresis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2135",
+        "lemma": "εὐνοῦχος",
+        "transliteration": "eunouchos",
+        "occurrences_in_canon": 8,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "H2145",
+      "H5347",
+      "G0730",
+      "G2338",
+      "H1254A",
+      "H6754",
+      "H0376",
+      "H0802",
+      "H1320",
+      "H0259",
+      "G5446",
+      "G5540",
+      "G2135"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.27",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          },
+          {
+            "strong": "H1254A",
+            "lemma": "בָּרָא"
+          },
+          {
+            "strong": "H6754",
+            "lemma": "צֶלֶם"
+          }
+        ],
+        "force": "Triple wayyiqtol and qatal bara with God as subject and ha-adam as object, terminated by the bipartite specification zakar uneqevah (male and female). The verse text reads zakar uneqevah bara otam. Read with the canon-wide usage of this exact pair, the two terms function as a closed two-term specification of the created human, not as a sample drawn from a larger set.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.5.2",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          },
+          {
+            "strong": "H1254A",
+            "lemma": "בָּרָא"
+          }
+        ],
+        "force": "Re-quotation of the creation pair at the head of the toledot of Adam: zakar uneqevah beraam, and he called their name adam. The same two-term pair names the species and is the standing description, reinforcing the closed binary outside the immediate creation account.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.7.9",
+        "key_terms": [
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          },
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          }
+        ],
+        "force": "shenayim shenayim (two by two) they came to the ark, zakar uneqevah. The narrative explicitly equates the zakar and neqevah pair with the numeral two. Across the flood texts (Gen 6:19, 7:3, 7:9, 7:16) the pair stands for the whole breeding population of each kind with no remaining category, which is the lexical signature of an exhaustive partition rather than an open merism.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.27.4",
+        "key_terms": [
+          {
+            "strong": "H5347",
+            "lemma": "נְקֵבָה"
+          },
+          {
+            "strong": "H2145",
+            "lemma": "זָכָר"
+          }
+        ],
+        "force": "The vow-valuation law sorts every dedicated person by age and then by the conditional pair im zakar, then veim neqevah (if male, and if female). Lev 27:3-7 sets two and only two prices in each age bracket, one for ha-zakar and one for la-neqevah, with no third valuation. This im, veim conditional exhaustively classifies every individual into one of two and leaves no remainder, which is decisive that the pair is an exhaustive binary, not a two-term stand-in for a continuum.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.2.22",
+        "key_terms": [
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H6763",
+            "lemma": "צֵלָע"
+          },
+          {
+            "strong": "H1129",
+            "lemma": "בָּנָה"
+          }
+        ],
+        "force": "God builds (banah) the ishshah (woman) from the tsela of the adam, establishing the female counterpart by direct creative act. The origin of the second term is narrated as a divine making, not a self-assignment.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.2.23",
+        "key_terms": [
+          {
+            "strong": "H0376",
+            "lemma": "אִישׁ"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H1320",
+            "lemma": "בָּשָׂר"
+          }
+        ],
+        "force": "The adam names the counterpart ishshah on the morphological basis of ish (this one shall be called ishshah, for from ish she was taken), locking the linguistic pair to the bodily pair etsem and basar (bone and flesh). The naming follows from the bodily derivation rather than from preference.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.2.24",
+        "key_terms": [
+          {
+            "strong": "H0376",
+            "lemma": "אִישׁ"
+          },
+          {
+            "strong": "H0802",
+            "lemma": "אִשָּׁה"
+          },
+          {
+            "strong": "H1320",
+            "lemma": "בָּשָׂר"
+          },
+          {
+            "strong": "H0259",
+            "lemma": "אֶחָד"
+          }
+        ],
+        "force": "Etiological al-ken clause grounds marriage in the prior creation pair. An ish leaves and cleaves to his ishshah and the two become basar echad (one flesh). The one-flesh formula presupposes and requires the two-term male and female pair.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.4",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσεν"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θῆλυ"
+          },
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχή"
+          }
+        ],
+        "force": "Jesus cites Gen 1:27 verbatim: ho ktisas ap arches arsen kai thely epoiesen autous. The aorist epoiesen (he made) with ap arches (from the beginning) locates the binary at creation as a completed divine act. Jesus then quotes Gen 2:24 in v.5, binding the pair to marriage and one-flesh union.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.10.6",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσεν"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θῆλυ"
+          },
+          {
+            "strong": "G0746",
+            "lemma": "ἀρχή"
+          }
+        ],
+        "force": "Parallel citation of Gen 1:27: apo de arches ktiseos arsen kai thely epoiesen autous. The added genitive ktiseos (of creation) makes explicit that the male and female pair is a created order, located at the start of creation rather than a later cultural development.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.26",
+        "key_terms": [
+          {
+            "strong": "G2338",
+            "lemma": "θήλειαι"
+          },
+          {
+            "strong": "G5446",
+            "lemma": "φυσικός"
+          },
+          {
+            "strong": "G5540",
+            "lemma": "χρῆσις"
+          }
+        ],
+        "force": "Paul pairs hai theleiai (the females) with phusiken chresin (natural use) and its opposite para phusin (against nature). The verse presupposes that phusis here carries a normative content given with the two-term pattern, traceable to the same Gen 1:27 vocabulary used in the Gospels.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.1.27",
+        "key_terms": [
+          {
+            "strong": "G0730",
+            "lemma": "ἄρσενες"
+          },
+          {
+            "strong": "G2338",
+            "lemma": "θηλείας"
+          },
+          {
+            "strong": "G5540",
+            "lemma": "χρῆσις"
+          }
+        ],
+        "force": "hoi arsenes (the males) leaving ten phusiken chresin tes theleias (the natural use of the female). The verse uses arsen three times and thely once, the same lexical pair as Gen 1:27 LXX, Matt 19:4, and Mark 10:6, applied to natural sexual use.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.19.4",
+        "to": "Gen.1.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.10.6",
+        "to": "Gen.1.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Mark.10.6",
+        "to": "Gen.1.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Gen.2.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.5",
+        "to": "Gen.2.21",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.2.22",
+        "to": "Gen.2.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.2.24",
+        "to": "Mal.2.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.27",
+        "to": "Isa.43.7",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gal.3.28",
+        "addressed": true,
+        "resolution": "ouk eni arsen kai thely (there is no male and female) reuses the exact Gen 1:27 LXX pair. The Greek is decisive: the first two contrasts in the verse use oude (Ioudaios oude Hellen, doulos oude eleutheros, neither, nor), but the third switches to kai (arsen kai thely), the connective of the creation formula, marking it as a deliberate echo of Gen 1:27 rather than a denial of the categories themselves. The stated scope is en Christo Iesou (in Christ Jesus), soteriological standing, not the abolition of created sex. The text complicates only a reading that conflates standing in Christ with anthropological category."
+      },
+      {
+        "ref": "Matt.19.12",
+        "addressed": true,
+        "resolution": "Jesus names three eunouchos (G2135) groups: born so, made so by men, and self-made for the kingdom. The whole-canon use of eunouchos (only Matt 19:12 and the Ethiopian official of Acts 8) describes a male who does not procreate, not a non-male or a third sex. The framing pair from v.4, arsen and thely, is unaffected. A eunouchos is lexically a class of male, so the binary holds."
+      },
+      {
+        "ref": "Jer.31.22",
+        "addressed": true,
+        "resolution": "neqevah occurs here without zakar in the obscure clause neqevah tesovev gaver (a female shall encompass a man). This is the one poetic and prophetic use of neqevah outside the creation and legal pattern, and its sense is debated at the verse level. It does not introduce a third term and does not redefine neqevah, it simply uses the female term in a figure whose referent is unclear. It cannot overturn the dense, repeated, exhaustive-sort usage that fixes the pair elsewhere."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The anchor verses lie outside the ingested ECM window (3 John 1.1 to 1.15), so no CBGM apparatus applies. The arsen kai thely pair in Matt 19:4, Mark 10:6, Rom 1:26-27, and Gal 3:28 is textually stable in the verse text examined, and the Hebrew zakar uneqevah in Gen 1:27 and Gen 5:2 is uncontested. The marked sigla in the source text touch surrounding words, not the lexical pair, so the verdict does not turn on any variant."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "creation_order",
+      "intra-canonical_citation"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "exhaustive-binary reading",
+        "verdict": "affirms",
+        "rationale": "Across the canon the pair zakar uneqevah, and its Greek counterpart arsen kai thely, sorts every member of a set into exactly two mutually exclusive bins. Lev 27:3-7 prices each vowed person as either male or female with no third valuation, the ark texts pair the two terms with the numeral two, and no verse adds a third anthropological term. On this reading Gen 1:27 states the binary as a closed creational specification, and Jesus and Paul cite it as such."
+      },
+      {
+        "framework": "open-merism reading",
+        "verdict": "disputed-toward-affirm",
+        "rationale": "A merism is a two-term pair naming a whole (heaven and earth meaning everything in between included). On this reading Gen 1:27, taken as narrative, reports the two principal cases at creation and the verse itself supplies no explicit quantifier such as only or no other, so it could be read as descriptive of the two normal poles rather than as legislating exhaustive scope. This is the strongest minority reading. The lexical answer to it is that a merism includes the middle in the whole, whereas the legal usage of this same pair partitions individuals into two priced bins with a remainder of none, so the canon distribution closes the gap the bare narrative leaves open."
+      },
+      {
+        "framework": "creation_order",
+        "verdict": "affirms",
+        "rationale": "Jesus anchors the pair ap arches and apo arches ktiseos (from the beginning of creation) and Paul appeals to phusis (nature), so the binary is presented as given with creation rather than as a later convention. The aorist epoiesen frames it as a completed divine act."
+      }
+    ],
+    "notes": "Jesus reads Gen 1:27 and Gen 2:24 as a single creational ordinance applied to marriage in Matt 19 and Mark 10. Paul's appeal to phusike chresis in Rom 1 presupposes the same anchor. The honest lexical tension is whether Gen 1:27 alone is prescriptive or merely descriptive, and the canon-wide exhaustive-sort usage of the same word pair is what resolves it toward prescriptive."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does the canonical vocabulary describe humanity-as-created with a closed two-term pair (male and female), and does any canonical text add a third anthropological term beside it?",
+    "notes": "The stem couples a defensible lexical claim (a creational male and female pair) with contemporary framing tokens (fixed binary, gender identity, self-determined redefinition) that are not in the biblical vocabulary. The verdict is derived only from the words: the recurring zakar uneqevah and arsen kai thely pair and its exhaustive-sort usage. The phrases about identity and redefinition are answered only to the extent the text speaks, namely that the second term arises by divine making (Gen 2:22) and naming-from-derivation (Gen 2:23), not by self-assignment. The contemporary clause is neutralized so the verdict is not smuggled by the stem."
+  },
+  "lay_summary": "From the first chapter the Bible names the two sexes of humanity with one fixed word pair. Genesis 1:27 says God created the adam zakar uneqevah, male and female, and Genesis 5:2 repeats the same pair as the standing name of the species. The honest question is whether this pair is a closed binary or an open figure like heaven and earth that names a whole and includes everything in between. The words answer it. The same pair zakar (H2145) and neqevah (H5347) runs through the law, and there it always sorts a group into exactly two bins with nothing left over. The clearest case is the vow law of Leviticus 27, which prices every dedicated person by age and then as either male or female, two prices and no third. The flood account even pairs the two terms with the number two. So the pair does not gesture at a spectrum, it partitions a whole into two. Genesis 2 narrates the same thing as story: God builds the woman from the side of the man, and the man names her on the basis of where she came from, tying the word pair to the body pair, and the two become one flesh in marriage. When Jesus is asked about marriage in Matthew 19:4 and Mark 10:6 he quotes Genesis 1:27 word for word in Greek, arsen and thely (G730, G2338), and locates the pair from the beginning of creation. Paul uses the same Greek pair in Romans 1:26-27 with the phrase natural use. Galatians 3:28 reuses the very words but about standing in Christ, and even there it switches to the and of the creation formula to signal it is echoing Genesis, not erasing the categories. No passage adds a third term beside male and female. The lexical pattern supports the proposition.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.27.4"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2145"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5347"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0730"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2338"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.10.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.27"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.2.24"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.1.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.19.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.1.27"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.19.4"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Hebrew and MACULA-Greek are CC-BY-NC-4.0 and are not bulk redistributable. They are cited for syntactic anchoring on Gen.1.27 and Matt.19.4, so this evidence record is gated from bulk republication. The verdict itself rests on the CC-BY and public-domain sources and would stand without the MACULA citations."
+  },
+  "flags": []
+}

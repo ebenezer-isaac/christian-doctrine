@@ -1,0 +1,648 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-christ-sole-mediator",
+  "question_id": "doc-christ-sole-mediator",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9375,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Direct query of the Greek tagged canon confirms the noun mesites (G3316) occurs exactly 6 times in the NT (Gal 3:19, Gal 3:20, 1Tim 2:5, Heb 8:6, Heb 9:15, Heb 12:24); four name Jesus and the remaining two name the Sinai mediator whom Paul argues was bounded and singular. In 1Tim 2:5 the cardinal numeral heis (G1520) stands twice in the same clause, applied to theos and to mesites in tight parallel, so the same word that fixes one God fixes one mediator. John 14:6 closes the pattern with the exclusive oudeis (G3762) ei me (G1487 plus G3361) di emou, the prepositional phrase di emou matching di autou in Heb 7:25 morpheme for morpheme, and Acts 4:12 stacks ouk en allo oudeni and onoma heteron to the same end. No NT occurrence of mesites names any other figure as a God-to-humanity mediator, so the numeral plus the exclusion particles jointly fix singular mediation."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 344,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 234,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3361",
+        "lemma": "μή",
+        "transliteration": "me",
+        "occurrences_in_canon": 1042,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1487",
+        "lemma": "εἰ",
+        "transliteration": "ei",
+        "occurrences_in_canon": 502,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1223",
+        "lemma": "διά",
+        "transliteration": "dia",
+        "occurrences_in_canon": 667,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1793",
+        "lemma": "ἐντυγχάνω",
+        "transliteration": "entygchano",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1783",
+        "lemma": "ἔντευξις",
+        "transliteration": "enteuxis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3838",
+        "lemma": "παντελής",
+        "transliteration": "panteles",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4334",
+        "lemma": "προσέρχομαι",
+        "transliteration": "proserchomai",
+        "occurrences_in_canon": 86,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2087",
+        "lemma": "ἕτερος",
+        "transliteration": "heteros",
+        "occurrences_in_canon": 90,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 129,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1242",
+        "lemma": "διαθήκη",
+        "transliteration": "diatheke",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3198",
+        "lemma": "יָכַח",
+        "transliteration": "yakach",
+        "occurrences_in_canon": 56,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3316",
+      "G1520",
+      "G3762",
+      "G3361",
+      "G1487",
+      "G1223",
+      "G1793",
+      "G1783",
+      "G3838",
+      "G4334",
+      "G2087",
+      "G0243",
+      "G3761",
+      "G1242",
+      "G2537",
+      "G3501",
+      "G0444",
+      "G2316",
+      "H3198",
+      "H0996"
+    ],
+    "scripture": [
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "Εἷς γὰρ θεός, εἷς καὶ μεσίτης θεοῦ καὶ ἀνθρώπων, ἄνθρωπος Χριστὸς Ἰησοῦς. Morphology query shows the numeral εἷς (G1520, A-NSM) twice in the clause, once governing θεός and once governing μεσίτης, in matching nominative masculine singular. The numeral is the cardinal one, the same lexeme that elsewhere fixes monotheism, so its application to the mediator constrains the office to a single occupant, named appositionally as ἄνθρωπος Χριστὸς Ἰησοῦς. εἷς here is not loose emphasis but the counting numeral.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.25",
+        "key_terms": [
+          {
+            "strong": "G3838",
+            "lemma": "παντελής"
+          },
+          {
+            "strong": "G4334",
+            "lemma": "προσέρχομαι"
+          },
+          {
+            "strong": "G1793",
+            "lemma": "ἐντυγχάνω"
+          },
+          {
+            "strong": "G1223",
+            "lemma": "διά"
+          }
+        ],
+        "force": "ὅθεν καὶ σῴζειν εἰς τὸ παντελὲς δύναται τοὺς προσερχομένους δι᾽ αὐτοῦ τῷ θεῷ, πάντοτε ζῶν εἰς τὸ ἐντυγχάνειν ὑπὲρ αὐτῶν. The participle προσερχομένους (G4334) is the cultic verb of approach to God, and the prepositional phrase δι᾽ αὐτοῦ (G1223 plus the pronoun αὐτοῦ) channels that approach through one named conduit. The infinitive ἐντυγχάνειν (G1793) is intercessory vocabulary; παντελὲς (G3838) occurs only twice in the canon and here marks the completeness of the saving.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.15",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          },
+          {
+            "strong": "G2537",
+            "lemma": "καινός"
+          }
+        ],
+        "force": "διαθήκης καινῆς μεσίτης ἐστίν, ὅπως θανάτου γενομένου εἰς ἀπολύτρωσιν τῶν ἐπὶ τῇ πρώτῃ διαθήκῃ παραβάσεων τὴν ἐπαγγελίαν λάβωσιν οἱ κεκλημένοι τῆς αἰωνίου κληρονομίας. The genitive διαθήκης καινῆς (G1242 with G2537) locates Christ's mediation in covenantal terms, and the purpose clause ties the office to the death that accomplishes redemption for transgressions. The single mediator carries the whole covenant transaction.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.14.6",
+        "key_terms": [
+          {
+            "strong": "G3598",
+            "lemma": "ὁδός"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G1487",
+            "lemma": "εἰ"
+          },
+          {
+            "strong": "G1223",
+            "lemma": "διά"
+          }
+        ],
+        "force": "ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή· οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ. Morphology query confirms οὐδεὶς (G3762, A-NSM) negated absolutely, then εἰ (G1487, COND) μὴ (G3361, PRT-N), the strongest exception construction in Koine, leaving exactly one route. The prepositional phrase δι᾽ ἐμοῦ (G1223 plus first-person pronoun) matches δι᾽ αὐτοῦ of Heb 7:25 in form. ὁδὸς (G3598) is metaphorical access language with one referent in this clause.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.12",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G2087",
+            "lemma": "ἕτερος"
+          }
+        ],
+        "force": "καὶ οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία· οὐδὲ γὰρ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις ἐν ᾧ δεῖ σωθῆναι ἡμᾶς. Morphology query shows a stacked exclusion: οὐκ (negation) plus ἄλλῳ (G0243) plus οὐδενὶ (G3762) plus οὐδὲ (G3761) plus ἕτερον (G2087). Two near-synonyms for other, ἄλλος and ἕτερος, are both negated, foreclosing any second salvific name. This is the same exclusion engine applied to access and salvation rather than to the noun mediator.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.8.6",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          }
+        ],
+        "force": "κρείττονός ἐστιν διαθήκης μεσίτης. The comparative κρείττονός marks Christ's covenant mediation as superior to and replacing the prior administration, so the office is not shared but exhausted in him. Query confirms μεσίτης (G3316, N-NSM) here.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.12.24",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G3501",
+            "lemma": "νέος"
+          },
+          {
+            "strong": "G1242",
+            "lemma": "διαθήκη"
+          }
+        ],
+        "force": "διαθήκης νέας μεσίτῃ Ἰησοῦ. Query confirms the dative μεσίτῃ (G3316, N-DSM) bound directly to the name Ἰησοῦ, and that the covenant adjective here is νέας (G3501, neos), not καινῆς. This is the third Hebrews occurrence naming Jesus as the mediator. Together with 1Tim 2:5 that is four of the six canonical occurrences of μεσίτης naming Jesus, with no occurrence naming a rival mediator between God and humanity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.19",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          }
+        ],
+        "force": "διαταγεὶς δι᾽ ἀγγέλων ἐν χειρὶ μεσίτου. One of the two non-Christ occurrences of μεσίτης (G3316, N-GSM), referring to the mediator of the Sinai covenant. The mediation is explicitly through angels and at the hand of a mediator, situating it inside the bounded old-covenant administration rather than as a parallel God-to-humanity office.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.3.20",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν. The sixth and final μεσίτης occurrence. Paul pairs μεσίτης (G3316) with the numeral εἷς (G1520, ἑνὸς genitive then εἷς nominative) and the negation οὐκ ἔστιν to subordinate the Sinai mediation to the unilateral promise. The same numeral that the verdict turns on appears here, used to make the mediator point, which shows the canon itself reasons from the cardinal one when it discusses mediation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Job.9.33",
+        "key_terms": [
+          {
+            "strong": "H3198",
+            "lemma": "יָכַח"
+          },
+          {
+            "strong": "H0996",
+            "lemma": "בַּיִן"
+          }
+        ],
+        "force": "לֹא יֵשׁ בֵּינֵינוּ מוֹכִיחַ, there is no arbiter between us. Hebrew query confirms the Hiphil participle מוֹכִיחַ from יָכַח (H3198), one who decides between parties, joined to בֵּינֵינוּ from בַּיִן (H0996, between) plus the first-person plural. This is an Old Testament lament for the lack of an arbiter standing between God and man, the very gap the New Testament locates filled by the one mediator. It anchors the proposition across both testaments at the level of the function, an arbiter between, even though the Hebrew lexeme is not the Greek μεσίτης.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Tim.2.5",
+        "to": "Deut.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Job.9.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.2.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.7.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.25",
+        "to": "Heb.9.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.9.15",
+        "to": "Heb.9.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.14.6",
+        "to": "John.10.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Tim.2.1",
+        "addressed": true,
+        "resolution": "The same pericope that anchors the εἷς μεσίτης clause commands δεήσεις, προσευχάς, ἐντεύξεις, εὐχαριστίας ὑπὲρ πάντων ἀνθρώπων. Query confirms the noun ἐντεύξεις (G1783, only 2 canonical occurrences) names intercession that believers are told to make for all people, sitting one verse before the single-mediator statement. The text uses a different lexeme for that horizontal intercession (G1783) than for the office of mediator (G3316), so the author distinguishes the activity of interceding, which many do, from the office of mediating between God and humanity, which is singular. The complication is resolved inside the same paragraph."
+      },
+      {
+        "ref": "Rom.8.34",
+        "addressed": true,
+        "resolution": "ὃς καὶ ἐντυγχάνει ὑπὲρ ἡμῶν names Christ as the one who intercedes at God's right hand, and Rom 8:27 uses the same verb family for the Spirit. Query of ἐντυγχάνω (G1793) returns 5 occurrences: Acts 25:24 and Rom 11:2 are ordinary human petition or appeal, Rom 8:27 is the Spirit, Rom 8:34 is Christ, Heb 7:25 is Christ. So the intercession verb is broad and even mundane, while only Christ holds the mediator noun. Intercession and mediation are lexically separable, and the broad verb does not multiply the mediator office."
+      },
+      {
+        "ref": "Gal.3.19",
+        "addressed": true,
+        "resolution": "Moses is the μεσίτης of the Sinai administration, but Gal 3:20 (ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ θεὸς εἷς ἐστιν) deploys the very numeral εἷς to subordinate that mediation to the unilateral promise. Query confirms both Galatians occurrences are bounded to the old-covenant law context and neither presents an open-ended God-to-humanity mediator competing with the one in 1Tim 2:5 and Hebrews."
+      },
+      {
+        "ref": "Acts.25.24",
+        "addressed": true,
+        "resolution": "One of the 5 occurrences of ἐντυγχάνω (G1793) is Festus reporting that the Jews petitioned, ἐνέτυχόν, him about Paul. This ordinary forensic use of the intercession verb confirms that the verb itself carries no exclusive theological weight and that the singular-mediator claim rests on the noun μεσίτης plus the numeral and exclusion particles, not on the broad verb. It does not weaken the verdict."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "None of the anchors lie in the ingested ECM window (3 John 1.1 to 1.15), so the apparatus was not queryable for them and the status is recorded as ecm-shadow, not_in_ecm_scope. The decisive readings are textually settled in the standard editions: the doubled εἷς in 1Tim 2:5, the οὐδεὶς εἰ μή of John 14:6, and the μεσίτης occurrences in Hebrews carry the same editorial support (NA28, SBL, WH, Treg, Byz per the tagged text), so no plausible variant would unseat the singular-mediator reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "sacramental_mediation_reading"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical singular reading",
+        "verdict": "affirms",
+        "rationale": "Reads the cardinal εἷς in 1Tim 2:5 as counting, one God and correspondingly one mediator, and the οὐδεὶς εἰ μή of John 14:6 as an exhaustive exclusion. On this reading the 6 canonical μεσίτης occurrences, 4 of them naming Jesus and 0 naming any other God-to-humanity mediator, settle the proposition."
+      },
+      {
+        "framework": "subordinate-mediation reading",
+        "verdict": "qualifies",
+        "rationale": "Holds in its strongest form that the canon does enjoin other figures to intercede, ἐντεύξεις ὑπὲρ πάντων in 1Tim 2:1, and even calls Moses a μεσίτης in Gal 3:19. It argues these show mediation can be shared in a subordinate, derivative sense beneath Christ. Stated fairly, the lexical reply is that 1Tim 2:1 uses a different word, ἔντευξις and the verb ἐντυγχάνω, for that horizontal activity, and that Galatians places the Mosaic μεσίτης inside the superseded Sinai administration, so the words rank Christ's mediation as the sole one of its God-to-humanity kind while leaving room for intercession by others. The lens names a real textual datum but the lexeme distinction answers it."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads διαθήκης καινῆς and νέας μεσίτης as the fulfillment of the typological mediation begun under Moses (Gal 3:19), with the numeral εἷς capping the redemptive trajectory in one covenant head."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Even on a reading that distinguishes ages, the present mediator pattern is uniquely Christ, and the absence of μεσίτης applied to any other figure under the current administration is not in dispute."
+      }
+    ],
+    "notes": "The reader most likely to diverge is one who hears mediation in 1Tim 2:1 and Gal 3:19 and concludes the office is shareable. That lens is stated here in its strongest form. The lexical answer is that the canon uses distinct vocabulary, the noun μεσίτης for the singular office and the verb and noun of intercession for the broader activity, and never names a second God-to-humanity mediator."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition is phrased lexically. Sole mediator restates the doubled numeral εἷς of 1Tim 2:5 and the noun μεσίτης, and the negative tail, access not mediated by any other figure, restates the οὐδεὶς εἰ μή construction of John 14:6 and the οὐκ ἐν ἄλλῳ οὐδενί of Acts 4:12. No tradition-specific taxonomy preloads the verdict. Two corrections were applied to the prior file from queried data, neither changing the verdict: Heb 12:24 uses νέας (G3501), not καινῆς (G2537), and the Job 9:33 anchor was re-grounded on the verifiable Hebrew arbiter term מוֹכִיחַ (H3198) rather than an unverified LXX μεσίτης claim."
+  },
+  "lay_summary": "The Greek word for mediator, mesites, appears exactly six times in the New Testament, a count confirmed by direct query of the tagged canon. Four of the six name Jesus (1 Tim 2:5, Heb 8:6, Heb 9:15, Heb 12:24). The other two (Gal 3:19 and 3:20) name the mediator of the Sinai covenant, and Paul's own argument there uses the number one to fold that older mediation under a single promise. In 1 Tim 2:5 the counting word heis (one) stands twice in one clause, once on God and once on the mediator, so the same word that says one God says one mediator. This is the lexical engine of the verdict. John 14:6 adds the strongest exclusion in the language, oudeis erchetai pros ton patera ei me di emou, no one comes to the Father except through me, and the phrase through me matches through him in Heb 7:25 word for word. Acts 4:12 stacks the exclusion further, no other name, using two different words for other and negating both. One honest counter-reading notices that the same letter, in 1 Tim 2:1, tells believers to intercede for all people, and that Moses is called a mediator in Galatians, so perhaps mediation can be shared underneath Christ. The words answer this: intercession in 1 Tim 2:1 is a different term (enteuxis and the verb entygchano), and that verb is broad, used even for a routine legal petition in Acts 25:24, while the noun mediator attaches only to Christ in the God-to-humanity sense. So the text distinguishes interceding, which many do, from the singular office of mediating between God and people, which it gives to one named figure. The Old Testament already voiced the need in Job 9:33, where the lament is that there is no arbiter between us. The pattern is pan-canonical and textually stable, and the number plus the exclusion words leave no room for a second mediator of the same kind.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.3.20"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.12.24"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Job.9.33"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3316"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1793"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1783"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3198"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.7.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.14.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The MACULA-Greek syntax citations are CC-BY-NC-4.0 (non-commercial), which blocks bulk redistribution of the full citation set. Every other source used (STEPBible-TAGNT, STEPBible-TAHOT, STEPBible-TBESG, STEPBible-TBESH, MorphGNT-morphology, TSK, OpenBible-cross-refs) is redistributable, so the core morphology and concordance evidence is publishable on its own."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

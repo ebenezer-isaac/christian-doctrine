@@ -1,0 +1,582 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-restoration-after-discipline",
+  "question_id": "prc-restoration-after-discipline",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across 2 Corinthians 2, Galatians 6, James 5, Luke 17, and the Leviticus 19 root converges on forgiveness, mending, and reaffirmed love toward the repentant offender. In 2 Cor 2:6-8 the corporate censure (epitimia) imposed hypo ton pleionon (by the majority) is called ikanon (sufficient), and the assembly is told to charisasthai (forgive, graciously grant, aorist infinitive) and parakalesai (comfort) the man lest he be swallowed up by excessive lype, then to kyrosai (ratify, aorist infinitive of kyroo) their agape toward him. Galatians 6:1 commands katartizete (present imperative of katartizo, LSJ adjust, put in order, restore), and Luke 17:3-4 makes ean metanose, aphes auto (if he repents, forgive) the rule, with aphiemi in the aorist imperative and future. The verb kyroo occurs only twice in the canon (here and Gal 3:15, of a ratified covenant), and in both it means to make formally valid, so reaffirmed love is grammatically an official corporate act, not a mood. The only over-specified element is the adverb publicly, which the corporate agents imply but no anchor lexeme states."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5483",
+        "lemma": "χαρίζομαι",
+        "transliteration": "charizomai",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2964",
+        "lemma": "κυρόω",
+        "transliteration": "kyroo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2675",
+        "lemma": "καταρτίζω",
+        "transliteration": "katartizo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0026",
+        "lemma": "ἀγάπη",
+        "transliteration": "agape",
+        "occurrences_in_canon": 116,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3870",
+        "lemma": "παρακαλέω",
+        "transliteration": "parakaleo",
+        "occurrences_in_canon": 109,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0863",
+        "lemma": "ἀφίημι",
+        "transliteration": "aphiemi",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1994",
+        "lemma": "ἐπιστρέφω",
+        "transliteration": "epistrepho",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3076",
+        "lemma": "λυπέω",
+        "transliteration": "lypeo",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2034",
+        "lemma": "ἑπτάκις",
+        "transliteration": "heptakis",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3198",
+        "lemma": "יָכַח",
+        "transliteration": "yakach",
+        "occurrences_in_canon": 59,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G5483",
+      "G2964",
+      "G2675",
+      "G0026",
+      "G3870",
+      "G0863",
+      "G3340",
+      "G1994",
+      "G0264",
+      "G3076",
+      "G2034",
+      "G5108",
+      "G0080",
+      "H3198"
+    ],
+    "scripture": [
+      {
+        "ref": "2Cor.2.6",
+        "key_terms": [
+          {
+            "strong": "G5108",
+            "lemma": "τοιοῦτος"
+          },
+          {
+            "strong": "G2009",
+            "lemma": "ἐπιτιμία"
+          }
+        ],
+        "force": "The penalty (epitimia, N-NSF) is called ikanon (sufficient) and is imposed hypo ton pleionon (by the majority). The corporate agent and the note that the censure has done enough establish that discipline has a terminus and a turning point toward restoration, not perpetual exclusion. Toioutos (D-DSM, this such one) marks the same individual who is the object of forgiveness in v7.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.7",
+        "key_terms": [
+          {
+            "strong": "G5483",
+            "lemma": "χαρίζομαι"
+          },
+          {
+            "strong": "G3870",
+            "lemma": "παρακαλέω"
+          },
+          {
+            "strong": "G3076",
+            "lemma": "λυπέω"
+          }
+        ],
+        "force": "The aorist infinitives charisasthai (V-ADN, to forgive, graciously grant) and parakalesai (V-AAN, to comfort) name the positive duty after censure, lest the offender be swallowed up (katapothe, V-APS-3S) by excessive lype (grief). Charizomai, LSJ to give grace, carries free gracious release rather than mere acquittal, and it governs the offender as object.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.8",
+        "key_terms": [
+          {
+            "strong": "G2964",
+            "lemma": "κυρόω"
+          },
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          }
+        ],
+        "force": "Paul urges (parakalo, V-PAI-1S) the assembly to kyrosai (V-AAN of kyroo) their agape eis auton (toward him). Kyroo means to confirm, ratify (LSJ); its only other canon use, Gal 3:15, is a kekyromene diatheke (a ratified covenant), so the sense is a formal, performative validation. Pairing it with agape makes reaffirmed love an official, deliberate corporate act, the heart of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.10",
+        "key_terms": [
+          {
+            "strong": "G5483",
+            "lemma": "χαρίζομαι"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Paul ties his own forgiveness to theirs (ho de charizesthe, V-PNI-2P present, kago) and uses kecharismai (V-RNI-1S perfect, I have forgiven). He locates it en prosopo Christou (in the presence, or person, of Christ). Forgiveness of the disciplined is framed as reciprocal, settled, and done before Christ, grounding the corporate act christologically.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.6.1",
+        "key_terms": [
+          {
+            "strong": "G2675",
+            "lemma": "καταρτίζω"
+          },
+          {
+            "strong": "G5108",
+            "lemma": "τοιοῦτος"
+          }
+        ],
+        "force": "The present active imperative katartizete (V-PAM-2P, mend, set right, restore) commands the spiritual ones (hoi pneumatikoi) to restore the one prolemphthe (V-APS-3S, overtaken, caught) in a trespass, en pneumati praytetos (in a spirit of gentleness). Katartizo is LSJ adjust, put in order, restore, used elsewhere of mending nets (Matt 4:21) and of completing or perfecting (1 Thess 3:10), so the force is reintegration, not punishment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.17.3",
+        "key_terms": [
+          {
+            "strong": "G3340",
+            "lemma": "μετανοέω"
+          },
+          {
+            "strong": "G0863",
+            "lemma": "ἀφίημι"
+          }
+        ],
+        "force": "The conditional ean metanose, aphes auto (if he repents, forgive him) sets credible repentance (metanoeo, V-AAS-3S) as the trigger and forgiveness (aphiemi, aphes V-2AAM-2S aorist imperative) as the required response. Epitimeson (rebuke, V-AAM-2S) precedes, so the sequence rebuke then repentance then forgiveness mirrors discipline then restoration.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.17.4",
+        "key_terms": [
+          {
+            "strong": "G2034",
+            "lemma": "ἑπτάκις"
+          },
+          {
+            "strong": "G0863",
+            "lemma": "ἀφίημι"
+          }
+        ],
+        "force": "Heptakis (seven times) repentance in a day still obligates apheseis auto (V-FAI-2S, you shall forgive him). The future indicative functions as command, and the repeated number underscores that repentance, however often renewed, is always met with forgiveness, leaving no lexical room for withholding restoration from the credibly repentant.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.19",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέφω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          }
+        ],
+        "force": "The clause ean tis planethe apo tes aletheias kai epistrepse tis auton (if anyone wanders from the truth and someone turns him back) presents the wanderer being epistrepho (V-AAS-3S, turned back) by a member of the community. The vocabulary frames restoration of a straying believer as a positive communal labor.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.20",
+        "key_terms": [
+          {
+            "strong": "G1994",
+            "lemma": "ἐπιστρέφω"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "The one who turns back (ho epistrepsas, V-AAP-NSM) a sinner from the error of his way sosei psychen ek thanatou (V-FAI-3S, will save a soul from death) and kalypsei plethos hamartion (will cover a multitude of sins). The outcome language frames bringing the erring one back as life-giving covering, the goal of restoration.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.15",
+        "key_terms": [
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          },
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          }
+        ],
+        "force": "Even toward the disciplined, kai me hos echthron hegeisthe, alla noutheteite hos adelphon (do not regard him as an enemy, but admonish him as a brother). The present imperative noutheteite and the explicit hos adelphon show that discipline does not strip brother status, so the relationship is preserved for restoration. OpenBible links this verse to Gal 6:1 at high vote, confirming the restorative trajectory of correction.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.19.17",
+        "key_terms": [
+          {
+            "strong": "H3198",
+            "lemma": "יָכַח"
+          },
+          {
+            "strong": "H0251",
+            "lemma": "אָח"
+          }
+        ],
+        "force": "The OT root of the rebuke-then-love pattern: lo tisna et achikha (do not hate your brother in your heart), hokeach tokiach et amitekha (yakach, you shall surely rebuke your fellow). The infinitive-absolute plus finite verb (hokeach tokiach) intensifies the duty to rebuke, set within the command not to hate, so corrective confrontation is itself an act of covenant love aimed at the brother, not his rejection. Luke 17:3 echoes this verse.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gal.6.1",
+        "to": "Rom.15.1",
+        "source": "openbible",
+        "votes": 82
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "2Tim.2.25",
+        "source": "openbible",
+        "votes": 60
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "2Thess.3.15",
+        "source": "openbible",
+        "votes": 53
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "Jas.5.19",
+        "source": "openbible",
+        "votes": 51
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "2Cor.2.7",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "Ezek.34.16",
+        "source": "openbible",
+        "votes": 24
+      },
+      {
+        "from": "Jas.5.20",
+        "to": "1Pet.4.8",
+        "source": "openbible",
+        "votes": 20
+      },
+      {
+        "from": "Luke.17.3",
+        "to": "Lev.19.17",
+        "source": "openbible",
+        "votes": 16
+      },
+      {
+        "from": "Luke.17.3",
+        "to": "Matt.18.21",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "2Cor.2.7",
+        "to": "2Cor.7.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "2Sam.12.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.5.20",
+        "to": "Prov.11.30",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.5.5",
+        "addressed": true,
+        "resolution": "First Corinthians 5:5 hands the offender over to Satan eis olethron tes sarkos (for destruction of the flesh), which could read as terminal exclusion. But the purpose clause hina to pneuma sothe (V-APS-3S, that the spirit may be saved) shows discipline is remedial and aimed at recovery, and 2 Cor 2 is the same toioutos vocabulary reaching restoration. The complicating text reinforces the restorative telos rather than barring it."
+      },
+      {
+        "ref": "Heb.6.4-6",
+        "addressed": true,
+        "resolution": "Hebrews 6:4-6 says it is impossible to renew certain fallen ones eis metanoian (to repentance). But the present-tense participles anastaurountas (V-PAP-APM, re-crucifying) and paradeigmatizontas (holding up to contempt) mark ongoing, persistent rejection with no repentance, whereas the proposition is conditioned on credible metanoia. The two cases do not overlap, so this text does not contradict restoration of the repentant."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Luke.17.4",
+        "variant_id": "luke-17-4-heptakis-eis-se",
+        "verdict_impact": "none",
+        "note": "Witnesses differ on whether eis se (against you) stands and on word order around heptakis. The presence or absence of eis se does not alter the forgiveness obligation tied to repentance, so the verdict is unaffected."
+      },
+      {
+        "ref": "Jas.5.20",
+        "variant_id": "jas-5-20-ginosketo-vs-ginoskete",
+        "verdict_impact": "none",
+        "note": "The opening verb varies between third singular ginosketo and second plural ginoskete, and autou placement varies. Neither changes the sense that turning a sinner back saves and covers, so restoration force is stable."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "Bundle flags not_in_ecm_scope true and lists no CBGM variant units, and none of the anchors lie in the ingested ECM window (3 John). No published ECM data was examined. The two units noted are standard apparatus marks in the supplied text and are immaterial to the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "The imperatives and infinitives charisasthai, parakalesai, kyrosai, katartizete, and aphes, read in their immediate clauses, command forgiveness and reaffirmed love toward the repentant, directly supporting the proposition."
+      },
+      {
+        "framework": "covenant-community",
+        "verdict": "affirms",
+        "rationale": "Reading the corporate agents (hypo ton pleionon in 2 Cor 2:6 and the plural addressees of kyrosai and katartizete) as the gathered assembly, the data shows restoration as a communal act of receiving the member back, with 2 Thess 3:15 keeping the disciplined one classed hos adelphon."
+      },
+      {
+        "framework": "strict-confrontation reading",
+        "verdict": "affirms-with-condition",
+        "rationale": "A reader emphasizing the discipline texts (1 Cor 5, the rebuke in Luke 17:3, the handing over) could foreground confrontation, yet the very vocabulary they rely on is conditioned: epitimia is ikanon (sufficient, with a terminus), 1 Cor 5:5 carries hina to pneuma sothe, and Luke 17:3 pairs epitimeson with ean metanose, aphes. On the lexical data this lens still lands on restoration once repentance is credible; it differs only on the threshold and process, not the duty."
+      }
+    ],
+    "notes": "Verdict rests on the analogy of scripture: distinct authors (Paul, Luke, James) plus the Leviticus 19 root converge on the same restorative duty toward the repentant, with no contrary lexical witness once unrepentant-apostasy texts are scoped out by their own grammar."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "When a disciplined member shows credible repentance, how does the assembly respond regarding forgiveness, reaffirmation of love, and the manner (private or public) of receiving them back?",
+    "notes": "The adverb publicly is an inference, not a lexical datum. The texts establish corporate agency (the majority imposed the penalty; the assembly is urged to ratify love) but no anchor verse contains a term meaning openly or before all. The verdict is derived on the original stem; the forgiving and reaffirming-love core is strongly attested, while the publicly element is supported only by the corporate verbs (kyrosai addressed to the assembly, katartizete to the spiritual ones) and not by an explicit lexeme. This partial gap is named as over-specification; it does not lower confidence on the substantive claim."
+  },
+  "lay_summary": "The passages behind this question point the same direction in their original wording. In Second Corinthians 2 Paul says the penalty the assembly imposed, a censure by the majority, has been enough (sufficient), and now the church should do something positive. He uses charizomai, a verb of gracious forgiving, and parakaleo, to comfort, so the disciplined man is not swallowed up by too much sorrow. He then asks them to kyrosai their love for him. Kyroo is a formal word meaning to ratify or confirm, and it appears only twice in the whole New Testament, here and in Galatians 3 of a legally ratified covenant. Because both uses agree, the sense is not in doubt: reaffirming love is treated as a deliberate, official corporate act, not a vague feeling. Galatians 6:1 uses katartizo, whose ordinary meaning is to mend, set in order, restore, the same word for repairing nets, and commands the spiritually mature to restore someone caught in a fault, gently. Luke 17:3-4 makes the logic plain: if he repents, forgive him, even seven times in a day. James 5 praises the one who turns a wandering believer back, saying it saves a soul from death and covers many sins, and Second Thessalonians 3:15 says even the disciplined person is to be treated not as an enemy but admonished as a brother. The root reaches back to Leviticus 19, where rebuking a fellow Israelite is set inside the command not to hate him. Across this whole chain the vocabulary of forgiving, restoring, turning back, and confirming love consistently follows genuine repentance, and the two texts that might seem to block restoration, the handing over in First Corinthians 5 and the no-renewal warning in Hebrews 6, actually aim at recovery or describe ongoing unrepentant apostasy. The one element the wording does not directly state is the adverb publicly. The texts show the whole assembly acting together, which implies an open reception, but no single Greek word means in public or before all. So the core claim, forgive and reaffirm love toward the credibly repentant, is strongly and broadly attested, while the specifically public manner is implied by corporate action rather than stated outright. That small gap, not any contrary teaching, is the only place the words leave room.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2964"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2675"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5483"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.2.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.6.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.17.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.2.7"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.19.17"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Gal.6.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.2.7"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.2.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek syntax and lemma data used for the Greek anchor-verse morphology is licensed CC-BY-NC-4.0 (non-commercial, redistribute=false), so the aggregate evidence cannot be published for bulk redistribution. All other sources used (STEPBible-TBESG, STEPBible-TAGNT, MorphGNT-morphology, OSHB-morphology, TSK, OpenBible-cross-refs) are individually redistributable."
+  },
+  "flags": []
+}

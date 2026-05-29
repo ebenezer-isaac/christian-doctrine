@@ -1,0 +1,642 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-inability-of-fallen-man",
+  "question_id": "doc-inability-of-fallen-man",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The anchor texts share one load-bearing construction, the verb δύναμαι in the present middle-passive indicative (parsed V-PNI-3S in John 6:44, John 6:65, Rom 8:7, 1Cor 2:14 and V-PNI-3P in Rom 8:8) governed by the negators οὐ or οὐδείς. δύναμαι denotes capacity, a different lexeme from θέλω which denotes willing, so the negated present indicative asserts a standing incapacity, not a one-time refusal. The incapacity is tied either to a prior divine act, the aorist subjunctive ἑλκύσῃ and the perfect passive δεδομένον in John 6, or to the ontic state of the subject, σαρκὶ ὄντες in Rom 8:8, ψυχικὸς ἄνθρωπος in 1Cor 2:14, and νεκρούς, an adjective A-APM, in Eph 2:1 and 2:5. The same pattern of universal negation recurs in the Rom 3:10-12 catena, οὐκ ἔστιν δίκαιος οὐδὲ εἷς, οὐκ ἔστιν ὁ συνίων, οὐκ ἔστιν ὁ ἐκζητῶν τὸν θεόν, drawn from Ps 14:2 and 53:2. The reality of the inability is lexically decisive and pan-canonical. What the vocabulary does not by itself rank is the EXTENT of the enabling act, because ἑλκύω carries both a forceful effectual sense and a broader drawing sense, and John 12:32 applies it to πάντας without a stated outcome."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 207,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3756",
+        "lemma": "οὐ",
+        "transliteration": "ou",
+        "occurrences_in_canon": 1683,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1670",
+        "lemma": "ἑλκύω",
+        "transliteration": "helkyo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 151,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2189",
+        "lemma": "ἔχθρα",
+        "transliteration": "echthra",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3498",
+        "lemma": "νεκρός",
+        "transliteration": "nekros",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5591",
+        "lemma": "ψυχικός",
+        "transliteration": "psychikos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3472",
+        "lemma": "μωρία",
+        "transliteration": "moria",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1209",
+        "lemma": "δέχομαι",
+        "transliteration": "dechomai",
+        "occurrences_in_canon": 57,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0350",
+        "lemma": "ἀνακρίνω",
+        "transliteration": "anakrino",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0700",
+        "lemma": "ἀρέσκω",
+        "transliteration": "aresko",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1325",
+        "lemma": "δίδωμι",
+        "transliteration": "didomi",
+        "occurrences_in_canon": 414,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1410",
+      "G3756",
+      "G3762",
+      "G3761",
+      "G1670",
+      "G5293",
+      "G4561",
+      "G2189",
+      "G3498",
+      "G5591",
+      "G3472",
+      "G1209",
+      "G0350",
+      "G0700",
+      "G1325",
+      "G4920",
+      "G1567"
+    ],
+    "scripture": [
+      {
+        "ref": "John.6.44",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G1670",
+            "lemma": "ἑλκύω"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          }
+        ],
+        "force": "οὐδεὶς δύναται ἐλθεῖν πρός με ἐὰν μὴ ὁ πατὴρ ἑλκύσῃ αὐτόν. The store parses δύναται as V-PNI-3S, present indicative, so the clause denies a standing capacity, not a single act of will. οὐδείς makes the denial universal, and the conditional ἐὰν μὴ with ἑλκύσῃ, aorist subjunctive V-AAS-3S, makes coming possible only after the Father draws. δύναμαι is capacity, distinct from θέλω which is willing, so the verb choice asserts inability rather than mere refusal.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.65",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "οὐδεὶς δύναται ἐλθεῖν πρός με ἐὰν μὴ ᾖ δεδομένον αὐτῷ ἐκ τοῦ πατρός. δύναται is again V-PNI-3S under οὐδείς. The perfect passive participle δεδομένον from δίδωμι presents the granting as a settled prior state, and Jesus here restates 6:44 in giving language, equating the drawing with a prior enablement granted ἐκ τοῦ πατρός.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.7",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G2189",
+            "lemma": "ἔχθρα"
+          },
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "τὸ φρόνημα τῆς σαρκὸς ἔχθρα εἰς θεόν, τῷ γὰρ νόμῳ τοῦ θεοῦ οὐχ ὑποτάσσεται, οὐδὲ γὰρ δύναται. The mind of the flesh is named enmity, ἔχθρα. The inability, δύναται V-PNI-3S, is introduced by γάρ as the ground of the non-submission ὑποτάσσεται, so the text gives incapacity, not unwillingness, as the reason the flesh does not submit to God's law.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.8",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G0700",
+            "lemma": "ἀρέσκω"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "οἱ δὲ ἐν σαρκὶ ὄντες θεῷ ἀρέσαι οὐ δύνανται. The present participle ὄντες locates the subjects in a state, being in the flesh, and the third plural δύνανται V-PNI-3P under οὐ denies the capacity to please God to everyone in that state without qualification. The negated present indicative makes the inability standing and general.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.2.14",
+        "key_terms": [
+          {
+            "strong": "G5591",
+            "lemma": "ψυχικός"
+          },
+          {
+            "strong": "G1209",
+            "lemma": "δέχομαι"
+          },
+          {
+            "strong": "G3472",
+            "lemma": "μωρία"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G0350",
+            "lemma": "ἀνακρίνω"
+          }
+        ],
+        "force": "ψυχικὸς δὲ ἄνθρωπος οὐ δέχεται τὰ τοῦ πνεύματος τοῦ θεοῦ, μωρία γὰρ αὐτῷ ἐστιν, καὶ οὐ δύναται γνῶναι, ὅτι πνευματικῶς ἀνακρίνεται. ψυχικός A-NSM marks the unspiritual person, a stable term that recurs in 1Cor 15:44, 15:46, Jas 3:15, Jude 1:19. Two negations frame him, οὐ δέχεται for reception failure and οὐ δύναται γνῶναι, V-PNI-3S, for epistemic incapacity. The ὅτι clause grounds the inability in the requirement of spiritual discernment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.1",
+        "key_terms": [
+          {
+            "strong": "G3498",
+            "lemma": "νεκρός"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "ὄντας νεκροὺς τοῖς παραπτώμασιν καὶ ταῖς ἁμαρτίαις ὑμῶν. νεκρούς is parsed A-APM, an adjective of state, with the participle ὄντας locating the addressees in that state before the divine action of 2:4-5. Eph 2:5 repeats νεκρούς A-APM and pairs it with the making-alive, so death functions as a metaphor for the prior condition and encodes incapacity rather than mere unwillingness.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.11",
+        "key_terms": [
+          {
+            "strong": "G4920",
+            "lemma": "συνίημι"
+          },
+          {
+            "strong": "G1567",
+            "lemma": "ἐκζητέω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "οὐκ ἔστιν ὁ συνίων, οὐκ ἔστιν ὁ ἐκζητῶν τὸν θεόν. Part of the catena Rom 3:10-12 quoting Ps 14:2 and 53:2. The repeated existential negation οὐκ ἔστιν with the articular participles συνίων and ἐκζητῶν asserts that as a class no one understands or seeks God. The pattern is universal negation of a positive Godward act, parallel in force to the οὐ δύναται clauses though it uses εἰμί plus participle rather than the modal δύναμαι.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.12.32",
+        "key_terms": [
+          {
+            "strong": "G1670",
+            "lemma": "ἑλκύω"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "κἀγὼ ἐὰν ὑψωθῶ ἐκ τῆς γῆς, πάντας ἑλκύσω πρὸς ἐμαυτόν. The same verb ἑλκύω that grounds the inability clause in John 6:44 is here a future indicative V-FAI-1S with object πάντας, all. The store shows ἑλκύω occurs only 8 times and in its other uses it is a forceful pull, dragging to court in Acts 16:19 and 21:30 and Jas 2:6, drawing a sword in John 18:10, hauling a full net in John 21:6 and 21:11. The lexical dataset glosses it draw or persuade. This verse does not negate the inability of 6:44, but it applies the enabling verb to all and does not state an outcome, which is why the scope of the drawing is the point the words leave open.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.6.44",
+        "to": "John.6.65",
+        "source": "openbible",
+        "votes": 74
+      },
+      {
+        "from": "John.6.44",
+        "to": "John.12.32",
+        "source": "openbible",
+        "votes": 20
+      },
+      {
+        "from": "John.6.44",
+        "to": "Jer.31.3",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "1Cor.2.14",
+        "source": "openbible",
+        "votes": 35
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "Eph.4.18",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "Rom.1.28",
+        "source": "openbible",
+        "votes": 8
+      },
+      {
+        "from": "1Cor.2.14",
+        "to": "Rom.8.5",
+        "source": "openbible",
+        "votes": 57
+      },
+      {
+        "from": "1Cor.2.14",
+        "to": "2Cor.4.4",
+        "source": "openbible",
+        "votes": 36
+      },
+      {
+        "from": "1Cor.2.14",
+        "to": "Prov.14.6",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "Rom.3.11",
+        "to": "Ps.14.2",
+        "source": "openbible",
+        "votes": 32
+      },
+      {
+        "from": "Rom.3.11",
+        "to": "Ps.53.2",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "Rom.3.11",
+        "to": "Isa.55.6",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "Jer.13.23",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.12.32",
+        "addressed": true,
+        "resolution": "πάντας ἑλκύσω πρὸς ἐμαυτόν. The same verb ἑλκύω, future indicative here, that grounds the inability of John 6:44 is applied to πάντας, all. The lexical fact is that ἑλκύω is the divine action that makes coming possible in both verses, so John 12:32 widens the stated scope of the drawing but does not reverse the οὐ δύναται of 6:44. The verb itself does not say whether the drawing of all is an effectual pull on each or a universal enabling that can be resisted, so this text marks exactly the point the vocabulary leaves open rather than overturning the inability claim."
+      },
+      {
+        "ref": "Isa.55.6",
+        "addressed": true,
+        "resolution": "דִּרְשׁוּ יְהוָה, seek the LORD, an imperative addressed to hearers. A command to seek can be read as presupposing some ability to respond, which is the lexical hook for a reading on which prior grace has restored a real capacity to all who hear. The counter-observation from the same data is that imperatives in Scripture frequently state an obligation without by themselves asserting the unaided capacity to meet it, and the parallel Isa 65:1 says the LORD was found by those who did not seek. The imperative therefore bears on the extent question and does not by itself settle whether the seeking is unaided or enabled."
+      },
+      {
+        "ref": "Jer.13.23",
+        "addressed": true,
+        "resolution": "Can the Cushite change his skin or the leopard his spots. The rhetorical question encodes a fixed inability of nature, parallel in force to σαρκὶ ὄντες οὐ δύνανται in Rom 8:8. It reinforces the reality of the inability rather than complicating it, and it says nothing about the extent or mode of any remedy."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units for the anchors are present in the ingested store, and the ingested ECM window covers only 3 John 1.1 to 1.15, so these NT anchors are outside ECM scope. The store records the editions for the load-bearing tokens, for example δύναται in John 6:44 is attested across NA28, NA27, SBL, WH, Treg, TR, and Byz, so the οὐ δύναται and οὐδεὶς δύναται constructions and the νεκρούς predicate are stable across the printed tradition. The marked spelling variants noted in the input bundle for John 6:44 and 6:65 do not touch the inability clause."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "pauline_anthropology",
+      "johannine_soteriology",
+      "effectual_grace_reading",
+      "prevenient_grace_reading"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "inability_as_real_incapacity",
+        "verdict": "affirmed_on_lexical_grounds",
+        "rationale": "The negated present indicative of δύναμαι, V-PNI-3S and V-PNI-3P, recurs identically across John 6:44, John 6:65, Rom 8:7, Rom 8:8, and 1Cor 2:14. δύναμαι is the capacity lexeme, distinct from θέλω the willing lexeme, both available to the writers. The choice of the capacity verb under negation, reinforced by the dead predicate νεκρούς in Eph 2:1 and 2:5 and by the universal negations of Rom 3:10-12, asserts a real inability and not mere reluctance. This is the part the words settle and it is what the proposition asserts."
+      },
+      {
+        "framework": "inability_as_unwillingness_only",
+        "verdict": "lexically_strained",
+        "rationale": "A reading that reduces οὐ δύναται to will not has to gloss the capacity verb δύναμαι as if it were θέλω. The writers had θέλω available and used δύναμαι instead, and in Rom 8:7 the inability is given by γάρ as the ground of the non-submission, which is hard to render if the inability simply is the unwillingness. On the words alone the will not gloss must be imported from outside the lexicon. Stated fairly, its strongest support is that moral inability in Scripture often coincides with culpable unwillingness, so the two are not opposites, but the lexeme still encodes incapacity."
+      },
+      {
+        "framework": "effectual_grace_reading",
+        "verdict": "lexically_available",
+        "rationale": "ἑλκύω in its other seven New Testament occurrences is a forceful pull that achieves its effect, dragging to court in Acts 16:19 and 21:30 and Jas 2:6, drawing a sword in John 18:10, hauling in a loaded net in John 21:6 and 21:11. On this dominant attested sense the Father's drawing in John 6:44 effects the coming of those drawn, and John 6:65 ties it to a prior granting δεδομένον. This reading takes the inability as removed only where God acts. It is lexically available and arguably the dominant sense of the verb."
+      },
+      {
+        "framework": "prevenient_grace_reading",
+        "verdict": "lexically_available",
+        "rationale": "The same verb ἑλκύω in John 12:32 takes the object πάντας, all, and the dataset gloss includes persuade alongside draw. On this reading the drawing is a universal enabling that counteracts the inability for all who hear, restoring a capacity that can still be resisted, with imperatives such as Isa 55:6 seek the LORD presupposing the restored capacity. This reading is lexically available because the vocabulary asserts the inability and a prior divine act as its precondition but does not quantify whom that act reaches or state that the drawing of all is irresistible."
+      }
+    ],
+    "notes": "The frameworks divide not over whether the inability is real, which the negated present indicative of δύναμαι settles, but over the EXTENT and MODE of the enabling act. The split tracks the two attested senses of ἑλκύω and the unstated outcome of πάντας ἑλκύσω in John 12:32. Both the effectual and the prevenient readings affirm the proposition as stated, that fallen humans apart from the Spirit's prior work cannot please God, repent, or believe savingly, so the verdict does not depend on ranking them."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether, in the cited texts, fallen human beings apart from a prior divine work retain the capacity to please God, repent, or believe savingly, or whether those texts assert an incapacity removed only by a prior act of God.",
+    "notes": "The labels total depravity and spiritual inability are tradition-coded, so the audit reframes the stem as a direct lexical question, does δύναμαι under negation in the anchors describe incapacity or unwillingness. The verdict is derived on the original stem after the audit and the lexical answer is incapacity. The proposition as worded, apart from the Spirit's prior work, is affirmed by both the effectual and the prevenient readings, so affirming it does not smuggle in either side of the extent debate. No VERDICT-CHANGED. affirms remains true, consistent with the prior file."
+  },
+  "lay_summary": "These passages share one Greek verb under a negative. The verb is δύναμαι, which means to be able, to have capacity. It is not θέλω, which means to want or to will, and the writers had both verbs available. In John 6:44 and 6:65 Jesus says οὐδεὶς δύναται, no one is able, parsed as a present indicative, paired with a clause naming a prior act by the Father, either drawing or granting. In Romans 8:7 Paul says the mind of the flesh is hostile to God and adds that it is not able, and he uses the word for because to make the inability the reason for the hostility. Romans 8:8 says those in the flesh are not able to please God. First Corinthians 2:14 stacks two negatives, the natural person does not receive and is not able to know the things of the Spirit. Ephesians 2:1 and 2:5 supply the picture, the readers were dead in trespasses before God made them alive. The same pattern of total negation appears in Romans 3:10 to 12, none understands, none seeks God, quoting the Psalms. So the texts agree, across three writers, that there is a real inability, not just reluctance, and this part is clear and decisive. Where readers diverge is the extent and the manner of the cure. The verb for the Father drawing, ἑλκύω, occurs only eight times, and elsewhere it means a forceful pull that always succeeds, dragging people to court, hauling in a full net. That forceful sense suggests God effectively brings those he draws. But the same verb in John 12:32 says Jesus will draw all, with no outcome stated, and the dictionary entry also allows persuade. The words assert the inability plainly, but they do not by themselves say whether the drawing reaches all and can be resisted or reaches some and cannot. That open scope is why this point is debated at the level of the text itself.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.44"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.65"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.8"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.2.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.1"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.12.32"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.11"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1410"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1670"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3498"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5591"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.6.44"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.8.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.2.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.3.11"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.8.7"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

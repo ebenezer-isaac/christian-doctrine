@@ -1,0 +1,852 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-total-depravity",
+  "question_id": "doc-total-depravity",
+  "generated_at": "2026-05-27T07:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across Torah, Prophets, Writings, Gospel, and Epistle converges on corruption that reaches every named faculty of fallen man and on a denied capacity to come to God unaided. Gen 6:5 stacks the universal and restrictive quantifiers kol yetser machshevot libbo raq ra kol-hayyom (every formed-purpose of the thoughts of his heart was only evil all the day), queried and confirmed as the token sequence H4284 H3820A H3605 H7535 H3336 H7451 in the store. Jer 17:9 predicates the heart aqob (H6121A, a term occurring only 3 times in the canon) min kol (more than all) and anush (H0605, incurably sick), closing with the interrogative-pronoun clause mi yedaennu (BHSA XYqt clause, IPrP subject) that functions as universal negation. Rom 3:10 to 18 assembles a catena whose Greek reads ouk estin dikaios oude heis, twin negated participles ho synion and ho ekzeton ton theon, pantes exeklinan, the once-occurring verb echreothesan, and ouk estin heos henos, then enumerates throat, tongue, lips, mouth, feet, and eyes. Eph 2:1 to 3 predicates nekrous ontas (present participle of state) and tekna physei orges. Rom 8:7 to 8, John 6:44, and 1Cor 2:14 deny capacity at verb modality with ou dynatai and oudeis dynatai. The one underdetermined point is the SCOPE word total: the vocabulary establishes extensive reach across faculties but does not by itself rank extensive-totality against prevailing-but-not-absolute corruption, so a fair lens range is recorded."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3498",
+        "lemma": "νεκρός",
+        "transliteration": "nekros",
+        "occurrences_in_canon": 132,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3900",
+        "lemma": "παράπτωμα",
+        "transliteration": "paraptoma",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1410",
+        "lemma": "δύναμαι",
+        "transliteration": "dynamai",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5449",
+        "lemma": "φύσις",
+        "transliteration": "physis",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0543",
+        "lemma": "ἀπείθεια",
+        "transliteration": "apeitheia",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0889",
+        "lemma": "ἀχρειόομαι",
+        "transliteration": "achreioomai",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 234,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3820",
+        "lemma": "לֵב",
+        "transliteration": "leb",
+        "occurrences_in_canon": 523,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6121",
+        "lemma": "עָקֹב",
+        "transliteration": "aqob",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0605",
+        "lemma": "אָנַשׁ",
+        "transliteration": "anash",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7535",
+        "lemma": "רַק",
+        "transliteration": "raq",
+        "occurrences_in_canon": 104,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3336",
+        "lemma": "יֵצֶר",
+        "transliteration": "yetser",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4284",
+        "lemma": "מַחֲשָׁבָה",
+        "transliteration": "machashabah",
+        "occurrences_in_canon": 52,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3498",
+      "G3900",
+      "G0266",
+      "G4561",
+      "G1410",
+      "G5449",
+      "G0543",
+      "G0889",
+      "G3956",
+      "G3762",
+      "G1520",
+      "H3820",
+      "H6121",
+      "H0605",
+      "H3605",
+      "H7535",
+      "H3336",
+      "H4284",
+      "H7451",
+      "G0444"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.6.5",
+        "key_terms": [
+          {
+            "strong": "H3605",
+            "lemma": "כֹּל"
+          },
+          {
+            "strong": "H7535",
+            "lemma": "רַק"
+          },
+          {
+            "strong": "H3336",
+            "lemma": "יֵצֶר"
+          },
+          {
+            "strong": "H4284",
+            "lemma": "מַחֲשָׁבָה"
+          }
+        ],
+        "force": "Queried token sequence in the store is H4284 (machshevot, thoughts), H3820A (leb, heart), H3605 (kol, every), H3117 (yom, day), then H7535 (raq, only), H3336 (yetser, formed purpose), and H3605 (kol, all) again with H7451 (ra, evil) doubled. The clause kol yetser machshevot libbo raq ra kol-hayyom reads every formed purpose of the thoughts of his heart was only evil all the day. The universal quantifier kol brackets the clause twice and the restrictive raq excludes a non-evil remainder. Note that raq and kol co-occur in 37 verses across the canon, so they are ordinary restrictive and universal particles; their force here is set by the saturating stack, not by a rare word.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gen.8.21",
+        "key_terms": [
+          {
+            "strong": "H3336",
+            "lemma": "יֵצֶר"
+          },
+          {
+            "strong": "H3820",
+            "lemma": "לֵב"
+          },
+          {
+            "strong": "H7451",
+            "lemma": "רַע"
+          }
+        ],
+        "force": "Queried sequence includes H3336 (yetser), H3068 (YHWH), H3820A (leb, heart, twice), and H7451 (ra, evil) with mineurav (from his youth). The clause yetser leb haadam ra mineurav declares the formed purpose of the human heart evil from youth, restating Gen 6:5 after the flood and grounding the corruption as a constant of the post-fall human heart rather than a one-generation verdict.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jer.17.9",
+        "key_terms": [
+          {
+            "strong": "H3820",
+            "lemma": "לֵב"
+          },
+          {
+            "strong": "H6121",
+            "lemma": "עָקֹב"
+          },
+          {
+            "strong": "H0605",
+            "lemma": "אָנַשׁ"
+          }
+        ],
+        "force": "Queried token order is H3820A (leb, heart), H6121A (aqob, deceitful and twisted), H1931 (hu), H3605 (kol, with the comparative min prefix, more than all), H4310 (mi, who), H0605 (anush, incurably sick), H3045 (yada, know). BHSA parses three clauses, a nominal clause with PreC the adjective aqob and Subj the determined heart, an adjectival clause for anush, and an X-yiqtol clause whose subject is an interrogative pronoun phrase (IPrP). aqob occurs only 3 times in the canon and anush 17 times, clustering in Jeremiah incurable-wound language. The rhetorical mi yedaennu functions as universal negation: no one can fathom the heart.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "idiom"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.10",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "MorphGNT confirms Ouk estin dikaios oude heis (there is none righteous, not even one). The adverb of negation ouk governs the copula estin, and oude heis appends a second negation plus the numeral one to foreclose any exception. Paul opens the catena by citing Ps 14 (LXX 13) language; the store cross-refs Rom.3.10 to Ps.14.1 and Ps.53.1.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.11",
+        "key_terms": [
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "MorphGNT confirms two present-active articular participles each under ouk estin: ho synion (the one understanding, lemma syniemi) and ho ekzeton ton theon (the one seeking God, lemma ekzeteo). The construction negates the cognitive faculty (understanding) and the volitional faculty (seeking God) in parallel, which is the verse that most directly supports corruption reaching distinct faculties.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.12",
+        "key_terms": [
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          },
+          {
+            "strong": "G0889",
+            "lemma": "ἀχρειόομαι"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          }
+        ],
+        "force": "MorphGNT confirms pantes exeklinan (all turned aside, pas nominative plural) and echreothesan (aorist passive third plural, lemma achreioomai). A grep of all MorphGNT files confirms achreioomai occurs exactly once in the New Testament, so it is a hapax whose sense, rendered useless or made worthless, is fixed by its Ps 14 (LXX) source rather than triangulated from other NT uses. The verse closes with ouk estin ho poion chrestoteta, ouk estin heos henos (there is none doing good, there is none, not as far as one).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.13",
+        "key_terms": [
+          {
+            "strong": "G5028",
+            "lemma": "τάφος"
+          },
+          {
+            "strong": "G0785",
+            "lemma": "ἀσπίς"
+          }
+        ],
+        "force": "MorphGNT confirms taphos aneogmenos ho larynx auton (their throat is an open grave), edoliousan (they kept deceiving, lemma dolioo), and ios aspidon hypo ta cheile auton (poison of asps under their lips). The speech organs throat, tongue, and lips are figured as instruments of death and deceit, extending the indictment to the bodily faculty of speech. The store cross-refs Rom.3.13 to Ps.5.9 and Ps.140.3.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.18",
+        "key_terms": [
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G5401",
+            "lemma": "φόβος"
+          }
+        ],
+        "force": "MorphGNT confirms ouk estin phobos theou apenanti ton ophthalmon auton (there is no fear of God before their eyes). This caps the catena by negating the affective and reverential faculty, the fear of God, and locating the lack at the eyes. The store cross-refs Rom.3.18 to Ps.36.1.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.1",
+        "key_terms": [
+          {
+            "strong": "G3498",
+            "lemma": "νεκρός"
+          },
+          {
+            "strong": "G3900",
+            "lemma": "παράπτωμα"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "MorphGNT confirms ontas nekrous tois paraptomasin kai tais hamartiais (being dead in the trespasses and the sins). The participle ontas is present of eimi, a state predicate, not an event, so death is the standing condition of the unregenerate rather than a process they undergo. The store cross-refs Eph.2.1 to Col.2.13 and to Rom.3.10, linking the death image to the catena.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.2.3",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G5449",
+            "lemma": "φύσις"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πᾶς"
+          }
+        ],
+        "force": "MorphGNT confirms hemeis pantes anestraphemen pote en tais epithymiais tes sarkos hemon, poiountes ta thelemata tes sarkos kai ton dianoion (we all conducted ourselves in the desires of our flesh, doing the wills of the flesh and of the thoughts). The pairing sarx plus dianoia couples bodily appetite with cognition. The clause closes kai emetha tekna physei orges (and we were by nature children of wrath); physei is a dative of respect, and physis is the strongest lexical anchor for corruption as constitutive nature, the same word the minority lens contests.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.7",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G2189",
+            "lemma": "ἔχθρα"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "To phronema tes sarkos echthra eis theon, to gar nomo tou theou ouch hypotassetai, oude gar dynatai (the mindset of the flesh is enmity toward God, for it does not submit to the law of God, neither indeed is it able). phronema is the cognitive disposition; ou dynatai is a present indicative absolute denial of capacity, not a denial of permission. The store cross-refs Rom.8.7 to Jer.13.23 (can the leopard change its spots) and to 1Cor.2.14.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.8",
+        "key_terms": [
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G0700",
+            "lemma": "ἀρέσκω"
+          }
+        ],
+        "force": "Hoi de en sarki ontes theo aresai ou dynantai (those who are in the flesh are not able to please God). The articular participle ontes marks a constitutive state of being in the flesh, and ou dynantai is a categorical denial of capacity. The verb dynamai is the semantic hinge that ties the depravity verdict to inability rather than mere disinclination.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.44",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          },
+          {
+            "strong": "G1670",
+            "lemma": "ἑλκύω"
+          }
+        ],
+        "force": "Oudeis dynatai elthein pros me ean me ho pater ho pempsas me helkyse auton (no one is able to come to me unless the Father who sent me draws him). oudeis dynatai is an absolute negation of capacity confirmed in the store at this verse, and the ean me clause sets prior divine drawing (helkyo) as the necessary condition. The store cross-refs John.6.44 to John.12.32, Jer.13.23, and Jer.31.3.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.2.14",
+        "key_terms": [
+          {
+            "strong": "G5591",
+            "lemma": "ψυχικός"
+          },
+          {
+            "strong": "G1209",
+            "lemma": "δέχομαι"
+          },
+          {
+            "strong": "G1410",
+            "lemma": "δύναμαι"
+          }
+        ],
+        "force": "Psychikos de anthropos ou dechetai ta tou pneumatos tou theou, moria gar auto estin, kai ou dynatai gnonai (the natural man does not receive the things of the Spirit of God, for they are foolishness to him, and he is not able to know them). ou dechetai negates reception and ou dynatai gnonai negates the cognitive faculty of knowing spiritual things, pairing will and mind.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.3.10",
+        "to": "Ps.14.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.10",
+        "to": "Ps.53.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.13",
+        "to": "Ps.5.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.13",
+        "to": "Ps.140.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.14",
+        "to": "Ps.10.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.15",
+        "to": "Prov.1.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.15",
+        "to": "Isa.59.7",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.18",
+        "to": "Ps.36.1",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jer.17.9",
+        "to": "Gen.8.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jer.17.9",
+        "to": "Ps.51.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jer.17.9",
+        "to": "Mark.7.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Eph.2.1",
+        "to": "Col.2.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.44",
+        "to": "John.12.32",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "Jer.13.23",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.7",
+        "to": "1Cor.2.14",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gen.1.31",
+        "addressed": true,
+        "resolution": "God saw all that he had made, hinneh tov meod (behold, very good). This is the pre-fall creational verdict and is cross-referenced from Rom.3.12 in the bundle precisely as the contrast. It does not complicate the verdict because the proposition concerns FALLEN man; the Gen 6:5 and Gen 8:21 corruption clauses are post-fall and use yetser leb ra to mark the change."
+      },
+      {
+        "ref": "Eccl.7.29",
+        "addressed": true,
+        "resolution": "God made adam yashar (humanity upright) but they sought hishshebonot rabbim (many devices). The verse fixes original uprightness as the prior state and present universal departure as the current one, which is consistent with the post-fall depravity verdict rather than against it."
+      },
+      {
+        "ref": "Rom.2.14",
+        "addressed": true,
+        "resolution": "Gentiles physei ta tou nomou poiosin (by nature do the things of the law) shows residual moral awareness, but Rom 2:15 says their reasonings either accuse or excuse, and Rom 3:9 concludes pantas hyph hamartian (all under sin). The phrase posits natural conscience, not autonomous saving capacity, so it does not contradict the inability clauses."
+      },
+      {
+        "ref": "Acts.17.27",
+        "addressed": true,
+        "resolution": "zetein ton theon ei ara ge pselapheseian auton (to seek God if perhaps they might grope for him) uses the rare optative pselapheseian inside an ei ara ge clause expressing remote, doubtful possibility. The grammar marks groping in the dark, which underlines incapacity rather than asserting realized ability."
+      },
+      {
+        "ref": "John.1.9",
+        "addressed": true,
+        "resolution": "phos to alethinon ho photizei panta anthropon (the true light that enlightens every man) speaks of Christ illuminating all, but John 1:10 to 11 immediately says ho kosmos auton ouk egno (the world did not know him) and hoi idioi auton ou parelabon (his own did not receive him), so universal illumination does not entail universal unaided positive response."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Rom.3.12",
+        "variant_id": "rom-3-12-achreiothesan-spelling",
+        "verdict_impact": "none",
+        "note": "Witnesses read echreothesan or achreiothesan; the spelling difference does not change the hapax lemma achreioomai or its sense of being rendered useless."
+      },
+      {
+        "ref": "Eph.2.1",
+        "variant_id": "eph-2-1-paraptomasin-hamartiais-order",
+        "verdict_impact": "none",
+        "note": "Minor word-order variation between paraptomasin and hamartiais does not touch the ontas nekrous state predicate that carries the verdict."
+      },
+      {
+        "ref": "John.6.44",
+        "variant_id": "john-6-44-helkyse-helkysei",
+        "verdict_impact": "none",
+        "note": "Subjunctive helkyse versus future helkysei does not affect the oudeis dynatai elthein negation of capacity."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchors lie outside the ingested CBGM 3 John sample (not_in_ecm_scope is true in the bundle). Variant survey rests on apparatus shadow data only; no examined reading shifts the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "extensive_totality_reading",
+      "prevailing_corruption_reading",
+      "covenant_lawsuit_rhetoric_reading"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "extensive_totality_reading",
+        "verdict": "affirms",
+        "rationale": "Takes the quantifier stack at plain force. Gen 6:5 brackets the clause with kol twice and raq once, Jer 17:9 says the heart is deceitful min kol and incurably sick, Rom 3:11 negates understanding and seeking as separate faculties, Rom 3:13 to 18 enumerates throat, tongue, lips, mouth, feet, and eyes, and Eph 2:3 names flesh, thoughts, and physis. On this reading the canon distributes corruption across each named faculty, and the dynamai constructions in Rom 8:7 to 8, John 6:44, and 1Cor 2:14 deny saving capacity at verb modality. The word total is read as extensive (no faculty exempt), not as absolute (man as bad as possible), which the texts also do not assert."
+      },
+      {
+        "framework": "prevailing_corruption_reading",
+        "verdict": "affirms",
+        "rationale": "Reaches the same affirmation but treats the quantifiers as marking the dominant and pervasive bent of the heart rather than a clinical claim that every micro-faculty is equally and maximally corrupt. raq and kol co-occur in 37 verses across the canon as ordinary restrictive and universal particles, so the strength here comes from the saturating context, and this lens reads the catena and Gen 6:5 as describing what characteristically rules fallen man while still grounding real inability to please or come to God. The inability verbs ou dynatai and oudeis dynatai are read as decisive even on this milder construal of extent."
+      },
+      {
+        "framework": "covenant_lawsuit_rhetoric_reading",
+        "verdict": "disputed",
+        "rationale": "Notes that several catena sources (Ps 14, Ps 5, Ps 10, Ps 36, Isa 59) are covenant-lawsuit or imprecatory poetry where ouk estin and pantes language can be hot prophetic rhetoric against a wicked party rather than a flat anthropological universal, and that Hebrew poetic totality terms often function as emphatic hyperbole. On this lens the vocabulary alone does not settle whether corruption is extensive across every faculty or prevailingly described, because the words establish reach but do not rank the two construals. This lens is recorded so a reader holding it sees its strongest form; the engine still lands affirm because Paul himself recontextualizes the psalms in Rom 3:9 and 3:19 as a universal indictment that stops every mouth, and Gen 8:21 restates the corruption clause as a settled fact about the human heart from youth outside any lawsuit setting."
+      }
+    ],
+    "notes": "The verdict rests on plain grammar that holds across construals: stacked negation with oude heis and heos henos, present state participles ontas nekrous and en sarki ontes, the dative physei, and the modal dynamai denials. The only genuinely underdetermined point is the SCOPE sense of total, where extensive-totality and prevailing-corruption readings both affirm and a covenant-lawsuit-rhetoric reading registers the lexical room; that room is recorded honestly rather than smoothed over."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "How extensively has sin affected the faculties of fallen human beings (mind, will, affections, body), and what is the unaided capacity of fallen man to please God or to initiate saving faith?",
+    "notes": "The original stem uses the loaded label total depravity and asserts every faculty plus inability in one predicate, which maps onto a specific tradition taxonomy and also risks the misreading that total means as-evil-as-possible. The neutralized form separates the extent question from the capacity question and drops the label. The verdict is derived on the original stem and is affirm; the neutral rephrasing is recorded only for transparency. affirms is UNCHANGED from the prior evidence file."
+  },
+  "lay_summary": "The Bible uses a tight cluster of words to describe fallen humanity, and the pattern runs from Genesis through Jeremiah to Paul and John. Genesis 6:5 piles up quantifiers: every formed purpose of the thoughts of the heart was only evil all the day, with the words for every, only, and all bracketing the clause. Genesis 8:21 repeats it after the flood, the heart is evil from youth, so it reads as a standing fact, not a one-time verdict. Jeremiah 17:9 calls the heart deceitful more than all things and incurably sick, then asks who can know it, a rhetorical question that means no one can. In Romans 3 Paul stacks Old Testament quotations: there is none righteous, not even one, none who understands, none who seeks God, all have turned aside, and a word for became useless that appears only once in the whole New Testament. That chain names the throat, tongue, lips, mouth, feet, and eyes, touching speech, walking, and the absence of any fear of God. Ephesians 2 says the unconverted were being dead in trespasses and sins, using a present participle that marks a settled state, and by nature children of wrath, where by nature is the strongest word for a built-in condition. Romans 8, John 6:44, and First Corinthians 2:14 then shift from describing corruption to denying capacity, using the verb able in flat negative form: the fleshly mind cannot submit to God, no one is able to come to Christ unless drawn, the natural person cannot know the things of the Spirit. Where readers can diverge is the exact reach of the word total. The words clearly show corruption touching mind, will, affections, and body, and they clearly deny unaided power to come to God, but the everyday words for all and only do not by themselves rank a claim that every faculty is touched against a claim that corruption prevailingly rules the heart, and some of the quoted psalms are courtroom poetry. Both readings still land on inability, because the verb able is negated outright rather than merely warned against.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.10-18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.1-5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.7-8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.6.44"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.2.14"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.6.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.8.21"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jer.17.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0889"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1410"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5449"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6121"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H0605"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3336"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jer.17.9"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.2.1"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.8.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.3.10-18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Jer.17.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.6.44"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.2.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include ETCBC-BHSA and MACULA-Greek, both CC-BY-NC-4.0 which forbids commercial redistribution. The BHSA clause-type parse of Jer 17:9 (the nominal, adjectival, and X-yiqtol clauses with the interrogative-pronoun subject) and the MACULA-Greek syntax anchors for the Eph 2:1 state predicate and Rom 8:7 clause structure are load-bearing for the faculty-by-faculty and state-predicate observations, so under-citing to keep the file publishable was not chosen."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

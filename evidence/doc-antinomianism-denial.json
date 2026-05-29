@@ -1,0 +1,511 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-antinomianism-denial",
+  "question_id": "doc-antinomianism-denial",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9375,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The anchor texts lexically bind grace to obedience and exclude continuing in sin, without making law the ground of acceptance. Rom 6:2 and Rom 6:15 both answer the antinomian inference with the same emphatic optative of rejection, μὴ γένοιτο, the second aorist optative of γίνομαι, parsed V-2ADO-3S, a recurring Pauline formula that forecloses the inference rather than weighing it. Rom 6:2 grounds the refusal in the aorist ἀπεθάνομεν τῇ ἁμαρτίᾳ, we died to sin, so continued life in sin is a contradiction. Titus 2:12 makes saving χάρις the grammatical subject of the present participle παιδεύουσα, training believers to deny ἀσέβεια and to live δικαίως and εὐσεβῶς. 1 John 3:4 equates sin with lawlessness through an articular copula clause, ἡ ἁμαρτία ἐστὶν ἡ ἀνομία, and 1 John 2:4 makes present τηρῶν τὰς ἐντολὰς the test of knowing God, calling the non-keeper a ψεύστης. Matt 5:17 sets καταλῦσαι against πληρῶσαι so the law is fulfilled not annulled, while Rom 8:4 has its δικαίωμα fulfilled in those who walk by the Spirit, so the moral standard endures as the contour of obedience."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 174,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0264",
+        "lemma": "ἁμαρτάνω",
+        "transliteration": "hamartano",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0458",
+        "lemma": "ἀνομία",
+        "transliteration": "anomia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 198,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1785",
+        "lemma": "ἐντολή",
+        "transliteration": "entole",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3811",
+        "lemma": "παιδεύω",
+        "transliteration": "paideuo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5485",
+        "lemma": "χάρις",
+        "transliteration": "charis",
+        "occurrences_in_canon": 157,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1096",
+        "lemma": "γίνομαι",
+        "transliteration": "ginomai",
+        "occurrences_in_canon": 697,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0599",
+        "lemma": "ἀποθνῄσκω",
+        "transliteration": "apothnesko",
+        "occurrences_in_canon": 112,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2961",
+        "lemma": "κυριεύω",
+        "transliteration": "kyrieuo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4137",
+        "lemma": "πληρόω",
+        "transliteration": "pleroo",
+        "occurrences_in_canon": 88,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2647",
+        "lemma": "καταλύω",
+        "transliteration": "katalyo",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0266",
+      "G0264",
+      "G0458",
+      "G3551",
+      "G1785",
+      "G3811",
+      "G5485",
+      "G1096",
+      "G0599",
+      "G2961",
+      "G4137",
+      "G2647",
+      "G0720"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.6.1",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          }
+        ],
+        "force": "Poses the antinomian inference. The verb ἐπιμένωμεν, present active subjunctive parsed V-PAS-1P, frames continuance in sin as a live proposal, shall we keep on in sin so that grace, χάρις, may abound, πλεονάσῃ. The grammar sets up the question that the next verse rejects.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.2",
+        "key_terms": [
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          }
+        ],
+        "force": "The answer is μὴ γένοιτο, the negative μή with γένοιτο, the second aorist optative of γίνομαι parsed V-2ADO-3S. This optative of rejection forecloses the inference outright rather than debating it. The aorist ἀπεθάνομεν τῇ ἁμαρτίᾳ, V-2AAI-1P, we died to sin, grounds the refusal in a completed change, and πῶς ἔτι ζήσομεν ἐν αὐτῇ treats continued life in sin as a contradiction of that death.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.14",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G2961",
+            "lemma": "κυριεύω"
+          }
+        ],
+        "force": "Sin will not lord it over the believer, ἁμαρτία ὑμῶν οὐ κυριεύσει, future indicative V-FAI-3S, because the believer is οὐ ὑπὸ νόμον ἀλλὰ ὑπὸ χάριν, not under law but under grace. Freedom from sin is presented as the consequence of grace, so grace empowers holiness rather than dissolving it.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.6.15",
+        "key_terms": [
+          {
+            "strong": "G1096",
+            "lemma": "γίνομαι"
+          },
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          }
+        ],
+        "force": "The second antinomian inference, shall we sin, ἁμαρτήσωμεν aorist subjunctive V-AAS-1P, because we are not under law but under grace, receives the identical refusal μὴ γένοιτο. The repetition of the same optative formula at both Rom 6:2 and Rom 6:15 shows that neither version of the antinomian conclusion, continue in sin nor sin freely under grace, is granted.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.11",
+        "key_terms": [
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          }
+        ],
+        "force": "The grace of God that brings salvation appeared, ἐπεφάνη ἡ χάρις τοῦ θεοῦ σωτήριος. Grace, χάρις, is the explicit grammatical subject, which the next verse continues with a participle, so the saving grace is itself the agent whose moral effect is then described.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.12",
+        "key_terms": [
+          {
+            "strong": "G3811",
+            "lemma": "παιδεύω"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          }
+        ],
+        "force": "Grace is the subject of παιδεύουσα, present active participle V-PAP-NSF agreeing with feminine χάρις, training us so that, ἵνα, having denied, ἀρνησάμενοι, ungodliness, ἀσέβειαν, and worldly desires we may live, ζήσωμεν, self-controlled, upright, and godly. The participle makes holiness the direct pedagogical aim of grace, which is the affirmative core of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.2.4",
+        "key_terms": [
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          }
+        ],
+        "force": "The one who says, ὁ λέγων, I have known him, ἔγνωκα αὐτόν, yet does not keep his commandments, τὰς ἐντολὰς αὐτοῦ μὴ τηρῶν, present participle of τηρέω, is a liar, ψεύστης. The present-tense keeping makes ongoing obedience the test of the claim to know God, so saving knowledge and commandment-keeping are lexically inseparable.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.4",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G0458",
+            "lemma": "ἀνομία"
+          }
+        ],
+        "force": "Everyone practicing sin, ποιῶν present participle, also practices lawlessness, and the clause ἡ ἁμαρτία ἐστὶν ἡ ἀνομία equates the two with an articular subject, the copula ἐστίν, and an articular predicate. The definitional equation ties the very category of sin to lawlessness, ἀνομία, so the moral standard marks the boundary of obedience.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.9",
+        "key_terms": [
+          {
+            "strong": "G0264",
+            "lemma": "ἁμαρτάνω"
+          }
+        ],
+        "force": "The one born of God does not practice sin, ἁμαρτίαν οὐ ποιεῖ present indicative, and οὐ δύναται ἁμαρτάνειν, cannot keep on sinning, present infinitive, because the seed of God remains. The present-tense verbs describe habitual practice, so the new birth lexically produces obedience incompatible with settled, ongoing sin.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.4",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4137",
+            "lemma": "πληρόω"
+          }
+        ],
+        "force": "The righteous requirement of the law, τὸ δικαίωμα τοῦ νόμου, is fulfilled, πληρωθῇ aorist passive subjunctive, in us who walk, περιπατοῦσιν, not according to flesh but according to Spirit. The passive verb makes the law's standard something met in the Spirit-walking believer, so being not under law as a ground of acceptance coexists with the law's demand being fulfilled in conduct.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.17",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G2647",
+            "lemma": "καταλύω"
+          }
+        ],
+        "force": "Christ did not come to abolish, καταλῦσαι aorist infinitive, the law or the prophets but to fulfill, πληρῶσαι. The antithesis of the two aorist infinitives, with ἀλλά between, establishes that the law is not annulled in his coming, which underwrites its continuing role as the contour of obedience.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.5.19",
+        "key_terms": [
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          }
+        ],
+        "force": "Whoever relaxes, λύσῃ aorist subjunctive, one of the least of these commandments, μίαν τῶν ἐντολῶν τούτων, and teaches others so will be called least in the kingdom. The verb λύσῃ marks loosening a commandment as a loss of standing, reinforcing the abiding moral demand without making commandment-keeping the ground of entry.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1John.3.4",
+        "to": "Num.15.31",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.3.8",
+        "to": "1John.3.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.5.19",
+        "to": "Deut.27.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.2.12",
+        "to": "Ps.105.45",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.3.7",
+        "to": "Ps.106.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.6.2",
+        "to": "Gen.39.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.2.12",
+        "to": "Isa.55.6",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.6.14",
+        "addressed": true,
+        "resolution": "The clause οὐ ὑπὸ νόμον, not under law, could be read as abolishing the moral law for believers. The surrounding grammar resolves this. It stands in antithesis to ὑπὸ χάριν as the basis of standing, while verse 13 commands presenting the members as ὅπλα δικαιοσύνης, weapons of righteousness, and Rom 8:4 says the δικαίωμα of the law is fulfilled in the Spirit-walker. The verse removes law as the ground of justification but not as the standard of conduct."
+      },
+      {
+        "ref": "1John.1.9",
+        "addressed": true,
+        "resolution": "Confession of ongoing sin, ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας, could seem to contradict the does-not-practice-sin language of 1 John 3:9. The aspect differs. 1 John 1:9 uses ὁμολογῶμεν of acknowledging occasional sin that is cleansed, while 3:9 uses present ποιεῖ and ἁμαρτάνειν of settled, habitual practice, so the two describe lapse versus lifestyle and are compatible."
+      },
+      {
+        "ref": "Rom.6.15",
+        "addressed": true,
+        "resolution": "Being under grace not law could be heard as licence to sin, which is exactly the inference the verse voices, ἁμαρτήσωμεν. It is not left ambiguous. The same μὴ γένοιτο that answers Rom 6:2 answers it here, so the text itself forecloses the antinomian reading of its own not-under-law clause."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are New Testament and outside the published CBGM scope, which in this run covers only 3 John. A direct check of the lexical store confirmed VariantUnit nodes exist only for 3 John, so the bundle correctly reports not_in_ecm_scope for these passages and supplied no variant units. The load-bearing forms, μὴ γένοιτο at Rom 6:2 and 6:15, ἀπεθάνομεν, παιδεύουσα, ἀνομία at 1 John 3:4, τηρῶν τὰς ἐντολὰς at 1 John 2:4, and καταλῦσαι and πληρῶσαι at Matt 5:17, are not subject to any examined apparatus reading, so the verdict is treated as variant robust within the available manuscript evidence."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the moral law, summarized in the Decalogue, as an abiding rule of life for the believer, which matches the proposition directly. Rom 6:14, Titus 2:12, 1 John 3:4, and Rom 8:4 are taken to show grace producing law-shaped obedience and the law's δικαίωμα fulfilled in the Spirit-walker, so the enduring-standard clause is read as the continuing Mosaic moral law."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Distinguishes the Mosaic law as a covenant code from the moral character of God, and places the believer under the law of Christ rather than the Mosaic covenant. It still affirms grace empowering holiness and rejects continuing in sin per Rom 6:2 and 6:15 and Titus 2:12, so the obedience claim holds even though the word law in rule of the believer's life is parsed as the law of Christ rather than the Mosaic code."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Holds that the Mosaic law as a unit is fulfilled in Christ, Matt 5:17, and that the law of Christ now governs. It affirms that grace trains for holiness, Titus 2:12, that 1 John 2:4 makes commandment-keeping the test of knowing God, and that sin defined as ἀνομία in 1 John 3:4 remains excluded, so it affirms the substance while declining the specific phrase moral law as rule of life in favor of the law of Christ."
+      }
+    ],
+    "notes": "The lexical data supports the substantive double claim, grace empowers holiness and an enduring moral standard governs conduct, across all three frameworks, and each framework independently rejects antinomianism. The frameworks diverge only on whether the abiding standard is named the Mosaic moral law continuing as a rule of life, the so-called third use, or the law of Christ that fulfills and supersedes the Mosaic code. The vocabulary of the anchor texts, νόμος, ἐντολή, ἀνομία, does not by itself rank Mosaic-law against law-of-Christ as the name of the standard, which is the one point the words leave open. None of the frameworks reads the texts as permitting continued sin."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does grace empower the believer toward holiness, and does an enduring moral standard continue to govern the believer's conduct without being the basis of acceptance before God",
+    "notes": "The stem encodes a specific taxonomy, the moral law continuing as the rule of the believer's life, which is a tradition-laden way of distinguishing the law as ground of justification from the law as contour of obedience. The phrase rule of the believer's life carries a particular framing associated with the threefold use of the law. The neutralized form tests the underlying claim, grace producing obedience plus an enduring moral standard that is not the ground of justification, on the lexical evidence. The verdict is derived on the original stem and lands affirms because the anchor terms support both the empowerment-to-holiness clause, χάρις παιδεύουσα and ἁμαρτία οὐ κυριεύσει, and the enduring-standard clause, ἁμαρτία ἐστὶν ἡ ἀνομία and τηρῶν τὰς ἐντολάς, while reserving the name of the standard to the lens layer."
+  },
+  "lay_summary": "The anchor verses connect grace and obedience in their own words, without making law-keeping the basis on which a person is accepted. In Romans 6:1 Paul raises the antinomian question, should we keep on sinning so that grace may increase, and verse 2 answers with the strongest Greek refusal, may it never be, the optative form Paul uses to slam a door, plus the reason, we died to sin, so how can we still live in it. He raises a second version in verse 15, may we sin because we are under grace and not law, and gives the very same refusal, which shows neither form of the inference is allowed. Romans 6:14 says sin will not master the believer precisely because the believer is under grace, so grace is the power that frees from sin, not a permit to sin. Titus 2:11-12 is the clearest positive line. The grace that brings salvation appeared, and that same grace is the one doing the training, teaching believers to say no to ungodliness and worldly cravings and to live self-controlled, upright, and godly. Here grace itself is the teacher of holiness. First John 2:4 says the person who claims to know God but does not keep his commandments is a liar, making ongoing obedience the test of real knowledge of God, and 3:4 defines sin as lawlessness, tying the moral standard to the very meaning of sin, while 3:9 says the one born of God does not go on practicing sin. In Matthew 5:17 Jesus says he came not to abolish the law but to fulfill it, and Romans 8:4 says the law's requirement is fulfilled in those who walk by the Spirit. Read together these texts affirm both halves. Grace produces holiness, and a moral standard keeps shaping conduct, while acceptance rests on grace rather than on law-keeping. Readers still differ on one point the words leave open, whether to name that standard the continuing Mosaic moral law or the law of Christ, but every reading rejects continuing in sin. The apparent tension between ongoing confession in First John 1:9 and the cannot-keep-sinning of 3:9 dissolves on the verb aspect, one being occasional lapse and the other settled practice. The pattern spans letters and gospel, so the support is strong and consistent.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.6.2"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.6.15"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Titus.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1John.2.4"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1John.3.4"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0458"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1785"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3811"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.3.4"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

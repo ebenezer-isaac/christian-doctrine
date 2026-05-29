@@ -1,0 +1,519 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-adoption",
+  "question_id": "doc-adoption",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.75,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The technical noun huiothesia, G5206, is a deliberate Greco-Roman legal term meaning placing as a son, attested in extra-biblical inscriptions and built on the classical phrase to place as son. Queried against the canon it occurs exactly five times, all in Paul, Rom 8:15, Rom 8:23, Rom 9:4, Gal 4:5, Eph 1:5, and in every instance it denotes conferred filial status, not natural birth. Gal 4:5 makes adoption the stated goal of the Son's redeeming mission, Rom 8:15-17 binds it to the indwelling Spirit who cries Abba and to joint heirship with Christ, sygkleronomos G4789, and Eph 1:5 grounds it in God's predestining purpose through Christ. The slave to son to heir chain, doulos G1401 to huios G5207 to kleronomos G2818, and the Johannine right to become children of God, tekna theou G5043, John 1:12 and 1 John 3:1, converge on the same conferred standing. The honest limit is that the technical term sits only in the Pauline corpus, so the witness is concentrated rather than spread across the whole canon."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5206",
+        "lemma": "υἱοθεσία",
+        "transliteration": "huiothesia",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 380,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5043",
+        "lemma": "τέκνον",
+        "transliteration": "teknon",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2818",
+        "lemma": "κληρονόμος",
+        "transliteration": "kleronomos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4789",
+        "lemma": "συγκληρονόμος",
+        "transliteration": "sygkleronomos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0005",
+        "lemma": "ἀββά",
+        "transliteration": "abba",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1805",
+        "lemma": "ἐξαγοράζω",
+        "transliteration": "exagorazo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 418,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 264,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1401",
+        "lemma": "δοῦλος",
+        "transliteration": "doulos",
+        "occurrences_in_canon": 130,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1397",
+        "lemma": "δουλεία",
+        "transliteration": "douleia",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 97,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G5206",
+      "G5207",
+      "G5043",
+      "G2818",
+      "G4789",
+      "G0005",
+      "G1805",
+      "G3962",
+      "G2983",
+      "G1401",
+      "G1397",
+      "G1080"
+    ],
+    "scripture": [
+      {
+        "ref": "Rom.8.14",
+        "key_terms": [
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "Those led by the Spirit of God, these are sons of God, huioi theou, G5207. The verse opens the adoption passage by defining the family by Spirit leading rather than natural descent, framing the conferred sonship the proposition asserts.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.15",
+        "key_terms": [
+          {
+            "strong": "G5206",
+            "lemma": "υἱοθεσία"
+          },
+          {
+            "strong": "G0005",
+            "lemma": "ἀββά"
+          },
+          {
+            "strong": "G1397",
+            "lemma": "δουλεία"
+          }
+        ],
+        "force": "Believers did not receive a spirit of slavery, douleia G1397, leading back to fear, but received a spirit of huiothesia, G5206, in which they cry Abba, G0005, Father. The contrast between slavery and adopted sonship is explicit, and the Abba cry is the present relational evidence of the conferred status. Here adoption is spoken of as already received.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.16",
+        "key_terms": [
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          }
+        ],
+        "force": "The Spirit bears joint witness with the human spirit that we are children of God, tekna theou, G5043. This grounds the assurance of the adopted family relationship in the Spirit, matching the indwelling of the Spirit of adoption in the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.17",
+        "key_terms": [
+          {
+            "strong": "G2818",
+            "lemma": "κληρονόμος"
+          },
+          {
+            "strong": "G4789",
+            "lemma": "συγκληρονόμος"
+          },
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          }
+        ],
+        "force": "If children, tekna G5043, then heirs, kleronomoi G2818, heirs of God and joint heirs, sygkleronomoi G4789, with Christ. The inheritance and the union with Christ named in the proposition are stated here as direct consequences of the child status, and the compound joint heir term ties the inheritance to Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.8.23",
+        "key_terms": [
+          {
+            "strong": "G5206",
+            "lemma": "υἱοθεσία"
+          }
+        ],
+        "force": "Those who have the firstfruits of the Spirit groan within themselves awaiting the huiothesia, G5206, the redemption of the body. The same term used for a present possession in 8:15 is here the object of future hope, which exposes an already and not yet structure rather than two adoptions.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.9.4",
+        "key_terms": [
+          {
+            "strong": "G5206",
+            "lemma": "υἱοθεσία"
+          }
+        ],
+        "force": "To the Israelites belong the huiothesia, G5206, and the glory and the covenants. The same legal placing as son term is applied to corporate Israel, showing the word can carry a covenant national sense as well as the individual believer sense, but in both cases it denotes conferred filial standing, not natural generation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.5",
+        "key_terms": [
+          {
+            "strong": "G5206",
+            "lemma": "υἱοθεσία"
+          },
+          {
+            "strong": "G1805",
+            "lemma": "ἐξαγοράζω"
+          }
+        ],
+        "force": "The purpose clause states that the sent Son redeems, exagorase G1805, those under law so that we might receive the huiothesia, G5206. Adoption is the stated goal of the redemptive mission, and receiving it depends on the work of the sent Son, which supports the union with Christ basis in the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.6",
+        "key_terms": [
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G0005",
+            "lemma": "ἀββά"
+          }
+        ],
+        "force": "Because you are sons, huioi G5207, God sent forth the Spirit of his Son into our hearts crying Abba, G0005, Father. The indwelling Spirit of the Son is the agent of the adopted relationship, matching the indwelling of the Spirit of adoption in the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.4.7",
+        "key_terms": [
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G2818",
+            "lemma": "κληρονόμος"
+          },
+          {
+            "strong": "G1401",
+            "lemma": "δοῦλος"
+          }
+        ],
+        "force": "So you are no longer a slave, doulos G1401, but a son, huios G5207, and if a son then an heir, kleronomos G2818, through God. The transition from slave to son to heir summarizes the privileges and inheritance the proposition assigns to adoption.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.1.5",
+        "key_terms": [
+          {
+            "strong": "G5206",
+            "lemma": "υἱοθεσία"
+          }
+        ],
+        "force": "He predestined us to huiothesia, G5206, through Jesus Christ to himself. Adoption is grounded in the divine purpose and is routed through Christ, supporting the union with Christ clause of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.12",
+        "key_terms": [
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          },
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          }
+        ],
+        "force": "To as many as received, elabon G2983, him he gave the right to become children of God, tekna theou G5043, to those believing on his name. The conferral of the standing of children of God to those who receive Christ supports the name and family privileges of the proposition, using a birth idiom rather than the legal term huiothesia.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.1",
+        "key_terms": [
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "See what love the Father, pater G3962, has given us that we should be called children of God, tekna theou G5043, and so we are. The Father confers the name of children, confirming the family relationship and the granted name in the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.3.2",
+        "key_terms": [
+          {
+            "strong": "G5043",
+            "lemma": "τέκνον"
+          }
+        ],
+        "force": "Now we are children of God, tekna theou G5043, and what we will be has not yet appeared, but we know that when he appears we shall be like him. The present possession with a future unveiling parallels the already and not yet of huiothesia in Romans 8 and supports the inheritance and glorification dimension.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.8.15",
+        "to": "Rom.8.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.15",
+        "to": "Mark.14.36",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.4.7",
+        "to": "Gal.3.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.4.7",
+        "to": "Gen.15.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.12",
+        "to": "Isa.56.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.3.1",
+        "to": "1John.4.9",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.8.23",
+        "addressed": true,
+        "resolution": "The same word huiothesia is a present possession in 8:15 yet a future hope in 8:23, the redemption of the body. This is not a contradiction but an already and not yet structure, the status is conferred now and consummated at bodily resurrection, so the proposition stands and the tension is internal to the one adoption."
+      },
+      {
+        "ref": "Rom.9.4",
+        "addressed": true,
+        "resolution": "Huiothesia is applied to corporate Israel here, showing the term can carry a covenant national sense distinct from the individual believer sense in Romans 8 and Galatians 4. Both senses denote conferred filial standing rather than natural generation, so the word's range does not undercut the believer adoption the proposition asserts, it confirms the legal placing as son meaning across both referents."
+      },
+      {
+        "ref": "John.1.12",
+        "addressed": true,
+        "resolution": "John uses tekna with the birth idiom, born of God, egennethesan G1080, in 1:13 rather than the Pauline legal term huiothesia. The lexicon links teknon to begetting and huiothesia to legal placement, so these are two metaphors, generation and adoption, that converge on the same conferred child status. The text therefore supports rather than complicates the proposition."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The anchor verses lie in Romans, Galatians, Ephesians, and the Johannine corpus, all outside the open-cbgm 3 John sample, so this is ecm shadow rather than ecm published. The Greek text of Gal 4:7 carries a known reading split between heir through God and heir of God through Christ, but in every reading the slave to son to heir progression and the conferred sonship hold, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the Israel adoption of Rom 9:4 and the believer adoption of Rom 8 and Gal 4 as one continuous covenantal sonship, so huiothesia is the realization of promised family standing and the proposition is affirmed."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Distinguishes the corporate Israel adoption of Rom 9:4 from the present positional adoption of the believer in the Son in Rom 8 and Gal 4, yet still affirms the believer's conferred sonship, inheritance, and name, so the proposition is affirmed."
+      },
+      {
+        "framework": "already_not_yet_eschatology",
+        "verdict": "affirms",
+        "rationale": "Takes the single word huiothesia used as present possession in Rom 8:15 and future hope in Rom 8:23 as one adoption with two moments, legally granted now and bodily consummated at resurrection, so the proposition is affirmed with its inheritance dimension intact."
+      }
+    ],
+    "notes": "All three readings converge on affirms because the verdict turns on the lexical force of huiothesia and the slave to son to heir progression. The genuine divergence among them is the SCOPE and TIMING of adoption, whether the Israel sense and the believer sense are one line or two, and how the present and future uses of the one word relate, not whether the believer is adopted."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition uses the canonical term adoption, huiothesia, and standard family, name, and inheritance vocabulary without smuggling a tradition-specific verdict. The phrase Spirit of adoption is itself the wording of Rom 8:15, so it is text-derived rather than preloaded. No neutralization needed."
+  },
+  "lay_summary": "The proposition says that those who are justified are received into the family of God and given the privileges, name, and inheritance of sons through union with Christ and the indwelling Spirit. The Greek text supports this strongly. The technical word for adoption, huiothesia, was a real legal term in the Greek world meaning to place someone as a son, and the lexicons gloss it as adoption as a son. When this word is searched across the whole Bible it appears exactly five times, all in Paul, at Romans 8 verse 15, Romans 8 verse 23, Romans 9 verse 4, Galatians 4 verse 5, and Ephesians 1 verse 5. In each place it means a conferred standing, not natural birth. Romans 8 contrasts a spirit of slavery with the spirit of adoption by which believers cry Abba, Father, then says that if we are children we are heirs of God and joint heirs with Christ. Galatians 4 says the Son was sent to redeem those under the law so that we might receive adoption, and Ephesians 1 grounds the same adoption in God's purpose through Christ. Supporting words confirm the picture, son and child for the new family member, heir and joint heir for the inheritance, the Abba cry for a real felt relationship, and redeem for the price that made it possible. There are two honest nuances that explain why careful readers still debate the edges. First, the very same word is a present possession in Romans 8 verse 15 yet a future hope in Romans 8 verse 23, the redemption of the body, which is an already and not yet pattern rather than two adoptions. Second, John and First John speak of being children of God using a birth word, born of God, rather than the legal adoption word, so two pictures, being begotten and being legally placed, point to one conferred standing. The word is found only in Paul, so the technical witness is concentrated rather than spread across the whole canon, but no text pulls against the reading. The lexical pattern affirms the proposition.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5206"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5206"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.4.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.1.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.8.15"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids commercial redistribution, so the aggregated evidence cannot be marked safe for unrestricted publication while that source is cited."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

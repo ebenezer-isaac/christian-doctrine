@@ -1,0 +1,525 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-priesthood-of-all-believers",
+  "question_id": "doc-priesthood-of-all-believers",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The collective noun hierateuma (G2406) occurs exactly twice in the canon, queried at 1 Peter 2:5 and 2:9, and both times it is predicated of the whole believing community with no intervening sacerdotal class. The plural hiereis (G2409, parsed N-APM and N-NPM) is predicated of the redeemed in Revelation 1:6, 5:10, and 20:6, standing in apposition to hemas and autous, the entire company God made. 1 Timothy 2:5 fixes the mediator at heis mesites, one mediator, and the numeral heis lexically excludes any additional human go-between. Hebrews uses the first person plural hortatory subjunctive proserchometha (G4334, V-PNS-1P) and addresses adelphoi in the vocative plural, granting every believer parresia to enter the holy places. The single mediating priest the text names beyond this shared priesthood is Christ as archiereus and hierea megan."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2406",
+        "lemma": "ἱεράτευμα",
+        "transliteration": "hierateuma",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2409",
+        "lemma": "ἱερεύς",
+        "transliteration": "hiereus",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0749",
+        "lemma": "ἀρχιερεύς",
+        "transliteration": "archiereus",
+        "occurrences_in_canon": 123,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3954",
+        "lemma": "παρρησία",
+        "transliteration": "parresia",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4334",
+        "lemma": "προσέρχομαι",
+        "transliteration": "proserchomai",
+        "occurrences_in_canon": 87,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0934",
+        "lemma": "βασίλειον",
+        "transliteration": "basileion",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0399",
+        "lemma": "ἀναφέρω",
+        "transliteration": "anaphero",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3548",
+        "lemma": "כֹּהֵן",
+        "transliteration": "kohen",
+        "occurrences_in_canon": 711,
+        "in_anchors": false
+      },
+      {
+        "strong": "H4467",
+        "lemma": "מַמְלָכָה",
+        "transliteration": "mamlakah",
+        "occurrences_in_canon": 117,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2406",
+      "G2409",
+      "G0749",
+      "G3316",
+      "G1520",
+      "G3954",
+      "G4334",
+      "G0934",
+      "G0399",
+      "G2992",
+      "H3548",
+      "H4467"
+    ],
+    "scripture": [
+      {
+        "ref": "1Pet.2.5",
+        "key_terms": [
+          {
+            "strong": "G2406",
+            "lemma": "ἱεράτευμα"
+          },
+          {
+            "strong": "G0399",
+            "lemma": "ἀναφέρω"
+          }
+        ],
+        "force": "Believers collectively, addressed as living stones being built up, become a hierateuma hagion, a holy priesthood (G2406 parsed N-ASN, accusative singular collective). Their function is to offer up, anenenkai (G0399), spiritual sacrifices acceptable to God through Jesus Christ. The priestly identity is predicated of the whole body of living stones, not of a distinct caste within it, and the sacrifices are mediated dia Iesou Christou, through Jesus Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.9",
+        "key_terms": [
+          {
+            "strong": "G2406",
+            "lemma": "ἱεράτευμα"
+          },
+          {
+            "strong": "G0934",
+            "lemma": "βασίλειον"
+          },
+          {
+            "strong": "G2992",
+            "lemma": "λαός"
+          }
+        ],
+        "force": "The second and final canonical use of hierateuma (G2406 parsed N-NSN) applies basileion hierateuma, a royal priesthood, to the elect community, with basileion (G0934) a canonical hapax occurring only here. The same plural subject Hymeis is also called genos eklekton, ethnos hagion, and laos (G2992) for possession, fixing the priesthood on the entire people. This phrasing draws on the queried cross-reference to Exodus 19, the kingdom of priests.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Exod.19.6",
+        "key_terms": [
+          {
+            "strong": "H3548",
+            "lemma": "כֹּהֵן"
+          },
+          {
+            "strong": "H4467",
+            "lemma": "מַמְלָכָה"
+          }
+        ],
+        "force": "The Hebrew source phrase mamleket kohanim, a kingdom of priests, predicates priestly status of all Israel corporately, queried at Exodus 19:6 with kohen (H3548) and mamlakah (H4467) present in the verse. The whole people, not a sub-order, is addressed. 1 Peter 2:9 reapplies this corporate priestly identity to the believing community, so the same pattern spans Old Testament and New Testament.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.1.6",
+        "key_terms": [
+          {
+            "strong": "G2409",
+            "lemma": "ἱερεύς"
+          },
+          {
+            "strong": "G0932",
+            "lemma": "βασιλεία"
+          }
+        ],
+        "force": "Christ made the redeemed into basileian, a kingdom, and hiereis, priests (G2409 parsed N-APM, accusative plural masculine), to his God and Father. Token order confirms the plural hiereis stands in apposition to hemas, us, at word position three, so priestly status belongs to every member of the redeemed and not to a sub-order.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.5.10",
+        "key_terms": [
+          {
+            "strong": "G2409",
+            "lemma": "ἱερεύς"
+          },
+          {
+            "strong": "G0932",
+            "lemma": "βασιλεία"
+          }
+        ],
+        "force": "The redeemed from every tribe and tongue are made basileian and hiereis (G2409 parsed N-APM) to God, and they reign on the earth. The accusative plural priests again maps onto the whole redeemed assembly, in apposition to autous, them, with no mediating sub-order introduced.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.20.6",
+        "key_terms": [
+          {
+            "strong": "G2409",
+            "lemma": "ἱερεύς"
+          }
+        ],
+        "force": "Those in the first resurrection will be hiereis tou theou kai tou Christou, priests of God and of Christ (G2409 parsed N-NPM, nominative plural). This is the third predication of hiereis on believers, confirming the pattern that priestly status falls on the whole company of the blessed, who also reign with Christ.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          }
+        ],
+        "force": "Heis gar theos, heis kai mesites theou kai anthropon: one God and one mediator between God and men, the man Christ Jesus. The numeral heis (G1520, parsed A-NSM) governing mesites (G3316, parsed N-NSM, the singular mediator) lexically excludes any additional mediatorial figure between God and people. Mesites occurs six times in the canon and never names a class of human intermediaries.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.4.16",
+        "key_terms": [
+          {
+            "strong": "G3954",
+            "lemma": "παρρησία"
+          },
+          {
+            "strong": "G4334",
+            "lemma": "προσέρχομαι"
+          }
+        ],
+        "force": "The first person plural hortatory subjunctive proserchometha (G4334 parsed V-PNS-1P) with meta parresias (G3954) urges all believers to approach the throne of grace boldly. The grammatical person is we, the whole community, so the direct access is granted corporately and is not channeled through a human priestly intermediary.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.19",
+        "key_terms": [
+          {
+            "strong": "G3954",
+            "lemma": "παρρησία"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "Addressed to adelphoi (G0080 parsed N-VPM, vocative plural masculine, brothers), the verse grants parresian (G3954) eis ten eisodon ton hagion, boldness for entry into the holy places, by the blood of Jesus. The vocative plural shows the entry, formerly priest-only, is now extended to the whole congregation rather than a sub-order.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.22",
+        "key_terms": [
+          {
+            "strong": "G4334",
+            "lemma": "προσέρχομαι"
+          }
+        ],
+        "force": "The same first person plural hortatory subjunctive proserchometha (G4334 parsed V-PNS-1P) recurs: let us draw near with a true heart in full assurance of faith. The verb that once described priests approaching the altar is now predicated of the entire we, with hearts sprinkled and bodies washed, confirming corporate direct access.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.21",
+        "key_terms": [
+          {
+            "strong": "G2409",
+            "lemma": "ἱερεύς"
+          }
+        ],
+        "force": "Having hierea megan epi ton oikon tou theou, a great priest (G2409) over the house of God, names the single mediating priest as Christ over God's household. The one designated great priest beyond the common priesthood is Christ, so this verse fixes the only priestly intermediary on Christ and is consistent with the second half of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.2.9",
+        "to": "Exod.19.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.5",
+        "to": "1Pet.2.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.10",
+        "to": "Rev.1.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.5.10",
+        "to": "Rev.20.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.2.9",
+        "to": "Deut.4.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Job.9.33",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.19",
+        "to": "Heb.7.25",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.19",
+        "to": "Heb.4.16",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Heb.4.14",
+        "addressed": true,
+        "resolution": "Christ is called archiereus megas, a great high priest, which could be read as instituting an ongoing high priestly office that competes with the common priesthood. The lexical force places this office on Christ alone, dielelythota tous ouranous, who has passed through the heavens, not on a continuing human order. Archiereus is queried at 123 occurrences, where the Gospels and Acts use it for the Jewish high priest and Hebrews predicates it of Christ, so the term confirms rather than competes with the believers' priesthood."
+      },
+      {
+        "ref": "Heb.10.21",
+        "addressed": true,
+        "resolution": "The singular hierea megan over the house of God again locates the mediating priest in Christ. No second human sacerdotal tier is lexically introduced between Christ and the household, so the verse supports the proposition's exclusion clause."
+      },
+      {
+        "ref": "Heb.7.25",
+        "addressed": true,
+        "resolution": "Christ always lives to intercede, entynchanein hyper auton, for those who draw near, tous proserchomenous (G4334), through him to God. The continuing intercession is located in Christ alone and the access verb is the same one applied to all believers, so this confirms one ongoing mediating priest rather than a class of human mediators."
+      },
+      {
+        "ref": "1Pet.2.5",
+        "addressed": true,
+        "resolution": "The believers' priesthood here is corporate worship and the offering of spiritual sacrifices, a different lexical category from the gifts of teaching and oversight named elsewhere. The vocabulary of hierateuma never excludes a distinct ministry of word and oversight, so the universal priesthood and a recognized teaching ministry are not lexically in conflict; the words simply do not address the latter in these texts."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No VariantUnit nodes are populated in the lexical store for 1 Peter 2, Revelation 1, 5, and 20, Hebrews 4 and 10, or 1 Timothy 2, and none of these passages falls within published CBGM scope (the ingested ECM window is 3 John only), so this is ecm-shadow. The Majority and Received text reading at Revelation 1:6 and 5:10 (basileis kai hiereis, kings and priests) versus the critical reading (basileian, hiereis, a kingdom, priests) is visible in the token sigla, but the plural hiereis is predicated of the whole redeemed under every plausible reading, so the verdict does not turn on any variant."
+  },
+  "hermeneutics": {
+    "primary_method": "redemptive-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "new_covenant_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads 1 Peter 2:9 as the realization of the Exodus 19:6 kingdom of priests, with the one covenant people now corporately priestly, so every believer is a priest with direct access through the one mediator Christ."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Locates the priesthood of all believers in the present church age and may reserve a distinct future temple economy, yet still affirms that within the church each believer is a priest with bold access secured by the single mediator named in 1 Timothy 2:5."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Sees the Aaronic order fulfilled and ended in Christ's once for all high priesthood, under which the whole body shares the priestly access predicated by hierateuma and proserchomai, matching the lexical pattern."
+      },
+      {
+        "framework": "corporate_priesthood_versus_ordained_ministry_distinction",
+        "verdict": "affirms_with_scope_note",
+        "rationale": "Reads the universal priesthood as corporate worship and direct access, a different lexical category from the gift of teaching and oversight described by other vocabulary. On this reading the universal priesthood does not by itself exclude a recognized teaching ministry, since hierateuma and hiereis address worship and access, not church order. The proposition about priesthood and sole mediation still stands; the words simply leave the question of ordained ministry to other texts."
+      }
+    ],
+    "notes": "The verdict turns on the redemptive transfer from a restricted Levitical priesthood to a corporate priesthood realized through Christ's high priestly work, hence redemptive-historical primacy. All listed lenses converge on affirmation. The only genuine nuance, recorded in the fourth lens and in a complicating text, is that the universal priesthood (corporate worship and access) is a different lexical category from a distinct teaching or oversight ministry, and the two are not in conflict at the level of the words; there is therefore no cross-tradition divergence to flag on the proposition itself."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the New Testament lexically predicates priesthood of every believer and whether it institutes or excludes a distinct mediatorial priesthood between Christ and the believer.",
+    "notes": "The clause there is no mediatorial priesthood between Christ and the believer beyond Christ Himself encodes a negative conclusion within the stem. The verdict was derived on the original stem, but the neutralized form restates it as an open lexical question so the negation is not assumed. The terms hierateuma, hiereus, archiereus, and mesites carry the evidentiary weight regardless of framing, and the queried data confirm them independently of the wording."
+  },
+  "lay_summary": "The Greek word for priesthood used as a group noun, hierateuma, appears only twice in the whole Bible, and the queried text confirms both times fall in First Peter chapter two, where it describes the entire body of believers. They are called a holy priesthood and a royal priesthood, language taken straight from the promise in Exodus that all Israel would be a kingdom of priests. Revelation says three times that Christ made the redeemed into priests, using the ordinary plural word hiereis for the whole company of the saved, and the word order shows priests standing right beside the word us, not naming a special class within the group. So at the level of vocabulary, the priestly title is spread across every believer rather than reserved for an office. On the second part of the claim, that no human priest stands between Christ and the believer, the words point the same way. First Timothy says there is one God and one mediator, and the numeral one rules out any additional go between. Hebrews tells the brothers, in the plain plural, to draw near to God with boldness, using a verb for approaching that once belonged to priests at the altar and now belongs to the whole we. The only figure Hebrews names as a great priest over God's house is Christ himself, who still lives to make intercession. There is one honest nuance to state plainly. These passages speak about worship and access for everyone; they do not, in these same words, settle whether the church also has a recognized ministry of teaching and oversight. That is a different question handled by different vocabulary, so the shared priesthood and a distinct teaching ministry are not actually in conflict at the level of these texts. The pattern holds across the Old Testament background, the letters, and the visions of Revelation, and no manuscript variant changes it. Taken together, the language affirms both halves: every believer is a priest, and the only mediating priest beyond that shared priesthood is Christ.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Pet.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.1.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.5.10"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rev.20.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.4.16"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.19"
+    },
+    {
+      "type": "syntax",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Exod.19.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.2.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.10.19"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

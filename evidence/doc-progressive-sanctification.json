@@ -1,0 +1,638 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-progressive-sanctification",
+  "question_id": "doc-progressive-sanctification",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition is carried by verbal aspect. metamorphoo (G3339) appears in its non-transfiguration uses only in the present passive, 2 Cor 3:18 metamorphoumetha (V-PPI-1P) into the same eikon (G1504) from glory to glory and Rom 12:2 metamorphousthe (V-PPM-2P), a durative passive that marks ongoing Spirit-wrought change rather than a completed act. auxano (G0837), to grow, is dominantly present and imperfect across the canon and stands as a present imperative in 2 Pet 3:18 auxanete, keep growing. The noun hagiasmos (G0038) is governed by eis in Rom 6:19,22, holiness as a terminus moved toward, and is the object of the present imperative diokete in Heb 12:14, pursue. Phil 2:12-13 pairs the present imperative katergazesthe (V-PNM-2P) with theos ho energon (G1754, present participle), and Phil 1:6 draws the arc enarxamenos (aorist) to epitelesei (V-FAI-3S, will complete). The genuine complication is that the cognate verb hagiazo (G0037) carries both a definitive aorist or perfect sense, 1 Cor 6:11 hegiasthete and Heb 10:10 hegiasmenoi, and a present durative sense in the same context, Heb 10:14 hagiazomenous and Heb 2:11. The canon supplies both aspects without ranking them, so the present-tense pattern establishes the progressive work while the aorist and perfect establish a settled standing, which the proposition affirms together rather than against."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0038",
+        "lemma": "ἁγιασμός",
+        "transliteration": "hagiasmos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0037",
+        "lemma": "ἁγιάζω",
+        "transliteration": "hagiazo",
+        "occurrences_in_canon": 28,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3339",
+        "lemma": "μεταμορφόομαι",
+        "transliteration": "metamorphoomai",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0837",
+        "lemma": "αὐξάνω",
+        "transliteration": "auxano",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1504",
+        "lemma": "εἰκών",
+        "transliteration": "eikon",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1391",
+        "lemma": "δόξα",
+        "transliteration": "doxa",
+        "occurrences_in_canon": 170,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1754",
+        "lemma": "ἐνεργέω",
+        "transliteration": "energeo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2716",
+        "lemma": "κατεργάζομαι",
+        "transliteration": "katergazomai",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2005",
+        "lemma": "ἐπιτελέω",
+        "transliteration": "epiteleo",
+        "occurrences_in_canon": 10,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1939",
+        "lemma": "ἐπιθυμία",
+        "transliteration": "epithymia",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3196",
+        "lemma": "μέλος",
+        "transliteration": "melos",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3936",
+        "lemma": "παρίστημι",
+        "transliteration": "paristemi",
+        "occurrences_in_canon": 43,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5219",
+        "lemma": "ὑπακούω",
+        "transliteration": "hypakouo",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4202",
+        "lemma": "πορνεία",
+        "transliteration": "porneia",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4234",
+        "lemma": "πρᾶξις",
+        "transliteration": "praxis",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3696",
+        "lemma": "ὅπλον",
+        "transliteration": "hoplon",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0038",
+      "G0037",
+      "G3339",
+      "G0837",
+      "G1504",
+      "G1391",
+      "G1754",
+      "G2716",
+      "G2005",
+      "G1939",
+      "G3196",
+      "G3936",
+      "G5219",
+      "G4202",
+      "G4234",
+      "G3696"
+    ],
+    "scripture": [
+      {
+        "ref": "1Thess.4.3",
+        "key_terms": [
+          {
+            "strong": "G0038",
+            "lemma": "ἁγιασμός"
+          },
+          {
+            "strong": "G4202",
+            "lemma": "πορνεία"
+          }
+        ],
+        "force": "touto gar estin thelema tou theou, ho hagiasmos hymon, this is the will of God, your sanctification. The noun hagiasmos (G0038, N-NSM) is equated with the divine will and is then unpacked by the present middle infinitive apechesthai (V-PMN), to keep abstaining, from porneia (G4202). The grammar presents holiness as a willed ongoing condition expressed in sustained conduct, not a single past event.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1TH 4:3!8"
+      },
+      {
+        "ref": "Rom.6.19",
+        "key_terms": [
+          {
+            "strong": "G0038",
+            "lemma": "ἁγιασμός"
+          },
+          {
+            "strong": "G3936",
+            "lemma": "παρίστημι"
+          }
+        ],
+        "force": "The aorist imperative parastesate (V-AAM-2P) of the members as slaves to righteousness eis hagiasmon (G0038, N-ASM), unto holiness, sets holiness as the terminus of the offering. The preposition eis marks hagiasmos as a goal moved toward, contrasted with the prior aorist parestesate that described the old enslavement to impurity, so the noun names a direction of ongoing reorientation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 6:19!34"
+      },
+      {
+        "ref": "Rom.6.22",
+        "key_terms": [
+          {
+            "strong": "G0038",
+            "lemma": "ἁγιασμός"
+          }
+        ],
+        "force": "Having been freed from sin, the aorist passive participle eleutherothentes (V-APP-NPM), and enslaved to God, the present indicative echete (V-PAI-2P), you are having your fruit eis hagiasmon (G0038, N-ASM), unto holiness. The settled past freeing yields present, continuing fruit whose direction is hagiasmos, again with eis marking it as an outcome being moved toward, not a finished transaction.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 6:22!16"
+      },
+      {
+        "ref": "Heb.12.14",
+        "key_terms": [
+          {
+            "strong": "G0038",
+            "lemma": "ἁγιασμός"
+          }
+        ],
+        "force": "diokete (V-PAM-2P), a present imperative, keep pursuing, governs ton hagiasmon (G0038, N-ASM) as its object. The same noun that 1 Thess 4:3 calls the will of God and Rom 6:19,22 sets as a terminus here becomes the object of continuous pursuit, the verb of chasing marking holiness as something still to be sought rather than already possessed in full.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 12:14!7"
+      },
+      {
+        "ref": "2Cor.3.18",
+        "key_terms": [
+          {
+            "strong": "G3339",
+            "lemma": "μεταμορφόομαι"
+          },
+          {
+            "strong": "G1504",
+            "lemma": "εἰκών"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          }
+        ],
+        "force": "metamorphoumetha (G3339, V-PPI-1P) is present tense and passive, we are being transformed, durative action received from outside the self, into the same eikon (G1504) and proceeding apo doxes eis doxan, from glory to glory (G1391), apo kyriou pneumatos, from the Lord the Spirit. The accompanying present middle participle katoptrizomenoi (V-PMP-NPM), beholding or reflecting, is likewise ongoing. The morphology of metamorphoo, attested elsewhere only as a present in Rom 12:2 and as past transfiguration aorists, encodes progression and Spirit-wrought agency here.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2CO 3:18!13"
+      },
+      {
+        "ref": "Phil.2.12",
+        "key_terms": [
+          {
+            "strong": "G2716",
+            "lemma": "κατεργάζομαι"
+          },
+          {
+            "strong": "G5219",
+            "lemma": "ὑπακούω"
+          }
+        ],
+        "force": "katergazesthe (G2716, V-PNM-2P) is a present imperative, keep working out, addressed to those who have already obeyed, hypekousate (G5219, aorist), framed meta phobou kai tromou, with fear and trembling. The present aspect marks sustained effort rather than a finished work, locating real and continuing human engagement inside an already-given salvation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "PHP 2:12!29"
+      },
+      {
+        "ref": "Phil.2.13",
+        "key_terms": [
+          {
+            "strong": "G1754",
+            "lemma": "ἐνεργέω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "theos gar estin ho energon (G1754, V-PAP-NSM) en hymin, for God is the one working in you, grounds the preceding imperative with the explanatory gar. The present participle energon governs both to thelein, the willing, and to energein (V-PAN), the working. Divine agency stands underneath the human effort of v12 without cancelling it, holding sovereign working and Spirit-empowered effort together in a single causal clause.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "PHP 2:13!5"
+      },
+      {
+        "ref": "Phil.1.6",
+        "key_terms": [
+          {
+            "strong": "G2005",
+            "lemma": "ἐπιτελέω"
+          }
+        ],
+        "force": "ho enarxamenos (V-ADP-NSM, aorist participle, having begun) en hymin ergon agathon epitelesei (G2005, V-FAI-3S, will complete) achri hemeras Christou Iesou. The aorist of beginning and the future of completing bracket a single divine work that runs between conversion and the day of Christ, the verbal aspects framing sanctification as a process underway between two endpoints rather than a finished state.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "PHP 1:6!11"
+      },
+      {
+        "ref": "Rom.6.13",
+        "key_terms": [
+          {
+            "strong": "G3936",
+            "lemma": "παρίστημι"
+          },
+          {
+            "strong": "G3196",
+            "lemma": "μέλος"
+          },
+          {
+            "strong": "G3696",
+            "lemma": "ὅπλον"
+          }
+        ],
+        "force": "The verse sets present imperative paristanete (G3936, V-PAM-2P), keep presenting, against aorist imperative parastesate (V-AAM-2P), present once, of the mele (G3196) as hopla (G3696). The present forbids ongoing surrender of the body to sin while the aorist calls for a decisive yielding to God. The two aspects together describe a sustained reorientation that follows from being reckoned alive in v11, where logizesthe is itself a present imperative.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 6:13!2"
+      },
+      {
+        "ref": "Rom.8.13",
+        "key_terms": [
+          {
+            "strong": "G4234",
+            "lemma": "πρᾶξις"
+          }
+        ],
+        "force": "ei pneumati tas praxeis (G4234) tou somatos thanatoute, if by the Spirit you are putting to death the deeds of the body. The verb thanatoute (V-PAI-2P) is present, marking continuous action, and the dative pneumati names the empowering agent. Human action and Spirit empowerment are coordinated within one conditional clause that governs whether one will live, zesesthe (V-FDI-2P).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 8:13!15"
+      },
+      {
+        "ref": "Col.3.5",
+        "key_terms": [
+          {
+            "strong": "G3196",
+            "lemma": "μέλος"
+          },
+          {
+            "strong": "G1939",
+            "lemma": "ἐπιθυμία"
+          },
+          {
+            "strong": "G4202",
+            "lemma": "πορνεία"
+          }
+        ],
+        "force": "Nekrosate (V-AAM-2P, aorist imperative, put to death) is directed at the mele (G3196) upon the earth, itemized as porneia (G4202), epithymia kaken (G1939) and the rest. The aorist commands a decisive mortification, while the surrounding present-tense putting off in vv8-9, apothesthe, me pseudesthe (V-PNM-2P), shows the same struggle continuing. The command presupposes a new standing yet calls for action against remaining sin, the put-off side of transformation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "COL 3:5!1"
+      },
+      {
+        "ref": "Col.3.10",
+        "key_terms": [
+          {
+            "strong": "G1504",
+            "lemma": "εἰκών"
+          }
+        ],
+        "force": "ton neon ton anakainoumenon (V-PPP-ASM), the new self being renewed, is a present passive participle marking renewal in process, eis epignosin kat eikona (G1504) tou ktisantos, according to the image of its creator. The same eikon target as 2 Cor 3:18 reappears with a durative passive renewal verb, confirming progressive conformity to a pattern as something done to the believer over time.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "COL 3:10!6"
+      },
+      {
+        "ref": "2Pet.3.18",
+        "key_terms": [
+          {
+            "strong": "G0837",
+            "lemma": "αὐξάνω"
+          }
+        ],
+        "force": "auxanete (G0837, V-PAM-2P), a present imperative, keep growing, in grace and knowledge of the Lord Jesus Christ. The verb of organic growth, attested across the canon dominantly in present and imperfect forms, here stands as a sustained command. Growth in grace is presented as an ongoing imperative directed at believers, the increase metaphor reinforcing the durative pattern of the transformation verbs.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": "2PE 3:18!1"
+      },
+      {
+        "ref": "1Cor.6.11",
+        "key_terms": [
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          }
+        ],
+        "force": "hegiasthete (G0037, V-API-2P), you were sanctified, is aorist, set beside apelousasthe, you were washed, and edikaiothete, you were justified, all marking a decisive past act. This aorist of hagiazo establishes a settled position. It is the complementary definitive datum to the present-aspect forms, and it does not cancel the durative pattern but stands alongside it.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1CO 6:11!8"
+      },
+      {
+        "ref": "Heb.10.14",
+        "key_terms": [
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          }
+        ],
+        "force": "By one offering he has perfected eis to dienekes tous hagiazomenous (G0037, V-PPP-APM), those being sanctified. The present passive participle marks an ongoing class who are in the process of being sanctified, standing four verses after the perfect hegiasmenoi of v10. Hebrews thus places a completed perfect and a durative present of the same verb in immediate proximity, showing the two aspects coexist within one argument.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "HEB 10:14!9"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Col.3.10",
+        "to": "Ps.51.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Col.3.10",
+        "to": "Gen.1.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.13",
+        "to": "1Kgs.8.58",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.2.12",
+        "to": "Phil.3.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.6.13",
+        "to": "Rom.12.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Thess.4.3",
+        "to": "1Thess.5.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.12.14",
+        "to": "Heb.12.10",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.6.11",
+        "addressed": true,
+        "resolution": "1 Cor 6:11 uses the aorist hegiasthete (G0037, V-API-2P), you were sanctified, beside you were washed and justified, marking a decisive past act and a settled position. It complicates an exclusively process reading, but the present-tense durative forms metamorphoumetha, anakainoumenon, hagiazomenous, and auxanete remain in force in other texts. The verb hagiazo demonstrably carries both aspects, so the aorist establishes standing while the present establishes the ongoing work, which the proposition affirms together by distinguishing sanctification from justification yet binding them."
+      },
+      {
+        "ref": "Heb.10.10",
+        "addressed": true,
+        "resolution": "Heb 10:10 uses the perfect hegiasmenoi esmen (G0037, V-RPP-NPM), we have been sanctified, a completed state grounded in Christ's one offering. Four verses later Heb 10:14 uses the present hagiazomenous (V-PPP-APM), those being sanctified, of the same group, and Heb 2:11 again uses the present hagiazomenoi. The same book places the completed perfect and the durative present of one verb side by side, which is direct lexical evidence that the definitive and progressive senses coexist rather than compete, exactly the both-and the proposition asserts."
+      },
+      {
+        "ref": "1Thess.5.23",
+        "addressed": true,
+        "resolution": "1 Thess 5:23 uses hagiasai (G0037, V-AAO-3S), an aorist optative, may God himself sanctify you wholly, holokleron, with the parousia in view. This is a punctiliar prayer for completed sanctification at the end, not a present process verb. It does not contradict progression but names its goal and final consummation, the same began-to-complete arc as Phil 1:6, so the present-aspect verbs describe the road and this verse the destination."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units exist in the lexical store for any cited verse. The ingested ECM apparatus covers only 3 John 1.1 to 1.15, and all anchor texts fall outside that window, so the verses are treated as ecm-shadow rather than ecm-published. The decisive verbal forms metamorphoumetha, katergazesthe, energon, hagiasmos, diokete, auxanete, and the mortification imperatives are textually stable in the standard apparatus, so the verdict does not turn on any variant."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "definitive_sanctification_lens",
+        "verdict": "affirms with reordering",
+        "rationale": "A reading that foregrounds the aorist hegiasthete of 1 Cor 6:11 and the perfect hegiasmenoi of Heb 10:10 treats sanctification primarily as a settled position established once at conversion. On its strongest form this lens reads holiness as a status the believer already has in Christ, and the present-tense verbs as the outworking of that fixed standing rather than a separate ongoing acquisition. Even on this lens the present durative forms metamorphoumetha (2 Cor 3:18), anakainoumenon (Col 3:10), hagiazomenous (Heb 10:14), and the present imperative auxanete (2 Pet 3:18) require a real ongoing transformative dimension, so the proposition holds, with the definitive sense given logical priority."
+      },
+      {
+        "framework": "monergistic_emphasis_lens",
+        "verdict": "affirms",
+        "rationale": "A lens stressing divine agency reads theos ho energon (G1754) of Phil 2:13 and the passive metamorphoumetha of 2 Cor 3:18 as making God the sole effective cause of the change. In its strongest form the human imperatives are the appointed means through which God works, not independent contributions. This lens still keeps the present imperatives katergazesthe, diokete, thanatoute, nekrosate, and auxanete intact as genuine commanded activity, which matches the proposition's Spirit-empowered effort clause."
+      },
+      {
+        "framework": "completed_or_perfectionist_lens",
+        "verdict": "partially affirms",
+        "rationale": "A lens reading sanctification as already complete or attainable as a finished state in this life leans on the perfect hegiasmenoi (Heb 10:10) and the aorist optative hagiasai holoteleis (1 Thess 5:23) as evidence of an accomplished or instantaneous holiness. In its strongest form it treats the present verbs as describing experience rather than an incomplete work. The lexical difficulty for this lens is that diokete (Heb 12:14) and auxanete (2 Pet 3:18) are present imperatives addressed to believers who still must pursue and grow, and Phil 1:6 sets completion at the future day of Christ, so the words locate full completion beyond the present, leaving the progressive sense standing."
+      }
+    ],
+    "notes": "The verdict rests on verbal aspect, tense, and voice read across several NT books together by analogy of Scripture. The lexical hinge is the aspect split within hagiazo (G0037), present durative versus aorist and perfect definitive, attested side by side in Hebrews. OT cross-references to a renewed heart in Ps 51:10 and Ezek 11:19 supply conceptual background, but the case is carried by the NT morphology."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition uses descriptive terms, progressive, Spirit-wrought, distinct from but inseparable from justification, means of grace and Spirit-empowered effort, that map onto observable lexical features, durative present tense, passive voice, paired human imperatives with divine working, and the eis-marked goal noun hagiasmos, rather than smuggling in one tradition's verdict. The verdict is derived on the original stem from queried morphology. No change to the prior affirms: true was warranted; the present-aspect transformation and growth language is decisive and the definitive aorist and perfect of hagiazo is a complementary, not contradictory, datum."
+  },
+  "lay_summary": "The Greek words behind this doctrine point in one direction when you look at their grammar. In 2 Corinthians 3:18 the verb is we are being transformed, a present tense and passive form, so the change is continuous and is done to us, here by the Spirit, as we move from glory to glory into the same image. The same kind of present participle appears in Colossians 3:10, the new self being renewed according to the image of its creator. The word for grow in 2 Peter 3:18, keep growing in grace, is a present command, and that verb is mostly continuous all through the New Testament. The noun usually translated sanctification or holiness shows up as a goal you move toward: Romans 6:19 and 6:22 say the body and its fruit are offered unto holiness, and Hebrews 12:14 makes it the object of a present command, keep pursuing it. Philippians 2:12 and 13 hold two things in one breath, a present command to keep working out your salvation with fear and trembling, and the reason, God is the one at work in you to will and to do. So human striving and divine power are not rivals; the striving happens because God is working underneath it. Philippians 1:6 frames the whole thing as begun and to be completed at the day of Christ. The honest wrinkle is that the verb for to sanctify also appears in finished forms: you were sanctified in 1 Corinthians 6:11, and we have been sanctified in Hebrews 10:10. Yet just four verses later Hebrews 10:14 uses the ongoing form, those being sanctified, of the same people. So one book places the completed sense and the in-progress sense right next to each other. That is the root of any confusion here: a single word family carries both a settled standing and an ongoing work, and the text never ranks one over the other. Read together, the present-tense, Spirit-empowered, effort-engaged transformation described in the proposition is plainly present across these books.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.3.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Phil.2.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Phil.2.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.10.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.10.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.6.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Pet.3.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.6.19"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0038"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0037"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3339"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0837"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Col.3.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.12.14"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Phil.2.12"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute=false) for the morphology of 2Cor.3.18, Phil.2.12, Phil.2.13, Heb.10.14, Heb.10.10, 1Cor.6.11, 2Pet.3.18, and Rom.6.19, which are the verbal-aspect data the verdict rests on. The presence of this non-redistributable source makes the aggregate unsafe to publish in bulk, though the cited verb tenses and voices can be independently reconfirmed from public-domain morphology."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

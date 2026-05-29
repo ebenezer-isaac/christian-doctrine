@@ -1,0 +1,708 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-pluralism-denial",
+  "question_id": "doc-pluralism-denial",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.825,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The NT lexical pattern across the four anchors is convergent and exclusivist with no opening for parallel saving paths. John 14:6 pairs the emphatic ego eimi with three articular predicate nominatives (he hodos, he aletheia, he zoe) and then closes every route with oudeis erchetai pros ton patera ei me di emou, a universal negation plus a single exceptive clause. Acts 4:12 stacks four negators (ouk, oudeni, oude, and the impersonal dei of necessity) around two distinct other words, allos (numerical other) and heteros (qualitatively other), binding salvation to the one onoma. 1 Tim 2:5 applies the numeral heis twice (heis theos, heis mesites) so that a single go-between is mathematically fixed. 1 John 5:11-12 ties zoe aionios to the Son with a participial antithesis (ho echon, ho me echon) and the negation ten zoen ouk echei. The denial of pluralism (that other religions are independent saving paths) is therefore strongly grounded. A separate, lexically distinct sub-question (whether saving access requires explicit faith in Christ, the exclusivist reading, or may reach some who never heard, the inclusivist reading) is left open by these words, because both readings still route salvation through the one named Christ and so both deny pluralism."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3598",
+        "lemma": "ὁδός",
+        "transliteration": "hodos",
+        "occurrences_in_canon": 102,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0225",
+        "lemma": "ἀλήθεια",
+        "transliteration": "aletheia",
+        "occurrences_in_canon": 110,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1223",
+        "lemma": "διά",
+        "transliteration": "dia",
+        "occurrences_in_canon": 682,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4991",
+        "lemma": "σωτηρία",
+        "transliteration": "soteria",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2087",
+        "lemma": "ἕτερος",
+        "transliteration": "heteros",
+        "occurrences_in_canon": 99,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3316",
+        "lemma": "μεσίτης",
+        "transliteration": "mesites",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 570,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3756",
+        "lemma": "οὐ",
+        "transliteration": "ou",
+        "occurrences_in_canon": 1683,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3361",
+        "lemma": "μή",
+        "transliteration": "me",
+        "occurrences_in_canon": 1083,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3761",
+        "lemma": "οὐδέ",
+        "transliteration": "oude",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1163",
+        "lemma": "δεῖ",
+        "transliteration": "dei",
+        "occurrences_in_canon": 106,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3598",
+      "G0225",
+      "G2222",
+      "G3762",
+      "G1223",
+      "G4991",
+      "G4982",
+      "G4990",
+      "G3686",
+      "G0243",
+      "G2087",
+      "G1520",
+      "G3316",
+      "G0166",
+      "G5547",
+      "G3756",
+      "G3361",
+      "G3761",
+      "G1163",
+      "G5207",
+      "G1325",
+      "G2316",
+      "G0444"
+    ],
+    "scripture": [
+      {
+        "ref": "John.14.6",
+        "key_terms": [
+          {
+            "strong": "G3598",
+            "lemma": "ὁδός"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1223",
+            "lemma": "διά"
+          },
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          }
+        ],
+        "force": "Ego eimi he hodos kai he aletheia kai he zoe is followed by oudeis erchetai pros ton patera ei me di emou. The emphatic ego eimi with three articular predicate nominatives identifies Jesus as the singular path, and the universal negation oudeis (no one) paired with the exceptive ei me (except) plus the genitive of agency di emou (through me) closes every alternative route to the Father. Queried token data confirms oudeis (G3762), me (G3361), and dia (G1223) are all present in the verse.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.4.12",
+        "key_terms": [
+          {
+            "strong": "G4991",
+            "lemma": "σωτηρία"
+          },
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G2087",
+            "lemma": "ἕτερος"
+          },
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G3761",
+            "lemma": "οὐδέ"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G1163",
+            "lemma": "δεῖ"
+          }
+        ],
+        "force": "Ouk estin en allo oudeni he soteria, with the layered negation ouk plus oudeni and the locative en allo, denies salvific efficacy to any other source. The follow-up oude gar onoma estin heteron ... en ho dei sothenai hemas adds oude and the qualitatively other heteron, then the impersonal dei (it is necessary) and the aorist passive infinitive sothenai (to be saved) bind salvation to the single Name. The verse uses BOTH allos (G0243, numerically another) and heteros (G2087, another of a different kind), foreclosing other paths on both axes. Queried glosses: allos is other, another, and heteros is the distributive other denoting the second of a pair.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3316",
+            "lemma": "μεσίτης"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          }
+        ],
+        "force": "Heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous. The numeral heis applied to both theos and mesites is mathematically exclusive: a single mediator between God and humans is named, leaving no slot for parallel mediators. Mesites (G3316) occurs only 6 times in the NT (here, Gal 3:19, Gal 3:20, Heb 8:6, 9:15, 12:24), always a covenant go-between, with the queried gloss arbitrator, mediator and an LXX background in Job 9:33; its sense is low-frequency but stable, not ambiguous.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.11",
+        "key_terms": [
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "Zoen aionion edoken hemin ho theos, kai haute he zoe en to huio autou estin. The aorist edoken (he gave) locates the gift and the locative en to huio (in his Son) binds eternal life to the Son as its exclusive container. Queried token data confirms zoe (G2222), aionios (G0166), huios (G5207), and didomi (G1325) are present.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.5.12",
+        "key_terms": [
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G2222",
+            "lemma": "ζωή"
+          },
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "Ho echon ton huion echei ten zoen, ho me echon ton huion tou theou ten zoen ouk echei. The participial antithesis between echon and me echon, sealed by the negation me ... ouk echei (the one not having does not have), excludes life from anyone lacking the Son. Queried data confirms echo (G2192), me (G3361), and ou (G3756) together in the verse.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.10.35",
+        "key_terms": [
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνος"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G1184",
+            "lemma": "δεκτός"
+          }
+        ],
+        "force": "En panti ethnei ho phoboumenos auton kai ergazomenos dikaiosynen dektos auto estin. The phrase dektos (acceptable) applied across every ethnos (nation) is the strongest lexical foothold for an inclusivist reading. It says God accepts the God-fearer who works righteousness in any nation, but the vocabulary does not name an alternative saving path. In the immediate narrative Peter still proceeds to preach the name, so dektos describes whom God receives, not a second mechanism of salvation independent of Christ.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.14.6",
+        "to": "Acts.4.12",
+        "source": "openbible",
+        "votes": 397
+      },
+      {
+        "from": "John.14.6",
+        "to": "John.10.9",
+        "source": "openbible",
+        "votes": 369
+      },
+      {
+        "from": "John.14.6",
+        "to": "Eph.2.18",
+        "source": "openbible",
+        "votes": 267
+      },
+      {
+        "from": "John.14.6",
+        "to": "Heb.7.25",
+        "source": "openbible",
+        "votes": 109
+      },
+      {
+        "from": "Acts.4.12",
+        "to": "John.14.6",
+        "source": "openbible",
+        "votes": 175
+      },
+      {
+        "from": "Acts.4.12",
+        "to": "1Cor.3.11",
+        "source": "openbible",
+        "votes": 125
+      },
+      {
+        "from": "Acts.4.12",
+        "to": "1Tim.2.5",
+        "source": "openbible",
+        "votes": 111
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "1Cor.8.6",
+        "source": "openbible",
+        "votes": 36
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Gal.3.20",
+        "source": "openbible",
+        "votes": 33
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Deut.6.4",
+        "source": "openbible",
+        "votes": 24
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Isa.44.6",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "1John.5.12",
+        "to": "John.3.36",
+        "source": "openbible",
+        "votes": 35
+      },
+      {
+        "from": "1Tim.2.5",
+        "to": "Job.9.33",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.10.34-35",
+        "addressed": true,
+        "resolution": "Ho phoboumenos auton kai ergazomenos dikaiosynen dektos auto estin uses dektos (acceptable), not sozo or soteria. The verse establishes that God shows no partiality across nations and receives the God-fearer, which the inclusivist lens reads as room for those who never heard. But the vocabulary names no second saving path. Cornelius still hears and believes the preached name in the same narrative, so dektos describes divine impartiality in whom God draws, consistent with the one Mediator of 1 Tim 2:5, not a parallel religion."
+      },
+      {
+        "ref": "Rom.2.14-16",
+        "addressed": true,
+        "resolution": "Queried key terms are ethnos (Gentiles), nomos (law), syneidesis (conscience), apologeomai (defend), kategoreo (accuse). The conscience either accuses or excuses on judgment day. Crucially Rom 2:16 reads krinei ho theos ta krypta ton anthropon ... dia Christou Iesou, so the scene is judicial and still routed dia Christou. It supplies grounds for accountability, not an independent saving path, and Rom 3 concludes none is righteous and salvation is dia pisteos Iesou Christou."
+      },
+      {
+        "ref": "John.10.16",
+        "addressed": true,
+        "resolution": "Alla probata echo ha ouk estin ek tes aules tautes uses allos (other sheep) but then genesontai mia poimne, heis poimen, one flock, one shepherd. Queried terms heis (G1520), poimen (G4166), poimne (G4167) confirm the singular shepherd and flock. The other sheep belong to the same Shepherd, reinforcing single-path gathering rather than a second path."
+      },
+      {
+        "ref": "1Tim.4.10",
+        "addressed": true,
+        "resolution": "Theos zon hos estin soter panton anthropon, malista piston. The genuine lexical seam here is the polysemy of the soter and soteria word group, whose queried gloss includes deliverance, preservation, safety as well as eschatological salvation. The qualifier malista (especially) followed by piston (believers) marks a narrowing, so the universal sense reads as God the preserver of all while saving faith is reserved for believers, tied back to the heis mesites rather than universalizing saving access."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "John.14.6",
+        "variant_id": "john-14-6-article-verb-marker",
+        "verdict_impact": "none",
+        "note": "The SBLGNT apparatus carries a marker on the article and verb form in the surrounding text, but no witness drops the exclusive ei me di emou clause. The exclusive force is uniform across the textual tradition."
+      },
+      {
+        "ref": "Acts.4.12",
+        "variant_id": "acts-4-12-oude-ou",
+        "verdict_impact": "none",
+        "note": "The apparatus shows an oude or ou variation marker and a word-order marker around hypo ton ouranon, but the negation pattern and the binding of soteria to the one onoma persist in all readings."
+      },
+      {
+        "ref": "1John.5.11",
+        "variant_id": "1john-5-11-edoken-hemin-order",
+        "verdict_impact": "none",
+        "note": "The apparatus shows variation in pronoun and word order around edoken hemin, but the claim binding zoe aionios to the Son is stable across witnesses."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited verses (John 14, Acts 4, 1 Tim 2, 1 John 5) are outside the ingested ECM window, which currently covers only 3 John 1.1 to 1.15. not_in_ecm_scope is true for all anchors, so variant assessment rests on SBLGNT and Nestle1904 apparatus markers, which is recorded as ecm-shadow rather than ecm-published."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "exclusivism",
+      "inclusivism",
+      "pluralism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "exclusivism",
+        "verdict": "affirms",
+        "rationale": "Reads ego eimi he hodos, ouk en allo oudeni, and heis mesites at face value and holds that saving access comes only through explicit faith in the named Christ. The negations and numeric singularity exclude alternative saving paths, and Acts 4:12 ties soteria to the onoma (the named Christ), which on this reading requires the name to be known and trusted."
+      },
+      {
+        "framework": "inclusivism",
+        "verdict": "affirms",
+        "rationale": "Holds that Christ is the only Savior and the only ground of salvation, so it equally denies pluralism, but reads Acts 10:35 (dektos in every nation) and Rom 2:14-16 (conscience that may excuse) as leaving lexical room for Christ's saving work to reach some who never heard the name explicitly. On this reading the one Mediator of 1 Tim 2:5 still mediates, but the application is not strictly limited to those with explicit knowledge."
+      },
+      {
+        "framework": "pluralism",
+        "verdict": "denies",
+        "rationale": "Holds that multiple religions are independent saving paths. The Greek pattern of oudeis ... ei me, ouk ... en allo oudeni, oude ... heteron, heis mesites, and me echon ... ouk echei systematically forecloses this reading. No lexical hook in any anchor verse supports a multi-path soteriology, so this lens is the one the texts directly negate."
+      }
+    ],
+    "notes": "The verdict on pluralism and the exclusivist-versus-inclusivist sub-question are lexically distinct. The anchors layer four independent negation strategies (oudeis ei me, ouk en oudeni with both allos and heteros, the numeric heis, and me echon ... ouk echei) that together deny pluralism redundantly. They do NOT settle whether the saving work reaches only those who explicitly believe or also some who never heard, because Acts 10:35 dektos and Rom 2:14-16 syneidesis use vocabulary that names neither an alternative path (which would help pluralism) nor an explicit-faith requirement (which would settle exclusivism). Both exclusivism and inclusivism deny pluralism; their internal disagreement is a separate question the words underdetermine."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": "Salvation is found exclusively through Christ, and no other religion or path provides independent saving access to God.",
+    "notes": "This is a DENIAL stem (pluralism is the error denied). The proposition is phrased in terms the NT itself uses (sole mediator, no other name, no other way, no one comes except through me), so it is not preloaded with a tradition-specific taxonomy; a tradition-neutral rephrasing is supplied for transparency. The verdict is derived on the original stem. The stem targets pluralism specifically and does not prejudge the distinct exclusivist-versus-inclusivist sub-question, which is left open in the lens analysis."
+  },
+  "lay_summary": "The four anchor passages converge on one lexical pattern. In John 14:6 Jesus says ego eimi he hodos, he aletheia, he zoe, an emphatic I am with three articular nouns, and then oudeis (no one) comes to the Father except dia (through) him. The negation is universal and the exception is single. In Acts 4:12 Peter stacks negators. There is no salvation en allo oudeni (in no one else), and no other onoma (name) under heaven by which it is necessary to be saved. The Greek pointedly uses both allos (another of the same kind) and heteros (another of a different kind), so it closes off other names on both axes. In 1 Timothy 2:5 the numeral heis appears twice, one God and one mediator (mesites), and mesites is a precise go-between word that occurs only six times, leaving no room for parallel mediators. In 1 John 5:11-12 eternal life is bound to the Son, and whoever does not have the Son does not have the life. Four passages, four independent ways of saying no, one consistent result. This is why the denial of pluralism, the claim that other religions are separate saving paths, is strongly grounded. The text negates that directly. There is, however, a second and different question the same words do not settle, and this is where careful readers diverge. Acts 10:35 says the God-fearer who works righteousness is dektos (acceptable) in every nation, and Romans 2 describes a conscience that can excuse, yet both verses route everything back through Christ (Romans 2:16 says God judges through Christ Jesus) and neither names a rival path. So one reader concludes saving access requires explicitly hearing and trusting the name, while another concludes the one Savior may still reach some who never heard. Notice that both of those readers still deny pluralism, because both keep Christ as the only Savior. The vocabulary clearly rules out many independent paths, but it does not by itself rule on the reach of the single path, partly because the soter word group can mean preserver as well as eschatological savior, as in 1 Timothy 4:10. That distinction explains the divergence without weakening the core verdict.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.12"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3598"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3316"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3762"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2087"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0243"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4991"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Acts.4.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.14.6"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Acts.4.12"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is CC-BY-NC-4.0 and SBLGNT-text is under SBLGNT-EULA, and both restrict bulk redistribution. The syntactic anchoring of the negation constructions and the Greek base text rely on these sources, so the composite evidence cannot be published in bulk without rebuilding the morphology and syntax layer from purely public-domain and CC-BY tier sources."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

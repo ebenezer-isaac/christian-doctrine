@@ -1,0 +1,838 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-imminence-no-date-setting",
+  "question_id": "doc-imminence-no-date-setting",
+  "generated_at": "2026-05-28T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition has two limbs and the lexical pattern lands them very differently. The no-date-setting limb is decisive across multiple authors. Matthew 24:36 and Mark 13:32 use the universal negative pronoun οὐδείς with the perfect οἶδεν of the day (ἡμέρα) and hour (ὥρα), Mark stacking οὐδὲ ... οὐδὲ to deny even the Son. Acts 1:7 says οὐχ ὑμῶν ἐστιν γνῶναι χρόνους ἢ καιροὺς οὓς ὁ πατὴρ ἔθετο ἐν τῇ ἰδίᾳ ἐξουσίᾳ, removing the times and seasons from the disciples' competence. Paul reuses the same χρόνος and καιρός pair in 1 Thessalonians 5:1 and adds the thief simile of 1 Thessalonians 5:2. Watchfulness is commanded with present imperatives γρηγορεῖτε (Matt 24:42), βλέπετε ἀγρυπνεῖτε (Mark 13:33), and γίνεσθε ἕτοιμοι (Matt 24:44). The any-moment imminence emphasis is real but more synthetic. The thief simile and watch-imperatives plus Phil 4:5 ἐγγύς, Jas 5:8 ἤγγικεν, Rev 22:20 ἔρχομαι ταχύ support nearness and readiness, while 2 Thess 2:1-3 inserts an ordered ἀποστασία and revelation of the ἄνθρωπος τῆς ἀνομίας before the day comes, so strict any-moment expectation is in tension with at least one sequence statement in the canon."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3762",
+        "lemma": "οὐδείς",
+        "transliteration": "oudeis",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1492",
+        "lemma": "οἶδα",
+        "transliteration": "oida",
+        "occurrences_in_canon": 318,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 392,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5610",
+        "lemma": "ὥρα",
+        "transliteration": "hora",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1127",
+        "lemma": "γρηγορέω",
+        "transliteration": "gregoreo",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1097",
+        "lemma": "γινώσκω",
+        "transliteration": "ginosko",
+        "occurrences_in_canon": 222,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5550",
+        "lemma": "χρόνος",
+        "transliteration": "chronos",
+        "occurrences_in_canon": 53,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2540",
+        "lemma": "καιρός",
+        "transliteration": "kairos",
+        "occurrences_in_canon": 84,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2812",
+        "lemma": "κλέπτης",
+        "transliteration": "kleptes",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0991",
+        "lemma": "βλέπω",
+        "transliteration": "blepo",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0069",
+        "lemma": "ἀγρυπνέω",
+        "transliteration": "agrupneo",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 386,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1448",
+        "lemma": "ἐγγίζω",
+        "transliteration": "engizo",
+        "occurrences_in_canon": 43,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1451",
+        "lemma": "ἐγγύς",
+        "transliteration": "engys",
+        "occurrences_in_canon": 30,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5035",
+        "lemma": "ταχύ",
+        "transliteration": "tachy",
+        "occurrences_in_canon": 10,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2064",
+        "lemma": "ἔρχομαι",
+        "transliteration": "erchomai",
+        "occurrences_in_canon": 640,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2092",
+        "lemma": "ἕτοιμος",
+        "transliteration": "hetoimos",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1380",
+        "lemma": "δοκέω",
+        "transliteration": "dokeo",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G3762",
+      "G1492",
+      "G2250",
+      "G5610",
+      "G1127",
+      "G1097",
+      "G5550",
+      "G2540",
+      "G2812",
+      "G0991",
+      "G0069",
+      "G5207",
+      "G3962",
+      "G3756",
+      "G3761",
+      "G1380",
+      "G1448",
+      "G1451",
+      "G5035",
+      "G2064",
+      "G2092",
+      "G0646",
+      "G0458",
+      "G0601"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.24.36",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G5610",
+            "lemma": "ὥρα"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "The verse opens with περὶ δὲ τῆς ἡμέρας ἐκείνης καὶ ὥρας and then negates knowledge with οὐδεὶς οἶδεν. The pronoun οὐδείς is a universal negative, so the perfect οἶδεν (MorphGNT codes V- 3XAI-S--, perfect active indicative third singular, the standard stative perfect meaning to know) is denied to every named party, the angels of heaven and even the Son, leaving εἰ μὴ ὁ πατὴρ μόνος. The day and hour are explicitly named as the unknown items, which fixes the non-knowledge limb of the proposition lexically.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.24.42",
+        "key_terms": [
+          {
+            "strong": "G1127",
+            "lemma": "γρηγορέω"
+          },
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          }
+        ],
+        "force": "The present active imperative γρηγορεῖτε commands continuous watchfulness, and the causal ὅτι clause grounds it in οὐκ οἴδατε ποίᾳ ἡμέρᾳ ὁ κύριος ὑμῶν ἔρχεται. The interrogative ποίᾳ ἡμέρᾳ makes the unknown a specific calendar item, and the present ἔρχεται keeps the coming in view as something that can break in at any time. The watchfulness imperative is presented as the direct response to not knowing the day.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.24.43",
+        "key_terms": [
+          {
+            "strong": "G2812",
+            "lemma": "κλέπτης"
+          },
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G5610",
+            "lemma": "ὥρα"
+          },
+          {
+            "strong": "G1127",
+            "lemma": "γρηγορέω"
+          }
+        ],
+        "force": "The simile likens the coming to a thief, εἰ ᾔδει ὁ οἰκοδεσπότης ποίᾳ φυλακῇ ὁ κλέπτης ἔρχεται, ἐγρηγόρησεν ἄν. The pluperfect ᾔδει in a contrary-to-fact condition states that the householder did not know the watch, and the apodosis with ἐγρηγόρησεν ἄν makes watchfulness contingent on that ignorance. The κλέπτης image encodes unpredictability of timing.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.24.44",
+        "key_terms": [
+          {
+            "strong": "G1380",
+            "lemma": "δοκέω"
+          },
+          {
+            "strong": "G5610",
+            "lemma": "ὥρα"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          },
+          {
+            "strong": "G2092",
+            "lemma": "ἕτοιμος"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "The conclusion γίνεσθε ἕτοιμοι uses the predicate adjective ἕτοιμος of readiness and is grounded by ὅτι ᾗ οὐ δοκεῖτε ὥρᾳ ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται. The verb δοκέω marks the hour as one the hearers do not expect, and the present ἔρχεται again presents the coming as possible at an unanticipated hour. Readiness is commanded precisely because the hour is not predictable.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.7",
+        "key_terms": [
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G5550",
+            "lemma": "χρόνος"
+          },
+          {
+            "strong": "G2540",
+            "lemma": "καιρός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "Jesus answers the disciples' restoration question with οὐχ ὑμῶν ἐστιν γνῶναι χρόνους ἢ καιροὺς οὓς ὁ πατὴρ ἔθετο ἐν τῇ ἰδίᾳ ἐξουσίᾳ. The negated possessive οὐχ ὑμῶν plus the aorist infinitive γνῶναι removes the knowing of times and seasons from the disciples' province, and the relative clause assigns those χρόνοι and καιροί to the Father's own authority. This is the direct lexical ground for forbidding speculation or date-setting about the timing.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Thess.5.1",
+        "key_terms": [
+          {
+            "strong": "G5550",
+            "lemma": "χρόνος"
+          },
+          {
+            "strong": "G2540",
+            "lemma": "καιρός"
+          },
+          {
+            "strong": "G1125",
+            "lemma": "γράφω"
+          }
+        ],
+        "force": "Paul writes περὶ δὲ τῶν χρόνων καὶ τῶν καιρῶν, ἀδελφοί, οὐ χρείαν ἔχετε ὑμῖν γράφεσθαι. The same χρόνος and καιρός pair as Acts 1:7 appears, and Paul says no calendar instruction needs to be written, which presupposes that fixing the time is not the church's task. The lexical overlap with Acts ties the two passages on the question of timing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Thess.5.2",
+        "key_terms": [
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G2812",
+            "lemma": "κλέπτης"
+          },
+          {
+            "strong": "G0199",
+            "lemma": "ἀκριβῶς"
+          }
+        ],
+        "force": "Paul states αὐτοὶ γὰρ ἀκριβῶς οἴδατε ὅτι ἡμέρα κυρίου ὡς κλέπτης ἐν νυκτὶ οὕτως ἔρχεται. What they know precisely (ἀκριβῶς) is not the date but the manner, that the day of the Lord comes like a thief in the night. The κλέπτης ἐν νυκτὶ simile reuses the Matthew 24:43 image and encodes unannounced arrival, supporting imminence without a knowable date.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.13.32",
+        "key_terms": [
+          {
+            "strong": "G3762",
+            "lemma": "οὐδείς"
+          },
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G2250",
+            "lemma": "ἡμέρα"
+          },
+          {
+            "strong": "G5610",
+            "lemma": "ὥρα"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "Mark's parallel is fuller, περὶ δὲ τῆς ἡμέρας ἐκείνης ἢ τῆς ὥρας οὐδεὶς οἶδεν, οὐδὲ οἱ ἄγγελοι ἐν οὐρανῷ οὐδὲ ὁ υἱός, εἰ μὴ ὁ πατήρ. The οὐδείς plus the stacked οὐδὲ ... οὐδὲ exhausts the candidates and ascribes knowledge only to the Father. This is the strongest single statement of the non-knowledge limb in the canon.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.13.33",
+        "key_terms": [
+          {
+            "strong": "G0991",
+            "lemma": "βλέπω"
+          },
+          {
+            "strong": "G0069",
+            "lemma": "ἀγρυπνέω"
+          },
+          {
+            "strong": "G2540",
+            "lemma": "καιρός"
+          },
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          }
+        ],
+        "force": "The application βλέπετε, ἀγρυπνεῖτε pairs two present imperatives of vigilance, grounded by οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν. The interrogative πότε plus the negated οἴδατε states that the time is unknown, and βλέπω plus ἀγρυπνέω (a rare verb, only four occurrences in the Greek NT, three of them with eschatological or prayer alertness force) command continuous alertness as the response. This matches the Matthew 24:42 γρηγορεῖτε pattern with a second vigilance verb.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.5",
+        "key_terms": [
+          {
+            "strong": "G1451",
+            "lemma": "ἐγγύς"
+          },
+          {
+            "strong": "G2962",
+            "lemma": "κύριος"
+          }
+        ],
+        "force": "Paul writes ὁ κύριος ἐγγύς, the Lord is near, with the adverb ἐγγύς. Whether the nearness is temporal (return soon) or spatial (presence near), the temporal reading is well attested for ἐγγύς when paired with day or coming language, and the immediate ethical exhortation ἐπιεικὲς ὑμῶν γνωσθήτω makes nearness function as a readiness motive. Supports the imminence limb without specifying calendar timing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.5.8",
+        "key_terms": [
+          {
+            "strong": "G1448",
+            "lemma": "ἐγγίζω"
+          },
+          {
+            "strong": "G3952",
+            "lemma": "παρουσία"
+          }
+        ],
+        "force": "James writes ἡ παρουσία τοῦ κυρίου ἤγγικεν. The perfect indicative ἤγγικεν of ἐγγίζω is stative, has drawn near and stands near, and is the same verb form used in Matt 3:2 and 4:17 for the kingdom drawing near. The perfect carries an aspectual nearness without specifying a date, supporting imminence and forbidding the calendar by remaining indefinite.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.22.20",
+        "key_terms": [
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχομαι"
+          },
+          {
+            "strong": "G5035",
+            "lemma": "ταχύ"
+          }
+        ],
+        "force": "The risen Christ says ναί, ἔρχομαι ταχύ. The present ἔρχομαι with the adverb ταχύ asserts an arrival that is swift and unspecified. ταχύ is a sparse word (ten NT occurrences) and its concentration in Revelation (six of ten) is a small canon-distinct cluster that ties the closing of the canon to the unannounced-arrival pattern. No date is implied.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Acts.1.7",
+        "to": "Acts.17.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.24.43",
+        "to": "Exod.22.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Thess.5.2",
+        "to": "Jer.23.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.24.36",
+        "to": "Matt.24.42",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.24.42",
+        "to": "Mark.13.33",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Thess.5.2",
+        "to": "Matt.24.43",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Jas.5.8",
+        "to": "Phil.4.5",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rev.22.20",
+        "to": "Rev.22.7",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.24.33",
+        "addressed": true,
+        "resolution": "Just before the date-denial Jesus says ὅταν ἴδητε πάντα ταῦτα, γινώσκετε ὅτι ἐγγύς ἐστιν, you can know it is near when you see all these things. This might look like permission to read signs and infer a date. The lexical answer is that γινώσκετε ... ἐγγύς establishes recognizable nearness of the season, not the day or hour, while v. 36 immediately denies οὐδεὶς οἶδεν of the precise ἡμέρα and ὥρα. The two statements operate at different granularities, general nearness versus exact timing, so they cohere rather than conflict and the date-setting ban stands."
+      },
+      {
+        "ref": "1Thess.5.4",
+        "addressed": true,
+        "resolution": "Paul tells the believers ὑμεῖς δέ, ἀδελφοί, οὐκ ἐστὲ ἐν σκότει, ἵνα ἡ ἡμέρα ὑμᾶς ὡς κλέπτης καταλάβῃ, that the day should not overtake them like a thief. This could be read as exempting believers from the thief-like unpredictability. The lexical force is that the contrast is between moral readiness (children of light) and being caught unprepared, not between knowing and not knowing the date. The thief simile of v. 2 is not retracted, the unpredictability of timing remains, and watchfulness rather than calendar knowledge is the prescribed posture."
+      },
+      {
+        "ref": "Mark.13.32",
+        "addressed": true,
+        "resolution": "The clause οὐδὲ ὁ υἱός, that not even the Son knows, raises a Christological tension that some treat as undermining the proposition's coherence. For this lexical verdict the clause actually strengthens the non-knowledge limb, since the universal negation extends through the highest creaturely and even the filial knowledge to reserve the day for the Father alone. The proposition is about whether the day is humanly knowable and forbidden to set, and οὐδὲ ὁ υἱός makes the denial maximal, so it is supportive rather than complicating for the timing claim."
+      },
+      {
+        "ref": "2Thess.2.1-3",
+        "addressed": true,
+        "resolution": "Paul writes ἐρωτῶμεν δὲ ὑμᾶς, ἀδελφοί, ὑπὲρ τῆς παρουσίας τοῦ κυρίου ... εἰς τὸ μὴ ταχέως σαλευθῆναι ὑμᾶς ... ὡς ὅτι ἐνέστηκεν ἡ ἡμέρα τοῦ κυρίου, and then explicitly orders the sequence ὅτι ἐὰν μὴ ἔλθῃ ἡ ἀποστασία πρῶτον καὶ ἀποκαλυφθῇ ὁ ἄνθρωπος τῆς ἀνομίας. The adverb πρῶτον and the aorist subjunctives place an ἀποστασία and the revelation of the ἄνθρωπος τῆς ἀνομίας before the day. Lexically this complicates the strict any-moment limb of the proposition (an unconditional any-moment expectation) but does NOT complicate the no-date-setting limb, since the sequence does not yield a date, and even Paul's framing turns on σαλευθῆναι (do not be shaken) rather than calculation. The no-date-setting verdict is robust. The any-moment phrasing of the imminence limb is the contested element, and that contest is named honestly in the competing_lens_verdicts below."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Matt.24.36",
+        "variant_id": "matt-24-36-oude-ho-huios-inclusion",
+        "verdict_impact": "minor",
+        "note": "Some witnesses omit οὐδὲ ὁ υἱός in Matthew 24:36, harmonizing toward a shorter reading, while the Mark 13:32 parallel retains it unambiguously. The non-knowledge verdict holds with or without the clause in Matthew because οὐδεὶς οἶδεν already denies knowledge universally and Mark carries the fuller form."
+      },
+      {
+        "ref": "Mark.13.33",
+        "variant_id": "mark-13-33-kai-proseuchesthe-addition",
+        "verdict_impact": "none",
+        "note": "Witnesses differ on whether καὶ προσεύχεσθε follows βλέπετε ἀγρυπνεῖτε. The lexical-graph tokens for Mark 13:33 include G4336 (προσεύχομαι), consistent with the longer reading, but the watchfulness-plus-unknown-time verdict rests on βλέπετε, ἀγρυπνεῖτε and οὐκ οἴδατε πότε and is unaffected either way."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All anchor verses are in the Gospels, Acts, 1 Thessalonians, Philippians, James, and Revelation, which are NT books outside 3 John where the ECM is not yet published. Readings taken from the standard critical editions in shadow mode."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "dispensationalism",
+      "covenant_theology",
+      "historic_premillennialism",
+      "preterism",
+      "amillennialism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "any-moment_imminence_lens",
+        "verdict": "affirms",
+        "rationale": "Reads the present imperatives γρηγορεῖτε and βλέπετε ἀγρυπνεῖτε plus the thief simile and ἔρχομαι ταχύ as teaching constant readiness for an any-moment return without prior signs that affect the believer. The lexical denial of a known day or hour supports the no-date-setting clause directly, and Phil 4:5 ἐγγύς plus Jas 5:8 ἤγγικεν are read as actual temporal nearness."
+      },
+      {
+        "framework": "signs-first_imminence_lens",
+        "verdict": "partially_affirms",
+        "rationale": "Reads 2 Thess 2:1-3 with the ordering adverb πρῶτον and the aorist subjunctives as inserting an ἀποστασία and revelation of the ἄνθρωπος τῆς ἀνομίας before the day of the Lord, and Matt 24:14 with its global preaching condition before τὸ τέλος. Under this lens the no-date-setting limb is affirmed without reservation (οὐδεὶς οἶδεν, οὐχ ὑμῶν γνῶναι), but the strictly any-moment reading of the imminence limb is qualified. The watch-imperatives and thief simile then bear on perpetual readiness through the in-between time, not a content-free unconditional expectation."
+      },
+      {
+        "framework": "delayed-return_lens",
+        "verdict": "affirms",
+        "rationale": "Reads the parables of delay in the same Olivet discourse (Matt 24:48 χρονίζει, Matt 25:5 χρονίζοντος) as stretching the interval, yet still affirms that the day and hour are unknown (οὐδεὶς οἶδεν) and that date-setting is excluded by οὐχ ὑμῶν γνῶναι. Both the non-knowledge and the no-date-setting limbs hold under this lens."
+      },
+      {
+        "framework": "preterist_lens",
+        "verdict": "partially_affirms",
+        "rationale": "Reads the Olivet day-and-hour language as oriented in part to the first-century judgment on Jerusalem, which reduces the imminence-of-the-final-return emphasis from those verses. Even so, the lexical statements οὐδεὶς οἶδεν and οὐχ ὑμῶν γνῶναι χρόνους ἢ καιρούς still forbid presuming to know or set the time, so the no-date-setting limb is unaffected."
+      }
+    ],
+    "notes": "The no-date-setting limb is stable across every lens because the underlying lexical items (universal οὐδείς with perfect οἶδεν, plus οὐχ ὑμῶν γνῶναι) are unambiguous. The any-moment imminence limb is the one element where lenses diverge, because the canon supplies both unannounced-arrival statements and an ordered ἀποστασία-then-day sequence in 2 Thess 2, and the relative weight of the two is not lexically forced."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "The biblical texts addressing the timing of Christ's return state whether the day and hour are humanly knowable, whether the return is presented as near and unannounced, and what posture believers are instructed to take.",
+    "notes": "The original stem bundles three theologically loaded terms, imminent, could occur at any time, and date-setting is forbidden, which can preload a particular any-moment expectation that is more framework than bare lexeme. The neutralized form restates the question as what the texts say about knowability, nearness language, and the prescribed posture. The verdict was derived on the original stem, and the lexical evidence supports both the non-knowledge claim and the no-date-setting application very strongly. The any-moment phrasing of the imminence limb is the one element where lenses diverge because 2 Thess 2:1-3 inserts an ordered ἀποστασία and revelation of the ἄνθρωπος τῆς ἀνομίας πρῶτον, before the day. Honest read: no-date-setting is decisive, generic imminence and readiness are decisive, strict any-moment imminence with no prior conditions is the contested element. The composite verdict remains true on the natural reading of the stem because the proposition does not require strict any-moment expectation, only that the return is imminent (near, possible without warning) and date-setting is forbidden. A reader who heard imminent as strict any-moment would find that element more disputed, which is recorded in competing_lens_verdicts."
+  },
+  "lay_summary": "The question is whether the Bible teaches that Christ's return could happen at any time, that no one knows the exact day or hour, and that setting a date is forbidden. Reading only the Greek text and standard lexical tools, two threads run through the passages. First, knowledge of the timing is denied. Matthew 24:36 and Mark 13:32 say οὐδεὶς οἶδεν, no one knows, about the day (ἡμέρα) and hour (ὥρα). The word οὐδείς is a universal negative, and Mark stacks the denials so that not the angels and not even the Son know, only the Father. In Acts 1:7 Jesus tells the disciples οὐχ ὑμῶν ἐστιν γνῶναι χρόνους ἢ καιρούς, it is not yours to know the times or seasons, placing them in the Father's own authority. Paul echoes the same word pair, χρόνος and καιρός, in 1 Thessalonians 5:1 and says no calendar letter is needed. Second, the response commanded is watchfulness, not calculation. Matthew 24:42 uses the present imperative γρηγορεῖτε, keep watching, grounded by you do not know the day. Mark 13:33 adds βλέπετε, ἀγρυπνεῖτε, watch and stay alert, because you do not know when the time is. The arrival is pictured as a thief in the night, ὡς κλέπτης ἐν νυκτὶ, in both Matthew 24:43 and 1 Thessalonians 5:2, an image of unannounced timing. Matthew 24:44 says be ready (ἕτοιμοι) because the Son of Man comes at an hour you do not expect (οὐ δοκεῖτε). Philippians 4:5 says ὁ κύριος ἐγγύς, the Lord is near, James 5:8 ἡ παρουσία τοῦ κυρίου ἤγγικεν, has drawn near, and Revelation 22:20 ἔρχομαι ταχύ, I come swiftly. Together the lexical pattern is decisive that the day and hour are not humanly knowable and that fixing a date is outside the believer's province, while constant readiness is commanded. One nuance explains why readers diverge on the strength of any-moment language. 2 Thessalonians 2:1-3 inserts an ordering adverb πρῶτον (first) with an ἀποστασία and revelation of the ἄνθρωπος τῆς ἀνομίας before the day of the Lord. The text supplies an unannounced arrival pattern and also a signs-first pattern, and the words themselves do not rank the two. So no-date-setting is settled, readiness is settled, generic nearness is settled, but strict any-moment expectation with no prior conditions is the element the canon leaves room around.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3762"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1492"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1097"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5550"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2540"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1127"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2812"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1448"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1451"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5035"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.24.36"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.24.42"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.24.43"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.24.44"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.1.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.13.32"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.13.33"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Thess.5.2"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.4.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.5.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.22.20"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.24.36"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.1.7"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Thess.2.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.1.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Thess.5.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Jas.5.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek syntactic anchors used at Matt.24.36, Acts.1.7, and 2Thess.2.3 are licensed CC-BY-NC-4.0 and cannot be bulk redistributed."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

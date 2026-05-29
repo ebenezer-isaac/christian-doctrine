@@ -1,0 +1,407 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-episcopal-polity-denial",
+  "question_id": "doc-episcopal-polity-denial",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.6125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The proposition has two clauses. The first, that episkopos and presbyteros name one office, is strongly supported by the morphology. In Acts 20 Paul summons the presbyterous (v.17) and tells those same men the Spirit made them episkopous (v.28, accusative plural masculine, same referents). In Titus 1 he says to appoint presbyterous (v.5, A-PM-) and then with the connective gar describes the episkopon (v.7, A-SM-), grounding the singular generic overseer in the plural elders just named. In 1 Peter 5 a sympresbyteros tells presbyteroi to shepherd, poimanate, exercising oversight, episkopountes, so the cognate verb of episkopos names the elders' own task. The second clause, that no ranked tier of bishops over multiple congregations distinct from elders is established, is a negative the vocabulary cannot prove. The episkopos word stock is sparse, seven tokens, NT only, two of them colophon subscriptions, and the same data are read by some as institutional silence forbidding such a tier and by others as leaving room for the translocal appointing roles of Titus and Timothy. The words do not rank the two readings, so the whole proposition is materially contested."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1985",
+        "lemma": "ἐπίσκοπος",
+        "transliteration": "episkopos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4245",
+        "lemma": "πρεσβύτερος",
+        "transliteration": "presbyteros",
+        "occurrences_in_canon": 66,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1983",
+        "lemma": "ἐπισκοπέω",
+        "transliteration": "episkopeō",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1984",
+        "lemma": "ἐπισκοπή",
+        "transliteration": "episkopē",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4850",
+        "lemma": "συμπρεσβύτερος",
+        "transliteration": "sympresbyteros",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4165",
+        "lemma": "ποιμαίνω",
+        "transliteration": "poimainō",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4168",
+        "lemma": "ποίμνιον",
+        "transliteration": "poimnion",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1163",
+        "lemma": "δεῖ",
+        "transliteration": "dei",
+        "occurrences_in_canon": 107,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1985",
+      "G4245",
+      "G1983",
+      "G1984",
+      "G4850",
+      "G4165",
+      "G4168",
+      "G4166",
+      "G1249",
+      "G1163",
+      "G1063"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.20.17",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "Paul sends from Miletus to Ephesus and summons the presbyterous, the elders, of the church. The text holds the plural elder word, presbyterous in the accusative plural masculine, applied to the leadership of one local assembly. This is the first half of the title pair.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.20.28",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          },
+          {
+            "strong": "G4165",
+            "lemma": "ποιμαίνω"
+          },
+          {
+            "strong": "G4168",
+            "lemma": "ποίμνιον"
+          }
+        ],
+        "force": "Paul tells the same men he had just called elders that the Holy Spirit made them episkopous, overseers, parsed accusative plural masculine, to shepherd, poimainein, the church of God. The identical referents carry both titles inside one continuous address, and the shepherding verb binds the oversight task to the elders.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.5",
+        "key_terms": [
+          {
+            "strong": "G4245",
+            "lemma": "πρεσβύτερος"
+          },
+          {
+            "strong": "G1930",
+            "lemma": "ἐπιδιορθόω"
+          }
+        ],
+        "force": "Paul leaves Titus in Crete to appoint presbyterous, elders, accusative plural masculine, in every city. The plural elder term is the office to be installed congregation by congregation, and the appointing verb katastēsēs places Titus in a setting role over many towns.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.1.7",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          },
+          {
+            "strong": "G1163",
+            "lemma": "δεῖ"
+          }
+        ],
+        "force": "The qualification clause shifts to the singular episkopon, overseer, accusative singular masculine, and the connective gar grounds the requirements in the elders just named in verse 5. The number changes from plural to singular generic, but the gar link treats the overseer as the same person described as elder, the single clearest grammatical datum for the title identity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.1",
+        "key_terms": [
+          {
+            "strong": "G4850",
+            "lemma": "συμπρεσβύτερος"
+          },
+          {
+            "strong": "G1391",
+            "lemma": "δόξα"
+          }
+        ],
+        "force": "Peter exhorts the presbyterous and styles himself a sympresbyteros, a fellow elder, a word that occurs only here in the canon. The apostle places himself alongside elders by the compound syn prefix rather than above them as a separate ruling grade.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.5.2",
+        "key_terms": [
+          {
+            "strong": "G4165",
+            "lemma": "ποιμαίνω"
+          },
+          {
+            "strong": "G1983",
+            "lemma": "ἐπισκοπέω"
+          }
+        ],
+        "force": "The elders are told to shepherd, poimanate, aorist imperative plural, and to exercise oversight, episkopountes, a present participle from the cognate verb of episkopos. The verb of overseeing describes the elders' own work, tying the two word groups to a single function rather than two ranks.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.1.1",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          },
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "The greeting addresses episkopois, overseers, dative plural masculine, with diakonois, deacons, in one city. A plurality of overseers in a single assembly fits a college of elders and names no single monarchical bishop, but the verse is silent about any wider regional structure.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.2.25",
+        "key_terms": [
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          },
+          {
+            "strong": "G4166",
+            "lemma": "ποιμήν"
+          }
+        ],
+        "force": "Christ is called the poimena, shepherd, and episkopon, overseer, of souls. The episkopos word is applied to Christ as a descriptive function of guarding and shepherding, which shows the term denotes a caring task and is not a fixed graded human rank.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.5.1",
+        "to": "1Pet.5.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.20.28",
+        "to": "Acts.20.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.5.2",
+        "to": "Isa.56.11",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Phil.1.1",
+        "addressed": true,
+        "resolution": "The plural episkopois alongside deacons in one city tells against a single ruling bishop in that assembly, but it says nothing about whether any leader held authority over multiple congregations, so it neither establishes nor forbids a higher tier and only supports the equation of the office terms."
+      },
+      {
+        "ref": "Titus.1.5",
+        "addressed": false,
+        "resolution": "Titus is left to appoint elders city by city with the verb katastēsēs, which several readings take as a supra congregational delegate role that the lexical store cannot adjudicate, since the word group does not settle whether such a delegate is a permanent transferable office or a temporary apostolic envoy. The negative second clause of the proposition cannot be confirmed from vocabulary alone."
+      },
+      {
+        "ref": "1Tim.3.2",
+        "addressed": false,
+        "resolution": "The qualification text uses the singular episkopon and the abstract episkopē, the office, but the singular here is generic for whoever holds the office, not proof of one chief bishop, and the surrounding letter has Timothy himself acting as a singular overseer in Ephesus. The words alone cannot decide whether Timothy's singular role is a standing rank above elders or a delegated apostolic assignment, so it neither establishes nor rules out a higher tier."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Acts 20:28 carries a known textual variation between theou and kyriou for the genitive in the church of God phrase, but Acts lies outside the ingested ECM apparatus window, which covers only 3 John 1.1 to 1.15, so no variant unit was examined here. That variation in any case touches the deity and ownership clause, not the elder and overseer identification, so the polity verdict is not variant sensitive."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "congregational_polity",
+      "presbyterian_polity",
+      "episcopal_polity"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "single_office_polity",
+        "verdict": "affirms",
+        "rationale": "Reads the morphology as decisive: presbyterous in Acts 20:17 and episkopous in 20:28 share the same referents, gar in Titus 1:7 grounds the singular episkopos in the plural presbyterous of 1:5, and episkopountes in 1 Peter 5:2 names the elders' own task. On this reading episkopos and presbyteros are one office, and the absence of any third ranked term plus the plurality of overseers in Philippians 1:1 settles that elders stand in parity with no bishop grade above them."
+      },
+      {
+        "framework": "episcopal_polity",
+        "verdict": "denies",
+        "rationale": "Grants the early interchange of the two title words but reads the appointing role of Titus, katastēsēs over every city in Crete, and the singular overseeing role of Timothy in Ephesus, together with the abstract office word episkopē, as a translocal oversight that one office term could later carry distinctly. On this reading the small NT vocabulary records an undeveloped stage, not a prohibition, so the proposition's denial of any bishop tier reaches past what the words establish."
+      }
+    ],
+    "notes": "The lexical equation of the two title words is firm in the morphology. The dispute lives entirely in the second clause, which depends on reading institutional silence and on weighing the singular translocal roles of Titus and Timothy, steps that grammar and lexicon cannot complete on their own. Both lenses are stated in their strongest text-level form; neither is the rubric."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the New Testament uses bishop or overseer and elder or presbyter for the same office, and whether the texts establish, permit, or are silent about a grade of bishops holding authority over multiple congregations distinct from elders.",
+    "notes": "The original stem is framed as a denial, it does not establish a tier of bishops, which presupposes the negative conclusion of the second clause. The verdict is derived on the original stem, but the neutral form is recorded to keep the second clause an open lexical question rather than a foregone one. Verdict UNCHANGED from prior file: disputed. The direct queries confirmed the prior reasoning and added grounding (verified episkopos at seven tokens, two of which are colophon subscriptions, NT only, and the verified plural to singular number shift across Titus 1:5 and 1:7 under the gar connective); none of this forces a flip."
+  },
+  "lay_summary": "The Greek tells a clear story about the two leadership words. In Acts 20 Paul calls for the elders of the Ephesian church, then tells those exact same men that the Holy Spirit made them overseers and that they must shepherd the flock. One group of men carries both titles in a single speech. In Titus 1 Paul says to appoint elders in every town, using the plural form, and then in the next breath gives the qualifications of the overseer in the singular, joining the two with a connecting word that treats them as one and the same person. In 1 Peter 5 the apostle calls himself a fellow elder, places himself beside the elders rather than above them, and tells those elders both to shepherd and to oversee, using the very verb that matches the overseer word. So at the level of vocabulary, elder and overseer name one office, and the texts show a group of such men in each local assembly. That first part of the claim rests on solid ground. The second part is harder to settle from words alone. It says the New Testament sets up no rank of bishops who govern several congregations and stand above the elders. The overseer word is rare, only seven appearances in the whole New Testament and two of those are book endings, and the texts examined never name such a higher rank, while Philippians greets several overseers in one city with no single chief among them. But proving that something was never intended is an argument from silence, and the roles of Titus and Timothy, each sent alone to appoint and correct elders across many towns, are read by some as exactly that kind of wider authority and by others as a temporary errand. The small word stock does not rank those two readings. The first clause is well supported by the word pattern, while the second clause stays genuinely contested, so the proposition as a whole is best marked disputed.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1985"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.1.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.20.28"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.5.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.20.28"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

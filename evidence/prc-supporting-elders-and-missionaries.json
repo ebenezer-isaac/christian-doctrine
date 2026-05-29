@@ -1,0 +1,586 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-supporting-elders-and-missionaries",
+  "question_id": "prc-supporting-elders-and-missionaries",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern converges on the proposition from several independent New Testament loci, each grounded in cited Old Testament law. In 1 Tim 5:17-18 elders who lead well, especially those toiling in word (logos) and teaching (didaskalia), are to be reckoned worthy (axiousthosan, present passive imperative, a standing command) of double honor (diples times). Paul then introduces two Scriptures with legei gar he graphe, citing Deut 25:4 (boun aloonta ou phimoseis) and the wage saying axios ho ergates tou misthou autou. The same warrant is reasserted in 1 Cor 9:9-14 where the same Deut citation grounds the dominical command (dietaxen ho kurios). Phil 4:15-18 shows a concrete church partnership (ekoinonesen, doma, thysian dekten), Gal 6:6 issues a present imperative (koinoneito) binding the taught to share with the teacher in all good things, and 3 John 5-8 frames support of those who went out (exelthon) for the Name as making senders fellow workers (synergoi) with the truth. The convergence of imperatives, the cited law, and the dominical warrant make the practice lexically decisive across the canon."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1362",
+        "lemma": "διπλοῦς",
+        "transliteration": "diplous",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0515",
+        "lemma": "ἀξιόω",
+        "transliteration": "axioo",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0514",
+        "lemma": "ἄξιος",
+        "transliteration": "axios",
+        "occurrences_in_canon": 41,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2040",
+        "lemma": "ἐργάτης",
+        "transliteration": "ergates",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1319",
+        "lemma": "διδασκαλία",
+        "transliteration": "didaskalia",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2841",
+        "lemma": "κοινωνέω",
+        "transliteration": "koinoneo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2727",
+        "lemma": "κατηχέω",
+        "transliteration": "katecheo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1016",
+        "lemma": "βοῦς",
+        "transliteration": "bous",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0248",
+        "lemma": "ἀλοάω",
+        "transliteration": "aloao",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1390",
+        "lemma": "δόμα",
+        "transliteration": "doma",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1184",
+        "lemma": "δεκτός",
+        "transliteration": "dektos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1831",
+        "lemma": "ἐξέρχομαι",
+        "transliteration": "exerchomai",
+        "occurrences_in_canon": 219,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2098",
+        "lemma": "εὐαγγέλιον",
+        "transliteration": "euangelion",
+        "occurrences_in_canon": 75,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0018",
+        "lemma": "ἀγαθός",
+        "transliteration": "agathos",
+        "occurrences_in_canon": 106,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1364",
+        "lemma": "δίς",
+        "transliteration": "dis",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1934",
+        "lemma": "ἐπιζητέω",
+        "transliteration": "epizeteo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1362",
+      "G0515",
+      "G0514",
+      "G2040",
+      "G3056",
+      "G1319",
+      "G2841",
+      "G2727",
+      "G1016",
+      "G0248",
+      "G1390",
+      "G1184",
+      "G1831",
+      "G2098",
+      "G0018",
+      "G1364",
+      "G1934"
+    ],
+    "scripture": [
+      {
+        "ref": "1Tim.5.17",
+        "key_terms": [
+          {
+            "strong": "G1362",
+            "lemma": "διπλοῦς"
+          },
+          {
+            "strong": "G0515",
+            "lemma": "ἀξιόω"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G1319",
+            "lemma": "διδασκαλία"
+          }
+        ],
+        "force": "Elders who lead well, and especially (malista) those toiling in word and teaching, are to be reckoned worthy of double honor. The verb axiousthosan is a present passive imperative, a standing command directed at the church, and the noun phrase diples times pairs the sense of honor with material remuneration, as the next verse makes explicit by adducing a food provision law and a wage saying. The substantive participle hoi kalos proestotes presbyteroi identifies the persons to be so honored.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.5.18",
+        "key_terms": [
+          {
+            "strong": "G0514",
+            "lemma": "ἄξιος"
+          },
+          {
+            "strong": "G2040",
+            "lemma": "ἐργάτης"
+          },
+          {
+            "strong": "G1016",
+            "lemma": "βοῦς"
+          },
+          {
+            "strong": "G0248",
+            "lemma": "ἀλοάω"
+          }
+        ],
+        "force": "Paul grounds the double honor in two cited Scriptures introduced by legei gar he graphe. First Deut 25:4 (boun aloonta ou phimoseis), do not muzzle the threshing ox, and second the saying axios ho ergates tou misthou autou, the laborer is worthy of his wages. The pairing of a food provision and a wage saying ties elder honor directly to material support. The verb aloao occurs only three times in the New Testament (1 Tim 5:18, 1 Cor 9:9, 1 Cor 9:10), and every occurrence applies this Deut text to the same gospel-labor warrant, so the lexical chain is exceptionally tight.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.9.9",
+        "key_terms": [
+          {
+            "strong": "G1016",
+            "lemma": "βοῦς"
+          },
+          {
+            "strong": "G0248",
+            "lemma": "ἀλοάω"
+          }
+        ],
+        "force": "Paul cites the same Deut 25:4 muzzling law (ou phimoseis boun aloonta) and applies it explicitly to the right of gospel workers to material support. The rhetorical question me ton boon melei to theo (does God care for oxen) shows Paul reading the law's underlying principle as a fortiori applicable to the human worker.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.9.14",
+        "key_terms": [
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "The Lord commanded that those proclaiming the gospel should live from the gospel (ek tou euangeliou zen). The verb dietaxen is an aorist indicative of authoritative ordering, making material support of gospel labor an explicit dominical instruction rather than mere custom. The infinitive zen indicates ongoing sustenance, not a one-off honorarium.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.15",
+        "key_terms": [
+          {
+            "strong": "G2841",
+            "lemma": "κοινωνέω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "No church partnered with Paul in the matter of giving and receiving (eis logon doseos kai lempseos) except the Philippians, who sent aid to him when he went out from Macedonia. The aorist ekoinonesen records a congregation, an ekklesia, materially supporting an apostolic worker sent out for the gospel, and the bookkeeping phrase eis logon shows the partnership had concrete financial form.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.16",
+        "key_terms": [
+          {
+            "strong": "G1364",
+            "lemma": "δίς"
+          }
+        ],
+        "force": "Even in Thessalonica, more than once (kai hapax kai dis), the Philippians sent for Paul's need (eis ten chreian moi epempsate). The repetition language documents sustained, not one-off, support for a sent missionary worker.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.17",
+        "key_terms": [
+          {
+            "strong": "G1934",
+            "lemma": "ἐπιζητέω"
+          },
+          {
+            "strong": "G1390",
+            "lemma": "δόμα"
+          }
+        ],
+        "force": "Paul says he does not seek (ouch hoti epizeto) the gift itself (to doma) but the fruit that mounts up to the givers' account (ton karpon ton pleonazonta eis logon humon). The bookkeeping idiom eis logon repeats from v.15 and frames giving to a worker as a credit entered to the giver's spiritual account, reinforcing rather than discounting the support relation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.4.18",
+        "key_terms": [
+          {
+            "strong": "G1390",
+            "lemma": "δόμα"
+          },
+          {
+            "strong": "G1184",
+            "lemma": "δεκτός"
+          }
+        ],
+        "force": "Paul names the gift received through Epaphroditus a fragrant offering, an acceptable sacrifice well-pleasing to God (osmen euodias, thysian dekten, euareston to theo). The cultic language treats material support of the gospel worker as a worship offering rendered upward to God, framing it as a duty owed and an act of worship, not optional charity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.6.6",
+        "key_terms": [
+          {
+            "strong": "G2841",
+            "lemma": "κοινωνέω"
+          },
+          {
+            "strong": "G2727",
+            "lemma": "κατηχέω"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          }
+        ],
+        "force": "Let the one being taught the word share with the one teaching in all good things (koinoneito de ho katechoumenos ton logon to katechounti en pasin agathois). The present imperative koinoneito makes ongoing material sharing with the teacher of the word a standing obligation on the taught. The phrase en pasin agathois denotes material goods, parallel to Rom 15:27's tois sarkikois (fleshly things).",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "3John.1.6",
+        "key_terms": [
+          {
+            "strong": "G1831",
+            "lemma": "ἐξέρχομαι"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "Gaius is commended for faithfully helping the brothers and strangers, and the instruction is to send them on their way worthily of God (axios tou theou). The aorist participle exelthon identifies them as those who went out for the sake of the Name (huper tou onomatos), and v.8 makes the verdict explicit: we ought (hemeis oun opheilomen) to support such men so as to become synergoi tei aletheiai, fellow workers with the truth. The deontic opheilomen carries the duty.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Deut.25.4",
+        "key_terms": [
+          {
+            "strong": "G1016",
+            "lemma": "βοῦς"
+          },
+          {
+            "strong": "G0248",
+            "lemma": "ἀλοάω"
+          }
+        ],
+        "force": "Do not muzzle the ox while it treads out the grain. Paul cites this law twice (1 Cor 9:9 and 1 Tim 5:18) as the Scriptural foundation for paying gospel laborers, so the principle of provision for the worker is anchored in the law and explicitly carried forward into the New Testament command. The same Greek phrase boun aloonta ou phimoseis recurs verbatim across both citations.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Tim.5.18",
+        "to": "Deut.25.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.18",
+        "to": "Lev.19.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.18",
+        "to": "Luke.10.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.6.6",
+        "to": "Deut.12.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.4.17",
+        "to": "Prov.19.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.4.17",
+        "to": "Phil.1.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.5.17",
+        "to": "1Cor.9.14",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "3John.1.8",
+        "to": "Rom.16.2",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.9.15",
+        "addressed": true,
+        "resolution": "Paul says he has used none of these rights (ouk echresamen oudeni touton) and would rather die than be deprived of his ground for boasting. This does not negate 1 Cor 9:14 or 1 Tim 5:17-18. The grammar distinguishes Paul forgoing a personal right in the first person from abolishing the general obligation. He affirms the right exists, calls it commanded, then declines it for himself, which presupposes rather than denies the duty."
+      },
+      {
+        "ref": "Acts.20.34",
+        "addressed": true,
+        "resolution": "Paul reminds the Ephesian elders that his own hands supplied his needs (tais chreiais mou kai tois ousi met emou hupereteasan hai cheires hautai). As with 1 Cor 9, this is a voluntary waiver of a recognized right, framed as an example of laboring to help the weak (v.35), not as a prohibition. It does not contradict the standing imperatives axiousthosan in 1 Tim 5:17 and koinoneito in Gal 6:6 addressed to the church regarding its workers."
+      },
+      {
+        "ref": "2Thess.3.8",
+        "addressed": true,
+        "resolution": "Paul worked night and day so as not to burden the Thessalonians, calling it an example against idleness. The very next verse explicitly states that he had the exousia (right) to support but waived it to model diligence (ouch hoti ouk echomen exousian, all' hina heautous tupon domen humin). The acknowledged exousia confirms rather than undermines the proposition that the church owes support to its workers."
+      },
+      {
+        "ref": "Matt.10.8",
+        "addressed": true,
+        "resolution": "Jesus' instruction freely you received, freely give (dorean elabete, dorean dote) prohibits charging for the kingdom message itself, not receiving support from those served. The very next breath, Matt 10:10, calls the worker worthy of his food (axios gar ho ergates tes trophes autou), the same axios ho ergates axiom Paul cites in 1 Tim 5:18, so the pericope itself harmonizes the no-charge instruction with the right to provision."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle for 1 Tim 5:17-18, 1 Cor 9:9-14, Phil 4:14-18, Gal 6:6, or 3 John 5-8. The double-honor clause and its two grounding citations are textually stable across the major witnesses, and the verdict does not turn on any contested reading. ECM CBGM data was not examined for 3 John in this run, so the status is recorded as shadow rather than published."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the Deut 25:4 muzzling law as a continuing creational and moral principle that Paul applies directly to gospel workers in both 1 Cor 9:9 and 1 Tim 5:18, so material support of teaching elders is a standing covenant obligation carried from law into the church under the same warrant."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Even granting a sharp law and grace distinction, the support obligation rests on explicit New Testament church-age imperatives (axiousthosan in 1 Tim 5:17, koinoneito in Gal 6:6) and the dominical command of 1 Cor 9:14 (dietaxen ho kurios), so the verdict holds independently of how the Deut citation is treated."
+      },
+      {
+        "framework": "new_covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads Paul's use of Deut 25:4 as drawing out an enduring principle of just compensation that the New Covenant intensifies and applies to gospel labor. The verdict holds on the basis of the apostolic re-issuing in the New Testament imperatives without requiring the Sinai code to remain directly binding."
+      }
+    ],
+    "notes": "Both the citation of Deut 25:4 within 1 Tim 5:18 (and again in 1 Cor 9:9) and the dominical warrant of 1 Cor 9:14 illustrate progressive revelation, where an Old Testament provision principle is reaffirmed and intensified for gospel labor. The verdict is reached by analogia scripturae across law and epistle, and the three lenses examined converge on the same answer because the New Testament imperatives are independent of any particular theory of law-gospel continuity."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem phrase the church is to support carries deontic force, but that force is supplied directly by the lexical data, namely the present passive imperative axiousthosan in 1 Tim 5:17, the present imperative koinoneito in Gal 6:6, the aorist of command dietaxen in 1 Cor 9:14, and the duty word opheilomen in 3 John 8. The stem is not tradition-specific or question-begging beyond what the source imperatives state, so it is not treated as preloaded."
+  },
+  "lay_summary": "Several New Testament passages line up to teach that a church should provide materially for the people who teach it and for the workers it sends out. In First Timothy elders who lead well, and especially those who labor in the word and in teaching, are to be counted worthy of double honor. The verb here is a standing command, and the word for honor carries the sense of a payment or honorarium. Paul then proves the point by quoting two Scriptures back to back, the law against muzzling an ox while it treads out grain from Deuteronomy and the saying that the laborer is worthy of his wages. Putting a food law and a wage saying side by side ties the honor owed to elders directly to real material support. The same logic appears elsewhere. In First Corinthians chapter nine Paul cites the very same muzzling law to defend the gospel worker's right to provision, and a few verses later he says the Lord himself commanded that those who preach the gospel should live from the gospel. In Galatians the one being taught is commanded to share with the teacher in all good things, and the imperative is present tense, meaning ongoing. In Philippians a congregation partnered with Paul in giving and receiving over a sustained period, sending help more than once, and the gift it sent is called a fragrant offering and an acceptable sacrifice pleasing to God, which lifts the support to the level of worship. In Third John believers are urged to send out missionaries worthily of God and to support those who went out for the Name, so that the supporters become fellow workers with the truth, with the duty made explicit by the word we ought. The reason the picture is so clear at the word level is that the same key terms keep recurring across independent letters and the same Old Testament law gets cited twice as the ground. A few passages where Paul worked with his own hands and refused pay do not overturn this. In each case the same paragraph explicitly says he had the right and waived it for his own reasons, which assumes the duty rather than cancels it.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.5.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.9.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.6.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.4.18"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1362"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0514"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2841"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0248"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.5.18"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Gal.6.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

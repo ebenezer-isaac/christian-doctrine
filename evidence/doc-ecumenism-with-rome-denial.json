@@ -1,0 +1,530 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-ecumenism-with-rome-denial",
+  "question_id": "doc-ecumenism-with-rome-denial",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7875,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The anchor texts yield two real, variant-stable lexical principles. Galatians 1:8-9 attaches anathema (devoted-over, accursed) to anyone preaching a gospel para (alongside, beyond, contrary to) the one received, and 2 Corinthians 6:14 forbids becoming heterozugountes (mismatched-yoked) with apistoi (the faithless). Both hold in the Greek. But the stem moves from these principles to a specific institutional and doctrinal application (a named body, the Mass as sacrifice, papal infallibility, Marian dogmas) that the lexicon cannot reach. No anchor lemma names a post-apostolic institution; dikaioo (G1344, to justify), the verb behind the disputed doctrine of justification, occurs 34 times but in none of the anchor verses, so the link to that doctrine is interpretive, not lexical. Crucially the same author uses apistos in 1 Corinthians 7:12-15 of a spouse a believer must NOT divorce and in 1 Corinthians 10:27 of a host whose meal may be eaten, so apistos does not by itself mandate severing every association. Whether a Trinitarian, Christ-confessing body falls under heteron euangelion or counts as apistos is an identification judgment the words underdetermine, so the verdict is disputed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0331",
+        "lemma": "ἀνάθεμα",
+        "transliteration": "anathema",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2098",
+        "lemma": "εὐαγγέλιον",
+        "transliteration": "euangelion",
+        "occurrences_in_canon": 77,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2097",
+        "lemma": "εὐαγγελίζω",
+        "transliteration": "euangelizo",
+        "occurrences_in_canon": 55,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2087",
+        "lemma": "ἕτερος",
+        "transliteration": "heteros",
+        "occurrences_in_canon": 90,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3844",
+        "lemma": "παρά",
+        "transliteration": "para",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2086",
+        "lemma": "ἑτεροζυγέω",
+        "transliteration": "heterozugeo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0571",
+        "lemma": "ἄπιστος",
+        "transliteration": "apistos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3352",
+        "lemma": "μετοχή",
+        "transliteration": "metoche",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinonia",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3485",
+        "lemma": "ναός",
+        "transliteration": "naos",
+        "occurrences_in_canon": 46,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0873",
+        "lemma": "ἀφορίζω",
+        "transliteration": "aphorizo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0169",
+        "lemma": "ἀκάθαρτος",
+        "transliteration": "akathartos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1343",
+        "lemma": "δικαιοσύνη",
+        "transliteration": "dikaiosyne",
+        "occurrences_in_canon": 94,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioo",
+        "occurrences_in_canon": 39,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0458",
+        "lemma": "ἀνομία",
+        "transliteration": "anomia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0955",
+        "lemma": "Βελιάρ",
+        "transliteration": "Beliar",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0331",
+      "G2098",
+      "G2097",
+      "G2087",
+      "G0243",
+      "G3844",
+      "G2086",
+      "G0571",
+      "G3352",
+      "G2842",
+      "G3485",
+      "G0873",
+      "G0169",
+      "G1343",
+      "G1344",
+      "G0458",
+      "G0955"
+    ],
+    "scripture": [
+      {
+        "ref": "Gal.1.6",
+        "key_terms": [
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          },
+          {
+            "strong": "G2087",
+            "lemma": "ἕτερος"
+          }
+        ],
+        "force": "Paul marvels that the Galatians are turning to heteron euangelion, a different-in-kind gospel. The word here is heteros (G2087, other of a different sort), not allos. This frames the rival message as a counterfeit of another category, but it names no organization and supplies no list of doctrines.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.7",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G2098",
+            "lemma": "εὐαγγέλιον"
+          }
+        ],
+        "force": "Paul immediately corrects himself with ho ouk estin allo, which is not another, using allos (G0243, another of the same kind). The deliberate heteros then allos pairing says the rival is a different-kind message that is not in fact a second genuine gospel, only some who are troubling (tarassontes) the hearers. The lexical move sharpens a content boundary but still identifies no body.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.8",
+        "key_terms": [
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          },
+          {
+            "strong": "G2097",
+            "lemma": "εὐαγγελίζω"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          }
+        ],
+        "force": "Even if we or an angel from heaven euangelizetai par ho euengelisametha, anathema esto. The preposition para (G3844) is broadly polysemous across its 175 plus occurrences (from, beside, more than), and only context fixes the contrary, beyond sense here. Anathema (G0331) marks a devoting-over. The curse is unconditional as to the messenger (even an angel), so the test is the content of the message, not the rank or identity of the one preaching.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.9",
+        "key_terms": [
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          },
+          {
+            "strong": "G2097",
+            "lemma": "εὐαγγελίζω"
+          }
+        ],
+        "force": "The repetition with the present indicative euangelizetai, of an ongoing message, rather than the prior subjunctive, intensifies the anathema. Across the canon anathema occurs only six times and is not univocal: a self-imprecation (Rom 9:3), a curse on one who does not love the Lord (1 Cor 16:22), a thing that cannot say Jesus is accursed (1 Cor 12:3), an oath-bound vow (Acts 23:14), and here. The word states a verdict on a contrary gospel but supplies no institutional referent.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.14",
+        "key_terms": [
+          {
+            "strong": "G2086",
+            "lemma": "ἑτεροζυγέω"
+          },
+          {
+            "strong": "G0571",
+            "lemma": "ἄπιστος"
+          },
+          {
+            "strong": "G1343",
+            "lemma": "δικαιοσύνη"
+          },
+          {
+            "strong": "G0458",
+            "lemma": "ἀνομία"
+          }
+        ],
+        "force": "Me ginesthe heterozugountes apistois forbids becoming mismatched-yoked with the faithless. Heterozugeo (G2086) is a hapax, occurring only here, so its precise scope cannot be triangulated from other usage; the gloss is to yoke a mismatch, drawn from the law against yoking unlike animals. The verse piles contrasts: dikaiosyne against anomia, light against darkness. The category is apistos, one without faith, defined by absence of faith, not a label for a confessing body; applying it to a community that openly professes Christ requires an extra-lexical judgment that the body is in fact apistos.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.15",
+        "key_terms": [
+          {
+            "strong": "G0955",
+            "lemma": "Βελιάρ"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G0571",
+            "lemma": "ἄπιστος"
+          }
+        ],
+        "force": "Tis sumphonesis Christou pros Beliar asks what concord Christ has with Beliar. Beliar (G0955) is a hapax, the single canonical occurrence, glossed Belial, a name for utter worthlessness or the evil one. The pairing pisto meta apistou sets believer against the faithless. The contrast is absolute at the level of allegiance to Christ versus Belial, but a name for the evil one supplies no criterion for sorting a Christ-confessing institution onto the Belial side.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.16",
+        "key_terms": [
+          {
+            "strong": "G3485",
+            "lemma": "ναός"
+          }
+        ],
+        "force": "Tis de sunkatathesis nao theou meta eidolon asks what agreement the temple (naos, G3485) of God has with idols, then cites Lev 26:12 and Ezek 37:27 that God will dwell among his people. The contrast is temple of God versus idols, an idolatry boundary. The lexical term is eidola, idols, a category of false worship, again leaving open which present-day worship counts as idolatrous, a determination the word does not make.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.17",
+        "key_terms": [
+          {
+            "strong": "G0873",
+            "lemma": "ἀφορίζω"
+          },
+          {
+            "strong": "G0169",
+            "lemma": "ἀκάθαρτος"
+          }
+        ],
+        "force": "Quoting Isaiah 52:11, exelthate ek mesou auton kai aphoristhete and akathartou me haptesthe command coming out and being separated, touching no unclean thing. Aphorizo (G0873) is a strong boundary verb, but it is not only exclusionary: it is also used positively of being set apart for ministry (Acts 13:2, Rom 1:1, Gal 1:15). Akathartos (G0169) in the canon ranges over unclean spirits, ceremonial uncleanness, and idolatry. In Isaiah 52:11 the unclean thing was the vessels and worship of idolatrous Babylon, so transferring the command to any present body is an application step, not a lexical given.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Cor.6.14",
+        "to": "Exod.34.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.14",
+        "to": "1Cor.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.16",
+        "to": "Exod.20.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.16",
+        "to": "Exod.29.45",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.15",
+        "to": "Ezra.4.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.17",
+        "to": "Isa.52.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.6.17",
+        "to": "2Cor.7.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.8",
+        "to": "Rom.9.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.1.9",
+        "to": "Deut.4.2",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.7.12",
+        "addressed": true,
+        "resolution": "The same author who forbids the unequal yoke with apistoi here tells a believer with an apistos spouse not to divorce, ei tis adelphos gunaika echei apiston. This shows apistos, the very category in 2 Corinthians 6:14, does not by itself require severing every bond, since the closest possible bond, marriage, is to be kept where the apistos consents. It is addressed by reading the 2 Corinthians 6 yoke as a specific binding alliance under one yoke, not a ban on every relationship, which means deciding what union counts as the forbidden yoke is an interpretive judgment."
+      },
+      {
+        "ref": "1Cor.10.27",
+        "addressed": true,
+        "resolution": "Paul permits a believer to accept a meal invitation from an apistos, ei tis kalei humas ton apiston. Table fellowship with the faithless is allowed. This calibrates the separation language and shows it does not bar all contact or cooperation, which complicates a flat reading of the come out command. Addressed by noting the prohibited thing is the binding yoke, not ordinary association, so applying separation to a named body requires the prior identification step the words do not supply."
+      },
+      {
+        "ref": "1Cor.5.9",
+        "addressed": true,
+        "resolution": "Paul clarifies that his earlier command not to associate did not mean the apistoi of this world, ou pantos tois pistois tou kosmou toutou, since then one would have to leave the world. Separation language in his letters is explicitly calibrated and not absolute. This is addressed by limiting the 2 Corinthians 6 prohibition to alliance under a yoke rather than every form of contact, but its existence is part of why the institutional verdict cannot be settled lexically."
+      },
+      {
+        "ref": "John.17.21",
+        "addressed": true,
+        "resolution": "Jesus prays hina pantes hen osin, that they all may be one. The lexical thrust is toward unity and pulls against a blanket barring of union. The tension resolves at the level of object, the unity prayed for being among those given to Christ and kept in the Father's name, not unity that suspends the gospel boundary of Galatians 1. The two texts are not contradictory because each governs a different set, but the strong unity vocabulary is part of why a flat institutional verdict is not lexically forced."
+      },
+      {
+        "ref": "Mark.9.38",
+        "addressed": true,
+        "resolution": "The disciples forbade a man casting out demons en to onomati sou because he was not following with them, and Jesus answered me koluete, do not forbid him, for whoever is not against us is for us. This restrains drawing boundaries too tightly around those who invoke Christ, which bears directly on moving from the apistos category to a verdict on a confessing body. Addressed by noting it touches the identification step, the very step the lexicon cannot complete."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle for Galatians 1 or 2 Corinthians 6, and both passages lie outside the ingested ECM window (3 John 1:1-1:15), so this is recorded honestly as not in ECM scope. The minor attested variation at Gal 1:8 (word order of euengelisametha humin) and the Beliar versus Belial spelling at 2 Cor 6:15 do not touch the anathema clause, the para construction, or the heterozugountes prohibition, so the two lexical principles are variant-stable. NT outside 3 John, hence ecm-shadow."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "ecclesiology",
+      "covenant_separation",
+      "gospel_boundary"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "different-gospel and separation reading",
+        "verdict": "for the principle, and applicable where the prior evaluation holds",
+        "rationale": "Galatians 1:8-9 makes a contrary gospel anathema and 2 Corinthians 6:14 forbids the mismatched yoke with the faithless. On this lens, once a body's gospel of justification and its added requirements are judged to be heteron euangelion, formal union that ratifies that gospel is barred, and the come out command applies. The lens is lexically real at the level of principle; its application to a particular body depends on the prior evaluation of that body's gospel, which it supplies from outside the words."
+      },
+      {
+        "framework": "anathema and yoke target outright unbelief, not a Trinitarian communion",
+        "verdict": "complicates, application not compelled by the words",
+        "rationale": "On this lens the texts aim at those who deny the apostolic gospel outright or are apistoi, the faithless, and Belial stands for the evil one. A communion that confesses the Trinity and the deity of Christ is not self-evidently in that category. Same-author usage shows apistos covers a spouse one keeps (1 Cor 7:12-15) and a host one may dine with (1 Cor 10:27), so the words do not force a verdict of severance against every body labeled by others as in error. Reading them onto a confessing communion is an interpretive transfer the vocabulary does not compel."
+      },
+      {
+        "framework": "identification step",
+        "verdict": "out of lexical reach",
+        "rationale": "Both readings agree the texts state principles. Deciding whether a specific contemporary body preaches heteron euangelion or counts as apistos turns on an evaluation of doctrines (the manner of justification, the eucharist, the locus of teaching authority, figures venerated in worship) for which the canon supplies no lemma. dikaioo, the verb of justification, never occurs in the anchor verses. This is why the overall verdict is disputed: the principle is lexically supported, the institutional application is not lexically decidable, and the chain hangs on a contested prior judgment the lexicon does not adjudicate."
+      }
+    ],
+    "notes": "Analogia scripturae is engaged because the unity texts and the calibrated separation texts must be read alongside the strong separation and curse texts. The result is a clear principle with an unresolved application that the lexical store cannot close. The decisive crux is that whether the different-gospel and unequal-yoke texts apply to a Trinitarian, Christ-confessing body depends on a prior evaluation of that body's gospel which the vocabulary does not settle."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Is formal institutional union between churches barred when the parties hold substantively different teaching on how a person is counted righteous, on the nature of the eucharist, on the locus of final teaching authority, and on the status of figures venerated in worship, until those differences are resolved?",
+    "notes": "The stem is heavily preloaded in three ways. First, it names a single target body by the metonym Rome and presupposes that its positions amount to a different gospel, which is precisely the identification step the lexicon cannot perform; Galatians 1 states a content test, not a roster. Second, it lists specific doctrines (the Mass as sacrifice, papal infallibility, Marian dogmas) that have no anchor lemma anywhere in the canon, and dikaioo, the verb behind the disputed doctrine of justification, occurs 34 to 39 times in the canon but in none of the anchor verses, so the lexical store can neither affirm nor deny that those particular doctrines trigger the Galatians 1 anathema. Third, it frames the barring as settled (not a matter of mere structural convergence), embedding the conclusion in the question. The neutralized form keeps the structural question (does substantive doctrinal disagreement bar formal union) while removing the named target and the preloaded doctrinal list. The verdict was derived on the original stem and lands at disputed precisely because the principle is lexically supported but the institutional application is not lexically decidable, and the application to a Trinitarian, Christ-confessing communion rests on a prior contested evaluation the words do not compel."
+  },
+  "lay_summary": "Two anchor passages drive this question. In Galatians 1:8-9 Paul says that if anyone, even an angel from heaven, preaches a gospel alongside or beyond the one already received, let him be accursed. The Greek word, anathema, means devoted over to ruin, and the preposition para can mean from, beside, or contrary, so only the surrounding words fix the contrary sense here. Notice that in verse 6 Paul calls the rival a different kind gospel and in verse 7 says it is not really another gospel at all, only some who trouble the hearers. In 2 Corinthians 6:14 he commands believers not to be mismatched-yoked with the faithless, using a farming image of two animals wrongly paired under one yoke, then piles up contrasts of righteousness against lawlessness and light against darkness. Read on their own terms these passages set two firm principles. A gospel that differs in substance is rejected, and believers must not bind themselves in alliance with those who lack faith. So far the pattern is clear and stable across the manuscripts. The hard step is the next one. The question names a specific body and a specific list of disputed teachings about how a person is counted righteous, about the meaning of the Lord's Supper, about who holds final teaching authority, and about figures venerated in worship. None of those exact teachings appears as a word anywhere in the canon, the verb to justify never appears in these verses, and no verse names any later institution. The very word for unbeliever is used by the same writer for a spouse a believer must not divorce and for a host whose meal may be eaten, so it does not by itself demand cutting off every tie. Other texts pull the other way too: Jesus prays that his people may be one, Paul says his separation command never meant leaving the world, and Jesus says do not forbid one casting out demons in his name. The words clearly state the principle, but whether they reach a body that confesses the Trinity and the deity of Christ depends on a prior judgment about that body's gospel that the original language simply does not settle, so the verdict is recorded as disputed with low confidence.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.6"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.6.14"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0331"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0571"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2086"
+    },
+    {
+      "type": "interlinear",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.6.17"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.6.14"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "cross-tradition-divergent",
+    "ecm-shadow"
+  ]
+}

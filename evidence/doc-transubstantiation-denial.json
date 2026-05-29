@@ -1,0 +1,775 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-transubstantiation-denial",
+  "question_id": "doc-transubstantiation-denial",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.95,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The proposition bundles two claims that the queried lexical data treat unequally. The claim that Christ's sacrifice is single and unrepeatable is strongly supported: Hebrews stacks ephapax (G2178, Heb 7:27 and 9:12), mian thysian and mia prosphora (G1520 with G2378 and G4376), eis to dienekes (G1336), the perfect teteleioken (G5048, V-RAI-3S, Heb 10:14) and the aorist ekathisen (Heb 10:12) to assert one finished offering, while Acts 1:9-11 fixes the same bodily Jesus (houtos ho Iesous) in heaven until his return. But the narrower claim that estin in touto estin to soma mou (Matt 26:26, Mark 14:22, Luke 22:19, 1 Cor 11:24) is figurative rather than a substance change cannot be settled from the copula. The verb is G1510 in the bare V-PAI-3S form, and the canon uses that very form both for identity and for representation (Matt 13:38, Luke 8:11, John 15:1, and the imperfect en at 1 Cor 10:4), with 1 Cor 11:25 calling the cup the new covenant in the same pericope. The category transubstantiation names a substance-change metaphysic the vocabulary does not supply, so the words neither establish it nor strictly exclude a real presence. The predication is materially contested, so the bundled proposition is disputed even though its sacrifice-finality component is well grounded."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3778",
+        "lemma": "οὗτος",
+        "transliteration": "houtos",
+        "occurrences_in_canon": 1512,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "sōma",
+        "occurrences_in_canon": 142,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 147,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0129",
+        "lemma": "αἷμα",
+        "transliteration": "haima",
+        "occurrences_in_canon": 97,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5176",
+        "lemma": "τρώγω",
+        "transliteration": "trōgō",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2068",
+        "lemma": "ἐσθίω",
+        "transliteration": "esthiō",
+        "occurrences_in_canon": 158,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2842",
+        "lemma": "κοινωνία",
+        "transliteration": "koinōnia",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2178",
+        "lemma": "ἐφάπαξ",
+        "transliteration": "ephapax",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1336",
+        "lemma": "διηνεκής",
+        "transliteration": "diēnekēs",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2378",
+        "lemma": "θυσία",
+        "transliteration": "thysia",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4374",
+        "lemma": "προσφέρω",
+        "transliteration": "prospherō",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5048",
+        "lemma": "τελειόω",
+        "transliteration": "teleioō",
+        "occurrences_in_canon": 24,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 367,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1081",
+        "lemma": "γένημα",
+        "transliteration": "genēma",
+        "occurrences_in_canon": 5,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0364",
+        "lemma": "ἀνάμνησις",
+        "transliteration": "anamnēsis",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3772",
+        "lemma": "οὐρανός",
+        "transliteration": "ouranos",
+        "occurrences_in_canon": 286,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0353",
+        "lemma": "ἀναλαμβάνω",
+        "transliteration": "analambanō",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1510",
+      "G3778",
+      "G4983",
+      "G4561",
+      "G0129",
+      "G5176",
+      "G2068",
+      "G5315",
+      "G2842",
+      "G2178",
+      "G1336",
+      "G2378",
+      "G4374",
+      "G5048",
+      "G1520",
+      "G1081",
+      "G0288",
+      "G0364",
+      "G3772",
+      "G0353",
+      "G4151",
+      "G4073",
+      "G4703"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.26.26",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "At institution Jesus says touto estin to soma mou. The morphology in the store tags estin as G1510 in the form V-PAI-3S, the ordinary present copula, with the subject touto tagged G3778 D-NSN (neuter) agreeing with the neuter predicate to soma (G4983 N-NSN) rather than with the masculine arton (G0740) just handled. The copula links subject and predicate but does not itself encode whether the predication is identity (this item is in substance my body) or representation (this stands for or conveys my body). Both senses are abundant for this exact verb form across the canon, so the surface grammar of estin is genuinely two valued and cannot by itself decide literal versus figurative predication, nor supply the substance-change category that the word transubstantiation names.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.14.22",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "Mark records the same words, labon arton ... touto estin to soma mou, with the identical copula estin (G1510, V-PAI-3S). The parallel across the Synoptics and Paul shows the predication is a fixed formula, but the repetition does not change the lexical openness of the copula. The same verb form carries identity in some contexts and representation in others, so the formula itself does not disambiguate.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.22.19",
+        "key_terms": [
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          },
+          {
+            "strong": "G0364",
+            "lemma": "ἀνάμνησις"
+          }
+        ],
+        "force": "Luke pairs touto estin to soma mou with the command touto poieite eis ten emen anamnesin, do this in remembrance of me. The noun anamnesis (G0364), remembrance or memorial, occurs only here and at 1 Cor 11:24-25 in the supper sayings (4 occurrences total). The memorial frame is lexically present in the institution itself, which is compatible with a representational reading of estin, though it does not by itself exclude a real presence.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.25",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "In the same supper account Paul writes touto to poterion he kaine diatheke estin en to emo aimati, this cup is the new covenant in my blood, where estin is again G1510 V-PAI-3S. A cup cannot be a covenant by literal identity, so here the very same copula form must be representational or metonymic. This is the clearest internal demonstration that the institution estin is two valued and is not, on its own, a claim of substantial change.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.26.29",
+        "key_terms": [
+          {
+            "strong": "G0288",
+            "lemma": "ἄμπελος"
+          }
+        ],
+        "force": "Immediately after the cup, Jesus calls it ek toutou tou genematos tes ampelou, of this fruit of the vine, with ampelou tagged G0288 in the store. After the words of institution the contents of the cup are still named by the ordinary term for the produce of the vine, which weighs against reading the institution words as asserting a completed change of substance, though it does not settle the presence question.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.26",
+        "key_terms": [
+          {
+            "strong": "G2068",
+            "lemma": "ἐσθίω"
+          }
+        ],
+        "force": "Paul writes hosakis gar ean esthiete ton arton touton, as often as you eat this bread, with arton (G0740) and the verb esthio (G2068). After the consecration narrative the element is still called ton arton touton, this bread, and verses 27-28 keep calling it arton. The continued lexical use of bread for the consecrated element weighs against a completed substance change but does not by itself rule out a real presence under the form of bread.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.54",
+        "key_terms": [
+          {
+            "strong": "G5176",
+            "lemma": "τρώγω"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G0129",
+            "lemma": "αἷμα"
+          }
+        ],
+        "force": "Jesus says ho trogon mou ten sarka kai pinon mou to haima echei zoen aionion. The verb trogo (G5176) is tagged here V-PAP-NSM, present participle, and is more graphically physical than esthio. It occurs only 6 times in the NT, 4 of them in this discourse (vv. 54, 56, 57, 58), so its sense cannot be triangulated from a wide spread. Its other two occurrences are ordinary table eating (Matt 24:38, eating before the flood) and the betrayer eating bread in a Psalm citation (John 13:18), so trogo is not lexically restricted to literal cultic ingestion. Whether the intensified language demands corporeal eating or is heightened figure for believing appropriation is not decidable from morphology alone.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.63",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "Within the same flesh-and-blood discourse Jesus says to pneuma estin to zoopoioun, he sarx ouk ophelei ouden, ta remata ha ego lelaleka humin pneuma estin kai zoe estin. The predicate estin (G1510, V-PAI-3S) is applied to remata, words, and he sarx ouk ophelei ouden, the flesh profits nothing, steers the eating language toward a spiritual mode of appropriation rather than literal carnal consumption. This pulls against the realist trogo reading, and the discourse does not lexically rank the two.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.10.16",
+        "key_terms": [
+          {
+            "strong": "G2842",
+            "lemma": "κοινωνία"
+          },
+          {
+            "strong": "G0129",
+            "lemma": "αἷμα"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "Paul calls the cup koinonia tou aimatos tou Christou and the bread koinonia tou somatos, with koinonia (G2842, 15 NT occurrences) tagged here and the predicate estin (G1510) governing both. Koinonia denotes participation or sharing, a relational category, not a substance-change verb. Lexically this supports a real participatory communion in the body and blood without requiring that the elements cease in substance to be bread and wine, but it also does not by itself exclude a substantial reading, so it tempers rather than settles the predication question.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.7.27",
+        "key_terms": [
+          {
+            "strong": "G2178",
+            "lemma": "ἐφάπαξ"
+          },
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "The high priest no longer has daily necessity (kath hemeran anagken) to offer sacrifices, because Christ did this ephapax (G2178, tagged ADV, once for all), heauton anenegkas, having offered himself (G0399, aorist). The adverb ephapax contrasts the single self-offering with the repeated Levitical thysiai (G2378). This resists any reading in which the same sacrifice is re-presented or re-effected repeatedly.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.9.12",
+        "key_terms": [
+          {
+            "strong": "G2178",
+            "lemma": "ἐφάπαξ"
+          },
+          {
+            "strong": "G0129",
+            "lemma": "αἷμα"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          }
+        ],
+        "force": "Christ entered the holy place ephapax (G2178) through his own blood (dia tou idiou aimatos, G0129), having obtained aionian lytrosin, eternal redemption. The ephapax plus the aorist eiselthen plus the result noun lytrosin marks a completed, non-repeated entry that secured a standing result, not an ongoing ritual repetition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.12",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2378",
+            "lemma": "θυσία"
+          },
+          {
+            "strong": "G1336",
+            "lemma": "διηνεκής"
+          }
+        ],
+        "force": "This one (houtos, G3778), having offered (prosenegkas, G4374, aorist participle) one sacrifice for sins eis to dienekes (mian ... thysian, G1520 with G2378, G1336), sat down (ekathisen, G2523, aorist). The numeral mian plus eis to dienekes plus the aorist of sitting marks the offering as singular and finished, with the seated posture signaling completion rather than continuing priestly action.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.10.14",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G4374",
+            "lemma": "προσφέρω"
+          },
+          {
+            "strong": "G5048",
+            "lemma": "τελειόω"
+          }
+        ],
+        "force": "By one offering (mia prosphora, G1520 with G4376) he has perfected eis to dienekes (G1336) those being sanctified, where teteleioken is tagged G5048 V-RAI-3S, perfect active indicative, he has perfected. The single instrumental mia prosphora plus the perfect teteleioken asserts a completed, enduring perfection from one offering, the strongest single statement against any repeated or re-presented sacrifice.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.1.11",
+        "key_terms": [
+          {
+            "strong": "G3778",
+            "lemma": "οὗτος"
+          },
+          {
+            "strong": "G0353",
+            "lemma": "ἀναλαμβάνω"
+          },
+          {
+            "strong": "G3772",
+            "lemma": "οὐρανός"
+          }
+        ],
+        "force": "The men identify the ascended one as houtos ho Iesous ho analemphtheis aph humon eis ton ouranon and say he will come houtos hon tropon. The demonstrative houtos (G3778) fixes the referent as the same bodily Jesus, analambano (G0353) names the bodily taking up, and eis ton ouranon (G3772) locates that body in heaven, which bears on whether the same body is locally present in the elements on earth.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.26.26",
+        "to": "1Cor.10.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.26.26",
+        "to": "1Cor.10.16",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "John.6.53",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.10.16",
+        "to": "Luke.22.19",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "2Cor.3.6",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "John.6.54",
+        "to": "John.6.63",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.27",
+        "to": "Heb.9.12",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.7.27",
+        "to": "Heb.10.11",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.11",
+        "to": "Heb.10.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "John.6.68",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.1.11",
+        "to": "Dan.7.13",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Matt.26.26",
+        "addressed": true,
+        "resolution": "The institution clause touto estin to soma mou uses estin, the bare copula G1510 in the form V-PAI-3S. The store shows that exact form carrying both an identity sense and a representational sense. Parallel predications with the same form, ho agros estin ho kosmos and houtoi eisin (Matt 13:38), ho sporos estin ho logos (Luke 8:11), and the imperfect he petra ... en ho Christos (1 Cor 10:4), show the figurative predicate is well attested. Because the copula does not itself disambiguate, the lexical data cannot by themselves rule a substance change in or out from this verse. This is the core reason the bundled proposition is rated disputed rather than affirmed."
+      },
+      {
+        "ref": "1Cor.11.27",
+        "addressed": true,
+        "resolution": "Paul warns that whoever eats the bread or drinks the cup unworthily is enochos tou somatos kai tou aimatos tou kyriou, guilty of the body and blood, and v. 29 adds me diakrinon to soma, not discerning the body. The strong relational and forensic language ties guilt to the body and blood and is often read as evidence of a real presence. Lexically, however, enochos plus a genitive denotes liability with respect to a person or thing offended and does not by itself assert that the elements are that body in substance, so the verse intensifies the presence question without resolving the predication."
+      },
+      {
+        "ref": "John.6.53",
+        "addressed": true,
+        "resolution": "Jesus says ean me phagete ten sarka tou huiou tou anthropou kai piete autou to haima, ouk echete zoen. The aorist subjunctives of esthio (G2068, here phagete from G5315) and pino are concrete consumption verbs, and the realism appears to favor a literal eating reading, which is why it complicates the figurative case."
+      },
+      {
+        "ref": "John.6.54",
+        "addressed": false,
+        "resolution": "The verb shifts to ho trogon (G5176, to gnaw or chew), present participle, recurring through vv. 54-58. The store shows trogo occurs only 6 times in the NT, 4 here, plus ordinary table eating at Matt 24:38 and the betrayer eating bread at John 13:18, so it is not lexically confined to literal cultic ingestion. Whether the intensified trogein language demands corporeal eating or is heightened figure for believing appropriation is not decidable from morphology and the near hapax distribution alone, and John 6:63 in the same discourse pulls toward the spiritual sense. This tension is left lexically unresolved, which is why the verdict is disputed."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Heb.10.11",
+        "variant_id": "heb-10-11-hiereus-vs-archiereus",
+        "verdict_impact": "none",
+        "note": "Some witnesses read archiereus for hiereus at the head of v. 11. The variant changes the priestly title but not the pollakis and kath hemeran repetition contrast that carries the sacrifice-finality point."
+      },
+      {
+        "ref": "Luke.22.19",
+        "variant_id": "luke-22-19-20-longer-vs-shorter-text",
+        "verdict_impact": "none",
+        "note": "Witnesses differ over the longer text of Luke 22:19b-20 (to hyper hymon didomenon ... touto poieite). The presence or absence of the memorial command in Luke does not change the verdict, because touto estin to soma mou and the anamnesis command stand uncontested in 1 Cor 11:24-25 regardless."
+      },
+      {
+        "ref": "John.6.63",
+        "variant_id": "john-6-63-lelaleka-word-order",
+        "verdict_impact": "none",
+        "note": "Witnesses vary in word order and in the placement of lelaleka, but the sarx and pneuma contrast and the predicate estin applied to remata are stable across readings."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited texts are NT outside 3 John, so ECM is not yet published for these books and they fall outside the ingested ECM window. Readings are taken from the standard critical editions in shadow mode. No examined variant shifts the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "sacramental_realism",
+      "memorialism",
+      "spiritual_real_presence"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "sacramental_realism",
+        "verdict": "denies_the_proposition",
+        "rationale": "Reads estin in Matt 26:26 as identity and the trogo realism of John 6:54-58 plus the alethes estin brosis of John 6:55 and the guilt of the body and blood in 1 Cor 11:27 as pointing to a literal presence, so it rejects the claim that the elements remain bread and wine in substance. The copula G1510 and the eating verbs are lexically compatible with this reading, and the vocabulary does not exclude it."
+      },
+      {
+        "framework": "spiritual_real_presence",
+        "verdict": "affirms_the_proposition",
+        "rationale": "Reads John 6:63 (he sarx ouk ophelei ouden, ta remata ... pneuma estin) and the heavenly localization of the body in Acts 1:9-11 as steering toward a spiritual rather than substantial presence, with koinonia at 1 Cor 10:16 naming relational participation, so the elements remain bread and wine while truly communicating Christ spiritually. The Hebrews ephapax cluster reinforces a non-repeated, non-re-presented offering. The copula is lexically open to this reading."
+      },
+      {
+        "framework": "memorialism",
+        "verdict": "affirms_the_proposition",
+        "rationale": "Reads estin as representational (this signifies my body) on the model of the same verb form in John 15:1, Matt 13:38, Luke 8:11, and 1 Cor 10:4, reinforced by 1 Cor 11:25 where the cup is the new covenant and by the anamnesis (remembrance) command. The elements signify but do not change in substance. The copula and the post-consecration terms arton and genema tes ampelou are lexically open to this reading."
+      }
+    ],
+    "notes": "The Hebrews sacrifice-finality data (ephapax, mian thysian, eis to dienekes, the perfect teteleioken) are stable across all three lenses and resist any repeated literal sacrifice, so that component of the proposition is firm. The narrower predication question (literal versus figurative estin, the force of trogo in John 6) is where the lenses diverge, and the queried lexicon does not adjudicate between them because the same copula form carries both senses and trogo is a near hapax. Hence the lexical pattern supports part of the bundled proposition firmly while leaving the substance-change denial materially contested."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "In the Lord's Supper, what is the relationship between the bread and wine and Christ's body and blood, and does the institution language touto estin to soma mou assert a change of substance, a signification, or a spiritual communication?",
+    "notes": "The stem is framed as a denial of transubstantiation and pre-loads one disputed reading by asserting that the elements remain bread and wine in substance and by appending the parenthetical that under some accounts they communicate Christ spiritually. That parenthetical encodes a particular sacramental position rather than a neutral lexical question. The neutralized form poses the predication and presence question without presupposing the answer. The verdict was derived on the original stem and rendered disputed because the lexicon cannot settle the copula and eating-verb predication, while the sacrifice-finality component is well supported. Verdict unchanged from the prior file; the direct store queries confirmed the estin morphology (G1510 V-PAI-3S in Matt 26:26 and in the figurative parallels), the near hapax distribution of trogo, and the sacrifice-finality cluster, which all support keeping the disputed rating."
+  },
+  "lay_summary": "The question asks whether the bread and wine of the Lord's Supper stay bread and wine in substance, rather than changing into Christ's body and blood at the words of institution. Reading only the Greek and standard lexical tools, the evidence splits into two parts. One part is strong. Hebrews repeatedly uses ephapax, once for all (Heb 7:27, 9:12), then mian thysian, one sacrifice, eis to dienekes, and the perfect verb teteleioken, he has perfected (Heb 10:14), with he sat down (Heb 10:12). Set against the daily and repeated Levitical offerings that could never take away sin, this describes one finished offering, not a sacrifice repeated or re-presented, and Acts 1:9-11 places the same bodily Jesus, houtos ho Iesous, in heaven until his return. The other part is genuinely contested. The institution words touto estin to soma mou turn on estin, the simple verb to be. In the store this verb is tagged the same way here as in the field is the world (Matt 13:38), the seed is the word (Luke 8:11), I am the vine (John 15:1), and the rock was Christ (1 Cor 10:4), all of which are figurative. In the same supper account Paul even says the cup is the new covenant, which cannot be a literal identity. So the verb by itself does not decide whether the bread is, in substance, the body, and the word transubstantiation names a substance-change idea the vocabulary simply does not supply. John 6 sharpens the tension. Verses 53 to 58 use blunt eating verbs, including trogo, to gnaw, which sounds literal, yet that rare word also covers ordinary eating elsewhere, and verse 63 in the same speech says the flesh profits nothing and the words are spirit. Because the verbs of being and eating support more than one defensible reading, and trogo is too rare to triangulate, the proposition is rated disputed. The sacrifice-finality claim is well grounded, but the narrower claim about how estin and the eating language work is not settled by the lexicon alone.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.26.26"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.25"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.14"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "John.6.54"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.13.38"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.8.11"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1510"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5176"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2842"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2178"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1336"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.26.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.10.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.6.63"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.7.27"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.1.11"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow",
+    "lexically-disputed",
+    "complicating-unresolved"
+  ]
+}

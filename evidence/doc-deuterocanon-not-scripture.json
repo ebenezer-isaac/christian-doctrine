@@ -1,0 +1,480 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-deuterocanon-not-scripture",
+  "question_id": "doc-deuterocanon-not-scripture",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The decisive datum is the New Testament's own citation behavior. The technical term graphe (G1124) occurs in 51 verses, and every identifiable referent is a Hebrew-canon Old Testament text or a writing the apostles recognize; no occurrence ever introduces a deuterocanonical book. Luke 24:44 names a fixed three-part collection (nomos, prophetai, psalmoi) with the perfect passive gegrammena, adding no fourth category. Luke 11:51 and its parallel Matthew 23:35 bracket the martyrs apo Abel heos Zachariou, the first and last killings in the Hebrew ordering (Genesis 4 to 2 Chronicles 24), tracing a boundary that excludes the intertestamental period. Romans 3:2 restricts ta logia tou theou (oracles, G3051) to the deposit entrusted to the Jews. 2 Peter 3:16 places apostolic letters among tas loipas graphas, recognizing them into an already bounded set. The words fix the boundary negatively and by bracket, not by an explicit book list, so confidence is medium rather than high."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1124",
+        "lemma": "γραφή",
+        "transliteration": "graphē",
+        "occurrences_in_canon": 51,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1125",
+        "lemma": "γράφω",
+        "transliteration": "graphō",
+        "occurrences_in_canon": 219,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 195,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4396",
+        "lemma": "προφήτης",
+        "transliteration": "prophētēs",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5568",
+        "lemma": "ψαλμός",
+        "transliteration": "psalmos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3051",
+        "lemma": "λόγιον",
+        "transliteration": "logion",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0006",
+        "lemma": "Ἄβελ",
+        "transliteration": "Habel",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2197",
+        "lemma": "Ζαχαρίας",
+        "transliteration": "Zacharias",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2193",
+        "lemma": "ἕως",
+        "transliteration": "heōs",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuō",
+        "occurrences_in_canon": 241,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3062",
+        "lemma": "λοιπός",
+        "transliteration": "loipos",
+        "occurrences_in_canon": 55,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4395",
+        "lemma": "προφητεύω",
+        "transliteration": "prophēteuō",
+        "occurrences_in_canon": 28,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1124",
+      "G1125",
+      "G3551",
+      "G4396",
+      "G5568",
+      "G3051",
+      "G0006",
+      "G2197",
+      "G2193",
+      "G4100",
+      "G3062",
+      "G4395"
+    ],
+    "scripture": [
+      {
+        "ref": "Luke.24.44",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G4396",
+            "lemma": "προφήτης"
+          },
+          {
+            "strong": "G5568",
+            "lemma": "ψαλμός"
+          },
+          {
+            "strong": "G1125",
+            "lemma": "γράφω"
+          }
+        ],
+        "force": "The token sequence confirms a three-part enumeration: tō nomō Mōuseōs (G3551 with the name Mōusēs G3475), kai tois prophētais (G4396), kai psalmois (G5568). This matches the Hebrew arrangement of Torah, Prophets, and Writings, with Psalms heading the Writings. The verb of fulfillment is gegrammena, the perfect passive of graphō (G1125), the same write-root that produces the noun graphē. The perfect locates what stands written inside this named collection. No fourth category and no intertestamental title is added.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.11.51",
+        "key_terms": [
+          {
+            "strong": "G0006",
+            "lemma": "Ἄβελ"
+          },
+          {
+            "strong": "G2197",
+            "lemma": "Ζαχαρίας"
+          },
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          }
+        ],
+        "force": "The clause apo haimatos Abel (G0006) heōs (G2193) haimatos Zachariou (G2197) is a from-to span. The token order verified in the store puts Abel at the front pole and Zechariah at the back pole, joined by heōs. Abel is the first killing in Genesis 4, and the Zechariah killed at the altar is the last martyrdom narrated in 2 Chronicles 24:20-21, which closes the Writings in the Hebrew ordering. Both endpoint verses exist in the Hebrew Old Testament store. The span functions as a canonical bracket whose two poles sit in the first and last books of the Hebrew sequence.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.35",
+        "key_terms": [
+          {
+            "strong": "G0006",
+            "lemma": "Ἄβελ"
+          },
+          {
+            "strong": "G2197",
+            "lemma": "Ζαχαρίας"
+          },
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          }
+        ],
+        "force": "The synoptic parallel repeats the same apo Abel (G0006) heōs (G2193) Zachariou (G2197) bracket, here naming Zechariah son of Barachias (G0914). The repetition across two Gospels confirms the from-to span is a stable formula, not a single passing remark. The two poles again mark the front and back of the Hebrew sequence, so the same boundary is traced twice in the text.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.2",
+        "key_terms": [
+          {
+            "strong": "G3051",
+            "lemma": "λόγιον"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "Paul says episteuthēsan ta logia tou theou, the oracles of God were entrusted. The store gloss for logion (G3051) is precisely oracles, and the term occurs only four times in the New Testament, always for authoritative divine utterance. The aorist passive episteuthēsan (from pisteuō, G4100) names a deposit placed in the historical custody of the Jews. Paul cites that custody as the privilege of Israel and does not expand the entrusted oracles to Greek intertestamental compositions.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.15",
+        "key_terms": [
+          {
+            "strong": "G1125",
+            "lemma": "γράφω"
+          },
+          {
+            "strong": "G0027",
+            "lemma": "ἀγαπητός"
+          }
+        ],
+        "force": "Peter says Paul egrapsen (G1125, wrote) to you kata tēn dotheisan autō sophian, according to the wisdom given him. The write-root and the giving-language frame Paul's letters as a deposit, parallel to the prophetic giving. This sets up the explicit graphē classification in the next verse and locates Paul's writing inside, not outside, the authoritative category.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.16",
+        "key_terms": [
+          {
+            "strong": "G3062",
+            "lemma": "λοιπός"
+          },
+          {
+            "strong": "G1124",
+            "lemma": "γραφή"
+          }
+        ],
+        "force": "Peter writes hōs kai tas loipas graphas, as also the rest of the Scriptures. The token store places loipos (G3062, remaining) directly before graphē (G1124). The word loipas presupposes a definite known set: the rest of an already recognized collection. Peter expands that set by recognizing Paul's letters into it, not by leaving its boundary open. The lexical move is recognition into an existing canon, not creation of an open-ended category that any composition could enter.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Luke.11.51",
+        "to": "2Chr.24.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.11.51",
+        "to": "Gen.4.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.24.44",
+        "to": "Luke.24.27",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.24.44",
+        "to": "Ps.2.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.2",
+        "to": "Rom.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.3.2",
+        "to": "Rom.2.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.3.16",
+        "to": "2Pet.2.14",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Jude.1.14",
+        "addressed": true,
+        "resolution": "Jude introduces the saying attributed to Enoch (compare 1 Enoch 1:9) with the verb prophēteusen, from prophēteuō (G4395), verified in the token store. He does NOT use graphē (G1124) or the write-root gegraptai. The introductory verb marks the speaker as prophesying but does not lexically induct the source into the graphē category. Citation of a noncanonical saying without the Scripture-marker formula is analogous to Paul quoting the poets Aratus in Acts 17:28 and Epimenides in Titus 1:12 without thereby placing them among the graphai. The complicating force is real but does not reach the technical citation vocabulary."
+      },
+      {
+        "ref": "Heb.11.35",
+        "addressed": true,
+        "resolution": "The reference to others being tortured and refusing release may allude to intertestamental martyr accounts such as 2 Maccabees 7. The author introduces it with no gegraptai and no hē graphē legei, only a narrative summary inside a long roll of historical examples. Knowing an event from intertestamental history is consistent with treating the account as historical narrative without granting it graphē status. The verse does not use the Scripture-citation formula, so it does not overturn the citation-behavior pattern."
+      },
+      {
+        "ref": "2Pet.3.16",
+        "addressed": true,
+        "resolution": "The plural tas loipas graphas could in principle be read as open-ended, which would weaken the boundary claim. The lexical weight of loipos (G3062, the remaining ones of a known set) tells against that reading: a remainder presupposes a defined whole. Peter widens the set by recognizing Paul, not by declaring it indefinite, so the verse supports rather than dissolves a bounded collection."
+      },
+      {
+        "ref": "Rom.3.2",
+        "addressed": false,
+        "resolution": "The vocabulary fixes the entrusted oracles on the deposit given to the Jews but does not, by the words alone, enumerate which specific book titles that deposit contained. The New Testament establishes the boundary negatively, by never citing a deuterocanonical book as graphē, and by the Abel-to-Zechariah bracket, rather than by an explicit list. The precise edge of the collection is therefore underdetermined at the level of the words themselves, which is left unresolved here as an honest scope limit and is the reason confidence is medium rather than high."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The anchor verses lie outside the ingested ECM window (3 John 1.1 to 1.15), so no CBGM apparatus applies; not_in_ecm_scope is true in the bundle. The load-bearing vocabulary is textually stable: the triadic formula in Luke 24:44, the apo Abel heōs Zachariou bracket in Luke 11:51 and its Matthew 23:35 parallel, the ta logia tou theou deposit in Romans 3:2, and the tas loipas graphas phrase in 2 Peter 3:16 carry no variant that alters canon vocabulary."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "canonical_criticism",
+      "second_temple_lexicography"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "hebrew_canon_citation_pattern",
+        "verdict": "supports",
+        "rationale": "Across all 51 graphē occurrences and the four logia, the technical Scripture vocabulary attaches only to Hebrew-canon texts or apostolic writings. The Luke 24:44 tripartite formula and the twice-stated Abel-to-Zechariah bracket trace the Hebrew sequence from its first to its last book. On this reading the boundary the words draw excludes the intertestamental writings."
+      },
+      {
+        "framework": "wider_greek_collection_reading",
+        "verdict": "complicates_but_does_not_overturn",
+        "rationale": "A reader could note that the apostles frequently quote a Greek Old Testament whose physical scrolls in some streams included deuterocanonical books, and that Jude 14 and Hebrews 11:35 draw on noncanonical material. Stated at its strongest, this reading says the New Testament authors were comfortable with a broader textual environment. The lexical answer is that comfort with a text is not the same as the citation formula: in this corpus the technical markers graphē and gegraptai are never attached to a deuterocanonical book, and Jude introduces Enoch with prophēteuō, not graphē."
+      },
+      {
+        "framework": "scope_underdetermination",
+        "verdict": "neutral",
+        "rationale": "The words name a bounded collection and bracket it, but never print an explicit list of book titles. A reader focused on the exact edge can fairly observe that the New Testament settles the boundary by negative citation behavior and by the Abel-to-Zechariah span rather than by enumeration. This lens neither affirms nor denies the proposition; it locates the genuine residual uncertainty at the level of precise scope, which is why the overall confidence is medium."
+      }
+    ],
+    "notes": "The verdict is reached by tracking the technical vocabulary graphē (G1124), logion (G3051), the nomos-prophētai-psalmoi enumeration, and the Abel-to-Zechariah merism across the anchor verses and their synoptic parallel. The citation-behavior test (what the text calls graphē or introduces with the write-root) is the load-bearing instrument. The structural absence of any deuterocanonical book from the queried corpus (66 Old and New Testament books in the verse store, 27 Greek New Testament books) is an honest datum about the dataset and is not by itself treated as the verdict."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the New Testament lexical pattern, especially its use of the term graphē and its Scripture-citation formulas, indicate about the scope and boundary of the authoritative writings, and do those texts place the books commonly called Apocryphal or Deuterocanonical inside or outside that boundary?",
+    "notes": "The original stem asserts the exclusion as a settled fact and also asserts a negative about doctrinal authority, so it is verdict-preloaded. The verdict is still derived from the original stem by testing whether the New Testament citation vocabulary names a tripartite Hebrew collection (Luke 24:44), brackets it from Abel to Zechariah (Luke 11:51 and Matthew 23:35), restricts the entrusted oracles to the Jewish deposit (Romans 3:2), and treats graphē as a bounded plural into which only apostolic writings are recognized (2 Peter 3:16). The neutralized rephrasing makes the lexical question explicit without prejudging the precise list of books."
+  },
+  "lay_summary": "The question is whether the books often called Apocryphal or Deuterocanonical sit inside the same authoritative collection as the rest of the Bible. The clearest lexical test is how the New Testament uses its technical word for Scripture, graphē. That word appears in fifty one verses, and in every case where you can identify what it points to, it points to a Hebrew Old Testament text or to writings the apostles recognize. It is never once attached to a deuterocanonical book. Three other patterns point the same way. In Luke 24:44 Jesus names a three part collection: the law of Moses, the prophets, and the psalms, and adds no fourth group. In Luke 11:51, repeated in Matthew 23:35, he brackets the martyrs from the blood of Abel to the blood of Zechariah. Abel is the first killing in Genesis 4 and Zechariah the last one in 2 Chronicles 24, the first and last books of the Hebrew order, so the span quietly traces the edges of that collection. In Romans 3:2 Paul says the oracles of God were entrusted to the Jews, locating the deposit in Israel's keeping. In 2 Peter 3:16 Paul's letters are reckoned with the rest of the Scriptures, which only makes sense if Scripture already names a known, bounded set that new writings are recognized into. So why do readers still differ, and why is the confidence medium rather than high? Because the words fix the boundary in two indirect ways, by never citing these books as Scripture and by the Abel to Zechariah bracket, but they never print an actual list of titles. Two genuine pressure points exist: Jude quotes a saying of Enoch and Hebrews 11 seems to recall an intertestamental martyr story. The decisive detail is that Jude introduces Enoch with the word for prophesying, not with the word for Scripture, and Hebrews uses no citation formula at all. Quoting a text is not the same as calling it Scripture. The words underdetermine the exact list, but the citation behavior consistently keeps these books outside the graphē category.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1124"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3051"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.24.44"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Luke.11.51"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Matt.23.35"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.2"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Pet.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Jude.1.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.24.44"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Pet.3.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAHOT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Chr.24.20"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Luke.11.51"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rom.3.2"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAHOT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "complicating-unresolved"
+  ]
+}

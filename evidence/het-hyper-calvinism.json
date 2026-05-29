@@ -1,0 +1,873 @@
+{
+  "$schema_version": "3.0",
+  "id": "het-hyper-calvinism",
+  "question_id": "het-hyper-calvinism",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9875,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across the Law, Prophets, Gospels, Acts, and Epistles the lexical pattern is uniform: the divine command and invitation are addressed to all hearers without an elect-status qualifier in the text. Acts 17:30 has paraggellei (present active indicative, commands) with tois anthropois pantachou pantas, to all people everywhere, governing the infinitive metanoein. 2 Peter 3:9 negates boulomenos by me and sets up a me, alla antithesis pairing tinas with pantas eis metanoian choresai. Ezekiel 18:23 and 33:11 use chaphets (delight, take pleasure) under interrogative he and oath formula chai ani (as I live) to deny any divine pleasure in the death of the wicked. Isaiah 55:1 issues hoy plus the plural imperatives leku and shibru to kol tsame, every thirsty one, with no condition of prior status. The reciprocal duty to preach is equally explicit (Matt 28:19 panta ta ethne, Mark 16:15 pase te ktisei, Rom 10:14-15 the chain of how-can-they-believe questions, 1 Cor 9:16 ouai gar moi estin ean me euaggelizomai). The proposition stands and hyper-Calvinism's denial of the free offer and of the duty to evangelize is lexically foreclosed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G3853",
+        "lemma": "παραγγέλλω",
+        "transliteration": "paraggello",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3340",
+        "lemma": "μετανοέω",
+        "transliteration": "metanoeo",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3837",
+        "lemma": "πανταχοῦ",
+        "transliteration": "pantachou",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3956",
+        "lemma": "πᾶς",
+        "transliteration": "pas",
+        "occurrences_in_canon": 1316,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1014",
+        "lemma": "βούλομαι",
+        "transliteration": "boulomai",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3341",
+        "lemma": "μετάνοια",
+        "transliteration": "metanoia",
+        "occurrences_in_canon": 24,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2309",
+        "lemma": "θέλω",
+        "transliteration": "thelo",
+        "occurrences_in_canon": 211,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1996",
+        "lemma": "ἐπισυνάγω",
+        "transliteration": "episynago",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2784",
+        "lemma": "κηρύσσω",
+        "transliteration": "kerusso",
+        "occurrences_in_canon": 61,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2097",
+        "lemma": "εὐαγγελίζω",
+        "transliteration": "euaggelizo",
+        "occurrences_in_canon": 54,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1205",
+        "lemma": "δεῦτε",
+        "transliteration": "deute",
+        "occurrences_in_canon": 12,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2654A",
+        "lemma": "חָפֵץ",
+        "transliteration": "chaphets",
+        "occurrences_in_canon": 63,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3605",
+        "lemma": "כֹּל",
+        "transliteration": "kol",
+        "occurrences_in_canon": 5415,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3212",
+        "lemma": "יָלַךְ",
+        "transliteration": "yalak",
+        "occurrences_in_canon": 1554,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1945",
+        "lemma": "הוֹי",
+        "transliteration": "hoy",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shub",
+        "occurrences_in_canon": 1075,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G3853",
+      "G3340",
+      "G3341",
+      "G3837",
+      "G3956",
+      "G1014",
+      "G2309",
+      "G1996",
+      "G2784",
+      "G2097",
+      "G1205",
+      "G2064",
+      "G1670",
+      "G1325",
+      "H2654A",
+      "H3605",
+      "H3212",
+      "H1945",
+      "H7666",
+      "H3808",
+      "H7725"
+    ],
+    "scripture": [
+      {
+        "ref": "Acts.17.30",
+        "key_terms": [
+          {
+            "strong": "G3853",
+            "lemma": "παραγγέλλει"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντας"
+          },
+          {
+            "strong": "G3837",
+            "lemma": "πανταχοῦ"
+          },
+          {
+            "strong": "G3340",
+            "lemma": "μετανοεῖν"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἀνθρώποις"
+          }
+        ],
+        "force": "The main verb paraggellei (G3853) is present active indicative, God commands, and its dative object is universal: tois anthropois pantachou pantas, to all people everywhere. The infinitive metanoein, to repent, is the content of the command. The triplet pantachou plus pantas plus anthropois piles up universal-scope words around the verb. There is no lexical restriction of the command to the elect; the grammar places the duty to repent on every hearer.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Pet.3.9",
+        "key_terms": [
+          {
+            "strong": "G1014",
+            "lemma": "βουλόμενός"
+          },
+          {
+            "strong": "G3361",
+            "lemma": "μή"
+          },
+          {
+            "strong": "G5100",
+            "lemma": "τινας"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντας"
+          },
+          {
+            "strong": "G3341",
+            "lemma": "μετάνοιαν"
+          },
+          {
+            "strong": "G0235",
+            "lemma": "ἀλλὰ"
+          }
+        ],
+        "force": "The participle boulomenos (G1014, willing or purposing) is negated by me (G3361) and set in a me, alla (not, but) antithesis: not willing any (tinas, G5100) to perish (apolesthai) but all (pantas, G3956) to come to repentance (eis metanoian choresai). The lexical contrast pairs tinas with pantas inside one clause, framing the divine disposition toward the perishing as one of makrothumia (patience) and a wish for their repentance. The verb boulomai across its 37 NT occurrences uniformly denotes purpose or wish, never decree alone.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.23.37",
+        "key_terms": [
+          {
+            "strong": "G2309",
+            "lemma": "ἠθέλησα"
+          },
+          {
+            "strong": "G4212",
+            "lemma": "ποσάκις"
+          },
+          {
+            "strong": "G1996",
+            "lemma": "ἐπισυναγαγεῖν"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐκ"
+          },
+          {
+            "strong": "G3733",
+            "lemma": "ὄρνις"
+          }
+        ],
+        "force": "The aorist ethelesa (G2309, I willed) with posakis (G4212, how often) expresses a repeated divine wish to gather, episynagagein (G1996), like a hen gathering her chicks (simile). It is set against ouk ethelesate, you were not willing. The same root thelo is predicated of both Christ and the city, and the contrast falls between his willing to gather and their refusal, locating the obstacle in human unwillingness rather than a withheld offer. G1996 episynago occurs only 8 times in the canon, and here governs the children of Jerusalem broadly, not a filtered subset.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "simile"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.18.23",
+        "key_terms": [
+          {
+            "strong": "H2654A",
+            "lemma": "חָפֹץ"
+          },
+          {
+            "strong": "H3808",
+            "lemma": "הֲלוֹא"
+          },
+          {
+            "strong": "H4194",
+            "lemma": "מוֹת"
+          },
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּב"
+          }
+        ],
+        "force": "ETCBC tags this as a question clause (NQ, Ques) using an emphatic infinitive-absolute plus finite form of chaphets (H2654A, to delight or take pleasure) with the interrogative he and negative lo: do I at all delight in the death (mut, H4194) of the wicked, and not rather that he turn (shub, H7725) from his ways and live (chayah, H2421). The rhetorical question expects a negative answer, asserting that God takes no pleasure in the wicked dying and desires his turning and living. H2654A occurs 63 times in the canon and consistently denotes positive desire or pleasure of the will.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.33.11",
+        "key_terms": [
+          {
+            "strong": "H2416A",
+            "lemma": "חַי"
+          },
+          {
+            "strong": "H2654A",
+            "lemma": "חָפֵץ"
+          },
+          {
+            "strong": "H4194",
+            "lemma": "מָוֶת"
+          },
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּב"
+          },
+          {
+            "strong": "H7563",
+            "lemma": "רָשָׁע"
+          }
+        ],
+        "force": "The verse opens with the divine self-oath chai ani (H2416A, as I live), the strongest asseverative formula in Hebrew prophecy. The verb chaphets is then negated (im echpots bemot harasha, if I take pleasure in the death of the wicked), and the alternative is ki im beshub rasha midarko vechayah, but rather that the wicked turn from his way and live. The same lemma pair chaphets plus shub plus mut as Ezek 18:23, here intensified by an oath and capped with the double imperative shubu, shubu (turn, turn). This is a pan-prophetic anchor that the divine pleasure does not lie in the death of the wicked.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.55.1",
+        "key_terms": [
+          {
+            "strong": "H1945",
+            "lemma": "הוֹי"
+          },
+          {
+            "strong": "H3605",
+            "lemma": "כָּל"
+          },
+          {
+            "strong": "H3212",
+            "lemma": "לְכוּ"
+          },
+          {
+            "strong": "H7666",
+            "lemma": "שִׁבְרוּ"
+          },
+          {
+            "strong": "H6771",
+            "lemma": "צָמֵא"
+          }
+        ],
+        "force": "The verse opens with the attention-calling interjection hoy (H1945) plus kol tsame, every thirsty one, and a chain of plural imperatives leku (H3212, come), shibru (H7666, buy), and ekolu (eat), repeated for emphasis. The invitation is offered belo kesef ubelo mechir, without money and without price, to all who thirst. The lexical scope is unrestricted by the words themselves: the call goes out to anyone in need with no condition of prior status. ETCBC marks the clause as a quotation (Q) with Intj and Voct functions, confirming a direct universal address.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.22.17",
+        "key_terms": [
+          {
+            "strong": "G2064",
+            "lemma": "ἔρχου"
+          },
+          {
+            "strong": "G2309",
+            "lemma": "θέλων"
+          },
+          {
+            "strong": "G2983",
+            "lemma": "λαβέτω"
+          },
+          {
+            "strong": "G1432",
+            "lemma": "δωρεάν"
+          },
+          {
+            "strong": "G1372",
+            "lemma": "διψῶν"
+          }
+        ],
+        "force": "The canon's closing invitation stacks three present imperatives erchou (G2064, come) and one aorist imperative labeto (G2983, let him take) governed by an open relative ho thelon (G2309, the one willing). The scope is set by the substantive participle ho dipson, the one thirsting, and the adverb dorean (G1432, freely, without cost). The vocabulary is the lexical mirror of Isa 55:1 (universal-call vocabulary closing the canon), and the conditioning clause is ho thelon, the one willing, not the one elect.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.11.28",
+        "key_terms": [
+          {
+            "strong": "G1205",
+            "lemma": "δεῦτε"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντες"
+          },
+          {
+            "strong": "G2872",
+            "lemma": "κοπιῶντες"
+          }
+        ],
+        "force": "The plural imperative-adverb deute (G1205, come hither) governs pantes (G3956, all) hoi kopiontes kai pephortismenoi, all who labor and are heavy laden, with pros eme placing the destination on Christ. The vocative scope is set by pantes plus participial substantives describing condition, not status. G1205 occurs only 12 times in the canon and is uniformly a wide-open summons.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G4198",
+            "lemma": "πορευθέντες"
+          },
+          {
+            "strong": "G3100",
+            "lemma": "μαθητεύσατε"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάντα"
+          },
+          {
+            "strong": "G1484",
+            "lemma": "ἔθνη"
+          }
+        ],
+        "force": "The aorist participle poreuthentes (G4198, going) governs the aorist imperative matheteusate (G3100, make disciples) with object panta ta ethne, all the nations. The combination panta plus ethne (G3956 plus G1484) defines the scope of the disciple-making duty as unrestricted. Hyper-Calvinism's denial of evangelistic duty cannot be sustained against this imperative with its universal scope.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Mark.16.15",
+        "key_terms": [
+          {
+            "strong": "G4198",
+            "lemma": "πορευθέντες"
+          },
+          {
+            "strong": "G2784",
+            "lemma": "κηρύξατε"
+          },
+          {
+            "strong": "G3956",
+            "lemma": "πάσῃ"
+          },
+          {
+            "strong": "G2937",
+            "lemma": "κτίσει"
+          }
+        ],
+        "force": "Aorist imperative kerukate (G2784, preach) takes the dative pase te ktisei (G3956 plus G2937, to every creature) as the audience of the euaggelion. The dative of audience is unrestricted; the noun ktisis here functions as a comprehensive scope marker. The duty to preach is universal-scope by the words of the command itself.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.10.14",
+        "key_terms": [
+          {
+            "strong": "G4459",
+            "lemma": "πῶς"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύσωσιν"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούσωσιν"
+          },
+          {
+            "strong": "G2784",
+            "lemma": "κηρύσσοντος"
+          }
+        ],
+        "force": "A rhetorical chain of pos (G4459, how) interrogatives: how can they believe (G4100), how can they hear (G0191), how can someone preach (G2784) unless sent (G0649). The grammar presupposes that preaching is the necessary instrument of believing for any hearer; if the gospel were not for all to hear, the chain of questions would lose force.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.9.16",
+        "key_terms": [
+          {
+            "strong": "G3759",
+            "lemma": "οὐαί"
+          },
+          {
+            "strong": "G2097",
+            "lemma": "εὐαγγελίζωμαι"
+          },
+          {
+            "strong": "G0318",
+            "lemma": "ἀνάγκη"
+          }
+        ],
+        "force": "Paul places himself under ananke (G0318, necessity) of euaggelizesthai (G2097), and pronounces ouai (G3759, woe) on himself if he does not preach the gospel. The lexical pairing of ouai with not-preaching makes the proclamation duty inescapable for the apostle; by extension the canon does not treat preaching as optional in light of God's decree.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.44",
+        "key_terms": [
+          {
+            "strong": "G1410",
+            "lemma": "δύναται"
+          },
+          {
+            "strong": "G2064",
+            "lemma": "ἐλθεῖν"
+          },
+          {
+            "strong": "G1670",
+            "lemma": "ἑλκύσῃ"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "oudeis dunatai elthein pros eme ean me ho pater ho pempsas me helkuse auton, no one can come to me unless the Father who sent me draws him. The verb helkuo (G1670) and the negated dunatai (G1410) state the Godward dependence of coming. This is the strongest pro-hyper-Calvinist text in scope, but it speaks to the cause of coming, not the scope of the call. It limits ability, not the addressed audience. It coexists in the same Gospel with John 7:37 ean tis dipsa erchestho pros me, if anyone thirsts let him come, addressed to tis (G5100, anyone). The two together yield divine drawing as the cause and universal call as the published instrument.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ezek.18.23",
+        "to": "Ezek.18.32",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.18.23",
+        "to": "Exod.34.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.30",
+        "to": "Acts.14.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.3.9",
+        "to": "2Pet.3.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.23.37",
+        "to": "2Chr.36.15",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.1",
+        "to": "Isa.41.17",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Isa.55.1",
+        "to": "Rev.22.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.18.23",
+        "to": "Ezek.33.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.3.9",
+        "to": "1Tim.2.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.30",
+        "to": "Mark.16.15",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Acts.17.30",
+        "to": "Matt.28.19",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Ezek.18.23",
+        "addressed": true,
+        "resolution": "The verb chaphets here can be read as covenantal or preceptive will rather than decretal will, which on a hyper-Calvinist account might soften its force as a universal free offer. The lexical data favor the stem: the form is an emphatic interrogative expecting the answer no, the parallel Ezek 33:11 reinforces the same disposition with the chai ani divine oath, and the cross-reference chain to Ezek 18:32 keeps the same chaphets plus shub plus chayah pattern. The text states a divine disposition without ranking decretal versus preceptive categories; the stem affirms a universal free offer, which the words sustain on any reading."
+      },
+      {
+        "ref": "2Pet.3.9",
+        "addressed": true,
+        "resolution": "The antecedent of humas and the referent of tinas plus pantas can be narrowed to the covenant community rather than all humanity. Even on that narrower reading, the lexical antithesis me, tinas, alla, pantas still establishes that the divine boulomai moves toward repentance and away from perishing for every member of the addressed group. Hyper-Calvinism's denial of a free offer cannot lean on this verse because the disposition itself is not narrowed by the words to any subset within the addressed group."
+      },
+      {
+        "ref": "John.6.44",
+        "addressed": true,
+        "resolution": "The hyper-Calvinist reading uses oudeis dunatai elthein ean me ho pater helkuse to argue that the gospel call is in effect only to the drawn. The lexical scope of John 6:44 is causal (no one is able to come unless), not vocative; it speaks to the source of effectual coming, not the breadth of the published call. In the same Gospel John 7:37 issues ean tis dipsa erchestho pros me, addressed to tis (anyone) without elect filter. The two verses together yield divine drawing as cause and universal call as publication. They do not cancel one another; they describe two distinct lexical functions."
+      },
+      {
+        "ref": "Acts.13.48",
+        "addressed": true,
+        "resolution": "hosoi esan tetagmenoi eis zoen aionion episteusan, as many as had been appointed to eternal life believed, uses tasso (G5021) of a divine ordering of the believers. The verb describes who in fact believed, not who was addressed. Acts 13 has already shown Paul addressing the synagogue and Gentiles together (Acts 13:26, 13:46) with a universal-scope appeal, so the appointment language in v48 concerns outcome, not the breadth of the offer."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "2Pet.3.9",
+        "variant_id": "2Pet.3.9-kurios",
+        "verdict_impact": "none",
+        "note": "SBLGNT sigla mark a textual choice between kurios and other readings for the subject of bradunei and boulomenos, but the universal-scope pantas eis metanoian phrase is stable across all witnesses."
+      },
+      {
+        "ref": "2Pet.3.9",
+        "variant_id": "2Pet.3.9-humas",
+        "verdict_impact": "minor",
+        "note": "The addressee pronoun varies (humas versus hemas in some witnesses). This affects the narrower scope of the addressee group but does not touch the me, tinas, alla, pantas antithesis itself, so the disposition-toward-repentance reading holds."
+      },
+      {
+        "ref": "Acts.17.30",
+        "variant_id": "Acts.17.30-paraggellei",
+        "verdict_impact": "none",
+        "note": "Minor SBLGNT marker on paraggellei placement and on the spelling of pantachou; none of the universal-scope lexemes is in variant dispute."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "All NT anchors are outside the ingested ECM 3 John window. Inspected SBLGNT and NA28-aligned apparatus markers carry minor variants on word order and pronoun choice, none of which touch the universal-scope vocabulary (pantas, pantachou, anthropois, pase te ktisei, kol, hoy, leku). OT anchors (Ezek 18:23, Ezek 33:11, Isa 55:1) are not in ECM scope."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "decretal_versus_preceptive_will"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "decretal-will lens",
+        "verdict": "affirms",
+        "rationale": "Even when chaphets in Ezek 18:23 and 33:11 and boulomai in 2 Pet 3:9 are assigned to revealed or preceptive will rather than the eternal decree, the lexical fact remains that the command and invitation are addressed to all hearers without an elect filter, which is what the stem asserts."
+      },
+      {
+        "framework": "universal-offer lens",
+        "verdict": "affirms",
+        "rationale": "The imperatives in Isa 55:1, Rev 22:17, Matt 11:28, Matt 28:19, and Mark 16:15, together with the present-active paraggellei in Acts 17:30, all addressed to all and to every creature, read straightforwardly as a free and well-meant offer with the duty to respond placed on every person and the duty to publish placed on the messengers."
+      },
+      {
+        "framework": "hyper-Calvinist lens (stated in its strongest form)",
+        "verdict": "denies",
+        "rationale": "The strongest lexical form of the hyper-Calvinist case appeals to John 6:37, 6:44, 6:65, Acts 13:48 (G5021 tasso of those appointed to eternal life), and Rom 9:18 (eleos and skleruno predicated of God's choice) to argue that the effectual call goes only to the drawn, that the offer cannot be truly well-meant toward the non-elect, and that the duty to evangelize is not universal. Lexically, however, these texts speak to the cause and outcome of believing, not to the scope of the addressed call. They do not negate paraggellei pantas pantachou (Acts 17:30), pase te ktisei (Mark 16:15), panta ta ethne (Matt 28:19), kol tsame (Isa 55:1), or ho thelon (Rev 22:17). The universal-call vocabulary and the universal-preach imperatives sit side by side with the drawing vocabulary; the words do not cancel one another."
+      }
+    ],
+    "notes": "The lexical pattern is read most cleanly as two compatible categories: divine drawing as the cause of effectual coming (John 6:44 helkuo), and a universal published call plus an unrestricted duty to preach (Acts 17:30 paraggellei pantas pantachou, Mark 16:15 pase te ktisei, Matt 28:19 panta ta ethne, Rev 22:17 ho thelon labeto). The verdict turns on the universal scope words pas, pantachou, pase ktisei, panta ta ethne, kol, hoy, and on the imperatives addressed to anyone in need, not on any single soteriological framework."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Describe the lexical scope of the gospel command, the gospel invitation, and the duty to preach in Acts 17:30, 2 Pet 3:9, Matt 23:37, Ezek 18:23, Ezek 33:11, Isa 55:1, Rev 22:17, Matt 28:19, Mark 16:15, Rom 10:14-15, and 1 Cor 9:16: to whom is repentance commanded, to whom is the invitation extended, on whom is the duty to preach laid, and is any condition of prior status placed on the hearer or messenger in the text?",
+    "notes": "The stem phrase well-meant offer and the framing not contingent on the hearer's elect status import a specific intra-systematic debate vocabulary. The neutralized form strips the systematic label and asks only what the lexical scope of the command, the invitation, and the duty to preach is. The verdict is derived on the original stem: the texts command all to repent, extend the invitation to all who thirst and all who labor, and lay the duty to preach on the messengers without an elect filter on the audience. The obstacle to coming is located in human unwillingness (Matt 23:37 ouk ethelesate), which affirms the original proposition and denies hyper-Calvinism. Verdict unchanged from the prior file; enrichment added Ezek 33:11, Rev 22:17, Matt 11:28, Matt 28:19, Mark 16:15, Rom 10:14, 1 Cor 9:16, and a fair statement of the John 6:44 plus Acts 13:48 plus Rom 9:18 hyper-Calvinist case under competing lenses."
+  },
+  "lay_summary": "This question asks whether the Bible presents the gospel as freely offered to everyone, with God commanding all people to repent and believe, and with the church bound to publish that call. The original words point clearly in that direction, and the pattern is broad enough to span the Law, the Prophets, the Gospels, Acts, the Letters, and the closing chapter of the canon. In Acts 17:30 the verb translated commands is a present-tense form, and its reach is spelled out as all people everywhere, using three universal-scope words stacked together. The thing commanded is to repent. In 2 Peter 3:9 the writer sets up a sharp contrast: God is not willing that any should perish, but that all should come to repentance. The words any and all sit on opposite sides of a not, but construction, so the stated desire moves toward the repentance of all. In Ezekiel 18:23, and again under a divine oath as I live in Ezekiel 33:11, the Hebrew is built as a pointed question that expects the answer no: God takes no pleasure in the death of the wicked, but desires that he turn and live. Isaiah 55:1 opens the invitation with a call to everyone who is thirsty to come and receive without money and without price, and the canon's closing chapter, Revelation 22:17, echoes the same vocabulary with three imperatives saying come and a free invitation to the one who is willing to take the water of life without cost. The duty to publish that call is just as plain: the Great Commission addresses panta ta ethne, all the nations, Mark 16:15 says preach to every creature, Romans 10:14 strings together how-can-they-believe questions that assume the gospel is for any hearer to hear, and Paul says woe to me if I do not preach. The denial of the free offer and of universal preaching cannot be drawn out of these words; the words push the other way. There are texts that speak of divine drawing and divine choice, like John 6:44 and Acts 13:48, and a fair reading takes both seriously: drawing describes the cause of coming, and the universal call describes how the gospel is published, and the words of one set do not cancel the words of the other.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Acts.17.30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Pet.3.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.23.37"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.22.17"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.16.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.10.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.9.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.6.44"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3853"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1014"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2309"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3837"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2784"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.18.23"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.33.11"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.55.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2654A"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7725"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ezek.18.23"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Isa.55.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ezek.18.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.55.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA is licensed CC-BY-NC-4.0, which forbids bulk commercial redistribution. The ETCBC clause-and-function annotation was used to confirm the interrogative structure of Ezek 18:23 and the quotation-plus-vocative framing of Isa 55:1, so the assembled evidence is not safe for unrestricted publication without removing the ETCBC layer."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

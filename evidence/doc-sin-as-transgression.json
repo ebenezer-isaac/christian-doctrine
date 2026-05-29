@@ -1,0 +1,773 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-sin-as-transgression",
+  "question_id": "doc-sin-as-transgression",
+  "generated_at": "2026-05-27T08:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern across both testaments grounds sin in violation of God's revealed law and in offense against God himself, and the proposition fairly captures both dimensions by saying want of conformity OR transgression of the law and fundamentally an offense against God. 1 John 3:4 supplies a near-equation, kai he hamartia estin he anomia, sin is lawlessness, with the article on both nouns making it a convertible identity, and anomia is the alpha-privative of nomos so it is law-relative by construction. Romans 7:7-13 binds hamartia causally to entole and nomos, the commandment exposes sin. James 2:9-11 names the offender parabates nomou, transgressor of law. Psalm 51:4 pairs the Hebrew sin-nouns avon and chattat. The one honest nuance is that the wider vocabulary, hamartia as failure or missing, the relational pesha as rebellion, avon as iniquity or guilt, and hystereo as falling short of God's glory in Romans 3:23, shows sin to be broader than legal transgression alone. Romans 5:13 makes this explicit, sin was in the world before the law but is not counted where there is no law, distinguishing hamartia from the narrower law-relative parabasis. Transgression of law is thus one true and central definition within a broader semantic field, which is exactly what the proposition states."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 174,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0458",
+        "lemma": "ἀνομία",
+        "transliteration": "anomia",
+        "occurrences_in_canon": 16,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3551",
+        "lemma": "νόμος",
+        "transliteration": "nomos",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1785",
+        "lemma": "ἐντολή",
+        "transliteration": "entole",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3847",
+        "lemma": "παράβασις",
+        "transliteration": "parabasis",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3848",
+        "lemma": "παραβάτης",
+        "transliteration": "parabates",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0268",
+        "lemma": "ἁμαρτωλός",
+        "transliteration": "hamartolos",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1777",
+        "lemma": "ἔνοχος",
+        "transliteration": "enochos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3431",
+        "lemma": "μοιχεύω",
+        "transliteration": "moicheuo",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5407",
+        "lemma": "φονεύω",
+        "transliteration": "phoneuo",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1818",
+        "lemma": "ἐξαπατάω",
+        "transliteration": "exapatao",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1939",
+        "lemma": "ἐπιθυμία",
+        "transliteration": "epithumia",
+        "occurrences_in_canon": 38,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5302",
+        "lemma": "ὑστερέω",
+        "transliteration": "hystereo",
+        "occurrences_in_canon": 16,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2403",
+        "lemma": "חַטָּאת",
+        "transliteration": "chattat",
+        "occurrences_in_canon": 280,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5771",
+        "lemma": "עָוֺן",
+        "transliteration": "avon",
+        "occurrences_in_canon": 203,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6588",
+        "lemma": "פֶּשַׁע",
+        "transliteration": "pesha",
+        "occurrences_in_canon": 81,
+        "in_anchors": false
+      },
+      {
+        "strong": "H2398",
+        "lemma": "חָטָא",
+        "transliteration": "chata",
+        "occurrences_in_canon": 223,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0266",
+      "G0458",
+      "G3551",
+      "G1785",
+      "G3847",
+      "G3848",
+      "G3845",
+      "G0268",
+      "G1777",
+      "G3431",
+      "G5407",
+      "G1818",
+      "G1939",
+      "G5302",
+      "G3892",
+      "H2403",
+      "H5771",
+      "H6588",
+      "H2398"
+    ],
+    "scripture": [
+      {
+        "ref": "1John.3.4",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G0458",
+            "lemma": "ἀνομία"
+          }
+        ],
+        "force": "Defining clausal equation. The full text reads kai he hamartia estin he anomia, and sin is lawlessness. Both the subject he hamartia and the predicate he anomia carry the article, which yields a convertible identity rather than a one-way class statement. The participial clause ho poion ten hamartian, the one doing sin, is paired with ten anomian poiei, does lawlessness. The alpha-privative on nomos in anomia makes the relation to law constitutive, not incidental. This is the single most equation-like sentence in the canon on what sin is.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.7",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G1939",
+            "lemma": "ἐπιθυμία"
+          }
+        ],
+        "force": "Paul's rhetorical question ho nomos hamartia and the answer me genoito tie sin and law together causally rather than by identity. The clause ten hamartian ouk egnon ei me dia nomou says sin would have been unknown apart from the law, then he names the Decalogue commandment ouk epithumeseis, you shall not covet, as the diagnostic instrument. Sin is what the law exposes and forbids, and epithumia shows the inward dispositional reach.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.8",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          },
+          {
+            "strong": "G0874",
+            "lemma": "ἀφορμή"
+          }
+        ],
+        "force": "Hamartia is personified as an agent that takes aphorme, a base of operations, through the entole and kateirgasato, produced, every kind of epithumia. Without nomos, hamartia is nekra, dead. The grammar makes the commandment the operative reference point for the activity called sin, but the clause choris nomou hamartia nekra concerns sin's recognizable activity, not the bare existence of sin.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "personification"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.12",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          },
+          {
+            "strong": "G1342",
+            "lemma": "δίκαιος"
+          }
+        ],
+        "force": "The triple predication hagia kai dikaia kai agathe on the entole, holy and just and good, and hagios on the nomos, situates sin as opposition to a law that bears God's own moral character. Sin's offense is therefore not horizontal only, the standard violated belongs to God.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.7.13",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G1785",
+            "lemma": "ἐντολή"
+          }
+        ],
+        "force": "Paul drives the definition home, hina genetai kath hyperbolen hamartolos he hamartia dia tes entoles, that sin through the commandment might become exceedingly sinful. The entole is what shows sin to be sin in its true character. Sin is named relationally to revealed command.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.2.10",
+        "key_terms": [
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          },
+          {
+            "strong": "G1777",
+            "lemma": "ἔνοχος"
+          }
+        ],
+        "force": "Hostis holon ton nomon terese, ptaise de en heni, gegonen panton enochos. Whoever keeps the whole law and stumbles in one becomes guilty of all. The legal adjective enochos, liable, ties guilt to the unity of God's law, not to discrete social harms. Sin is configured as failure against an integral law.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.2.11",
+        "key_terms": [
+          {
+            "strong": "G3431",
+            "lemma": "μοιχεύω"
+          },
+          {
+            "strong": "G5407",
+            "lemma": "φονεύω"
+          },
+          {
+            "strong": "G3848",
+            "lemma": "παραβάτης"
+          }
+        ],
+        "force": "James identifies the lawgiver as the one who said both me moicheuses and me phoneuses, then names the offender parabates nomou, transgressor of law. The noun parabates derives from parabaino, to step over, picturing crossing a defined boundary. The companion verse Jas.2.9 already labels the offender parabates under the law. Sin is configured here as transgression of God's spoken command.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Jas.4.17",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "Eidoti oun kalon poiein kai me poiounti, hamartia auto estin. To one knowing the good to do and not doing it, to him it is sin. The omission and dispositional dimension is named directly, sin is not limited to overt acts or to formal code-breaking, yet it stays within the same lexical family hamartia.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.51.4",
+        "key_terms": [
+          {
+            "strong": "H5771",
+            "lemma": "עָוֺן"
+          },
+          {
+            "strong": "H2403",
+            "lemma": "חַטָּאת"
+          }
+        ],
+        "force": "In the Masoretic verse numbering the petition reads kabbeseni me-avoni u-me-chattati tahareni, wash me from my iniquity and cleanse me from my sin. The two sin-nouns avon and chattat stand in parallel cola, governed by imperative verbs that ETCBC marks as imperative clauses. ETCBC glosses both nouns as sin. The adjacent verse Ps.51.6 in Masoretic numbering supplies the vertical clause lekha lebadkha chatati, against you, you only, have I sinned, using the verb chata, to miss, with God as the sole offended party. The nominal pair here and the vertical verb there together anchor sin as both a real condition and an offense against God.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.5.13",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G3551",
+            "lemma": "νόμος"
+          }
+        ],
+        "force": "Achri gar nomou hamartia en en kosmoi, hamartia de ouk ellogeitai me ontos nomou. Until the law sin was in the world, but sin is not counted where there is no law. The clause distinguishes the existence of hamartia, present before the law, from its being reckoned or charged, which is law-relative. This shows the sin-vocabulary is broader than the law-relative transgression-words, while still affirming that law is what formally reckons sin.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.3.23",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G5302",
+            "lemma": "ὑστερέω"
+          }
+        ],
+        "force": "Pantes gar hemarton kai hysterountai tes doxes tou theou. All sinned and fall short of the glory of God. The verb of sinning hemarton stands beside hystereo, to fall short or lack, and the deficiency is measured against the glory of God, not against a written statute. This expresses the broad failing-short dimension of sin alongside the law-relative dimension.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1John.3.4",
+        "to": "1John.5.17",
+        "source": "openbible",
+        "votes": 31
+      },
+      {
+        "from": "1John.3.4",
+        "to": "Rom.3.20",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "1John.3.4",
+        "to": "Rom.4.15",
+        "source": "openbible",
+        "votes": 21
+      },
+      {
+        "from": "1John.3.4",
+        "to": "Num.15.31",
+        "source": "openbible",
+        "votes": 20
+      },
+      {
+        "from": "1John.3.4",
+        "to": "Jas.2.9",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Rom.5.13",
+        "to": "Rom.4.15",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "Rom.5.13",
+        "to": "1John.3.4",
+        "source": "openbible",
+        "votes": 6
+      },
+      {
+        "from": "Rom.4.15",
+        "to": "Rom.5.13",
+        "source": "openbible",
+        "votes": 19
+      },
+      {
+        "from": "Rom.4.15",
+        "to": "Gal.3.19",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Jas.2.10",
+        "to": "Gal.3.10",
+        "source": "openbible",
+        "votes": 39
+      },
+      {
+        "from": "Jas.2.10",
+        "to": "Deut.27.26",
+        "source": "openbible",
+        "votes": 18
+      },
+      {
+        "from": "Jas.2.11",
+        "to": "Exod.20.13",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "Jas.2.11",
+        "to": "Rom.13.9",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "Ps.51.4",
+        "to": "2Sam.12.13",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Ps.51.4",
+        "to": "Rom.3.4",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Rom.3.23",
+        "to": "Eccl.7.20",
+        "source": "openbible",
+        "votes": 243
+      },
+      {
+        "from": "Rom.3.23",
+        "to": "1John.1.8",
+        "source": "openbible",
+        "votes": 145
+      },
+      {
+        "from": "1John.3.4",
+        "to": "1John.3.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Jas.2.11",
+        "to": "Lev.4.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.7.9",
+        "to": "Rom.3.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Rom.7.7",
+        "addressed": true,
+        "resolution": "Paul's question ho nomos hamartia is rhetorical and answered me genoito. The verse does not equate law with sin, it asserts the law's diagnostic role. The flow Rom.7.7-13 culminates in Rom.7.12 where the law is hagios and the entole is hagia kai dikaia kai agathe, so sin is opposition to a good law, not the law itself."
+      },
+      {
+        "ref": "Rom.5.13",
+        "addressed": true,
+        "resolution": "Sin was in the world before the law but is not counted where there is no law. This does not falsify 1 John 3:4, it refines it. The hamartia-anomia equation in 1 John concerns sin's defining character in relation to God's revealed will, while Paul's clause concerns formal reckoning, which is law-relative. The text shows hamartia is broader than the narrower law-relative parabasis, which is why the proposition correctly speaks of want of conformity OR transgression, not transgression alone."
+      },
+      {
+        "ref": "Rom.3.23",
+        "addressed": true,
+        "resolution": "Falling short of the glory of God, hystereo, names sin relationally against God's glory rather than against a statute. This broadens the field beyond formal code-breaking but stays inside the same sin-vocabulary, hemarton, and supports the proposition's clause that sin is fundamentally an offense against God's holy character, not merely against neighbour."
+      },
+      {
+        "ref": "Rom.4.15",
+        "addressed": true,
+        "resolution": "Hou de ouk estin nomos, oude parabasis. Where there is no law, neither is there transgression. The transgression-word parabasis is strictly law-relative, which is why the broader word hamartia, not parabasis, carries the cases where sin precedes or exceeds a written code. This delimits the scope of the transgression term without weakening the affirmation."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant unit in the ingested data for 1John.3.4, Rom.7.7-13, Rom.5.13, Rom.4.15, Rom.3.23, Jas.2.9-11, Jas.4.17, or Ps.51.4 would alter the lexical equation hamartia equals anomia, the parabasis and parabates terminology, or the Hebrew avon and chattat pair. None of the anchors fall in the ingested ECM window of 3 John 1.1 to 1.15, so CBGM was not engaged. The verdict holds in the SBLGNT and Nestle1904 readings present in the store."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "law_relative_definition",
+      "relational_covenantal_definition"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "law_relative_definition",
+        "verdict": "affirms",
+        "rationale": "Reading sin primarily as transgression of God's revealed law, the lexical case is strong and direct. 1 John 3:4 equates he hamartia with he anomia, anomia being the alpha-privative of nomos. James 2:11 calls the offender parabates nomou. Romans 7 binds hamartia to entole and nomos. On this lens the central and definitive sense of sin is conformity-failure against a law that bears God's holy character."
+      },
+      {
+        "framework": "relational_covenantal_definition",
+        "verdict": "affirms_with_nuance",
+        "rationale": "Reading sin primarily as a relational and covenantal breach against God's person, this lens is also well supported and is represented here in its strongest form. The Hebrew pesha means rebellion against a covenant partner, avon means perversity, iniquity, and guilt, and the verb chata in Psalm 51:6 makes God the sole offended party, against you, you only. In Romans 3:23 sin is hystereo, falling short of the glory of God, and Romans 5:13 says sin existed before the law though not formally counted. On this lens transgression of a specific statute is one true expression of sin, but the deeper category is offense against God himself, which the broader hamartia, avon, and pesha vocabulary carries. This lens does not deny the law-relative definition, it embeds it inside a wider relational one, and the proposition's own wording, want of conformity OR transgression and fundamentally an offense against God, honours both."
+      }
+    ],
+    "notes": "The two lenses are not contradictory and both affirm the proposition. They differ only on which sense is primary and which is derived. Hebrew poetic parallelism between avon and chattat in Ps 51:4 reinforces the nominal sin-vocabulary, but the figures list stays empty because parallelism is not in the enum, the parallelism is described in the force field instead."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The proposition is detailed but its claims map onto real lexical data rather than a tradition-specific taxonomy. Want of conformity and transgression map to 1 John 3:4 hamartia equals anomia and to James 2:11 parabates nomou. Thought, word, deed, and disposition map to Jas 4:17 omission and Rom 7:7 epithumia. Offense against God's holy character, not merely against neighbour, maps to Rom 7:12 the law as holy and just and good, to Ps 51:6 against you only, and to Rom 3:23 falling short of God's glory. The phrase any want of conformity to OR transgression of is itself the disjunction that keeps the stem from over-narrowing sin to legal transgression, so no neutralization is required. The verdict is derived on the original stem. The prior evidence attached the gloss against you only have I sinned to Ps.51.4, but in the store and Masoretic numbering that clause sits at Ps.51.6 and uses the verb chata, while Ps.51.4 carries the noun pair avon and chattat. This file corrects that placement, which does not change the verdict."
+  },
+  "lay_summary": "The claim lines up with the words across both testaments, with one fair qualification. In 1 John 3:4 the apostle writes that everyone who does sin also does lawlessness, then caps the sentence with a near equation, sin is lawlessness. In Greek both nouns carry the article, so the sentence reads almost like an identity, and the word for lawlessness, anomia, is simply law, nomos, with a negating prefix, so its very shape ties sin to violating God's law. Paul develops the same picture in Romans 7, using the same word for sin and binding it to commandment and to law. He says he would not have known sin except through the law, and he calls the commandment holy and just and good, so sin is opposition to a standard that carries God's own character. James calls the person who breaks one command a transgressor of law, using a word that pictures stepping over a marked line, and James 4:17 widens sin to include knowing the right and not doing it. So far the law centered reading is very strong. The fair qualification is that the wider family of sin words reaches past breaking a written rule. The Greek word for sin at root means failure or missing, the Hebrew words mean iniquity, guilt, and rebellion against a person, and Romans 3:23 says all have sinned and fall short of the glory of God, measuring sin against God himself rather than a statute. Romans 4:15 says where there is no law there is no transgression, and Romans 5:13 says sin was in the world before the law though it was not formally counted, which shows that sin is real and broader than the narrower idea of breaking a specific rule. Psalm 51 places sin vertically, against you only have I sinned. This is why thoughtful readers can land in slightly different places, some make breaking God's law the core meaning, others make offending God himself the core and treat rule breaking as one form of it. The proposition states both, want of conformity or transgression of the law, and fundamentally an offense against God, so on either reading it is affirmed.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1John.3.4"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.7.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.5.13"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Rom.3.23"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Jas.2.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.3.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.5.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Jas.2.11"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ps.51.4"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0266"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0458"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3847"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5302"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1777"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2403"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H5771"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6588"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.51.4"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ps.51.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1John.3.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.5.13"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.3.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Jas.2.11"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek composite interlinear citations and ETCBC-BHSA syntax citations are CC-BY-NC-4.0, which the license guard treats as non-redistributable for bulk publication. The morphology, lexicon, OpenBible cross-reference, and TSK sources are individually redistributable, but the aggregate is unsafe because of the two non-commercial sources."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

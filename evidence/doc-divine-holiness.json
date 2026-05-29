@@ -1,0 +1,493 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-divine-holiness",
+  "question_id": "doc-divine-holiness",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The adjective qadosh (H6918) is predicated of YHWH in dense clusters across Law, Prophets, and Writings (108 tokens in 94 verses, with a heavy Isaianic concentration in the Holy One of Israel formula), and the Greek hagios (G0040, 456 tokens in 241 verses) carries the same predication into the New Testament. The Trisagion in Isa.6.3 repeats qadosh three times, the strongest superlative device biblical Hebrew has, paired with YHWH of hosts and the earth filled with his kavod. Lev.11.44 has YHWH self-predicate qadosh and ground Israel's consecration in it, 1Pet.1.16 cites that formula directly with the perfect passive gegraptai and ego hagios, and Rev.4.8 echoes the Trisagion with threefold hagios of kyrios ho theos ho pantokrator. The only reader divergence is which attested sense of the one root leads, separateness and transcendence or moral purity, and the canon supplies both without ranking them, so neither prong is unsupported."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "H6918",
+        "lemma": "קָדוֹשׁ",
+        "transliteration": "qadosh",
+        "occurrences_in_canon": 108,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6942",
+        "lemma": "קָדַשׁ",
+        "transliteration": "qadash",
+        "occurrences_in_canon": 183,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6944",
+        "lemma": "קֹדֶשׁ",
+        "transliteration": "qodesh",
+        "occurrences_in_canon": 438,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3519",
+        "lemma": "כָּבוֹד",
+        "transliteration": "kavod",
+        "occurrences_in_canon": 194,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3068",
+        "lemma": "יְהוָה",
+        "transliteration": "YHWH",
+        "occurrences_in_canon": 6828,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6635",
+        "lemma": "צָבָא",
+        "transliteration": "tsava",
+        "occurrences_in_canon": 455,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0430",
+        "lemma": "אֱלֹהִים",
+        "transliteration": "elohim",
+        "occurrences_in_canon": 2602,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0040",
+        "lemma": "ἅγιος",
+        "transliteration": "hagios",
+        "occurrences_in_canon": 456,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0037",
+        "lemma": "ἁγιάζω",
+        "transliteration": "hagiazo",
+        "occurrences_in_canon": 56,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3841",
+        "lemma": "παντοκράτωρ",
+        "transliteration": "pantokrator",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2962",
+        "lemma": "κύριος",
+        "transliteration": "kyrios",
+        "occurrences_in_canon": 717,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "H6918",
+      "H6942",
+      "H6944",
+      "H3519",
+      "H3068",
+      "H6635",
+      "H0430",
+      "G0040",
+      "G0037",
+      "G0038",
+      "G0041",
+      "G0042",
+      "G2316",
+      "G3841",
+      "G2962"
+    ],
+    "scripture": [
+      {
+        "ref": "Isa.6.3",
+        "key_terms": [
+          {
+            "strong": "H6918",
+            "lemma": "קָדוֹשׁ"
+          },
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H6635",
+            "lemma": "צְבָאוֹת"
+          },
+          {
+            "strong": "H3519",
+            "lemma": "כָּבוֹד"
+          }
+        ],
+        "force": "Direct query of the Hebrew tokens confirms qadosh (H6918) occurs three consecutive times, then YHWH tsevaoth (the Lord of hosts), then the whole earth full of his kavod (glory). Threefold repetition is the strongest superlative construction available in biblical Hebrew, far stronger than the doubled form, and here it elevates the predicate to a unique maximal degree. The hosts term binds holiness to majestic transcendence and the kavod clause to manifest glory, so both prongs of the proposition stand on one verse.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": "Isa.6.3"
+      },
+      {
+        "ref": "Lev.11.44",
+        "key_terms": [
+          {
+            "strong": "H6918",
+            "lemma": "קָדוֹשׁ"
+          },
+          {
+            "strong": "H6942",
+            "lemma": "הִתְקַדֵּשׁ"
+          },
+          {
+            "strong": "H3068",
+            "lemma": "יְהוָה"
+          },
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          }
+        ],
+        "force": "YHWH self-predicates qadosh (ani YHWH eloheikem, qadosh ani) and uses it as the ground for Israel's consecration through qadash in the reflexive hithpael (vehitqaddishtem), so the people's holiness is derived from the divine predicate, not from human achievement. The first-person identity formula ties the moral-purity dimension directly to the divine name. The token order was verified against the Hebrew text.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": "Lev.11.44"
+      },
+      {
+        "ref": "1Pet.1.15",
+        "key_terms": [
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          },
+          {
+            "strong": "G0391",
+            "lemma": "ἀναστροφή"
+          }
+        ],
+        "force": "Direct query shows hagios applied first to ton kalesanta (the One who called, kaleo aorist participle, accusative masculine singular agreeing with the caller) and then hagioi to the called community in all their anastrophe (conduct). The ethical imperative is grounded in the holiness of the caller, who in context is God. The morphology was confirmed: hagion is A-ASM appositional to the caller.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.1.15"
+      },
+      {
+        "ref": "1Pet.1.16",
+        "key_terms": [
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          },
+          {
+            "strong": "G1125",
+            "lemma": "γράφω"
+          }
+        ],
+        "force": "Confirmed by query: the citation formula gegraptai (grapho, perfect passive indicative, it stands written) introduces the Leviticus statement, hagioi esesthe (you shall be holy), with God in the first person, hoti ego hagios (because I am holy). The perfect passive treats the Torah text as standing canonical authority, and the people's commanded holiness is tied back to the divine self-predicate.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1Pet.1.16"
+      },
+      {
+        "ref": "Rev.4.8",
+        "key_terms": [
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          },
+          {
+            "strong": "G2962",
+            "lemma": "κύριος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3841",
+            "lemma": "παντοκράτωρ"
+          }
+        ],
+        "force": "Direct query confirms hagios (G0040, nominative masculine singular) three consecutive times, predicated of kyrios ho theos ho pantokrator (Lord God Almighty), then extended by the eternity formula of the one who was and is and is to come. The threefold Greek repetition mirrors the Hebrew Trisagion of Isa.6.3, carrying the Hebrew superlative-by-repetition device into Greek. The acclamation has no rest (anapausin ouk echousin), binding holiness to perpetual worship, aseity, and omnipotence.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "Rev.4.8"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Isa.6.3",
+        "to": "Exod.15.11",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.6.3",
+        "to": "Isa.11.9",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.6.3",
+        "to": "Rev.4.8",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.6.3",
+        "to": "Num.14.21",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Lev.11.44",
+        "to": "Exod.20.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Lev.11.44",
+        "to": "Lev.20.26",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Lev.11.44",
+        "to": "1Pet.1.15",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.16",
+        "to": "Lev.19.2",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.1.16",
+        "to": "Lev.11.44",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Rev.4.8",
+        "to": "Rev.15.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Isa.6.3",
+        "to": "Exod.15.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Lev.11.44",
+        "to": "Lev.10.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.4.8",
+        "to": "Isa.6.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.4.8",
+        "to": "Rev.1.8",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Hos.11.9",
+        "addressed": true,
+        "resolution": "Direct query confirms qadosh (H6918) occurs once in Hos.11.9, and the surrounding tokens carry the sense that God will not execute the fierceness of his anger because he is God and not man, the qadosh in Israel's midst. This complicates any reading of holiness as bare retributive severity, but it confirms the predication of qadosh to God and shows that holiness can ground mercy that restrains wrath. The verdict (holiness as set-apartness in moral purity and majestic transcendence) is preserved and enriched, not weakened."
+      },
+      {
+        "ref": "Isa.57.15",
+        "addressed": true,
+        "resolution": "Direct query confirms qadosh occurs twice in Isa.57.15. The high and lofty one who inhabits eternity, whose name is qadosh, dwells with the contrite and lowly. This holds transcendence (high and lofty, inhabiting eternity) and moral nearness together in one verse, so the two attested senses of the root are not rivals but complementary. Both prongs of the proposition are supported with no tension."
+      },
+      {
+        "ref": "1Sam.2.2",
+        "addressed": true,
+        "resolution": "Query confirms qadosh predicated of God in Hannah's song (there is none qadosh like YHWH). This is a Writings-section witness outside the cult and the prophets, showing the predication is not confined to liturgical or priestly contexts. It strengthens rather than complicates the verdict, included to show the canon spread is genuine and not narrow."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The anchor verses are not in the ingested ECM window (3 John 1.1 to 1.15), so no CBGM apparatus was examined; not_in_ecm_scope is honestly recorded. The bundle carried zero variant units for these verses. The threefold hagios in Rev.4.8 is textually stable across the witnesses queried; the minor known variation in the en, on, and erchomenos clause ordering does not touch the predication of holiness, so the verdict is variant-robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "biblical_theology"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "holiness_as_transcendent_separateness",
+        "verdict": "affirms",
+        "rationale": "The root q-d-sh in its strongest sense means set apart, other, separated from the common. On this reading Isa.6.3 with YHWH of hosts and the glory filling the earth, and Rev.4.8 with Almighty and the eternity formula, foreground God's majestic otherness and transcendence. This lens reads holiness primarily as ontological distance, and it is well grounded in the term and the contexts."
+      },
+      {
+        "framework": "holiness_as_moral_purity",
+        "verdict": "affirms",
+        "rationale": "The same root grounds ethical imperatives: Lev.11.44 and 1Pet.1.15-16 derive the people's commanded purity of conduct from God's own holiness, and Isa.57.15 ties holiness to dwelling with the contrite. On this reading holiness is primarily moral, the perfection that cannot tolerate sin. This lens is equally well grounded; the vocabulary itself does not rank the two senses, which is why fair readers can foreground either."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads Lev.11.44 as covenantal holiness predicated on YHWH's own holiness, with 1Pet.1.15-16 extending the predication into the new-covenant community through the citation formula. The canonical chain of qadosh into hagios supports this."
+      },
+      {
+        "framework": "biblical_theology",
+        "verdict": "affirms",
+        "rationale": "Traces qadosh from the Sinai cult through prophetic theophany (Isa.6) to apocalyptic liturgy (Rev.4.8), seeing one canonical predicate of God developed across successive contexts and carried from Hebrew into Greek by the same superlative-by-repetition device."
+      }
+    ],
+    "notes": "The proposition is not framework-sensitive at the verdict level: every defensible lens affirms it. The only real divergence is which attested sense of the one root (separateness/transcendence versus moral purity) a reader foregrounds, and the canon supplies both. Both transcendence lens and moral-purity lens are stated in their strongest form so neither is strawmanned."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem describes a lexical predication (qadosh, hagios) applied to God across the canon, with two named prongs (moral purity and majestic transcendence) that are both attested senses of the underlying Hebrew root and its Greek counterpart. It does not assume any tradition-specific taxonomy or smuggle a denominational conclusion. The verdict is derived from the queried distribution and morphology, not from the stem's phrasing."
+  },
+  "lay_summary": "The claim that God is utterly holy, set apart in moral purity and majestic transcendence, rests on a dense and pan-canonical word pattern that the lexical data confirms directly. In Hebrew the adjective qadosh (H6918) is applied to God in 108 places across 94 verses, spread through the Law, the Prophets, and the Writings, with a heavy concentration in Isaiah and the recurring title Holy One of Israel. In Isaiah 6:3 a query of the Hebrew text shows qadosh repeated three times in a row. That threefold repetition is the strongest intensifier biblical Hebrew has, stronger than simply doubling a word, and here it is joined to the Lord of hosts and to the glory that fills the earth, which is why the one verse carries both transcendence and majesty. In Leviticus 11:44 God says of himself that he is holy and makes that the reason his people must consecrate themselves, so human holiness is derived from God's, not the other way around. The Greek word hagios (G0040) carries the same idea into the New Testament in 456 places across 241 verses. First Peter 1:16 quotes the Leviticus line word for word with a formula meaning it stands written, and Revelation 4:8 repeats hagios three times of the Lord God Almighty, mirroring Isaiah in Greek. Where do readers diverge? Only on which of two real senses of the same root leads. The root can mean set apart and other (transcendence) or pure and unable to tolerate sin (moral purity), and the words themselves do not rank these. Texts like Hosea 11:9 and Isaiah 57:15 show God's holiness grounding mercy and nearness to the lowly, not only severity, holding both senses together. Because both senses are attested and neither contradicts the other, the verdict is a high-confidence yes on both prongs.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H6918"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0040"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.6.3"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.11.44"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.1.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.1.16"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rev.4.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Isa.6.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Lev.11.44"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Rev.4.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

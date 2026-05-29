@@ -1,0 +1,629 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-church-discipline",
+  "question_id": "prc-church-discipline",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The corrective process is carried by an actual command verb, elegcho (reprove, convict) in the aorist imperative elegxon at Matt 18:15, a verb attested 17 times across Gospel, Pauline, Pastoral, General epistle, and Revelation, and rooted in the Septuagint of Lev 19:17 (Hebrew yakach), so the reproof command is pan-canonical. Matt 18:15-17 then builds a graduated ladder through repeated conditional protases ean me akouse, widening from privacy to two or three witnesses to eipe te ekklesia (tell the assembly) to treating the unrepentant as an outsider. 1Cor 5:13 enacts removal with the imperative exarate (a New Testament hapax) that quotes the recurring Deuteronomic purge formula (Deut 17:7 and parallels), and the assembly judges insiders (krinete). The restorative aim is lexically explicit: katartizo (mend, restore) at Gal 6:1, noutheteo (admonish as a brother) at 2Thess 3:15, the salvation purpose clause at 1Cor 5:5, and the reaffirm-love command kuroo at 2Cor 2:8. Both halves of the proposition, ordered confrontation and restorative aim, are grounded in dense recurring vocabulary, so it is affirmed."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1651",
+        "lemma": "ἐλέγχω",
+        "transliteration": "elegcho",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0191",
+        "lemma": "ἀκούω",
+        "transliteration": "akouo",
+        "occurrences_in_canon": 452,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1437",
+        "lemma": "ἐάν",
+        "transliteration": "ean",
+        "occurrences_in_canon": 374,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 119,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1417",
+        "lemma": "δύο",
+        "transliteration": "duo",
+        "occurrences_in_canon": 140,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2919",
+        "lemma": "κρίνω",
+        "transliteration": "krino",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1808",
+        "lemma": "ἐξαίρω",
+        "transliteration": "exairo",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4874",
+        "lemma": "συναναμίγνυμι",
+        "transliteration": "sunanamignumi",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2219",
+        "lemma": "ζύμη",
+        "transliteration": "zume",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4205",
+        "lemma": "πόρνος",
+        "transliteration": "pornos",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2675",
+        "lemma": "καταρτίζω",
+        "transliteration": "katartizo",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3560",
+        "lemma": "νουθετέω",
+        "transliteration": "noutheteo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3868",
+        "lemma": "παραιτέομαι",
+        "transliteration": "paraiteomai",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0080",
+        "lemma": "ἀδελφός",
+        "transliteration": "adelphos",
+        "occurrences_in_canon": 361,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3198",
+        "lemma": "יָכַח",
+        "transliteration": "yakach",
+        "occurrences_in_canon": 56,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1651",
+      "G0191",
+      "G1437",
+      "G1577",
+      "G1417",
+      "G2919",
+      "G1808",
+      "G4874",
+      "G2219",
+      "G4205",
+      "G2675",
+      "G3560",
+      "G3868",
+      "G0080",
+      "H3198"
+    ],
+    "scripture": [
+      {
+        "ref": "Matt.18.15",
+        "key_terms": [
+          {
+            "strong": "G1651",
+            "lemma": "ἐλέγχω"
+          },
+          {
+            "strong": "G1437",
+            "lemma": "ἐάν"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The corrective process is named by a command verb. The aorist imperative elegxon (reprove him) gives the action, the locative metaxu sou kai autou monou (between you and him alone) limits step one to private confrontation, and the conditional ean sou akouse (if he listens to you) sets the success condition that ends the matter at ekerdesas ton adelphon sou (you have gained your brother). The aim word is gain, not punishment, and elegcho is the same verb the Septuagint uses at Lev 19:17.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.16",
+        "key_terms": [
+          {
+            "strong": "G1417",
+            "lemma": "δύο"
+          },
+          {
+            "strong": "G1437",
+            "lemma": "ἐάν"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          }
+        ],
+        "force": "The second step widens the circle conditionally. The protasis ean de me akouse (but if he does not listen) triggers paralabe meta sou eti hena e duo (take with you one or two more), and the purpose clause cites the Deuteronomic epi stomatos duo marturon e trion (on the word of two or three witnesses). The escalation is explicitly conditioned on prior failure, establishing a graduated sequence rather than parallel options.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.18.17",
+        "key_terms": [
+          {
+            "strong": "G1437",
+            "lemma": "ἐάν"
+          },
+          {
+            "strong": "G0191",
+            "lemma": "ἀκούω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "The third and fourth steps complete the ladder. A further conditional ean de parakouse auton (if he refuses to listen to them) escalates to eipe te ekklesia (tell the assembly), naming the ekklesia as the disciplining body, and a final ean de kai tes ekklesias parakouse (if he refuses even to listen to the assembly) yields esto soi hosper ho ethnikos kai ho telones (let him be to you as the outsider and tax collector). The repeated conditional chain is the lexical backbone of the four-stage progression.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Lev.19.17",
+        "key_terms": [
+          {
+            "strong": "H3198",
+            "lemma": "יָכַח"
+          }
+        ],
+        "force": "The Old Testament root of corrective reproof. The infinitive absolute plus finite verb hokeach tokiach et amitecha (you shall surely reprove your neighbor) places reproof inside the love command of the holiness code, set against lo tisna et achicha (you shall not hate your brother). The Septuagint renders the Hebrew yakach with elegcho, the very verb commanded at Matt 18:15, so the corrective process is anchored in the law and is not a New Testament novelty.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.13",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          },
+          {
+            "strong": "G1808",
+            "lemma": "ἐξαίρω"
+          }
+        ],
+        "force": "The terminal removal step is enacted. The imperative exarate ton poneron ex humon auton (remove the wicked person from among you) is a New Testament hapax that directly quotes the recurring Deuteronomic purge formula, and tous eso humeis krinete (you judge those inside) distinguishes internal accountability from outsiders. This matches the Matt 18 endpoint where the unrepentant is treated as outside the community.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.6",
+        "key_terms": [
+          {
+            "strong": "G2219",
+            "lemma": "ζύμη"
+          }
+        ],
+        "force": "The rationale for removal is given through a leaven figure. Mikra zume holon to phurama zumoi (a little leaven leavens the whole lump) frames unaddressed sin as spreading corruption, supplying the protective and corporate purpose of discipline rather than vindictiveness.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.11",
+        "key_terms": [
+          {
+            "strong": "G4874",
+            "lemma": "συναναμίγνυμι"
+          },
+          {
+            "strong": "G4205",
+            "lemma": "πόρνος"
+          }
+        ],
+        "force": "The social form of removal is specified. Me sunanamignusthai (not to associate) and to toiouto mede sunesthiein (not even to eat with such a one) define the boundary placed on an unrepentant member named as a brother, paralleling the outsider language of Matt 18:17.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.5.5",
+        "key_terms": [
+          {
+            "strong": "G2919",
+            "lemma": "κρίνω"
+          }
+        ],
+        "force": "The severest action is framed by a salvation purpose. Paradounai ton toiouton to Satana eis olethron tes sarkos (deliver such a one to Satan for the destruction of the flesh) is governed by the hina clause hina to pneuma sothe en te hemera tou kuriou (that the spirit may be saved in the day of the Lord), so even handing over has a restorative end stated in the grammar.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.7",
+        "key_terms": [
+          {
+            "strong": "G3870",
+            "lemma": "παρακαλέω"
+          }
+        ],
+        "force": "Discipline is shown closing in restoration. After the epitimia (punishment) of 2Cor 2:6, the verbs charisasthai (forgive) and parakalesai (comfort, urge), with the warning lest such a one be swallowed by excessive sorrow, command the assembly to receive the now-repentant person back. The cycle from removal to reinstatement makes the restorative aim explicit in apostolic practice.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.2.8",
+        "key_terms": [
+          {
+            "strong": "G2964",
+            "lemma": "κυρόω"
+          }
+        ],
+        "force": "The restoration is sealed by a command to love. Kurosai eis auton agapen (reaffirm your love for him) uses kuroo, a ratifying verb, with agape, directing the body to formally confirm love toward the restored member. This is the strongest single lexical proof that the disciplinary process aims at recovery, not mere expulsion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.14",
+        "key_terms": [
+          {
+            "strong": "G4874",
+            "lemma": "συναναμίγνυμι"
+          }
+        ],
+        "force": "The same withdrawal verb recurs. Me sunanamignusthai auto, hina entrape (do not associate with him, that he may be ashamed) ties the disciplinary distance to a corrective and not destructive goal, the verb entrepo signaling intended shame leading to change.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Thess.3.15",
+        "key_terms": [
+          {
+            "strong": "G3560",
+            "lemma": "νουθετέω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The disposition of discipline is stated directly. Kai me hos echthron hegeisthe alla noutheteite hos adelphon (yet do not regard him as an enemy, but admonish him as a brother) uses noutheteo, a verb of corrective instruction, and the persistent label adelphos shows the disciplined person is still treated as family, making the restorative and loving aim explicit.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.6.1",
+        "key_terms": [
+          {
+            "strong": "G2675",
+            "lemma": "καταρτίζω"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "The restorative manner is lexically anchored. Katartizete ton toiouton en pneumati prautetos (restore such a one in a spirit of gentleness) uses katartizo, a mending and setting-right verb used elsewhere of mending nets and being made complete, with prautes (gentleness), and skopon seauton (watching yourself) guards against harshness. This directly supports the in love for repentance and restoration clause of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.10",
+        "key_terms": [
+          {
+            "strong": "G3868",
+            "lemma": "παραιτέομαι"
+          }
+        ],
+        "force": "A second graduated micro-sequence appears for the divisive person. Hairetikon anthropon meta mian kai deuteran nouthesian paraitou (after a first and second admonition, reject a factious person) gives two warnings, built on the nouthesia (admonition) cognate of noutheteo, before the imperative paraitou (have nothing more to do with), echoing the patient escalation of Matt 18 on a smaller scale.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Matt.18.15",
+        "to": "Lev.19.17",
+        "source": "openbible",
+        "votes": 45
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Gal.6.1",
+        "source": "openbible",
+        "votes": 32
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "Luke.17.3",
+        "source": "openbible",
+        "votes": 30
+      },
+      {
+        "from": "Matt.18.15",
+        "to": "2Thess.3.15",
+        "source": "openbible",
+        "votes": 28
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "2Thess.3.6",
+        "source": "openbible",
+        "votes": 12
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "1Cor.5.9",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Matt.18.17",
+        "to": "2Cor.2.6",
+        "source": "openbible",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "Deut.17.7",
+        "source": "openbible",
+        "votes": 21
+      },
+      {
+        "from": "1Cor.5.13",
+        "to": "Matt.18.17",
+        "source": "openbible",
+        "votes": 11
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "2Cor.2.7",
+        "source": "openbible",
+        "votes": 27
+      },
+      {
+        "from": "Gal.6.1",
+        "to": "Ezek.34.16",
+        "source": "openbible",
+        "votes": 24
+      },
+      {
+        "from": "Titus.3.10",
+        "to": "Rom.16.17",
+        "source": "openbible",
+        "votes": 26
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.5.5",
+        "addressed": true,
+        "resolution": "Paradounai ton toiouton to Satana eis olethron tes sarkos (deliver such a one to Satan for the destruction of the flesh) can read as purely punitive, but the purpose clause hina to pneuma sothe en te hemera tou kuriou (that the spirit may be saved in the day of the Lord) names salvation as the goal, keeping even the severest action within the restorative frame the proposition asserts."
+      },
+      {
+        "ref": "Matt.18.17",
+        "addressed": true,
+        "resolution": "Hosper ho ethnikos kai ho telones (as the outsider and tax collector) might be heard as final and unloving rejection, but it marks a change of standing rather than a closed door, since the same Gospel records Jesus eating with tax collectors and the parallel restoration commands in Gal 6:1, 2Thess 3:15, and 2Cor 2:7-8 show the community still seeks and reinstates the person, so the loving and restorative aim is preserved."
+      },
+      {
+        "ref": "1Cor.5.13",
+        "addressed": true,
+        "resolution": "The removal command exarate is a New Testament hapax, so the verb alone supplies no other Greek context to calibrate the exact form and extent of removal. The sense is nonetheless secured two ways: the verse quotes the recurring Old Testament purge formula (Deut 17:7 and parallels), which fixes the meaning as decisive separation from the community, and the surrounding krino and sunanamignumi language defines the act as withholding fellowship from an unrepentant member. The hapax limits granularity, not the basic fact of commanded removal."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No CBGM variant units were supplied for these passages and the anchors fall outside the ingested ECM window (3 John). The apparatus markers visible in the anchor verses, for example the bracketed eis se in Matt 18:15 and word-order notes in 1Cor 5 and 2Thess 3, touch wording but none alter the elegcho command, the graduated-step conditional chain, the removal imperative, or the restorative purpose clauses, so the verdict is variant robust."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "grammatico-historical",
+        "verdict": "affirms",
+        "rationale": "The command verb elegcho at Matt 18:15, the repeated conditional protases that build the four-stage ladder, the removal imperative exarate at 1Cor 5:13, and the restoration verbs katartizo, noutheteo, and kuroo across Gal 6, 2Thess 3, and 2Cor 2 yield a graduated, restoration-aimed discipline pattern on the plain sense of the syntax."
+      },
+      {
+        "framework": "redemptive-historical (law-to-gospel continuity)",
+        "verdict": "affirms",
+        "rationale": "Reading the texts along the covenant arc, the corrective reproof commanded in the holiness code at Lev 19:17 (yakach, rendered elegcho in the Septuagint) and the Deuteronomic purge formula quoted at 1Cor 5:13 carry forward into the assembly, so church discipline is the new-covenant form of an established Old Testament practice rather than a fresh institution. This lens reads the same data and likewise affirms."
+      },
+      {
+        "framework": "restorative-primacy reading",
+        "verdict": "affirms with emphasis on aim over mechanism",
+        "rationale": "A reader who weights the goal clauses most heavily notes that gaining the brother (Matt 18:15), the salvation purpose (1Cor 5:5), gentle restoring (Gal 6:1), admonishing as a brother (2Thess 3:15), and reaffirming love (2Cor 2:8) dominate the vocabulary, so they affirm corrective discipline while stressing that the lexical center of gravity is recovery, and that the removal step is the servant of restoration, not an end in itself. This is a difference of emphasis, not a contradicting verdict."
+      }
+    ],
+    "notes": "The verdict rests on the analogy of Scripture and on progressive revelation: the reproof command is rooted in Lev 19:17, the witness rule and purge formula in Deuteronomy, the graduated steps in Matt 18, the terminal removal in 1Cor 5, the withdrawal mechanic in 2Thess 3, and the explicit restorative disposition in Gal 6:1, 2Thess 3:15, and 2Cor 2:7-8. No covenantal-arc move overturns the plain-sense reading; it reinforces it. The competing lenses differ only in emphasis, all affirming."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Describe how the Old and New Testament texts on confronting a sinning member relate to one another regarding the sequence of steps, the aim of the confrontation, and the disposition of those carrying it out.",
+    "notes": "The stem packages a specific four-stage ordering (private, small-group, assembly, removal) plus a stated motive (in love for repentance and restoration) into one proposition, which presumes both the sequence and the motive before testing them. The verdict was derived on the original stem, but each component was checked independently against queried data: the command verb elegcho stands at Matt 18:15, the four-stage conditional chain runs through Matt 18:15-17 with ekklesia named at v17, removal by the hapax exairo at 1Cor 5:13, and the loving and restorative motive by katartizo (Gal 6:1), noutheteo (2Thess 3:15), the salvation hina clause (1Cor 5:5), and kuroo agapen (2Cor 2:8). Affirms is unchanged from the prior file; the enrichment corrected the prior anchor set, which had under-recorded the actual command and removal verbs, and added the Old Testament root, but the verdict did not change."
+  },
+  "lay_summary": "The proposition makes two claims the Greek and Hebrew text let us check separately. First, that confrontation moves through ordered stages. Matthew 18:15 opens with an actual command word, reprove him, the same verb the Greek Old Testament uses in Leviticus 19:17, you shall surely reprove your neighbor, where reproof sits inside the law of loving your neighbor. From there Matthew builds a ladder out of if clauses. If he does not listen privately, take one or two others. If he still refuses, tell the assembly. If he refuses even the assembly, treat him as an outsider. Each rung is triggered only when the previous one fails, so the sequence is genuinely graduated, not a menu of equal options. First Corinthians 5 carries out the final rung with a direct command to remove the wicked person, a verb that appears only once in the New Testament but openly quotes the Old Testament purge from your midst formula, and adds not to associate or even eat with an unrepentant member. Second Thessalonians 3 uses the same withdrawal verb for the disorderly. Second, the proposition says discipline is done in love for repentance and restoration, and the words say this plainly and often. Matthew calls the goal gaining your brother. First Corinthians 5 says the severe step is so the person may be saved in the end. Galatians 6:1 commands restoring such a one gently, using a mending word. Second Thessalonians 3:15 says do not treat him as an enemy but admonish him as a brother, and the word brother keeps being used for the disciplined person. Second Corinthians 2 completes the cycle, telling the assembly to forgive, comfort, and reaffirm their love so the restored person is not crushed by sorrow. The one place the words leave less detail is the exact extent of removal, because that command verb occurs only once, but its Old Testament source still fixes the meaning. Across law, Gospel, and four letters the same shape repeats, with no manuscript variation disturbing either the ordered steps or the restoring purpose, so on the lexical evidence both halves of the claim hold together.",
+  "citations": [
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.18.15"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1651"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1808"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gal.6.1"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Cor.2.8"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Lev.19.17"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3198"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Matt.18.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.5.13"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek interlinear data is licensed CC-BY-NC-4.0, which does not permit bulk redistribution, so the aggregated evidence is not safe to publish even though the STEPBible, MorphGNT, OSHB, and OpenBible sources are individually redistributable."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

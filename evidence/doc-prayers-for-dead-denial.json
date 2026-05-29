@@ -1,0 +1,666 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-prayers-for-dead-denial",
+  "question_id": "doc-prayers-for-dead-denial",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Four lexical patterns converge on the denial. Hebrews 9:27 sets death and judgment in an appointed sequence with apokeitai, is laid up or reserved, plus hapax, once, then meta touto krisis, after this judgment, so the post-mortem stage is adjudication not adjustment. Luke 16:26 fixes the gulf with esteriktai, perfect passive of sterizo marking a settled standing state, around the hapax legomenon chasma, with crossing declared impossible in both directions. Second Samuel 12:23 has David cease intercessory fasting at the child's death, reasoning the direction is one-way with shuv. Paul's immediacy texts, ekdemesai ek tou somatos kai endemesai pros ton kyrion in 2 Cor 5:8 and analusai kai sun Christo einai in Phil 1:23, place the believer with the Lord at death without an intermediate alterable phase. The proposition is held with medium rather than high confidence because 2 Tim 1:18 has Paul utter an optative wish-prayer doe for Onesiphorus seeking eleos en ekeine te hemera, and the Protestant-canon corpus this query traverses does not include 2 Maccabees 12:44-46, the principal text outside this canon scope for the contrary practice."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0606",
+        "lemma": "ἀπόκειμαι",
+        "transliteration": "apokeimai",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0530",
+        "lemma": "ἅπαξ",
+        "transliteration": "hapax",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0599",
+        "lemma": "ἀποθνῄσκω",
+        "transliteration": "apothnesko",
+        "occurrences_in_canon": 112,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2920",
+        "lemma": "κρίσις",
+        "transliteration": "krisis",
+        "occurrences_in_canon": 48,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5490",
+        "lemma": "χάσμα",
+        "transliteration": "chasma",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4741",
+        "lemma": "στηρίζω",
+        "transliteration": "sterizo",
+        "occurrences_in_canon": 12,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3342",
+        "lemma": "μεταξύ",
+        "transliteration": "metaxy",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1224",
+        "lemma": "διαβαίνω",
+        "transliteration": "diabaino",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1276",
+        "lemma": "διαπεράω",
+        "transliteration": "diaperao",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1553",
+        "lemma": "ἐκδημέω",
+        "transliteration": "ekdemeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1736",
+        "lemma": "ἐνδημέω",
+        "transliteration": "endemeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0360",
+        "lemma": "ἀναλύω",
+        "transliteration": "analuo",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1325",
+        "lemma": "δίδωμι",
+        "transliteration": "didomi",
+        "occurrences_in_canon": 415,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1656",
+        "lemma": "ἔλεος",
+        "transliteration": "eleos",
+        "occurrences_in_canon": 27,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2250",
+        "lemma": "ἡμέρα",
+        "transliteration": "hemera",
+        "occurrences_in_canon": 389,
+        "in_anchors": false
+      },
+      {
+        "strong": "H6684",
+        "lemma": "צוּם",
+        "transliteration": "tsum",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7725",
+        "lemma": "שׁוּב",
+        "transliteration": "shuv",
+        "occurrences_in_canon": 1075,
+        "in_anchors": true
+      },
+      {
+        "strong": "H4191",
+        "lemma": "מוּת",
+        "transliteration": "muth",
+        "occurrences_in_canon": 839,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2416A",
+        "lemma": "חַי",
+        "transliteration": "chay",
+        "occurrences_in_canon": 228,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7585",
+        "lemma": "שְׁאוֹל",
+        "transliteration": "sheol",
+        "occurrences_in_canon": 66,
+        "in_anchors": false
+      },
+      {
+        "strong": "H3045",
+        "lemma": "יָדַע",
+        "transliteration": "yada",
+        "occurrences_in_canon": 947,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0606",
+      "G0530",
+      "G0599",
+      "G2920",
+      "G5490",
+      "G4741",
+      "G3342",
+      "G1224",
+      "G1276",
+      "G1553",
+      "G1736",
+      "G0360",
+      "G1325",
+      "G1656",
+      "G2250",
+      "H6684",
+      "H7725",
+      "H4191",
+      "H2416A",
+      "H5750",
+      "H3206",
+      "H7585"
+    ],
+    "scripture": [
+      {
+        "ref": "Heb.9.27",
+        "key_terms": [
+          {
+            "strong": "G0606",
+            "lemma": "ἀπόκειμαι"
+          },
+          {
+            "strong": "G0530",
+            "lemma": "ἅπαξ"
+          },
+          {
+            "strong": "G0599",
+            "lemma": "ἀποθνῄσκω"
+          },
+          {
+            "strong": "G2920",
+            "lemma": "κρίσις"
+          }
+        ],
+        "force": "The clause sets death and judgment in a fixed appointed order. Apokeitai, present passive of apokeimai, is laid up or reserved for, governs the human lot, qualified by hapax, once, with apothanein, to die, then the adversative continuation meta touto krisis, and after this judgment. The single appointed death is followed by adjudication, not by a further window for revising the deceased state, so the lexical force is finality of the post-mortem condition. Apokeitai occurs only four times in the canon (here, 2 Tim 4:8 the crown of righteousness, Col 1:5 the hope laid up in heaven, Luke 19:20 the mina laid up in a cloth), and each occurrence carries the sense of something set aside in a fixed reserved state.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.16.26",
+        "key_terms": [
+          {
+            "strong": "G5490",
+            "lemma": "χάσμα"
+          },
+          {
+            "strong": "G4741",
+            "lemma": "στηρίζω"
+          },
+          {
+            "strong": "G3342",
+            "lemma": "μεταξύ"
+          },
+          {
+            "strong": "G1224",
+            "lemma": "διαβαίνω"
+          },
+          {
+            "strong": "G1276",
+            "lemma": "διαπεράω"
+          }
+        ],
+        "force": "Within the narrative on the lips of Abraham, chasma mega, a great chasm, the only canonical occurrence of chasma (hapax legomenon), stands metaxy, between the two states, and is esteriktai, perfect passive of sterizo, has been fixed and remains fixed. The perfect tense marks a settled completed standing state still in force. Two verbs negate passage in both directions, hopos hoi thelontes diabenai me dynontai and mede ekeithen diaperosin, so that those wishing to cross cannot, and none cross from there. The lexis encodes an irreversible separation after death, and the immediately following request from the dead rich man for Lazarus to be sent to his living brothers is denied, showing post-mortem petitions themselves do not effect a change.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Sam.12.22",
+        "key_terms": [
+          {
+            "strong": "H2416A",
+            "lemma": "חַי"
+          },
+          {
+            "strong": "H6684",
+            "lemma": "צוּם"
+          },
+          {
+            "strong": "H5750",
+            "lemma": "עוֹד"
+          }
+        ],
+        "force": "David explains his prior practice with the temporal clause beod hayyeled chay, while the child was still alive, paired with tsamti waevkeh, I fasted and wept. The fasting and weeping, the active entreaty to God on the child's behalf, are bounded by the child's living state. The Hebrew ties intercession to the period before death, setting up the contrast in the next verse.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Sam.12.23",
+        "key_terms": [
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          },
+          {
+            "strong": "H6684",
+            "lemma": "צוּם"
+          },
+          {
+            "strong": "H7725",
+            "lemma": "שׁוּב"
+          }
+        ],
+        "force": "With the child now met, dead, David asks lammah zeh ani tsam, why should I now fast, and answers with the rhetorical haukal lahashivo od, can I bring him back again. The verb shuv, to return or bring back, frames the irreversibility. The closing ani holek elav wehu lo yashuv elay, I am going to him but he will not return to me, makes the direction one-way. David ceases all intercession at death, treating the dead one's state as no longer subject to his entreaty.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.5.8",
+        "key_terms": [
+          {
+            "strong": "G1553",
+            "lemma": "ἐκδημέω"
+          },
+          {
+            "strong": "G1736",
+            "lemma": "ἐνδημέω"
+          }
+        ],
+        "force": "Paul writes ekdemesai ek tou somatos kai endemesai pros ton kyrion, to be away from the body and at home with the Lord. The verbs are aorist infinitives, ekdemeo to be away from one's people, endemeo to be at home with one's people, in a contrastive pair. The clause posits a direct transition from bodily life to presence with the Lord, with no intervening alterable phase named. The lexis leaves no slot for a post-mortem state subject to petition from the living.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.1.23",
+        "key_terms": [
+          {
+            "strong": "G0360",
+            "lemma": "ἀναλύω"
+          },
+          {
+            "strong": "G2908",
+            "lemma": "κρείσσων"
+          }
+        ],
+        "force": "Paul says analusai kai sun Christo einai, to depart and be with Christ, in a single coordinated infinitive pair governed by epithymian echon, having desire. Analuo, to loose or depart, joined by kai to sun Christo einai, presents departure as immediately conjoined to being with Christ. The comparative pollo gar mallon kreisson, for it is by far better, ranks this state over remaining in the flesh. The grammar offers no temporal gap or alterable intermediate condition, reinforcing the immediacy pattern.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eccl.9.5",
+        "key_terms": [
+          {
+            "strong": "H4191",
+            "lemma": "מוּת"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יָדַע"
+          }
+        ],
+        "force": "The metim einam yodeim meumah, the dead know nothing, and the absence of further sakar, reward or wage, in the under-the-sun perspective of Qoheleth, bound the active engagement of the deceased with the living world. Within the genre's horizon, the dead do not transact, which leaves no addressee within history for the living's entreaty on their behalf to alter. The text is hyperbole within Qoheleth's frame but contributes to the canon's silence about reciprocal post-mortem petition.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [
+          "hyperbole"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Isa.38.18",
+        "key_terms": [
+          {
+            "strong": "H7585",
+            "lemma": "שְׁאוֹל"
+          },
+          {
+            "strong": "H4194",
+            "lemma": "מָוֶת"
+          }
+        ],
+        "force": "Hezekiah's psalm says ki lo sheol todeka mavet yehalleleka, for Sheol does not thank you, death does not praise you, with sheol and mavet as the subjects of negated verbs of praise and acknowledgement. The lexis denies an active Godward exchange from Sheol within this prayer's frame. This belongs to the OT pattern in which the realm of the dead is silent toward God, which entails no canonical pathway for the living to mediate change there.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Heb.9.27",
+        "to": "Gen.3.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.9.27",
+        "to": "Heb.6.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Sam.12.23",
+        "to": "Gen.37.35",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Sam.12.23",
+        "to": "Job.7.8",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Sam.12.22",
+        "to": "Isa.38.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.16.26",
+        "to": "Luke.12.59",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.16.26",
+        "to": "Luke.16.27",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Phil.1.23",
+        "to": "2Cor.5.8",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Eccl.9.5",
+        "to": "Ps.6.5",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Tim.1.18",
+        "addressed": true,
+        "resolution": "Paul writes doe auto ho kyrios heurein eleos para kyriou en ekeine te hemera, may the Lord grant him to find mercy from the Lord on that Day. The verb doe is tagged V-2AAO-3S in the TAGNT grammar code, aorist active optative third singular, the classical mood of a wish-prayer rather than a directive intercession. The object is eleos, mercy, and the temporal scope is en ekeine te hemera, on that Day, the eschatological judgment Day named hemera elsewhere in the pastoral epistles (e.g. 2 Tim 4:8 with the same apokeitai). The text never states that Onesiphorus is dead. The deceased reading rests on inference from 2 Tim 4:19 greeting his household alone, not on any explicit lexical datum. Even if the deceased reading is granted, the optative seeks future eschatological mercy at the Day of Judgment, which is consistent with finality at death rather than an alteration of any present post-mortem state. The lexis here is genuinely ambiguous about the addressee's living/dead status, which is why the verdict is held at medium not high confidence."
+      },
+      {
+        "ref": "Luke.16.27",
+        "addressed": true,
+        "resolution": "The dead rich man petitions Abraham to send Lazarus to his living brothers, and the petition is denied. The passage thus depicts requests from the post-mortem realm being refused and reinforces, rather than complicates, the finality pattern of verse 26."
+      },
+      {
+        "ref": "2Macc.12.44-46",
+        "addressed": false,
+        "resolution": "This pericope, Judas Maccabeus offering a sin-offering for the slain and the narrator's commendation of prayer for the dead, is the principal text appealed to for the contrary practice. It falls outside the Protestant 66-book canon and therefore outside the lexical store this query traverses (MACULA-Hebrew, MorphGNT, OSHB, STEPBible TAHOT/TAGNT, ETCBC-BHSA all index canonical Hebrew/Greek). The pipeline cannot adjudicate the text directly from indexed morphology and lexicon data. The verdict is therefore canon-scoped, and a reader who accepts the deuterocanon would weigh this passage that this pipeline cannot weigh; the present analysis flags the gap rather than silently absorbing it."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units supplied in the bundle. Luke 16:26 carries minor witness variation in conjunction and pronoun forms marked in the SBLGNT text, but none touches esteriktai, chasma, metaxy, or the negation of crossing, so the verdict on fixity holds across readings. Hebrews 9:27 is textually stable for apokeitai, hapax, and krisis. 2 Tim 1:18 is textually stable for the optative doe (NA28, NA27, Tyn, SBL, WH, Treg, TR, Byz agree per STEPBible TAGNT editions field). ECM data has not been ingested for these books."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "protestant-canon-66",
+      "deuterocanonical-77-or-larger"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "finality-at-death (no warrant for prayers for the dead)",
+        "verdict": "affirms",
+        "rationale": "Within the Protestant 66-book canon, Hebrews 9:27 orders death then judgment with apokeitai and hapax, Luke 16:26 fixes the chasm with the perfect esteriktai and double negation of crossing, 2 Samuel 12:23 has David cease intercession at death with shuv, and 2 Cor 5:8 plus Phil 1:23 set the believer immediately with the Lord at death via ekdemeo/endemeo and analuo/sun Christo einai. The canon contains no verb predicating change of a post-mortem state through living petition, and no narrative example of prayer for the dead succeeding. The proposition follows from the dominant lexical pattern."
+      },
+      {
+        "framework": "prayers-for-the-dead-warranted (contested)",
+        "verdict": "disputed",
+        "rationale": "A reading that admits prayer for the dead leans primarily on three lexical points the words themselves do not foreclose. First, 2 Tim 1:18 has Paul use the wish-prayer optative doe with the object eleos for Onesiphorus, in a passage that never states he is alive; the silence is genuinely ambiguous. Second, the appointed-judgment texts speak to finality at the eschatological Day, not directly to whether the intermediate state is altogether sealed from intercession. Third, the principal positive text appealed to historically, 2 Macc 12:44-46, lies outside the Protestant canon and therefore outside this lexical pipeline's scope; the words themselves are not in view, but a reader who accepts that book has a positive textual basis the pipeline does not survey. The reading is defensible within a wider canon, and the optative in 2 Tim 1:18 keeps the question genuinely contested even within the narrower canon."
+      }
+    ],
+    "notes": "Analogia scripturae links the Hebrew narrative of David ceasing entreaty at death with the Greek epistolary and gospel statements of appointed judgment, a fixed chasm, and immediacy with the Lord. Progressive revelation is mild, the New Testament sharpens the post-mortem topography the Old Testament narrative assumes. The verdict's scope is the 66-book canon the lexical pipeline indexes; a wider-canon framework changes which texts are available to weigh, and the present file flags that boundary explicitly rather than smuggling it."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine whether the Hebrew and Greek of the 66-book canon supplies warrant for prayers offered on behalf of the dead and whether the deceased state is alterable after death or settled at death.",
+    "notes": "The stem phrases lack biblical warrant and the finality of judgment after death is settled at death, which embeds the conclusion. The verdict is derived from the neutral question whether the lexis warrants such prayer or fixes the state, then reported against the original stem. The lexical pattern of appointed judgment, a fixed chasm, immediacy with the Lord, and David's cessation supports the original stem's direction within the canon this pipeline traverses, with the 2 Tim 1:18 optative and the deuterocanonical 2 Macc 12:44-46 (out of scope here) supplying the genuine contestation."
+  },
+  "lay_summary": "Several passages in the Hebrew and Greek canon line up on this point. Hebrews 9:27 says people are appointed to die once, and the verb there means is laid up or reserved, with once, and then after this comes judgment. So the order is death, then a verdict, not death then a window for adjustment. Luke 16:26 puts a great chasm between the two states after death. The word for chasm appears only this once in the whole canon, and the verb for fixed is in a tense that marks a settled, completed, still-standing condition. Two verbs then say crossing is impossible in both directions, and the dead rich man's own request is refused. In 2 Samuel 12, David fasts and weeps while his child is alive, but the moment the child dies he stops, asking whether he can bring the child back, and saying he will go to the child but the child will not return to him. Paul adds two immediacy statements. In 2 Corinthians 5:8 he uses a pair of verbs meaning to be away from the body and at home with the Lord, and in Philippians 1:23 he speaks of departing and being with Christ as one joined event. Read together, the words give no verb for changing a dead person's lot and no example of the living successfully petitioning to do so. The genuine contestation comes from two places. First, in 2 Timothy 1:18 Paul utters a wish-prayer, an optative verb form, asking that Onesiphorus may find mercy on the Day of Judgment, and the text does not say whether Onesiphorus was alive or dead at the time, so the silence cuts both ways. Second, the main passage cited historically for prayer for the dead, 2 Maccabees 12:44 to 46, sits outside the Protestant 66-book canon and therefore outside the corpus this analysis surveys; a reader whose canon includes that book has a text this pipeline does not weigh. Within the canon this pipeline indexes, the lexical weight favors the proposition that the post-mortem state is settled at death, with one ambiguous wish-prayer text and a canon-scope question that keep the matter contested at the edges.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.9.27"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.16.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.1.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.8"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1325"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5490"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4741"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0606"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1553"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0360"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "2Sam.12.23"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Isa.38.18"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eccl.9.5"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7725"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7585"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.16.26"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Heb.9.27"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.9.27"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Phil.1.23"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids commercial bulk redistribution, so the aggregate evidence cannot be published wholesale until that syntactic citation is removed or replaced with a redistributable source."
+  },
+  "flags": [
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

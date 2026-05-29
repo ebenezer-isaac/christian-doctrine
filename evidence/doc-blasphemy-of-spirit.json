@@ -1,0 +1,754 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-blasphemy-of-spirit",
+  "question_id": "doc-blasphemy-of-spirit",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The Synoptic logion frames a universal of forgiveness and then a single named exception. Mark 3.28-29 reads panta aphethesetai (future passive, all sins and blasphemies forgiven) then hos d an blasphemese eis to pneuma to hagion ouk echei aphesin eis ton aiona, alla enochos estin aioniou hamartematos. Matthew 12.31-32 adds the strongest available permanence formula, oute en touto to aioni oute en to mellonti, double negative across both ages. The verb and noun blasphemeo, blasphemia are generic across the canon (35 plus verses, many targets, all forgivable), so the unforgivability is carried not by the word but by the one named object (the Holy Spirit) plus the eis ton aiona idiom and the adjective aionios, which elsewhere fixes permanence for life, punishment, and judgment. The Hebrew verb gadaph in Num 15.30-31, the soul that blasphemes Yahweh with a high hand and is cut off, supplies the Old Testament root of the category."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0988",
+        "lemma": "βλασφημία",
+        "transliteration": "blasphēmia",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0987",
+        "lemma": "βλασφημέω",
+        "transliteration": "blasphēmeō",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0859",
+        "lemma": "ἄφεσις",
+        "transliteration": "aphesis",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0863",
+        "lemma": "ἀφίημι",
+        "transliteration": "aphiēmi",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0265",
+        "lemma": "ἁμάρτημα",
+        "transliteration": "hamartēma",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aiōnios",
+        "occurrences_in_canon": 71,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0165",
+        "lemma": "αἰών",
+        "transliteration": "aiōn",
+        "occurrences_in_canon": 122,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0040",
+        "lemma": "ἅγιος",
+        "transliteration": "hagios",
+        "occurrences_in_canon": 233,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0169",
+        "lemma": "ἀκάθαρτος",
+        "transliteration": "akathartos",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0102",
+        "lemma": "ἀδύνατος",
+        "transliteration": "adynatos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0340",
+        "lemma": "ἀνακαινίζω",
+        "transliteration": "anakainizō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3895",
+        "lemma": "παραπίπτω",
+        "transliteration": "parapiptō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2288",
+        "lemma": "θάνατος",
+        "transliteration": "thanatos",
+        "occurrences_in_canon": 121,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1442",
+        "lemma": "גָּדַף",
+        "transliteration": "gadaph",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G0988",
+      "G0987",
+      "G0859",
+      "G0863",
+      "G0265",
+      "G0266",
+      "G0166",
+      "G0165",
+      "G4151",
+      "G0040",
+      "G0169",
+      "G0102",
+      "G0340",
+      "G3895",
+      "G2288",
+      "G3340",
+      "H1442"
+    ],
+    "scripture": [
+      {
+        "ref": "Mark.3.28",
+        "key_terms": [
+          {
+            "strong": "G0863",
+            "lemma": "ἀφίημι"
+          },
+          {
+            "strong": "G0265",
+            "lemma": "ἁμάρτημα"
+          },
+          {
+            "strong": "G0988",
+            "lemma": "βλασφημία"
+          },
+          {
+            "strong": "G0987",
+            "lemma": "βλασφημέω"
+          }
+        ],
+        "force": "Future passive ἀφεθήσεται governs πάντα, all sins and blasphemies of the sons of men, under the solemn ἀμὴν λέγω ὑμῖν formula. The clause is universal in scope, and it deliberately includes the plural βλασφημίαι inside the set of forgivable offenses. This widens the rule precisely so that the single coming exception in v.29 stands out as narrow and specific.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Mark.3.28"
+      },
+      {
+        "ref": "Mark.3.29",
+        "key_terms": [
+          {
+            "strong": "G0987",
+            "lemma": "βλασφημέω"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          },
+          {
+            "strong": "G0859",
+            "lemma": "ἄφεσις"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          },
+          {
+            "strong": "G0265",
+            "lemma": "ἁμάρτημα"
+          }
+        ],
+        "force": "ὃς δ’ ἂν plus aorist subjunctive βλασφημήσῃ marks an indefinite relative protasis. εἰς τὸ πνεῦμα τὸ ἅγιον fixes the single target that the rest of the canon never excepts. οὐκ ἔχει ἄφεσιν εἰς τὸν αἰῶνα is a present indicative declaration of permanent absence of release, and εἰς τὸν αἰῶνα is the canon's standing permanence idiom (compare οὐ μὴ ἀπόλωνται εἰς τὸν αἰῶνα at John 10.28). The predicate ἔνοχός ἐστιν αἰωνίου ἁμαρτήματος ties the guilt to αἰώνιος, the same adjective that fixes permanence for life, punishment, and judgment elsewhere (Matt 25.46, 2Thess 1.9, Heb 6.2). The lexis is final and irreversible.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Mark.3.29"
+      },
+      {
+        "ref": "Mark.3.30",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0169",
+            "lemma": "ἀκάθαρτος"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          }
+        ],
+        "force": "The Markan narrator's editorial clause ὅτι ἔλεγον· πνεῦμα ἀκάθαρτον ἔχει names the specific act being labeled blasphemy. Calling the Spirit's manifest work the work of an unclean spirit is the referent of v.29. This single clause is the only place in the logion that defines the content of the act, which is why Mark grounds the unforgivable sin in a particular knowing speech act rather than any random verbal offense. Matthew and Luke preserve the verdict but omit this defining clause, leaving the content less fixed in their accounts.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Mark.3.30"
+      },
+      {
+        "ref": "Matt.12.31",
+        "key_terms": [
+          {
+            "strong": "G0988",
+            "lemma": "βλασφημία"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G0863",
+            "lemma": "ἀφίημι"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις, then the contrast ἡ δὲ τοῦ πνεύματος βλασφημία οὐκ ἀφεθήσεται. The fronted πᾶσα and the objective genitive τοῦ πνεύματος βλασφημία isolate one species of an otherwise forgivable category. The two future passive verbs run in strict parallel, the affirmation and the exception sharing identical grammar, which makes the exclusion unambiguous at the level of the words.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Matt.12.31"
+      },
+      {
+        "ref": "Matt.12.32",
+        "key_terms": [
+          {
+            "strong": "G2036",
+            "lemma": "λέγω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G0444",
+            "lemma": "ἄνθρωπος"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          },
+          {
+            "strong": "G0165",
+            "lemma": "αἰών"
+          },
+          {
+            "strong": "G3195",
+            "lemma": "μέλλω"
+          }
+        ],
+        "force": "The clause draws a lexical contrast: λόγον κατὰ τοῦ υἱοῦ τοῦ ἀνθρώπου is forgivable, but a word κατὰ τοῦ πνεύματος τοῦ ἁγίου is not. The terminal phrase οὔτε ἐν τούτῳ τῷ αἰῶνι οὔτε ἐν τῷ μέλλοντι uses the οὔτε, οὔτε construction with double negation across both the present age and the coming age, the strongest available Greek formula for permanent non-remission. That the forgivable word is against the Son of Man and the unforgivable word is against the Spirit shows the verdict turns on the named object, not the act of speaking against a divine person as such.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Matt.12.32"
+      },
+      {
+        "ref": "Heb.6.4",
+        "key_terms": [
+          {
+            "strong": "G0102",
+            "lemma": "ἀδύνατος"
+          },
+          {
+            "strong": "G1089",
+            "lemma": "γεύομαι"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G0040",
+            "lemma": "ἅγιος"
+          }
+        ],
+        "force": "Ἀδύνατον is fronted for emphasis, governing the aorist participles φωτισθέντας, γευσαμένους, γενηθέντας. The participial chain catalogs experiential goods including μετόχους πνεύματος ἁγίου, partakers of the Holy Spirit. The lexical weight of ἀδύνατον plus the aorist παραπεσόντας in v.6 fixes an impossibility of renewal once the named falling-away has occurred. This is an independent witness with different vocabulary that lands on the same impossibility.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Heb.6.4"
+      },
+      {
+        "ref": "Heb.6.6",
+        "key_terms": [
+          {
+            "strong": "G3895",
+            "lemma": "παραπίπτω"
+          },
+          {
+            "strong": "G0340",
+            "lemma": "ἀνακαινίζω"
+          },
+          {
+            "strong": "G3340",
+            "lemma": "μετάνοια"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          }
+        ],
+        "force": "καὶ παραπεσόντας, πάλιν ἀνακαινίζειν εἰς μετάνοιαν. The hapax verb ἀνακαινίζω paired with πάλιν and the aorist hapax παραπεσόντας lexicalizes a settled, completed apostasy rather than ordinary lapse. The present participles ἀνασταυροῦντας ἑαυτοῖς τὸν υἱὸν τοῦ θεοῦ καὶ παραδειγματίζοντας supply the causal grounds and parallel the Synoptic act at the level of repudiation, a public turning against the Son and the Spirit's witness.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Heb.6.6"
+      },
+      {
+        "ref": "Heb.10.29",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "τὸ πνεῦμα τῆς χάριτος ἐνυβρίσας, having outraged the Spirit of grace, is set beside καταπατήσας τὸν υἱὸν τοῦ θεοῦ. With Heb 10.26 (ἑκουσίως ἁμαρτανόντων, οὐκέτι περὶ ἁμαρτιῶν ἀπολείπεται θυσία, no sacrifice remaining) and 10.28 (the Mosaic death penalty), this verse explicitly ties a deliberate, post-knowledge insult against the Spirit to a worse penalty with no remaining offering. It is the lexical bridge between the Synoptic Spirit clause and the Old Testament high-handed sin.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:Heb.10.29"
+      },
+      {
+        "ref": "1John.5.16",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          },
+          {
+            "strong": "G2288",
+            "lemma": "θάνατος"
+          },
+          {
+            "strong": "G4314",
+            "lemma": "πρός"
+          },
+          {
+            "strong": "G0080",
+            "lemma": "ἀδελφός"
+          }
+        ],
+        "force": "ἔστιν ἁμαρτία πρὸς θάνατον, with the construction ἁμαρτάνοντα ἁμαρτίαν μὴ πρὸς θάνατον set against ἁμαρτάνουσιν πρὸς θάνατον. The author withholds the command to pray for the latter (οὐ περὶ ἐκείνης λέγω ἵνα ἐρωτήσῃ). The prepositional phrase πρὸς θάνατον marks a category of sin off from the rest by its terminal direction rather than by enumeration, which is why John names a category but never specifies the act.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek:1John.5.16"
+      },
+      {
+        "ref": "Num.15.30",
+        "key_terms": [
+          {
+            "strong": "H1442",
+            "lemma": "גָּדַף"
+          }
+        ],
+        "force": "The soul that acts בְּיָד רָמָה, with a high hand, אֶת יְהוָה הוּא מְגַדֵּף, he reviles Yahweh, וְנִכְרְתָה, and shall be cut off from among the people. The verb gadaph (H1442) occurs six times in the Old Testament and in every case its object is God, and v.31 grounds the cutting off in despising the word of Yahweh. This is the canonical root of a deliberate, knowing blasphemy against God for which the law provides no sacrifice, only excision. It establishes the category that the Synoptic logion and Hebrews carry forward, giving the doctrine Old Testament as well as New Testament reach.",
+        "supports": "for",
+        "genre": "law",
+        "figures": [],
+        "macula_anchor": "MACULA-Hebrew:Num.15.30"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Mark.3.29",
+        "to": "Mark.12.40",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.12.31",
+        "to": "Mark.3.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.12.31",
+        "to": "Isa.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.12.32",
+        "to": "John.7.39",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.12.32",
+        "to": "Job.36.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.6.4",
+        "to": "Heb.10.26",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.6.4",
+        "to": "Heb.10.32",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.6.6",
+        "to": "Heb.10.29",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.6.6",
+        "to": "Heb.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.26",
+        "to": "Heb.6.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.16",
+        "to": "Num.15.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.16",
+        "to": "Jer.7.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.12.10",
+        "to": "Luke.23.34",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Luke.12.10",
+        "addressed": true,
+        "resolution": "Luke preserves the same lexical contrast, λόγον εἰς τὸν υἱὸν τοῦ ἀνθρώπου forgivable versus εἰς τὸ ἅγιον πνεῦμα βλασφημήσαντι οὐκ ἀφεθήσεται. The triple-tradition agreement on the same future passive and the same target corroborates the verdict. Luke, like Matthew, omits Mark's defining editorial clause, so the content of the act is less specified outside Mark, which is the main reason readers diverge on what the sin is."
+      },
+      {
+        "ref": "1Tim.1.13",
+        "addressed": true,
+        "resolution": "Paul calls himself a former βλάσφημος yet received mercy. The lexical resolution is that his act preceded knowledge, ἀγνοῶν ἐποίησα ἐν ἀπιστίᾳ, done in ignorance and unbelief. The Synoptic clause targets a knowing ascription of the Spirit's manifest work to an unclean spirit, fixed by Mark 3.30, and Heb 10.26 marks its sin as ἑκουσίως, deliberate, after received knowledge. The two passages describe different lexical categories, ignorant versus deliberate."
+      },
+      {
+        "ref": "Heb.10.26",
+        "addressed": true,
+        "resolution": "ἑκουσίως plus present participle ἁμαρτανόντων plus μετὰ τὸ λαβεῖν τὴν ἐπίγνωσιν τῆς ἀληθείας tracks the same profile as Heb 6.4-6, a deliberate sin after received knowledge, with οὐκέτι περὶ ἁμαρτιῶν ἀπολείπεται θυσία, no sacrifice remaining. The convergent vocabulary supports the same conclusion rather than complicating it."
+      },
+      {
+        "ref": "Num.15.30",
+        "addressed": true,
+        "resolution": "The Hebrew gadaph (H1442) with object Yahweh, paired with the niphal of karath (cut off), establishes a deliberate high-handed blasphemy against God with no sacrificial remedy. This Old Testament category is the root that the New Testament texts carry forward, so it strengthens rather than complicates the verdict, and it is the basis for marking the doctrine pan-canonical."
+      },
+      {
+        "ref": "Mark.3.28",
+        "addressed": true,
+        "resolution": "The opening universal πάντα ἀφεθήσεται, τὰ ἁμαρτήματα καὶ αἱ βλασφημίαι, could be read as unrestricted, but the immediately following ὃς δ’ ἂν clause supplies the lexical exception. The two verses must be read as a unit, v.28 the rule and v.29 the single named exception, so the universal does not overturn the exception."
+      },
+      {
+        "ref": "Matt.12.32",
+        "addressed": false,
+        "resolution": "The words fix that the sin is unforgivable but underdetermine two things the proposition leans on. First, the content of the blasphemia is specified only by Mark's editorial clause (3.30) and is left open by Matthew and Luke, so the canon does not uniformly define the act. Second, the texts do not state whether the sin can still be committed after the earthly ministry, since the Markan setting is the concrete charge that Jesus casts out demons by an unclean spirit. These are genuine vocabulary-level gaps that the present analysis cannot close from the words alone, so the bare unforgivability is affirmed while its definition and present applicability remain open."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Mark.3.29",
+        "variant_id": "mark-3-29-aioniou-hamartematos-vs-kriseos",
+        "verdict_impact": "none",
+        "note": "The reading αἰωνίου ἁμαρτήματος (an eternal sin) is carried in the stored text; some witnesses read κρίσεως (judgment) instead. Both readings keep the adjective αἰώνιος and the οὐκ ἔχει ἄφεσιν εἰς τὸν αἰῶνα clause, so the permanence is invariant whichever noun αἰώνιος governs. Verdict unaffected."
+      },
+      {
+        "ref": "Matt.12.31",
+        "variant_id": "matt-12-31-ending-tois-anthropois",
+        "verdict_impact": "none",
+        "note": "The stored text marks variation at the close of v.31 around τοῖς ἀνθρώποις. The variation does not touch the contrastive ἡ δὲ τοῦ πνεύματος βλασφημία οὐκ ἀφεθήσεται clause, which carries the verdict."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "Mark, Matthew, Luke, Hebrews, and 1 John fall outside the ECM-published window (3 John only), so no CBGM signal applies. The Synoptic logion is among the most heavily attested sayings in the tradition and the stored Greek of every anchor was queried directly and matches the readings cited here, with no variant that weakens the unforgivable clause."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "synchronic_synoptic_harmony",
+        "verdict": "affirms",
+        "rationale": "Mark, Matthew, and Luke agree on the same lexical contrast between forgivable speech and blasphemy against the Spirit, with parallel future passive verbs and matching targets. The triple agreement makes the bare unforgivability secure regardless of how the act is defined."
+      },
+      {
+        "framework": "canonical_old_testament_grounding",
+        "verdict": "affirms",
+        "rationale": "Num 15.30-31 uses gadaph with Yahweh as object and pairs it with being cut off, with no sacrifice provided for the high-handed sin. Heb 10.26-29 carries the same profile with the Spirit of grace as the one outraged. The category therefore spans both testaments at the word level."
+      },
+      {
+        "framework": "markan_referent_definition",
+        "verdict": "affirms",
+        "rationale": "Read with Mark 3.30, the unforgivable act is narrowly the knowing ascription of the Spirit's manifest work to an unclean spirit. On this reading the doctrine is fully affirmed but tightly bounded, and it explains why the universal of v.28 and the exception of v.29 coexist."
+      },
+      {
+        "framework": "content_and_applicability_underdetermined",
+        "verdict": "disputed",
+        "rationale": "Matthew and Luke state the unforgivability without Mark's defining clause, so on their wording alone the content of the blasphemia is open, and none of the texts say whether the sin can be committed after the earthly ministry. A reader weighting these accounts can hold the unforgivability as certain while treating the definition and present applicability as unsettled by the vocabulary. This lens is represented here in its strongest form and is the honest source of divergence."
+      }
+    ],
+    "notes": "The bare proposition (an unforgivable category of sin against the Spirit exists) rests on three independent witnesses and an Old Testament root, so it is secure. The divergence among readers is not about whether the category exists but about what fills it and whether it is still committable, which the words underdetermine outside Mark 3.30."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "There exists a category of sin against the Holy Spirit, lexically marked in the Synoptic logion and echoed in Hebrews and 1 John, for which the texts withhold forgiveness in this age and the coming age.",
+    "notes": "The stem's parenthetical gloss 'final, hardened rejection of His witness to Christ' is one defensible reading of the Markan referent (Mark 3.30) but is not entailed by the bare wording of Matt 12.31-32 or Luke 12.10, which name the unforgivability without defining the act. The verdict is derived on the neutral claim of an unforgivable category. The interpretive gloss matches Mark's editorial clause but goes beyond what every cited verse states."
+  },
+  "lay_summary": "Three independent New Testament witnesses, plus an Old Testament root, mark off one category of sin for which the texts withhold forgiveness. In Mark 3.28-29 a sweeping promise, panta aphethesetai, says all the sins and blasphemies of men are forgivable, then one exception follows: whoever blasphemes against the Holy Spirit has no release into the age and is guilty of an eternal sin. The strength here is in two things the words make plain. First, the verb and noun for blaspheme and blasphemy are common across the canon, aimed at God, at Jesus, at his name, at heavenly powers, and every one of those is treated as forgivable, so the unforgivability is carried not by the word but by the one named target, the Holy Spirit. Second, the grammar is final: a future passive it shall not be forgiven, the standing idiom into the age that elsewhere means forever, and Matthew's double negative not in this age nor in the coming age. The adjective eternal in eternal sin is the same word that makes eternal life, eternal punishment, and eternal judgment permanent. Hebrews 6.4-6 reaches the same wall with different vocabulary, calling it impossible to renew to repentance those who fall away after partaking of the Holy Spirit, using a rare verb for a settled apostasy. Hebrews 10.26-29 adds a deliberate sin after received knowledge, with no sacrifice remaining, for the one who has outraged the Spirit of grace. The Hebrew of Numbers 15.30-31 supplies the root: the soul that reviles the LORD with a high hand is cut off, with no offering provided. Where readers diverge is not whether this category exists, but what fills it. Only Mark adds the defining line, they were saying he has an unclean spirit, while Matthew and Luke leave the act open, and none of the texts say plainly whether the sin can still be committed today. So the words make the unforgivability certain but leave its exact definition and its present reach underdetermined.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0988"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0987"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0166"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0340"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H1442"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Mark.3.28-30"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.12.31-32"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.6.4-6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.29"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.16"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Num.15.30"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Mark.3.29"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Matt.12.32"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Num.15.30"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Heb.6.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.5.16"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Mark.3.28-30"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek and MACULA-Hebrew are CC-BY-NC-4.0 (non-commercial only) and are load-bearing for the syntax of Mark 3.29, Matt 12.32, and the Hebrew of Num 15.30. SBLGNT-text is under SBLGNT-EULA, which restricts bulk redistribution of the Synoptic critical text. The remaining sources are redistributable."
+  },
+  "flags": [
+    "complicating-unresolved",
+    "cross-tradition-divergent"
+  ]
+}

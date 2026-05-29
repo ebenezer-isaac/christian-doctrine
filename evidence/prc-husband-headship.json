@@ -1,0 +1,679 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-husband-headship",
+  "question_id": "prc-husband-headship",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.8,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Three lemmas carry the proposition. kephale (G2776) is predicated of the husband in Eph 5:23 and 1 Cor 11:3. hypotasso (G5293, middle voice) is predicated of the wife in Eph 5:22, 24, Col 3:18, 1 Pet 3:1, 3:5, Titus 2:5. agapao (G0025, present imperative) is commanded of the husband in Eph 5:25, 28, 33. The lemmas pattern with an asymmetric marriage ordering, but the precise force of the head metaphor is materially contested at the lexical level. kephale denotes the anatomical head and is extended metaphorically in Pauline epistles. LSJ records the noun's literal sense set and gives the metaphorical extension to corporate heads through later usage, while the Hebrew rosh (H7218) that LXX kephale routinely translates carries both a chief or leader sense and a beginning or front sense; the Pauline extension therefore inherits two defensible Koine readings, authority over and source or origin, that the immediate context does not decisively rank. hypotasso in the relevant texts is middle voice, which places the act of ordering with the subject rather than imposing it externally, and Eph 5:21 hypotassomenoi allelois en phobo Christou immediately precedes and grammatically governs the wife clause in v22 which has no finite verb of its own. The husband side is not a right to command but agapate kathos kai ho Christos egapesen ten ekklesian, with the husband told to love his wife as his own body. 1 Pet 3:7 names husband and wife sygkleronomoi charitos zoes, joint-heirs of the grace of life. Because the headship lemma is two-valued and the surrounding household-code grammar frames the relation as reciprocal and love-bounded, the lexical data supports an asymmetric ordering in marriage but does not by itself settle the specific authority claim the stem assumes, so the verdict is disputed rather than a clean affirm or deny."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2776",
+        "lemma": "κεφαλή",
+        "transliteration": "kephale",
+        "occurrences_in_canon": 76,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5293",
+        "lemma": "ὑποτάσσω",
+        "transliteration": "hypotasso",
+        "occurrences_in_canon": 40,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0025",
+        "lemma": "ἀγαπάω",
+        "transliteration": "agapao",
+        "occurrences_in_canon": 143,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0435",
+        "lemma": "ἀνήρ",
+        "transliteration": "aner",
+        "occurrences_in_canon": 215,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1135",
+        "lemma": "γυνή",
+        "transliteration": "gyne",
+        "occurrences_in_canon": 215,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4983",
+        "lemma": "σῶμα",
+        "transliteration": "soma",
+        "occurrences_in_canon": 144,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2398",
+        "lemma": "ἴδιος",
+        "transliteration": "idios",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4789",
+        "lemma": "συγκληρονόμος",
+        "transliteration": "sygkleronomos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4632",
+        "lemma": "σκεῦος",
+        "transliteration": "skeuos",
+        "occurrences_in_canon": 23,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7218",
+        "lemma": "רֹאשׁ",
+        "transliteration": "rosh",
+        "occurrences_in_canon": 600,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2776",
+      "G5293",
+      "G0025",
+      "G0435",
+      "G1135",
+      "G4983",
+      "G4561",
+      "G2398",
+      "G4789",
+      "G4632",
+      "H7218"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.5.21",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          }
+        ],
+        "force": "hypotassomenoi allelois en phobo Christou, submitting to one another in the fear of Christ, is a present middle participle whose plural subject is the same congregation addressed in v18 to v20. Greek manuscript witnesses divide on whether v22 even contains a separate finite verb for wives, so v22 in the strongest witnesses grammatically borrows hypotassomenoi from v21. This governing participle places the wife clause inside a frame of mutual subjection and is the lexical hinge for any reading that resists fixed unilateral hierarchy in the household code that follows.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.22",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G2398",
+            "lemma": "ἴδιος"
+          },
+          {
+            "strong": "G0435",
+            "lemma": "ἀνήρ"
+          }
+        ],
+        "force": "Hai gynaikes tois idiois andrasin hos to kyrio, wives to their own husbands as to the Lord. The Greek of the strongest witnesses has no finite verb here, borrowing hypotassomenoi from v21, so the wife clause is grammatically chained to the mutual-submission frame. The qualifier idiois restricts the scope to the specific marriage bond rather than woman-to-man in general.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.23",
+        "key_terms": [
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          },
+          {
+            "strong": "G0435",
+            "lemma": "ἀνήρ"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "hoti aner estin kephale tes gynaikos hos kai ho Christos kephale tes ekklesias, autos soter tou somatos. The predicate kephale is asserted of the husband over the wife and paralleled to Christ as kephale of the church, then immediately qualified by autos soter tou somatos, he himself is savior of the body. The savior tag attaches a protective and self-giving nuance to the head image rather than a bare assertion of rank. The lexical force of kephale here is the crux: Koine usage attests both an authority-over sense and a source or origin sense, and this verse alone does not disambiguate.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.24",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "alla hos he ekklesia hypotassetai to Christo, houtos kai hai gynaikes tois andrasin en panti. hypotassetai is middle-passive present indicative, and the comparative hos he ekklesia hypotassetai grounds the wife pattern in the church-to-Christ analogy. The middle voice carries voluntary self-ordering, not enforced subjugation, and the en panti clause sets the scope without supplying a sense of compulsion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.25",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          }
+        ],
+        "force": "Hoi andres, agapate tas gynaikas, kathos kai ho Christos egapesen ten ekklesian kai heauton paredoken hyper autes. agapate is present active imperative directed at husbands, qualified by the kathos clause that grounds the love in Christ's self-giving for the church. The husband duty is sacrificial love measured by Christ, which converts any head function into a self-spending vocation rather than a prerogative.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.28",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G4983",
+            "lemma": "σῶμα"
+          }
+        ],
+        "force": "houtos opheilousin kai hoi andres agapan tas heauton gynaikas hos ta heauton somata. The body identification dissolves a strict over-under hierarchy into a one-flesh care obligation: ho agapon ten heautou gynaika heauton agapa. Loving the wife is loving the husband's own body, which collapses competitive interests inside the head-body figure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.31",
+        "key_terms": [
+          {
+            "strong": "G4561",
+            "lemma": "σάρξ"
+          }
+        ],
+        "force": "anti toutou kataleipsei anthropos ton patera kai ten metera kai proskollethesetai pros ten gynaika autou, kai esontai hoi duo eis sarka mian, citing Gen 2:24. The one-flesh formula is brought into the head-body argument so that the head and the body share one sarx, foreclosing any reading of headship as ontological separation between a higher partner and a lower partner.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.5.33",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          },
+          {
+            "strong": "G5401",
+            "lemma": "φόβος"
+          }
+        ],
+        "force": "plen kai hymeis hoi kath' hena hekastos ten heautou gynaika houtos agapato hos heauton, he de gyne hina phobetai ton andra. The summary pairs husband agapato with wife phobetai (respect, reverent regard), an asymmetric pairing of love-command and respect-response within the marriage relation rather than a command-and-obey pairing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.3",
+        "key_terms": [
+          {
+            "strong": "G2776",
+            "lemma": "κεφαλή"
+          },
+          {
+            "strong": "G0435",
+            "lemma": "ἀνήρ"
+          }
+        ],
+        "force": "thelo de hymas eidenai hoti pantos andros he kephale ho Christos estin, kephale de gynaikos ho aner, kephale de tou Christou ho theos. The chain Christ-of-man, man-of-woman, God-of-Christ uses kephale uniformly across all three relations. Because the same lemma governs the God-Christ relation, the sense cannot be reduced to simple boss-over-subordinate without straining Christology. Whatever sense the second pair carries must also fit the third, which is exactly why kephale is lexically disputed: an authority-over reading must be qualified so that it does not subordinate the Son ontologically, and a source-of reading must be qualified so that it still carries directional ordering.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.18",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G0435",
+            "lemma": "ἀνήρ"
+          }
+        ],
+        "force": "Hai gynaikes, hypotassesthe tois andrasin hos aneken en kyrio. hypotassesthe is present middle imperative; the qualifier hos aneken, as is fitting, bounds the obedience to what is appropriate in the Lord, not absolute. The very next verse pairs it with husbands' obligation to love and not be embittered, so the lexical pattern is asymmetric directives, not asymmetric ontology.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Col.3.19",
+        "key_terms": [
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          }
+        ],
+        "force": "Hoi andres, agapate tas gynaikas kai me pikrainesthe pros autas. The husband imperative is paired with a prohibition on bitterness, restraining any exercise of headship that would harm the wife. The lemma agapate echoes the Eph 5:25 frame and confirms that the husband side of the household code is love and gentleness, not command rights.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.1",
+        "key_terms": [
+          {
+            "strong": "G5293",
+            "lemma": "ὑποτάσσω"
+          },
+          {
+            "strong": "G2398",
+            "lemma": "ἴδιος"
+          }
+        ],
+        "force": "Homoios gynaikes, hypotassomenai tois idiois andrasin. The middle participle matches Ephesians and Colossians, with idiois again restricting scope to the marriage bond. The continuation hina kai ei tines apeithousin to logo, dia tes ton gynaikon anastrophes aneu logou kerdethesontai frames submission as missional persuasion of unbelieving husbands rather than enforced silence.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.7",
+        "key_terms": [
+          {
+            "strong": "G4632",
+            "lemma": "σκεῦος"
+          },
+          {
+            "strong": "G4789",
+            "lemma": "συγκληρονόμος"
+          }
+        ],
+        "force": "Hoi andres homoios synoikountes kata gnosin, hos asthenestero skeuei to gynaikeio aponemontes timen, hos kai sygkleronomois charitos zoes, eis to me egkoptesthai tas proseuchas hymon. Husbands are commanded to dwell with knowledge, assign honor to the wife as a weaker vessel, and treat her as joint-heir of the grace of life. The lemma sygkleronomos asserts equal share in salvation, which complicates any reading of headship as ontological superiority while leaving the asymmetric directive structure intact.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.13",
+        "key_terms": [
+          {
+            "strong": "G0076",
+            "lemma": "Ἀδάμ"
+          }
+        ],
+        "force": "Adam gar protos eplasthe, eita Heua. The temporal protos-eita pair invokes the Gen 2 creation order to ground the prior instruction. Lexically, the argument hangs on chronology of forming, not on essential rank, and the same lemma cluster appears in 1 Cor 11:8-9 with the qualification in 11:11-12 that ouk estin gyne choris andros oude aner choris gynaikos en kyrio, neither is independent of the other in the Lord. So the creation-order appeal carries asymmetric ordering but is explicitly bounded by mutual dependence in the same lemma field.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Eph.5.22",
+        "to": "Eph.5.21",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.5.22",
+        "to": "Col.3.18",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.5.22",
+        "to": "1Pet.3.1",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.5.23",
+        "to": "1Cor.11.3",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.5.23",
+        "to": "Col.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.25",
+        "to": "Eph.5.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.5.25",
+        "to": "Col.3.19",
+        "source": "tsk",
+        "votes": 2
+      },
+      {
+        "from": "Eph.5.31",
+        "to": "Gen.2.24",
+        "source": "tsk",
+        "votes": 3
+      },
+      {
+        "from": "1Cor.11.3",
+        "to": "1Cor.3.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.7",
+        "to": "Gal.3.28",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Eph.5.21",
+        "addressed": true,
+        "resolution": "The participle hypotassomenoi allelois en phobo Christou, submitting to one another in the fear of Christ, immediately precedes the household code and grammatically governs the wife clause in v22, which lacks a finite verb of its own in the strongest manuscript witnesses. The mutual-submission framing is the lexical ground for the egalitarian reading of the household code and means the wife submission is set inside a broader reciprocity. The complementarian reading takes alleloi here distributively rather than mutually, citing parallels where alleloi means some to others rather than each to each, but the simpler reading is mutual. This text constrains the verdict toward disputed."
+      },
+      {
+        "ref": "1Pet.3.7",
+        "addressed": true,
+        "resolution": "The joint-heir designation sygkleronomois charitos zoes places husband and wife as equal recipients of grace, so any headship in the stem is bounded by spiritual co-equality and honor rather than rank superiority. The asthenestero skeuei reference describes relative physical vulnerability and does not name an ontological hierarchy. This constrains but does not erase the ordered pattern of asymmetric directives, contributing to the disputed verdict."
+      },
+      {
+        "ref": "1Cor.11.3",
+        "addressed": true,
+        "resolution": "The lexical sense of kephale in this verse remains underdetermined by morphology and immediate syntax. LSJ for kephale records the literal anatomical sense richly attested from Homer onward and notes the Hebrew rosh underlying LXX usage. The Hebrew rosh (H7218) carries both a chief or leader sense and a beginning or front sense, and the Pauline metaphorical extension legitimately inherits either. The same Greek lemma governs the God-Christ pair in the same series, which means whichever sense is chosen must avoid ontological subordination of the Son. The verse therefore attests a kephale relation in marriage but does not by itself rank between authority and source, leaving the headship sense lexically disputed."
+      },
+      {
+        "ref": "1Cor.11.11",
+        "addressed": true,
+        "resolution": "plen oute gyne choris andros oute aner choris gynaikos en kyrio. The plen oute construction explicitly limits any one-directional reading of v3 with a strong mutual-dependence claim within the same lemma field (aner, gyne). This is the immediate context that disciplines an unbounded authority-over reading of the kephale chain in v3."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "Eph.5.22",
+        "variant_id": "Eph5.22-verb-presence",
+        "verdict_impact": "minor",
+        "note": "The strongest witnesses omit a separate finite hypotassesthe in v22 and require it to be borrowed from the v21 participle. Later witnesses supply the verb. Either way the wife clause depends grammatically on v21, so the verdict on the proposition is not flipped, but the grammatical link to v21 mutual submission is strengthened in the shorter reading."
+      }
+    ],
+    "ecm_status": "ecm-shadow",
+    "note": "These passages fall outside the ECM 3 John CBGM sample, so collation is at shadow level. The apparatus marks in Eph 5:22 to 5:33 and 1 Pet 3 mostly concern word order and minor additions and do not flip the head, submit, or love lemmas that carry the verdict. The v22 verb variant nudges the grammar toward the mutual-submission framing of v21."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "complementarian",
+      "egalitarian"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "complementarian",
+        "verdict": "affirms",
+        "rationale": "Reads kephale (G2776) in Eph 5:23 and 1 Cor 11:3 in its attested authority-over sense, drawing on Pauline parallels where Christ as kephale of the church and head over all things (Eph 1:22, Col 1:18, Col 2:10) carries a clear governance sense. Reads hypotasso (G5293) as ordered response to that headship, parallel to the church to Christ in Eph 5:24, with the middle voice marking willing but real subordination rather than coerced silence. Reads the creation-order argument in 1 Tim 2:13 (Adam protos eplasthe, eita Heua) as Pauline grounding for the household pattern in the original Genesis order, and the household codes in Col 3:18-19, Titus 2:5, and 1 Pet 3:1-6 as a consistent canonical pattern. On this reading the lemmas land directly on the stem: loving headship in the husband and willing submission in the wife, both inside the Christ-church analogy."
+      },
+      {
+        "framework": "egalitarian",
+        "verdict": "disputed",
+        "rationale": "Reads kephale (G2776) in its attested source or origin sense, drawing on the Hebrew rosh (H7218) sense set that includes beginning and front, and arguing that the Christ-church figure in Eph 5:23 emphasizes Christ as source of the church's life rather than ruler over it, given the immediate qualifier autos soter tou somatos. Foregrounds the present middle participle hypotassomenoi allelois in Eph 5:21 as the governing verb of v22 and reads alleloi mutually, placing the entire household code inside reciprocal subjection. Reads the love-command of Eph 5:25-29 and the joint-heir designation sygkleronomos in 1 Pet 3:7 as flattening any fixed hierarchy. Treats the household codes as Spirit-shaped accommodation to a hierarchical first-century setting and reads Gal 3:28 (ouk eni arsen kai thely, panta gar hymeis heis este en Christo Iesou) as the eschatological horizon that relativizes role-based authority. On this reading the lemmas attest an asymmetric pattern but do not carry the specific authority claim the stem assumes."
+      }
+    ],
+    "notes": "The verdict turns on a single lexeme kephale (G2776), whose Koine metaphorical extension is two-valued (authority over and source or origin), and on the grammatical scope of the governing participle hypotassomenoi in Eph 5:21. Both lenses share the same morphology of the passages and read the same lemmas. They differ on which attested sense of kephale Paul activates, and on how broadly the alleloi of v21 governs the household code. analogia_scripturae is the decisive move on both sides: complementarian reads from 1 Tim 2:13 and Eph 1:22 inward; egalitarian reads from Eph 5:21 and Gal 3:28 inward. The lemmas alone do not rank these moves."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Within marriage, the husband is called kephale (head) of the wife and the wife is called to hypotasso (be subject) to him, while the husband is commanded to agapao (love) the wife. The precise force of kephale, whether authority over or source or origin, and the scope of the wife response are what the lexical data must decide on the original stem.",
+    "notes": "The original stem loads the verdict with the phrases loving headship and willing submission, both in mutual love and Christ-likeness, which already presupposes a specific complementarian sense of kephale and a particular voluntariness reading of hypotasso. The neutralized form names the three Greek lexemes without resolving the contested kephale sense, so the verdict is derived on the words rather than on the framing. The verdict is assessed against the original stem and lands disputed because kephale carries two attested Koine senses and the surrounding alleloi grammar plus the husband's love duty plus the sygkleronomos status do not ratify the authority sense over the source sense at the word level. Verdict unchanged from prior file."
+  },
+  "lay_summary": "Three Greek words carry this question. The husband is called the head, kephale, in Ephesians 5:23 and 1 Corinthians 11:3. The wife is told to be subject, hypotasso, in Ephesians 5:22 and 24, Colossians 3:18, and 1 Peter 3:1 and 5. The husband is commanded to love, agapao, in Ephesians 5:25, 28, and 33 and Colossians 3:19. The wording lines up with an ordered marriage, but the meaning of head is the sticking point. In Koine Greek kephale can mean the one in authority over a group, and it can also mean the source or origin, like the head of a river. The Hebrew word it usually translates in the Old Testament, rosh, carries both senses too. The verses themselves do not settle which sense Paul activates, and in 1 Corinthians 11:3 the same word also describes how God relates to Christ, which makes a bare boss-over-worker reading awkward without further qualification. Several features push against reading head as plain rank. The submission verb is in the middle voice, which points to a freely chosen self-ordering rather than coercion. The sentence just before the household code, Ephesians 5:21, tells everyone to submit to one another, and that participle grammatically controls the wife clause in verse 22 in the strongest manuscript witnesses. The husband side is not a right to command but a duty to love his wife the way Christ gave himself up for the church, and to love her as his own body, with Colossians 3:19 adding the prohibition on being embittered against her. In 1 Peter 3:7 the wife is called a joint-heir of the grace of life and the husband is told to assign her honor, so the two stand equal before God even within an ordered relationship. The lexical root of the dispute is therefore simple: a key word has two well-attested senses, and the surrounding text disciplines both senses without picking one. The pattern in the words clearly supports an asymmetric, love-shaped marriage order, but does not by itself prove the specific authority claim the proposition assumes, so the verdict is genuinely contested at the word level rather than cleanly settled in either direction.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.21"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.22"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.5.25"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Col.3.18"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.7"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2776"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0025"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2398"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2776"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TFLSJ",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5293"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7218"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.5.21"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eph.5.23"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.11.3"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.22"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Eph.5.25"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Pet.3.7"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TFLSJ",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek syntax was consulted for the kephale clause structure in Eph 5:23 and 1 Cor 11:3 and for the participle scope of hypotassomenoi in Eph 5:21, and carries CC-BY-NC-4.0, which forbids bulk redistribution, so the aggregated evidence record is not safe to publish in bulk."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent",
+    "complicating-unresolved"
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-sola-gratia",
+  "question_id": "doc-sola-gratia",
+  "generated_at": "2026-05-27T06:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9125,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across Eph 2:8-9, Rom 3:24, Rom 11:6, Titus 3:5-7, and 2Tim 1:9 the noun charis (G5485) recurs as the named source of salvation, usually in the dative of means (chariti), while human contribution is grammatically negated by the same construction each time: ouk ex hymon, ouk ex ergon, ou kata ta erga hemon. Rom 11:6 makes the antithesis definitional, ei de chariti ouketi ex ergon epei he charis ouketi ginetai charis, so grace ceases to be grace if works are admitted as co-source. The gift words doron (G1435) and the adverb dorean (G1432, attested across the canon as freely, without payment, without cause) and the mercy word eleos (G1656) confirm the act is given gratis, not repaid for merit. The hina-me clause in Eph 2:9 makes the exclusion of boasting (kauchaomai, G2744) the express purpose, so the denial of human merit is stated in the text rather than inferred."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5485",
+        "lemma": "χάρις",
+        "transliteration": "charis",
+        "occurrences_in_canon": 155,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 169,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1432",
+        "lemma": "δωρεάν",
+        "transliteration": "dorean",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1435",
+        "lemma": "δῶρον",
+        "transliteration": "doron",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1656",
+        "lemma": "ἔλεος",
+        "transliteration": "eleos",
+        "occurrences_in_canon": 27,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2744",
+        "lemma": "καυχάομαι",
+        "transliteration": "kauchaomai",
+        "occurrences_in_canon": 36,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 106,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioo",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0629",
+        "lemma": "ἀπολύτρωσις",
+        "transliteration": "apolutrosis",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1537",
+        "lemma": "ἐκ",
+        "transliteration": "ek",
+        "occurrences_in_canon": 945,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3756",
+        "lemma": "οὐ",
+        "transliteration": "ou",
+        "occurrences_in_canon": 1747,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2596",
+        "lemma": "κατά",
+        "transliteration": "kata",
+        "occurrences_in_canon": 498,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G5485",
+      "G2041",
+      "G1432",
+      "G1435",
+      "G1656",
+      "G2744",
+      "G4982",
+      "G1344",
+      "G0629",
+      "G1537",
+      "G3756",
+      "G2596",
+      "G2818"
+    ],
+    "scripture": [
+      {
+        "ref": "Eph.2.8",
+        "key_terms": [
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G1435",
+            "lemma": "δῶρον"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "The clause reads te gar chariti este sesosmenoi, you have been saved by grace, where chariti is a dative of means and sesosmenoi (G4982, verified perfect passive participle, V-RPP-NPM) marks salvation as a completed act done to the recipients. The grace is then opposed to the recipients themselves, ouk ex hymon, not from yourselves, with ek plus the genitive of source negated, and the saving reality is renamed theou to doron, the gift of God. The morphology forecloses the reading that salvation originates from the human party.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:EPH.2.8"
+      },
+      {
+        "ref": "Eph.2.9",
+        "key_terms": [
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G2744",
+            "lemma": "καυχάομαι"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          }
+        ],
+        "force": "The continuation ouk ex ergon, not from works, repeats the same ek of source negated in verse 8, now naming erga (G2041, N-GPN) as the excluded ground. The purpose clause hina me tis kauchesetai (G2744, verified aorist middle subjunctive, V-ADS-3S) states the intended result, that no one may boast, which makes the exclusion of human merit the express aim of the sentence rather than an inference drawn from it.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:EPH.2.9"
+      },
+      {
+        "ref": "Rom.3.24",
+        "key_terms": [
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G1432",
+            "lemma": "δωρεάν"
+          },
+          {
+            "strong": "G0629",
+            "lemma": "ἀπολύτρωσις"
+          }
+        ],
+        "force": "Justification is described as dikaioumenoi dorean te autou chariti, being justified freely by his grace, with dikaioumenoi (G1344, verified present passive participle, V-PPP-NPM). The adverb dorean (G1432, attested elsewhere as without payment and without cause) stands alongside te autou chariti, his grace, so the freeness and the grace describe one act. The instrument is dia tes apolutroseos, through the redemption in Christ, locating the cost in Christ rather than in the justified party.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:ROM.3.24"
+      },
+      {
+        "ref": "Rom.11.6",
+        "key_terms": [
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "The verse reads ei de chariti, ouketi ex ergon, epei he charis ouketi ginetai charis, but if by grace, then no longer from works, since grace would no longer be grace. The conditional ei with the dative chariti, the doubled ouketi, no longer, and the causal epei, otherwise or since, build a strict mutual exclusion. The argument is definitional, that the meaning of charis itself collapses if works are admitted as a co-source, which is the strongest grammatical exclusion of human merit in the bundle.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:ROM.11.6"
+      },
+      {
+        "ref": "Titus.3.5",
+        "key_terms": [
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G1656",
+            "lemma": "ἔλεος"
+          },
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          }
+        ],
+        "force": "The saving act is stated as ouk ex ergon ton en dikaiosune ha epoiesamen hemeis alla kata to autou eleos esosen hemas, not from works in righteousness which we ourselves did, but according to his own mercy he saved us. The ouk ... alla contrast opposes human deeds, even righteous ones marked by the emphatic hemeis, we, to divine mercy as the basis, and the aorist esosen (G4982, V-AAI-3S) names God as the saving agent. The preposition kata with eleos (G1656) sets mercy as the standard governing the salvation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:TIT.3.5"
+      },
+      {
+        "ref": "Titus.3.7",
+        "key_terms": [
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G2818",
+            "lemma": "κληρονόμος"
+          },
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          }
+        ],
+        "force": "The clause dikaiothentes te ekeinou chariti, having been justified by his grace, uses the aorist passive participle dikaiothentes (G1344, verified V-APP-NPM) to mark justification as received, with te ekeinou chariti, by that one's grace, as the means. The purpose hina ... kleronomoi genethomen, that we might become heirs (G2818), ties the inheritance of eternal life to the grace already named, so the chain from salvation to heirship rests on grace rather than achievement.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:TIT.3.7"
+      },
+      {
+        "ref": "2Tim.1.9",
+        "key_terms": [
+          {
+            "strong": "G4982",
+            "lemma": "σῴζω"
+          },
+          {
+            "strong": "G5485",
+            "lemma": "χάρις"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          }
+        ],
+        "force": "The participial phrase tou sosantos hemas kai kalesantos ... ou kata ta erga hemon alla kata idian prothesin kai charin, who saved us and called us, not according to our works but according to his own purpose and grace, repeats the ou kata ... alla kata structure verified in the text. Salvation and calling are governed by God's prothesis, purpose, and charis, grace, while ta erga hemon, our works, is set aside as the standard. The frame pro chronon aionion, before times eternal, places the gift prior to any human action.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "MACULA-Greek-Nestle1904:2TI.1.9"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Rom.11.6",
+        "to": "Rom.3.27",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "Rom.3.24",
+        "to": "Rom.5.9",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "2Tim.1.9",
+        "to": "Deut.7.7",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Titus.3.5",
+        "to": "Ps.51.10",
+        "source": "openbible",
+        "votes": 16
+      },
+      {
+        "from": "Titus.3.5",
+        "to": "Titus.3.4",
+        "source": "openbible",
+        "votes": 5
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Jas.2.24",
+        "addressed": true,
+        "resolution": "James states horate hoti ex ergon dikaioutai anthropos kai ouk ek pisteos monon, you see that a man is justified from works and not from faith alone, which appears to admit human works into justification. The verb dikaioutai (G1344, present passive indicative) is the same lemma the Pauline anchors use, so the tension is genuine lexically. The resolution is that James uses dikaioo in the demonstrative sense of being shown or proven righteous before observers, anchored by the Abraham example whose faith was completed in action, whereas the anchor verses use the same verb for the granting of righteous standing whose source is named as charis and eleos. The shared verb carries two attested senses and does not collapse the two arguments, since James targets a dead faith that produces nothing while the anchors target the origin of the standing itself, so the proposition about the source of salvation stands."
+      },
+      {
+        "ref": "Phil.2.12",
+        "addressed": true,
+        "resolution": "The imperative katergazesthe (G2716, verified present middle imperative), work out your own salvation with fear and trembling, could be read as a human contribution to salvation. The next verse supplies the lexical control, theos gar estin ho energon en hymin (G1754), for God is the one working in you both to will and to work for his good pleasure, so the human working out is grounded in a prior divine energizing. Katergazomai is the outworking of a salvation already given, not the earning of it, which leaves the unmerited source intact."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The cited passages lie outside the open-cbgm 3 John sample, and a direct query of the lexical store returned zero VariantUnit nodes on any of the six anchor verses, so the apparatus carries no signal here. The known minor readings reflected in the bundle, the Eph 2:8 dia marking and the Rom 11:6 closing charis marking, do not touch the charis versus erga opposition that carries the verdict, so the verdict is variant robust on the available data."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "monergism",
+      "synergism",
+      "covenant_theology",
+      "dispensationalism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "monergism",
+        "verdict": "affirms",
+        "rationale": "Reads the negations ouk ex hymon and ouk ex ergon and the Rom 11:6 either-or as excluding every human contributory cause, including the human response itself, so that even faith in Eph 2:8 is part of the gift. The passive participles sesosmenoi and dikaioumenoi, with God as the explicit agent in esosen and sosantos, support reading the saving act as wholly God's work."
+      },
+      {
+        "framework": "synergism",
+        "verdict": "affirms",
+        "rationale": "Also affirms the bare proposition, since the verses unmistakably make grace and mercy the source and deny that works earn salvation. This lens holds that what the words exclude is meritorious works as a ground, not a grace-enabled human response such as faith, and it points to the same passages presenting faith dia pisteos and the human working out of Phil 2:12 as a real, though grace-given, cooperation. The lexis denies merit but does not by itself rank whether the response is monergistic or cooperative."
+      },
+      {
+        "framework": "covenant_theology",
+        "verdict": "affirms",
+        "rationale": "Reads the grace and works opposition as a unified canonical teaching that salvation rests on divine favor, consistent with the pan-canonical spread of charis across twenty-three New Testament books and the Old Testament mercy concept chesed standing behind eleos."
+      },
+      {
+        "framework": "dispensationalism",
+        "verdict": "affirms",
+        "rationale": "Even where law and grace are sharply distinguished across eras, the epistolary anchors are read as unmerited grace toward those saved, so the same charis over erga lexis yields the same verdict for the salvation in view."
+      }
+    ],
+    "notes": "The verdict turns on the grammar of ek and kata with the genitive of source and the ou ... alla contrast verified across five epistles, so the grammatico-historical reading is sufficient and no framework conflict changes the outcome of the bare proposition. The genuine remaining lexical question, recorded above, is the scope of the exclusion, whether grace excludes every human cause or only meritorious works while permitting a grace-enabled response. The anchor vocabulary settles the merit question but does not by itself rank monergism against synergism, which is why those lenses agree on this proposition while still differing on a question the words underdetermine."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Salvation originates in God's freely given favor, and human works or merit are not the ground or source of it.",
+    "notes": "The label sola gratia and the Five Solas subcategory are post-Reformation taxonomy and carry a tradition-coded frame, so the stem is treated as preloaded. The proposition statement itself, that salvation is unmerited favor not earned by human effort, is tradition-neutral. The verdict was derived on the original stem using only the verified lexical opposition of charis and eleos against erga, not on the confessional label. Data-integrity correction this pass: a direct query of the lexical store resolved the five cited cross-references as OpenBible edges with real vote counts of nine, thirteen, fifteen, sixteen, and five, and found no TSK cross-reference edges in the store, so the prior source tag tsk with votes one has been corrected to openbible with the queried votes. Occurrence counts were re-grounded against the MACULA-Greek-Nestle1904 edition. The verdict affirms is unchanged."
+  },
+  "lay_summary": "The question asks whether salvation is entirely God's free favor and not something a person earns or helps achieve. In the original Greek of the cited passages the word charis, grace or favor, is named as the source of salvation, and in every case the text directly denies that human works supply the cause. Ephesians 2:8 says you have been saved by grace, using a completed-action verb, and then renames salvation as the gift of God while denying it comes from yourselves. The next verse adds not from works, with a stated purpose that no one may boast, so the exclusion of merit is the express aim of the sentence and not a guess. Romans 11:6 is the sharpest case, since it argues that if salvation is by grace it is no longer from works, because grace would stop being grace if works were allowed as a co-cause. Romans 3:24 says believers are justified freely, a word used elsewhere for without payment or without cause, by his grace, with the cost carried by the redemption in Christ. Titus 3:5 states plainly that God saved us not from works done in righteousness which we did, but according to his own mercy. Second Timothy 1:9 repeats the pattern, that God saved and called us not according to our works but according to his own purpose and grace given before time began. Two texts that seem to push back were checked. James 2:24 uses the word justified in the sense of being shown righteous by visible action, a different use of the same verb. Philippians 2:12 tells believers to work out their salvation, but the very next line says God is the one working in them, so the effort flows from a gift already received. Across five letters the same grammar holds, with grace and mercy as the source and human works set aside as the ground, and the word grace itself appears in twenty-three New Testament books, so the pattern is dense and consistent. The one place the words leave room is a finer question they do not settle, whether grace rules out every human cause including the response of faith, or rules out only earning while a grace-given faith still responds. That narrower question is why careful readers still differ, but on the plain wording the proposition is supported.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.11.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.3.24"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.3.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.1.9"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5485"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1432"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Titus.3.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.11.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Titus.3.5"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-intermediate-state",
+  "question_id": "doc-intermediate-state",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two clusters of vocabulary stand in tension. The conscious-presence cluster pairs ekdemesai ek tou somatos with endemesai pros ton kyrion at 2 Cor 5:8, joins analusai to syn Christo einai at Phil 1:23, places semeron next to ese en to paradeiso at Luke 23:43, and shows post-mortem psychai speaking, perceiving, and resting under the altar at Rev 6:9-11 and in the Lazarus narrative at Luke 16:23. The soul-sleep cluster draws on koimaomai applied to dead believers at 1 Thess 4:13-15, the verb yashen plus dust at Dan 12:2, the wisdom statements that the dead know nothing at Eccl 9:5,10, and the Sheol-silence formulae at Ps 6:5 and Ps 115:17. The conscious-presence verbs are direct and pair explicit prepositional phrases of presence with the Lord, whereas the soul-sleep terms read mostly as death-euphemism for the body and as phenomenological language about Sheol from the side of the living. The verdict therefore tilts toward immediate conscious presence, but the OT silence-formulae and the koimaomai pattern are real lexical witnesses, so confidence remains medium and the question is genuinely contested at the word level."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1553",
+        "lemma": "ἐκδημέω",
+        "transliteration": "ekdemeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1736",
+        "lemma": "ἐνδημέω",
+        "transliteration": "endemeo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0360",
+        "lemma": "ἀναλύω",
+        "transliteration": "analuo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3857",
+        "lemma": "παράδεισος",
+        "transliteration": "paradeisos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2859",
+        "lemma": "κόλπος",
+        "transliteration": "kolpos",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0086",
+        "lemma": "ᾅδης",
+        "transliteration": "hades",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0931",
+        "lemma": "βάσανος",
+        "transliteration": "basanos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5590",
+        "lemma": "ψυχή",
+        "transliteration": "psyche",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2837",
+        "lemma": "κοιμάομαι",
+        "transliteration": "koimaomai",
+        "occurrences_in_canon": 18,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2292",
+        "lemma": "θαρρέω",
+        "transliteration": "tharreo",
+        "occurrences_in_canon": 6,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7585",
+        "lemma": "שְׁאוֹל",
+        "transliteration": "sheol",
+        "occurrences_in_canon": 66,
+        "in_anchors": false
+      },
+      {
+        "strong": "H3462",
+        "lemma": "יָשֵׁן",
+        "transliteration": "yashen",
+        "occurrences_in_canon": 16,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1553",
+      "G1736",
+      "G0360",
+      "G3857",
+      "G2859",
+      "G0086",
+      "G0931",
+      "G5590",
+      "G2837",
+      "G2292",
+      "H7585",
+      "H3462"
+    ],
+    "scripture": [
+      {
+        "ref": "2Cor.5.8",
+        "key_terms": [
+          {
+            "strong": "G1553",
+            "lemma": "ἐκδημῆσαι"
+          },
+          {
+            "strong": "G1736",
+            "lemma": "ἐνδημῆσαι"
+          },
+          {
+            "strong": "G2292",
+            "lemma": "θαρροῦμεν"
+          }
+        ],
+        "force": "Paul expresses confidence (tharroumen) and good pleasure rather to be away-from-home, out of the body (ekdemesai ek tou somatos), and at-home with the Lord (endemesai pros ton kyrion). The two aorist infinitives form one coordinated move, a single transition leaving the body and arriving present with the kyrios. The household verbs picture a relocation of the person, and the prepositional phrases ek tou somatos and pros ton kyrion mark origin and goal directly without naming any intermediate state of unconsciousness.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Phil.1.23",
+        "key_terms": [
+          {
+            "strong": "G0360",
+            "lemma": "ἀναλῦσαι"
+          },
+          {
+            "strong": "G4862",
+            "lemma": "σὺν"
+          }
+        ],
+        "force": "Paul is pressed between two, having the desire eis to analusai kai syn Christo einai, to depart and to be with Christ, which he judges pollo mallon kreisson, much rather better. The aorist infinitive analusai pictures loosing or breaking camp, and is bound by kai to syn Christo einai as one continuous prospect. The phrase syn Christo einai uses the simple infinitive of presence with the dative-governing preposition syn, naming concurrent companionship, not a deferred reunion.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.23.43",
+        "key_terms": [
+          {
+            "strong": "G4594",
+            "lemma": "σήμερον"
+          },
+          {
+            "strong": "G3857",
+            "lemma": "παραδείσῳ"
+          }
+        ],
+        "force": "Amen lego soi, semeron met emou ese en to paradeiso. The adverb semeron stands adjacent to ese (future second singular of eimi) and to en to paradeiso. On the natural word order semeron times the being-with-me-in-paradise. The early manuscripts transmit no punctuation, so the comma is editorial. The soul-sleep reading attaches semeron to lego (I say to you today, you will be with me in paradise), which is grammatically possible but lexically requires reading lego soi semeron as a Hebraism for solemn declaration, for which the Greek of Luke supplies no other clear parallel.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Luke.16.23",
+        "key_terms": [
+          {
+            "strong": "G2859",
+            "lemma": "κόλποις"
+          },
+          {
+            "strong": "G0931",
+            "lemma": "βασάνοις"
+          },
+          {
+            "strong": "G0086",
+            "lemma": "ᾅδῃ"
+          }
+        ],
+        "force": "After death the rich man, en to hade en basanois, lifts his eyes, sees Abraham far off and Lazarus en tois kolpois autou, and converses. The post-mortem figures perceive, remember, feel, and speak. The narrative pictures conscious experience immediately after death. As parable it teaches by depiction rather than as topographical reportage, so its weight is illustrative, but its vocabulary of psyche-language activity post-mortem is the same family the epistles use.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.6.10",
+        "key_terms": [
+          {
+            "strong": "G5590",
+            "lemma": "ψυχὰς"
+          },
+          {
+            "strong": "G2896",
+            "lemma": "ἔκραξαν"
+          },
+          {
+            "strong": "G2193",
+            "lemma": "ἕως"
+          }
+        ],
+        "force": "The psychai of the slain under the altar ekraxan phone megale, asking heos pote, how long, until they are vindicated, and are told anapausontai eti chronon mikron, they shall rest yet a little while. The vocabulary attributes voice, perception, and ethical questioning to the disembodied psychai, and the rest motif here is rest-while-aware, not rest-as-unconsciousness, since the same souls are speaking in the verses immediately before.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [
+          "personification"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Thess.4.13",
+        "key_terms": [
+          {
+            "strong": "G2837",
+            "lemma": "κοιμωμένων"
+          }
+        ],
+        "force": "Paul speaks of the koimomenoi, those who have fallen asleep, and frames the comfort around their bodily resurrection at the parousia. The participle koimaomai applied to dead believers can be heard as literal sleep of the person (soul-sleep reading) or as the standard Hellenistic euphemism for death applied to the visible body (death-euphemism reading). The verb itself is lexically ambiguous between these senses; its surrounding context here speaks of the bodies being raised but does not adjudicate whether the person was conscious in the interval.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eccl.9.5",
+        "key_terms": [
+          {
+            "strong": "H4191",
+            "lemma": "מֵתִים"
+          },
+          {
+            "strong": "H3045",
+            "lemma": "יֹדְעִים"
+          }
+        ],
+        "force": "Hammetim enam yodim meumah, the dead know not anything, and there is no more reward for them. Read by the soul-sleep position as a flat denial of post-mortem awareness. The wisdom genre and the recurring tachat hashshemesh frame describe death from the vantage of the living under the sun, cataloguing what is no longer accessible to the dead with respect to earthly life, reward, love, hate. The verbs of knowing here are phenomenological, observed from above, and the text does not explicitly address whether the person retains awareness in a different mode.",
+        "supports": "complicates",
+        "genre": "wisdom",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ps.6.5",
+        "key_terms": [
+          {
+            "strong": "H4194",
+            "lemma": "מָוֶת"
+          },
+          {
+            "strong": "H7585",
+            "lemma": "שְׁאוֹל"
+          },
+          {
+            "strong": "H2142",
+            "lemma": "זִכְרֶךָ"
+          }
+        ],
+        "force": "Ki en bammavet zikrekha, bisheol mi yodeh lakh, for in death there is no remembrance of you, in Sheol who gives you thanks. The Psalm is lament-speech pleading for deliverance from death. The argument is that praise of YHWH ceases from the realm of the dead toward the living covenant community. The lexical question is whether the silence is absolute about the dead person, or whether it describes the absence of cultic praise from Sheol toward the living world. Either reading is grammatically available; the genre is petition rather than ontology.",
+        "supports": "complicates",
+        "genre": "wisdom",
+        "figures": [
+          "merism"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Dan.12.2",
+        "key_terms": [
+          {
+            "strong": "H3463",
+            "lemma": "יְשֵׁנֵי"
+          },
+          {
+            "strong": "H6083",
+            "lemma": "עָפָר"
+          }
+        ],
+        "force": "Rabbim miyshenei admat aphar yaqitzu, many of those sleeping in the dust of the earth shall awake. The participle yshenei from yashen applied with admat aphar locates the sleeping in the dust, the burial-place. The figure is bodily, the dust is the grave, and the awakening is bodily resurrection. The verse supplies sleep-of-the-body language without by itself supplying sleep-of-the-soul language, so it is lexically compatible with either lens, depending on whether yashen is read as applying to the whole person or to the body.",
+        "supports": "complicates",
+        "genre": "apocalyptic",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "2Cor.5.8",
+        "to": "Phil.1.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.6",
+        "to": "2Cor.5.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Phil.1.23",
+        "to": "2Tim.4.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.23.43",
+        "to": "2Cor.12.4",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Luke.23.43",
+        "to": "Rev.2.7",
+        "source": "openbible",
+        "votes": 2
+      },
+      {
+        "from": "Luke.16.22",
+        "to": "Luke.16.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rev.6.9",
+        "to": "Rev.20.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Thess.4.13",
+        "to": "1Cor.15.20",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eccl.9.5",
+        "to": "Ps.115.17",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Dan.12.2",
+        "to": "Isa.26.19",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Luke.23.43",
+        "addressed": true,
+        "resolution": "Soul-sleep readers move the comma so that semeron modifies lego (I say to you today, you will be with me in paradise), placing the being-with at an unspecified later time. The original manuscripts have no punctuation, so the dispute is editorial. The default reading attaches semeron to the immediate clause-mate ese. The proposed Hebraism lego soi semeron as solemn-declaration formula has no clear parallel inside Luke. The complication is real but the lexical default favors immediate presence."
+      },
+      {
+        "ref": "Eccl.9.5",
+        "addressed": true,
+        "resolution": "The dead know not anything and there is no more reward sit inside Qohelet's tachat hashshemesh discourse, the under-the-sun perspective. Lexically yada plus the negative describes loss of access to earthly knowledge and reward, not necessarily metaphysical unconsciousness. The text is wisdom-observation from the living side, and does not by itself foreclose conscious existence in another mode."
+      },
+      {
+        "ref": "1Thess.4.13",
+        "addressed": true,
+        "resolution": "Koimaomai applied to the dead in Christ is read by the soul-sleep position as literal sleep of the person. Lexically koimaomai is the standard Hellenistic euphemism for death applied to the visible bodily condition, attested broadly in non-Christian Greek before the NT. The verb itself is genuinely ambiguous between literal-sleep and death-euphemism senses, and the surrounding context here turns on bodily resurrection rather than on the awareness of the interval, so it does not settle the question alone."
+      },
+      {
+        "ref": "Ps.115.17",
+        "addressed": true,
+        "resolution": "Lo hammetim yehallu Yah, the dead do not praise YH, sits in a covenant-praise frame contrasting the living congregation that praises with the silent grave. Lexically the verb halal denotes cultic praise within the living covenant community, so the silence stated is the cessation of public cultic praise rather than a flat denial of any awareness. The verse is in real tension with conscious-presence readings but does not on its own lexicon establish unconsciousness."
+      },
+      {
+        "ref": "Dan.12.2",
+        "addressed": true,
+        "resolution": "The yshenei admat aphar phrase locates the sleeping in the dust of the earth, naming the burial place. Lexically the sleep here is of those whose bodies lie in dust, awaiting bodily awakening. Whether the entire person sleeps or only the body sleeps while the person continues elsewhere is not adjudicated by the words alone, and either lens can read the verse coherently."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "All cited anchors fall outside the 3 John ECM-published window. The bundle reports not_in_ecm_scope for the anchor verses. The Luke 23:43 punctuation dispute is editorial and does not appear as a transmitted variant unit in the apparatus, since early manuscripts carry no punctuation at all. The verdict is therefore not sensitive to any documented variant reading."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "immediate_conscious_presence",
+      "soul_sleep",
+      "psychopannychism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "immediate_conscious_presence",
+        "verdict": "for",
+        "rationale": "Reads 2 Cor 5:8 ekdemesai ek tou somatos paired with endemesai pros ton kyrion as one continuous transition. Reads Phil 1:23 analusai bound by kai to syn Christo einai as direct presence. Takes Luke 23:43 semeron adverbially with the adjacent future ese. Weights Rev 6:9-11 psychai-speaking and Luke 16:23 hades-conscious as confirming post-mortem awareness. Concludes the believing dead are with the kyrios immediately upon death, awaiting bodily resurrection at the parousia."
+      },
+      {
+        "framework": "soul_sleep",
+        "verdict": "complicates",
+        "rationale": "Reads koimaomai applied to dead believers (1 Thess 4:13-15, 1 Cor 15:6,18,20) and yashen applied to those in the dust (Dan 12:2) as describing literal unconsciousness of the whole person. Reads Eccl 9:5,10 the-dead-know-nothing and Ps 6:5 / Ps 115:17 no-remembrance-in-Sheol as flat statements that the dead lack awareness. Repunctuates Luke 23:43 attaching semeron to lego. Reads Rev 6:9-11 and Luke 16 as figurative apocalyptic and parabolic depictions that do not establish doctrine. Concludes the dead are unconscious until bodily resurrection, at which moment they meet the kyrios."
+      },
+      {
+        "framework": "intermediate_disembodied_state_undefined",
+        "verdict": "complicates",
+        "rationale": "Reads the NT presence-language as real but underspecified about the metaphysics. Notes that the OT Sheol vocabulary is phenomenological, the NT psyche language is functional rather than substance-claim, and the words do not by themselves settle whether the interval is experienced as continuous awareness or as compressed transition. Concludes the lexical data affirms presence-with-the-Lord at death but does not foreclose all variant accounts of what awareness looks like in that interval."
+      }
+    ],
+    "notes": "Progressive revelation matters because the OT Sheol-silence formulae are written before the NT presence-with-Christ vocabulary that locates believers pros ton kyrion. Analogia scripturae weighs the converging NT epistolary and apocalyptic vocabulary alongside the OT lament-speech, neither erasing the OT tension nor letting it overturn the NT direct prepositional phrases of presence."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine what the biblical vocabulary says about the state of believers between bodily death and bodily resurrection, and whether the texts depict conscious presence with the Lord, an interval of unconsciousness, or something the words leave underdetermined.",
+    "notes": "The original stem both asserts immediate conscious presence and names a rival position, soul sleep, as rejected, which preloads the verdict and frames the alternative as already defeated. The neutralized form poses the lexical question without prejudging it. The verdict above is derived on the original stem after testing the soul-sleep reading and an underdetermined reading in their strongest lexical forms as complicating witnesses."
+  },
+  "lay_summary": "The question asks whether believers who die are at once consciously present with the Lord, at rest, while they wait for bodily resurrection, and whether soul sleep, the idea that the dead are unconscious until resurrection, should be rejected. Two clusters of words stand in tension. The presence cluster in the New Testament pairs two household words at 2 Corinthians 5:8, one for being away from home, out of the body, and one for being at home with the Lord, and sets them as one move with no unconscious gap named. Philippians 1:23 binds depart and be with Christ together as far better than staying alive. Luke 23:43 places today next to you will be with me in paradise, and on the plain word order today times the being-with. The Revelation 6 souls under the altar speak, ask how long, and are told to rest a little longer while still aware. The rich man and Lazarus picture the dead seeing, remembering, feeling, and talking. The sleep cluster in the Old Testament and New uses the verb to fall asleep for dead believers, and says the dead know nothing, and that in Sheol there is no remembrance, no praise. The soul sleep reading takes these as literal statements that the person is unconscious. The presence-cluster verbs are direct words for being with the Lord and use clear prepositional phrases of presence. The sleep-cluster terms are mostly euphemism for the body (since the same word in plain Greek already meant death in everyday speech) and lament from the living side, observing that the dead no longer take part in earthly worship and earthly knowledge. The early Greek manuscripts carry no punctuation, so the comma at Luke 23:43 is the editor's choice, which is a real but narrow opening. Because the New Testament directly names being with the Lord at death and the soul sleep texts read mostly as euphemism and phenomenology, the verdict tilts toward immediate conscious presence, but the Old Testament silence-formulae and the sleep vocabulary are real lexical witnesses on the other side, which is why confidence is medium rather than high.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Luke.23.43"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Eccl.9.5"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Dan.12.2"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1553"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1736"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2837"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7585"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3462"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Cor.5.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Luke.23.43"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.5.8"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Eccl.9.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "BibleHub-interlinear",
+      "license": "fair-use-policy",
+      "redistribute": false,
+      "ref": "Phil.1.23"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "BibleHub-interlinear",
+        "license": "fair-use-policy",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Three sources are non-redistributable in bulk. MACULA-Greek and MACULA-Hebrew are CC-BY-NC-4.0 and BibleHub-interlinear is fair-use-policy. Their inclusion sets the aggregate evidence_safe_to_publish to false."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

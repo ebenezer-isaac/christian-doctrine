@@ -1,0 +1,580 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-modesty",
+  "question_id": "prc-modesty",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.95,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Two epistolary passages converge on a single lexical pattern in which self-presentation is governed by orderly restraint (katastolē kosmiō), reverence or modesty (aidōs), and soundness of mind or self-control (sōphrosynē), with the locus of true adornment relocated to the inner person and to good works that befit godliness. Both passages share a not-this-but-that structure built on alla, de-emphasizing external display while positively redirecting adornment (kosmein, kosmos) to the hidden person of the heart and to good works. The principle is densely worded with multiple converging anchor lemmas, and the same approved verb kosmeō then appears positively at 1Pet.3.5 of the holy women of old who adorned themselves by submitting to their husbands, internally confirming that adornment as such is not the target. Confidence is raised to high because the affirmed principle is lexically overdetermined, while the further question of whether the named items form a closed prohibition is the only point lexically left open."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2689",
+        "lemma": "καταστολή",
+        "transliteration": "katastolē",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2887",
+        "lemma": "κόσμιος",
+        "transliteration": "kosmios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0127",
+        "lemma": "αἰδώς",
+        "transliteration": "aidōs",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4997",
+        "lemma": "σωφροσύνη",
+        "transliteration": "sōphrosynē",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2317",
+        "lemma": "θεοσέβεια",
+        "transliteration": "theosebeia",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4241",
+        "lemma": "πρέπω",
+        "transliteration": "prepō",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2885",
+        "lemma": "κοσμέω",
+        "transliteration": "kosmeō",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4117",
+        "lemma": "πλέγμα",
+        "transliteration": "plegma",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1708",
+        "lemma": "ἐμπλοκή",
+        "transliteration": "emplokē",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4185",
+        "lemma": "πολυτελής",
+        "transliteration": "polytelēs",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2272",
+        "lemma": "ἡσύχιος",
+        "transliteration": "hēsychios",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0862",
+        "lemma": "ἄφθαρτος",
+        "transliteration": "aphthartos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2927",
+        "lemma": "κρυπτός",
+        "transliteration": "kryptos",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1855",
+        "lemma": "ἔξωθεν",
+        "transliteration": "exōthen",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2588",
+        "lemma": "καρδία",
+        "transliteration": "kardia",
+        "occurrences_in_canon": 160,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2041",
+        "lemma": "ἔργον",
+        "transliteration": "ergon",
+        "occurrences_in_canon": 176,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0018",
+        "lemma": "ἀγαθός",
+        "transliteration": "agathos",
+        "occurrences_in_canon": 103,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4998",
+        "lemma": "σώφρων",
+        "transliteration": "sōphrōn",
+        "occurrences_in_canon": 4,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2689",
+      "G2887",
+      "G0127",
+      "G4997",
+      "G2317",
+      "G4241",
+      "G2885",
+      "G4117",
+      "G1708",
+      "G4185",
+      "G2272",
+      "G0862",
+      "G2927",
+      "G1855",
+      "G2588",
+      "G2041",
+      "G0018",
+      "G4998",
+      "G5553",
+      "G3135",
+      "G2440"
+    ],
+    "scripture": [
+      {
+        "ref": "1Tim.2.9",
+        "key_terms": [
+          {
+            "strong": "G2689",
+            "lemma": "καταστολή"
+          },
+          {
+            "strong": "G2887",
+            "lemma": "κόσμιος"
+          },
+          {
+            "strong": "G0127",
+            "lemma": "αἰδώς"
+          },
+          {
+            "strong": "G4997",
+            "lemma": "σωφροσύνη"
+          },
+          {
+            "strong": "G2885",
+            "lemma": "κοσμέω"
+          },
+          {
+            "strong": "G4117",
+            "lemma": "πλέγμα"
+          }
+        ],
+        "force": "The infinitival clause kosmein heautas en katastolē kosmiō meta aidous kai sōphrosynēs sets the governing principle. The verb kosmein carries the sense of putting in good order or arranging fittingly. The prepositional phrase locates the manner of self-adornment in orderly, well-arranged apparel, accompanied by aidōs (reverent self-respect, a sense of what is fitting before others) and sōphrosynē (sound-mindedness, self-controlled judgment). The named items, braided hair, gold, pearls, and costly clothing, are then introduced under negation (mē) as the contrast class. The construction does not abolish adornment but redirects how a woman adorns herself: with restraint and sober judgment rather than with ostentatious display.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.2.10",
+        "key_terms": [
+          {
+            "strong": "G4241",
+            "lemma": "πρέπω"
+          },
+          {
+            "strong": "G2317",
+            "lemma": "θεοσέβεια"
+          },
+          {
+            "strong": "G2041",
+            "lemma": "ἔργον"
+          },
+          {
+            "strong": "G0018",
+            "lemma": "ἀγαθός"
+          }
+        ],
+        "force": "The strong adversative all positively redirects adornment to ergōn agathōn, good works, as the thing that prepei (is fitting, is becoming) for women professing theosebeian (reverence toward God). The verb prepō across its seven canon uses consistently marks what is congruous or seemly to a given character or station, and here it fixes ethical conduct as the proper ornament. The verse establishes that the apostolic concern is not bare prohibition but a relocation of adornment from external display to ethical and devout conduct, which is exactly the godly self-restraint clause of the proposition.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.3",
+        "key_terms": [
+          {
+            "strong": "G1708",
+            "lemma": "ἐμπλοκή"
+          },
+          {
+            "strong": "G5553",
+            "lemma": "χρυσίον"
+          },
+          {
+            "strong": "G2440",
+            "lemma": "ἱμάτιον"
+          },
+          {
+            "strong": "G1855",
+            "lemma": "ἔξωθεν"
+          }
+        ],
+        "force": "The adornment under negation is qualified as ho exōthen, the outward, of braiding of hair, wearing of gold, and putting on of garments. The adverb exōthen functions structurally the same way it functions in Matt.23.25 to 28 and Luke.11.39 to 40, where Jesus contrasts the outside of the cup or dish with what is inside; here it marks the external layer of dress as not the place where true adornment resides. The verse does not issue a flat ban on every external item, since the same verse names the putting on of clothing, which no reader treats as forbidden. It prepares a not-this-but-that contrast that resolves in v.4.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.4",
+        "key_terms": [
+          {
+            "strong": "G2927",
+            "lemma": "κρυπτός"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G0862",
+            "lemma": "ἄφθαρτος"
+          },
+          {
+            "strong": "G2272",
+            "lemma": "ἡσύχιος"
+          }
+        ],
+        "force": "The adversative all relocates true adornment to ho kryptos tēs kardias anthrōpos, the hidden person of the heart, clothed in the imperishable (aphthartō, the same word used of the inheritance in 1Pet.1.4 and the seed of regeneration in 1Pet.1.23) ornament of a meek and quiet (hēsychiou, the same word Paul uses of the goal of public life in 1Tim.2.2) spirit, which is polytelés (of great worth) enōpion tou theou (in the sight of God). The verse anchors modest self-presentation in an inward, God-ward disposition of self-restraint rather than in suppression of any specific garment.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.3.5",
+        "key_terms": [
+          {
+            "strong": "G2885",
+            "lemma": "κοσμέω"
+          }
+        ],
+        "force": "The verse immediately following the contrast applies the verb ekosmoun heautas, the same kosmeō that is used positively at 1Tim.2.9, to the holy women of old who hoped in God. This is the strongest internal lexical confirmation that adornment as such is not the target: the same verb governs both the prohibited and the commended pattern, with the object of adornment shifted from outward display to a wife's hopeful submission. The lexical signal closes the loop on the not-this-but-that structure.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.2.5",
+        "key_terms": [
+          {
+            "strong": "G4998",
+            "lemma": "σώφρων"
+          }
+        ],
+        "force": "The Pastoral letter to Titus uses sōphronas, the adjective from the same root as sōphrosynē in 1Tim.2.9, of the younger women as a virtue to be taught by the older women, alongside chaste and good (agathas) and homemaking. This pan-Pastoral spread of the sōphrōn family in direct application to women's conduct confirms that self-controlled, sober-minded behavior, not a list of forbidden ornaments, is the substance of what is being commended.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Prov.7.10",
+        "key_terms": [
+          {
+            "strong": "G2440",
+            "lemma": "ἱμάτιον"
+          }
+        ],
+        "force": "The TSK cross-reference links the modesty instruction to the figure of the woman dressed in the attire of a harlot, where self-presentation broadcasts intent. This supplies an Old Testament backdrop in which dress communicates character to the neighbor, supporting the love-of-neighbor dimension of the proposition by showing that attire is read by others as a signal of disposition.",
+        "supports": "for",
+        "genre": "wisdom",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Sam.16.7",
+        "key_terms": [
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          }
+        ],
+        "force": "The TSK cross-reference at 1Pet.3.4 invokes the principle that man looks on the outward appearance but the Lord looks on the heart. This places the inner-versus-outer contrast in 1Peter on a pan-canonical footing: it is not a Petrine novelty but a covenantal pattern in which God's regard is for kardia (rendered in the LXX), exactly the term 1Pet.3.4 then uses.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Pet.3.4",
+        "to": "1Sam.16.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.4",
+        "to": "Ps.45.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.4",
+        "to": "Ps.131.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.9",
+        "to": "Prov.7.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.3",
+        "to": "Gen.24.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.9",
+        "to": "Gen.24.53",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Tim.2.10",
+        "to": "1Tim.5.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Pet.3.4",
+        "to": "1Pet.3.15",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Pet.3.3",
+        "addressed": true,
+        "resolution": "Read in isolation the prohibition of braided hair, gold, and clothing could be taken as an absolute ban that would make any adornment sinful, which would push past the proposition into legalism. Three lexical features resolve this. First, the qualifier exōthen (outward) functions in Matt.23.25 to 28 and Luke.11.39 to 40 to designate the surface layer that is contrasted with the inner, not to ban the surface as such. Second, the same verse names the putting on of garments (endysis), which no reader treats as forbidden. Third, the same verb kosmeō that governs the negated outward adornment is applied positively to holy women in v.5. The construction is a relative not-this-but-that contrast that relocates adornment to the inner person rather than abolishing all external presentation."
+      },
+      {
+        "ref": "1Tim.2.9",
+        "addressed": true,
+        "resolution": "The same not-this-but-that pattern governs the named items. The positive head term katastolē kosmiō (orderly apparel) presupposes that women do wear apparel; the negated items mark ostentation and status display, not clothing as such. The triad aidōs and sōphrosynē and kosmios names the controlling disposition; pleagma and chrysion and margaritēs and himatismos polytelēs are the contrast class. The verdict therefore affirms the principle of modest, self-controlled presentation without endorsing a closed list of forbidden objects, leaving the specific application culturally conditioned."
+      },
+      {
+        "ref": "Gen.24.22",
+        "addressed": true,
+        "resolution": "TSK links the passage to Rebekah receiving gold nose-ring and bracelets within an approved betrothal narrative, which on its face complicates any reading that gold ornament is intrinsically immodest. This is resolved by noting that the New Testament concern is the heart-disposition behind display, not the metal itself, so an Old Testament gift of gold and a New Testament caution against gold-as-boast are not in lexical conflict. It does, however, confirm that the specific items are not absolutely proscribed across the canon, which is why the proposition wisely names the principle and rejects legalism."
+      },
+      {
+        "ref": "Ps.45.13",
+        "addressed": true,
+        "resolution": "The TSK cross-reference at 1Pet.3.4 invokes the royal bride whose glory is within and whose clothing is wrought with gold. The text holds the inner-glory and outward-gold language together rather than treating them as exclusive, which confirms that the New Testament contrast is rhetorical not absolute. The inner-versus-outer distinction is structural, foregrounding the inward, not abolishing the outward."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied in the bundle and the passages are outside published CBGM scope (3 John only). Apparatus signals at 1Tim.2.9 (chrysiō vs chrysō, orthographic) and at 1Pet.3.4 (praeōs vs praeos, also orthographic) and the kai-position at 1Tim.2.9 do not touch the modesty-and-self-restraint sense, so the verdict is treated as variant-robust under ecm-shadow status."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "principle-reading",
+        "verdict": "affirms",
+        "rationale": "Treats the named items as culture-bound illustrations of a transcultural principle of modest, self-controlled, other-regarding self-presentation. The not-this-but-that contrast, the positive use of kosmeō at 1Pet.3.5 of the holy women, and the redirection to good works and the inner person carry the lexical weight. The proposition is affirmed without binding the specific first-century list. Strongest form: katastolē kosmiō, aidōs, and sōphrosynē are the substance, the items are the application."
+      },
+      {
+        "framework": "strict-prohibition-reading",
+        "verdict": "partial",
+        "rationale": "Treats the enumerated items, braided hair, gold, pearls, and costly clothing, as themselves proscribed for Christian women in all settings. This reading affirms modesty and self-control but would resist the without-legalism clause by reading the list as binding. Strongest form: the items are named specifically and uniformly across two letters from two apostolic authors, suggesting a maintained apostolic standard. Lexically it is possible but strained by exōthen in 1Pet.3.3 (which uses the same inner-versus-outer rhetoric Jesus uses for the cup), by the positive head term katastolē kosmiō in 1Tim.2.9 which presupposes apparel is worn, and by the positive kosmeō at 1Pet.3.5 of women who adorned themselves rightly."
+      },
+      {
+        "framework": "complementarian-public-decorum reading",
+        "verdict": "affirms",
+        "rationale": "Treats the passages as governing women's public conduct in the gathered assembly specifically, given the worship-setting of 1Tim.2 and the household setting of 1Pet.3. The lexical weight remains on aidōs and sōphrosynē and kosmios, and the named items are read as the locally salient markers of status competition in the assembly. The proposition is affirmed in its principle while the binding application is read narrowly to the public-witness setting rather than to all dress at all times."
+      }
+    ],
+    "notes": "All three lenses read the same lexical signals and affirm the principle of modest, self-controlled self-presentation. They diverge on the scope of the named items (transcultural illustration, fixed prohibition, or assembly-public decorum). The lexical data fixes the principle decisively; the scope of the list is what the words do not rank."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Scripture addresses how believers, in dress and self-presentation, are to relate restraint, reverence, and self-control to inward character and to the regard of others.",
+    "notes": "The original stem carries evaluative loading in three places: without legalism presupposes a settled boundary between virtue and legalism, Christian virtue presupposes the verdict that modesty is commended, and rooted in love of neighbor and godly self-restraint asserts a specific grounding. The lexical data does in fact supply self-restraint (sōphrosynē at 1Tim.2.9 and the cognate sōphrōn at Titus.2.5, hēsychios at 1Pet.3.4), reverence (aidōs at 1Tim.2.9), and orderliness (katastolē kosmiō at 1Tim.2.9). The love-of-neighbor grounding is supported indirectly via the signaling function of dress in cross-references such as Prov.7.10 and via the public, assembly-setting of 1Tim.2. The verdict was derived against the neutralized form first and then mapped back to the original stem, which it affirms at the level of principle."
+  },
+  "lay_summary": "Two New Testament letters speak directly to how believers present themselves, and they say the same thing in the same shape. In the first letter to Timothy, women are told to adorn themselves in orderly, well-arranged clothing, with reverence and self-control. The Greek words behind those phrases carry the ideas of restraint, a sense of what is fitting before others, and a sound, self-governed mind. The passage then names braided hair, gold, pearls, and costly garments, but it does so as the contrast class, the showy display that self-control moderates. It immediately redirects, with a strong word for but, toward good works that are fitting for women who profess to reverence God. The first letter of Peter follows the same pattern. It calls the braiding of hair, wearing of gold, and putting on of fine clothing the outward part, using the same word the Gospels use when Jesus contrasts the outside of the cup with what is inside. It then contrasts that with the hidden person of the heart, clothed in the unfading beauty of a gentle and quiet spirit, which is precious in God's sight. The very next verse uses the same verb for adorn in a positive sense, of the holy women of old. Titus 2 uses a sister word for self-control as a virtue to be taught to younger women. The shared structure is not this but that. The weight falls on the inner disposition and on conduct, not on a fixed list of banned objects. That structure supports the principle of modest self-presentation flowing from self-restraint and a God-ward heart. Where readers diverge is not on the principle but on the scope of the named items. The words plainly affirm the principle, but they do not rank whether the list is a closed prohibition, a transcultural illustration, or an assembly-setting decorum. An Old Testament cross-reference where Rebekah is gladly given gold shows the list is not absolute in the canon. So the principle is decisive in the text; the application of the list is what the vocabulary leaves open.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2689"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0127"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4997"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2885"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.2.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.4"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.3.5"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Tim.2.10"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Pet.3.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Pet.3.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.2.9"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Tim.2.9"
+    },
+    {
+      "type": "syntax",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "1Pet.3.3"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cited MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute=false) for interlinear support at 1Tim.2.10 and 1Pet.3.4, and SBLGNT-text under SBLGNT-EULA (redistribute=false) for the apparatus check at 1Pet.3.3. Either source makes bulk redistribution of this evidence record unsafe."
+  },
+  "flags": [
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

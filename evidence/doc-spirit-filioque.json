@@ -1,0 +1,498 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-filioque",
+  "question_id": "doc-spirit-filioque",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.7375,
+    "confidence": "low",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "The vocabulary separates two relations with two verb families. The procession verb ekporeuomai (G1607, 33 New Testament occurrences) is predicated of the Spirit exactly once, in John 15:26 (ekporeuetai, present middle indicative, third singular), where the subject is the neuter relative ho (the Spirit) and the only source named is para tou patros, from beside the Father. In the same verse the Son is the subject of a different verb, pempso (G3992, future active indicative, first singular, I will send), and John 16:7, John 14:26, and John 20:21 also use sending verbs, with the Son sending and in John 14:26 the Father sending. Galatians 4:6 uses a third verb, exapesteilen (G1821, aorist), with ho theos as subject and the Spirit qualified by the relational genitive tou huiou, of his Son. The lexical pattern names the Father alone as the source of the procession verb but ascribes the Spirit to the Son by genitive and ascribes a sending of the Spirit to the Son. The words do not say whether the Son-related genitive and the Son-side sending entail an eternal procession from the Son, so the proposition is disputed at the lexical level."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1607",
+        "lemma": "ἐκπορεύομαι",
+        "transliteration": "ekporeuomai",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3992",
+        "lemma": "πέμπω",
+        "transliteration": "pempō",
+        "occurrences_in_canon": 79,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1821",
+        "lemma": "ἐξαποστέλλω",
+        "transliteration": "exapostellō",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3875",
+        "lemma": "παράκλητος",
+        "transliteration": "paraklētos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3844",
+        "lemma": "παρά",
+        "transliteration": "para",
+        "occurrences_in_canon": 196,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "patēr",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 386,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4198",
+        "lemma": "πορεύομαι",
+        "transliteration": "poreuomai",
+        "occurrences_in_canon": 159,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 529,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1720",
+        "lemma": "ἐμφυσάω",
+        "transliteration": "emphysaō",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0005",
+        "lemma": "ἀββα",
+        "transliteration": "abba",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1607",
+      "G3992",
+      "G1821",
+      "G0649",
+      "G3875",
+      "G3844",
+      "G3962",
+      "G5207",
+      "G4151",
+      "G4198",
+      "G5547",
+      "G1720",
+      "G0005",
+      "G3140",
+      "G2896",
+      "G1537"
+    ],
+    "scripture": [
+      {
+        "ref": "John.15.26",
+        "key_terms": [
+          {
+            "strong": "G1607",
+            "lemma": "ἐκπορεύομαι"
+          },
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G3844",
+            "lemma": "παρά"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          }
+        ],
+        "force": "The verse carries two distinct verbs in two distinct constructions. The clause hon egō pempsō hymin para tou patros has pempsō (G3992, future active indicative, first singular, V-FAI-1S) with the Son as subject and para tou patros marking the source of the sending. The relative clause ho para tou patros ekporeuetai has ekporeuetai (G1607, present middle indicative, third singular, V-PNI-3S) with the neuter relative ho referring to to pneuma (the Spirit) as subject and para tou patros as the source, with no co-mention of the Son inside the procession clause. The morphology fixes the Father as the only named source of the procession verb here, while the Son is the subject of the separate sending verb in the same verse.",
+        "supports": "complicates",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 15:26!20"
+      },
+      {
+        "ref": "John.16.7",
+        "key_terms": [
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G4198",
+            "lemma": "πορεύομαι"
+          }
+        ],
+        "force": "Jesus says ean de poreuthō, pempsō auton pros hymas, if I go, I will send him to you. The verb is pempsō (G3992, future active indicative, first singular, V-FAI-1S) with the Son as subject and the disciples as destination. The verse establishes the Son sending the Paraclete to the disciples in the economy of mission. It does not predicate ekporeuomai of the Spirit and does not name the Son as the source of an eternal procession. The sending verb here is the same one the Son uses in John 15:26.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 16:7!26"
+      },
+      {
+        "ref": "John.14.26",
+        "key_terms": [
+          {
+            "strong": "G3992",
+            "lemma": "πέμπω"
+          },
+          {
+            "strong": "G3875",
+            "lemma": "παράκλητος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "ho de paraklētos, to pneuma to hagion, ho pempsei ho patēr en tō onomati mou. Here pempsei (G3992, future active indicative, third singular, V-FAI-3S) has ho patēr (the Father) as subject, sending the Spirit in the Son's name. The same sending verb that John 15:26 and John 16:7 give to the Son is given here to the Father. The canon therefore predicates the sending verb of both persons, which shows that the sending vocabulary does not by itself isolate a single sender, and that the lexical force of pempō is mission rather than origin.",
+        "supports": "neutral",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "JHN 14:26!9"
+      },
+      {
+        "ref": "Gal.4.6",
+        "key_terms": [
+          {
+            "strong": "G1821",
+            "lemma": "ἐξαποστέλλω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          }
+        ],
+        "force": "exapesteilen ho theos to pneuma tou huiou autou eis tas kardias hēmōn. The verb is exapesteilen (G1821, aorist active indicative, third singular, V-AAI-3S) with ho theos as subject, paralleling Galatians 4:4 where the same verb sends the Son. The Spirit is qualified as to pneuma tou huiou, a genitive of relation or possession naming the Spirit as the Son's, but the grammar does not make the Son the sender or the source. The lexical structure here is a sending by God of a Spirit who is described as belonging to the Son.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "GAL 4:6!5"
+      },
+      {
+        "ref": "Romans.8.9",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "The verse sets pneuma theou (Spirit of God) in apposition with pneuma Christou (Spirit of Christ) within two parallel conditional clauses. Both are bare genitive constructions of the same form. The genitive Christou ascribes the Spirit to Christ in the same relational way that theou ascribes the Spirit to God, without specifying whether the relation is one of eternal origin or of mission and possession. The text places the Son-related genitive alongside the God-related genitive but does not rank or define either as a procession.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "ROM 8:9!20"
+      },
+      {
+        "ref": "Revelation.22.1",
+        "key_terms": [
+          {
+            "strong": "G1607",
+            "lemma": "ἐκπορεύομαι"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐκ"
+          }
+        ],
+        "force": "potamon hydatos zōēs ... ekporeuomenon ek tou thronou tou theou kai tou arniou. Here ekporeuomenon (G1607, present middle participle, V-PNP-ASM), the same lemma as the procession verb in John 15:26, takes a compound source joined by kai, from the throne of God and of the Lamb. This is the one other place where the procession lemma is paired with a source that includes the Son figure, the Lamb. Two differences from John 15:26 matter lexically. The subject is potamon, a river of living water, not the Spirit, and the preposition is ek (out of) rather than para (from beside). The verse shows the lemma can govern a compound source that names the Lamb, but it does not predicate that compound source of the Spirit.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": "REV 22:1!10"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Gal.4.6",
+        "to": "Isa.44.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gal.4.6",
+        "to": "John.3.34",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.16.7",
+        "to": "Ps.68.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.15.26",
+        "to": "John.14.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.15.26",
+        "to": "John.8.42",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.15.26",
+        "addressed": true,
+        "resolution": "The procession verb ekporeuetai is restricted by para tou patros to the Father as the named source in the only clause where the verb takes the Spirit as subject. The Son's role in the same verse uses a different verb, pempsō. Because the procession verb is not predicated of the Son here, the verse complicates any reading that derives an eternal procession from the Son out of this clause alone. It is addressed by distinguishing the two verbs and their two source constructions."
+      },
+      {
+        "ref": "Gal.4.6",
+        "addressed": true,
+        "resolution": "The sending verb exapesteilen has ho theos as subject, not the Son. The phrase pneuma tou huiou is a relational genitive that ascribes the Spirit to the Son but does not lexicalize the Son as source of a procession. The verse complicates a filioque inference that rests on the genitive alone, since the same genitive form elsewhere, pneuma theou and pneuma Christou in Romans 8:9, marks relation without defining origin. Addressed by classifying the genitive as relational and noting it is grammatically unranked."
+      },
+      {
+        "ref": "Revelation.22.1",
+        "addressed": true,
+        "resolution": "This is the strongest lexical datapoint for the affirming reading, because the same lemma ekporeuomai governs a compound source that names the Lamb, ek tou thronou tou theou kai tou arniou. It is addressed but not fully resolved as decisive, because the subject is a river of living water rather than the Spirit and the preposition is ek rather than the para of John 15:26. The verse shows the lemma can take a Son-inclusive source but does not predicate that of the Spirit, so it raises rather than settles the question."
+      },
+      {
+        "ref": "Romans.8.9",
+        "addressed": true,
+        "resolution": "pneuma Christou stands in the same bare genitive form as pneuma theou in the immediately preceding clause. The parallel shows the genitive marks relation symmetrically for both God and Christ and does not by its grammar declare a procession from either. Addressed by reading the two genitives as the same construction, which neutralizes any claim that the Christ genitive uniquely encodes origin."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units in the bundle or in the queried apparatus for John 15:26, John 16:7, John 14:26, or Galatians 4:6 affect the choice of ekporeuetai versus pempō or exapesteilen, or the genitive tou huiou. The anchors lie outside the ingested ECM window, which covers 3 John only, so CBGM data for John and Galatians is not yet ECM-published. The verdict holds across the plausible text-critical readings of these verses."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "procession-as-origin",
+      "sending-as-economy"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "father-sole-source",
+        "verdict": "false",
+        "rationale": "Reads ekporeuetai in John 15:26 as the precise verb of origin and observes that across its 33 New Testament occurrences it never takes the Spirit as subject except here, where the only named source is para tou patros, from beside the Father. On this reading the Son's pempsō in John 15:26 and John 16:7 is a different verb of mission, the same verb the Father uses in John 14:26, so it describes economic sending and not eternal origin. The genitive tou huiou in Galatians 4:6 and Christou in Romans 8:9 marks relation, matching pneuma theou in the same context, and therefore says the Spirit is the Son's but not that the Spirit originates from the Son. The procession verb names the Father alone as source, so a procession from the Son is not stated."
+      },
+      {
+        "framework": "father-and-son-source",
+        "verdict": "true",
+        "rationale": "Reads the cluster of Son-related data as jointly implying that the Spirit eternally proceeds also from the Son. The Son sends the Spirit by the same sending verb the Father uses, in John 15:26, John 16:7, and John 20:21, and breathes the Spirit in John 20:22. The Spirit is repeatedly called the Spirit of the Son or of Christ by relational genitive in Galatians 4:6, Romans 8:9, Philippians 1:19, and 1 Peter 1:11, which on this reading expresses an eternal relation, not merely a temporal one. Decisively for this lens, Revelation 22:1 uses the very procession lemma ekporeuomai with a compound source that includes the Lamb, ek tou thronou tou theou kai tou arniou, showing the lemma can govern a Son-inclusive source. On this reading the economic sending manifests an eternal procession that includes the Son."
+      },
+      {
+        "framework": "lexical-underdetermination",
+        "verdict": "disputed",
+        "rationale": "Holds that the vocabulary cannot settle the question. The single occurrence of the procession verb with the Spirit as subject, John 15:26, fixes only the Father as the named source, so the Son-as-source is neither affirmed nor denied by that verb. The sending verbs are a distinct lexical field predicated of both Father and Son, and the relational genitives mark belonging without ranking origin. Revelation 22:1 attaches the lemma to a Son-inclusive source but with a different subject and a different preposition. The words supply two patterns, a Father-only procession verb and a Son-inclusive relation and sending, that the vocabulary does not rank against each other."
+      }
+    ],
+    "notes": "The divergence turns on whether the relational genitives, the Son-side sending verb, and the Son-inclusive source of the procession lemma in Revelation 22:1 may be combined to infer an eternal procession from the Son, or whether the single procession-verb clause in John 15:26 that names the Father alone is the only direct lexical witness and is decisive. Each lens is stated in its strongest queried form."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "What does the New Testament lexically predicate about the source of the Spirit's procession, and is the Son named alongside the Father as that source or only as the one related to the Spirit and the one who sends the Spirit?",
+    "notes": "The stem preloads the affirming verdict by appending per the Western tradition to the proposition. The neutralized form asks the underlying lexical question about the source of the procession verb and the role of the Son without naming a tradition or assuming the conclusion. The verdict was derived on the original stem and not changed by this pass. The lexical evidence continues to support disputed."
+  },
+  "lay_summary": "The Greek text uses two different verb families when it speaks about the Spirit, and the whole question turns on the gap between them. One verb, ekporeuomai, is the word for proceeding. It appears thirty three times in the New Testament, but only once with the Spirit as its subject, in John 15:26, and there the single named source is the phrase para tou patros, from beside the Father. A different verb, pempo, is the word for sending. In John 15:26 and John 16:7 the Son says he will send the Spirit, yet in John 14:26 the Father is the one who sends, so the sending verb is used of both persons and points to mission rather than to origin. A third verb in Galatians 4:6 says God sent the Spirit, and there the Spirit is called the Spirit of the Son by a possessive phrase. That same kind of phrase, Spirit of Christ, recurs in Romans 8:9, Philippians 1:19, and 1 Peter 1:11, set right beside the matching phrase Spirit of God. So the words clearly tie the Spirit to the Son by relation and clearly let the Son send the Spirit, but they do not say in so many words that the Spirit takes its eternal origin from the Son. The one verse that names a source for the proceeding verb names only the Father. The reason the proposition lands as disputed is that the vocabulary leaves a real gap it never closes. Being the Spirit of the Son, and being sent by the Son, are stated plainly, but whether those facts add up to an eternal proceeding from the Son is a step the words neither take nor block. One striking datapoint pulls toward the affirming reading. Revelation 22:1 uses the very same proceeding verb for a river of living water that comes from the throne of God and of the Lamb together, which shows the verb can take a source that includes the Son figure. Yet there the subject is a river, not the Spirit, and the preposition is a different one, so it raises the possibility without settling it. The text supplies two patterns it never ranks, and that unranked gap, not any outside factor, is why careful readers land on different sides.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.15.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.16.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.14.26"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.4.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Romans.8.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Revelation.22.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1607"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3992"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1821"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3875"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.15.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Revelation.22.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gal.4.6"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.15.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.16.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Gal.4.6"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "The MACULA-Greek interlinear citations for John 15:26, Revelation 22:1, and Galatians 4:6 carry CC-BY-NC-4.0, which forbids bulk redistribution. While the MorphGNT, STEPBible, and TSK sources are redistributable, the aggregate cannot be marked safe to publish without removing the MACULA-Greek citations."
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow",
+    "cross-tradition-divergent"
+  ]
+}

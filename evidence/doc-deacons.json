@@ -1,0 +1,458 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-deacons",
+  "question_id": "doc-deacons",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.8,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "Phil 1:1 names διακόνοις as a distinct dative group coordinated with ἐπισκόποις (σὺν ἐπισκόποις καὶ διακόνοις), placing deacon as a standing congregational role beside, but separate from, the oversight role. 1 Tim 3:8-13 opens a qualification list with Διακόνους ὡσαύτως (deacons likewise), the adverb linking it to yet marking it off from the separate ἐπίσκοπος list of 3:1-7, and adds testing and admission language (δοκιμαζέσθωσαν then διακονείτωσαν, 3:10) plus an acquired standing (βαθμόν, a NT hapax, 3:13). Acts 6:1-6 supplies the functional split between the διακονία of tables and the διακονία of the word, though it never applies the noun διάκονος to the seven. The verdict is decisive on grammar and genre, not on the word itself, because διάκονος is overwhelmingly a generic servant word (about 26 of its 29 NT occurrences mean ordinary servant or minister), so the office sense rests on the coordinating and qualification contexts, and the scope of the office (women deacons at 1 Tim 3:11 and Rom 16:1, and whether Acts 6 is its institution) remains lexically underdetermined without disturbing the role distinction itself."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1249",
+        "lemma": "διάκονος",
+        "transliteration": "diakonos",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1247",
+        "lemma": "διακονέω",
+        "transliteration": "diakoneo",
+        "occurrences_in_canon": 37,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1248",
+        "lemma": "διακονία",
+        "transliteration": "diakonia",
+        "occurrences_in_canon": 34,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1985",
+        "lemma": "ἐπίσκοπος",
+        "transliteration": "episkopos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5615",
+        "lemma": "ὡσαύτως",
+        "transliteration": "hosautos",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1381",
+        "lemma": "δοκιμάζω",
+        "transliteration": "dokimazo",
+        "occurrences_in_canon": 22,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0410",
+        "lemma": "ἀνέγκλητος",
+        "transliteration": "anenkletos",
+        "occurrences_in_canon": 5,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4586",
+        "lemma": "σεμνός",
+        "transliteration": "semnos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0898",
+        "lemma": "βαθμός",
+        "transliteration": "bathmos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1135",
+        "lemma": "γυνή",
+        "transliteration": "gyne",
+        "occurrences_in_canon": 215,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1249",
+      "G1247",
+      "G1248",
+      "G1985",
+      "G5615",
+      "G1381",
+      "G0410",
+      "G4586",
+      "G0898",
+      "G1135",
+      "G1351",
+      "G0146",
+      "G1112",
+      "G4245"
+    ],
+    "scripture": [
+      {
+        "ref": "Phil.1.1",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          },
+          {
+            "strong": "G1985",
+            "lemma": "ἐπίσκοπος"
+          }
+        ],
+        "force": "Paul greets the saints σὺν ἐπισκόποις καὶ διακόνοις (with overseers and deacons), two coordinated dative plurals joined by καί. The coordination names two recognized standing groups within one local assembly and is the clearest single text where διάκονος functions as a settled role-title rather than a description of ad hoc service. The pairing with ἐπίσκοπος, which the rest of the canon uses for the oversight role, places the deacon role alongside but distinct from oversight.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.8",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          },
+          {
+            "strong": "G5615",
+            "lemma": "ὡσαύτως"
+          }
+        ],
+        "force": "Διακόνους ὡσαύτως opens a fresh requirement list. The adverb ὡσαύτως (likewise) ties this list to, while distinguishing it from, the immediately preceding requirements for the ἐπίσκοπος in 3:1-7. The required traits (σεμνούς dignified, not δίλογος double-tongued, not given to much wine, not αἰσχροκερδής greedy for shameful gain) describe settled character for a continuing role, language fitted to an office rather than a single act of helping.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.10",
+        "key_terms": [
+          {
+            "strong": "G1381",
+            "lemma": "δοκιμάζω"
+          },
+          {
+            "strong": "G0410",
+            "lemma": "ἀνέγκλητος"
+          }
+        ],
+        "force": "Candidates are first tested (δοκιμαζέσθωσαν, present passive imperative) and then serve (διακονείτωσαν) if found ἀνέγκλητοι (blameless). The sequence test first, then serve is the grammar of formal vetting and admission to a defined position, not of spontaneous assistance, which is strong text-level evidence that a recognized role is in view.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.13",
+        "key_terms": [
+          {
+            "strong": "G0898",
+            "lemma": "βαθμός"
+          },
+          {
+            "strong": "G1247",
+            "lemma": "διακονέω"
+          }
+        ],
+        "force": "Those who serve well (οἱ καλῶς διακονήσαντες) gain for themselves a good βαθμόν (standing, step, or rank). βαθμός is a NT hapax legomenon, occurring only here, so its precise nuance cannot be triangulated from other usage, but the surrounding clause makes it an acquired position tied to faithful diaconal service, reinforcing that διάκονος in this passage names a recognized standing rather than a generic activity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.2",
+        "key_terms": [
+          {
+            "strong": "G1247",
+            "lemma": "διακονέω"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "The Twelve judge it not fitting to leave τὸν λόγον τοῦ θεοῦ in order to διακονεῖν τραπέζαις (serve tables). The clause sets the word ministry over against table service as two separable tasks. This is the functional division at the heart of the proposition, expressed with the verb διακονέω, not the noun διάκονος.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.6.4",
+        "key_terms": [
+          {
+            "strong": "G1248",
+            "lemma": "διακονία"
+          },
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          }
+        ],
+        "force": "The apostles reserve themselves for prayer and τῇ διακονίᾳ τοῦ λόγου (the ministry of the word), assigning the practical service to the seven. The same root διακον- spans both spheres, which is the key complication: Acts 6 establishes a division of labor and approves men for practical care, but it does not coin a distinct title, since διάκονος never appears here.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.3.12",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          }
+        ],
+        "force": "διάκονοι ἔστωσαν μιᾶς γυναικὸς ἄνδρες (let deacons be husbands of one wife) gives household qualifications that parallel the overseer requirement in 3:2, showing two role lists with overlapping but separately stated standards. The parallel structure marks the deacon role as a defined position alongside the overseer, not merged with it.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rom.16.1",
+        "key_terms": [
+          {
+            "strong": "G1249",
+            "lemma": "διάκονος"
+          },
+          {
+            "strong": "G1135",
+            "lemma": "γυνή"
+          }
+        ],
+        "force": "Phoebe is commended as διάκονον τῆς ἐκκλησίας τῆς ἐν Κεγχρεαῖς (deacon of the church at Cenchreae). Attaching διάκονος to a specific named assembly reads as a standing relation to a local congregation. Because διάκονος is grammatically masculine in form but applied here to a woman, this verse is also the main lexical datum for the question of whether women filled the role, a scope question the words leave open.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Phil.1.1",
+        "to": "1Tim.3.8",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "1Tim.3.8",
+        "to": "Phil.1.1",
+        "source": "openbible",
+        "votes": 9
+      },
+      {
+        "from": "1Tim.3.8",
+        "to": "Acts.6.3",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "1Tim.3.8",
+        "to": "1Tim.3.3",
+        "source": "openbible",
+        "votes": 5
+      },
+      {
+        "from": "1Tim.3.12",
+        "to": "1Tim.3.2",
+        "source": "openbible",
+        "votes": 7
+      },
+      {
+        "from": "Acts.6.3",
+        "to": "1Tim.3.7",
+        "source": "openbible",
+        "votes": 15
+      },
+      {
+        "from": "Rom.16.1",
+        "to": "1Tim.5.9",
+        "source": "openbible",
+        "votes": 4
+      },
+      {
+        "from": "1Tim.3.8",
+        "to": "1Tim.3.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.1",
+        "to": "Acts.6.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.6.1",
+        "to": "Acts.9.39",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Acts.6.1",
+        "addressed": true,
+        "resolution": "Acts 6 never applies the noun διάκονος to the seven, using only the verb διακονεῖν (6:2) and the noun διακονία (6:1, 6:4). On the words alone the passage establishes a functional division of labor and the approval of qualified men for practical care, but not the formal coining of an office title. The verdict therefore treats Acts 6 as functional background and pattern, while the office naming proper appears at Phil 1:1 and the qualification list at 1 Tim 3:8-13. This nuance does not weaken the proposition, since the practical-care versus word-ministry split it describes is exactly what the verbs encode."
+      },
+      {
+        "ref": "Rom.13.4",
+        "addressed": true,
+        "resolution": "διάκονος is applied to the civil ruler as θεοῦ διάκονος (God's servant), one of about 26 of the 29 NT occurrences where the word means ordinary servant or minister rather than a congregational office. This generic dominance means διάκονος is not a technical term on its own; the office sense is carried by context (coordination with ἐπίσκοπος, the qualification-list genre), not by the lexeme. The proposition still stands because it rests on those office contexts, not on the bare word."
+      },
+      {
+        "ref": "1Tim.3.11",
+        "addressed": true,
+        "resolution": "γυναῖκας ὡσαύτως (women, or wives, likewise) is accusative plural feminine, anarthrous, and carries no possessive pronoun (no αὐτῶν, their). γυνή means both woman and wife, and the morphology does not disambiguate. The repeated ὡσαύτως (also at 3:8) and the shared adjective σεμνός (σεμνούς at 3:8, σεμνάς at 3:11) pull toward reading 3:11 as a sub-group of deacons, that is women deacons, while the household context of 3:12 allows deacons' wives. This is a genuine, irreducible ambiguity about the SCOPE of the office (who may hold it), not about whether the office exists, so the verdict on the role distinction is unaffected."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The bundle supplied no variant units for Phil 1:1, 1 Tim 3:8-13, Acts 6:1-6, or Rom 16:1, and these anchors lie outside the ingested ECM window (3 John 1.1-1.15), so they are treated as ecm-shadow rather than ecm-published. The readings of διάκονος, ἐπίσκοπος, διακονέω, and διακονία in these passages are stable across the tradition, and the office distinction does not turn on any contested reading, so the verdict is variant-robust. The marked points in the supplied text (for example the bracketed καί in Rom 16:1 and δέ in Acts 6:3) do not affect the role vocabulary."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "office_as_named_institution",
+        "verdict": "affirms",
+        "rationale": "Reads the coordination of διάκονοι with ἐπίσκοποι at Phil 1:1 and the dedicated qualification list at 1 Tim 3:8-13, with its testing-then-serving sequence and the acquired βαθμός, as establishing διάκονος as a settled, vetted congregational office parallel to and distinct from ἐπίσκοπος, with Acts 6 as the originating pattern."
+      },
+      {
+        "framework": "function_over_fixed_title",
+        "verdict": "affirms with qualification",
+        "rationale": "Stresses that διάκονος is generic servant or minister in roughly 26 of its 29 NT occurrences (Christ, civil rulers, Paul and his coworkers, even false ministers), and that Acts 6 uses only the verb and abstract noun. On this reading the texts establish a recognized servant-ministry function distinct from word and oversight ministry, while the role title is not a rigid technical term everywhere it appears. Both this lens and the named-institution lens still affirm the proposition's core claim."
+      },
+      {
+        "framework": "scope_women_deacons",
+        "verdict": "underdetermined",
+        "rationale": "Concerns who may hold the role, not whether it exists. 1 Tim 3:11 γυναῖκας is anarthrous with no possessive and shares ὡσαύτως and σεμνός with the deacon list, which can be read as a women's diaconate, while the household context of 3:12 can be read as deacons' wives. Rom 16:1 calls Phoebe διάκονον of a named church. The vocabulary leaves the scope open in both directions. This lens does not change the verdict on the office distinction; it flags an honest gap the words do not close."
+      },
+      {
+        "framework": "acts6_as_institution",
+        "verdict": "underdetermined",
+        "rationale": "Asks whether Acts 6 formally institutes the diaconate. The passage gives the practical-care versus word-ministry split and approves seven men, but never uses the noun διάκονος, employing only διακονέω and διακονία. The words support reading it as the pattern or seed of the role rather than its titled founding. Either reading leaves the role distinction intact."
+      }
+    ],
+    "notes": "All four lenses converge in affirming that the texts describe a servant-ministry role focused on practical care and administration that is set apart from the word and oversight ministry. They diverge only on how formalized the title is, whether Acts 6 institutes it, and whether women held it. None of those divergences overturns the proposition as stated, which asserts the existence of the role and its distinctness from the elders' teaching and oversight role."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Examine how the New Testament uses the διάκονος word group in connection with local assemblies, and whether that usage marks out a servant-ministry role that is the same as, or different from, the role described for the ἐπίσκοπος and elders.",
+    "notes": "The original stem asserts its own conclusion that deacons are an office distinct from the teaching and oversight role of elders, with the word distinct partially preloading the verdict. The verdict is derived on the original stem, but the data were tested against the neutral rephrasing first so the answer was not assumed. The lexical pattern independently supports the distinction: διάκονος is coordinated with ἐπίσκοπος as a separate group at Phil 1:1, the 1 Tim 3:8-13 list is set apart from the 3:1-7 overseer list by ὡσαύτως and carries its own testing and admission language, and Acts 6 gives a functional split between word ministry and table service. The verdict is unchanged from the prior file."
+  },
+  "lay_summary": "The Greek word behind deacon is diakonos, with the verb diakoneo (to serve) and noun diakonia (service or ministry). The word is broad. Across its twenty nine New Testament uses it usually means an ordinary servant or minister, including Christ himself, civil rulers, table waiters, and Paul and his coworkers, even false ministers. So the word alone does not prove an office. What carries the office sense is the grammar and setting of a few texts. In Philippians 1:1 Paul greets the saints with the overseers and the deacons, two groups joined by and, naming deacon as a standing group beside the oversight role but separate from it. In 1 Timothy 3 a fresh list of character requirements for deacons opens with the word likewise, which ties it to yet sets it apart from the preceding requirements for the overseer, and candidates are first tested and then allowed to serve if found blameless, with those who serve well gaining a good standing. That testing and admission language fits a recognized position, not casual helping. In Acts 6 the apostles refuse to leave the ministry of the word to wait on tables, so seven approved men are appointed for the daily distribution to widows. That passage gives the very split between practical care and word ministry that the proposition describes, but it uses only the verb and the noun for service, never the title deacon, so it reads best as the pattern for the role rather than its formal founding. Romans 16:1 attaches the word deacon to Phoebe in relation to a named local church. Two honest gaps remain that the words do not close. First, whether women held the role, since the women likewise of 1 Timothy 3:11 lacks an article and a possessive and can mean either women deacons or deacons' wives, and Phoebe is called a deacon of a church. Second, whether Acts 6 institutes the office or only foreshadows it. Neither gap concerns whether the role exists or whether it differs from the teaching and oversight role. On those two points the separate naming, the separate qualification list, and the functional split consistently support a distinguishable servant-ministry role within the local assembly.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "G1249"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Tim.3.11"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1249"
+    },
+    {
+      "type": "interlinear",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Phil.1.1"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Acts.6.2"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Phil.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Tim.3.8"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0 (non-commercial), so the aggregated evidence is not safe for unrestricted bulk redistribution. The MACULA-Greek lexical gloss for διάκονος and the syntactic reading of the Acts 6:2 word-versus-table clause were used in deriving the verdict."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

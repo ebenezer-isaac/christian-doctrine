@@ -1,0 +1,576 @@
+{
+  "$schema_version": "3.0",
+  "id": "prc-celibacy-as-gift",
+  "question_id": "prc-celibacy-as-gift",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.7625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": false,
+    "rationale": "1 Cor 7:7 uses charisma, G5486, with the distributive idios, G2398, so Paul writes each has his OWN gift from God, one in one way and another in another, applying the gift category to both the single state Paul commends and the married state without ranking them. Matt 19:11 anchors the same logic with the perfect passive dedotai of didomi, G1325, paired with chorein, G5562, infinitive of capacity, and closes with ho dynamenos chorein choreito, a permissive imperative that grants celibacy only to those given the capacity, so it is offered, not imposed. 1 Cor 7:32-35 grounds the value of singleness in aperispastos, G0563, undistracted devotion to the Lord, while Paul explicitly says he is not throwing a brochos, G1029, snare, on anyone, which excludes a compulsory reading. 1 Tim 4:3 names forbidding to marry, kolyo, G2967, plus gameo, G1060, as a doctrine of demons, and Heb 13:4 declares marriage honored among all, so the NT lexical net affirms celibacy as a gift, never as a requirement, while marriage remains equally honored."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G5486",
+        "lemma": "χάρισμα",
+        "transliteration": "charisma",
+        "occurrences_in_canon": 17,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2398",
+        "lemma": "ἴδιος",
+        "transliteration": "idios",
+        "occurrences_in_canon": 117,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0022",
+        "lemma": "ἄγαμος",
+        "transliteration": "agamos",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2135",
+        "lemma": "εὐνοῦχος",
+        "transliteration": "eunouchos",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2134",
+        "lemma": "εὐνουχίζω",
+        "transliteration": "eunouchizo",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5562",
+        "lemma": "χωρέω",
+        "transliteration": "choreo",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1325",
+        "lemma": "δίδωμι",
+        "transliteration": "didomi",
+        "occurrences_in_canon": 414,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3309",
+        "lemma": "μεριμνάω",
+        "transliteration": "merimnao",
+        "occurrences_in_canon": 19,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0275",
+        "lemma": "ἀμέριμνος",
+        "transliteration": "amerimnos",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0563",
+        "lemma": "ἀπερισπάστως",
+        "transliteration": "aperispastos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1029",
+        "lemma": "βρόχος",
+        "transliteration": "brochos",
+        "occurrences_in_canon": 1,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3933",
+        "lemma": "παρθένος",
+        "transliteration": "parthenos",
+        "occurrences_in_canon": 15,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1060",
+        "lemma": "γαμέω",
+        "transliteration": "gameo",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2967",
+        "lemma": "κωλύω",
+        "transliteration": "kolyo",
+        "occurrences_in_canon": 23,
+        "in_anchors": false
+      },
+      {
+        "strong": "G1467",
+        "lemma": "ἐγκρατεύομαι",
+        "transliteration": "egkrateuomai",
+        "occurrences_in_canon": 2,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2908",
+        "lemma": "κρεῖσσον",
+        "transliteration": "kreisson",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G5486",
+      "G2398",
+      "G0022",
+      "G2135",
+      "G2134",
+      "G5562",
+      "G1325",
+      "G3309",
+      "G0275",
+      "G0563",
+      "G1029",
+      "G3933",
+      "G1060",
+      "G2967",
+      "G1467",
+      "G2908"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.7.7",
+        "key_terms": [
+          {
+            "strong": "G5486",
+            "lemma": "χάρισμα"
+          },
+          {
+            "strong": "G2398",
+            "lemma": "ἴδιος"
+          }
+        ],
+        "force": "Paul says he wishes all, pantas, were as he is, single, but immediately qualifies with alla hekastos idion, G2398, echei charisma, G5486, ek theou, but each has his own gift from God, one in this way and another in that. The distributive idios, his own, attaches charisma to both states, so the single life and the married life are both labeled God-given charisma. The grammar forecloses any ranking of one state above the other and grounds the proposition that singleness is a gift from God, equally legitimate alongside marriage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.8",
+        "key_terms": [
+          {
+            "strong": "G0022",
+            "lemma": "ἄγαμος"
+          }
+        ],
+        "force": "To the unmarried, agamos, G0022, and the widows Paul says kalon autois ean meinosin hos kago, it is good for them if they remain as I am. The state Paul commends is the agamos state, with menein, G3306, remain, a permissive subjunctive after ean, if, rather than an imperative, so singleness is honored as a good calling and never imposed. The same noun agamos returns in 7:11, 7:32, and 7:34, building a stable lexical category for the honored single state in this chapter.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.11",
+        "key_terms": [
+          {
+            "strong": "G5562",
+            "lemma": "χωρέω"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "Jesus answers ou pantes chorousin, G5562, ton logon touton, all hois dedotai, the perfect passive of didomi, G1325, not all receive this word but those to whom it has been given. The negation ou pantes, not all, plus the perfect passive dedotai mark celibacy as a divine grant given to some, not a requirement on all. The lexical pattern is identical in shape to charisma plus ek theou in 1 Cor 7:7, both treating the single life as a gift distributed by God rather than a universal mandate.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Matt.19.12",
+        "key_terms": [
+          {
+            "strong": "G2135",
+            "lemma": "εὐνοῦχος"
+          },
+          {
+            "strong": "G2134",
+            "lemma": "εὐνουχίζω"
+          },
+          {
+            "strong": "G5562",
+            "lemma": "χωρέω"
+          }
+        ],
+        "force": "Jesus names those who made themselves eunuchs, eunouchos, G2135, eunouchizo, G2134, dia ten basileian ton ouranon, for the sake of the kingdom of the heavens, and closes with ho dynamenos chorein, G5562, choreito, let the one able to receive it receive it. The third-person imperative is permissive, restricted by the prior participle dynamenos, the one able. The capacity is granted, not demanded, which makes voluntary kingdom celibacy an honored option for those given to it and never a binding rule.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.32",
+        "key_terms": [
+          {
+            "strong": "G0022",
+            "lemma": "ἄγαμος"
+          },
+          {
+            "strong": "G3309",
+            "lemma": "μεριμνάω"
+          },
+          {
+            "strong": "G0275",
+            "lemma": "ἀμέριμνος"
+          }
+        ],
+        "force": "Paul wishes the Corinthians amerimnoi, G0275, anxiety-free, and says the agamos, G0022, merimna, G3309, ta tou kyriou, cares for the things of the Lord, how to please the Lord. The cognate pair amerimnos plus merimnao frames the value of singleness positively as freedom for the Lord's concerns, not as a state of higher holiness. Paired with 7:34's parallel for the parthenos, the chapter assigns a positive spiritual function to singleness without devaluing marriage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.34",
+        "key_terms": [
+          {
+            "strong": "G3933",
+            "lemma": "παρθένος"
+          },
+          {
+            "strong": "G0022",
+            "lemma": "ἄγαμος"
+          },
+          {
+            "strong": "G3309",
+            "lemma": "μεριμνάω"
+          }
+        ],
+        "force": "The agamos and the parthenos, G3933, merimna, G3309, ta tou kyriou, hina e hagia kai to somati kai to pneumati, that she may be holy both in body and in spirit, while the married woman cares for ta tou kosmou. The contrast is between two legitimate sets of concerns, not between holy and unholy states. The same chapter that commends the single life as undistracted for the Lord also calls marriage a charisma in 7:7 and warns against forbidding it implicitly through the gift logic.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.35",
+        "key_terms": [
+          {
+            "strong": "G0563",
+            "lemma": "ἀπερισπάστως"
+          },
+          {
+            "strong": "G1029",
+            "lemma": "βρόχος"
+          }
+        ],
+        "force": "Paul states touto pros to hymon auton symphoron lego, ouch hina brochon, G1029, hymin epibalo, alla pros to euschemon kai euparedron to kyrio aperispastos, G0563. I say this for your own benefit, not to throw a snare on you, but for what is seemly and for undistracted devotion to the Lord. The explicit denial brochon ou epibalo directly excludes a compulsory celibacy reading and reframes the value of singleness as freedom for undivided service. The hapax aperispastos crystallizes the positive lexical case in a single word that means precisely undistracted.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.7.25",
+        "key_terms": [
+          {
+            "strong": "G3933",
+            "lemma": "παρθένος"
+          },
+          {
+            "strong": "G1325",
+            "lemma": "δίδωμι"
+          }
+        ],
+        "force": "Peri de ton parthenon, G3933, epitagen kyriou ouk echo, gnomen de didomi, G1325, hos eleemenos hypo kyriou pistos einai, concerning the virgins I have no command of the Lord but I give an opinion as one who by mercy is trustworthy. Paul explicitly disclaims a kyrios-command on celibacy and offers only counsel, which lexically rules out any compulsory reading. The same verb didomi here is the giving of advice, not the issuing of law, marking singleness as commended counsel for those positioned to receive it.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Rev.14.4",
+        "key_terms": [
+          {
+            "strong": "G3933",
+            "lemma": "παρθένος"
+          }
+        ],
+        "force": "Houtoi eisin hoi meta gynaikon ouk emolynthesan, parthenoi, G3933, gar eisin, these are they who were not defiled with women, for they are virgins, applied to the 144,000 firstfruits, aparche, G0536, of the Lamb. The text honors the parthenos category with explicit redemption imagery, confirming that the single-and-undefiled state can carry a positive theological weight in apocalyptic-eschatological framing. It does not require celibacy of all but honors it for those who hold it, consistent with 1 Cor 7 and Matt 19.",
+        "supports": "for",
+        "genre": "apocalyptic",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Tim.4.3",
+        "key_terms": [
+          {
+            "strong": "G2967",
+            "lemma": "κωλύω"
+          },
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "Kolyonton, G2967, gamein, G1060, apechesthai bromaton ha ho theos ektisen eis metalempsin, forbidding to marry and commanding to abstain from foods which God created for partaking. The participle kolyo plus the infinitive gamein labels the prohibition of marriage as a feature of the apostate teaching the preceding verses call doctrines of demons. This is the decisive lexical bar against any reading that would impose mandatory celibacy on a class, and it reinforces the proposition that celibacy can only be gift and never demand.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Heb.13.4",
+        "key_terms": [
+          {
+            "strong": "G1060",
+            "lemma": "γαμέω"
+          }
+        ],
+        "force": "Timios ho gamos en pasin kai he koite amiantos, let marriage be honored among all and the marriage bed undefiled. Timios, honored, predicates honor on marriage en pasin, in or among all, ruling out a class for whom marriage would be dishonorable. This anchors the equally-valued side of the proposition. The honor of marriage and the gift-status of celibacy stand together rather than against each other in the lexical pattern across Matt 19, 1 Cor 7, 1 Tim 4, and Heb 13.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.7.32",
+        "to": "Ps.55.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.12",
+        "to": "Isa.39.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.7.33",
+        "to": "1Cor.7.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.7.7",
+        "to": "Matt.19.12",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.7.7",
+        "to": "1Tim.4.3",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.7.8",
+        "to": "Heb.13.4",
+        "source": "openbible",
+        "votes": 1
+      },
+      {
+        "from": "Matt.19.11",
+        "to": "1Cor.7.7",
+        "source": "openbible",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.7.9",
+        "addressed": true,
+        "resolution": "Ei de ouk egkrateuontai, G1467, gamesatosan, G1060, kreitton, G2908, gar estin gamein e pyrousthai, but if they do not exercise self-control let them marry, for it is better to marry than to burn. The comparative kreitton paired with the conditional ei plus the dependence on egkrateuomai shows the directive is keyed to capacity, the same gift logic that runs through 7:7 and Matt 19:11-12. Marriage is recommended where self-control is not given, and celibacy is honored where it is given, which confirms rather than contradicts the gift-and-capacity reading."
+      },
+      {
+        "ref": "1Cor.7.38",
+        "addressed": true,
+        "resolution": "Hoste kai ho gamizon ten heautou parthenon kalos poiei kai ho me gamizon kreisson, G2908, poiesei, so the one who gives his virgin in marriage does well, and the one who does not gives even better. The adverb kalos affirms marriage as doing well, while the comparative kreisson denotes a circumstantial advantage tied to the present distress, ten enestosan ananken, in 7:26, not to greater holiness. Both states remain honorable lexically, only the situational counsel differs, so the equally-valued claim holds at the categorical level even where Paul expresses a circumstantial preference."
+      },
+      {
+        "ref": "Gen.2.18",
+        "addressed": true,
+        "resolution": "OT establishes ou kalon einai ton anthropon monon, it is not good for the man to be alone, suggesting marriage as the default human pattern. The NT gift-vocabulary in Matt 19:11-12 and 1 Cor 7:7 does not contradict this general anthropology but adds a category not present in the Genesis frame, namely the kingdom-eunuch granted the capacity for the unmarried state. The OT default and the NT gift coexist, with marriage as the broad pattern and celibacy as the called exception. This is why the verdict is pan-canonical in shape but the explicit charisma-language is NT only."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "Anchor verses lie in 1 Corinthians 7, Matthew 19, 1 Timothy 4, Hebrews 13, and Revelation 14, all outside the open-cbgm 3 John sample. The bundle reports not_in_ecm_scope true with no variant units. The marked apparatus sigla in 1Cor.7.7 and 7.34 touch word order and minor readings that do not bear on the charisma, idios, agamos, eunouchos, dedotai, kolyo-gamein, or aperispastos vocabulary, so the verdict is variant robust within the available data."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "gift-and-capacity",
+      "mandatory-celibacy",
+      "equally-honored-states"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "gift-and-capacity reading",
+        "verdict": "affirms",
+        "rationale": "Reads charisma plus idios in 1 Cor 7:7, dedotai plus chorein in Matt 19:11-12, and the brochon-disclaimer in 1 Cor 7:35 as distributing a God-given capacity, so singleness is an honorable optional gift alongside marriage. The same set of texts read this way also positively values marriage in 7:38's kalos poiei and the implicit charisma of the married state. The reading is internally consistent and matches the 1 Tim 4:3 and Heb 13:4 honor-of-marriage pattern."
+      },
+      {
+        "framework": "celibacy-superiority reading",
+        "verdict": "partially-affirms-with-hierarchy",
+        "rationale": "Reads the comparative kreitton in 1 Cor 7:38, the better-than language in 7:8 with kalon hos kago, and the undistracted-devotion theme of 7:32-35 as positioning the single state as objectively higher than marriage even while both are permitted. This reading takes the proposition's gift-claim but resists the equally-valued claim, treating equality as canonical permission and superiority as canonical counsel. Its strongest lexical leg is the comparative kreitton."
+      },
+      {
+        "framework": "mandatory-celibacy reading",
+        "verdict": "denies",
+        "rationale": "A reading that would make celibacy obligatory for any class cannot survive ou pantes chorousin and ho dynamenos chorein choreito in Matt 19:11-12, the conditional ei plus self-control in 1 Cor 7:9, Paul's explicit ouch hina brochon hymin epibalo in 7:35, and the kolyonton gamein labelled doctrine-of-demons in 1 Tim 4:3. The lexical data refuses a compulsory construction in any direction. This is the position the text actively rules out."
+      }
+    ],
+    "notes": "The verdict turns on the gift-vocabulary charisma plus idios in 1 Cor 7:7, the perfect passive dedotai plus the permissive infinitive chorein in Matt 19:11-12, the hapax aperispastos and explicit brochon-disclaimer in 1 Cor 7:35, and the negative limit set by kolyonton gamein in 1 Tim 4:3. The celibacy-superiority reading captures a circumstantial preference in 7:38's kreisson but does not capture the gift-distribution grammar of 7:7. The mandatory-celibacy reading is excluded by the same data that supports the gift reading."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Texts addressing singleness and celibacy describe their status, value, and whether they are commanded, commended, or optional, and how they relate to marriage.",
+    "notes": "The stem asserts that singleness is honorable, a gift from God, and equally valued with marriage, which front-loads three claims before the lexical check. The verdict is still derived on the original stem. The neutralized form removes the evaluative loading so the lexical pattern can speak for itself. As it happens the charisma plus idios distribution in 1 Cor 7:7, the gift-grammar of dedotai in Matt 19:11, the brochon disclaimer in 1 Cor 7:35, the timios ho gamos of Heb 13:4, and the kolyonton gamein indictment in 1 Tim 4:3 independently support the original stem's three claims of gift status, honor, and equal categorical legitimacy with marriage."
+  },
+  "lay_summary": "The proposition says singleness and celibacy are honorable callings, gifts from God, equally valued with marriage. The Greek text supports this with a tight lexical pattern. In First Corinthians 7 verse 7 Paul wishes everyone were single like him, but immediately says each person has his own gift, idion charisma, from God, one in one way and another in another. The word idion, his own, distributes the gift-word charisma across BOTH the single state Paul commends and the married state, so neither is ranked above the other in worth. In verse 8 Paul tells the unmarried, agamos, and the widows that it is good for them to remain as he is, which is a positive commendation, and the verb remain is a permission, not a command. In Matthew 19 verses 11 and 12 Jesus says not all receive this word, only those to whom it has been given, using the perfect passive dedotai, has been given. He speaks of those who made themselves eunuchs for the sake of the kingdom and ends with let the one who is able to receive it receive it. The phrase ho dynamenos chorein, the one able to receive, plus the permissive third-person imperative, marks voluntary celibacy as a capacity given to some, not a rule for all. Back in First Corinthians 7 verses 32 to 35 Paul explains the value of singleness as freedom from distraction, so the unmarried can serve the Lord aperispastos, undistracted, a word that occurs only once in the New Testament and crystallizes the point. Then he adds plainly that he is not throwing a snare, brochos, on anyone, ruling out a forced reading. Two harder verses, verse 9 where Paul says it is better to marry than to burn, and verse 38 where not marrying is called doing better, fit the same gift logic, since both speak to capacity and circumstance rather than to higher holiness. Reading across the canon the same lexical net excludes the opposite mistake, namely making celibacy mandatory. First Timothy 4 verse 3 names forbidding to marry, kolyonton gamein, as a doctrine of demons, and Hebrews 13 verse 4 declares marriage honored among all. Where readers diverge, the divergence is over whether the comparative kreisson in First Corinthians 7 verse 38 ranks celibacy above marriage in worth or only in present circumstance. The text supplies the circumstantial frame in verse 26, the present distress, ten enestosan ananken, so the lexical case for circumstantial rather than categorical preference is the stronger reading. The pattern affirms the proposition straightforwardly.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5486"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2398"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2967"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0563"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.11"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Matt.19.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.7.7"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Tim.4.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.7.35"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.7.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Matt.19.12"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "1Cor.7.7"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which forbids commercial redistribution, so the aggregated evidence cannot be marked safe for unrestricted publication while that source is cited."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

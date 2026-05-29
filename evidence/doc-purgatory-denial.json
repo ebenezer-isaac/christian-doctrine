@@ -1,0 +1,549 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-purgatory-denial",
+  "question_id": "doc-purgatory-denial",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The denial of a post-mortem purgative stage for the saved is supported by a convergent lexical pattern. Heb 10:14 pairs the perfect indicative tetelEIOken, he has perfected, with eis to diEnekes, in perpetuity, asserting a completed and abiding perfecting of tous hagiazomenous. Heb 1:3 already names katharismon tOn hamartiOn poiEsamenos, having made cleansing of sins, as a finished act before Christ's session at the right hand. 2 Cor 5:8 sets ekdEmEsai ek tou sOmatos against endEmEsai pros ton kyrion as paired aorist infinitives with no intermediate stage. Luke 23:43 places sEmeron with paradeisos for the dying man. 1 John 1:7 says the blood of Jesus katharizei apo pasEs hamartias, cleanses from all sin, scope pasEs. Rom 8:1 declares ouden nyn katakrima for those in Christ. Phil 1:23 names analysai kai syn ChristO einai, to depart and be with Christ, as a single state. Luke 16:26 fixes a chasma mega between the two post-mortem locations. The verdict is medium rather than high because 1 Cor 3:13-15 uses en pyri of the day of judgment, says ho misthos burns and the builder zEmiOthEsetai, suffers loss, then autos de sOthEsetai hOs dia pyros, and Matt 12:32 names ouk aphethEsetai... oute en toutO tO aiOni oute en tO mellonti, a contrast of ages, which a purgatorial reading has used. The Greek of those texts does not itself require a purgative state for persons, but it also does not foreclose the reading as cleanly as some readers assume."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2511",
+        "lemma": "καθαρίζω",
+        "transliteration": "katharizO",
+        "occurrences_in_canon": 31,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2512",
+        "lemma": "καθαρισμός",
+        "transliteration": "katharismos",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0037",
+        "lemma": "ἁγιάζω",
+        "transliteration": "hagiazO",
+        "occurrences_in_canon": 29,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1336",
+        "lemma": "διηνεκής",
+        "transliteration": "diEnekEs",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1553",
+        "lemma": "ἐκδημέω",
+        "transliteration": "ekdEmeO",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1736",
+        "lemma": "ἐνδημέω",
+        "transliteration": "endEmeO",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2631",
+        "lemma": "κατάκριμα",
+        "transliteration": "katakrima",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3857",
+        "lemma": "παράδεισος",
+        "transliteration": "paradeisos",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0266",
+        "lemma": "ἁμαρτία",
+        "transliteration": "hamartia",
+        "occurrences_in_canon": 175,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3568",
+        "lemma": "νῦν",
+        "transliteration": "nyn",
+        "occurrences_in_canon": 161,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4442",
+        "lemma": "πῦρ",
+        "transliteration": "pyr",
+        "occurrences_in_canon": 72,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2210",
+        "lemma": "ζημιόω",
+        "transliteration": "zEmioO",
+        "occurrences_in_canon": 6,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sOzO",
+        "occurrences_in_canon": 108,
+        "in_anchors": false
+      },
+      {
+        "strong": "G5490",
+        "lemma": "χάσμα",
+        "transliteration": "chasma",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G2511",
+      "G2512",
+      "G0037",
+      "G1336",
+      "G1553",
+      "G1736",
+      "G2631",
+      "G3857",
+      "G0266",
+      "G3568",
+      "G4442",
+      "G2210",
+      "G4982",
+      "G5490",
+      "G2842"
+    ],
+    "scripture": [
+      {
+        "ref": "Heb.10.14",
+        "key_terms": [
+          {
+            "strong": "G0037",
+            "lemma": "ἁγιάζω"
+          },
+          {
+            "strong": "G1336",
+            "lemma": "διηνεκής"
+          }
+        ],
+        "force": "The verb tetelEIOken is perfect indicative active of teleioO, he has perfected, expressing a completed action with abiding result. It governs tous hagiazomenous, the ones being sanctified, present passive participle, qualified by the adverbial phrase eis to diEnekes, in perpetuity, for all time. By a single offering, mia prosphora, Christ has perpetually perfected the sanctified. The perfect-tense completeness placed against a perpetual adverb leaves no lexical room for a further post-mortem completing of the believer's standing before God.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.10.14"
+      },
+      {
+        "ref": "Heb.1.3",
+        "key_terms": [
+          {
+            "strong": "G2512",
+            "lemma": "καθαρισμός"
+          }
+        ],
+        "force": "The clause katharismon tOn hamartiOn poiEsamenos, having made cleansing of sins, uses the aorist middle participle poiEsamenos, treating the cleansing as a completed prior act, and is followed by ekathisen en dexia, he sat down at the right hand, a perfective finite verb of session. The cleansing precedes the session and is presented as accomplished, not as an open process. The noun katharismos occurs seven times in the canon and here describes Christ's once-for-all priestly act.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.1.3"
+      },
+      {
+        "ref": "2Cor.5.8",
+        "key_terms": [
+          {
+            "strong": "G1553",
+            "lemma": "ἐκδημέω"
+          },
+          {
+            "strong": "G1736",
+            "lemma": "ἐνδημέω"
+          }
+        ],
+        "force": "The two rare verbs are set in deliberate antithetic balance: ekdEmEsai ek tou sOmatos, to be away from the body, and endEmEsai pros ton kyrion, to be at home with the Lord. Both are aorist active infinitives expressing a single transition. The clause names no intervening third location or process between departure from the body and being at home with the Lord, so the lexical structure treats the move as immediate.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Cor.5.8"
+      },
+      {
+        "ref": "Phil.1.23",
+        "key_terms": [
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Paul's phrase tEn epithymian echOn eis to analysai kai syn ChristO einai, having the desire to depart and to be with Christ, joins two articular infinitives with a single kai. The aorist analysai, to depart, and the present einai, to be, name departure and being-with-Christ as immediately conjoined, with no third stage between them. The preposition syn, with, marks personal presence rather than a staged approach.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Phil.1.23"
+      },
+      {
+        "ref": "Luke.23.43",
+        "key_terms": [
+          {
+            "strong": "G3857",
+            "lemma": "παράδεισος"
+          }
+        ],
+        "force": "The temporal adverb sEmeron, today, is joined to the future esE, you will be, with met emou, with me, en tO paradeisO, in paradise. The dying man, with no remaining opportunity for works or purgation, is promised same-day presence with Christ in paradeisos. The lexical force locates the destination at the day of death, not after a process. The classical punctuation question, whether sEmeron attaches to legO or to esE, is not a manuscript variant.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Luke.23.43"
+      },
+      {
+        "ref": "1John.1.7",
+        "key_terms": [
+          {
+            "strong": "G2511",
+            "lemma": "καθαρίζω"
+          },
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "The verb katharizei, cleanses, is present indicative active, and its object phrase is apo pasEs hamartias, from all sin, governed by the blood of Jesus, to haima IEsou. The cleansing agent is the blood of Christ and its scope is pasEs, all, sin. The lexical sweep, all sin, locates the cleansing in Christ's finished provision applied now to the one walking in the light, not in a later post-mortem purging.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1John.1.7"
+      },
+      {
+        "ref": "Rom.8.1",
+        "key_terms": [
+          {
+            "strong": "G2631",
+            "lemma": "κατάκριμα"
+          },
+          {
+            "strong": "G3568",
+            "lemma": "νῦν"
+          }
+        ],
+        "force": "The clause ouden ara nyn katakrima, therefore now no condemnation, fronts the negation ouden, nothing, with the temporal nyn, now, applied to those en ChristO IEsou, in Christ Jesus. The noun katakrima, penal sentence, occurs only three times in the canon, all in Romans. The present, now, abolition of any penal sentence for those in Christ removes the lexical premise for a post-mortem penal satisfaction by the believer.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.8.1"
+      },
+      {
+        "ref": "Luke.16.26",
+        "key_terms": [
+          {
+            "strong": "G5490",
+            "lemma": "χάσμα"
+          }
+        ],
+        "force": "The noun chasma, chasm, is a hapax in the canon, occurring only here. It is qualified by mega estEriktai, a great one has been fixed, with the perfect passive estEriktai of stErizO, treating the gulf as permanently established between the two post-mortem locations. The lexical force is of a fixed and impassable divide between the post-mortem states, with no third middle ground named.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "Luke.16.26"
+      },
+      {
+        "ref": "Heb.9.27",
+        "key_terms": [
+          {
+            "strong": "G0266",
+            "lemma": "ἁμαρτία"
+          }
+        ],
+        "force": "Hebrews 9:27 sets apothanein, to die, an aorist infinitive, against meta de touto krisis, and after this judgment. The sequence is death then judgment, with no purgative middle term named in the clause. The absence of a lexical stage between dying and krisis, judgment, reinforces an immediate transition rather than a graduated post-mortem purification.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.9.27"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1John.1.7",
+        "to": "1John.1.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.1.7",
+        "to": "1John.1.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.1.7",
+        "to": "1John.2.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.1.7",
+        "to": "1John.2.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.8",
+        "to": "2Cor.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Cor.5.8",
+        "to": "Phil.1.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Luke.23.43",
+        "to": "Luke.15.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.1",
+        "to": "Rom.4.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.14",
+        "to": "Heb.1.3",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.3.13-15",
+        "addressed": true,
+        "resolution": "This is the strongest in-canon text used to ground a purgatorial reading. The Greek says hekastou to ergon hO opoion estin to pyr autO dokimasei, the fire itself will test what sort each one's work is. The agents and patients are explicit: pyr, fire, tests ergon, work, and the result for the builder is ho misthos, the wage, that menei, remains, or katakaEsetai, will be burned up. Then ei tinos to ergon katakaEsetai, zEmiOthEsetai, autos de sOthEsetai, hOs dia pyros, if anyone's work is burned up he will suffer loss, but he himself will be saved, as through fire. Lexically the burned object is ergon and the saved object is autos, the person, with a clear noun shift between them. The verb zEmiOthEsetai, will suffer loss, is the same lemma Paul uses in Phil 3:8 for losing things, not for being purged. The phrase dia pyros, through fire, is escape idiom for narrow rescue from danger, parallel to Amos 4:11, Zech 3:2, Jude 1:23. A purgatorial reading is possible if one treats pyr as a stage the person passes through, but the noun shift from ergon, work, to autos, person, in the saved-clause is the lexical hinge, and the passage is set en tE hEmera, on the Day, the eschatological day of judgment, not a post-mortem interval before it."
+      },
+      {
+        "ref": "Matt.12.32",
+        "addressed": true,
+        "resolution": "Jesus says ouk aphethEsetai autO oute en toutO tO aiOni oute en tO mellonti, it shall not be forgiven him either in this age or in the age to come. A purgatorial reading argues that the en tO mellonti aiOni, in the coming age, clause implies some sins ARE forgiven in the age to come, which only makes sense if there is a post-mortem state where forgiveness is still in view. Lexically the construction is an emphatic universal negation, oute... oute, neither... nor, a Greek idiom for total exclusion in any frame whatever, comparable to John 14:17 ouk theOrei auto oude ginOskei, neither sees nor knows. It need not assert that some sins ARE forgiven in the coming age; it can simply close every conceivable temporal scope. The verse does not name an intermediate purgative state. It is consistent with, but does not require, the inference."
+      },
+      {
+        "ref": "2Macc.12.43-45",
+        "addressed": true,
+        "resolution": "Second Maccabees 12, in which Judas Maccabeus arranges sacrifice peri tOn tethnEkotOn, for the dead, that they might be loosed from sin, is historically the principal explicit prooftext for post-mortem purgation. It lies outside the sixty-six-book canon this engine treats as Scripture, so it is excluded on canon-scope grounds and not on reinterpretation grounds. Its absence from the lexical corpus is itself the reason no purgatorial vocabulary is preserved in the in-canon Greek."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The input bundle reports not_in_ecm_scope true and supplies an empty variant_units list. The cited verses lie outside the published CBGM scope. The well-known Luke 23:43 punctuation question, whether sEmeron attaches to legO or to esE, is a punctuation and accentuation issue, not a manuscript text variant. No examined variant unit materially affects the death-then-rest pattern."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "immediate-glorification",
+      "post-mortem-purgation"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "immediate-glorification reading",
+        "verdict": "affirms",
+        "rationale": "Heb 10:14 perfect tetelEIOken with eis to diEnekes, Heb 1:3 finished katharismon prior to session, 2 Cor 5:8 paired ekdEmeO and endEmeO without middle term, Phil 1:23 analysai kai syn ChristO einai as one transition, Luke 23:43 sEmeron en paradeisO, 1 John 1:7 katharizei apo pasEs hamartias, Rom 8:1 ouden nyn katakrima, and Luke 16:26 chasma mega estEriktai together yield a pan-canonical pattern of completed cleansing now and immediate presence with Christ at death, with no in-canon Greek term for a purgative intermediate state for the saved."
+      },
+      {
+        "framework": "post-mortem-purgation reading",
+        "verdict": "complicates",
+        "rationale": "1 Cor 3:13-15 sets ergon and autos in the same eschatological scene with sOzesthai hOs dia pyros, saved as through fire, and the participant most naturally has the fire as something the person passes through, even if the burning object is ergon. Matt 12:32 names en toutO tO aiOni and en tO mellonti aiOni, this age and the coming age, in a forgiveness frame that some readers take to imply continuing forgiveness in the next age, which would require a state in which forgiveness still applies. Read together with the deuterocanonical 2 Macc 12:43-45, these have grounded a long reading of a post-mortem purgative stage for the saved. The lexical objection is that the Greek of 1 Cor 3 shifts noun between burned object (ergon) and saved object (autos), and Matt 12:32 is an emphatic universal negation rather than a positive claim about the coming age, so the Greek does not require the purgatorial reading but it does not foreclose it as sharply as some readers claim."
+      },
+      {
+        "framework": "soul-sleep reading",
+        "verdict": "complicates",
+        "rationale": "A minority reading takes 2 Cor 5:8 endEmEsai pros ton kyrion and Phil 1:23 syn ChristO einai as deferred to the resurrection, with the body of texts using koimaO, to sleep, of the dead, as in 1 Thess 4:13-15 and John 11:11, taken to imply an unconscious interim. Lexically the verbs ekdEmeO and endEmeO in 2 Cor 5 are paired with no third state, which weighs against the soul-sleep reading rather than for purgation; included here only to acknowledge it as a separate competing lens that this verdict also denies."
+      }
+    ],
+    "notes": "The verdict turns on grammatical tense, the perfect tetelEIOken, the present katharizei, the now of Rom 8:1, the antithetic pairing of ekdEmeO and endEmeO, and the noun-shift between ergon and autos in 1 Cor 3:13-15. Analogia scripturae harmonizes the in-canon witnesses, which do not name a purgative middle state in any positive lexical construction, though 1 Cor 3:15 dia pyros is read in opposite ways."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether believers who die in Christ pass immediately to glory, or undergo a post-mortem process of purgation before glory, is the question; the original stem's phrases immediately and finally purified in His finished work, and not progressively purified in a post-mortem state of purgation, load the denial of purgatory into the stem.",
+    "notes": "The stem encodes the conclusion by contrasting immediate-and-final purification against post-mortem progressive purgation. The verdict above is derived on the original stem from the lexical data, but the neutralized form states the underlying either-or so the grammar, not the framing, carries the weight. Confidence is medium rather than high because 1 Cor 3:13-15 and Matt 12:32 supply genuine lexical hooks for the purgatorial reading even if the Greek does not require it. No web fallback was used."
+  },
+  "lay_summary": "This question asks whether a believer who dies is fully cleansed at once through Christ's finished work, or must pass through a later process of purification before reaching glory. Several lines of Greek vocabulary lean toward immediate cleansing. Hebrews 10:14 uses a perfect-tense verb meaning he has perfected, joined to a phrase meaning in perpetuity, said of the ones being made holy. Hebrews 1:3 describes Christ as having made cleansing of sins before sitting at the right hand, treating the cleansing as already accomplished. Second Corinthians 5:8 pairs two rare verbs, to be away from the body and to be at home with the Lord, with nothing named between them. Philippians 1:23 says Paul desires to depart and to be with Christ in a single phrase. Luke 23:43 promises the dying man same-day presence with Christ in paradise. First John 1:7 says the blood of Jesus cleanses from all sin, using a wide word for all. Romans 8:1 says there is now no condemnation for those in Christ. Luke 16:26 names a great fixed chasm between the two post-mortem states. The picture leaves no in-canon term for a stage of purgative cleansing between death and glory. Two complicating texts qualify the verdict. First Corinthians 3:13 to 15 says fire will test each builder's work on the day of judgment, the work may be burned up, and the builder himself will be saved as through fire. The Greek shifts nouns between the burned object, the work, and the saved object, the person, but the picture of a person passing through fire is real and has been read as purgative. Matthew 12:32 says a sin will not be forgiven in this age or in the age to come, which has been read to imply some sins are forgiven in the next age, requiring a state where that forgiveness applies. The Greek of these texts allows but does not require a purgative reading, since the noun shift in First Corinthians 3 separates the burned work from the saved person, and Matthew 12:32 is an emphatic total exclusion rather than a positive claim about the coming age. So the lexical pattern supports the denial of post-mortem purgation, but the room left by these two texts is the honest reason readers diverge.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.5.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.1"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.3.15"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Heb.1.3"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Phil.1.23"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1336"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2631"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2210"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G5490"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2512"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Heb.10.14"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Luke.23.43"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1John.1.7"
+    },
+    {
+      "type": "interlinear",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "1Cor.3.15"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1John.1.7"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "Rom.8.1"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "MACULA-Greek is licensed CC-BY-NC-4.0, which does not permit bulk redistribution, so the assembled evidence bundle is not safe to publish as-is until the MACULA-Greek interlinear citations for Luke.23.43, 1John.1.7, and 1Cor.3.15 are removed or replaced with a redistributable equivalent."
+  },
+  "flags": []
+}

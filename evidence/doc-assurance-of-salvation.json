@@ -1,0 +1,585 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-assurance-of-salvation",
+  "question_id": "doc-assurance-of-salvation",
+  "generated_at": "2026-05-27T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 1.0,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The cited verses converge on a settled, knowable confidence whose ground lies outside the believer. In 1 John 5:13 the purpose clause hina eidete uses oida (G1492) in the perfect subjunctive (V-RAS-2P, queried), the verb of settled knowing, governing echete (G2192, present indicative V-PAI-2P), so the writer's stated aim is that believers may KNOW they presently HAVE eternal life. Romans 8:16 uses symmartyrei (G4828, present indicative V-PAI-3S, queried as 1 of only 3 canon occurrences), the Spirit co-witnessing with our spirit, an inward ground. Hebrews 10:22 names plerophoria pisteos (G4136, full assurance of faith), and 2 Peter 1:10 commands making one's calling and election bebaios (G0949, firm). The three named grounds, the promise, the Spirit's witness, and Spirit-wrought fruit (dokime, G1382), are each lexically present. The genuine nuance the words leave open is the relative weight of objective promise, inward witness, and evidential fruit, not whether assurance exists."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1492",
+        "lemma": "οἶδα",
+        "transliteration": "oida",
+        "occurrences_in_canon": 293,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4828",
+        "lemma": "συμμαρτυρέω",
+        "transliteration": "symmartyreo",
+        "occurrences_in_canon": 3,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4136",
+        "lemma": "πληροφορία",
+        "transliteration": "plerophoria",
+        "occurrences_in_canon": 4,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0949",
+        "lemma": "βέβαιος",
+        "transliteration": "bebaios",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 765,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2443",
+        "lemma": "ἵνα",
+        "transliteration": "hina",
+        "occurrences_in_canon": 722,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0166",
+        "lemma": "αἰώνιος",
+        "transliteration": "aionios",
+        "occurrences_in_canon": 69,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4100",
+        "lemma": "πιστεύω",
+        "transliteration": "pisteuo",
+        "occurrences_in_canon": 241,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1515",
+        "lemma": "εἰρήνη",
+        "transliteration": "eirene",
+        "occurrences_in_canon": 91,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1344",
+        "lemma": "δικαιόω",
+        "transliteration": "dikaioo",
+        "occurrences_in_canon": 39,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1680",
+        "lemma": "ἐλπίς",
+        "transliteration": "elpis",
+        "occurrences_in_canon": 53,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1382",
+        "lemma": "δοκιμή",
+        "transliteration": "dokime",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5281",
+        "lemma": "ὑπομονή",
+        "transliteration": "hypomone",
+        "occurrences_in_canon": 32,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0026",
+        "lemma": "ἀγάπη",
+        "transliteration": "agape",
+        "occurrences_in_canon": 116,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0228",
+        "lemma": "ἀληθινός",
+        "transliteration": "alethinos",
+        "occurrences_in_canon": 28,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G1492",
+      "G1097",
+      "G4828",
+      "G3140",
+      "G4136",
+      "G4135",
+      "G0949",
+      "G2192",
+      "G2443",
+      "G0166",
+      "G4100",
+      "G1515",
+      "G1344",
+      "G1680",
+      "G1382",
+      "G0096",
+      "G5281",
+      "G0026",
+      "G0228",
+      "G2588",
+      "G2744"
+    ],
+    "scripture": [
+      {
+        "ref": "1John.5.13",
+        "key_terms": [
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G0166",
+            "lemma": "αἰώνιος"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          },
+          {
+            "strong": "G2443",
+            "lemma": "ἵνα"
+          }
+        ],
+        "force": "Queried morphology: eidete (oida, G1492) is V-RAS-2P, a perfect-stem subjunctive of settled knowing inside the purpose clause hina eidete, and echete (echo, G2192) is V-PAI-2P, present possession. The writer's stated aim is that those who believe (pisteuousin, present participle) may KNOW that they HAVE eternal life (zoen aionion) now. The grammar locates assurance in present possession verified by a knowledge verb, not in future attainment or probability.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "1John.5.13"
+      },
+      {
+        "ref": "Rom.8.16",
+        "key_terms": [
+          {
+            "strong": "G4828",
+            "lemma": "συμμαρτυρέω"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "Queried: symmartyrei (G4828) is V-PAI-3S and occurs only 3 times in the canon (Rom 8:16, Rom 9:1, Rom 2:15), each time the syn- prefix making the testimony joint and co-attesting. Here the Spirit bears witness WITH our spirit that we are children of God (tekna theou). The near-rare verb is unambiguous in sense, an inward co-witness, which the proposition names as the second ground of assurance.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.8.16"
+      },
+      {
+        "ref": "Rom.5.1",
+        "key_terms": [
+          {
+            "strong": "G1344",
+            "lemma": "δικαιόω"
+          },
+          {
+            "strong": "G1515",
+            "lemma": "εἰρήνη"
+          }
+        ],
+        "force": "The aorist passive participle dikaiothentes (having been justified) grounds the indicative eirenen echomen pros ton theon (we have peace toward God). The settled status precedes and produces the relational peace, so assurance rests on an accomplished justification ek pisteos, out of faith. dikaioo (G1344) clusters heavily in Romans and Galatians, a stable forensic sense across the queried distribution.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.1"
+      },
+      {
+        "ref": "Rom.5.2",
+        "key_terms": [
+          {
+            "strong": "G1680",
+            "lemma": "ἐλπίς"
+          },
+          {
+            "strong": "G2744",
+            "lemma": "καυχάομαι"
+          }
+        ],
+        "force": "kauchometha ep elpidi tes doxes tou theou (we boast in hope of the glory of God) sets confident hope as the standing posture of those who have access (prosagogen) into this grace. elpis (G1680) in the queried canon spread denotes confident expectation, not mere wish, so the boasting is forward-looking confidence rather than presumption.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.2"
+      },
+      {
+        "ref": "Rom.5.3",
+        "key_terms": [
+          {
+            "strong": "G2347",
+            "lemma": "θλῖψις"
+          },
+          {
+            "strong": "G5281",
+            "lemma": "ὑπομονή"
+          }
+        ],
+        "force": "The chain begins thlipsis hypomonen katergazetai (tribulation produces endurance). Suffering is not a counter-witness to assurance but feeds the progression toward proven character. hypomone (G5281) carries a stable sense of steadfast endurance across its 32 queried occurrences.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.3"
+      },
+      {
+        "ref": "Rom.5.4",
+        "key_terms": [
+          {
+            "strong": "G5281",
+            "lemma": "ὑπομονή"
+          },
+          {
+            "strong": "G1382",
+            "lemma": "δοκιμή"
+          },
+          {
+            "strong": "G1680",
+            "lemma": "ἐλπίς"
+          }
+        ],
+        "force": "hypomone dokimen, dokime de elpida (endurance produces proven character, and proven character produces hope). dokime (G1382, queried at 7 occurrences) denotes tested, demonstrated genuineness, the lexical core of Spirit-wrought evidence feeding back into confident hope. Its cognate adokimos (G0096) names the failed-test outcome, so the same dokim- root supplies both the evidence of assurance and the standard of self-examination.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.4"
+      },
+      {
+        "ref": "Rom.5.5",
+        "key_terms": [
+          {
+            "strong": "G1680",
+            "lemma": "ἐλπίς"
+          },
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          }
+        ],
+        "force": "he elpis ou kataischynei (the hope does not put to shame), grounded in he agape tou theou ekkechytai en tais kardiais hemon (the love of God has been poured out in our hearts) dia pneumatos hagiou. The perfect ekkechytai marks an abiding poured-out state, the inward affective ground of unfailing hope. agape (G0026) here is God's love toward us, the source, not our love as merit.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Rom.5.5"
+      },
+      {
+        "ref": "Heb.10.22",
+        "key_terms": [
+          {
+            "strong": "G4136",
+            "lemma": "πληροφορία"
+          },
+          {
+            "strong": "G2588",
+            "lemma": "καρδία"
+          },
+          {
+            "strong": "G0228",
+            "lemma": "ἀληθινός"
+          }
+        ],
+        "force": "proserchometha en plerophoria pisteos (let us draw near in full assurance of faith) with alethines kardias (a true heart). plerophoria (G4136, queried N-DSF) occurs only 4 times (Heb 10:22, Heb 6:11, 1 Thess 1:5, Col 2:2) and denotes fullness and complete certainty in every instance. The participles rerantismenoi and lelousmenoi (having been sprinkled, having been washed) ground that assurance in an accomplished cleansing.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "Heb.10.22"
+      },
+      {
+        "ref": "2Pet.1.10",
+        "key_terms": [
+          {
+            "strong": "G0949",
+            "lemma": "βέβαιος"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "spoudasate bebaian hymon ten klesin kai eklogen poieisthai (be diligent to make your calling and election firm). bebaios (G0949, queried A-ASF, 8 occurrences including 2 Pet 1:19, Heb 3:14, Heb 6:19, Rom 4:16) denotes firm, secure, guaranteed. The middle infinitive poieisthai casts assurance as something the believer confirms experientially through diligence, the evidential ground, while ptaisete pote (you will never stumble) attaches the promise.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Pet.1.10"
+      },
+      {
+        "ref": "2Tim.1.12",
+        "key_terms": [
+          {
+            "strong": "G1492",
+            "lemma": "οἶδα"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πιστεύω"
+          }
+        ],
+        "force": "Queried: oida (G1492) here is V-RAI-1S, perfect indicative, oida ho pepisteuka (I know whom I have believed). The first-person settled-knowledge verb pairs with the perfect pepisteuka (an enduring state of having believed), so the assurance is personal, present, and grounded in the object of faith. This is the same oida that 1 John 5:13 makes the writer's aim for all believers.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Tim.1.12"
+      },
+      {
+        "ref": "2Cor.13.5",
+        "key_terms": [
+          {
+            "strong": "G1381",
+            "lemma": "δοκιμάζω"
+          },
+          {
+            "strong": "G0096",
+            "lemma": "ἀδόκιμος"
+          }
+        ],
+        "force": "Queried: heautous peirazete (G3985, V-PAM-2P) and heautous dokimazete (G1381, V-PAM-2P) are present imperatives, test and examine yourselves, with the cognate adokimoi (G0096) naming the disqualified outcome. The same dokim- root that grounds assurance in Rom 5:4 (dokime, proven) here funds a command to test whether Christ is in you. The text presents assurance and self-examination together, not in opposition.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": "2Cor.13.5"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1John.5.13",
+        "to": "1John.5.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1John.5.13",
+        "to": "1John.1.4",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.22",
+        "to": "Heb.10.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.22",
+        "to": "Heb.4.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Heb.10.22",
+        "to": "Heb.9.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.8.16",
+        "to": "Rom.8.23",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.1",
+        "to": "Rom.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.2",
+        "to": "Rom.5.5",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Rom.5.5",
+        "to": "Isa.44.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.1.10",
+        "to": "2Tim.2.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.1.10",
+        "to": "Rom.8.28",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "2Pet.1.10",
+        "to": "2Pet.3.17",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "2Cor.13.5",
+        "addressed": true,
+        "resolution": "The present imperatives dokimazete and peirazete (queried V-PAM-2P, test and examine yourselves) with the cognate adokimoi (G0096, queried at 8 occurrences including 2 Cor 13:5, 13:6, 13:7) could be read as making assurance perpetually unsettled. Lexically the same dokim- root grounds assurance in Romans 5:4 (dokime, proven genuineness) and funds the test here, so the verse does not deny assurance but anchors it in a verifiable reality (whether Christ is in you). The examination is the means by which evidential assurance is confirmed, not a withholding of it."
+      },
+      {
+        "ref": "2Pet.1.10",
+        "addressed": true,
+        "resolution": "The command spoudasate bebaian poieisthai (be diligent to make firm) could be read as making assurance contingent on works. Lexically the middle voice poieisthai concerns the believer confirming and experiencing an election already grounded in God's prior klesis and ekloge, supported by the cross-ref to 2 Tim 2:19 (the firm foundation stands, the Lord knows those who are his). The verse supports evidential assurance through Spirit-wrought diligence rather than earning the promise."
+      },
+      {
+        "ref": "Heb.10.22",
+        "addressed": true,
+        "resolution": "The hortatory subjunctive proserchometha (let us draw near) is a summons, which could be read as conditional. But plerophoria pisteos (full assurance of faith) is presented as the present possession enabling the approach, and the perfect participles rerantismenoi and lelousmenoi anchor it in completed cleansing, so the exhortation presupposes assurance rather than withholding it."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "The lexical store holds 116 VariantUnit nodes, all within the 3 John CBGM window, so none of the cited assurance verses fall in published or shadow CBGM scope. 1 John 5:13 carries known manuscript variation in the relative-clause word order around tois pisteuousin eis to onoma, but the queried hina eidete clause that carries the verdict is textually stable, so the verdict holds across plausible readings."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "perseverance",
+      "conditional_perseverance",
+      "assurance_of_the_essence_of_faith",
+      "assurance_as_distinct_attainment"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "assurance grounded chiefly in the objective promise",
+        "verdict": "for",
+        "rationale": "Weights 1 John 5:13 (hina eidete, the writer's aim that believers KNOW) and 2 Tim 1:12 (oida, I know whom I have believed) as locating assurance primarily in the promise of God received by faith, so that assurance belongs to the essence of believing. The queried perfect-stem oida and present echete support reading assurance as a present given rather than a later prize."
+      },
+      {
+        "framework": "assurance grounded chiefly in the inward witness of the Spirit",
+        "verdict": "for",
+        "rationale": "Weights Romans 8:16 symmartyrei (the Spirit co-witnesses) and Romans 5:5 (the love of God poured out by the Spirit) as the experiential, affective ground. On this reading assurance is felt confirmation, not bare inference from the promise. The queried near-rare symmartyreo, always co-attesting, supports a genuinely inward testimony."
+      },
+      {
+        "framework": "assurance grounded chiefly in Spirit-wrought fruit and self-examination",
+        "verdict": "for",
+        "rationale": "Weights 2 Peter 1:10 (make your calling and election bebaios) and 2 Cor 13:5 (dokimazete, examine yourselves) as making assurance a verified reality tested by evidence of a changed life. On this reading assurance can be a distinct attainment that grows with diligence. The shared dokim- root in Rom 5:4 dokime and 2 Cor 13:5 supports an evidential ground, and the queried adokimos shows the test can register a negative result."
+      }
+    ],
+    "notes": "The proposition states only that believers MAY have well-grounded assurance founded on three named grounds (the promise, the Spirit's witness, and Spirit-wrought fruit). All three lenses affirm that such assurance exists lexically. They diverge on which ground is primary and on whether assurance is inseparable from faith or a distinct attainment confirmed over time. The vocabulary supports the existence and the three grounds but does not rank them, which is the honest source of legitimate divergence."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem uses the modal MAY have and lists three grounds (promises of God, inward witness of the Spirit, Spirit-wrought fruit) that map directly to queried lexical features (eidete plus echete zoen aionion in 1 John 5:13, symmartyrei in Rom 8:16, dokime in Rom 5:4 and bebaios in 2 Pet 1:10). It does not embed a tradition-specific taxonomy such as a particular full-assurance-versus-faith-assurance scheme, so it is not verdict-preloaded. The verdict is derived from the words, not the stem."
+  },
+  "lay_summary": "The verses cited point one way. In 1 John 5:13 the writer states his purpose with hina eidete, built on the word for purpose plus oida, a verb of settled knowing (here a perfect-stem form, confirmed by querying the text), and his goal is that people who believe may KNOW they HAVE eternal life right now, using present-tense possession. That is assurance grounded in a promise. In 2 Timothy 1:12 the same verb appears as oida, I know whom I have believed, the personal form of that knowledge. In Romans 8:16 the verb symmartyrei means the Spirit bears witness together WITH our spirit that we are children of God. That verb occurs only three times in the whole New Testament and always means a joint, co-attesting testimony, so it names a genuinely inward ground, the witness of the Spirit. Romans 5:1-5 starts from having been justified, which yields peace toward God, then builds a chain: pressure produces endurance, endurance produces proven character, and proven character produces hope, a hope that does not put us to shame because the love of God has been poured out in our hearts. The word for proven character describes tested, demonstrated genuineness, the third ground, fruit worked by the Spirit. Hebrews 10:22 names full assurance of faith outright, a word that means complete certainty and appears only four times, and ties it to a heart already sprinkled and washed. Second Peter 1:10 tells believers to make their calling and election firm, a word that means guaranteed. One verse pulls the other way: Second Corinthians 13:5 commands examine yourselves, using the same root that elsewhere means proven, and warns of being disqualified. But that command tests a reality, it does not deny that assurance exists. So across an apostle, two letters of Paul, and Hebrews the same picture holds: believers may rest in a confidence anchored in the promise, the Spirit's witness, and visible fruit. What the words do not settle is which of those three grounds weighs most, or whether assurance is built into faith from the start or grows as a separate confidence over time. That open question, not any doubt about whether assurance exists, is where careful readers honestly diverge. The pattern is consistent and the verdict affirms the proposition.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.5.13"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Tim.1.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Rom.8.16"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0949"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4136"
+    },
+    {
+      "type": "morphology",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "2Cor.13.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "2Pet.1.10"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Citations include MACULA-Greek under CC-BY-NC-4.0 (non-commercial, redistribute false), used for the queried morphology of 2 Cor 13:5 and the anchor verses. The composite evidence therefore cannot be redistributed in bulk."
+  },
+  "flags": [
+    "ecm-shadow"
+  ]
+}

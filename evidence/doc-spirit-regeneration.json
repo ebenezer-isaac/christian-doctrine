@@ -1,0 +1,753 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-spirit-regeneration",
+  "question_id": "doc-spirit-regeneration",
+  "generated_at": "2026-05-27T06:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "high",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern anchors new birth in divine, specifically Spirit, agency across both Testaments. In John 3:5 γεννηθῇ is aorist passive subjunctive and in 3:6 and 3:8 γεγεννημένον and γεγεννημένος are perfect passive participles, all governed by ἐκ plus a genitive of source, ἐξ ὕδατος καὶ πνεύματος and ἐκ τοῦ πνεύματος. The passive voice places the human in the patient role and names πνεῦμα as the source, and the πνεῦμα and πνεῖ wordplay of 3:8 casts that source as sovereign. Titus 3:5 makes the agency explicit, ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου, where the genitive πνεύματος ἁγίου is the source of the renewal and οὐκ ἐξ ἔργων excludes human work. John 6:63 fixes τὸ πνεῦμα as τὸ ζῳοποιοῦν while ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν. Ezekiel 36:26-27 supplies the prophetic substrate with God in the first person giving a new heart and putting his רוּחַ within. What the vocabulary does NOT settle is the ordo, whether this Spirit-birth precedes or accompanies faith, and whether ὕδατος denotes baptism, since 1 Peter 1:3 and 1:23 attribute the same begetting to God through resurrection and through the living word."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G1080",
+        "lemma": "γεννάω",
+        "transliteration": "gennao",
+        "occurrences_in_canon": 98,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0313",
+        "lemma": "ἀναγεννάω",
+        "transliteration": "anagennao",
+        "occurrences_in_canon": 3,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0509",
+        "lemma": "ἄνωθεν",
+        "transliteration": "anothen",
+        "occurrences_in_canon": 13,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2227",
+        "lemma": "ζῳοποιέω",
+        "transliteration": "zoopoieo",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3824",
+        "lemma": "παλιγγενεσία",
+        "transliteration": "palingenesia",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0342",
+        "lemma": "ἀνακαίνωσις",
+        "transliteration": "anakainosis",
+        "occurrences_in_canon": 2,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4151",
+        "lemma": "πνεῦμα",
+        "transliteration": "pneuma",
+        "occurrences_in_canon": 379,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4561",
+        "lemma": "σάρξ",
+        "transliteration": "sarx",
+        "occurrences_in_canon": 152,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2222",
+        "lemma": "ζωή",
+        "transliteration": "zoe",
+        "occurrences_in_canon": 136,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2937",
+        "lemma": "κτίσις",
+        "transliteration": "ktisis",
+        "occurrences_in_canon": 19,
+        "in_anchors": false
+      },
+      {
+        "strong": "G4982",
+        "lemma": "σῴζω",
+        "transliteration": "sozo",
+        "occurrences_in_canon": 113,
+        "in_anchors": true
+      },
+      {
+        "strong": "H7307",
+        "lemma": "רוּחַ",
+        "transliteration": "ruach",
+        "occurrences_in_canon": 378,
+        "in_anchors": true
+      },
+      {
+        "strong": "H3820",
+        "lemma": "לֵב",
+        "transliteration": "leb",
+        "occurrences_in_canon": 595,
+        "in_anchors": true
+      },
+      {
+        "strong": "H5414",
+        "lemma": "נָתַן",
+        "transliteration": "nathan",
+        "occurrences_in_canon": 2011,
+        "in_anchors": true
+      },
+      {
+        "strong": "H1320",
+        "lemma": "בָּשָׂר",
+        "transliteration": "basar",
+        "occurrences_in_canon": 270,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2319",
+        "lemma": "חָדָשׁ",
+        "transliteration": "chadash",
+        "occurrences_in_canon": 53,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213A",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 1656,
+        "in_anchors": true
+      },
+      {
+        "strong": "H2421",
+        "lemma": "חָיָה",
+        "transliteration": "chayah",
+        "occurrences_in_canon": 262,
+        "in_anchors": false
+      }
+    ],
+    "concordance_traversed": [
+      "G1080",
+      "G0313",
+      "G0509",
+      "G2227",
+      "G3824",
+      "G0342",
+      "G4151",
+      "G4561",
+      "G2222",
+      "G2937",
+      "G4982",
+      "G5204",
+      "H7307",
+      "H3820",
+      "H5414",
+      "H1320",
+      "H2319",
+      "H6213A",
+      "H2421",
+      "H0068"
+    ],
+    "scripture": [
+      {
+        "ref": "John.3.5",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεννηθῇ"
+          },
+          {
+            "strong": "G1537",
+            "lemma": "ἐξ"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεύματος"
+          }
+        ],
+        "force": "MorphGNT parses γεννηθῇ as aorist passive subjunctive, third singular, governed by ἐξ ὕδατος καὶ πνεύματος. The passive voice with the prepositional source ἐκ presents the Spirit as the one effecting the begetting and the human subject as patient. The condition ἐὰν μή ties entry into τὴν βασιλείαν τοῦ θεοῦ to this Spirit-effected birth. Whether ὕδατος names baptism is left open by the syntax, but πνεύματος remains the second genitive of source either way.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.6",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεγεννημένον"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεύματος"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σαρκὸς"
+          }
+        ],
+        "force": "The perfect passive participle γεγεννημένον, parsed XPP in MorphGNT, appears twice with paired prepositional sources. ἐκ τῆς σαρκὸς produces σάρξ and ἐκ τοῦ πνεύματος produces πνεῦμα. The grammar locates origin in the Spirit and identifies the resulting nature as spirit, ruling out fleshly self-generation. The two genitive sources are set in flat contrast, not ranked in time.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.7",
+        "key_terms": [
+          {
+            "strong": "G1080",
+            "lemma": "γεννηθῆναι"
+          },
+          {
+            "strong": "G0509",
+            "lemma": "ἄνωθεν"
+          }
+        ],
+        "force": "Aorist passive infinitive γεννηθῆναι with the adverb ἄνωθεν and impersonal Δεῖ marks the necessity of a begetting from outside the recipient. ἄνωθεν is polysemous, attested elsewhere as from above spatially in John 3:31 and Matthew 27:51 and as from the beginning or again temporally in Luke 1:3. Both senses keep the begetting non-self-originated, so the agency claim holds on either reading.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.3.8",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμα"
+          },
+          {
+            "strong": "G1080",
+            "lemma": "γεγεννημένος"
+          }
+        ],
+        "force": "The clause τὸ πνεῦμα ὅπου θέλει πνεῖ exploits the πνεῦμα and πνεῖ wordplay to depict the Spirit acting freely and unobservably, and οὕτως ἐστὶν πᾶς ὁ γεγεννημένος ἐκ τοῦ πνεύματος applies that pattern to everyone begotten of the Spirit. θέλει gives the Spirit volition, placing agency on the Spirit side, not the recipient.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Titus.3.5",
+        "key_terms": [
+          {
+            "strong": "G3824",
+            "lemma": "παλιγγενεσίας"
+          },
+          {
+            "strong": "G0342",
+            "lemma": "ἀνακαινώσεως"
+          },
+          {
+            "strong": "G4151",
+            "lemma": "πνεύματος"
+          }
+        ],
+        "force": "ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου links salvation to a rebirth-washing and a Spirit-renewal. MorphGNT marks παλιγγενεσίας and ἀνακαινώσεως as genitives and πνεύματος ἁγίου as a following genitive that names the Holy Spirit as the source of the renewal. The phrase οὐκ ἐξ ἔργων τῶν ἐν δικαιοσύνῃ excludes human work as cause and κατὰ τὸ αὐτοῦ ἔλεος locates the cause in divine mercy.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.6.63",
+        "key_terms": [
+          {
+            "strong": "G4151",
+            "lemma": "πνεῦμά"
+          },
+          {
+            "strong": "G2227",
+            "lemma": "ζῳοποιοῦν"
+          },
+          {
+            "strong": "G4561",
+            "lemma": "σὰρξ"
+          }
+        ],
+        "force": "The present active participle τὸ ζῳοποιοῦν, neuter, agrees with τὸ πνεῦμα and attributes life-giving action to the Spirit, while ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν strips the flesh of any contribution. The neuter agreement and the verbal force fix the Spirit as the life-giver in direct antithesis to flesh.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.36.26",
+        "key_terms": [
+          {
+            "strong": "H5414",
+            "lemma": "נָתַן"
+          },
+          {
+            "strong": "H3820",
+            "lemma": "לֵב"
+          },
+          {
+            "strong": "H2319",
+            "lemma": "חָדָשׁ"
+          },
+          {
+            "strong": "H1320",
+            "lemma": "בָּשָׂר"
+          }
+        ],
+        "force": "Three first-person verbs with God as subject, וְנָתַתִּי לֵב חָדָשׁ, וַהֲסִרֹתִי לֵב הָאֶבֶן, וְנָתַתִּי לֵב בָּשָׂר, present unilateral divine action that replaces a heart of stone with a heart of flesh. The ETCBC clause data marks God as predicate-subject and the people as complement, giving God the agency and humanity the recipient role.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Ezek.36.27",
+        "key_terms": [
+          {
+            "strong": "H7307",
+            "lemma": "רוּחַ"
+          },
+          {
+            "strong": "H5414",
+            "lemma": "נָתַן"
+          },
+          {
+            "strong": "H6213A",
+            "lemma": "עָשָׂה"
+          }
+        ],
+        "force": "וְאֶת רוּחִי אֶתֵּן בְּקִרְבְּכֶם identifies God's own רוּחַ as the gift placed within. The waw-consecutive וְעָשִׂיתִי connects this Spirit-gift to resulting obedience, walking in God's statutes, making the placed Spirit the agent that produces the new walk. רוּחַ occurs 378 times in the canon, so its sense is well triangulated, and here the first-person suffix רוּחִי fixes it as God's own Spirit.",
+        "supports": "for",
+        "genre": "prophecy",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Pet.1.23",
+        "key_terms": [
+          {
+            "strong": "G0313",
+            "lemma": "ἀναγεγεννημένοι"
+          }
+        ],
+        "force": "ἀναγεγεννημένοι is a perfect passive participle of ἀναγεννάω, having been begotten again, but the prepositional instrument is διὰ λόγου ζῶντος θεοῦ, through the living word of God, not the Spirit. This is recorded as complicating because the same begetting event is here tied to the word, showing the canon names more than one instrument for the new birth and does not rank them.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "Ezek.36.26",
+        "to": "Deut.30.6",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.26",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.6",
+        "to": "Ezek.11.19",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.27",
+        "to": "Ezek.37.14",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Ezek.36.27",
+        "to": "Ezek.37.24",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "Gen.2.7",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.6.63",
+        "to": "John.6.68",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.8",
+        "to": "John.1.13",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.8",
+        "to": "Job.37.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.5",
+        "to": "John.3.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.3.7",
+        "to": "John.3.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.3.5",
+        "to": "Ps.51.10",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Titus.3.5",
+        "to": "Titus.3.4",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.3.5",
+        "addressed": true,
+        "resolution": "The phrase ἐξ ὕδατος καὶ πνεύματος can be read as two distinct sources or as one Spirit-cleansing event. On a sacramental reading ὕδατος names baptismal water, on a non-sacramental reading it figures cleansing or the word. Either way πνεύματος remains the second genitive of source, and the parallel in John 3:6 and 3:8 reduces the recurring source to ἐκ τοῦ πνεύματος, so Spirit agency holds. The proposition under test asks only whether the Spirit regenerates, which the syntax answers yes, and not whether water means baptism, which it leaves open."
+      },
+      {
+        "ref": "Titus.3.5",
+        "addressed": true,
+        "resolution": "λουτροῦ παλιγγενεσίας could be read as a ritual washing that itself produces rebirth, shifting agency to a rite. But the syntax pairs it with καὶ ἀνακαινώσεως πνεύματος ἁγίου, the controlling verb ἔσωσεν is governed by κατὰ τὸ αὐτοῦ ἔλεος, and the contrast οὐκ ἐξ ἔργων excludes human contribution. The genitive πνεύματος ἁγίου modifies ἀνακαινώσεως as source, so the Spirit remains the agent of renewal whatever λουτροῦ designates."
+      },
+      {
+        "ref": "1Pet.1.23",
+        "addressed": false,
+        "resolution": "Not resolved because it bears on the contested scope rather than the bare proposition. ἀναγεγεννημένοι, begotten again, is here διὰ λόγου ζῶντος θεοῦ, through the living word, and 1 Peter 1:3 attributes the same begetting to God διὰ ἀναστάσεως, through the resurrection. The Spirit is not named as instrument in these verses. This shows the canon presents the new birth with several named means, God, word, resurrection, and elsewhere the Spirit, and the vocabulary does not rank or sequence them, which is exactly the underdetermined ordo the proposition does not require settling."
+      },
+      {
+        "ref": "John.1.13",
+        "addressed": true,
+        "resolution": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ' ἐκ θεοῦ ἐγεννήθησαν names God as the source of begetting and explicitly excludes human will, but does not name the Spirit. Read with John 3:5-8, where the Spirit is the specific agent of God's begetting, this verse is consistent and reinforces non-human agency rather than competing with Spirit agency."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No anchor verse lies in the ingested ECM window of 3 John 1.1 to 1.15, so the apparatus was not consulted for them and no variant signal is invented. The supplied bundle lists zero variant units for John 3:5-8, Titus 3:5, and John 6:63 that would touch the agency of πνεῦμα. Ezekiel 36:26-27 is Old Testament and outside ECM scope, with stable Masoretic readings for רוּחַ, לֵב, and נָתַן."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "covenant_theology",
+      "dispensationalism",
+      "sacramental_realism",
+      "ordo_salutis_monergism",
+      "ordo_salutis_synergism"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [
+      {
+        "framework": "covenantal_continuity",
+        "verdict": "affirms",
+        "rationale": "Reads Ezekiel 36:26-27 as the prophetic substrate that John 3 and Titus 3 fulfill, with the same divine רוּחַ and πνεῦμα as the agent of inner renewal across both Testaments. The grammar in both, first-person divine verbs in Ezekiel and passive begetting verbs in John, locates agency in God's Spirit on either side of the canon."
+      },
+      {
+        "framework": "discontinuity_dispensational",
+        "verdict": "affirms",
+        "rationale": "Even on a strict New Testament reading that does not lean on the Ezekiel link, John 3:5-8, John 6:63, and Titus 3:5 lexically locate regeneration in πνεῦμα as agent through passive begetting verbs and a Spirit-source genitive, so the proposition holds on the Greek alone."
+      },
+      {
+        "framework": "baptismal_regeneration_reading",
+        "verdict": "affirms",
+        "rationale": "Takes ἐξ ὕδατος in John 3:5 and λουτροῦ in Titus 3:5 as baptismal water, so the Spirit works regeneration in and through the washing. On this reading the Spirit is still the named agent, ἐκ τοῦ πνεύματος and πνεύματος ἁγίου, so the bare proposition that the Spirit regenerates is affirmed, while the means is held to include the rite."
+      },
+      {
+        "framework": "faith_precedes_or_accompanies_reading",
+        "verdict": "affirms",
+        "rationale": "Holds that the Spirit gives new life in connection with believing rather than as a prior cause, citing that 1 Peter 1:23 ties the new birth to the word that is heard and believed. The Spirit remains the agent of life-giving, ζῳοποιοῦν, so the proposition is affirmed, while the timing relative to faith is read as concurrent."
+      },
+      {
+        "framework": "monergistic_prior_regeneration_reading",
+        "verdict": "affirms",
+        "rationale": "Holds that the Spirit-birth precedes and enables faith, reading the passive begetting verbs and the wind that blows ὅπου θέλει as marking the Spirit as the sole and prior cause of the new life. The Spirit is the agent, which the proposition affirms, while the priority of regeneration to faith is read as the point of the passives and the volitional θέλει."
+      }
+    ],
+    "notes": "The cross-Testament reading is reinforced by the Spirit-and-new-heart cluster shared by Ezekiel 11:19, 36:26-27, 37:14, and the Johannine and Pauline anchors. The competing lenses differ on two questions the words do not settle, whether ὕδατος and λουτροῦ mean baptism, and whether the Spirit-birth precedes or accompanies faith, but all five lenses affirm the bare proposition that the Spirit is the agent of regeneration."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": null,
+    "notes": "The stem names the Spirit as agent and new-birth as result, both of which are lexical, not framework-specific, and are mirrored by γεννάω in the passive with ἐκ πνεύματος, by ἀνακαίνωσις πνεύματος ἁγίου, and by τὸ πνεῦμα ζῳοποιοῦν. The phrase dead in sin is summary language for the σάρξ and stone-heart cluster and preloads no verdict. The stem does not assert an ordo or a sacramental theory, so it does not smuggle the contested timing or the baptismal question, which remain underdetermined by the vocabulary."
+  },
+  "lay_summary": "The biblical words for new birth and renewal consistently put the Holy Spirit in the agent position. In John 3 the verb gennao, to beget, appears in the passive voice, parsed as aorist passive and perfect passive, and is paired with the preposition ek, out of, plus pneuma, Spirit. That is the grammar of source. The one being born does nothing, the Spirit does the begetting. Jesus then likens the Spirit to wind that blows where it wills, so the action is free and not under human control. Titus 3:5 reinforces this with palingenesia, rebirth, and anakainosis, renewal, where pneumatos hagiou is a genitive of source naming the Holy Spirit as the one producing the renewal, and the verse explicitly excludes works of righteousness as cause. John 6:63 sharpens the contrast, the Spirit is the one giving life, zoopoioun, and the flesh profits nothing. The Old Testament root is in Ezekiel 36:26-27, where God speaks in the first person, I will give a new heart, I will remove the heart of stone, I will put my Spirit within you, and the gift of his ruach produces the new walk. Across these passages the pattern is uniform, the Spirit is named, the human is the recipient, the new condition is the result, so the bare claim that the Spirit regenerates is strongly grounded. Two questions stay open because the words do not settle them. First, in John 3:5 born of water and Spirit, and in Titus born through the washing, the term water can mean baptism or can figure cleansing, and the grammar permits both. Second, the canon does not rank or time the new birth against faith, and it names several means for the same begetting, since 1 Peter says we are born again through the living word and through the resurrection while John names the Spirit. The Spirit as agent is clear. The order and the role of baptism are the parts the vocabulary leaves underdetermined.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.6"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.7"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.3.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Titus.3.5"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.6.63"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Pet.1.23"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.36.26"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Ezek.36.27"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1080"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0509"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2227"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G3824"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0342"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0313"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H7307"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H3820"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESH",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "H2319"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.3.5"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ezek.36.26"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Greek",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "John.3.5"
+    },
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Ezek.36.27"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Ezek.36.26"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.3.8"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Titus.3.5"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.6.63"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESH",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Greek",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "ETCBC-BHSA and the MACULA-Greek and MACULA-Hebrew syntax citations are CC-BY-NC-4.0 and the SBLGNT-text citation is under the SBLGNT-EULA, none of which permit bulk redistribution."
+  },
+  "flags": [
+    "ecm-shadow",
+    "complicating-unresolved"
+  ]
+}

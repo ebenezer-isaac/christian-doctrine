@@ -1,0 +1,633 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-ecumenism-with-non-trinitarian-groups-denial",
+  "question_id": "doc-ecumenism-with-non-trinitarian-groups-denial",
+  "generated_at": "2026-05-27T07:30:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.975,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The identity half of the proposition is densely grounded. The articular present participle ho arnoumenos, the one denying, is a stable pan-canonical category for contradicting Christ (33 occurrences of arneomai across 13 books), and 1 John 2:23 reads pas ho arnoumenos ton huion oude ton patera echei, everyone denying the Son does not even have the Father, with echo, to have or not have, framing a relationship and not a mere opinion. John 5:23 sets equal honor by the comparative kathos, hina pantes timosi ton huion kathos timosi ton patera, and John 1:1 predicates full deity of the Word, theos en ho logos. The posture half rests on three converging texts that each carry a scope question: 2 John 10 commands me lambanete auton eis oikian, do not receive him into a house, and me chairein, do not greet, the one who does not abide in the didache tou Christou, and v11 makes greeting koinonei, sharing, in his evil works. 2 Cor 6:14 forbids being heterozygountes, mismatched-yoked, but the verb is a hapax. Gal 1:8-9 twice pronounces anathema on a different gospel. Both halves hold across multiple books, so the verdict affirms, but the posture vocabulary does not by itself fix how far the separation extends, which keeps confidence at medium."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G0720",
+        "lemma": "ἀρνέομαι",
+        "transliteration": "arneomai",
+        "occurrences_in_canon": 33,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3670",
+        "lemma": "ὁμολογέω",
+        "transliteration": "homologeo",
+        "occurrences_in_canon": 26,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2192",
+        "lemma": "ἔχω",
+        "transliteration": "echo",
+        "occurrences_in_canon": 708,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5091",
+        "lemma": "τιμάω",
+        "transliteration": "timao",
+        "occurrences_in_canon": 21,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5207",
+        "lemma": "υἱός",
+        "transliteration": "huios",
+        "occurrences_in_canon": 386,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 413,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 330,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3326",
+        "lemma": "μένω",
+        "transliteration": "meno",
+        "occurrences_in_canon": 118,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1322",
+        "lemma": "διδαχή",
+        "transliteration": "didache",
+        "occurrences_in_canon": 30,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2983",
+        "lemma": "λαμβάνω",
+        "transliteration": "lambano",
+        "occurrences_in_canon": 258,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5463",
+        "lemma": "χαίρω",
+        "transliteration": "chairo",
+        "occurrences_in_canon": 74,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2841",
+        "lemma": "κοινωνέω",
+        "transliteration": "koinoneo",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2086",
+        "lemma": "ἑτεροζυγέω",
+        "transliteration": "heterozygeo",
+        "occurrences_in_canon": 1,
+        "in_anchors": false
+      },
+      {
+        "strong": "G0331",
+        "lemma": "ἀνάθεμα",
+        "transliteration": "anathema",
+        "occurrences_in_canon": 7,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1317,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G0720",
+      "G3670",
+      "G2192",
+      "G5091",
+      "G5207",
+      "G3962",
+      "G3056",
+      "G3326",
+      "G1322",
+      "G2983",
+      "G5463",
+      "G2841",
+      "G2086",
+      "G0331",
+      "G2316",
+      "G5547"
+    ],
+    "scripture": [
+      {
+        "ref": "1John.2.22",
+        "key_terms": [
+          {
+            "strong": "G0720",
+            "lemma": "ἀρνέομαι"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "The verse twice uses the articular present participle ho arnoumenos, the one denying, first of denying that Jesus is the Christ and then of denying the Father and the Son together. The articular participle names a settled category of person, a teacher characterized by this denial, rather than a single lapse, and explicitly couples denial of the Son with denial of the Father. This identifies who stands on the wrong side of the confession.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1John.2.23",
+        "key_terms": [
+          {
+            "strong": "G0720",
+            "lemma": "ἀρνέομαι"
+          },
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "pas ho arnoumenos ton huion oude ton patera echei, everyone denying the Son does not even have the Father, balanced by ho homologon ton huion kai ton patera echei, the one confessing the Son has the Father also. The repeated verb echo, of having or not having the Father, makes the matter relational belonging, not mere opinion, and the antithesis of arneomai against homologeo sets denial and confession as the two exclusive sides, so a stance that denies the Son forfeits the Father by these terms.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          }
+        ],
+        "force": "kai theos en ho logos, and the Word was God, with the anarthrous predicate theos placed before the copula while the Word is also pros ton theon, with the God, distinguishing the persons yet predicating full deity of the Word. This is the confession of the Son as God that the denial in 1 John and 2 John rejects.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.1.18",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "The base text reads monogenes theos, the only-begotten God, in the bosom of the Father, who has made him known. Father and Son are held together within the one Godhead, which is the joint relation that denial of the Son severs in 1 John 2:23.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.5.23",
+        "key_terms": [
+          {
+            "strong": "G5091",
+            "lemma": "τιμάω"
+          },
+          {
+            "strong": "G5207",
+            "lemma": "υἱός"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "hina pantes timosi ton huion kathos timosi ton patera, that all may honor the Son just as they honor the Father, then ho me timon ton huion ou tima ton patera, the one not honoring the Son does not honor the Father who sent him. The comparative kathos sets the honor as equal, so withholding divine honor from the Son is withholding it from the Father, which places a group that does not so honor the Son outside right worship.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2John.1.7",
+        "key_terms": [
+          {
+            "strong": "G3670",
+            "lemma": "ὁμολογέω"
+          }
+        ],
+        "force": "hoi me homologountes Iesoun Christon erchomenon en sarki, those not confessing Jesus Christ coming in flesh, are named ho planos kai ho antichristos, the deceiver and the antichrist. This is the immediate antecedent that defines the one barred from reception in v10, so the boundary in this letter is set by the specific confession of who Jesus Christ is.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2John.1.9",
+        "key_terms": [
+          {
+            "strong": "G3326",
+            "lemma": "μένω"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          },
+          {
+            "strong": "G2192",
+            "lemma": "ἔχω"
+          }
+        ],
+        "force": "pas ho proagon kai me menon en te didache tou Christou theon ouk echei, everyone going ahead and not abiding in the teaching of Christ does not have God, while ho menon en te didache, the one abiding in the teaching, has both the Father and the Son. The echo idiom of having or not having God matches 1 John 2:23, and the genitive didache tou Christou, the teaching of Christ, ties belonging to fidelity to the apostolic teaching about him.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2John.1.10",
+        "key_terms": [
+          {
+            "strong": "G2983",
+            "lemma": "λαμβάνω"
+          },
+          {
+            "strong": "G5463",
+            "lemma": "χαίρω"
+          },
+          {
+            "strong": "G1322",
+            "lemma": "διδαχή"
+          }
+        ],
+        "force": "me lambanete auton eis oikian kai chairein auto me legete, do not receive him into a house and do not say a greeting to him, two present imperatives with me forbidding ongoing reception and the customary greeting toward anyone who does not bring this teaching. The verbs concern hospitality and welcome of a traveling teacher, which is a concrete refusal of fellowship toward those who reject the teaching of Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2John.1.11",
+        "key_terms": [
+          {
+            "strong": "G5463",
+            "lemma": "χαίρω"
+          },
+          {
+            "strong": "G2841",
+            "lemma": "κοινωνέω"
+          }
+        ],
+        "force": "ho legon gar auto chairein koinonei tois ergois autou tois ponerois, the one greeting him shares in his evil works. The verb koinoneo, to partner or share, frames even a greeting as participation, and the same verb in 1 Tim 5:22 warns against sharing in others sins, so the lexical sense is consistent, treating welcome of such teaching as complicity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.14",
+        "key_terms": [
+          {
+            "strong": "G2086",
+            "lemma": "ἑτεροζυγέω"
+          }
+        ],
+        "force": "me ginesthe heterozygountes apistois, do not become mismatched-yoked with unbelievers, a single rare verb, a hapax in the canon, built on the image of yoking unlike animals, followed by the rhetorical pairs asking what koinonia light has with darkness and what concord Christ has with Belial. The figure presses incompatibility of binding partnership, supporting separation, but the verb occurs only once so its precise scope, every binding tie or a narrower set, cannot be triangulated from canon usage.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [
+          "metaphor"
+        ],
+        "macula_anchor": null
+      },
+      {
+        "ref": "2Cor.6.15",
+        "key_terms": [
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "tis de symphonesis Christou pros Beliar, what concord has Christ with Belial, and what share, meris, has a believer, pistos, with an unbeliever, apistos. The series opposes Christ to Belial and the believing to the unbelieving, reinforcing incompatibility, with the explicit scope being the believer set against the unbeliever set.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.8",
+        "key_terms": [
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          }
+        ],
+        "force": "kan hemeis e angelos ex ouranou euangelizetai par ho euengelisametha hymin, anathema esto, even if we or an angel from heaven preaches a gospel other than what we preached, let him be anathema. The term anathema marks devotion to destruction, the strongest possible separation, and the reach even to an angel removes any appeal to messenger authority.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Gal.1.9",
+        "key_terms": [
+          {
+            "strong": "G0331",
+            "lemma": "ἀνάθεμα"
+          }
+        ],
+        "force": "ei tis hymas euangelizetai par ho parelabete, anathema esto, if anyone preaches to you a gospel other than what you received, let him be anathema, repeated with palin, again. Doubling the anathema and broadening from we to anyone sets it as a standing rule rather than a single-case exception against a contrary gospel about Christ.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.5.23",
+        "to": "1John.2.23",
+        "source": "openbible",
+        "votes": 26
+      },
+      {
+        "from": "1John.2.23",
+        "to": "John.5.23",
+        "source": "openbible",
+        "votes": 14
+      },
+      {
+        "from": "1John.2.23",
+        "to": "1John.4.15",
+        "source": "openbible",
+        "votes": 17
+      },
+      {
+        "from": "1John.2.23",
+        "to": "John.10.30",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "1John.2.23",
+        "to": "2John.1.9",
+        "source": "openbible",
+        "votes": 10
+      },
+      {
+        "from": "2John.1.9",
+        "to": "John.7.16",
+        "source": "openbible",
+        "votes": 25
+      },
+      {
+        "from": "2John.1.9",
+        "to": "1John.2.22",
+        "source": "openbible",
+        "votes": 13
+      },
+      {
+        "from": "John.1.1",
+        "to": "Rev.19.13",
+        "source": "openbible",
+        "votes": 226
+      },
+      {
+        "from": "John.1.1",
+        "to": "Col.1.17",
+        "source": "openbible",
+        "votes": 221
+      },
+      {
+        "from": "John.5.23",
+        "to": "Luke.10.16",
+        "source": "openbible",
+        "votes": 21
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "John.17.21",
+        "addressed": true,
+        "resolution": "The prayer hina pantes hen osin, that they may all be one, is invoked for cross-confessional union. Within the same Johannine vocabulary, the oneness asked is grounded in the Father and Son relation, kathos su pater en emoi, just as you Father are in me, and is sought for those who believe through the apostolic word, v20, ton pisteuonton dia tou logou auton. The unity term hen here is given a confessional ground in the same author who in 1 John and 2 John makes denial of the Son forfeit the Father, so the prayer qualifies but does not cancel that boundary."
+      },
+      {
+        "ref": "John.13.34",
+        "addressed": true,
+        "resolution": "The command agapate allelous, love one another, is read by some as overriding separation. The reciprocal pronoun allelous has internal scope, fellow disciples, and 2 John holds love and refusal of reception together in one short letter, so love of brethren does not cancel the me lambanete toward those who deny the teaching of Christ."
+      },
+      {
+        "ref": "Mark.9.40",
+        "addressed": true,
+        "resolution": "hos gar ouk estin kath hemon hyper hemon estin, whoever is not against us is for us, is read as broad inclusion. The saying concerns one casting out demons en to onomati sou, in your name, that is acting under the name rather than denying it, so it does not reach groups that deny the Son, whom 1 John 2:23 places outside having the Father."
+      },
+      {
+        "ref": "2Cor.6.14",
+        "addressed": true,
+        "resolution": "The prohibition heterozygountes apistois explicitly addresses the believer and unbeliever pairing, not relations among those who already confess Christ, and the key verb is a hapax. The proposition applies it to groups that deny the Trinity by treating such deniers as among the apistoi, but the single occurrence of the verb means the breadth of binding partnership it forbids cannot be fixed from canon usage alone, which is noted rather than resolved by appeal to one verse."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [
+      {
+        "ref": "John.1.18",
+        "variant_id": "Jn1.18-monogenes",
+        "verdict_impact": "none",
+        "note": "The base text reads monogenes theos, with monogenes huios attested in other witnesses. Either reading keeps the Son within the Godhead alongside the Father, so the verdict on identity is unaffected."
+      }
+    ],
+    "ecm_status": "n/a",
+    "note": "The cited verses lie outside the open-cbgm 3 John sample and the bundle reports not_in_ecm_scope, so no ECM apparatus was consulted. The one substantive reading touched, monogenes theos versus monogenes huios at John 1:18, does not alter the verdict."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "confessional-boundary",
+        "verdict": "affirms",
+        "rationale": "Reading the Johannine echo idiom of having or not having the Father, the arneomai against homologeo antithesis, and the timao parity of John 5:23 yields a confession-bounded identity, so denial of the Son severs the relation to the Father. The posture texts, 2 John 10-11 me lambanete and koinonei, 2 Cor 6:14 heterozygeo, and the doubled anathema of Gal 1:8-9, then direct separation and witness rather than binding union, matching both halves of the proposition."
+      },
+      {
+        "framework": "ecumenical-inclusivist",
+        "verdict": "complicates",
+        "rationale": "A lens prioritizing visible unity reads John 17:21 hina pantes hen osin and the broad love commands as warrant for fellowship across confessional lines, and notes that the 2 John commands address hospitality to itinerant teachers, lambano eis oikian, and that 2 Cor 6:14 names the apistoi, unbelievers, so they need not on their own face settle every form of ecumenical relation. On the lexical terms this reading must still account for the explicit me lambanete, the koinonei warning, and the doubled anathema, which constrain how far the unity texts can stretch."
+      },
+      {
+        "framework": "scope-restrictive",
+        "verdict": "disputed",
+        "rationale": "A reading attentive to vocabulary scope grants the identity half, deny the Son and you do not have the Father, but holds that the posture half is underdetermined, since heterozygeo is a hapax whose breadth cannot be triangulated, the 2 John reception language concerns receiving a teacher into a house and greeting, and didache tou Christou could be read as Christ's own teaching, John 7:16, or teaching about Christ. On this lens the words clearly forbid endorsing a denier, but do not by themselves fix whether all ecumenical contact, or only partnership that endorses, is barred."
+      }
+    ],
+    "notes": "The verdict rests on the canon interpreting the canon, joining the Johannine denial, confession, and honor language with the Johannine reception commands and the Pauline yoke and anathema language. The proposition phrase Christian in the historical-creedal sense is treated as a label and set aside, and the verdict is derived from the lexical relation terms themselves."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Whether the New Testament places groups that reject the deity of the Son outside those it describes as having the Father, and whether its vocabulary directs separation and witness rather than binding fellowship toward such groups.",
+    "notes": "The stem phrase not Christian in the historical-creedal sense imports a later credal taxonomy, and the contrast evangelism rather than ecumenical fellowship-union frames the expected answer. The verdict was derived on the original stem but tested against the neutral rephrasing, which the lexical relation terms support directly: arneomai against homologeo, echo of having or not having the Father, the kathos honor parity, me lambanete, koinoneo as sharing, heterozygeo, and the doubled anathema. The same audit surfaces the genuine scope gap that holds confidence at medium, since the identity terms are decisive but the posture terms include a hapax and reception language whose breadth the words do not fix."
+  },
+  "lay_summary": "Across several books the wording draws a line around who belongs to God by confession of the Son. First John 2:23 says plainly that everyone denying the Son does not even have the Father, while the one confessing the Son has the Father also. The Greek sets two opposite words against each other, to deny and to confess, and uses a verb of having or not having a relationship, so a group that denies the Son is described as forfeiting the Father, not merely holding a different opinion. The denying word is common across the New Testament and consistently means contradicting Christ, so its sense is well anchored. John 5:23 reinforces this by setting equal honor, that all should honor the Son just as they honor the Father, and that the one not honoring the Son does not honor the Father who sent him. The opening of John supplies the ground for that confession, naming the Word as God who was with God. On posture the same circle of writings is concrete but narrower in wording. Second John tells readers not to receive into the house, and not even to greet, anyone who does not bring the teaching of Christ, and says that to greet such a person is to share in his evil works. Second Corinthians uses a word that appears only once in the whole New Testament, meaning to be mismatched-yoked, to forbid binding partnership with unbelievers, then asks what fellowship light has with darkness and what concord Christ has with Belial. Galatians twice pronounces a curse on anyone who preaches a different gospel, even an angel from heaven. Taken together these terms support both halves of the proposition. The relational language of having the Father and of equal honor clearly marks denial of the Son as standing outside that relationship, and the commands not to receive, not to be yoked, and to treat a contrary gospel as accursed point toward separation and witness rather than binding union. The reason this lands at medium rather than full certainty is on the second half: the once-only yoke word, the way the receive and greet command targets welcoming a traveling teacher, and the unbeliever language of Second Corinthians leave open how far the separation reaches, even while no reading lets a denier of the Son be endorsed.",
+  "citations": [
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1John.2.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2John.1.9"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2John.1.10"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "2Cor.6.14"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Gal.1.8"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.5.23"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2086"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0331"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0720"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2841"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.5.23"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "2John.1.9"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "cross-tradition-divergent"
+  ]
+}

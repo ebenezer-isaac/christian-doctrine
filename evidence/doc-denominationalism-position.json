@@ -1,0 +1,596 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-denominationalism-position",
+  "question_id": "doc-denominationalism-position",
+  "generated_at": "2026-05-28T05:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": "disputed",
+    "lexical_score": 0.9125,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "The lexical pattern firmly condemns party-spirit and self-labeling by human leaders. 1Cor.1.10 names σχίσματα as the problem, 1Cor.1.12 quotes four faction slogans (Ἐγὼ μέν εἰμι Παύλου, ἐγὼ δὲ Ἀπολλῶ, ἐγὼ δὲ Κηφᾶ, ἐγὼ δὲ Χριστοῦ) including a Christ-partisan slogan, 1Cor.1.13 asks μεμέρισται ὁ Χριστός expecting no, and 1Cor.3.3-4 renders the verdict σαρκικοί for ἔρις over leader-names. Eph.4.3-6 commands σπουδάζοντες τηρεῖν τὴν ἑνότητα and grounds it in a sevenfold εἷς, ἓν, μία, and John.17.21-23 makes ἵνα ὦσιν ἓν the object of Christ's prayer. But the proposition is a compound claim, and the lexical store also supplies three honest complications. First, σχίσμα (G4978, 8x) and αἵρεσις (G0139, 9x) are polysemous and not univocally pejorative: 1Cor.11.19 says δεῖ γὰρ καὶ αἱρέσεις ἐν ὑμῖν εἶναι, ἵνα οἱ δόκιμοι φανεροὶ γένωνται, framing divisions as having a sifting function. Second, Acts.15.39 records παροξυσμός and ἀποχωρισθῆναι between Paul and Barnabas without rebuke, showing two faithful workers can part. Third, the New Testament category is local ἐκκλησία (G1577, 115x, including the seven distinct churches of Rev.2-3) plus one universal body; the modern category denomination is anachronistic, and no lemma adjudicates the sociological judgments the stem imports (regrettable historical reality, distinct gospel-faithful traditions, gathering simply on the name of Christ). Verdict is disputed: the anti-faction core is lexically firm, but the proposition bundles lexically firm and lexically silent elements."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G4978",
+        "lemma": "σχίσμα",
+        "transliteration": "schisma",
+        "occurrences_in_canon": 8,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0139",
+        "lemma": "αἵρεσις",
+        "transliteration": "hairesis",
+        "occurrences_in_canon": 9,
+        "in_anchors": false
+      },
+      {
+        "strong": "G2054",
+        "lemma": "ἔρις",
+        "transliteration": "eris",
+        "occurrences_in_canon": 9,
+        "in_anchors": true
+      },
+      {
+        "strong": "G4559",
+        "lemma": "σαρκικός",
+        "transliteration": "sarkikos",
+        "occurrences_in_canon": 7,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1520",
+        "lemma": "εἷς",
+        "transliteration": "heis",
+        "occurrences_in_canon": 355,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3686",
+        "lemma": "ὄνομα",
+        "transliteration": "onoma",
+        "occurrences_in_canon": 231,
+        "in_anchors": true
+      },
+      {
+        "strong": "G5547",
+        "lemma": "Χριστός",
+        "transliteration": "Christos",
+        "occurrences_in_canon": 581,
+        "in_anchors": true
+      },
+      {
+        "strong": "G2821",
+        "lemma": "κλῆσις",
+        "transliteration": "klesis",
+        "occurrences_in_canon": 11,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0625",
+        "lemma": "Ἀπολλῶς",
+        "transliteration": "Apollos",
+        "occurrences_in_canon": 10,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0026",
+        "lemma": "ἀγάπη",
+        "transliteration": "agape",
+        "occurrences_in_canon": 120,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1577",
+        "lemma": "ἐκκλησία",
+        "transliteration": "ekklesia",
+        "occurrences_in_canon": 115,
+        "in_anchors": false
+      },
+      {
+        "strong": "G3307",
+        "lemma": "μερίζω",
+        "transliteration": "merizo",
+        "occurrences_in_canon": 14,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G4978",
+      "G0139",
+      "G2054",
+      "G4559",
+      "G1520",
+      "G3686",
+      "G5547",
+      "G2821",
+      "G0625",
+      "G0026",
+      "G1577",
+      "G3307",
+      "G3303",
+      "G3361"
+    ],
+    "scripture": [
+      {
+        "ref": "1Cor.1.10",
+        "key_terms": [
+          {
+            "strong": "G3686",
+            "lemma": "ὄνομα"
+          },
+          {
+            "strong": "G4978",
+            "lemma": "σχίσμα"
+          }
+        ],
+        "force": "Paul appeals through the name (διὰ τοῦ ὀνόματος) of the Lord Jesus Christ that all say the same thing, that there be no σχίσματα among them, and that they be knit together (κατηρτισμένοι) in the same mind and judgment. The appeal grounds unity in the shared name, not in any party identifier, and names division itself as the problem.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.1.12",
+        "key_terms": [
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          },
+          {
+            "strong": "G0625",
+            "lemma": "Ἀπολλῶς"
+          },
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          }
+        ],
+        "force": "Each says Ἐγὼ μέν εἰμι Παύλου, ἐγὼ δὲ Ἀπολλῶ, ἐγὼ δὲ Κηφᾶ, ἐγὼ δὲ Χριστοῦ. The repeated possessive genitive with ἐγώ and the μέν, δέ chain marks four competing party-slogans. Critically the fourth, of Christ, is listed among the condemned slogans, so attaching the name as a counter-faction badge is itself rebuked. This complicates any reading that turns one gathering-practice into the lexical resolution.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.1.13",
+        "key_terms": [
+          {
+            "strong": "G5547",
+            "lemma": "Χριστός"
+          },
+          {
+            "strong": "G3307",
+            "lemma": "μερίζω"
+          }
+        ],
+        "force": "Three rhetorical questions: has Christ been divided (μεμέρισται), was Paul crucified for you, were you baptized into the name (εἰς τὸ ὄνομα) of Paul. The perfect passive μεμέρισται expects the answer no and exposes party-labeling as an absurdity that fractures what belongs to Christ alone. Loyalty attaches to the one crucified, not to a human label.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.3",
+        "key_terms": [
+          {
+            "strong": "G4559",
+            "lemma": "σαρκικός"
+          },
+          {
+            "strong": "G2054",
+            "lemma": "ἔρις"
+          }
+        ],
+        "force": "Paul renders a verdict: where there is ζῆλος and ἔρις you are σαρκικοί and walking κατὰ ἄνθρωπον. The predicate adjective σαρκικοί classifies factionalism as fleshly, not a neutral organizational fact. This is the strongest lexical anchor against treating division by human leaders as acceptable.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.3.4",
+        "key_terms": [
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          },
+          {
+            "strong": "G0625",
+            "lemma": "Ἀπολλῶς"
+          }
+        ],
+        "force": "When one says Ἐγὼ μέν εἰμι Παύλου and another ἐγὼ δὲ Ἀπολλῶ, are you not ἄνθρωποι, merely human. The conditional ties the leader-label slogan directly to the σαρκικός verdict of the prior verse, equating party-naming with carnal immaturity.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.3",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0026",
+            "lemma": "ἀγάπη"
+          }
+        ],
+        "force": "Believers are to be diligent (σπουδάζοντες) to keep (τηρεῖν) the unity (ἑνότητα) of the Spirit in the bond of peace, set in the context of bearing with one another in love (Eph.4.2). Unity is presented as a present possession to be guarded, an active obligation rather than an aspiration.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.4",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2821",
+            "lemma": "κλῆσις"
+          }
+        ],
+        "force": "One body and one Spirit, even as you were called in one hope of your calling (μιᾷ ἐλπίδι τῆς κλήσεως). The numeral εἷς, ἓν, μία governs each noun, asserting singularity of the church's constituting realities. The oneness of the body is asserted as fact, which sits in tension with party-fragmentation.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.5",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G4100",
+            "lemma": "πίστις"
+          }
+        ],
+        "force": "One Lord, one faith, one baptism (εἷς κύριος, μία πίστις, ἓν βάπτισμα). The triple εἷς continues the sevenfold unity series. The singular faith and baptism press against the multiplication of confessional party-identities.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Eph.4.6",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          }
+        ],
+        "force": "One God and Father of all (εἷς θεὸς καὶ πατὴρ πάντων), who is over all and through all and in all. The capstone of the sevenfold εἷς grounds the church's unity in the singularity of God himself. Universality (πάντων, πᾶσιν) frames the unity as comprehensive.",
+        "supports": "for",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.21",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G2443",
+            "lemma": "ἵνα"
+          }
+        ],
+        "force": "Christ prays ἵνα πάντες ἓν ὦσιν, that they all may be one, modeled on the Father and Son indwelling, so that (ἵνα) the world may believe. The purpose clause makes visible oneness instrumental to mission, elevating unity to the content of Christ's intercession.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "John.17.23",
+        "key_terms": [
+          {
+            "strong": "G1520",
+            "lemma": "εἷς"
+          },
+          {
+            "strong": "G0025",
+            "lemma": "ἀγαπάω"
+          }
+        ],
+        "force": "ἵνα ὦσιν τετελειωμένοι εἰς ἕν, that they may be perfected into one, so the world may know the Father sent the Son and loved (ἠγάπησας) them. The perfect passive participle τετελειωμένοι frames unity as a completed, mature state, again tied to witness.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.19",
+        "key_terms": [
+          {
+            "strong": "G0139",
+            "lemma": "αἵρεσις"
+          },
+          {
+            "strong": "G1384",
+            "lemma": "δόκιμος"
+          }
+        ],
+        "force": "δεῖ γὰρ καὶ αἱρέσεις ἐν ὑμῖν εἶναι, ἵνα οἱ δόκιμοι φανεροὶ γένωνται. The impersonal δεῖ paired with a ἵνα-clause states that αἱρέσεις must occur so that the approved become evident. The same noun group used pejoratively in Gal.5.20 here carries a sifting function. This is the strongest single-verse complication: the canon does not treat every visible division as identical in moral status.",
+        "supports": "complicates",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "Acts.15.39",
+        "key_terms": [
+          {
+            "strong": "G3948",
+            "lemma": "παροξυσμός"
+          },
+          {
+            "strong": "G0673",
+            "lemma": "ἀποχωρίζω"
+          }
+        ],
+        "force": "ἐγένετο δὲ παροξυσμός, ὥστε ἀποχωρισθῆναι αὐτοὺς ἀπ’ ἀλλήλων. The narrative records Paul and Barnabas, both faithful apostolic workers, parting ways under sharp contention without authorial rebuke. The text neither endorses nor condemns the separation, leaving open whether visible institutional divergence among gospel-faithful workers can occur without σαρκικός verdict.",
+        "supports": "complicates",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": null
+      },
+      {
+        "ref": "1Cor.11.18",
+        "key_terms": [
+          {
+            "strong": "G4978",
+            "lemma": "σχίσμα"
+          },
+          {
+            "strong": "G1577",
+            "lemma": "ἐκκλησία"
+          }
+        ],
+        "force": "ἀκούω σχίσματα ἐν ὑμῖν ὑπάρχειν. The noun σχίσμα (G4978) carries polysemy across the canon, naming physical tears in cloth (Mark.2.21, Matt.9.16), opinion-splits over a person (John.7.43, 9.16, 10.19), and ecclesial divisions (1Cor.1.10, 11.18, 12.25). The semantic field is broader than modern denomination, and the canon does not lexically map a 1-to-1 onto present sociological categories.",
+        "supports": "neutral",
+        "genre": "epistle",
+        "figures": [],
+        "macula_anchor": null
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "1Cor.1.11",
+        "to": "1Cor.3.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.1.11",
+        "to": "1Cor.11.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "1Cor.1.10",
+        "to": "Ps.133.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Eph.4.4",
+        "to": "Eph.4.1",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.17.21",
+        "to": "John.17.11",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "1Cor.1.12",
+        "addressed": true,
+        "resolution": "The slogan ἐγὼ δὲ Χριστοῦ is listed alongside Paul, Apollos, and Cephas as a condemned party-cry. This complicates the proposition's prescriptive clause, since gathering on the name of Christ used as a counter-faction badge falls under the same rebuke. The lexical text condemns party-spirit per se, including a name-of-Christ partisanship, so it does not by itself validate any single tradition's gathering-program as the resolution."
+      },
+      {
+        "ref": "1Cor.11.19",
+        "addressed": true,
+        "resolution": "Paul says δεῖ γὰρ καὶ αἱρέσεις ἐν ὑμῖν εἶναι, ἵνα οἱ δόκιμοι φανεροὶ γένωνται. The impersonal δεῖ plus ἵνα-purpose assigns αἱρέσεις a positive sifting function. The same noun group used as pejorative ἔργον τῆς σαρκός in Gal.5.20 carries a non-pejorative or providential sense here. The canon does not univocally rank every visible separation as σαρκικός, so the proposition's strong negative framing of denominational distinction is not lexically settled."
+      },
+      {
+        "ref": "Acts.15.39",
+        "addressed": true,
+        "resolution": "The narrative records παροξυσμός and ἀποχωρισθῆναι between Paul and Barnabas without authorial verdict. Two acknowledged gospel-faithful workers part and continue separate mission tracks, with Mark eventually rejoining Paul (2Tim.4.11). The text neither commends nor condemns the separation, so the canon supplies at least one case where visible parting among the faithful is left unjudged."
+      },
+      {
+        "ref": "1Cor.3.3",
+        "addressed": true,
+        "resolution": "Direct lexical query confirms σαρκικός (G4559) occurs seven times across Rom.15.27, 1Cor.3.3, 1Cor.9.11, 2Cor.1.12, 2Cor.10.4, and 1Pet.2.11, with consistently negative force when applied to disposition and division. ἔρις (G2054) occurs nine times, listed as a work of the flesh in Gal.5.20 and Rom.13.13. The condemnation of factionalism in 1Cor.3.3 is therefore pan-canonical in lexical force, even though the morphology in the supplied bundle was empty."
+      },
+      {
+        "ref": "1Cor.11.18",
+        "addressed": true,
+        "resolution": "σχίσμα (G4978) occurs eight times with attested polysemy: physical tears in cloth (Mark.2.21, Matt.9.16), opinion-splits over Jesus (John.7.43, 9.16, 10.19), and ecclesial divisions within a single assembly (1Cor.1.10, 11.18, 12.25). The semantic field does not lexically map onto the modern category denomination, which is a sociological abstraction the New Testament vocabulary did not develop. The category itself is anachronistic, so the proposition's verdict on it sits beyond what σχίσμα alone can settle."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "ecm-shadow",
+    "note": "No variant units were supplied for the anchor verses, and the bundle marks not_in_ecm_scope true. The ingested ECM window covers 3 John 1.1 to 1.15 only, and these anchors are NT but fall outside that window, so ecm_status is ecm-shadow. Apparatus markers visible in the surface text (brackets at 1Cor.3.3 and 1Cor.3.4, marginal sigla in John 17) touch wording but none alters the σχίσμα, σαρκικός, εἷς, αἵρεσις, or ἵνα ὦσιν ἓν structure on which the verdict rests."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [
+      "ecclesiology_visible_unity",
+      "ecclesiology_party_spirit",
+      "ecclesiology_local_universal"
+    ],
+    "analogia_scripturae": true,
+    "progressive_revelation": false,
+    "competing_lens_verdicts": [
+      {
+        "framework": "anti_faction_reading",
+        "verdict": "affirms the core",
+        "rationale": "Reading 1Cor.1.10-13 and 3.3-4 with Eph.4.4-6 and John.17.21-23, the lexical pattern condemns naming oneself after human leaders, classes ἔρις over leader-labels as σαρκικός, and commands guarded visible oneness grounded in a sevenfold εἷς. On this lens the proposition's condemnation of human party-labels and its call to unity are affirmed."
+      },
+      {
+        "framework": "self_label_inclusive_reading",
+        "verdict": "complicates the prescription",
+        "rationale": "Because 1Cor.1.12 places ἐγὼ δὲ Χριστοῦ among the condemned slogans, a reading attentive to the full list resists turning any one gathering-name into the textual remedy. The text rebukes partisanship as such, leaving the proposition's specific prescriptive clause about gathering simply on the name of Christ underdetermined rather than commanded."
+      },
+      {
+        "framework": "differentiated_division_reading",
+        "verdict": "complicates the negative verdict on visible distinctions",
+        "rationale": "1Cor.11.19 says δεῖ αἱρέσεις ἐν ὑμῖν εἶναι ἵνα οἱ δόκιμοι φανεροὶ γένωνται, assigning αἵρεσις a positive sifting function. Acts.15.39 records Paul and Barnabas parting under παροξυσμός without rebuke. On this lens the canon distinguishes σαρκικός party-spirit (always condemned) from visible institutional differentiation among the faithful (which Scripture neither universally commands nor universally rebukes), so recognizing distinct gospel-faithful traditions is at least lexically possible."
+      },
+      {
+        "framework": "sociological_realism_reading",
+        "verdict": "out of lexical range",
+        "rationale": "The claims that denominationalism is a regrettable historical reality and that recognizing distinct gospel-faithful traditions is realistic are historical and prudential assessments. The New Testament category is local ἐκκλησία (G1577, 115 occurrences, including the seven distinct local churches of Rev.2-3) plus one universal body, and no lemma adjudicates the later sociological category denomination. This lens returns no lexical verdict."
+      }
+    ],
+    "notes": "The verdict applies analogia scripturae across two Pauline epistles, a gospel, a narrative, and a corpus-wide concordance trace to fix the anti-faction core, while flagging that the proposition bundles lexically firm and lexically silent elements together. Both Brethren-leaning and tradition-affirming readers must concede the same lexical core: party-spirit is σαρκικός and unity is commanded; neither side gets a lexical mandate for its prescriptive program."
+  },
+  "stem_audit": {
+    "verdict_preloaded": true,
+    "neutralized_form": "Does Scripture condemn dividing the church by allegiance to human leaders or party-labels, and does it command believers to maintain visible unity grounded in the one Lord, one faith, and one baptism, and does it likewise prescribe one specific organizational form as the textual remedy.",
+    "notes": "The stem is verdict-preloaded in three ways. First, the third clause builds one tradition's self-description (gather simply on the name of Christ without sectarian label) into the proposition as if it were the textual conclusion, yet 1Cor.1.12 lists of Christ among condemned slogans, so the text does not endorse that specific program as the resolution. Second, the phrases regrettable historical reality and recognition of distinct gospel-faithful traditions is realistic import sociological judgments the lexical store cannot test. Third, the modern category denomination is anachronistic to the canon, whose vocabulary develops local ἐκκλησία and a universal body but not the later sociological abstraction. The verdict was derived on the original stem, but the neutralized form isolates the genuinely lexical questions, which are the condemnation of party-spirit, the command of visible unity, and the absence of any single mandated organizational form."
+  },
+  "lay_summary": "The verses behind this question deal with a church tearing itself into factions. In 1 Corinthians 1, people were saying I am of Paul, I am of Apollos, I am of Cephas, and I am of Christ. The Greek word for the splits is schismata, divisions, and Paul appeals to them through the name of the Lord to stop. He then asks whether Christ has been divided, expecting the answer no. In chapter 3 he gives a blunt verdict: where there is rivalry and strife you are fleshly, sarkikoi, and walking like mere men. Ephesians 4 reinforces this with a sevenfold one: one body, one Spirit, one hope, one Lord, one faith, one baptism, one God and Father of all. John 17 records Jesus praying that his people may all be one so that the world may believe. So the lexical core is firm: party-spirit is sinful and visible unity is commanded. The question becomes disputed for three lexical reasons. First, the slogan I am of Christ is listed right alongside the others as something Paul rebukes, so even using a name as a rival-party badge is criticized, which prevents the text from endorsing any single gathering-program as the answer. Second, the same Paul says in 1 Cor 11:19 that there must be hairesies, the very word elsewhere translated factions, so that the approved may become evident, which means the canon does not treat every visible separation as identical in moral status. Acts 15:39 records Paul and Barnabas parting in sharp contention without the narrator rebuking either, leaving room for visible parting among the faithful. Third, the word schisma covers physical tears in cloth, opinion splits, and church divisions within one assembly, but the New Testament does not develop the modern category denomination at all, so judgments about denominations sit outside what the words alone can decide. The firm part is the rebuke of party-spirit and the call to unity; the rest sits outside what the lexical evidence alone can settle.",
+  "citations": [
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4978"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G0139"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G2054"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G4559"
+    },
+    {
+      "type": "lexicon",
+      "source": "STEPBible-TBESG",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "G1520"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.1.12"
+    },
+    {
+      "type": "morphology",
+      "source": "STEPBible-TAGNT",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "1Cor.11.19"
+    },
+    {
+      "type": "morphology",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "1Cor.3.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "MorphGNT-morphology",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "ref": "Eph.4.4"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "1Cor.1.10"
+    },
+    {
+      "type": "cross_ref",
+      "source": "OpenBible-cross-refs",
+      "license": "CC-BY",
+      "redistribute": true,
+      "ref": "John.17.21"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "STEPBible-TBESG",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "STEPBible-TAGNT",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "MorphGNT-morphology",
+        "license": "CC-BY-SA-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      },
+      {
+        "source": "OpenBible-cross-refs",
+        "license": "CC-BY",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": [
+    "lexically-disputed",
+    "ecm-shadow"
+  ]
+}
