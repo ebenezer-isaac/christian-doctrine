@@ -1,0 +1,407 @@
+{
+  "$schema_version": "v1-pre-ingest",
+  "$mirrors": "docs/cultural_data_inventory_catalog.json (cultural G.0 mirror of lexical A.0)",
+  "generated_at": "2026-05-31T00:00:00Z",
+  "phase": "H.0 (historical-side procurement blueprint, pre-ingest)",
+  "$catalog_intent": "This catalog is a pre-ingest blueprint. It enumerates the in-scope historical sources, their procurement parameters, expected corpus envelopes, and explicit deadends, as verified by the six recon agents on 2026-05-31 against actual upstream artifacts (recon outputs at tmp/pipeline4_recon/<source>/recon.json). It does NOT yet carry sampling_stride_proof or per-field sample_indices because no fixtures have been captured. Those are added in a separate architect-caste commit after Pipeline 4 adapters land under ingest/historical/ and cached fixtures are persisted under tests/historical/fixtures/. The H.0 phase exists so the procurement-completeness rule (H1) has a stable contract to verify against once Pipeline 4 is wired.",
+  "scope": {
+    "pipeline": "Pipeline 4 historical attestation (sidecar; air-gapped from Pipeline 2 lexical; shares physical infrastructure with cultural Docker stack but uses disjoint Neo4j labels and a separate Qdrant collection hist_col)",
+    "in_scope_historical": [
+      "Josephus-Perseus",
+      "Philo-Yonge",
+      "Pseudepigrapha-Charles-1913",
+      "Tacitus-Annals-Perseus",
+      "Suetonius-Twelve-Caesars-Perseus",
+      "Pliny-Letters-Perseus",
+      "Pliny-Letters-Melmoth-Wikisource",
+      "Mishnah-Sefaria",
+      "DSS-ETCBC"
+    ],
+    "procurement_surfaced": [
+      "perseus-greek-lit",
+      "perseus-latin-lit",
+      "earlychristianwritings-yonge",
+      "ccel-charles-otpseudepig",
+      "sacred-texts-boe",
+      "wikisource-apot-vol-ii",
+      "wikisource-melmoth-pliny",
+      "sefaria-export-mishnah",
+      "etcbc-dss"
+    ],
+    "explicit_deadends": [
+      {
+        "name": "Talmud-Bavli",
+        "reason": "William Davidson Edition English is CC-BY-NC 4.0; Wikisource Bavli Hebrew is CC-BY-SA 4.0 (viral). Volume (~49,000 chunks) is also large enough to dilute v1 retrieval signal. Deferred to v2.",
+        "evidence_url": "tmp/pipeline4_recon/sefaria/recon.json"
+      },
+      {
+        "name": "Talmud-Yerushalmi",
+        "reason": "Mechon-Mamre and Venice Edition Hebrew ship with license=unknown in Sefaria export JSON. Guggenheimer English is CC-BY but pairing it with license-unknown Hebrew is not a clean v1 commitment. Deferred to v2.",
+        "evidence_url": "tmp/pipeline4_recon/sefaria/recon.json"
+      },
+      {
+        "name": "OCP-source-language-witnesses",
+        "reason": "Online Critical Pseudepigrapha (pseudepigrapha.org) serves source-language text only via web2py AJAX which returns HTTP 500 to direct curl. Ethiopic 1 Enoch, Syriac 2 Baruch, Latin 4 Ezra, Greek Testaments-12 and Psalms of Solomon are reachable only via browser scrape or by contacting Ian W. Scott. Out of v1 scope.",
+        "evidence_url": "tmp/pipeline4_recon/pseudepigrapha/recon.json"
+      },
+      {
+        "name": "Philo-Cohn-Wendland-Greek",
+        "reason": "PerseusDL canonical-greekLit does not contain Philo (tlg0018 is absent; verified directory listing shows tlg0016/0017/0019 with no tlg0018). No clean-license machine-readable Cohn-Wendland Greek edition was located. Philo ingest is English-only (Yonge 1854) in v1.",
+        "evidence_url": "tmp/pipeline4_recon/philo/recon.json"
+      },
+      {
+        "name": "IAA-Leon-Levy-DSS-images",
+        "reason": "Israel Antiquities Authority terms of use forbid reproduction or distribution; single-copy private use only. Images cannot be machine-ingested. Link-out reference under the single-copy-private-use clause is acceptable but no data ingest.",
+        "evidence_url": "tmp/pipeline4_recon/dss/recon.json"
+      },
+      {
+        "name": "Wise-Abegg-Cook-DSS-English",
+        "reason": "Commercial copyright (HarperSanFrancisco/HarperOne). Vermes, Charlesworth, Garcia Martinez are likewise commercial. No clean-license complete English DSS translation exists. DSS v1 uses original-language ETCBC transliteration only per Option A discipline; English meaning is rendered at Pipeline 3 synthesis time by Opus 4.7.",
+        "evidence_url": "tmp/pipeline4_recon/dss/recon.json"
+      },
+      {
+        "name": "Scripta-Qumranica-Electronica",
+        "reason": "Joint Goettingen/Haifa/TAU/IAA platform. Promising mid-term but no published bulk download or stable API at probe time. Revisit when SQE publishes its open dataset.",
+        "evidence_url": "tmp/pipeline4_recon/dss/recon.json"
+      },
+      {
+        "name": "Sibylline-Oracles-Christian-recensions",
+        "reason": "Charles 1913 deliberately includes only the Jewish strata (books III, IV, V plus fragments). Books I-II, VI-VIII, XI-XIV are Christian recensions (second-to-fourth century CE) outside the canonical Charles selection. Out of v1 scope; would belong to a future patristic-extension layer if scope expands.",
+        "evidence_url": "tmp/pipeline4_recon/pseudepigrapha/recon.json"
+      }
+    ]
+  },
+  "sampling_method": {
+    "phase_note": "sampling_stride_proof and per-field sample_indices are NOT populated in H.0. They are added in H.1 after Pipeline 4 adapters land and fixtures are captured under tests/historical/fixtures/. The H.1 commit is architect-caste with a [SCHEMA-REVISION] tag if any expected_counts or live_corpus_bound values move.",
+    "seed_when_populated": 1729,
+    "primitive_when_populated": "sorted(random.Random(1729).sample(range(total_records), k))",
+    "k_when_populated": "min(1000, total_records)"
+  },
+  "record_model": {
+    "type": "HistoricalChunk",
+    "schema_ref": "pipeline4/historical_schema.py HistoricalChunk + WitnessSource",
+    "schema_doc": "docs/HISTORICAL_SCHEMA.md",
+    "attributes": [
+      "chunk_id",
+      "source_type",
+      "source.source_slug",
+      "source.work_id",
+      "source.work_title",
+      "source.author",
+      "source.date_written_range",
+      "source.anchor_id",
+      "source.anchor_alt_citation",
+      "source.language",
+      "source.translator",
+      "source.edition",
+      "attestation_type",
+      "confidence",
+      "evidence_phrase",
+      "rationale",
+      "contested_interpolation.type",
+      "contested_interpolation.note",
+      "contested_interpolation.redact_for_embedding",
+      "provenance.original_language",
+      "provenance.witness_chain",
+      "provenance.extant_witnesses",
+      "provenance.loss_status",
+      "text",
+      "text_to_embed",
+      "license",
+      "redistribute",
+      "license_note"
+    ],
+    "per_question_aggregate_path": "historical/<question_id>.json (Pipeline 4 output, sidecar to evidence/<question_id>.json)"
+  },
+  "historical_vs_cultural_note": "The cultural layer surfaces denominational and confessional INTERPRETATIONS of Scripture (how each tradition reads a passage). The historical layer surfaces extra-biblical ATTESTATION of the world around Scripture (what Jewish historians, Roman officials, second-temple-period writers, rabbinic teachers, and Qumran scribes recorded). The two layers share the cultural Docker stack and the :Doctrine and :Question nodes but use disjoint chunk labels (CulturalChunk via ADDRESSES vs HistoricalChunk via ATTESTS) and disjoint Qdrant collections (cult_col vs hist_col). Pipeline 3 synthesis reads both as separate diagnostic blocks; neither overrides the Pipeline 2 lexical verdict.",
+  "explicit_deadends": [],
+  "sources": [
+    {
+      "name": "Josephus-Perseus",
+      "layer": 7,
+      "source_type": "jewish-historian",
+      "source_slug": "josephus",
+      "license_id": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_evidence": "Inline <licence target='https://creativecommons.org/licenses/by-sa/4.0/'> in all eight teiHeader/fileDesc/publicationStmt/availability blocks, plus repo top-level license.md. Verified in tmp/pipeline4_recon/josephus/recon.json.",
+      "redistribute": true,
+      "redistribute_note": "Sidecar JSON inherits ShareAlike obligation; a per-file LICENSE notice is mandatory in historical/ output.",
+      "root_path": "ingest/historical/josephus.py",
+      "upstream_url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0526/",
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/perseus_tlg0526_tlg001_perseus-eng2.xml",
+        "tests/historical/fixtures/perseus_tlg0526_tlg002_perseus-eng2.xml",
+        "tests/historical/fixtures/perseus_tlg0526_tlg003_perseus-eng2.xml",
+        "tests/historical/fixtures/perseus_tlg0526_tlg004_perseus-eng2.xml"
+      ],
+      "record_unit": "HistoricalChunk(niese-section)",
+      "expected_chunks_total": 2304,
+      "expected_chunks_breakdown": {
+        "ant_eng_textpart_sections": 1444,
+        "vita_eng_textpart_sections": 76,
+        "apion_eng_textpart_sections": 77,
+        "wars_eng_textpart_sections": 707
+      },
+      "expected_tokens_total_eng": 1113000,
+      "live_corpus_bound": [2200, 2400],
+      "anchor_pattern": "josephus.<work>.<book>.<niese_section> where <work> in {ant, vita, apion, wars}",
+      "anchor_alt_pattern": "Whiston <book>.<chapter>.<section> via <milestone unit='Whiston_chapter'> and <milestone unit='Whiston_section'>",
+      "required_flags": [
+        "contested-interpolation: Antiquities 18.63 (Testimonium Flavianum); type=partial-interpolation; redact_for_embedding=true on the 'He was [the] Christ' clause",
+        "editor-overlay: <note resp='editor'> elements are 19th-century Whiston commentary, NOT Josephus; extract into chunk['whiston_editor_notes'] separately, never inline"
+      ],
+      "format": "TEI P5 EpiDoc XML, UTF-8, polytonic Greek Unicode in grc2",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/josephus/recon.json"
+    },
+    {
+      "name": "Philo-Yonge",
+      "layer": 7,
+      "source_type": "jewish-philosopher",
+      "source_slug": "philo",
+      "license_id": "public_domain",
+      "license_url": "public_domain",
+      "license_evidence": "Yonge 1854 translation, translator died 1891; pre-1923 US PD. earlychristianwritings.com index.html verbatim notice: 'This work has been transcribed by anonymous from the 1993 reprint, but it remains the translation of C. D. Yonge, which is public domain.' Archive.org metadata: Public Domain Mark 1.0. Verified in tmp/pipeline4_recon/philo/recon.json.",
+      "redistribute": true,
+      "root_path": "ingest/historical/philo.py",
+      "upstream_url": "https://www.earlychristianwritings.com/yonge/",
+      "upstream_url_pattern": "https://www.earlychristianwritings.com/yonge/bookN.html where N in 1..45",
+      "upstream_fallback_url": "https://archive.org/download/the-complete-works-of-philo-complete-and-unabridged/The%20Complete%20Works%20of%20Philo%20Complete%20and%20Unabridged.epub",
+      "fetch_constraint": "ModSecurity blocks default curl UA; fixed Chrome User-Agent required on every request; throttle 1 req/sec.",
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/yonge_book01.html",
+        "tests/historical/fixtures/yonge_book25.html",
+        "tests/historical/fixtures/yonge_book40.html"
+      ],
+      "record_unit": "HistoricalChunk(cohn-wendland-paragraph)",
+      "expected_chunks_total": 13000,
+      "expected_tokens_total_eng": 2100000,
+      "live_corpus_bound": [12000, 14000],
+      "anchor_pattern": "philo.<treatise-slug>.<cohn-wendland-paragraph>",
+      "treatise_slug_table_required": true,
+      "treatise_slug_count": 45,
+      "required_flags": [
+        "provenance: QG books 41-43 and De Providentia 38-39 are armenian-via-latin via yonge-english; loss_status=partial; mark provenance.witness_chain explicitly",
+        "editor-overlay: {*} and {**...} inline footnote markers are Yonge editorial; extract to chunk['yonge_footnotes'] separately"
+      ],
+      "format": "HTML 4.01 with iso-8859-1 declared encoding; ASCII prose with rare Greek single-character entities; JS Greek-font conversion block at tail of every page must be stripped before parsing",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/philo/recon.json"
+    },
+    {
+      "name": "Pseudepigrapha-Charles-1913",
+      "layer": 7,
+      "source_type": "second-temple-literature",
+      "source_slug_per_work": ["1enoch", "jubilees", "test12", "2baruch", "4ezra", "pssol", "sibor"],
+      "license_id": "public_domain",
+      "license_url": "public_domain",
+      "license_evidence": "Charles 1913 APOT volume II; author died 1931; published 1913; US PD pre-1929 cutoff. Verified across CCEL, sacred-texts BOE (1917 reprint), earlychristianwritings, Wikisource APOT vol II. Verified in tmp/pipeline4_recon/pseudepigrapha/recon.json.",
+      "redistribute": true,
+      "root_path": "ingest/historical/pseudepigrapha.py",
+      "upstream_urls_per_work": {
+        "1enoch_primary": "https://sacred-texts.com/bib/boe/ (boe004.htm..boe112.htm, one chapter per file, UTF-8 declared, ceiling-bracket apparatus preserved)",
+        "1enoch_sub_verse_fallback": "https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_<section>.HTM (anchor name=C_V format; sub-verse splits like 5_6a)",
+        "jubilees": "https://www.ccel.org/c/charles/otpseudepig/files/jubilee/<N>.htm (N in 1..50)",
+        "test12": "https://www.earlychristianwritings.com/text/patriarchs-charles.html (single page, all 12 testaments, bold chapter, inline verse digits)",
+        "2baruch": "https://en.wikisource.org/wiki/The_Apocrypha_and_Pseudepigrapha_of_the_Old_Testament/Volume_II (per-page Wikisource)",
+        "4ezra": "same Wikisource volume; Box translation",
+        "pssol": "same Wikisource volume; Gray translation",
+        "sibor": "same Wikisource volume; Lanchester translation; books III, IV, V plus fragments only"
+      },
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/sacred-texts_boe004.htm",
+        "tests/historical/fixtures/ccel_charles_jubilees_1.htm",
+        "tests/historical/fixtures/ecw_patriarchs-charles.html"
+      ],
+      "record_unit": "HistoricalChunk(verse-or-strophe)",
+      "expected_chunks_per_work": {
+        "1enoch": 1062,
+        "jubilees": 1340,
+        "test12": 920,
+        "2baruch": 770,
+        "4ezra": 870,
+        "pssol": 290,
+        "sibor": 1700
+      },
+      "expected_chunks_total": 1850,
+      "expected_tokens_total_eng": 720000,
+      "live_corpus_bound": [1700, 2000],
+      "anchor_pattern": "<work_slug>.<chapter>.<verse> with sub-verse splits permitted (e.g., 1enoch.5.6a)",
+      "required_flags": [
+        "contested-interpolation: Testaments of the Twelve Patriarchs is a Christianized recension; type=recension-layer; note must cite Charles introductions for Jewish-vs-Christian stratum identification",
+        "cross-link: 1enoch.1.9 must link Jude.1.14-15 as composite-tradition witness",
+        "cross-link: 4ezra (Charles) is the same work as 2 Esdras 3-14 in Vulgate/KJV apocrypha; avoid double-count"
+      ],
+      "format": "HTML mixed (CCEL legacy HTML 4.0 with windows-1252; sacred-texts modern HTML UTF-8 with U+2308/U+2309 ceiling-bracket apparatus; earlychristianwritings UTF-8; Wikisource UTF-8 per-page)",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/pseudepigrapha/recon.json"
+    },
+    {
+      "name": "Tacitus-Annals-Perseus",
+      "layer": 7,
+      "source_type": "roman-historian",
+      "source_slug": "tacitus",
+      "license_id": "CC-BY-SA-4.0",
+      "license_url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/license.md",
+      "license_evidence": "Repo license.md states CC-BY-SA-4.0; underlying Fisher 1906 Latin and Church/Brodribb 1869 English are PD by age. Verified in tmp/pipeline4_recon/roman-historians/recon.json.",
+      "redistribute": true,
+      "redistribute_note": "Sidecar JSON inherits ShareAlike obligation.",
+      "root_path": "ingest/historical/roman_historians.py (module A: TEI P4 milestone slicer)",
+      "upstream_url": "https://github.com/PerseusDL/canonical-latinLit data/phi1351/phi005/",
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/perseus_phi1351_phi005_perseus-lat1.xml",
+        "tests/historical/fixtures/perseus_phi1351_phi005_perseus-eng1.xml"
+      ],
+      "record_unit": "HistoricalChunk(annals-chapter)",
+      "expected_chunks_total_christian_relevant_only": 1,
+      "expected_chunks_total_with_immediate_context": 3,
+      "expected_chunks_total_full_work": 721,
+      "scope_recommendation": "christian-relevant-only (Annals 15.43, 15.44, 15.45) for v1; defer full-work ingest",
+      "anchor_pattern": "tacitus.annals.<book>.<chapter>",
+      "christian_relevant_anchors": ["tacitus.annals.15.43", "tacitus.annals.15.44", "tacitus.annals.15.45"],
+      "required_flags": [
+        "text-critical-variant: Annals 15.44 'Christianos vs Chrestianos' in Mediceus II; contested_interpolation.type=text-critical-variant; note must cite Fisher 1906 against Koestermann/Heubner",
+        "loss_status: partial; Annals books 7-10 and second half of book 16 are lost in antiquity"
+      ],
+      "format": "TEI P4 SGML-ish XML; div1[@type=book] + empty <milestone unit='chapter'/> markers; chapter-text extraction must slice between consecutive milestones, NOT by ancestry",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/roman-historians/recon.json"
+    },
+    {
+      "name": "Suetonius-Twelve-Caesars-Perseus",
+      "layer": 7,
+      "source_type": "roman-historian",
+      "source_slug": "suetonius",
+      "license_id": "CC-BY-SA-4.0",
+      "license_url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/license.md",
+      "redistribute": true,
+      "root_path": "ingest/historical/roman_historians.py (module B: TEI P5 EpiDoc nested-div walker)",
+      "upstream_url": "https://github.com/PerseusDL/canonical-latinLit data/phi1348/abo011-abo022/",
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/perseus_phi1348_abo015_perseus-eng2.xml (Claudius)",
+        "tests/historical/fixtures/perseus_phi1348_abo016_perseus-eng2.xml (Nero)"
+      ],
+      "record_unit": "HistoricalChunk(caesar-life-section)",
+      "expected_chunks_total_christian_relevant_only": 2,
+      "expected_chunks_total_with_immediate_context": 6,
+      "expected_chunks_total_full_12_caesars": 660,
+      "scope_recommendation": "christian-relevant-only (Claudius 25.3, 25.4, 25.5; Nero 16.1, 16.2, 16.3) for v1; defer full Twelve Caesars",
+      "anchor_pattern": "suetonius.<life>.<chapter>[.<section>]",
+      "christian_relevant_anchors": ["suetonius.claudius.25.3", "suetonius.claudius.25.4", "suetonius.claudius.25.5", "suetonius.nero.16.1", "suetonius.nero.16.2", "suetonius.nero.16.3"],
+      "format": "TEI P5 EpiDoc nested <div type='textpart' n='N' subtype='chapter'> > <div n='M' subtype='section'>; chapter-text IS the wrapper subtree",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/roman-historians/recon.json"
+    },
+    {
+      "name": "Pliny-Letters-Perseus",
+      "layer": 7,
+      "source_type": "roman-historian",
+      "source_slug": "pliny",
+      "license_id": "CC-BY-SA-4.0",
+      "license_url": "https://github.com/PerseusDL/canonical-latinLit/blob/master/license.md",
+      "redistribute": true,
+      "root_path": "ingest/historical/roman_historians.py (module B: TEI P5 EpiDoc nested-div walker)",
+      "upstream_url": "https://github.com/PerseusDL/canonical-latinLit data/phi1318/phi001/",
+      "language_gap": "Latin only in this repo. English requires the separate Pliny-Letters-Melmoth-Wikisource adapter.",
+      "expected_chunks_total_christian_relevant_only": 2,
+      "expected_chunks_total_with_immediate_context": 6,
+      "expected_chunks_total_book_10_only": 121,
+      "scope_recommendation": "christian-relevant-only (Pliny.Ep.10.95, 10.96, 10.97) for v1",
+      "anchor_pattern": "pliny.ep.<book>.<letter>[.<section>]",
+      "christian_relevant_anchors": ["pliny.ep.10.95", "pliny.ep.10.96", "pliny.ep.10.97"],
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/roman-historians/recon.json"
+    },
+    {
+      "name": "Pliny-Letters-Melmoth-Wikisource",
+      "layer": 7,
+      "source_type": "roman-historian",
+      "source_slug": "pliny",
+      "language_role": "english-translation companion to Pliny-Letters-Perseus (which is Latin-only)",
+      "license_id": "public_domain",
+      "license_url": "public_domain",
+      "license_evidence": "Melmoth 1746 translation; translator died 1799; pre-1923 US PD. Wikisource hosting is itself CC-BY-SA but the underlying Melmoth text is PD; ingest may treat the text as PD with attribution to the Wikisource source URL.",
+      "redistribute": true,
+      "root_path": "ingest/historical/pliny_melmoth.py",
+      "upstream_url": "https://en.wikisource.org/wiki/Letters_of_Pliny_the_Younger",
+      "expected_chunks_total_christian_relevant_only": 2,
+      "anchor_pattern": "pliny.ep.<book>.<letter> (English chunks join to Latin chunks on the same anchor_id)",
+      "christian_relevant_anchors": ["pliny.ep.10.96", "pliny.ep.10.97"],
+      "recon_verdict": "Inferred GREEN (no separate recon agent ran; license and availability confirmed during Roman-historians recon side-discussion)",
+      "recon_ref": "tmp/pipeline4_recon/roman-historians/recon.json"
+    },
+    {
+      "name": "Mishnah-Sefaria",
+      "layer": 7,
+      "source_type": "jewish-rabbinic",
+      "source_slug": "mishnah",
+      "license_id_hebrew": "public_domain",
+      "license_id_english_primary": "CC-BY",
+      "license_id_english_fallback": "CC0",
+      "license_evidence": "Hebrew via Torat Emet 357 (Public Domain) or Vilna 1913 (Public Domain). English primary via Joshua Kulp's Mishnah Yomit (CC-BY). English fallback via Sefaria Community Translation (CC0). Per-tractate license fields verified in Sefaria-Export JSON metadata. Verified in tmp/pipeline4_recon/sefaria/recon.json.",
+      "redistribute": true,
+      "root_path": "ingest/historical/sefaria_mishnah.py",
+      "upstream_url": "gs://sefaria-export/json/Mishnah/ (Sefaria-Export is now a thin index repo; actual texts live in the public GCS bucket)",
+      "upstream_index_repo": "https://github.com/Sefaria/Sefaria-Export (sparse-checkout for books.json index)",
+      "tractate_count": 63,
+      "record_unit": "HistoricalChunk(mishnah-paragraph)",
+      "expected_chunks_total": 4192,
+      "expected_tokens_total_he_plus_en": 1400000,
+      "live_corpus_bound": [4000, 4400],
+      "anchor_pattern": "mishnah.<tractate>.<chapter>.<mishnah>",
+      "tractate_name_convention": "Sefaria English transliteration (Berakhot, Sanhedrin, Pesachim, etc.); stable across the export",
+      "required_flags": [
+        "inline-html: <i>, <strong>, <big>, <i data-overlay='Vilna Pages'> tags must be stripped before embedding; overlay data-value captured into chunk metadata.printed_page",
+        "tractate-normalization: Pirkei Avot files under 'Pirkei Avot' not 'Mishnah Avot'",
+        "version-pinning: must pick one canonical version per tractate per language; document choice in chunk metadata.version_title"
+      ],
+      "format": "JSON depth-2 nested arrays text[chapter_idx][mishnah_idx]; UTF-8; Hebrew Torat Emet 357 carries full nikkud",
+      "recon_verdict": "GREEN",
+      "recon_ref": "tmp/pipeline4_recon/sefaria/recon.json"
+    },
+    {
+      "name": "DSS-ETCBC",
+      "layer": 7,
+      "source_type_columnar": "qumran-sectarian",
+      "source_type_biblical": "qumran-biblical",
+      "license_id": "CC-BY-NC-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "license_evidence": "Verbatim '@license=Creative Commons Attribution-NonCommercial 4.0 International License' header in every .tf data file. Code is MIT; data is CC-BY-NC. Per docs/about.md: 'Martin Abegg graciously gave permission to Jarod Jacobs to use his data and to distribute the results under a CC-BY-NC license.' Verified in tmp/pipeline4_recon/dss/recon.json.",
+      "redistribute": false,
+      "redistribute_reason": "NC clause blocks commercial redistribution. Local storage and personal query are fine. Engine code is published under MIT/Apache; the DSS data is NOT re-shipped via the public engine repo. Per-chunk redistribute=false enforces this at the license_guard layer.",
+      "english_translation_discipline": "Option A locked. text and text_to_embed both carry the ETCBC transliteration verbatim. No engine-authored English gloss is pre-baked. Pipeline 3 synthesis renders English meaning per query via Opus 4.7.",
+      "root_path": "ingest/historical/etcbc_dss.py",
+      "upstream_url": "https://github.com/ETCBC/dss",
+      "fixture_paths_planned": [
+        "tests/historical/fixtures/etcbc_dss_1QS_col04.tsv",
+        "tests/historical/fixtures/etcbc_dss_11Q19_col02.tsv",
+        "tests/historical/fixtures/etcbc_dss_1QpHab_col11.tsv"
+      ],
+      "scroll_count": 998,
+      "named_marquee_scrolls": ["1qs", "1qsa", "1qsb", "1qm", "1qpha", "1qphab", "cd", "11q19", "4qmmt-via-4q394-to-4q399"],
+      "biblical_scroll_coverage": "1QIsa-a, 1QIsa-b, 4QSam-a/b/c, 11QPs-a, 4QDeut variants, MasPs-a, etc. (biblical=1 feature flag in tf)",
+      "record_unit": "HistoricalChunk(scroll-line)",
+      "expected_chunks_total": 9800,
+      "expected_tokens_total": 1800000,
+      "live_corpus_bound": [9500, 10100],
+      "anchor_pattern_columnar": "<scroll-slug>.col<NN>.line<NN>",
+      "anchor_pattern_fragmentary": "<scroll-slug>.f<fragment>[.<col>].line<NN>",
+      "required_flags": [
+        "redistribute=false at chunk level; license_guard enforces no bulk export",
+        "transliteration-conventions: ETCBC bracket flags must be preserved as metadata: [ ] reconstruction, [[ ]] vacat, { } scribal deletion, ( ) alternate, < > suggested correction, ! ! uncertain letter, & damaged letter, # uncertain trace",
+        "Option A discipline: text_to_embed == text; no engine-authored gloss in v1"
+      ],
+      "format": "Text-Fabric .tf files (Apache TF v11.x) plus parallel glyph.tf for Unicode Hebrew; ETCBC transliteration is Latin transliteration of Hebrew/Aramaic",
+      "recon_verdict": "YELLOW",
+      "recon_verdict_reasoning": "Real and reachable, with all marquee scrolls covered. YELLOW because (1) CC-BY-NC is a hard blocker for any future commercial release, and (2) no clean-license English exists for sectarian DSS, so English rendering relies on Option A query-time synthesis quality.",
+      "recon_ref": "tmp/pipeline4_recon/dss/recon.json"
+    }
+  ],
+  "post_ingest_obligations": {
+    "h1_procurement_completeness": "Every source listed in scope.in_scope_historical must have a corresponding ingest/historical/<slug>.py adapter that passes its dedicated test suite under tests/historical/. Every entry in scope.explicit_deadends must carry a deadend_evidence URL plus a committed user approval in this catalog.",
+    "h4_count_contract": "Once Pipeline 4 has run end-to-end, the per-source chunk counts must fall within live_corpus_bound. Drift outside the bound triggers an architect-caste [SCHEMA-REVISION] commit moving the bound, never a silent acceptance.",
+    "h5_snapshot_determinism": "Two consecutive ingest runs over identical inputs must produce identical chunk_id sets per source. Pipeline 4 attestation outputs (historical/<id>.json) need not be byte-identical (LLM judgment) but must pass the schema's triangle test (attestation_type and confidence within +/- 0.05).",
+    "h6_adapter_purity": "All ingest/historical/ adapters must be pure: no subprocess, no socket, no httpx/requests/urllib/aiohttp, no dynamic import, no non-data/private path literals. Fetch is a Pipeline 1 procurement step run separately by the orchestrator; adapters parse local files only.",
+    "fixture_capture": "tests/historical/fixtures/ must persist a cached copy of every upstream artifact the adapters were captured against. Per-adapter fixture_paths_planned must become fixture_paths once captured."
+  }
+}
