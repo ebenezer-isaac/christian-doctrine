@@ -217,11 +217,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "Queried tokens read \"and God was the Word\" (kai theos en ho logos), with \"God\" (theos, G2316, parsed N-NSM, a noun in the subject form) predicated of the subject \"the Word\" (ho logos, G3056, also N-NSM). The qualitative \"God\" (theos) without the article \"the\" (anarthrous, that is, without the article 'the') is asserted of the same lexical subject that becomes \"flesh\" (sarx) in verse 14, so divine predication is fixed on the subject before any human predication appears.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": "John.1.1"
+        "macula_anchor": "John.1.1",
+        "reasoning": "Queried tokens read \"and God was the Word\" (kai theos en ho logos), with \"God\" (theos, G2316, parsed N-NSM, a noun in the subject form) predicated of the subject \"the Word\" (ho logos, G3056, also N-NSM). The qualitative \"God\" (theos) without the article \"the\" (anarthrous, that is, without the article 'the') is asserted of the same lexical subject that becomes \"flesh\" (sarx) in verse 14, so divine predication is fixed on the subject before any human predication appears."
       },
       {
         "ref": "John.1.14",
@@ -243,11 +243,11 @@
             "lemma": "μονογενοῦς"
           }
         ],
-        "force": "Queried tokens read \"the Word became flesh\" (ho logos sarx egeneto), where \"became\" (egeneto, G1096) is parsed V-2ADI-3S, a real second-aorist of becoming (a completed past action), and the subject is the same \"the Word\" (ho logos) carried from verse 1. The predicate noun is \"flesh\" (sarx, G4561, N-NSF, a feminine subject-form noun), the ordinary word for human flesh, not a likeness term. \"One-of-a-kind\" (monogenous, G3439, A-GSM, an adjective in the possessive form) marks continuous filial identity (ongoing identity as son). Subject continuity here is grammatical, not inferred.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": "John.1.14"
+        "macula_anchor": "John.1.14",
+        "reasoning": "Queried tokens read \"the Word became flesh\" (ho logos sarx egeneto), where \"became\" (egeneto, G1096) is parsed V-2ADI-3S, a real second-aorist of becoming (a completed past action), and the subject is the same \"the Word\" (ho logos) carried from verse 1. The predicate noun is \"flesh\" (sarx, G4561, N-NSF, a feminine subject-form noun), the ordinary word for human flesh, not a likeness term. \"One-of-a-kind\" (monogenous, G3439, A-GSM, an adjective in the possessive form) marks continuous filial identity (ongoing identity as son). Subject continuity here is grammatical, not inferred."
       },
       {
         "ref": "Phil.2.6",
@@ -273,11 +273,11 @@
             "lemma": "ἁρπαγμόν"
           }
         ],
-        "force": "Queried tokens open with the relative pronoun \"who\" (hos, G3739, parsed R-NSM, a masculine singular relative pronoun in the subject form), the single masculine subject-form subject of the whole hymn. The participle \"existing\" (hyparchon, G5225, V-PAP-NSM, a present-tense participle in the subject form) is ongoing in force, so \"in the form of God existing\" (en morphe theou) describes an ongoing state, and \"to be equal with God\" (to einai isa theo) treats equality with God as a real status not seized as \"a thing to be grasped\" (harpagmon, G0725, a hapax, a word that occurs only once in the entire Bible). Divine condition is asserted of the same \"who\" (hos) who in verse 7 takes a slave form.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Phil.2.6"
+        "macula_anchor": "Phil.2.6",
+        "reasoning": "Queried tokens open with the relative pronoun \"who\" (hos, G3739, parsed R-NSM, a masculine singular relative pronoun in the subject form), the single masculine subject-form subject of the whole hymn. The participle \"existing\" (hyparchon, G5225, V-PAP-NSM, a present-tense participle in the subject form) is ongoing in force, so \"in the form of God existing\" (en morphe theou) describes an ongoing state, and \"to be equal with God\" (to einai isa theo) treats equality with God as a real status not seized as \"a thing to be grasped\" (harpagmon, G0725, a hapax, a word that occurs only once in the entire Bible). Divine condition is asserted of the same \"who\" (hos) who in verse 7 takes a slave form."
       },
       {
         "ref": "Phil.2.7",
@@ -303,11 +303,11 @@
             "lemma": "ἀνθρώπων"
           }
         ],
-        "force": "Queried tokens read \"himself he emptied, the form of a servant taking, in the likeness of humans being made\" (heauton ekenosen morphen doulou labon, en homoiomati anthropon genomenos). The aorist participle \"taking\" (labon, G2983, V-2AAP-NSM, a completed-past-action participle in the subject form) names what the emptying ADDS, the slave \"form\" (morphe), and \"being made\" (genomenos, G1096, V-2ADP-NSM) with \"likeness\" (homoioma, G3667) marks a real entrance into human likeness. The same subject \"who\" (hos) governs both the \"form of God\" (morphe theou) of verse 6 and the \"form of a servant\" (morphe doulou) of verse 7.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Phil.2.7"
+        "macula_anchor": "Phil.2.7",
+        "reasoning": "Queried tokens read \"himself he emptied, the form of a servant taking, in the likeness of humans being made\" (heauton ekenosen morphen doulou labon, en homoiomati anthropon genomenos). The aorist participle \"taking\" (labon, G2983, V-2AAP-NSM, a completed-past-action participle in the subject form) names what the emptying ADDS, the slave \"form\" (morphe), and \"being made\" (genomenos, G1096, V-2ADP-NSM) with \"likeness\" (homoioma, G3667) marks a real entrance into human likeness. The same subject \"who\" (hos) governs both the \"form of God\" (morphe theou) of verse 6 and the \"form of a servant\" (morphe doulou) of verse 7."
       },
       {
         "ref": "Phil.2.8",
@@ -329,11 +329,11 @@
             "lemma": "μέχρι"
           }
         ],
-        "force": "Queried tokens read \"he humbled himself, becoming obedient up to death\" (etapeinosen heauton genomenos hypekoos mechri thanatou). The death predication, \"death\" (thanatou, G2288) reached \"up to\" (mechri, G3360), binds a genuinely human experience to the same subject from verse 6. Death requires a real human nature, so the lexical chain runs unbroken from divine status to human death within one grammatical subject.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Phil.2.8"
+        "macula_anchor": "Phil.2.8",
+        "reasoning": "Queried tokens read \"he humbled himself, becoming obedient up to death\" (etapeinosen heauton genomenos hypekoos mechri thanatou). The death predication, \"death\" (thanatou, G2288) reached \"up to\" (mechri, G3360), binds a genuinely human experience to the same subject from verse 6. Death requires a real human nature, so the lexical chain runs unbroken from divine status to human death within one grammatical subject."
       },
       {
         "ref": "Col.2.9",
@@ -359,11 +359,11 @@
             "lemma": "σωματικῶς"
           }
         ],
-        "force": "Queried tokens read \"in him dwells all the fullness of the deity bodily\" (en auto katoikei pan to pleroma tes theotetos somatikos). The verb \"dwells\" (katoikei, G2730) is parsed V-PAI-3S, a present-tense statement of fact, signaling ongoing dwelling, and \"deity\" (theotetos, G2320, abstract deity, a hapax, a word that occurs only once in the entire Bible) is the noun for deity itself, not the divine-quality word \"divine nature\" (theiotes) of Romans 1:20. \"Bodily\" (somatikos, G4985, also a hapax) ties the dwelling to a body. Whole deity and a body are predicated of the one referent \"in him\" (en auto).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Col.2.9"
+        "macula_anchor": "Col.2.9",
+        "reasoning": "Queried tokens read \"in him dwells all the fullness of the deity bodily\" (en auto katoikei pan to pleroma tes theotetos somatikos). The verb \"dwells\" (katoikei, G2730) is parsed V-PAI-3S, a present-tense statement of fact, signaling ongoing dwelling, and \"deity\" (theotetos, G2320, abstract deity, a hapax, a word that occurs only once in the entire Bible) is the noun for deity itself, not the divine-quality word \"divine nature\" (theiotes) of Romans 1:20. \"Bodily\" (somatikos, G4985, also a hapax) ties the dwelling to a body. Whole deity and a body are predicated of the one referent \"in him\" (en auto)."
       },
       {
         "ref": "1Tim.2.5",
@@ -385,11 +385,11 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "Queried tokens read \"for there is one God, and one mediator between God and humans, the human Christ Jesus\" (heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous). The renaming term \"human\" (anthropos, G0444, N-NSM, a noun in the subject form) sits directly on the named mediator, while the same clause asserts \"one God\" (heis theos, G1520, G2316). The mediator stands between \"God\" (theos) and \"humans\" (anthropoi) yet is himself named \"human\" (anthropos), one subject named in human terms within a monotheistic frame (a framework asserting only one God).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "1Tim.2.5"
+        "macula_anchor": "1Tim.2.5",
+        "reasoning": "Queried tokens read \"for there is one God, and one mediator between God and humans, the human Christ Jesus\" (heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous). The renaming term \"human\" (anthropos, G0444, N-NSM, a noun in the subject form) sits directly on the named mediator, while the same clause asserts \"one God\" (heis theos, G1520, G2316). The mediator stands between \"God\" (theos) and \"humans\" (anthropoi) yet is himself named \"human\" (anthropos), one subject named in human terms within a monotheistic frame (a framework asserting only one God)."
       },
       {
         "ref": "Heb.2.14",
@@ -411,11 +411,11 @@
             "lemma": "θανάτου"
           }
         ],
-        "force": "Queried tokens read \"and he himself in like manner partook of the same things\" (kai autos paraplesios metesche ton auton). The children \"shared in\" (kekoinoneken, G2841) flesh and blood, and he likewise \"partook\" (metesche, G3348, V-2AAI-3S, a completed past action meaning took part in) the same things, with \"in like manner\" (paraplesios, G3898, a hapax adverb, a word that occurs only once in the entire Bible, meaning in like manner). This same-kind sharing of flesh by the one called Son in Hebrews 1 lexically blocks a merely apparent humanity (the idea that he only seemed to be human).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Heb.2.14"
+        "macula_anchor": "Heb.2.14",
+        "reasoning": "Queried tokens read \"and he himself in like manner partook of the same things\" (kai autos paraplesios metesche ton auton). The children \"shared in\" (kekoinoneken, G2841) flesh and blood, and he likewise \"partook\" (metesche, G3348, V-2AAI-3S, a completed past action meaning took part in) the same things, with \"in like manner\" (paraplesios, G3898, a hapax adverb, a word that occurs only once in the entire Bible, meaning in like manner). This same-kind sharing of flesh by the one called Son in Hebrews 1 lexically blocks a merely apparent humanity (the idea that he only seemed to be human)."
       },
       {
         "ref": "Rom.1.3",
@@ -433,11 +433,11 @@
             "lemma": "σάρκα"
           }
         ],
-        "force": "Queried tokens read \"concerning his Son, who came from the seed of David according to the flesh\" (peri tou huiou autou tou genomenou ek spermatos Dauid kata sarka). One possessive-form head, \"of the Son\" (tou huiou, G5207), is modified by the participle \"having come\" (genomenou, G1096, V-2ADP-GSM, a completed-past-action participle in the possessive form) descending from David \"according to flesh\" (kata sarka, G4561). The human descent is predicated of the one Son.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Rom.1.3"
+        "macula_anchor": "Rom.1.3",
+        "reasoning": "Queried tokens read \"concerning his Son, who came from the seed of David according to the flesh\" (peri tou huiou autou tou genomenou ek spermatos Dauid kata sarka). One possessive-form head, \"of the Son\" (tou huiou, G5207), is modified by the participle \"having come\" (genomenou, G1096, V-2ADP-GSM, a completed-past-action participle in the possessive form) descending from David \"according to flesh\" (kata sarka, G4561). The human descent is predicated of the one Son."
       },
       {
         "ref": "Rom.1.4",
@@ -455,11 +455,11 @@
             "lemma": "θεοῦ"
           }
         ],
-        "force": "Queried tokens read \"who was declared to be Son of God in power according to the Spirit of holiness\" (tou horisthentos huiou theou en dynamei kata pneuma hagiosynes). The second possessive-form participle \"having been declared\" (horisthentos, G3724, V-APP-GSM, a passive participle in the possessive form) declares the same Son as Son of God in power \"according to the Spirit\" (kata pneuma). Two \"according to\" (kata) phrases, \"flesh\" (sarka) and \"Spirit\" (pneuma), are predicated of one subject, the same Son, not two subjects.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Rom.1.4"
+        "macula_anchor": "Rom.1.4",
+        "reasoning": "Queried tokens read \"who was declared to be Son of God in power according to the Spirit of holiness\" (tou horisthentos huiou theou en dynamei kata pneuma hagiosynes). The second possessive-form participle \"having been declared\" (horisthentos, G3724, V-APP-GSM, a passive participle in the possessive form) declares the same Son as Son of God in power \"according to the Spirit\" (kata pneuma). Two \"according to\" (kata) phrases, \"flesh\" (sarka) and \"Spirit\" (pneuma), are predicated of one subject, the same Son, not two subjects."
       }
     ],
     "cross_refs_invoked": [

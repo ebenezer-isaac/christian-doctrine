@@ -359,7 +359,7 @@ Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesi
   "lexical_evidence": {
     "summary": "<>",
     "key_lemmas": [{"strong": "<>", "lemma": "<>"}],
-    "key_verses": [{"ref": "<>", "force": "<>"}],
+    "key_verses": [{"ref": "<>", "reasoning": "<>"}],
     "source_evidence_files": ["evidence/doc-scripture-final-authority.json"]
   },
 

@@ -162,7 +162,7 @@ The verses cited as evidence. Each entry:
 {
   "ref": "Deut.6.4",
   "key_terms": [{"strong": "H3068", "lemma": "YHWH"}],
-  "force": "<dense description of what this verse contributes>",
+  "reasoning": "<dense description of what this verse contributes>",
   "supports": "for | complicates | neutral",
   "genre": "law | narrative | wisdom | prophecy | gospel | epistle | apocalyptic",
   "figures": ["metaphor", "simile", "personification", "chiasm", "merism", "idiom", "hyperbole"],
@@ -174,7 +174,7 @@ The verses cited as evidence. Each entry:
 |---|---|---|---|
 | `ref` | OSIS BCV string | yes | e.g. `John.1.1` |
 | `key_terms` | array | yes | At least 1 entry |
-| `force` | string | yes | Dense lexical reasoning |
+| `reasoning` | string | yes | Dense lexical reasoning explaining how this verse contributes to the verdict |
 | `supports` | enum | yes | `for`, `complicates`, `neutral` |
 | `genre` | enum | yes | One of 7 |
 | `figures` | array | yes | Empty array if no figures |

@@ -484,29 +484,32 @@ def _data_table(
 # ---------------------------------------------------------------------------
 
 
-_BREADTH_LABEL = {
-    "canon_wide": "canon-wide",
-    "broad": "broad",
-    "partial": "partial",
-    "thin": "thin",
+# Plain-English phrases keyed by the v3.1 axis values. The PDF reader
+# sees prose, not taxonomy. The structured enums stay in the JSON for
+# tooling; the badge translates them for a human eye.
+_BREADTH_PHRASE = {
+    "canon_wide": "Supported across the whole Bible",
+    "broad": "Supported across many Bible texts",
+    "partial": "Supported from a narrow set of texts",
+    "thin": "Supported from sparse evidence",
 }
-_DIRECTNESS_LABEL = {
-    "direct": "direct",
-    "inferred": "inferred",
-    "analogical": "analogical",
-    "silent": "silent",
+_DIRECTNESS_PHRASE = {
+    "direct": "Subject named directly in Scripture",
+    "inferred": "Subject covered by a category in Scripture",
+    "analogical": "Reached by general principle, not by a naming word",
+    "silent": "Scripture does not engage the subject",
 }
-_STABILITY_LABEL = {
-    "stable": "stable",
-    "sensitive": "sensitive",
-    "not_in_scope": "not in scope",
+_STABILITY_PHRASE = {
+    "stable": "Holds across manuscript variants",
+    "sensitive": "Depends on a contested manuscript reading",
+    "not_in_scope": "No NT manuscript apparatus applies",
 }
 
 
-def _axis_label(value: object, mapping: dict[str, str]) -> str:
+def _axis_phrase(value: object, mapping: dict[str, str]) -> str:
     if isinstance(value, str) and value in mapping:
         return mapping[value]
-    return "N/A"
+    return ""
 
 
 def _verdict_badge(evidence: dict[str, Any], styles: dict[str, ParagraphStyle]) -> Table:
@@ -516,15 +519,13 @@ def _verdict_badge(evidence: dict[str, Any], styles: dict[str, ParagraphStyle]) 
         f"<font color='{color}'>{esc(_affirms_label(verdict.get('affirms')))}</font>",
         styles["verdict_big"],
     )
-    breadth = _axis_label(verdict.get("lexical_breadth"), _BREADTH_LABEL)
-    directness = _axis_label(verdict.get("lexical_directness"), _DIRECTNESS_LABEL)
-    stability = _axis_label(verdict.get("variant_stability"), _STABILITY_LABEL)
-    meta = Paragraph(
-        f"breadth <b>{esc(breadth)}</b><br/>"
-        f"directness <b>{esc(directness)}</b><br/>"
-        f"variants <b>{esc(stability)}</b>",
-        styles["verdict_meta"],
-    )
+    phrases = [
+        _axis_phrase(verdict.get("lexical_breadth"), _BREADTH_PHRASE),
+        _axis_phrase(verdict.get("lexical_directness"), _DIRECTNESS_PHRASE),
+        _axis_phrase(verdict.get("variant_stability"), _STABILITY_PHRASE),
+    ]
+    body = "<br/>".join(esc(p) for p in phrases if p)
+    meta = Paragraph(body or esc("verdict quality unavailable"), styles["verdict_meta"])
     return Table(
         [[label, meta]],
         colWidths=[CONTENT_W * 0.62, CONTENT_W * 0.38],
@@ -644,7 +645,9 @@ def _scripture_block(entries: list[dict[str, Any]], styles: dict[str, ParagraphS
                         styles["h3"],
                     ),
                     Paragraph(f"<b>Key terms.</b> {terms}", styles["body"]),
-                    Paragraph(f"<b>Force.</b> {esc(_bidi(s.get('force')))}", styles["body"]),
+                    Paragraph(
+                        f"<b>Reasoning.</b> {esc(_bidi(s.get('reasoning')))}", styles["body"]
+                    ),
                     Spacer(1, 3),
                 ]
             )

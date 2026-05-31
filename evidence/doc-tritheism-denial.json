@@ -139,11 +139,11 @@
             "lemma": "אֶחָד"
           }
         ],
-        "force": "The Shema (the daily Jewish confession that begins 'Hear, O Israel') couples the covenant name 'the LORD' (YHWH, יְהוָה) with the cardinal number 'one' (echad, אֶחָד) in predicate position (the slot completing an 'X is Y' statement), asserting that 'the LORD' (YHWH) our God is 'one' (echad). The Hebrew syntax database ETCBC tags the clause as a quoted statement (Q) with 'one' (echad, אֶחָד) marked as PreC (the predicate, that is, the noun completing the 'is' statement), and 'the LORD' (YHWH, יְהוָה) as the grammatical subject (Subj). The number is the ordinary cardinal 'one'. By itself 'one' (echad, אֶחָד) can frame composite unity (one flesh in Genesis 2:24, one people in Genesis 11:6, queried and confirmed), so the verse establishes a singular count of the one God but leaves the foreclosure of rival gods to the exclusivity particles (small Hebrew words denying any other) in the parallel texts.",
         "supports": "for",
         "genre": "law",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The Shema (the daily Jewish confession that begins 'Hear, O Israel') couples the covenant name 'the LORD' (YHWH, יְהוָה) with the cardinal number 'one' (echad, אֶחָד) in predicate position (the slot completing an 'X is Y' statement), asserting that 'the LORD' (YHWH) our God is 'one' (echad). The Hebrew syntax database ETCBC tags the clause as a quoted statement (Q) with 'one' (echad, אֶחָד) marked as PreC (the predicate, that is, the noun completing the 'is' statement), and 'the LORD' (YHWH, יְהוָה) as the grammatical subject (Subj). The number is the ordinary cardinal 'one'. By itself 'one' (echad, אֶחָד) can frame composite unity (one flesh in Genesis 2:24, one people in Genesis 11:6, queried and confirmed), so the verse establishes a singular count of the one God but leaves the foreclosure of rival gods to the exclusivity particles (small Hebrew words denying any other) in the parallel texts."
       },
       {
         "ref": "Isa.45.5",
@@ -173,11 +173,11 @@
             "lemma": "עוֹד"
           }
         ],
-        "force": "The LORD's first-person self-declaration stacks negation and exclusivity particles (small words that deny and exclude). 'I am the LORD and there is no other' (ani YHWH ve-eyn od, אֲנִי יְהוָה וְאֵין עוֹד) affirms 'I am the LORD' (YHWH) and 'there is no other', then 'and there is none besides me' (ve-eyn zulati, וְאֵין... זוּלָתִי) excludes any besides him, with 'not' (lo, לֹא) reinforcing the negation. The Hebrew syntax database ETCBC marks the negations as Nega (negation) and NCop (negative copula, that is, a negated linking verb) and the exclusivity term as Modi (modifier) or Adju (adjunct, that is, an added qualifier), syntactically denying the existence of any other God. The combination of 'there is none' (ayin, אֵין) plus 'still, any more' (od, עוֹד) plus 'besides' (zulah, זוּלָה) is the lexical engine that rules out a plurality of gods.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The LORD's first-person self-declaration stacks negation and exclusivity particles (small words that deny and exclude). 'I am the LORD and there is no other' (ani YHWH ve-eyn od, אֲנִי יְהוָה וְאֵין עוֹד) affirms 'I am the LORD' (YHWH) and 'there is no other', then 'and there is none besides me' (ve-eyn zulati, וְאֵין... זוּלָתִי) excludes any besides him, with 'not' (lo, לֹא) reinforcing the negation. The Hebrew syntax database ETCBC marks the negations as Nega (negation) and NCop (negative copula, that is, a negated linking verb) and the exclusivity term as Modi (modifier) or Adju (adjunct, that is, an added qualifier), syntactically denying the existence of any other God. The combination of 'there is none' (ayin, אֵין) plus 'still, any more' (od, עוֹד) plus 'besides' (zulah, זוּלָה) is the lexical engine that rules out a plurality of gods."
       },
       {
         "ref": "Isa.44.6",
@@ -195,11 +195,11 @@
             "lemma": "בִּלְעֲדֵי"
           }
         ],
-        "force": "Queried token set confirms 'there is none' (ayin, אֵין, H0369), 'last' (acharon, אַחֲרוֹן, H0314), and 'besides me' (biladey, בִּלְעָדַי, H1107). 'The LORD' (YHWH) declares himself the first and the last and that besides him there is no god. 'Apart from me' (biladey, בִּלְעָדַי) is a parallel exclusivity term to 'besides' (zulah, זוּלָה). Each is rare, 16 and 13 occurrences in the whole Bible respectively, and both function the same way, denying any deity apart from 'the LORD' (YHWH). This adds a second independent exclusivity word to the same pattern, strengthening the canonical denial of other gods.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried token set confirms 'there is none' (ayin, אֵין, H0369), 'last' (acharon, אַחֲרוֹן, H0314), and 'besides me' (biladey, בִּלְעָדַי, H1107). 'The LORD' (YHWH) declares himself the first and the last and that besides him there is no god. 'Apart from me' (biladey, בִּלְעָדַי) is a parallel exclusivity term to 'besides' (zulah, זוּלָה). Each is rare, 16 and 13 occurrences in the whole Bible respectively, and both function the same way, denying any deity apart from 'the LORD' (YHWH). This adds a second independent exclusivity word to the same pattern, strengthening the canonical denial of other gods."
       },
       {
         "ref": "1Cor.8.6",
@@ -225,11 +225,11 @@
             "lemma": "ἀλλά"
           }
         ],
-        "force": "Paul places 'one God the Father' (heis theos ho pater, εἷς θεὸς ὁ πατήρ) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos, εἷς κύριος Ἰησοῦς Χριστός) in a single contrast clause introduced by 'but to us' (all' hemin, ἀλλ' ἡμῖν). The numeral 'one' (heis, εἷς), which is queried as present in this verse, governs both 'God' (theos, θεός) and 'Lord' (kyrios, κύριος) in parallel without producing two gods, because the Father and Christ are distributed across the elements of the Shema (the Greek 'the Father' (ho pater, ὁ πατήρ) aligns with 'God' (theos, θεός), and 'the Lord Jesus Christ' (ho kyrios Iesous Christos, ὁ κύριος Ἰησοῦς Χριστός) aligns with 'Lord' (kyrios, κύριος)). The prepositions 'from whom' (ex hou, ἐξ οὗ) and 'through whom' (di' hou, δι' οὗ) map creation to both, holding them within one source rather than tallying two deities.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Paul places 'one God the Father' (heis theos ho pater, εἷς θεὸς ὁ πατήρ) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos, εἷς κύριος Ἰησοῦς Χριστός) in a single contrast clause introduced by 'but to us' (all' hemin, ἀλλ' ἡμῖν). The numeral 'one' (heis, εἷς), which is queried as present in this verse, governs both 'God' (theos, θεός) and 'Lord' (kyrios, κύριος) in parallel without producing two gods, because the Father and Christ are distributed across the elements of the Shema (the Greek 'the Father' (ho pater, ὁ πατήρ) aligns with 'God' (theos, θεός), and 'the Lord Jesus Christ' (ho kyrios Iesous Christos, ὁ κύριος Ἰησοῦς Χριστός) aligns with 'Lord' (kyrios, κύριος)). The prepositions 'from whom' (ex hou, ἐξ οὗ) and 'through whom' (di' hou, δι' οὗ) map creation to both, holding them within one source rather than tallying two deities."
       },
       {
         "ref": "Deut.4.35",
@@ -247,11 +247,11 @@
             "lemma": "יָדַע"
           }
         ],
-        "force": "Parallel monotheistic formula (a formula that affirms one God). Queried token set confirms 'there is none' (ayin, אֵין, H0369) and 'still, any more' (od, עוֹד, H5750) in this verse. 'The LORD is the God; there is no other besides him' (YHWH hu ha-Elohim eyn od mi-levado, יְהוָה הוּא הָאֱלֹהִים אֵין עוֹד מִלְּבַדּוֹ) states that 'the LORD' (YHWH) is the God, there is no other besides him. The same pair 'there is none' (ayin, אַיִן) and 'any more' (od, עוֹד) found in Isaiah 45:5 anchors a single canonical lexical pattern of exclusive deity in the Torah (the first five books of Moses), linked by cross-reference to the Shema in the next chapter.",
         "supports": "for",
         "genre": "law",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Parallel monotheistic formula (a formula that affirms one God). Queried token set confirms 'there is none' (ayin, אֵין, H0369) and 'still, any more' (od, עוֹד, H5750) in this verse. 'The LORD is the God; there is no other besides him' (YHWH hu ha-Elohim eyn od mi-levado, יְהוָה הוּא הָאֱלֹהִים אֵין עוֹד מִלְּבַדּוֹ) states that 'the LORD' (YHWH) is the God, there is no other besides him. The same pair 'there is none' (ayin, אַיִן) and 'any more' (od, עוֹד) found in Isaiah 45:5 anchors a single canonical lexical pattern of exclusive deity in the Torah (the first five books of Moses), linked by cross-reference to the Shema in the next chapter."
       },
       {
         "ref": "1Cor.8.4",
@@ -269,11 +269,11 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "Immediate context to 1 Corinthians 8:6, with 'one' (heis, εἷς) queried as present here as well. Paul affirms 'no God except one' (oudeis theos ei me heis, οὐδεὶς θεὸς εἰ μὴ εἷς). This sets the number 'one' as the controlling count for the deity word 'God' (theos, θεός) before he distributes Father and Son inside that one in verse 6, the Greek mirror of the Hebrew exclusivity formulas.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Immediate context to 1 Corinthians 8:6, with 'one' (heis, εἷς) queried as present here as well. Paul affirms 'no God except one' (oudeis theos ei me heis, οὐδεὶς θεὸς εἰ μὴ εἷς). This sets the number 'one' as the controlling count for the deity word 'God' (theos, θεός) before he distributes Father and Son inside that one in verse 6, the Greek mirror of the Hebrew exclusivity formulas."
       },
       {
         "ref": "Mark.12.29",
@@ -291,11 +291,11 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "Jesus cites the Shema (the daily Jewish confession) in Greek, 'the Lord our God, the Lord is one' (kyrios ho theos hemon kyrios heis estin, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν), with 'one' (heis, εἷς) and 'God' (theos, θεός) queried as present. Jesus himself anchors the one-God confession with the same number 'one' (heis, εἷς) used in 1 Corinthians 8:6, demonstrating canonical continuity of the lexical pattern from Torah (the first five books of Moses) to Gospels and confirming that the count of one is carried, not abandoned, in the New Testament.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Jesus cites the Shema (the daily Jewish confession) in Greek, 'the Lord our God, the Lord is one' (kyrios ho theos hemon kyrios heis estin, κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν), with 'one' (heis, εἷς) and 'God' (theos, θεός) queried as present. Jesus himself anchors the one-God confession with the same number 'one' (heis, εἷς) used in 1 Corinthians 8:6, demonstrating canonical continuity of the lexical pattern from Torah (the first five books of Moses) to Gospels and confirming that the count of one is carried, not abandoned, in the New Testament."
       }
     ],
     "cross_refs_invoked": [

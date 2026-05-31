@@ -50,7 +50,7 @@ def minimal_evidence_dict() -> dict[str, Any]:
                 {
                     "ref": "Deut.6.4",
                     "key_terms": [{"strong": "H3068", "lemma": "YHWH"}],
-                    "force": (
+                    "reasoning": (
                         "Shema asserts YHWH as the one being of Israel; echad governs the "
                         "predicate, not a numeric reduction of persons."
                     ),

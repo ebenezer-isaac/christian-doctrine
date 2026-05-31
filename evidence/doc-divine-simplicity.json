@@ -124,11 +124,11 @@
             "lemma": "אֱלֹהִים"
           }
         ],
-        "force": "Queried verse text of Deuteronomy 6:4: the LORD (YHWH) our God, the LORD (YHWH) is one (echad). The cardinal number 'one' (echad) stands in clause-final completer position (the ETCBC syntax database marks it PreC, predicate complement, meaning the noun completing a 'X is Y' statement, with the verse a quotation clause Q). Lexically the line affirms that Israel's God is one and unique. But 'one' (echad) is a plain cardinal whose 944 canon occurrences include composite unities, so the word affirms oneness without by itself specifying whether that oneness is non-composite in the metaphysical sense (a being with no parts at all) or a unity that comprehends real distinctions.",
         "supports": "for",
         "genre": "law",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Deuteronomy 6:4: the LORD (YHWH) our God, the LORD (YHWH) is one (echad). The cardinal number 'one' (echad) stands in clause-final completer position (the ETCBC syntax database marks it PreC, predicate complement, meaning the noun completing a 'X is Y' statement, with the verse a quotation clause Q). Lexically the line affirms that Israel's God is one and unique. But 'one' (echad) is a plain cardinal whose 944 canon occurrences include composite unities, so the word affirms oneness without by itself specifying whether that oneness is non-composite in the metaphysical sense (a being with no parts at all) or a unity that comprehends real distinctions."
       },
       {
         "ref": "Zech.14.9",
@@ -142,11 +142,11 @@
             "lemma": "אֶחָד"
           }
         ],
-        "force": "Queried verse text of Zechariah 14:9: in that day the LORD (YHWH) will be king over all the earth, the LORD (YHWH) will be one (echad) and his name one (echad). The Shema's (Israel's confession) declaration of oneness recurs in end-times prophecy and is doubled onto the divine name. This widens the oneness claim beyond Deuteronomy into the Prophets, but it uses the same cardinal 'one' (echad) and so inherits the same indeterminacy about composition that Deuteronomy 6:4 carries.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Zechariah 14:9: in that day the LORD (YHWH) will be king over all the earth, the LORD (YHWH) will be one (echad) and his name one (echad). The Shema's (Israel's confession) declaration of oneness recurs in end-times prophecy and is doubled onto the divine name. This widens the oneness claim beyond Deuteronomy into the Prophets, but it uses the same cardinal 'one' (echad) and so inherits the same indeterminacy about composition that Deuteronomy 6:4 carries."
       },
       {
         "ref": "John.4.24",
@@ -164,11 +164,11 @@
             "lemma": "εἰμί"
           }
         ],
-        "force": "Queried verse text of John 4:24: 'Spirit is God' (pneuma ho theos). The completer-noun 'spirit' (pneuma), standing without the article 'the' (anarthrous) and placed before the with-the-article subject 'the God' (ho theos), is a quality-affirming construction that defines what God is in essence (spirit) rather than locating him. Lexically this supports immateriality (having no physical substance) and incorporeality (having no body). Spirit has no material parts, so this grounds the non-composition claim on the material side, but it speaks to immateriality, not to the further thesis that the divine attributes are identical to one another.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of John 4:24: 'Spirit is God' (pneuma ho theos). The completer-noun 'spirit' (pneuma), standing without the article 'the' (anarthrous) and placed before the with-the-article subject 'the God' (ho theos), is a quality-affirming construction that defines what God is in essence (spirit) rather than locating him. Lexically this supports immateriality (having no physical substance) and incorporeality (having no body). Spirit has no material parts, so this grounds the non-composition claim on the material side, but it speaks to immateriality, not to the further thesis that the divine attributes are identical to one another."
       },
       {
         "ref": "1John.1.5",
@@ -190,13 +190,13 @@
             "lemma": "οὐδείς"
           }
         ],
-        "force": "Queried verse text of 1 John 1:5: 'God is light, and darkness in him is not, not any' (ho theos phos estin kai skotia en auto ouk estin oudemia). A positive quality-affirming statement (God is light, the without-the-article completer 'light' (phos) placed up front) is paired with an emphatic negation: 'not' (ouk) plus the feminine 'not any' (oudemia), no darkness whatsoever, in him. The doubled negation lexically asserts pure non-mixture in the divine being. This is the strongest single text for the non-composition side, since it denies any admixture of the contrary, but it predicates one quality (light) and does not by its words equate that quality with every other divine attribute.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of 1 John 1:5: 'God is light, and darkness in him is not, not any' (ho theos phos estin kai skotia en auto ouk estin oudemia). A positive quality-affirming statement (God is light, the without-the-article completer 'light' (phos) placed up front) is paired with an emphatic negation: 'not' (ouk) plus the feminine 'not any' (oudemia), no darkness whatsoever, in him. The doubled negation lexically asserts pure non-mixture in the divine being. This is the strongest single text for the non-composition side, since it denies any admixture of the contrary, but it predicates one quality (light) and does not by its words equate that quality with every other divine attribute."
       },
       {
         "ref": "1John.4.8",
@@ -214,11 +214,11 @@
             "lemma": "εἰμί"
           }
         ],
-        "force": "Queried verse text of 1 John 4:8: 'the one not loving has not known God, because God is love' (ho me agapon ouk egno ton theon, hoti ho theos agape estin). The without-the-article completer-noun placed up front, 'love' (agape), identifies love as constitutive of God's nature, and the contrapositive (the one not loving has not known God) makes the predication definitional rather than incidental. This supports that love is essential to the divine being. As with light, the construction makes the attribute essential but does not lexically state that it is the very same reality as the other attributes.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of 1 John 4:8: 'the one not loving has not known God, because God is love' (ho me agapon ouk egno ton theon, hoti ho theos agape estin). The without-the-article completer-noun placed up front, 'love' (agape), identifies love as constitutive of God's nature, and the contrapositive (the one not loving has not known God) makes the predication definitional rather than incidental. This supports that love is essential to the divine being. As with light, the construction makes the attribute essential but does not lexically state that it is the very same reality as the other attributes."
       },
       {
         "ref": "Deut.4.35",
@@ -232,11 +232,11 @@
             "lemma": "אֱלֹהִים"
           }
         ],
-        "force": "Queried verse text of Deuteronomy 4:35: the LORD (YHWH) is God, there is none besides him ('there is no other besides him', ein od millevaddo). The exclusivity clause extends the Shema's (Israel's confession) oneness into uniqueness: no rival deity exists alongside the LORD (YHWH). Lexically this is the negative side of oneness (no second God), which supports indivisibility (being incapable of being divided) by exclusion of any external supplement, though uniqueness against rivals is a different claim from internal non-composition.",
         "supports": "for",
         "genre": "law",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Deuteronomy 4:35: the LORD (YHWH) is God, there is none besides him ('there is no other besides him', ein od millevaddo). The exclusivity clause extends the Shema's (Israel's confession) oneness into uniqueness: no rival deity exists alongside the LORD (YHWH). Lexically this is the negative side of oneness (no second God), which supports indivisibility (being incapable of being divided) by exclusion of any external supplement, though uniqueness against rivals is a different claim from internal non-composition."
       },
       {
         "ref": "Exod.3.14",
@@ -246,11 +246,11 @@
             "lemma": "אֱלֹהִים"
           }
         ],
-        "force": "Queried verse text of Exodus 3:14: God said to Moses, 'I will be what I will be' or 'I am that I am' (ehyeh asher ehyeh), and the name 'I AM' (ehyeh) is given as his self-designation. The verb is the simple active form of the Hebrew verb (qal) of 'to be' (hayah). The self-naming through pure being lexically points to God's self-existence and underived existence (his being from himself, not received from anything else). This is compatible with indivisible self-subsistent being, but the words supply a name and a verb of being, not a metaphysical statement that essence and attributes are identical.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Exodus 3:14: God said to Moses, 'I will be what I will be' or 'I am that I am' (ehyeh asher ehyeh), and the name 'I AM' (ehyeh) is given as his self-designation. The verb is the simple active form of the Hebrew verb (qal) of 'to be' (hayah). The self-naming through pure being lexically points to God's self-existence and underived existence (his being from himself, not received from anything else). This is compatible with indivisible self-subsistent being, but the words supply a name and a verb of being, not a metaphysical statement that essence and attributes are identical."
       },
       {
         "ref": "Mal.3.6",
@@ -260,11 +260,11 @@
             "lemma": "יְהוָה"
           }
         ],
-        "force": "Queried verse text of Malachi 3:6: 'For I, the LORD (YHWH), do not change' ('I have not changed', lo shaniti), 'and you, sons of Jacob, are not consumed'. The verb 'to change or alter' (shanah) is negated of the LORD (YHWH) directly. Lexically this asserts that God does not become other than himself over time, which supports the indivisibility-through-time aspect that underlies non-composition. It states constancy of identity, not the further claim of strict attribute-essence identity.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Malachi 3:6: 'For I, the LORD (YHWH), do not change' ('I have not changed', lo shaniti), 'and you, sons of Jacob, are not consumed'. The verb 'to change or alter' (shanah) is negated of the LORD (YHWH) directly. Lexically this asserts that God does not become other than himself over time, which supports the indivisibility-through-time aspect that underlies non-composition. It states constancy of identity, not the further claim of strict attribute-essence identity."
       },
       {
         "ref": "Exod.34.6",
@@ -282,11 +282,11 @@
             "lemma": "אֱמֶת"
           }
         ],
-        "force": "Queried verse text of Exodus 34:6: the LORD (YHWH) passed before him and proclaimed, 'the LORD, the LORD (YHWH, YHWH), a God merciful' (rachum) 'and gracious' (channun), 'slow to anger and abundant in steadfast love' (chesed) 'and truth' (emet). In this covenant self-revelation God names himself through a stack of distinct dictionary entries (lemmas) joined by the Hebrew conjunction 'and' (waw). The vocabulary distinguishes the attributes by separate words rather than collapsing them into one term. This complicates the strong claim that all attributes are strictly identical with one another, since the text itself uses plural distinct predicates of the one God.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Exodus 34:6: the LORD (YHWH) passed before him and proclaimed, 'the LORD, the LORD (YHWH, YHWH), a God merciful' (rachum) 'and gracious' (channun), 'slow to anger and abundant in steadfast love' (chesed) 'and truth' (emet). In this covenant self-revelation God names himself through a stack of distinct dictionary entries (lemmas) joined by the Hebrew conjunction 'and' (waw). The vocabulary distinguishes the attributes by separate words rather than collapsing them into one term. This complicates the strong claim that all attributes are strictly identical with one another, since the text itself uses plural distinct predicates of the one God."
       },
       {
         "ref": "Ps.89.15",
@@ -308,11 +308,11 @@
             "lemma": "אֱמֶת"
           }
         ],
-        "force": "Queried verse text of Psalm 89:15 (Hebrew versification of this store): 'righteousness and justice' (tsedeq u-mishpat) 'are the foundation of your throne, steadfast love and truth' (chesed ve-emet) 'go before your face'. Four attributes appear as four separate dictionary entries (lemmas) in 'and'-joined pairs, predicated of the LORD's (YHWH's) throne and presence. As in Exodus 34:6, the lexical pattern enumerates distinct attributes rather than asserting their mutual identity, which is the textual data that keeps the strong metaphysical form from being lexically forced.",
         "supports": "complicates",
         "genre": "wisdom",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Psalm 89:15 (Hebrew versification of this store): 'righteousness and justice' (tsedeq u-mishpat) 'are the foundation of your throne, steadfast love and truth' (chesed ve-emet) 'go before your face'. Four attributes appear as four separate dictionary entries (lemmas) in 'and'-joined pairs, predicated of the LORD's (YHWH's) throne and presence. As in Exodus 34:6, the lexical pattern enumerates distinct attributes rather than asserting their mutual identity, which is the textual data that keeps the strong metaphysical form from being lexically forced."
       },
       {
         "ref": "Gen.2.24",
@@ -322,11 +322,11 @@
             "lemma": "אֶחָד"
           }
         ],
-        "force": "Queried verse text of Genesis 2:24: a man leaves father and mother, clings to his wife, and they become 'one flesh' ('to one flesh', le-vasar echad). Here 'one' (echad) denotes a unity composed of two distinct persons. The same cardinal that the Shema (Israel's confession) applies to God is applied to a composite union, which is the central lexical reason 'one' (echad) cannot by itself establish metaphysical non-composition (the technical claim that God has absolutely no parts).",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Genesis 2:24: a man leaves father and mother, clings to his wife, and they become 'one flesh' ('to one flesh', le-vasar echad). Here 'one' (echad) denotes a unity composed of two distinct persons. The same cardinal that the Shema (Israel's confession) applies to God is applied to a composite union, which is the central lexical reason 'one' (echad) cannot by itself establish metaphysical non-composition (the technical claim that God has absolutely no parts)."
       },
       {
         "ref": "Ezek.37.17",
@@ -336,11 +336,11 @@
             "lemma": "אֶחָד"
           }
         ],
-        "force": "Queried verse text of Ezekiel 37:17: join them, stick to stick, to become 'one stick' ('to one stick', le-ets echad) in your hand. Two physically distinct sticks are joined and called 'one' (echad). Together with Genesis 1:5 ('one day' (echad), evening plus morning), Exodus 26:6 (one tabernacle (echad) of fifty clasps), and Numbers 13:23 (one cluster (echad) of many grapes), this shows the cardinal 'one' (echad) routinely names a one-out-of-many composite. The word ranges across simple-one and composite-one without itself marking the difference.",
         "supports": "complicates",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried verse text of Ezekiel 37:17: join them, stick to stick, to become 'one stick' ('to one stick', le-ets echad) in your hand. Two physically distinct sticks are joined and called 'one' (echad). Together with Genesis 1:5 ('one day' (echad), evening plus morning), Exodus 26:6 (one tabernacle (echad) of fifty clasps), and Numbers 13:23 (one cluster (echad) of many grapes), this shows the cardinal 'one' (echad) routinely names a one-out-of-many composite. The word ranges across simple-one and composite-one without itself marking the difference."
       }
     ],
     "cross_refs_invoked": [

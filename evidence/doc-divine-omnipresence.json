@@ -234,13 +234,13 @@
             "lemma": "בָּרַח"
           }
         ],
-        "force": "Two parallel rhetorical questions, each opened by 'where' (an, H0575), ask where the speaker could go from God's 'Spirit' (ruach, H7307) and flee from his 'presence' or 'face' (panim, H6440). The queried tokens confirm the doubled 'where' (an) plus the verb 'flee' (barach, H1272). The grammar presupposes the answer no such destination exists, so the question itself encodes the omnipresence claim.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [
           "merism"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Two parallel rhetorical questions, each opened by 'where' (an, H0575), ask where the speaker could go from God's 'Spirit' (ruach, H7307) and flee from his 'presence' or 'face' (panim, H6440). The queried tokens confirm the doubled 'where' (an) plus the verb 'flee' (barach, H1272). The grammar presupposes the answer no such destination exists, so the question itself encodes the omnipresence claim."
       },
       {
         "ref": "Ps.139.8",
@@ -258,13 +258,13 @@
             "lemma": "שָׁם"
           }
         ],
-        "force": "A vertical merism (a two-part figure naming the extremes to mean the whole) pairs 'heaven' (shamayim, H8064), the highest place, with 'the grave' or 'underworld' (sheol, H7585), the lowest. The locative 'there' (sham, H8033) plus the particle 'behold you' (hinnekka) asserts divine presence at each pole. The speaker's verbs are conditional (an 'if-then' clause structure), if I ascend, if I make my bed, but the presence asserted by 'there' (sham) is unconditional.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [
           "merism"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "A vertical merism (a two-part figure naming the extremes to mean the whole) pairs 'heaven' (shamayim, H8064), the highest place, with 'the grave' or 'underworld' (sheol, H7585), the lowest. The locative 'there' (sham, H8033) plus the particle 'behold you' (hinnekka) asserts divine presence at each pole. The speaker's verbs are conditional (an 'if-then' clause structure), if I ascend, if I make my bed, but the presence asserted by 'there' (sham) is unconditional."
       },
       {
         "ref": "Ps.139.9",
@@ -282,14 +282,14 @@
             "lemma": "יָם"
           }
         ],
-        "force": "A horizontal merism (a two-part figure naming the extremes to mean the whole) pairs the 'wings' (kanaph, H3671) of the 'dawn' (shachar, H7837) in the east with the farthest 'sea' (yam, H3220) in the west. The image presses the geographic limit case to test the claim of the previous verse.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [
           "metaphor",
           "merism"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "A horizontal merism (a two-part figure naming the extremes to mean the whole) pairs the 'wings' (kanaph, H3671) of the 'dawn' (shachar, H7837) in the east with the farthest 'sea' (yam, H3220) in the west. The image presses the geographic limit case to test the claim of the previous verse."
       },
       {
         "ref": "Ps.139.10",
@@ -307,11 +307,11 @@
             "lemma": "אָחַז"
           }
         ],
-        "force": "Even at the prior verse's farthest point, the locative 'there' (sham, H8033) resumes and the divine 'hand' (yad, H3027) leads while the right hand 'grasps' or 'holds' (achaz, H0270) the speaker. The repetition of 'there' (sham) from verse 8 closes the frame of presence across every extreme just named.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Even at the prior verse's farthest point, the locative 'there' (sham, H8033) resumes and the divine 'hand' (yad, H3027) leads while the right hand 'grasps' or 'holds' (achaz, H0270) the speaker. The repetition of 'there' (sham) from verse 8 closes the frame of presence across every extreme just named."
       },
       {
         "ref": "Jer.23.23",
@@ -325,11 +325,11 @@
             "lemma": "רָחוֹק"
           }
         ],
-        "force": "A first-person divine oracle, marked 'declaration of YHWH' (neum YHWH), poses a rhetorical question contrasting 'near' (qarob, H7138) with 'far' (rachoq, H7350). The ETCBC clause analysis (a Hebrew Bible syntax database) tags the unit a question with predicate-complement constituents, the structure of a self-disclosure that denies God can be a merely local, nearby deity unaware of the distant.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "A first-person divine oracle, marked 'declaration of YHWH' (neum YHWH), poses a rhetorical question contrasting 'near' (qarob, H7138) with 'far' (rachoq, H7350). The ETCBC clause analysis (a Hebrew Bible syntax database) tags the unit a question with predicate-complement constituents, the structure of a self-disclosure that denies God can be a merely local, nearby deity unaware of the distant."
       },
       {
         "ref": "Jer.23.24",
@@ -351,11 +351,11 @@
             "lemma": "אֶרֶץ"
           }
         ],
-        "force": "The queried tokens confirm the verb 'fill' (male, H4390) with first-person divine subject taking both 'heaven' (shamayim, H8064) and 'earth' (erets, H0776) under the direct-object marker (eth, H0853), denying that any person can 'hide' (sathar, H5641) in secret places. The interrogative particle (a question marker) on the verb makes the assertion emphatic, a denial framed as a question.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The queried tokens confirm the verb 'fill' (male, H4390) with first-person divine subject taking both 'heaven' (shamayim, H8064) and 'earth' (erets, H0776) under the direct-object marker (eth, H0853), denying that any person can 'hide' (sathar, H5641) in secret places. The interrogative particle (a question marker) on the verb makes the assertion emphatic, a denial framed as a question."
       },
       {
         "ref": "Acts.17.27",
@@ -377,11 +377,11 @@
             "lemma": "μακράν"
           }
         ],
-        "force": "Paul states a purpose, that they might 'seek' (zeteo, G2212) God and perhaps 'grope after' (pselaphao, G5584) and 'find' (heurisko, G2147) him. The clause then adds, and indeed he is not 'far' (makran, G3112) from each one of us, with the participle 'existing' (huparcho, G5225). The queried Greek confirms 'far' (makran) plus 'existing' (huparcho) asserting nearness to every individual.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Paul states a purpose, that they might 'seek' (zeteo, G2212) God and perhaps 'grope after' (pselaphao, G5584) and 'find' (heurisko, G2147) him. The clause then adds, and indeed he is not 'far' (makran, G3112) from each one of us, with the participle 'existing' (huparcho, G5225). The queried Greek confirms 'far' (makran) plus 'existing' (huparcho) asserting nearness to every individual."
       },
       {
         "ref": "Acts.17.28",
@@ -403,11 +403,11 @@
             "lemma": "ποιητής"
           }
         ],
-        "force": "The triad 'in' (en, G1722) him we 'live' (zao, G2198), and 'move' (kineo, G2795), and 'are' (eimi, G1510), locates creaturely life, motion, and being inside God. The queried tokens confirm 'in' (en), 'live' (zao), 'move' (kineo), and 'are' (eimi) in the verse. The Creator-creature distinction is held by 'Maker' (poietes, G4163) language in the same speech, where God is the one who made the world, so the 'in' (en) is location not identity.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The triad 'in' (en, G1722) him we 'live' (zao, G2198), and 'move' (kineo, G2795), and 'are' (eimi, G1510), locates creaturely life, motion, and being inside God. The queried tokens confirm 'in' (en), 'live' (zao), 'move' (kineo), and 'are' (eimi) in the verse. The Creator-creature distinction is held by 'Maker' (poietes, G4163) language in the same speech, where God is the one who made the world, so the 'in' (en) is location not identity."
       },
       {
         "ref": "Amos.9.2",
@@ -425,13 +425,13 @@
             "lemma": "שָׁם"
           }
         ],
-        "force": "A prophetic oracle reuses the same merism (a two-part figure naming the extremes to mean the whole) vocabulary. The queried tokens show 'the grave' (sheol, H7585) and 'heaven' (shamayim, H8064) as the dig-down and climb-up extremes, with the locative 'there' (sham, H8033) asserting that even there the divine hand reaches. This is the Psalm 139 pattern recurring in a different genre, which corroborates the verdict pan-canonically (spread across the whole Bible).",
         "supports": "for",
         "genre": "prophecy",
         "figures": [
           "merism"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "A prophetic oracle reuses the same merism (a two-part figure naming the extremes to mean the whole) vocabulary. The queried tokens show 'the grave' (sheol, H7585) and 'heaven' (shamayim, H8064) as the dig-down and climb-up extremes, with the locative 'there' (sham, H8033) asserting that even there the divine hand reaches. This is the Psalm 139 pattern recurring in a different genre, which corroborates the verdict pan-canonically (spread across the whole Bible)."
       },
       {
         "ref": "Gen.4.16",
@@ -441,11 +441,11 @@
             "lemma": "פָּנִים"
           }
         ],
-        "force": "Cain goes out from the 'presence' or 'face' (panim, H6440) of YHWH and dwells in the land of Nod. The queried tokens confirm 'presence' (panim) here. The same word that Psalm 139:7 uses for the presence one cannot flee is used for a relational, cultic departure, which shows the vocabulary carries two senses, spatial omnipresence and covenantal nearness, that the canon does not collapse into each other.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Cain goes out from the 'presence' or 'face' (panim, H6440) of YHWH and dwells in the land of Nod. The queried tokens confirm 'presence' (panim) here. The same word that Psalm 139:7 uses for the presence one cannot flee is used for a relational, cultic departure, which shows the vocabulary carries two senses, spatial omnipresence and covenantal nearness, that the canon does not collapse into each other."
       }
     ],
     "cross_refs_invoked": [

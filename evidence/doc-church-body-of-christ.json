@@ -123,13 +123,13 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "The clause 'just as the body is one and has many members' (kathaper gar to soma hen estin kai mele polla echei) is closed by 'so also is Christ' (houtos kai ho Christos). A direct query confirms that body (soma), member (melos), Christ (Christos), and one (heis) all co-occur in this verse, so the one-and-many body image is applied straight to Christ as a corporate whole (a single grouping treated as one unit).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The clause 'just as the body is one and has many members' (kathaper gar to soma hen estin kai mele polla echei) is closed by 'so also is Christ' (houtos kai ho Christos). A direct query confirms that body (soma), member (melos), Christ (Christos), and one (heis) all co-occur in this verse, so the one-and-many body image is applied straight to Christ as a corporate whole (a single grouping treated as one unit)."
       },
       {
         "ref": "1Cor.12.13",
@@ -147,13 +147,13 @@
             "lemma": "εἰς"
           }
         ],
-        "force": "The text reads 'in one Spirit we all were baptized into one body' (en heni pneumati hemeis pantes eis hen soma ebaptisthemen), and 'we were given one Spirit to drink' (hen pneuma epotisthemen). Queries confirm body (soma), one (heis), into (eis), and immerse or dip (baptizo) are tagged here, supplying the lexical picture of a single Spirit incorporating Jew and Greek, slave and free, into one body. The Spirit (pneuma) tokens are visible in the text but were not separately retrievable in this build, so the Spirit clause is read from the verse text, not from a graph word-count.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The text reads 'in one Spirit we all were baptized into one body' (en heni pneumati hemeis pantes eis hen soma ebaptisthemen), and 'we were given one Spirit to drink' (hen pneuma epotisthemen). Queries confirm body (soma), one (heis), into (eis), and immerse or dip (baptizo) are tagged here, supplying the lexical picture of a single Spirit incorporating Jew and Greek, slave and free, into one body. The Spirit (pneuma) tokens are visible in the text but were not separately retrievable in this build, so the Spirit clause is read from the verse text, not from a graph word-count."
       },
       {
         "ref": "1Cor.12.14",
@@ -171,13 +171,13 @@
             "lemma": "πολύς"
           }
         ],
-        "force": "'for the body is not one member but many' (kai gar to soma ouk estin hen melos alla polla). The words body (soma), member (melos), and many (polys) are confirmed present, stating the one-and-many structure that defines the corporate organism (the single body made of many parts).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for the body is not one member but many' (kai gar to soma ouk estin hen melos alla polla). The words body (soma), member (melos), and many (polys) are confirmed present, stating the one-and-many structure that defines the corporate organism (the single body made of many parts)."
       },
       {
         "ref": "1Cor.12.27",
@@ -195,13 +195,13 @@
             "lemma": "μέλος"
           }
         ],
-        "force": "'you are the body of Christ and members individually' (hymeis de este soma Christou kai mele ek merous). A query confirms that body (soma), Christ (Christos), and member (melos) co-occur in this one verse, the most explicit single lexical anchor naming the gathered believers as Christ's body.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'you are the body of Christ and members individually' (hymeis de este soma Christou kai mele ek merous). A query confirms that body (soma), Christ (Christos), and member (melos) co-occur in this one verse, the most explicit single lexical anchor naming the gathered believers as Christ's body."
       },
       {
         "ref": "Rom.12.5",
@@ -223,13 +223,13 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "'so we the many are one body in Christ' (houtos hoi polloi hen soma esmen en Christo), and individually 'members of one another' (allelon mele). A query confirms that body (soma), one (heis), Christ (Christos), and member (melos) all appear in this verse of a separate letter, showing the body usage is not isolated to one congregation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'so we the many are one body in Christ' (houtos hoi polloi hen soma esmen en Christo), and individually 'members of one another' (allelon mele). A query confirms that body (soma), one (heis), Christ (Christos), and member (melos) all appear in this verse of a separate letter, showing the body usage is not isolated to one congregation."
       },
       {
         "ref": "Eph.1.22",
@@ -243,13 +243,13 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "'he gave him as head over all things to the church' (auton edoken kephalen hyper panta te ekklesia). A query confirms that head (kephale) and church or assembly (ekklesia) co-occur, supplying the head-to-church relation that the next verse fills out with body (soma).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'he gave him as head over all things to the church' (auton edoken kephalen hyper panta te ekklesia). A query confirms that head (kephale) and church or assembly (ekklesia) co-occur, supplying the head-to-church relation that the next verse fills out with body (soma)."
       },
       {
         "ref": "Eph.1.23",
@@ -263,13 +263,13 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "'which is his body' (hetis estin to soma autou) identifies the church or assembly (ekklesia) of the prior verse as Christ's body (soma). Body (soma) is confirmed present, and the relative 'which' (hetis) binds church and body in one predication (one 'X is Y' statement) that spans verses 22 and 23.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'which is his body' (hetis estin to soma autou) identifies the church or assembly (ekklesia) of the prior verse as Christ's body (soma). Body (soma) is confirmed present, and the relative 'which' (hetis) binds church and body in one predication (one 'X is Y' statement) that spans verses 22 and 23."
       },
       {
         "ref": "Eph.4.4",
@@ -283,11 +283,11 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "'one body and one Spirit' (hen soma kai hen pneuma). A query confirms body (soma) and one (heis) here, pairing the single body with the single Spirit. As in 1 Corinthians 12:13 the Spirit (pneuma) token was not separately retrievable in this build, so the Spirit element is read from the verse text.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'one body and one Spirit' (hen soma kai hen pneuma). A query confirms body (soma) and one (heis) here, pairing the single body with the single Spirit. As in 1 Corinthians 12:13 the Spirit (pneuma) token was not separately retrievable in this build, so the Spirit element is read from the verse text."
       },
       {
         "ref": "Eph.4.12",
@@ -305,13 +305,13 @@
             "lemma": "οἰκοδομή"
           }
         ],
-        "force": "'for the building up of the body of Christ' (eis oikodomen tou somatos tou Christou). A query confirms that body (soma), Christ (Christos), and building or edification (oikodome) co-occur, repeating the body-of-Christ (soma Christou) predication and adding a growth word that treats the body as something that is built up.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for the building up of the body of Christ' (eis oikodomen tou somatos tou Christou). A query confirms that body (soma), Christ (Christos), and building or edification (oikodome) co-occur, repeating the body-of-Christ (soma Christou) predication and adding a growth word that treats the body as something that is built up."
       },
       {
         "ref": "Eph.5.30",
@@ -325,13 +325,13 @@
             "lemma": "σῶμα"
           }
         ],
-        "force": "'because we are members of his body' (hoti mele esmen tou somatos autou). A query confirms that member (melos) and body (soma) co-occur, and the first person plural 'we are members' (mele esmen) places believers within Christ's body.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'because we are members of his body' (hoti mele esmen tou somatos autou). A query confirms that member (melos) and body (soma) co-occur, and the first person plural 'we are members' (mele esmen) places believers within Christ's body."
       },
       {
         "ref": "Col.1.18",
@@ -349,13 +349,13 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "'he is the head of the body, the church' (autos estin he kephale tou somatos tes ekklesias). A query confirms that head (kephale), body (soma), and church or assembly (ekklesia) all co-occur in this one clause, the most compact lexical statement of the proposition's core.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'he is the head of the body, the church' (autos estin he kephale tou somatos tes ekklesias). A query confirms that head (kephale), body (soma), and church or assembly (ekklesia) all co-occur in this one clause, the most compact lexical statement of the proposition's core."
       },
       {
         "ref": "Col.1.24",
@@ -373,13 +373,13 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "'for the sake of his body, which is the church' (hyper tou somatos autou, ho estin he ekklesia). A query confirms that body (soma), church or assembly (ekklesia), and Christ (Christos) co-occur, giving an explicit equation of his body with the church in addition to the Colossians 1:18 statement.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for the sake of his body, which is the church' (hyper tou somatos autou, ho estin he ekklesia). A query confirms that body (soma), church or assembly (ekklesia), and Christ (Christos) co-occur, giving an explicit equation of his body with the church in addition to the Colossians 1:18 statement."
       },
       {
         "ref": "Eph.5.32",
@@ -393,13 +393,13 @@
             "lemma": "ἐκκλησία"
           }
         ],
-        "force": "'this mystery is great, but I speak of Christ and of the church' (to mysterion touto mega estin, ego de lego eis Christon kai eis ten ekklesian). A query confirms that Christ (Christos) and church or assembly (ekklesia) co-occur, and the marriage union of Ephesians 5:25 to 31 is read of Christ and the church. The mystery (mysterion) vocabulary, that is, a previously hidden truth now disclosed, is figurative and marks revelation status, not a calendar, so it supports the union claim without supplying chronology (start-and-end dates).",
         "supports": "neutral",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'this mystery is great, but I speak of Christ and of the church' (to mysterion touto mega estin, ego de lego eis Christon kai eis ten ekklesian). A query confirms that Christ (Christos) and church or assembly (ekklesia) co-occur, and the marriage union of Ephesians 5:25 to 31 is read of Christ and the church. The mystery (mysterion) vocabulary, that is, a previously hidden truth now disclosed, is figurative and marks revelation status, not a calendar, so it supports the union claim without supplying chronology (start-and-end dates)."
       }
     ],
     "cross_refs_invoked": [

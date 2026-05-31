@@ -164,11 +164,11 @@
             "lemma": "δεῖ"
           }
         ],
-        "force": "The verse text in the store reads \"and there is not in another no one the salvation, nor for a name is there other under heaven the having-been-given among humans by which it is necessary to be saved us\" (kai ouk estin en allo oudeni he soteria, oude gar onoma estin heteron hypo ton ouranon to dedomenon en anthropois en ho dei sothenai hemas). The first clause pairs the negation \"not\" (ouk) with the dative \"no one\" (oudeni, in the 'to/for no one' grammatical form) and the locative \"in another\" (en allo), denying saving efficacy to any other source. The second uses the substantival \"other\" (heteron, used as a standalone noun), the universal scope \"under heaven\" (hypo ton ouranon), the perfect passive participle \"having been given\" (to dedomenon, a completed action whose result still stands), and the impersonal \"it is necessary\" (dei) plus the aorist passive (completed past action, passive voice) infinitive \"to be saved\" (sothenai, G4982) to bind salvation to the single given name.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The verse text in the store reads \"and there is not in another no one the salvation, nor for a name is there other under heaven the having-been-given among humans by which it is necessary to be saved us\" (kai ouk estin en allo oudeni he soteria, oude gar onoma estin heteron hypo ton ouranon to dedomenon en anthropois en ho dei sothenai hemas). The first clause pairs the negation \"not\" (ouk) with the dative \"no one\" (oudeni, in the 'to/for no one' grammatical form) and the locative \"in another\" (en allo), denying saving efficacy to any other source. The second uses the substantival \"other\" (heteron, used as a standalone noun), the universal scope \"under heaven\" (hypo ton ouranon), the perfect passive participle \"having been given\" (to dedomenon, a completed action whose result still stands), and the impersonal \"it is necessary\" (dei) plus the aorist passive (completed past action, passive voice) infinitive \"to be saved\" (sothenai, G4982) to bind salvation to the single given name."
       },
       {
         "ref": "1Tim.2.5",
@@ -190,11 +190,11 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "The store text reads \"for one God, one also mediator of God and of humans, a human Christ Jesus\" (heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous). The numeral \"one\" (heis, G1520) modifies \"God\" (theos) then \"mediator\" (mesites) in tight parallel, and the appositive \"a human Christ Jesus\" (anthropos Christos Iesous) names the single occupant of the mediatorial office. A direct query of the lexical store shows the word for mediator (mesites, G3316) occurring 6 times in the canon: here, Galatians 3:19 and 3:20 (the mediator of the law, the figure of Moses), and Hebrews 8:6, 9:15, 12:24 (mediator of the new covenant, named Jesus, Iesous). Four of the six name Christ and none names a parallel saving mediator alongside him.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The store text reads \"for one God, one also mediator of God and of humans, a human Christ Jesus\" (heis gar theos, heis kai mesites theou kai anthropon, anthropos Christos Iesous). The numeral \"one\" (heis, G1520) modifies \"God\" (theos) then \"mediator\" (mesites) in tight parallel, and the appositive \"a human Christ Jesus\" (anthropos Christos Iesous) names the single occupant of the mediatorial office. A direct query of the lexical store shows the word for mediator (mesites, G3316) occurring 6 times in the canon: here, Galatians 3:19 and 3:20 (the mediator of the law, the figure of Moses), and Hebrews 8:6, 9:15, 12:24 (mediator of the new covenant, named Jesus, Iesous). Four of the six name Christ and none names a parallel saving mediator alongside him."
       },
       {
         "ref": "Heb.7.25",
@@ -216,11 +216,11 @@
             "lemma": "διά"
           }
         ],
-        "force": "The store text reads \"from which also to save to the uttermost he is able those approaching through him to God, always living to intercede on behalf of them\" (hothen kai sozein eis to panteles dynatai tous proserchomenous di autou to theo, pantote zon eis to entygchanein hyper auton). The complete-degree phrase \"to the uttermost\" (eis to panteles, G3838, only 2 canon occurrences) qualifies the saving infinitive \"to save\" (sozein, G4982), and the approach to God runs \"through him\" (di autou, G1223 plus pronoun). Querying \"to intercede\" (entygchano, G1793), saving intercession on behalf of people is applied to Christ here and at Romans 8:34, and to the Spirit at Romans 8:27. The one human use, Romans 11:2 of Elijah, is pleading against Israel, not saving intercession, so the upward intercession that saves attaches only to Christ and the Spirit.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The store text reads \"from which also to save to the uttermost he is able those approaching through him to God, always living to intercede on behalf of them\" (hothen kai sozein eis to panteles dynatai tous proserchomenous di autou to theo, pantote zon eis to entygchanein hyper auton). The complete-degree phrase \"to the uttermost\" (eis to panteles, G3838, only 2 canon occurrences) qualifies the saving infinitive \"to save\" (sozein, G4982), and the approach to God runs \"through him\" (di autou, G1223 plus pronoun). Querying \"to intercede\" (entygchano, G1793), saving intercession on behalf of people is applied to Christ here and at Romans 8:34, and to the Spirit at Romans 8:27. The one human use, Romans 11:2 of Elijah, is pleading against Israel, not saving intercession, so the upward intercession that saves attaches only to Christ and the Spirit."
       },
       {
         "ref": "John.14.6",
@@ -246,13 +246,13 @@
             "lemma": "διά"
           }
         ],
-        "force": "The store text reads \"I am the way and the truth and the life, no one comes to the Father except through me\" (ego eimi he hodos kai he aletheia kai he zoe, oudeis erchetai pros ton patera ei me di emou). The emphatic \"I am\" (ego eimi) with articular (carrying the article 'the') predicate nominatives (nouns completing an 'X is Y' statement) identifies Jesus as the singular access, and the construction \"no one ... except\" (oudeis ... ei me), the strongest exclusive in Koine Greek (the common Greek of the New Testament), with \"through me\" (di emou, G1223) matching the \"through him\" (di autou) of Hebrews 7:25 morpheme for morpheme (word-part for word-part), closes every alternate route to the Father. John 10:9, confirmed in the store as \"I am the door, through me if anyone enters he will be saved\" (ego eimi he thyra, di emou ean tis eiselthe sothesetai), repeats the \"through me\" (di emou) plus \"he will be saved\" (sothesetai) pairing.",
         "supports": "for",
         "genre": "gospel",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The store text reads \"I am the way and the truth and the life, no one comes to the Father except through me\" (ego eimi he hodos kai he aletheia kai he zoe, oudeis erchetai pros ton patera ei me di emou). The emphatic \"I am\" (ego eimi) with articular (carrying the article 'the') predicate nominatives (nouns completing an 'X is Y' statement) identifies Jesus as the singular access, and the construction \"no one ... except\" (oudeis ... ei me), the strongest exclusive in Koine Greek (the common Greek of the New Testament), with \"through me\" (di emou, G1223) matching the \"through him\" (di autou) of Hebrews 7:25 morpheme for morpheme (word-part for word-part), closes every alternate route to the Father. John 10:9, confirmed in the store as \"I am the door, through me if anyone enters he will be saved\" (ego eimi he thyra, di emou ean tis eiselthe sothesetai), repeats the \"through me\" (di emou) plus \"he will be saved\" (sothesetai) pairing."
       },
       {
         "ref": "1Cor.3.11",
@@ -270,13 +270,13 @@
             "lemma": "δύναμαι"
           }
         ],
-        "force": "The store text reads \"for another foundation no one is able to lay beside the one being laid, which is Jesus Christ\" (themelion gar allon oudeis dynatai theinai para ton keimenon, hos estin Iesous Christos). The pairing of \"other\" (allon) with \"no one\" (oudeis) and the modal \"is able\" (dynatai) forecloses the possibility of laying any other foundation, and the relative clause \"which is Jesus Christ\" (hos estin Iesous Christos) names the one foundation. This repeats the \"other\" (allon) plus \"no one\" (oudeis) foreclosure that Acts 4:12 and John 14:6 apply to the saving name and route, now applied to the saving foundation.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The store text reads \"for another foundation no one is able to lay beside the one being laid, which is Jesus Christ\" (themelion gar allon oudeis dynatai theinai para ton keimenon, hos estin Iesous Christos). The pairing of \"other\" (allon) with \"no one\" (oudeis) and the modal \"is able\" (dynatai) forecloses the possibility of laying any other foundation, and the relative clause \"which is Jesus Christ\" (hos estin Iesous Christos) names the one foundation. This repeats the \"other\" (allon) plus \"no one\" (oudeis) foreclosure that Acts 4:12 and John 14:6 apply to the saving name and route, now applied to the saving foundation."
       },
       {
         "ref": "1John.5.11",
@@ -298,11 +298,11 @@
             "lemma": "δίδωμι"
           }
         ],
-        "force": "The store text reads \"and this is the testimony, that life eternal he gave the God to us, and this the life in the Son of him is\" (kai haute estin he martyria, hoti zoen aionion edoken ho theos hemin, kai haute he zoe en to huio autou estin). The aorist (completed past action) \"he gave\" (edoken, G1325) locates the gift, and the locative \"in the Son\" (en to huio) binds \"eternal life\" (zoe aionios, G2222 plus G0166) to the Son as its container, the same given-into-one logic that Acts 4:12 applies with \"the having been given\" (to dedomenon) to the saving name.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The store text reads \"and this is the testimony, that life eternal he gave the God to us, and this the life in the Son of him is\" (kai haute estin he martyria, hoti zoen aionion edoken ho theos hemin, kai haute he zoe en to huio autou estin). The aorist (completed past action) \"he gave\" (edoken, G1325) locates the gift, and the locative \"in the Son\" (en to huio) binds \"eternal life\" (zoe aionios, G2222 plus G0166) to the Son as its container, the same given-into-one logic that Acts 4:12 applies with \"the having been given\" (to dedomenon) to the saving name."
       },
       {
         "ref": "1John.5.12",
@@ -324,11 +324,11 @@
             "lemma": "μή"
           }
         ],
-        "force": "\"The one having the Son has the life, the one not having the Son of God the life does not have\" (ho echon ton huion echei ten zoen, ho me echon ton huion tou theou ten zoen ouk echei). The participial antithesis between \"having\" (echon) and \"not having\" (me echon), with the negations \"not\" (me) and \"not\" (ouk), excludes life from anyone lacking the Son, restating the exclusivity in terms of possession. The store cross-reference data ties this to John 3:36, \"the one believing in the Son has eternal life\" (ho pisteuon eis ton huion echei zoen aionion).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"The one having the Son has the life, the one not having the Son of God the life does not have\" (ho echon ton huion echei ten zoen, ho me echon ton huion tou theou ten zoen ouk echei). The participial antithesis between \"having\" (echon) and \"not having\" (me echon), with the negations \"not\" (me) and \"not\" (ouk), excludes life from anyone lacking the Son, restating the exclusivity in terms of possession. The store cross-reference data ties this to John 3:36, \"the one believing in the Son has eternal life\" (ho pisteuon eis ton huion echei zoen aionion)."
       }
     ],
     "cross_refs_invoked": [

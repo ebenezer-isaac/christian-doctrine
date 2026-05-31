@@ -158,11 +158,11 @@
             "lemma": "ἅγιος"
           }
         ],
-        "force": "Peter charges that Satan filled Ananias's heart to lie to the Holy Spirit. The aorist (a completed past action) infinitive \"to lie\" (ψεύσασθαί) takes \"the Holy Spirit\" (τὸ πνεῦμα τὸ ἅγιον) as its direct object. Morphology confirms the Spirit phrase is accusative (the direct-object grammatical form) singular neuter (parsed N-ASN, with the article and adjective also neuter), the grammatical object of an act of deception, which presupposes a personal addressee who can be lied to, not an impersonal influence.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "ACT 5:3!17"
+        "macula_anchor": "ACT 5:3!17",
+        "reasoning": "Peter charges that Satan filled Ananias's heart to lie to the Holy Spirit. The aorist (a completed past action) infinitive \"to lie\" (ψεύσασθαί) takes \"the Holy Spirit\" (τὸ πνεῦμα τὸ ἅγιον) as its direct object. Morphology confirms the Spirit phrase is accusative (the direct-object grammatical form) singular neuter (parsed N-ASN, with the article and adjective also neuter), the grammatical object of an act of deception, which presupposes a personal addressee who can be lied to, not an impersonal influence."
       },
       {
         "ref": "Acts.5.4",
@@ -176,11 +176,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "The next clause re-predicates (restates as a description of) the identical act: \"you have not lied to men but to God\" (οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ). The \"not...but\" (οὐκ...ἀλλά) contrast frame sets men against God as the two candidate addressees of the single verb \"you lied\" (ἐψεύσω), and assigns the act to \"to God\" (τῷ θεῷ). Since the object lied to in verse 3 was the Holy Spirit, the same lie now predicated of God identifies the Spirit with God as one referent. The equation is grammatical, not analogical (a real identity in the grammar, not a loose comparison).",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The next clause re-predicates (restates as a description of) the identical act: \"you have not lied to men but to God\" (οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ). The \"not...but\" (οὐκ...ἀλλά) contrast frame sets men against God as the two candidate addressees of the single verb \"you lied\" (ἐψεύσω), and assigns the act to \"to God\" (τῷ θεῷ). Since the object lied to in verse 3 was the Holy Spirit, the same lie now predicated of God identifies the Spirit with God as one referent. The equation is grammatical, not analogical (a real identity in the grammar, not a loose comparison)."
       },
       {
         "ref": "1Cor.3.16",
@@ -202,13 +202,13 @@
             "lemma": "οἰκέω"
           }
         ],
-        "force": "Paul predicates (asserts as a descriptive statement) \"temple of God\" (ναὸς θεοῦ) of the believers, then grounds it with \"and the Spirit of God dwells in you\" (καὶ τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν). The present indicative (ongoing, simple statement of fact) \"dwells\" (οἰκεῖ, parsed V-PAI-3S) makes the indwelling Spirit the operative reason the locus is God's temple. The temple-making presence is the Spirit's presence, so Spirit-presence functions as divine presence.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Paul predicates (asserts as a descriptive statement) \"temple of God\" (ναὸς θεοῦ) of the believers, then grounds it with \"and the Spirit of God dwells in you\" (καὶ τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν). The present indicative (ongoing, simple statement of fact) \"dwells\" (οἰκεῖ, parsed V-PAI-3S) makes the indwelling Spirit the operative reason the locus is God's temple. The temple-making presence is the Spirit's presence, so Spirit-presence functions as divine presence."
       },
       {
         "ref": "Matt.28.19",
@@ -230,11 +230,11 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "\"baptizing them in the name of the Father and of the Son and of the Holy Spirit\" (βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος). Morphology confirms \"name\" (ὄνομα) is one accusative singular noun (parsed N-ASN, direct-object form), governed once, distributed across three articular genitives (\"of-X\" forms with \"the,\" τοῦ) joined by \"and\" (καί). The Spirit shares the single baptismal naming with Father and Son, placed at the same grammatical level, not as a lesser fourth term.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"baptizing them in the name of the Father and of the Son and of the Holy Spirit\" (βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος). Morphology confirms \"name\" (ὄνομα) is one accusative singular noun (parsed N-ASN, direct-object form), governed once, distributed across three articular genitives (\"of-X\" forms with \"the,\" τοῦ) joined by \"and\" (καί). The Spirit shares the single baptismal naming with Father and Son, placed at the same grammatical level, not as a lesser fourth term."
       },
       {
         "ref": "1Cor.12.11",
@@ -248,11 +248,11 @@
             "lemma": "βούλομαι"
           }
         ],
-        "force": "\"all these things one and the same Spirit works, apportioning to each one individually as he wills\" (πάντα δὲ ταῦτα ἐνεργεῖ τὸ ἓν καὶ τὸ αὐτὸ πνεῦμα, διαιροῦν ἰδίᾳ ἑκάστῳ καθὼς βούλεται). The Spirit (\"spirit,\" πνεῦμα) is the explicit subject of \"wills\" (βούλεται, parsed V-PNI-3S, present indicative, an ongoing simple statement of fact, meaning to will or decide). Willing and apportioning at one's own discretion are acts of a personal agent, telling against an impersonal-power reading of \"spirit\" (πνεῦμα).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"all these things one and the same Spirit works, apportioning to each one individually as he wills\" (πάντα δὲ ταῦτα ἐνεργεῖ τὸ ἓν καὶ τὸ αὐτὸ πνεῦμα, διαιροῦν ἰδίᾳ ἑκάστῳ καθὼς βούλεται). The Spirit (\"spirit,\" πνεῦμα) is the explicit subject of \"wills\" (βούλεται, parsed V-PNI-3S, present indicative, an ongoing simple statement of fact, meaning to will or decide). Willing and apportioning at one's own discretion are acts of a personal agent, telling against an impersonal-power reading of \"spirit\" (πνεῦμα)."
       },
       {
         "ref": "Eph.4.30",
@@ -270,11 +270,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "\"do not grieve the Holy Spirit of God\" (μὴ λυπεῖτε τὸ πνεῦμα τὸ ἅγιον τοῦ θεοῦ). The Spirit (\"spirit,\" πνεῦμα) is the object of \"do not grieve\" (λυπεῖτε, parsed V-PAM-2P, meaning to grieve), and the genitive (\"of-X\" form) \"of God\" (τοῦ θεοῦ) ties the Spirit to God. To be grieved is an affective response proper to a person, again resisting an impersonal-force reading.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"do not grieve the Holy Spirit of God\" (μὴ λυπεῖτε τὸ πνεῦμα τὸ ἅγιον τοῦ θεοῦ). The Spirit (\"spirit,\" πνεῦμα) is the object of \"do not grieve\" (λυπεῖτε, parsed V-PAM-2P, meaning to grieve), and the genitive (\"of-X\" form) \"of God\" (τοῦ θεοῦ) ties the Spirit to God. To be grieved is an affective response proper to a person, again resisting an impersonal-force reading."
       },
       {
         "ref": "Acts.13.2",
@@ -288,11 +288,11 @@
             "lemma": "ἅγιος"
           }
         ],
-        "force": "\"the Holy Spirit said, Set apart for me Barnabas and Saul\" (εἶπεν τὸ πνεῦμα τὸ ἅγιον, Ἀφορίσατε δή μοι τὸν Βαρναβᾶν καὶ Σαῦλον). The Spirit (\"spirit,\" πνεῦμα) is the subject of \"said\" (εἶπεν, meaning to say) and speaks in the first person, \"for me\" (μοι), set apart for ME, claiming the missionaries as the Spirit's own. First-person speech and self-reference are personal acts.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"the Holy Spirit said, Set apart for me Barnabas and Saul\" (εἶπεν τὸ πνεῦμα τὸ ἅγιον, Ἀφορίσατε δή μοι τὸν Βαρναβᾶν καὶ Σαῦλον). The Spirit (\"spirit,\" πνεῦμα) is the subject of \"said\" (εἶπεν, meaning to say) and speaks in the first person, \"for me\" (μοι), set apart for ME, claiming the missionaries as the Spirit's own. First-person speech and self-reference are personal acts."
       },
       {
         "ref": "John.16.13",
@@ -306,11 +306,11 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "\"when he comes, the Spirit of truth\" (ὅταν δὲ ἔλθῃ ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας). Morphology confirms \"that one, he\" (ἐκεῖνος) is masculine nominative (subject form) singular (parsed D-NSM) while its antecedent \"the spirit\" (τὸ πνεῦμα) is neuter (parsed N-NSN). The deliberate masculine pronoun over a grammatically neuter noun signals a personal referent, not a thing, and the Spirit then performs personal verbs, will guide, will speak, will declare.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": "JHN 16:13!6"
+        "macula_anchor": "JHN 16:13!6",
+        "reasoning": "\"when he comes, the Spirit of truth\" (ὅταν δὲ ἔλθῃ ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας). Morphology confirms \"that one, he\" (ἐκεῖνος) is masculine nominative (subject form) singular (parsed D-NSM) while its antecedent \"the spirit\" (τὸ πνεῦμα) is neuter (parsed N-NSN). The deliberate masculine pronoun over a grammatically neuter noun signals a personal referent, not a thing, and the Spirit then performs personal verbs, will guide, will speak, will declare."
       },
       {
         "ref": "2Cor.3.17",
@@ -324,11 +324,11 @@
             "lemma": "πνεῦμα"
           }
         ],
-        "force": "\"now the Lord is the Spirit\" (ὁ δὲ κύριος τὸ πνεῦμά ἐστιν). The copula (the linking verb \"is\") \"is\" (ἐστιν, parsed V-PAI-3S, present indicative, an ongoing simple statement of fact) links \"Lord\" (κύριος) and \"the Spirit\" (τὸ πνεῦμα). Whatever the precise scope of the predication (the descriptive statement), the verse places the Spirit on the \"Lord\" (κύριος) side of the divine ledger rather than the creature side. The following clause speaks of \"the Spirit of the Lord\" (τὸ πνεῦμα κυρίου), the Spirit of the Lord, reinforcing the divine association.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"now the Lord is the Spirit\" (ὁ δὲ κύριος τὸ πνεῦμά ἐστιν). The copula (the linking verb \"is\") \"is\" (ἐστιν, parsed V-PAI-3S, present indicative, an ongoing simple statement of fact) links \"Lord\" (κύριος) and \"the Spirit\" (τὸ πνεῦμα). Whatever the precise scope of the predication (the descriptive statement), the verse places the Spirit on the \"Lord\" (κύριος) side of the divine ledger rather than the creature side. The following clause speaks of \"the Spirit of the Lord\" (τὸ πνεῦμα κυρίου), the Spirit of the Lord, reinforcing the divine association."
       },
       {
         "ref": "Heb.9.14",
@@ -342,11 +342,11 @@
             "lemma": "αἰώνιος"
           }
         ],
-        "force": "\"through the eternal Spirit\" (διὰ πνεύματος αἰωνίου). The Spirit (\"spirit,\" πνεῦμα) is qualified by \"eternal\" (αἰωνίου, parsed A-GSN, an attribute meaning eternal), an attribute the canon reserves for God and divine realities. Eternity predicated of the Spirit supplies the co-eternal element of the proposition at the word level, since a creature is not termed eternal in this sense.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"through the eternal Spirit\" (διὰ πνεύματος αἰωνίου). The Spirit (\"spirit,\" πνεῦμα) is qualified by \"eternal\" (αἰωνίου, parsed A-GSN, an attribute meaning eternal), an attribute the canon reserves for God and divine realities. Eternity predicated of the Spirit supplies the co-eternal element of the proposition at the word level, since a creature is not termed eternal in this sense."
       },
       {
         "ref": "Ps.139.7",
@@ -356,11 +356,11 @@
             "lemma": "רוּחַ"
           }
         ],
-        "force": "\"Where can I go from your Spirit, and where can I flee from your presence?\" (אָנָה אֵלֵךְ מֵרוּחֶךָ וְאָנָה מִפָּנֶיךָ אֶבְרָח). Where can I go from your spirit (\"spirit,\" ruach), and where can I flee from your face. Hebrew morphology confirms \"spirit\" (ruach, Strong's H7307) in parallel with \"your face, your presence\" (paneka). The Spirit is here coextensive with God's inescapable presence, an Old Testament attestation of divine omnipresence (being everywhere at once) predicated of the Spirit, which anchors the proposition outside the New Testament.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"Where can I go from your Spirit, and where can I flee from your presence?\" (אָנָה אֵלֵךְ מֵרוּחֶךָ וְאָנָה מִפָּנֶיךָ אֶבְרָח). Where can I go from your spirit (\"spirit,\" ruach), and where can I flee from your face. Hebrew morphology confirms \"spirit\" (ruach, Strong's H7307) in parallel with \"your face, your presence\" (paneka). The Spirit is here coextensive with God's inescapable presence, an Old Testament attestation of divine omnipresence (being everywhere at once) predicated of the Spirit, which anchors the proposition outside the New Testament."
       }
     ],
     "cross_refs_invoked": [

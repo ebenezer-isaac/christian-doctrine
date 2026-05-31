@@ -179,11 +179,11 @@
             "lemma": "אֲנִי"
           }
         ],
-        "force": "First-person divine self-predication (God speaking about himself in the first person). The queried morphology shows the first-person-singular pronoun 'I' (H0589) plus the simple-active completed-action first-person-singular form (qal perfect 1cs, the simple active form of the Hebrew verb in finished-action mood with God himself as speaker) of 'change' (H8138, transliterated shaniti as it actually appears, the queried morphology tag HVqp1cs) under the negative 'not' (H3808), an absolute denial of change. The grounding particle 'because' (H3588) ties the non-consumption of the sons of Jacob to the LORD (YHWH) not having changed. ETCBC (a Hebrew syntactic database) marks the clause as 'quotative' or quoted speech (tagged Q) with the grammatical roles Subject, Negation, and Predicate. 'Change' (H8138 shanah) is itself a homonym (one spelling, two meanings) in the lexicon (one sense 'change', another sense 'repeat'), but the simple-active form (qal) and the explicit covenant-preservation ground-clause fix the 'change' sense here.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": "Mal.3.6"
+        "macula_anchor": "Mal.3.6",
+        "reasoning": "First-person divine self-predication (God speaking about himself in the first person). The queried morphology shows the first-person-singular pronoun 'I' (H0589) plus the simple-active completed-action first-person-singular form (qal perfect 1cs, the simple active form of the Hebrew verb in finished-action mood with God himself as speaker) of 'change' (H8138, transliterated shaniti as it actually appears, the queried morphology tag HVqp1cs) under the negative 'not' (H3808), an absolute denial of change. The grounding particle 'because' (H3588) ties the non-consumption of the sons of Jacob to the LORD (YHWH) not having changed. ETCBC (a Hebrew syntactic database) marks the clause as 'quotative' or quoted speech (tagged Q) with the grammatical roles Subject, Negation, and Predicate. 'Change' (H8138 shanah) is itself a homonym (one spelling, two meanings) in the lexicon (one sense 'change', another sense 'repeat'), but the simple-active form (qal) and the explicit covenant-preservation ground-clause fix the 'change' sense here."
       },
       {
         "ref": "Num.23.19",
@@ -205,11 +205,11 @@
             "lemma": "לֹא"
           }
         ],
-        "force": "Noun-only denial in oracle form (a clause that asserts identity without a verb). The queried tokens contrast 'God' (El, H0410) and 'son of man' (ben-adam, H1121 plus H0120), then deny 'lie' (H3576 kazav, in the Hebrew intensive form (piel, the Hebrew intensive form), third-person-masculine-singular, tagged HC/Vpi3ms) and 'relent' or 'reverse oneself' (H5162 nacham, in the Hebrew reflexive-intensive form (hitpael) with imperfect aspect meaning ongoing or future action, tagged HC/Vti3ms). The pairing of the speech verbs 'say' (H0559) and 'speak' (H1696) with 'cause to stand' or 'fulfill' (H6965, in the Hebrew causative form (hiphil, the Hebrew causative form meaning 'to cause to do'), tagged HVhi3ms) makes the denial cover both word and act. ETCBC (the Hebrew syntactic database) scaffolds this as a non-quoted clause with the grammatical roles Negation, Predicate-Complement, and Subject.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": "Num.23.19"
+        "macula_anchor": "Num.23.19",
+        "reasoning": "Noun-only denial in oracle form (a clause that asserts identity without a verb). The queried tokens contrast 'God' (El, H0410) and 'son of man' (ben-adam, H1121 plus H0120), then deny 'lie' (H3576 kazav, in the Hebrew intensive form (piel, the Hebrew intensive form), third-person-masculine-singular, tagged HC/Vpi3ms) and 'relent' or 'reverse oneself' (H5162 nacham, in the Hebrew reflexive-intensive form (hitpael) with imperfect aspect meaning ongoing or future action, tagged HC/Vti3ms). The pairing of the speech verbs 'say' (H0559) and 'speak' (H1696) with 'cause to stand' or 'fulfill' (H6965, in the Hebrew causative form (hiphil, the Hebrew causative form meaning 'to cause to do'), tagged HVhi3ms) makes the denial cover both word and act. ETCBC (the Hebrew syntactic database) scaffolds this as a non-quoted clause with the grammatical roles Negation, Predicate-Complement, and Subject."
       },
       {
         "ref": "Jas.1.17",
@@ -235,13 +235,13 @@
             "lemma": "ἀποσκίασμα"
           }
         ],
-        "force": "An astronomical-metaphor predication of the 'Father of lights' (Father, G3962 pater). A cluster of three terms, each occurring exactly once in the whole New Testament corpus (confirmed by MorphGNT count, the morphological tagging of the Greek New Testament): 'variation' (parallage, G3883), 'turning' (trope, G5157, a technical word for solstice and stellar reversal), and 'cast shadow' (aposkiasma, G0644), together negate any oscillation in the divine. The phrase 'from the Father of the lights' (para to patri ton photon) places God beyond the very celestial lights whose motion defines change. The negation 'not' (ouk) plus 'there is' (eni, contracted from enestin) asserts the absence as a state of being, not an occasional fact.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": "Jas.1.17"
+        "macula_anchor": "Jas.1.17",
+        "reasoning": "An astronomical-metaphor predication of the 'Father of lights' (Father, G3962 pater). A cluster of three terms, each occurring exactly once in the whole New Testament corpus (confirmed by MorphGNT count, the morphological tagging of the Greek New Testament): 'variation' (parallage, G3883), 'turning' (trope, G5157, a technical word for solstice and stellar reversal), and 'cast shadow' (aposkiasma, G0644), together negate any oscillation in the divine. The phrase 'from the Father of the lights' (para to patri ton photon) places God beyond the very celestial lights whose motion defines change. The negation 'not' (ouk) plus 'there is' (eni, contracted from enestin) asserts the absence as a state of being, not an occasional fact."
       },
       {
         "ref": "Heb.13.8",
@@ -259,13 +259,13 @@
             "lemma": "αὐτός"
           }
         ],
-        "force": "A merism (a two-part figure naming the extremes to mean the whole) over time, applied to the person of Christ. 'Yesterday' (echthes), 'today' (semeron), 'forever' (eis tous aionas, literally 'into the ages'), the queried token order confirms the triad, exhausts past, present, and future, with 'he himself' (autos) in predicate position (the slot completing a 'X is Y' statement) asserting identity-stability across all three. There is no finite (conjugated) verb, which forces a linking-verb 'is' reading (a copular reading, where the linking verb 'is' is supplied) equating Christ with his own unchanging selfhood. MorphGNT (the morphological tagging of the Greek New Testament) confirms 'yesterday' (echthes) occurs only 3 times in the New Testament (here, John 4:52, Acts 7:28).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "merism"
         ],
-        "macula_anchor": "Heb.13.8"
+        "macula_anchor": "Heb.13.8",
+        "reasoning": "A merism (a two-part figure naming the extremes to mean the whole) over time, applied to the person of Christ. 'Yesterday' (echthes), 'today' (semeron), 'forever' (eis tous aionas, literally 'into the ages'), the queried token order confirms the triad, exhausts past, present, and future, with 'he himself' (autos) in predicate position (the slot completing a 'X is Y' statement) asserting identity-stability across all three. There is no finite (conjugated) verb, which forces a linking-verb 'is' reading (a copular reading, where the linking verb 'is' is supplied) equating Christ with his own unchanging selfhood. MorphGNT (the morphological tagging of the Greek New Testament) confirms 'yesterday' (echthes) occurs only 3 times in the New Testament (here, John 4:52, Acts 7:28)."
       },
       {
         "ref": "1Sam.15.29",
@@ -287,11 +287,11 @@
             "lemma": "לֹא"
           }
         ],
-        "force": "Internal canonical commentary on the 'relent' (NHM, the Hebrew root behind nacham) language. The queried tokens read 'Eminence' or 'Glory' or 'Everlastingness of Israel' (Netzach Israel, H5331, eminence, perpetuity, everlastingness, plus H3478) does not 'deal falsely' (H8266 shaqar, in the Hebrew intensive form (piel), third-person-masculine-singular, tagged HVpi3ms, a different 'lie' verb from the 'lie' (kazav) of Numbers 23:19) and does not 'relent' (H5162 nacham, in the Hebrew passive form (niphal, the Hebrew passive form), imperfect aspect, tagged HVNi3ms, with a second 'relent' (nacham) infinitive tagged HR/VNc), grounded by 'because not man he' (ki lo adam hu, H3588 plus H3808 plus H0120 plus H1931), 'for he is not a man that he should relent'. This same chapter narrates God relenting over Saul's kingship (1 Samuel 15:11, in the Hebrew passive form (niphal) perfect first-person-singular, tagged HVNp1cs; 1 Samuel 15:35, tagged HVNp3ms), so the canon itself sets the lexical resolution: human-style 'relent' (NHM) as covenantal response, metaphysical 'relent' (NHM) denied of God.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "1Sam.15.29"
+        "macula_anchor": "1Sam.15.29",
+        "reasoning": "Internal canonical commentary on the 'relent' (NHM, the Hebrew root behind nacham) language. The queried tokens read 'Eminence' or 'Glory' or 'Everlastingness of Israel' (Netzach Israel, H5331, eminence, perpetuity, everlastingness, plus H3478) does not 'deal falsely' (H8266 shaqar, in the Hebrew intensive form (piel), third-person-masculine-singular, tagged HVpi3ms, a different 'lie' verb from the 'lie' (kazav) of Numbers 23:19) and does not 'relent' (H5162 nacham, in the Hebrew passive form (niphal, the Hebrew passive form), imperfect aspect, tagged HVNi3ms, with a second 'relent' (nacham) infinitive tagged HR/VNc), grounded by 'because not man he' (ki lo adam hu, H3588 plus H3808 plus H0120 plus H1931), 'for he is not a man that he should relent'. This same chapter narrates God relenting over Saul's kingship (1 Samuel 15:11, in the Hebrew passive form (niphal) perfect first-person-singular, tagged HVNp1cs; 1 Samuel 15:35, tagged HVNp3ms), so the canon itself sets the lexical resolution: human-style 'relent' (NHM) as covenantal response, metaphysical 'relent' (NHM) denied of God."
       },
       {
         "ref": "Ps.102.27",
@@ -305,13 +305,13 @@
             "lemma": "חָלַף"
           }
         ],
-        "force": "Creator-creature contrast. The queried tokens show the heavens and earth 'perishing' (H0006) and 'being changed' like a garment, with the change verb 'pass on' or 'change' (H2498 chalaph, tagged HVhi2ms (the Hebrew causative form (hiphil, the Hebrew causative form), second-person-masculine-singular) and HC/Vqi3mp (simple-active (qal) imperfect, third-person-masculine-plural)), while God is 'you are he' (atah hu, H0859 plus H1931) and his 'years' (H8141) do not 'end' (H3808 plus H8552 tamam). Note that this verse uses 'change' (chalaph, H2498), not the 'change' (shanah) of Malachi 3:6, for the change predicated of creation. The same point is reasserted of Christ when Hebrews 1:12 quotes this Psalm, and OpenBible (a cross-reference dataset) links Hebrews 13:8 to Psalm 102:27 (61 votes) and to Hebrews 1:12 (69 votes).",
         "supports": "for",
         "genre": "wisdom",
         "figures": [
           "simile"
         ],
-        "macula_anchor": "Ps.102.27"
+        "macula_anchor": "Ps.102.27",
+        "reasoning": "Creator-creature contrast. The queried tokens show the heavens and earth 'perishing' (H0006) and 'being changed' like a garment, with the change verb 'pass on' or 'change' (H2498 chalaph, tagged HVhi2ms (the Hebrew causative form (hiphil, the Hebrew causative form), second-person-masculine-singular) and HC/Vqi3mp (simple-active (qal) imperfect, third-person-masculine-plural)), while God is 'you are he' (atah hu, H0859 plus H1931) and his 'years' (H8141) do not 'end' (H3808 plus H8552 tamam). Note that this verse uses 'change' (chalaph, H2498), not the 'change' (shanah) of Malachi 3:6, for the change predicated of creation. The same point is reasserted of Christ when Hebrews 1:12 quotes this Psalm, and OpenBible (a cross-reference dataset) links Hebrews 13:8 to Psalm 102:27 (61 votes) and to Hebrews 1:12 (69 votes)."
       },
       {
         "ref": "Gen.6.6",
@@ -325,11 +325,11 @@
             "lemma": "עָשָׂה"
           }
         ],
-        "force": "Narrative report that the LORD (YHWH) 'was grieved' (in the Hebrew passive form (niphal, the Hebrew passive form), narrative-sequence tense (wayyiqtol, a past-tense form with a special 'and then' prefix) of 'be sorry' (H5162 nacham), tagged HC/VNw3ms) that he had made man. Read against Numbers 23:19 and 1 Samuel 15:29, the 'relent' (NHM) word-root here selects the affective range that the queried lexical entry lists for this entry (be sorry, be moved to pity, suffer grief), describing relational engagement with human wickedness, not a change in being. The verb's wide canon range (108 occurrences) is exactly why this and the denials must be read in distinct registers.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "Gen.6.6"
+        "macula_anchor": "Gen.6.6",
+        "reasoning": "Narrative report that the LORD (YHWH) 'was grieved' (in the Hebrew passive form (niphal, the Hebrew passive form), narrative-sequence tense (wayyiqtol, a past-tense form with a special 'and then' prefix) of 'be sorry' (H5162 nacham), tagged HC/VNw3ms) that he had made man. Read against Numbers 23:19 and 1 Samuel 15:29, the 'relent' (NHM) word-root here selects the affective range that the queried lexical entry lists for this entry (be sorry, be moved to pity, suffer grief), describing relational engagement with human wickedness, not a change in being. The verb's wide canon range (108 occurrences) is exactly why this and the denials must be read in distinct registers."
       },
       {
         "ref": "Exod.32.14",
@@ -343,11 +343,11 @@
             "lemma": "רַע"
           }
         ],
-        "force": "Narrative report that the LORD (YHWH) 'relented' (in the Hebrew passive form (niphal), narrative-sequence tense (wayyiqtol) of 'relent' (H5162 nacham), tagged HC/VNw3ms) from the 'evil' or 'disaster' (H7451) he had spoken to do. Same word-root denied of God in a being-and-essence sense in Numbers 23:19. Read with Jeremiah 18:7 to 10 (all three verses present in the store), where God states the 'if-then' pattern (a conditional 'if-then' clause) using 'relent' (NHM): announced judgment is contingent on continued rebellion, so the reversal is a stable conditional purpose operating, not a change in the divine counsel.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "Exod.32.14"
+        "macula_anchor": "Exod.32.14",
+        "reasoning": "Narrative report that the LORD (YHWH) 'relented' (in the Hebrew passive form (niphal), narrative-sequence tense (wayyiqtol) of 'relent' (H5162 nacham), tagged HC/VNw3ms) from the 'evil' or 'disaster' (H7451) he had spoken to do. Same word-root denied of God in a being-and-essence sense in Numbers 23:19. Read with Jeremiah 18:7 to 10 (all three verses present in the store), where God states the 'if-then' pattern (a conditional 'if-then' clause) using 'relent' (NHM): announced judgment is contingent on continued rebellion, so the reversal is a stable conditional purpose operating, not a change in the divine counsel."
       },
       {
         "ref": "1Sam.15.11",
@@ -357,11 +357,11 @@
             "lemma": "נָחַם"
           }
         ],
-        "force": "The LORD (YHWH) says 'I am grieved' (nichamti, in the Hebrew passive form (niphal, the Hebrew passive form), perfect aspect first-person-singular of 'relent' (H5162), tagged HVNp1cs) 'that I have made Saul king', and 1 Samuel 15:35 reports the 'relent' (NHM) again (tagged HVNp3ms), while 1 Samuel 15:29 between them denies that the 'Eminence' or 'Everlastingness of Israel' (Netzach Israel) does this and grounds the denial in 'because he is not man' (ki lo adam hu). The author uses the same root in two registers within one passage: accommodated covenantal response in verses 11 and 35, denial of any change-in-being in verse 29. This single chapter is the clearest case in the canon of the same verb both affirmed and denied of God.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "1Sam.15.11"
+        "macula_anchor": "1Sam.15.11",
+        "reasoning": "The LORD (YHWH) says 'I am grieved' (nichamti, in the Hebrew passive form (niphal, the Hebrew passive form), perfect aspect first-person-singular of 'relent' (H5162), tagged HVNp1cs) 'that I have made Saul king', and 1 Samuel 15:35 reports the 'relent' (NHM) again (tagged HVNp3ms), while 1 Samuel 15:29 between them denies that the 'Eminence' or 'Everlastingness of Israel' (Netzach Israel) does this and grounds the denial in 'because he is not man' (ki lo adam hu). The author uses the same root in two registers within one passage: accommodated covenantal response in verses 11 and 35, denial of any change-in-being in verse 29. This single chapter is the clearest case in the canon of the same verb both affirmed and denied of God."
       },
       {
         "ref": "Jonah.3.10",
@@ -371,11 +371,11 @@
             "lemma": "נָחַם"
           }
         ],
-        "force": "Narrative report that God 'relented' (in the Hebrew passive form (niphal, the Hebrew passive form), narrative-sequence tense (wayyiqtol) of 'relent' (H5162 nacham), tagged HC/VNw3ms) concerning the 'disaster' he said he would do to Nineveh, because they turned. This is the 'if-then' conditional pattern (a conditional 'if-then' clause) of Jeremiah 18:7 to 10 enacted: the announced judgment was contingent on continued sin, and the human turning triggers the announced alternative, while the underlying just disposition does not move. Same word-root, affective and covenantal register.",
         "supports": "complicates",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": "Jonah.3.10"
+        "macula_anchor": "Jonah.3.10",
+        "reasoning": "Narrative report that God 'relented' (in the Hebrew passive form (niphal, the Hebrew passive form), narrative-sequence tense (wayyiqtol) of 'relent' (H5162 nacham), tagged HC/VNw3ms) concerning the 'disaster' he said he would do to Nineveh, because they turned. This is the 'if-then' conditional pattern (a conditional 'if-then' clause) of Jeremiah 18:7 to 10 enacted: the announced judgment was contingent on continued sin, and the human turning triggers the announced alternative, while the underlying just disposition does not move. Same word-root, affective and covenantal register."
       },
       {
         "ref": "Ps.110.4",
@@ -393,11 +393,11 @@
             "lemma": "שָׁבַע"
           }
         ],
-        "force": "Divine oath structure with the same 'relent' (NHM) word-root negated. The queried tokens show the LORD (YHWH) 'swears' (H7650 nishba, in the Hebrew passive form (niphal, the Hebrew passive form) perfect, tagged HVNp3ms) and 'will not relent' (H3808 plus H5162, in the Hebrew passive form (niphal) imperfect tagged HVNi3ms), grounding the 'eternal' (H5769 olam) priesthood of the Melchizedek (H4442) figure. The root that is affective in Genesis 6:6 is here denied of God in the oath-keeping sense, confirming that the negated form belongs to God's fixed purposes.",
         "supports": "for",
         "genre": "wisdom",
         "figures": [],
-        "macula_anchor": "Ps.110.4"
+        "macula_anchor": "Ps.110.4",
+        "reasoning": "Divine oath structure with the same 'relent' (NHM) word-root negated. The queried tokens show the LORD (YHWH) 'swears' (H7650 nishba, in the Hebrew passive form (niphal, the Hebrew passive form) perfect, tagged HVNp3ms) and 'will not relent' (H3808 plus H5162, in the Hebrew passive form (niphal) imperfect tagged HVNi3ms), grounding the 'eternal' (H5769 olam) priesthood of the Melchizedek (H4442) figure. The root that is affective in Genesis 6:6 is here denied of God in the oath-keeping sense, confirming that the negated form belongs to God's fixed purposes."
       },
       {
         "ref": "Heb.6.17",
@@ -411,11 +411,11 @@
             "lemma": "βουλή"
           }
         ],
-        "force": "New Testament lexical capstone on divine purpose. 'Unchangeable' or 'untransferable' (ametathetos, G0276), which MorphGNT (the morphological tagging of the Greek New Testament) shows occurs only twice in the New Testament, both in Hebrews 6:17 to 18, modifies 'counsel' or 'purpose' (boule) and is reinforced by the second occurrence ('two unchangeable things', duo ametatheta pragmata). This places divine purpose and divine oath in one unchangeable category, matching the Hebrew oath-NHM (oath-relent) denial of Psalm 110:4 and Numbers 23:19. OpenBible (a cross-reference dataset) links Numbers 23:19 to Hebrews 6:18 with 86 votes.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Heb.6.17"
+        "macula_anchor": "Heb.6.17",
+        "reasoning": "New Testament lexical capstone on divine purpose. 'Unchangeable' or 'untransferable' (ametathetos, G0276), which MorphGNT (the morphological tagging of the Greek New Testament) shows occurs only twice in the New Testament, both in Hebrews 6:17 to 18, modifies 'counsel' or 'purpose' (boule) and is reinforced by the second occurrence ('two unchangeable things', duo ametatheta pragmata). This places divine purpose and divine oath in one unchangeable category, matching the Hebrew oath-NHM (oath-relent) denial of Psalm 110:4 and Numbers 23:19. OpenBible (a cross-reference dataset) links Numbers 23:19 to Hebrews 6:18 with 86 votes."
       },
       {
         "ref": "Rom.11.29",
@@ -425,11 +425,11 @@
             "lemma": "ἀμεταμέλητος"
           }
         ],
-        "force": "Divine 'gifts' (charismata) and 'calling' (klesis) are 'free of regret' or 'not to be repented of' (ametameleta, the neuter plural form of G0278 ametameletos). The 'not' compound (alpha-privative compound, an 'un-' or 'non-' prefix) from 'change one's mind' or 'feel regret' (metamelomai, the Septuagint, the Greek Old Testament (the Septuagint), stock equivalent for 'relent' (NHM)), explicitly negates regret-driven reversal in God. MorphGNT (the morphological tagging of the Greek New Testament) confirms G0278 occurs only twice in the New Testament (Romans 11:29 and 2 Corinthians 7:10), and here it is the predicate of God's gifts and call. This is the direct lexical bridge from Hebrew 'relent' (NHM) into Greek. OpenBible (a cross-reference dataset) links Numbers 23:19 to Romans 11:29 (66 votes) and James 1:17 to Romans 11:29 (8 votes).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "Rom.11.29"
+        "macula_anchor": "Rom.11.29",
+        "reasoning": "Divine 'gifts' (charismata) and 'calling' (klesis) are 'free of regret' or 'not to be repented of' (ametameleta, the neuter plural form of G0278 ametameletos). The 'not' compound (alpha-privative compound, an 'un-' or 'non-' prefix) from 'change one's mind' or 'feel regret' (metamelomai, the Septuagint, the Greek Old Testament (the Septuagint), stock equivalent for 'relent' (NHM)), explicitly negates regret-driven reversal in God. MorphGNT (the morphological tagging of the Greek New Testament) confirms G0278 occurs only twice in the New Testament (Romans 11:29 and 2 Corinthians 7:10), and here it is the predicate of God's gifts and call. This is the direct lexical bridge from Hebrew 'relent' (NHM) into Greek. OpenBible (a cross-reference dataset) links Numbers 23:19 to Romans 11:29 (66 votes) and James 1:17 to Romans 11:29 (8 votes)."
       }
     ],
     "cross_refs_invoked": [

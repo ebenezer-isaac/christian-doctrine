@@ -129,7 +129,7 @@ Write to `tmp/pipeline2_verdict/<task_id>/evidence.json`. Full schema in `docs/E
     "scripture": [{
       "ref": "<>",
       "key_terms": [{"strong": "<>", "lemma": "<>"}],
-      "force": "<dense description of what this verse contributes>",
+      "reasoning": "<dense description of what this verse contributes>",
       "supports": "for | complicates | neutral",
       "genre": "law | narrative | wisdom | prophecy | gospel | epistle | apocalyptic",
       "figures": ["<metaphor | simile | personification | chiasm | merism | idiom | hyperbole>"],

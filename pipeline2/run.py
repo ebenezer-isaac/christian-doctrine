@@ -92,7 +92,7 @@ def _build_mock_payload(question_id: str, statement: str) -> dict[str, Any]:
                 {
                     "ref": "John.1.1",
                     "key_terms": [{"strong": "G3056", "lemma": "logos"}],
-                    "force": "Mock anchor verse for placeholder evidence.",
+                    "reasoning": "Mock anchor verse for placeholder evidence.",
                     "supports": "neutral",
                     "genre": "gospel",
                     "figures": [],

@@ -79,33 +79,18 @@ def _collect_text(items: object) -> str:
     return " ".join(b for b in buf if b)
 
 
-def test_verdict_badge_renders_v31_axis_labels(tmp_path: Path) -> None:
-    """The badge surfaces the three v3.1 axes by name (breadth, directness, variants)."""
-    src = _materialize(tmp_path)
-    data = json.loads(src.read_text(encoding="utf-8"))
-    font_pair = register_unicode_font()
-    styles = build_styles(*font_pair)
-    story = build_story(data, styles, {"category": "Theology Proper"})
-    rendered = _collect_text(story)
-    assert "breadth" in rendered
-    assert "directness" in rendered
-    assert "variants" in rendered
+def test_verdict_badge_renders_plain_english_phrases(tmp_path: Path) -> None:
+    """The badge translates the three v3.1 axes into plain-English reader phrases.
 
+    Reader-facing PDFs should not surface schema taxonomy. Each axis maps to a
+    sentence the user can read without consulting the schema doc.
+    """
+    from tools.evidence_to_pdf import (
+        _BREADTH_PHRASE,
+        _DIRECTNESS_PHRASE,
+        _STABILITY_PHRASE,
+    )
 
-def test_verdict_badge_includes_affirms_and_directness_value(tmp_path: Path) -> None:
-    src = _materialize(tmp_path)
-    data = json.loads(src.read_text(encoding="utf-8"))
-    font_pair = register_unicode_font()
-    styles = build_styles(*font_pair)
-    story = build_story(data, styles, {"category": "Theology Proper"})
-    rendered = _collect_text(story)
-    assert "AFFIRMS" in rendered
-    # Directness value from the fixture is "direct"; it must render through.
-    assert "direct" in rendered
-
-
-def test_verdict_badge_renders_breadth_value(tmp_path: Path) -> None:
-    """Post-processor band name appears in the rendered badge."""
     src = _materialize(tmp_path)
     data = json.loads(src.read_text(encoding="utf-8"))
     font_pair = register_unicode_font()
@@ -113,9 +98,33 @@ def test_verdict_badge_renders_breadth_value(tmp_path: Path) -> None:
     story = build_story(data, styles, {"category": "Theology Proper"})
     rendered = _collect_text(story)
     breadth = data["verdict"]["lexical_breadth"]
-    # Renderer formats canon_wide as "canon-wide"; everything else mirrors.
-    expected = "canon-wide" if breadth == "canon_wide" else breadth
-    assert expected in rendered
+    directness = data["verdict"]["lexical_directness"]
+    stability = data["verdict"]["variant_stability"]
+    assert _BREADTH_PHRASE[breadth] in rendered
+    assert _DIRECTNESS_PHRASE[directness] in rendered
+    assert _STABILITY_PHRASE[stability] in rendered
+
+
+def test_verdict_badge_includes_affirms_label(tmp_path: Path) -> None:
+    src = _materialize(tmp_path)
+    data = json.loads(src.read_text(encoding="utf-8"))
+    font_pair = register_unicode_font()
+    styles = build_styles(*font_pair)
+    story = build_story(data, styles, {"category": "Theology Proper"})
+    rendered = _collect_text(story)
+    assert "AFFIRMS" in rendered
+
+
+def test_verdict_badge_does_not_leak_schema_taxonomy(tmp_path: Path) -> None:
+    """The reader should never see raw enum identifiers like 'canon_wide' or 'lexical_breadth'."""
+    src = _materialize(tmp_path)
+    data = json.loads(src.read_text(encoding="utf-8"))
+    font_pair = register_unicode_font()
+    styles = build_styles(*font_pair)
+    story = build_story(data, styles, {"category": "Theology Proper"})
+    rendered = _collect_text(story)
+    for taxonomy in ("canon_wide", "lexical_breadth", "lexical_directness", "variant_stability"):
+        assert taxonomy not in rendered, f"reader-facing PDF leaks schema taxonomy: {taxonomy}"
 
 
 def test_affirms_label_handles_all_states() -> None:

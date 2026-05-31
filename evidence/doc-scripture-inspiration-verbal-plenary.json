@@ -188,11 +188,11 @@
             "lemma": "θεόπνευστος"
           }
         ],
-        "force": "\"Every writing is God-breathed and profitable\" (Pasa graphe theopneustos kai ophelimos). The token order in the queried text is \"every\" (Pasa) (A-NSF), \"writing\" (graphe) (N-NSF), \"God-breathed\" (theopneustos) (A-NSF), \"and\" (kai), \"profitable\" (ophelimos). \"God-breathed\" (theopneustos) is a hapax legomenon (a word that occurs only once in the entire Bible) (queried count 1, only here) glossed God-breathed, and grammatically it is an adjective agreeing with \"writing\" (graphe). This drives the full-scope half of the claim. Whether read attributively (\"every God-breathed writing is also profitable\") or predicatively, that is, as a \"X is Y\" statement (\"every writing is God-breathed and profitable\"), the source of whatever is \"writing\" (graphe) is the breath of God. \"Every\" (Pasa) joined with anarthrous \"writing\" (graphe), that is, \"writing\" without the article \"the\", distributes (every instance), giving scope across the whole canon.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": "MACULA-Greek 2Tim.3.16"
+        "macula_anchor": "MACULA-Greek 2Tim.3.16",
+        "reasoning": "\"Every writing is God-breathed and profitable\" (Pasa graphe theopneustos kai ophelimos). The token order in the queried text is \"every\" (Pasa) (A-NSF), \"writing\" (graphe) (N-NSF), \"God-breathed\" (theopneustos) (A-NSF), \"and\" (kai), \"profitable\" (ophelimos). \"God-breathed\" (theopneustos) is a hapax legomenon (a word that occurs only once in the entire Bible) (queried count 1, only here) glossed God-breathed, and grammatically it is an adjective agreeing with \"writing\" (graphe). This drives the full-scope half of the claim. Whether read attributively (\"every God-breathed writing is also profitable\") or predicatively, that is, as a \"X is Y\" statement (\"every writing is God-breathed and profitable\"), the source of whatever is \"writing\" (graphe) is the breath of God. \"Every\" (Pasa) joined with anarthrous \"writing\" (graphe), that is, \"writing\" without the article \"the\", distributes (every instance), giving scope across the whole canon."
       },
       {
         "ref": "2 Timothy 3:17",
@@ -210,11 +210,11 @@
             "lemma": "ἔργον"
           }
         ],
-        "force": "Purpose clause introduced by \"so that\" (hina) of verse 16. God-breathed Scripture renders the man of God \"fitted\" or \"complete\" (artios) (G0739, a hapax, a word that occurs only once in the entire Bible, glossed fitted) and \"thoroughly equipped\" (exertismenos) (from \"to equip thoroughly\" (exartizo), G1822, attested only twice in the canon) for every good work. The vocabulary of completeness presupposes that the words themselves are adequate, not merely the general ideas.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Purpose clause introduced by \"so that\" (hina) of verse 16. God-breathed Scripture renders the man of God \"fitted\" or \"complete\" (artios) (G0739, a hapax, a word that occurs only once in the entire Bible, glossed fitted) and \"thoroughly equipped\" (exertismenos) (from \"to equip thoroughly\" (exartizo), G1822, attested only twice in the canon) for every good work. The vocabulary of completeness presupposes that the words themselves are adequate, not merely the general ideas."
       },
       {
         "ref": "2 Peter 1:20",
@@ -240,11 +240,11 @@
             "lemma": "ἴδιος"
           }
         ],
-        "force": "\"No prophecy of Scripture is of any private release or interpretation\" (Pasa propheteia graphes idias epilyseos ou ginetai). No prophetic writing comes from the prophet's \"own\" (idias) \"release or unloosing or interpretation\" (epilysis) (G1955, a hapax, a word that occurs only once in the entire Bible, glossed release or unloosing or interpretation). The negation targets human origin of the prophetic words, setting up the \"but\" (alla) clause in verse 21. The hapax \"release or interpretation\" (epilysis) is one reason this verse is read more than one way, but every reading still denies private human origination.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"No prophecy of Scripture is of any private release or interpretation\" (Pasa propheteia graphes idias epilyseos ou ginetai). No prophetic writing comes from the prophet's \"own\" (idias) \"release or unloosing or interpretation\" (epilysis) (G1955, a hapax, a word that occurs only once in the entire Bible, glossed release or unloosing or interpretation). The negation targets human origin of the prophetic words, setting up the \"but\" (alla) clause in verse 21. The hapax \"release or interpretation\" (epilysis) is one reason this verse is read more than one way, but every reading still denies private human origination."
       },
       {
         "ref": "2 Peter 1:21",
@@ -266,13 +266,13 @@
             "lemma": "θεός"
           }
         ],
-        "force": "\"For prophecy was never brought by the will of man, but holy men of God spoke being carried along by the Holy Spirit, from God\" (Ou gar thelemati anthropou enechthe propheteia pote, alla hypo pneumatos hagiou pheromenoi elalesan apo theou anthropoi). Both forms of \"to carry\" (phero) are passive in the queried morphology: \"was brought\" (enechthe) (G5342, aorist passive indicative, that is, a completed past action in the passive voice, was brought) and \"being carried\" (pheromenoi) (G5342, present passive participle, that is, the ongoing passive form, being carried). The passive voice is the grammatical key: the propelling agency lies outside the human speakers, in the Holy Spirit, while the men remain real speakers (\"they spoke\" (elalesan), aorist active, that is, a completed past action in the active voice). Speech originates \"from God\" (apo theou).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"For prophecy was never brought by the will of man, but holy men of God spoke being carried along by the Holy Spirit, from God\" (Ou gar thelemati anthropou enechthe propheteia pote, alla hypo pneumatos hagiou pheromenoi elalesan apo theou anthropoi). Both forms of \"to carry\" (phero) are passive in the queried morphology: \"was brought\" (enechthe) (G5342, aorist passive indicative, that is, a completed past action in the passive voice, was brought) and \"being carried\" (pheromenoi) (G5342, present passive participle, that is, the ongoing passive form, being carried). The passive voice is the grammatical key: the propelling agency lies outside the human speakers, in the Holy Spirit, while the men remain real speakers (\"they spoke\" (elalesan), aorist active, that is, a completed past action in the active voice). Speech originates \"from God\" (apo theou)."
       },
       {
         "ref": "Matthew 5:18",
@@ -294,11 +294,11 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "\"Until heaven and earth pass away, not one smallest letter or one smallest stroke shall pass from the law until all is accomplished\" (Heos an parelthe ho ouranos kai he ge, iota hen e mia keraia ou me parelthe apo tou nomou heos an panta genetai). Permanence is asserted at the level of the written marks: \"smallest letter\" (iota) (G2503, a hapax, a word that occurs only once in the entire Bible, the smallest letter) and \"smallest stroke\" (keraia) (G2762, attested only twice, a tiny stroke or serif). The negation is the emphatic \"by no means\" (ou me) with the aorist subjunctive, that is, a completed past action in the hypothetical form, \"shall pass\" (parelthe). The word-level scope is explicit: the smallest written marks, not just the message.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"Until heaven and earth pass away, not one smallest letter or one smallest stroke shall pass from the law until all is accomplished\" (Heos an parelthe ho ouranos kai he ge, iota hen e mia keraia ou me parelthe apo tou nomou heos an panta genetai). Permanence is asserted at the level of the written marks: \"smallest letter\" (iota) (G2503, a hapax, a word that occurs only once in the entire Bible, the smallest letter) and \"smallest stroke\" (keraia) (G2762, attested only twice, a tiny stroke or serif). The negation is the emphatic \"by no means\" (ou me) with the aorist subjunctive, that is, a completed past action in the hypothetical form, \"shall pass\" (parelthe). The word-level scope is explicit: the smallest written marks, not just the message."
       },
       {
         "ref": "John 10:35",
@@ -316,11 +316,11 @@
             "lemma": "γραφή"
           }
         ],
-        "force": "Parenthetical \"and the Scripture cannot be broken\" (kai ou dynatai lythenai he graphe). The queried morphology gives \"is not able\" (ou dynatai) (G1410, present indicative, that is, an ongoing simple statement of fact, is not able) plus \"to be loosed or broken\" (lythenai) (G3089, aorist passive infinitive, that is, a completed past action in the passive infinitive form, to be loosed or dissolved or annulled). The construction expresses categorical impossibility and is applied to treat a single scriptural sentence (Psalm 82:6) as binding precisely because it is \"writing\" or Scripture (graphe). Arguing from one clause presupposes that the words themselves carry the authority.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Parenthetical \"and the Scripture cannot be broken\" (kai ou dynatai lythenai he graphe). The queried morphology gives \"is not able\" (ou dynatai) (G1410, present indicative, that is, an ongoing simple statement of fact, is not able) plus \"to be loosed or broken\" (lythenai) (G3089, aorist passive infinitive, that is, a completed past action in the passive infinitive form, to be loosed or dissolved or annulled). The construction expresses categorical impossibility and is applied to treat a single scriptural sentence (Psalm 82:6) as binding precisely because it is \"writing\" or Scripture (graphe). Arguing from one clause presupposes that the words themselves carry the authority."
       },
       {
         "ref": "Matthew 22:32",
@@ -334,11 +334,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "\"I am the God of Abraham... He is not the God of the dead but of the living\" (Ego eimi ho theos Abraam... ouk estin ho theos nekron alla zonton). The queried morphology shows \"I am\" (eimi) (G1510, present active indicative, that is, an ongoing simple statement of fact in the active voice, I am) and \"He is\" (estin) (G1510, present active indicative, He is). The whole argument for the resurrection hangs on the present tense of a quoted scriptural linking verb \"is\" (the copula, the linking verb 'is') rather than a past tense. This is among the clearest cases anywhere in the Bible where a doctrine is drawn from a single grammatical feature of the wording, direct evidence for the word-level aspect of inspiration.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"I am the God of Abraham... He is not the God of the dead but of the living\" (Ego eimi ho theos Abraam... ouk estin ho theos nekron alla zonton). The queried morphology shows \"I am\" (eimi) (G1510, present active indicative, that is, an ongoing simple statement of fact in the active voice, I am) and \"He is\" (estin) (G1510, present active indicative, He is). The whole argument for the resurrection hangs on the present tense of a quoted scriptural linking verb \"is\" (the copula, the linking verb 'is') rather than a past tense. This is among the clearest cases anywhere in the Bible where a doctrine is drawn from a single grammatical feature of the wording, direct evidence for the word-level aspect of inspiration."
       },
       {
         "ref": "Galatians 3:16",
@@ -352,11 +352,11 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "\"It does not say, and to seeds, as of many, but as of one, and to your seed, who is Christ\" (Ou legei kai tois spermasin, hos epi pollon, all hos eph henos, kai to spermati sou, hos estin Christos). The queried morphology contrasts the singular \"to seed\" (spermati) (G4690, N-DSN, that is, a dative singular noun, the to-or-for form, seed) with the plural \"to seeds\" (spermasin) (G4690, N-DPN, that is, a dative plural noun, seeds) and \"of one\" (henos) (G1520, one). The argument turns entirely on grammatical number, the difference between singular and plural in the quoted promise. Like Matthew 22:32, this shows a writer inside the canon resting an argument on the precise form of a word, the word-level aspect of inspiration in action.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "\"It does not say, and to seeds, as of many, but as of one, and to your seed, who is Christ\" (Ou legei kai tois spermasin, hos epi pollon, all hos eph henos, kai to spermati sou, hos estin Christos). The queried morphology contrasts the singular \"to seed\" (spermati) (G4690, N-DSN, that is, a dative singular noun, the to-or-for form, seed) with the plural \"to seeds\" (spermasin) (G4690, N-DPN, that is, a dative plural noun, seeds) and \"of one\" (henos) (G1520, one). The argument turns entirely on grammatical number, the difference between singular and plural in the quoted promise. Like Matthew 22:32, this shows a writer inside the canon resting an argument on the precise form of a word, the word-level aspect of inspiration in action."
       }
     ],
     "cross_refs_invoked": [

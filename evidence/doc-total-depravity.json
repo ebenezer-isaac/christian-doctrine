@@ -186,11 +186,11 @@
             "lemma": "מַחֲשָׁבָה"
           }
         ],
-        "force": "Queried token sequence in the store is H4284 'thoughts' (machshevot), H3820A 'heart' (leb), H3605 'every' (kol), H3117 'day' (yom), then H7535 'only' (raq), H3336 'formed purpose' (yetser), and H3605 'all' (kol) again with H7451 'evil' (ra) doubled. The clause 'every formed purpose of the thoughts of his heart was only evil all the day' (kol yetser machshevot libbo raq ra kol-hayyom) reads as such in English. The universal quantifier 'every' (kol) brackets the clause twice and the restrictive 'only' (raq) excludes a non-evil remainder. Note that 'only' (raq) and 'every' (kol) co-occur in 37 verses across the canon, so they are ordinary restrictive and universal particles; their force here is set by the saturating stack, not by a rare word.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried token sequence in the store is H4284 'thoughts' (machshevot), H3820A 'heart' (leb), H3605 'every' (kol), H3117 'day' (yom), then H7535 'only' (raq), H3336 'formed purpose' (yetser), and H3605 'all' (kol) again with H7451 'evil' (ra) doubled. The clause 'every formed purpose of the thoughts of his heart was only evil all the day' (kol yetser machshevot libbo raq ra kol-hayyom) reads as such in English. The universal quantifier 'every' (kol) brackets the clause twice and the restrictive 'only' (raq) excludes a non-evil remainder. Note that 'only' (raq) and 'every' (kol) co-occur in 37 verses across the canon, so they are ordinary restrictive and universal particles; their force here is set by the saturating stack, not by a rare word."
       },
       {
         "ref": "Gen.8.21",
@@ -208,11 +208,11 @@
             "lemma": "רַע"
           }
         ],
-        "force": "Queried sequence includes H3336 'formed purpose' (yetser), H3068 'the LORD' (YHWH), H3820A 'heart' (leb), the same 'heart' word again, and H7451 'evil' (ra) with 'from his youth' (mineurav). The clause 'the formed purpose of the human heart is evil from youth' (yetser leb haadam ra mineurav) declares the formed purpose of the human heart evil from youth, restating Genesis 6:5 after the flood and grounding the corruption as a constant of the post-fall human heart rather than a one-generation verdict.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried sequence includes H3336 'formed purpose' (yetser), H3068 'the LORD' (YHWH), H3820A 'heart' (leb), the same 'heart' word again, and H7451 'evil' (ra) with 'from his youth' (mineurav). The clause 'the formed purpose of the human heart is evil from youth' (yetser leb haadam ra mineurav) declares the formed purpose of the human heart evil from youth, restating Genesis 6:5 after the flood and grounding the corruption as a constant of the post-fall human heart rather than a one-generation verdict."
       },
       {
         "ref": "Jer.17.9",
@@ -230,13 +230,13 @@
             "lemma": "אָנַשׁ"
           }
         ],
-        "force": "Queried token order is H3820A 'heart' (leb), H6121A 'deceitful and twisted' (aqob), H1931 'it' (hu), H3605 'more than all' (kol, with the comparative 'min' prefix meaning 'from/more than'), H4310 'who' (mi), H0605 'incurably sick' (anush), H3045 'know' (yada). BHSA (a syntactic database of the Hebrew Bible) parses three clauses, a nominal clause (a verbless 'X is Y' clause) with PreC (the predicate complement) the adjective 'deceitful' (aqob) and Subj the determined heart, an adjectival clause for 'incurably sick' (anush), and an X-yiqtol clause (a clause where some element comes before the imperfect verb) whose subject is an interrogative pronoun phrase (IPrP, a phrase headed by a question word like 'who'). 'Deceitful' (aqob) occurs only 3 times in the canon and 'incurably sick' (anush) 17 times, clustering in Jeremiah incurable-wound language. The rhetorical 'who can know it' (mi yedaennu) functions as universal negation: no one can fathom the heart.",
         "supports": "for",
         "genre": "prophecy",
         "figures": [
           "idiom"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Queried token order is H3820A 'heart' (leb), H6121A 'deceitful and twisted' (aqob), H1931 'it' (hu), H3605 'more than all' (kol, with the comparative 'min' prefix meaning 'from/more than'), H4310 'who' (mi), H0605 'incurably sick' (anush), H3045 'know' (yada). BHSA (a syntactic database of the Hebrew Bible) parses three clauses, a nominal clause (a verbless 'X is Y' clause) with PreC (the predicate complement) the adjective 'deceitful' (aqob) and Subj the determined heart, an adjectival clause for 'incurably sick' (anush), and an X-yiqtol clause (a clause where some element comes before the imperfect verb) whose subject is an interrogative pronoun phrase (IPrP, a phrase headed by a question word like 'who'). 'Deceitful' (aqob) occurs only 3 times in the canon and 'incurably sick' (anush) 17 times, clustering in Jeremiah incurable-wound language. The rhetorical 'who can know it' (mi yedaennu) functions as universal negation: no one can fathom the heart."
       },
       {
         "ref": "Rom.3.10",
@@ -250,11 +250,11 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "MorphGNT (a tagged Greek New Testament dataset) confirms 'there is none righteous, not even one' (Ouk estin dikaios oude heis). The adverb of negation 'not' (ouk) governs the copula (the linking verb 'is') 'is' (estin), and 'not even one' (oude heis) appends a second negation plus the numeral one to foreclose any exception. Paul opens the catena (the chain of stitched-together quotations) by citing Psalm 14 (which is Psalm 13 in the LXX, the Greek Old Testament known as the Septuagint) language; the store cross-refs Romans 3:10 to Psalm 14:1 and Psalm 53:1.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (a tagged Greek New Testament dataset) confirms 'there is none righteous, not even one' (Ouk estin dikaios oude heis). The adverb of negation 'not' (ouk) governs the copula (the linking verb 'is') 'is' (estin), and 'not even one' (oude heis) appends a second negation plus the numeral one to foreclose any exception. Paul opens the catena (the chain of stitched-together quotations) by citing Psalm 14 (which is Psalm 13 in the LXX, the Greek Old Testament known as the Septuagint) language; the store cross-refs Romans 3:10 to Psalm 14:1 and Psalm 53:1."
       },
       {
         "ref": "Rom.3.11",
@@ -272,11 +272,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms two present-active articular participles (ongoing-action verbal adjectives with the article 'the') each under 'there is not' (ouk estin): 'the one understanding' (ho synion, from the lemma 'to understand' [syniemi]) and 'the one seeking God' (ho ekzeton ton theon, from the lemma 'to seek out' [ekzeteo]). The construction negates the cognitive faculty (understanding) and the volitional faculty (seeking God) in parallel, which is the verse that most directly supports corruption reaching distinct faculties.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms two present-active articular participles (ongoing-action verbal adjectives with the article 'the') each under 'there is not' (ouk estin): 'the one understanding' (ho synion, from the lemma 'to understand' [syniemi]) and 'the one seeking God' (ho ekzeton ton theon, from the lemma 'to seek out' [ekzeteo]). The construction negates the cognitive faculty (understanding) and the volitional faculty (seeking God) in parallel, which is the verse that most directly supports corruption reaching distinct faculties."
       },
       {
         "ref": "Rom.3.12",
@@ -294,11 +294,11 @@
             "lemma": "οὐδείς"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms 'all turned aside' (pantes exeklinan, with 'all' [pas] in the nominative plural, the subject form) and 'they became useless' (echreothesan, aorist passive third plural, that is, a completed past action in passive voice, from the lemma 'to be made useless' [achreioomai]). A grep of all MorphGNT files confirms 'to be made useless' (achreioomai) occurs exactly once in the New Testament, so it is a hapax (a word that occurs only once in the entire Bible) whose sense, rendered useless or made worthless, is fixed by its Psalm 14 (in the LXX, the Greek Old Testament) source rather than triangulated from other New Testament uses. The verse closes with 'there is none doing good, there is none, not as far as one' (ouk estin ho poion chrestoteta, ouk estin heos henos).",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms 'all turned aside' (pantes exeklinan, with 'all' [pas] in the nominative plural, the subject form) and 'they became useless' (echreothesan, aorist passive third plural, that is, a completed past action in passive voice, from the lemma 'to be made useless' [achreioomai]). A grep of all MorphGNT files confirms 'to be made useless' (achreioomai) occurs exactly once in the New Testament, so it is a hapax (a word that occurs only once in the entire Bible) whose sense, rendered useless or made worthless, is fixed by its Psalm 14 (in the LXX, the Greek Old Testament) source rather than triangulated from other New Testament uses. The verse closes with 'there is none doing good, there is none, not as far as one' (ouk estin ho poion chrestoteta, ouk estin heos henos)."
       },
       {
         "ref": "Rom.3.13",
@@ -312,13 +312,13 @@
             "lemma": "ἀσπίς"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms 'their throat is an open grave' (taphos aneogmenos ho larynx auton), 'they kept deceiving' (edoliousan, from the lemma 'to deceive' [dolioo]), and 'poison of asps under their lips' (ios aspidon hypo ta cheile auton). The speech organs throat, tongue, and lips are figured as instruments of death and deceit, extending the indictment to the bodily faculty of speech. The store cross-refs Romans 3:13 to Psalm 5:9 and Psalm 140:3.",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms 'their throat is an open grave' (taphos aneogmenos ho larynx auton), 'they kept deceiving' (edoliousan, from the lemma 'to deceive' [dolioo]), and 'poison of asps under their lips' (ios aspidon hypo ta cheile auton). The speech organs throat, tongue, and lips are figured as instruments of death and deceit, extending the indictment to the bodily faculty of speech. The store cross-refs Romans 3:13 to Psalm 5:9 and Psalm 140:3."
       },
       {
         "ref": "Rom.3.18",
@@ -332,11 +332,11 @@
             "lemma": "φόβος"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms 'there is no fear of God before their eyes' (ouk estin phobos theou apenanti ton ophthalmon auton). This caps the catena (the chain of stitched-together quotations) by negating the affective and reverential faculty, the fear of God, and locating the lack at the eyes. The store cross-refs Romans 3:18 to Psalm 36:1.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms 'there is no fear of God before their eyes' (ouk estin phobos theou apenanti ton ophthalmon auton). This caps the catena (the chain of stitched-together quotations) by negating the affective and reverential faculty, the fear of God, and locating the lack at the eyes. The store cross-refs Romans 3:18 to Psalm 36:1."
       },
       {
         "ref": "Eph.2.1",
@@ -354,13 +354,13 @@
             "lemma": "ἁμαρτία"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms 'being dead in the trespasses and the sins' (ontas nekrous tois paraptomasin kai tais hamartiais). The participle 'being' (ontas) is present of 'to be' (eimi), a state predicate, not an event, so death is the standing condition of the unregenerate rather than a process they undergo. The store cross-refs Ephesians 2:1 to Colossians 2:13 and to Romans 3:10, linking the death image to the catena (the chain of stitched-together quotations).",
         "supports": "for",
         "genre": "epistle",
         "figures": [
           "metaphor"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms 'being dead in the trespasses and the sins' (ontas nekrous tois paraptomasin kai tais hamartiais). The participle 'being' (ontas) is present of 'to be' (eimi), a state predicate, not an event, so death is the standing condition of the unregenerate rather than a process they undergo. The store cross-refs Ephesians 2:1 to Colossians 2:13 and to Romans 3:10, linking the death image to the catena (the chain of stitched-together quotations)."
       },
       {
         "ref": "Eph.2.3",
@@ -378,11 +378,11 @@
             "lemma": "πᾶς"
           }
         ],
-        "force": "MorphGNT (the tagged Greek New Testament dataset) confirms 'we all conducted ourselves in the desires of our flesh, doing the wills of the flesh and of the thoughts' (hemeis pantes anestraphemen pote en tais epithymiais tes sarkos hemon, poiountes ta thelemata tes sarkos kai ton dianoion). The pairing 'flesh' (sarx) plus 'thought, understanding' (dianoia) couples bodily appetite with cognition. The clause closes 'and we were by nature children of wrath' (kai emetha tekna physei orges); 'by nature' (physei) is a dative of respect (the 'to/by/with' grammatical form indicating respect or manner), and 'nature' (physis) is the strongest lexical anchor for corruption as constitutive nature, the same word the minority lens contests.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "MorphGNT (the tagged Greek New Testament dataset) confirms 'we all conducted ourselves in the desires of our flesh, doing the wills of the flesh and of the thoughts' (hemeis pantes anestraphemen pote en tais epithymiais tes sarkos hemon, poiountes ta thelemata tes sarkos kai ton dianoion). The pairing 'flesh' (sarx) plus 'thought, understanding' (dianoia) couples bodily appetite with cognition. The clause closes 'and we were by nature children of wrath' (kai emetha tekna physei orges); 'by nature' (physei) is a dative of respect (the 'to/by/with' grammatical form indicating respect or manner), and 'nature' (physis) is the strongest lexical anchor for corruption as constitutive nature, the same word the minority lens contests."
       },
       {
         "ref": "Rom.8.7",
@@ -400,11 +400,11 @@
             "lemma": "δύναμαι"
           }
         ],
-        "force": "'The mindset of the flesh is enmity toward God, for it does not submit to the law of God, neither indeed is it able' (To phronema tes sarkos echthra eis theon, to gar nomo tou theou ouch hypotassetai, oude gar dynatai). 'Mindset' (phronema) is the cognitive disposition; 'it is not able' (ou dynatai) is a present indicative (ongoing, simple statement of fact) absolute denial of capacity, not a denial of permission. The store cross-refs Romans 8:7 to Jeremiah 13:23 (can the leopard change its spots) and to 1 Corinthians 2:14.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'The mindset of the flesh is enmity toward God, for it does not submit to the law of God, neither indeed is it able' (To phronema tes sarkos echthra eis theon, to gar nomo tou theou ouch hypotassetai, oude gar dynatai). 'Mindset' (phronema) is the cognitive disposition; 'it is not able' (ou dynatai) is a present indicative (ongoing, simple statement of fact) absolute denial of capacity, not a denial of permission. The store cross-refs Romans 8:7 to Jeremiah 13:23 (can the leopard change its spots) and to 1 Corinthians 2:14."
       },
       {
         "ref": "Rom.8.8",
@@ -422,11 +422,11 @@
             "lemma": "ἀρέσκω"
           }
         ],
-        "force": "'Those who are in the flesh are not able to please God' (Hoi de en sarki ontes theo aresai ou dynantai). The articular participle 'being' (ontes, the participle 'being' with the article 'the') marks a constitutive state of being in the flesh, and 'they are not able' (ou dynantai) is a categorical denial of capacity. The verb 'to be able' (dynamai) is the semantic hinge that ties the depravity verdict to inability rather than mere disinclination.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'Those who are in the flesh are not able to please God' (Hoi de en sarki ontes theo aresai ou dynantai). The articular participle 'being' (ontes, the participle 'being' with the article 'the') marks a constitutive state of being in the flesh, and 'they are not able' (ou dynantai) is a categorical denial of capacity. The verb 'to be able' (dynamai) is the semantic hinge that ties the depravity verdict to inability rather than mere disinclination."
       },
       {
         "ref": "John.6.44",
@@ -444,11 +444,11 @@
             "lemma": "ἑλκύω"
           }
         ],
-        "force": "'No one is able to come to me unless the Father who sent me draws him' (Oudeis dynatai elthein pros me ean me ho pater ho pempsas me helkyse auton). 'No one is able' (oudeis dynatai) is an absolute negation of capacity confirmed in the store at this verse, and the 'unless' (ean me) clause sets prior divine drawing ('to draw' [helkyo]) as the necessary condition. The store cross-refs John 6:44 to John 12:32, Jeremiah 13:23, and Jeremiah 31:3.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'No one is able to come to me unless the Father who sent me draws him' (Oudeis dynatai elthein pros me ean me ho pater ho pempsas me helkyse auton). 'No one is able' (oudeis dynatai) is an absolute negation of capacity confirmed in the store at this verse, and the 'unless' (ean me) clause sets prior divine drawing ('to draw' [helkyo]) as the necessary condition. The store cross-refs John 6:44 to John 12:32, Jeremiah 13:23, and Jeremiah 31:3."
       },
       {
         "ref": "1Cor.2.14",
@@ -466,11 +466,11 @@
             "lemma": "δύναμαι"
           }
         ],
-        "force": "'The natural man does not receive the things of the Spirit of God, for they are foolishness to him, and he is not able to know them' (Psychikos de anthropos ou dechetai ta tou pneumatos tou theou, moria gar auto estin, kai ou dynatai gnonai). 'He does not receive' (ou dechetai) negates reception and 'he is not able to know' (ou dynatai gnonai) negates the cognitive faculty of knowing spiritual things, pairing will and mind.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'The natural man does not receive the things of the Spirit of God, for they are foolishness to him, and he is not able to know them' (Psychikos de anthropos ou dechetai ta tou pneumatos tou theou, moria gar auto estin, kai ou dynatai gnonai). 'He does not receive' (ou dechetai) negates reception and 'he is not able to know' (ou dynatai gnonai) negates the cognitive faculty of knowing spiritual things, pairing will and mind."
       }
     ],
     "cross_refs_invoked": [

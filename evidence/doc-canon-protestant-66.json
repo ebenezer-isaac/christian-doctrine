@@ -156,11 +156,11 @@
             "lemma": "ψαλμός"
           }
         ],
-        "force": "The risen Christ enumerates the older Scriptures under three rubrics, 'in the Law of Moses and the Prophets and Psalms' (ἐν τῷ νόμῳ Μωϋσέως καὶ τοῖς προφήταις καὶ ψαλμοῖς). All three head words are present in the verified token sequence, 'law' (νόμος), 'prophet' (προφήτης), 'psalm' (ψαλμός). The threefold naming matches the Hebrew arrangement, Torah, Prophets, and Writings with Psalms at the head of the third section. The naming bounds the older collection by structural division, but it lists divisions, not a count of books, so it does not by itself fix a total.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The risen Christ enumerates the older Scriptures under three rubrics, 'in the Law of Moses and the Prophets and Psalms' (ἐν τῷ νόμῳ Μωϋσέως καὶ τοῖς προφήταις καὶ ψαλμοῖς). All three head words are present in the verified token sequence, 'law' (νόμος), 'prophet' (προφήτης), 'psalm' (ψαλμός). The threefold naming matches the Hebrew arrangement, Torah, Prophets, and Writings with Psalms at the head of the third section. The naming bounds the older collection by structural division, but it lists divisions, not a count of books, so it does not by itself fix a total."
       },
       {
         "ref": "Luke.11.51",
@@ -178,13 +178,13 @@
             "lemma": "ἐκζητέω"
           }
         ],
-        "force": "Jesus brackets the murdered righteous 'from the blood of Abel to the blood of Zechariah' (ἀπὸ αἵματος Ἅβελ ἕως αἵματος Ζαχαρίου), with 'Abel' (Ἅβελ) and 'altar' (θυσιαστήριον) verified in the token sequence and Zechariah tracked as a named person rather than a tagged lemma (the dictionary form of the word). Abel is killed in Genesis 4 and the Zechariah killed by the altar is recorded in 2 Chronicles 24, and both endpoint verses are confirmed as Old Testament verses in the canon. The first to last span fits the Hebrew arrangement that begins with Genesis and ends with 2 Chronicles, so the saying presupposes a bounded older corpus, though it states a span and not a numbered list.",
         "supports": "for",
         "genre": "gospel",
         "figures": [
           "merism"
         ],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Jesus brackets the murdered righteous 'from the blood of Abel to the blood of Zechariah' (ἀπὸ αἵματος Ἅβελ ἕως αἵματος Ζαχαρίου), with 'Abel' (Ἅβελ) and 'altar' (θυσιαστήριον) verified in the token sequence and Zechariah tracked as a named person rather than a tagged lemma (the dictionary form of the word). Abel is killed in Genesis 4 and the Zechariah killed by the altar is recorded in 2 Chronicles 24, and both endpoint verses are confirmed as Old Testament verses in the canon. The first to last span fits the Hebrew arrangement that begins with Genesis and ends with 2 Chronicles, so the saying presupposes a bounded older corpus, though it states a span and not a numbered list."
       },
       {
         "ref": "Rom.3.2",
@@ -202,11 +202,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "'they were entrusted with the oracles of God' (ἐπιστεύθησαν τὰ λόγια τοῦ θεοῦ). The verb form 'they were entrusted' (ἐπιστεύθησαν) is a passive of 'to entrust or believe' (πιστεύω) locating the trust with the Jewish people, and 'oracle' (λόγιον) occurs only four times in the New Testament, here and in Acts 7:38, Hebrews 5:12, and 1 Peter 4:11. 'oracle' (λόγιον) means an oracle or divine utterance and is not itself a word for a fixed book list, so it identifies the custodial line of the older Scripture by community rather than enumerating titles.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'they were entrusted with the oracles of God' (ἐπιστεύθησαν τὰ λόγια τοῦ θεοῦ). The verb form 'they were entrusted' (ἐπιστεύθησαν) is a passive of 'to entrust or believe' (πιστεύω) locating the trust with the Jewish people, and 'oracle' (λόγιον) occurs only four times in the New Testament, here and in Acts 7:38, Hebrews 5:12, and 1 Peter 4:11. 'oracle' (λόγιον) means an oracle or divine utterance and is not itself a word for a fixed book list, so it identifies the custodial line of the older Scripture by community rather than enumerating titles."
       },
       {
         "ref": "2Pet.3.15",
@@ -220,11 +220,11 @@
             "lemma": "ἐπιστολή"
           }
         ],
-        "force": "Peter calls Paul 'our beloved brother Paul' (ὁ ἀγαπητὸς ἡμῶν ἀδελφὸς Παῦλος) and credits the wisdom given to him in his written 'letters' (ἐπιστολαί, plural of ἐπιστολή). The framing classes Paul's correspondence as written under given wisdom for the churches, the precondition for treating that correspondence inside the writing category, but it names no list of letters.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "Peter calls Paul 'our beloved brother Paul' (ὁ ἀγαπητὸς ἡμῶν ἀδελφὸς Παῦλος) and credits the wisdom given to him in his written 'letters' (ἐπιστολαί, plural of ἐπιστολή). The framing classes Paul's correspondence as written under given wisdom for the churches, the precondition for treating that correspondence inside the writing category, but it names no list of letters."
       },
       {
         "ref": "2Pet.3.16",
@@ -242,11 +242,11 @@
             "lemma": "λοιπός"
           }
         ],
-        "force": "'in all his letters' (ἐν πάσαις ταῖς ἐπιστολαῖς), then 'which the untaught and unstable distort as also the rest of the writings' (ἃ οἱ ἀμαθεῖς καὶ ἀστήρικτοι στρεβλοῦσιν ὡς καὶ τὰς λοιπὰς γραφάς). The token sequence verifies 'letter' (ἐπιστολή), 'writing or Scripture' (γραφή), and 'rest or remaining' (λοιπός) in order. The phrase 'the rest of the writings' (τὰς λοιπὰς γραφάς) places Paul's letters in the same category as the other 'writings' (γραφαί, plural of γραφή). This is the single explicit New Testament point where apostolic letters are reflexively grouped with 'writing or Scripture' (γραφή). It fixes the category but uses the open word 'the rest' (which does not specify how many or which ones), which does not enumerate which writings or close a count.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'in all his letters' (ἐν πάσαις ταῖς ἐπιστολαῖς), then 'which the untaught and unstable distort as also the rest of the writings' (ἃ οἱ ἀμαθεῖς καὶ ἀστήρικτοι στρεβλοῦσιν ὡς καὶ τὰς λοιπὰς γραφάς). The token sequence verifies 'letter' (ἐπιστολή), 'writing or Scripture' (γραφή), and 'rest or remaining' (λοιπός) in order. The phrase 'the rest of the writings' (τὰς λοιπὰς γραφάς) places Paul's letters in the same category as the other 'writings' (γραφαί, plural of γραφή). This is the single explicit New Testament point where apostolic letters are reflexively grouped with 'writing or Scripture' (γραφή). It fixes the category but uses the open word 'the rest' (which does not specify how many or which ones), which does not enumerate which writings or close a count."
       },
       {
         "ref": "1Tim.5.18",
@@ -260,11 +260,11 @@
             "lemma": "νόμος"
           }
         ],
-        "force": "'for the Scripture says' (λέγει γὰρ ἡ γραφή), then two quotations, 'You shall not muzzle an ox that treads out the grain' (Βοῦν ἀλοῶντα οὐ φιμώσεις) from Deuteronomy 25:4 and 'the worker deserves his wages' (Ἄξιος ὁ ἐργάτης τοῦ μισθοῦ αὐτοῦ), which is the wording of Luke 10:7. A single 'Scripture' (γραφή) formula introduces an Old Testament text and a Gospel saying together. This shows the writing category already reaching a New Testament saying, while still not naming a numbered set.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for the Scripture says' (λέγει γὰρ ἡ γραφή), then two quotations, 'You shall not muzzle an ox that treads out the grain' (Βοῦν ἀλοῶντα οὐ φιμώσεις) from Deuteronomy 25:4 and 'the worker deserves his wages' (Ἄξιος ὁ ἐργάτης τοῦ μισθοῦ αὐτοῦ), which is the wording of Luke 10:7. A single 'Scripture' (γραφή) formula introduces an Old Testament text and a Gospel saying together. This shows the writing category already reaching a New Testament saying, while still not naming a numbered set."
       },
       {
         "ref": "2Tim.3.16",
@@ -278,11 +278,11 @@
             "lemma": "θεόπνευστος"
           }
         ],
-        "force": "'all Scripture is God-breathed' (πᾶσα γραφὴ θεόπνευστος). The word 'God-breathed' (θεόπνευστος) occurs only here in the whole New Testament, a single occurrence (what scholars call a hapax, a word that occurs only once in the entire Bible), so its precise sense cannot be triangulated across the canon. With anarthrous 'Scripture' (γραφή, without the article 'the') and 'all' (πᾶσα) the clause marks the recognized writing as wholly God-breathed, but it does not define the membership of that collection.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'all Scripture is God-breathed' (πᾶσα γραφὴ θεόπνευστος). The word 'God-breathed' (θεόπνευστος) occurs only here in the whole New Testament, a single occurrence (what scholars call a hapax, a word that occurs only once in the entire Bible), so its precise sense cannot be triangulated across the canon. With anarthrous 'Scripture' (γραφή, without the article 'the') and 'all' (πᾶσα) the clause marks the recognized writing as wholly God-breathed, but it does not define the membership of that collection."
       }
     ],
     "cross_refs_invoked": [

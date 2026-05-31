@@ -142,7 +142,7 @@ class KeyTerm(_Strict):
 class ScriptureRef(_Strict):
     ref: str = Field(min_length=1)
     key_terms: list[KeyTerm] = Field(min_length=1)
-    force: str = Field(min_length=1)
+    reasoning: str = Field(min_length=1)
     supports: Supports
     genre: Genre
     figures: list[Figure] = Field(default_factory=list)

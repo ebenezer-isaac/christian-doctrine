@@ -118,11 +118,11 @@
             "lemma": "אָדָם"
           }
         ],
-        "force": "The Hebrew reads 'the man' (ha-adam) with the definite article 'the', parsed as a common noun, and says he became a living being. This articular (with the article 'the') generic is exactly where the readings can diverge. But this same clause is the verse 1 Corinthians 15:45 cites and renders as the proper name 'the first man Adam' (ho protos anthropos Adam). The text itself moves from the articular 'the man' to the named individual at this hinge.",
         "supports": "neutral",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "The Hebrew reads 'the man' (ha-adam) with the definite article 'the', parsed as a common noun, and says he became a living being. This articular (with the article 'the') generic is exactly where the readings can diverge. But this same clause is the verse 1 Corinthians 15:45 cites and renders as the proper name 'the first man Adam' (ho protos anthropos Adam). The text itself moves from the articular 'the man' to the named individual at this hinge."
       },
       {
         "ref": "Gen.5.3",
@@ -132,11 +132,11 @@
             "lemma": "אָדָם"
           }
         ],
-        "force": "'And Adam lived' (wayechi adam) 130 years and begot a son in his likeness and called his name Seth. The lemma (dictionary headword) here is the proper name H0121 parsed Np (proper noun), anarthrous (without the article 'the'), governing wayyiqtol (Hebrew narrative past) biographical verbs of living, begetting, and naming. These are predicates of an individual with an age and a son, not of humankind in general.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'And Adam lived' (wayechi adam) 130 years and begot a son in his likeness and called his name Seth. The lemma (dictionary headword) here is the proper name H0121 parsed Np (proper noun), anarthrous (without the article 'the'), governing wayyiqtol (Hebrew narrative past) biographical verbs of living, begetting, and naming. These are predicates of an individual with an age and a son, not of humankind in general."
       },
       {
         "ref": "Gen.5.5",
@@ -146,11 +146,11 @@
             "lemma": "אָדָם"
           }
         ],
-        "force": "'all the days of Adam that he lived' (kol-yemei adam asher chai) were 930 years, and he died. A bounded lifespan with a death notice is predicated of the named referent. A lifespan with a beginning and an end is a property of an individual person, not of the human race.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'all the days of Adam that he lived' (kol-yemei adam asher chai) were 930 years, and he died. A bounded lifespan with a death notice is predicated of the named referent. A lifespan with a beginning and an end is a property of an individual person, not of the human race."
       },
       {
         "ref": "1Chr.1.1",
@@ -160,11 +160,11 @@
             "lemma": "אָדָם"
           }
         ],
-        "force": "'Adam, Seth, Enosh' (adam shet enosh). The proper name H0121 stands first in a bare genealogical name-list beside Seth and Enosh, both individual persons. The grammatical form is identical for all three nodes, leaving no slot for treating the first node as a category while the rest are persons.",
         "supports": "for",
         "genre": "narrative",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'Adam, Seth, Enosh' (adam shet enosh). The proper name H0121 stands first in a bare genealogical name-list beside Seth and Enosh, both individual persons. The grammatical form is identical for all three nodes, leaving no slot for treating the first node as a category while the rest are persons."
       },
       {
         "ref": "Luke.3.38",
@@ -178,11 +178,11 @@
             "lemma": "θεός"
           }
         ],
-        "force": "'of Enos, of Seth, of Adam, of God' (tou Enos tou Seth tou Adam tou theou). Adam is the terminal node of the genealogy of Jesus, parsed N-GSM-P (noun, genitive, singular, masculine, proper), in the identical 'of-the' (tou plus genitive, the 'from-X' grammatical form) construction used for every other named ancestor such as Abraham, David, and Joseph. The chain admits no grammatical genre-shift at Adam, so Adam is read as a real ancestor like the rest.",
         "supports": "for",
         "genre": "gospel",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'of Enos, of Seth, of Adam, of God' (tou Enos tou Seth tou Adam tou theou). Adam is the terminal node of the genealogy of Jesus, parsed N-GSM-P (noun, genitive, singular, masculine, proper), in the identical 'of-the' (tou plus genitive, the 'from-X' grammatical form) construction used for every other named ancestor such as Abraham, David, and Joseph. The chain admits no grammatical genre-shift at Adam, so Adam is read as a real ancestor like the rest."
       },
       {
         "ref": "Rom.5.12",
@@ -204,11 +204,11 @@
             "lemma": "θάνατος"
           }
         ],
-        "force": "'through one man sin entered into the world' (di henos anthropou he hamartia eis ton kosmon eiselthen), and the consequence extends 'to all men' (eis pantas anthropous). The morphology is 'of one' (henos) parsed A-GSM (adjective, genitive, singular, masculine), plus 'of man' (anthropou) parsed N-GSM (noun, genitive, singular, masculine), a numerically singular one man. The one-to-all causal claim only carries if that one is a locatable individual whose single act has a real point of origin.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'through one man sin entered into the world' (di henos anthropou he hamartia eis ton kosmon eiselthen), and the consequence extends 'to all men' (eis pantas anthropous). The morphology is 'of one' (henos) parsed A-GSM (adjective, genitive, singular, masculine), plus 'of man' (anthropou) parsed N-GSM (noun, genitive, singular, masculine), a numerically singular one man. The one-to-all causal claim only carries if that one is a locatable individual whose single act has a real point of origin."
       },
       {
         "ref": "Rom.5.14",
@@ -222,11 +222,11 @@
             "lemma": "θάνατος"
           }
         ],
-        "force": "'death reigned from Adam until Moses' (ebasileusen ho thanatos apo Adam mechri Moseos). Adam, parsed N-GSM-P (noun, genitive, singular, masculine, proper), is named alongside Moses as the two fixed termini of a defined era over which death reigned. Pairing Adam with a concededly historical person across a datable interval treats both as points on the same timeline. 'a type of the one to come' (tupos tou mellontos) also makes Adam a pattern-bearing figure parallel to Christ.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'death reigned from Adam until Moses' (ebasileusen ho thanatos apo Adam mechri Moseos). Adam, parsed N-GSM-P (noun, genitive, singular, masculine, proper), is named alongside Moses as the two fixed termini of a defined era over which death reigned. Pairing Adam with a concededly historical person across a datable interval treats both as points on the same timeline. 'a type of the one to come' (tupos tou mellontos) also makes Adam a pattern-bearing figure parallel to Christ."
       },
       {
         "ref": "Rom.5.19",
@@ -244,11 +244,11 @@
             "lemma": "εἷς"
           }
         ],
-        "force": "'through the disobedience of the one man the many were constituted sinners' (dia tes parakoes tou henos anthropou hamartoloi katestathesan hoi polloi). 'of one' (henos) is parsed A-GSM (adjective, genitive, singular, masculine) and 'of man' (anthropou) N-GSM (noun, genitive, singular, masculine), 'the one man', and 'were constituted' (katestathesan) is aorist passive (a completed past action in passive voice), a past-completed constituting of the many as sinners tied to one past disobedience of one named man. The aorist (a completed past action) locates a single act at a point in time.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'through the disobedience of the one man the many were constituted sinners' (dia tes parakoes tou henos anthropou hamartoloi katestathesan hoi polloi). 'of one' (henos) is parsed A-GSM (adjective, genitive, singular, masculine) and 'of man' (anthropou) N-GSM (noun, genitive, singular, masculine), 'the one man', and 'were constituted' (katestathesan) is aorist passive (a completed past action in passive voice), a past-completed constituting of the many as sinners tied to one past disobedience of one named man. The aorist (a completed past action) locates a single act at a point in time."
       },
       {
         "ref": "1Cor.15.21",
@@ -262,11 +262,11 @@
             "lemma": "θάνατος"
           }
         ],
-        "force": "'through a man came death' (di anthropou thanatos), with 'of man' (anthropou) parsed N-GSM (noun, genitive, singular, masculine), through a man came death, paired with 'through a man came resurrection of the dead' (di anthropou anastasis nekron). The same one-man-causes structure as Romans 5, set in symmetrical referent terms with the historical risen Christ.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'through a man came death' (di anthropou thanatos), with 'of man' (anthropou) parsed N-GSM (noun, genitive, singular, masculine), through a man came death, paired with 'through a man came resurrection of the dead' (di anthropou anastasis nekron). The same one-man-causes structure as Romans 5, set in symmetrical referent terms with the historical risen Christ."
       },
       {
         "ref": "1Cor.15.22",
@@ -284,11 +284,11 @@
             "lemma": "Χριστός"
           }
         ],
-        "force": "'for just as in Adam all die, so also in Christ all shall be made alive' (osper gar en to Adam pantes apothneskousin, outos kai en to Christo pantes zoopoiethesontai). Adam is parsed N-DSM-P (noun, dative, singular, masculine, proper) with the article 'the' (to), and the 'just as . . . so' (osper . . . outos) construction sets Adam and Christ in strict syntactic parallel as articular (with the article 'the') corporate heads. Withholding a real referent from Adam breaks the symmetry that supplies the resurrection guarantee, because the Christ side of the parallel is unambiguously historical.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for just as in Adam all die, so also in Christ all shall be made alive' (osper gar en to Adam pantes apothneskousin, outos kai en to Christo pantes zoopoiethesontai). Adam is parsed N-DSM-P (noun, dative, singular, masculine, proper) with the article 'the' (to), and the 'just as . . . so' (osper . . . outos) construction sets Adam and Christ in strict syntactic parallel as articular (with the article 'the') corporate heads. Withholding a real referent from Adam breaks the symmetry that supplies the resurrection guarantee, because the Christ side of the parallel is unambiguously historical."
       },
       {
         "ref": "1Cor.15.45",
@@ -302,11 +302,11 @@
             "lemma": "ἄνθρωπος"
           }
         ],
-        "force": "'the first man Adam became a living soul' (egeneto ho protos anthropos Adam eis psychen zosan). 'man' (anthropos) is parsed N-NSM (noun, nominative, singular, masculine) and Adam N-NSM-P (noun, nominative, singular, masculine, proper). 'first man' (protos anthropos) is an ordinal claim, the first man, about the first member of a real series, and the clause quotes Genesis 2:7 in the Greek Old Testament (the Septuagint, abbreviated LXX). Paul pins the proper name to the formed individual of the Genesis narrative, the articular (with the article 'the') 'the man' (ha-adam) who became a living being.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'the first man Adam became a living soul' (egeneto ho protos anthropos Adam eis psychen zosan). 'man' (anthropos) is parsed N-NSM (noun, nominative, singular, masculine) and Adam N-NSM-P (noun, nominative, singular, masculine, proper). 'first man' (protos anthropos) is an ordinal claim, the first man, about the first member of a real series, and the clause quotes Genesis 2:7 in the Greek Old Testament (the Septuagint, abbreviated LXX). Paul pins the proper name to the formed individual of the Genesis narrative, the articular (with the article 'the') 'the man' (ha-adam) who became a living being."
       },
       {
         "ref": "1Tim.2.13",
@@ -316,11 +316,11 @@
             "lemma": "Ἀδάμ"
           }
         ],
-        "force": "'for Adam was formed first, then Eve' (Adam gar protos eplasthe, eita Eua). Adam is parsed N-NSM-P (noun, nominative, singular, masculine, proper), and 'was formed' (eplasthe) is aorist passive (completed past action in passive voice) of 'to form' (plasso), a completed formation act, sequenced 'first . . . then' (protos . . . eita), first then. The temporal-order claim is the warrant 'for' (gar) for a present instruction, which presupposes the formed referents existed in that order.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'for Adam was formed first, then Eve' (Adam gar protos eplasthe, eita Eua). Adam is parsed N-NSM-P (noun, nominative, singular, masculine, proper), and 'was formed' (eplasthe) is aorist passive (completed past action in passive voice) of 'to form' (plasso), a completed formation act, sequenced 'first . . . then' (protos . . . eita), first then. The temporal-order claim is the warrant 'for' (gar) for a present instruction, which presupposes the formed referents existed in that order."
       },
       {
         "ref": "1Tim.2.14",
@@ -330,11 +330,11 @@
             "lemma": "Ἀδάμ"
           }
         ],
-        "force": "'and Adam was not deceived, but the woman, being thoroughly deceived, fell into transgression' (kai Adam ouk epatethe, he de gyne exapatetheisa en parabasei gegonen). 'was deceived' (epatethe) and 'having been thoroughly deceived' (exapatetheisa) are predicated of distinct named subjects, asserting that two persons had different experiences of deception. A contrastive claim about who was and was not deceived presupposes two individual referents.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'and Adam was not deceived, but the woman, being thoroughly deceived, fell into transgression' (kai Adam ouk epatethe, he de gyne exapatetheisa en parabasei gegonen). 'was deceived' (epatethe) and 'having been thoroughly deceived' (exapatetheisa) are predicated of distinct named subjects, asserting that two persons had different experiences of deception. A contrastive claim about who was and was not deceived presupposes two individual referents."
       },
       {
         "ref": "Jude.1.14",
@@ -344,11 +344,11 @@
             "lemma": "Ἀδάμ"
           }
         ],
-        "force": "'the seventh from Adam, Enoch' (hebdomos apo Adam Enoch). Adam is parsed N-GSM-P (noun, genitive, singular, masculine, proper) and serves as the ordinal counting-origin of a real generational sequence, with Enoch numbered seventh from him. Counting generations from a referent treats that referent as the first individual of a countable line.",
         "supports": "for",
         "genre": "epistle",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'the seventh from Adam, Enoch' (hebdomos apo Adam Enoch). Adam is parsed N-GSM-P (noun, genitive, singular, masculine, proper) and serves as the ordinal counting-origin of a real generational sequence, with Enoch numbered seventh from him. Counting generations from a referent treats that referent as the first individual of a countable line."
       },
       {
         "ref": "Hos.6.7",
@@ -358,11 +358,11 @@
             "lemma": "אָדָם"
           }
         ],
-        "force": "'like Adam they transgressed the covenant' (ke-adam aberu berit). The token is tagged H0121 proper name Np (proper noun), reading Adam as a named individual who broke a covenant. The prefixed 'like' (ke) and the shared orthography (spelling) leave the form open also to 'like a man' or to the place Adam, so this verse is recorded as a complicating text rather than as decisive.",
         "supports": "complicates",
         "genre": "prophecy",
         "figures": [],
-        "macula_anchor": null
+        "macula_anchor": null,
+        "reasoning": "'like Adam they transgressed the covenant' (ke-adam aberu berit). The token is tagged H0121 proper name Np (proper noun), reading Adam as a named individual who broke a covenant. The prefixed 'like' (ke) and the shared orthography (spelling) leave the form open also to 'like a man' or to the place Adam, so this verse is recorded as a complicating text rather than as decisive."
       }
     ],
     "cross_refs_invoked": [
