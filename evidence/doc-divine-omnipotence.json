@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-omnipotence",
   "question_id": "doc-divine-omnipotence",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon predicates exhaustive divine capability through a stable recurring formula that pairs a negation (a 'not' word) with a universal (an 'all' or 'every' word). In Hebrew the verb H6381 'to be too wonderful or too hard' (palaʾ) stands as a niphal imperfect (the Hebrew passive form, ongoing or repeated action) under an interrogative he (a 'is it the case that' question marker), asking rhetorically whether any matter is too wonderful or too hard for the LORD (Genesis 18:14, Jeremiah 32:17, Jeremiah 32:27, Zechariah 8:6), and at Job 42:2 H3201 'to be able' (yakol, you are able) is paired with universal H3605 'all' (kol) while the negated niphal (passive form) of H1219 'to withhold or restrain' (batsar) declares no purpose can be withheld from God. The title H7706 'Almighty' (El Shadday) names God by overwhelming sufficiency. In Greek the same pattern is lexicalized by G0101 'to be impossible' (adynateo) negated at Luke 1:37 with universal G3956 'all' or 'every' (pas) and the source genitive (the 'from-X' grammatical form) G3844 'from' (para tou theou, from God), and by the formula 'all things are possible with God' (panta dynata para to theo) at Matthew 19:26, Mark 10:27, and Luke 18:27. The Greek Old Testament, the Septuagint, renders 'Almighty' (Shadday) and 'of hosts' (Sabaoth) by G3841 'Almighty' or 'ruler of all' (pantokrator), which recurs as a divine title across 2 Corinthians 6:18 and Revelation, binding the Testaments lexically (in their word-choices). Cross-genre, multi-section attestation with consistent semantics (meaning that holds steady across passages) yields a high-confidence affirmation, with the one open edge being that this vocabulary speaks to tasks and purposes and is silent on self-contradiction, which the canon itself marks at Hebrews 6:18 and 2 Timothy 2:13."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-perspicuity",
   "question_id": "doc-scripture-perspicuity",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the Torah (the first five books of the Bible), the Psalms, and a letter from Paul, the anchor clauses make the text itself the grammatical subject that reaches the ordinary recipient directly, with no go-between in the sentence structure. Deuteronomy 6:6-7 places the words on the addressee's own heart and assigns the verb to parents teaching children at home. Psalm 119:130 reads: the opening (pethach, a hapax meaning a word that occurs only once in the entire Bible) of your words gives light (or, in the Hebrew causative form 'to cause to do' called hiphil imperfect, meaning ongoing or repeated past action with the words as subject) and gives understanding (bin, also a hiphil participle) to the simple (pethi). Psalm 19:8 says the testimony of Yahweh makes the simple wise. Second Timothy 3:15 predicates of the sacred writings (hiera grammata) the present capacity (dynamena, a participle agreeing with the writings) to make wise (sophisai, an aorist infinitive meaning a completed past action in infinitive form) unto salvation through faith, not through a teaching office. The affirmative core is decided by the words themselves. The verdict is high confidence on the category, but the same vocabulary does not rank scope: it affirms that the text reaches the simple unto salvation without delimiting whether ALL content is equally clear, and the canon supplies a second pattern (Nehemiah 8:8 has Levites making it clear and giving the sense, Acts 8:31 has the official asking to be guided, 2 Peter 3:16 admits some things are hard to understand) in which mediation aids comprehension. Those two patterns are unranked by the words, which is why readers diverge on scope while agreeing on the saving core."

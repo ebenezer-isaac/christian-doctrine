@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-bodily-resurrection-all",
   "question_id": "doc-bodily-resurrection-all",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The claim that both the just and the unjust are bodily raised is grounded in a dense, pan-canonical (spread across the whole Bible) lexical pattern. Daniel 12:2 uses 'many' (rabbim) of those sleeping in 'soil of dust' (admat aphar), waking with the verb 'to awake' (quts), then partitioned by a doubled 'these' (eleh) into everlasting life and everlasting 'contempt' (deraon). John 5:28-29 places 'all those in the tombs' (pantes hoi en tois mnemeiois) under one 'resurrection' (anastasis) governed by twin genitives (noun forms in the 'of-X' grammatical form) 'of life' (zoes) and 'of judgment' (kriseos). Acts 24:15 makes the scope explicit by the 'both-and' (te-kai) construction coordinating 'just' (dikaion) and 'unjust' (adikon) under a single future 'resurrection' (anastasis). The witness is dense and not variant-sensitive at any cited unit, so the affirm is decisive on the both-classes claim, even though the question of one timing versus two is a separate lexical question."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-sole-mediator",
   "question_id": "doc-christ-sole-mediator",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Direct query of the Greek tagged canon confirms the noun 'mediator' (mesites, G3316) occurs exactly 6 times in the New Testament (Galatians 3:19, Galatians 3:20, 1 Timothy 2:5, Hebrews 8:6, Hebrews 9:15, Hebrews 12:24); four name Jesus and the remaining two name the Sinai mediator whom Paul argues was bounded and singular. In 1 Timothy 2:5 the cardinal numeral 'one' (heis, G1520) stands twice in the same clause, applied to 'God' (theos) and to 'mediator' (mesites) in tight parallel, so the same word that fixes one God fixes one mediator. John 14:6 closes the pattern with the exclusive 'no one' (oudeis, G3762) plus the 'if-then' particle 'if' (ei, G1487) plus the negation 'not' (me, G3361), and the prepositional phrase 'through me' (di emou) matches 'through him' (di autou) in Hebrews 7:25 morpheme for morpheme. Acts 4:12 stacks 'in no other' (ouk en allo oudeni) and 'another name' (onoma heteron) to the same end. No New Testament occurrence of 'mediator' (mesites) names any other figure as a God-to-humanity mediator, so the numeral plus the exclusion particles jointly fix singular mediation."

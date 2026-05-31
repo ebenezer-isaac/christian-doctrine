@@ -12,14 +12,15 @@ from bd_mcp.tools.evidence_inspect import handle as evidence_inspect_handle
 from bd_mcp.tools.license_audit import LicenseAuditInput
 from bd_mcp.tools.license_audit import handle as license_audit_handle
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 
 def _materialize_trinity(tmp_path: Path) -> None:
     e = Evidence.model_validate(minimal_evidence_dict())
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     (tmp_path / "doc-trinity.json").write_text(json.dumps(e_dict, indent=2), encoding="utf-8")
 
 

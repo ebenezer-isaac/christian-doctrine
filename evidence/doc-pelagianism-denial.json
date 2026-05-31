@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-pelagianism-denial",
   "question_id": "doc-pelagianism-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition that humans cannot reach righteousness or salvation by unaided will or works, so that grace is necessary, is foreclosed by a dense recurring negation pattern. Ephesians 2:8-9 says 'grace' (charis) ... 'not of yourselves' (ouk ex hymon) ... 'not of works' (ouk ex ergon), that is, grace and not of yourselves and not of works. Titus 3:5 negates 'not of works' (ouk ex ergon) and names the alternative 'but according to his mercy he saved' (alla kata to autou eleos esosen), by his mercy he saved. Romans 9:16 sets 'not of the one willing nor of the one running but of the God who shows mercy' (ou tou thelontos oude tou trechontos alla tou eleontos theou), not of the one willing or running but of God who shows mercy. Romans 3:20 and Romans 11:6 repeat 'from works ... not' (ex ergon ... ou) and the grace-versus-works mutual exclusion. John 15:5 caps it with 'apart from me you can do nothing' (choris emou ou dynasthe poiein ouden), apart from me you can do nothing. The Old Testament supplies Jeremiah 13:23 ('to be able' (yakol) plus 'to do good' (yatab), can you do good, of those accustomed to evil) and Psalm 51:5. The explicit 'not from' (ouk ex) and 'not ... but' (ouk ... alla) negations make grace the named cause and human works the explicitly excluded cause."

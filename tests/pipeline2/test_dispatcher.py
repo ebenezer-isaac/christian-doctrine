@@ -32,7 +32,7 @@ def _bundle_for(question_id: str, _settings: Any = None) -> dict[str, Any]:
             "variant_units": [],
             "syntactic_context": [],
         },
-        "schema_version": "3.0",
+        "schema_version": "3.1",
     }
 
 
@@ -56,7 +56,7 @@ def test_init_missing_prompt_raises(tmp_path: Path) -> None:
         Pipeline2Dispatcher(settings, tmp_path / "missing.md")
 
 
-def test_dispatch_one_validates_and_scores() -> None:
+def test_dispatch_one_validates_and_attaches_bands() -> None:
     d = _dispatcher()
 
     def fake_dispatch(_prompt: str, inputs: dict[str, Any]) -> dict[str, Any]:
@@ -68,8 +68,15 @@ def test_dispatch_one_validates_and_scores() -> None:
     ):
         evidence = d.dispatch_one("doc-trinity", fake_dispatch)
     assert evidence.question_id == "doc-trinity"
-    assert evidence.verdict.lexical_score is not None
-    assert 0.0 <= evidence.verdict.lexical_score <= 1.0
+    # Post-processor must populate the v3.1 bands; LLM-set directness is preserved.
+    assert evidence.verdict.lexical_breadth in {"canon_wide", "broad", "partial", "thin"}
+    assert evidence.verdict.lexical_directness in {
+        "direct",
+        "inferred",
+        "analogical",
+        "silent",
+    }
+    assert evidence.verdict.variant_stability in {"stable", "sensitive", "not_in_scope"}
 
 
 def test_dispatch_one_passes_inputs_to_fn() -> None:
@@ -197,12 +204,14 @@ def test_load_subagent_payload_reads_disk(tmp_path: Path, monkeypatch: pytest.Mo
     assert loaded == payload
 
 
-def test_score_is_attached_after_dispatch() -> None:
+def test_bands_attached_after_dispatch_overwriting_nulls() -> None:
+    """Subagent may emit nulls for the post-processor fields; dispatcher must fill them."""
     d = _dispatcher()
 
     def fake_dispatch(_p: str, _i: dict[str, Any]) -> dict[str, Any]:
         payload = minimal_evidence_dict()
-        payload["verdict"]["lexical_score"] = None
+        payload["verdict"]["lexical_breadth"] = None
+        payload["verdict"]["variant_stability"] = None
         return payload
 
     with patch(
@@ -210,5 +219,7 @@ def test_score_is_attached_after_dispatch() -> None:
         side_effect=_bundle_for,
     ):
         evidence = d.dispatch_one("doc-trinity", fake_dispatch)
-    assert evidence.verdict.lexical_score is not None
-    assert evidence.verdict.lexical_score > 0
+    assert evidence.verdict.lexical_breadth is not None
+    assert evidence.verdict.lexical_breadth in {"canon_wide", "broad", "partial", "thin"}
+    assert evidence.verdict.variant_stability is not None
+    assert evidence.verdict.variant_stability in {"stable", "sensitive", "not_in_scope"}

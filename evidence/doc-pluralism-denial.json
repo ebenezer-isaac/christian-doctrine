@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-pluralism-denial",
   "question_id": "doc-pluralism-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.825,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The New Testament lexical pattern across the four anchor passages is convergent and exclusivist with no opening for parallel saving paths. John 14:6 pairs the emphatic 'I am' (ego eimi) with three nouns introduced by 'the' (articular predicate nominatives, that is, nouns completing a 'X is Y' statement): 'the way' (he hodos), 'the truth' (he aletheia), 'the life' (he zoe), and then closes every route with 'no one comes to the Father except through me' (oudeis erchetai pros ton patera ei me di emou), a universal negation plus a single exceptive clause. Acts 4:12 stacks four negators: 'not' (ouk), 'in no one' (oudeni), 'neither' (oude), and the impersonal 'it is necessary' (dei) around two distinct words for 'other', namely 'other' of the same kind (allos, numerical other) and 'other' of a different kind (heteros, qualitatively other), binding salvation to the one 'name' (onoma). 1 Timothy 2:5 applies the numeral 'one' (heis) twice, 'one God' (heis theos) and 'one mediator' (heis mesites), so that a single go-between is mathematically fixed. 1 John 5:11-12 ties 'eternal life' (zoe aionios) to the Son with a participial antithesis, 'the one having' (ho echon) and 'the one not having' (ho me echon), and the negation 'does not have the life' (ten zoen ouk echei). The denial of pluralism (that other religions are independent saving paths) is therefore strongly grounded. A separate, lexically distinct sub-question (whether saving access requires explicit faith in Christ, the exclusivist reading, or may reach some who never heard, the inclusivist reading) is left open by these words, because both readings still route salvation through the one named Christ and so both deny pluralism."

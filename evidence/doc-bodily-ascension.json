@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-bodily-ascension",
   "question_id": "doc-bodily-ascension",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Four authors describe the departure with concrete verbs of physical elevation parsed as passives of external agency (meaning someone or something outside the subject is doing the lifting): \"he was lifted up\" (ἐπήρθη, a completed past action in passive form, Acts 1:9), \"he was being carried up\" (ἀνεφέρετο, an ongoing past action in passive form, Luke 24:51), and \"having been taken up\" / \"he was taken up\" (ἀναλημφθεὶς and ἀνελήμφθη, a completed past participle and indicative form of the verb \"to take up\" (ἀναλαμβάνω), Acts 1:11 and 1 Timothy 3:16), each paired with the phrase \"into heaven\" (εἰς τὸν οὐρανόν). The subject is fixed as touchable flesh by Luke 24:39, where Jesus says \"touch me\" (ψηλαφήσατέ με) and adds \"flesh and bones\" (σάρκα καὶ ὀστέα). Acts 1:11 names the ascended one \"this same Jesus\" (οὗτος ὁ Ἰησοῦς) and equates his going with his return by \"in the same manner\" (οὕτως ἐλεύσεται ὃν τρόπον). Heavy eyewitness vocabulary, \"while they were watching\" (βλεπόντων αὐτῶν), \"they were gazing intently\" (ἀτενίζοντες ἦσαν), \"you saw\" (ἐθεάσασθε), and the named place Bethany ground the scene spatially. The one polysemous foothold (the word \"to take up\" or \"to suppose\" (ὑπολαμβάνω) used of the cloud, and the \"offer up\" sense of \"to carry up\" (ἀναφέρω) elsewhere) is overridden by the surrounding passive-motion grammar and the locative phrases (phrases naming a place)."

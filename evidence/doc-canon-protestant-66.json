@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-canon-protestant-66",
   "question_id": "doc-canon-protestant-66",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.895,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The vocabulary marks a category and two brackets but never states a number. In Luke 24:44 the risen Christ names the older Scriptures under three rubrics, 'in the Law of Moses and the Prophets and Psalms' (ἐν τῷ νόμῳ Μωϋσέως καὶ τοῖς προφήταις καὶ ψαλμοῖς), a threefold naming that matches the Hebrew arrangement with Psalms heading the third section. In Luke 11:51 the line of murdered righteous runs 'from the blood of Abel to the blood of Zechariah' (ἀπὸ αἵματος Ἅβελ ἕως αἵματος Ζαχαρίου), a bracket whose endpoints sit in the first and last books of the Hebrew arrangement, Genesis 4 and 2 Chronicles 24, both confirmed in the canon as Old Testament verses. Romans 3:2 assigns 'the oracles of God' (τὰ λόγια τοῦ θεοῦ) to Israelite custody. On the apostolic side 2 Peter 3:16 places Paul's 'letters' (ἐπιστολαί) alongside 'the rest of the writings' (τὰς λοιπὰς γραφάς), and 1 Timothy 5:18 introduces a Gospel saying with 'the Scripture says' (λέγει ἡ γραφή), so apostolic writings enter the 'writing or Scripture' (γραφή) category. The arithmetic 39 plus 27 is not a lexical datum (a fact derivable from the words themselves). The words fix a category and a bracket type, not a numbered list, which is why the verdict affirms the boundary while confidence stays medium."

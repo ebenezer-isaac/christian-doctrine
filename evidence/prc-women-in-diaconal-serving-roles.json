@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-women-in-diaconal-serving-roles",
   "question_id": "prc-women-in-diaconal-serving-roles",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.7375,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The service word-group is applied to named women densely and across multiple books. Phoebe is described as \"being a servant\" (ousan diakonon, G1249) of the church at Cenchreae and a \"patron\" or \"helper\" (prostatis) of many in Romans 16:1-2. The same servant root in its verb form, \"to serve\" (diakoneo, G1247), describes the women who ministered to Jesus out of their means in Luke 8:3, Mark 15:41, and Matthew 27:55, and the noun \"service\" or \"ministry\" (diakonia, G1248) names the mercy and relief work of Acts 6:1 and 2 Corinthians 8 and 9. Prisca is called a \"fellow worker\" (synergos, G4904); Mary, Tryphaena, Tryphosa, and Persis \"labored hard\" (kopiao, G2872) in the Lord; Euodia and Syntyche struggled alongside Paul in the gospel; Tabitha is full of good works and \"almsgiving\" (eleemosyne, G1654, Acts 9:36); and older women are \"teachers of good\" (kalodidaskaloi) in Titus 2:3, teaching younger women. The vocabulary uniformly and repeatedly attaches significant serving, mercy, patronage, gospel-labor, and women-to-women instruction to women, which is exactly the non-authoritative scope the proposition claims. The one lexically contested datum, whether \"servant\" or \"deacon\" (diakonos) in Romans 16:1 and the phrase \"women likewise\" (gynaikas hosautos) in 1 Timothy 3:11 denote a recognized deacon office, bears on office and authority, not on the serving roles in view, so the affirmation stands with high confidence."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-truthfulness",
   "question_id": "doc-scripture-truthfulness",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern is dense, spread across the whole Bible (pan-canonical), and converging. In queried canon data the Hebrew truth root \"to be firm or reliable\" (אמן, aman) surfaces as \"truth or firmness\" (אֱמֶת, emeth) at 108 token occurrences across 106 verses, predicated of God's word in Psalm 119:160 (רֹאשׁ דְּבָרְךָ אֱמֶת, \"the head or sum of your word is truth\", with the truth-word as a noun completing a 'X is Y' statement, that is, a predicate noun tagged HNcfsa), and predicated of His works and precepts in Psalm 111:7. The cognate noun \"faithfulness or reliability\" (אֱמוּנָה, emunah) at 35 occurrences carries the same statement in Psalm 119:86 under the all-inclusive quantifier \"all or every\" (כֹּל, kol). The speech-purity image binds \"utterance or saying\" (אִמְרָה, imrah) at 34 occurrences to the metallurgical verb \"to refine in a crucible\" (צרף, tsaraph) in Proverbs 30:5 and Psalm 12:6. On the Greek side \"truth\" (ἀλήθεια, aletheia) at 110 occurrences across 99 verses stands without the article 'the' (anarthrous) in the predicate slot of the linking verb 'is' (the copula) in John 17:17 (ὁ λόγος ὁ σὸς ἀλήθειά ἐστιν, \"your word is truth\"), an identification not a mere attribute. John 10:35 negates \"to be able\" (δύναμαι, dunamai) with the completed-past passive infinitive \"to be loosed or annulled\" (λυθῆναι, luthenai, from λύω, luo), a categorical impossibility that Scripture be broken. Titus 1:2 grounds promise in ὁ ἀψευδὴς θεός, \"the non-lying God\", where \"non-lying or unable to lie\" (ἀψευδής, apseudes) is a queried hapax (a word that occurs only once in the entire Bible, here only in Titus 1:2), an alpha-privative essential predicate (a 'not-X' adjective that names an essential property of the subject). Matthew 22:32 hangs a doctrine on the present-tense linking verb \"I am\" (Ἐγώ εἰμι, ego eimi). The stack crosses Torah, Wisdom, Psalter, Synoptic and Johannine Gospels, and a Pastoral Epistle without internal contradiction, so the property is decisively affirmed. Divergence is not over whether Scripture is true but over the sense and scope the words leave open, addressed below."

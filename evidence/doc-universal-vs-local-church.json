@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-universal-vs-local-church",
   "question_id": "doc-universal-vs-local-church",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The one dictionary word, \"assembly or church\" (ekklesia, Strong's G1577), occurs in 112 verses across 19 New Testament books, and its base sense is a summoned assembly, the gloss carried by every tagged token and confirmed by its plainly secular use for the civic crowd at Ephesus in Acts 19:32 and Acts 19:39. That same noun is bounded to a single place in 1 Corinthians 1:2 (the \"assembly or church\" (ekklesia) that is at Corinth) and stands in the plural for many distinct local bodies in Galatians 1:2, Romans 16:16, and Revelation 1:4 (the \"assemblies or churches\" (ekklesiai)), while in Ephesians 1:22, Colossians 1:18, and Matthew 16:18 the unmodified singular names the whole company over which Christ is head and which he builds, with no geographic limit. The local and the trans local referents are therefore both directly attested in the words. Confidence is high because the contrast is visible in plain context across many books with no textual variant disturbing it, and pan_canonical (spread across the whole Bible) is true on the New Testament corpus distribution; the genuine open question the words leave is only whether the universal singular is one entity or a generic abstraction, not whether both senses exist."

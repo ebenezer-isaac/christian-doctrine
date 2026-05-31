@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-gambling",
   "question_id": "prc-gambling",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "analogical",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "No Hebrew or Greek dictionary word (lemma, the base form of a word) in the canon names gambling, a wager, or a game of chance for money. The proposition is reached only by analogia scripturae (the principle of letting Scripture interpret Scripture by comparing related passages) from nearby money-ethics texts, and there the word-level signal is dense and consistent. The settled wish to be rich is condemned in 1 Timothy 6:9-10 by way of 'wishing to be rich' (boulomai-ploutein), 'craving' (epithumia), 'reaching out for' (orego), and 'love of money' (philarguria), which is a New Testament hapax (a word that occurs only once in the entire New Testament). Wealth from emptiness is contrasted with wealth gathered by hand in Proverbs 13:11 by way of 'wealth' (hon), 'vapor or emptiness' (hebel), 'gathering by hand' (qabats-al-yad), and 'dwindling' (ma'at) versus 'increasing' (rabah). Hastening to be rich is censured in Proverbs 28:20-22 by way of 'hurrying' ('uts) and 'being in haste' (bahal), set alongside 'wealth' (hon) and the cognates of 'to be rich' (plouteo). The post-theft ethic is productive labor that yields a surplus to share in Ephesians 4:28 by way of 'stealing' (klepto), 'laboring hard' (kopiao), 'working' (ergazomai), 'the good' (agathon), and 'sharing' (metadidomi). That converging witness leans the application toward affirmation. Two complicating patterns keep the verdict properly contested. In the canon the lot, 'goral' in Hebrew and 'kleros' in Greek, is consistently a decision-making or portion-assigning instrument under divine providence (Proverbs 16:33, Proverbs 18:18, Acts 1:26, and the allotment passages in Numbers and Joshua) and never a wager for gain, so it neither warrants nor forbids commercial chance. And trading at risk for return is commended in Matthew 25:16 by way of 'he traded with them' (ergazomai-en-autois). The words address the disposition, the velocity, the means, and the neighbor effect of acquisition, but they do not isolate gambling from other forms of acquisitive risk. The verdict is therefore disputed on scope grounds, with medium confidence because the surrounding ethic is pan-canonical (spread across the whole Bible) and stable even though the target practice is unnamed."

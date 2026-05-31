@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-open-vs-closed-communion",
   "question_id": "prc-open-vs-closed-communion",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7375,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The table texts set conditions for partaking that are self-directed and moral, but they do not settle by word meaning alone whether admission is governed by the universal body of believers, by a believer known to be walking with the Lord, or by membership in a bounded local assembly. In 1 Corinthians 11 the command 'let him examine' (dokimazeto heauton), meaning 'let a person examine himself,' aims the test at the self and the manner of partaking, 'unworthily' (anaxios, an adverb of manner). The next clause warns the one 'not discerning the body' (me diakrinon to soma), but 'discern or doubt' (diakrino) is attested across the canon in two senses, discern versus doubt or contend, and 'the body' (to soma) can mean either the bread of the Lord's Supper or the corporate church, so the words do not rank the readings. 1 Corinthians 10:17 presses 'one' (heis) and 'all' (pantes), one bread and all partake, toward inclusion, while 1 Corinthians 5:11 forbids 'even to eat with' (synesthiein) a so-called brother in named scandal, which presumes a community that can identify and judge. The qualifiers about denominational affiliation and baptismal mode are post-canonical categories (ideas formed after the New Testament was written) with no anchor lemma (no underlying Greek or Hebrew word the analysis can rest on), so the scope of the table remains materially contested."

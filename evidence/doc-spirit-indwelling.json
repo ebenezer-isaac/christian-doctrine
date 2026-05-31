@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-indwelling",
   "question_id": "doc-spirit-indwelling",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-level pattern is dense, recurring, and convergent across the New Testament. Three distinct residence verbs are used of the Spirit in believers: 'dwells' (oikeo) in the present indicative (an ongoing, simple statement of fact), as in 'the Spirit of God dwells in you', Romans 8:9, 1 Corinthians 3:16; the intensified compound 'in-dwells' (enoikeo), as in 'the Spirit indwelling us', Romans 8:11, 2 Timothy 1:14; and 'stays' (meno), as in 'the Spirit of truth stays alongside you', John 14:17. Each of these verbs carries the locative phrase 'in you' (en hymin) or 'in us' (en hemin). The 'temple' image (naos) at 1 Corinthians 3:16, 6:19, and 2 Corinthians 6:16, plus the pledge terms 'downpayment' (arrabon) and 'sealed' (sphragizo) at Ephesians 1:13-14, add a second and third independent line of evidence. The negative test in Romans 8:9, 'if anyone does not have the Spirit of Christ, this one is not his' (ei tis pneuma Christou ouk echei, houtos ouk estin autou), makes possession of the indwelling Spirit coextensive with belonging to Christ, leaving no class of true believer without the Spirit. Permanence is encoded by 'into the age' (eis ton aiona) in John 14:16 and 'downpayment' (arrabon) in Ephesians 1:14. The same dwelling verb 'dwells' (oikeo) also takes sin as its subject in Romans 7:17-20, which shows the verb is location-neutral (it names residence without naming the resident) and the doctrine rides on the subject of the sentence, the Spirit, not on the verb alone. But every occurrence with the Spirit as subject points in one direction."

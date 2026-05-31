@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-financial-transparency",
   "question_id": "prc-financial-transparency",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.725,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The middle participle (a verb form where the subject is acting in its own interest) 'arranging this' (stellomenoi) in 2 Corinthians 8:20 marks the apostolic team as deliberately arranging matters so that no one can blame them in administering the large gift, 'bountiful collection' (hadrotes), with 'bountiful collection' (hadrotes) itself being a New Testament hapax (a word that occurs only once in the entire Bible) that concentrates the lexical signal on this single administrative act. 2 Corinthians 8:21 then states the principle, 'we take forethought for what is honorable not only before the Lord but also before people' (pronooumen kala ou monon enopion kyriou alla kai enopion anthropon), taking forethought for what is honorable not only before the Lord but also before people, and the same triplet 'take forethought' (pronoeo) plus 'honorable things' (kala) plus 'before people' (enopion anthropon) recurs in Romans 12:17, showing this is a settled Pauline ethical formula for visible accountability rather than a one-off. The fund-bearer in 8:19 is 'hand-appointed by the churches' (cheirotonetheis hypo ton ekklesion), appointed by the churches, and Acts 6:3-6 shows the 'multitude' (plethos) selecting trusted men whom the apostles then 'set over' (kathistemi) the daily 'service' (diakonia), both witnessing plural oversight and congregational involvement. The cluster of administrative terms across two genres converges cleanly on the proposition with no lexical counter-signal."

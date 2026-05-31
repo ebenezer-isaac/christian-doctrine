@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-tongues-as-evidence-of-salvation",
   "question_id": "prc-tongues-as-evidence-of-salvation",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": false,
-    "lexical_score": 0.7375,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The lexical pattern that closes the door on the proposition is concentrated in 1 Corinthians 12:29-30, where Paul stacks five rhetorical questions each opened by the negative particle 'not' (mē, G3361) followed by 'all' (pantes, G3956), a koine Greek construction whose own grammar anticipates the answer no. Applied to tongues, 'not all speak in tongues' (mē pantes glōssais lalousin) reads, not all speak in tongues, do they. The same chapter establishes the underlying principle. 1 Corinthians 12:11 has the one Spirit 'energize' or 'work' (energei, G1754) the gifts, 'distributing to each one individually' (diairoun idia hekastō, G1538), 'just as he wills' (kathōs bouletai, G1014), a sovereign-selective clause that by definition rules out any single gift being universal. 1 Corinthians 12:13 places every believer within one Spirit baptism with the verb 'we were baptized' in a completed past action (the aorist passive ebaptisthēmen, G0907) and the inclusive 'all' (pantes, G3956), so Spirit baptism is asserted of all while tongues is denied of all, making them lexically distinct. The Acts narratives that report tongues at Pentecost, Caesarea, and Ephesus do not generalize that pattern, and Luke describes other receptions, Samaria, the Ethiopian eunuch, the jailer at Philippi, Lydia, the Athens converts, the Corinthian believers, without naming tongues at all (the Greek word for tongue, glōssa, G1100, occurs in Acts only at chapters 2, 10, and 19). Romans 8:9, Romans 8:16, Ephesians 1:13, and Galatians 3:2 ground possession of the Spirit and assurance of sonship in faith, hearing, indwelling, and the Spirit's own joint witness, not in tongues-speaking (glossolalia)."

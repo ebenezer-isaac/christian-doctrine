@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-mark-ordinances-administered",
   "question_id": "doc-mark-ordinances-administered",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7625,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Direct querying of the lexical store confirms two distinct lexical (word-level) strata. First, the institution and observance vocabulary is dense and well distributed: 'immerse or dip' (baptizo, G0907, 81 occurrences) carries the dominical (spoken by the Lord) command in Matthew 28:19 (the present participle 'while baptizing' (baptizontes) under the aorist imperative (completed-action command) 'make disciples' (matheteusate)) and the gathered conversion in Acts 2:41, while the Supper is fixed by the institution chain in 1 Corinthians 11:23-25, 'hand on' (paradidomi) and 'receive' (paralambano) (the received and delivered tradition), 'do this in remembrance of me' (touto poieite eis ten emen anamnesin) ('do' (poieo, G4160) plus 'remembrance' (anamnesin, G0364), a four-occurrence near-hapax (a word that occurs only four times in the entire Bible)), and 'breaking of the bread' (klao tou artou) (G2806 plus G0740), echoed in Acts 2:42 and Acts 20:7. So the words establish that both ordinances (commanded church practices) are commanded by Christ and habitually practiced by the assembly. Second, the store supplies no vocabulary that ranks ordinance administration as a defining note distinguishing a true visible church from a false one. The only verses pairing 'assembly or church' (ekklesia, G1577) with 'true' (alethinos, G0228) are Revelation 3:7 and 3:14, where 'true' (alethinos) titles Christ, not the church. The proposition is therefore partially grounded in commanded practice but materially contested at its load-bearing second-order claim."

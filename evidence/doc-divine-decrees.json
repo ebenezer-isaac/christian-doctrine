@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-decrees",
   "question_id": "doc-divine-decrees",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Direct word-level searches confirm a dense, recurring planning vocabulary spoken of God as fixed and effective across both Testaments. Acts 2:23 couples the perfect passive participle (a completed action whose result still stands, in the passive form) of 'to mark out' (horizo, G3724) with 'counsel' (boule, G1012) and 'foreknowledge' (prognosis, G4268), and in the same sentence charges the hearers 'you killed' (aneilate). Acts 4:28 names the determined event with 'as many things as' (hosa) plus a divine subject (the verb form 'predetermined' (proorisen) is tagged in the MACULA Greek dataset under 'to foresee' (proorao, G4275), with the parallel sense to 'to predestine' (proorizo), both rendering 'predetermined to happen'). Ephesians 1:11 escalates the scope with the present participle 'working' (energountos) plus 'all things' (ta panta) governed by 'counsel' (boule) and 'will' (thelema). Isaiah 14:24 uses the Hebrew intensive form (Piel) of 'to devise' (damah) plus the simple active form (Qal) of 'to purpose' (yaats) with the Qal of 'will stand' (qum) in the 'just as, so' (kaasher, ken) correspondence, and Isaiah 46:10, Proverbs 19:21, and Job 23:13 repeat 'counsel' (etsah) plus 'will stand' (qum) to say the LORD's counsel stands. The words assert an effective decree but do not themselves rank its EXTENT (all events versus the redemptive purpose) nor specify its relation to the real human agency the same texts affirm, so the verdict is true while the open seam is scope and mode, not existence."

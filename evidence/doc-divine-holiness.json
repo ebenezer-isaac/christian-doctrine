@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-holiness",
   "question_id": "doc-divine-holiness",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Hebrew adjective 'holy' (qadosh, H6918) is predicated of YHWH (the personal divine name of God) in dense clusters across the Law, the Prophets, and the Writings (108 tokens in 94 verses, with a heavy concentration in Isaiah using the formula 'Holy One of Israel'), and the Greek adjective 'holy' (hagios, G0040, 456 tokens in 241 verses) carries the same predication into the New Testament. The threefold 'holy, holy, holy' (Trisagion) in Isaiah 6:3 repeats 'holy' (qadosh) three times, which is the strongest superlative device biblical Hebrew has, paired with 'YHWH of hosts' and the earth filled with his 'glory' (kavod). Leviticus 11:44 has YHWH self-predicate 'holy' (qadosh) and ground Israel's consecration in it; 1 Peter 1:16 cites that formula directly with the perfect passive (a completed action whose result still stands) 'it stands written' (gegraptai) and 'I am holy' (ego hagios); and Revelation 4:8 echoes the threefold 'holy, holy, holy' (Trisagion) with threefold 'holy' (hagios) of 'Lord God Almighty' (kyrios ho theos ho pantokrator). The only reader divergence is which attested sense of the one root leads, separateness and transcendence or moral purity, and the canon supplies both without ranking them, so neither prong is unsupported."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-baptism-by-immersion",
   "question_id": "prc-baptism-by-immersion",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition bundles three claims and the original-language word evidence answers them unequally. The identification of the baptized believer with Christ's death, burial, and resurrection is firmly grounded in the completed past-tense passive forms parsed in the store: 'we were buried with' (synetaphemen, Strong's G4916, parsed as a 2nd aorist, that is a completed past action, passive, first person plural, in Romans 6:4) and the participle 'having been buried with' (syntaphentes) together with 'you were raised with' (synegerthete, G4916, 2nd aorist passive participle, nominative plural masculine, in Colossians 2:12) place burial-with and raising-with at the center of the act, and the verb 'to be buried with' (synthapto) occurs in only these two verses in the whole canon. The mode claim of full immersion is the contested element. The root verb 'to dip' (bapto, G0911) means to dip (Luke 16:24, John 13:26, Revelation 19:13), the brief lexicon glosses 'to immerse or wash' (baptizo, G0907) as to dip, immerse, sink, and 'baptism, the act of immersion' (baptisma, G0908) literally as immersion, and the going-down and coming-up narration of Acts 8:38-39 plus Mark 1:10 ('to go down' katabaino, 'to come up' anabaino, 'out of' ek, 'water' hydor) and the much-water note of John 3:23 cohere with immersion. But the same word group names ceremonial washings that need not submerge: 'to wash' (baptizo) of pre-meal hand washing (Luke 11:38) and 'a washing' (baptismos, G0909) of rinsing cups (Mark 7:4) and of the various ceremonial washings of the law applied to flesh (Hebrews 9:10, Hebrews 6:2), while 1 Corinthians 10:2 calls Israel baptized in the cloud and sea without going under. No anchor or command text states the mode. Because the mode is lexically defensible but not lexically mandated, the bundled proposition is materially contested on mode while strong on the union symbolism and the faith confession."

@@ -16,7 +16,7 @@ import pytest
 from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
 from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 
@@ -61,7 +61,8 @@ def _materialize_trinity(tmp_path: Path) -> None:
     ]
     e = Evidence.model_validate(d)
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     (tmp_path / "doc-trinity.json").write_text(json.dumps(e_dict, indent=2), encoding="utf-8")
 
 
@@ -77,9 +78,17 @@ def test_e2e_doctrinal_verdict_unit_mode(tmp_path: Path) -> None:
     )
     assert env["ok"] is True
     assert env["result"]["verdict"] is True
-    assert env["result"]["confidence"] == "high"
-    assert env["result"]["lexical_score"] is not None
-    assert env["result"]["lexical_score"] >= 0.85
+    # v3.1 envelope: the three structured axes flow through to the doctrinal_verdict result.
+    assert env["result"]["lexical_breadth"] in {"canon_wide", "broad", "partial", "thin"}
+    # Trinity fixture saturates breadth signals -> canon_wide.
+    assert env["result"]["lexical_breadth"] == "canon_wide"
+    assert env["result"]["lexical_directness"] in {
+        "direct",
+        "inferred",
+        "analogical",
+        "silent",
+    }
+    assert env["result"]["variant_stability"] in {"stable", "sensitive", "not_in_scope"}
 
 
 def test_e2e_doctrinal_verdict_envelope_has_license_audit(tmp_path: Path) -> None:

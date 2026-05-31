@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-baptism-at-conversion",
   "question_id": "doc-spirit-baptism-at-conversion",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7125,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The letters of Paul state a universal, completed initiation: the completed-past passive form (aorist passive, a single finished past action) of the Greek verb 'to immerse' (baptizo, G0907) with the preposition 'into' (eis) plus the destination noun governs all believers without remainder (1 Corinthians 12:13 'we all were baptized' (hemeis pantes ebaptisthemen, tagged V-API-1P, meaning verb aorist passive indicative first person plural); Romans 6:3 'as many as were baptized' (hosoi ebaptisthemen); Galatians 3:27 'as many as were baptized' (hosoi ebaptisthete)), and Romans 8:9 makes having the Spirit overlap exactly with belonging to Christ. Read alone, this pattern places Spirit baptism at conversion. But the same verb 'to immerse' (baptizo) in Acts is in the future tense (Acts 1:5 and 11:16 'you will be baptized' (baptisthesesthe) 'in the Spirit' (en pneumati)), and Acts narrates Spirit reception with a different verb cluster: 'to receive' (lambano), 'to fall upon' or 'to come upon' (epipipto and erchomai epi), 'laying on of hands' (epitithemi cheiras, the gesture of placing hands on someone), 'to fill' (pimplemi), sometimes after water baptism (Acts 8:16, those already baptized had the Spirit not yet fallen on them). The vocabulary itself does not rank the Pauline universal teaching-style completed-past statement above the Acts narrative-descriptive sequence, so two defensible readings stand on real lexical data."

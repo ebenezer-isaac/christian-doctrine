@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-new-heavens-new-earth",
   "question_id": "doc-new-heavens-new-earth",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-level pattern is dense and consistent across both Testaments. In Isaiah the participle 'create' (bore, H1254, a verb whose subject in the Hebrew Bible is always God, 54 occurrences across the whole canon) governs 'new heavens' (shamayim chadashim, H8064 with H2319) and 'new earth' (erets chadashah, H0776 with H2319), with Isaiah 66:22 adding the verb 'stand or endure' (amad, H5975) to mark their enduring standing. The Greek matches: 2 Peter 3:13 reads 'new heavens and a new earth' (kainous ouranous kai gen kainen) with 'righteousness dwells' (dikaiosyne katoikei), Revelation 21:1 reads 'a new heaven and a new earth' (ouranon kainon kai gen kainen), and Romans 8:19-21 supplies 'the creation' (he ktisis, G2937) 'will be set free' (eleutherothesetai), the same creation set free. The verdict is high-confidence on the proposition as stated. The renewal-versus-replacement nuance is real but lexically (at the word level) subordinate: it turns on whether 'new' (kainos, G2537, 44 occurrences) signals qualitative renewal of the same kind or substitution by a different kind, and the canon supplies both directions of usage without forcing the choice."

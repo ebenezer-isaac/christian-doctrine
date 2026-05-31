@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-women-elders-pastors-denial",
   "question_id": "doc-women-elders-pastors-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.6125,
-    "confidence": "low",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": false,
     "rationale": "The canon places restrictive wording (\"I do not permit a woman to teach or to exercise/usurp authority over a man\" (didaskein de gynaiki ouk epitrepo oude authentein andros) in 1 Timothy 2:12, and \"let them keep silent\" (sigatosan) and \"let them be in submission\" (hypotassesthosan) in 1 Corinthians 14:34) beside the male-marked office qualifications (\"husband of one wife\" (mias gynaikos andra) in 1 Timothy 3:2 and Titus 1:6) and over against texts of mutual standing and female ministry (Galatians 3:28, Phoebe called a servant/minister (Phoibe diakonos) in Romans 16:1, and the name \"Junia\" (Iounian) in Romans 16:7). The verdict turns on word-forms (lemmas, the dictionary headword forms) whose sense the words do not settle. A direct query confirms \"to exercise authority\" or \"to domineer\" (authenteo, G0831) is a hapax (a word that occurs only once in the entire Bible) at 1 Timothy 2:12, and the lexicon itself records both a neutral sense, to have full power or authority over, and a pejorative sense, to domineer, with no second canonical use to fix which is meant. The present-tense form \"I do not permit\" (epitrepo, G2010, an ongoing simple statement of fact) is the same verb used elsewhere for granting permission to speak in a particular setting, and \"to keep silent\" (sigao, G4601) appears three times in 1 Corinthians 14 (verses 28, 30, 34), the first two governing specific disorders, so the scope of the women command is contestable between an absolute prohibition and a setting-bound one. The office noun \"overseer\" (episkopos) is grammatically masculine and the \"husband of one wife\" (mias gynaikos andra) clause presupposes a married male on its surface, yet that clause can be read as a fidelity standard, and the 1 Corinthians 14:34-35 unit carries a known transposition (a passage moved to a different location in some manuscripts) the ingested apparatus cannot adjudicate. Because the same word-forms (lemmas) yield more than one grammatically defensible reading, the lexical pattern is contested rather than decisive."

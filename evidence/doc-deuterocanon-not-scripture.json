@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-deuterocanon-not-scripture",
   "question_id": "doc-deuterocanon-not-scripture",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The decisive piece of evidence is the New Testament's own citation behavior. The technical term 'Scripture' (graphē, G1124) occurs in 51 verses, and every identifiable referent is a Hebrew-canon Old Testament text or a writing the apostles recognize; no occurrence ever introduces a deuterocanonical book (one of the disputed books inserted between the Old and New Testaments). Luke 24:44 names a fixed three-part collection: 'law' (nomos), 'prophets' (prophetai), 'psalms' (psalmoi), with the verb 'having been written' (gegrammena, the perfect passive form, meaning a completed action whose result still stands), adding no fourth category. Luke 11:51 and its parallel Matthew 23:35 bracket the martyrs 'from Abel' (apo Abel) 'all the way to Zechariah' (heōs Zachariou), the first and last killings in the Hebrew ordering (Genesis 4 to 2 Chronicles 24), tracing a boundary that excludes the intertestamental period (the gap of centuries between the Old and New Testaments). Romans 3:2 restricts 'the oracles of God' (ta logia tou theou, oracles, G3051) to the deposit entrusted to the Jews. 2 Peter 3:16 places apostolic letters among 'the rest of the Scriptures' (tas loipas graphas), recognizing them into an already bounded set. The words fix the boundary negatively and by bracket, not by an explicit book list, so confidence is medium rather than high."

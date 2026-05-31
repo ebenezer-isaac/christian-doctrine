@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-amillennialism",
   "question_id": "doc-amillennialism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The whole proposition turns on six occurrences of the phrase 'a thousand years' (chilia ete) in one passage (Revelation 20:2-7), and the Greek words underdetermine the framework. The cardinal number 'thousand' (chilioi) carries no morphological marker (no built-in grammatical signal) of literal versus symbolic reference, and the same number-stem 'thousand' (chilias) is used elsewhere in the same book for figures that read most naturally as symbolic (144000, 12000 per tribe, the 12000-stadion city). The decisive verb is 'they came to life' (ezesan) from the root 'to live' (zao), which the book itself uses with multiple senses (Christ's ongoing life in Revelation 1:18, the beast revived after death-stroke in Revelation 13:14, the living creatures in Revelation 4:9-10), so the same verb cannot by itself fix whether Revelation 20:4 names bodily resurrection or non-bodily living of souls. Because two and arguably three internally consistent readings survive the morphology (word-form analysis) and concordance (catalog of every occurrence), the lexical verdict is disputed."

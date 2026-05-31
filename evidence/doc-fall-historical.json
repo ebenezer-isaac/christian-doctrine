@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-fall-historical",
   "question_id": "doc-fall-historical",
   "generated_at": "2026-05-27T08:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Genesis 3 is narrated in an unbroken wayyiqtol chain (the standard Hebrew prose-history verb chain, called wayyiqtol or consecutive-imperfect, that strings sequential past events together), running 34 consecutive-imperfect verbs (ongoing or repeated past action verbs linked in sequence), including the eating sequence 'and she took' (wattiqqach, וַתִּקַּח), 'and she ate' (wattokal, וַתֹּאכַל), 'and she gave' (wattiten, וַתִּתֵּן), 'and he ate' (wayyokal, וַיֹּאכַל), and the curse and expulsion sequence, the same prose-history verb form that carries the surrounding creation account (Genesis 2) and the toledot (the Hebrew word for 'generations' or 'family-line', H8435) genealogy of Genesis 5, with 'and he lived' (wayechi, וַיְחִי) and 'and he begot' (wayyoled, וַיּוֹלֶד) treating Adam as the first link of a datable line. Genesis contains zero parable markers (the Hebrew word 'parable' or 'figurative saying', mashal, H4912, occurs 0 times), so the text does not flag itself as figurative. Paul argues from this as a punctiliar event (a one-time event at a single point in time): in Romans 5:12 'sin' (hamartia) 'entered' (eiserchomai, G1525, aorist V-2AAI-3S, that is a completed past action in second-aorist active indicative form, a single past-tense entry) through 'one man' (henos anthropou, ἑνὸς ἀνθρώπου), and Romans 5:19 'were constituted' or 'were appointed' (katestathesan, κατεστάθησαν, from kathistemi G2525, aorist passive, a completed past action done to them) constitutes the many as sinners through one man. 1 Corinthians 15:21 to 22 repeats 'through a man' (di' anthropou, δι' ἀνθρώπου) with 'in Adam' (en to Adam, ἐν τῷ Ἀδὰμ), where Adam is morphologically tagged a proper noun (N-DSM-P, that is a proper personal name in the dative masculine singular form) in strict parallel with Christ. The genuine lexical seam is that the Eden scene mostly calls the agent 'the man' (ha-adam, הָאָדָם, the man with the article 'the', H0120), and only at Genesis 3:17 and from Genesis 5 onward uses the bare proper name 'Adam' (adam, H0121), which is the lexical room a representative reading exploits, but the narrative grammar and the Adam-Christ parallel keep the historical-agent reading dominant."

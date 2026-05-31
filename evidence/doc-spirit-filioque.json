@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-filioque",
   "question_id": "doc-spirit-filioque",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7375,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The vocabulary separates two relations with two verb families. The procession verb 'proceed' (ekporeuomai, G1607, 33 New Testament occurrences) is predicated of the Spirit exactly once, in John 15:26 ('proceeds' (ekporeuetai), an ongoing, simple statement of fact in the present middle indicative, third singular), where the subject is the neuter relative pronoun 'who' (ho, referring to the Spirit) and the only source named is 'from beside the Father' (para tou patros). In the same verse the Son is the subject of a different verb, 'I will send' (pempso, G3992, future active indicative, first singular), and John 16:7, John 14:26, and John 20:21 also use sending verbs, with the Son sending and in John 14:26 the Father sending. Galatians 4:6 uses a third verb, 'sent forth' (exapesteilen, G1821, a completed past action in the aorist), with 'God' (ho theos) as subject and the Spirit qualified by the relational genitive (the 'from-X' or possessive grammatical form) 'of his Son' (tou huiou). The lexical pattern names the Father alone as the source of the procession verb but ascribes the Spirit to the Son by genitive and ascribes a sending of the Spirit to the Son. The words do not say whether the Son-related genitive and the Son-side sending entail an eternal procession from the Son, so the proposition is disputed at the lexical level."

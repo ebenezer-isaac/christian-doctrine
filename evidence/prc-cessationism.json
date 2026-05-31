@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-cessationism",
   "question_id": "prc-cessationism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7625,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The word-level pattern at 1 Corinthians 13:8-10 is genuinely contested. Prophecy and knowledge take the future passive form of the verb meaning to be rendered inoperative or abolished (katargeo, G2673, will be rendered inoperative); tongues take the future middle form of a different verb meaning to cease (pauo, G3973, will cease); and the trigger for the abolishing verbs is the arrival of the complete or perfect thing (to teleion, G5046, neuter singular). The Greek does not, at the level of vocabulary, fix what the complete or perfect thing (to teleion) refers to. The temporal clause meaning whenever it comes (hotan elthe) leaves the date open, and the immediate context (verse 12) glosses the contrast with now (arti, G0737) seeing through a mirror in a riddle (di esoptrou en ainigmati) versus then (tote, G5119) face to face (prosopon pros prosopon, G4383), which at the word level tilts the referent toward end-of-age seeing rather than the closing of the Bible. On the other hand, Ephesians 2:20 places apostles and prophets in the foundation (themelios, G2310) of the household with Christ as the cornerstone (akrogoniaios), and Hebrews 1:1-2 and 2:3-4 cast the prophetic and sign-and-wonder vocabulary in a past-confirming frame (the salvation was confirmed, ebebaiothe; God co-witnessed, synepimartyrountos). 2 Corinthians 12:12 ties the signs of the apostle (ta semeia tou apostolou, G4592 + G0652) specifically to apostolic identity. These three vectors at the word level support a foundational reading. Neither vector dates the gifts in plain words, and the present-tense, ongoing simple-statement-of-fact gift catalog of 1 Corinthians 12:7-11 plus the standing regulatory commands of 1 Corinthians 14 and 1 Thessalonians 5:19-21 carry no expiry clause. The lexical store (the word-level data) sustains both readings without adjudicating between them, which is the textual reason this verdict lands at disputed."

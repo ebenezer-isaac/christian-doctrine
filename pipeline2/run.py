@@ -30,7 +30,7 @@ QUESTIONS_PATH = Path("questions.json")
 
 
 def _mock_dispatch(question_id: str) -> DispatchFn:
-    """Return a deterministic stub that emits a minimal v3.0 payload."""
+    """Return a deterministic stub that emits a minimal v3.1 payload."""
 
     def fn(_prompt: str, inputs: dict[str, Any]) -> dict[str, Any]:
         qid = inputs.get("question_id", question_id)
@@ -59,7 +59,7 @@ def _build_mock_payload(question_id: str, statement: str) -> dict[str, Any]:
         "as an actual verdict on the proposition under examination."
     )
     return {
-        "$schema_version": "3.0",
+        "$schema_version": "3.1",
         "id": question_id,
         "question_id": question_id,
         "generated_at": "2026-05-16T00:00:00Z",
@@ -67,8 +67,9 @@ def _build_mock_payload(question_id: str, statement: str) -> dict[str, Any]:
         "model": "mock-stub",
         "verdict": {
             "affirms": None,
-            "lexical_score": None,
-            "confidence": "low",
+            "lexical_breadth": None,
+            "lexical_directness": "silent",
+            "variant_stability": None,
             "variant_robust": True,
             "pan_canonical": False,
             "rationale": (
@@ -187,7 +188,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--validate-existing",
         action="store_true",
-        help="Re-validate every evidence/*.json against v3.0 and exit",
+        help="Re-validate every evidence/*.json against v3.1 and exit",
     )
     args = parser.parse_args(argv)
 
@@ -236,7 +237,9 @@ def main(argv: list[str] | None = None) -> int:
             evidence = _run_one(qid, dispatch_fn, dispatcher)
             print(
                 f"{qid}: affirms={evidence.verdict.affirms} "
-                f"score={evidence.verdict.lexical_score} confidence={evidence.verdict.confidence}"
+                f"breadth={evidence.verdict.lexical_breadth} "
+                f"directness={evidence.verdict.lexical_directness} "
+                f"variant={evidence.verdict.variant_stability}"
             )
     return 0
 
@@ -266,7 +269,7 @@ def _patched_context_builder(qid: str) -> AbstractContextManager[None]:
                     "variant_units": [],
                     "syntactic_context": [],
                 },
-                "schema_version": "3.0",
+                "schema_version": "3.1",
             },
         ):
             yield

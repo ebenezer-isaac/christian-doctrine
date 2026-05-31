@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-kenoticism-denial",
   "question_id": "doc-kenoticism-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The whole question rides on one verb. The verb 'to empty' (kenoo, G2758) occurs five times in the canon, and in the four uses outside Philippians 2:7 it always means to make void, render of no effect, or nullify something abstract (Romans 4:14 faith made void, 1 Corinthians 1:17 the cross emptied of power, 1 Corinthians 9:15 a boast made void, 2 Corinthians 9:3 a boast made void). It is never used in the New Testament for pouring out a physical substance. So in Philippians 2:7 'he emptied' (ekenosen, a completed past action in the active voice) is metaphorical, and it takes 'himself' (heauton, the reflexive accusative, the 'him-as-direct-object' form) as its direct object, not a list of divine attributes. The two participles that follow tell HOW he emptied himself: 'having taken' (labon) 'the form of a servant' (morphen doulou), and 'having come to be in human likeness' (en homoiomati anthropon genomenos). Both are participles of addition, not subtraction. Colossians 2:9 then says with a present indicative (an ongoing, simple statement of fact) 'dwells' (katoikei) that 'the whole fullness of deity' (pan to pleroma tes theotetos) dwells in him bodily, and Hebrews 1:3 names the incarnate Son 'radiance of the glory' (apaugasma tes doxes) who is 'sustaining all things' (pheron ta panta, present active participle, ongoing action). The lexical pattern is dense and pan-canonical (spread across the whole Bible), but the verdict honestly rests on construing one metaphorical verb by its own canon usage rather than on a literal sense the word does not carry."

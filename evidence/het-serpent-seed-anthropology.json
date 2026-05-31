@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "het-serpent-seed-anthropology",
   "question_id": "het-serpent-seed-anthropology",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Genesis 4:1 makes Adam the grammatical subject of the verb 'knew' (yada, H3045, the marital-intercourse idiom when its subject is a husband and its object his wife) and immediately follows with Eve as subject of 'conceived' (harah, H2029) and 'bore' (yalad, H3205); Cain is named directly in the same clause as the issue of that one act, with no second male agent present. Acts 17:26 makes every nation 'out of one' (ex henos, G1537 plus genitive G1520) and Romans 5:12 routes sin into the world 'through one man' (di henos anthropou, G1223 plus G0444), a one-source grammar. The apostolic interpretive gloss on the seed motif is fixed by 1 John 3:10-12, where the same 'from' (ek) paternity formula is used for both 'children of God' (tekna tou theou, G5043 + G2316) and 'children of the devil' (tekna tou diabolou, G5043 + G1228), all sides reading both as spiritual, and Cain (Kain, G2535) is called 'the brother' (adelphon, G0080) of Abel whom he slew, presupposing shared parentage. John 8:44 applies the same 'you are from the father, the devil' (hymeis ek tou patros tou diabolou, G1537 + G3962 + G1228) to people whom verse 37 has already conceded are Abraham's biological 'seed' (sperma), proving the construction is moral, not biological. 1 Timothy 2:14 labels Eve's transgression 'deception' (apate, G0538) and 'transgression' (parabasis, G3847), not sexual congress."

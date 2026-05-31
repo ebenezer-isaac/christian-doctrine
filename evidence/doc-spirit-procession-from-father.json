@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-procession-from-father",
   "question_id": "doc-spirit-procession-from-father",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.69,
-    "confidence": "medium",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "John 15:26 reads, in Greek, 'the Spirit of truth, who proceeds from the Father' (to pneuma tēs alētheias ho para tou patros ekporeuetai). The neuter relative pronoun 'who' (ho) agrees with 'the Spirit' (to pneuma) and makes the Spirit the subject of the verb 'proceeds' (ekporeuetai, Strong's G1607), which is tagged V-PNI-3S (an ongoing, simple statement of fact in the third person singular, i.e. present indicative third singular), with the prepositional phrase 'from the Father' (para tou patros, where para is G3844 and patros, 'Father', is G3962 in the genitive of source, i.e. a noun in the 'from-X' grammatical form) as its sole source phrase. STEPBible glosses the verb as 'goes forth, proceeds', and its stable canon sense across 34 occurrences is 'to go out from a source', so the grammar plainly grounds the Spirit's procession in the Father. The verse separately uses a different verb for the Son, 'whom I will send' (hon egō pempsō, from pempō, G3992, future active), keeping sending distinct from procession. The proposition lands as supported. Confidence stays medium because the procession datum for the Spirit rests on this single clause, and the creedal qualifier 'eternally' is a metaphysical category that the present indicative (the ongoing, simple statement of fact) does not itself encode."

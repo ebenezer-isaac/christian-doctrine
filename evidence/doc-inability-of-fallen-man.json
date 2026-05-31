@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-inability-of-fallen-man",
   "question_id": "doc-inability-of-fallen-man",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The anchor texts share one load-bearing construction: the verb \"to be able\" (dynamai, δύναμαι) in the present middle-passive indicative (an ongoing, simple statement of fact in a form that can be active or passive in shape), parsed V-PNI-3S (third person singular, ongoing fact) in John 6:44, John 6:65, Romans 8:7, 1 Corinthians 2:14 and V-PNI-3P (third person plural, ongoing fact) in Romans 8:8, governed by the negators \"not\" (ou, οὐ) or \"no one\" (oudeis, οὐδείς). \"To be able\" (dynamai, δύναμαι) denotes capacity, a different word from \"to will or want\" (thelo, θέλω) which denotes willing, so the negated present indicative (an ongoing, simple denial) asserts a standing incapacity, not a one-time refusal. The incapacity is tied either to a prior divine act, namely the aorist subjunctive (a completed-action form used in a conditional clause) \"may draw\" (helkyse, ἑλκύσῃ) and the perfect passive (a completed action whose result still stands, in passive voice) \"has been given\" (dedomenon, δεδομένον) in John 6, or to the ontic state (the state of being) of the subject: \"being in flesh\" (sarki ontes, σαρκὶ ὄντες) in Romans 8:8, \"natural or unspiritual person\" (psychikos anthropos, ψυχικὸς ἄνθρωπος) in 1 Corinthians 2:14, and \"dead\" (nekrous, νεκρούς), an adjective parsed A-APM (adjective, accusative plural masculine), in Ephesians 2:1 and 2:5. The same pattern of universal negation recurs in the Romans 3:10-12 catena (a chain of stitched-together Old Testament quotations): \"there is no one righteous, not even one\" (ouk estin dikaios oude heis, οὐκ ἔστιν δίκαιος οὐδὲ εἷς), \"there is no one who understands\" (ouk estin ho synion, οὐκ ἔστιν ὁ συνίων), \"there is no one who seeks God\" (ouk estin ho ekzeton ton theon, οὐκ ἔστιν ὁ ἐκζητῶν τὸν θεόν), drawn from Psalm 14:2 and Psalm 53:2. The reality of the inability is lexically decisive and pan-canonical (spread across the whole Bible). What the vocabulary does not by itself rank is the EXTENT of the enabling act, because \"to draw\" (helkyo, ἑλκύω) carries both a forceful effectual sense and a broader drawing or persuading sense, and John 12:32 applies it to \"all\" (pantas, πάντας) without a stated outcome."

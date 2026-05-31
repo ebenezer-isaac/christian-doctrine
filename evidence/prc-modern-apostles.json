@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-modern-apostles",
   "question_id": "prc-modern-apostles",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition restricts itself to the foundational, Scripture-authoring apostolic office and explicitly carves out the broader sent-one (apostolos) usage. On that narrow sense the lexical pattern lines up. Acts 1:21-22 sets two entrance criteria: companionship of Jesus through the whole earthly ministry, and being a witness (martys) of the resurrection (anastasis). 1 Corinthians 9:1 grounds Paul's claim in 'I have seen' (heoraka), the perfect (a completed action whose result still stands) of 'to see' (horao), a past sighting whose result still stands. 1 Corinthians 15:8 then places Paul as 'last of all' (eschaton de panton), like an 'untimely birth' (ektroma), presenting the resurrection-appearance line as a closed series. Ephesians 2:20 calls the apostles and prophets the foundation (themelios), with Christ as cornerstone (akrogoniaios), and Revelation 21:14 fixes the city wall at twelve foundations (themelious) bearing the twelve apostles' names. Jude 1:3 names the faith as 'once for all delivered' (hapax paradotheise). Confidence is medium not high because 'apostle' (apostolos) itself is polysemous (carries multiple senses) in the canon (Philippians 2:25 Epaphroditus, 2 Corinthians 8:23 'apostles of the churches' (apostoloi ekklesion), Romans 16:7) and Ephesians 4:11 lists 'apostles' (apostolous) in a gift list without lexically marking duration, so the words alone do not foreclose a non-foundational continuing usage; the verdict holds because the proposition explicitly limits itself to the foundational sense."

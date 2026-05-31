@@ -1,4 +1,4 @@
-"""Tests for pipeline2.score_calc."""
+"""Tests for pipeline2.score_calc (v3.1 bands)."""
 
 from __future__ import annotations
 
@@ -7,14 +7,19 @@ import json
 from copy import deepcopy
 from typing import Any
 
-import pytest
-
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import (
+    BROAD_THRESHOLD,
+    CANON_WIDE_THRESHOLD,
+    PARTIAL_THRESHOLD,
+    compute_lexical_breadth,
+    compute_variant_stability,
+)
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 
 def _maximal_dict() -> dict[str, Any]:
+    """Saturates every breadth signal so the score hits 1.0 -> canon_wide band."""
     d = minimal_evidence_dict()
     d["verdict"]["pan_canonical"] = True
     d["verdict"]["variant_robust"] = True
@@ -40,7 +45,7 @@ def _maximal_dict() -> dict[str, Any]:
     return d
 
 
-def _minimal_score_dict() -> dict[str, Any]:
+def _minimal_breadth_dict() -> dict[str, Any]:
     d = minimal_evidence_dict()
     d["verdict"]["pan_canonical"] = False
     d["verdict"]["variant_robust"] = False
@@ -51,96 +56,122 @@ def _minimal_score_dict() -> dict[str, Any]:
     return d
 
 
-def test_upper_bound_is_1_0() -> None:
+# ---------------------------------------------------------------------------
+# compute_lexical_breadth: band classification
+# ---------------------------------------------------------------------------
+
+
+def test_maximal_is_canon_wide() -> None:
     e = Evidence.model_validate(_maximal_dict())
-    assert compute_lexical_score(e) == 1.0
+    assert compute_lexical_breadth(e) == "canon_wide"
 
 
-def test_lower_bound_above_zero() -> None:
-    e = Evidence.model_validate(_minimal_score_dict())
-    score = compute_lexical_score(e)
-    expected = 0.25 * 0.3 + 0.15 * 1.0 + 0.15 * 0.5
-    assert score == pytest.approx(round(expected, 6))
-    assert score > 0.0
+def test_minimal_is_thin() -> None:
+    e = Evidence.model_validate(_minimal_breadth_dict())
+    assert compute_lexical_breadth(e) == "thin"
 
 
-def test_pan_canonical_false_reduces_by_0_175() -> None:
-    base = _maximal_dict()
-    base["verdict"]["pan_canonical"] = False
-    e = Evidence.model_validate(base)
-    score = compute_lexical_score(e)
-    assert score == pytest.approx(1.0 - 0.25 * 0.7)
-
-
-def test_anchor_lemma_capped_at_8() -> None:
+def test_canon_wide_requires_pan_canonical_gate() -> None:
+    """Score >= CANON_WIDE_THRESHOLD but pan_canonical=False degrades to broad."""
     d = _maximal_dict()
+    d["verdict"]["pan_canonical"] = False
+    e = Evidence.model_validate(d)
+    # Without pan_canonical, the underlying score drops by 0.25*0.7 = 0.175,
+    # from 1.0 to 0.825. That still clears BROAD_THRESHOLD (0.70).
+    assert compute_lexical_breadth(e) == "broad"
+
+
+def test_partial_band() -> None:
+    """Tune signals so score falls in [PARTIAL_THRESHOLD, BROAD_THRESHOLD)."""
+    d = _minimal_breadth_dict()
+    d["verdict"]["pan_canonical"] = True  # +0.25
+    d["verdict"]["variant_robust"] = True  # +0.15
+    # complicating empty -> +0.15 from complicating_resolved_factor=1.0
+    # Subtotal: 0.55 — that's >= PARTIAL_THRESHOLD (0.50) but < BROAD_THRESHOLD (0.70).
+    e = Evidence.model_validate(d)
+    breadth = compute_lexical_breadth(e)
+    assert breadth == "partial", f"expected partial, got {breadth}"
+
+
+def test_broad_band() -> None:
+    """Tune signals so score falls in [BROAD_THRESHOLD, CANON_WIDE_THRESHOLD)."""
+    d = _minimal_breadth_dict()
+    d["verdict"]["pan_canonical"] = True  # +0.25
+    d["verdict"]["variant_robust"] = True  # +0.15
     d["lexical_evidence"]["anchor_lemmas"] = [
         {
             "strong": f"H{i:04d}",
-            "lemma": f"lemma{i}",
+            "lemma": f"l{i}",
             "transliteration": f"t{i}",
             "occurrences_in_canon": 10,
             "in_anchors": True,
         }
-        for i in range(1, 20)
-    ]
+        for i in range(1, 9)
+    ]  # +0.20
+    # complicating empty -> +0.15
+    # Subtotal: 0.75 — clears BROAD but below CANON_WIDE (0.85).
     e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == 1.0
+    assert compute_lexical_breadth(e) == "broad"
 
 
-def test_complicating_zero_yields_factor_1() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["complicating_texts"] = []
+def test_thin_band_boundary() -> None:
+    """Score strictly below PARTIAL_THRESHOLD is thin."""
+    d = _minimal_breadth_dict()
+    d["verdict"]["pan_canonical"] = False  # +0.075 (floor 0.3)
+    # complicating empty -> +0.15
+    # variant_robust=False -> +0.075
+    # Subtotal: 0.30 — below PARTIAL (0.50) -> thin.
     e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == 1.0
+    assert compute_lexical_breadth(e) == "thin"
 
 
-def test_complicating_all_addressed_factor_1() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["complicating_texts"] = [
-        {"ref": "Mark.1.1", "addressed": True, "resolution": "r1"},
-        {"ref": "Mark.1.2", "addressed": True, "resolution": "r2"},
-    ]
+def test_band_thresholds_are_ordered() -> None:
+    """Sanity: thresholds form the expected chain."""
+    assert 0.0 < PARTIAL_THRESHOLD < BROAD_THRESHOLD < CANON_WIDE_THRESHOLD <= 1.0
+
+
+# ---------------------------------------------------------------------------
+# compute_variant_stability
+# ---------------------------------------------------------------------------
+
+
+def test_variant_stability_not_in_scope_when_ecm_na() -> None:
+    d = minimal_evidence_dict()
+    d["variants"]["ecm_status"] = "n/a"
     e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == 1.0
+    assert compute_variant_stability(e) == "not_in_scope"
 
 
-def test_complicating_half_addressed_factor_0_5() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["complicating_texts"] = [
-        {"ref": "Mark.1.1", "addressed": True, "resolution": "r1"},
-        {"ref": "Mark.1.2", "addressed": False, "resolution": "r2"},
-    ]
+def test_variant_stability_stable_when_robust_and_in_scope() -> None:
+    d = minimal_evidence_dict()
+    d["variants"]["ecm_status"] = "ecm-published"
+    d["verdict"]["variant_robust"] = True
     e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == pytest.approx(1.0 - 0.15 * 0.5)
+    assert compute_variant_stability(e) == "stable"
 
 
-def test_cross_ref_count_capped_at_12() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["cross_refs_invoked"] = [
-        {"from": "John.1.1", "to": f"John.1.{i}", "source": "openbible", "votes": 100}
-        for i in range(1, 30)
-    ]
-    e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == 1.0
-
-
-def test_variant_robust_false_reduces_by_0_075() -> None:
-    d = _maximal_dict()
+def test_variant_stability_sensitive_when_in_scope_but_not_robust() -> None:
+    d = minimal_evidence_dict()
+    d["variants"]["ecm_status"] = "ecm-shadow"
     d["verdict"]["variant_robust"] = False
     e = Evidence.model_validate(d)
-    score = compute_lexical_score(e)
-    assert score == pytest.approx(1.0 - 0.15 * 0.5)
+    assert compute_variant_stability(e) == "sensitive"
 
 
-def test_concordance_capped_at_10() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["concordance_traversed"] = [f"H{i:04d}" for i in range(1, 25)]
+def test_variant_stability_ecm_published_not_robust_is_sensitive() -> None:
+    d = minimal_evidence_dict()
+    d["variants"]["ecm_status"] = "ecm-published"
+    d["verdict"]["variant_robust"] = False
     e = Evidence.model_validate(d)
-    assert compute_lexical_score(e) == 1.0
+    assert compute_variant_stability(e) == "sensitive"
 
 
-def test_order_invariance_anchor_lemmas() -> None:
+# ---------------------------------------------------------------------------
+# Order invariance — both post-processors read counts and booleans only.
+# ---------------------------------------------------------------------------
+
+
+def test_breadth_order_invariance_anchor_lemmas() -> None:
     d1 = _maximal_dict()
     d2 = deepcopy(d1)
     d2["lexical_evidence"]["anchor_lemmas"] = list(
@@ -148,10 +179,10 @@ def test_order_invariance_anchor_lemmas() -> None:
     )
     e1 = Evidence.model_validate(d1)
     e2 = Evidence.model_validate(d2)
-    assert compute_lexical_score(e1) == compute_lexical_score(e2)
+    assert compute_lexical_breadth(e1) == compute_lexical_breadth(e2)
 
 
-def test_order_invariance_cross_refs() -> None:
+def test_breadth_order_invariance_cross_refs() -> None:
     d1 = _maximal_dict()
     d2 = deepcopy(d1)
     d2["lexical_evidence"]["cross_refs_invoked"] = list(
@@ -159,10 +190,11 @@ def test_order_invariance_cross_refs() -> None:
     )
     e1 = Evidence.model_validate(d1)
     e2 = Evidence.model_validate(d2)
-    assert compute_lexical_score(e1) == compute_lexical_score(e2)
+    assert compute_lexical_breadth(e1) == compute_lexical_breadth(e2)
 
 
-def test_order_invariance_complicating_texts() -> None:
+def test_breadth_order_invariance_complicating_mixed() -> None:
+    """Permuting addressed/unaddressed complicating texts yields the same band."""
     d = _maximal_dict()
     d["lexical_evidence"]["complicating_texts"] = [
         {"ref": "Mark.1.1", "addressed": True, "resolution": "r1"},
@@ -175,10 +207,10 @@ def test_order_invariance_complicating_texts() -> None:
     )
     e1 = Evidence.model_validate(d)
     e2 = Evidence.model_validate(d2)
-    assert compute_lexical_score(e1) == compute_lexical_score(e2)
+    assert compute_lexical_breadth(e1) == compute_lexical_breadth(e2)
 
 
-def test_order_invariance_concordance() -> None:
+def test_breadth_order_invariance_concordance() -> None:
     d1 = _maximal_dict()
     d2 = deepcopy(d1)
     d2["lexical_evidence"]["concordance_traversed"] = list(
@@ -186,65 +218,70 @@ def test_order_invariance_concordance() -> None:
     )
     e1 = Evidence.model_validate(d1)
     e2 = Evidence.model_validate(d2)
-    assert compute_lexical_score(e1) == compute_lexical_score(e2)
+    assert compute_lexical_breadth(e1) == compute_lexical_breadth(e2)
 
 
-def test_determinism_sha256_stable_across_runs() -> None:
+def test_variant_stability_order_invariant() -> None:
+    """variant_stability reads only ecm_status + variant_robust; lists are irrelevant."""
+    d1 = minimal_evidence_dict()
+    d1["variants"]["ecm_status"] = "ecm-published"
+    d1["verdict"]["variant_robust"] = True
+    d1["lexical_evidence"]["anchor_lemmas"] = []
+    d2 = deepcopy(d1)
+    # Mutate unrelated list ordering — output must not change.
+    d1["lexical_evidence"]["concordance_traversed"] = ["H0001", "H0002"]
+    d2["lexical_evidence"]["concordance_traversed"] = ["H0002", "H0001"]
+    e1 = Evidence.model_validate(d1)
+    e2 = Evidence.model_validate(d2)
+    assert compute_variant_stability(e1) == compute_variant_stability(e2)
+
+
+# ---------------------------------------------------------------------------
+# Determinism — repeated computation yields the same value.
+# ---------------------------------------------------------------------------
+
+
+def test_breadth_deterministic_across_runs() -> None:
     e = Evidence.model_validate(_maximal_dict())
     digests = set()
     for _ in range(10):
-        score = compute_lexical_score(e)
+        band = compute_lexical_breadth(e)
         digests.add(
-            hashlib.sha256(json.dumps({"score": score}, sort_keys=True).encode()).hexdigest()
+            hashlib.sha256(json.dumps({"band": band}, sort_keys=True).encode()).hexdigest()
         )
     assert len(digests) == 1
 
 
-def test_deterministic_repr_identical() -> None:
+def test_stability_deterministic_across_runs() -> None:
+    d = minimal_evidence_dict()
+    d["variants"]["ecm_status"] = "ecm-published"
+    d["verdict"]["variant_robust"] = True
+    e = Evidence.model_validate(d)
+    digests = set()
+    for _ in range(10):
+        stab = compute_variant_stability(e)
+        digests.add(
+            hashlib.sha256(json.dumps({"stab": stab}, sort_keys=True).encode()).hexdigest()
+        )
+    assert len(digests) == 1
+
+
+def test_breadth_two_instances_same_band() -> None:
     e1 = Evidence.model_validate(_maximal_dict())
     e2 = Evidence.model_validate(_maximal_dict())
-    assert repr(compute_lexical_score(e1)) == repr(compute_lexical_score(e2))
+    assert compute_lexical_breadth(e1) == compute_lexical_breadth(e2)
 
 
-def test_partial_anchor_lemmas_proportional() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["anchor_lemmas"] = d["lexical_evidence"]["anchor_lemmas"][:4]
+# ---------------------------------------------------------------------------
+# pan_canonical gate is exclusive to canon_wide band.
+# ---------------------------------------------------------------------------
+
+
+def test_pan_canonical_alone_does_not_promote_thin_to_canon_wide() -> None:
+    """pan_canonical=True must combine with high underlying score to hit canon_wide."""
+    d = _minimal_breadth_dict()
+    d["verdict"]["pan_canonical"] = True
+    # All other signals stay zero. Score climbs to 0.25 (pan) + 0.15 (complicating
+    # empty) + 0.075 (variant_robust=False floor) = 0.475. Below PARTIAL.
     e = Evidence.model_validate(d)
-    score = compute_lexical_score(e)
-    assert score == pytest.approx(1.0 - 0.20 * 0.5)
-
-
-def test_partial_cross_refs_proportional() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["cross_refs_invoked"] = d["lexical_evidence"]["cross_refs_invoked"][:6]
-    e = Evidence.model_validate(d)
-    score = compute_lexical_score(e)
-    assert score == pytest.approx(1.0 - 0.15 * 0.5)
-
-
-def test_partial_concordance_proportional() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["concordance_traversed"] = d["lexical_evidence"]["concordance_traversed"][
-        :5
-    ]
-    e = Evidence.model_validate(d)
-    score = compute_lexical_score(e)
-    assert score == pytest.approx(1.0 - 0.10 * 0.5)
-
-
-def test_score_in_unit_range() -> None:
-    for d_maker in (_maximal_dict, _minimal_score_dict):
-        e = Evidence.model_validate(d_maker())
-        score = compute_lexical_score(e)
-        assert 0.0 <= score <= 1.0
-
-
-def test_score_precision_6_decimals() -> None:
-    d = _maximal_dict()
-    d["lexical_evidence"]["complicating_texts"] = [
-        {"ref": f"r{i}", "addressed": (i % 3 == 0), "resolution": f"x{i}"} for i in range(7)
-    ]
-    e = Evidence.model_validate(d)
-    score = compute_lexical_score(e)
-    fractional = repr(score).split(".")[-1] if "." in repr(score) else ""
-    assert len(fractional) <= 6
+    assert compute_lexical_breadth(e) == "thin"

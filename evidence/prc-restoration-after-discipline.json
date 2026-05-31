@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-restoration-after-discipline",
   "question_id": "prc-restoration-after-discipline",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The wording across 2 Corinthians 2, Galatians 6, James 5, Luke 17, and the Leviticus 19 root all points the same way: forgiveness, mending, and reaffirmed love toward the repentant offender. In 2 Corinthians 2:6-8 the corporate censure (epitimia) imposed 'by the majority' (hypo ton pleionon) is called 'sufficient' (ikanon), and the assembly is told to 'forgive, graciously grant' (charisasthai, a completed past action in infinitive form) and 'comfort' (parakalesai) the man so he is not swallowed up by excessive 'grief' (lype), then to 'ratify' (kyrosai, a completed past action in infinitive form of kyroo) their 'love' (agape) toward him. Galatians 6:1 commands 'restore, mend, set in order' (katartizete, an ongoing, simple present-tense command of katartizo, with the Liddell-Scott-Jones lexicon glossing it 'adjust, put in order, restore'), and Luke 17:3-4 makes 'if he repents, forgive him' (ean metanose, aphes auto) the rule, with 'forgive' (aphiemi) in both a completed past action command form and a future form. The verb 'ratify' (kyroo) occurs only twice in the whole Bible (here and Galatians 3:15, of a ratified covenant), and in both it means to make formally valid, so reaffirmed love is grammatically an official corporate act, not just a mood. The only over-specified element is the adverb 'publicly,' which the corporate agents imply but no anchor word actually states."

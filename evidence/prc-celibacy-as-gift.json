@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-celibacy-as-gift",
   "question_id": "prc-celibacy-as-gift",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.7625,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "1 Corinthians 7:7 uses the word for 'gift' (charisma, G5486) with the distributive word for 'his own' (idios, G2398), so Paul writes that each has his OWN gift from God, one in one way and another in another, applying the gift category to both the single state Paul commends and the married state without ranking them. Matthew 19:11 anchors the same logic with the perfect passive (a completed action whose result still stands) form 'has been given' (dedotai) of the verb 'to give' (didomi, G1325), paired with 'make room for' or 'receive' (chorein, G5562) as an infinitive of capacity, and closes with 'the one able to receive, let him receive' (ho dynamenos chorein choreito), a permissive imperative that grants celibacy only to those given the capacity, so it is offered, not imposed. 1 Corinthians 7:32-35 grounds the value of singleness in 'undistracted' (aperispastos, G0563) devotion to the Lord, while Paul explicitly says he is not throwing a 'noose' or 'snare' (brochos, G1029) on anyone, which excludes a compulsory reading. 1 Timothy 4:3 names forbidding 'to marry' using the verb 'to hinder' or 'forbid' (kolyo, G2967) plus 'to marry' (gameo, G1060) as a doctrine of demons, and Hebrews 13:4 declares marriage honored among all, so the New Testament lexical net affirms celibacy as a gift, never as a requirement, while marriage remains equally honored."

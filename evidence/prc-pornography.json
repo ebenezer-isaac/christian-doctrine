@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-pornography",
   "question_id": "prc-pornography",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The pattern of words across law, wisdom, gospel, and epistle condemns the parts that make up the practice, namely the deliberate look aimed at sexual desire, sexual immorality (porneia), the controlling passion of lust, and the dishonoring use of the body. Matthew 5:28 reads, in transliterated Greek, 'pas ho blepon gynaika pros to epithymesai auten ede emoicheusen auten en te kardia autou', meaning 'everyone who looks at a woman in order to lust for her has already committed adultery with her in his heart'. The present active participle 'blepon' (the one looking, an ongoing action) joined to the articular infinitive of purpose 'pros to epithymesai' (in order to desire her) names a look whose aim is lust. The aorist 'emoicheusen' (a completed past action meaning 'he committed adultery') paired with the adverb 'ede' (already) and the locative phrase 'en te kardia' (in the heart) fixes the guilt as already complete before any outward act. 1 Thessalonians 4:3-5 makes 'hagiasmos' (sanctification, being set apart for God) the 'thelema' (will) of God, defined as 'apechesthai apo tes porneias' (to keep abstaining from sexual immorality) and refusing 'pathos epithymias' (the passion of lust) 'kathaper ta ethne ta me eidota ton theon' (just as the nations that do not know God), with the body kept 'en hagiasmo kai time' (in sanctification and honor). 1 Corinthians 6:18 commands 'pheugete ten porneian' (flee sexual immorality). Job 31:1 records 'berith karatti le einay' (a covenant I cut with my eyes), so as not to gaze 'al bethulah' (upon a young woman). Psalm 101:3 vows 'lo ashit le neged einay devar beliyaal' (I will not set before my eyes a worthless or wicked thing). The convergence of the inner extension of the Ten Commandments, the wisdom discipline of the eye, and the Pauline ethic of sanctification, all on the same point (the desiring look that engages illicit sexual interest), is what makes the verdict decisive rather than disputed."

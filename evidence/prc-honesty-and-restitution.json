@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-honesty-and-restitution",
   "question_id": "prc-honesty-and-restitution",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The pattern of vocabulary is dense and spread across the whole Bible (pan-canonical). Explicit bans on false speech stack across the Ten Commandments (Exodus 20:16, the word 'no' or 'not' (lo) plus the ongoing or repeated past form (imperfect) of the verb 'to answer or testify' (anah) with the phrase 'false witness' (ed sheqer) in the position of grammatical object), the Holiness Code (Leviticus 19:11, 'do not steal, do not deal falsely' (kachash), 'do not lie one to another' (shaqar)), the wisdom literature (Proverbs 12:22, 'lying lips are an abomination to the LORD' (toebat YHWH siphtei sheqer)), and the apostolic letters (Ephesians 4:25, 'having put off' (apothemenoi) 'the lie' (to pseudos) plus the ongoing, simple statement-of-fact command (present imperative) 'speak truth' (laleite aletheian); Colossians 3:9, 'do not lie' (me pseudesthe) 'to one another'). Explicit verbs for paying back also match. The Hebrew intensive form (piel) shillem ('to make whole, complete') in Exodus 22 and the phrase heshib asham ('he shall restore his guilt-payment') in Leviticus 5:23-24 (Masoretic Text numbering 6:4-5) and Numbers 5:6-7 require returning the stolen good plus one fifth, and Luke 19:8 narrates 'I give back fourfold' (apodidomi tetraploun) as Jesus affirms that salvation has come. The vocabulary forecloses a 'no' reading."

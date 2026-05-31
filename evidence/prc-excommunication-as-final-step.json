@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-excommunication-as-final-step",
   "question_id": "prc-excommunication-as-final-step",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three converging strands of word evidence carry the proposition. Matthew 18:15-17 is openly step-by-step: a private word, then with witnesses, then the gathered assembly, with the result clause 'let him be to you as the Gentile and the tax collector' (esto soi hosper ho ethnikos kai ho telones) made conditional on 'if he refuses to hear even the assembly' (ean de parakouse tes ekklesias), so treating him as an outsider is the final tier. The verb that commands removal in 1 Corinthians 5:13, 'remove' (exarate), is a hapax (a word that occurs only once in the entire Bible) in the Greek New Testament, so its force is established not from New Testament spread but from the repeated Hebrew expulsion formula behind it (Deuteronomy 17:7; 19:19; 21:21; 22:21,24; 24:7, 'purge the evil from your midst'), all present in the corpus. 1 Corinthians 5:11 spells out the removal as 'do not associate' (me synanamignysthai) and 'do not even eat together' (mede synesthiein), withdrawing table fellowship. The purpose is stated in the text: protection (1 Corinthians 5:6, 'a little leaven leavens the whole lump') and restoration (the 'so that' purpose clauses (hina clauses) of 1 Corinthians 5:5 'that the spirit may be saved' (to pneuma sothe), 2 Thessalonians 3:14 'that he may be put to shame' (hina entrape), 1 Timothy 1:20 'that they may be disciplined' (hina paideuthosi)). The vocabulary supports both the final ordering and the dual aim the proposition asserts."

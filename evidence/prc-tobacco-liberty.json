@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-tobacco-liberty",
   "question_id": "prc-tobacco-liberty",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7125,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "analogical",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Tobacco is unknown to the biblical world and is named by no Hebrew or Greek word, so the proposition cannot be settled by a direct word study and must be derived from general categories. Two text-level streams pull in opposite directions and the vocabulary does not rank them. Romans 14 builds a real category of 'distinctions of opinions' (diakrisis dialogismon) in which opposite practices are validated 'before God' (coram Deo) with thanksgiving and mutual judging is forbidden, which is the strongest internal warrant for treating an unforbidden substance as 'indifferent matters' (adiaphora, things neither commanded nor forbidden). Against this, 'sanctuary' (naos) in 1 Corinthians 6:19 with the perfect passive 'you were bought' (egorasthete) and the imperative 'glorify God in the body' (doxasate ton theon en to somati), the 'all things are lawful' (panta exestin) yet 'not all are beneficial' (ou panta sympherei) and 'I will not be mastered' (ouk exousiasthesomai) pair in 1 Corinthians 6:12 and 10:23, and the 'stumbling block' (proskomma) and 'snare' (skandalon) vocabulary of Romans 14:13 to 14:21 impose a real stewardship and brotherly-love qualification. Because the canon supplies the framework but not a verdict on this specific substance, the lexical pattern is materially contested rather than settled."

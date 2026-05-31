@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-sanctity-of-life",
   "question_id": "prc-sanctity-of-life",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three lexical threads converge across the canon. First, Genesis 1:27 predicates the divine image (tselem, H6754) of the human (ha-adam) as a category without developmental qualifier, and Genesis 9:6 grounds the inviolability of human blood (the blood of the human, dam ha-adam, H1818 plus H0120) in that same image (because in the image of God He made the human, ki betselem elohim asah eth ha-adam), with the verbal repetition shedder of the blood of the human, by the human his blood shall be shed (shofek dam ha-adam ba-adam damo yishshafek, H8210 chiasm, a literary mirror pattern A-B-B-A) making the image the explicit ratio (the stated reason) for the prohibition. Second, the murder prohibition do not murder (lo tirtsach, Exodus 20:13 and Deuteronomy 5:17, H3808 plus H7523) uses murder (ratsach), which Numbers 35:16-25 reserves for the unlawful killer over against the judicial executor (using the Hebrew causative form to cause to die, muth hiphil, H4191) and the wartime killer (general kill, harag, H2026), tightening its meaning to unlawful killing of an innocent human person, the very category Exodus 23:7 and Proverbs 6:17 mark as forbidden under the heading innocent blood (dam naqi). Third, the womb texts use continuous personal grammar across the prenatal stage: Psalm 139:13-16 carries first-person verbs and possessive suffixes through formation while the speaker is still an unformed embryonic mass (golem, H1564, a true hapax meaning a word that occurs only once in the entire Bible), Jeremiah 1:5 places know (yada, H3045), form (yatsar, H3335), and set apart (qadash, H6942) before formation in the womb (beten, H0990) with second-person object suffixes (meaning the actions are done to you), Isaiah 49:1,5 doubles the pattern with from the womb (mibbeten) and form (yatsar), Hosea 9:11 even names the triad birth, womb, conception (conception, herayon, H2032), and Luke 1:41,44 calls the unborn John an infant (brephos, G1025), the identical noun used of the newborn Jesus and of nursing infants in Luke 2:12, 2:16, 18:15, with sole occurrence-set spanning in-utero and post-utero usage. The Exodus 21:22-25 crux is ambiguous in Hebrew but on a careful read of come out (yatsa, the verb of normal birth in Jeremiah 1:5) and calamity (ason, not specifying mother or child) the law is consistent with rather than against the broader pattern, so it does not lower confidence below high."

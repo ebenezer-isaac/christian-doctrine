@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-denominationalism-position",
   "question_id": "doc-denominationalism-position",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern firmly condemns party-spirit (forming rival cliques in the church) and self-labeling by human leaders. 1 Corinthians 1:10 names 'divisions' (schismata) as the problem, 1 Corinthians 1:12 quotes four faction slogans ('I am of Paul', 'I am of Apollos', 'I am of Cephas', 'I am of Christ' in Greek: Ego men eimi Paulou, ego de Apollo, ego de Kepha, ego de Christou) including a Christ-partisan slogan, 1 Corinthians 1:13 asks 'has Christ been divided?' (memeristai ho Christos) expecting the answer no, and 1 Corinthians 3:3-4 renders the verdict 'fleshly' (sarkikoi) for 'strife' (eris) over leader-names. Ephesians 4:3-6 commands believers to be 'eagerly keeping' (spoudazontes terein) 'the unity' (ten henoteta) and grounds it in a sevenfold 'one' (eis, hen, mia) and John 17:21-23 makes 'that they may be one' (hina osin hen) the object of Christ's prayer. But the proposition is a compound claim, and the lexical store also supplies three honest complications. First, 'division' (schisma, Strong G4978, occurring 8 times) and 'faction or sect' (hairesis, Strong G0139, occurring 9 times) are polysemous (carrying multiple senses) and not univocally pejorative (not always negative): 1 Corinthians 11:19 says 'for there must be factions among you, that those who are approved may be made manifest' (dei gar kai haireseis en hymin einai, hina hoi dokimoi phaneroi genontai), framing divisions as having a sifting function (a function of testing and revealing). Second, Acts 15:39 records 'sharp contention' (paroxysmos) and 'a parting' (apochoristhenai) between Paul and Barnabas without rebuke, showing two faithful workers can part. Third, the New Testament category is local 'assembly or church' (ekklesia, Strong G1577, occurring 115 times, including the seven distinct churches of Revelation 2-3) plus one universal body; the modern category 'denomination' is anachronistic (a later concept read back onto an earlier text), and no lemma (dictionary form of a word) adjudicates the sociological judgments the stem imports (regrettable historical reality, distinct gospel-faithful traditions, gathering simply on the name of Christ). Verdict is disputed: the anti-faction core is lexically firm, but the proposition bundles lexically firm and lexically silent elements."

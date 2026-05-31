@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-mark-discipline-exercised",
   "question_id": "doc-mark-discipline-exercised",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern decisively establishes corrective discipline as a commanded, repeated practice of the gathered assembly. Matthew 18:15-18 runs a graduated process: the completed-past-action command 'reprove' (aorist imperative elenxon, G1651), the two-or-three-witness rule drawn from Deuteronomy, escalation to 'tell it to the assembly or church' (eipon te ekklesia, G1577), and a treatment clause triggered by 'refuse to hear' (parakouo, G3878). Paul reinforces it with hard commands: 'remove' (exarate, G1808) in 1 Corinthians 5:13 quoting the Deuteronomic purge, 'withdraw' (stellesthai, G4724) in 2 Thessalonians 3:6, and 'rebuke' (elenche, G1651) in 1 Timothy 5:20. So the practice is lexically secure. But the proposition asserts more, that this practice is a defining MARK of a true visible church, and that step is a systematic category (the 'marks of the church' or notae ecclesiae, a later theological taxonomy for telling true churches from false) the vocabulary does not supply. 1 Timothy 3:15 calls the church pillar and support of the truth, not the church that disciplines, and Acts 2:42 lists devotion to teaching, fellowship, breaking of bread, and prayer with no disciplinary term. The words command discipline; framing it as a distinguishing mark is an inference the lexicon underdetermines, hence medium confidence."

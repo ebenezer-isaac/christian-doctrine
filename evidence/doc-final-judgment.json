@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-final-judgment",
   "question_id": "doc-final-judgment",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The judgment word-group, the verb 'to judge' (krino, G2919, 115 New Testament occurrences), the noun 'judgment' (krisis, G2920, 48 occurrences), and the related noun 'sentence or verdict' (krima, G2917, 27 occurrences), recurs across the Gospels, Acts, the letters, and apocalyptic (visionary end-time) writing. Acts 17:31 sets a fixed day on which God 'is about to judge' (mellei krinein) the inhabited world by an appointed man whom God raised. Hebrews 9:27 makes 'to die' (apothanein) 'once' (hapax, a word here meaning 'one time only') then 'judgment' (krisis) the human sequence. Revelation 20:12-13 reads 'they were judged' (ekrithesan, the aorist passive, a completed past action in passive voice) twice with 'according to the works' (kata ta erga) as the standard. Two outcomes are lexically explicit and grammatically symmetrical: Matthew 25:46 attaches one adjective 'eternal' (aionios, G0166) to both 'punishment' (kolasin, G2851) and 'life' (zoen, G2222) in a single sentence, and Romans 2:7-9 pairs 'eternal life' (zoen aionion) with 'wrath and fury' (orge kai thymos). Universality is carried by 'all' (pantas) in 2 Corinthians 5:10, 'all the nations' (panta ta ethne) in Matthew 25:32, 'to human beings' (tois anthropois) in Hebrews 9:27, and the Old Testament pattern of the Hebrew verb 'to judge' (shafat, H8199, 184 occurrences) judging all the earth. The verdict holds; the anchor lemmas (dictionary forms) span both testaments."

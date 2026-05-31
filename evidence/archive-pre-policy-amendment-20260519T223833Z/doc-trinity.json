@@ -1,0 +1,432 @@
+{
+  "$schema_version": "3.0",
+  "id": "doc-trinity",
+  "question_id": "doc-trinity",
+  "generated_at": "2026-05-19T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-7",
+  "verdict": {
+    "affirms": true,
+    "lexical_score": 0.9625,
+    "confidence": "medium",
+    "variant_robust": true,
+    "pan_canonical": true,
+    "rationale": "Across Gen.1.26 (Hebrew cohortative naaseh plus 1cp suffixes betsalmenu/kidmutenu under a singular subject elohim with the singular verb wayyomer) and the Greek of Matt.28.19, John.1.1, Acts.5.3-4, and John.14.16-17, the lexical pattern coordinates a single divine referent with three distinguished referents. Matt.28.19 binds patros, huiou, and pneumatos under one singular onoma with a single article governing the triadic kai-chain; John.1.1 sets ho logos pros ton theon (distinction) yet theos en ho logos (shared predicate); Acts.5.3-4 equates lying to to pneuma to hagion with lying ouk anthropois alla to theo; John.14.16-17 has the Father give allon parakleton at the Son's request, a third distinct yet abiding (menei) referent. The terms support one God in three coequal, coeternal, distinct Persons, though the bundle supplies surface Greek only without morph tags, so the coequal and coeternal sub-claims rest on syntax and predication rather than explicit lemma-level proof, hence medium confidence."
+  },
+  "lexical_evidence": {
+    "anchor_lemmas": [
+      {
+        "strong": "G2316",
+        "lemma": "θεός",
+        "transliteration": "theos",
+        "occurrences_in_canon": 1360,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3056",
+        "lemma": "λόγος",
+        "transliteration": "logos",
+        "occurrences_in_canon": 339,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3962",
+        "lemma": "πατήρ",
+        "transliteration": "pater",
+        "occurrences_in_canon": 426,
+        "in_anchors": true
+      },
+      {
+        "strong": "G1510",
+        "lemma": "εἰμί",
+        "transliteration": "eimi",
+        "occurrences_in_canon": 2457,
+        "in_anchors": true
+      },
+      {
+        "strong": "G3306",
+        "lemma": "μένω",
+        "transliteration": "meno",
+        "occurrences_in_canon": 122,
+        "in_anchors": true
+      },
+      {
+        "strong": "G0243",
+        "lemma": "ἄλλος",
+        "transliteration": "allos",
+        "occurrences_in_canon": 171,
+        "in_anchors": true
+      },
+      {
+        "strong": "H0430",
+        "lemma": "אֱלֹהִים",
+        "transliteration": "elohim",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      },
+      {
+        "strong": "H6213",
+        "lemma": "עָשָׂה",
+        "transliteration": "asah",
+        "occurrences_in_canon": 5049,
+        "in_anchors": true
+      }
+    ],
+    "concordance_traversed": [
+      "G2316",
+      "G3056",
+      "G3962",
+      "G1510",
+      "G3306",
+      "G0243",
+      "G0846",
+      "G4771",
+      "G3588",
+      "G2532",
+      "G1473",
+      "G5574",
+      "H0430",
+      "H6213",
+      "H1823",
+      "H6754"
+    ],
+    "scripture": [
+      {
+        "ref": "Gen.1.26",
+        "key_terms": [
+          {
+            "strong": "H0430",
+            "lemma": "אֱלֹהִים"
+          },
+          {
+            "strong": "H6213",
+            "lemma": "עָשָׂה"
+          }
+        ],
+        "force": "The singular subject elohim with the singular narrative verb wayyomer governs a first-person plural cohortative naaseh and the 1cp pronominal suffixes in betsalmenu and kidmutenu. A single divine speaker uses internal plural deliberation. The Hebrew does not name three referents, so it is consistent with internal plurality within one God but does not by itself enumerate three Persons.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "OT.Gen.01.026"
+      },
+      {
+        "ref": "Matt.28.19",
+        "key_terms": [
+          {
+            "strong": "G3588",
+            "lemma": "ὁ"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G2532",
+            "lemma": "καί"
+          }
+        ],
+        "force": "The surface text places patros, huiou, and pneumatos hagiou in one kai-coordinated chain governed by the single noun onoma and a single genitive article tou. One singular name spans three distinct coordinated referents. The grammatical unity of the single onoma over a triad supports one-name-three-referents; it does not by surface form alone quantify coequality.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "NT.Matt.28.19"
+      },
+      {
+        "ref": "John.1.1",
+        "key_terms": [
+          {
+            "strong": "G3056",
+            "lemma": "λόγος"
+          },
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G1510",
+            "lemma": "εἰμί"
+          }
+        ],
+        "force": "ho logos pros ton theon expresses distinction and relation between two referents, while theos en ho logos predicates the divine nature of the logos. The imperfect en with en arche places the logos at the beginning rather than as originated. Distinction plus shared divine predicate plus pre-temporal en support a coeternal, coequal yet distinct relation between logos and theos.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "NT.John.01.01"
+      },
+      {
+        "ref": "Acts.5.3",
+        "key_terms": [
+          {
+            "strong": "G5574",
+            "lemma": "ψεύδομαι"
+          },
+          {
+            "strong": "G2532",
+            "lemma": "καί"
+          }
+        ],
+        "force": "Peter charges Ananias with lying (pseusasthai) to to pneuma to hagion. The Holy Spirit is the object of a deception verb, treated as a personal referent who can be lied to, not an impersonal force.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "NT.Acts.05.03"
+      },
+      {
+        "ref": "Acts.5.4",
+        "key_terms": [
+          {
+            "strong": "G2316",
+            "lemma": "θεός"
+          },
+          {
+            "strong": "G3756",
+            "lemma": "οὐ"
+          },
+          {
+            "strong": "G0235",
+            "lemma": "ἀλλά"
+          }
+        ],
+        "force": "The ouk anthropois alla to theo construction equates the deception against the Spirit in v.3 with deception against God. The Holy Spirit is identified with theos within a single argument, supporting the deity of the Spirit alongside his distinct personal treatment.",
+        "supports": "for",
+        "genre": "narrative",
+        "figures": [],
+        "macula_anchor": "NT.Acts.05.04"
+      },
+      {
+        "ref": "John.14.16",
+        "key_terms": [
+          {
+            "strong": "G0243",
+            "lemma": "ἄλλος"
+          },
+          {
+            "strong": "G3962",
+            "lemma": "πατήρ"
+          },
+          {
+            "strong": "G1473",
+            "lemma": "ἐγώ"
+          }
+        ],
+        "force": "The speaker (kago, the Son) will ask the Father (ton patera), who will give allon parakleton. Three distinct referents appear in one clause-chain: the asking Son, the giving Father, and another (allos, another of the same kind) Paraclete who abides eis ton aiona.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "NT.John.14.16"
+      },
+      {
+        "ref": "John.14.17",
+        "key_terms": [
+          {
+            "strong": "G3306",
+            "lemma": "μένω"
+          },
+          {
+            "strong": "G1097",
+            "lemma": "γινώσκω"
+          },
+          {
+            "strong": "G0225",
+            "lemma": "ἀλήθεια"
+          }
+        ],
+        "force": "The Paraclete is to pneuma tes aletheias who menei (abides) with and in the disciples. The continuous-aspect menei marks ongoing personal presence of the third referent, reinforcing his personal and abiding (not transient) character.",
+        "supports": "for",
+        "genre": "gospel",
+        "figures": [],
+        "macula_anchor": "NT.John.14.17"
+      }
+    ],
+    "cross_refs_invoked": [
+      {
+        "from": "John.1.1",
+        "to": "John.1.18",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.1.2",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.1.1",
+        "to": "John.10.30",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "John.14.17",
+        "to": "John.14.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Matt.28.19",
+        "to": "Matt.3.16",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.4",
+        "to": "Acts.5.3",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Acts.5.3",
+        "to": "Acts.5.9",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.26",
+        "to": "Gen.3.22",
+        "source": "tsk",
+        "votes": 1
+      },
+      {
+        "from": "Gen.1.26",
+        "to": "Gen.5.1",
+        "source": "tsk",
+        "votes": 1
+      }
+    ],
+    "complicating_texts": [
+      {
+        "ref": "Gen.1.26",
+        "addressed": true,
+        "resolution": "The 1cp cohortative naaseh with singular subject elohim and singular wayyomer is consistent with internal plurality in one God, but the Hebrew alone does not enumerate three Persons; it underdetermines the count of referents and is read as supporting, not proving, the three-Person sub-claim."
+      },
+      {
+        "ref": "John.14.16",
+        "addressed": true,
+        "resolution": "The Son asking the Father and the Father giving could be read as subordination; lexically allos (another of the same kind, distinct from heteros) plus the Son's own initiative in asking holds distinction without demoting the Spirit or Son to a different kind, so the coequal sub-claim is not contradicted, though it is not proven by this verse in isolation."
+      },
+      {
+        "ref": "Acts.5.3",
+        "addressed": true,
+        "resolution": "Lying to the Spirit could be read non-personally, but the v.3 to v.4 ouk-alla equation with theo, plus a deception verb taking the Spirit as object, treats the Spirit as a personal divine referent, resolving the non-personal reading."
+      }
+    ]
+  },
+  "variants": {
+    "verdict_variant_sensitive": false,
+    "variant_units_examined": [],
+    "ecm_status": "n/a",
+    "note": "The bundle supplies variant_units as an empty list and marks not_in_ecm_scope true. The cited verses carry editorial sigla in the supplied surface text (for example the marker on baptizontes and the article in Acts.5.3) but no variant materially relocates the triadic coordination, the pros ton theon and theos predication, or the allon parakleton clause. Verdict holds across plausible readings of the supplied text."
+  },
+  "hermeneutics": {
+    "primary_method": "grammatico-historical",
+    "frameworks_in_play": [],
+    "analogia_scripturae": true,
+    "progressive_revelation": true,
+    "competing_lens_verdicts": [],
+    "notes": "Reasoning is grammatical: article governance, kai-coordination, predicate nominative without article, continuous-aspect menei, allos versus heteros, and the Hebrew cohortative with singular subject. Scripture-interprets-scripture links Acts.5.3 to Acts.5.4 and John.14.17 to John.14.16. Progressive revelation is used in the limited sense that the underdetermined plural of Gen.1.26 is read in light of the more explicit NT triadic coordination, not the reverse."
+  },
+  "stem_audit": {
+    "verdict_preloaded": false,
+    "neutralized_form": "What does the canonical lexical and syntactic pattern indicate about the number of divine referents, their relation, and whether each is treated as personal and as fully divine?",
+    "notes": "The stem states a doctrinal proposition (one God, three coequal coeternal distinct Persons) in technical theological vocabulary (Persons, coequal, coeternal) that is not lexical-store terminology. It asserts a position rather than smuggling a Reformed or denominational distinctive, and the question is testable against the lexical pattern, so it is not verdict-preloaded in the sola-scriptura sense. A neutral restatement is supplied for human review because the words Persons, coequal, and coeternal are interpretive categories layered on the text rather than terms the lexical store contains."
+  },
+  "lay_summary": "Working only from the Greek and Hebrew words and sentence structure in the supplied passages, a consistent pattern appears. In Genesis 1:26 a single subject, God, with a singular verb of speaking, uses a first person plural form, let us make, and plural us in our image and our likeness. The Hebrew shows one speaker using internal plural language, which fits plurality within one God but does not by itself count three. In Matthew 28:19 one singular word, name, governs a chain of three coordinated parties, the Father and the Son and the Holy Spirit, joined under a single article. One name covers three named parties. In John 1:1 the Word is said to be toward God, which marks two distinct parties in relation, and then God was the Word, which assigns the divine nature to the Word, while the verb was places the Word at the beginning rather than as something that came to be. So the text holds distinction and shared divine nature together. In Acts 5 lying to the Holy Spirit in verse 3 is restated in verse 4 as not lying to men but to God, which both treats the Spirit as someone who can be lied to and identifies that act with lying to God. In John 14:16 to 17 the Son asks, the Father gives, and another Helper of the same kind is given who remains with and in the disciples, with the verb for remain marking ongoing personal presence. Read together, the words support one God, three distinct parties, each treated as personal, and each tied to the divine nature. The strongest, most explicit support is for one God, real distinction, and the personhood and deity of each party. The precise claims that the three are exactly equal and equally without beginning rest on syntax and shared predication rather than on direct word level proof in this bundle, and the supplied passages give surface Greek without full grammatical tags, so the overall reading is supported but at medium rather than high certainty.",
+  "citations": [
+    {
+      "type": "syntax",
+      "source": "MACULA-Hebrew",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "morphology",
+      "source": "OSHB-morphology",
+      "license": "CC-BY-4.0",
+      "redistribute": true,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "syntax",
+      "source": "ETCBC-BHSA",
+      "license": "CC-BY-NC-4.0",
+      "redistribute": false,
+      "ref": "Gen.1.26"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Matt.28.19"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "Acts.5.3"
+    },
+    {
+      "type": "interlinear",
+      "source": "SBLGNT-text",
+      "license": "SBLGNT-EULA",
+      "redistribute": false,
+      "ref": "John.14.16"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "John.1.1"
+    },
+    {
+      "type": "cross_ref",
+      "source": "TSK",
+      "license": "public_domain",
+      "redistribute": true,
+      "ref": "Acts.5.4"
+    }
+  ],
+  "license_audit": {
+    "sources_used": [
+      {
+        "source": "MACULA-Hebrew",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "OSHB-morphology",
+        "license": "CC-BY-4.0",
+        "redistribute": true
+      },
+      {
+        "source": "ETCBC-BHSA",
+        "license": "CC-BY-NC-4.0",
+        "redistribute": false
+      },
+      {
+        "source": "SBLGNT-text",
+        "license": "SBLGNT-EULA",
+        "redistribute": false
+      },
+      {
+        "source": "TSK",
+        "license": "public_domain",
+        "redistribute": true
+      }
+    ],
+    "evidence_safe_to_publish": false,
+    "non_redistributable_reason": "Cites ETCBC-BHSA and the MACULA-Hebrew composite syntactic features under CC-BY-NC-4.0, and SBLGNT-text under the SBLGNT-EULA, all of which deny bulk redistribution."
+  },
+  "flags": []
+}

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-bivocational-vs-paid-ministry",
   "question_id": "prc-bivocational-vs-paid-ministry",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The canon positively attests two patterns that its own vocabulary refuses to rank. For support, 1 Corinthians 9:14 uses the aorist (a completed past action) verb \"he arranged\" or \"he ordained\" (diatexen), saying the Lord arranged that gospel proclaimers live from the gospel, and 1 Timothy 5:17-18 grants \"laboring\" (kopiontes) elders \"double honor\" (diple time) and quotes the wage maxim \"the worker is worthy of his wage\" (axios ho ergates tou misthou) verbatim from Luke 10:7. For self-support, Acts 18:3, Acts 20:34-35, and 2 Thessalonians 3:8 narrate Paul working with his hands and eating no bread \"free of charge\" (dorean). The hinge is the recurring noun \"right\" or \"authority\" (exousia), asserted five times across 1 Corinthians 9 (verses 4-18) and then, at 2 Thessalonians 3:9, expressly named as a right Paul possessed but declined, offering himself as a \"pattern\" or \"example\" (typos) to \"imitate\" (mimeisthai). Because a right may be exercised or surrendered, the lexicon establishes both forms as legitimate and ranks neither as the sole mandate, so any exclusive reading is contested while the both-valid claim is supported."

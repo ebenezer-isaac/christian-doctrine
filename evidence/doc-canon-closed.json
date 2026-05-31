@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-canon-closed",
   "question_id": "doc-canon-closed",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon supplies one stable lexical pattern of a once-given, sufficient, sealed deposit. Hebrews 1:1-2 sets prior prophetic speech (the aorist participle, a completed past action in participle form, 'having spoken' (λαλήσας) with 'of old' (πάλαι), plus 'in many parts' (πολυμερῶς) and 'in many ways' (πολυτρόπως)) against terminal Son-speech 'in these last days, in a Son' (ἐπ’ ἐσχάτου τῶν ἡμερῶν τούτων ἐν υἱῷ). Ephesians 2:20 builds the church on a finished foundation (the aorist passive participle, a completed past action in participle form done to the subject, 'having been built upon' (ἐποικοδομηθέντες)) with Christ as 'cornerstone' (ἀκρογωνιαῖος, only 2 New Testament occurrences). Jude 3 marks the faith 'once for all delivered' (ἅπαξ παραδοθείσῃ), the adverb modifying an aorist passive participle (completed past action in participle form done to the subject). Second Timothy 3:16-17 calls 'all Scripture God-breathed' (πᾶσα γραφὴ θεόπνευστος, theopneustos being a New Testament hapax (a word that occurs only once in the entire New Testament)) sufficient 'so that complete might be' (ἵνα ἄρτιος ᾖ, artios also a New Testament hapax (a word occurring only once in the entire New Testament)) the man of God. Galatians 1:8-9 attaches 'curse' (ἀνάθεμα) to any 'contrary to which' (παρ’ ὃ) gospel, and Revelation 22:18-19 applies the add, subtract formula ('add to' (ἐπιτίθημι), 'take away' (ἀφαιρέω)) that reproduces Deuteronomy 4:2 and Proverbs 30:6. The one real lexical seam is that 'once' (ἅπαξ) also carries a bare numerical sense in this same corpus, but the parallel in Jude 5 and the participle favor the definitive 'once for all' sense here."

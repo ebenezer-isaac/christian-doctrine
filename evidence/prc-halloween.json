@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-halloween",
   "question_id": "prc-halloween",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon lexically does not name Halloween or any similar late-autumn observance, so the verdict is reached by composition (by combining several lines of evidence rather than one direct verse). The first clause of the proposition, rejecting occult and death-glorifying practice, sits on a dense, spread-across-the-whole-Bible (pan-canonical) occult wordstock: 'abomination' (toebah), 'divination' (nachash), 'sorcery' (kashaph), 'medium' (ob), 'familiar spirit' (yiddeoni), 'one who inquires of the dead' (darash el hammethim) in Deuteronomy 18:9-12, and 'have joint fellowship' (synkoinoneo) with the 'unfruitful works of darkness' (akarpa erga tou skotous) in Ephesians 5:11, reinforced by 1 Corinthians 10:20-21 where pagan ritual is offered to 'demons' (daimonia) and incompatible with the cup and table of the Lord. The second clause, that otherwise harmless cultural participation is a matter of conscience, has no single Bible word that names a calendar custom; it rests on the general criterion 'to the glory of God' (eis doxan theou) in 1 Corinthians 10:31, the conscience vocabulary of 1 Corinthians 8 ('conscience' syneidesis, 'food sacrificed to idols' eidolothuton, 'liberty' exousia, 'stumbling block' proskomma), and the day-judging clause of Romans 14:5-6 ('day' hemera, 'judge' krino, 'each' ekastos, 'be fully convinced' plerophoreo) plus Colossians 2:16 ('festival' heorte, 'new moon' noumenia, 'sabbath' sabbaton). Because the wordstock decides the occult side cleanly but lets the application-level conscience side stand on a general standard rather than a named permission or prohibition, the composite proposition is lexically contested at exactly the seam where readers diverge."

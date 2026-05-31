@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-bodily-resurrection-of-christ",
   "question_id": "doc-bodily-resurrection-of-christ",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Four independent corpora converge on one continuous body. In 1 Corinthians 15:4 the verb is 'has been raised' (ἐγήγερται), parsed in MorphGNT as 3XPI-S, perfect passive indicative (a completed action whose result still stands, in passive voice, simple statement of fact): has been raised and abides risen. The same perfect form of 'has been raised' (ἐγήγερται) recurs across 1 Corinthians 15:12, 13, 14, 16, 17, 20 and the perfect participle 'having been raised' (ἐγηγερμένον) in 2 Timothy 2:8, so the settled risen state is the recurring lexical signature, not a one-off. 'Has been raised' (ἐγήγερται) is paired with the aorist (a completed past action) 'was buried' (ἐτάφη, 3API-S, third person singular aorist passive indicative), binding the buried subject to the raised subject. Luke 24:39 names 'flesh' (σάρξ) and 'bone' (ὀστέον) as present and 'spirit' (πνεῦμα) as lacking them, with the imperative 'handle me' (ψηλαφήσατέ, a command). John 2:21 glosses the raised 'temple' (ναός) as 'his body' (τὸ σῶμα αὐτοῦ). Acts 2:31 locates non-corruption in his 'flesh' (σάρξ). The crux 1 Corinthians 15:44 keeps 'body' (σῶμα) constant in both halves and changes only the adjective, 'natural' (ψυχικόν) then 'spiritual' (πνευματικόν), so the verdict holds."

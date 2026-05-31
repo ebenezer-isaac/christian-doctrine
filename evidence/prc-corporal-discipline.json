@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-corporal-discipline",
   "question_id": "prc-corporal-discipline",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.978571,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Hebrew word-cluster around parental discipline is dense and pan-canonical (spread across the whole Bible). The nouns 'rod' (shevet, H7626) and 'discipline' (musar, H4148) and the verb 'to discipline' (yasar, H3256) recur across Proverbs with parallel terms 'reproof' (tokachat, H8433) and 'wisdom' (chokmah, H2451). Proverbs 23:13-14 uses the verb 'to strike' (nakah, H5221) with 'rod' (shevet) plus the explicit clause that the child will not 'die' (mut, H4191), which is grammatically the most physical of the anchors. At the same time the same Solomonic cluster commands 'discipline' (yasar) without any 'rod' (shevet) in Proverbs 29:17 and Proverbs 19:18, so the canon supplies two parental discipline patterns that the words themselves do not rank. The New Testament brake terms 'provoke to anger' (paroggizo, G3949) in Ephesians 6:4 and 'provoke' (erethizo, G2042) with 'become discouraged' (athymeo, G0120) in Colossians 3:21 lexically forbid the provoking and discouraging mode. The Hebrews 12 vocabulary 'to train or discipline a child' (paideuo, G3811) and the severe term 'to scourge' (mastigoo, G3146, used six other times in the Gospels for literal flogging) frames divine teaching in striking imagery, and Revelation 3:19 ties 'warm love' (phileo, G5368) with 'rebuke' (elencho, G1651) and 'discipline' (paideuo). The lexical pattern decisively affirms parental discipline and decisively forbids the provoking mode, but underdetermines whether the corporal mode specifically is mandated, permitted, or pictured figuratively, so the verdict is materially contested rather than affirmed or denied."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-persecution-expected",
   "question_id": "prc-persecution-expected",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The anchor verses present persecution and suffering as the foreseen condition of those who follow Christ. 2 Timothy 3:12 makes it universal with the subject 'all who desire' (pantes hoi thelontes) 'to live godly' (eusebos zen) 'in Christ Jesus' (en Christo Iesou) and the future passive 'will be persecuted' (diochthesontai, an ongoing future passive form meaning the action will be done to them), all who desire to live godly in Christ Jesus will be persecuted, with no exempted class. John 15:20 grounds it in the master-servant relation, 'if they persecuted me, they will also persecute you' (ei eme edioxan kai hymas dioxousin), treating the disciples' persecution as the direct entailment of Christ's. 1 Peter 4:12 issues the present imperative (an ongoing command) 'do not be surprised' (me xenizesthe) at the 'fiery trial' (pyrosis), denying that suffering is foreign, and Matthew 5:10-12 calls the persecuted 'blessed' (makarioi) and sets them in continuity with the prophets. Querying the canon, 'to persecute' (dioko, Strong's G1377) recurs in 45 verses across the Gospels, Acts, Paul, Hebrews, Peter, and Revelation, and 'to suffer' (pascho, Strong's G3958) in 42 verses with the same spread, so the lexical pattern is pan-canonical (spread across the whole Bible) and dense."

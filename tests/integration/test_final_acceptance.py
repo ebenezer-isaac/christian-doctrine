@@ -18,7 +18,7 @@ import pytest
 from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
 from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 EVIDENCE_DIR = Path("evidence")
@@ -30,7 +30,8 @@ def _materialize_trinity(target: Path) -> None:
     d["verdict"]["variant_robust"] = True
     e = Evidence.model_validate(d)
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     target.write_text(json.dumps(e_dict, indent=2), encoding="utf-8")
 
 

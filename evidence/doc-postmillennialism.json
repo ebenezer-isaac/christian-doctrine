@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-postmillennialism",
   "question_id": "doc-postmillennialism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9375,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon supplies two patterns the words do not rank. One pattern is kingdom-growth and earth-filling: the mustard-seed (sinapi, G4615) and leaven (zyme, G2219) of Matthew 13:31-33 with the increase verb 'grow' (auxano, G0837, 23 occurrences, regularly used of the word spreading in Acts 6:7, 12:24, 19:20), the Isaiah 11:9 and Habakkuk 2:14 picture of the earth filled ('fill', male, H4390, 235 occurrences) with the knowledge ('knowledge', deah, H1844; 'knowledge', daath, H1847) and glory of the LORD, and the until-clauses of Psalm 110:1 and 1 Corinthians 15:25 marking a reign that culminates in subjugation of enemies. The other pattern is end-time apostasy and difficulty: 2 Timothy 3:1 'difficult times' (chalepoi kairoi; the adjective chalepos, G5467, only twice in the NT), 2 Thessalonians 2:3 'apostasy' or 'falling away' (apostasia, G0646, only twice in the NT), Matthew 24:12 the love of many growing cold ('grow cold', psycho, G5594, a hapax which is a word that occurs only once in the entire Bible) as lawlessness ('lawlessness', anomia, G0458) multiplies, and Luke 18:8 questioning whether the Son of Man will find faith. Each pattern is internally coherent, each rests on real recurring vocabulary, and the lexicon does not adjudicate which pattern fixes the trajectory of the age. The pattern is therefore materially contested."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-regeneration",
   "question_id": "doc-spirit-regeneration",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern anchors new birth in divine, specifically Spirit, agency across both Testaments. In John 3:5 the verb 'be born' (γεννηθῇ) is aorist passive subjunctive (a completed past action in the passive 'be done to' voice expressing a conditional possibility), and in John 3:6 and 3:8 the participles 'having been born' (γεγεννημένον) and 'one who has been born' (γεγεννημένος) are perfect passive participles (a completed action whose result still stands, in the passive 'be done to' voice), all governed by the preposition 'out of' (ἐκ) plus a genitive of source (a noun in the 'from-X' grammatical form), namely 'out of water and Spirit' (ἐξ ὕδατος καὶ πνεύματος) and 'out of the Spirit' (ἐκ τοῦ πνεύματος). The passive voice places the human in the patient role and names 'Spirit' (πνεῦμα) as the source, and the wordplay between 'Spirit' (πνεῦμα) and 'blows' (πνεῖ) in John 3:8 casts that source as sovereign. Titus 3:5 makes the agency explicit: 'he saved us through the washing of rebirth and renewing of the Holy Spirit' (ἔσωσεν ἡμᾶς διὰ λουτροῦ παλιγγενεσίας καὶ ἀνακαινώσεως πνεύματος ἁγίου), where the genitive 'of the Holy Spirit' (πνεύματος ἁγίου) is the source of the renewal and 'not from works' (οὐκ ἐξ ἔργων) excludes human work. John 6:63 fixes 'the Spirit' (τὸ πνεῦμα) as 'the one giving life' (τὸ ζῳοποιοῦν) while 'the flesh profits nothing' (ἡ σὰρξ οὐκ ὠφελεῖ οὐδέν). Ezekiel 36:26-27 supplies the prophetic substrate (foundation laid down earlier in Scripture) with God in the first person giving a new heart and putting his 'Spirit' or 'breath' (רוּחַ) within. What the vocabulary does NOT settle is the ordo (the order of salvation events), whether this Spirit-birth precedes or accompanies faith, and whether 'water' (ὕδατος) denotes baptism, since 1 Peter 1:3 and 1:23 attribute the same begetting to God through resurrection and through the living word."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-women-authoritative-teaching-restricted",
   "question_id": "prc-women-authoritative-teaching-restricted",
   "generated_at": "2026-05-27T22:10:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.675,
-    "confidence": "low",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": false,
     "rationale": "This practice proposition turns on the same contested wording as the parallel office question, but applied to the activity of authoritative teaching of mixed adults rather than to a named office. A direct query of the lexical store confirms the load-bearing words. In 1 Timothy 2:12 the form is \"to teach\" (didaskein, G1321, a present active infinitive, meaning the ongoing action of teaching) \"to a woman I do not permit\" (de gynaiki ouk epitrepo, with epitrepo G2010 as a present active indicative first singular, that is, an ongoing, simple statement of fact in the first person singular) \"nor to authentein\" (oude authentein, G0831, also a present active infinitive) \"over a man\" (andros). The verb \"to authentein\" (authenteo) occurs exactly once in the entire New Testament, only at 1 Timothy 2:12, so it is a hapax (a word that occurs only once in the entire Bible), and the canon supplies no second use to fix its force between \"to exercise ordinary authority\" and \"to domineer or usurp\". The two present infinitives joined by \"nor\" (oude) may name two distinct prohibited acts or one composite idea, namely \"to teach in a domineering manner\". In 1 Corinthians 14:34 the verb is the general \"to keep silent\" (sigao, G4601, let them keep silent) and the still more general \"to speak\" (lalein, G2980), not a verb specific to authoritative teaching, and \"to keep silent\" (sigao) occurs three times in this one chapter (verses 28, 30, 34). The first two each sit inside an \"if-then\" clause (an ean conditional) governing a specific disorder, so the scope of the women command is contestable between an absolute ban and a setting-bound regulation. Against the restrictive reading stand attested instances of female word ministry in the same vocabulary: a woman \"prophesying\" (propheteuousa, G4395, a present active participle, feminine, meaning ongoing prophetic speech by a female subject) in 1 Corinthians 11:5 whose practice is regulated rather than forbidden, the four prophesying daughters of Acts 21:9 (same root word), and Priscilla, named before Aquila in 1 Corinthians and Acts witnesses, who with him \"expounded\" (exethento, G1620, set out or explained) the way of God to Apollos. Because the same root words yield more than one grammatically defensible reading, the lexical pattern is materially contested rather than decisive."

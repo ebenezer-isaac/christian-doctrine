@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-second-coming-bodily",
   "question_id": "doc-second-coming-bodily",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Acts 1:11 binds the future-tense verb 'will come' (eleusetai) to the manner-correlative phrase 'in the same way that' (hon tropon), anchored to the completed past-tense verb 'you watched' (ethesasthe) from 'to behold as an eyewitness' (theaomai), an eyewitness verb of physical viewing (compare John 1:14 'we beheld' (etheasametha) 'the glory' (ten doxan), and 1 John 1:1 'we have beheld' (hemeis etheasametha)), so the future coming is patterned on the visible bodily departure. Revelation 1:7 has the future-tense verb 'will see' (opsetai), from 'to see' (horao), a verb of physical sight, with 'every eye' (pas ophthalmos), every eye, including 'those who pierced him' (hoi auton exekentesan), where 'to pierce' (ekkenteo, Strong's G1574, a word that occurs only twice in the entire New Testament, here and John 19:37) ties the visible subject to the pierced bodily Christ. 1 Thessalonians 4:16 has 'the Lord himself' (autos ho kyrios) 'will descend' (katabesetai) with the audible triad 'shouted command' (keleusma), 'archangel voice' (archangelou phone), 'trumpet of God' (salpinx theou). The verbal-marker noun 'command-shout' (keleusma, Strong's G2752) is a New Testament hapax (a word that occurs only once in the entire New Testament) at this location, so its sense is not blurred by other figurative usages, and 'trumpet' (salpinx, Strong's G4536) recurs in the end-times context of 1 Corinthians 15:52 trumpet, marking the same audible end-times motif. Matthew 24:30 has the future-tense 'they will see' (ophontai) with 'the Son of Man coming' (ton huion tou anthropou erchomenon), Titus 2:13 calls it an 'appearing, visible manifestation' (epiphaneian), and 1 Corinthians 15:23 places the resurrection 'at his arriving presence' (en te parousia autou) inside a still-future 'until' (achri) clause through verse 28. The lexical pattern across narrative, gospel, epistle, and apocalyptic affirms a personal, visible, audible, bodily, yet-future coming."

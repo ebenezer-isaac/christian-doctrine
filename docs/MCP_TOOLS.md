@@ -352,8 +352,9 @@ Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesi
 ```json
 {
   "verdict": "affirms | denies | null | disputed",
-  "confidence": "high | medium | low",
-  "lexical_score": <float>,
+  "lexical_breadth": "canon_wide | broad | partial | thin",
+  "lexical_directness": "direct | inferred | analogical | silent",
+  "variant_stability": "stable | sensitive | not_in_scope",
 
   "lexical_evidence": {
     "summary": "<>",
@@ -401,8 +402,9 @@ The synthesis subagent (per `docs/phase_prompts/pipeline3_synthesis.md`) writes 
   "lexical_verdict": {
     "summary": "<>",
     "affirms": <bool|null|"disputed">,
-    "confidence": "<>",
-    "lexical_score": <float>,
+    "lexical_breadth": "canon_wide | broad | partial | thin",
+    "lexical_directness": "direct | inferred | analogical | silent",
+    "variant_stability": "stable | sensitive | not_in_scope",
     "key_lemmas": [...],
     "key_verses": [...],
     "variant_robust": <bool>,
@@ -420,14 +422,15 @@ The synthesis subagent (per `docs/phase_prompts/pipeline3_synthesis.md`) writes 
 The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls a pure function `transform_synthesis_to_envelope(synthesis_output: dict) -> EnvelopeResult` that produces the MCP-public output shape above. The transform:
 
 1. `lexical_verdict.affirms` → `result.verdict` (rename).
-2. `lexical_verdict.lexical_score` → `result.lexical_score` (flatten one level).
-3. `lexical_verdict.confidence` → `result.confidence` (flatten one level).
-4. `lexical_verdict` block (minus the above) → `result.lexical_evidence`.
-5. `cultural_overlay` → `result.cultural_overlay` (pass through).
-6. `variant_sensitivity` → `result.variant_sensitivity` (pass through).
-7. `lexical_verdict.source_evidence_files[0]` (the matched question id stripped of path/.json) → `result.evidence_file_id`.
-8. `synthesis_output.license_audit.sources_used` → `envelope.license_audit.sources_used`.
-9. The handler then computes `envelope.license_audit.response_safe_to_share` via `license_guard.check_redistribute(...)` for every cited source, respecting `caller_context`.
+2. `lexical_verdict.lexical_breadth` → `result.lexical_breadth` (flatten one level).
+3. `lexical_verdict.lexical_directness` → `result.lexical_directness` (flatten one level).
+4. `lexical_verdict.variant_stability` → `result.variant_stability` (flatten one level).
+5. `lexical_verdict` block (minus the above) → `result.lexical_evidence`.
+6. `cultural_overlay` → `result.cultural_overlay` (pass through).
+7. `variant_sensitivity` → `result.variant_sensitivity` (pass through).
+8. `lexical_verdict.source_evidence_files[0]` (the matched question id stripped of path/.json) → `result.evidence_file_id`.
+9. `synthesis_output.license_audit.sources_used` → `envelope.license_audit.sources_used`.
+10. The handler then computes `envelope.license_audit.response_safe_to_share` via `license_guard.check_redistribute(...)` for every cited source, respecting `caller_context`.
 
 **Verdict-fidelity rule**: `result.verdict` must equal the `verdict.affirms` of the underlying `evidence/<evidence_file_id>.json`. The handler reads the stored evidence file and asserts the equality before returning. Re-derivation of the verdict at query time is FORBIDDEN; the handler is a retrieval-and-synthesis layer.
 
@@ -450,9 +453,9 @@ The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls 
 ```json
 {
   "question_id": "doc-trinity",
-  "evidence": <full evidence v3.0 JSON contents>,
+  "evidence": <full evidence v3.1 JSON contents>,
   "file_path": "evidence/doc-trinity.json",
-  "schema_version": "3.0"
+  "schema_version": "3.1"
 }
 ```
 

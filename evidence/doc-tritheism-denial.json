@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-tritheism-denial",
   "question_id": "doc-tritheism-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Bible applies the cardinal number 'one' directly to God: 'one' (echad, אֶחָד) in the Shema (the daily Jewish confession at Deuteronomy 6:4, which the Hebrew syntax database ETCBC tags as the predicate complement, PreC, that is, the word completing the 'is' statement), and 'one God' (heis theos, εἷς θεός) in the apostolic restatement at 1 Corinthians 8:6 and Mark 12:29. The canon then forecloses any rival deity by stacking exclusivity particles, that is, small Hebrew words that mean 'there is none', 'not', 'except', 'besides me', 'no other': 'there is none' (ayin, אֵין), 'not' (lo, לֹא), 'besides' (zulah, זוּלָה), 'apart from me' (biladey, בִּלְעָדַי), and 'still, any more' (od, עוֹד), across Deuteronomy 4:35, Isaiah 44:6, and Isaiah 45:5. The number 'one' (echad, אֶחָד) by itself is not decisive because it also names a composite unity (one flesh in Genesis 2:24, one people in Genesis 11:6), so the weight against three gods rests on the exclusivity formulas that deny any other God beside YHWH (the covenant name of God, YHWH, יְהוָה). Within that single confession Paul distributes 'one God the Father' (heis theos ho pater, εἷς θεὸς ὁ πατήρ) and 'one Lord Jesus Christ' (heis kyrios Iesous Christos, εἷς κύριος Ἰησοῦς Χριστός), placing Father and Son inside the one God rather than alongside it as a second deity. The pattern spread across the whole Bible (pan-canonical) denies a plurality of separate gods while preserving personal distinction, which is the substance of the proposition under test."

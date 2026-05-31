@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-full-humanity",
   "question_id": "doc-christ-full-humanity",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.825,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Converging verbs of real becoming and shared substance state that Jesus possesses a full human nature across several New Testament writings. John 1:14 uses 'become' (ginomai) in the aorist (a completed past action), in the clause 'the Word became flesh' (ho logos sarx egeneto), a verb of entering a state of being, not a verb of seeming. Hebrews 2:14 stacks 'shared in' (koinoneo) in the perfect tense (a completed action whose result still stands) and 'partook of' (metecho) in the aorist (a completed past action), both governing 'blood and flesh' (haima kai sarx). Hebrews 2:16 sets angelic nature against 'the seed of Abraham' (sperma Abraam), Hebrews 2:17 and Hebrews 4:15 twice say 'according to all things' (kata panta), that is, like the brothers in every respect, and 1 John 4:2 makes the confession 'Jesus Christ having come in the flesh' (Iesoun Christon en sarki eleluthota), with the verb in the perfect participle (a settled, abiding state), a confessional test. Direct concordance work confirms the same 'become' (ginomai) plus 'flesh' (sarx) plus 'seed' (sperma) cluster in Romans 1:3, Philippians 2:7, and Galatians 4:4, so the pattern is broad, not isolated. Confidence is high because the witness is dense, comes from multiple authors, and the only readings that resist it are closed off by the becoming verbs and the predicated death. The verdict is not pan-canonical (spread across the whole Bible) because the words that carry the predication are New Testament-only, though Old Testament seed and resurrection texts are cross-referenced."

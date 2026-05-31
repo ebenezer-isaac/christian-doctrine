@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-congregational-polity-position",
   "question_id": "doc-congregational-polity-position",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The cited texts attest two streams of vocabulary that the words do not rank. One stream gives the gathered body real action: the multitude (plēthos) is pleased and chose (exelexanto) the seven in Acts 6:5, the assembly (ekklēsia) is told (eipate tē ekklēsia, 'tell it to the assembly') in Matthew 18:17, the congregation is commanded to judge and remove (krinate, exarate) in 1 Corinthians 5:12-13, and a penalty is inflicted by the majority (hypo tōn pleionōn, 'by the more') in 2 Corinthians 2:6. The other stream gives appointed leaders real authority: the Twelve frame and 'will appoint' (katastēsomen, Acts 6:3), Titus and Paul 'appoint' elders (katestēsen, Titus 1:5; 'they appointed by show of hands', echeirotonēsan, Acts 14:23), elders 'rule' or 'preside' (proestōtes, 1 Timothy 5:17), and believers are to 'obey' and 'submit' to their leaders (peithesthe, hypeikete, hēgoumenois, Hebrews 13:17). The two sharpest commands, 'remove' (exarate) and 'submit' (hypeikete), each rest on a hapax verb (a word that occurs only once in the entire Bible), since both 'remove' (exairō) and 'submit' (hypeikō) occur only once, and the chief leadership verbs 'lead/consider' (hēgeomai) and 'preside/manage' (proistēmi) are polysemous (carry more than one meaning), so neither stream can be triangulated (checked against parallel uses) to outrank the other. The proposition's comparative claim that one arrangement best preserves autonomy and accountability is an evaluative judgment outside lexical reach, so the pattern is materially contested."

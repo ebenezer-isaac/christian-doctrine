@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-perseverance-eternal-security",
   "question_id": "doc-perseverance-eternal-security",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two grammatically secure clusters in the canon point in opposite directions on the one point the proposition asserts, and the vocabulary does not rank them. The keeping cluster is maximal: John 10:28 pairs the present active indicative (ongoing, simple statement of fact) verb 'give' (didomi) with the emphatic double negative 'by no means' (ou me) plus the aorist middle subjunctive (a completed past action in the middle voice) 'they will perish' (apolontai) and 'forever' (eis ton aiona), the strongest future denial Greek affords, then 'no one will snatch' (ouch harpasei tis), and John 10:29 uses 'is able' (dunatai) to deny capacity, while Romans 8:38 to 39 sets the perfect passive (a completed action whose result still stands, in the passive voice) 'I have been persuaded' (pepeismai) against an exhaustive 'neither or' (oute) merism (a two-part figure naming the extremes to mean the whole) that 'will not be able to separate' (ou dunesetai chorisai) from the love of God. The warning cluster is equally real: Hebrews 6:6 uses 'having fallen away' (parapesontas), a hapax (a word that occurs only once in the entire Bible), after aorist (a completed past action) participles of genuine experience, Galatians 5:4 says 'you fell from grace' (exepesate) in the aorist indicative (a completed past action stated as fact), Colossians 1:23 attaches a first class conditional (an 'if-then' clause that assumes the condition for the sake of argument) 'if indeed you continue' (ei ge epimenete), and Luke 8:13 predicates 'they believe' (pisteuousin) of hearers who then 'fall away' (aphistantai). The decisive ambiguity is lexical, not historical: 'to destroy or perish' (apollymi), the very verb negated of the sheep in John 10:28, is predicated of the son of perdition in John 17:12 and of the brother for whom Christ died in 1 Corinthians 8:11, so the keeping verbs cannot by themselves fix whether the warning subjects fall inside or outside the category 'truly born again' that the stem presupposes."

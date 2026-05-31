@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-roman-seven-sacrament-system-denial",
   "question_id": "doc-roman-seven-sacrament-system-denial",
   "generated_at": "2026-05-27T16:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two distinct claims are fused in the proposition, and the lexical (word-level) record ranks them differently. The narrow claim, that only baptism and the Supper carry an explicit Christ-spoken institution formula, is decisively supported: 'make disciples' (matheteusate, G3100) is an aorist active imperative (a completed past action used as a command, parsed V-AAM-2P, second person plural) in Matthew 28:19 governing the participle 'baptizing' (baptizontes, G0907), and 'do this' (touto poieite, G4160) is a present active imperative (an ongoing-action command, V-PAM-2P) three times across Luke 22:19 and 1 Corinthians 11:24-25, paired with 'remembrance' (anamnesis, G0364), a word that occurs only four times in the entire New Testament and clusters on exactly these Supper texts. No other rite carries a Christ-spoken command plus prescribed sign of this form. But the broader claim that the count of seven is therefore false, that the other five are not sacraments, is a category judgment the vocabulary does not settle, because confession ('confess', exomologeisthe, a present imperative in James 5:16), anointing the sick (James 5:14), the laying on of hands for commissioning (1 Timothy 4:14, Acts 13:3, 1 Timothy 5:22), marriage (Ephesians 5:31-32), and the forgiveness commission (John 20:23) all have real New Testament footing as practices, and whether the absence of a dominical (spoken by the Lord) 'do this' clause disqualifies them from the category 'sacrament' depends on a definition of sacrament that the Greek does not supply. The institution observation is high-grade; the system-denial inference is underdetermined, so the verdict is disputed."

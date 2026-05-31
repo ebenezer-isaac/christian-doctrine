@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-imputed-righteousness",
   "question_id": "doc-imputed-righteousness",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9325,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The load bearing verb is 'to count or reckon' (λογίζομαι, logizomai) (G3049), an accounting term glossed in the lexicon as to count, reckon, take into account, and used by Paul across 39 verses in the canon, eleven of them in Romans 4 alone (verses 3, 4, 5, 6, 8, 9, 10, 11, 22, 23, 24, confirmed by direct query). Paul quotes Genesis 15:6 (the Hebrew 'to count or reckon' (חָשַׁב, chashav), the same calculate or reckon verb, rendered 'it was counted' (ἐλογίσθη, elogisthe) in the Greek Old Testament, the Septuagint, abbreviated LXX) twice, in Romans 4:3 and Galatians 3:6, and Psalm 32:1 in Romans 4:7 to 4:8, grounding the pattern in two Old Testament witnesses. Romans 4:5 pairs the verb with 'the ungodly' (τὸν ἀσεβῆ, ton asebe) and Romans 4:6 adds 'apart from works' (χωρὶς ἔργων, choris ergon), so the righteousness reckoned at that moment is a status distinct from the person's inherent state. 2 Corinthians 5:21 ('we might become righteousness of God in him', γενώμεθα δικαιοσύνη θεοῦ ἐν αὐτῷ, genometha dikaiosune theou en auto) locates the righteousness 'in him' (ἐν αὐτῷ, en auto), that is, in Christ, and Philippians 3:9 opposes 'my own righteousness from law' (ἐμὴν δικαιοσύνην ἐκ νόμου, emen dikaiosunen ek nomou) to 'the righteousness from God' (τὴν ἐκ θεοῦ δικαιοσύνην, ten ek theou dikaiosunen). The verb says the righteousness is reckoned, not produced, so the proposition stands. The text fixes the accounting mechanism but leaves the precise content and source of the reckoned righteousness underdetermined, which is where readers diverge."

@@ -1,20 +1,21 @@
-# Evidence Schema v3.0
+# Evidence Schema v3.1
 
 Pipeline 2 output schema. One file per doctrinal proposition in `questions.json`. Filename pattern: `evidence/<question_id>.json`.
 
-The Pydantic v2 model lives at `pipeline2/evidence_schema.py` with `extra="forbid"` at every level. The post-processor that computes `lexical_score` lives at `pipeline2/score_calc.py` and is a pure function.
+The Pydantic v2 model lives at `pipeline2/evidence_schema.py` with `extra="forbid"` at every level. Two deterministic post-processors live at `pipeline2/score_calc.py`: `compute_lexical_breadth()` returns the breadth band, and `compute_variant_stability()` returns the stability band. Both are pure functions: no I/O, no clock, no random.
 
 ## Schema versions
 
-- v3.0 (current): lean schema, lexical-only, no counter-witness, no personal-decision booleans, no denominational landscape in lay_summary.
-- v2.0 (archived 2026-05-12): mixed lexical and cultural fields in one document. The 111 evidence files at the prior session's commit `12921bb` use v2.0. They are archived; the new Pipeline 2 produces v3.0.
-- v1.0 (deleted 2026-05-10): pre-greenfield schema.
+- v3.1 (current): three named verdict axes (`lexical_breadth`, `lexical_directness`, `variant_stability`). Breadth and stability are deterministic post-processor output; directness is LLM-set.
+- v3.0 (superseded): single `lexical_score` float plus `confidence` enum. All files migrated to v3.1; the migration tooling has been retired.
+- v2.0 (archived): mixed lexical and cultural fields in one document. Read-only history.
+- v1.0 (deleted): pre-greenfield schema.
 
 ## Top-level shape
 
 ```json
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-trinity",
   "question_id": "doc-trinity",
   "generated_at": "2026-05-12T18:00:00Z",
@@ -37,7 +38,7 @@ The Pydantic v2 model lives at `pipeline2/evidence_schema.py` with `extra="forbi
 
 | Field | Type | Required | Notes |
 |---|---|---|---|
-| `$schema_version` | string | yes | Must equal `"3.0"` |
+| `$schema_version` | string | yes | Must equal `"3.1"` |
 | `id` | string | yes | Echoes `question_id`; kept for legacy tooling |
 | `question_id` | string | yes | Must match a `questions[].id` in `questions.json` |
 | `generated_at` | ISO 8601 UTC string | yes | When Pipeline 2 emitted this file |
@@ -52,8 +53,9 @@ Pydantic validator: `id == question_id`.
 {
   "verdict": {
     "affirms": true | false | null | "disputed",
-    "lexical_score": null,
-    "confidence": "high | medium | low",
+    "lexical_breadth": null,
+    "lexical_directness": "direct | inferred | analogical | silent",
+    "variant_stability": null,
     "variant_robust": <bool>,
     "pan_canonical": <bool>,
     "rationale": "<2-5 sentence dense rationale>"
@@ -63,25 +65,52 @@ Pydantic validator: `id == question_id`.
 
 | Field | Type | Required | Notes |
 |---|---|---|---|
-| `affirms` | enum: `true`, `false`, `null`, `"disputed"` | yes | Four-state per architecture decision |
-| `lexical_score` | float 0.0-1.0 or null | no | **Always null at LLM emission time.** Post-processor fills it |
-| `confidence` | enum: `"high"`, `"medium"`, `"low"` | yes | Reflects lexical clarity, not lineage agreement |
-| `variant_robust` | bool | yes | Verdict survives all plausible variant readings |
-| `pan_canonical` | bool | yes | Anchor lemmas span multiple canon sections |
+| `affirms` | enum: `true`, `false`, `null`, `"disputed"` | yes | Four-state verdict |
+| `lexical_breadth` | enum: `"canon_wide"`, `"broad"`, `"partial"`, `"thin"`, or null | no | Always null at LLM emission. Post-processor fills it from structural factors |
+| `lexical_directness` | enum: `"direct"`, `"inferred"`, `"analogical"`, `"silent"` | yes | LLM-set. How directly the canon's words name the subject under test |
+| `variant_stability` | enum: `"stable"`, `"sensitive"`, `"not_in_scope"`, or null | no | Always null at LLM emission. Post-processor derives from `variant_robust` and `variants.ecm_status` |
+| `variant_robust` | bool | yes | Verdict survives all plausible variant readings (input to `variant_stability`) |
+| `pan_canonical` | bool | yes | Anchor lemmas span multiple canon sections (input to `lexical_breadth`) |
 | `rationale` | string | yes | 2-5 sentences citing key lemmas and verse refs |
+
+Schema constraint: `lexical_directness == "silent"` requires `affirms is null`. The Pydantic model rejects any other pairing.
 
 ### `affirms` semantics
 
-- `true`: lexical pattern across the canon supports the proposition.
-- `false`: lexical pattern contradicts it.
-- `null`: lexical evidence is genuinely insufficient (sparse anchor lemmas, narrow textual base).
-- `"disputed"`: lexical pattern is materially contested across the canon (e.g., paedobaptism, women in eldership) such that multiple defensible readings exist.
+- `true`: the lexical pattern across the canon supports the proposition.
+- `false`: the lexical pattern contradicts it.
+- `null`: lexical evidence is genuinely insufficient (sparse anchor lemmas, narrow textual base, or silent canon).
+- `"disputed"`: the lexical pattern is materially contested across the canon (e.g., paedobaptism, women in eldership) such that multiple defensible readings exist.
 
-### `confidence` semantics
+### `lexical_breadth` semantics
 
-- `high`: dense anchor_lemmas, `pan_canonical: true`, complicating_texts addressed, `variant_robust: true`.
-- `medium`: some of the above with gaps.
-- `low`: sparse lemma evidence OR complicating texts unresolved OR verdict variant-sensitive.
+How widely the canon's vocabulary engages the proposition. Computed by `compute_lexical_breadth()` from six structural factors (see Post-processor below).
+
+- `canon_wide`: factors saturate; evidence spans multiple canon sections; complicating texts addressed; variant robust.
+- `broad`: most factors fire; one canon section dominant, or saturation present without pan-canonical spread.
+- `partial`: some factors fire; narrow textual base; gaps unresolved.
+- `thin`: sparse lemmas, narrow base, or several factors absent.
+
+The float backing these bands is intermediate-only and never emitted; only the band reaches `evidence/<id>.json`.
+
+### `lexical_directness` semantics
+
+How directly the canon's words name the subject under test. LLM-set. This axis is epistemic, not structural: a proposition can be `canon_wide` in breadth and still `analogical` in directness if the canon engages the subject only by general principle.
+
+- `direct`: an anchor lemma's primary canonical sense IS the subject under test. Example: alcohol is `direct` because `oinos` (G3631) and `yayin` (H3196) name the subject.
+- `inferred`: no lemma names the subject, but a canonical category catches it. Example: cannabis intoxication is `inferred` because the `methysko`-class state vocabulary (G3182 etc.) condemns the impaired condition regardless of substance.
+- `analogical`: no naming lemma and no category-catch; the verdict reaches the subject only via general principle. Example: tobacco is `analogical` because the verdict rests on 1 Cor 6:19 bodily stewardship and 1 Cor 6:12 mastery rather than any lemma or category that contains the subject.
+- `silent`: the canon does not engage the subject at all. Example: subjects unknown to the biblical world that admit no category-catch or analogical hook. Pair with `affirms: null`.
+
+Typical pairings: `direct` and `inferred` pair with `affirms: true|false|disputed`. `analogical` is honest about a weaker lexical footing. `silent` must pair with `affirms: null` (enforced by the Pydantic validator).
+
+### `variant_stability` semantics
+
+Derived enum from `variant_robust` plus `variants.ecm_status`. Computed by `compute_variant_stability()`.
+
+- `stable`: `variant_robust: true` AND `ecm_status` is not `"n/a"`.
+- `sensitive`: `variant_robust: false` AND `ecm_status` is not `"n/a"`.
+- `not_in_scope`: `ecm_status: "n/a"` (typically OT-only doctrines where the NT manuscript apparatus does not apply). This band takes precedence; `variant_robust` is irrelevant.
 
 ## lexical_evidence block
 
@@ -107,7 +136,7 @@ Pydantic validator: `id == question_id`.
 
 ### anchor_lemmas
 
-The canonical lemmas the verdict rests on. Drives `pan_canonical` and `anchor_lemma_factor` in the score formula.
+The canonical lemmas the verdict rests on. Drives `pan_canonical` and `anchor_lemma_factor` in the breadth formula.
 
 ```json
 {
@@ -176,7 +205,7 @@ Verses that could be read against the verdict. Each must be addressed.
 }
 ```
 
-`complicating_resolved_factor` in the score is the fraction of `complicating_texts[]` with `addressed: true`.
+`complicating_resolved_factor` in the breadth formula is the fraction of `complicating_texts[]` with `addressed: true`.
 
 ## variants block
 
@@ -202,7 +231,7 @@ Verses that could be read against the verdict. Each must be addressed.
 |---|---|---|---|
 | `verdict_variant_sensitive` | bool | yes | True if any contested variant materially affects the verdict |
 | `variant_units_examined` | array | yes | Empty array if no variants in play |
-| `ecm_status` | enum | yes | `ecm-published` if Layer 1 has ECM data for the cited books; `ecm-shadow` if NA28-apparatus-only; `n/a` for OT-only doctrines |
+| `ecm_status` | enum | yes | `ecm-published` if Layer 1 has ECM data for the cited books, `ecm-shadow` if NA28-apparatus-only, `n/a` for OT-only doctrines |
 | `note` | string or null | no | Overall variant-coverage note |
 
 In v1 (CBGM deferred), `ecm_status` is typically `n/a` or `ecm-shadow`; `variant_units_examined` is typically empty.
@@ -269,7 +298,7 @@ Constraints:
 - No "Reformed teach X; Catholics teach Y" (that's cultural overlay).
 - Plain prose that explains what the lexical pattern says.
 
-Validator: `100 <= word_count <= 500`; rejects em-dash and en-dash characters.
+Validator: `100 <= word_count <= 500`; rejects em-dash and en-dash characters; rejects cultural-overlay phrasing matched by the denylist regex.
 
 ## citations array
 
@@ -297,7 +326,7 @@ Allowed `source` slugs (from `docs/LICENSE_TAGGING.md`):
 - `INTF-NTVMR`, `open-cbgm-3-john-sample`
 - `BibleHub-interlinear` (cross-validation only, snippet-cite only)
 
-TTESV (STEPBible Tagged ESV) is **deliberately excluded** from the allowed citation slugs even though it is registered in `docs/LICENSE_TAGGING.md`. Reason: TTESV is a CC-BY-NC tagged translation output, not a lexical primary source. Pipeline 2 cites lexical primaries (apparatus, interlinear, concordance) only. TTESV is ingested into the lexical store (Phase 02) for translation alignment but is not promotable to verdict citations.
+TTESV (STEPBible Tagged ESV) is deliberately excluded from the allowed citation slugs even though it is registered in `docs/LICENSE_TAGGING.md`. Reason: TTESV is a CC-BY-NC tagged translation output, not a lexical primary source. Pipeline 2 cites lexical primaries (apparatus, interlinear, concordance) only. TTESV is ingested into the lexical store (Phase 02) for translation alignment but is not promotable to verdict citations.
 
 Forbidden source slugs: any confession, magisterial document, denominational commentary, or Reformed-aligned commentary site. Pipeline 2 cannot see these (cultural store air-gap), and the schema validator rejects them.
 
@@ -321,7 +350,7 @@ Derivation:
 evidence_safe_to_publish = all(check_redistribute(license=src.license, mode="bulk", ...)["allowed"] for src in sources_used)
 ```
 
-If `evidence_safe_to_publish: false`, the orchestrator records the question id in `evidence/_non_redistributable.txt`.
+The Pydantic validator cross-checks each `redistribute` flag against `ingest.license_guard.check_redistribute`; caller-supplied flags that disagree with the registry are rejected. If `evidence_safe_to_publish: false`, the orchestrator records the question id in `evidence/_non_redistributable.txt`.
 
 ## flags array
 
@@ -336,20 +365,26 @@ Free-form list of slug-style flags. Standard slugs:
 ## Pipeline 2 prompt contract
 
 The lean prompt that Pipeline 2 subagents follow lives at `docs/phase_prompts/pipeline2_verdict.md`. It specifies:
-- Hard constraints (no cultural sources, no LLM-written score, no personal-decision booleans).
+- Hard constraints (no cultural sources, no LLM-written breadth or stability, no personal-decision booleans).
 - Input schema (lexical_context_bundle).
 - Output schema (this document).
-- Verdict guidance per `affirms` and `confidence` values.
+- Verdict guidance per `affirms` and `lexical_directness` values, including the directness quick self-check.
 - Stem audit guidance.
 - Citation discipline.
+- Conditional WebSearch and WebFetch fallback rules with transparency requirements.
+- Same-question sub-dispatch rules.
 - Acceptance criteria.
 
-## Post-processor: lexical_score
+## Post-processor: lexical_breadth and variant_stability
 
-Pure deterministic function at `pipeline2/score_calc.py`. Weights sum to 1.0:
+Two pure deterministic functions at `pipeline2/score_calc.py`. No I/O, no clock, no random. Order-invariant by construction.
+
+### `compute_lexical_breadth(evidence) -> str`
+
+Internally computes a [0, 1] float from six weighted factors, then buckets the float into a named band. The float is intermediate; only the band is emitted to `evidence/<id>.json`.
 
 ```
-lexical_score = (
+breadth_score = (
     0.25 * pan_canonical_factor +
     0.20 * anchor_lemma_factor +
     0.15 * complicating_resolved_factor +
@@ -360,44 +395,57 @@ lexical_score = (
 ```
 
 Factor formulas:
-- `pan_canonical_factor` = 1.0 if `pan_canonical: true` else 0.3
-- `anchor_lemma_factor` = `min(len(anchor_lemmas), 8) / 8`
-- `complicating_resolved_factor` = `addressed_count / max(len(complicating_texts), 1)`; 1.0 if `complicating_texts` is empty
-- `cross_ref_density_factor` = `min(len(cross_refs_invoked), 12) / 12`
-- `variant_robust_factor` = 1.0 if `variant_robust: true` else 0.5
-- `concordance_breadth_factor` = `min(len(concordance_traversed), 10) / 10`
 
-All factors are in [0, 1]; final score is in [0, 1]. The function reads sets and counts only; it is order-invariant by construction. Triangle test (H11 in PoC) verifies this.
+| Factor | Weight | Formula |
+|---|---|---|
+| `pan_canonical_factor` | 0.25 | 1.0 if `pan_canonical: true` else 0.3 |
+| `anchor_lemma_factor` | 0.20 | `min(len(anchor_lemmas), 8) / 8` |
+| `complicating_resolved_factor` | 0.15 | `addressed_count / len(complicating_texts)`; 1.0 if list is empty |
+| `cross_ref_density_factor` | 0.15 | `min(len(cross_refs_invoked), 12) / 12` |
+| `variant_robust_factor` | 0.15 | 1.0 if `variant_robust: true` else 0.5 |
+| `concordance_breadth_factor` | 0.10 | `min(len(concordance_traversed), 10) / 10` |
+
+Band thresholds:
+
+| Band | Condition |
+|---|---|
+| `canon_wide` | `breadth_score >= 0.85` AND `pan_canonical: true` |
+| `broad` | `0.70 <= breadth_score < 0.85`, OR (`breadth_score >= 0.85` AND `pan_canonical: false`) |
+| `partial` | `0.50 <= breadth_score < 0.70` |
+| `thin` | `breadth_score < 0.50` |
+
+The `pan_canonical` gate on the top band prevents a high score driven entirely by single-section density from being labelled canon-wide.
+
+### `compute_variant_stability(evidence) -> str`
+
+```
+if evidence.variants.ecm_status == "n/a":
+    return "not_in_scope"
+if evidence.verdict.variant_robust:
+    return "stable"
+return "sensitive"
+```
+
+`not_in_scope` takes precedence over the robust check: when the NT manuscript apparatus does not apply, variant_robust is irrelevant.
 
 ## Triangle test
 
 Pipeline 2 outputs are subject to a triangle test:
 
 1. Run Pipeline 2 on `question_id=X` once, save as `evidence/X.json`.
-2. Run again on same inputs, save to `tmp/triangle/X_run2.json`.
-3. Compute `lexical_score` for both via score_calc.
-4. Verify:
+2. Run again on the same inputs, save to `tmp/triangle/X_run2.json`.
+3. Verify:
    - Schema validation passes for both.
    - `verdict.affirms` matches.
-   - `lexical_score` differs by ≤ 0.01 (epsilon-stable).
-   - Order-permutation of inputs produces the same score.
+   - `verdict.lexical_breadth` matches exactly (same band).
+   - `verdict.variant_stability` matches exactly (same band).
+   - `verdict.lexical_directness` matches, or differs by at most one adjacent step on the axis `direct -> inferred -> analogical -> silent`.
+   - Order-permutation of inputs produces the same breadth and stability bands.
 
-Verified architecturally in H11; live verification pending Max-plan subagent run.
+Band equality is strict for breadth and stability because both are deterministic post-processor output. Directness drift up to one step is tolerated because the axis is LLM-set; a two-step drift (e.g., `direct` to `analogical`) is flagged. No epsilon-based float comparison is used: the schema does not emit a float.
 
-## Migration notes (v2.0 → v3.0)
+## Migration history
 
-The 111 v2.0 evidence files at commit `12921bb` are archived (per user decision to re-derive from scratch). The migration path is not implemented; v2.0 files are read-only history.
+v2.0 -> v3.0: not implemented. The 111 v2.0 evidence files at the prior session's commit are archived per the user decision to re-derive from scratch under the lean schema. v2.0 mixed lexical and cultural fields; v3.0 split them and added the deterministic `lexical_score`, `variants`, `license_audit`, and `citations` blocks.
 
-Key differences if a future migration is wanted:
-
-| v2.0 | v3.0 |
-|---|---|
-| `answer.would_die_for`, `cult_marker_if_denied`, engagement-ladder | Removed. Move to `responses/<respondent>.json`. |
-| `counter_witness[]` | Removed. Cultural store handles this. |
-| `web[]` with tradition-primary URLs | Removed. Cultural store handles this. |
-| `lay_summary.reasoning` + `denominational_landscape` | Collapsed to single `lay_summary` (lexical only). |
-| `answer.affirms` (tri-state) | `verdict.affirms` (four-state: adds `"disputed"`). |
-| No `lexical_score` | Added (deterministic post-processor). |
-| No `variants` block | Added. |
-| No `license_audit` block | Added (mandatory). |
-| No explicit `citations[]` with license | Added (mandatory). |
+v3.0 -> v3.1: complete. All 231 evidence files migrated. The hybrid migration was deterministic for `lexical_breadth` (recomputed by `compute_lexical_breadth()` from the six factors already in the file) and `variant_stability` (derived by `compute_variant_stability()` from `variant_robust` plus `variants.ecm_status`); one LLM call per file produced `lexical_directness` from the existing rationale and anchor_lemmas. The migration tooling has been retired; future drift is gated by `tools/verify_no_v30_dead_refs.py`, `tools/verify_evidence_files_v31.py`, and `tools/verify_schema_consistency.py`.

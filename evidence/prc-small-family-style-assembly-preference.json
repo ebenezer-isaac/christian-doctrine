@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-small-family-style-assembly-preference",
   "question_id": "prc-small-family-style-assembly-preference",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": null,
-    "lexical_score": 0.7875,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "silent",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two real word-threads run through the cited and adjacent texts, but the vocabulary itself never ranks one above the other. One thread commends intimate, home-based, family-style gathering: churches meet 'house by house' (kat oikon), described as 'the church in someone's house' (Romans 16:5, 1 Corinthians 16:19, Colossians 4:15, Philemon 2), believers break bread 'house by house' (kat oikon) in Acts 2:46 and Acts 5:42, and the body is named 'house or household' (oikos) and 'members of God's household' (oikeioi tou theou), that is, the household of God (1 Timothy 3:15, Ephesians 2:19), with members addressed as 'brothers' (adelphoi). The other thread, inside the same book of Acts, scales upward without any negative comment: 'three thousand' (trischilioi) added in a single day (Acts 2:41), 'about five thousand' (chiliades pente) men (Acts 4:4), 'tens of thousands' (myriades) of believing Jews (Acts 21:20), and one 'assembly or church' (ekklesia) at Ephesus shepherded by a plurality of elders (Acts 20:28). The shepherding word-set ('flock', poimnion; 'to shepherd', poimaino; 'overseer', episkopos; the once-in-the-whole-Bible word 'Chief Shepherd', archipoimen, which is a hapax meaning a word that occurs only once in the entire Bible; and 'to know', ginosko, of mutual knowing) regulates the manner of oversight but quantifies no size. Decisively, the size adjectives the Bible does possess ('small', mikros; 'great', megas; 'few', oligos) are never applied to an assembly as a preference. The verdict is null because the vocabulary genuinely does not state a size ranking, not because two defensible readings of a size claim are in competition."

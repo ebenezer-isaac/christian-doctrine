@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-euthanasia",
   "question_id": "prc-euthanasia",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The prohibition clause rests on a dense, pan-canonical (spread across the whole Bible) chain of words. Exodus 20:13 fixes the absolute negative \"not\" (lo, H3808) with the simple active form of the Hebrew verb (the Qal imperfect) \"to murder\" (ratsach, H7523) as an absolute ban on wrongful killing of a person. Genesis 9:6 grounds that ban in \"image\" (tselem, H6754), the image of God, paired with \"blood\" (dam, H1818). The narrative test case in 2 Samuel 1:10, 14-16 directly puts a mercy-killing scenario into Hebrew words: the Amalekite reports that Saul asked him to finish him because he would not \"live\" (chayah, H2421), so he \"put him to death\" (muth, H4191); David then condemns and executes him, naming the act shedding of \"blood\" (dam, H1818). The divine-prerogative formula \"put to death\" (muth, H4191) in the Hebrew causative form (the Hiphil, meaning to cause to die) set against \"make alive\" (chayah, H2421) in the Hebrew intensive form (the Piel) recurs in Deuteronomy 32:39 and 1 Samuel 2:6, locating life and death under God's hand. Job 1:21 (\"give,\" natan, H5414; \"take,\" laqach, H3947) joins the same chain. The second clause, that refusing futile treatment and permitting natural death is allowed, is a coherent inference from the sovereignty texts and the narrow scope of \"murder\" (ratsach), but the canon supplies no discrete term distinguishing withdrawal of futile care from active killing, which is the source of the residual uncertainty."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-deliverance-ministry",
   "question_id": "prc-deliverance-ministry",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.87,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The first clause is lexically decisive. Demonic reality is named with dense vocabulary: 'devil' (diabolos, G1228, 38 occurrences spread across the whole Bible), 'unclean spirit' (pneuma akatharton, G4151 with G0169, 32 occurrences of akathartos meaning 'unclean'), and concrete narrative expulsion, namely 'to cast out' (ekballo) paired with 'demon' (daimonion), G1544 with G1140, co-occurring in 23 verses across the Synoptic Gospels (Matthew, Mark, Luke) and Acts, while Mark 9:25 to 29 records Jesus rebuking and commanding 'come out' (exelthe, an aorist imperative, a completed past-action command form) and then saying 'this kind' (touto to genos) can come out by nothing except 'in prayer' (en proseuche). The believer response in the epistles is named with 'resist' (anthistemi, G0436, 14 occurrences spanning Romans, Galatians, Ephesians, James, 1 Peter), 'be sober' (nepho, G3525, 6 occurrences all in vigilance contexts), and 'be watchful' (gregoreo, G1127, 23 occurrences) plus 'submit yourselves' (hypotasso, G5293, 40 occurrences) at James 4:7. The second clause, that routinizing deliverance and locating a demon behind every sin and trauma is unbalanced, is an evaluative inference. The Sceva episode (Acts 19) and Matthew 7:22 supply strong negative cases against using the name as a formula, and the canon prescribes no standing technique, but the vocabulary illustrates rather than legislates the frequency judgment, so the aggregate sits as disputed."

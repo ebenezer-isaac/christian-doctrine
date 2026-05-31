@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-body-soul-constitution",
   "question_id": "doc-body-soul-constitution",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern across both Testaments presents the human person as a composite of a material constituent (the physical body side) and an immaterial constituent (the inner life side), and this primary claim is decisive. Genesis 2:7 joins dust (ʿaphar, 110 occurrences) with breath (neshamah, 24 occurrences) and the product is a living being (nephesh chayyah); the term self or life (nephesh) recurs 754 times for the whole living self. Matthew 10:28 sets body (soma) against soul (psyche) as targets of different harm, and 2 Corinthians 5:8 assumes a self that is at home or away from the body (soma). Ecclesiastes 12:7 names the death-split: dust (ʿaphar) to earth, spirit (ruach) to God. The second-tier sub-claim, whether the immaterial side is one principle (dichotomy, a two-part view of the person) or two (trichotomy, a three-part view of the person), is lexically underdetermined (not settled by the words alone). Soul (psyche, 102 New Testament occurrences) and spirit (pneuma, 379) co-occur in only five New Testament verses, and only 1 Thessalonians 5:23 and Hebrews 4:12 set them in any partition; in both the grammar reads as well as a whole-person merism (a two-part figure naming the extremes to mean the whole) as an ontological enumeration (a list of distinct substances), and the Old Testament terms spirit (ruach), breath (neshamah), and soul or self (nephesh) interchange freely for the inner life. The proposition itself labels that partition debated and in-house, so the verdict affirms the unity it asserts."

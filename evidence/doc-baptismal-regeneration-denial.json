@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-baptismal-regeneration-denial",
   "question_id": "doc-baptismal-regeneration-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two patterns sit in the same vocabulary and the words do not rank them. The denial is supported where salvation language appears with no rite: Ephesians 2:8 grounds the perfect-tense (a completed action whose result still stands) 'you have been saved' (sesosmenoi) in grace through faith as God's gift, not works; Romans 4:11 calls circumcision a 'seal' (sphragis) of a righteousness already reckoned to Abraham while he was still uncircumcised, the grammar of a sign placed on a prior reality; Acts 10:44-48 has the Spirit fall before water; Luke 23:43 promises paradise to a man never baptized; and 1 Corinthians 1:17 has Paul sent 'not to baptize but to preach the gospel' (ouk baptizein alla euangelizesthai). But the rite is verbally bound to salvation in a second set: Acts 2:38 'let him be baptized for the forgiveness of sins' (baptistheto eis aphesin hamartion), where the preposition 'into/for' (eis) is genuinely two-way, Titus 3:5 'through the washing of regeneration' (dia loutrou palingenesias) couples washing to regeneration, John 3:5 'from water' (ex hydatos) has several defensible referents, Acts 22:16 'be baptized and wash away your sins' (baptisai kai apolousai tas hamartias), Mark 16:16 'the one believing and being baptized will be saved' (pisteusas kai baptistheis sothesetai), and 1 Peter 3:21 makes 'baptism' (baptisma) the grammatical subject of the verb 'saves' (sozei). The decisive lexical fact is that the verse which would settle it, 1 Peter 3:21, qualifies 'saves' (sozei) with 'appeal or pledge' (eperotema), which is a hapax (a word that occurs only once in the entire Bible) whose sense, appeal versus pledge, cannot be triangulated, so the words leave the case open."

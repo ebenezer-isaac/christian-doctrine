@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-trinity",
   "question_id": "doc-trinity",
   "generated_at": "2026-05-27T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition is a synthesis of three components, and the canon supplies each component with grammar that forecloses the alternatives, though no single verse states the integrated whole. Oneness: Deuteronomy 6:4 predicates 'one' (אֶחָד, echad, Strong's H0259, morph HAcmsa, the ordinary cardinal one, 970 occurrences, the same form used for the composite 'one flesh' of Genesis 2:24) of the LORD (יְהוָה, YHWH), and 'God' (אֱלֹהִים, elohim, Strong's H0430, morph HNcmpa, masculine plural in form in 2597 of 2598 occurrences) takes singular concord (the verb and adjectives agreeing with it are singular, treating the plural-form noun as one). Threeness with deity of each: Matthew 28:19 governs three articulated genitives (nouns in the 'of-X' grammatical form each carrying the article 'the'): 'of the Father' (τοῦ πατρὸς, tou patros, N-GSM, noun-genitive-singular-masculine), 'of the Son' (τοῦ υἱοῦ, tou huiou, N-GSM), 'of the Holy Spirit' (τοῦ ἁγίου πνεύματος, tou hagiou pneumatos, N-GSN, noun-genitive-singular-neuter), each with its own article and joined by 'and' (καί, kai), under one singular 'name' (ὄνομα, onoma, Strong's G3686, N-ASN, noun-accusative-singular-neuter). The benediction at 2 Corinthians 13:14 (versified 2 Corinthians 13:13 in the SBLGNT, an editor's critical edition of the Greek New Testament) coordinates the same three by 'and' (καί). Acts 5:3 to 5:4 names lying to 'the Holy Spirit' (τὸ πνεῦμα τὸ ἅγιον, to pneuma to hagion) then restates it 'you have not lied to men but to God' (οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ, ouk epseuso anthropois alla to theo), equating the Spirit with God. John 1:1 sets 'the Word' (ὁ λόγος, ho logos) 'with God' (πρὸς τὸν θεόν, pros ton theon, with the article 'the', T-ASM, marking distinction) against the article-less predicate 'God' (anarthrous, that is, without the article 'the': θεὸς ἦν ὁ λόγος, theos en ho logos, N-NSM, noun-nominative-singular-masculine, qualitative nature). John 14:16 to 17 holds three referents in one breath and gives the Spirit personal verbs. The pattern spans Torah (the first five books of Moses), the Gospels, Acts, and an epistle (a New Testament letter), and is variant-stable in the bundle (the wording is solid across the textual evidence we have), so pan-canonical (spread across the whole Bible) and variant-robust (not destabilized by textual variants) hold."

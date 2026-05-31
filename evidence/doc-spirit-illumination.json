@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-illumination",
   "question_id": "doc-spirit-illumination",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the cited texts God or the Spirit is the grammatical agent of the perception and teaching verbs, and the believer is the recipient. In 1 Corinthians 2:10 God revealed (apekalypsen, a completed past action in the active voice) these things through the Spirit, who searches (eraunai, ongoing simple statement of fact) the deep things of God. In verse 12 we received the Spirit so that we may know (eidomen). In verse 13 the words are Spirit-taught (didaktois pneumatos, meaning taught by the Spirit). In verse 14 the natural person is not able to know (ou dynatai gnonai) because such things are spiritually examined (anakrinetai, an ongoing simple statement of fact in the passive voice, meaning the action is done to them). John 16:13 has the Spirit guide (hodegesei, a future action) into all the truth. Ephesians 1:18 has the eyes of the heart enlightened (pephotismenous, a completed action whose result still stands, in the passive voice). Luke 24:45 has Christ open (dianoixen) the mind to understand the Scriptures. Psalm 119:18 petitions God to open (gal, from the Hebrew verb galah meaning uncover) the eyes to see wonders in the torah (the law of Moses). The pattern spans law and writings, prophecy, gospel, and epistle. The genuine open question the words leave is scope, whether this illumination adds new content or grants understanding of the already given word, and whether the all in all the truth is exhaustive or apostolic, but no reading reverses the core claim that the Spirit gives believers spiritual understanding of God's word."

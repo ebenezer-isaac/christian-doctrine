@@ -31,8 +31,9 @@ def transform_synthesis_to_envelope(synthesis_output: dict[str, Any]) -> dict[st
     """Pure transform: synthesis subagent output -> MCP envelope.result + license_audit."""
     lex = dict(synthesis_output.get("lexical_verdict", {}))
     affirms = lex.pop("affirms", None)
-    score = lex.pop("lexical_score", None)
-    confidence = lex.pop("confidence", None)
+    lexical_breadth = lex.pop("lexical_breadth", None)
+    lexical_directness = lex.pop("lexical_directness", None)
+    variant_stability = lex.pop("variant_stability", None)
     source_files = lex.get("source_evidence_files") or []
     evidence_file_id = ""
     if source_files:
@@ -40,8 +41,9 @@ def transform_synthesis_to_envelope(synthesis_output: dict[str, Any]) -> dict[st
         evidence_file_id = Path(first).stem
     result = {
         "verdict": affirms,
-        "lexical_score": score,
-        "confidence": confidence,
+        "lexical_breadth": lexical_breadth,
+        "lexical_directness": lexical_directness,
+        "variant_stability": variant_stability,
         "lexical_evidence": lex,
         "cultural_overlay": synthesis_output.get("cultural_overlay"),
         "variant_sensitivity": synthesis_output.get("variant_sensitivity"),
@@ -104,8 +106,9 @@ def handle(
         synthesis_output = {
             "lexical_verdict": {
                 "affirms": evidence["verdict"]["affirms"],
-                "lexical_score": evidence["verdict"]["lexical_score"],
-                "confidence": evidence["verdict"]["confidence"],
+                "lexical_breadth": evidence["verdict"]["lexical_breadth"],
+                "lexical_directness": evidence["verdict"]["lexical_directness"],
+                "variant_stability": evidence["verdict"]["variant_stability"],
                 "source_evidence_files": [f"evidence/{qid}.json"],
             },
             "cultural_overlay": {"by_tradition": {}},

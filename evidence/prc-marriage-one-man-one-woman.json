@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-marriage-one-man-one-woman",
   "question_id": "prc-marriage-one-man-one-woman",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The institution text Genesis 2:24 pairs the masculine word for man (ish, H0376) with the singular suffixed feminine word for his wife (ishto, from ishshah, H0802), uses the verbs leave (azab, H5800) and cleave (dabaq, H1692), and culminates in one flesh (basar echad), where the numeral one (echad, H0259) is the plain numeral one modifying flesh (basar, H1320). Genesis 1:27 supplies the creation-account binary male (zakar) and female (neqebah) (H2145, H5347), translated in the Greek of Matthew 19:4 and Mark 10:6 as male (arsen) and female (thelys) (G0730, G2338). Jesus, speaking with the authority of the Lord, cites both texts together (Matthew 19:4-6, Mark 10:6-9), declares that the two (hoi dyo) (G1417) become into one flesh (eis sarka mian) (G4561 with the feminine numeral one (mian) from heis, G1520), names God as the agent with the verb yoked together (synezeuxen, from syzeugnymi, G4801, a verb that occurs only at Matthew 19:6 and Mark 10:9 in the entire New Testament canon), and prohibits separation (chorizo, G5563). Ephesians 5:31 reproduces Genesis 2:24 verbatim and applies it with reference to Christ and to the church (eis Christon kai eis ten ekklesian) (church = ekklesia, G1577). The same one (echad) of Genesis 2:24 is invoked in Malachi 2:15 of the wife-of-youth covenant (berith, H1285), and the qualifier of one wife a husband (mias gynaikos andra) (G1520, G1135, G0435), in 1 Timothy 3:2 and Titus 1:6 lexically (that is, in the actual words used) presupposes the same monogamous norm. The pair (the dyad), the singular numeral, the leave-and-cleave verbs, the divine joining verb, and the New Testament reuse converge."

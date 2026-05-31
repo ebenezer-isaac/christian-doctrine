@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-ecumenism-with-non-trinitarian-groups-denial",
   "question_id": "doc-ecumenism-with-non-trinitarian-groups-denial",
   "generated_at": "2026-05-27T07:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The identity half of the proposition is densely grounded. The articular present participle (a participle with the article 'the' attached, naming a settled type of person) 'the one denying' (ho arnoumenos) is a stable pan-canonical (spread across the whole Bible) category for contradicting Christ (33 occurrences of 'to deny' (arneomai) across 13 books), and 1 John 2:23 reads 'everyone denying the Son does not even have the Father' (pas ho arnoumenos ton huion oude ton patera echei), with 'to have or not have' (echo) framing a relationship and not a mere opinion. John 5:23 sets equal honor by the comparative 'just as' (kathos), 'that all may honor the Son just as they honor the Father' (hina pantes timosi ton huion kathos timosi ton patera), and John 1:1 predicates full deity of the Word, 'the Word was God' (theos en ho logos). The posture half rests on three converging texts that each carry a scope question: 2 John 10 commands 'do not receive him into a house' (me lambanete auton eis oikian), and 'do not greet' (me chairein), the one who does not abide in 'the teaching of Christ' (the didache tou Christou), and verse 11 makes greeting 'sharing' or 'partnering' (koinonei) in his evil works. 2 Corinthians 6:14 forbids being 'mismatched-yoked' (heterozygountes), but the verb is a hapax (a word that occurs only once in the entire Bible). Galatians 1:8-9 twice pronounces 'a curse, devotion to destruction' (anathema) on a different gospel. Both halves hold across multiple books, so the verdict affirms, but the posture vocabulary does not by itself fix how far the separation extends, which keeps confidence at medium."

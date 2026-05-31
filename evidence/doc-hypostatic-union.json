@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-hypostatic-union",
   "question_id": "doc-hypostatic-union",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across John, Philippians, Colossians, 1 Timothy, Hebrews, and Romans the canon attaches full divine identity and full human identity to one grammatical subject without any word-level trace of two persons. In John the same subject \"the Word\" (ho logos), which verse 1 calls \"God\" (theos), is also the subject of \"became flesh\" (sarx egeneto) in verse 14 (the verb is verified as a real second-aorist deponent, that is, a completed past action that takes middle/passive endings but acts in an active sense, V-2ADI-3S). In Philippians 2:6 to 8 a single relative pronoun \"who\" (hos, parsed R-NSM, a masculine singular relative pronoun in the subject form) governs both \"existing in the form of God\" (en morphe theou hyparchon) and \"taking the form of a servant\" (morphen doulou labon), and the same \"who\" humbles himself to death. Colossians 2:9 keeps the whole \"fullness\" (pleroma) of \"deity\" (theotes) dwelling in him bodily in the present tense (ongoing, simple statement of fact). So the one-subject-two-predicate pattern is decisive. Confidence is medium, not high, because the precise nature-vocabulary that the technical formula leans on (\"form\" (morphe) occurs only 3 times in the whole New Testament, and \"a thing to be grasped\" (harpagmos) and \"deity\" (theotes) are each a hapax, a word that occurs only once in the entire Bible) is too thin to triangulate the exact metaphysics, so the words establish one subject bearing both sets of predicates but underdetermine the four Chalcedonian adverbs (the four technical phrases \"without confusion, without change, without division, without separation\" added by a later church council)."

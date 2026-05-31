@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-papal-supremacy-denial",
   "question_id": "doc-papal-supremacy-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7125,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The word-level data leans toward the denial of a transferable supreme Petrine (relating to the apostle Peter) office but cannot close the question. In Matthew 16:18 the form addressed to the apostle is the masculine word 'Peter' (Πέτρος, Petros, G4074), which the lexicon glosses as 'a detached stone', while the foundation is the feminine word 'rock' (πέτρα, petra, G4073), glossed as 'a mass of live rock as distinct from a detached stone (πέτρος)', and the demonstrative 'this' (ταύτῃ, tautē) and the article 'the' (τῇ, tē) are feminine, agreeing with the feminine 'rock' (πέτρα, petra). The same keys and 'binding' (δήσῃς, dēsēs, 2nd person singular, 'you-singular bind') and 'loosing' (λύσῃς, lysēs, 2nd person singular, 'you-singular loose') given to Peter in the singular in Matthew 16:19 are given to the disciples in the plural ('you-all bind', δήσητε, dēsēte, 2nd person plural; 'you-all loose', λύσητε, lysēte, 2nd person plural) in Matthew 18:18, and John 21:15-17 gives Peter a pastoral 'feed' (βόσκε, boske) and 'shepherd' (ποίμαινε, poimaine) charge, not a jurisdictional (ruling-office) grant. Peter is opposed by Paul ('I withstood', ἀντέστην, antestēn, a completed past action, Galatians 2:11), questioned at Jerusalem ('they took issue', διεκρίνοντο, diekrinonto, ongoing or repeated past action, Acts 11:2), and is one of three 'pillars' (στῦλοι, styloi, Galatians 2:9) and a 'fellow elder' (συμπρεσβύτερος, sympresbyteros, 1 Peter 5:1), while the foundation is the apostles plural (Ephesians 2:20, Revelation 21:14) on Christ the only foundation (1 Corinthians 3:11). It stays disputed because 'rock' (πέτρα, petra) can defensibly be construed as Peter personally, Peter is named 'first' (πρῶτος, prōtos) in the list (Matthew 10:2), and the vocabulary simply does not name Rome, a successor, or an error-free office, so the SCOPE the proposition denies is underdetermined by the words."

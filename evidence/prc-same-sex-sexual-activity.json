@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-same-sex-sexual-activity",
   "question_id": "prc-same-sex-sexual-activity",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-pattern in the original languages is dense, spread across the whole Bible (pan-canonical), and uniform in how it judges the act. Leviticus 18:22 prohibits a male (zakar, H2145) from lying with what it calls the lyings of a woman (mishkebei ishshah, H4904 plus H0802, meaning the kind of sexual lying that belongs with a woman) and labels it an abomination (toebah, H8441), a verdict repeated in Leviticus 20:13 with the death penalty attached. Romans 1:26-27 frames the act with the phrase natural use (phusike chresis, G5446 plus G5540) and against nature (para physin, G3844 plus G5449, meaning contrary to the created order), tying nature (physis) to the male and female pair, then names males with males (arsenes en arsesin, G0730) working shamelessness (aschemosune, G0808, a shameful, indecent act). 1 Corinthians 6:9 and 1 Timothy 1:10 use the word arsenokoites (G0733), a compound word built from the two stems arsen (male) plus koite (bed, sexual lying), the same two stems that stand side by side in the Greek Old Testament, the Septuagint (LXX) of Leviticus 18:22, so the New Testament term lexically encodes the Torah prohibition in its very letters. Every occurrence of these terms in the Bible assigns a negative valuation. The creational ground (Genesis 1:27 in the Septuagint uses the same arsen (male) and thelys (female) pair) anchors the against-nature (para physin) reasoning in the words themselves."

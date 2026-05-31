@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-ubiquity-of-christs-body",
   "question_id": "doc-ubiquity-of-christs-body",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the whole Bible, the vocabulary that describes the risen and ascended body is uniformly spatial and locative (about place and direction). In Acts 1:9-11 a cloud lifts Jesus up (the Greek 'was lifted up', epērthē, G1869) and removes him from the disciples' eyes (the Greek 'from the eyes', apo tōn ophthalmōn, G0575), this same one (the Greek demonstrative 'this one', houtos, G3778) is taken up (the Greek 'having been taken up', analēmphtheis, G0353) into heaven (the Greek 'into the heaven', eis ton ouranon, G3772, naming a single destination), and will come (the Greek future 'he will come', eleusetai, G2064) in the same manner. A dense chain spread across the whole Bible (pan-canonical) then locates the body at one place: he sat down (the Greek 'he sat down', ekathisen, G2523) at the right hand (the Greek 'at the right', en dexia, G1188, 54 occurrences clustered at Acts 2:33, 7:55-56, Romans 8:34, Ephesians 1:20, Colossians 3:1, Hebrews 1:3, 10:12, 1 Peter 3:22), where Stephen sees him standing (the Greek 'standing', hestōta, G2476). Luke 24:39 offers a touchable body of flesh and bones (the Greek 'flesh and bones', sarka kai ostea, G4561, G3747), and 1 Corinthians 11:26 bounds the supper until he comes (the Greek 'until which he should come', achri hou elthē, G0891). These words describe a circumscribed (bounded in space), locatable body and never predicate (assert as a property of) omnipresence (being present everywhere) of it. The proposition, however, is not a claim the lexemes (the dictionary-form words themselves) make: it is an inference about how the divine nature shares properties with the human nature, sitting one level above what the morphology (word-form analysis) of these verses settles, so the verdict is disputed."

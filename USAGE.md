@@ -86,7 +86,7 @@ Validation is a phase prompt; the orchestrator dispatches a subagent that reads 
 
 Tell the orchestrator:
 
-- "Validate every file in `evidence/` against the v3.0 schema."
+- "Validate every file in `evidence/` against the v3.1 schema."
 - "Run a triangle test on `evidence/doc-trinity.json` vs `tmp/triangle/doc-trinity_run2.json`."
 - "Run license audit on the last 20 evidence files; surface any with `evidence_safe_to_publish: false`."
 
@@ -158,7 +158,7 @@ The PoC equivalent of this is at `tmp/poc/infra/docker/test_airgap.ps1`. See [do
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): canonical reference, full 10-layer architecture, three pipelines, two air-gapped stores, all 15 PoC-validated deltas.
 - [docs/MCP_TOOLS.md](docs/MCP_TOOLS.md): 11 tools with I/O schemas.
-- [docs/EVIDENCE_SCHEMA.md](docs/EVIDENCE_SCHEMA.md): Pipeline 2 evidence v3.0 schema.
+- [docs/EVIDENCE_SCHEMA.md](docs/EVIDENCE_SCHEMA.md): Pipeline 2 evidence v3.1 schema.
 - [docs/CULTURAL_SCHEMA.md](docs/CULTURAL_SCHEMA.md): cultural-store per-chunk schema.
 - [docs/INGESTION_PATTERNS.md](docs/INGESTION_PATTERNS.md): per-dataset and per-source ingest recipes.
 - [docs/LICENSE_TAGGING.md](docs/LICENSE_TAGGING.md): license posture per source, redistribution rules.

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-women-non-authoritative-ministry-open",
   "question_id": "prc-women-non-authoritative-ministry-open",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The verb 'to prophesy' (propheteuo, Strong's G4395) occurs 28 times across the canon and is applied with explicit female subjects. In Acts 2:17-18 the daughters ('daughters', thygateres, a feminine plural noun) and handmaidens (doulas) 'shall prophesy' (propheteusousin). In Acts 21:9 four daughters are 'prophesying' (propheteuousai, a present participle, that is an '-ing' form, in the nominative plural feminine, the subject-form for female plural). In 1 Corinthians 11:5 a woman 'praying or prophesying' carries two present participles in the nominative singular feminine (proseuchomene, 'praying', and propheteuousa, 'prophesying') that presuppose the act as actually occurring. The Hebrew noun 'prophetess' (nebiah, Strong's H5031) runs through the Law, Prophets, and Writings: Miriam in Exodus 15:20, Deborah in Judges 4:4, Huldah in 2 Kings 22:14 and 2 Chronicles 34:22, and Isaiah's wife in Isaiah 8:3. Anna is called a 'prophetess' (prophetis, Strong's G4398) in Luke 2:36. Women also labor in the gospel: 'to toil' (kopiao, Strong's G2872) is used of Mary, Tryphena, Tryphosa, and Persis in Romans 16:6, 12; 'to strive together' (synathleo, Strong's G4866) appears in Philippians 4:3; and 'to serve' (diakoneo, Strong's G1247) describes the women in Luke 8:3. The restriction lexemes (key word-forms) in 1 Timothy 2:12 attach to 'to teach' (didaskein) paired with 'to exercise authority over' (authentein) 'a man' (andros, in the genitive form, meaning of/over a man), forming an authoritative-teaching act over a man. The verb 'to exercise authority' (authenteo) is a hapax (a word that occurs only once in the entire Bible). Confidence is high because the openness strand is dense and pan-canonical (spread across the whole Bible), while the lone contested verb only bounds the upper office edge, not the affirmation."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-biblical-justice-as-duty",
   "question_id": "prc-biblical-justice-as-duty",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The pattern of command-form and infinitive verbs (the 'to do X' form) across Micah 6:8, Isaiah 1:17, Amos 5:24, James 1:27, and Matthew 23:23 places active care for the vulnerable in the slot of required covenant conduct, not optional benevolence. The Hebrew word 'justice' (mishpat, Strong's H4941) is the shared object of 'doing' in Micah and of 'seeking' in Isaiah, and Jesus glosses the equivalent triad as 'justice and mercy and faithfulness' (ten krisin kai to eleos kai ten pistin), calling them the weightier matters of the law. James assigns the participial acts of visiting orphans and widows to the predicate (the 'is' side of an equation sentence) of pure 'religion' (threskeia) before God. The duty reading holds across Hebrew prophecy, Synoptic gospel (the gospels of Matthew, Mark, and Luke that parallel each other), and Greek epistle (letter) with no material textual variant disturbing it. The Galatians 1:6-9 anchor governs gospel fidelity rather than social ethics, so it neither establishes nor undercuts the duty claim and is treated as a complicating, off-target text."

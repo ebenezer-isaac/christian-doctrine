@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-environmental-stewardship",
   "question_id": "prc-environmental-stewardship",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three load-bearing texts converge. Genesis 2:15 places the man 'to work it and to keep it' (le-abdah u-le-shamrah), two simple-active infinitive constructs in the qal stem (the simple active form of the Hebrew verb): 'to work or serve' (abad H5647) and 'to keep or guard' (shamar H8104), each governing the garden as object, and syntactically functioning as purpose-clauses on the placing verb. Genesis 1:28 issues 'have dominion' (radah H7287A) and 'subdue' (kabash H3533) within a divine blessing alongside 'be fruitful and multiply' (peru u-revu), so the dominion verbs are delegated, not autonomous. Psalm 24:1 prefixes the lamed of possession (the small Hebrew prefix meaning 'belonging to') to YHWH in 'to-YHWH the-earth and-its-fullness' (la-YHWH ha-arets u-meloah), marking the earth and all in it as His possession. The combination of delegated rule, custodial keeping, and divine ownership grounds a stewardship reading and forecloses any reading of creation as itself divine or as autonomous human property."

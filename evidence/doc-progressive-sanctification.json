@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-progressive-sanctification",
   "question_id": "doc-progressive-sanctification",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition is carried by verbal aspect (the angle of time the verb takes, such as ongoing versus completed). The verb 'to be transformed' (metamorphoo, G3339) appears in its non-transfiguration uses only in the present passive (action being received continuously): 2 Corinthians 3:18 has 'we are being transformed' (metamorphoumetha, V-PPI-1P, a present passive indicative, meaning ongoing action done to us) into the same 'image' (eikon, G1504) from glory to glory; and Romans 12:2 has 'be transformed' (metamorphousthe, V-PPM-2P, a present passive imperative), a durative passive (an ongoing form where the action is received) that marks ongoing Spirit-wrought change rather than a completed act. The verb 'to grow' (auxano, G0837) is dominantly present and imperfect (ongoing or repeated past action) across the canon and stands as a present imperative in 2 Peter 3:18 'keep growing' (auxanete). The noun 'sanctification' or 'holiness' (hagiasmos, G0038) is governed by the preposition 'unto' (eis) in Romans 6:19 and 6:22, holiness as a terminus moved toward, and is the object of the present imperative 'pursue' (diokete) in Hebrews 12:14. Philippians 2:12 and 13 pairs the present imperative 'keep working out' (katergazesthe, V-PNM-2P) with 'God the one working' (theos ho energon, G1754, present participle), and Philippians 1:6 draws the arc from 'having begun' (enarxamenos, aorist, a completed past action) to 'will complete' (epitelesei, V-FAI-3S). The genuine complication is that the cognate verb 'to sanctify' (hagiazo, G0037) carries both a definitive aorist (a completed past action) or perfect sense (a completed action whose result still stands), as in 1 Corinthians 6:11 'you were sanctified' (hegiasthete) and Hebrews 10:10 'we have been sanctified' (hegiasmenoi), and a present durative sense (ongoing) in the same context, as in Hebrews 10:14 'those being sanctified' (hagiazomenous) and Hebrews 2:11. The canon supplies both aspects without ranking them, so the present-tense pattern establishes the progressive work while the aorist and perfect establish a settled standing, which the proposition affirms together rather than against."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-imminence-no-date-setting",
   "question_id": "doc-imminence-no-date-setting",
   "generated_at": "2026-05-28T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The claim has two parts and the word-level pattern lands them very differently. The no-date-setting part is decisive across multiple Bible authors. Matthew 24:36 and Mark 13:32 use the universal negative pronoun 'no one' (oudeis) with the perfect tense (a completed action whose result still stands) 'knows' (oiden) of the day (hemera) and hour (hora). Mark stacks the negatives 'neither ... nor' (oude ... oude) to deny even the Son. Acts 1:7 says 'it is not yours to know times or seasons which the Father has fixed by his own authority' (ouch hymon estin gnonai chronous e kairous hous ho pater etheto en te idia exousia), removing the times and seasons from the disciples' competence. Paul reuses the same 'time' (chronos) and 'season' (kairos) pair in 1 Thessalonians 5:1 and adds the thief comparison of 1 Thessalonians 5:2. Watchfulness is commanded with present imperatives (ongoing commands) 'keep watching' (gregoreite) in Matthew 24:42, 'watch and stay alert' (blepete agrupneite) in Mark 13:33, and 'be ready' (ginesthe hetoimoi) in Matthew 24:44. The any-moment imminence emphasis is real but more synthetic. The thief comparison and watch-commands plus Philippians 4:5 'near' (engys), James 5:8 'has drawn near' (engiken), and Revelation 22:20 'I come swiftly' (erchomai tachy) support nearness and readiness, while 2 Thessalonians 2:1-3 inserts an ordered 'falling away' (apostasia) and revealing of the 'man of lawlessness' (anthropos tes anomias) before the day comes, so a strict any-moment expectation is in tension with at least one sequence statement in the canon (the whole Bible)."

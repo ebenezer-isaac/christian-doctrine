@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-autonomy-of-local-assembly",
   "question_id": "doc-autonomy-of-local-assembly",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.725,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Direct queries confirm the positive half of the proposition with grammatical precision. Each local body receives its own plurality of elders, distributively (Acts 14:23 reads 'having appointed' (cheirotonesantes, G5500) 'elders' (presbyterous, G4245) plural with 'in every church' (kat' ekklesian); Titus 1:5 reads 'elders' (presbyterous) 'city by city' (kata polin)), and the same plural cohort named 'elders' (presbyterous, G4245) in Acts 20:17 is renamed 'overseers' (episkopous, G1985) in Acts 20:28, so elder and overseer are one office over one local flock, with Christ alone as 'Chief Shepherd' (archipoimen, G0750), a hapax (a word that occurs only once in the entire Bible), in 1 Peter 5:4. What the lexicon does not establish is the negative claim of non-subordination. The very verb of Titus 1:5's local directive, 'I prescribe/direct' (diatasso, G1299), is the verb Paul applies to all the churches at once in 1 Corinthians 7:17 ('in all the churches I prescribe', en tais ekklesiais pasais diatassomai) and 1 Corinthians 16:1, and at Acts 16:4 binding 'decrees' (dogmata, G1378) that have been 'decided' (kekrimena, from G2919) from the Jerusalem assembly are delivered to the local churches 'throughout the cities' (kata tas poleis) to keep. Because 'assembly/church' (ekklesia, G1577) itself denotes both the single local assembly and the one supra-local (spanning beyond one place) church, and the same authority vocabulary reaches both levels, the polity (church-government) scope is materially contested and the verdict is recorded as disputed."

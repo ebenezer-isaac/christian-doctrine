@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-sermon-centered-service",
   "question_id": "prc-sermon-centered-service",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Each named activity is lexically attested as a real corporate practice. Nehemiah 8:1 to 8:8 records the public reading of the law (torah) paired with exposition that yields understanding. Acts 2:42 lists apostolic teaching, fellowship, the breaking of bread, and the prayers. 1 Timothy 4:13 commands public reading (anagnosis), exhortation (paraklesis), and teaching (didaskalia). 2 Timothy 4:2 commands 'preach the word' (kerysson ton logon, an ongoing command to herald or announce the message). Colossians 3:16 with 1 Corinthians 14:26 adds song and psalms as corporate elements. What the words do not establish is the proportional claim carried by 'centers'. Acts 2:42 coordinates four practices in parallel datives (nouns in the 'to-X' grammatical form) joined by 'and' (kai) with no comparative, superlative, or ordinal marker. Acts 20:7 names 'to break bread' (klasai arton) as the purpose-infinitive (the 'in order to' verb form) of the gathering, with Paul's 'word' (logos) following within that purpose. The constituent claim is well attested. The centering claim is underdetermined by the vocabulary."

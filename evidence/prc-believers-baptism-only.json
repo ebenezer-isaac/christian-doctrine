@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-believers-baptism-only",
   "question_id": "prc-believers-baptism-only",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.6575,
-    "confidence": "medium",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": false,
     "rationale": "The grammar of the clear narrative cases does place a verb of personal response before the act of baptism. In Acts 2:38 'repent' (metanoesate) parses as aorist active imperative second plural (V-AAM-2P, a completed past action used as a command spoken to a group, 'do repent'), then 'be baptized' (baptisthetо) as aorist passive imperative third singular (V-APM-3S, a completed past action used as a command in the form 'let each be baptized'). In Mark 16:16 'having believed' (pisteusas) is an aorist participle (V-AAP-NSM, a completed past action functioning as a verbal adjective) standing before 'having been baptized' (baptistheis), and the condemnation clause names only 'having disbelieved' (apistesas), not the unbaptized. But the proposition adds the word 'only', and the vocabulary does not encode that exclusivity. The household texts split: in Acts 18:8 Crispus 'believed' (episteusen, V-AAI-3S, ongoing or simple past statement of fact) and the household 'were being baptized' (ebaptizonto) with 'were believing' (episteuon) stated, yet in Acts 16:31 'believe' (pisteuson) and 'you will be saved' (sothese) are both second singular (addressed to the jailer) while the appended 'household' (oikos) is silent on each member, Acts 16:34 'with his whole household' (panoikei) is a hapax (a word that occurs only once in the entire Bible), and Acts 2:39 extends the promise to 'children' (tekna) without ranking whether that warrants their baptism. The same verb 'forbid/hinder' (koluo) welcomes an adult petitioner in Acts 8:36 and the brought children in Luke 18:16, so the canon supplies two patterns the words do not adjudicate. Lexically disputed."

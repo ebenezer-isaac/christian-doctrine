@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-ivf-reproductive-tech",
   "question_id": "prc-ivf-reproductive-tech",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition is a compound claim (it bundles more than one assertion) and the lexicon (the word-store of the Bible) answers its two halves asymmetrically. Its ethical-concern clause about embryo destruction, selection, and surrogacy detached from marriage connects to a pan-canonical thread (spread across the whole Bible) on prenatal personhood (the status of the unborn as a real person). The Hebrew verb 'to form' (yatsar, H3335G, 38 occurrences from Genesis 2:7 to Jeremiah 1:5) and 'to acquire or bring into being' (qanah, H7069, 83 occurrences) and 'to weave' (raqam, H7551, used as a womb metaphor in Psalm 139:15) and the hapax (a word that occurs only once in the entire Bible) 'unformed embryonic mass' (golem, H1564, Psalm 139:16) ascribe formation, possession, weaving, and divine vision to the embryonic stage, and Genesis 1:27 with 'image' (tselem, H6754) plus Genesis 9:6 grounds the bloodshed-prohibition in image-bearing (humans bearing God's image). Its permissibility clause about IVF and reproductive technology has no lexical footprint (no anchor in the Bible's vocabulary): no Hebrew or Greek term denotes in-vitro fertilization, embryo transfer, or third-party gestational surrogacy. The verdict is disputed because the words decisively bear on the sub-issues of embryo loss and detached surrogacy while the technology framing itself is lexically silent."

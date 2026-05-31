@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-transubstantiation-denial",
   "question_id": "doc-transubstantiation-denial",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition bundles two claims that the queried lexical data treat unequally. The claim that Christ's sacrifice is single and unrepeatable is strongly supported. Hebrews stacks 'once for all' (ephapax, G2178, Hebrews 7:27 and 9:12), 'one sacrifice' and 'one offering' (mian thysian and mia prosphora, G1520 with G2378 and G4376), 'forever' or 'continually' (eis to dienekes, G1336), the perfect tense (a completed action whose result still stands) 'he has perfected' (teteleioken, G5048, tagged V-RAI-3S meaning perfect active indicative third person singular, Hebrews 10:14) and the aorist (a completed past action) 'he sat down' (ekathisen, Hebrews 10:12) to assert one finished offering, while Acts 1:9-11 fixes the same bodily Jesus ('this same Jesus,' houtos ho Iesous) in heaven until his return. But the narrower claim that 'is' (estin) in 'this is my body' (touto estin to soma mou, Matthew 26:26, Mark 14:22, Luke 22:19, 1 Corinthians 11:24) is figurative rather than a substance change cannot be settled from the linking verb 'is' (the copula). The verb is G1510 in the bare V-PAI-3S form (present active indicative third person singular, an ongoing simple statement of fact), and the canon uses that very form both for identity and for representation (Matthew 13:38, Luke 8:11, John 15:1, and the imperfect tense, an ongoing or repeated past action, 'was' (en) at 1 Corinthians 10:4), with 1 Corinthians 11:25 calling the cup the new covenant in the same passage. The category 'transubstantiation' (a substance-change idea) names a metaphysic the vocabulary does not supply, so the words neither establish it nor strictly exclude a real presence. The predication is materially contested, so the bundled proposition is disputed even though its sacrifice-finality component is well grounded."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-seeker-sensitive-style",
   "question_id": "prc-seeker-sensitive-style",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9625,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "analogical",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The cited texts ground worship as God-directed (the verb 'worship' (proskuneo, Strong's G4352) terminates on 'God' (theos) and 'Father' (pater) in John 4:23-24 and 1 Corinthians 14:25) and as acceptable only with reverence and awe before a consuming fire (Hebrews 12:28-29). They also show that understandable truth-speech in the assembly is the very thing that convicts the outsider and produces worship (1 Corinthians 14:24-25: he is 'convicted' (elegchetai, from elegcho, Strong's G1651) and 'examined' (anakrinetai, from anakrino, Strong's G0350), and 'the hidden things' (ta krypta, Strong's G2927) of his heart are made visible (phaneros)). The whole-Bible distribution of 'convict' (elegcho) (17 occurrences, almost uniformly tied to exposure of sin or false teaching, for example John 3:20, John 16:8, Ephesians 5:11, 2 Timothy 4:2, Titus 1:9) reinforces that conviction comes through more truth-exposure and not less, which cuts against systematic removal of sin, judgment, and cross content. But the canon offers no single word or grammatical form legislating worship style or service design as such, and 1 Corinthians 9:22 ('I became all things to all people, that I might by all means save some' (panta gegona pasin hina pantos tinas soso)) commends adaptive accommodation for evangelistic ends, so the specific normative claim that accessibility-driven design reorients worship away from its God-ward end is not directly commanded or condemned at the word-study level. The proposition is therefore disputed at the lexical (word-study) level."

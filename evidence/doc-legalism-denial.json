@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-legalism-denial",
   "question_id": "doc-legalism-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The denial of works-of-law as a basis for acceptance is dense and runs across all of Paul's letters, not just one. The pairing of the words 'work' (erga, G2041) and 'law' (nomos, G3551) recurs in Galatians 2:16, 3:2, 3:5, 3:10 and Romans 2:15, 3:20, 3:27, 3:28, 9:32, and in those same verses the verb 'to justify' or 'to declare righteous' (dikaioo, G1344) is negated with 'not' (ou) or 'no one' (oudeis), so being justified 'out of works of law' (ex ergon nomou) is shut out (Galatians 2:16 stacks the negated present passive 'is justified' (dikaioutai), which is an ongoing simple statement of fact in the receiving voice, three times, Romans 3:20 the future passive 'will not be justified' (ou dikaiothesetai) for 'all flesh' (pasa sarx)). Galatians 5:3-4 makes accepting circumcision as a condition a debt to keep the whole law, with the result that they 'were severed from Christ' (katergethete apo Christou) and 'fell out of grace' (tes charitos exepesate). In the Gospels Mark 7:7-9 opposes the 'commandment' (entole) of God (G1785) to the 'tradition' (paradosis) of men (G3862), and Colossians 2:22 repeats the exact phrase 'commandments and teachings of men' (entalmata kai didaskalias ton anthropon), branding food, festival, and sabbath rules as 'self-imposed worship' (ethelothreskia, G1479) with no power against the flesh. The texts therefore support the proposition: conditions made of human rules, and law-works treated as the basis of acceptance, distort the gospel, while obedience remains its fruit."

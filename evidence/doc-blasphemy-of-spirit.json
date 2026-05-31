@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-blasphemy-of-spirit",
   "question_id": "doc-blasphemy-of-spirit",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Synoptic saying (the parallel saying recorded in Matthew, Mark, and Luke) frames a sweeping rule about forgiveness and then names a single exception. Mark 3:28-29 reads 'all will be forgiven' (panta aphethesetai, future passive, that is, a future event done to the subject, naming all sins and blasphemies as forgivable) then 'but whoever blasphemes against the Holy Spirit' (hos d an blasphemese eis to pneuma to hagion) 'does not have forgiveness into the age, but is guilty of an eternal sin' (ouk echei aphesin eis ton aiona, alla enochos estin aioniou hamartematos). Matthew 12:31-32 adds the strongest permanence formula available in Greek, 'neither in this age nor in the coming one' (oute en touto to aioni oute en to mellonti), a double negative spanning both ages. The verb 'to blaspheme' (blasphemeo) and the noun 'blasphemy' (blasphemia) are generic across the canon (35-plus verses, many targets, all forgivable), so the unforgivability is carried not by the word itself but by the one named object (the Holy Spirit) plus the idiom 'into the age' (eis ton aiona) and the adjective 'eternal' (aionios), which elsewhere fixes permanence for life, punishment, and judgment. The Hebrew verb 'to revile' (gadaph) in Numbers 15:30-31, 'the soul that blasphemes Yahweh with a high hand and is cut off,' supplies the Old Testament root of this category."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-word-of-faith",
   "question_id": "prc-word-of-faith",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The anchor cluster lexically locates outcome-producing speech in the divine first person. Isaiah 55:11 reads 'my word' (devari), going out 'from my mouth' (mippi), and not returning 'empty' (reqam), but accomplishing what the LORD 'delights or wills' (chaphets). The same passage raises 'the heavens' (shamayim) above the earth ('are higher', gavhu, H1361) to mark divine 'way' (derek) and 'thought' (machashavah) as categorically above the human (Isaiah 55:8-9). Psalm 115:3 grounds outcome in 'God' (elohim) doing 'all that he pleased' (kol asher chaphets), never in a human declaration. The asking-promise texts that the positive-confession reading cites (Mark 11:23-24, Matthew 7:7-8, John 14:13-14, John 15:7, James 1:5-6) are addressed to God in the second person and resolved by the 'according to his will' (kata to thelema) condition in 1 John 5:14, 'if we ask anything according to his will' (ean ti aitometha kata to thelema autou). James 4:13-15 rebukes confident self-decree with 'if the Lord wills' (ean ho kyrios thelese). Across canon the lexical pattern places efficacious creative force in the Creator's word and will, not in the creature's spoken decree, supporting the proposition."

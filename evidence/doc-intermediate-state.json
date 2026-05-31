@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-intermediate-state",
   "question_id": "doc-intermediate-state",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two clusters of vocabulary stand in tension. The conscious-presence cluster pairs 'to be away from home, out of the body' (ekdemesai ek tou somatos) with 'to be at home with the Lord' (endemesai pros ton kyrion) at 2 Corinthians 5:8, joins 'to depart, to break camp' (analusai) to 'to be with Christ' (syn Christo einai) at Philippians 1:23, places 'today' (semeron) next to 'you will be with me in paradise' (ese en to paradeiso) at Luke 23:43, and shows post-mortem 'souls' (psychai) speaking, perceiving, and resting under the altar at Revelation 6:9-11 and in the Lazarus narrative at Luke 16:23. The soul-sleep cluster draws on 'to fall asleep' (koimaomai) applied to dead believers at 1 Thessalonians 4:13-15, the verb 'to sleep' (yashen) plus dust at Daniel 12:2, the wisdom statements that the dead know nothing at Ecclesiastes 9:5,10, and the 'realm of the dead' (Sheol) silence formulae at Psalm 6:5 and Psalm 115:17. The conscious-presence verbs are direct and pair explicit prepositional phrases of presence with the Lord, whereas the soul-sleep terms read mostly as death-euphemism (an everyday substitute word, like saying 'passed away') for the body and as phenomenological language (description from observed appearance, not from inside the experience) about the realm of the dead (Sheol) from the side of the living. The verdict therefore tilts toward immediate conscious presence, but the Old Testament silence-formulae and the 'fall asleep' (koimaomai) pattern are real lexical witnesses, so confidence remains medium and the question is genuinely contested at the word level."

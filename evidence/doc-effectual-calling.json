@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-effectual-calling",
   "question_id": "doc-effectual-calling",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The calling word group is genuinely polysemous (carries multiple meanings) in the queried canon, and that polysemy is the whole dispute. The verb 'to call' (καλέω, kaleo, Strong's G2564, 148 tokens across 140 verses) carries a naming or summoning sense (for example naming a child in Luke 1:13) and a saving sense (Romans 8:30, Romans 9:24, 1 Corinthians 1:9, 2 Thessalonians 2:14, 2 Timothy 1:9, 1 Peter 2:9). The adjective 'called' (κλητός, kletos, Strong's G2822, 10 verses) does the same: in Matthew 22:14 the 'called ones' (κλητοί, kletoi) are explicitly set against the 'chosen ones' (ἐκλεκτοί, eklektoi, from Strong's G1588) by the contrastive particle 'but' (δέ, de), so there the called are a broad summoned group that is not coextensive with the saved, while in Romans 8:28 the 'called ones' (κλητοί, kletoi) are called 'according to purpose' (κατὰ πρόθεσιν, kata prothesin) and in 1 Corinthians 1:24 they are the subset for whom Christ is power and wisdom. The noun 'calling' (κλῆσις, klesis, Strong's G2821, 11 verses) is by contrast uniformly the saving or heavenly calling. In Romans 8:30 the verb sits in an unbroken 'whom...these' (οὓς...τούτους, hous...toutous) chain with no attrition of referent, justified ('to declare righteous', δικαιόω, dikaioo, Strong's G1344) and glorified, which reads as effective (actually accomplishing what it names), but the same lexeme (the same dictionary word) in Matthew 22:14 reads as a broad invitation, so the words alone do not rank the two senses for the saving texts."

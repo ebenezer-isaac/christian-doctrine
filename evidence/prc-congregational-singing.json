@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-congregational-singing",
   "question_id": "prc-congregational-singing",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Corporate vocal song by the gathered people is commanded across both testaments with grammar that closes the door on solo or platform-only readings. In Ephesians 5:19 and Colossians 3:16 the participles (the 'ing' verbs like 'speaking', 'teaching') are plural and the addressee is the reciprocal pronoun 'to one another' (heautois, heautous, G1438), so the singing is mutual address within the gathered body using 'psalms, hymns, and spiritual songs' (psalmois, hymnois, odais pneumatikais). In Hebrews 13:15 'let us offer up' (anapheromen, G0399) is a first person plural cohortative (a 'let us' verb form summoning the group to act together), offering 'a sacrifice of praise' (thysian aineseos) as a body. The verb 'to sing hymns' (hymneo, G5214) marks the Last Supper hymn at Matthew 26:30 and Mark 14:26, the prison singing at Acts 16:25, and Christ singing in the midst of the assembly at Hebrews 2:12 (quoting Psalm 22:22). In Psalm 95:1 to 2 the cohortatives 'let us sing for joy', 'let us shout', 'let us come before' (neranenah, nariah, neqademah, H7321, H6923) and the related noun 'songs' (zemirot, H2158) summon the assembly to sing together; 'to sing' (shir, H7891) and 'to make music' (zamar, H2167) carry the same plural praise-summons across the Psalms. The word 'primary' in the proposition is a comparative ranking the lexicon does not itself adjudicate, isolated in stem_audit, so the verdict affirms the strong pan-canonical (spread across the whole Bible) corporate-singing pattern the texts carry."

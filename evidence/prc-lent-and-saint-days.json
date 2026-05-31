@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-lent-and-saint-days",
   "question_id": "prc-lent-and-saint-days",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "analogical",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Colossians 2:16 places \"festival\" (heorte), \"new moon\" (noumenia), and \"sabbath\" (sabbaton) inside a single prohibition, \"therefore let no one judge you\" (me oun tis hymas krineto), so the lexical pattern places fixed calendar items in the category over which no one may pass judgment, and Colossians 2:17 classes them as \"a shadow of the things to come\" (skia ton mellonton) with the substance, \"body\" (soma), belonging to Christ. Romans 14:5-6 frames day-keeping as adiaphora (matters indifferent, neither commanded nor forbidden) where each is to be \"let each be fully convinced in his own mind\" (hekastos en to idio noi plerophoreistho), fully persuaded in his own mind, and both the day-keeper and the non-keeper act \"to the Lord\" (kyrio), and the eater \"gives thanks\" (eucharistei). The same \"shadow\" (skia) vocabulary recurs at Hebrews 8:5 and Hebrews 10:1 for tabernacle and law, reinforcing the typological (foreshadowing, where an earlier figure points forward to a later fulfillment) reading of the festal calendar. The texts name first-century Jewish festal categories and never name Lent, Ash Wednesday, or saint-days, so the proposition's specific targets are reached only by analogy, and \"new moon\" (noumenia) is a New Testament hapax (a word that occurs only once in the entire Bible) at Colossians 2:16, so its single occurrence cannot triangulate scope. Competing readings, freely-permitted, prescribed-observance, and corrupted-observance, take the same data toward materially different conclusions, so the proposition is recorded as lexically disputed rather than plainly affirmed."

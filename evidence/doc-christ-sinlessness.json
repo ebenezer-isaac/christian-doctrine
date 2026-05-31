@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-sinlessness",
   "question_id": "doc-christ-sinlessness",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Five independent witnesses deny sin of Jesus using the core noun for sin, 'sin' (ἁμαρτία, hamartia, G0266, occurring in 151 New Testament verses, with a stable meaning), under absolute negation. The writer of Hebrews ends the high-priest description with 'without sin' (χωρὶς ἁμαρτίας, choris hamartias) in Hebrews 4:15, Paul names him 'the one not knowing sin' (τὸν μὴ γνόντα ἁμαρτίαν, ton me gnonta hamartian) in 2 Corinthians 5:21, Peter quotes the Servant of Isaiah 53:9 as 'he did no sin, neither was deceit found in his mouth' (ἁμαρτίαν οὐκ ἐποίησεν οὐδὲ εὑρέθη δόλος ἐν τῷ στόματι αὐτοῦ, hamartian ouk epoiesen oude heurethe dolos en to stomati autou) in 1 Peter 2:22, John writes 'in him is no sin' (ἁμαρτία ἐν αὐτῷ οὐκ ἔστιν, hamartia en auto ouk estin) in 1 John 3:5, and in John 8:46 Jesus asks 'which of you convicts me of sin?' (τίς ἐξ ὑμῶν ἐλέγχει με περὶ ἁμαρτίας, tis ex hymon elenchei me peri hamartias). Negation words 'not', 'not', 'nor', and 'without' (οὐ ou, μὴ me, οὐδέ oude, χωρίς choris) stack across Gospel, Pauline, Petrine, Johannine, and Hebrews material, with no lexical text predicating 'sin' (ἁμαρτία, hamartia) of Jesus. The proposition that he DID not sin is lexically foreclosed. The vocabulary leaves open only the SCOPE question of whether sinlessness means inability to sin or ability not to sin, since 'being tempted' (Hebrews 4:15, with the verb πειράζω, peirazo, 'to test or tempt') and 'he learned obedience' (ἔμαθεν τὴν ὑπακοήν, emathen ten hypakoen) in Hebrews 5:8 are predicated alongside the negations."

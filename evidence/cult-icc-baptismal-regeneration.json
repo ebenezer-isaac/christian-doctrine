@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "cult-icc-baptismal-regeneration",
   "question_id": "cult-icc-baptismal-regeneration",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The proposition is compound. Its first clause, that saving union with Christ is received through faith, is lexically secure. Ephesians 2:8-9 grounds the perfect periphrastic (a 'have been and still are' verb form) 'you have been saved' (este sesosmenoi) in 'by grace through faith' (chariti dia pisteos) as 'the gift of God, not from works' (theou to doron, ouk ex ergon). Romans 4:5 reckons faith to the one not working but believing on the one who justifies the ungodly. Galatians 2:16 three times denies 'being justified by works of law' (dikaiousthai ex ergon nomou) and affirms 'through faith of Christ' (dia pisteos Christou). Luke 23:43 promises paradise to an unbaptized man, and Acts 10:44-48 places Spirit reception (the aorist 'fell upon' (epepesen) and 'received' (elabon), both completed past actions) before water. But the second clause, that baptism in no sense effects regeneration (the new birth) at the moment of administration, repeats the same lexical crux (decisive word-level problem) that returned disputed in the sibling doc-baptismal-regeneration-denial. Acts 2:38 'let him be baptized for forgiveness' (baptistheto eis aphesin), Titus 3:5 'through the washing of regeneration' (dia loutrou palingenesias), John 3:5 'out of water' (ex hydatos), Mark 16:16 'the one having believed and having been baptized will be saved' (pisteusas kai baptistheis sothesetai), Acts 22:16 'be baptized and wash away' (baptisai kai apolousai), and 1 Peter 3:21 'baptism saves' (baptisma sozei) verbally bind the rite to salvation language. The deciding term in 1 Peter 3:21, 'appeal or pledge' (eperotema), is a canonical hapax (a word that occurs only once in the entire Bible) whose sense, appeal versus pledge, cannot be triangulated, and the preposition 'into/for' (eis) of Acts 2:38 is genuinely two-way (telic, meaning 'in order to', versus causal/reference, meaning 'because of' or 'with reference to'). The words sustain both readings without ranking them, so a flat denial of any sense of baptismal efficacy is materially contested on lexical grounds, even as the faith-as-instrument half stands."

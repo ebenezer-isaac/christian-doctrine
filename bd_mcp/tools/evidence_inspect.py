@@ -1,4 +1,4 @@
-"""evidence_inspect: read a stored v3.0 evidence file by question_id."""
+"""evidence_inspect: read a stored v3.1 evidence file by question_id."""
 
 from __future__ import annotations
 
@@ -59,7 +59,7 @@ def handle(payload: EvidenceInspectInput, evidence_dir: Path | None = None) -> d
 
 
 def register(server: Any) -> None:
-    @server.tool(name=TOOL_NAME, description="Read a v3.0 evidence file by question_id.")
+    @server.tool(name=TOOL_NAME, description="Read a v3.1 evidence file by question_id.")
     def _tool(
         question_id: str,
         include_full_schema: bool = True,

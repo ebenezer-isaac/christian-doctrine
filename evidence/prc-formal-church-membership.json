@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-formal-church-membership",
   "question_id": "prc-formal-church-membership",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two lenses (two ways of reading the same evidence) are both defensible from the original words of Scripture, so the combined claim does not resolve cleanly. The underlying substrate (the foundational concepts the claim sits on) is real and well attested: the word for assembly or church (ekklesia, Strong's G1577) occurs in 112 verses across Acts, the Pauline letters, Hebrews, James and Revelation as a definable assembly; the verb to lead, used as a noun for leaders (hegeomai, Strong's G2233), clusters in Hebrews 13 as a defined oversight relationship that renders account; 1 Corinthians 5:12 sorts persons by inside (eso) and outside (exo); the word for member or limb (melos, Strong's G3196, 24 verses) makes believers organic members of one body. But no single word names a formal membership roll, register, joining covenant or enrollment process. The closest term, to enroll or enlist (katalego, Strong's G2639, used in the phrase 'let a widow be enrolled'), is a hapax (a word that occurs only once in the entire Bible) in 1 Timothy 5:9 attached to a widow support list with age criteria, not a congregational roster. Other supporting words are generic and polysemous (carrying multiple senses), given community force only by context: to add (prostithemi), to judge (krino), and inside (eso) and outside (exo) which are mostly literal spatial terms elsewhere. So the bounded, overseen, disciplinable body is warranted while the specific named institution is an inference, not a command."

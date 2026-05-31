@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-weekly-breaking-of-bread",
   "question_id": "prc-weekly-breaking-of-bread",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7875,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The lexical data attests a first-day gathering whose stated purpose was to break bread (Acts 20:7, 'on the first day of the week' (en de te mia ton sabbaton), the 'one' (heis) plus 'sabbath/week' (sabbaton) idiom, 'to break bread' (klasai arton)), and a habitual devotion to the breaking of the bread (Acts 2:42, 'the breaking of the bread' (te klasei tou artou), the noun 'breaking' (klasis) G2800, under the durative (ongoing, sustained) verb 'devoted themselves to' (proskartereo) G4342). But no term in the cited texts encodes a commanded weekly frequency or ranks the act above the others in the series. The only explicit frequency word in the institution texts is 'as often as' (hosakis) (G3740), which occurs three times in the canon and means 'as often as', grammatically indefinite (not specifying any fixed interval), confirmed by its sole other use in Revelation 11:6 ('as often as they desire' (hosakis ean thelesosin)). The first-day idiom is canonically stable across seven verses, yet 'breaking of bread' is joined to it only once (Acts 20:7), while the same idiom carries a collection in 1 Corinthians 16:2 and resurrection narrative elsewhere, and the word for 'the Lord's' ('belonging to the Lord' (kyriakos) G2960) never co-occurs in a verse with the breaking of bread. The proposition is therefore lexically defensible by inference but materially contested at the level of frequency and primacy, so the verdict is disputed."

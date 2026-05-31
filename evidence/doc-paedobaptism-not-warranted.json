@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-paedobaptism-not-warranted",
   "question_id": "doc-paedobaptism-not-warranted",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9625,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Every baptism the text explicitly narrates is coupled to a verb of personal response, namely 'they believed' (epistheusan) and 'he believed' (episteusen) in Acts 8:12 and Acts 18:8, 'having received' (apodexamenoi) in Acts 2:41, the noun-style aorist participle (a completed past action in participle form) 'the one who has believed' (pisteusas) in Mark 16:16, the imperatives 'repent' (metanoesate) and 'be baptized' (baptistheto) in Acts 2:38. A queried collocation check (looking up which words show up together) confirms that 'to baptize' (baptizo, G0907) never stands in the same verse with 'infant' (brephos), 'little child' (paidion), or 'babe' (nepios) anywhere in the canon, so no infant baptism is recorded or commanded. But that is an argument from silence, and silence is not a lexical prohibition. Against the proposition stand the household reports, 'her household' (ho oikos autes) in Acts 16:15, 'he himself and all his' (autos kai hoi autou pantes) in Acts 16:33, 'the household of Stephanas' (ton Stephana oikon) in 1 Corinthians 1:16, where 'he/she/it was baptized' (ebaptisthe) is third singular and only the head of the household is the grammatical subject of believing, plus 'to your children' (tois teknois hymon) in Acts 2:39, which cross-references to Genesis 17:7, and the circumcision and baptism pairing in Colossians 2:11-12. The words supply two patterns they do not rank, so the verdict is materially contested at the lexical (word-level) layer."

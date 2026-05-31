@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-omniscience",
   "question_id": "doc-divine-omniscience",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word pattern across both Testaments presents God knowing all things completely and eternally. In the Hebrew Bible layer (OSHB, the Open Scriptures Hebrew Bible) the verb 'to know' (yada, Strong H3045, queried at 945 word occurrences over 874 verses, Old Testament only) functions as the qal perfect (the simple active completed-action form of the Hebrew verb) predicate over Psalm 139, where 'there is not a word on my tongue' (eyn millah bilshoni, H0369 plus H4405) denies any word God does not already know. Isaiah 46:10 stacks 'declaring' (maggid, H5046) with the temporal pair 'beginning' (reshit, H7225) and 'end' (acharit, H0319) plus 'my counsel will stand' (etsah taqum, H6098) to declare the end from the beginning. The Greek vocabulary adds 'to know beforehand' (proginosko, G4267), 'to determine beforehand' (proorizo, G4309), 'he knows all things' (ginoskei panta, G1097 plus G3956) in 1 John 3:20, and the absolute negation 'there is no creature hidden' (ouk estin ktisis aphanes, G0852) in Hebrews 4:13. The complicating now-I-know texts use the same qal perfect 'to know' (yada) inside a 'testing' (nasah) frame (Genesis 22:1 with H5254, then Genesis 22:12 with H3045, paired explicitly in Deuteronomy 8:2), so they read as demonstration, not acquisition of new knowledge. The spread across the whole Bible (pan-canonical) is dense, and the verdict is variant robust (stable against textual variants)."

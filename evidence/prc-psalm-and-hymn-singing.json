@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-psalm-and-hymn-singing",
   "question_id": "prc-psalm-and-hymn-singing",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The command to sing praise to God is lexically unambiguous and spread across the whole Bible (pan-canonical). Psalm 100:1-2 stacks three direct orders (H7321 'shout', H5647+H8057 'serve with gladness', H0935+H7445 'come with ringing song'), and Ephesians 5:19 and Colossians 3:16 hang the participles 'sing' (ado, G0103) and 'make melody' (psallo, G5567) on the governing commands 'be filled' (pleroustho, Ephesians 5:18) and 'let it dwell' (enoiketo, Colossians 3:16). Additional New Testament verbs 'hymn' (hymneo, G5214) at Matthew 26:30, Mark 14:26, Acts 16:25 and Hebrews 2:12, and the 'each one has a psalm' construction at 1 Corinthians 14:26 ('each one has a psalm', ekastos psalmon echei), confirm congregational sung praise as commanded New Testament practice. What the lexical pattern does NOT settle is the scope claim embedded in the proposition. The three nouns 'psalm' (psalmos, G5568), 'hymn' (hymnos, G5215), and 'song' (ode, G5603) all attach to canonical psalms in the Greek Old Testament (the Septuagint): 'psalm' (psalmos) and 'song' (ode) as Psalter superscriptions; 'hymn' (hymnos) at Psalm 72:20 in the Septuagint. The triad of three can be read either as three labels for the inspired Psalter, or as three distinct genres one of which ('hymn', hymnos) is non-Psalter composition. The morphology (word-form analysis) and Greek lexicon alone do not adjudicate. Hence the verdict 'affirms' is 'disputed' on the precise proposition as worded, while the singing core is affirmed."

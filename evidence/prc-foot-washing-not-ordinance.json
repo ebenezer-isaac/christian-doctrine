@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-foot-washing-not-ordinance",
   "question_id": "prc-foot-washing-not-ordinance",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7775,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "One passage, John 13:1-17, carries nearly the whole weight, and its own vocabulary is genuinely two-edged. The obligation verb \"you ought\" (opheilete) in John 13:14 (lemma \"to owe\" (opheilo), lexically to owe, a debt or binding duty) plus the purpose clause \"that as I did, you also should do\" (hina kathos ego epoiesa kai hymeis poiete) in John 13:15 supply a real warrant for ongoing imitation, which the ordinance reading leans on. But the noun that frames it, \"example\" or \"pattern\" (hypodeigma) in John 13:15, is lexically a pattern, illustration, a picture showing how something is to be done, used elsewhere even for negative examples (Hebrews 4:11, 2 Peter 2:6), so it marks a model to be copied morally rather than a cultic rite (a ceremony or sacred ritual). The same chapter pivots from physical \"wash\" (niptein) to spiritual \"clean\" (katharos) in John 13:10-11, showing John reading the act as a sign. The words establish a binding pattern of reciprocal lowly service but do not by themselves rank the specific act as a third standing ordinance, so the verdict is recorded as disputed."

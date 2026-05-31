@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-conscience-witness",
   "question_id": "doc-conscience-witness",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The Greek noun for conscience (συνείδησις, syneidēsis, G4893) occurs in 28 verses across ten New Testament books (John, Acts, Romans, 1 and 2 Corinthians, 1 and 2 Timothy, Titus, Hebrews, 1 Peter) with a stable moral sense of an internal faculty that observes and renders a verdict on conduct. The witness claim is grammatically explicit and doubly attested: Romans 2:15 and Romans 9:1 both use the present active participle (the ongoing-action verb form) for co-witness (συμμαρτυρούσης, symmartyrousēs, from G4828 meaning to co-witness) together with the word for conscience (συνειδήσεως, syneidēseōs) in a genitive-absolute construction (a Greek grammatical pattern where a noun-plus-participle pair gives the surrounding circumstance, here naming conscience as the active subject), and Romans 2:15 frames the act with the courtroom verbs accusing (κατηγορούντων, katēgorountōn, from G2723 to accuse) and defending (ἀπολογουμένων, apologoumenōn, from G0626 to defend or make a defense) over the law written in the heart (γραπτὸν ἐν ταῖς καρδίαις, grapton en tais kardiais). Romans 1:19-20 places what is known of God within them (ἐν αὐτοῖς, en autois) and draws the conclusion that they are without excuse (ἀναπολογήτους, anapologētous, from G0379 meaning without defense). The damage clause is also lexically secured. Conscience can be good (1 Timothy 1:5), thrust away (1 Timothy 1:19), seared (κεκαυστηριασμένων, kekaustēriasmenōn, in 1 Timothy 4:2), weak (1 Corinthians 8:7), defiled (Titus 1:15), or cleansed (Hebrews 9:14). The only genuine lexical slack is that the word for conscience (συνείδησις, syneidēsis) is polysemous (carries more than one meaning, here a general awareness sense alongside the moral-conscience sense) and the faculty is documented as fallible, which bears on its reliability but not on whether it witnesses."

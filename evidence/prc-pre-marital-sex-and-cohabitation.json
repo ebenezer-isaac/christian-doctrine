@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-pre-marital-sex-and-cohabitation",
   "question_id": "prc-pre-marital-sex-and-cohabitation",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical engine has two reinforcing parts. Positive: Genesis 2:24 builds the cleaving and one-flesh formula from 'cleave or cling' (davaq, H1692) plus 'flesh' (basar, H1320) plus 'one' (echad, H0259), and that exact formula is quoted at Matthew 19:5, 1 Corinthians 6:16, and Ephesians 5:31, locating one-flesh union inside the man-and-wife pair. Hebrews 13:4 sets the standing as 'honored is the marriage in all and the bed undefiled' (timios ho gamos en pasin kai he koite amiantos) (G1062, G2845, G0283), the marriage bed alone honored and undefiled. Negative: 'sexual immorality' (porneia) (G4202, 26 occurrences in the New Testament) is the broad lexical category for illicit sexual intercourse and is the explicit object of prohibition (1 Corinthians 6:18 'flee sexual immorality' (pheugete ten porneian), 1 Thessalonians 4:3 'to abstain from sexual immorality' (apechesthai apo tes porneias), Ephesians 5:3 'let it not even be named' (mede onomazestho)), with the verb form 'to commit sexual immorality' (porneuo, G4203), the noun 'sexually immoral man' (pornos, G4205), and the noun 'prostitute or sexually immoral woman' (porne, G4204). Hebrews 13:4 names 'sexually immoral persons' (pornous) separately from 'adulterers' (moichous, G3432), so 'sexual immorality' (porneia) is not narrowed to adultery. The Old Testament cognate 'to be sexually immoral or play the harlot' (zanah, H2181, 91 occurrences) plus the 'virginity-tokens' (betulim) case in Deuteronomy 22:14, 20-21 plus the seduction case in Exodus 22:16 give an unbroken Old Testament to New Testament pattern that brackets sexual relations inside marriage and labels intercourse outside it as wrong."

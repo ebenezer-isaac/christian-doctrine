@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-decisional-regeneration",
   "question_id": "doc-decisional-regeneration",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "A direct word-form (morphology) query of the four anchor verses yields one stable pattern, the new birth is grammatically God's act done to a passive recipient. In John 1:13 the verb 'they were begotten' (egennethesan) is Strong's G1080 in aorist passive third plural form (a completed past action done to them), and the verse stacks three 'from-X' (ek genitive of source, a noun in the 'from-X' grammatical form) phrases under negation, 'not of blood' (ouk ex haimaton), 'nor of the will of the flesh' (oude ek thelematos sarkos), 'nor of the will of a husband' (oude ek thelematos andros), before the strong 'but' (alla) 'of God' (ek theou), naming 'will' (thelema) twice and excluding it as a source. In John 3:8 'one having been begotten' (gegennemenos) is Strong's G1080 perfect passive participle (a completed action whose result still stands, done to him), and 'the Spirit' (pneuma) 'wills' (thelei, Strong's G2309, present active, ongoing simple statement of fact) blows where it wills, putting initiative on the Spirit. In 1 Peter 1:23 'having been born again' (anagegennemenoi) is Strong's G0313 perfect passive participle (a completed action whose result still stands, done to them), again 'not of perishable seed' (ouk ek sporas phthartes) 'but of imperishable' (alla aphthartou). In James 1:18 'He brought forth' (apekuesen) is Strong's G0616 aorist active (a completed past action) with God as subject and 'us' (hemas) as object, the participle 'having willed' (boultheis, Strong's G1014) naming the divine resolve as cause. The genuine human-response verbs, 'one believing' (pisteuon), 'believe' (pisteuson, an aorist imperative, a completed-action command), 'shall call upon' (epikalesetai), are real commands, but Romans 10:13 still frames the outcome passively, 'shall be saved' (sothesetai, future passive), so the saving event remains something received, not self-generated. The grammar therefore supports the proposition, an outward act of decision is not itself the effecting cause of the new birth."

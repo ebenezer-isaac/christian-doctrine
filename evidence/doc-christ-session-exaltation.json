@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-session-exaltation",
   "question_id": "doc-christ-session-exaltation",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two related seating verbs and a recurring location idiom (a fixed figurative phrase) carry this proposition across the canon. The New Testament citations of Psalm 110:1 (Matthew 22:44, Mark 12:36, Luke 20:42, Acts 2:34, Hebrews 1:13) keep the Greek Old Testament (the Septuagint, LXX) wording with 'be seated, sit' (kathēmai, G2521), in the present middle imperative form 'be seated' (Κάθου, an ongoing command directed at one person), plus 'at the right hand' (ek dexiōn, G1188) and a footstool clause. The declarative session statements (statements that simply report the seating as fact) use the aorist (a completed past action) of 'to sit down' (kathizō, G2523), either intransitive 'he sat down' (ekathisen, in Hebrews 1:3, Hebrews 8:1, Hebrews 10:12, Hebrews 12:2) or transitive with the Father as subject 'having seated him' (kathisas, in Ephesians 1:20), both landing on the phrase 'at the right hand' (en dexia). The Hebrew of Psalm 110:1 forecloses ambiguity: 'sit' (shev, שֵׁב) is a qal imperative (the simple active command form of the Hebrew verb) addressed by 'the LORD' (YHWH, יהוה) to 'my Lord' (adon, אדון), set at YHWH's 'right hand' (yamin, יָמִין, H3225). The present-tense verb 'to intercede' (entynchanō, G1793) in Hebrews 7:25 and Romans 8:34 binds ongoing intercession to the session (Christ's enthroned seating). The pattern spans Psalter, Gospels, Acts, Paul, Hebrews, and 1 Peter, and holds across all surveyed variant readings."

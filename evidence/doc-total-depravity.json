@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-total-depravity",
   "question_id": "doc-total-depravity",
   "generated_at": "2026-05-27T07:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern across Torah, Prophets, Writings, Gospel, and Epistle converges on corruption that reaches every named faculty of fallen man and on a denied capacity to come to God unaided. Genesis 6:5 stacks the universal and restrictive quantifiers (words for 'every' and 'only'): 'every' (kol) 'formed-purpose' (yetser) 'of the thoughts' (machshevot) 'of his heart' (libbo) was 'only' (raq) 'evil' (ra) 'all' (kol) 'the day' (hayyom), queried and confirmed as the token sequence H4284 H3820A H3605 H7535 H3336 H7451 in the store. Jeremiah 17:9 predicates the 'heart' (leb) as 'deceitful' (aqob, H6121A, a term occurring only 3 times in the canon) 'more than all' (min kol) and 'incurably sick' (anush, H0605), closing with the interrogative-pronoun clause 'who can know it' (mi yedaennu) (a BHSA XYqt clause, IPrP subject, that is a clause where the question-word 'who' fills the subject slot) that functions as universal negation. Romans 3:10 to 18 assembles a catena (a chain of stitched-together quotations) whose Greek reads 'there is none righteous, not even one' (ouk estin dikaios oude heis), twin negated participles 'the one understanding' (ho synion) and 'the one seeking God' (ho ekzeton ton theon), 'all turned aside' (pantes exeklinan), the once-occurring verb 'they became useless' (echreothesan), and 'there is none, not as far as one' (ouk estin heos henos), then enumerates throat, tongue, lips, mouth, feet, and eyes. Ephesians 2:1 to 3 predicates 'being dead' (nekrous ontas) (a present participle of state, meaning ongoing settled condition) and 'children by nature of wrath' (tekna physei orges). Romans 8:7 to 8, John 6:44, and 1 Corinthians 2:14 deny capacity at verb modality with 'it is not able' (ou dynatai) and 'no one is able' (oudeis dynatai). The one underdetermined point is the SCOPE word total: the vocabulary establishes extensive reach across faculties but does not by itself rank extensive-totality against prevailing-but-not-absolute corruption, so a fair lens range is recorded."

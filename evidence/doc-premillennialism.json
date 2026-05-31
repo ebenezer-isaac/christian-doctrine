@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-premillennialism",
   "question_id": "doc-premillennialism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.8125,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The phrase 'a thousand years' (chilia ete, made of G5507 plus G2094) appears as a defined unit only in Revelation 20:2-7, six times across six verses, and nowhere else in either Testament. The verb 'they lived' or 'they came to life' (ezesan, a completed past action of zao G2198) is used for one group on thrones in 20:4 and again of the rest of the dead in 20:5, with 'the first resurrection' (anastasis he prote, G0386) as the lexical hinge. Three readings are defensible from the words. A sequential reading takes 'they lived' (ezesan) in one bodily sense both times and places Christ's return (chapter 19) before the reign. A non-bodily reading takes the 'souls' (psychas) of 20:4 as enthroned regenerate or martyred saints and 'a thousand years' (chilia ete) as a symbolic span of the present age. A triumphalist reading takes 'a thousand years' (chilia ete) as a long figurative gospel epoch culminating in the return. The Greek of Revelation 20 nowhere uses 'coming' or 'presence' (parousia) or any return-vocabulary at the start of the thousand years, and the wider canon supplies symbolic numerics (Revelation 11:3, 12:6, 14:20; 2 Peter 3:8) on the one hand and concrete day-of-the-LORD imagery (Zechariah 14; Isaiah 11; Isaiah 65) on the other without ranking them. The verdict held is therefore disputed at the lexical level, on the same footing as amillennialism."

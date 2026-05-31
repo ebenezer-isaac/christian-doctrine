@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-love",
   "question_id": "doc-divine-love",
   "generated_at": "2026-05-27T12:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "In 1 John 4:8 and 4:16 the word-form analysis (morphology) gives an articular subject (a subject carrying the word 'the') 'the God' (ho theos, tagged T-NSM plus N-NSM) joined to a qualitative predicate noun without the article 'the' (anarthrous predicate nominative, a noun completing a 'X is Y' statement) 'love' (agape, N-NSF), linked by the linking verb 'is' (copula) 'is' (estin, V-PAI-3S, ongoing simple statement of fact). This is the same construction the same author uses for 'the God is light' (ho theos phos estin) in 1 John 1:5 and that John 4:24 uses for 'spirit is the God' (pneuma ho theos), so love is predicated of God's nature, not reported as a mere occasional act. The proposition is non-convertible (it does not read 'the love is God', he agape theos estin), which forecloses a flat God-equals-love identity while affirming love as constitutive of the divine being. The pattern is pan-canonical (spread across the whole Bible): the nouns and verbs for love 'love' (agape) and 'to love' (agapao) occur 116 and 143 times with God or Christ frequently as subject, the Hebrew 'steadfast covenant love' (hesed, 247 times) and 'to love' (ahav, 209 times) carry steadfast covenant love through the Old Testament, and Exodus 34:6 places 'steadfast covenant love' (hesed) at the center of God's self-revelation. John 17:24 sets divine love before the foundation of the world."

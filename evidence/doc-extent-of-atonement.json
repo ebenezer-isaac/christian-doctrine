@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-extent-of-atonement",
   "question_id": "doc-extent-of-atonement",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7625,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The canon supplies two scope patterns that the words themselves do not rank. Universal-sounding language appears in John 3:16 (\"the world\", ton kosmon), 1 John 2:2 (\"the whole world\", holou tou kosmou), 1 Timothy 2:6 (\"a ransom for all\", antilytron hyper panton), 2 Peter 3:9 (\"all\", pantas), and Hebrews 2:9 (\"for everyone\", hyper pantos). Particular-sounding language appears in John 10:11 and 10:15 (\"life for the sheep\", ten psychen hyper ton probaton). The decisive fact is that \"for\" or \"on behalf of\" (hyper) plus a noun in the \"from-X\" grammatical form (a genitive object) is the SAME benefactive construction (a grammar pattern that names who benefits, classified in Louw-Nida domain 90.36, the standard semantic dictionary's category for \"on behalf of\") in both sets. It names whom the death benefits, not whom it excludes, so \"for the sheep\" does not by grammar mean \"for the sheep only\". Compounding this, \"world\" (kosmos) is genuinely polysemous (carries multiple senses) across at least four attested senses in the queried data (the created order, mankind, the world-system in opposition to God), and \"all\" (pas) carries both a collective totality sense and a distributive \"each\" sense. Two careful readings of the identical word-forms (lemmas) reach opposite scopes, so the pattern is materially contested rather than decisive."

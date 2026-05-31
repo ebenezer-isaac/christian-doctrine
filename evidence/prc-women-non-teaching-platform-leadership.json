@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-women-non-teaching-platform-leadership",
   "question_id": "prc-women-non-teaching-platform-leadership",
   "generated_at": "2026-05-29T12:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.665,
-    "confidence": "low",
+    "lexical_breadth": "partial",
+    "lexical_directness": "inferred",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": false,
     "rationale": "The proposition narrows the wider ministry question to visible leading acts done before the gathered mixed assembly, and a direct query of the lexical store confirms that the load-bearing vocabulary pulls in two directions on exactly that point. Female audible participation is positively assumed. 1 Corinthians 11:5 reads 'every woman praying or prophesying' (pasa de gyne proseuchomene e propheteuousa), with two present participles (ongoing, simple statement of fact forms) in nominative singular feminine (the 'she is the doer' grammatical form). The verb 'to prophesy' (propheteuo, Strong's G4395) occurs 28 times across the canon and is applied directly to 'four daughters of Philip who were prophesying' (thygateres tessares parthenoi propheteuousai) in Acts 21:9, to 'daughters and handmaidens' in Acts 2:17-18, to Anna the 'prophetess' (prophetis, G4398) in Luke 2:36, and to a woman 'prophetess' (prophetis) at Thyatira in Revelation 2:20. Phoebe is named 'servant or minister' (diakonos, G1249, 30 occurrences) of the assembly at Cenchreae in Romans 16:1 and 'patron or one standing before others' (prostatis, G4368) of many in Romans 16:2, where prostatis is a hapax (a word that occurs only once in the entire Bible) occurring nowhere else in the canon. Priscilla, named before Aquila in the verified Acts 18:26 token order, joins in 'setting out or expounding' (ektithemi, G1620, the same verb of doctrinal exposition used of Paul in Acts 28:23) the way of God to Apollos in a private taking-aside. Against a broad public platform stand 1 Corinthians 14:34, where the verb is the general 'to be silent' (sigao, G4601, 9 occurrences including 1 Corinthians 14:28 and 1 Corinthians 14:30 where each is bounded by an 'if-then' clause (an ean conditional) governing a specific disorder) and the still more general 'to speak' (lalein), and 1 Timothy 2:12 where 'to teach' (didaskein) is coupled with the hapax (a word that occurs only once in the entire Bible) 'to exercise authority' (authentein, G0831 occurs once only in the entire New Testament). Because the silence verb is the same lexeme used two other times in the same chapter inside situation-bound conditionals (if-then clauses) and because the second restriction verb is a one-occurrence hapax (a word that occurs only once in the entire Bible) whose sense cannot be triangulated, the line between an audibly assumed prophecy or prayer and an absolutely silenced speaking is not fixed by morphology (the form of the words), and the cited words name no category corresponding to leading congregational singing, leading public prayer, reading Scripture aloud, sharing testimony, or making announcements. The lexical pattern is materially contested rather than decisive."

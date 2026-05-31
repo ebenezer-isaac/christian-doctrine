@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-supper-as-memorial",
   "question_id": "doc-supper-as-memorial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The noun 'remembrance' (anamnesis, G0364) in the purpose clause 'for my remembrance' (eis ten emen anamnesin) appears in Luke 22:19 and twice in 1 Corinthians 11:24-25, attached to the command 'do' (poieite, G4160), and its sense is fixed by its only other canonical use, Hebrews 10:3, where the same word names the yearly 'reminder of sins' (anamnesis hamartion) of the repeated Old Testament sacrifices. That control plus the Greek Old Testament (the Septuagint, LXX) memorial vocabulary it renders ('memorial' zikkaron, H2146, Exodus 12:14 Passover; 'memorial portion' azkarah, H0234, Leviticus 24:7) and 1 Corinthians 11:26 'you proclaim' (katangellete, G2605, until he comes) make remembrance and proclamation of a once-for-all finished death (Hebrews 10:10-14 'once for all' ephapax, 'one sacrifice' mian thysian, 'he has perfected' tetelaiken in the perfect tense, a completed action whose result still stands) a secure lexical function of the rite. The dispute is one of scope, not of whether memorial is present. The same apostle calls the same elements a 'participation or communion' (koinonia, G2842) of the body and blood in 1 Corinthians 10:16 and says 'we partake' (metechomen, G3348) of the one loaf in 10:17, and the bare linking verb 'is' (estin) in 'this is my body' (touto estin to soma mou) is unqualified. The vocabulary affirms memorial but does not rank it as the sole or primary function over participation, so the proposition's word 'primarily' is lexically underdetermined and the verdict is disputed."

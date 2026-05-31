@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "cult-discipling-control",
   "question_id": "cult-discipling-control",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The leadership texts encode their commands with explicit negation. In 1 Peter 5:3 the present participle (an ongoing action form of the verb) \"lording it over\" (katakyrieuontes, G2634) is forbidden of elders toward \"those allotted\" (ton kleron), and replaced by \"becoming examples\" (tupoi ginomenoi, G5179, G1096), while 1 Peter 5:2 sets the hapax (a word that occurs only once in the entire Bible) adverb \"by compulsion\" (anagkastos, G0317) against \"willingly\" (hekousios, G1596). In 2 Corinthians 1:24 Paul says \"not that we lord it over\" (ouch hoti kyrieuomen, G2961) \"your faith\" (hymon tes pisteos), but are \"fellow workers\" (synergoi, G4904), \"for by faith you stand\" (te gar pistei hestekate, G2476), locating each believer on his own footing before God. Matthew 20:25 to 26 and the Markan parallel Mark 10:42 to 45 pair the same \"lord it over\" (katakyrieuousin, G2634) with \"exercise authority over\" (katexousiazousin, G2715) of gentile rulers and forbid both with \"it shall not be so among you\" (ouch houtos estai en hymin). Matthew 23:8 to 12 reserves \"master-guide\" (kathegetes, G2519) and \"father\" (pater, G3962) for Christ and the Father, leaving \"servant\" (diakonos, G1249) rank for the greatest. The pattern is dense, recurring, and pan-canonical (spread across the whole Bible) across four New Testament corpora, so it affirms."

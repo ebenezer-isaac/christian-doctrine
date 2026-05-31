@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-different-gospel-warning-against-replacement-justice",
   "question_id": "prc-different-gospel-warning-against-replacement-justice",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9375,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-level core is firm: Galatians 1:6-9 pronounces a curse, 'devoted to destruction' (anathema, G0331), on anyone who preaches a gospel beside (G3844, para, meaning beside or against) the one Paul preached, marking it 'other in kind' (heteron, G2087) which Paul immediately qualifies as 'not even another of the same class' (ouk allo, G0243) but a 'perversion' or 'twisting' (metastrepho, G3344). Micah 6:8, Isaiah 1:17 and James 1:27 establish that 'justice' (mishpat, H4941) and care for the vulnerable are genuine divine demands set as covenant duty. What the word data alone cannot settle is the proposition's modern application: the immediate referent of the 'different gospel' (heteron euangelion) in Galatians is a circumcision and law gospel, so extending the curse to a specific modern group-based or this-worldly justice scheme is a historical-critical and theological inference, not a direct lexical (word-level) datum. The pattern firmly supports the principle that any message put in place of the Christ-content gospel is condemned, but the specific category the stem names is an extrapolation, hence disputed."

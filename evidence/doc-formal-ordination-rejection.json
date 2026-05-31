@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-formal-ordination-rejection",
   "question_id": "doc-formal-ordination-rejection",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.725,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two halves of the proposition land differently. The sacerdotal half (the claim that appointment does not transfer priestly status) is strongly supported, because the priest word group, namely 'priest' (hiereus) and 'priesthood' (hierateuma), is never applied in the New Testament to an appointed elder (presbyteros), overseer (episkopos), or servant-minister (diakonos), and 'priesthood' (hierateuma) in 1 Peter 2:5 and 2:9 is applied to all believers, so no separate priestly order is lexically attached to the appointment vocabulary. The appointment verbs themselves are functional: 'to designate by raising the hand in an assembly' (cheirotoneo) means to designate by raising the hand in an assembly, 'to set in order or appoint' (kathistemi) means to set in order or appoint, 'to set apart for a task' (aphorizo) means to set apart for a task, and none carries any priestly transfer. The unique remaining tension is the gift language. 1 Timothy 4:14 routes 'through' (dia) onto prophecy and makes the laying on of hands 'with, accompanying' (meta), accompanying, while 2 Timothy 1:6 routes 'through' (dia) onto the laying on of hands directly, and the two parallel statements do not rank which is the instrument that conveyed the 'gift of grace' (charisma). Because the words leave open whether the rite is instrumental cause or attendant sign of a conferred grace, the proposition's sub-clause about unique ministerial grace is contested, hence disputed rather than a clean affirmation."

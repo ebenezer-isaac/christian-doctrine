@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-sola-gratia",
   "question_id": "doc-sola-gratia",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across Ephesians 2:8-9, Romans 3:24, Romans 11:6, Titus 3:5-7, and 2 Timothy 1:9 the noun \"grace\" or \"favor\" (charis, G5485) recurs as the named source of salvation, usually in the dative of means (a noun in the 'by means of X' grammatical form), namely \"by grace\" (chariti), while human contribution is grammatically negated by the same construction each time: \"not from yourselves\" (ouk ex hymon), \"not from works\" (ouk ex ergon), \"not according to our works\" (ou kata ta erga hemon). Romans 11:6 makes the antithesis definitional, \"but if by grace, no longer from works, since grace would no longer be grace\" (ei de chariti ouketi ex ergon epei he charis ouketi ginetai charis), so grace ceases to be grace if works are admitted as co-source. The gift words \"gift\" (doron, G1435) and the adverb \"freely\" or \"without payment\" (dorean, G1432, attested across the canon as freely, without payment, without cause) and the mercy word \"mercy\" (eleos, G1656) confirm the act is given gratis (free of charge), not repaid for merit. The \"in order that not\" clause (hina-me) in Ephesians 2:9 makes the exclusion of \"boasting\" (kauchaomai, G2744) the express purpose, so the denial of human merit is stated in the text rather than inferred."

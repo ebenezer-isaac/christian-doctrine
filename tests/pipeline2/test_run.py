@@ -25,7 +25,7 @@ def test_validate_existing_invalid_file_exits_one(
     monkeypatch.chdir(tmp_path)
     (tmp_path / "evidence").mkdir()
     (tmp_path / "evidence" / "doc-bogus.json").write_text(
-        json.dumps({"$schema_version": "3.0"}), encoding="utf-8"
+        json.dumps({"$schema_version": "3.1"}), encoding="utf-8"
     )
     code = main(["--validate-existing"])
     assert code == 1
@@ -45,8 +45,15 @@ def test_mock_dispatch_single_question(tmp_path: Path, monkeypatch: pytest.Monke
     assert code == 0
     assert (tmp_path / "evidence" / "doc-trinity.json").exists()
     raw = json.loads((tmp_path / "evidence" / "doc-trinity.json").read_text(encoding="utf-8"))
-    assert raw["$schema_version"] == "3.0"
-    assert raw["verdict"]["lexical_score"] is not None
+    assert raw["$schema_version"] == "3.1"
+    assert raw["verdict"]["lexical_breadth"] in {"canon_wide", "broad", "partial", "thin"}
+    assert raw["verdict"]["lexical_directness"] in {
+        "direct",
+        "inferred",
+        "analogical",
+        "silent",
+    }
+    assert raw["verdict"]["variant_stability"] in {"stable", "sensitive", "not_in_scope"}
 
 
 def test_triangle_mode_single_question(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

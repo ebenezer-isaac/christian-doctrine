@@ -17,7 +17,7 @@ from typing import Any
 from ingest.lexical._common import Settings
 from pipeline2.context_builder import build_lexical_context_bundle
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 
 DispatchFn = Callable[[str, dict[str, Any]], dict[str, Any]]
 
@@ -55,9 +55,11 @@ class Pipeline2Dispatcher:
         if not isinstance(raw, dict):
             raise DispatchError(f"subagent payload not a dict: {type(raw).__name__}")
         evidence = Evidence.model_validate(raw)
-        score = compute_lexical_score(evidence)
+        breadth = compute_lexical_breadth(evidence)
+        stability = compute_variant_stability(evidence)
         evidence_dict = evidence.model_dump(by_alias=True)
-        evidence_dict["verdict"]["lexical_score"] = score
+        evidence_dict["verdict"]["lexical_breadth"] = breadth
+        evidence_dict["verdict"]["variant_stability"] = stability
         return Evidence.model_validate(evidence_dict)
 
     def dispatch_one(

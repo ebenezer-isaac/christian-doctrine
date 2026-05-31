@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-full-deity",
   "question_id": "doc-christ-full-deity",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across distinct authors (the writings of John, Paul, and Hebrews) the word 'God' (theos, Strong's G2316, which occurs 1311 times in the queried Greek New Testament) and identity formulae attach to Jesus in ways the queried morphology (the grammatical tagging of every word form) marks as non-attributive (not a mere descriptive label). John 1:1c orders the tokens with 'God' (theos) without the article 'the' (anarthrous, N-NSM meaning noun nominative singular masculine) placed before the linking verb 'was' (en, the copula) with 'the Word' (ho logos, articular meaning carrying 'the', N-NSM) coming after. This is the qualitative predicate-nominative construction (a noun completing a 'X is Y' statement that ascribes a quality), not the indefinite 'a god'. John 8:58 sets the completed-action infinitive 'to come into being' (genesthai, an aorist meaning a completed past action, applied to Abraham coming to be) against the bare ongoing-present 'I am' (eimi, a present indicative meaning an ongoing simple statement of fact, with no predicate complement). John 20:28 records that Thomas 'said to him' (eipen auto, with auto being a dative meaning a 'to-him' grammatical form) as 'the Lord of me and the God of me' (ho kyrios kai ho theos, both articular meaning carrying 'the'). Colossians 2:9 predicates the continuous-state verb 'dwells' (katoikei, durative meaning ongoing) of 'all the fullness of the deity' (pan to pleroma tes theotetos, with theotetos from G2320, a hapax meaning a word that occurs only once in the entire New Testament) 'bodily' (somatikos). Hebrews 1:8 has the Father address the Son as 'the God' (ho theos) with an eternal throne. Philippians 2:6 says 'form of God' (morphe theou) and 'to be equal with God' (to einai isa theo, with isa from G2470, the same word the opponents use in John 5:18 to accuse Jesus). The minority readings each rest on one grammatical move that the wider queried canon independently blunts. Old Testament roots (Exodus 3:14 'I AM' / 'I will be' (ehyeh), Psalm 45:6 'God' (elohim)) supply grounding spread across the whole Bible (pan-canonical)."

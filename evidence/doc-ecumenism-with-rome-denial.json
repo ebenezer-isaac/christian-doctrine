@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-ecumenism-with-rome-denial",
   "question_id": "doc-ecumenism-with-rome-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7875,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The anchor texts yield two real, variant-stable (holding up across the manuscript copies) lexical principles. Galatians 1:8-9 attaches the curse-word \"devoted-over, accursed\" (anathema) to anyone preaching a gospel \"alongside, beyond, contrary to\" (para) the one received, and 2 Corinthians 6:14 forbids becoming \"mismatched-yoked\" (heterozugountes) with \"the faithless\" (apistoi). Both hold in the Greek. But the stem moves from these principles to a specific institutional and doctrinal application (a named body, the Mass as sacrifice, papal infallibility, Marian dogmas) that the lexicon cannot reach. No anchor lemma (dictionary form) names a post-apostolic institution; the verb \"to justify, to declare righteous\" (dikaioo, Strong's G1344), the verb behind the disputed doctrine of justification, occurs 34 times but in none of the anchor verses, so the link to that doctrine is interpretive, not lexical. Crucially the same author uses \"faithless one\" (apistos) in 1 Corinthians 7:12-15 of a spouse a believer must NOT divorce and in 1 Corinthians 10:27 of a host whose meal may be eaten, so \"faithless\" (apistos) does not by itself mandate severing every association. Whether a Trinitarian, Christ-confessing body falls under \"different-kind gospel\" (heteron euangelion) or counts as \"faithless\" (apistos) is an identification judgment the words underdetermine, so the verdict is disputed."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-inherited-corruption",
   "question_id": "doc-inherited-corruption",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two claims must be separated. That humanity is sinful from birth, before any moral act, is densely and spread across the whole Bible (pan-canonically) attested. Psalm 51:7 Hebrew (English 51:5) reads 'in iniquity I was brought forth' (be-awon cholalti), with 'I was brought forth' (cholalti) a Polal (passive intensive) perfect (a completed action whose result still stands), meaning I was brought forth in iniquity, and 'and in sin she conceived me' (u-be-chet yechemathni immi), in sin my mother conceived me. Job 14:4 denies by rhetorical question that a clean thing (tahor) can come from an unclean thing (tame). Genesis 8:21 grounds the inclination, 'the inclination of the heart of man is evil from his youth' (yetser lev ha-adam ra mi-ne'urav), evil from youth. Ephesians 2:3 calls the prior state 'by nature children of wrath' (phusei tekna orges). Romans 5:14 has death reigning even over those who did not sin in the likeness of Adam, and 5:19 says 'were constituted' or 'were appointed' (kathistemi, aorist passive (a completed past action, with the subject receiving the action), constituted, appointed) the many sinners through one disobedience. That much is decisive. But the precise mechanism the stem encodes, an inherited corruption descending and shared from Adam as distinct from imputed guilt or merely transmitted inclination, is lexically underdetermined, because the crux clause 'in/because of which all sinned' (eph ho pantes hemarton) in Romans 5:12 admits multiple grammatical construals and 'nature' (phusis) carries several attested senses."

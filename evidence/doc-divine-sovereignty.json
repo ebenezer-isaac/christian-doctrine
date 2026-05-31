@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-sovereignty",
   "question_id": "doc-divine-sovereignty",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "A dense sovereignty vocabulary recurs across Hebrew, Aramaic, and Greek with stable grammar. Psalm 115:3 binds 'all' (kol, H3605) to 'pleased' (chaphets, H2654) and 'did' (asah, H6213) in a tight 'who' (asher) clause, and Psalm 135:6 reuses the identical triad with cosmic scope. The Aramaic of Daniel 4 (store osis 4.32) predicates 'does according to his will' (tseba, H6634, a Daniel-only term with 10 occurrences) of God over the host of heaven and earth, then negates any creaturely veto with 'stay' (macha, H4223) plus 'hand' (yad, H3028). In Greek, Ephesians 1:11 stacks 'work or energize' (energeo, G1754), 'counsel' (boule, G1012), 'will' (thelema, G2307), 'purpose' (prothesis, G4286), and 'predestine' (proorizo, G4309) around 'all things' (ta panta), and Romans 11:36 closes with the triple preposition 'from' (ex), 'through' (dia), 'to' (eis) governing 'all things' (ta panta). The proposition's scope claim is lexically affirmed. What the words do NOT supply is a term ranking this rule against the equally lexical witness of human 'choosing' (bachar, H0977) and divine 'relenting' (nacham, H5162), so compatibility is underdetermined (the words do not settle it), not denied."

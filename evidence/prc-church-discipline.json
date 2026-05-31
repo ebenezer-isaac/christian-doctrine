@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-church-discipline",
   "question_id": "prc-church-discipline",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The corrective process is carried by an actual command verb, 'reprove, convict' (elegcho), in the form of a completed past action used as a command (the aorist imperative 'reprove him', elegxon) at Matthew 18:15. This verb appears 17 times across the Gospels, the letters of Paul, the Pastoral letters, the General epistles, and Revelation, and is rooted in the Greek Old Testament (the Septuagint) translation of Leviticus 19:17 (Hebrew 'reprove', yakach), so the reproof command is spread across the whole Bible (pan-canonical). Matthew 18:15-17 then builds a graduated ladder through repeated 'if-then' clauses (conditional protases) of the form 'if he does not listen' (ean me akouse), widening from privacy to two or three witnesses to 'tell the assembly' (eipe te ekklesia, where 'assembly' or 'church' is ekklesia), to treating the unrepentant as an outsider. 1 Corinthians 5:13 enacts removal with the command 'remove' (the imperative exarate), a word that occurs only once in the entire New Testament (a hapax), which directly quotes the recurring Deuteronomic 'purge the evil from your midst' formula (Deuteronomy 17:7 and parallels), and the assembly 'judges' (krinete, from krino) insiders. The restorative aim is lexically explicit: 'mend, restore' (katartizo) at Galatians 6:1, 'admonish as a brother' (noutheteo) at 2 Thessalonians 3:15, the salvation purpose clause at 1 Corinthians 5:5, and the 'reaffirm love' command 'ratify' (kuroo) at 2 Corinthians 2:8. Both halves of the proposition, ordered confrontation and restorative aim, are grounded in dense recurring vocabulary, so it is affirmed."

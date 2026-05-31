@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-election",
   "question_id": "doc-election",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The vocabulary of choosing is lexically secure and spread across the whole Bible (pan-canonical) with God as subject. In the Old Testament the verb 'choose' (bachar) occurs 170 times across 162 verses with God choosing Israel as his people (Deuteronomy 7:6-7), and in the New Testament the verb 'choose, pick out' (eklegomai) in Ephesians 1:4 ('he chose us in him before the foundation of the world', exelexato hemas en auto pro kataboles kosmou) and the noun 'choosing, election' (ekloge) in Romans 9:11 and the adjective 'chosen' (eklektos) in 1 Peter 1:1 carry the same act forward, with the verb 'mark out beforehand, predestine' (proorizo) in Ephesians 1:5 and Romans 8:29-30. So the bare proposition that God chose a people for salvation in Christ before time is well grounded. But the contested axis, whether that choice is unconditional or grounded in foreseen faith, and whether its object is individuals or a corporate body in Christ, is not fixed by the lemmas (dictionary base forms). The verb 'choose' (eklegomai) is uniformly middle voice (a Greek voice in which the subject acts with reference to itself) but its dominant attested object is non-salvific (the apostles, the nation, a portion), so it does not by itself name individuals chosen unto salvation. The noun 'foreknowledge' (prognosis) in Romans 8:29 and 1 Peter 1:2 is polysemous (carries multiple senses) between anticipatory knowledge of response and covenantal fore-regard, and the words do not adjudicate. The lexical data is therefore materially contested between defensible readings."

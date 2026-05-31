@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-omnipresence",
   "question_id": "doc-divine-omnipresence",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three independent witnesses across poetry, prophecy, and narrative converge on one lexical pattern. Psalm 139:7-10 builds a double merism (a two-part figure naming the extremes to mean the whole), pairing heaven (shamayim, H8064) with the grave (sheol, H7585), and the wings of dawn (shachar, H7837) with the farthest sea (yam, H3220), exhausting the spatial extremes, and at each pole the locative 'there' (sham, H8033) asserts the same finding, you are there. Jeremiah 23:24 puts the claim in a first-person divine oracle with the verb 'fill' (male, H4390) governing both 'heaven' (shamayim, H8064) and 'earth' (erets, H0776) under one direct-object marker (eth, H0853), so that no person can 'hide' (sathar, H5641). Acts 17:27-28 carries the field into Greek with 'far' (makran, G3112), the participle 'existing' (huparcho, G5225), and the triad 'in' (en, G1722) him we 'live' (zao, G2198), 'move' (kineo, G2795), and 'are' (eimi, G1510), while 'Maker' (poietes, G4163) holds Creator and creation apart. The one boundary the words leave is that the same canon also speaks of a special covenantal presence, dwelling, drawing near, hiding the face, which the vocabulary holds together with the omnipresence of essence without ranking the two. No variant unit unsettles the verdict and the merism vocabulary recurs intact in Amos 9:2-3, so the pattern is pan-canonical (spread across the whole Bible) and decisive on the proposition's main claim."

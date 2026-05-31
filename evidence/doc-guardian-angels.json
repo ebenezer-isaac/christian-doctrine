@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-guardian-angels",
   "question_id": "doc-guardian-angels",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9375,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Direct queries confirm the canon affirms angelic protective ministry to God's people, but it does not lexically lock down a one-to-one assignment of a specific angel to a specific believer. Hebrews 1:14 predicates angels collectively as ministering spirits (leitourgika pneumata) sent for service (eis diakonian) for the plural those about to inherit salvation (tous mellontas kleronomein soterian), and Matthew 18:10 places their angels (hoi angeloi auton) in genitive plural (the 'from-X' grammatical form, plural) agreement with the plural class of these little ones (ton mikron touton). The only singular his angel (ho angelos autou) applied to a believer is Acts 12:15, voiced as reported speech of the gathered church (V-IAI-3P elegon, meaning 'they kept saying') inside indirect discourse, while every other his angel (ho angelos autou) pattern in the canon refers to God's or the Lord's angel. Psalm 91:11 commissions plural his angels (malakaw) to guard one addressee, and Psalm 34:7 reverses that to one angel of the LORD (malak YHWH) around a plural group of those who fear him. The vocabulary supports angelic ministry as a class fact, but it does not force, nor exclude, dedicated personal assignment, which is the lexical reason the proposition is disputed."

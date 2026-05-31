@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-final-authority",
   "question_id": "doc-scripture-final-authority",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across four sections of the canon the same word-level pattern keeps appearing: a written, God-originated deposit is the standard, and competing voices are judged against it. Isaiah 8:20 pairs the Hebrew word for written instruction (torah, H8451, queried 204 occurrences, spread across the whole Bible) with the word for testimony (teudah, H8584, only 3 occurrences in the whole Bible) and pronounces the formula of judgment 'no dawn' (ein shachar) on speech that does not match the prior word. Mark 7:8 to 13 sets the commandment (entole) and word (logos) of God (theos) against the tradition (paradosis) of men (anthropoi), using two forensic verbs: 'to set aside, nullify' (atheteo, G0114) and 'to render legally void' (akyroo, G0208). The latter occurs only at Matthew 15:6, Mark 7:13, and Galatians 3:17, and in every case it describes voiding a prior authoritative text. Acts 17:11 has the Bereans 'judicially examine' (anakrino, G0350, a courtroom verb that clusters in legal contexts in Luke, Acts, and 1 Corinthians) the writings (graphai) to test apostolic preaching (logos). 2 Timothy 3:16 to 17 grounds it all: every Scripture (pasa graphe) is 'God-breathed' (theopneustos, G2315, a word that occurs only once in the entire Bible, that is, a hapax) and sufficient toward (pros) four functions, so that the man of God is 'complete' (artios, G0739, also a word that occurs only once in the entire Bible) and fully equipped. The pattern is dense, grammatically overt, and spans Torah, Prophets, Gospels, Acts, and Pastoral Epistles, so the verdict is high-confidence."

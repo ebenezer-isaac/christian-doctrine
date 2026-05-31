@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-baptism-faith-precedes",
   "question_id": "doc-baptism-faith-precedes",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8125,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "In every cited conversion account the verbs of receiving, hearing, repenting, or believing stand grammatically and temporally before the verbs of baptizing. Acts 2:41 makes the having-received participle (apodexamenoi, a completed past action in participle form meaning 'having welcomed') the subject of the were-baptized verb (ebaptisthesan, a completed past passive action). Acts 8:12 reads 'when they believed' (hote de episteusan) and then the ongoing past 'they were being baptized' (the imperfect ebaptizonto, meaning ongoing or repeated past action). Acts 18:8 chains hearing (akouontes) then the ongoing past 'they were believing' (the imperfect episteuon) then 'they were being baptized' (ebaptizonto). Mark 16:16 orders 'having believed' (pisteusas) before 'having been baptized' (baptistheis) and pairs condemnation only with unbelief. Acts 2:38 puts the command 'Repent!' (Metanoesate) before the command 'let him be baptized' (baptistheto). So the recorded sequence consistently places a conscious response ahead of baptism, which supports the proposition. Confidence stays medium, not high, because the pattern rests on one author across mostly one book, because it is narrated description rather than stated rule, and because the household baptisms (Acts 16:15, Acts 16:33, 1 Corinthians 1:16) report the baptizing of a household (oikos) without itemizing each member's faith, with the one collective word 'as a whole household' (panoikei) in Acts 16:34 being a single-occurrence term (a hapax, a word that occurs only once in the entire Bible) whose scope the text does not fix."

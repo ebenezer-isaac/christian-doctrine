@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-recreational-drugs-sin",
   "question_id": "prc-recreational-drugs-sin",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9325,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three converging lexical (word-meaning based) strands ground the verdict. First, the intoxication-state vocabulary is uniformly condemned across the canon. In Hebrew, 'to be drunk' (shakar, H7937) and 'drunkard' (shikkor, H7910) appear with 'strong drink' (shekar, H7941) and 'wine' (yayin, H3196) in woe oracles (Isaiah 5:11,22; Habakkuk 2:15), wisdom warnings (Proverbs 20:1; 23:29-35), priestly restriction (Leviticus 10:9), and Nazirite separation (Numbers 6:3). In Greek, 'drunkenness' (methe, G3178) and 'revelry' (komos, G2970) are paired in vice lists (Galatians 5:21; Romans 13:13; 1 Peter 4:3), and Ephesians 5:18 issues a direct present imperative (an ongoing command) 'do not be drunk' (me methyskesthe, G3182), tagging the state as 'reckless dissipation' (asotia, G0810); 'drunkard' (methusos, G3183) is named in the 1 Corinthians 6:10 kingdom-exclusion catalog. Second, the positive sobriety word group ('be sober' (nepho, G3525) with 'be sound-minded' (sophroneo, G4993), 'temperate' (nephalios, G3524), 'self-control' (egkrateia, G1466) as fruit of the Spirit in Galatians 5:23 and 2 Peter 1:6) commands clear governed faculties as a standing obligation, making deliberate self-intoxication its lexical opposite. Third, Romans 13:1-2 attaches 'judgment' (krima, G2917) to resisting appointed 'authority' (exousia, G1849), engaging the illegal-drug clause. The principal disputed term is the pharmak- group: 'drug-mixing or sorcery' (pharmakeia, G5331, 2 occurrences) and 'drug-mixer or sorcerer' (pharmakos, G5333, 3 Revelation occurrences) carry both drug-mixing and sorcery senses, and context does not isolate one. Confidence is medium because the verdict is reached by convergence of multiple word groups rather than by any single lemma (dictionary headword) naming a modern recreational drug category."
@@ -680,7 +681,7 @@
       {
         "ref": "Rev.21.8",
         "addressed": true,
-        "resolution": "'Drug-mixer or sorcerer' (pharmakos) in Revelation carries both the sorcery sense and the drug-mixing sense, and the context (lists of unrepented sins) does not by word-meaning isolate one over the other. The word is retained as supporting because the word group fuses potion-making with the practice in the Greco-Roman setting, but the semantic breadth (the wide range of senses one word can hold) is the reason verdict confidence is held at medium and 'drug-mixer or sorcerer' (pharmakos) is not treated as a single decisive proof."
+        "resolution": "'Drug-mixer or sorcerer' (pharmakos) in Revelation carries both the sorcery sense and the drug-mixing sense, and the context (lists of unrepented sins) does not by word-meaning isolate one over the other. The word is retained as supporting because the word group fuses potion-making with the practice in the Greco-Roman setting, but the semantic breadth (the wide range of senses one word can hold) is the reason the verdict is held at a moderate strength and 'drug-mixer or sorcerer' (pharmakos) is not treated as a single decisive proof."
       },
       {
         "ref": "Ps.104.15",

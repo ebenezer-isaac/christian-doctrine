@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-conversion",
   "question_id": "doc-conversion",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The conversion vocabulary is dense, stable, and spans the whole canon. In the Greek the verb 'to turn' (epistrepho, G1994) occurs 36 times and in its religious use is consistently a turning to God away from sin or idols, and across the anchor verses the believers are the grammatical subject of an active verb of turning: in 1 Thessalonians 1:9 'you turned' (epestrepsate, parsed as a completed past action in the active voice, 2nd person plural, telling what the readers did) toward God (pros ton theon) away from idols (apo ton eidolon); in Acts 3:19 'turn' (epistrepsate, a completed past action used as a command, 2nd person plural) paired with 'repent' (metanoesate); in Acts 26:18 'to turn' (epistrepsai, a completed past action infinitive expressing purpose) from darkness to light (apo skotous eis phos); in Acts 11:21 'turned' (epestrepsen, a completed past action in the active voice, 3rd person singular) of a great number who had believed. The turning is regularly paired with repentance and faith as its two facets, as in Mark 1:15 'repent and believe' (metanoeite kai pisteuete) and Acts 20:21 'repentance toward God and faith toward the Lord' (metanoian eis theon kai pistin eis ton kyrion). Behind this stands the Hebrew word 'to turn or return' (shuv, H7725), which occurs 1056 times across 950 verses in every section of the canon and supplies the turn-back-to-God call, as in Jeremiah 3:14, Joel 2:12, Zechariah 1:3, Malachi 3:7, and Isaiah 44:22, so the motif is genuinely pan-canonical (spread across the whole Bible) and not a single-author idiom. The both-gift-and-act claim is also lexically visible: Lamentations 5:21 sets 'turn us' (hashivenu, the Hebrew causative form, that is the hiphil 'cause us to turn', with God as agent), beside 'and we shall return' (venashuv, the simple active Hebrew form, that is the qal, with the people as subject), and Acts 11:18 says God granted the repentance, while 1 Peter 2:25 uses 'you were turned' (epestraphete, the passive form, the action done to the subject). The same roots therefore carry both a divine causative and a human active sense, which is exactly the dual agency the proposition states."

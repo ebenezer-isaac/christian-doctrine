@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-satan-personal-being",
   "question_id": "doc-satan-personal-being",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the whole Bible the figure named by H7854 \"adversary\" (satan), G1228 \"slanderer\" (diabolos), and G4567 \"adversary, proper name\" (satanas) consistently occupies the grammatical slot of a personal agent (someone who acts with intent). In Job 1 to 2 the adversary (satan) is the Subject of speech verbs, answers Yahweh with H6030 \"to answer\" (anah), and is addressed with H0559 \"to say\" (amar) plus H0413 \"to, toward\" (the directional preposition el) across nine verses. In Matthew 4, Mark 1 and 3, Luke 4, 10, 11 and 22, the figure approaches, stands, takes, shows, departs, and speaks, with verbs like G2476 \"to stand\" (histemi), G3880 \"to take alongside\" (paralambano), G1166 \"to show\" (deiknumi), G2980 \"to speak\" (laleo), G2036 \"to say\" (eipon) attaching to the named subject. John 8:44 predicates the personal-relational and moral nouns father, murderer, liar of him. 1 Peter 5:8 calls him \"adversary, legal opponent\" (antidikos) and seeking to devour. Revelation 12:9 and Revelation 20:2 stack dragon, ancient serpent, \"slanderer\" (Diabolos), and \"adversary\" (Satanas) onto one referent who deceives and is bound. The personal-agent and opposer-of-God clauses hold across the whole Bible (pan-canonically, meaning spread across the whole Bible) with dense, recurring grammar. The created clause is not directly carried by these anchor word-stems, so it rests on inference from the wider canon and is recorded honestly as a residual."

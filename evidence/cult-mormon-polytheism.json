@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "cult-mormon-polytheism",
   "question_id": "cult-mormon-polytheism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Four converging Hebrew exclusivity formulas (phrases that close off the category of God to just one) stack across Deutero-Isaiah (the section of Isaiah from chapter 40 onward), with 'besides me' (biladey, H1107, 16 canon occurrences concentrated in Isaiah 43-45) and 'apart from me' (zulah, H2108, 13 occurrences concentrated in Isaiah 45 and Hosea 13:4) functioning as dedicated no-other-god particles (small grammar words used specifically to exclude any other god), paired with the existential negator 'there is not' (eyn, H0369) and the residue-negator 'still' or 'more' (od, H5750) over 'God' or 'gods' (elohim, H0430) and 'God' (el, H0410): Isaiah 43:10 'no god was formed' (lo notsar el), Isaiah 44:6,8 'there is no God' (eyn elohim), Isaiah 45:5,21-22 'there is none else' (eyn od), Isaiah 46:9 'there is no other God' (eyn od elohim), and Hosea 13:4 'you shall know no God apart from me' (elohim zulati lo teda) all close the divine class to YHWH (the LORD, H3068) alone in both temporal directions (past and future). Hosea 11:9 ('I am God and not man,' el anokhi velo ish) sets the creature-Creator line as a categorical foreclosure (a complete shutting down of the option) of the as-God-is-man-may-become trajectory. The Greek picks up the same pattern with 'one' (heis, G1520) governing 'God' (theos, G2316) in 1 Timothy 2:5 and James 2:19 ('God is one,' heis estin ho theos), while John 1:1-3 places the 'Word' (Logos, G3056) 'with' (pros) 'the God' (ton theon) with predicate 'God' (theos) and 'all things came into being through him' (panta di autou egeneto, ginomai G1096) marking him as the agent and not a product of becoming, Colossians 1:16-17 puts every spiritual rank ('thrones,' thronoi; 'lordships,' kyriotetes; 'rulers,' archai; 'authorities,' exousiai) on the created side of his 'creating' (ktizo, G2936), and Hebrews 1:5-8 has the Father address the Son as 'the God' (ho theos) and command angelic 'worship' (proskuneo). The pattern is pan-canonical (spread across the whole Bible) and unaffected by the (none-in-scope) ECM apparatus (the critical edition of New Testament textual variants)."

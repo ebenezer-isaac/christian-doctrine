@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-universalism-denial",
   "question_id": "doc-universalism-denial",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Matthew 25:46 sets \"eternal punishment\" (kolasin aionion) in a balanced clause with \"eternal life\" (zoen aionion), the same adjective \"eternal/age-pertaining\" (aionios, G0166) governing both terminal states and the future verb \"they will go away\" (apeleusontai, G0565) sending one group away. The exclusion pattern recurs across the whole Bible (pan-canonical): John 3:36 (\"the wrath of God abides\" (orge tou theou menei), present tense (ongoing, simple statement of fact) abiding wrath), 2 Thessalonians 1:9 (\"eternal destruction away from the face of the Lord\" (olethron aionion apo prosopou tou kyriou)), Revelation 20:15 and 21:8 (\"the lake of fire\" (limne tou puros), \"the second death\" (thanatos deuteros, G1208)), Isaiah 66:24 and Daniel 12:2 (\"reproach\" (cherpah) and \"abhorrence\" (dera'on), H2781 H1860, lasting reproach paired with \"life everlasting\" (chayye olam)). The counter-pull is real and rooted in word meaning (lexical), not stylistic. The adjective \"eternal/age-pertaining\" (aionios) is polysemous (carries multiple senses) (Philemon 1:15 age-bounded, Jude 1:7 of Sodom's no-longer-burning fire, but 2 Corinthians 4:17-18 contrasted with \"temporary\" (proskairos) for lasting/durative force), and \"all\" or \"the all\" (pas / ta panta) in 1 Corinthians 15:22, Philippians 2:10-11, Romans 5:18, 1 Timothy 2:4, Colossians 1:20 admits all-without-exception, all-without-distinction, or cosmic-subjugation (bringing the whole created order under rule) readings the vocabulary itself does not rank. Verdict stands at affirms-medium because the exclusion-class pattern is denser, more lexically specific, and spread across the whole Bible (pan-canonical), while the universal-reconciliation reading exists but rests on contested word-senses."

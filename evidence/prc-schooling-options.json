@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-schooling-options",
   "question_id": "prc-schooling-options",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "analogical",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The anchor texts use command, repetition, writing, and nurture verbs that bind the parent to the discipleship task across the entire daily cycle, so the primacy clause is lexically firm. The institutional clause is different in kind. The Hebrew and Greek vocabulary names a content of teaching, namely 'training' (paideia) and 'admonition' (nouthesia) of the Lord, and a disposition, namely 'sharpen into' (shinanta) and 'nurture' (ektrephete), but never names a delivery channel that the modern terms public, Christian, or home schooling would translate. The proposition therefore conjoins one part the lexicon decides and one part the lexicon underdetermines (the words do not settle it), and that asymmetry is itself the reason readers divide."

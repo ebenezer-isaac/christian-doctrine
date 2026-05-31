@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-apostolic-succession-denial",
   "question_id": "doc-apostolic-succession-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Direct queries confirm the original-language pattern lands on both sides of this proposition, which is why it is disputed rather than settled. The foundation half is strong: Ephesians 2:20 builds believers with the verb 'having been built upon' (epoikodomethentes, an aorist passive participle, that is, a completed past action in the passive voice) on a single 'foundation' (themelios) of apostles and prophets, with Christ the 'cornerstone' (akrogoniaios), and 1 Corinthians 3:11 says 'no one' (oudeis) 'is able' (dynatai, present indicative, that is, an ongoing, simple statement of fact) to 'lay' (theinai, aorist infinitive of tithemi, the form for a completed past action) 'another' (allon) foundation than the one already 'laid' (keimenon), so the base is fixed once. The apostle's own qualification also looks non-repeatable: Acts 1:21-22 requires one who 'accompanied' the disciples (synelthonton) and is a 'witness' (martys) of the 'resurrection' (anastasis), 1 Corinthians 9:1 grounds apostleship in the perfect-tense 'I have seen' (heoraka, a completed action whose result still stands), and 1 Corinthians 15:8 calls Paul 'last' (eschaton), last of all. But the canon also transmits and appoints: 2 Timothy 2:2 commands 'entrust' (parathou, an aorist middle imperative of paratithemi, that is, a one-time command to entrust as one's own act) the deposit to 'faithful men' (pistois), Jude 3 calls the faith 'once delivered' (hapax paradotheise), and the hand-laying vocabulary is real and effective, with 'gift' (charisma) given 'through the laying on of the hands' (dia epitheseos ton cheiron) in 1 Timothy 4:14 and 2 Timothy 1:6, with 'appoint' (kathistemi) installing elders in Titus 1:5 and 'appoint by hand-raising' (cheirotoneo) in Acts 14:23. The words establish succession of teaching and a genuine ordination rite, but they do not, by their original-language meanings, rank whether that rite conveys the foundational apostolic authority itself or only ongoing teaching office, so the proposition's exclusive contrast is underdetermined (the words leave the scope open)."

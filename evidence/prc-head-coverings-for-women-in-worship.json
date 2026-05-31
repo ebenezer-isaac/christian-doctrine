@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-head-coverings-for-women-in-worship",
   "question_id": "prc-head-coverings-for-women-in-worship",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7875,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Inside 1 Corinthians 11 the instruction is explicit. The verb 'to cover the head' (katakalypto, G2619) and the adjective 'uncovered' (akatakalyptos, G0177) attach the covering to a woman praying or prophesying. Verse 6 ends with the command form 'let her be covered' (katakalyptestho), the man-and-woman distinction is grounded in the creation sequence in verses 7 to 9, and verse 16 appeals to the practice of the churches, all of which read straightforwardly as a binding instruction in its setting. The trans-cultural reach (whether the rule carries across times and places) is what the words leave open. The covering vocabulary, namely 'to cover' (katakalypto), 'uncovered' (akatakalyptos), 'to wear long hair' (komao), 'long hair' (kome), and 'wrap or garment' (peribolaion), occurs only in this one passage, so its sense cannot be triangulated (cross-checked) against the rest of the canon. The noun 'long hair' (kome, G2864) is a hapax (a word that occurs only once in the entire Bible). Verse 15 says the hair is given 'instead of a wrap' (anti peribolaiou), where the preposition 'instead of' or 'in place of' (anti, G0473) carries its dominant canonical sense (its most common meaning across the Bible) instead of yet also a minor sense corresponding to, so it cannot be settled whether the hair replaces a cloth or parallels one. Because the creation-order PRINCIPLE is pan-canonical (spread across the whole Bible) but the covering SIGN vocabulary is local and lexically ambiguous (open to more than one meaning at the word level), the words sustain both a continuing and a culturally conditioned reading, leaving the proposition materially contested."

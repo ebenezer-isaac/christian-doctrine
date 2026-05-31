@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-idolatry-root-sin",
   "question_id": "doc-idolatry-root-sin",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9875,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition makes a ranking claim, that idolatry is THE single root of all sin. The lexical data support that idolatry is A central, spread-across-the-whole-Bible (pan-canonical) category, but they do not establish it as the one fundamental sin, because the canon assigns root and source language to more than one sin and never ranks a single fundamental one. FOR: Romans 1:21-25 chains 'knowing God' (gnontes ton theon) and 'they did not glorify him as God' (ouch hos theon edoxasan), then 'they exchanged' (ellaxan, G0236) the 'glory' (doxa) for an 'image' (eikon) and 'they exchanged' (metellaxan, G3337) the 'truth' (aletheia) for 'the lie' (pseudos), serving 'the creation' (ktisis) 'rather than' (para) 'the Creator' (ton ktisanta), with 'therefore he gave them up' (dio paredoken) making the vice list downstream. Colossians 3:5 predicates 'which is idolatry' (hetis estin eidololatria) of 'greed' (pleonexia). Exodus 20:3 heads the Decalogue (the Ten Commandments). AGAINST a unique ranking: 1 Timothy 6:10 reads 'for a root of all the evils is the love of money' (riza gar panton ton kakon estin he philargyria), where the without-the-article 'the' (anarthrous) 'root' (riza), meaning a root not the root, is predicated of 'love of money' (philargyria), a word that occurs only once in the entire Bible (a hapax), not of idolatry. Hebrews 12:15 names a 'root of bitterness' (riza pikrias). James 1:14-15 and 1 John 2:16, the same author who closes with 'guard yourselves from the idols' (phylaxate apo ton eidolon), make 'desire' (epithymia) the generative or structuring category. The words supply two patterns they do not rank, so the strict ranking claim is underdetermined."

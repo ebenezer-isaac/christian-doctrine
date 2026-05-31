@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-assurance-of-salvation",
   "question_id": "doc-assurance-of-salvation",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The cited verses converge on a settled, knowable confidence whose ground lies outside the believer. In 1 John 5:13 the purpose clause 'so that you may know' (hina eidete) uses the verb 'to know with settled knowledge' (oida, G1492) in the perfect subjunctive (V-RAS-2P, a completed-state form used after 'so that', queried in the source), the verb of settled knowing, governing 'you have' (echete, G2192, present indicative V-PAI-2P, an ongoing simple statement of fact), so the writer's stated aim is that believers may KNOW they presently HAVE eternal life. Romans 8:16 uses 'co-bears witness' (symmartyrei, G4828, present indicative V-PAI-3S, an ongoing simple statement of fact, queried as 1 of only 3 occurrences in the whole Bible), the Spirit co-witnessing with our spirit, an inward ground. Hebrews 10:22 names 'full assurance of faith' (plerophoria pisteos, G4136, full certainty of faith), and 2 Peter 1:10 commands making one's calling and election 'firm' (bebaios, G0949, secure or guaranteed). The three named grounds, the promise, the Spirit's witness, and Spirit-wrought fruit (called 'proven character' or 'tested genuineness' (dokime, G1382)), are each lexically present. The genuine nuance the words leave open is the relative weight of objective promise, inward witness, and evidential fruit, not whether assurance exists."

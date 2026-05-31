@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-regeneration-monergistic",
   "question_id": "doc-regeneration-monergistic",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the anchor texts the grammar makes God or the Spirit the sole acting agent of the new birth and the person the recipient. The verb 'to beget or be born' (gennao) stands in the passive throughout John 3, namely 'might be born' (gennethe, a completed past action in passive voice in the subjunctive mood, so 'should be born'), and 'that which has been born' (gegennemenon, a completed action whose result still stands, in passive voice as a participle). The same pattern appears in John 1:13 with 'they were born' (egennethesan, a completed past action in passive voice as a simple statement of fact) and in 1 John with 'has been born' (gegennetai, a completed action whose result still stands, in passive voice as a simple statement of fact). John 1:13 negates three human sources of the birth in a row (not of bloods, nor of the will of the flesh, nor of the will of a man) before the single positive 'from God' (ek theou). Where the verb is active the subject is God: 'he made alive together with' (synezoopoiesen) in Ephesians 2:5 of those who were dead, 'he saved' (esosen) in Titus 3:5 after denying works we did, 'having begotten again' (anagennesas) in 1 Peter 1:3, and 'having willed, he brought forth' (bouletheis apekuesen) in James 1:18. Ezekiel 36 stacks first person divine verbs ('to give', natan; 'to remove', sur; 'to do or bring about', asah; all in the 'I' form) ahead of the second person human response verbs. The agency claim is therefore lexically decisive. The stricter sub-claim that the new birth is logically prior to and the cause of faith is a defensible inference from the enabling language of John 6:65 (no one is able to come unless it has been given), but the words state dependence rather than an explicit 'order of salvation' (ordo salutis), so overall confidence is medium rather than high."

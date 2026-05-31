@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-mark-word-preached",
   "question_id": "doc-mark-word-preached",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proclamation and teaching of the word is commanded as central to the gathered people of God across the whole canon. In 2 Timothy 4:2 the phrase 'preach the word' (keryxon ton logon), built from 'I proclaim' (kerysso, G2784) in the form of a direct command for completed past action (an aorist imperative) governing 'word' (logos, G3056), is a direct command to preach the word. Romans 10:14 to 17 makes faith arise 'from hearing through the word' (ex akoes dia rhematos), that is, by hearing through the word. Acts 2:42 reports the first community devoting itself to the apostles' 'teaching' (didache, G1322). The same vocabulary fills the Old Testament, with 'word' (dabar, H1697, occurring 1368 times), the public reading of the 'law' (torah) to the assembled people in Deuteronomy 31:11 to 12 and Nehemiah 8:8, and the prophet commanded to speak God's word faithfully in Jeremiah 23:28. Confidence is medium not because the centrality of the word is weak, but because no verse pairs 'church/assembly' (ekklesia, G1577) with any sign or mark term (the word for 'sign', semeion G4592, never co-occurs with ekklesia G1577), so the specific framing of preaching as a formal note distinguishing a true church from a false one is a synthesis the vocabulary supports in substance but does not itself enumerate."

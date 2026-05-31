@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-federal-headship-adam",
   "question_id": "doc-federal-headship-adam",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.825,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Romans 5:12-19 and 1 Corinthians 15:21-22, 45-49 build a tightly structured one-and-many parallel between Adam and Christ. The Greek repeats 'through one man' (di' henos anthropou) against 'the many' (hoi polloi), binds the two halves with 'just as' (hosper, G5618) and 'so also' (houtos, G3779), names Adam 'a type of the one to come' (typos tou mellontos, with typos meaning pattern or model, G5179) in 5:14, and frames 1 Corinthians 15:22 with the incorporative 'in' (en, G1722) plus dative (the 'to/in X' grammatical form), 'in Adam all die' (en to Adam pantes apothneskousin) set against 'in Christ' (en to Christo). The text therefore plainly establishes Adam as a representative whose one act has corporate consequence and as the counterpart head to Christ. What the vocabulary does NOT do is name the mechanism. It never calls Adam a covenant or federal head, and Paul's technical reckoning verb 'to credit or count' (logizomai, G3049), which saturates Romans 4, is absent from the Adam passage. The crux phrase 'because/in whom all sinned' (eph' ho pantes hemarton) in 5:12 carries both 'on/upon' (epi, G1909) and the relative pronoun 'who/whom' (hos, G3739), so it reads either causally (because all sinned) or relatively (in whom all sinned). The same data fit a federal, a seminal, and an influence-analogy account, so the structural claim is supported but the specific federal-imputation form is disputed."

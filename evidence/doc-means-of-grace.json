@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-means-of-grace",
   "question_id": "doc-means-of-grace",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The cited verses converge on one stable, whole-Bible pattern (spread across the whole Bible): God ordinarily works through appointed, repeated practices. Acts 2:42 binds four 'to/with' nouns (datives, a noun in the 'to-X' or 'with-X' grammatical form) under one ongoing -ing verb form (durative participle), 'were continuing steadfastly' (proskarterountes, Strong's G4342), namely the apostles' teaching, fellowship (koinonia), the breaking of the bread, and the prayers (proseuchais, Strong's G4335). Romans 10:17 grounds faith ('pistis') in 'out of hearing' (ek akoes), and the hearing 'through the word of Christ' (dia rhematos Christou), naming source and instrument. First Corinthians 11:23-26 hands on a repeated rite using the technical handing-over verbs 'received' (paralambano) and 'delivered' (paradidomi), with present-tense 'keep doing' commands (present imperatives, ongoing instructions) 'poieite', and the indefinite-frequency adverb 'as often as' (hosakis, Strong's G3740). Hebrews 10:24-25 and 1 Timothy 4:13 add the gathered assembly (episynagoge, Strong's G1997), mutual stirring, and the reading, exhortation, and teaching of the word. The vocabulary about appointed means is decisive. What the words do NOT settle is the MODE of efficacy (how exactly the grace works): 'fellowship' or 'participation' (koinonia, Strong's G2842) in 1 Corinthians 10:16 means sharing or participation but does not by itself say whether grace is conferred by the rite or received by faith in the rite. The bare proposition stands; the contested mechanism is left open by the lexicon."

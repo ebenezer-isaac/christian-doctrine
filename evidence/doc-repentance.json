@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-repentance",
   "question_id": "doc-repentance",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Direct query of the lexical store grounds the verdict on both Testaments. In Greek, the verb 'to change one's mind, to repent' (metanoeo, G3340, 34 occurrences) and the noun 'repentance' (metanoia, G3341, 24 occurrences) recur across the Gospels, Acts, Paul, Hebrews, Peter and Revelation, and they sit inside the call to be saved rather than beside it. Mark 1:15 holds 'repent' (metanoeite) together with 'believe' (pisteuete) by the simple connector 'and' (kai). Acts 2:38 ties 'repent' (metanoesate) to forgiveness. Acts 17:30 universalizes the command. Luke 13:3 makes it the condition of not perishing. 2 Corinthians 7:10 marks the godly-grief 'repentance' (metanoia) as 'unto salvation' (eis soterian) and 'not to be regretted' (ametameleton). In the Old Testament the dominant turning verb 'to turn, to return' (shuv, H7725) occurs 1056 times across 38 books, concentrated in the prophetic summons to return, and 'to be sorry, to relent' (nacham, H5162) 108 times across 21 books. The bridge from the Greek Old Testament, the Septuagint (LXX), in the store maps 'to turn' (shuv) to 'to turn back' (epistrepho, G1994) and 'to be sorry' (nacham) to 'to repent' (metanoeo, G3340) and 'to regret' (metamelomai, G3338), and Acts 3:19 and Acts 26:20 explicitly pair 'repent' (metanoeo) with 'turn back' (epistrepho), joining inward change of mind to outward turning. The pattern is dense, spread across the whole Bible (pan-canonical), and stable, so repentance integral to conversion and bound to faith is well supported."

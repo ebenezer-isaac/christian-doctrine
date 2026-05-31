@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-sinners-prayer-method",
   "question_id": "doc-sinners-prayer-method",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Queried against the live corpus the salvation vocabulary is dense and spread across the whole Bible (pan-canonical), with the word for 'save' (sozo) at 436 occurrences in 101 New Testament verses, and 'believe' (pisteuo) at 980 in 217, yet every recorded conversion attaches deliverance to believing, confessing, and crying out, never to a fixed wording. Luke 18:13 has the tax collector say 'God be propitiated toward me the sinner' (Ho theos, hilastheti moi to hamartolo), where 'be propitiated' (hilaskomai) is a near-hapax (a word that occurs only once, or here just 4 times in only 2 verses), a spontaneous penitent cry while beating his breast, and Jesus calls him justified. Romans 10:9-10 conditions 'you will be saved' (sothese) on confessing 'Jesus is Lord' (kyrion Iesoun) and believing that God raised him, content not form. Acts 16:31 answers 'what must I do to be saved' (ti me dei poiein hina sotho) with the bare command 'Believe!' (Pisteuson), supplying no prayer text. The complicating chain Acts 2:21 and Romans 10:13 quotes Joel and uses 'to call upon' (epikaleo), but 'to call upon' (epikaleo) is two-sensed in the canon, a legal appeal as in Acts 25:11 'I appeal to Caesar' (Kaisara epikaloumai) versus calling on the Lord, and Romans 10:14 places calling downstream of believing, so the act is commanded while its words stay free. 1 John 5:13 grounds assurance in the present participle 'those who go on believing' (pisteuousin), ongoing belief, supporting the warning clause. Both halves hold."

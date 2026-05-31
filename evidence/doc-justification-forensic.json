@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-justification-forensic",
   "question_id": "doc-justification-forensic",
   "generated_at": "2026-05-27T09:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The decisive datum is the antonym pairing. Both the Hebrew verb meaning 'to be righteous' (tsadaq) in the Hebrew causative form (Hiphil, the Hebrew causative form, to cause to do) (H6663, to declare righteous) and the Greek verb 'to justify' (dikaioo) (G1344, 39 occurrences) stand in fixed antithesis to the condemn verbs (Hebrew 'to be wicked' (rasha) in the Hebrew causative form (Hiphil) H7561, Greek 'to condemn' (katakrino) G2632 and 'to give an adverse judgement' (katadikazo) G2613). Deuteronomy 25:1, Proverbs 17:15, and 1 Kings 8:32 set 'to declare righteous' (hitsdiq) against 'to declare wicked' (hirshia) as the two verdicts a judge renders, and Romans 8:33-34 places 'the one justifying' (ho dikaion) directly opposite 'the one condemning' (ho katakrinon) in adjacent clauses. Since condemnation is a sentence pronounced and not a moral state infused, its antonym is likewise a verdict pronounced. Romans 4:5 seals it: God justifies 'the ungodly' (ton asebe) and faith is reckoned (logizetai, G3049) as righteousness, so the standing changes while the person is still ungodly, which a make-righteous reading cannot hold."

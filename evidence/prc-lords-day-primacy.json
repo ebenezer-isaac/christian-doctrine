@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-lords-day-primacy",
   "question_id": "prc-lords-day-primacy",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.775,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The phrase 'first of the week' (mia ton sabbaton) recurs across seven New Testament passages (Matthew 28:1, Mark 16:2, Luke 24:1, John 20:1, John 20:19, Acts 20:7, 1 Corinthians 16:2), and in the four gospel occurrences it explicitly marks the resurrection morning, which is a dense and stable lexical pattern. Acts 20:7 attaches that same first-day phrase to a corporate gathering 'having been gathered together' (synegmenon, a completed action whose result still stands, the perfect passive form) to break bread, and Revelation 1:10 supplies the only canonical adjective 'Lord's' or 'belonging to the Lord' (kuriakos) applied to a day. However the word-forms themselves do not legislate primacy: 'Lord's' (kuriakos, G2960) is near-hapax (a word that occurs only once or nearly so in the entire Bible) with two New Testament occurrences and does not on its own specify which day; 'first of the week' (mia ton sabbaton) uses 'week' or 'sabbath' (sabbaton, G4521) as the counting term for week without ever declaring a binding shift from the seventh day; and Colossians 2:16, Romans 14:5, and Galatians 4:10 affirmatively warn against judging by sabbaths or by reckoning days, which is the lexical hinge for a no-special-day reading. So the first-day rhythm and the resurrection-morning association are lexically dense (tightly packed in the wording), but the further claim that this is the appointed gathering day is a synthesis the words permit rather than impose."

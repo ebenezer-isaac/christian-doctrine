@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-equality-of-worth-with-role-distinction",
   "question_id": "prc-equality-of-worth-with-role-distinction",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.895,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": false,
     "pan_canonical": true,
     "rationale": "The stem bundles two claims the vocabulary does not bundle. The equal worth half rests on stable lexical ground: Genesis 1:27 places both male and female under one image (tselem) of God without grading, 1 Peter 3:7 calls the wife a joint heir (syngkleronomos), and Galatians 3:28 denies a male and female divide in Christ using the paired Greek words for male (arsen) and female (thelys). The role distinction half turns on lexically open terms: head (kephale) carries two attested senses (authority over and source) that context does not disambiguate, and the verb at 1 Timothy 2:12 (authentein) is a hapax legomenon (a word that occurs only once in the entire New Testament) whose sense cannot be triangulated from one occurrence. Two coherent readings arise from the identical word stock, so the conjunction is materially contested at the text level."

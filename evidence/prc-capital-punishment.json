@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-capital-punishment",
   "question_id": "prc-capital-punishment",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Bible supplies two unranked word-pattern chains. One chain (Genesis 9:6 with the agent phrase 'by man' (ba-adam) and the image-of-God ground, Numbers 35:30-31 regulating with 'witnesses' (edim) and refusing 'ransom payment' (kopher), Romans 13:4 calling the magistrate 'servant' (diakonos) and 'avenger' (ekdikos) who bears the 'short sword' (machaira) 'not without purpose' (ou eike)) authorizes lethal punishment by lawful human agency. A second chain (Matthew 5:38-44 with the very verb 'resist' (anthistemi) telling the disciple not to resist the evildoer, John 8:7 with the 'sinless' (anamartetos) qualifier against execution-on-demand, Ezekiel 18:23 with 'delight' (chaphets) denying divine pleasure in the death of the wicked, Acts 25:11 conceding 'worthy of death' (axios thanatou) yet showing the apostolic refusal of private vengeance) significantly qualifies in-practice application and shifts the believer's posture. The same vocabulary, 'murder/kill' (ratsach) and 'resist' (anthistemi) and 'wrath' (orge), sits on both sides without lexical priority. The verdict is therefore disputed rather than affirmed."

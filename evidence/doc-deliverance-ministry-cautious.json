@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-deliverance-ministry-cautious",
   "question_id": "doc-deliverance-ministry-cautious",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.615,
-    "confidence": "low",
+    "lexical_breadth": "partial",
+    "lexical_directness": "inferred",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": false,
     "rationale": "The verb phrase 'cast out the demons' (ekballo ta daimonia, Strong's G1544 with G1140) is a fixed idiom in the Gospels and Acts, attested in roughly two dozen verses, and Acts 16:18 records Paul commanding an unclean spirit to 'come out' (exerchomai, G1831) 'in the name of Jesus Christ' (en to onomati Iesou Christou) with immediate effect, so the act of expelling demons in Jesus' name is lexically established. The cautionary half is also embedded in the canon. Acts 19:13 to 16 narrates itinerant Jewish 'exorcists' (exorkistai, G1845, a true hapax, that is a word that occurs only once in the entire Bible) who 'took in hand' or attempted (epecheiresan, G2021, a verb used only three times) to invoke the 'name' (onoma) as a borrowed formula and are overpowered, and Matthew 7:22 to 23 has Jesus disowning those who say 'did we not cast out demons' (ekbalomen daimonia) in your name. But the compound proposition adds prudential qualifiers - a standing ministry, genuine cases of possession, great caution - that the bare vocabulary illustrates by negative example but does not itself encode as a rule, and the pastoral letters supply no office word for an exorcist. One of the four anchors, Mark 16:17, sits in the contested longer ending of Mark, so the warrant clause is not robust against textual variants. The lexical pattern is therefore materially contested and best recorded as disputed."

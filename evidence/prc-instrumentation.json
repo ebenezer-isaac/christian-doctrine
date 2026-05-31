@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-instrumentation",
   "question_id": "prc-instrumentation",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Hebrew worship corpus repeatedly commands physical instruments, and Psalm 150 lists the ram's-horn trumpet (shofar), lyre (kinnor), harp (nevel), hand-drum (toph), strings (minim), pipe (ugab), and cymbals as the proper apparatus of praise, so any absolute lexical prohibition of instruments collapses against the canon. The Greek assembly texts Ephesians 5:19 and Colossians 3:16 use the verbs 'speak' (laleo), 'sing' (ado), and 'make melody / sing praise' (psallo) with the dative locative phrase 'in the heart' (en te kardia), naming psalm (psalmos), hymn (hymnos), and song (ode) without naming any physical instrument, while James 5:13 commands 'sing praise' (psallo) for the cheerful with no heart phrase and no instrument either. Against that, 'harp' (kithara, G2788) appears positively four times in the New Testament, three in heavenly worship scenes (Revelation 5:8, 14:2, 15:2) and once as a Pauline analogy (1 Corinthians 14:7), and 1 Corinthians 14:26 lets each bring a psalm (psalmos) to the assembly. Because the words neither command instruments for the gathered church nor forbid them, and the 'in the heart' locative in Ephesians 5:19 is grammatically ambiguous between mode (sincere singing) and inward medium (an inner instrument), the proposition that instrumentation is a free choice is one defensible reading the lexicon allows, but not the only one, so the verdict is disputed."

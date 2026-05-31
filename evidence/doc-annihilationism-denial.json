@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-annihilationism-denial",
   "question_id": "doc-annihilationism-denial",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two text-grounded lexical patterns coexist and the vocabulary does not rank them. Pattern A, ongoing conscious punishment: 'they will be tormented' (basanisthesontai) 'unto the ages of the ages' (eis tous aionas ton aionon) in Revelation 20:10, paired with 'they have no rest day and night' (ouk echousin anapausin hemeras kai nyktos) in Revelation 14:11, the durative (ongoing) double negation 'does not die' (ou teleuta) and 'is not quenched' (ou sbennytai) in Mark 9:48, and the strict grammatical parallel of 'eternal punishment' (kolasin aionion) with 'eternal life' (zoen aionion) in Matthew 25:46 where one adjective 'eternal' (aionios) governs both nouns. Pattern B, terminal destruction or cessation: the active 'to destroy' (apolesai) of both 'soul' (psyche) and 'body' (soma) in 'hell' (gehenna) in Matthew 10:28, with 'destroy' (apollymi) attested 93 times across the New Testament and ordinarily denoting ruin or loss, 'eternal destruction' (olethron aionion) in 2 Thessalonians 1:9, the 'destruction' (apoleia) word-group (19 New Testament occurrences, Philippians 3:19, 2 Peter 3:7), the explicit gloss (plain-English explanation) of the lake of fire as 'the second death' (ho thanatos ho deuteros) in Revelation 20:14, and the canon's reservation of 'immortality' (athanasia, Strong's G0110, 3 occurrences) and 'incorruption' (aphtharsia) for the redeemed alone, with Daniel 12:2 carrying 'abhorrence' (deraon), a hapax-class noun (a word that occurs essentially only once in the Bible) shared only with Isaiah 66:24 whose imagery acts on 'corpses' (pegarim). The pivotal adjective 'eternal' (aionios, 69 New Testament occurrences, 71 with anchor count) is genuinely two-valued, lexically durative (ongoing in time) in some contexts and qualitative of the coming age in others. Both patterns are defensible from the words on the page, so the lexical evidence supports the stem on its strongest texts but is materially contested by the destruction vocabulary."

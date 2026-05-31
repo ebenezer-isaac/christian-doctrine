@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-adoption",
   "question_id": "doc-adoption",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.75,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The technical noun 'adoption as a son' (huiothesia), G5206, is a deliberate Greco-Roman legal term meaning 'placing as a son', attested in extra-biblical inscriptions and built on the classical phrase 'to place as son'. Queried against the canon it occurs exactly five times, all in Paul: Romans 8:15, Romans 8:23, Romans 9:4, Galatians 4:5, and Ephesians 1:5, and in every instance it denotes conferred filial (son-related) status, not natural birth. Galatians 4:5 makes adoption the stated goal of the Son's redeeming mission. Romans 8:15-17 binds it to the indwelling Spirit who cries 'Father' (Abba) and to 'joint heirship' with Christ, 'fellow heir' (sygkleronomos) G4789. Ephesians 1:5 grounds it in God's predestining purpose through Christ. The slave-to-son-to-heir chain, 'slave' (doulos) G1401 to 'son' (huios) G5207 to 'heir' (kleronomos) G2818, and the Johannine 'right to become children of God', 'children of God' (tekna theou) G5043, in John 1:12 and 1 John 3:1, converge on the same conferred standing. The honest limit is that the technical term sits only in the Pauline corpus (Paul's letters), so the witness is concentrated rather than pan-canonical (spread across the whole Bible)."

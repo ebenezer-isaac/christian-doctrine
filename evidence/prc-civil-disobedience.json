@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-civil-disobedience",
   "question_id": "prc-civil-disobedience",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Romans 13:1 commands 'let him be subject' (hypotassestho), a present passive imperative (an ongoing command in the form of 'be acted upon'), of 'every soul' (pasa psyche), and grounds the duty in 'there is no authority except from God' (ouk estin exousia ei me hypo theou). Romans 13:2 then warns that 'the one ranging himself against the authority' (ho antitassomenos te exousia) 'has set himself against the ordinance of God' (anthesteken te tou theou diatage). Acts 5:29 supplies the limiting clause with the same root family: 'it is binding to obey God rather than men' (peitharchein dei theo mallon e anthropois). Decisively, the very verb 'to obey one in authority' (peitharcheo), Strong's G3980, is also the verb Paul uses in Titus 3:1 to command obedience to rulers, 'to be subject to rulers and authorities, to be obedient' (archais exousiais hypotassesthai peitharchein), so the canon uses ONE word in both directions and ranks them only by the comparative 'rather than' (mallon e) at the point of conflict. The Old Testament defiance narratives, Exodus 1, Daniel 3, Daniel 6, enact the same pattern: refuse the sinful command, accept the lawful penalty."

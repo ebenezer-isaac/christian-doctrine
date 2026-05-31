@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-elders-not-sacerdotal",
   "question_id": "doc-elders-not-sacerdotal",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two word fields run through the New Testament and never touch. Congregational leaders are named only with elder (presbyteros), overseer (episkopos), shepherd (poimen), the shepherd verb to shepherd (poimaino) over the flock (poimnion), and servant (diakonos). The sacrificing-priest noun priest (hiereus) occurs 31 times and its referents split cleanly into three groups: the Aaronic priests of the gospels and Acts, the once-for-all priesthood of Christ argued in Hebrews 7 to 10, and the whole believing people in Revelation 1:6, 5:10, and 20:6. A direct co-occurrence query over the canon (the whole Bible) returns zero verses in which priest (hiereus) or high priest (archiereus) shares a verse with any leadership word, so the priest vocabulary is structurally segregated from the office vocabulary. The one priesthood noun applied to people, priesthood (hierateuma), falls in 1 Peter 2:5 and 1 Peter 2:9 and is predicated of the entire congregation, not of leaders. Peter, an elder, commands elders to shepherd (poimanate, an aorist imperative meaning a completed past-action command, of the verb poimaino) the flock and forbids domineering, and Jesus makes the greatest a servant (diakonos), which fixes a servant-shepherd sense rather than a sacerdotal (sacrificing-priest) one."

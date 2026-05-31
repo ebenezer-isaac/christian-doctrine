@@ -16,7 +16,7 @@ from pipeline2.persistence import (
     load_evidence,
     persist_evidence,
 )
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 
@@ -43,7 +43,8 @@ def _build_evidence(question_id: str, *, safe: bool = True) -> Evidence:
         ]
     e = Evidence.model_validate(d)
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     return Evidence.model_validate(e_dict)
 
 
@@ -207,7 +208,8 @@ def test_upsert_verdict_node_serializes_affirms(
     d["verdict"]["affirms"] = affirms_value
     e = Evidence.model_validate(d)
     e_dict = _dc(e.model_dump(by_alias=True))
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     e = Evidence.model_validate(e_dict)
     driver = _CapturingDriver()
     persist_evidence(e, lexical_driver=driver, base=tmp_path)  # type: ignore[arg-type]

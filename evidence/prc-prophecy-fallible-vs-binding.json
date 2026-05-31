@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-prophecy-fallible-vs-binding",
   "question_id": "prc-prophecy-fallible-vs-binding",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern cleanly supports two of the proposition's three claims and leaves the middle claim genuinely contested. Testing is commanded with explicit verbs: 'test' (dokimazete) in 1 Thessalonians 5:21, 'test the spirits' (dokimazete ta pneumata) in 1 John 4:1, and 'let the others weigh' (diakrinetosan) in 1 Corinthians 14:29. Closure of the prophetic book is also explicit ('add to' (epitithemi) and 'take away' (aphaireo) in Revelation 22:18-19). The middle claim, that any retained modern prophecy is never binding the way Scripture is, is materially contested because the same noun 'prophecy' (propheteia, G4394) and the same agent noun 'prophet' (prophetes, G4396) are used in one single sense (univocally) for Old Testament prophets, New Testament writing prophets, and New Testament congregational prophets (1 Corinthians 14:29, 32, 37; Ephesians 2:20; Ephesians 3:5; Acts 21:10), and the Agabus oracle (Acts 21:11) names binders the words do not perfectly match in the outcome (Acts 21:33), so the canon supplies two patterns the words do not rank: a binary Old Testament prophet test (Deuteronomy 18:22) and a gradated New Testament sift-and-hold instruction. Therefore disputed."

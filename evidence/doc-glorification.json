@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-glorification",
   "question_id": "doc-glorification",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Paul's chain of past-tense verbs (aorist, a completed past action) in Romans 8:30 closes with 'he glorified' (edoxasen), placing glorification as the terminal link of the salvific sequence, stated in the same completed past tense of certainty as the prior verbs 'he predestined' (proorisen), 'he called' (ekalesen), and 'he justified' (edikaiosen). First Corinthians 15:42 to 57 builds a sustained antithetical lexical field: 'corruption' (phthora) versus 'incorruption' (aphtharsia), 'dishonor' (atimia) versus 'glory' (doxa), 'weakness' (astheneia) versus 'power' (dunamis), 'soulish' (psychikon) versus 'spiritual' (pneumatikon), and 'mortal' (thnetos) versus 'immortality' (athanasia), with the verbs 'it is raised' (egeiretai), 'we shall be changed' (allagesometha), and 'to put on' (endusasthai) naming the resurrection transformation while the noun 'body' (soma) is retained throughout. Philippians 3:21 caps it with 'he will refashion the body' (metaschematisei to soma) and 'conformed to the body of his glory' (symmorphon to somati tes doxes autou), and First John 3:2 with 'we shall be like him' (homoioi auto esometha) anchored to seeing him as he is. Romans 8:18 to 23 extends the hope to creation under 'corruption' (phthora) awaiting 'the freedom of the glory' (eleutherias tes doxes) and 'the redemption of the body' (apolytrosin tou somatos). The pattern is dense and spread across the whole Bible (pan-canonical) within Paul's and John's writings, and is not variant-sensitive at the verdict level. The verb 'to glorify' (doxazo) applied to the believer and the term 'conformed' (symmorphos) are individually rare, so the certainty rests on the convergence of the whole field rather than on the frequency of any single term."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-open-worship-open-ministry-meeting",
   "question_id": "prc-open-worship-open-ministry-meeting",
   "generated_at": "2026-05-27T08:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.725,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The participatory shape is plainly attested at the level of description. In 1 Corinthians 14:26 the distributive subject 'each one' (ἕκαστος, hekastos, 91 New Testament occurrences, stable sense) governs the verb 'has' (ἔχει, echei) repeated five times, and that verb is present active INDICATIVE (ongoing, simple statement of fact), so Paul states what happens when the gathered church assembles ('when you come together', ὅταν συνέρχησθε, hotan synerchēsthe), not a command to do it. Likewise 14:31, 'you are able...to prophesy' (δύνασθε...προφητεύειν, dynasthe...prophēteuein), is indicative plus infinitive (you are able to prophesy), with 'one by one' (καθ’ ἕνα, kath' hena) marking one by one turns. The only IMPERATIVES (direct commands) in the unit attach to purpose and order, not to the open format: 'let it be done for building up' (γινέσθω πρὸς οἰκοδομήν, ginesthō pros oikodomēn) in 14:26, 'let him interpret' (διερμηνευέτω, diermēneuetō), 'let him keep silent' (σιγάτω, sigatō), 'let them speak' (λαλείτωσαν, laleitōsan), 'let them weigh' (διακρινέτωσαν, diakrinetōsan) in 14:27-30, and 'let it be done in order' (κατὰ τάξιν γινέσθω, kata taxin ginesthō) in 14:40. The verdict is disputed because the grammar describes the every-member contribution but commands only edification (building up) and order, so the text does not by itself fix whether this is a mandated worship form or the regulation of one charismatic (Spirit-gifted) assembly. The stem also imports a brothers-only limit drawn from the separate 14:34 clause, which 26-33 does not lexically supply."

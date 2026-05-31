@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-divorce-and-remarriage",
   "question_id": "prc-divorce-and-remarriage",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.90625,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "sensitive",
     "variant_robust": false,
     "pan_canonical": true,
     "rationale": "The word pattern fixes that marriage is a one-flesh covenantal joining (Genesis 2:24 cleave (dabaq), flesh (basar), one (echad)), that wrongful remarriage is adultery (moicheia) in the Gospel sayings (commit adultery (G3429) in Mark 10:11-12 and Matthew 19:9, plus commit adultery (G3431) in Luke 16:18), and that the marriage-bond verb bind (deo, G1210) governs the wife in 1 Corinthians 7:27, 1 Corinthians 7:39, and Romans 7:2-3, with liberty (free (eleutheros), G1658) released only at the death of the spouse. The Synoptic sayings themselves diverge: Mark and Luke transmit the saying with no exception, while Matthew 19:9 carries the exception phrase 'except for sexual immorality' (me epi porneia) (G4202), and Matthew 5:32 carries 'apart from a matter of sexual immorality' (parektos logou porneias) (G3924 + G4202), and the words do not lexically rank the absolute against the conditioned form. The Matthean exception clause attaches grammatically to dismiss (apoluse) but does not syntactically state whether it also licenses marry (gameo) (remarry), and sexual immorality (porneia) is a broad sexual-immorality noun whose precise referent is not lexically fixed. In 1 Corinthians 7:15 'is not enslaved' (ou dedoulotai) is a perfect tense (a completed action whose result still stands) passive of enslave (douloo) (slavery verb, G1402), not the marriage-bond verb bind (deo) that Paul himself uses in 7:27 and 7:39, so the word releases the believer from forced cohabitation but stops short of an explicit remarriage grant. Malachi 2:16 is text-and-grammar unstable (the ETCBC parser records clauses as ? (uncertain)). Multiple defensible readings survive the word-level pass."

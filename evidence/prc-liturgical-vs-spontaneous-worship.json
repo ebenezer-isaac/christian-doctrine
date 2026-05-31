@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-liturgical-vs-spontaneous-worship",
   "question_id": "prc-liturgical-vs-spontaneous-worship",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7375,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The cited corpus attests both a free pole and an ordered pole within the same Pauline material and ranks neither into a single mandated form, so the proposition that both are defensible across a wide spectrum is supported while any one form is underdetermined. The grammar is decisive on this point. In 1 Corinthians 14:26 the present active indicative (ongoing, simple statement of fact) verb \"has\" (echei, G2192), repeated for each item, describes that \"each one\" (ekastos, G1538) actually has a psalm, a teaching, a revelation, a tongue, an interpretation, and the present middle imperative (a command in ongoing, middle-voice form) \"let it be done\" (ginestho, G1096) caps it with \"let all things be done toward building up\" (panta pros oikodomen). The identical imperative \"let it be done\" (ginestho) governs 1 Corinthians 14:40, \"let all things be done decently and in order\" (panta euschemonos kai kata taxin). One verb thus binds freedom and order together and forecloses neither. The word for \"order\" (taxis, G5010) is itself two-sensed across the canon, plain orderliness in 1 Corinthians 14:40 and Colossians 2:5 but a fixed appointed arrangement in Luke 1:8 and the Melchizedek order of Hebrews, so the word cannot by itself mandate a set liturgy (a fixed script for the gathering). Set elements are nonetheless present, the articular (with the article \"the\") \"Amen\" (amen, G0281) presupposed in 1 Corinthians 14:16, the articular triad \"the reading, the exhortation, the teaching\" (te anagnosei, te paraklesei, te didaskalia) in 1 Timothy 4:13, and \"psalm\" (psalmos, G5568) which itself names both the inherited Psalter and a brought song. Because the vocabulary co-attests fixed and free without ranking them, the verdict is disputed."

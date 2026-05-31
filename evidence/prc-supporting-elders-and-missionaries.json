@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-supporting-elders-and-missionaries",
   "question_id": "prc-supporting-elders-and-missionaries",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-level pattern converges on the proposition from several independent New Testament passages, each grounded in cited Old Testament law. In 1 Timothy 5:17-18 elders who lead well, especially those toiling in word (logos) and teaching (didaskalia), are to be reckoned worthy (\"let them be counted worthy,\" axiousthosan, a present passive imperative, that is, a standing command) of double honor (\"double honor,\" diples times). Paul then introduces two Scriptures with \"for the Scripture says\" (legei gar he graphe), citing Deuteronomy 25:4 (\"you shall not muzzle the ox while it treads,\" boun aloonta ou phimoseis) and the wage saying \"the laborer is worthy of his wages\" (axios ho ergates tou misthou autou). The same warrant is reasserted in 1 Corinthians 9:9-14 where the same Deuteronomy citation grounds the dominical command (\"the Lord commanded,\" dietaxen ho kurios). Philippians 4:15-18 shows a concrete church partnership (\"partnered,\" ekoinonesen; \"gift,\" doma; \"acceptable sacrifice,\" thysian dekten); Galatians 6:6 issues a present imperative (\"let him share,\" koinoneito) binding the taught to share with the teacher in all good things; and 3 John 5-8 frames support of those who went out (\"having gone out,\" exelthon) for the Name as making senders fellow workers (\"fellow workers,\" synergoi) with the truth. The convergence of imperatives, the cited law, and the dominical (the Lord's own) warrant make the practice decisive at the word level across the canon."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-alone-head-of-church",
   "question_id": "doc-christ-alone-head-of-church",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The noun 'head or source' (kephale, G2776) is predicated of Christ in relation to the body and the 'assembly or church' (ekklesia, G1577) five times across two letters: Ephesians 1:22 (God gave him, 'head' (kephalen) in the accusative form (the 'direct object' grammatical form), as head over all things to the church), Ephesians 4:15 (the head (he kephale), Christ (Christos)), Ephesians 5:23 (head or source (kephale) of the church, a predicate nominative (a noun completing a 'X is Y' statement) anchored to Christ (Christos) by name), Colossians 1:18 (he himself is the head (autos estin he kephale) of the body, the church), and Colossians 2:10 (the head or source (he kephale) of all rule and authority). Each predication uses a singular subject, and in Colossians 1:18 and Ephesians 5:23 the intensive nominative pronoun 'he himself' (autos, G0846, P-NSM) with the present copula (the linking verb 'is') 'is' (estin, V-PAI-3S, present indicative third person singular, that is an ongoing simple statement of fact). Colossians 1:18 adds the canon hapax (a word that occurs only once in the entire Bible) 'to hold first place' (proteuo, G4409, V-PAP-NSM), so that he himself might hold first place, and Colossians 2:19 makes the head the single source from which the whole body grows. A direct concordance of all 76 occurrences of 'head or source' (kephale) shows that 'head or source' (kephale) and 'assembly or church' (ekklesia) co-occur in only three verses, and in all three the head is Christ; the lexeme is never attached to a human over the church. The negative half of the proposition is therefore a sound inference from the singular and intensive grammar plus the empty co-referent slot (no other candidate ever fills that head-slot), not a separate lexeme."

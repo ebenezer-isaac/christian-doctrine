@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-angels-exist",
   "question_id": "doc-angels-exist",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The Hebrew word for messenger or angel (mal'ak, H4397) and the Greek word for messenger or angel (angelos, G0032) name a class of personal agents whom God addresses, sends, and commissions across both Testaments, with the lexicon explicitly recording the sense angel, a spiritual heavenly being, alongside the bare sense messenger. Hebrews 1:14 supplies the explicit functional definition, ministering spirits sent out for service (leitourgika pneumata apostellomena eis diakonian), anchored on the once-only adjective ministering (leitourgikos, G3010, a hapax, that is, a word that occurs only once in the entire Bible) and a rhetorical question word expecting yes (ouchi). Named individuals like Gabriel (Gabriel, G1043, Luke 1:19, 26) and the archangel Michael (archangelos with Michael, G0743, Jude 1:9; 1 Thessalonians 4:16) demonstrate individuated personhood, speech, self identification, and rank within an angelic order, and the burning ones (saraph) of Isaiah 6 and the prince (sar, H8269, with lexicon sub sense patron angel) of Daniel 10 round out the witness spread across the whole Bible (pan canonical). The pattern is dense, structurally consistent, and not variant sensitive."

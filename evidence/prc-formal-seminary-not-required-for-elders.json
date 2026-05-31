@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-formal-seminary-not-required-for-elders",
   "question_id": "prc-formal-seminary-not-required-for-elders",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The two qualification lists (1 Timothy 3:1-7 and Titus 1:5-9) enumerate moral character, household management, and exactly one cognitive competence: 'able to teach' (didaktikos, G1317, in 1 Timothy 3:2) expanded in Titus 1:9 as being 'able' (dunatos, G1415) to 'hold fast' (antecho, G0472) the 'trustworthy word' (pistos logos) 'according to the teaching' (kata ten didachen, where didache, G1322, means received instruction), so as to exhort in sound doctrine and refute opponents. Neither list contains any term for formal scribal training, a school, an academic degree, or an ordination certificate. The requirement is a real capability and content fidelity, not an institution. Acts 4:13 positively labels Peter and John 'unlettered' (agrammatoi, G0062, a true hapax, meaning a word that occurs only once in the entire Bible) and 'untrained, ordinary' (idiotai, G2399, the same word Paul uses for the non-specialist layperson), yet the council recognized they had been with Jesus, grounding competence in instruction by Christ rather than a credential. 2 Timothy 2:2 sets the transmission standard as faithful men 'competent' or 'sufficient' (hikanos, G2425) to teach others, again a capability term. The positive criteria of the proposition are directly readable; the negative half rests on the absence of any credential lexeme (any specific word for a credential) plus the Acts 4:13 example. Confidence is medium because that negative claim is partly an argument from silence and the teaching requirement still presupposes genuine doctrinal competence."

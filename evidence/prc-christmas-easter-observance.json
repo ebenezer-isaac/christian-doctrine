@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-christmas-easter-observance",
   "question_id": "prc-christmas-easter-observance",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7625,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "analogical",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Romans 14:5 sets the phrase 'judges one day above another' (krinei hemeran par hemeran) against 'judges every day alike' (krinei pasan hemeran), and settles the dispute by 'let each be fully convinced in his own mind' (hekastos en to idio noi plerophoreistho), with both parties acting 'to the Lord' (kurio) and giving thanks 'to God' (eucharisto to theo) in 14:6. That grammar lexically authorises a reading of liberty (freedom of personal conviction). Colossians 2:16 forbids judging 'in part of a feast or new moon or sabbaths' (en merei heortes e noumenias e sabbaton), exactly the triad of festival, new moon, and sabbath that is the technical Mosaic calendar in the Greek Old Testament (the Septuagint), and 2:17 classes them as 'a shadow of the things to come' (skia ton mellonton), whose 'body' or 'substance' (soma) belongs to Christ. Neither passage names Christmas or Easter; the canon never mentions them. Galatians 4:10 rebukes 'you observe days and months and seasons and years' (hemeras paratereisthe kai menas kai kairous kai eniautous) as a return to weak 'elemental principles' (stoicheia), so the same vocabulary about observing days can be censured. The lexicon therefore yields two unranked patterns. A liberty pattern from Romans 14 and a censure pattern from Galatians 4. The specific application to a post-canonical Christian calendar (one developed after the New Testament closed) is an inference the words neither make nor close."

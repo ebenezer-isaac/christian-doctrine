@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-sola-fide",
   "question_id": "doc-sola-fide",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across Romans, Galatians, Philippians, and Titus the verb 'justify, declare-righteous' (dikaioo, G1344) is repeatedly bound to faith and set against 'works of law' (erga nomou) by the prepositions 'out of, from' (ek, G1537) and 'through' (dia, G1223) and by the adverb 'apart from' (choris, G5565), as in Romans 3:28 'we reckon a person is justified by faith apart from works of law' (logizometha dikaiousthai pistei anthropon choris ergon nomou). Romans 4:4-5 grounds this in commercial terms: the one who works receives a 'wage' (misthos, G3408) reckoned as 'debt' (opheilema, G3783), but to the one who does not work but believes, faith is 'reckoned, credited' (logizomai, G3049) as righteousness, and God justifies the 'ungodly' (asebe, G0765), which excludes works as the ground. The hard tension is that James 2:24 uses the SAME verb 'justify' (dikaioo) with 'out of works' (ex ergon) and 'not out of faith alone' (ouk ek pistews monon, G3441), and James 2:24 is the only verse in the canon where 'justify' (dikaioo) and 'alone' (monos) co-occur. Read in James 2:21-23, where Abraham is justified by works in offering Isaac long after Genesis 15:6 was already reckoned to his faith, James uses 'justify' (dikaioo) for the later vindication of a living faith while Paul addresses the initial reckoning, so the proposition stands as carefully qualified, but the resolution requires assigning 'justify' (dikaioo) two senses the texts do not themselves label, which is why confidence is medium and not high."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-dispensationalism",
   "question_id": "doc-dispensationalism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.975,
-    "confidence": "low",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The original-language data pulls in two directions and supports no single reading. Ephesians 2:11-22 in its original words describes Jew and Gentile fused into 'one new man' (hena kainon anthrōpon) and reconciled in 'one body' (heni sōmati), with the 'dividing wall' (mesotoichon tou phragmou) 'abolished' (katargēsas, a completed past action participle of katargeō, meaning to render inoperative), and Galatians 3:28-29 calls believers 'one' (heis) in Christ and Abraham's 'seed' (sperma), which favors continuity and merger. But Romans 11:25-29 keeps 'all Israel' (pas Israēl) as a future-saved entity distinct from 'the fullness of the Gentiles' (plērōma tōn ethnōn), with the gifts and calling 'irrevocable' (ametamelēta), and Romans 11:17-24 calls Israel the 'natural branches' (kata physin, by nature) of the cultivated 'olive tree' (elaia) into which 'wild olive' (agrielaios) Gentile branches are grafted, which favors an enduring distinction within ONE tree. The naming term 'household management' or 'stewardship' (oikonomia, used at Ephesians 1:10, Ephesians 3:2, Ephesians 3:9, plus 1 Corinthians 9:17, Colossians 1:25, 1 Timothy 1:4, and Luke 16) in all 9 New Testament uses means household management or stewardship, not a sealed-off redemptive epoch, so the lexicon does not by itself license the strong two-programs framing. The verdict turns on framework, not on word meaning, so it is disputed."

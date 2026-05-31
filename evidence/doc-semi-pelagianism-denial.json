@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-semi-pelagianism-denial",
   "question_id": "doc-semi-pelagianism-denial",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "On the narrow question of who starts the movement toward God, the cited Greek consistently puts the divine act before the human movement. John 6:44 and 6:65 join the negated verb 'is able' (dynatai, an ongoing simple statement of fact) to the 'unless' condition (ean me), so coming is impossible unless the Father first 'draws' (helkyse, a completed past action in the subjunctive mood, that is, a hypothetical or conditional completed pull) or 'has given' (dedomenon, a completed action whose result still stands, in the passive voice). Romans 9:16 negates 'of the one willing' (ou tou thelontos) with the strong 'but' (alla) relocating the ground to 'of the God who shows mercy' (tou eleontos theou), and Philippians 2:13 names God as 'working' (energon, the ongoing present participle) even the 'willing' itself (to thelein, the act of willing). John 15:16 reverses the order, 'you did not choose me but I chose you' (ouch hymeis exelexasthe all ego exelexamen), and 1 John 4:19 marks God as 'first' (protos). Acts 16:14 has the Lord 'opened' (dienoixen) the heart so as 'to attend' (prosechein), the opening preceding the attending. These priority markers foreclose the semi-Pelagian claim (the teaching that the unaided human takes the first step toward God and grace only helps afterward) that the human takes the unaided first step. The distinct and narrower cooperation question, whether the prior work fully effects the willing or enables a will that still freely consents, is not ranked by the vocabulary, hence medium confidence."

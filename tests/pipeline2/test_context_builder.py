@@ -152,7 +152,7 @@ def test_build_bundle_returns_required_keys() -> None:
         settings = MagicMock()
         bundle = build_lexical_context_bundle("doc-trinity", settings)
     assert bundle["question_id"] == "doc-trinity"
-    assert bundle["schema_version"] == "3.0"
+    assert bundle["schema_version"] == "3.1"
     assert "lexical_context_bundle" in bundle
     inner = bundle["lexical_context_bundle"]
     for k in (

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-political-engagement",
   "question_id": "prc-political-engagement",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9875,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern firmly supports an active, ordered, prayerful, debt-paying relation to the civil order. Jeremiah 29:7 commands 'seek' (darash, H1875) and 'pray' (palal, H6419) for the 'peace, welfare' (shalom, H7965) of 'the city' (ha-ir, H5892); 1 Timothy 2:1-2 commands 'petition' (deesis, G1162) 'on behalf of' (hyper, G5228) 'kings' (basileon, G0935) toward a quiet 'godly' (eusebes) life; Romans 13:1-7 commands 'to be subject, place under' (hypotassesthai, G5293) to 'governing authorities' (exousiai, G1849) because the ruler is 'God's servant' (theou diakonos, G1249) and 'render, pay back' (apodote, G0591) 'tribute' (phoros, G5411), 'tax, custom' (telos, G5056), 'fear' (phobos, G5401), 'honor' (time, G5092) is owed. What the vocabulary does NOT settle is the SCOPE of engagement. The word 'authority' (exousia, G1849) is broadly polysemic (carrying multiple senses) across 93 verses (Ephesians 6:12 cosmic, 1 Corinthians 7 to 9 personal right, Matthew 28:18 Christ's authority, Revelation 13 beastly power), so its civil-state sense in Romans 13 sits within a wider semantic field that other texts use differently. The word 'servant' (diakonos, G1249) in Romans 13:4 names the ruler, but across its 28 verses it elsewhere names church servants and Christ himself. The word 'citizenship, commonwealth' (politeuma, G4175) in Philippians 3:20 is a hapax (a word that occurs only once in the entire New Testament): a single occurrence cannot triangulate whether heavenly citizenship abolishes, relativizes, or merely orders earthly engagement. The verb 'obey' (peitharcheo, G3980) appears in Titus 3:1 (obey rulers) and Acts 5:29 (obey God rather than men), the same verb at both ends of the limit. The canon thus supplies a strongly attested submission-and-payment pattern AND a heavenly-citizenship pattern without lexically ranking them, and it never names voting, advocacy, or public office. Hence disputed in degree."

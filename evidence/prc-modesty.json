@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-modesty",
   "question_id": "prc-modesty",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two letter-form passages converge on a single word pattern in which self-presentation is governed by orderly restraint, that is, orderly apparel (katastolē kosmiō), reverence or modesty (aidōs), and soundness of mind or self-control (sōphrosynē), with the place of true adornment relocated to the inner person and to good works that befit godliness. Both passages share a not-this-but-that structure built on the strong Greek 'but' (alla), de-emphasizing external display while positively redirecting adornment (the verb 'to adorn,' kosmein, and the noun 'adornment,' kosmos) to the hidden person of the heart and to good works. The principle is densely worded with multiple converging anchor words, and the same approved verb 'to adorn' (kosmeō) then appears positively at 1 Peter 3:5 of the holy women of old who adorned themselves by submitting to their husbands, internally confirming that adornment as such is not the target. Confidence is raised to high because the affirmed principle is lexically overdetermined (meaning the words pile up to make the same point many times over), while the further question of whether the named items form a closed prohibition is the only point lexically left open."

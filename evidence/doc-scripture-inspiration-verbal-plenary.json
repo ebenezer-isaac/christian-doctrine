@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-inspiration-verbal-plenary",
   "question_id": "doc-scripture-inspiration-verbal-plenary",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-by-word pattern is dense and pulls together on both halves of the claim. For full scope, 2 Timothy 3:16 says of every writing that it is \"God-breathed\" (theopneustos) (G2315, a true hapax, that is, a word that occurs only once in the entire Bible, queried occurrence count 1, morph A-NSF agreeing with \"writing\" (graphe) N-NSF, glossed God-breathed across all printed editions of the Greek New Testament from NA28 through the Textus Receptus and the Byzantine text), said of \"every writing\" (pasa graphe). And 2 Peter 1:21 grounds prophecy in men \"being carried along\" (pheromenoi, G5342, a present passive participle, that is, the ongoing form of a passive verb in which the subject is acted upon) \"by the Holy Spirit\" (hypo pneumatos hagiou), with their speech coming \"from God\" (apo theou). For the word-level aspect, the canon supplies arguments that turn on the words themselves. Matthew 5:18 fixes permanence at the level of the \"smallest letter\" (iota) (G2503, a hapax, a word that occurs only once in the entire Bible) and the \"smallest stroke\" (keraia) (G2762, smallest letter and stroke). John 10:35 treats a single scriptural clause as \"cannot be broken\" (ou dynatai lythenai) (G1410 plus G3089, categorically cannot be loosed). Matthew 22:32 hangs the resurrection on the present tense \"I am\" (eimi) (G1510, present indicative I am, that is, an ongoing simple statement of fact in the present, not I was). And Galatians 3:16 hangs a whole argument on the singular \"seed\" (sperma) (G4690, seed) versus the plural. These four word-level arguments are the strongest word-by-word evidence that inspiration attaches to the words, not only the ideas. Old Testament echoes drawn from the Treasury of Scripture Knowledge cross references (2 Samuel 23:2 \"the Spirit spoke and his word was on my tongue\", Psalm 119:89, Psalm 19) confirm a witness spread across the whole Bible. No cited verse carries a textual variant that disturbs the verdict."

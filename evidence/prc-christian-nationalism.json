@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-christian-nationalism",
   "question_id": "prc-christian-nationalism",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "analogical",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Christian nationalism is a modern political category with no Greek or Hebrew lexeme (a basic dictionary word form) that names it, so the proposition cannot be settled by direct word study. The supplied anchors lean against fusing nation and kingdom: John 18:36 sources the kingdom as 'out of this world' (ek tou kosmou toutou) where 'from, out of' (ek) with the 'from-X' grammatical form (the genitive) marks origin rather than mere location, Philippians 3:20 places 'commonwealth or citizenship' (to politeuma) 'in the heavens' (en ouranois) though 'commonwealth or citizenship' (politeuma) itself is a single New Testament occurrence so its precise civic scope cannot be triangulated, Galatians 3:28 relativizes 'Jew' (Ioudaios) and 'Greek' (Hellen) in the one Christ identity, and Revelation 5:9-10 constitutes the redeemed people as drawn 'out of every tribe and tongue and people and nation' (ek pases phyles kai glosses kai laou kai ethnous). Against this stand Romans 13:1 with 'be subject to' (hypotasso), 'authority' (exousia), and 'having been ordained' (tetagmenai) marking civil order as divinely ordained, and the Old Testament national-covenant pattern not in the Greek bundle. The canon supplies two patterns the words do not rank, so the precise boundary the proposition draws stays a contested lexical inference."

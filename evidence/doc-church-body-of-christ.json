@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-church-body-of-christ",
   "question_id": "doc-church-body-of-christ",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.7375,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Direct queries of the lexical store confirm the core predication (the central 'X is Y' claim). The word body (soma) occurs 144 times, and the church-as-body sense clusters in independent letters by Paul, while the word member (melos) occurs 34 times with the same concentration. In 1 Corinthians 12:27 the words body (soma), Christ (Christos), and member (melos) all co-occur in one clause, 'you are the body of Christ' (hymeis de este soma Christou). Romans 12:5 repeats body (soma), one (heis), Christ (Christos), and member (melos) in a separate letter, and Colossians 1:18 packs body (soma), head (kephale), and church or assembly (ekklesia) into one line, 'he is the head of the body, the church' (he kephale tou somatos tes ekklesias). The recurring combination of body (soma) plus church or assembly (ekklesia) plus head (kephale) across letters makes the identity claim decisive, so 'affirms' is true. Confidence stays medium for two text-level reasons. The metaphor is found only in the Greek New Testament with no Old Testament anchor word, so it is not pan-canonical (spread across the whole Bible), and the clause 'from Pentecost to the rapture' is a chronological bracket (start-date plus end-date frame) that none of the body-related words carry."

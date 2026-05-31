@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-modalism-denial",
   "question_id": "doc-modalism-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern across the anchor passages is decided by grammar, not by any single word. The three are repeatedly the simultaneous subjects of distinct verbs and the parties of reciprocal pronoun address, which a one-person-in-sequence reading cannot accommodate. At the baptism (Matthew 3:16-17) the Son ascends (\"he went up\" (anebe), 3rd person singular, a completed past action), the Spirit descends upon him (\"coming down upon him\" (katabainon ep auton)), and a heavenly voice says \"this is my beloved Son\" (houtos estin ho huios mou), third-person demonstrative (\"this\") plus first-person possessive (\"my\") in one breath. In John 17 the Son in the first person (\"I\" (ego)) addresses the Father in the second person (\"you\" (se, su)) and says \"you sent\" (apesteilas), which requires a sender other than the sent. John 14:16 has the Son ask the Father to give \"another Helper of the same kind\" (allon parakleton). John 1:1 sets \"the Word with God\" (ho logos pros ton theon), the preposition \"toward, with, face-to-face\" (pros) with the accusative form (the direct-object form) \"the God\" (ton theon) marking face-to-face relation, alongside \"the Word was God\" (theos en ho logos), shared nature. The one-God texts (John 10:30 \"one\" (hen), Deuteronomy 6:4 \"one\" (echad)) assert unity of essence, not identity of person, since \"one\" (hen) is neuter (the genderless form) with a plural verb \"we are\" (esmen) and \"one\" (echad) covers compound unity. The pattern is dense and spans multiple authors and genres."

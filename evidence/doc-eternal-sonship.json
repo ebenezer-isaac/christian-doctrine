@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-eternal-sonship",
   "question_id": "doc-eternal-sonship",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.978571,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "One body of vocabulary places the Son before creation and inside the divine being. John 1:1 uses the ongoing past form of the verb 'to be' (eimi, morph V-IAI-3S, the imperfect, an ongoing or repeated past action) three times for 'the Word' (ho logos) at 'the beginning' (arche), contrasted with the completed past form (aorist, a completed past action) of 'to come to be' (ginomai) for created things. John 17:5 and 17:24 set shared glory and the Father's love for 'me' 'before the world existed' (pro tou ton kosmon einai) and 'before the foundation of the world' (pro katabolēs kosmou). Colossians 1:15-17 makes the Son the sphere, agent, and goal of all creation and 'before all things' (pro pantōn). Hebrews 1:6 calls him 'the firstborn' (ton prōtotokon) already when God brings him into the world. The sending verbs act on a Son already 'one-of-a-kind' (monogenēs), with 'I have sent' (apostellō) in the perfect (a completed action whose result still stands) in 1 John 4:9, and 'he gave' (didōmi) in the aorist (a completed past action) in John 3:16. But a second body of vocabulary, the begetting verbs 'to bear, beget' (yalad) in Psalm 2:7 (in the qal, the simple active form of the Hebrew verb, perfect form) and 'to beget' (gennaō) in Hebrews 1:5, Hebrews 5:5, and Acts 13:33 (perfect 'I have begotten' (gegennēka) with 'today' (sēmeron)), is attached by the canon to a moment in time, the resurrection and enthronement, and Hebrews 1:5b quotes the Davidic adoption formula of 2 Samuel 7:14. The begetting words alone do not rank these two patterns, so the affirm rests on the durative (ongoing) and pre-creation terms, not on the begetting terms."

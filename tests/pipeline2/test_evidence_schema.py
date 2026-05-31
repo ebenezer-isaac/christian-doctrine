@@ -1,4 +1,4 @@
-"""Tests for pipeline2.evidence_schema (v3.0)."""
+"""Tests for pipeline2.evidence_schema (v3.1)."""
 
 from __future__ import annotations
 
@@ -13,7 +13,9 @@ def test_minimal_validates() -> None:
     evidence = Evidence.model_validate(minimal_evidence_dict())
     assert evidence.question_id == "doc-trinity"
     assert evidence.verdict.affirms is True
-    assert evidence.verdict.lexical_score is None
+    assert evidence.verdict.lexical_breadth is None
+    assert evidence.verdict.lexical_directness == "direct"
+    assert evidence.verdict.variant_stability is None
 
 
 def test_id_must_equal_question_id() -> None:
@@ -23,9 +25,9 @@ def test_id_must_equal_question_id() -> None:
         Evidence.model_validate(d)
 
 
-def test_schema_version_locked_to_30() -> None:
+def test_schema_version_locked_to_31() -> None:
     d = minimal_evidence_dict()
-    d["$schema_version"] = "2.0"
+    d["$schema_version"] = "3.0"  # v30-dead-ref-ok: tests rejection of the old version
     with pytest.raises(ValidationError):
         Evidence.model_validate(d)
 
@@ -101,39 +103,92 @@ def test_affirms_rejects_other_values(value: object) -> None:
         Evidence.model_validate(d)
 
 
-def test_lexical_score_none_acceptable() -> None:
+def test_lexical_breadth_none_acceptable() -> None:
     d = minimal_evidence_dict()
-    d["verdict"]["lexical_score"] = None
+    d["verdict"]["lexical_breadth"] = None
     Evidence.model_validate(d)
 
 
-def test_lexical_score_in_range_ok() -> None:
+@pytest.mark.parametrize("band", ["canon_wide", "broad", "partial", "thin"])
+def test_lexical_breadth_enum(band: str) -> None:
     d = minimal_evidence_dict()
-    d["verdict"]["lexical_score"] = 0.5
+    d["verdict"]["lexical_breadth"] = band
     Evidence.model_validate(d)
 
 
-def test_lexical_score_out_of_range_rejected() -> None:
+def test_lexical_breadth_rejects_other() -> None:
     d = minimal_evidence_dict()
-    d["verdict"]["lexical_score"] = 1.5
+    d["verdict"]["lexical_breadth"] = "wide"
     with pytest.raises(ValidationError):
         Evidence.model_validate(d)
-    d["verdict"]["lexical_score"] = -0.1
+
+
+@pytest.mark.parametrize("directness", ["direct", "inferred", "analogical", "silent"])
+def test_lexical_directness_enum(directness: str) -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["lexical_directness"] = directness
+    if directness == "silent":
+        # silent requires affirms=null per validator
+        d["verdict"]["affirms"] = None
+    Evidence.model_validate(d)
+
+
+def test_lexical_directness_rejects_other() -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["lexical_directness"] = "high"
     with pytest.raises(ValidationError):
         Evidence.model_validate(d)
 
 
-@pytest.mark.parametrize("c", ["high", "medium", "low"])
-def test_confidence_enum(c: str) -> None:
+def test_lexical_directness_required() -> None:
     d = minimal_evidence_dict()
-    d["verdict"]["confidence"] = c
+    del d["verdict"]["lexical_directness"]
+    with pytest.raises(ValidationError):
+        Evidence.model_validate(d)
+
+
+def test_variant_stability_none_acceptable() -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["variant_stability"] = None
     Evidence.model_validate(d)
 
 
-def test_confidence_rejects_other() -> None:
+@pytest.mark.parametrize("stability", ["stable", "sensitive", "not_in_scope"])
+def test_variant_stability_enum(stability: str) -> None:
     d = minimal_evidence_dict()
-    d["verdict"]["confidence"] = "very-high"
+    d["verdict"]["variant_stability"] = stability
+    Evidence.model_validate(d)
+
+
+def test_variant_stability_rejects_other() -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["variant_stability"] = "unstable"
     with pytest.raises(ValidationError):
+        Evidence.model_validate(d)
+
+
+def test_silent_requires_null_affirms() -> None:
+    """lexical_directness='silent' must pair with affirms=null."""
+    d = minimal_evidence_dict()
+    d["verdict"]["lexical_directness"] = "silent"
+    d["verdict"]["affirms"] = True
+    with pytest.raises(ValidationError, match="silent.*requires affirms=null"):
+        Evidence.model_validate(d)
+
+
+def test_silent_with_null_affirms_ok() -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["lexical_directness"] = "silent"
+    d["verdict"]["affirms"] = None
+    Evidence.model_validate(d)
+
+
+@pytest.mark.parametrize("affirms_other", [False, "disputed"])
+def test_silent_rejects_non_null_affirms(affirms_other: object) -> None:
+    d = minimal_evidence_dict()
+    d["verdict"]["lexical_directness"] = "silent"
+    d["verdict"]["affirms"] = affirms_other
+    with pytest.raises(ValidationError, match="silent.*requires affirms=null"):
         Evidence.model_validate(d)
 
 

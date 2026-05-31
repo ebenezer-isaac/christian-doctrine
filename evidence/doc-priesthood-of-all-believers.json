@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-priesthood-of-all-believers",
   "question_id": "doc-priesthood-of-all-believers",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The collective noun \"priesthood\" (hierateuma, G2406) occurs exactly twice in the canon, queried at 1 Peter 2:5 and 2:9, and both times it is predicated of the whole believing community with no priestly class standing between God and people in between. The plural \"priests\" (hiereis, G2409, parsed N-APM and N-NPM, accusative and nominative plural masculine forms) is predicated of the redeemed in Revelation 1:6, 5:10, and 20:6, standing in apposition (placed beside, naming the same group) to \"us\" (hemas) and \"them\" (autous), the entire company God made. 1 Timothy 2:5 fixes the mediator at \"one mediator\" (heis mesites), and the numeral \"one\" (heis) lexically excludes any additional human go-between. Hebrews uses the first-person plural urging form \"let us draw near\" (proserchometha, G4334, V-PNS-1P, a present subjunctive verb in the first-person plural, the \"let us\" form) and addresses \"brothers\" (adelphoi) in the vocative plural (the direct-address plural form), granting every believer \"boldness\" (parresia) to enter the holy places. The single mediating priest the text names beyond this shared priesthood is Christ as \"high priest\" (archiereus) and \"great priest\" (hierea megan)."

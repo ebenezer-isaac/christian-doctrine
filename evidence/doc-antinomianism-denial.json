@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-antinomianism-denial",
   "question_id": "doc-antinomianism-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The anchor texts in their own words tie grace to obedience and shut out continuing in sin, without making law-keeping the basis on which a person is accepted. Romans 6:2 and Romans 6:15 both answer the antinomian inference (the idea that since we are saved by grace, sin no longer matters) with the same emphatic Greek refusal, 'may it never be' (mē genoito), which is the negative particle plus the second aorist optative (a completed-action mood used here to slam a door) of the verb 'to become or happen' (ginomai), parsed V-2ADO-3S (verb, second aorist active optative, third person singular). It is a recurring Pauline formula that forecloses the inference rather than weighing it. Romans 6:2 grounds the refusal in the aorist (a completed past action) form 'we died' (apethanomen) to 'sin' (hamartia), so continued life in sin is a contradiction. Titus 2:12 makes saving 'grace' (charis) the grammatical subject of the present participle 'training' (paideuousa), training believers to deny 'ungodliness' (asebeia) and to live 'righteously' (dikaiōs) and 'godly' (eusebōs). 1 John 3:4 equates sin with lawlessness through an articular copula clause (a sentence in the form 'the X is the Y' linked by the verb 'is'), 'sin is lawlessness' (hē hamartia estin hē anomia), and 1 John 2:4 makes the present participle 'keeping' (tērōn) the 'commandments' (tas entolas) the test of knowing God, calling the non-keeper a 'liar' (pseustēs). Matthew 5:17 sets 'to abolish' (katalysai) against 'to fulfill' (plērōsai), so the law is fulfilled not annulled, while Romans 8:4 has its 'righteous requirement' (dikaiōma) fulfilled in those who walk by the Spirit, so the moral standard endures as the contour of obedience."

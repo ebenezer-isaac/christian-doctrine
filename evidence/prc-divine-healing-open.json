@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-divine-healing-open",
   "question_id": "prc-divine-healing-open",
   "generated_at": "2026-05-28T12:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "James 5:14-16 sets healing inside a petition frame addressed to the present church: the sick one calls the elders (presbyterous) who pray (proseuxasthosan, a completed past action used as a command, here a plural imperative meaning 'let them pray') and anoint with oil (aleipsantes elaio, 'having anointed with oil'), and the prayer of faith will save (sosei, 'will save' or 'will rescue') the sick one and the Lord will raise (egerei, 'will raise up', with kyrios, 'Lord', as the explicit subject) him up. James 5:16 then commands mutual prayer that you may be healed (iathete, 'that you may be healed', the passive subjunctive of iaomai, 'to heal'). 1 Corinthians 12:9, 28, 30 lists gifts of healings (charismata iamaton, plural) among the Spirit's ongoing distributions to the church. Acts 28:8-9 narrates Paul praying and laying hands on Publius's father so that the man is healed (iasato, 'he healed') and the rest of the island then keep being cured (etherapeuonto, 'they were being cured', an ongoing or repeated past action). The same canon also limits the claim: Paul prays three times for the thorn and is answered with grace not removal (2 Corinthians 12:8-9), leaves Trophimus sick (2 Timothy 4:20), and prescribes wine for Timothy's frequent illnesses (1 Timothy 5:23). The combined lexical pattern affirms that God can and sometimes does heal in answer to prayer while withholding any guarantee."

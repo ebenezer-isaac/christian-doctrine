@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-liturgical-worship",
   "question_id": "prc-liturgical-worship",
   "generated_at": "2026-05-28T10:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.825,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The cited corpus co-attests fixed set forms and free participatory contribution within the same Pauline material and never ranks one above the other, so the proposition that a formal liturgy is uncommanded yet permissible is materially contested. Romans 14:5-6 places the observance of days under each conscience with the verb 'let each be fully convinced' (plerophoreo, G4135, in the present passive imperative form, meaning a command for an ongoing state) and the participle 'regarding' (phroneo, G5426, present active participle, meaning the ongoing act of regarding), oriented to the Lord with 'gives thanks' (eucharisteo, G2168), which yields a liberty principle (a freedom-of-conscience rule) for disputable matters but speaks to days and food and not to corporate worship form. 1 Corinthians 14:40 commands 'according to order' (kata taxin, G5010) and 'decently' (euschemonos, G2156), arrangement and decorum, but 'order' (taxis) carries two attested senses across the canon, plain orderliness in 1 Corinthians 14:40 and Colossians 2:5 against fixed appointed arrangement in Luke 1:8 and the Melchizedek order in Hebrews, so the noun alone cannot mandate a set liturgy. Set forms are present: the Aramaic acclamation 'our Lord, come' (marana tha, G3134, a hapax meaning a word that occurs only once in the entire Bible, 1 Corinthians 16:22) preserved untranslated, the model prayer introduced by 'in this way' (houtos, G3779, Matthew 6:9), the four articular elements (each carrying the article 'the') of Acts 2:42 ('the teaching' te didache, 'the fellowship' te koinonia, 'the breaking of the bread' te klasei tou artou, 'the prayers' tais proseuchais), but none of these texts contains an imperative requiring a fixed liturgical script. Because the canon supplies BOTH set elements AND free contribution and the vocabulary does not rank them, the lexicon underdetermines the proposition's permissibility-as-liberty claim."

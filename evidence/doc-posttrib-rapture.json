@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-posttrib-rapture",
   "question_id": "doc-posttrib-rapture",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.6725,
-    "confidence": "low",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The Bible supplies one return-vocabulary: 'coming or arrival' (parousia), 'unveiling or revealing' (apokalypsis), and 'visible appearing' (epiphaneia), all tied to a single visible bodily coming with a loud trumpet, descent on clouds, and gathering of the chosen ones (Matthew 24:29-31, 1 Thessalonians 4:16-17, 2 Thessalonians 2:1, 1 Corinthians 15:52, Titus 2:13). On this footing the post-tribulation reading (the view that the gathering happens after the great tribulation) has strong unified lexical evidence, and the word 'after' (meta) in Matthew 24:29 is explicit. But three lexical realities prevent closure. First, the verb 'snatch or seize' (harpazo, Strong's G0726) carries both a sudden divine removal sense (Acts 8:39, 2 Corinthians 12:2, Revelation 12:5) and a forcible seizure sense (John 10:12, Matthew 11:12), and 1 Thessalonians 4:17 carries no temporal marker (a word fixing when something happens) pinning the snatching relative to the 'tribulation or pressure' (thlipsis). Second, the construction 'keep' (tereo) plus 'out of or from' (ek) in Revelation 3:10 lexically matches the same construction in John 17:15 where ek means kept while in, not removed from, so the preposition does not settle the matter. Third, the noun 'assembly or church' (ekklesia, Strong's G1577) is dense in Revelation chapters 1 to 3 and reappears only at 22:16, leaving Revelation 4 to 19 silent on the term, which one reading lens treats as a removal and another as a shift in referent. The pattern is materially contested."

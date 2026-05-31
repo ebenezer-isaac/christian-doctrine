@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-gender-binary",
   "question_id": "prc-gender-binary",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "This is the practice corollary of the already affirmed creation binary, and the same closed two-term pair carries from being into conduct across the Law, the Gospels, and the Writings. Genesis 1:27 fixes 'male' (zakar, H2145) and 'female' (neqevah, H5347) as the two-part object of 'created' (bara, H1254A, 46 occurrences) with God (Elohim) as subject. A direct lexical-store query confirms the pair co-occurs in 15 Old Testament verses (Genesis 1:27, 5:2, 6:19, 7:3, 7:9, 7:16, Leviticus 3:1, 3:6, 12:7, 15:33, 27:5, 27:6, 27:7, Numbers 5:3, Deuteronomy 4:16) and never adds a third human-category term. Leviticus 27:3 through 27:7 prices every dedicated person under the 'if-then' clause (conditional) 'if male, and if female' (im zakar, veim neqevah) with two prices per age bracket and no remainder, so the pair sorts persons completely. Jesus quotes the pair as 'male' (arsen, G0730) and 'female' (thely, G2338, the only New Testament co-occurrences are Matthew 19:4, Mark 10:6, Romans 1:27, Galatians 3:28) and locates it 'from the beginning' (ap arches). Deuteronomy 22:5 turns the binary into conduct with two parallel HTn-marked (negation-marked) negative commands, 'a man's gear shall not be on a woman, and a man shall not wear a woman's garment' (lo yihyeh keli geber al ishshah velo yilbash geber simlat ishshah), labeled 'abomination' (toebah, H8441). Psalm 139:13 through 139:16 grounds the same sexed body as God-given in the womb, with the once-only word 'unformed substance' (golem, H1564, a word that occurs only once in the entire Bible, its sole occurrence) and the Hebrew passive form (pual) 'I was embroidered' (ruqqamti, H7551) marking divine forming before birth."

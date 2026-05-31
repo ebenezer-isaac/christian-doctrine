@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-presbyterian-polity-position",
   "question_id": "doc-presbyterian-polity-position",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.7375,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Two pieces of the proposition have genuine lexical footing and two do not. Rule by a plurality of elders is attested: the word for elder (presbyteros) is plural and is appointed congregation by congregation (Acts 14:23, where the phrase is 'in each church' (kat ekklesian), Titus 1:5, Acts 20:17), and 1 Timothy 5:17 speaks of elders who rule well ('beautifully leading' (kalos proestotes)) with a subset laboring in word and teaching. Trans-local action (action reaching beyond a single congregation) is attested in Acts 15, where Antioch sends to the apostles and elders at Jerusalem, the body gathers ('come together' (synago)), and 'it seems good' ('it seems' (dokeo)) to issue a letter to Gentile churches. But the two pillars of the graded-court reading (the idea that elders sit in layered ranked councils) are lexically thin. The ruling verb 'to lead' or 'to manage' (proistemi) (8 occurrences) is polysemous (carrying more than one sense), ranging from governing (1 Thessalonians 5:12) through managing a household (1 Timothy 3:4-5, 12) to merely devoting oneself to good works (Titus 3:8, 14), so it does not by itself erect a ruling office. The collective noun 'body of elders' (presbyterion) occurs 3 times, and 2 of those (Luke 22:66, Acts 22:5) denote the Jewish Sanhedrin (the Jewish ruling council), leaving only 1 Timothy 4:14 for a Christian body of elders acting together. Standing graded courts, a session-presbytery-assembly chain (the layered local-regional-national council ladder), and a teaching-versus-ruling two-office split are never named, and the evaluative tail about over-institutionalisation (the worry that the system becomes too rigid an institution) is not a lexical datum (not a fact the words alone can supply). The affirmable core and the unattested superstructure (the unsupported upper layers of the system) pull apart, so the verdict is disputed."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-pretrib-rapture",
   "question_id": "doc-pretrib-rapture",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The catching-up itself is lexically secure. The verb 'snatch away' (harpazo, Strong's G0726) in 1 Thessalonians 4:17 elsewhere denotes a real spatial seizure to a different location (John 10:28-29, Acts 8:39, 2 Corinthians 12:2-4, Revelation 12:5), so a bodily removal of believers at the Lord's coming is a sound reading of the verb. The phrase 'I will keep you out of the hour' (tereo ek tes horas) in Revelation 3:10 is grammatically bivalent (capable of two grammatical readings) between keeping-out-of and keeping-while-in, giving the pre-tribulation reading a real footing. But the two distinctives of the proposition, that this is a SEPARATE event and that a SEVEN-YEAR gap intervenes before a visible return, are not encoded by any lemma (dictionary headword). Paul uses one noun, 'coming or presence' (parousia, G3952), for both the gathering in 1 Thessalonians 4:15 and the destruction of the man of lawlessness in 2 Thessalonians 2:8, and orders 'departure or rebellion' (apostasia, G0646) BEFORE the Day in 2 Thessalonians 2:3 after linking that Day to our 'gathering together' (episynagoge, G1997) in 2 Thessalonians 2:1. The vocabulary does not lexically encode a two-phase coming with seven intervening years, so the timing claim is supplied by framework rather than by the words. The lexical pattern is genuinely contested, hence disputed."

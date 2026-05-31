@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-saturday-sabbatarianism",
   "question_id": "prc-saturday-sabbatarianism",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Four independent New Testament passages converge on the same lexical move. Colossians 2:16-17 names \"sabbath\" (sabbaton, G4521) inside the festival, new moon, sabbath triad and predicates of the whole set \"shadow\" (skia, G4639), set against \"substance\" or \"body\" (soma, G4983), which belongs to Christ. Romans 14:5-6 frames day esteeming with the verbs \"to judge or evaluate\" (krino, G2919) and \"to mind or regard\" (phroneo, G5426) as a sphere of individual conviction. Galatians 4:10-11 marks calendar observance with \"to scrupulously observe\" (paratereo, G3906) as a regression to \"elementary principles\" (stoicheia, G4747). Hebrews 4:9-10 names the abiding reality with the hapax (a word that occurs only once in the entire Bible) \"sabbath-keeping\" (sabbatismos, G4520), defined by \"to cause to rest, to cease\" (katapauo, G2664) from \"work\" (ergon, G2041), cessation from works on the pattern of God resting, which relocates the sabbath to a faith-rest entered through Christ. The lexical pattern supports the proposition that day-specific seventh-day observance is not imposed, while the rest principle endures."

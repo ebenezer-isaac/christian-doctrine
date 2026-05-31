@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-inherited-guilt",
   "question_id": "doc-inherited-guilt",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.8,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The narrow proposition is that Adam's guilt itself, as distinct from inherited corruption, is legally reckoned to all descendants so that humanity stands guilty in him from conception. The wording of Romans 5:12-19 anchors a real Adam-and-Christ representative structure and supplies forensic (legal, courtroom) vocabulary, but it does not univocally settle the guilt question. Verified morphology shows that in Romans 5:12 the phrase 'on the basis of which' (ἐφ' ᾧ, eph' ho) is the preposition 'on' or 'upon' (ἐπί, epi) plus the dative relative pronoun 'which' (ᾧ, ho), and the grammar is genuinely open between a causal reading, 'because all sinned', and a relative reading, 'in whom all sinned'. The verb 'they sinned' (ἥμαρτον, hēmarton) is third person aorist (a completed past action) active, a form that everywhere else in the corpus marks a completed personal sinning. In Romans 5:19 'they were constituted' or 'were appointed' (κατεστάθησαν, katestathēsan) is the aorist (completed past action) passive of 'to appoint, to render' (καθίστημι, kathistēmi), a verb attested across the canon dominantly for 'appoint' or 'put in charge' but also with a real causal sense, 'render' or 'cause to be', so its sense here is not fixed by the lexicon (the dictionary record of the word). The word 'condemnation' (κατάκριμα, katakrima) occurs only three times, all in Romans, so its precise ground cannot be triangulated. The three readings, namely imputed (legally credited) guilt of Adam's act, ontological (sharing-in-being) participation in Adam, and inherited corruption that issues in personal sin, are each lexically defensible. The pattern is materially contested in the wording itself."

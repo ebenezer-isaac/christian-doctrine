@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-full-deity",
   "question_id": "doc-spirit-full-deity",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two converging lexical lines establish the proposition. First, full deity: Acts 5:3-4 brackets one act with two predicates (two descriptive statements about the same act), lying to the Holy Spirit (\"to lie to the Holy Spirit,\" ψεύσασθαί τὸ πνεῦμα τὸ ἅγιον) is restated as did not lie to men but to God (\"you have not lied to men but to God,\" οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ), a direct grammatical equation that Acts 5:9 extends with \"the Spirit of the Lord\" (τὸ πνεῦμα κυρίου). Matthew 28:19 places \"of the Holy Spirit\" (πνεύματος ἁγίου) under one singular \"name\" (ὄνομα) beside \"of the Father\" (πατρός) and \"of the Son\" (υἱοῦ); 1 Corinthians 3:16 grounds \"temple of God\" (ναὸς θεοῦ) on \"the Spirit of God dwells in you\" (τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν); Hebrews 9:14 calls it \"eternal Spirit\" (πνεύματος αἰωνίου), the eternity attribute; and Psalm 139:7 ties the Spirit (\"spirit,\" ruach) to inescapable presence. Second, personhood against an impersonal-force reading: the Spirit wills (\"wills,\" βούλεται, 1 Corinthians 12:11), is grieved (\"do not grieve,\" λυπεῖτε, Ephesians 4:30), and speaks in the first person (Acts 13:2). The pattern is pan-canonical (spread across the whole Bible) and variant-stable (not disturbed by manuscript differences)."

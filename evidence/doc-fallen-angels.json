@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-fallen-angels",
   "question_id": "doc-fallen-angels",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three independent New Testament texts directly attach sin and rebellion vocabulary to angels (angeloi) and pair it with judicial confinement (legal lock-up awaiting trial). 2 Peter 2:4 uses 'having sinned' (hamartesanton, an aorist active participle, a completed past action in participle form, of G0264) of angels (angeloi), and the verb 'cast into Tartarus' (tartaroo, G5020, a hapax meaning a word that occurs only once in the entire New Testament) describes God casting them into 'gloom' or 'deep darkness' (zophos, G2217). Jude 6 in parallel uses 'did not keep' (me teresantas) of their 'domain' or 'original position' (archen) and 'having abandoned' (apolipontas, G0620) of their 'dwelling' or 'proper habitation' (oiketerion), with the result that they are kept in 'everlasting bonds' (aidios desmos, G0126 plus G1199) under 'gloom' (zophos) 'for judgment' (eis krisin). Matthew 25:41 names eternal fire prepared for the 'devil' (diabolos) and 'his angels' (tois angelois autou), and Revelation 12:7-9 narrates 'war' (polemos) in heaven in which 'the dragon' (ho drakon) and his 'angels' (angeloi) are cast down. The lexical pattern spans gospel, epistle, and apocalyptic genres, and the grammar is not ambiguous: sin and abandonment are predicated of (asserted about) angelic subjects."

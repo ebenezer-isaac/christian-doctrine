@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-hyper-charismatic-excess",
   "question_id": "prc-hyper-charismatic-excess",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The word-pattern across the cited passages lines the Spirit's presence up with order and tested speech rather than with unbounded ecstatic display. In 1 Corinthians 14:33 God is described negatively as not a God of disorder or tumult (akatastasias, Strong's G0181, attested 5 times across 1 Corinthians 14:33, 2 Corinthians 6:5, 2 Corinthians 12:20, James 3:16, Luke 21:9, always with a negative sense) and positively as the God of peace (eirenes, Strong's G1515, 92 New Testament occurrences, spread across the whole Bible). The same chapter at 14:40 commands that all things be done decently (euschemonos, Strong's G2156, 3 occurrences across 1 Corinthians 14:40, Romans 13:13, 1 Thessalonians 4:12, every New Testament use governing visible bodily conduct) and according to arranged order (kata taxin, from taxis Strong's G5010). The immediate regulation in 1 Corinthians 14:27-32 makes the same pattern explicit lexically: an interpreter is required (diermeneutes, Strong's G1329), others judge or evaluate prophecy (diakrino, Strong's G1252, in 14:29), and the spirits of the prophets are SUBJECT to the prophets (hypotasso, Strong's G5293, in 14:32). Deuteronomy 18:20-22 supplies a verification test rather than a description of intensity, judging a self-asserted prophetic word by whether it actually happens and exposing proud or insolent speech (the verb to act presumptuously, zid, Strong's H2102, and its cognate noun presumption, zadon, Strong's H2087). 1 John 4:1 commands test the spirits (dokimazete ta pneumata, from dokimazo Strong's G1381) precisely because many false prophets (pseudoprophetai, Strong's G5578) have gone out, and 1 Thessalonians 5:21 anchors the same verb test (dokimazo) applied to prophetic utterance. Treating ecstatic phenomena as the standard measure of the Spirit therefore runs against the dense, whole-Bible pattern of tested, orderly, fulfillment-checked speech."

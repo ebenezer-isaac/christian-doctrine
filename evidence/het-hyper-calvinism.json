@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "het-hyper-calvinism",
   "question_id": "het-hyper-calvinism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across the Law, Prophets, Gospels, Acts, and Epistles the lexical pattern is uniform: the divine command and invitation are addressed to all hearers without an elect-status qualifier in the text. Acts 17:30 has 'commands' (paraggellei) in the present active indicative (ongoing, simple statement of fact, in the active voice), with the dative phrase 'to all people everywhere' (tois anthropois pantachou pantas), governing the infinitive 'to repent' (metanoein). 2 Peter 3:9 negates 'willing' (boulomenos) with 'not' (me) and sets up a 'not, but' (me, alla) antithesis pairing 'any' (tinas) with 'all' (pantas) coming 'to repentance' (eis metanoian choresai). Ezekiel 18:23 and 33:11 use 'delight, take pleasure' (chaphets) under the interrogative particle 'he' (the Hebrew question marker) and the oath formula 'as I live' (chai ani) to deny any divine pleasure in the death of the wicked. Isaiah 55:1 issues 'Ho!' (hoy, an attention-calling interjection) plus the plural imperatives 'come' (leku) and 'buy' (shibru) to 'every thirsty one' (kol tsame), with no condition of prior status. The reciprocal duty to preach is equally explicit (Matthew 28:19 'all the nations' (panta ta ethne), Mark 16:15 'to every creature' (pase te ktisei), Romans 10:14-15 the chain of how-can-they-believe questions, 1 Corinthians 9:16 'woe is me if I do not preach the gospel' (ouai gar moi estin ean me euaggelizomai)). The proposition stands and hyper-Calvinism's denial of the free offer and of the duty to evangelize is lexically foreclosed."

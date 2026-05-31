@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "het-icon-veneration",
   "question_id": "het-icon-veneration",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical core leans toward the proposition. The Decalogue (the Ten Commandments) forbids making a carved cult image (pesel) or a likeness (temunah) and forbids bowing down (the form shachah hishtaphel, that is, the reflexive prostration form of shachah) and serving (abad) such objects. Deuteronomy 4:15 grounds that prohibition explicitly in the absence of any seen likeness (temunah) at Horeb, and Isaiah 44:17 records the parallel idolatry triple of bowing (sagad), worshiping (shachah), and praying (palal), each directed at a carved image (pesel), which exactly mirrors the two halves of the proposition. Matthew 4:10 quotes Deuteronomy 6:13 with two verbs and an adverb, kurion ton theon sou proskyneseis kai auto mono latreuseis, meaning 'you shall worship (proskyneseis, future of proskuneo) the Lord your God and serve (latreuseis, future of latreuo) him alone (mono),' restricting both worship (proskuneo) and cultic service (latreuo) to God alone. Two New Testament scenes of refused prostration, Acts 10:25-26 and Revelation 22:8-9, show a created recipient refusing worship (proskynesis, the noun for prostration) and redirecting it to God. 1 Timothy 2:5 fixes a single mediator (mesites). The proposition is nonetheless marked disputed because the verb 'to worship or prostrate' (proskuneo) is documented across the canon for non-divine prostration (Matthew 18:26, Hebrews 11:21, the magi at Matthew 2:11) and the Hebrew 'to bow down' (shachah) likewise spans civil and cultic bowing (Genesis 23:7), so the lexicon distinguishes the two cultic verbs 'to serve cultically' (latreuo) and 'to serve' (abad) from the broader gesture verbs but does not by itself fix whether a non-cultic relative honor toward a Christian image of Christ or a saint falls under the prohibited acts or under permitted creaturely homage."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-grace-giving-vs-mandatory-tithe",
   "question_id": "prc-grace-giving-vs-mandatory-tithe",
   "generated_at": "2026-05-29T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.975,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The first clause of the proposition (New Testament giving is willing, proportional, cheerful) is lexically dense and stable: 2 Corinthians 9:7 commands a 'cheerful' (hilaron, G2431) 'giver' (doten, G1395) and explicitly excludes 'out of grief or compulsion' (ek lypes e anagkes), pinning the gift to 'from prior choice' (ek proaireseos, G4255); 2 Corinthians 8:3 calls the Macedonians 'self-chosen' (authairetoi, G0830); 2 Corinthians 8:8 denies a 'command' (epitage, G2003); 2 Corinthians 8:12 measures by what one has, indexed to 'readiness' (prothymia, G4288); 1 Corinthians 16:2 ties the amount to 'as one prospers' (kata ho ti euodotai). The second clause (the Mosaic ten percent tithe is not directly binding) hangs on the silence of the New Testament giving vocabulary, which never uses 'tithe' (maaser, H4643) or 'to tithe' (apodekatoo, G0586) as a church-age command, plus the discontinuity signaled by 'not by way of command' (ou kat epitagen). But the canon also supplies a parallel tithe vocabulary spanning Genesis 14:20, Leviticus 27:30 to 32, Numbers 18:21, Malachi 3:8 to 10, Matthew 23:23, and Hebrews 7:2 to 9, which a continuity reading uses to argue the principle abides. The words do not rank these two patterns, so the negative half of the proposition and the useful-baseline rider remain genuinely contested at the lexical level."

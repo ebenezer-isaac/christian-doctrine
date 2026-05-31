@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-aseity",
   "question_id": "doc-divine-aseity",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three anchors converge on God deriving His being from nothing outside Himself, and the morphology (grammatical form of each word) was queried, not assumed. Exodus 3:14 stacks three forms of the Hebrew verb 'to be' (הָיָה, H1961), each one parsed as Qal imperfect first person common singular (the simple active form of the Hebrew verb, marking ongoing or repeated action by the speaker 'I'), abbreviated Vqi1cs, and glossed 'I.am'. The first two are joined by the relative pronoun 'who' or 'that which' (אֲשֶׁר), and the third stands alone as the self disclosed name, predicating sheer self referential being. John 5:26 sets the present tense 'has' (ἔχει, parsed V-PAI-3S, that is, present tense, active voice, indicative mood, third person singular, an ongoing simple statement of fact 'the Father has life') beside the past tense 'gave' (ἔδωκεν, parsed V-AAI-3S, aorist active indicative third person singular, a completed past action 'He granted to the Son'), with the identical reflexive phrase 'in himself' (ἐν ἑαυτῷ, G1438) attached to both, locating life inside the divine person. Acts 17:25 negates need with 'nor' (οὐδέ) plus the participle 'as needing in addition' (προσδεόμενός, G4326, a verified canon hapax, that is, a word that occurs only once in the entire Bible) and makes God the unidirectional giver via the present participle 'giving' (διδούς) to 'all' (πᾶσι). Divergence is not over the words but over whether the synthesis label 'aseity' (the technical term for God deriving His being from Himself alone) is mandated."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-tongues-real-languages",
   "question_id": "prc-tongues-real-languages",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.725,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "At Pentecost the noun \"language or dialect\" (dialektos, Strong's G1258) in Acts 2:6 and 2:8 denotes a specific spoken language, with the relative clause \"into which we were born\" (en hei egennethemen) anchoring it to the mother tongue, and the ethnic catalogue of Parthians, Medes, Elamites, and Arabs makes the real-human-language reading lexically secure for that scene. The other noun \"tongue\" (glossa, Strong's G1100) is used interchangeably with \"language\" (dialektos) in Acts 2:11, equating the two terms there. But in 1 Corinthians 14:2 the same \"tongue\" (glossa) is paired with \"he speaks not to men but to God\" (ouk anthropois lalei alla theoi), \"no one hears or understands\" (oudeis akouei), and \"he speaks mysteries\" (mysteria lalei), and 1 Corinthians 14:27 requires an \"interpreter\" (diermeneutes, Strong's G1329) rather than a translator. 1 Corinthians 13:1 even contemplates \"tongues of men and of angels\" (glossais ton anthropon kai ton aggelon), extending the category beyond ordinary human speech. Because the proposition asserts one unified definition of the biblical gift while the lexical data splits into an immediately-intelligible-witness pattern in Acts and a needs-interpretation, directed-to-God pattern in 1 Corinthians, with the same lexeme (the same underlying Greek word) bearing apparently different referents, the verdict is disputed: the Pentecost-bound clause is well supported, but the canon-wide identity claim is materially contested at the lexical level."

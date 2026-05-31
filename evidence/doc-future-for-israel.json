@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-future-for-israel",
   "question_id": "doc-future-for-israel",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Romans 11:26 reads 'and in this way all Israel will be saved' (kai houtos pas Israel sothesetai), and three points of pressure in the underlying Greek sit under the proposition. First, the noun 'Israel' (Israel, Strong's G2474, 69 New Testament occurrences) is demonstrably two-valued in Paul himself. Romans 9:6 places 'Israel' (G2474) twice in one clause and explicitly denies that all from 'Israel' (G2474) are 'Israel' (G2474). Galatians 6:16 attaches 'Israel' (G2474) to a benediction on those who walk by the cross-rule ('the Israel of God', ton Israel tou theou). Romans 11:1 to 2 names ethnic Israel as 'his people whom he foreknew' (ton laon autou hon proegno) and emphatically denies that God has rejected them. The same lemma carries ethnic and redefined senses in the same author, so 'all Israel' (pas Israel) in 11:26 is not univocal (does not have a single fixed meaning). Second, the adverb 'in this way' (houtos, Strong's G3779, 215 New Testament occurrences) is lexically a manner adverb ('in this way'); the temporal-sequential sense ('and then') cannot be extracted from morphology (the word form) and depends on the preceding 'until' clause (achri-clause) to license it. Third, the adjective 'irrevocable' (ametameletos, Strong's G0278) occurs only twice in the canon (Romans 11:29; 2 Corinthians 7:10), which forces the irrevocability claim to lean on a near-hapax (a word that occurs only once or nearly once in the entire Bible). The future passive 'will be saved' (sothesetai, from Strong's G4982) plus the unconditional Abrahamic 'everlasting covenant' (berit olam, Genesis 17:7 to 8) plus the new covenant named to 'the house of Israel' (bet Yisrael, Jeremiah 31:31 to 37) plus the future mourning of Jerusalem over the pierced one (Zechariah 12:10) together establish a durable covenant standing and a coming corporate turning, but the lexemes (vocabulary items) do not by themselves rank an ethnic-corporate-event reading against a redefined-people-of-God reading. The pattern is materially contested, so the proposition is disputed."

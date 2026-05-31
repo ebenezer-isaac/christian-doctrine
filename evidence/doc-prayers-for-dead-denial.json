@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-prayers-for-dead-denial",
   "question_id": "doc-prayers-for-dead-denial",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Four lexical patterns converge on the denial. Hebrews 9:27 sets death and judgment in an appointed sequence with 'is laid up or reserved' (apokeitai), plus 'once' (hapax), then 'and after this judgment' (meta touto krisis), so the stage after death is adjudication (a verdict being passed) not adjustment. Luke 16:26 fixes the gulf with 'has been fixed and remains fixed' (esteriktai, the perfect passive of sterizo, a tense marking a settled standing state), around the once-in-the-canon word 'chasm' (chasma, a hapax legomenon meaning a word that occurs only once in the entire Bible), with crossing declared impossible in both directions. Second Samuel 12:23 has David cease intercessory fasting at the child's death, reasoning the direction is one-way with 'return or bring back' (shuv). Paul's immediacy texts, 'to be away from the body and at home with the Lord' (ekdemesai ek tou somatos kai endemesai pros ton kyrion) in 2 Corinthians 5:8 and 'to depart and be with Christ' (analusai kai sun Christo einai) in Philippians 1:23, place the believer with the Lord at death without an intermediate alterable phase. The proposition is held with medium rather than high confidence because 2 Timothy 1:18 has Paul utter a wish-prayer in the optative mood (the classical mood expressing a wish), 'may he grant' (doe), for Onesiphorus seeking 'mercy on that Day' (eleos en ekeine te hemera), and the Protestant-canon corpus this query traverses does not include 2 Maccabees 12:44 to 46, the principal text outside this canon scope for the contrary practice."

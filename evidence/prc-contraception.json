@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-contraception",
   "question_id": "prc-contraception",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.8,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "analogical",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The lexicon names neither contraception nor the medical line the proposition draws between non-abortifacient and abortifacient methods. The creation blessing in Genesis 1:28 issues the imperatives 'be fruitful and multiply' (pe'ru u'revu, פְּרוּ וּרְבוּ) coupled with 'subdue' (kavash, כָבַשׁ) and 'rule' (radah, רָדָה), and Psalm 127:3 to 5 calls sons a 'heritage' (nachalah, נַחֲלָה) and 'reward' (sakar, שָׂכָר) and blesses the man who has 'filled' (mi'le, מִלֵּא) his quiver, weighting children as a corporate good without speaking to per-couple management of conception. Crucially the verb pair 'be fruitful' (parah, פָּרָה) plus 'multiply' (rabah, רָבָה) occurs together in 15 verses across the canon and every instance is corporate, spoken over humanity, Noah, the patriarchs, or Israel, never as a per-marriage quota. The single proof text often cited is Genesis 38:9 to 10 (Onan), but Genesis 38:8 has Judah command Onan with the verb 'perform the levirate duty' (yabam, יָבַם), a lemma (dictionary form of a word) found only 3 times in the canon (Genesis 38:8, Deuteronomy 25:5, Deuteronomy 25:7), so the Hebrew immediately frames the offense as refusal of a culturally specific brother's duty, not as a free-standing condemnation of any seed-non-fertilization act. On the abortifacient half of the claim the womb-formation texts (Psalm 139:13 with H7069 'acquire' (qanah, קָנָה) and H7358 'womb' (rechem, רֶחֶם), Jeremiah 1:5) lexically attach personal divine action to the unborn, which supplies a real (though not direct) ground for treating destruction of an implanted or implanting embryo as falling under the sanctity-of-life prohibitions even though contraception as a category is unnamed."

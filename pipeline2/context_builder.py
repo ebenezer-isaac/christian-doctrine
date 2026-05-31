@@ -411,5 +411,5 @@ def build_lexical_context_bundle(
             "not_in_ecm_scope": not_in_ecm_scope,
             "syntactic_context": syntactic_context,
         },
-        "schema_version": "3.0",
+        "schema_version": "3.1",
     }

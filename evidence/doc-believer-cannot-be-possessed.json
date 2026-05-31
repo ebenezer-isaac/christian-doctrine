@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-believer-cannot-be-possessed",
   "question_id": "doc-believer-cannot-be-possessed",
   "generated_at": "2026-05-28T03:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.775,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The lexicon (the inventory of word meanings) establishes the indwelling half of the proposition cleanly and adds a sharp incompatibility word in 2 Corinthians 6:14 to 16, where 'temple of God' (naos theou) is set against 'idol' (eidolon) and 'Christ' (Christos) against 'Beliar' (Beliar, a name for the adversary), with the rhetorical questions 'what fellowship' (tis koinonia), 'what concord' (tis sumphonesis), 'what agreement' (tis sunkatathesis) denying shared occupancy. Romans 8:9 to 11 uses 'to dwell' (oikeo) and the strengthened compound 'to dwell in' (enoikeo) for the Spirit's settled residence, 1 Corinthians 3:16 and 6:19 use 'inner sanctuary' (naos), the holy heart of a temple, and 1 John 4:4 places 'the one in you' (ho en hymin) above 'the one in the world' (ho en to kosmo) with the perfect tense (a completed action whose result still stands) 'you have conquered' (nenikekate). The verb 'to be demon-possessed' (daimonizomai) occurs 13 times, all in the Gospels, and is never said of a person identified as Spirit-indwelt. Yet the proposition's categorical exclusion, that a believer cannot be possessed, is not stated as a single word. The temple-versus-idol antithesis is rhetorical, not a flat statement of impossibility, and Acts 5:3 uses 'to fill' (pleroo) of Satan filling Ananias' heart inside the believing community, leaving the inhabitation question lexically (at the level of word meaning) underdetermined."

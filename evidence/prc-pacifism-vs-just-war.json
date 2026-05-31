@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-pacifism-vs-just-war",
   "question_id": "prc-pacifism-vs-just-war",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two patterns that are heavy with specific Greek and Hebrew words stand in real tension, and the words by themselves do not rank one above the other. On one side, Matthew 5:39 places the verb 'to resist' or 'to set oneself against' (antistenai, G0436, in the aorist active infinitive, which is a completed-action verbal noun form) under a prohibition addressed to the disciple in the second person, illustrated by personal insult, lawsuit, and Roman forced-labor service (corvee, meaning compelled state labor). Matthew 5:44 then sets a present-tense command 'keep loving' (agapate) toward the 'enemy' or 'hostile person' (echthros). Romans 12:17-21 forbids 'paying back evil for evil' (apodidontes kakon anti kakou), reserves 'vengeance' or 'judicial payback' (ekdikesis, G1557) to God, and commands 'overcome evil with good' (nika en to agatho to kakon). Matthew 26:52 has Jesus tell the disciple 'put back the sword' (apostrepson ten machairan) with the warning 'those who take the sword' (hoi labontes machairan) 'will perish by the sword' (en machaira apolountai). On the other side, the same epistle one sentence later in Romans 13:4 calls the civil ruler 'God's servant' or 'minister' (theou diakonos) who 'does not bear the sword in vain' (ou eike ten machairan, G3162, phorei) as an 'avenger' or 'one who carries out justice' (ekdikos, G1558) 'for wrath' (eis orgen). The cognate verb 'to set oneself against' (antitassomai) and the perfect-tense 'has set himself against' (anthesteken, a completed action whose result still stands) in Romans 13:2 turn the very same anti-stem (the 'against'-root word family) into culpable resistance when it is aimed at the civil sphere. The Old Testament 'eye for eye' formula (lex talionis, the Latin name for that proportional-punishment rule) in Exodus 21:24, Leviticus 24:20, and Deuteronomy 19:21 is judicial language for judges, not personal payback, and Genesis 9:6 grounds civic capital justice in the image of God. The canon supplies both a non-retaliatory disciple ethic and a sanctioned civil sword, and the word forms (lemmas, meaning the dictionary base forms) do not by themselves settle whether the same person occupies both roles."

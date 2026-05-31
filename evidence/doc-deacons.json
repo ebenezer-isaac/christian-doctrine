@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-deacons",
   "question_id": "doc-deacons",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.8,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Philippians 1:1 names 'deacons' (diakonois, διακόνοις) as a distinct dative group (a noun in the 'to or for' grammatical form) coordinated with 'overseers' (episkopois, ἐπισκόποις) in the phrase 'with overseers and deacons' (syn episkopois kai diakonois, σὺν ἐπισκόποις καὶ διακόνοις), placing deacon as a standing congregational role beside, but separate from, the oversight role. 1 Timothy 3:8-13 opens a qualification list with 'deacons likewise' (Diakonous hosautos, Διακόνους ὡσαύτως), the adverb linking it to yet marking it off from the separate 'overseer' (episkopos, ἐπίσκοπος) list of 3:1-7, and adds testing and admission language ('let them be tested', dokimazesthosan, δοκιμαζέσθωσαν, then 'let them serve', diakoneitosan, διακονείτωσαν, 3:10) plus an acquired standing ('step or rank', bathmon, βαθμόν, a New Testament hapax (a word that occurs only once in the entire Bible), 3:13). Acts 6:1-6 supplies the functional split between the 'ministry' (diakonia, διακονία) of tables and the 'ministry' (diakonia, διακονία) of the word, though it never applies the noun 'servant or deacon' (diakonos, διάκονος) to the seven. The verdict is decisive on grammar and genre, not on the word itself, because 'servant or deacon' (diakonos, διάκονος) is overwhelmingly a generic servant word (about 26 of its 29 New Testament occurrences mean ordinary servant or minister), so the office sense rests on the coordinating and qualification contexts, and the scope of the office (women deacons at 1 Timothy 3:11 and Romans 16:1, and whether Acts 6 is its institution) remains lexically underdetermined without disturbing the role distinction itself."

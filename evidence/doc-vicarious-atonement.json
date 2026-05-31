@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-vicarious-atonement",
   "question_id": "doc-vicarious-atonement",
   "generated_at": "2026-05-27T18:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Across Isaiah 53, the ransom sayings of Mark 10:45 and Matthew 20:28, Romans 3:25, 2 Corinthians 5:21, 1 Peter 2:24, 1 Peter 3:18, and 1 John 2:2 the same substitution vocabulary recurs without lexical contradiction. Isaiah 53 stacks the sin-bearing verbs \"bear\" (nasa, verses 4 and 12), \"carry\" (sabal, verses 4 and 11), and \"cause to land on\" (paga in the hiphil, the Hebrew causative form meaning 'to cause to do'). The LORD (Yahweh) causes the iniquity of us all to land on him (verse 6), and he intercedes for transgressors (verse 12). The first-person plural suffixes (the 'our' endings) name the speakers as the source of the load and the Servant as the one carrying it, and verse 10 calls his life a \"guilt offering\" (asham), the Levitical sacrifice. The New Testament reuses this engine: \"a ransom in place of many\" (lytron anti pollon), where \"in place of\" (anti) is the strongest substitution preposition, attested across the canon overwhelmingly in the sense in place of or instead of; \"on behalf of us\" (hyper hemon) and the \"righteous on behalf of the unrighteous\" (dikaios hyper adikon) construction; \"to offer up\" (anaphero, the Greek Old Testament, the Septuagint or LXX, verb for offering up) with our sins as object on the tree; and \"place of atonement\" (hilasterion) and \"means of atonement\" (hilasmos) as the cultic locus where sin is dealt with. The verdict holds without dependence on disputed variant readings."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-divine-simplicity",
   "question_id": "doc-divine-simplicity",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon supplies the building blocks of this proposition but never states it in its own terms. The Shema (Israel's confession in Deuteronomy 6:4) predicates the LORD (YHWH) as one (echad), oneness in Deuteronomy 6:4, echoed in end-times prophecy as the LORD one (YHWH echad) and his name one (echad) in Zechariah 14:9, and reinforced by exclusivity texts (Deuteronomy 4:35, Isaiah 45:5). The writings of John use fronted, without-the-article noun completers (anarthrous predicate nominatives, that is, completer-nouns standing without 'the' and placed before the subject) to make spirit, light, and love constitutive of God's being, not detachable accidents: 'Spirit is God' (pneuma ho theos) in John 4:24, 'God is light' (ho theos phos estin) in 1 John 1:5, and 'God is love' (ho theos agape estin) in 1 John 4:8. And 1 John 1:5 adds the categorical denial that there is darkness in him at all (not even one, ouk estin oudemia). Yet the precise metaphysical claims, that God has no parts and that every attribute is strictly identical with the essence and with every other attribute, are an inference the vocabulary neither states nor excludes. The decisive lexical fact is that 'one' (echad) is the same word used of composite unities: 'one flesh' (echad) in Genesis 2:24, 'one day' (echad) in Genesis 1:5, one tabernacle of many clasps (echad) in Exodus 26:6, one stick from two (echad) in Ezekiel 37:17. So the word by itself cannot rank non-composition above a unity that comprehends distinguishables. Scripture also names attributes as separate dictionary entries (lemmas) in coordinated lists: 'steadfast love' (chesed) and 'truth' (emet) in Exodus 34:6 and Psalm 89:15. Registered disputed because the words underdetermine the strong metaphysical form while clearly supporting the underlying oneness, indivisibility, and essential predication (the affirmation that certain qualities belong to God's very being)."

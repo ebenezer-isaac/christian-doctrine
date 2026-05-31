@@ -7,9 +7,9 @@ from typing import Any
 
 
 def minimal_evidence_dict() -> dict[str, Any]:
-    """A well-formed minimal v3.0 evidence payload that should validate."""
+    """A well-formed minimal v3.1 evidence payload that should validate."""
     return {
-        "$schema_version": "3.0",
+        "$schema_version": "3.1",
         "id": "doc-trinity",
         "question_id": "doc-trinity",
         "generated_at": "2026-05-15T12:00:00Z",
@@ -17,8 +17,9 @@ def minimal_evidence_dict() -> dict[str, Any]:
         "model": "claude-opus-4-7",
         "verdict": {
             "affirms": True,
-            "lexical_score": None,
-            "confidence": "high",
+            "lexical_breadth": None,
+            "lexical_directness": "direct",
+            "variant_stability": None,
             "variant_robust": True,
             "pan_canonical": True,
             "rationale": (

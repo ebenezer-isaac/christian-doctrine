@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-husband-headship",
   "question_id": "prc-husband-headship",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.8,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Three Greek word-stems (lemmas, the dictionary-form words) carry the proposition. The word 'head or source' (kephale, Strong's G2776) is predicated of the husband in Ephesians 5:23 and 1 Corinthians 11:3. The word 'be subject' (hypotasso, Strong's G5293), used here in middle voice (the form where the subject acts on or for themselves), is predicated of the wife in Ephesians 5:22 and 5:24, Colossians 3:18, 1 Peter 3:1 and 3:5, and Titus 2:5. The word 'love' (agapao, Strong's G0025), used as a present imperative (an ongoing command), is commanded of the husband in Ephesians 5:25, 5:28, and 5:33. The lemmas pattern with an asymmetric marriage ordering, but the precise force of the head metaphor is materially contested at the lexical level. 'Head or source' (kephale) denotes the anatomical head and is extended metaphorically in Pauline epistles. The classical Greek lexicon LSJ (Liddell-Scott-Jones) records the noun's literal sense set and gives the metaphorical extension to corporate heads through later usage, while the Hebrew 'head or chief or beginning' (rosh, Strong's H7218) that the Greek Old Testament (the Septuagint) routinely translates with 'head or source' (kephale) carries both a chief or leader sense and a beginning or front sense. The Pauline extension therefore inherits two defensible Koine (common-era Greek) readings, 'authority over' and 'source or origin', that the immediate context does not decisively rank. 'Be subject' (hypotasso) in the relevant texts is middle voice (the form where the subject acts on or for themselves), which places the act of ordering with the subject rather than imposing it externally, and Ephesians 5:21 'submitting to one another in the fear of Christ' (hypotassomenoi allelois en phobo Christou) immediately precedes and grammatically governs the wife clause in verse 22 which has no finite verb of its own. The husband side is not a right to command but 'love just as also Christ loved the church' (agapate kathos kai ho Christos egapesen ten ekklesian), with the husband told to love his wife as his own body. 1 Peter 3:7 names husband and wife 'joint-heirs of the grace of life' (sygkleronomoi charitos zoes). Because the headship lemma is two-valued and the surrounding household-code grammar frames the relation as reciprocal and love-bounded, the lexical data supports an asymmetric ordering in marriage but does not by itself settle the specific authority claim the stem assumes, so the verdict is disputed rather than a clean affirm or deny."

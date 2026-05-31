@@ -1,4 +1,4 @@
-"""Pydantic v2 model for Pipeline 2 evidence v3.0.
+"""Pydantic v2 model for Pipeline 2 evidence v3.1.
 
 Schema spec: docs/EVIDENCE_SCHEMA.md. Every level forbids extras. License audit
 is validated against ingest/license_guard so caller-supplied redistribute flags
@@ -14,7 +14,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, model_valida
 
 from ingest.license_guard import check_redistribute, resolve_composite_license
 
-SCHEMA_VERSION = "3.0"
+SCHEMA_VERSION = "3.1"
 
 STRONG_REGEX = re.compile(r"^[HG]\d{4}[A-Z]?$")
 ISO_UTC_REGEX = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$")
@@ -74,7 +74,9 @@ STANDARD_FLAGS: frozenset[str] = frozenset(
 )
 
 AffirmsValue = Literal[True, False, None, "disputed"]
-Confidence = Literal["high", "medium", "low"]
+LexicalBreadth = Literal["canon_wide", "broad", "partial", "thin"]
+LexicalDirectness = Literal["direct", "inferred", "analogical", "silent"]
+VariantStability = Literal["stable", "sensitive", "not_in_scope"]
 Supports = Literal["for", "complicates", "neutral"]
 Genre = Literal["law", "narrative", "wisdom", "prophecy", "gospel", "epistle", "apocalyptic"]
 Figure = Literal[
@@ -180,8 +182,9 @@ class LexicalEvidence(_Strict):
 
 class Verdict(_Strict):
     affirms: AffirmsValue
-    lexical_score: float | None = Field(default=None, ge=0.0, le=1.0)
-    confidence: Confidence
+    lexical_breadth: LexicalBreadth | None = None
+    lexical_directness: LexicalDirectness
+    variant_stability: VariantStability | None = None
     variant_robust: bool
     pan_canonical: bool
     rationale: str = Field(min_length=1)
@@ -194,6 +197,15 @@ class Verdict(_Strict):
         if v == "disputed":
             return v
         raise ValueError(f"affirms must be true, false, null, or 'disputed'; got {v!r}")
+
+    @model_validator(mode="after")
+    def silent_implies_null_affirms(self) -> Verdict:
+        if self.lexical_directness == "silent" and self.affirms is not None:
+            raise ValueError(
+                f"lexical_directness='silent' requires affirms=null; got affirms={self.affirms!r}. "
+                f"If the canon does not engage the subject, the lexical pattern is genuinely insufficient."
+            )
+        return self
 
 
 class VariantUnit(_Strict):
@@ -289,7 +301,7 @@ class LicenseAudit(_Strict):
 
 
 class Evidence(_Strict):
-    schema_version: Literal["3.0"] = Field(alias="$schema_version")
+    schema_version: Literal["3.1"] = Field(alias="$schema_version")
     id: str = Field(min_length=1)
     question_id: str = Field(min_length=1)
     generated_at: str

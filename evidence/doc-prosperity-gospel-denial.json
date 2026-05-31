@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-prosperity-gospel-denial",
   "question_id": "doc-prosperity-gospel-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition has two parts and the word pattern, queried directly against the canon, supports both. The denial that God guarantees wealth or health as a fruit of faith rests on two converging word-fields. First, suffering is presented as normative for the faithful: the verb 'to suffer' (pascho) occurs about 169 times and 'to persecute or pursue' (dioko) about 184 times, spread across the Gospels, Acts, Paul, Hebrews, 1 Peter, and Revelation, with Philippians 1:29 saying suffering for Christ is granted and 2 Timothy 3:12 saying all who will to live godly will be persecuted. Second, the 'gain' word (porismos) occurs nowhere in the canon except 1 Timothy 6:5-6, where the present participle (ongoing-action form) 'supposing' (nomizonton) marks the equation of godliness with gain as the error of corrupt minds, and 6:6 inverts the same rare word to make contentment the only real gain. 'Love of money' (philargyria) is a single-passage term at 1 Timothy 6:10, grammatically tied as the root of all the evils that make some wander from the faith. The positive gospel content of forgiveness through Christ is presupposed, not argued from the words here, but no cited text contradicts it. The pattern is pan-canonical (spread across the whole Bible) and carries no variant disturbance."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-sealing",
   "question_id": "doc-spirit-sealing",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The verb 'to seal' (sphragizo, Strong's G4972) in Ephesians 1:13, Ephesians 4:30, and 2 Corinthians 1:22 attaches the seal of the Holy Spirit to those who believed, and in each case the agent is God or Christ and the believers are the sealed object. Its distribution across the whole Bible fixes the sense: sealing a tomb for security (Matthew 27:66), the Father sealing the Son to authenticate him (John 6:27), and sealing God's servants on the forehead to mark and protect them (Revelation 7:3-8), so the act consistently means ownership, authentication, and security. The co-occurring 'down-payment' (arrabon, Strong's G0728), which is a hapax-rare term (a near-once-only word) appearing only 3 times in the whole New Testament and always of the Spirit (Ephesians 1:14, 2 Corinthians 1:22, 2 Corinthians 5:5), is a commercial down-payment that guarantees the full sum, and Paul ties it to 'inheritance' (kleronomia, Strong's G2817) and 'redemption' (apolytrosis, Strong's G0629) of God's 'acquired possession' (peripoiesis, Strong's G4047). Ephesians 4:30 fixes the endpoint with 'until the day of redemption' (eis hemeran apolytroseos), the day of redemption. The Hebrew seal vocabulary, 'to seal' (chatham, Strong's H2856) and 'signet/seal' (chotham, Strong's H2368), as in Haggai 2:23, Jeremiah 22:24, Song of Solomon 8:6, supplies the same ownership and treasured-belonging background, so the pattern is pan-canonical (spread across the whole Bible). The one feature the words do not settle is whether the seal is unconditionally irreversible, since Ephesians 4:30 also carries a do-not-grieve warning, but they decisively affirm present sealing, ownership, and a guaranteed inheritance."

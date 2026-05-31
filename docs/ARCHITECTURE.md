@@ -4,13 +4,13 @@ Canonical reference for the brethren-doctrine engine. This document is the syste
 
 ## Goal
 
-A manuscript-anchored biblical doctrine engine that produces doctrinal verdicts from the original-language manuscript tradition alone, with cultural and denominational material strictly walled off on the other side of an air-gap. The engine surfaces every meaningful variant in the manuscript record with the scholarly debate around it, so the reader can make informed decisions about contested readings. It is built for one user, personal use, single developer, with the engine code intended for public release on GitHub. Derived corpora are not publicly redistributed because most upstream datasets are CC BY 4.0 with attribution requirements, CC BY-NC for some (ETCBC BHSA, MARBLE / SDBH / Louw-Nida word senses, TTESV), and a few are proprietary in their published apparatus (NA28, BHQ, BDAG, HALOT, DCH, full Gottingen LXX).
+A manuscript-anchored biblical doctrine engine that produces doctrinal verdicts from the original-language manuscript tradition alone, with cultural and denominational material strictly walled off on the other side of an air-gap. The engine surfaces every meaningful variant in the manuscript record with the scholarly debate around it, so the reader can make informed decisions about contested readings. It is built for one user, personal use, single developer, with the engine code intended for public release on GitHub. Derived corpora are not publicly redistributed because most upstream datasets are CC BY 4.0 with attribution requirements, CC BY-NC for some (ETCBC BHSA, MARBLE / SDBH / Louw-Nida word senses, TTESV, ETCBC/dss), and a few are proprietary in their published apparatus (NA28, BHQ, BDAG, HALOT, DCH, full Gottingen LXX).
 
-The end-user question the engine answers takes a form like: *"Does Brethren teaching on the Lord's Supper match Scripture better than Reformed teaching, and what do the original-language texts say?"* The engine produces a lexical verdict from Scripture alone, then attaches a diagnostic cultural overlay showing how each tracked tradition reads the same lexical pattern.
+The end-user question the engine answers takes a form like: *"Does Brethren teaching on the Lord's Supper match Scripture better than Reformed teaching, and what do the original-language texts say?"* The engine produces a lexical verdict from Scripture alone, then attaches a diagnostic cultural overlay showing how each tracked tradition reads the same lexical pattern, and where the question has an extra-biblical attestation dimension (Quirinius census, Theudas, John the Baptist's death, second-temple background) attaches a third diagnostic block from the historical sidecar layer (Josephus, Philo, Pseudepigrapha, Roman historians, Mishnah, Qumran).
 
-## The three pipelines
+## The four pipelines
 
-The engine is organized as three pipelines that share two physical stores.
+The engine is organized as four pipelines that share two physical stores (lexical and cultural; the historical sidecar shares the cultural Docker stack with disjoint labels).
 
 ```
 INGEST (Pipeline 1)               PRE-INFERENCE (Pipeline 2)         QUERY (Pipeline 3)
@@ -33,31 +33,44 @@ Open datasets       Lexical store   Opus reads only the              User questi
                     network            citations, hermeneutics              │
                     boundary)          block, license_audit.                ▼
                         ▲                                              Opus synthesis
-                        │              Stored back to                  reads both stores
-Cultural corpus     Cultural store     lexical store.                  at this stage
-   CCEL patristics  (Docker B:                                              │
-   Vatican.va       Neo4j cult_db    Triangle test: re-run                  ▼
-   Book of Concord  + Qdrant         on identical inputs              Output envelope:
-   Reformed         cult_col)         epsilon-stable.                 lexical verdict
-   Anglican             │                                             + cultural overlay
-   Methodist            │                                             (diagnostic, not
-   Anabaptist           │           Opus tags each cultural            authoritative)
-   Pentecostal          │           chunk with:                       + citations
-   Orthodox             │            (doctrine, stance,               + variant
-   Brethren                          confidence, anchor).             sensitivity flag
-   Conciliar
-                                     High-confidence ships;
-                                     low-confidence flagged
-                                     for review.
+                        │              Stored back to                  reads lexical
+Cultural corpus     Cultural store     lexical store.                  store + cultural
+   CCEL patristics  (Docker B:                                         store + historical
+   Vatican.va       Neo4j cult_db    Triangle test: re-run             store at this stage
+   Book of Concord  + Qdrant         on identical inputs                    │
+   Reformed         cult_col          band-stable.                          ▼
+   Anglican          + hist_col)                                       Output envelope:
+   Methodist            │                                              lexical verdict
+   Anabaptist           │           Opus tags each cultural             + cultural overlay
+   Pentecostal          │           chunk with:                         + historical
+   Orthodox             │            (doctrine, stance,                   attestation
+   Brethren                          confidence, anchor).               (both diagnostic,
+   Conciliar                                                              not authoritative)
+                                     PRE-INFERENCE (Pipeline 4)        + citations
+Historical corpus   Historical chunks  ─────────────────────────       + variant
+   Josephus         (in cultural       Opus reads only the                sensitivity flag
+   Philo             stack with        historical store +
+   Pseudepigrapha    HistoricalSource/  the locked lexical
+   Tacitus           HistoricalWork/    verdict (read-only).
+   Suetonius         HistoricalChunk    Per question with a
+   Pliny             labels and        historical-attestation
+   Mishnah           hist_col)          dimension, produces
+   ETCBC/dss            │              historical/<id>.json
+                        │              sidecar (Josephus,
+                        │              Philo, Mishnah, DSS,
+                        ▼              etc.) as corroborative,
+                                       complicating, parallel,
+                                       or silent-where-expected
+                                       witnesses.
 ```
 
-Pipeline 1 ingests open datasets into two stores. Pipeline 2 runs Opus over the lexical store to produce per-question lexical verdicts. Pipeline 3 serves runtime queries through an MCP server, synthesizing across both stores.
+Pipeline 1 ingests open datasets into two stores. Pipeline 2 runs Opus over the lexical store to produce per-question lexical verdicts. Pipeline 4 runs Opus over the historical chunks to produce per-question historical attestation sidecars at `historical/<id>.json`, never modifying the lexical verdict. Pipeline 3 serves runtime queries through an MCP server, synthesizing across all three stores.
 
 ## Two air-gapped stores
 
 The single most important architectural commitment in this project is that the lexical pipeline and the cultural pipeline live in physically separate stores with no possibility of cross-contamination.
 
-**Mechanism.** Two Docker stacks. The lexical stack runs Neo4j 5-community and Qdrant on Docker network `lexical_net`. The cultural stack runs a second Neo4j 5-community and a second Qdrant on Docker network `cultural_net`. Containers on `lexical_net` cannot resolve names on `cultural_net`, and the reverse, because Docker user-defined bridge networks are isolated by default. Pipeline 2 (lexical pre-inference) connects only to the lexical stack. Pipeline 3 (runtime query synthesis) connects to both, but reads them as separate services with separate license stacks, never mixing data into a single fused index.
+**Mechanism.** Two Docker stacks. The lexical stack runs Neo4j 5-community and Qdrant on Docker network `lexical_net`. The cultural stack runs a second Neo4j 5-community and a second Qdrant on Docker network `cultural_net`. Containers on `lexical_net` cannot resolve names on `cultural_net`, and the reverse, because Docker user-defined bridge networks are isolated by default. Pipeline 2 (lexical pre-inference) connects only to the lexical stack. Pipeline 4 (historical pre-inference) connects only to the cultural stack and reads disjoint labels (`HistoricalSource`, `HistoricalWork`, `HistoricalChunk`, `ATTESTS`) plus the read-only `evidence/<id>.json` for context. Pipeline 3 (runtime query synthesis) connects to both stacks, but reads them as separate services with separate license stacks (and within the cultural stack reads the cultural overlay collection `cult_col` and the historical sidecar collection `hist_col` separately), never mixing data into a single fused index.
 
 The air-gap is verified in both directions: a read of the lexical store finds zero cultural-labelled nodes, and a read of the cultural store finds zero lexical-labelled nodes. Cross-network DNS lookups fail with name resolution errors and cross-network HTTP fails with network-unreachable; positive controls within each network confirm DNS is healthy so the negative cross-network results are real isolation.
 
@@ -78,11 +91,14 @@ Numbered from manuscript floor to client. Data flows downward in the diagram. Lo
 | 1 | Critical text and apparatus | open-cbgm (MIT) over INTF TEI XML where ECM is published. The 3 John pilot is in scope via the local asset at `tmp/poc/cbgm/` (open-cbgm binaries, `3_john.db`, `3_john_collation.xml`). Catholic Letters beyond 3 John are excluded per inventory `explicit_deadends[0]`. |
 | 2 | Unified lexical foundation | MACULA Hebrew + Greek (Clear Bible, CC BY 4.0). Includes WLC + OSHB morphology + Westminster syntax + UBS MARBLE Louw-Nida + Berean glosses. STEPBible TAHOT / TAGNT / TTESV layered on top. Access via Text-Fabric (MIT) for BHSA, ETCBC peshitta, ETCBC syrnt; via lxml for OSHB; via direct .txt parse for MorphGNT. The MACULA-Hebrew `sdbh` semantic-domain attribute is present in the upstream but is not ingested in v1 (see Intentional scope boundaries). |
 | 3 | Deterministic analytics | Concordance graph, cross-reference topology (TSK + OpenBible), syntactic structure (ETCBC for Hebrew, MACULA Greek trees), semantic domains (Louw-Nida), pericope boundaries (OpenText annotations). Chiasm detection, stylometry, conceptual metaphor mapping, and speech-act classification beyond the Speaker-Quotations dataset are intentionally not built in v1 (see Intentional scope boundaries). |
-| 4 | Lexical verdict engine | Pipeline 2. Opus reads layers 0-3 (no cultural data, ever), produces `evidence/<id>.json` per doctrinal proposition. The LLM is constrained to writing structured evidence; a deterministic post-processor computes `lexical_score` from the structured fields. The LLM cannot override the score. |
+| 4 | Lexical verdict engine | Pipeline 2. Opus reads layers 0-3 (no cultural data, ever), produces `evidence/<id>.json` per doctrinal proposition. The LLM is constrained to writing structured evidence; a deterministic post-processor computes `lexical_breadth` and `variant_stability` as bands from the structured fields. The LLM sets `lexical_directness` directly. The LLM cannot override the post-processor bands. |
 | 5 | Translation view | STEPBible TTESV plus Clear Bible Alignments. Parallel rendering only. Never feeds Layer 4. |
 | 6 | Cultural sibling corpus | CCEL patristic + Vatican.va magisterial + Book of Concord + Reformed confessions + 39 Articles + UMC + Schleitheim + AG + OCA + Plymouth Brethren archives + conciliar. Air-gapped store. |
 | 6.5 | Light doctrinal tagging | Per-chunk `(tradition, doctrine_coarse, doctrine_fine, stance, confidence, anchor_id)`. No formal ontology. Opus auto-tags; high-confidence tags ship, low-confidence flagged for review. |
-| 7 | Cultural overlay engine | Pipeline 3 synthesis stage. Reads the Layer 4 verdict and Layer 6/6.5 tags. Attaches "how each lineage reads this lexical pattern" as diagnostic information. Never edits the Layer 4 verdict. |
+| 6.7 | Historical sibling corpus | Extra-biblical historical attestation: Josephus (Perseus TEI, CC-BY-SA-4.0), Philo (Yonge PD), OT Pseudepigrapha (Charles 1913 PD), Roman historians (Tacitus + Suetonius + Pliny, Perseus TEI, CC-BY-SA-4.0; Pliny English via Wikisource Melmoth PD), Mishnah (Sefaria, PD HE + CC-BY EN Kulp), Qumran (ETCBC/dss, CC-BY-NC-4.0). Air-gapped from the lexical store; co-resident in the cultural Docker stack with disjoint labels `HistoricalSource`, `HistoricalWork`, `HistoricalChunk`, `ATTESTS` and a separate Qdrant collection `hist_col`. Per-chunk schema in `docs/HISTORICAL_SCHEMA.md`. Procurement and explicit deadends in `docs/historical_data_inventory_catalog.json`. |
+| 6.8 | Historical-attestation tagging | Per-chunk `(source_type, attestation_type, confidence, contested_interpolation, provenance, evidence_phrase, anchor_id)`. Mirrors 6.5 but with `attestation_type` enum (`corroborates`, `complicates`, `neutral`, `parallel`, `silent-where-expected`) instead of `stance`. |
+| 7 | Cultural overlay engine | Pipeline 3 synthesis stage. Reads the Layer 4 verdict, Layer 6/6.5 tags, and Layer 7.1 historical sidecar files. Attaches "how each lineage reads this lexical pattern" plus "how the world around Scripture recorded the event" as diagnostic blocks. Never edits the Layer 4 verdict. |
+| 7.1 | Historical attestation engine | Pipeline 4 pre-inference. Per question with a historical-attestation dimension (about 30-50 of 231 in v1), produces `historical/<id>.json` sidecar files holding extra-biblical witnesses with `attestation_type` and source citations. Most questions ship with `attestation_present: false` and empty witnesses. The lexical verdict is read-only context; Pipeline 4 cannot modify or contradict it. |
 | 8 | Variant debate surface | Per-verse: every variant in Layer 0, every CBGM-derived reading from Layer 1 where ECM exists, every translation choice from Layer 5, every Layer 4 verdict that is variant-sensitive. The "informed decision" reading surface. Variant data is populated for 3 John in v1 via the Layer 1 CBGM ingest; variants for other Catholic Letters books are excluded per `explicit_deadends[0]`. |
 | 9 | MCP server and client | Python MCP SDK (`pip install mcp`). 11 tools (specified in docs/MCP_TOOLS.md). Streamable HTTP transport with progress tokens for the long-running `doctrinal_verdict` tool. The Flutter client surface is intentionally not built in v1; v1 ships as MCP-only, queryable from Claude Code or other MCP-native clients. |
 
@@ -100,6 +116,8 @@ The authority hierarchy is a discipline applied within the lexical pipeline. Cul
 
 **Confessions do not appear on the hierarchy.** They sit on the cultural sibling track at Layer 6. Counter-witness from any tradition is recorded as diagnostic information for the reader; it never settles a Layer 4 verdict.
 
+**Historical attestation does not appear on the hierarchy either.** Josephus, Philo, Tacitus, Mishnah, Qumran, and the OT Pseudepigrapha sit on the historical sibling track at Layer 6.7. Where a historical witness creates a tension with the Layer 4 verdict (e.g., the Quirinius census), the tension is recorded as diagnostic information in the historical sidecar; the lexical verdict stands.
+
 When tiers disagree within the lexical pipeline, the engine surfaces the conflict rather than silently picking a side. A Level 4 sermon claim cannot override a Level 1 interlinear reading. A Level 1 interlinear reading cannot override a Level 0 apparatus footnote where one exists.
 
 ## Pipeline 2 walkthrough
@@ -109,10 +127,10 @@ For each doctrinal proposition in `questions.json`, the Pipeline 2 orchestrator 
 1. Pull the question entry (id, statement, scripture_anchors, confessional_anchors-as-references-only, historical_consensus metadata).
 2. Build a lexical context bundle from the lexical store: anchor lemmas with occurrence counts, anchor verses with surface forms and key terms, cross-references via TSK + OpenBible, semantic-domain neighbors via Louw-Nida, syntactic context where ETCBC has it, any variant units where Layer 1 is populated.
 3. Hand the question plus context bundle to Opus with the lean prompt (see `docs/EVIDENCE_SCHEMA.md` for the prompt contract). Opus is forbidden from citing confessions, magisterial documents, denominational commentary, or Reformed-aligned commentary sites. Allowed citations: apparatus, MACULA, STEPBible, ETCBC, BibleHub interlinear, INTF NTVMR.
-4. Opus produces structured JSON conforming to the evidence v3.0 schema. Fields cover verdict (affirms / confidence / variant_robust / pan_canonical / rationale), lexical_evidence (anchor_lemmas, concordance_traversed, scripture with force / supports / genre / figures / macula_anchor, cross_refs_invoked, complicating_texts), variants block, hermeneutics block, stem_audit, lay_summary, citations with license per source, license_audit.
-5. The deterministic post-processor reads the structured fields and computes `lexical_score` as a weighted aggregate of six factors: pan_canonical (0.25), anchor_lemma breadth (0.20), complicating_resolved rate (0.15), cross_ref density (0.15), variant_robust flag (0.15), concordance_breadth (0.10). Order-invariant by construction. The LLM never writes this number.
-6. The triangle test: re-running on identical inputs produces an identical lexical_score (epsilon-stable to within 0.01). Permuted-order inputs also produce an identical score.
-7. Validate against the v3.0 Pydantic schema (`extra="forbid"` at every level). Write to `evidence/<question_id>.json`.
+4. Opus produces structured JSON conforming to the evidence v3.1 schema. Fields cover verdict (affirms / lexical_breadth / lexical_directness / variant_stability / variant_robust / pan_canonical / rationale), lexical_evidence (anchor_lemmas, concordance_traversed, scripture with force / supports / genre / figures / macula_anchor, cross_refs_invoked, complicating_texts), variants block, hermeneutics block, stem_audit, lay_summary, citations with license per source, license_audit.
+5. The deterministic post-processor reads the structured fields and assigns `lexical_breadth` as a band derived from a weighted aggregate of six factors (pan_canonical 0.25, anchor_lemma breadth 0.20, complicating_resolved rate 0.15, cross_ref density 0.15, variant_robust flag 0.15, concordance_breadth 0.10) then bucketed into `canon_wide`, `broad`, `partial`, or `thin`. The post-processor also assigns `variant_stability` as `stable`, `sensitive`, or `not_in_scope` from the variants block. Both are order-invariant by construction. The LLM sets `lexical_directness` from one of `direct`, `inferred`, `analogical`, `silent` directly; the LLM never writes the two post-processor bands.
+6. The triangle test: re-running on identical inputs produces band equality on `lexical_breadth` and `variant_stability` plus `lexical_directness` drift of at most one step on the `direct` to `inferred` to `analogical` to `silent` axis. Permuted-order inputs also produce identical bands.
+7. Validate against the v3.1 Pydantic schema (`extra="forbid"` at every level). Write to `evidence/<question_id>.json`.
 
 **Verdict authority.** `verdict.affirms` is one of `true`, `false`, `null`, `disputed`. `null` covers "lexical pattern is open" and "insufficient evidence." `disputed` covers "lexical pattern is genuinely contested across the canon," reserved for cases like paedobaptism where the lexical evidence supports multiple defensible readings.
 
@@ -123,10 +141,27 @@ For each doctrinal proposition in `questions.json`, the Pipeline 2 orchestrator 
 A user question arrives at the MCP server. The router classifies intent (scripture / named_figure / comparative / general / doctrinal-verdict). For doctrinal queries:
 
 1. Retrieve the relevant `evidence/<id>.json` from the lexical store.
-2. Retrieve cultural overlay chunks from the cultural store, filtered by the doctrine slugs in the relevant `questions.json` entry.
-3. Pass both to Opus for synthesis with a strict instruction: the lexical evidence is authoritative; the cultural material is diagnostic. The output envelope segregates the two with separate citation blocks. The license stack is attached to the envelope so the calling agent never accidentally bulk-exports NC content.
+2. Retrieve cultural overlay chunks from the cultural store (`cult_col`), filtered by the doctrine slugs in the relevant `questions.json` entry.
+3. Retrieve the relevant `historical/<id>.json` sidecar from the historical store (`hist_col`) if `attestation_present: true`; otherwise the historical block is empty.
+4. Pass all three to Opus for synthesis with a strict instruction: the lexical evidence is authoritative; the cultural material and historical material are both diagnostic, each in its own block. The output envelope segregates the three with separate citation blocks. The license stack is attached to the envelope so the calling agent never accidentally bulk-exports NC content (most notably ETCBC/dss for DSS chunks).
 
 Streaming: long-running tools (`doctrinal_verdict`) accept a `progressToken` and emit `notifications/progress` events keyed by it, with `{stage, pct}` granularity. Partial JSON is not streamed; the final structured response arrives in one piece.
+
+## Pipeline 4 walkthrough
+
+For each doctrinal proposition in `questions.json`, the Pipeline 4 orchestrator does the following.
+
+1. Pull the question entry and the locked lexical verdict from `evidence/<question_id>.json` (read-only context).
+2. Build a historical context bundle by querying the historical store: pull all `HistoricalChunk` nodes connected via `ATTESTS` to the question's `doctrine_fine` slug, plus chunks tagged to the question's named entities (Quirinius, Herod the Tetrarch, John the Baptist, etc.) via cross-reference.
+3. If zero candidate chunks are returned and the question has no clear historical-attestation dimension, emit `historical/<question_id>.json` with `attestation_present: false`, `witnesses: []`, empty `summary`, and exit. Most questions land here.
+4. Else, hand the question plus context bundle plus locked verdict to Opus with the lean prompt at `docs/phase_prompts/pipeline4_attestation.md`. Opus is forbidden from citing confessions, magisterial documents, denominational commentary, or the cultural overlay. Allowed citations: the seven source types defined in `docs/HISTORICAL_SCHEMA.md` (Josephus, Philo, Pseudepigrapha, Roman historians, Mishnah, Qumran sectarian, Qumran biblical).
+5. Opus produces structured JSON conforming to the v1.0 schema. Fields cover witnesses (each with source, attestation_type, confidence, evidence_phrase, rationale, contested_interpolation, provenance, text, text_to_embed, license, redistribute), a plain-language summary, license_audit, and flags.
+6. Validate against the v1.0 Pydantic schema (`extra="forbid"` at every level). Write to `historical/<question_id>.json`.
+7. Triangle test: re-running on identical inputs produces the same set of `witness_id` values and the same per-witness `attestation_type`. Confidence values match within `+/- 0.05` (looser than Pipeline 2's exact band equality because Pipeline 4 is a less structured judgment task).
+
+**Attestation authority.** `witness.attestation_type` is one of `corroborates`, `complicates`, `neutral`, `parallel`, `silent-where-expected`. A `complicates` finding never modifies the lexical verdict. Where a tension exists, the rationale records the mainstream scholarly resolution and the lexical verdict stands.
+
+**LLM cost path.** Pipeline 4 dispatches Claude Code subagents under the user's Max plan, identically to Pipeline 2. A programmatic API client is wired as a fallback if Max-plan quota is exhausted.
 
 ## Orchestrator pattern
 
@@ -149,6 +184,7 @@ Each operational phase has an explicit, canonical prompt stored under `docs/phas
 | Cultural scrape | `docs/phase_prompts/pipeline1_cultural_scrape.md` | Orchestrator | 1 per cultural source | Sonnet 4.6 |
 | Cultural auto-tag | `docs/phase_prompts/cultural_autotag.md` | Orchestrator | 1 per batch of ~50 chunks | Sonnet 4.6 |
 | Pipeline 2 verdict | `docs/phase_prompts/pipeline2_verdict.md` | Orchestrator | 1 per doctrinal proposition (231 total) | Opus 4.7 |
+| Pipeline 4 attestation | `docs/phase_prompts/pipeline4_attestation.md` | Orchestrator | 1 per doctrinal proposition (231 total; about 30-50 produce non-empty witnesses in v1) | Opus 4.7 |
 | Pipeline 3 synthesis | `docs/phase_prompts/pipeline3_synthesis.md` | MCP server (thin orchestrator delegate) | 1 per user query | Sonnet 4.6 default; Opus 4.7 for `doctrinal_verdict` |
 | Validation | `docs/phase_prompts/validation.md` | Orchestrator | 1 per validation run | Sonnet 4.6 |
 
@@ -156,7 +192,7 @@ The orchestrator does not embed prompts in code. It reads the markdown files and
 
 ### Dispatch contract
 
-Every subagent receives, at minimum: the verbatim phase prompt; a JSON `inputs` block scoped to its phase; a target output path under `tmp/<phase>/<task_id>/`; explicit `allowed_stores` and `forbidden_stores` lists (Pipeline 2 verdict has `allowed_stores: ["lexical"]`, `forbidden_stores: ["cultural"]`).
+Every subagent receives, at minimum: the verbatim phase prompt; a JSON `inputs` block scoped to its phase; a target output path under `tmp/<phase>/<task_id>/`; explicit `allowed_stores` and `forbidden_stores` lists. Pipeline 2 verdict has `allowed_stores: ["lexical"]`, `forbidden_stores: ["cultural", "historical"]`. Pipeline 4 attestation has `allowed_stores: ["historical"]`, `forbidden_stores: ["lexical", "cultural"]`, with the locked `evidence/<id>.json` passed in as read-only context (not as a store grant).
 
 Every subagent returns, at minimum: a structured result JSON conforming to the phase's output schema; a `license_audit` block enumerating every source touched; a `confidence` self-assessment.
 
@@ -226,9 +262,9 @@ Every chunk and node carries an explicit `license` field. Synthesis enforces red
 
 | Tier | Posture | Sources |
 |---|---|---|
-| Permissive open | Allowed in bulk, attribution required | MACULA (Clear Bible CC BY 4.0), STEPBible TAHOT / TAGNT / TVTMS (CC BY 4.0), OSHB (CC BY 4.0), OpenBible (CC BY), public-domain confessions (WCF, 1689 LBC, Heidelberg, Belgic, Dort, 39 Articles, BCP 1662, Schleitheim, UMC Articles, Book of Concord older translations), CCEL ANF / NPNF (PD), conciliar texts via Wikisource (PD), pre-1923 Plymouth Brethren writings (PD) |
-| Open share-alike | Allowed; derivatives must propagate SA | MorphGNT morphology (CC BY-SA 4.0), Theographic Bible Metadata (CC BY-SA 4.0), First1KGreek (CC BY-SA 4.0) |
-| Open non-commercial | Personal use only; bulk export forbidden | ETCBC BHSA (CC BY-NC 4.0), MARBLE / SDBH / Louw-Nida word senses (CC BY-NC), STEPBible TTESV (CC BY-NC 4.0) |
+| Permissive open | Allowed in bulk, attribution required | MACULA (Clear Bible CC BY 4.0), STEPBible TAHOT / TAGNT / TVTMS (CC BY 4.0), OSHB (CC BY 4.0), OpenBible (CC BY), public-domain confessions (WCF, 1689 LBC, Heidelberg, Belgic, Dort, 39 Articles, BCP 1662, Schleitheim, UMC Articles, Book of Concord older translations), CCEL ANF / NPNF (PD), conciliar texts via Wikisource (PD), pre-1923 Plymouth Brethren writings (PD), Philo Yonge 1854 (PD), OT Pseudepigrapha Charles 1913 (PD), Pliny Melmoth 1746 (PD), Mishnah Hebrew Torat Emet 357 (PD), Mishnah English Sefaria Community Translation (CC0), Mishnah English Kulp Mishnah Yomit (CC-BY) |
+| Open share-alike | Allowed; derivatives must propagate SA | MorphGNT morphology (CC BY-SA 4.0), Theographic Bible Metadata (CC BY-SA 4.0), First1KGreek (CC BY-SA 4.0), Josephus Perseus TEI (CC BY-SA 4.0), Tacitus + Suetonius + Pliny Perseus TEI (CC BY-SA 4.0) |
+| Open non-commercial | Personal use only; bulk export forbidden | ETCBC BHSA (CC BY-NC 4.0), MARBLE / SDBH / Louw-Nida word senses (CC BY-NC), STEPBible TTESV (CC BY-NC 4.0), ETCBC/dss Qumran transliteration and glyph data (CC BY-NC 4.0) |
 | EULA-restricted | Snippet quotation OK; bulk forbidden; per-vendor reporting | SBLGNT text (SBLGNT EULA; at most 500 verses per year without a separate license) |
 | Proprietary / fair-use only | Snippet only, never bulk | Vatican.va content (Libreria Editrice Vaticana copyright); AG Fundamental Truths; OCA topical articles; modern Book of Concord translations (Tappert / Kolb-Wengert) |
 
@@ -293,12 +329,14 @@ brethren-doctrine/
 │   ├── SCHEMA_DECISIONS.md              Lexical graph contract
 │   ├── CULTURAL_SCHEMA_DECISIONS.md     Cultural graph contract
 │   ├── CULTURAL_SCHEMA.md               Per-chunk doctrine-tagging schema
-│   ├── EVIDENCE_SCHEMA.md               v3.0 evidence schema + Pipeline 2 prompt contract
+│   ├── HISTORICAL_SCHEMA.md             v1.0 historical-attestation sidecar schema + Pipeline 4 prompt contract
+│   ├── EVIDENCE_SCHEMA.md               v3.1 evidence schema + Pipeline 2 prompt contract
 │   ├── INGESTION_PATTERNS.md            Per-dataset ingestion notes
 │   ├── LICENSE_TAGGING.md               License posture + guard contract
 │   ├── MCP_TOOLS.md                     11 MCP tool specifications
 │   ├── data_inventory_catalog.json      Lexical source + count contract
 │   ├── cultural_data_inventory_catalog.json  Cultural source + count contract
+│   ├── historical_data_inventory_catalog.json  Historical source + count contract (H.0 pre-ingest blueprint; fixtures + sample_indices captured in H.1)
 │   └── RESEED_MANIFEST_<ts>.json        Standing trustworthiness claim file
 ├── docker/
 │   ├── lexical/docker-compose.yml       Lexical Neo4j + Qdrant stack
@@ -309,6 +347,7 @@ brethren-doctrine/
 ├── ingest/
 │   ├── lexical/                         Pipeline 1 lexical adapters
 │   ├── cultural/                        Pipeline 1 cultural adapters
+│   ├── historical/                      Pipeline 1 historical adapters (Pipeline 4 inputs)
 │   ├── canonical_strongs.py             Strong's normalization utility
 │   ├── models.py                        Pydantic chunk and node models
 │   └── license_guard.py                 Redistribution enforcement
@@ -316,10 +355,12 @@ brethren-doctrine/
 ├── retrieval/                           Router, hybrid retrieve, rerank, envelope
 ├── mcp/                                 FastMCP server with 11 tools
 ├── pipeline2/                           Per-question Opus dispatcher + score_calc
+├── pipeline4/                           Per-question Opus dispatcher for historical attestation
 ├── tools/                               Gate + verification tooling
 ├── tests/                               Real test suite
 ├── questions.json                       231-question bank (locked)
-├── evidence/                            Pipeline 2 output (v3.0)
+├── evidence/                            Pipeline 2 output (v3.1)
+├── historical/                          Pipeline 4 output (v1.0; sidecar files; most ship with attestation_present=false)
 ├── responses/                           Gitignored per-respondent answers
 ├── parsed/                              Brethren corpus (cultural-store input, gitignored)
 ├── backups/                             Local store snapshots + RESTORE.md (gitignored)
@@ -328,15 +369,20 @@ brethren-doctrine/
 
 ## Glossary
 
-- **Air-gap**: physical separation between the lexical and cultural data stores. Pipeline 2 cannot reach the cultural store; Pipeline 3 reads both as separate services with separate license stacks.
+- **Air-gap**: physical separation between the lexical and cultural data stores. Pipeline 2 cannot reach the cultural store; Pipeline 4 cannot reach the lexical store (it receives the locked verdict as read-only context only); Pipeline 3 reads all three as separate services with separate license stacks.
 - **Apparatus**: footnotes in a critical edition listing manuscript variants and editorial decisions.
+- **Attestation**: an extra-biblical witness's relation to a doctrinal proposition. One of `corroborates`, `complicates`, `neutral`, `parallel`, `silent-where-expected`. Never adjudicates the lexical verdict.
 - **CBGM**: Coherence-Based Genealogical Method. INTF's algorithm for reconstructing manuscript relationships from variant readings.
+- **Contested interpolation**: a known scholarly judgment that part of an extra-biblical witness is a later insertion (Testimonium Flavianum in Josephus, Christian recension layer in Testaments of the Twelve Patriarchs, Chrestianos-vs-Christianos in Tacitus Annals 15.44). Surfaced in the historical schema's `contested_interpolation` block.
 - **Cultural overlay**: diagnostic information attached after a lexical verdict is locked. Shows how each tracked tradition reads the same lexical pattern. Never authoritative.
 - **Doctrinal proposition**: a single testable belief statement from `questions.json`.
 - **ECM**: Editio Critica Maior. INTF's full critical edition of the NT.
+- **Historical attestation**: diagnostic information attached after a lexical verdict is locked. Shows extra-biblical witnesses to events, figures, or themes the question touches (Quirinius census, Theudas, John the Baptist, Sanhedrin 10.1 on resurrection). Never authoritative.
+- **Historical sidecar / historical store**: the Pipeline 4 output (`historical/<id>.json` files) and the per-chunk store under disjoint labels in the cultural Docker stack. Schema in `docs/HISTORICAL_SCHEMA.md`.
 - **Lexical store**: the air-gapped Neo4j plus Qdrant pair holding biblical text, morphology, syntax, cross-references, semantic domains, and apparatus where Layer 1 is populated.
 - **Lexical verdict**: the engine's Layer 4 output for a doctrinal proposition. Derived from Scripture alone.
-- **Pipeline 1 / 2 / 3**: ingestion / per-question Opus pre-inference / runtime RAG via MCP.
-- **Triangle test**: re-running a deterministic step on identical inputs produces an identical result; order-permutation of inputs produces an identical result.
+- **Pipeline 1 / 2 / 3 / 4**: ingestion / per-question Opus lexical pre-inference / runtime RAG via MCP / per-question Opus historical pre-inference.
+- **Provenance chain**: for an extra-biblical witness, the ordered list of language and transmission steps from earliest extant witness to the edition cited (e.g., 1 Enoch: Aramaic Qumran 4Q201-212 to Greek Codex Panopolitanus to Ethiopic to Charles 1913 English).
+- **Triangle test**: re-running a deterministic step on identical inputs produces an identical result; order-permutation of inputs produces an identical result. Pipeline 4 triangle is looser (`+/- 0.05` on confidence) than Pipeline 2's (exact band equality on `lexical_breadth` and `variant_stability`, at most one step drift on `lexical_directness`) because Pipeline 4 is a less structured judgment task.
 - **TVTMS**: STEPBible's Translators Versification Mapping Specification. Reconciles Hebrew, English, Greek-Brenton, Latin, KJV verse numbering schemes.
 ```

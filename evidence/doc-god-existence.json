@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-god-existence",
   "question_id": "doc-god-existence",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon nowhere argues that God exists; it presupposes it grammatically from the first clause. Genesis 1:1 opens with the verb 'create' (bara, Strong's H1254A, in the simple active form of the Hebrew verb, qal, in the perfect tense meaning a completed action whose result still stands, third person masculine singular) whose subject is 'God' (Elohim, H0430), and no linking verb 'is' (copula) or predicate of existence is supplied because none is needed. Querying the store, 'create' (bara, H1254A) occurs 46 times; the 35 simple-active (qal) and 8 passive (niphal) forms all have God as actor or implied agent, and the only 3 human-subject forms (Joshua 17:15, Joshua 17:18, Ezekiel 23:47) are in the intensive form (piel) meaning to cut down or clear, a distinct sense. Deuteronomy 6:4 binds the covenant name 'YHWH' (the personal name of God, H3068) and 'God' (Elohim) with 'one' (echad, H0259), predicating singular reality. Romans 1:20 says his 'eternal' (aidios, G0126) 'power' (dynamis, G1411) and 'divine nature' (theiotes, G2305) are 'clearly perceived' (kathoratai, G2529) through 'the things made' (ta poiemata, G4161), leaving humanity 'without excuse' (anapologetos, G0379). Crucially Romans 1:18 closes with 'those suppressing' (katechonton, G2722, meaning to hold down or restrain), so the text frames the only divergence as suppressed knowledge, not honest doubt. Hebrews 11:6 reduces saving faith to 'he is' (estin, G1510, an ongoing, simple statement of fact in the present tense). The lemmas form one assertion spread across the whole Bible (pan-canonical) with no counter-witness in any author's own voice."

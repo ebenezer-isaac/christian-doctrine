@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-consubstantiation-affirm",
   "question_id": "doc-consubstantiation-affirm",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.75,
-    "confidence": "low",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The proposition hangs on the institution linking verb 'is' (ἐστιν) in 'This is my body' (Τοῦτό ἐστιν τὸ σῶμά μου, 1 Corinthians 11:24), and the lexicon itself glosses 'to be' (εἰμί) as the verb to be with various uses and significations, so the bare grammar carries both literal identity and figurative predication (a 'X is Y' statement that is not strict identity) and cannot by itself fix a local bodily presence in, with, and under the elements. The same linking verb 'is' (ἐστιν) links subject to predicate in 'I am the vine' (John 15:1), 'I am the door' (John 10:9), 'I am the bread' (John 6:35), 'the rock was Christ' (1 Corinthians 10:4), and 'these are two covenants' (Galatians 4:24), where no substantial co-location is meant. The real-presence-flavored anchors are genuine: 'sharing' or 'participation' (κοινωνία, koinonia) in 1 Corinthians 10:16 makes the cup and bread a sharing in the blood and body of Christ, and 'gnaw' or 'chew' (τρώγω, trogo) in John 6:54-58 is a visceral gnaw or chew verb. But 'sharing' (κοινωνία, koinonia) means participation and fellowship, which the words do not narrow to bodily co-presence rather than spiritual or covenantal union, and John 6:63 says the flesh profits nothing and the words are spirit. The phrase 'in, with, and under' is a metaphysical specification (a precise philosophical claim about how something exists) the vocabulary never supplies, so the lexical pattern is materially contested."

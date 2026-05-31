@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "het-rc-marian-dogmas",
   "question_id": "het-rc-marian-dogmas",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 1.0,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The stem bundles four claims and the canon's vocabulary speaks unevenly to them. Three components are well grounded in the words. In Luke 1:47 Mary calls God 'my savior' (ho soter mou), placing herself in the class of those who require salvation. Romans 3:23 makes 'all sinned' (pantes hemarton) an unrestricted universal in the aorist (a completed past action) with no named exception. First Timothy 2:5 fixes 'one mediator' (heis mesites) between God and people, and Hebrews 7:25 grounds a saving 'to the uttermost' or 'completely' (eis to panteles), with 'always living to intercede' (pantote zon eis to entugchanein), so the mediating role is exclusive and complete in Christ. Acts 4:12 reinforces the exclusivity with 'there is salvation in no other' (ouk estin en allo oudeni he soteria). The fourth component, that Mary did not remain ever virgin, hangs on the semantic range of 'brother' (adelphos) at Matthew 13:55, Mark 6:3, Acts 1:14, and Galatians 1:19, plus the 'until' clause (heos hou) at Matthew 1:25 and 'firstborn' (prototokos) at Luke 2:7. Lexically these data lean toward the stem, but a defensible kinship-semantic reading of 'brother' (adelphos) exists, so this component remains contested on the words alone. Because one of four components is genuinely contested the bundled stem is disputed even though three components are decisively supported."

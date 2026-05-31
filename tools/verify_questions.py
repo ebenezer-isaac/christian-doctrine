@@ -18,7 +18,7 @@ Flags surfaced (stem-level):
 
 Schema checks (fail-fast):
 - STALE_TIER_FIELD: any question carries a `tier` key (abolished 2026-05-10).
-- BAD_HISTORICAL_CONSENSUS: value is outside the v3.0 enum.
+- BAD_HISTORICAL_CONSENSUS: value is outside the v3.1 enum.
 """
 
 from __future__ import annotations

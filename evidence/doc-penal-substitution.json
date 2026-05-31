@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-penal-substitution",
   "question_id": "doc-penal-substitution",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two threads run together across both testaments and both can be checked in the queried canon. Substitution is carried by small words, 'for us' (huper hemon) in Galatians 3:13 and 'concerning our sins' (peri ton hamartion hemon) in 1 John 2:2 and 1 John 4:10, plus the LORD laying the 'iniquity' (avon, H5771) of all on the Servant in Isaiah 53:6. The penal element is carried by Isaiah 53:5 and 53:10, where the Servant is 'crushed' (daka, H1792) for our 'transgressions' (pesha, H6588) and iniquities (avon, H5771), bears the 'chastisement' (musar, H4148) of our peace, is made a 'guilt offering' (asham, H0817, a term that occurs 43 times and clusters in the Levitical sacrificial law), and is crushed because it 'pleased' (chaphets, H2654) the LORD. In the New Testament the 'atonement' (hilasmos) word group (G2434, G2435, G2433) ties his death to the 'mercy seat' (hilasterion, G2435) in Romans 3:25, the same noun used literally for the mercy seat in Hebrews 9:5, and is set in the frame of God being just and the justifier (Romans 3:26). Galatians 3:13 says he became a 'curse' (katara, G2671) for us, citing the legal sentence of Deuteronomy 21:23. Both substitution and the bearing of judgment are lexically present (visible at the word level), so the proposition is affirmed. The one genuine lexical crux (the hardest word-level puzzle), whether the 'atonement' (hilasmos) group means wrath-averting propitiation (turning away divine anger) or sin-cleansing expiation (washing away sin), is resolved toward the wrath-related sense by Luke 18:13, where the same verb 'be propitiated' (hilaskomai) is a plea to God to be appeased, but the alternative gloss remains lexically real, which is why this is noted rather than hidden."

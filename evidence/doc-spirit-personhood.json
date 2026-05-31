@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-spirit-personhood",
   "question_id": "doc-spirit-personhood",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "inferred",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The noun 'spirit' (pneuma, G4151) is grammatically neuter in every one of its New Testament occurrences (verified: all 386 parses are N-...SN or N-...PN, the morphology codes for singular or plural neuter, with zero masculine), yet in John 14:26, 15:26, 16:13, and 16:14 the demonstrative pronoun that points back to it is 'that one' (ekeinos), parsed D-NSM (a demonstrative pronoun in nominative singular masculine). That is a deliberate concord-break (a deliberate grammatical mismatch): the writer overrides grammatical gender to mark a personal referent. Clustered around this anchor is a pan-canonical (spread across the whole Bible) set of agency verbs predicated of the same Spirit: teaches and reminds (John 14:26), bears witness (John 15:26), guides, hears, speaks, and declares (John 16:13), glorifies and takes (John 16:14), speaks in the first person and issues an imperative and claims a prior calling (Acts 13:2, 'said' (eipen), 'set apart' (aphorisate), 'I have called' (proskeklemai)), intercedes (Romans 8:26-27, 'intercedes' (entugchanei)) and possesses a 'mindset' (phronema) that God reads, is grieved (Ephesians 4:30, 'do not grieve' (lupeite)), is lied to (Acts 5:3), and apportions gifts as he wills (1 Corinthians 12:11, 'as he wills' (kathos bouletai)). An Old Testament anchor matches: Isaiah 63:10 says they 'grieved' (atsab, H6087) his 'Holy Spirit' (ruach qodesh), who then turned and 'fought' (lacham) against them. Querying the canon, the volition verb 'wills' (bouletai) is never predicated of an impersonal force, only of personal agents, and 'intercede' (entugchano) takes only personal subjects (Elijah, Christ, the Spirit). The verdict holds across the minor textual variants in the cited verses."

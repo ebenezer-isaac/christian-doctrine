@@ -40,7 +40,7 @@ from bd_mcp.tools.versification_resolve import VersificationResolveInput
 from bd_mcp.tools.versification_resolve import handle as versification_handle
 from ingest.versification_mapper import VersificationMapper
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 UUID_REGEX = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
@@ -49,7 +49,8 @@ UUID_REGEX = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a
 def _materialize_trinity(tmp_path: Path) -> None:
     e = Evidence.model_validate(minimal_evidence_dict())
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     (tmp_path / "doc-trinity.json").write_text(json.dumps(e_dict, indent=2), encoding="utf-8")
 
 

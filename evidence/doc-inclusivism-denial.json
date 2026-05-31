@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-inclusivism-denial",
   "question_id": "doc-inclusivism-denial",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.9875,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Two unranked patterns spread across the whole Bible (pan-canonical) govern this proposition. Pattern one ties the saving outcome to a named, heard, and confessed object. Romans 10:14-17 builds a four-link chain (calling presupposes believing, believing presupposes hearing, hearing presupposes a preacher, summed up as 'faith comes from hearing, and hearing through the word of Christ' (hē pistis ex akoēs, hē de akoē dia rhēmatos Christou)). John 3:18 grounds standing condemnation on not having believed 'in the name of the only-begotten Son' (eis to onoma tou monogenous huiou), where 'only-begotten' (monogenes) means 'one-of-a-kind'. Acts 4:12 excludes any other name. Pattern two states that in every nation the God-fearer who works righteousness is 'acceptable' (dektos) to God (Acts 10:35), that Gentiles without the law do by nature 'the things of the law' (ta tou nomou) with conscience excusing at the judgment (Romans 2:14-16), and that faith justified Abraham apart from gospel content (Romans 4:3-5) while Hebrews 11:6 demands only faith that God is and rewards seekers. The vocabulary does not rank these patterns or settle the cases of those never evangelized and those who lived before the incarnation, so the proposition's exclusive scope is underdetermined at the level of words."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "cult-christian-science-physical-reality",
   "question_id": "cult-christian-science-physical-reality",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The canon names matter, sin, sickness, suffering, and bodily death with concrete nouns and completed-action verbs (verbs marking finished events in the past) that resist dematerializing readings. Genesis 1:31 has God 'see' (raah) all that he 'made' ('made/did', asah, 2629 occurrences) and call it 'very good' (tov meod), presupposing a real external creation evaluated as objectively good. The New Testament anchors hinge on 'flesh' (sarx, 151 occurrences), 'body' (soma, G4983, 144 occurrences), 'sin' (hamartia, 174 occurrences) with 'to sin' (hamartano, 42 occurrences in Synoptics, Acts, Paul, and 1 John), 'death' (thanatos, 120 occurrences) paired with 'life' (zoe, 136 occurrences) and 'eternal' (aionios, 69 occurrences), and the physical healing verb 'to heal' (iaomai, 27 occurrences, dense in the Gospels and Acts for bodily cures). First John 4:2 to 4:3 makes confessing 'Jesus Christ having come in flesh' (Iesoun Christon en sarki eleluthota) the test of true spirit and brands the denial as 'antichrist' (antichristos), a term that occurs only five times and only in Johannine epistles to mark precisely this denial. The pan-canonical (spread across the whole Bible) pattern affirms real created matter, real sin, real bodily incarnation, real bodily death, and real bodily healing as the medium of salvation."

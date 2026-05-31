@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-demon-possession-of-unbelievers",
   "question_id": "doc-demon-possession-of-unbelievers",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.7875,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The verb 'to be demonized' (daimonizomai, G1139) occurs 13 times, all in the Gospels, and is uniformly predicated of persons who are not disciples of Jesus. The grammar of these scenes is concretely spatial. Demons are said to 'enter into the man' (eiserchomai eis auton, Luke 8:30) and to 'come out from the man' (exerchomai apo or ek tou anthropou, Mark 1:26, Mark 5:8, Luke 8:33, Matthew 12:43, Acts 16:18). Jesus also says, 'never enter into him again' (mēketi eiselthēs eis auton, Mark 9:25), and the cleared house can be re-inhabited and 'dwelt in' (katoikei ekei, Matthew 12:45). The man can be described as 'having an unclean spirit' (ekhōn pneuma akatharton, Mark 1:23, Acts 19:13), and in Acts 19:16 the spirit acts through the host with superhuman force. The lexical pattern across multiple authors and scenes pictures unbelieving or non-disciple persons as indwelt and controlled by spirits that can be expelled by command."

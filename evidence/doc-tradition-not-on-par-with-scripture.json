@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-tradition-not-on-par-with-scripture",
   "question_id": "doc-tradition-not-on-par-with-scripture",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9875,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The noun 'tradition' or 'something handed down' (paradosis, G3862) occurs 13 times, and when its uses are sorted by the named source (the 'from-X' grammatical form, also called a genitive of source) they split cleanly by that source-modifier, not by the act of handing-on. In 3 places where the content originates with the apostle, the texts command holding it (2 Thessalonians 2:15, 'hold fast the traditions you were taught' (krateite tas paradoseis has edidachthete); 1 Corinthians 11:2, 'you keep hold of what I delivered to you' (katechete kathos paredoka); 2 Thessalonians 3:6, 'according to the tradition they received from us' (kata ten paradosin hen parelabosan par hemon)). In the other 10 places where the modifier is human (Mark 7:8, 'of men' (ton anthropon); Mark 7:3-13 and Matthew 15:2-6, 'your own' (humon); Colossians 2:8, 'according to the tradition of men' (kata ten paradosin ton anthropon); Galatians 1:14, 'of my fathers' traditions' (ton patrikon mou paradoseon)) the same word denotes something that competes with God's word. Decisively, Mark 7:13 says human tradition (paradosis) can 'nullify' or 'make void' (akyroo, G0208, a legal term for voiding a covenant or will, the very verb used in Galatians 3:17) the 'word' (logos) of God. A norm that can be cancelled cannot be equal in authority to the norm that cancels it. Acts 17:11 supplies the procedure: the Bereans receive the apostolic 'word' (logos) yet sift it by the 'Scriptures' (graphai), 'examining' them (anakrinontes, G0350, a forensic courtroom verb for sifting evidence), so Scripture is the test, not the thing tested."

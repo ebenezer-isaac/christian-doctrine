@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-inerrancy-chicago-scope",
   "question_id": "doc-scripture-inerrancy-chicago-scope",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9375,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The truth vocabulary is dense and pan-canonical (spread across the whole Bible): the Hebrew word for \"truth, faithfulness\" (emet, Strong's H0571, 108 occurrences across Torah, Prophets, and Writings), the Hebrew word for \"complete, sound, unblemished\" (tamim, H8549, 84 occurrences, the same word used for unblemished sacrificial animals), the refining metaphor \"smelt, refine\" (tsaraph, H6884, 30 occurrences), the Greek word for \"truth\" (aletheia, G0225, 110 occurrences), and the hapax (a word that occurs only once in the entire Bible) \"unable to lie\" (apseudes, G0893, only Titus 1:2) all predicate truthfulness, reliability, and freedom from falsehood of God's word with no qualifying clause that restricts the claim to soteric (salvation-related) or practical matters. The universal quantifier \"every, all\" (kol, H3605) governs the predicate in Psalm 119:160 and Proverbs 30:5, leaving no exempt subset, and John 10:35 globalizes this with the categorical \"Scripture cannot be broken\" (ou dunatai luthenai he graphe), invoked to defend an argument that turns on a single word. The lexical pattern therefore affirms unrestricted truthfulness. The medium confidence reflects a genuine text-level gap: the words affirm that Scripture is true but do not themselves delimit whether incidental detail, such as numbers, chronology, geography, or phenomenological description (descriptions of how things appear rather than precise scientific accounts), falls inside the claim, nor do they define what counts as an error as opposed to an accommodation or a phenomenological report. That scope is underdetermined by the vocabulary, which is precisely why a later qualifier like \"in all that it affirms\" exists and is contested. The partition into history, science, and chronology is a confessional frame, not a biblical category."

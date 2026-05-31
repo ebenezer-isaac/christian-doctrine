@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-solus-christus",
   "question_id": "doc-solus-christus",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.825,
-    "confidence": "high",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The proposition restates two clauses almost verbatim, and six anchors layer independent negation strategies that all converge on one saving figure. Acts 4:12 stacks \"there is not in another no one the salvation\" (ouk estin en allo oudeni he soteria), then \"nor for a name is there other\" (oude gar onoma estin heteron), with the substantival \"other\" (heteron, used here as a standalone noun), the universal scope \"under heaven\" (hypo ton ouranon), and the impersonal \"it is necessary\" (dei) plus the passive \"to be saved\" (sothenai). 1 Timothy 2:5 puts the numeral \"one\" (heis, G1520) on both \"God\" (theos) and \"mediator\" (mesites, G3316); querying the store, the word for mediator (mesites) occurs 6 times and 4 of them name Christ, the other 2 (in Galatians) name the law-mediator and never a rival saving mediator. Hebrews 7:25 adds \"to save\" (sozein) \"to the uttermost\" (eis to panteles, G3838) and \"to intercede\" (entygchanein, G1793) \"through him\" (di autou). John 14:6 closes with \"no one comes to the Father except through me\" (oudeis erchetai pros ton patera ei me di emou), the strongest exclusive in Koine Greek (the common Greek of the New Testament), and 1 Corinthians 3:11 says \"another foundation no one is able to lay\" (themelion allon oudeis dynatai theinai), identifying the one foundation as \"Jesus Christ\" (Iesous Christos). The vocabulary centers the GROUND of salvation on one figure and supplies no second saving name, mediator, or foundation."

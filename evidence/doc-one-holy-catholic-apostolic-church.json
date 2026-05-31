@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-one-holy-catholic-apostolic-church",
   "question_id": "doc-one-holy-catholic-apostolic-church",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.75,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Querying the tagged Greek New Testament, the four attributes rest on uneven lexical footing. ONE is explicit and emphatic: Ephesians 4:4-6 stacks the cardinal numeral 'one' (εἷς, μία, ἕν, transliterated heis, mia, hen, Strong's G1520, with 247 tagged occurrences) across body, Spirit, hope, Lord, faith, baptism, and God, and Ephesians 4:3 and 4:13 carry the rare noun 'oneness' or 'unity' (ἑνότης, henotes, Strong's G1775), which occurs only twice in the canon and both times in this one chapter. HOLY is dense and pan-canonical (spread across the whole Bible): the word 'holy' (ἅγιος, hagios, Strong's G0040, with 209 occurrences) names the believers themselves as 'the holy ones' or 'the saints' (τῶν ἁγίων, ton hagion) in Ephesians 2:19 and the corporate building as 'a holy temple' (ναὸν ἅγιον, naon hagion) in Ephesians 2:21. APOSTOLIC is anchored by the phrase 'on the foundation of the apostles' (ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων, epi to themelio ton apostolon) in Ephesians 2:20 and 'the teaching of the apostles' (τῇ διδαχῇ τῶν ἀποστόλων, te didache ton apostolon) in Acts 2:42, but the genitive (the 'of-X' grammatical form) and the once-laid foundation grammar of 1 Corinthians 3:10-11 support an apostolic-foundation or apostolic-doctrine sense and do not by themselves encode transmitted office. CATHOLIC has no lexeme (no matching word) at all: the Greek word for universal (καθολικός, katholikos) never occurs in the New Testament, so the universality is carried only conceptually by the phrase 'one body' (ἓν σῶμα, hen soma) and the 'all, of all' (πᾶς, πάντων, pas, panton) series. Three marks rest on explicit words and the fourth on a defensible conceptual reading, so the substance affirms while the formal four-mark frame is creedally preloaded."

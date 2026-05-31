@@ -1,13 +1,12 @@
-"""Deterministic post-processor for verdict.lexical_score.
+"""Deterministic post-processors for v3.1 verdict bands.
 
-Pure function. No I/O, no clock, no random. Reads only counts and booleans from
-the Evidence model, so it is order-invariant by construction. Triangle test
-H11 verifies this in tests.
+Pure functions. No I/O, no clock, no random. Read only counts and booleans
+from the Evidence model, so they are order-invariant by construction.
 """
 
 from __future__ import annotations
 
-from pipeline2.evidence_schema import Evidence
+from pipeline2.evidence_schema import Evidence, LexicalBreadth, VariantStability
 
 WEIGHT_PAN_CANONICAL = 0.25
 WEIGHT_ANCHOR_LEMMA = 0.20
@@ -23,10 +22,14 @@ ANCHOR_LEMMA_CAP = 8
 CROSS_REF_CAP = 12
 CONCORDANCE_CAP = 10
 
+CANON_WIDE_THRESHOLD = 0.85
+BROAD_THRESHOLD = 0.70
+PARTIAL_THRESHOLD = 0.50
+
 SCORE_PRECISION = 6
 
 
-def compute_lexical_score(evidence: Evidence) -> float:
+def _breadth_score(evidence: Evidence) -> float:
     pan_canonical_factor = 1.0 if evidence.verdict.pan_canonical else PAN_CANONICAL_FLOOR
     anchor_lemma_factor = (
         min(len(evidence.lexical_evidence.anchor_lemmas), ANCHOR_LEMMA_CAP) / ANCHOR_LEMMA_CAP
@@ -54,3 +57,23 @@ def compute_lexical_score(evidence: Evidence) -> float:
         + WEIGHT_CONCORDANCE * concordance_breadth_factor
     )
     return round(score, SCORE_PRECISION)
+
+
+def compute_lexical_breadth(evidence: Evidence) -> LexicalBreadth:
+    score = _breadth_score(evidence)
+    pan_canonical = evidence.verdict.pan_canonical
+    if score >= CANON_WIDE_THRESHOLD and pan_canonical:
+        return "canon_wide"
+    if score >= BROAD_THRESHOLD:
+        return "broad"
+    if score >= PARTIAL_THRESHOLD:
+        return "partial"
+    return "thin"
+
+
+def compute_variant_stability(evidence: Evidence) -> VariantStability:
+    if evidence.variants.ecm_status == "n/a":
+        return "not_in_scope"
+    if evidence.verdict.variant_robust:
+        return "stable"
+    return "sensitive"

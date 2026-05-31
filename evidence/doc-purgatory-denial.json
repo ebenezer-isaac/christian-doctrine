@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-purgatory-denial",
   "question_id": "doc-purgatory-denial",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The denial of a stage of cleansing after death for the saved is supported by a convergent lexical pattern. Hebrews 10:14 pairs the perfect indicative (a completed action whose result still stands) 'he has perfected' (tetelEIOken) with 'in perpetuity' (eis to diEnekes), asserting a completed and abiding perfecting of 'the ones being made holy' (tous hagiazomenous). Hebrews 1:3 already names 'having made cleansing of sins' (katharismon tOn hamartiOn poiEsamenos) as a finished act before Christ's session (sitting enthroned) at the right hand. 2 Corinthians 5:8 sets 'to be away from the body' (ekdEmEsai ek tou sOmatos) against 'to be at home with the Lord' (endEmEsai pros ton kyrion) as paired aorist (a completed past action) infinitives with no intermediate stage. Luke 23:43 places 'today' (sEmeron) with 'paradise' (paradeisos) for the dying man. 1 John 1:7 says the blood of Jesus 'cleanses' (katharizei) 'from all sin' (apo pasEs hamartias), scope 'all' (pasEs). Romans 8:1 declares 'no condemnation now' (ouden nyn katakrima) for those in Christ. Philippians 1:23 names 'to depart and be with Christ' (analysai kai syn ChristO einai) as a single state. Luke 16:26 fixes a 'great chasm' (chasma mega) between the two post-death locations. The verdict is medium rather than high because 1 Corinthians 3:13-15 uses 'in fire' (en pyri) of the day of judgment, says 'the wage' (ho misthos) burns and the builder 'will suffer loss' (zEmiOthEsetai), then 'but he himself will be saved, as through fire' (autos de sOthEsetai hOs dia pyros), and Matthew 12:32 names 'it shall not be forgiven... neither in this age nor in the age to come' (ouk aphethEsetai... oute en toutO tO aiOni oute en tO mellonti), a contrast of ages, which a purgatorial (post-death purification) reading has used. The Greek of those texts does not itself require a state of purification for persons, but it also does not foreclose the reading as cleanly as some readers assume."

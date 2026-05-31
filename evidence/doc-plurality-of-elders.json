@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-plurality-of-elders",
   "question_id": "doc-plurality-of-elders",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.92,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "A direct query of the morphologically tagged Greek New Testament (MorphGNT) confirms that the word for elder (presbyteros) is plural in every local-church appointment text: Acts 14:23 and Titus 1:5 both read elders (presbyterous) as accusative plural masculine (the direct object form) objects of the appointing verb, distributed by congregation (kat ekklesian) and by city (kata polin), so a plurality is set over each single congregation. Acts 20:17 calls the Ephesian elders elders (presbyterous, plural), then 20:28 names the same men overseers (episkopous, plural) and commands them to shepherd (poimainein), fusing three terms into one plural office. Philippians 1:1 greets overseers (episkopois) and deacons (diakonois), both dative plural (the to-or-for form), in one church. Across the whole canon elder (presbyteros) occurs 65 times in the SBL Greek New Testament (SBLGNT), 60 of them plural, and the only singular leadership titles, Chief Shepherd (archipoimenos) and the generic singular overseer (episkopon), are reserved for Christ or describe candidate qualification rather than a sole ruler. The plural-oversight pattern is uniform across Acts, Paul, Hebrews, James, and 1 Peter. What the vocabulary does not settle by itself is whether this pervasive descriptive pattern is binding prescription, which is the genuine point of divergence."

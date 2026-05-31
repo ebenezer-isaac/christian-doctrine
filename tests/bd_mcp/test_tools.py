@@ -37,7 +37,7 @@ from bd_mcp.tools.versification_resolve import VersificationResolveInput
 from bd_mcp.tools.versification_resolve import handle as versification_handle
 from ingest.versification_mapper import VersificationMapper
 from pipeline2.evidence_schema import Evidence
-from pipeline2.score_calc import compute_lexical_score
+from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
 
 UUID_REGEX = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
@@ -54,7 +54,8 @@ class _SessionStub:
 def _materialize_trinity(tmp_path: Path) -> Path:
     e = Evidence.model_validate(minimal_evidence_dict())
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     p = tmp_path / "doc-trinity.json"
     p.write_text(json.dumps(e_dict, indent=2), encoding="utf-8")
     return p
@@ -530,8 +531,9 @@ def test_doctrinal_verdict_transform_purity() -> None:
     payload = {
         "lexical_verdict": {
             "affirms": True,
-            "lexical_score": 0.8,
-            "confidence": "high",
+            "lexical_breadth": "canon_wide",
+            "lexical_directness": "direct",
+            "variant_stability": "not_in_scope",
             "source_evidence_files": ["evidence/doc-trinity.json"],
             "rationale": "r",
         },
@@ -554,8 +556,9 @@ def test_doctrinal_verdict_transform_extracts_evidence_file_id() -> None:
     payload = {
         "lexical_verdict": {
             "affirms": True,
-            "lexical_score": 0.8,
-            "confidence": "high",
+            "lexical_breadth": "canon_wide",
+            "lexical_directness": "direct",
+            "variant_stability": "not_in_scope",
             "source_evidence_files": ["evidence/doc-trinity.json"],
         },
         "cultural_overlay": None,
@@ -564,6 +567,27 @@ def test_doctrinal_verdict_transform_extracts_evidence_file_id() -> None:
     }
     out = transform_synthesis_to_envelope(payload)
     assert out["result"]["evidence_file_id"] == "doc-trinity"
+
+
+def test_doctrinal_verdict_transform_surfaces_v31_axes() -> None:
+    """The three v3.1 axes ride out of the transform into result."""
+    payload = {
+        "lexical_verdict": {
+            "affirms": True,
+            "lexical_breadth": "broad",
+            "lexical_directness": "inferred",
+            "variant_stability": "stable",
+            "source_evidence_files": ["evidence/doc-trinity.json"],
+        },
+        "cultural_overlay": None,
+        "variant_sensitivity": None,
+        "license_audit": {"sources_used": []},
+    }
+    out = transform_synthesis_to_envelope(payload)
+    assert out["result"]["verdict"] is True
+    assert out["result"]["lexical_breadth"] == "broad"
+    assert out["result"]["lexical_directness"] == "inferred"
+    assert out["result"]["variant_stability"] == "stable"
 
 
 def test_doctrinal_verdict_fidelity_success(tmp_path: Path) -> None:
@@ -582,8 +606,9 @@ def test_doctrinal_verdict_fidelity_violation(tmp_path: Path) -> None:
         return {
             "lexical_verdict": {
                 "affirms": False,
-                "lexical_score": 0.0,
-                "confidence": "low",
+                "lexical_breadth": "thin",
+                "lexical_directness": "inferred",
+                "variant_stability": "not_in_scope",
                 "source_evidence_files": ["evidence/doc-trinity.json"],
             },
             "cultural_overlay": None,
@@ -698,7 +723,8 @@ def test_license_audit_evidence_file_unsafe(tmp_path: Path) -> None:
     ]
     e = Evidence.model_validate(d)
     e_dict = e.model_dump(by_alias=True)
-    e_dict["verdict"]["lexical_score"] = compute_lexical_score(e)
+    e_dict["verdict"]["lexical_breadth"] = compute_lexical_breadth(e)
+    e_dict["verdict"]["variant_stability"] = compute_variant_stability(e)
     (tmp_path / "doc-x.json").write_text(json.dumps(e_dict), encoding="utf-8")
     env = license_audit_handle(
         LicenseAuditInput(subject_type="evidence_file", subject_id="doc-x"),

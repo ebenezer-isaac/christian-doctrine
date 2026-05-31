@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-christ-two-wills",
   "question_id": "doc-christ-two-wills",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.7125,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "Across the Gethsemane prayer and the Johannine sending sayings the Greek text repeatedly sets one occurrence of the will-noun against another with distinct possessors. Luke 22:42 has the praying Son say 'not my will but yours be done' (me to thelema mou alla to son ginestho), marking the speaker's will by the 'of me' genitive (mou, a noun in the 'from-X' grammatical form) and the Father's by 'yours' (son), joined by the strong contrast words 'however' (plen) and 'but' (alla). John 6:38 and John 5:30 use the word for 'will' (thelema) twice with the article 'the', placing 'the will, the mine' (to thelema to emon) over against 'the will of the one having sent me' (to thelema tou pempsantos me), with 'not' (ouch or ou) followed by 'but' (alla). Matthew 26:39 and Mark 14:36 carry the same shape with the pronouns 'I' (ego) and 'you' (su) governing the verb 'I will' (thelo). The vocabulary itself confirms the contrast is real, since 'will' (thelema) elsewhere names a genuine creaturely will (John 1:13, Ephesians 2:3, 1 Corinthians 7:37), so the Son's own 'will' (thelema) is not reducible to the divine will under another name. What the words do NOT state is the metaphysics (the underlying nature-and-person framework): the contrast they draw is person to person, the praying Son set beside the Father, not two wills lodged in one person mapped to two natures. That mapping is a downstream synthesis the lexical data underdetermine, which holds confidence at medium."

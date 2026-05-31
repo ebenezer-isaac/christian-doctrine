@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-fathers-as-disciplers-and-family-worship",
   "question_id": "prc-fathers-as-disciplers-and-family-worship",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The original-language pattern across the Law, narrative, wisdom writings, and apostolic letters is dense, convergent, and spread across the whole Bible (pan-canonical). Deuteronomy 6:6-7 puts the commanded words on the parent's heart and then governs the verb 'and you shall teach them diligently' (veshinnantam), which is the Hebrew intensive form (piel) of 'to inculcate' or 'sharpen' (shanan), meaning to inculcate sharply, with the object 'to your sons' (levaneka), set in the four-fold daily figure of speech naming the extremes to mean the whole (merism) of sitting, walking, lying down, and rising. Genesis 18:19 anticipates this with God's 'command' (tsavah) that Abraham will direct his children and his household after him. Psalm 78:5-7 reads the same obligation as a divine charge to the 'fathers' (avot), expressed by the Hebrew causative form 'to cause to know' (lehodiam, the hiphil), projected across three generations. Ephesians 6:4 addresses 'the fathers' (hoi pateres) directly with 'bring up' (ektrephete) in 'discipline and admonition of the Lord' (paideia kai nouthesia kyriou), and Colossians 3:21 echoes the same direct-address form with the parallel verb 'do not provoke' (erethizete). The convergence of command-verbs of transmission, the parent-to-child direction, and the household setting carries the proposition. The contested edge is narrow and rests on word choice: 'fathers' (pateres) in Greek can denote either fathers specifically or parents collectively, as Hebrews 11:23 demonstrates of Moses' parents, and Proverbs 1:8 pairs 'the instruction of your father' (musar avika) with 'the teaching of your mother' (torath imeka). So the words affirm parental and household responsibility decisively while leaving the precise weighting of fathers as primary alongside mothers a margin that the vocabulary alone does not fully settle."

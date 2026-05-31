@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-parachurch-ministries",
   "question_id": "doc-parachurch-ministries",
   "generated_at": "2026-05-28T00:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": null,
-    "lexical_score": 0.725,
-    "confidence": "medium",
+    "lexical_breadth": "broad",
+    "lexical_directness": "inferred",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The lexical pattern shows mission and mercy work originating in and tethered to local assemblies, with named procedures of congregational election, fasting, prayer, laying on of hands, and inter-church delegation. The closest analogue to a coordinated administrative team is in 2 Corinthians 8:18-23, where brothers chosen by hand-stretching (that is, formal election by the churches, cheirotonetheis hypo ton ekklesion, chosen by the churches, χειροτονηθεὶς ὑπὸ τῶν ἐκκλησιῶν) and sent together (sympempo, sent along with, συμπέμπω) with Titus are called sent-ones or messengers of churches (apostoloi ekklesion, ἀπόστολοι ἐκκλησιῶν), and 2 Corinthians 9:12 names the collection a public ministry (leitourgia, λειτουργία) and a service (diakonia, διακονία). What the lexicon does not supply is any term for a freestanding organisation that exists alongside or in addition to assembly or church (ekklesia, ἐκκλησία). The proposition asks whether such a later category is legitimate under a stated condition, but the vocabulary names neither the category nor its legitimacy. The verdict is null because the lexical store underdetermines the scope of the stem, with medium confidence because the supportive half is now lexically dense and pan-NT (spread across the whole New Testament)."

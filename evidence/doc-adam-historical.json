@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-adam-historical",
   "question_id": "doc-adam-historical",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.925,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The decisive lexical fact is a tagging split on one orthographic form (the way the word is spelled). The Hebrew consonants alef-dalet-mem are catalogued as TWO lemmas (dictionary headwords): H0120 the common noun (man, humankind) parsed Ncmsa (common noun, masculine, singular, absolute) in 549 of 551 instances, and H0121 the proper name parsed Np (proper noun) in 8 of its 10 instances. The proper name carries individual biography: Genesis 5:3 and 5:5 give an anarthrous (without the article 'the') Adam who lived a stated number of years, begot Seth, and died, and 1 Chronicles 1:1 lists Adam, Seth, Enosh as bare names. The Greek lemma G0076 occurs in 7 verses (Luke 3:38, Romans 5:14, 1 Corinthians 15:22, 15:45, 1 Timothy 2:13, 2:14, Jude 1:14) and EVERY token is morphology-tagged proper noun (N-GSM-P meaning noun, genitive, singular, masculine, proper; N-DSM-P meaning noun, dative, singular, masculine, proper; N-NSM-P meaning noun, nominative, singular, masculine, proper), with no common-noun parse anywhere in the New Testament. The store records a direct lexical bridge from H0121 to G0076. Romans 5 builds on 'one man' (heis anthropos, written as 'of one' henos parsed A-GSM meaning adjective, genitive, singular, masculine, plus 'of man' anthropou parsed N-GSM meaning noun, genitive, singular, masculine) with the consequence reaching 'all men' (pantas anthropous), and 1 Corinthians 15:22 sets 'in Adam' (en to Adam) in strict 'just as . . . so also' (osper . . . outos) parallel with 'in Christ' (en to Christo), so the named individual is load-bearing for the argument."

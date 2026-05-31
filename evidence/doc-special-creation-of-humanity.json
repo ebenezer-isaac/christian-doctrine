@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-special-creation-of-humanity",
   "question_id": "doc-special-creation-of-humanity",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern across Genesis 1:26-27, Genesis 2:7, and Genesis 2:21-22 names God as the direct and personal agent of humanity's origin, and the witness reaches the New Testament. Four verbs carry the load: the Hebrew verb 'to create' (bara, H1254A, queried across all 39 verses with God as the only subject) creates the human and is repeated three times in Genesis 1:27 with the human as the direct object marked by the Hebrew accusative particle eth (the small word that flags 'this is the thing being acted on'); 'to form' or 'to mold like a potter' (yatsar, H3335, the potter verb) forms the man from dust; 'to blow' or 'breathe' (naphach, H5301) blows the breath of life into his nostrils; 'to build' (banah, H1129) builds the woman from his side. Matthew 19:4 (using 'to create', ktizo, and 'to make', poieo) and 1 Timothy 2:13 (using 'to mold or shape', plasso, the Greek mirror of yatsar) restate Adam and the man-female pair as a divine making, so the spread is pan-canonical (spread across the whole Bible). The reading that the words affirm divine agency without specifying biological mechanism is also lexically defensible, since 'to form' (yatsar) is used of God forming individuals in the womb (Jeremiah 1:5, Isaiah 44:2, Psalm 139:16), which is a real mediate process (one that runs through a means). The affirmed point (direct divine agency) is decisive; the question of mechanism is what the vocabulary underdetermines (leaves open)."

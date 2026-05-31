@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "het-british-israelism",
   "question_id": "het-british-israelism",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9125,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern spread across the whole Bible (pan-canonical) supports the proposition. The canon contains zero names for Britain, Anglo-Saxon, or any modern European people, so no verse predicates anything of them. Where Scripture speaks of the twelve tribes it treats them as PRESENT categories, not lost ones. Acts 26:7 uses the word 'twelve-tribe nation' (dodekaphylon, G1429) of contemporary Israel hoping to attain the promise. James 1:1 addresses 'the twelve tribes' (tais dodeka phylais, G1427 plus G5443) in 'the dispersion' (diaspora, G1290). Acts 17:26 grounds 'every nation' (ethnos, G1484) in 'one' source (heis, G1520), removing any privileged modern bloodline, and Galatians 3:28 with Colossians 3:11 use the existential 'there is' (eni, G1762) plus the negation 'not' (ou, G3756) to deny that ethnic categories define standing in Christ."

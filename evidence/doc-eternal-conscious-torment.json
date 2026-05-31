@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-eternal-conscious-torment",
   "question_id": "doc-eternal-conscious-torment",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.95,
-    "confidence": "medium",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The torment vocabulary in Revelation is lexically strong for an unending conscious state. The verb 'to torment' (basanizo) is joined with the phrase 'unto the ages of the ages' (eis tous aionas ton aionon) in Revelation 20:10. The noun 'torment' (basanismos) is paired with the negated phrase 'they have no rest day and night' (anapausin ouk echousin hemeras kai nuktos) in Revelation 14:11. Matthew 25:46 binds 'eternal punishment' (kolasin aionion) to 'eternal life' (zoen aionion) under one adjective 'eternal' (aionios) so the duration claim is symmetrical. The pattern is materially contested because the canon also names the final state with destruction vocabulary: 'destruction' (olethros) in 2 Thessalonians 1:9, 'to destroy' (apollymi) of soul and body in Gehenna (the place of final judgment) in Matthew 10:28, 'destruction' (apoleia) in Philippians 3:19 and 2 Peter 3:7, and second-death 'death' (thanatos) in Revelation 20:14. Also 'eternal' (aionios) in this canon also qualifies completed-event nouns like 'eternal judgment' (krima aionion) in Hebrews 6:2 and 'eternal redemption' (lytrosis aioniou) in Hebrews 9:12, so it can denote permanence of result rather than ongoing process. Two defensible lexical readings coexist; the words and grammar do not rank them."

@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-infallibility",
   "question_id": "doc-scripture-infallibility",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "Three independent grammatical engines converge on the proposition. John 10:35 predicates incapacity of failure directly of the written text: 'Scripture is not able to be broken' (ou dunatai luthenai he graphe), where 'is able' (dunamai) stands in the present indicative (an ongoing, simple statement of fact, not a wish) negated by 'not' (ou), and 'to be broken' (luo) is an aorist passive infinitive (a completed-action verbal noun in the passive voice), so the clause reads 'the Scripture is-not-able to-be-broken', with 'the writing' (graphe, the writing itself) as grammatical subject. Isaiah 55:11 uses a negated efficacy construction, 'it shall not return empty' (lo yashuv reyqam), the word from God's mouth shall not return empty-handed, where 'empty' (reyqam) is the standard term for a null, result-less outcome (Genesis 31:42, Exodus 23:15, Ruth 1:21), and the 'but rather' (ki im) pivot asserts it shall instead 'accomplish' (asah) what God 'delights in' (hafets). Matthew 5:18 and Luke 16:17 add the durability sayings: the emphatic double negation 'by no means' (ou me) with aorist subjunctive (a completed-action mood expressing strong denial of future possibility) 'pass away' (parelthe) and the comparative 'easier' (eukopoteron) place the survival of the smallest text-token, 'iota' (the smallest Greek letter, a hapax meaning a word occurring only once in the entire Bible) and 'serif stroke' (keraia, occurring only twice), above the survival of heaven and earth. The vocabulary asserts that divine speech and the inscripturated text cannot fail of their purpose; what the words do not delimit is the precise scope of that reliability, which is where readers diverge."

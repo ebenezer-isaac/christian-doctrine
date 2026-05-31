@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-episcopal-polity-denial",
   "question_id": "doc-episcopal-polity-denial",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": "disputed",
-    "lexical_score": 0.6125,
-    "confidence": "medium",
+    "lexical_breadth": "partial",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": false,
     "rationale": "The proposition has two clauses. The first, that the Greek words overseer (episkopos) and elder (presbyteros) name one office, is strongly supported by the morphology (the word-form analysis). In Acts 20 Paul summons the elders (presbyterous) in verse 17 and tells those same men the Spirit made them overseers (episkopous) in verse 28, parsed as accusative plural masculine (the 'direct object' grammatical form, plural, applied to male persons), with the same referents. In Titus 1 he says to appoint elders (presbyterous, accusative plural masculine) in verse 5 and then with the connective 'for' (gar) describes the overseer (episkopon, accusative singular masculine, the 'direct object' singular form), grounding the singular generic overseer in the plural elders just named. In 1 Peter 5 a fellow elder (sympresbyteros) tells elders (presbyteroi) to shepherd (poimanate), exercising oversight (episkopountes), so the cognate verb of overseer (episkopos) names the elders' own task. The second clause, that no ranked tier of bishops over multiple congregations distinct from elders is established, is a negative the vocabulary cannot prove. The overseer (episkopos) word stock is sparse, seven tokens, New Testament only, two of them colophon subscriptions (closing notes appended to copies of letters), and the same data are read by some as institutional silence forbidding such a tier and by others as leaving room for the translocal (across-multiple-locations) appointing roles of Titus and Timothy. The words do not rank the two readings, so the whole proposition is materially contested."

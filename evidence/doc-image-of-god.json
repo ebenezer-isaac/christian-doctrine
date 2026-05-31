@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-image-of-god",
   "question_id": "doc-image-of-god",
   "generated_at": "2026-05-27T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.9625,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "That humanity bears God's image is lexically decisive. The Hebrew words for image (tselem, Strong's H6754) and likeness (demuth, H1823) are predicated of humanity (adam, H0120) at creation in Genesis 1:26-27, with both nouns carrying the first-person-plural suffix (in our image, after our likeness, that is, the 'our' belongs to God). The same word image (tselem) grounds the murder prohibition in Genesis 9:6 through a 'because' clause (causal ki, the Hebrew word for 'because'), confirming the image persists after the fall and covers every human whose blood may be shed. Psalm 8 restates it in royal idiom and James 3:9 uses a perfect participle (a verb form marking a completed action whose result still stands, namely gegonotas, 'having been made') marking God's likeness (homoiosis) as an abiding condition of all people. The proposition is affirmed with high confidence. What the grammar leaves open is the CONTENT of the image, not its fact: image (tselem) most often denotes a physical representation or statue and likeness (demuth) a resemblance, and the coordinate command 'let them rule' (jussive radah, a Hebrew verb form expressing a wish or command, attached by a connecting 'and') is syntactically consequent to the image clause, not its definition, so substantive (the image is something humans ARE), relational (the image is how humans relate), and functional (the image is what humans DO as God's representatives) readings all fit the words."

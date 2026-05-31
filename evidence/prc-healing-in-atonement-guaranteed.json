@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "prc-healing-in-atonement-guaranteed",
   "question_id": "prc-healing-in-atonement-guaranteed",
   "generated_at": "2026-05-28T05:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": false,
-    "lexical_score": 0.975,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "stable",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The proposition fuses two claims. The first, that the Servant bears real disease at the cross, has genuine Hebrew support, the words 'sickness' (choli) and 'pain' (makob) in Isaiah 53:4 are concrete sickness and pain, and 'heal' (rapha) stands in Isaiah 53:5. The second, that physical healing is therefore a present guaranteed entitlement so that lack of healing implies lack of faith, is what the canon will not say. Matthew 8:17 quotes Isaiah 53:4 as fulfilled, 'to fulfill' (pleroo), in Jesus' own evening of healing ministry, not as a standing promise to every later believer. 1 Peter 2:24 puts 'heal' (iaomai) inside a sentence framed by 'sin' (hamartia) and 'die to, depart from' (apoginomai), dying to sin, and the wound, 'wound, bruise' (molops), is anchored to the cross. Paul's own 'thorn' (skolops), a hapax (a word that occurs only once in the entire Bible) in 2 Corinthians 12:7, was prayed off three times and refused. 'Weakness' (astheneia) and 'to be weak' (astheneo) are used 24 and 33 times in the New Testament for legitimate weakness in believers, including the apostle, Timothy, Epaphroditus near death, and Trophimus left behind sick. Romans 8:23 keeps the redemption of the body future for Spirit-filled believers. The lexical pattern denies the second clause decisively."

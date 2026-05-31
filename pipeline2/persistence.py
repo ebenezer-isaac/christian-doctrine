@@ -96,8 +96,9 @@ def _upsert_verdict_node(evidence: Evidence, driver: Driver) -> None:
     cypher = """
     MERGE (v:Verdict {question_id: $qid})
     SET v.affirms = $affirms,
-        v.lexical_score = $score,
-        v.confidence = $confidence,
+        v.lexical_breadth = $lexical_breadth,
+        v.lexical_directness = $lexical_directness,
+        v.variant_stability = $variant_stability,
         v.generated_at = $generated_at,
         v.pipeline_version = $pipeline_version,
         v.evidence_safe_to_publish = $safe
@@ -114,8 +115,9 @@ def _upsert_verdict_node(evidence: Evidence, driver: Driver) -> None:
     params: dict[str, Any] = {
         "qid": evidence.question_id,
         "affirms": affirms_str,
-        "score": evidence.verdict.lexical_score,
-        "confidence": evidence.verdict.confidence,
+        "lexical_breadth": evidence.verdict.lexical_breadth,
+        "lexical_directness": evidence.verdict.lexical_directness,
+        "variant_stability": evidence.verdict.variant_stability,
         "generated_at": evidence.generated_at,
         "pipeline_version": evidence.pipeline_version,
         "safe": evidence.license_audit.evidence_safe_to_publish,

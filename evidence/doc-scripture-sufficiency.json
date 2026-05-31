@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-scripture-sufficiency",
   "question_id": "doc-scripture-sufficiency",
   "generated_at": "2026-05-27T06:00:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 1.0,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "The lexical pattern affirms the core claim across both testaments. In 2 Timothy 3:16-17 the predicate of completeness rests on two cognate words from the same root, \"fitted, complete\" (ἄρτιος, G0739) and the perfect passive participle (a completed action whose result still stands, in passive voice) \"fully outfitted\" (ἐξηρτισμένος) from \"to finish out, fully outfit\" (ἐξαρτίζω, G1822), declaring the man of God complete and equipped \"for every good work\" (πρὸς πᾶν ἔργον ἀγαθόν). 2 Peter 1:3 parallels this with the perfect participle \"having gifted\" (δεδωρημένης, G1433) governing \"all the things pertaining to life and godliness\" (πάντα τὰ πρὸς ζωὴν καὶ εὐσέβειαν), a completed and enduring bestowal. The Old Testament pole is the add-and-subtract merism (a two-part figure naming the extremes to mean the whole): the Hebrew causative form (hiphil) of \"to add\" (יסף, yasaph, H3254) and the simple active form (qal) of \"to subtract\" (גרע, gara, H1639) flanked by emphatic \"not\" (לֹא, lo) in Deuteronomy 4:2, repeated verbatim with the same \"I am commanding\" (אָנֹכִי מְצַוֶּה, anoki metsavveh) formula in Deuteronomy 13:1 (English 12:32), the add half alone in Proverbs 30:6, and rendered in Greek by \"to put on, add\" (ἐπιτίθημι, epitithemi, G2007) and \"to take away\" (ἀφαιρέω, aphaireo, G0851) in Revelation 22:18-19, a real high-vote cross-reference chain in the store. Two honest limits keep this from being airtight at the word level. First, the strongest sufficiency words are rare: \"fitted, complete\" (ἄρτιος, artios) and \"God-breathed\" (θεόπνευστος, theopneustos) are each hapax (a word that occurs only once in the entire Bible), and \"to finish out\" (ἐξαρτίζω, exartizo) occurs only twice, so their force rests on cognate morphology and context rather than canon-wide distribution. Second, the same add-and-subtract idiom takes a different object in Ecclesiastes 3:14 (God's deeds) and Numbers 36:3-4 (land inheritance), so the words forbid editing God's verbal revelation but do not by themselves fix the extent of the canon or the precise scope of every good work. The core proposition (Scripture renders the believer complete for faith and practice and forbids supplement) holds across law, wisdom, epistle, and apocalypse and is undisturbed by the variant forms on the cited verses."

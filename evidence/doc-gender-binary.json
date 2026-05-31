@@ -1,5 +1,5 @@
 {
-  "$schema_version": "3.0",
+  "$schema_version": "3.1",
   "id": "doc-gender-binary",
   "question_id": "doc-gender-binary",
   "generated_at": "2026-05-27T06:30:00Z",
@@ -7,8 +7,9 @@
   "model": "claude-opus-4-7",
   "verdict": {
     "affirms": true,
-    "lexical_score": 0.95,
-    "confidence": "high",
+    "lexical_breadth": "canon_wide",
+    "lexical_directness": "direct",
+    "variant_stability": "not_in_scope",
     "variant_robust": true,
     "pan_canonical": true,
     "rationale": "A single fixed two-term word pair describes humanity at creation across the Law of Moses (Torah) and the Gospels. Genesis 1:27 makes 'male' (zakar, H2145) and 'female' (neqevah, H5347) the terminal specification of the verb 'to create' (bara, H1254A) with God as the subject, repeated at Genesis 5:2. The whole-canon distribution settles the merism question (a merism is a two-part figure naming the extremes to mean the whole) against an open reading: in the 15 verses where the pair stands together it always sorts a set exhaustively into exactly two bins, and the vow valuations of Leviticus 27:3-7 price every person as either 'the male' (ha-zakar) or 'for the female' (la-neqevah) with no third bracket, so the pair partitions a whole rather than gesturing at a spectrum. Jesus quotes the pair verbatim in Matthew 19:4 and Mark 10:6 as 'male and female he made them' (arsen kai thely epoiesen autous), anchored 'from the beginning' (ap arches), and Paul reuses 'male' (arsen) and 'female' (thely) with 'natural use' (phusike chresis) in Romans 1:26-27. No canonical text places a third anthropological term beside 'male' (zakar) and 'female' (neqevah) or 'male' (arsen) and 'female' (thely)."
