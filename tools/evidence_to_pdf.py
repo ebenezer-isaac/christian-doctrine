@@ -528,7 +528,7 @@ def _verdict_badge(evidence: dict[str, Any], styles: dict[str, ParagraphStyle]) 
     meta = Paragraph(body or esc("verdict quality unavailable"), styles["verdict_meta"])
     return Table(
         [[label, meta]],
-        colWidths=[CONTENT_W * 0.62, CONTENT_W * 0.38],
+        colWidths=[CONTENT_W * 0.32, CONTENT_W * 0.68],
         style=TableStyle(
             [
                 ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor(BAND)),
