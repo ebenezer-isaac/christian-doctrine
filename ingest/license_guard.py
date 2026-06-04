@@ -12,7 +12,13 @@ _COMPOSITE_MAP: dict[str, str] = {
     "macula-greek": "CC-BY-NC-4.0",
 }
 
-_ALWAYS_ALLOWED = frozenset({"public_domain", "cc-by", "cc-by-4.0", "cc-by-sa-4.0"})
+# "pd" and "cc0" are the historical-layer slugs (docs/HISTORICAL_SCHEMA.md
+# "license fields"): PD is public-domain-by-age (Whiston, Yonge, Charles,
+# Melmoth, Torat Emet), CC0 is the Sefaria Community Translation dedication.
+# Both are unconditionally redistributable, like the other permissive slugs.
+_ALWAYS_ALLOWED = frozenset(
+    {"public_domain", "pd", "cc0", "cc-by", "cc-by-4.0", "cc-by-sa-4.0"}
+)
 _SNIPPET_ONLY_CAPPED = frozenset({"cc-by-nc-4.0", "parsed-sanitized"})
 _PROPRIETARY_PREFIXES = ("©", "(c)", "copyright", "proprietary", "fair-use")
 
