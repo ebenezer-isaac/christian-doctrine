@@ -1,0 +1,352 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-bodily-resurrection-all",
+  "question_id": "doc-bodily-resurrection-all",
+  "generated_at": "2026-06-04T12:30:56Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "mishnah.sanhedrin.10.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.10.1",
+        "anchor_alt_citation": "m. Sanhedrin 11:1 (Vilna numbering)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Hebrew, Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה",
+      "rationale": "This text makes resurrection of the dead (techiyat hametim) a load-bearing doctrine, ruling that one who denies it has no share in the world to come. It is an independent rabbinic preservation of the same resurrection hope the verdict reads in Daniel 12:2 and Acts 24:15, treating bodily resurrection as a settled article rather than an open question.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-torat-emet-357"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138", "Vilna 1908-1913"],
+        "loss_status": "complete"
+      },
+      "text": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "text_to_embed": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Torat Emet Hebrew text in the public domain."
+    },
+    {
+      "witness_id": "mishnah.pirkei-avot.4.22",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.pirkei-avot",
+        "work_title": "Mishnah Pirkei Avot",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.pirkei-avot.4.22",
+        "anchor_alt_citation": "m. Avot 4:29 (some editions)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Hebrew, Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן",
+      "rationale": "The saying pairs the dead being brought back to life with the living being judged, holding resurrection and judgment together in a single sequence. This parallels the verdict's reading of John 5:28-29, where one resurrection issues in either life or judgment, and independently preserves the expectation that the dead are raised to face account.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-torat-emet-357"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138"],
+        "loss_status": "complete"
+      },
+      "text": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "text_to_embed": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Torat Emet Hebrew text in the public domain."
+    },
+    {
+      "witness_id": "josephus.ant.18.12",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.12",
+        "anchor_alt_citation": "Ant 18.1.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng1 (CC-BY-SA-4.0)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.83,
+      "evidence_phrase": "the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again",
+      "rationale": "Josephus reports the Pharisaic belief that the wicked are detained in everlasting punishment while the righteous revive and live again, a two-destiny structure that parallels the just-and-unjust framing of Acts 24:15 and the life-or-judgment partition of John 5:28-29. It is an independent first-century witness that the resurrection hope, with differing outcomes, was a live Jewish position contemporaneous with the New Testament.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now, for the Pharisees, they live meanly, and despise delicacies in diet; and they follow the conduct of reason; and what that prescribes to them as good for them they do; and they think they ought earnestly to strive to observe reason’s dictates for practice. They also pay a respect to such as are in years; nor are they so bold as to contradict them in any thing which they have introduced; and when they determine that all things are done by fate, they do not take away the freedom from men of acting as they think fit; since their notion is, that it hath pleased God to make a temperament, whereby what he wills is done, but so that the will of man can act virtuously or viciously. They also believe that souls have an immortal rigor in them, and that under the earth there will be rewards or punishments, according as they have lived virtuously or viciously in this life; and the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again; on account of which doctrines they are able greatly to persuade the body of the people; and whatsoever they do about Divine worship, prayers, and sacrifices, they perform them according to their direction; insomuch that the cities give great attestations to them on account of their entire virtuous conduct, both in the actions of their lives and their discourses also.",
+      "text_to_embed": "Now, for the Pharisees, they live meanly, and despise delicacies in diet; and they follow the conduct of reason; and what that prescribes to them as good for them they do; and they think they ought earnestly to strive to observe reason’s dictates for practice. They also pay a respect to such as are in years; nor are they so bold as to contradict them in any thing which they have introduced; and when they determine that all things are done by fate, they do not take away the freedom from men of acting as they think fit; since their notion is, that it hath pleased God to make a temperament, whereby what he wills is done, but so that the will of man can act virtuously or viciously. They also believe that souls have an immortal rigor in them, and that under the earth there will be rewards or punishments, according as they have lived virtuously or viciously in this life; and the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again; on account of which doctrines they are able greatly to persuade the body of the people; and whatsoever they do about Divine worship, prayers, and sacrifices, they perform them according to their direction; insomuch that the cities give great attestations to them on account of their entire virtuous conduct, both in the actions of their lives and their discourses also.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.18.16",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.16",
+        "anchor_alt_citation": "Ant 18.1.4 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng1 (CC-BY-SA-4.0)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.74,
+      "evidence_phrase": "But the doctrine of the Sadducees is this: That souls die with the bodies",
+      "rationale": "Josephus records the Sadducean denial that souls survive the body, the position the New Testament also reports as a denial of resurrection. Read alongside his Pharisee notice, this shows the doctrine was actively contested within first-century Judaism, which frames why Acts 24:15 and the Gospels assert bodily resurrection as a claim under dispute rather than a universally held assumption. The verdict stands; this records the surrounding debate.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "But the doctrine of the Sadducees is this: That souls die with the bodies; nor do they regard the observation of any thing besides what the law enjoins them; for they think it an instance of virtue to dispute with those teachers of philosophy whom they frequent: but this doctrine is received but by a few, yet by those still of the greatest dignity. But they are able to do almost nothing of themselves; for when they become magistrates, as they are unwillingly and by force sometimes obliged to be, they addict themselves to the notions of the Pharisees, because the multitude would not otherwise bear them.",
+      "text_to_embed": "But the doctrine of the Sadducees is this: That souls die with the bodies; nor do they regard the observation of any thing besides what the law enjoins them; for they think it an instance of virtue to dispute with those teachers of philosophy whom they frequent: but this doctrine is received but by a few, yet by those still of the greatest dignity. But they are able to do almost nothing of themselves; for when they become magistrates, as they are unwillingly and by force sometimes obliged to be, they addict themselves to the notions of the Pharisees, because the multitude would not otherwise bear them.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "1enoch.51.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Similitudes)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.51.1",
+        "anchor_alt_citation": "1 En 51:1",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Enoch (Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.84,
+      "evidence_phrase": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes.",
+      "rationale": "The earth and Sheol giving back the dead they hold is an image of the dead being raised, the same expectation the verdict reads in Daniel 12:2 and Revelation 20:13, where the sea and death and Hades give up their dead. As a second-temple Jewish text it independently preserves the resurrection hope rather than depending on the New Testament.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Greek Codex Panopolitanus", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "text_to_embed": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation in the public domain."
+    },
+    {
+      "witness_id": "1enoch.62.15",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Similitudes)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.62.15",
+        "anchor_alt_citation": "1 En 62:15",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Enoch (Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "rationale": "The righteous rising from the earth and being clothed with garments of glory parallels the bodily-transformation language the verdict reads in 1 Corinthians 15:42-49 and Philippians 3:21. This second-temple text independently attests a resurrection of the righteous into a glorified state, corroborating that the hope predates and surrounds the New Testament witness.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Greek Codex Panopolitanus"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "text_to_embed": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation in the public domain."
+    },
+    {
+      "witness_id": "1enoch.92.10",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Epistle of Enoch)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.92.10",
+        "anchor_alt_citation": "1 En 92:3",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Enoch (Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "And the righteous shall arise from their sleep,",
+      "rationale": "The righteous arising from their sleep reuses the sleep-and-awaking idiom for resurrection that the verdict reads in Daniel 12:2, where those sleeping in the dust awake. This is an independent second-temple attestation of the same vocabulary, reinforcing that the awaking-from-sleep image for resurrection was current in the Jewish world around the New Testament period.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the righteous shall arise from their sleep, And wisdom shall arise and be given unto them. [",
+      "text_to_embed": "And the righteous shall arise from their sleep, And wisdom shall arise and be given unto them. [",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation in the public domain."
+    },
+    {
+      "witness_id": "sibor.4.181",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "sibor",
+        "work_id": "sibor",
+        "work_title": "Sibylline Oracles (Book 4)",
+        "author": null,
+        "date_written_range": "c. 80 CE",
+        "anchor_id": "sibor.4.181",
+        "anchor_alt_citation": "Sib. Or. 4.181-185",
+        "language": "en",
+        "translator": "H. C. O. Lanchester (in Charles 1913)",
+        "edition": "Charles 1913, Apocrypha and Pseudepigrapha vol. 2 (Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth when God gives breath and life and grace to them,",
+      "rationale": "This oracle joins a final judgment with two outcomes, the impious returned to earth and Tartarus and the godly living again, which parallels the both-classes scope the verdict reads in Acts 24:15 and the doubled destinies of Daniel 12:2 and John 5:29. It independently attests that a resurrection hope distinguishing the godly from sinners circulated in second-temple Jewish literature.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-charles-1913"],
+        "extant_witnesses": ["Greek Sibylline MSS (Geffcken edition tradition)"],
+        "loss_status": "complete"
+      },
+      "text": "And then the judgement shall come wherein God himself shall give sentence, judging the world again. And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth when God gives breath and life and grace to them,",
+      "text_to_embed": "And then the judgement shall come wherein God himself shall give sentence, judging the world again. And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth when God gives breath and life and grace to them,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation in the public domain."
+    },
+    {
+      "witness_id": "philo.appendix-fragmenta.186",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.appendix-fragmenta",
+        "work_title": "Philo, Fragments (extracted via John of Damascus and others)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.appendix-fragmenta.186",
+        "anchor_alt_citation": "Philo, Fragmenta (Yonge appendix) 186",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854, The Works of Philo, appendix fragments (Public Domain)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.62,
+      "evidence_phrase": "have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow,",
+      "rationale": "This fragment names a resurrection hereafter and reads sleep as its foreshadowing, which connects to the sleep-and-awaking idiom of Daniel 12:2. The attestation is held at modest confidence because the line survives only as an excerpted fragment of uncertain attribution, and Philo's dominant thought is soul immortality rather than bodily resurrection, so the connection is real but partial. The verdict does not depend on it.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original-lost", "greek-excerpt-john-of-damascus", "english-yonge-1854"],
+        "extant_witnesses": ["Sacra Parallela excerpt tradition"],
+        "loss_status": "fragmentary"
+      },
+      "text": "Very naturally some who have been wise enough to arrive at correct notions of the truth, have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow, for it bears in itself visible images of both conditions, for it removes the same man from his state of perfection and brings him back to it.",
+      "text_to_embed": "Very naturally some who have been wise enough to arrive at correct notions of the truth, have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow, for it bears in itself visible images of both conditions, for it removes the same man from his state of perfection and brings him back to it.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation in the public domain."
+    }
+  ],
+
+  "summary": "The extra-biblical record around the New Testament independently preserves a Jewish resurrection hope that lines up with the lexical verdict without depending on it. Mishnah Sanhedrin 10:1 makes resurrection of the dead a load-bearing article, denying a share in the world to come to anyone who rejects it, and Pirkei Avot 4:22 holds the dead being brought to life together with the living being judged. Josephus reports the live first-century dispute: the Pharisees taught that the wicked are held in everlasting punishment while the righteous revive and live again, while the Sadducees denied that souls outlast the body. That two-destiny Pharisaic structure parallels the just-and-unjust scope of Acts 24:15 and the life-or-judgment partition of John 5:28-29. Second-temple texts add the same imagery: 1 Enoch has the earth and Sheol give back the dead, the righteous arise from their sleep, and the elect rise clothed in garments of glory, which echoes the transformation language of 1 Corinthians 15 and Philippians 3:21. The Sibylline Oracles join a final judgment with two outcomes, the impious covered by earth and Tartarus and the godly living again. A Philo fragment names a resurrection hereafter, though Philo's main current is soul immortality, so it is held at modest confidence. None of these witnesses overrides the verdict. They corroborate that bodily resurrection, including differing outcomes for the righteous and the wicked, was a contested but widely attested Jewish expectation in the period.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true},
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "sibor", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

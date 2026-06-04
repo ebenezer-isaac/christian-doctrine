@@ -1,0 +1,97 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-demon-possession-of-unbelievers",
+  "question_id": "doc-demon-possession-of-unbelievers",
+  "generated_at": "2026-06-04T12:32:24Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.8.42",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.8.42",
+        "anchor_alt_citation": "Ant 8.2.5 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian ... he drew out the demon through his nostrils; and when the man fell down immediately, he abjured him to return into him no more",
+      "rationale": "Josephus independently records the same first-century phenomenon the Gospels describe, persons spoken of as demoniacal and as inhabited by a demon that is expelled by command and adjured never to return. The vocabulary of a spirit drawn out of the man and ordered not to come back parallels the spatial grammar of entering and coming out of a person noted in the lexical verdict. It attests the phenomenon of possession and exorcism, not any believer or unbeliever distinction, which Josephus does not address.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese 1885-1895"],
+        "loss_status": "complete"
+      },
+      "text": "God also enabled him to learn that skill which expels demons, which is a science useful and sanative to men. He composed such incantations also by which distempers are alleviated. And he left behind him the manner of using exorcisms, by which they drive away demons, so that they never return; and this method of cure is of great force unto this day; for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian, and his sons, and his captains, and the whole multitude of his soldiers. The manner of the cure was this: He put a ring that had a Foot of one of those sorts mentioned by Solomon to the nostrils of the demoniac, after which he drew out the demon through his nostrils; and when the man fell down immediately, he abjured him to return into him no more, making still mention of Solomon, and reciting the incantations which he composed. And when Eleazar would persuade and demonstrate to the spectators that he had such a power, he set a little way off a cup or basin full of water, and commanded the demon, as he went out of the man, to overturn it, and thereby to let the spectators know that he had left the man.",
+      "text_to_embed": "God also enabled him to learn that skill which expels demons, which is a science useful and sanative to men. He composed such incantations also by which distempers are alleviated. And he left behind him the manner of using exorcisms, by which they drive away demons, so that they never return; and this method of cure is of great force unto this day; for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian, and his sons, and his captains, and the whole multitude of his soldiers. The manner of the cure was this: He put a ring that had a Foot of one of those sorts mentioned by Solomon to the nostrils of the demoniac, after which he drew out the demon through his nostrils; and when the man fell down immediately, he abjured him to return into him no more, making still mention of Solomon, and reciting the incantations which he composed. And when Eleazar would persuade and demonstrate to the spectators that he had such a power, he set a little way off a cup or basin full of water, and commanded the demon, as he went out of the man, to overturn it, and thereby to let the spectators know that he had left the man.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "mishnah.eruvin.4.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.eruvin",
+        "work_title": "Mishnah Eruvin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.eruvin.4.1",
+        "anchor_alt_citation": "m. Eruvin 4:1",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (PD Hebrew)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "מִי שֶׁהוֹצִיאוּהוּ גוֹיִם אוֹ רוּחַ רָעָה, אֵין לוֹ אֶלָּא אַרְבַּע אַמּוֹת",
+      "rationale": "The Mishnah treats as an ordinary legal contingency the case of a person carried beyond the Sabbath limit by an evil spirit, ruach ra'ah, placing such a spirit alongside human captors as an external agent that can seize and move a person against their will. This parallels the broader phenomenon of affliction and control by spirits that the lexical verdict describes, though the Mishnah addresses Sabbath law and not full inhabitation or the believer and unbeliever distinction. It is an independent rabbinic witness that the surrounding culture took spirit affliction of persons as a real and assumed reality.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnaic-hebrew-torat-emet"],
+        "extant_witnesses": ["Torat Emet 357 vocalized text"],
+        "loss_status": "complete"
+      },
+      "text": "מִי שֶׁהוֹצִיאוּהוּ גוֹיִם אוֹ רוּחַ רָעָה, אֵין לוֹ אֶלָּא אַרְבַּע אַמּוֹת. הֶחֱזִירוּהוּ, כְּאִלּוּ לֹא יָצָא. הוֹלִיכוּהוּ לְעִיר אַחֶרֶת. נְתָנוּהוּ בְדִיר אוֹ בְסַהַר, רַבָּן גַּמְלִיאֵל וְרַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אוֹמְרִים, מְהַלֵּךְ אֶת כֻּלָּהּ. רַבִּי יְהוֹשֻׁעַ וְרַבִּי עֲקִיבָא אוֹמְרִים, אֵין לוֹ אֶלָּא אַרְבַּע אַמּוֹת.",
+      "text_to_embed": "מִי שֶׁהוֹצִיאוּהוּ גוֹיִם אוֹ רוּחַ רָעָה, אֵין לוֹ אֶלָּא אַרְבַּע אַמּוֹת. הֶחֱזִירוּהוּ, כְּאִלּוּ לֹא יָצָא. הוֹלִיכוּהוּ לְעִיר אַחֶרֶת. נְתָנוּהוּ בְדִיר אוֹ בְסַהַר, רַבָּן גַּמְלִיאֵל וְרַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אוֹמְרִים, מְהַלֵּךְ אֶת כֻּלָּהּ. רַבִּי יְהוֹשֻׁעַ וְרַבִּי עֲקִיבָא אוֹמְרִים, אֵין לוֹ אֶלָּא אַרְבַּע אַמּוֹת.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Torat Emet vocalized Hebrew, PD."
+    }
+  ],
+
+  "summary": "Two extra-biblical witnesses independently attest the phenomenon of affliction and control of persons by spirits that the lexical verdict describes, though neither adjudicates the believer or unbeliever distinction, which these sources do not address. Josephus, writing in the 90s CE, reports that he personally watched an exorcist named Eleazar release people who were demoniacal before Vespasian, drawing the demon out through the man's nostrils, with the man falling down and the demon adjured to return into him no more, and then made to overturn a basin of water as it went out of the man. This closely parallels the Gospel grammar of a spirit entering and coming out of a person and being commanded never to return. The Mishnah, compiled around 200 CE, treats as a routine legal case a person carried off by an evil spirit, ruach ra'ah, ranking such a spirit beside human captors as an external agent that can seize and move someone against their will. Together they show that first and second century Jewish culture took the possession and affliction of persons by spirits, and their expulsion by command, as a real and assumed reality. They do not weigh in on whether only unbelievers can be fully inhabited. The lexical verdict stands; these witnesses corroborate the underlying phenomenon without adjudicating its precise doctrinal boundary.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

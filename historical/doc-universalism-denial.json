@@ -1,0 +1,351 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-universalism-denial",
+  "question_id": "doc-universalism-denial",
+  "generated_at": "2026-06-04T12:31:26Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.62.13",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.62.13",
+        "anchor_alt_citation": "1 Enoch 62:13 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.84,
+      "evidence_phrase": "And the righteous and elect shall be saved on that day, And they shall never thenceforward see the face of the sinners and unrighteous.",
+      "rationale": "1 Enoch's Similitudes set the saved righteous and elect over against the sinners and unrighteous as two permanently separated groups on the day of judgement. This is an independent second-temple witness to differentiated final destinies, the same exclusion pattern the lexical verdict reads at Matthew 25:46 and Daniel 12:2. It is recorded as parallel because the tradition runs alongside the canon rather than depending on it.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)", "Codex Panopolitanus (Greek)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the righteous and elect shall be saved on that day, And they shall never thenceforward see the face of the sinners and unrighteous.",
+      "text_to_embed": "And the righteous and elect shall be saved on that day, And they shall never thenceforward see the face of the sinners and unrighteous.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.10.13",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 200 BCE (Book of the Watchers)",
+        "anchor_id": "1enoch.10.13",
+        "anchor_alt_citation": "1 Enoch 10:13 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "In those days they shall be led off to the abyss of fire: and to the torment and the prison in which they shall be confined for ever.",
+      "rationale": "The Book of the Watchers assigns the condemned to an abyss of fire and a prison in which they are confined for ever, a final state of irreversible exclusion. This parallels the verdict's lexical reading of eternal punishment at Matthew 25:46 and the lake of fire at Revelation 20:15. The witness independently attests that some are permanently shut out of blessedness, contrary to a universal-reconciliation reading.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-202 (Aramaic, Book of the Watchers)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "In those days they shall be led off to the abyss of fire: 〈 and 〉 to the torment and the prison in which they shall be confined for ever. And whosoever shall be condemned and destroyed will from thenceforth be bound together with them to the end of all generations.",
+      "text_to_embed": "In those days they shall be led off to the abyss of fire: 〈 and 〉 to the torment and the prison in which they shall be confined for ever. And whosoever shall be condemned and destroyed will from thenceforth be bound together with them to the end of all generations.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.22.11b",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 200 BCE (Book of the Watchers)",
+        "anchor_id": "1enoch.22.11b",
+        "anchor_alt_citation": "1 Enoch 22:11 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "Here their spirits shall be set apart in this great pain, till the great day of judgement, scourgings, and torments of the accursed for ever, so that (there maybe) retribution for their spirits. There He shall bind them for ever.",
+      "rationale": "The chambers-of-the-dead vision sets one class of spirits apart for torments of the accursed for ever, distinguished from the righteous in the same passage. This is an independent second-temple attestation that destinies after death are differentiated and that the wicked face a lasting, not temporary, retribution. It runs parallel to the verdict's exclusion-class pattern rather than feeding it.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-202 (Aramaic)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Here their spirits shall be set apart in this great pain, till the great day of judgement, scourgings, and torments of the accursed for ever, so that (there maybe) retribution for their spirits. There He shall bind them for ever.",
+      "text_to_embed": "Here their spirits shall be set apart in this great pain, till the great day of judgement, scourgings, and torments of the accursed for ever, so that (there maybe) retribution for their spirits. There He shall bind them for ever.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.45.2",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 100 BCE (Similitudes)",
+        "anchor_id": "1enoch.45.2",
+        "anchor_alt_citation": "1 Enoch 45:2 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.76,
+      "evidence_phrase": "And into the heaven they shall not ascend, And on the earth they shall not come: Such shall be the lot of the sinners Who have denied the name of the Lord of Spirits.",
+      "rationale": "The Similitudes mark out the lot of those who have denied the name of the Lord of Spirits as exclusion from both heaven and the renewed earth. This independently attests a fixed class who are shut out of final salvation, paralleling John 3:36 and 2 Thessalonians 1:9 in the verdict. It is parallel because the second-temple stream develops the picture in its own terms.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And into the heaven they shall not ascend, And on the earth they shall not come: Such shall be the lot of the sinners Who have denied the name of the Lord of Spirits, Who are thus preserved for the day of suffering and tribulation.",
+      "text_to_embed": "And into the heaven they shall not ascend, And on the earth they shall not come: Such shall be the lot of the sinners Who have denied the name of the Lord of Spirits, Who are thus preserved for the day of suffering and tribulation.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "mishnah.sanhedrin.10.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah, Tractate Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.10.1",
+        "anchor_alt_citation": "m. Sanhedrin 10:1 (Sefaria Torat Emet)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Mishnah, Torat Emet 357 (Hebrew), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא ... וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס.",
+      "rationale": "The opening mishnah of Sanhedrin chapter 10 affirms that all Israel has a share in the world to come, then immediately names categories who have no share, including one who denies resurrection, one who denies Torah from heaven, and the apikoros. This rabbinic witness independently attests that final destinies are differentiated and that some are excluded, paralleling the verdict's exclusion-class pattern without depending on the canon.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-mishnah-torat-emet", "sefaria-edition"],
+        "extant_witnesses": ["Torat Emet 357 (Sefaria base)"],
+        "loss_status": "complete"
+      },
+      "text": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "text_to_embed": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Mishnah (Torat Emet via Sefaria) is public domain."
+    },
+    {
+      "witness_id": "mishnah.sanhedrin.10.3",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah, Tractate Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.10.3",
+        "anchor_alt_citation": "m. Sanhedrin 10:3 (Sefaria Torat Emet)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Mishnah, Torat Emet 357 (Hebrew), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "דּוֹר הַמַּבּוּל אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא וְאֵין עוֹמְדִין בַּדִּין ... אַנְשֵׁי סְדוֹם אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא.",
+      "rationale": "This mishnah lists whole groups, the generation of the Flood, the generation of the Dispersion, and the men of Sodom, as having no share in the world to come. It independently attests that the rabbis held some are finally excluded from saving fellowship, which parallels the verdict's claim that not all are ultimately saved. It is recorded as parallel rather than corroborating because the rabbinic stream stands on its own proof-texts.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-mishnah-torat-emet", "sefaria-edition"],
+        "extant_witnesses": ["Torat Emet 357 (Sefaria base)"],
+        "loss_status": "complete"
+      },
+      "text": "דּוֹר הַמַּבּוּל אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא וְאֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (בראשית ו) לֹא יָדוֹן רוּחִי בָאָדָם לְעֹלָם, לֹא דִין וְלֹא רוּחַ. דּוֹר הַפַּלָּגָה אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (בראשית יא) וַיָּפֶץ ה' אֹתָם מִשָּׁם עַל פְּנֵי כָל הָאָרֶץ. וַיָּפֶץ ה' אֹתָם, בָּעוֹלָם הַזֶּה. וּמִשָּׁם הֱפִיצָם ה', לָעוֹלָם הַבָּא. אַנְשֵׁי סְדוֹם אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (שם יג) וְאַנְשֵׁי סְדֹם רָעִים וְחַטָּאִים לַה' מְאֹד. רָעִים בָּעוֹלָם הַזֶּה. וְחַטָּאִים, לָעוֹלָם הַבָּא. אֲבָל עוֹמְדִין בַּדִּין. רַבִּי נְחֶמְיָה אוֹמֵר, אֵלּוּ וָאֵלּוּ אֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (תהלים א) עַל כֵּן לֹא יָקֻמוּ רְשָׁעִים בַּמִּשְׁפָּט וְחַטָּאִים בַּעֲדַת צַדִּיקִים. עַל כֵּן לֹא יָקֻמוּ רְשָׁעִים בַּמִּשְׁפָּט, זֶה דּוֹר הַמַּבּוּל. וְחַטָּאִים בַּעֲדַת צַדִּיקִים, אֵלּוּ אַנְשֵׁי סְדוֹם. אָמְרוּ לוֹ, אֵינָם עוֹמְדִים בַּעֲדַת צַדִּיקִים אֲבָל עוֹמְדִין בַּעֲדַת רְשָׁעִים. מְרַגְּלִים אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר וַיָּמֻתוּ הָאֲנָשִׁים מוֹצִאֵי דִבַּת הָאָרֶץ רָעָה בַּמַּגֵּפָה לִפְנֵי ה' (במדבר יד). וַיָּמֻתוּ, בָּעוֹלָם הַזֶּה. בַּמַּגֵּפָה, בָּעוֹלָם הַבָּא. דּוֹר הַמִּדְבָּר אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא וְאֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (שם) בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻתוּ, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, עֲלֵיהֶם הוּא אוֹמֵר (תהלים נ) אִסְפוּ לִי חֲסִידָי כֹּרְתֵי בְרִיתִי עֲלֵי זָבַח. עֲדַת קֹרַח אֵינָהּ עֲתִידָה לַעֲלוֹת, שֶׁנֶּאֱמַר (במדבר טז) וַתְּכַס עֲלֵיהֶם הָאָרֶץ, בָּעוֹלָם הַזֶּה, וַיֹּאבְדוּ מִתּוֹךְ הַקָּהָל, לָעוֹלָם הַבָּא, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, עֲלֵיהֶם הוּא אוֹמֵר (שמואל א ב) ה' מֵמִית וּמְחַיֶּה מוֹרִיד שְׁאוֹל וַיָּעַל. עֲשֶׂרֶת הַשְּׁבָטִים אֵינָן עֲתִידִין לַחֲזֹר, שֶׁנֶּאֱמַר (דברים כט) וַיַּשְׁלִכֵם אֶל אֶרֶץ אַחֶרֶת כַּיּוֹם הַזֶּה, מַה הַיּוֹם הַזֶּה הוֹלֵךְ וְאֵינוֹ חוֹזֵר, אַף הֵם הוֹלְכִים וְאֵינָם חוֹזְרִים, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, כַּיּוֹם הַזֶּה, מַה הַיּוֹם מַאֲפִיל וּמֵאִיר, אַף עֲשֶׂרֶת הַשְּׁבָטִים שֶׁאָפַל לָהֶן, כָּךְ עָתִיד לְהָאִיר לָהֶן:",
+      "text_to_embed": "דּוֹר הַמַּבּוּל אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא וְאֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (בראשית ו) לֹא יָדוֹן רוּחִי בָאָדָם לְעֹלָם, לֹא דִין וְלֹא רוּחַ. דּוֹר הַפַּלָּגָה אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (בראשית יא) וַיָּפֶץ ה' אֹתָם מִשָּׁם עַל פְּנֵי כָל הָאָרֶץ. וַיָּפֶץ ה' אֹתָם, בָּעוֹלָם הַזֶּה. וּמִשָּׁם הֱפִיצָם ה', לָעוֹלָם הַבָּא. אַנְשֵׁי סְדוֹם אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (שם יג) וְאַנְשֵׁי סְדֹם רָעִים וְחַטָּאִים לַה' מְאֹד. רָעִים בָּעוֹלָם הַזֶּה. וְחַטָּאִים, לָעוֹלָם הַבָּא. אֲבָל עוֹמְדִין בַּדִּין. רַבִּי נְחֶמְיָה אוֹמֵר, אֵלּוּ וָאֵלּוּ אֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (תהלים א) עַל כֵּן לֹא יָקֻמוּ רְשָׁעִים בַּמִּשְׁפָּט וְחַטָּאִים בַּעֲדַת צַדִּיקִים. עַל כֵּן לֹא יָקֻמוּ רְשָׁעִים בַּמִּשְׁפָּט, זֶה דּוֹר הַמַּבּוּל. וְחַטָּאִים בַּעֲדַת צַדִּיקִים, אֵלּוּ אַנְשֵׁי סְדוֹם. אָמְרוּ לוֹ, אֵינָם עוֹמְדִים בַּעֲדַת צַדִּיקִים אֲבָל עוֹמְדִין בַּעֲדַת רְשָׁעִים. מְרַגְּלִים אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר וַיָּמֻתוּ הָאֲנָשִׁים מוֹצִאֵי דִבַּת הָאָרֶץ רָעָה בַּמַּגֵּפָה לִפְנֵי ה' (במדבר יד). וַיָּמֻתוּ, בָּעוֹלָם הַזֶּה. בַּמַּגֵּפָה, בָּעוֹלָם הַבָּא. דּוֹר הַמִּדְבָּר אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא וְאֵין עוֹמְדִין בַּדִּין, שֶׁנֶּאֱמַר (שם) בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻתוּ, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, עֲלֵיהֶם הוּא אוֹמֵר (תהלים נ) אִסְפוּ לִי חֲסִידָי כֹּרְתֵי בְרִיתִי עֲלֵי זָבַח. עֲדַת קֹרַח אֵינָהּ עֲתִידָה לַעֲלוֹת, שֶׁנֶּאֱמַר (במדבר טז) וַתְּכַס עֲלֵיהֶם הָאָרֶץ, בָּעוֹלָם הַזֶּה, וַיֹּאבְדוּ מִתּוֹךְ הַקָּהָל, לָעוֹלָם הַבָּא, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, עֲלֵיהֶם הוּא אוֹמֵר (שמואל א ב) ה' מֵמִית וּמְחַיֶּה מוֹרִיד שְׁאוֹל וַיָּעַל. עֲשֶׂרֶת הַשְּׁבָטִים אֵינָן עֲתִידִין לַחֲזֹר, שֶׁנֶּאֱמַר (דברים כט) וַיַּשְׁלִכֵם אֶל אֶרֶץ אַחֶרֶת כַּיּוֹם הַזֶּה, מַה הַיּוֹם הַזֶּה הוֹלֵךְ וְאֵינוֹ חוֹזֵר, אַף הֵם הוֹלְכִים וְאֵינָם חוֹזְרִים, דִּבְרֵי רַבִּי עֲקִיבָא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, כַּיּוֹם הַזֶּה, מַה הַיּוֹם מַאֲפִיל וּמֵאִיר, אַף עֲשֶׂרֶת הַשְּׁבָטִים שֶׁאָפַל לָהֶן, כָּךְ עָתִיד לְהָאִיר לָהֶן:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Mishnah (Torat Emet via Sefaria) is public domain."
+    },
+    {
+      "witness_id": "mishnah.sanhedrin.10.2",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah, Tractate Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.10.2",
+        "anchor_alt_citation": "m. Sanhedrin 10:2 (Sefaria Torat Emet)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Mishnah, Torat Emet 357 (Hebrew), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.74,
+      "evidence_phrase": "שְׁלֹשָׁה מְלָכִים וְאַרְבָּעָה הֶדְיוֹטוֹת אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא.",
+      "rationale": "This mishnah names three kings and four commoners who have no share in the world to come, and in the dispute over Manasseh insists that being restored to his kingdom is not the same as being restored to the life of the world to come. It independently attests named individuals finally excluded, which parallels the verdict that some are shut out of saving fellowship. Recorded as parallel because it rests on its own rabbinic exegesis.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-mishnah-torat-emet", "sefaria-edition"],
+        "extant_witnesses": ["Torat Emet 357 (Sefaria base)"],
+        "loss_status": "complete"
+      },
+      "text": "שְׁלֹשָׁה מְלָכִים וְאַרְבָּעָה הֶדְיוֹטוֹת אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא. שְׁלֹשָׁה מְלָכִים, יָרָבְעָם, אַחְאָב, וּמְנַשֶּׁה. רַבִּי יְהוּדָה אוֹמֵר, מְנַשֶּׁה יֶשׁ לוֹ חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (דברי הימים ב לג) וַיִּתְפַּלֵּל אֵלָיו וַיֵּעָתֶר לוֹ וַיִּשְׁמַע תְּחִנָּתוֹ וַיְשִׁיבֵהוּ יְרוּשָׁלַיִם לְמַלְכוּתוֹ. אָמְרוּ לוֹ, לְמַלְכוּתוֹ הֱשִׁיבוֹ וְלֹא לְחַיֵּי הָעוֹלָם הַבָּא הֱשִׁיבוֹ. אַרְבָּעָה הֶדְיוֹטוֹת, בִּלְעָם, וְדוֹאֵג, וַאֲחִיתֹפֶל, וְגֵחֲזִי:",
+      "text_to_embed": "שְׁלֹשָׁה מְלָכִים וְאַרְבָּעָה הֶדְיוֹטוֹת אֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא. שְׁלֹשָׁה מְלָכִים, יָרָבְעָם, אַחְאָב, וּמְנַשֶּׁה. רַבִּי יְהוּדָה אוֹמֵר, מְנַשֶּׁה יֶשׁ לוֹ חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (דברי הימים ב לג) וַיִּתְפַּלֵּל אֵלָיו וַיֵּעָתֶר לוֹ וַיִּשְׁמַע תְּחִנָּתוֹ וַיְשִׁיבֵהוּ יְרוּשָׁלַיִם לְמַלְכוּתוֹ. אָמְרוּ לוֹ, לְמַלְכוּתוֹ הֱשִׁיבוֹ וְלֹא לְחַיֵּי הָעוֹלָם הַבָּא הֱשִׁיבוֹ. אַרְבָּעָה הֶדְיוֹטוֹת, בִּלְעָם, וְדוֹאֵג, וַאֲחִיתֹפֶל, וְגֵחֲזִי:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Mishnah (Torat Emet via Sefaria) is public domain."
+    },
+    {
+      "witness_id": "philo.de-cherubim.2",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-cherubim",
+        "work_title": "De Cherubim (On the Cherubim)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-cherubim.2",
+        "anchor_alt_citation": "De Cherubim 2 (Yonge)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854, earlychristianwritings.com (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "but he who is cast out by God must endure an eternal banishment ... must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "rationale": "Philo distinguishes the man who is merely sent out and may repent and return from the man cast out by God, who is incurable and must endure an eternal, unalterable banishment to the place of the wicked. This Alexandrian Jewish witness independently attests a permanently excluded class set against those who may be restored, paralleling the verdict's affirmation that some are finally shut out of fellowship with God.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philo MS tradition (Cohn-Wendland)"],
+        "loss_status": "complete"
+      },
+      "text": "Now a man who is sent out is not hindered from returning at some subsequent time; but he who is cast out by God must endure an eternal banishment, for it is granted to him who has not yet been completely and violently taken prisoner by wickedness, to repent, and so to return back to virtue, from which he has been driven, as to his great country; but he who is weighed down by, and wholly subjected to, a violent and incurable disease, must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "text_to_embed": "Now a man who is sent out is not hindered from returning at some subsequent time; but he who is cast out by God must endure an eternal banishment, for it is granted to him who has not yet been completely and violently taken prisoner by wickedness, to repent, and so to return back to virtue, from which he has been driven, as to his great country; but he who is weighed down by, and wholly subjected to, a violent and incurable disease, must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.apion.2.215",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.apion",
+        "work_title": "Against Apion",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 97 CE",
+        "anchor_id": "josephus.apion.2.215",
+        "anchor_alt_citation": "Against Apion 2.30 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Whiston 1737, Perseus mirror (CC-BY-SA-4.0 encoding)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.68,
+      "evidence_phrase": "God hath made this grant to those that observe these laws ... that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before.",
+      "rationale": "Josephus reports the Jewish belief that those who observe the law, even at the cost of death, will come into being again and receive a better life, while law-breakers are punished. This sets a differentiated afterlife outcome keyed to fidelity, paralleling the verdict's two-destinies pattern. Confidence is moderate because the chunk states the reward for the faithful more sharply than the final exclusion of the wicked.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["Greek MS tradition of Against Apion (Niese)"],
+        "loss_status": "complete"
+      },
+      "text": "Now the greatest part of offenses with us are capital; as if any one be guilty of adultery; if any one force a virgin; if any one be so impudent as to attempt sodomy with a male; or if, upon another's making an attempt upon him, he submits to be so used. There is also a law for slaves of the like nature, that can never be avoided. Moreover, if any one cheats another in measures or weights, or makes a knavish bargain and sale, in order to cheat another; if any one steals what belongs to another, and takes what he never deposited; all these have punishments allotted them; not such as are met with among other nations, but more severe ones. And as for attempts of unjust behavior towards parents, or for impiety against God, though they be not actually accomplished, the offenders are destroyed immediately. However, the reward for such as live exactly according to the laws is not silver or gold; it is not a garland of olive branches or of small age, nor any such public sign of commendation; but every good man hath his own conscience bearing witness to himself, and by virtue of our legislator's prophetic spirit, and of the firm security God himself affords such a one, he believes that God hath made this grant to those that observe these laws, even though they be obliged readily to die for them, that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before. Nor would I venture to write thus at this time, were it not well known to all by our actions that many of our people have many a time bravely resolved to endure any sufferings, rather than speak one word against our law.",
+      "text_to_embed": "Now the greatest part of offenses with us are capital; as if any one be guilty of adultery; if any one force a virgin; if any one be so impudent as to attempt sodomy with a male; or if, upon another's making an attempt upon him, he submits to be so used. There is also a law for slaves of the like nature, that can never be avoided. Moreover, if any one cheats another in measures or weights, or makes a knavish bargain and sale, in order to cheat another; if any one steals what belongs to another, and takes what he never deposited; all these have punishments allotted them; not such as are met with among other nations, but more severe ones. And as for attempts of unjust behavior towards parents, or for impiety against God, though they be not actually accomplished, the offenders are destroyed immediately. However, the reward for such as live exactly according to the laws is not silver or gold; it is not a garland of olive branches or of small age, nor any such public sign of commendation; but every good man hath his own conscience bearing witness to himself, and by virtue of our legislator's prophetic spirit, and of the firm security God himself affords such a one, he believes that God hath made this grant to those that observe these laws, even though they be obliged readily to die for them, that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before. Nor would I venture to write thus at this time, were it not well known to all by our actions that many of our people have many a time bravely resolved to endure any sufferings, rather than speak one word against our law.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record around Scripture independently attests that final destinies are differentiated and that some are excluded from saving fellowship with God, running alongside the lexical verdict rather than supplying it. The Similitudes and Book of the Watchers in 1 Enoch repeatedly split humanity into the saved righteous and elect on one side and sinners shut out of heaven and earth, confined to an abyss of fire and torments of the accursed for ever, on the other. The Mishnah opens Sanhedrin chapter 10 by affirming that all Israel has a share in the world to come, then at once names those who have no share, including deniers of resurrection and the apikoros, whole generations such as the Flood, Dispersion, and Sodom, and named kings and commoners, even insisting that Manasseh's restoration to his throne is not restoration to the life of the world to come. Philo of Alexandria distinguishes the man who is merely sent out and may repent from the incurable man cast out by God to eternal, unalterable banishment in the place of the wicked. Josephus reports the Jewish hope that the law-faithful, even unto death, receive a better life, while offenders are punished. These witnesses are recorded as parallel because each rests on its own proof-texts and develops the picture in its own stream, so reading them as dependence on the canon would overstate the link. None complicates or contradicts the verdict. They show that a settled belief in two differentiated final outcomes, not universal salvation, was the common Jewish setting of the New Testament.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

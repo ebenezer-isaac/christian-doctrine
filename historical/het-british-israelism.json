@@ -1,0 +1,130 @@
+{
+  "$schema_version": "1.0",
+  "id": "het-british-israelism",
+  "question_id": "het-british-israelism",
+  "generated_at": "2026-06-04T12:32:36Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.1.120",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.120",
+        "anchor_alt_citation": "Ant 1.5.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001 (Whiston, CC-BY-SA-4.0 encoding)"
+      },
+      "attestation_type": "complicates",
+      "confidence": 0.66,
+      "evidence_phrase": "There were some also who passed over the sea in ships, and inhabited the islands: and some of those nations do still retain the denominations which were given them by their first founders; but some have lost them also",
+      "rationale": "Josephus reads the post-Babel scattering as a general dispersion of all the Noahic peoples who took whatever land they reached, including islands and maritime countries, with the Greeks later renaming nations. This locates the origin of every nation in the Table of Nations rather than in any single Israelite migration, so it complicates the British-Israelism claim that a particular modern island people descends from the lost tribes. Josephus places the spread in remote antiquity and in many directions, not along a privileged line to the British Isles.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese (Greek)"],
+        "loss_status": "complete"
+      },
+      "text": "AFTER this they were dispersed abroad, on account of their languages, and went out by colonies every where; and each colony took possession of that land which they light upon, and unto which God led them; so that the whole continent was filled with them, both the inland and the maritime countries. There were some also who passed over the sea in ships, and inhabited the islands: and some of those nations do still retain the denominations which were given them by their first founders; but some have lost them also, and some have only admitted certain changes in them, that they might be the more intelligible to the inhabitants. And they were the Greeks who became the authors of such mutations. For when in after-ages they grew potent, they claimed to themselves the glory of antiquity; giving names to the nations that sounded well (in Greek) that they might be better understood among themselves; and setting agreeable forms of government over them, as if they were a people derived from themselves.",
+      "text_to_embed": "AFTER this they were dispersed abroad, on account of their languages, and went out by colonies every where; and each colony took possession of that land which they light upon, and unto which God led them; so that the whole continent was filled with them, both the inland and the maritime countries. There were some also who passed over the sea in ships, and inhabited the islands: and some of those nations do still retain the denominations which were given them by their first founders; but some have lost them also, and some have only admitted certain changes in them, that they might be the more intelligible to the inhabitants. And they were the Greeks who became the authors of such mutations. For when in after-ages they grew potent, they claimed to themselves the glory of antiquity; giving names to the nations that sounded well (in Greek) that they might be better understood among themselves; and setting agreeable forms of government over them, as if they were a people derived from themselves.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "mishnah.kiddushin.4.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.kiddushin",
+        "work_title": "Mishnah Kiddushin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.kiddushin.4.1",
+        "anchor_alt_citation": "m. Kiddushin 4:1",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Mishnah, Torat Emet Hebrew (PD)"
+      },
+      "attestation_type": "complicates",
+      "confidence": 0.62,
+      "evidence_phrase": "עֲשָׂרָה יוֹחֲסִין עָלוּ מִבָּבֶל, כַּהֲנֵי, לְוִיֵּי, יִשְׂרְאֵלֵי, חֲלָלֵי, גֵּרֵי, וַחֲרוּרֵי, מַמְזֵרֵי, נְתִינֵי, שְׁתוּקֵי, וַאֲסוּפֵי",
+      "rationale": "The Mishnah enumerates ten genealogical classes that came up from Babylon and ranks who may marry whom, treating Israelite lineage as a present, traceable, and locally administered category after the exile. It registers no notion of whole tribes lost to distant lands awaiting later rediscovery in foreign nations. This complicates the lost-tribes premise of British-Israelism by showing that the rabbinic tradition handled post-exilic descent as a living matter of marriage law rather than a vanished bloodline migrated abroad.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnah-hebrew-torat-emet"],
+        "extant_witnesses": ["Torat Emet 357 (Sefaria)"],
+        "loss_status": "complete"
+      },
+      "text": "עֲשָׂרָה יוֹחֲסִין עָלוּ מִבָּבֶל, כַּהֲנֵי, לְוִיֵּי, יִשְׂרְאֵלֵי, חֲלָלֵי, גֵּרֵי, וַחֲרוּרֵי, מַמְזֵרֵי, נְתִינֵי, שְׁתוּקֵי, וַאֲסוּפֵי. כַּהֲנֵי, לְוִיֵּי וְיִשְׂרְאֵלֵי, מֻתָּרִים לָבֹא זֶה בָזֶה. לְוִיֵּי, יִשְׂרְאֵלֵי, חֲלָלֵי, גֵּרֵי וַחֲרוּרֵי, מֻתָּרִים לָבֹא זֶה בָזֶה. גֵּרֵי וַחֲרוּרֵי, מַמְזֵרֵי וּנְתִינֵי שְׁתוּקֵי וַאֲסוּפֵי, כֻּלָּם מֻתָּרִין לָבֹא זֶה בָזֶה:",
+      "text_to_embed": "עֲשָׂרָה יוֹחֲסִין עָלוּ מִבָּבֶל, כַּהֲנֵי, לְוִיֵּי, יִשְׂרְאֵלֵי, חֲלָלֵי, גֵּרֵי, וַחֲרוּרֵי, מַמְזֵרֵי, נְתִינֵי, שְׁתוּקֵי, וַאֲסוּפֵי. כַּהֲנֵי, לְוִיֵּי וְיִשְׂרְאֵלֵי, מֻתָּרִים לָבֹא זֶה בָזֶה. לְוִיֵּי, יִשְׂרְאֵלֵי, חֲלָלֵי, גֵּרֵי וַחֲרוּרֵי, מֻתָּרִים לָבֹא זֶה בָזֶה. גֵּרֵי וַחֲרוּרֵי, מַמְזֵרֵי וּנְתִינֵי שְׁתוּקֵי וַאֲסוּפֵי, כֻּלָּם מֻתָּרִין לָבֹא זֶה בָזֶה:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Torat Emet edition via Sefaria, public domain."
+    },
+    {
+      "witness_id": "philo.de-virtutibus.108",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-virtutibus",
+        "work_title": "On the Virtues (De Virtutibus)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-50 CE",
+        "anchor_id": "philo.de-virtutibus.108",
+        "anchor_alt_citation": "De Virtutibus 108 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge translation, earlychristianwritings.com (PD)"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.7,
+      "evidence_phrase": "they are not to be rejected and treated with hostility as the children of enemies, but to be received in such a manner that in the third generation they may be admitted into the assembly, and may have a share of the divine words read to them",
+      "rationale": "Philo describes how outsiders who forsake their old ways and adopt the customs of the Jews are received and instructed in the will of God equally with the native born. This shows a first-century Jewish writer treating membership in the covenant people as open through conversion rather than fixed by blood or ethnicity. It corroborates the second half of the proposition, that standing among God's people is not coextensive with any single race or nation, since incomers are admitted on the same footing as natives.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of De Virtutibus"],
+        "loss_status": "complete"
+      },
+      "text": "And if any of them should be willing to forsake their old ways and to come over to the customs and constitutions of the Jews, they are not to be rejected and treated with hostility as the children of enemies, but to be received in such a manner that in the third generation they may be admitted into the assembly, and may have a share of the divine words read to them, being instructed in the will of God equally with the natives of the land, the descendants of God's chosen people.",
+      "text_to_embed": "And if any of them should be willing to forsake their old ways and to come over to the customs and constitutions of the Jews, they are not to be rejected and treated with hostility as the children of enemies, but to be received in such a manner that in the third generation they may be admitted into the assembly, and may have a share of the divine words read to them, being instructed in the will of God equally with the natives of the land, the descendants of God's chosen people.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation, public domain by age."
+    }
+  ],
+  "summary": "The extra-biblical record offered no witness that identifies any modern Anglo-Saxon or European people with the lost tribes of Israel, and it supplies several texts that pull against that identification. Josephus, in his account of the dispersion after Babel, derives every nation, including the island peoples, from the Table of Nations and notes that names were lost or changed and that the Greeks renamed peoples freely. That generalized scattering complicates any attempt to trace one modern island nation to a single Israelite line. The Mishnah, listing the ten genealogical classes that came up from Babylon, treats Israelite descent after the exile as a present and traceable matter of marriage law, with no category of whole tribes lost to far countries and recovered later among foreign nations. Philo, describing how converts are received into the assembly and taught equally with the native born, shows a first-century Jewish view in which belonging is opened by adopting the customs of the people rather than fixed by bloodline. Read together, these witnesses corroborate the lexical verdict that no privileged modern bloodline carries covenant standing and complicate the lost-tribes premise on which British-Israelism rests. None of them locates the tribes in the British Isles. The witnesses are diagnostic only and do not alter the lexical verdict, which stands on the canonical pattern that names no modern European people and treats the twelve tribes as present categories rather than lost ones.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

@@ -1,0 +1,206 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-eternal-conscious-torment",
+  "question_id": "doc-eternal-conscious-torment",
+  "generated_at": "2026-06-04T12:30:55Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.wars.2.154",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.wars",
+        "work_title": "The Wars of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "75-79 CE",
+        "anchor_id": "josephus.wars.2.154",
+        "anchor_alt_citation": "Wars 2.8.11 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg004.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "while they allot to bad souls a dark and tempestuous den, full of never-ceasing punishments ... that although they should lie concealed in this life, they should suffer immortal punishment after their death",
+      "rationale": "Josephus reports the Essene doctrine that the souls of the wicked suffer never-ceasing and immortal punishment after death, on the premise that souls are immortal. This is a second-temple Jewish witness to an unending conscious penal afterlife, preserved independently of the New Testament canon. It parallels the eternal-torment reading without proving direct dependence, so the type is parallel and the lexical verdict is untouched.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS P, A, M, L, V, R, C per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "For their doctrine is this: That bodies are corruptible, and that the matter they are made of is not permanent; but that the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons, into which they are drawn by a certain natural enticement; but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward. And this is like the opinions of the Greeks, that good souls have their habitations beyond the ocean, in a region that is neither oppressed with storms of rain or snow, or with intense heat, but that this place is such as is refreshed by the gentle breathing of a west wind, that is perpetually blowing from the ocean; while they allot to bad souls a dark and tempestuous den, full of never-ceasing punishments. And indeed the Greeks seem to me to have followed the same notion, when they allot the islands of the blessed to their brave men, whom they call heroes and demi-gods; and to the souls of the wicked, the region of the ungodly, in Hades, where their fables relate that certain persons, such as Sisyphus, and Tantalus, and Ixion, and Tityus, are punished; which is built on this first supposition, that souls are immortal; and thence are those exhortations to virtue and dehortations from wickedness collected; whereby good men are bettered in the conduct of their life by the hope they have of reward after their death; and whereby the vehement inclinations of bad men to vice are restrained, by the fear and expectation they are in, that although they should lie concealed in this life, they should suffer immortal punishment after their death. These are the Divine doctrines of the Essens about the soul, which lay an unavoidable bait for such as have once had a taste of their philosophy.",
+      "text_to_embed": "For their doctrine is this: That bodies are corruptible, and that the matter they are made of is not permanent; but that the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons, into which they are drawn by a certain natural enticement; but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward. And this is like the opinions of the Greeks, that good souls have their habitations beyond the ocean, in a region that is neither oppressed with storms of rain or snow, or with intense heat, but that this place is such as is refreshed by the gentle breathing of a west wind, that is perpetually blowing from the ocean; while they allot to bad souls a dark and tempestuous den, full of never-ceasing punishments. And indeed the Greeks seem to me to have followed the same notion, when they allot the islands of the blessed to their brave men, whom they call heroes and demi-gods; and to the souls of the wicked, the region of the ungodly, in Hades, where their fables relate that certain persons, such as Sisyphus, and Tantalus, and Ixion, and Tityus, are punished; which is built on this first supposition, that souls are immortal; and thence are those exhortations to virtue and dehortations from wickedness collected; whereby good men are bettered in the conduct of their life by the hope they have of reward after their death; and whereby the vehement inclinations of bad men to vice are restrained, by the fear and expectation they are in, that although they should lie concealed in this life, they should suffer immortal punishment after their death. These are the Divine doctrines of the Essens about the soul, which lay an unavoidable bait for such as have once had a taste of their philosophy.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "1enoch.22.11",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300-100 BCE",
+        "anchor_id": "1enoch.22.11",
+        "anchor_alt_citation": "1 En 22:11 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "CCEL Charles Pseudepigrapha (Apocrypha and Pseudepigrapha of the OT, vol. 2)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "Here their spirits shall be set apart in this great pain till the great day of judgement and punishment and torment of those who curse for ever, and retribution for their spirits. There He shall bind them for ever.",
+      "rationale": "In the Watchers' vision of the dead, the spirits of sinners are held in great pain and bound for ever with torment that continues past the day of judgement. This is a pre-Christian Jewish witness to a conscious, ongoing penal state for the wicked. It preserves the same tradition independently of the New Testament, so the type is parallel and the lexical verdict is not altered.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles family)", "Greek Codex Panopolitanus (Akhmim)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Here their spirits shall be set apart in this great pain till the great day of judgement and punishment and torment of those who †curse† for ever, and retribution for their spirits. There He shall bind them for ever.",
+      "text_to_embed": "Here their spirits shall be set apart in this great pain till the great day of judgement and punishment and torment of those who †curse† for ever, and retribution for their spirits. There He shall bind them for ever.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.10.13",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300-100 BCE",
+        "anchor_id": "1enoch.10.13",
+        "anchor_alt_citation": "1 En 10:13 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "CCEL Charles Pseudepigrapha (Apocrypha and Pseudepigrapha of the OT, vol. 2)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "In those days they shall be led off to the abyss of fire: and to the torment and the prison in which they shall be confined for ever.",
+      "rationale": "The judgement on the fallen Watchers sends them to an abyss of fire, to torment and a prison in which they are confined for ever. This second-temple image joins fire, torment, and unending confinement, paralleling the fiery and enduring-punishment language used for the wicked in the canon. The witness is independent tradition rather than a verdict, so the type is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles family)", "Greek Codex Panopolitanus (Akhmim)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "In those days they shall be led off to the abyss of fire: 〈 and 〉 to the torment and the prison in which they shall be confined for ever. And whosoever shall be condemned and destroyed will from thenceforth be bound together with them to the end of all generations.",
+      "text_to_embed": "In those days they shall be led off to the abyss of fire: 〈 and 〉 to the torment and the prison in which they shall be confined for ever. And whosoever shall be condemned and destroyed will from thenceforth be bound together with them to the end of all generations.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.104.8",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300-100 BCE",
+        "anchor_id": "1enoch.104.8",
+        "anchor_alt_citation": "1 En 104:8 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "CCEL Charles Pseudepigrapha (Apocrypha and Pseudepigrapha of the OT, vol. 2)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.75,
+      "evidence_phrase": "And into darkness and chains and a burning flame where there is grievous judgement shall your spirits enter; And the great judgement shall be for all the generations of the world. Woe to you, for ye shall have no peace.",
+      "rationale": "The sinners' spirits enter darkness, chains, and a burning flame, with the great judgement lasting for all the generations of the world and the closing refrain that they shall have no peace. The unending no-peace formula echoes the no-rest language of Revelation 14:11 noted in the lexical verdict. The witness preserves an independent Jewish tradition, so the type is parallel and the verdict stands.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles family)", "Greek Codex Panopolitanus (Akhmim)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And into darkness and chains and a burning flame where there is grievous judgement shall your spirits enter; And the great judgement shall be for all the generations of the world. Woe to you, for ye shall have no peace.",
+      "text_to_embed": "And into darkness and chains and a burning flame where there is grievous judgement shall your spirits enter; And the great judgement shall be for all the generations of the world. Woe to you, for ye shall have no peace.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-cherubim.2",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-cherubim",
+        "work_title": "On the Cherubim (De Cherubim)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-50 CE",
+        "anchor_id": "philo.de-cherubim.2",
+        "anchor_alt_citation": "Cher. 2 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "earlychristianwritings.com Yonge Philo (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "but he who is weighed down by, and wholly subjected to, a violent and incurable disease, must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "rationale": "Philo distinguishes one merely sent out, who may return, from one cast out by God who must endure eternal banishment and everlasting misery in the place of the wicked. This is a first-century Jewish philosopher attesting an irreversible, conscious, everlasting penal state for the incurably wicked. It is independent witness, not a ruling on the canon, so the type is parallel and the lexical verdict is unchanged.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus per Cohn-Wendland"],
+        "loss_status": "complete"
+      },
+      "text": "Now a man who is sent out is not hindered from returning at some subsequent time; but he who is cast out by God must endure an eternal banishment, for it is granted to him who has not yet been completely and violently taken prisoner by wickedness, to repent, and so to return back to virtue, from which he has been driven, as to his great country; but he who is weighed down by, and wholly subjected to, a violent and incurable disease, must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "text_to_embed": "Now a man who is sent out is not hindered from returning at some subsequent time; but he who is cast out by God must endure an eternal banishment, for it is granted to him who has not yet been completely and violently taken prisoner by wickedness, to repent, and so to return back to virtue, from which he has been driven, as to his great country; but he who is weighed down by, and wholly subjected to, a violent and incurable disease, must bear his misfortunes for ever, being for all times unalterably cast out into the place of the wicked, that there he may endure unmitigated and everlasting misery.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record carries a second-temple and early-Roman-era Jewish stream that pictures a conscious, ongoing penal state for the wicked, paralleling the eternal-torment reading without settling the disputed lexical verdict. Josephus reports the Essene doctrine of never-ceasing and immortal punishment for bad souls after death. Multiple passages in 1 Enoch place the spirits of sinners in fire, torment, chains, and a prison in which they are bound for ever, and close with the refrain that they shall have no peace, which echoes the no-rest language of Revelation 14:11. Philo describes the incurably wicked as cast out unalterably into the place of the wicked to endure everlasting misery. These witnesses show that the conscious-unending-punishment idea was current in Jewish thought around the New Testament era, so the strong-torment reading is not a later or alien import. At the same time these sources do not resolve the canonical tension the lexical verdict names, since the destruction vocabulary of the New Testament is a separate strand the witnesses here do not address. None of the candidate Mishnaic or Qumran chunks materially attest ongoing conscious punishment. The Mishnah passages speak of having no portion in the world to come, which is exclusion rather than active torment, and the Qumran fragments are short scribal scraps unrelated to the proposition. All cited witnesses are read as parallel attestation. The historical layer is diagnostic only and does not modify the disputed lexical verdict.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

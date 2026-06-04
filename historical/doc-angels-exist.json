@@ -1,0 +1,386 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-angels-exist",
+  "question_id": "doc-angels-exist",
+  "generated_at": "2026-06-04T12:31:49Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.61.10",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.61.10",
+        "anchor_alt_citation": "1 Enoch 61:10 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "And He will summon all the host of the heavens, and all the holy ones above, and the host of God, the Cherubic, Seraphin and Ophannin, and all the angels of power, and all the angels of principalities, and the Elect One, and the other powers on the earth (and) over the water.",
+      "rationale": "This passage lists ranked classes of heavenly beings, the Cherubic, Seraphin, Ophannin, angels of power, and angels of principalities, treating angels as a structured order of personal beings whom God summons to serve. It runs parallel to the lexical verdict's reading of the burning ones of Isaiah 6 and the angelic ranks behind Hebrews 1:14. The witness is independent second-temple tradition, so it attests in parallel rather than depending on the canon.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)", "Codex Panopolitanus (Greek)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And He will summon all the host of the heavens, and all the holy ones above, and the host of God, the Cherubic, Seraphin and Ophannin, and all the angels of power, and all the angels of principalities, and the Elect One, and the other powers on the earth (and) over the water.",
+      "text_to_embed": "And He will summon all the host of the heavens, and all the holy ones above, and the host of God, the Cherubic, Seraphin and Ophannin, and all the angels of power, and all the angels of principalities, and the Elect One, and the other powers on the earth (and) over the water.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.71.9",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.71.9",
+        "anchor_alt_citation": "1 Enoch 71:9 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "And they came forth from that house, And Michael and Gabriel, Raphael and Phanuel, And many holy angels without number.",
+      "rationale": "The text names individuated angels, Michael, Gabriel, Raphael, and Phanuel, alongside innumerable holy angels, demonstrating named personhood and rank within an angelic host. This parallels the lexical verdict's appeal to Gabriel at Luke 1:19 and Michael at Jude 1:9 as individuated angelic persons. The naming tradition is independent second-temple material, so the attestation is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And they came forth from that house, And Michael and Gabriel, Raphael and Phanuel, And many holy angels without number.",
+      "text_to_embed": "And they came forth from that house, And Michael and Gabriel, Raphael and Phanuel, And many holy angels without number.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.20.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 200 BCE (Book of the Watchers)",
+        "anchor_id": "1enoch.20.1",
+        "anchor_alt_citation": "1 Enoch 20:1 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "And these are the names of the holy angels who watch.",
+      "rationale": "This heading introduces a list of named holy angels, treating angels as a definite, nameable class of personal heavenly beings with assigned functions. It parallels the lexical verdict's claim that angels are personal ministering spirits with individuated identity. As an independent second-temple list it attests in parallel to the canonical witness.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-202 (Aramaic, Book of the Watchers)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And these are the names of the holy angels who watch.",
+      "text_to_embed": "And these are the names of the holy angels who watch.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.79.6",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (Astronomical Book)",
+        "anchor_id": "1enoch.79.6",
+        "anchor_alt_citation": "1 Enoch 79:6 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "Such is the picture and sketch of every luminary which Uriel the archangel, who is their leader, showed unto me.",
+      "rationale": "The text names Uriel as an archangel and leader, attesting both individuated angelic personhood and an explicit rank within the angelic order. This parallels the lexical verdict's note on the archangel Michael and the existence of rank among angels. The witness preserves an independent second-temple tradition, hence parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q208-211 (Aramaic Astronomical Book)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Such is the picture and sketch of every luminary which Uriel the archangel, who is their leader, showed unto me.",
+      "text_to_embed": "Such is the picture and sketch of every luminary which Uriel the archangel, who is their leader, showed unto me.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-abrahamo.115",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-abrahamo",
+        "work_title": "On the Life of Abraham (De Abrahamo)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 CE to 50 CE",
+        "anchor_id": "philo.de-abrahamo.115",
+        "anchor_alt_citation": "De Abrahamo 115 (Yonge)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854 Works of Philo (earlychristianwritings.com)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "angels, those sacred and divine natures, the ministers and lieutenants of the mighty God, by means of whom, as of ambassadors, he announces whatever predictions he condescends to intimate to our race.",
+      "rationale": "Philo describes angels as sacred and divine natures who serve as the ministers and lieutenants of God and act as his ambassadors to humanity. This parallels the lexical verdict's functional definition of angels as ministering spirits sent for service at Hebrews 1:14. As an independent first-century Jewish philosophical witness it attests in parallel to the canonical picture.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philonic MS tradition (Cohn-Wendland)"],
+        "loss_status": "complete"
+      },
+      "text": "but if any persons have fancied that house happy and blessed in which it has happened that wise men have stopped and abode, they should consider that they would not have done so, and would not even have looked into it at all, if they had seen any incurable disease in the souls of those who were therein, but I know not what excess of happiness and blessedness, I should say, existed in that house in which angels condescended to tarry and to receive the rites of hospitality from men, angels, those sacred and divine natures, the ministers and lieutenants of the mighty God, by means of whom, as of ambassadors, he announces whatever predictions he condescends to intimate to our race.",
+      "text_to_embed": "but if any persons have fancied that house happy and blessed in which it has happened that wise men have stopped and abode, they should consider that they would not have done so, and would not even have looked into it at all, if they had seen any incurable disease in the souls of those who were therein, but I know not what excess of happiness and blessedness, I should say, existed in that house in which angels condescended to tarry and to receive the rites of hospitality from men, angels, those sacred and divine natures, the ministers and lieutenants of the mighty God, by means of whom, as of ambassadors, he announces whatever predictions he condescends to intimate to our race.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-confusione.174",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-confusione",
+        "work_title": "On the Confusion of Tongues (De Confusione Linguarum)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 CE to 50 CE",
+        "anchor_id": "philo.de-confusione.174",
+        "anchor_alt_citation": "De Confusione Linguarum 174 (Yonge)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854 Works of Philo (earlychristianwritings.com)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.84,
+      "evidence_phrase": "the word of prophecy is accustomed to call these souls angels. It happens therefore that the whole army of each of these worlds, being marshalled in their suitable ranks, are servants and ministers of the ruler who has marshalled them, whom they follow as their leader",
+      "rationale": "Philo identifies angels as incorporeal souls marshalled in suitable ranks who are servants and ministers of God their ruler. This parallels the lexical verdict's reading of angels as a ranked class of ministering spirits who serve God, as in Psalm 103:20 to 21 and Hebrews 1:14. The witness is independent first-century Jewish reflection, so it is recorded as parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philonic MS tradition (Cohn-Wendland)"],
+        "loss_status": "complete"
+      },
+      "text": "\"And there is also in the air a most sacred company of incorporeal souls as an attendant upon the heavenly souls; for the word of prophecy is accustomed to call these souls angels. It happens therefore that the whole army of each of these worlds, being marshalled in their suitable ranks, are servants and ministers of the ruler who has marshalled them, whom they follow as their leader, in obedience to the principles of law and justice; for it is impossible to suppose that the divine army can even be detected in desertion.",
+      "text_to_embed": "\"And there is also in the air a most sacred company of incorporeal souls as an attendant upon the heavenly souls; for the word of prophecy is accustomed to call these souls angels. It happens therefore that the whole army of each of these worlds, being marshalled in their suitable ranks, are servants and ministers of the ruler who has marshalled them, whom they follow as their leader, in obedience to the principles of law and justice; for it is impossible to suppose that the divine army can even be detected in desertion.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.appendix-fragmenta.81",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.appendix-fragmenta",
+        "work_title": "Fragments (Appendix, Yonge)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 CE to 50 CE",
+        "anchor_id": "philo.appendix-fragmenta.81",
+        "anchor_alt_citation": "Fragments p. 772 (Yonge appendix)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854 Works of Philo (earlychristianwritings.com)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "But the essence of the angels is spiritual, but they are very often made to resemble the appearance of men, being transformed on any emergencies which arise.",
+      "rationale": "Philo states that the essence of angels is spiritual while they can appear in human form as occasion requires. This parallels the lexical verdict's claim that angels are spiritual heavenly beings, the very sense the lexicon records alongside the bare sense messenger. As independent Jewish philosophical comment it attests in parallel to the scriptural description of angelic appearances.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philonic fragments (catena and florilegia)"],
+        "loss_status": "fragmentary"
+      },
+      "text": "Page 772. B. But the essence of the angels is spiritual, but they are very often made to resemble the appearance of men, being transformed on any emergencies which arise.",
+      "text_to_embed": "Page 772. B. But the essence of the angels is spiritual, but they are very often made to resemble the appearance of men, being transformed on any emergencies which arise.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.appendix-fragmenta.142",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.appendix-fragmenta",
+        "work_title": "Fragments (Appendix, Yonge)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 CE to 50 CE",
+        "anchor_id": "philo.appendix-fragmenta.142",
+        "anchor_alt_citation": "Fragments, on guardian angels (Yonge appendix)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854 Works of Philo (earlychristianwritings.com)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "About the doctrine that God has made angels to be guardians of us.",
+      "rationale": "This fragment heading records the doctrine that God appointed angels as guardians of human beings. It parallels the lexical verdict's claim that angels are ministering spirits sent out for service on behalf of God's elect, the functional thrust of Hebrews 1:14. As an independent Jewish formulation it attests in parallel rather than depending on the canon.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philonic fragments (catena and florilegia)"],
+        "loss_status": "fragmentary"
+      },
+      "text": "About the doctrine that God has made angels to be guardians of us.",
+      "text_to_embed": "About the doctrine that God has made angels to be guardians of us.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.ant.5.276",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.5.276",
+        "anchor_alt_citation": "Ant 5.8.2 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Whiston 1737 Antiquities (Perseus mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "an apparition was seen by her: it was an angel of God, and resembled a young man beautiful and tall, and brought her the good news that she should have a son, born by God's providence",
+      "rationale": "Josephus retells the annunciation to Manoah's wife as an appearance of an angel of God who announces the birth of a son and delivers God's commands. This parallels the lexical verdict's picture of angels as personal agents whom God sends and commissions, the same announcing role seen with Gabriel at Luke 1:19. Josephus is an independent first-century Jewish historical witness, so the attestation is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese (Antiquities tradition)"],
+        "loss_status": "complete"
+      },
+      "text": "There was one Manoah, a person of such great virtue, that he had few men his equals, and without dispute the principal person of his country. He had a wife celebrated for her beauty, and excelling her contemporaries. He had no children; and, being uneasy at his want of posterity, he entreated God to give them seed of their own bodies to succeed them; and with that intent he came constantly into the suburbs together with his wife; which suburbs were in the Great Plain. Now he was fond of his wife to a degree of madness, and on that account was unmeasurably jealous of her. Now, when his wife was once alone, an apparition was seen by her: it was an angel of God, and resembled a young man beautiful and tall, and brought her the good news that she should have a son, born by God's providence, that should be a goodly child, of great strength; by whom, when he was grown up to man's estate, the Philistines should be afflicted. He exhorted her also not to poll his hair, and that he should avoid all other kinds of drink, (for so had God commanded,) and be entirely contented with water. So the angel, when he had delivered that message, went his way, his coming having been by the will of God.",
+      "text_to_embed": "There was one Manoah, a person of such great virtue, that he had few men his equals, and without dispute the principal person of his country. He had a wife celebrated for her beauty, and excelling her contemporaries. He had no children; and, being uneasy at his want of posterity, he entreated God to give them seed of their own bodies to succeed them; and with that intent he came constantly into the suburbs together with his wife; which suburbs were in the Great Plain. Now he was fond of his wife to a degree of madness, and on that account was unmeasurably jealous of her. Now, when his wife was once alone, an apparition was seen by her: it was an angel of God, and resembled a young man beautiful and tall, and brought her the good news that she should have a son, born by God's providence, that should be a goodly child, of great strength; by whom, when he was grown up to man's estate, the Philistines should be afflicted. He exhorted her also not to poll his hair, and that he should avoid all other kinds of drink, (for so had God commanded,) and be entirely contented with water. So the angel, when he had delivered that message, went his way, his coming having been by the will of God.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.ant.4.107",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.4.107",
+        "anchor_alt_citation": "Ant 4.6.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Whiston 1737 Antiquities (Perseus mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "but when the divine angel met him in the way, when he was in a narrow passage, and hedged in with a wall on both sides, the ass on which Balaam rode understood that it was a divine spirit that met him",
+      "rationale": "Josephus narrates the divine angel who blocks Balaam's path and is perceived by the ass as a divine spirit, an agent who acts and speaks on God's behalf. This parallels the lexical verdict's reading of angels as personal ministering spirits sent by God to intervene in human affairs. Josephus retells the tradition independently as history, so the attestation is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese (Antiquities tradition)"],
+        "loss_status": "complete"
+      },
+      "text": "Now the Midianites, at the earnest request and fervent entreaties of Balak, sent other ambassadors to Balaam, who, desiring to gratify the men, inquired again of God; but he was displeased at [second] trial and bid him by no means to contradict the ambassadors. Now Balsam did not imagine that God gave this injunction in order to deceive him, so he went along with the ambassadors; but when the divine angel met him in the way, when he was in a narrow passage, and hedged in with a wall on both sides, the ass on which Balaam rode understood that it was a divine spirit that met him, and thrust Balaam to one of the walls, without regard to the stripes which Balaam, when he was hurt by the wall, gave her; but when the ass, upon the angel's continuing to distress her, and upon the stripes which were given her, fell down, by the will of God, she made use of the voice of a man, and complained of Balaam as acting unjustly to her; that whereas he had no fault find with her in her former service to him, he now inflicted stripes upon her, as not understanding that she was hindered from serving him in what he was now going about, by the providence of God. And when he was disturbed by reason of the voice of the ass, which was that of a man, the angel plainly appeared to him, and blamed him for the stripes he had given his ass; and informed him that the brute creature was not in fault, but that he was himself come to obstruct his journey, as being contrary to the will of God. Upon which Balaam was afraid, and was preparing to return back again: yet did God excite him to go on his intended journey, but added this injunction, that he should declare nothing but what he himself should suggest to his mind.",
+      "text_to_embed": "Now the Midianites, at the earnest request and fervent entreaties of Balak, sent other ambassadors to Balaam, who, desiring to gratify the men, inquired again of God; but he was displeased at [second] trial and bid him by no means to contradict the ambassadors. Now Balsam did not imagine that God gave this injunction in order to deceive him, so he went along with the ambassadors; but when the divine angel met him in the way, when he was in a narrow passage, and hedged in with a wall on both sides, the ass on which Balaam rode understood that it was a divine spirit that met him, and thrust Balaam to one of the walls, without regard to the stripes which Balaam, when he was hurt by the wall, gave her; but when the ass, upon the angel's continuing to distress her, and upon the stripes which were given her, fell down, by the will of God, she made use of the voice of a man, and complained of Balaam as acting unjustly to her; that whereas he had no fault find with her in her former service to him, he now inflicted stripes upon her, as not understanding that she was hindered from serving him in what he was now going about, by the providence of God. And when he was disturbed by reason of the voice of the ass, which was that of a man, the angel plainly appeared to him, and blamed him for the stripes he had given his ass; and informed him that the brute creature was not in fault, but that he was himself come to obstruct his journey, as being contrary to the will of God. Upon which Balaam was afraid, and was preparing to return back again: yet did God excite him to go on his intended journey, but added this injunction, that he should declare nothing but what he himself should suggest to his mind.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical Jewish record around Scripture independently attests angels as personal, serving, heavenly beings, which runs alongside the lexical verdict without supplying it. 1 Enoch names and ranks them, listing the Cherubic, Seraphin, Ophannin, angels of power, and angels of principalities whom God summons, and naming individuated figures such as Michael, Gabriel, Raphael, Phanuel, and the archangel Uriel who leads. Philo of Alexandria describes angels as sacred and divine natures whose essence is spiritual, marshalled in suitable ranks as the ministers and lieutenants of God who carry his messages to humanity, and he preserves the doctrine that God appointed angels as guardians of human beings. Josephus, writing as a first-century historian, retells the angel of God who announces a son to Manoah's wife and the divine angel who blocks Balaam on the road, treating angels as personal agents whom God sends and commissions. These witnesses are recorded as parallel rather than corroborating because each preserves the tradition in its own stream, so reading them as direct dependence on the canon would overstate the link. Together they show that a personal, ranked, ministering angelic order was a settled feature of the Jewish world contemporary with and prior to the New Testament, matching the lexical verdict's reading of mal'ak and angelos as a class of personal heavenly agents, the ministering spirits of Hebrews 1:14, and the named individuals Gabriel and Michael. The created clause of the proposition is not directly carried by these witnesses, which neither complicate nor contradict the verdict.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

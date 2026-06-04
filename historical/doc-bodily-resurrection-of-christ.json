@@ -1,0 +1,203 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-bodily-resurrection-of-christ",
+  "question_id": "doc-bodily-resurrection-of-christ",
+  "generated_at": "2026-06-04T12:26:38Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.18.63",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.63",
+        "anchor_alt_citation": "Ant 18.3.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng (Whiston)"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.7,
+      "evidence_phrase": "those that loved him at the first did not forsake him; for he appeared to them alive again the third day; as the divine prophets had foretold",
+      "rationale": "The Testimonium Flavianum records that Jesus was condemned to the cross under Pilate and that his followers reported he appeared to them alive again on the third day. This corroborates the lexical verdict that the third-day rising was the earliest reported tradition, but the passage carries a partially interpolated Christian layer, so confidence is held in the inferable band. Josephus reports the disciples' claim, not its truth.",
+      "contested_interpolation": {
+        "type": "partial-interpolation",
+        "note": "The clause 'He was [the] Christ' is universally bracketed as a later Christian interpolation, and the 'appeared to them alive again the third day' clause is widely regarded as part of the same Christian layer. The surrounding nucleus is partially authentic per mainstream scholarship. The 'He was the Christ' clause is removed from text_to_embed so retrieval does not surface the disputed confession.",
+        "redact_for_embedding": true
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now there was about this time Jesus, a wise man, if it be lawful to call him a man; for he was a doer of wonderful works, a teacher of such men as receive the truth with pleasure. He drew over to him both many of the Jews and many of the Gentiles. He was [the] Christ. And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross, those that loved him at the first did not forsake him; for he appeared to them alive again the third day; as the divine prophets had foretold these and ten thousand other wonderful things concerning him. And the tribe of Christians, so named from him, are not extinct at this day.",
+      "text_to_embed": "Now there was about this time Jesus, a wise man, if it be lawful to call him a man; for he was a doer of wonderful works, a teacher of such men as receive the truth with pleasure. He drew over to him both many of the Jews and many of the Gentiles. And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross, those that loved him at the first did not forsake him; for he appeared to them alive again the third day; as the divine prophets had foretold these and ten thousand other wonderful things concerning him. And the tribe of Christians, so named from him, are not extinct at this day.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "tacitus.annals.15.44",
+      "source_type": "roman-historian",
+      "source": {
+        "source_slug": "tacitus",
+        "work_id": "tacitus.annals",
+        "work_title": "Annals",
+        "author": "Cornelius Tacitus",
+        "date_written_range": "c. 116 CE",
+        "anchor_id": "tacitus.annals.15.44",
+        "anchor_alt_citation": "Annals 15.44",
+        "language": "la",
+        "translator": null,
+        "edition": "Perseus TEI tacitus.annals (Fisher 1906)"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.78,
+      "evidence_phrase": "auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat; repressaque in praesens exitiabilis superstitio rursum erumpebat",
+      "rationale": "Tacitus confirms that Christ was executed under Pilate during Tiberius's reign and that the movement, checked for the moment, broke out again. The clause 'repressaque in praesens superstitio rursum erumpebat' corroborates the lexical verdict indirectly, since a movement built on a crucified founder resurging immediately after his execution is the social footprint the resurrection proclamation would leave. Tacitus reports the resurgence, not its cause.",
+      "contested_interpolation": {
+        "type": "text-critical-variant",
+        "note": "Mediceus II reads 'Chrestianos' altered toward 'Christianos'; printed editions normalize to 'Christianos'. The variant does not materially affect the attestation but is recorded for transparency.",
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "la",
+        "witness_chain": ["latin-mediceus-ii"],
+        "extant_witnesses": ["Mediceus II (Florence, Laur. plut. 68.2)"],
+        "loss_status": "partial"
+      },
+      "text": "Et haec quidem humanis consiliis providebantur. mox petita dis piacula aditique Sibyllae libri, ex quibus supplicatum Vulcano et Cereri Proserpinaeque ac propitiata Iuno per matronas, primum in Capitolio, deinde apud proximum mare, unde hausta aqua templum et simulacrum deae perspersum est; et sellisternia ac pervigilia celebravere feminae quibus mariti erant. sed non ope humana, non largitionibus principis aut deum placamentis decedebat infamia quin iussum incendium crederetur. ergo abolendo rumori Nero subdidit reos et quaesitissimis poenis adfecit quos per flagitia invisos vulgus Christianos appellabat. auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat; repressaque in praesens exitiabilis superstitio rursum erumpebat, non modo per Iudaeam, originem eius mali, sed per urbem etiam quo cuncta undique atrocia aut pudenda confluunt celebranturque. igitur primum correpti qui fatebantur, deinde indicio eorum multitudo ingens haud proinde in crimine incendii quam odio humani generis convicti sunt. et pereuntibus addita ludibria, ut ferarum tergis contecti laniatu canum interirent, aut crucibus adfixi aut flammandi, atque ubi defecisset dies in usum nocturni luminis urerentur. hortos suos ei spectaculo Nero obtulerat et circense ludicrum edebat, habitu aurigae permixtus plebi vel curriculo insistens. unde quamquam adversus sontis et novissima exempla meritos miseratio oriebatur, tamquam non utilitate publica sed in saevitiam unius absumerentur.",
+      "text_to_embed": "Et haec quidem humanis consiliis providebantur. mox petita dis piacula aditique Sibyllae libri, ex quibus supplicatum Vulcano et Cereri Proserpinaeque ac propitiata Iuno per matronas, primum in Capitolio, deinde apud proximum mare, unde hausta aqua templum et simulacrum deae perspersum est; et sellisternia ac pervigilia celebravere feminae quibus mariti erant. sed non ope humana, non largitionibus principis aut deum placamentis decedebat infamia quin iussum incendium crederetur. ergo abolendo rumori Nero subdidit reos et quaesitissimis poenis adfecit quos per flagitia invisos vulgus Christianos appellabat. auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat; repressaque in praesens exitiabilis superstitio rursum erumpebat, non modo per Iudaeam, originem eius mali, sed per urbem etiam quo cuncta undique atrocia aut pudenda confluunt celebranturque. igitur primum correpti qui fatebantur, deinde indicio eorum multitudo ingens haud proinde in crimine incendii quam odio humani generis convicti sunt. et pereuntibus addita ludibria, ut ferarum tergis contecti laniatu canum interirent, aut crucibus adfixi aut flammandi, atque ubi defecisset dies in usum nocturni luminis urerentur. hortos suos ei spectaculo Nero obtulerat et circense ludicrum edebat, habitu aurigae permixtus plebi vel curriculo insistens. unde quamquam adversus sontis et novissima exempla meritos miseratio oriebatur, tamquam non utilitate publica sed in saevitiam unius absumerentur.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Fisher 1906 Latin text is PD by age."
+    },
+    {
+      "witness_id": "pliny.ep.10.96",
+      "source_type": "roman-historian",
+      "source": {
+        "source_slug": "pliny",
+        "work_id": "pliny.ep",
+        "work_title": "Letters, Book 10 (to Trajan)",
+        "author": "Pliny the Younger",
+        "date_written_range": "c. 112 CE",
+        "anchor_id": "pliny.ep.10.96",
+        "anchor_alt_citation": "Ep 10.96 (Melmoth)",
+        "language": "en",
+        "translator": "William Melmoth (1746)",
+        "edition": "Wikisource Melmoth 1746 (pliny_melmoth)"
+      },
+      "attestation_type": "neutral",
+      "confidence": 0.65,
+      "evidence_phrase": "they met on a stated day before it was light, and addressed a form of prayer to Christ, as to a divinity",
+      "rationale": "Pliny reports that early-second-century Christians in Bithynia gathered before dawn and sang to Christ as to a god. This is neutral on the resurrection itself, since Pliny describes the cult's practice without addressing the bodily-rising claim, but it shows that worship of the crucified Christ as a living divine person had become entrenched within roughly eighty years of the crucifixion. Melmoth's English is not byte-deterministic across editions.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "la",
+        "witness_chain": ["latin-original", "english-melmoth-1746"],
+        "extant_witnesses": ["Book 10 transmitted via the Aldine tradition"],
+        "loss_status": "complete"
+      },
+      "text": "IT is my invariable rule, Sir, to refer to you in all matters where I feel doubtful; for who is more capable of removing my scruples, or informing my ignorance? Having never been present at any trials concerning those who profess Christianity, I am unacquainted not only with the nature of their crimes, or the measure of their punishment, but how far it is proper to enter into an examination concerning them. Whether, therefore, any difference is usually made with respect to ages, or no distinction is to be observed between the young and the adult; whether repentance entitles them to a pardon; or if a man has been once a Christian, it avails nothing to desist from his error; whether the very profession of Christianity, unattended with any criminal act, or only the crimes themselves inherent in the profession are punishable; on all these points I am in great doubt. In the meanwhile, the method I have observed towards those who have been brought before me as Christians is this: I asked them whether they were Christians; if they admitted it, I repeated the question twice, and threatened them with punishment; if they persisted, I ordered them to be at once punished: for I was persuaded, whatever the nature of their opinions might be, a contumacious and inflexible obstinacy certainly deserved correction. There were others also brought before me possessed with the same infatuation, but being Roman citizens, I directed them to be sent to Rome. But this crime spreading (as is usually the case) while it was actually under prosecution, several instances of the same nature occurred. An anonymous information was laid before me containing a charge against several persons, who upon examination denied they were Christians, or had ever been so. They repeated after me an invocation to the gods, and offered religious rites with wine and incense before your statue (which for that purpose I had ordered to be brought, together with those of the gods), and even reviled the name of Christ: whereas there is no forcing, it is said, those who are really Christians into any of these compliances: I thought it proper, therefore, to discharge them. Some among those who were accused by a witness in person at first confessed themselves Christians, but immediately after denied it; the rest owned indeed that they had been of that number formerly, but had now (some above three, others more, and a few above twenty years ago) renounced that error. They all worshipped your statue and the images of the gods, uttering imprecations at the same time against the name of Christ. They affirmed the whole of their guilt, or their error, was, that they met on a stated day before it was light, and addressed a form of prayer to Christ, as to a divinity, binding themselves by a solemn oath, not for the purposes of any wicked design, but never to commit any fraud, theft, or adultery, never to falsify their word, nor deny a trust when they should be called upon to deliver it up; after which it was their custom to separate, and then reassemble, to eat in common a harmless meal. From this custom, however, they desisted after the publication of my edict, by which, according to your commands, I forbade the meeting of any assemblies. After receiving this account, I judged it so much the more necessary to endeavor to extort the real truth, by putting two female slaves to the torture, who were said to officiate' in their religious rites: but all I could discover was evidence of an absurd and extravagant superstition. I deemed it expedient, therefore, to adjourn all further proceedings, in order to consult you. For it appears to be a matter highly deserving your consideration, more especially as great numbers must be involved in the danger of these prosecutions, which have already extended, and are still likely to extend, to persons of all ranks and ages, and even of both sexes. In fact, this contagious superstition is not confined to the cities only, but has spread its infection among the neighbouring villages and country. Nevertheless, it still seems possible to restrain its progress. The temples, at least, which were once almost deserted, begin now to be frequented; and the sacred rites, after a long intermission, are again revived; while there is a general demand for the victims, which till lately found very few purchasers. From all this it is easy to conjecture what numbers might be reclaimed if a general pardon were granted to those who shall repent of their error.",
+      "text_to_embed": "IT is my invariable rule, Sir, to refer to you in all matters where I feel doubtful; for who is more capable of removing my scruples, or informing my ignorance? Having never been present at any trials concerning those who profess Christianity, I am unacquainted not only with the nature of their crimes, or the measure of their punishment, but how far it is proper to enter into an examination concerning them. Whether, therefore, any difference is usually made with respect to ages, or no distinction is to be observed between the young and the adult; whether repentance entitles them to a pardon; or if a man has been once a Christian, it avails nothing to desist from his error; whether the very profession of Christianity, unattended with any criminal act, or only the crimes themselves inherent in the profession are punishable; on all these points I am in great doubt. In the meanwhile, the method I have observed towards those who have been brought before me as Christians is this: I asked them whether they were Christians; if they admitted it, I repeated the question twice, and threatened them with punishment; if they persisted, I ordered them to be at once punished: for I was persuaded, whatever the nature of their opinions might be, a contumacious and inflexible obstinacy certainly deserved correction. There were others also brought before me possessed with the same infatuation, but being Roman citizens, I directed them to be sent to Rome. But this crime spreading (as is usually the case) while it was actually under prosecution, several instances of the same nature occurred. An anonymous information was laid before me containing a charge against several persons, who upon examination denied they were Christians, or had ever been so. They repeated after me an invocation to the gods, and offered religious rites with wine and incense before your statue (which for that purpose I had ordered to be brought, together with those of the gods), and even reviled the name of Christ: whereas there is no forcing, it is said, those who are really Christians into any of these compliances: I thought it proper, therefore, to discharge them. Some among those who were accused by a witness in person at first confessed themselves Christians, but immediately after denied it; the rest owned indeed that they had been of that number formerly, but had now (some above three, others more, and a few above twenty years ago) renounced that error. They all worshipped your statue and the images of the gods, uttering imprecations at the same time against the name of Christ. They affirmed the whole of their guilt, or their error, was, that they met on a stated day before it was light, and addressed a form of prayer to Christ, as to a divinity, binding themselves by a solemn oath, not for the purposes of any wicked design, but never to commit any fraud, theft, or adultery, never to falsify their word, nor deny a trust when they should be called upon to deliver it up; after which it was their custom to separate, and then reassemble, to eat in common a harmless meal. From this custom, however, they desisted after the publication of my edict, by which, according to your commands, I forbade the meeting of any assemblies. After receiving this account, I judged it so much the more necessary to endeavor to extort the real truth, by putting two female slaves to the torture, who were said to officiate' in their religious rites: but all I could discover was evidence of an absurd and extravagant superstition. I deemed it expedient, therefore, to adjourn all further proceedings, in order to consult you. For it appears to be a matter highly deserving your consideration, more especially as great numbers must be involved in the danger of these prosecutions, which have already extended, and are still likely to extend, to persons of all ranks and ages, and even of both sexes. In fact, this contagious superstition is not confined to the cities only, but has spread its infection among the neighbouring villages and country. Nevertheless, it still seems possible to restrain its progress. The temples, at least, which were once almost deserted, begin now to be frequented; and the sacred rites, after a long intermission, are again revived; while there is a general demand for the victims, which till lately found very few purchasers. From all this it is easy to conjecture what numbers might be reclaimed if a general pardon were granted to those who shall repent of their error.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Melmoth 1746 English translation is PD by age via Wikisource."
+    },
+    {
+      "witness_id": "1enoch.51.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Similitudes)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.51.1",
+        "anchor_alt_citation": "1 Enoch 51:1",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 (CCEL Pseudepigrapha)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes.",
+      "rationale": "The Similitudes hold a bodily resurrection hope in which the earth and Sheol give back the dead they hold. This preserves, independently of the New Testament, the Jewish expectation of a physical raising rather than a disembodied survival, the same horizon within which the lexical verdict reads the resurrection of Christ. It is a parallel tradition, not a witness to Jesus, so it is marked parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete"
+      },
+      "text": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "text_to_embed": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is PD by age."
+    },
+    {
+      "witness_id": "1enoch.62.15",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Similitudes)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.62.15",
+        "anchor_alt_citation": "1 Enoch 62:15",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 (CCEL Pseudepigrapha)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.68,
+      "evidence_phrase": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "rationale": "Here the risen righteous are clothed with garments of glory, a glorified-body expectation that parallels the lexical verdict's reading of a body raised and transformed rather than discarded. The pairing of risen from the earth with a glory clothing matches the natural-then-spiritual body contrast at 1 Corinthians 15:44 without depending on it. It is an independent Jewish parallel, so it is marked parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete"
+      },
+      "text": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "text_to_embed": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is PD by age."
+    }
+  ],
+  "summary": "The extra-biblical record does not prove the bodily resurrection, but it frames it. Josephus reports that Jesus was crucified under Pilate and that his followers said he appeared to them alive again on the third day, the earliest external echo of the resurrection proclamation, though the passage carries a Christian interpolation layer and Josephus reports the claim rather than endorsing it. Tacitus independently confirms the execution under Pilate and notes that the movement, checked for a moment, broke out again, the social footprint a resurrection claim would leave. Pliny shows that within roughly eighty years Christians in Bithynia were worshipping the crucified Christ as a living divine person before dawn, which presupposes that they held him to be alive. None of these Roman or Jewish-historian witnesses addresses whether the rising was physical or only spiritual; they attest the event and the cult, not its nature. The bodily emphasis in the lexical verdict finds its parallel instead in second-temple Jewish hope. The Similitudes of Enoch expect the earth and Sheol to give back the dead they hold and the risen righteous to be clothed with garments of glory, a physical raising into a glorified body rather than a disembodied survival. That is the same horizon within which the verdict reads Luke 24:39 and 1 Corinthians 15:44. The historical layer therefore corroborates the death and the resurrection report and supplies the Jewish bodily-resurrection expectation, while leaving the specific physical-versus-spiritual question to the lexical evidence, which stands.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "tacitus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "pliny", "license": "PD", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": ["contains-tf-interpolation", "composite-tradition"]
+}

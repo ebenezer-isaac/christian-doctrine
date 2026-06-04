@@ -1,0 +1,130 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-fall-historical",
+  "question_id": "doc-fall-historical",
+  "generated_at": "2026-06-04T12:31:03Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.1.40",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.40",
+        "anchor_alt_citation": "Ant 1.1.4 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "Now when she had tasted of that tree, and was pleased with its fruit, she persuaded Adam to make use of it also. Upon this they perceived that they were become naked to one another; and being ashamed thus to appear abroad, they invented somewhat to cover them",
+      "rationale": "Josephus retells the Eden event as straight history within his sequential narrative of the human race, preserving the same tradition the lexical verdict reads in Genesis 3. He records the serpent's persuasion, the woman tasting first and then Adam eating, the shame and fig-leaf covering, the divinely imposed penalties of toil and pain, and the expulsion from the garden. This is an independent first-century Jewish witness that the disobedience and its consequences were taken as a real past occurrence, not a parable, which is why the attestation_type is parallel rather than corroborates.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "God therefore commanded that Adam and his wife should eat of all the rest of the plants, but to abstain from the tree of knowledge; and foretold to them, that if they touched it, it would prove their destruction. But while all the living creatures had one language, at that time the serpent, which then lived together with Adam and his wife, shewed an envious disposition, at his supposal of their living happily, and in obedience to the commands of God; and imagining, that when they disobeyed them, they would fall into calamities, he persuaded the woman, out of a malicious intention, to taste of the tree of knowledge, telling them, that in that tree was the knowledge of good and evil; which knowledge, when they should obtain, they would lead a happy life; nay, a life not inferior to that of a god: by which means he overcame the woman, and persuaded her to despise the command of God. Now when she had tasted of that tree, and was pleased with its fruit, she persuaded Adam to make use of it also. Upon this they perceived that they were become naked to one another; and being ashamed thus to appear abroad, they invented somewhat to cover them; for the tree sharpened their understanding; and they covered themselves with fig-leaves; and tying these before them, out of modesty, they thought they were happier than they were before, as they had discovered what they were in want of. But when God came into the garden, Adam, who was wont before to come and converse with him, being conscious of his wicked behavior, went out of the way. This behavior surprised God; and he asked what was the cause of this his procedure; and why he, that before delighted in that conversation, did now fly from it, and avoid it. When he made no reply, as conscious to himself that he had transgressed the command of God, God said, I had before determined about you both, how you might lead a happy life, without any affliction, and care, and vexation of soul; and that all things which might contribute to your enjoyment and pleasure should grow up by my providence, of their own accord, without your own labor and pains-taking; which state of labor and pains-taking would soon bring on old age, and death would not be at any remote distance: but now thou hast abused this my good-will, and hast disobeyed my commands; for thy silence is not the sign of thy virtue, but of thy evil conscience. However, Adam excused his sin, and entreated God not to be angry at him, and laid the blame of what was done upon his wife; and said that he was deceived by her, and thence became an offender; while she again accused the serpent. But God allotted him punishment, because he weakly submitted to the counsel of his wife; and said the ground should not henceforth yield its fruits of its own accord, but that when it should be harassed by their labor, it should bring forth some of its fruits, and refuse to bring forth others. He also made Eve liable to the inconveniency of breeding, and the sharp pains of bringing forth children; and this because she persuaded Adam with the same arguments wherewith the serpent had persuaded her, and had thereby brought him into a calamitous condition. He also deprived the serpent of speech, out of indignation at his malicious disposition towards Adam. Besides this, he inserted poison under his tongue, and made him an enemy to men; and suggested to them, that they should direct their strokes against his head, that being the place wherein lay his mischievous designs towards men, and it being easiest to take vengeance on him, that way. And when he had deprived him of the use of his feet, he made him to go rolling all along, and dragging himself upon the ground. And when God had appointed these penalties for them, he removed Adam and Eve out of the garden into another place.",
+      "text_to_embed": "God therefore commanded that Adam and his wife should eat of all the rest of the plants, but to abstain from the tree of knowledge; and foretold to them, that if they touched it, it would prove their destruction. But while all the living creatures had one language, at that time the serpent, which then lived together with Adam and his wife, shewed an envious disposition, at his supposal of their living happily, and in obedience to the commands of God; and imagining, that when they disobeyed them, they would fall into calamities, he persuaded the woman, out of a malicious intention, to taste of the tree of knowledge, telling them, that in that tree was the knowledge of good and evil; which knowledge, when they should obtain, they would lead a happy life; nay, a life not inferior to that of a god: by which means he overcame the woman, and persuaded her to despise the command of God. Now when she had tasted of that tree, and was pleased with its fruit, she persuaded Adam to make use of it also. Upon this they perceived that they were become naked to one another; and being ashamed thus to appear abroad, they invented somewhat to cover them; for the tree sharpened their understanding; and they covered themselves with fig-leaves; and tying these before them, out of modesty, they thought they were happier than they were before, as they had discovered what they were in want of. But when God came into the garden, Adam, who was wont before to come and converse with him, being conscious of his wicked behavior, went out of the way. This behavior surprised God; and he asked what was the cause of this his procedure; and why he, that before delighted in that conversation, did now fly from it, and avoid it. When he made no reply, as conscious to himself that he had transgressed the command of God, God said, I had before determined about you both, how you might lead a happy life, without any affliction, and care, and vexation of soul; and that all things which might contribute to your enjoyment and pleasure should grow up by my providence, of their own accord, without your own labor and pains-taking; which state of labor and pains-taking would soon bring on old age, and death would not be at any remote distance: but now thou hast abused this my good-will, and hast disobeyed my commands; for thy silence is not the sign of thy virtue, but of thy evil conscience. However, Adam excused his sin, and entreated God not to be angry at him, and laid the blame of what was done upon his wife; and said that he was deceived by her, and thence became an offender; while she again accused the serpent. But God allotted him punishment, because he weakly submitted to the counsel of his wife; and said the ground should not henceforth yield its fruits of its own accord, but that when it should be harassed by their labor, it should bring forth some of its fruits, and refuse to bring forth others. He also made Eve liable to the inconveniency of breeding, and the sharp pains of bringing forth children; and this because she persuaded Adam with the same arguments wherewith the serpent had persuaded her, and had thereby brought him into a calamitous condition. He also deprived the serpent of speech, out of indignation at his malicious disposition towards Adam. Besides this, he inserted poison under his tongue, and made him an enemy to men; and suggested to them, that they should direct their strokes against his head, that being the place wherein lay his mischievous designs towards men, and it being easiest to take vengeance on him, that way. And when he had deprived him of the use of his feet, he made him to go rolling all along, and dragging himself upon the ground. And when God had appointed these penalties for them, he removed Adam and Eve out of the garden into another place.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; the underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.69.11",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.69.11",
+        "anchor_alt_citation": "1 Enoch 69:11 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Enoch, Clarendon Press"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "For men were created exactly like the angels, to the intent that they should continue pure and righteous, and death, which destroys everything, could not have taken hold of them, but through this their knowledge they are perishing",
+      "rationale": "This second-temple text preserves an independent strand of the same tradition the lexical verdict draws from Romans 5 and 1 Corinthians 15, that death was not original to humanity but entered through illicit knowledge. It does not narrate the Eden scene of Genesis 3 and frames the entry of death through the Watchers and forbidden knowledge rather than through Adam's single act, so it is a parallel and not a direct corroboration. It is recorded because it shows that the claim death entered the human condition through a primeval transgression was a living Jewish conviction outside the canonical text.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Greek Codex Panopolitanus (Akhmim)", "Aramaic fragments 4Q201-212"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "For men were created exactly like the angels, to the intent that they should continue pure and righteous, and death, which destroys everything, could not have taken hold of them, but through this their knowledge they are perishing, and through this power it is consuming me†.",
+      "text_to_embed": "For men were created exactly like the angels, to the intent that they should continue pure and righteous, and death, which destroys everything, could not have taken hold of them, but through this their knowledge they are perishing, and through this power it is consuming me†.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.legum-allegoriae-i.105",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.legum-allegoriae-i",
+        "work_title": "Allegorical Interpretation, Book I (Legum Allegoriae)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.legum-allegoriae-i.105",
+        "anchor_alt_citation": "Leg. All. 1.105 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge 1854, The Works of Philo Judaeus; earlychristianwritings.com primary"
+      },
+      "attestation_type": "complicates",
+      "confidence": 0.70,
+      "evidence_phrase": "In the day in which ye eat of it ye shall die the death. And yet, though they have eaten of it, they not only do not die, but they even beget children ... death is of two kinds; the one being the death of the man, the other the peculiar death of the soul",
+      "rationale": "Philo notes that the Eden threat of death on the day of eating was not followed by literal physical death, and resolves the tension by distinguishing death of the body from death of the soul understood as the loss of virtue. Read on its own terms this is an allegorical handling of the Eden penalty that does not treat the onset of death as a single physical event in space and time, which sits in tension with a strictly historical reading of the Fall. The lexical verdict that the Fall was a real historical event stands, but this early Jewish reading is recorded as a complication because it shows the death language was already being read figuratively in the first century.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus"],
+        "loss_status": "complete"
+      },
+      "text": "Accordingly God says, \"In the day in which ye eat of it ye shall die the death.\" And yet, though they have eaten of it, they not only do not die, but they even beget children, and are the causes of life to other beings besides themselves. What, then, are we to say? Surely that death is of two kinds; the one being the death of the man, the other the peculiar death of the soul, now the death of the man is the separation of his soul from his body, but the death of the soul is the destruction of virtue and the admission of vice;",
+      "text_to_embed": "Accordingly God says, \"In the day in which ye eat of it ye shall die the death.\" And yet, though they have eaten of it, they not only do not die, but they even beget children, and are the causes of life to other beings besides themselves. What, then, are we to say? Surely that death is of two kinds; the one being the death of the man, the other the peculiar death of the soul, now the death of the man is the separation of his soul from his body, but the death of the soul is the destruction of virtue and the admission of vice;",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+  "summary": "The extra-biblical record offers genuine but mixed support for reading the Fall as a real past event. Josephus, writing near the end of the first century, retells the Eden scene as straight history inside his narrative of the human race. He records the serpent's persuasion, the woman eating first and then Adam, the shame and fig-leaf covering, the penalties of toil and labor pains, and the expulsion from the garden. That is an independent Jewish witness that the disobedience and its consequences were taken as something that actually happened. 1 Enoch preserves a separate second-temple strand of the same conviction, that death was not native to humanity and entered through a primeval transgression, although it routes the entry of death through the Watchers and forbidden knowledge rather than through Adam's single act, so it parallels rather than directly confirms the Adam-centered claim. Against these, Philo of Alexandria shows that the death language of Eden was already being read figuratively in the same era. He notes that Adam and Eve did not physically die on the day they ate and resolves it by distinguishing death of the body from death of the soul. None of this overturns the lexical verdict, which rests on the Hebrew narrative grammar and the Adam-Christ parallel in Paul. The witnesses simply show that the historicity of the Fall and a more allegorical reading of its death penalty both circulated in first-century Judaism.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

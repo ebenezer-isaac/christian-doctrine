@@ -1,0 +1,133 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-christ-full-humanity",
+  "question_id": "doc-christ-full-humanity",
+  "generated_at": "2026-06-04T12:30:07Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.18.63",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.63",
+        "anchor_alt_citation": "Ant 18.3.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.8,
+      "evidence_phrase": "Now there was about this time Jesus, a wise man, if it be lawful to call him a man; for he was a doer of wonderful works, a teacher of such men as receive the truth with pleasure. And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross",
+      "rationale": "Josephus, a non-Christian Jewish historian, records Jesus as a real person active in first-century Judea, a teacher condemned to the cross under Pilate. The phrase 'if it be lawful to call him a man' presumes the ordinary category of a human being. This corroborates the lexical verdict that Jesus was a true man who lived and died in history. The witness is rated below 0.85 because part of the passage is a recognized Christian insertion.",
+      "contested_interpolation": {
+        "type": "partial-interpolation",
+        "note": "The clause 'He was [the] Christ' is universally bracketed as a later Christian interpolation, and the clause 'for he appeared to them alive again the third day' is likewise treated as interpolated; the surrounding nucleus naming Jesus as a man crucified under Pilate is partially authentic per mainstream scholarship. Both contested spans are removed from text_to_embed.",
+        "redact_for_embedding": true
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now there was about this time Jesus, a wise man, if it be lawful to call him a man; for he was a doer of wonderful works, a teacher of such men as receive the truth with pleasure. He drew over to him both many of the Jews and many of the Gentiles. He was [the] Christ. And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross, those that loved him at the first did not forsake him; for he appeared to them alive again the third day; as the divine prophets had foretold these and ten thousand other wonderful things concerning him. And the tribe of Christians, so named from him, are not extinct at this day.",
+      "text_to_embed": "Now there was about this time Jesus, a wise man, if it be lawful to call him a man; for he was a doer of wonderful works, a teacher of such men as receive the truth with pleasure. He drew over to him both many of the Jews and many of the Gentiles. And when Pilate, at the suggestion of the principal men amongst us, had condemned him to the cross, those that loved him at the first did not forsake him; as the divine prophets had foretold these and ten thousand other wonderful things concerning him. And the tribe of Christians, so named from him, are not extinct at this day.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.20.197",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.20.197",
+        "anchor_alt_citation": "Ant 20.9.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.82,
+      "evidence_phrase": "he assembled the sanhedrim of judges, and brought before them the brother of Jesus, who was called Christ, whose name was James, and some others, and when he had formed an accusation against them as breakers of the law, he delivered them to be stoned",
+      "rationale": "Josephus names a human brother of Jesus, James, executed by stoning around 62 CE. A named flesh-and-blood sibling places Jesus in an ordinary human kinship line, which corroborates the lexical verdict that Jesus took a complete human nature including real bodily descent. This passage is widely accepted as authentic Josephus, hence the higher confidence than the Testimonium. The reference is incidental, which strengthens rather than weakens its evidentiary value.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "CONCERNING ALBINUS UNDER WHOSE PROCURATORSHIP JAMES WAS SLAIN; AS ALSO WHAT EDIFICES WERE BUILT BY AGRIPPA. AND now Caesar, upon hearing the death of Festus, sent Albinus into Judea, as procurator. But the king deprived Joseph of the high priesthood, and bestowed the succession to that dignity on the son of Ananus, who was also himself called Ananus. Now the report goes that this eldest Ananus proved a most fortunate man; for he had five sons who had all performed the office of a high priest to God, and who had himself enjoyed that dignity a long time formerly, which had never happened to any other of our high priests. But this younger Ananus, who, as we have told you already, took the high priesthood, was a bold man in his temper, and very insolent; he was also of the sect of the Sadducees, who are very rigid in judging offenders, above all the rest of the Jews, as we have already observed; when, therefore, Ananus was of this disposition, he thought he had now a proper opportunity [to exercise his authority]. Festus was now dead, and Albinus was but upon the road; so he assembled the sanhedrim of judges, and brought before them the brother of Jesus, who was called Christ, whose name was James, and some others, [or, some of his companions]; and when he had formed an accusation against them as breakers of the law, he delivered them to be stoned: but as for those who seemed the most equitable of the citizens, and such as were the most uneasy at the breach of the laws, they disliked what was done; they also sent to the king [Agrippa], desiring him to send to Ananus that he should act so no more, for that what he had already done was not to be justified; nay, some of them went also to meet Albinus, as he was upon his journey from Alexandria, and informed him that it was not lawful for Ananus to assemble a sanhedrim without his consent. Whereupon Albinus complied with what they said, and wrote in anger to Ananus, and threatened that he would bring him to punishment for what he had done; on which king Agrippa took the high priesthood from him, when he had ruled but three months, and made Jesus, the son of Damneus, high priest.",
+      "text_to_embed": "CONCERNING ALBINUS UNDER WHOSE PROCURATORSHIP JAMES WAS SLAIN; AS ALSO WHAT EDIFICES WERE BUILT BY AGRIPPA. AND now Caesar, upon hearing the death of Festus, sent Albinus into Judea, as procurator. But the king deprived Joseph of the high priesthood, and bestowed the succession to that dignity on the son of Ananus, who was also himself called Ananus. Now the report goes that this eldest Ananus proved a most fortunate man; for he had five sons who had all performed the office of a high priest to God, and who had himself enjoyed that dignity a long time formerly, which had never happened to any other of our high priests. But this younger Ananus, who, as we have told you already, took the high priesthood, was a bold man in his temper, and very insolent; he was also of the sect of the Sadducees, who are very rigid in judging offenders, above all the rest of the Jews, as we have already observed; when, therefore, Ananus was of this disposition, he thought he had now a proper opportunity [to exercise his authority]. Festus was now dead, and Albinus was but upon the road; so he assembled the sanhedrim of judges, and brought before them the brother of Jesus, who was called Christ, whose name was James, and some others, [or, some of his companions]; and when he had formed an accusation against them as breakers of the law, he delivered them to be stoned: but as for those who seemed the most equitable of the citizens, and such as were the most uneasy at the breach of the laws, they disliked what was done; they also sent to the king [Agrippa], desiring him to send to Ananus that he should act so no more, for that what he had already done was not to be justified; nay, some of them went also to meet Albinus, as he was upon his journey from Alexandria, and informed him that it was not lawful for Ananus to assemble a sanhedrim without his consent. Whereupon Albinus complied with what they said, and wrote in anger to Ananus, and threatened that he would bring him to punishment for what he had done; on which king Agrippa took the high priesthood from him, when he had ruled but three months, and made Jesus, the son of Damneus, high priest.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "tacitus.annals.15.44",
+      "source_type": "roman-historian",
+      "source": {
+        "source_slug": "tacitus",
+        "work_id": "tacitus.annals",
+        "work_title": "Annals",
+        "author": "Cornelius Tacitus",
+        "date_written_range": "c. 116-117 CE",
+        "anchor_id": "tacitus.annals.15.44",
+        "anchor_alt_citation": "Ann. 15.44",
+        "language": "la",
+        "translator": null,
+        "edition": "Perseus TEI tlg perseus-lat; Fisher 1906 Oxford Classical Text"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.85,
+      "evidence_phrase": "auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat",
+      "rationale": "Tacitus, a Roman senatorial historian hostile to the movement, records that the founder of the name, Christus, was put to death by the procurator Pontius Pilate during the reign of Tiberius. A man executed by a named Roman official at a fixed point in history can only be a real human being. This corroborates the lexical verdict that Jesus was truly a man who suffered bodily death. The variant Christianos versus Chrestianos in the manuscript does not affect the attestation.",
+      "contested_interpolation": {
+        "type": "text-critical-variant",
+        "note": "Mediceus II reads 'Chrestianos' altered to 'Christianos'; Fisher 1906 prints 'Christianos'. The variant does not materially affect the attestation that Christus was executed under Pilate, but is recorded for transparency.",
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "la",
+        "witness_chain": ["latin-mediceus-ii"],
+        "extant_witnesses": ["Mediceus II (Florence, Laur. plut. 68.2)"],
+        "loss_status": "partial"
+      },
+      "text": "Et haec quidem humanis consiliis providebantur. mox petita dis piacula aditique Sibyllae libri, ex quibus supplicatum Vulcano et Cereri Proserpinaeque ac propitiata Iuno per matronas, primum in Capitolio, deinde apud proximum mare, unde hausta aqua templum et simulacrum deae perspersum est; et sellisternia ac pervigilia celebravere feminae quibus mariti erant. sed non ope humana, non largitionibus principis aut deum placamentis decedebat infamia quin iussum incendium crederetur. ergo abolendo rumori Nero subdidit reos et quaesitissimis poenis adfecit quos per flagitia invisos vulgus Christianos appellabat. auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat; repressaque in praesens exitiabilis superstitio rursum erumpebat, non modo per Iudaeam, originem eius mali, sed per urbem etiam quo cuncta undique atrocia aut pudenda confluunt celebranturque. igitur primum correpti qui fatebantur, deinde indicio eorum multitudo ingens haud proinde in crimine incendii quam odio humani generis convicti sunt. et pereuntibus addita ludibria, ut ferarum tergis contecti laniatu canum interirent, aut crucibus adfixi aut flammandi, atque ubi defecisset dies in usum nocturni luminis urerentur. hortos suos ei spectaculo Nero obtulerat et circense ludicrum edebat, habitu aurigae permixtus plebi vel curriculo insistens. unde quamquam adversus sontis et novissima exempla meritos miseratio oriebatur, tamquam non utilitate publica sed in saevitiam unius absumerentur.",
+      "text_to_embed": "Et haec quidem humanis consiliis providebantur. mox petita dis piacula aditique Sibyllae libri, ex quibus supplicatum Vulcano et Cereri Proserpinaeque ac propitiata Iuno per matronas, primum in Capitolio, deinde apud proximum mare, unde hausta aqua templum et simulacrum deae perspersum est; et sellisternia ac pervigilia celebravere feminae quibus mariti erant. sed non ope humana, non largitionibus principis aut deum placamentis decedebat infamia quin iussum incendium crederetur. ergo abolendo rumori Nero subdidit reos et quaesitissimis poenis adfecit quos per flagitia invisos vulgus Christianos appellabat. auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat; repressaque in praesens exitiabilis superstitio rursum erumpebat, non modo per Iudaeam, originem eius mali, sed per urbem etiam quo cuncta undique atrocia aut pudenda confluunt celebranturque. igitur primum correpti qui fatebantur, deinde indicio eorum multitudo ingens haud proinde in crimine incendii quam odio humani generis convicti sunt. et pereuntibus addita ludibria, ut ferarum tergis contecti laniatu canum interirent, aut crucibus adfixi aut flammandi, atque ubi defecisset dies in usum nocturni luminis urerentur. hortos suos ei spectaculo Nero obtulerat et circense ludicrum edebat, habitu aurigae permixtus plebi vel curriculo insistens. unde quamquam adversus sontis et novissima exempla meritos miseratio oriebatur, tamquam non utilitate publica sed in saevitiam unius absumerentur.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Latin text is PD by age."
+    }
+  ],
+
+  "summary": "Three extra-biblical witnesses corroborate that Jesus was a real human being who lived and died in first-century Judea, which is the historical floor on which the lexical claim of full humanity rests. Josephus Antiquities 18.63, even after the recognized Christian insertions are set aside, records Jesus as a wise man, a teacher, condemned to the cross under Pontius Pilate. Josephus Antiquities 20.197, a passage widely accepted as authentic, names a flesh-and-blood brother of Jesus, James, executed by stoning around 62 CE; a named human sibling situates Jesus in an ordinary kinship line and ordinary bodily descent. Tacitus Annals 15.44, written by a hostile Roman senator, states that Christus was put to death by the procurator Pontius Pilate during the reign of Tiberius. A man executed by a named official at a datable moment can only be a human being who could suffer and die. These witnesses do not address the technical claim of a rational human soul, which is a New Testament and later doctrinal development, so they corroborate the bodily and historical dimension of the verdict rather than its full philosophical content. None of them complicates the lexical verdict. They speak to the existence and execution of a real man named Jesus and leave the lexical reading of John 1:14, Hebrews 2, and 1 John 4 standing without tension.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "tacitus", "license": "CC-BY-SA-4.0", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["contains-tf-interpolation"]
+}

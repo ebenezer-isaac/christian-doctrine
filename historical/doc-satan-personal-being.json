@@ -1,0 +1,205 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-satan-personal-being",
+  "question_id": "doc-satan-personal-being",
+  "generated_at": "2026-06-04T12:26:41Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.40.7",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.40.7",
+        "anchor_alt_citation": "1 Enoch 40:7 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "And I heard the fourth voice fending off the Satans and forbidding them to come before the Lord of Spirits to accuse them who dwell on the earth.",
+      "rationale": "1 Enoch preserves a personal accusing figure (here plural, the Satans) who seek to come before the Lord of Spirits to accuse human beings, the same courtroom-accuser role the lexical verdict reads in Job 1 to 2 and Zechariah 3. This is an independent second-temple witness to a personal heavenly adversary, not a metaphor, so it attests in parallel to the scriptural picture without depending on it.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)", "Codex Panopolitanus (Greek)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And I heard the fourth voice fending off the Satans and forbidding them to come before the Lord of Spirits to accuse them who dwell on the earth.",
+      "text_to_embed": "And I heard the fourth voice fending off the Satans and forbidding them to come before the Lord of Spirits to accuse them who dwell on the earth.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.65.6",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.65.6",
+        "anchor_alt_citation": "1 Enoch 65:6 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers",
+      "rationale": "The phrase the violence of the Satans treats the Satans as personal agents who exert violence and possess powers, set in parallel with the rebel angels. This corroborates the lexical verdict that the figure occupies the slot of a personal agent who acts with intent rather than an abstraction. The witness is independent second-temple tradition, hence parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And a command has gone forth from the presence of the Lord concerning those who dwell on the earth that their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers--the most secret ones--and all the power of those who practice sorcery, and the power of witchcraft, and the power of those who make molten images for the whole earth:",
+      "text_to_embed": "And a command has gone forth from the presence of the Lord concerning those who dwell on the earth that their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers--the most secret ones--and all the power of those who practice sorcery, and the power of witchcraft, and the power of those who make molten images for the whole earth:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.53.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.53.3",
+        "anchor_alt_citation": "1 Enoch 53:3 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "rationale": "1 Enoch here names Satan in the singular as a figure whose instruments are prepared by the angels of punishment, treating Satan as a definite personal entity within the heavenly economy. This is a parallel second-temple use of the proper name picked up by the New Testament anchors. The attestation is parallel because the tradition runs alongside, not derived from, the canonical anchors.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "text_to_embed": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.10.8",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 200 BCE (Book of the Watchers)",
+        "anchor_id": "1enoch.10.8",
+        "anchor_alt_citation": "1 Enoch 10:8 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "And the whole earth has been corrupted through the works that were taught by Azazel: to him ascribe all sin.",
+      "rationale": "The Book of the Watchers names Azazel as a personal rebel figure to whom all sin is ascribed and through whom the earth is corrupted, a second-temple presentation of a personal originator of evil opposing God and his people. It is parallel rather than corroborating because the Watchers tradition develops a distinct named figure that the canon does not equate with Satan, but it independently attests the broader concept of a personal evil agent.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-202 (Aramaic, Book of the Watchers)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the whole earth has been corrupted through the works that were taught by Azâzêl: to him ascribe all sin.'",
+      "text_to_embed": "And the whole earth has been corrupted through the works that were taught by Azâzêl: to him ascribe all sin.'",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "sibor.3.67",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "sibor",
+        "work_id": "sibor",
+        "work_title": "Sibylline Oracles, Book 3",
+        "author": null,
+        "date_written_range": "c. 160 BCE to 50 BCE (Book 3 core)",
+        "anchor_id": "sibor.3.67",
+        "anchor_alt_citation": "Sibylline Oracles 3.67 (Charles 1913)",
+        "language": "en",
+        "translator": "H. C. O. Lanchester in Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.65,
+      "evidence_phrase": "Nay, but he deceives mortals, and many shall he deceive, Hebrews faithful and elect and lawless too, and other men who have never yet listened to the word of God.",
+      "rationale": "The Sibylline Oracles passage describes a personal deceiver (in context Beliar) who deceives mortals, including the faithful and elect, until the vengeance of the Almighty God draws near. This parallels the lexical verdict's deceiver and opposer-of-God clauses at Revelation 12:9 and John 8:44 from an independent second-temple stream, so it is recorded as parallel. Confidence is moderate because the named subject sits just outside this chunk's window.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-charles-1913"],
+        "extant_witnesses": ["Greek Sibylline MS tradition (Geffcken collation)"],
+        "loss_status": "complete"
+      },
+      "text": "for men: but they shall not be effective in him. Nay, but he deceives mortals, and many shall he deceive, Hebrews faithful and elect and lawless too, and other men who have never yet listened to the word of God. But at whatsoever time the threatened vengeance of the Almighty God draws near, and fiery energy comes through the swelling surge to earth,",
+      "text_to_embed": "for men: but they shall not be effective in him. Nay, but he deceives mortals, and many shall he deceive, Hebrews faithful and elect and lawless too, and other men who have never yet listened to the word of God. But at whatsoever time the threatened vengeance of the Almighty God draws near, and fiery energy comes through the swelling surge to earth,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The second-temple Jewish record independently attests a personal evil being or beings who oppose God and accuse or deceive his people, which runs alongside the lexical verdict without supplying it. 1 Enoch presents the Satans as personal accusers seeking to come before the Lord of Spirits to accuse those who dwell on the earth, the same courtroom-accuser role the verdict reads in Job 1 to 2 and Zechariah 3. The same work speaks of the violence of the Satans and their powers, names Satan in the singular as one whose instruments are prepared, and in the Book of the Watchers ascribes all sin to the rebel figure Azazel. The Sibylline Oracles add a personal deceiver who deceives mortals, including the faithful and elect, until the vengeance of God draws near. These witnesses are recorded as parallel rather than corroborating because they preserve overlapping but distinct figures (plural Satans, Azazel, Beliar) developed in their own streams, so reading them as direct dependence on the canon would overstate the link. They do show that a personal, hostile, super-human adversary was a settled feature of the Jewish world around Scripture and was not a later Christian invention. The created clause of the proposition is not directly carried by these witnesses, matching the lexical verdict's note that the created element rests on wider-canon inference. No witness complicates or contradicts the verdict.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "sibor", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

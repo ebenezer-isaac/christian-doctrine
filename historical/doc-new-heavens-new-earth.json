@@ -1,0 +1,132 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-new-heavens-new-earth",
+  "question_id": "doc-new-heavens-new-earth",
+  "generated_at": "2026-06-04T12:31:39Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.94.16",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.94.16",
+        "anchor_alt_citation": "1 Enoch 91:16 (Charles 1913, Apocalypse of Weeks)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "And the first heaven shall depart and pass away, And a new heaven shall appear, And all the powers of the heavens shall give sevenfold light.",
+      "rationale": "The Apocalypse of Weeks holds out a hope in which the present heaven departs and a new heaven appears, the closest second-temple verbal parallel to the new-heavens motif the lexical verdict reads in Isaiah 65:17 and Revelation 21:1. It is a parallel rather than a corroboration because the canon ties the renewal to righteousness dwelling and the redeemed, whereas 1 Enoch frames it within the seventy weeks scheme. It attests an independent Jewish expectation of cosmic renewal, not direct dependence.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q212 (Aramaic, Apocalypse of Weeks)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the first heaven shall depart and pass away, And a new heaven shall appear, And all the powers of the heavens shall give sevenfold light.",
+      "text_to_embed": "And the first heaven shall depart and pass away, And a new heaven shall appear, And all the powers of the heavens shall give sevenfold light.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.45.4",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE (Similitudes)",
+        "anchor_id": "1enoch.45.4",
+        "anchor_alt_citation": "1 Enoch 45:4 (Charles 1913, Book of Parables)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.74,
+      "evidence_phrase": "Then will I cause Mine Elect One to dwell among them. And I will transform the heaven and make it an eternal blessing and light",
+      "rationale": "The Similitudes pair a transformed heaven made into an eternal blessing with the Elect One dwelling among the people, a structure that parallels the lexical verdict reading of a renewed cosmos that is the enduring home of the redeemed. The word transform leans toward the renewal side of the renewal versus replacement nuance the verdict leaves open at the word level. It is a parallel because it preserves a kindred hope independently, not a borrowing from the canonical anchors.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Then will I cause Mine Elect One to dwell among them. And I will transform the heaven and make it an eternal blessing and light",
+      "text_to_embed": "Then will I cause Mine Elect One to dwell among them. And I will transform the heaven and make it an eternal blessing and light",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.94.17",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE (composite)",
+        "anchor_id": "1enoch.94.17",
+        "anchor_alt_citation": "1 Enoch 91:17 (Charles 1913, Apocalypse of Weeks)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Pseudepigrapha (CCEL mirror)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "And after that there will be many weeks without number for ever, And all shall be in goodness and righteousness, And sin shall no more be mentioned for ever.",
+      "rationale": "Immediately following the new-heaven line, 1 Enoch describes an unending age in which all is goodness and righteousness and sin is no more, a parallel to the verdict phrase righteousness dwells drawn from 2 Peter 3:13. The witness attests an independent second-temple expectation that the renewed order is permanently righteous, but it lacks the explicit new-earth pairing the canon supplies, so the parallel is partial. Attestation type parallel, held below the high-confidence band for that reason.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "4Q212 (Aramaic, Apocalypse of Weeks)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And after that there will be many weeks without number for ever, And all shall be in goodness and righteousness, And sin shall no more be mentioned for ever.",
+      "text_to_embed": "And after that there will be many weeks without number for ever, And all shall be in goodness and righteousness, And sin shall no more be mentioned for ever.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record offers a parallel, not a corroboration, of the proposition. 1 Enoch is the only v1 source that materially echoes the new-heavens hope. The Apocalypse of Weeks (1 Enoch 91, here 94:16-17 in the Charles numbering) speaks of the first heaven departing and a new heaven appearing, followed by an unending age in which all is goodness and righteousness and sin is no more, which runs alongside Isaiah 65:17, 2 Peter 3:13, and Revelation 21:1. The Similitudes (1 Enoch 45:4) add a transformed heaven made an eternal blessing with the Elect One dwelling among the people. These are independent second-temple expressions of a cosmic-renewal hope rather than the source of the canonical anchors, so they attest in parallel. The 1 Enoch verb transform leans toward the renewal side of the renewal versus replacement nuance the lexical verdict leaves open, but the engine reads this as a kindred Jewish hope, not a settlement of that question. None of these witnesses supply the explicit new-earth pairing or the redeemed-as-eternal-home framing in full, so each is held below the high-confidence band. The Josephus, Philo, Mishnah, Roman-historian, and Qumran candidates in the bundle did not materially parallel the proposition and were held out. The lexical verdict stands unchanged; this layer only records that the cosmic-renewal hope was already current in second-temple Judaism.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

@@ -1,0 +1,276 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-final-judgment",
+  "question_id": "doc-final-judgment",
+  "generated_at": "2026-06-04T12:31:11Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.50.4",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.50.4",
+        "anchor_alt_citation": "1 Enoch 50:4 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. 2 (1913), Book of Enoch"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "And He is righteous also in His judgement, And in the presence of His glory unrighteousness also shall not maintain itself: At His judgement the unrepentant shall perish before Him.",
+      "rationale": "The Parables of Enoch preserve a Second Temple tradition of a single righteous judgement at which the unrepentant perish, independent of the New Testament. This parallels the lexical verdict's claim of a final judgement with an adverse outcome for the wicked, but it does not depend on or derive from the Christian texts, so it is recorded as a parallel and not a corroboration.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base text)", "4Q201-4Q212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And He is righteous also in His judgement, And in the presence of His glory unrighteousness also shall not maintain itself: At His judgement the unrepentant shall perish before Him.",
+      "text_to_embed": "And He is righteous also in His judgement, And in the presence of His glory unrighteousness also shall not maintain itself: At His judgement the unrepentant shall perish before Him.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.41.9",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.41.9",
+        "anchor_alt_citation": "1 Enoch 41:9 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. 2 (1913), Book of Enoch"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "For no angel hinders and no power is able to hinder; for He appoints a judge for them all and He judges them all before Him.",
+      "rationale": "Enoch states that an appointed judge judges all without exception, an independent witness to the universality carried in the lexical verdict by 'all' in 2 Corinthians 5:10 and 'all the nations' in Matthew 25:32. The motif of one appointed to judge everyone is preserved here as a parallel tradition, not as dependence on the New Testament.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base text)", "4Q201-4Q212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "For no angel hinders and no power is able to hinder; for He appoints a judge for them all and He judges them all before Him.",
+      "text_to_embed": "For no angel hinders and no power is able to hinder; for He appoints a judge for them all and He judges them all before Him.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.45.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.45.3",
+        "anchor_alt_citation": "1 Enoch 45:3 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. 2 (1913), Book of Enoch"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.83,
+      "evidence_phrase": "On that day Mine Elect One shall sit on the throne of glory And shall try their works, And their places of rest shall be innumerable.",
+      "rationale": "The Parables present a messianic Elect One seated on a throne of glory who tries human works, a tradition strikingly close to Matthew 25:31 where the Son of Man sits on his throne of glory to judge by deeds. Because Enoch predates the Gospels and is independent, this is preserved as a parallel that the lexical anchor at Matthew 25 stands alongside, not a source the verdict relies upon.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base text)", "4Q201-4Q212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "On that day Mine Elect One shall sit on the throne of glory And shall try their works, And their places of rest shall be innumerable. And their souls shall grow strong within them when they see Mine Elect Ones, And those who have called upon My glorious name:",
+      "text_to_embed": "On that day Mine Elect One shall sit on the throne of glory And shall try their works, And their places of rest shall be innumerable. And their souls shall grow strong within them when they see Mine Elect Ones, And those who have called upon My glorious name:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "sibor.4.181",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "sibor",
+        "work_id": "sibor",
+        "work_title": "Sibylline Oracles, Book 4",
+        "author": null,
+        "date_written_range": "c. 80 CE",
+        "anchor_id": "sibor.4.181",
+        "anchor_alt_citation": "Sib. Or. 4.181 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. 2 (1913), Sibylline Oracles"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "And then the judgement shall come wherein God himself shall give sentence, judging the world again. And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth",
+      "rationale": "Book 4 of the Sibylline Oracles describes a final judgement of the whole world with two divergent destinies, the impious consigned to Tartarus and hell while the godly live again. This independently parallels the two symmetric outcomes the lexical verdict draws from Matthew 25:46 and Romans 2:7-9. The oracle is a Jewish composition reworked in Sibylline form, so it is recorded as a parallel tradition.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-charles-1913"],
+        "extant_witnesses": ["Greek Sibylline MSS (Geffcken edition base)"],
+        "loss_status": "complete"
+      },
+      "text": "And then the judgement shall come wherein God himself shall give sentence, judging the world again. And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth when God gives breath and life and grace to them,",
+      "text_to_embed": "And then the judgement shall come wherein God himself shall give sentence, judging the world again. And all who have sinned with deeds of impiety a heap of earth shall cover again, and murky Tartarus and the black recesses of hell. But all who are godly shall live again on earth when God gives breath and life and grace to them,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.apion.2.215",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.apion",
+        "work_title": "Against Apion",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 97 CE",
+        "anchor_id": "josephus.apion.2.215",
+        "anchor_alt_citation": "Against Apion 2.30 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg002, Whiston translation"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "God hath made this grant to those that observe these laws, even though they be obliged readily to die for them, that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before",
+      "rationale": "Josephus reports the Jewish conviction that the lawless are punished while the faithful, even unto death, come into being again to a better life. This is a first-century witness to a reward and punishment scheme tied to a future restoration, paralleling the two outcomes in the lexical verdict. It is a general statement of Jewish belief rather than a description of one universal assize, so confidence is moderate.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS L, S per Niese (Against Apion)"],
+        "loss_status": "complete"
+      },
+      "text": "However, the reward for such as live exactly according to the laws is not silver or gold; it is not a garland of olive branches or of small age, nor any such public sign of commendation; but every good man hath his own conscience bearing witness to himself, and by virtue of our legislator's prophetic spirit, and of the firm security God himself affords such a one, he believes that God hath made this grant to those that observe these laws, even though they be obliged readily to die for them, that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before.",
+      "text_to_embed": "However, the reward for such as live exactly according to the laws is not silver or gold; it is not a garland of olive branches or of small age, nor any such public sign of commendation; but every good man hath his own conscience bearing witness to himself, and by virtue of our legislator's prophetic spirit, and of the firm security God himself affords such a one, he believes that God hath made this grant to those that observe these laws, even though they be obliged readily to die for them, that they shall come into being again, and at a certain revolution of things shall receive a better life than they had enjoyed before.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-praemiis.67",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-praemiis",
+        "work_title": "On Rewards and Punishments (De Praemiis et Poenis)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-praemiis.67",
+        "anchor_alt_citation": "De Praemiis et Poenis 67 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge, The Works of Philo Judaeus (1854), On Rewards and Punishments"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.65,
+      "evidence_phrase": "We must now proceed in regular order to consider in turn the punishments appointed for the wicked",
+      "rationale": "Philo structures a treatise around rewards assigned to the good and punishments appointed for the wicked, an independent first-century Jewish articulation of the two divergent destinies the lexical verdict draws from Matthew 25:46. Philo frames this as a moral and providential scheme rather than a single end-time assize before a returning judge, so it parallels the reward and punishment axis but not the explicit final-judgement event, and confidence is held lower.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus (Cohn-Wendland base)"],
+        "loss_status": "complete"
+      },
+      "text": "Therefore those rewards which were thus long since assigned to the good, both publicly and privately, have now been described though somewhat in outline, but sufficiently to enable anyone to comprehend with tolerable ease what has been omitted. We must now proceed in regular order to consider in turn the punishments appointed for the wicked, speaking of them in a somewhat general way since the time does not allow of my enumerating all the particular instances.",
+      "text_to_embed": "Therefore those rewards which were thus long since assigned to the good, both publicly and privately, have now been described though somewhat in outline, but sufficiently to enable anyone to comprehend with tolerable ease what has been omitted. We must now proceed in regular order to consider in turn the punishments appointed for the wicked, speaking of them in a somewhat general way since the time does not allow of my enumerating all the particular instances.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "mishnah.pirkei-avot.4.22",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.pirkei-avot",
+        "work_title": "Mishnah, Pirkei Avot",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.pirkei-avot.4.22",
+        "anchor_alt_citation": "Pirkei Avot 4:22",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 Hebrew (Mishnah), public domain"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן",
+      "rationale": "Pirkei Avot teaches that the born are to die, the dead to live again, and the living to be judged, with God as judge, witness, and plaintiff who is destined to judge each person. This rabbinic formulation parallels the sequence of death, resurrection, and judgement in the lexical verdict, especially Hebrews 9:27. It is a later independent Jewish witness preserving the same tradition, hence parallel rather than corroborating.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "hbo",
+        "witness_chain": ["mishnah-hebrew-torat-emet", "sefaria-edition"],
+        "extant_witnesses": ["Torat Emet 357 (Sefaria base text)"],
+        "loss_status": "complete"
+      },
+      "text": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "text_to_embed": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Torat Emet Hebrew Mishnah is public domain."
+    }
+  ],
+  "summary": "The extra-biblical record carries a robust Second Temple and early rabbinic tradition of a final judgement with two divergent outcomes, independent of the New Testament texts the lexical verdict relies on. The Parables of 1 Enoch describe a righteous judgement at which the unrepentant perish, an appointed judge who judges all without exception, and a messianic Elect One seated on a throne of glory who tries human works, a motif close to the throne scene at Matthew 25:31. Sibylline Oracles Book 4 sets out a judgement of the whole world in which the impious go to Tartarus and hell while the godly live again, paralleling the symmetric destinies of Matthew 25:46 and Romans 2:7-9. Josephus reports the Jewish conviction that the faithful, even unto death, come into being again to a better life, and Philo organizes a whole treatise around rewards for the good and punishments for the wicked. Pirkei Avot teaches that the born die, the dead live again, and the living are judged before the King of kings, echoing the death then judgement sequence of Hebrews 9:27. These witnesses do not derive from Christian sources and several predate them, so they are recorded as parallels rather than corroborations. They complicate nothing in the lexical verdict. They show that the proposition's framework of universal judgement, resurrection, and two outcomes was a shared inheritance of the world around Scripture, and the verdict stands.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "sibor", "license": "PD", "redistribute": true},
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

@@ -1,0 +1,133 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-canon-protestant-66",
+  "question_id": "doc-canon-protestant-66",
+  "generated_at": "2026-06-04T12:26:25Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.apion.1.38",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.apion",
+        "work_title": "Against Apion",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 95-100 CE",
+        "anchor_id": "josephus.apion.1.38",
+        "anchor_alt_citation": "Against Apion 1.8 (Whiston); Contra Apionem 1.37-43",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg002.perseus-eng"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.88,
+      "evidence_phrase": "but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death.",
+      "rationale": "Josephus reports a fixed and closed Jewish collection of sacred books with a stated count and a threefold structure of five of Moses, thirteen of the prophets, and four of hymns and precepts, and he adds the closure principle that no one has dared to add to, take from, or change them. This independently corroborates the lexical verdict that a bounded Hebrew Scripture category existed in the first century. The count differs from the later number thirty-nine because Josephus combines books that the Protestant arrangement separates, so the witness supports the boundary, not the precise arithmetic, which matches the verdict's medium confidence.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["Codex Laurentianus 69.22 (L)", "Codex Eliensis (E)"],
+        "loss_status": "complete"
+      },
+      "text": "For we have not an innumerable multitude of books among us, disagreeing from and contradicting one another, [as the Greeks have,] but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death. This interval of time was little short of three thousand years; but as to the time from the death of Moses till the reign of Artaxerxes king of Persia, who reigned after Xerxes, the prophets, who were after Moses, wrote down what was done in their times in thirteen books. The remaining four books contain hymns to God, and precepts for the conduct of human life. It is true, our history hath been written since Artaxerxes very particularly, but hath not been esteemed of the like authority with the former by our forefathers, because there hath not been an exact succession of prophets since that time; and how firmly we have given credit to these books of our own nation is evident by what we do; for during so many ages as have already passed, no one has been so bold as either to add any thing to them, to take any thing from them, or to make any change in them; but it is become natural to all Jews immediately, and from their very birth, to esteem these books to contain Divine doctrines, and to persist in them, and, if occasion be willingly to die for them.",
+      "text_to_embed": "For we have not an innumerable multitude of books among us, disagreeing from and contradicting one another, [as the Greeks have,] but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death. This interval of time was little short of three thousand years; but as to the time from the death of Moses till the reign of Artaxerxes king of Persia, who reigned after Xerxes, the prophets, who were after Moses, wrote down what was done in their times in thirteen books. The remaining four books contain hymns to God, and precepts for the conduct of human life. It is true, our history hath been written since Artaxerxes very particularly, but hath not been esteemed of the like authority with the former by our forefathers, because there hath not been an exact succession of prophets since that time; and how firmly we have given credit to these books of our own nation is evident by what we do; for during so many ages as have already passed, no one has been so bold as either to add any thing to them, to take any thing from them, or to make any change in them; but it is become natural to all Jews immediately, and from their very birth, to esteem these books to contain Divine doctrines, and to persist in them, and, if occasion be willingly to die for them.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "mishnah.yadayim.3.5",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.yadayim",
+        "work_title": "Mishnah Yadayim",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.yadayim.3.5",
+        "anchor_alt_citation": "m. Yadayim 3:5",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Hebrew), PD"
+      },
+      "attestation_type": "complicates",
+      "confidence": 0.82,
+      "evidence_phrase": "כָּל כִּתְבֵי הַקֹּדֶשׁ מְטַמְּאִין אֶת הַיָּדַיִם. שִׁיר הַשִּׁירִים וְקֹהֶלֶת מְטַמְּאִין אֶת הַיָּדַיִם. רַבִּי יְהוּדָה אוֹמֵר, שִׁיר הַשִּׁירִים מְטַמֵּא אֶת הַיָּדַיִם, וְקֹהֶלֶת מַחֲלֹקֶת.",
+      "rationale": "This Mishnah uses the technical category of sacred writings that defile the hands as a recognized class, which corroborates that a bounded set of holy books was assumed. But it preserves a recorded dispute over whether Song of Songs and Ecclesiastes belong to that class, which complicates the picture by showing the precise edges of the collection were still argued among the rabbis after the apostolic period. The lexical verdict that affirms the boundary stands, while this witness records that membership of a few books was contested.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-mishnah-torat-emet"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138"],
+        "loss_status": "complete"
+      },
+      "text": "סֵפֶר שֶׁנִּמְחַק וְנִשְׁתַּיֵּר בּוֹ שְׁמוֹנִים וְחָמֵשׁ אוֹתִיּוֹת, כְּפָרָשַׁת וַיְהִי בִּנְסֹעַ הָאָרֹן, מְטַמֵּא אֶת הַיָּדַיִם. מְגִלָּה שֶׁכָּתוּב בָּהּ שְׁמוֹנִים וְחָמֵשׁ אוֹתִיּוֹת כְּפָרָשַׁת וַיְהִי בִּנְסֹעַ הָאָרֹן, מְטַמָּא אֶת הַיָּדַיִם. כָּל כִּתְבֵי הַקֹּדֶשׁ מְטַמְּאִין אֶת הַיָּדַיִם. שִׁיר הַשִּׁירִים וְקֹהֶלֶת מְטַמְּאִין אֶת הַיָּדַיִם. רַבִּי יְהוּדָה אוֹמֵר, שִׁיר הַשִּׁירִים מְטַמֵּא אֶת הַיָּדַיִם, וְקֹהֶלֶת מַחֲלֹקֶת. רַבִּי יוֹסֵי אוֹמֵר, קֹהֶלֶת אֵינוֹ מְטַמֵּא אֶת הַיָּדַיִם וְשִׁיר הַשִּׁירִים מַחֲלֹקֶת. רַבִּי שִׁמְעוֹן אוֹמֵר, קֹהֶלֶת מִקֻּלֵּי בֵית שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל. אָמַר רַבִּי שִׁמְעוֹן בֶּן עַזַּאי, מְקֻבָּל אֲנִי מִפִּי שִׁבְעִים וּשְׁנַיִם זָקֵן, בַּיּוֹם שֶׁהוֹשִׁיבוּ אֶת רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה בַּיְשִׁיבָה, שֶׁשִּׁיר הַשִּׁירִים וְקֹהֶלֶת מְטַמְּאִים אֶת הַיָּדַיִם. אָמַר רַבִּי עֲקִיבָא, חַס וְשָׁלוֹם, לֹא נֶחֱלַק אָדָם מִיִּשְׂרָאֵל עַל שִׁיר הַשִּׁירִים שֶׁלֹּא תְטַמֵּא אֶת הַיָּדַיִם, שֶׁאֵין כָּל הָעוֹלָם כֻּלּוֹ כְדַאי כַּיּוֹם שֶׁנִּתַּן בּוֹ שִׁיר הַשִּׁירִים לְיִשְׂרָאֵל, שֶׁכָּל הַכְּתוּבִים קֹדֶשׁ, וְשִׁיר הַשִּׁירִים קֹדֶשׁ קָדָשִׁים. וְאִם נֶחְלְקוּ, לֹא נֶחְלְקוּ אֶלָּא עַל קֹהֶלֶת. אָמַר רַבִּי יוֹחָנָן בֶּן יְהוֹשֻׁעַ בֶּן חָמִיו שֶׁל רַבִּי עֲקִיבָא, כְּדִבְרֵי בֶן עַזַּאי, כָּךְ נֶחְלְקוּ וְכָךְ גָּמְרוּ:",
+      "text_to_embed": "סֵפֶר שֶׁנִּמְחַק וְנִשְׁתַּיֵּר בּוֹ שְׁמוֹנִים וְחָמֵשׁ אוֹתִיּוֹת, כְּפָרָשַׁת וַיְהִי בִּנְסֹעַ הָאָרֹן, מְטַמֵּא אֶת הַיָּדַיִם. מְגִלָּה שֶׁכָּתוּב בָּהּ שְׁמוֹנִים וְחָמֵשׁ אוֹתִיּוֹת כְּפָרָשַׁת וַיְהִי בִּנְסֹעַ הָאָרֹן, מְטַמָּא אֶת הַיָּדַיִם. כָּל כִּתְבֵי הַקֹּדֶשׁ מְטַמְּאִין אֶת הַיָּדַיִם. שִׁיר הַשִּׁירִים וְקֹהֶלֶת מְטַמְּאִין אֶת הַיָּדַיִם. רַבִּי יְהוּדָה אוֹמֵר, שִׁיר הַשִּׁירִים מְטַמֵּא אֶת הַיָּדַיִם, וְקֹהֶלֶת מַחֲלֹקֶת. רַבִּי יוֹסֵי אוֹמֵר, קֹהֶלֶת אֵינוֹ מְטַמֵּא אֶת הַיָּדַיִם וְשִׁיר הַשִּׁירִים מַחֲלֹקֶת. רַבִּי שִׁמְעוֹן אוֹמֵר, קֹהֶלֶת מִקֻּלֵּי בֵית שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל. אָמַר רַבִּי שִׁמְעוֹן בֶּן עַזַּאי, מְקֻבָּל אֲנִי מִפִּי שִׁבְעִים וּשְׁנַיִם זָקֵן, בַּיּוֹם שֶׁהוֹשִׁיבוּ אֶת רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה בַּיְשִׁיבָה, שֶׁשִּׁיר הַשִּׁירִים וְקֹהֶלֶת מְטַמְּאִים אֶת הַיָּדַיִם. אָמַר רַבִּי עֲקִיבָא, חַס וְשָׁלוֹם, לֹא נֶחֱלַק אָדָם מִיִּשְׂרָאֵל עַל שִׁיר הַשִּׁירִים שֶׁלֹּא תְטַמֵּא אֶת הַיָּדַיִם, שֶׁאֵין כָּל הָעוֹלָם כֻּלּוֹ כְדַאי כַּיּוֹם שֶׁנִּתַּן בּוֹ שִׁיר הַשִּׁירִים לְיִשְׂרָאֵל, שֶׁכָּל הַכְּתוּבִים קֹדֶשׁ, וְשִׁיר הַשִּׁירִים קֹדֶשׁ קָדָשִׁים. וְאִם נֶחְלְקוּ, לֹא נֶחְלְקוּ אֶלָּא עַל קֹהֶלֶת. אָמַר רַבִּי יוֹחָנָן בֶּן יְהוֹשֻׁעַ בֶּן חָמִיו שֶׁל רַבִּי עֲקִיבָא, כְּדִבְרֵי בֶן עַזַּאי, כָּךְ נֶחְלְקוּ וְכָךְ גָּמְרוּ:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Torat Emet text in the public domain via Sefaria."
+    },
+    {
+      "witness_id": "mishnah.shabbat.16.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.shabbat",
+        "work_title": "Mishnah Shabbat",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.shabbat.16.1",
+        "anchor_alt_citation": "m. Shabbat 16:1",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Hebrew), PD"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.74,
+      "evidence_phrase": "כָּל כִּתְבֵי הַקֹּדֶשׁ מַצִּילִין אוֹתָן מִפְּנֵי הַדְּלֵקָה, בֵּין שֶׁקּוֹרִין בָּהֶן וּבֵין שֶׁאֵין קוֹרִין בָּהֶן.",
+      "rationale": "This ruling treats the sacred writings as a single recognized class that must be rescued from fire on the Sabbath, which presupposes a bounded body of holy books with a settled status. It corroborates the lexical verdict that a defined Scripture category was assumed in early Judaism, since the law only makes sense if the membership of that category was broadly known. It does not state a number, so it supports the existence of the boundary rather than the precise count.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["hebrew-mishnah-torat-emet"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138"],
+        "loss_status": "complete"
+      },
+      "text": "כָּל כִּתְבֵי הַקֹּדֶשׁ מַצִּילִין אוֹתָן מִפְּנֵי הַדְּלֵקָה, בֵּין שֶׁקּוֹרִין בָּהֶן וּבֵין שֶׁאֵין קוֹרִין בָּהֶן. וְאַף עַל פִּי שֶׁכְּתוּבִים בְּכָל לָשׁוֹן, טְעוּנִים גְּנִיזָה. וּמִפְּנֵי מָה אֵין קוֹרִין בָּהֶן, מִפְּנֵי בִטּוּל בֵּית הַמִּדְרָשׁ. מַצִּילִין תִּיק הַסֵּפֶר עִם הַסֵּפֶר, וְתִיק הַתְּפִלִּין עִם הַתְּפִלִּין, וְאַף עַל פִּי שֶׁיֵּשׁ בְּתוֹכָן מָעוֹת. וּלְהֵיכָן מַצִּילִין אוֹתָן, לְמָבוֹי שֶׁאֵינוֹ מְפֻלָּשׁ. בֶּן בְּתֵירָא אוֹמֵר, אַף לִמְפֻלָּשׁ:",
+      "text_to_embed": "כָּל כִּתְבֵי הַקֹּדֶשׁ מַצִּילִין אוֹתָן מִפְּנֵי הַדְּלֵקָה, בֵּין שֶׁקּוֹרִין בָּהֶן וּבֵין שֶׁאֵין קוֹרִין בָּהֶן. וְאַף עַל פִּי שֶׁכְּתוּבִים בְּכָל לָשׁוֹן, טְעוּנִים גְּנִיזָה. וּמִפְּנֵי מָה אֵין קוֹרִין בָּהֶן, מִפְּנֵי בִטּוּל בֵּית הַמִּדְרָשׁ. מַצִּילִין תִּיק הַסֵּפֶר עִם הַסֵּפֶר, וְתִיק הַתְּפִלִּין עִם הַתְּפִלִּין, וְאַף עַל פִּי שֶׁיֵּשׁ בְּתוֹכָן מָעוֹת. וּלְהֵיכָן מַצִּילִין אוֹתָן, לְמָבוֹי שֶׁאֵינוֹ מְפֻלָּשׁ. בֶּן בְּתֵירָא אוֹמֵר, אַף לִמְפֻלָּשׁ:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Torat Emet text in the public domain via Sefaria."
+    }
+  ],
+
+  "summary": "The extra-biblical record supports the existence of a bounded body of Hebrew Scripture without confirming the exact arithmetic of thirty-nine plus twenty-seven. Josephus, writing near the end of the first century, reports a closed Jewish collection of twenty-two divinely regarded books in a threefold arrangement of five of Moses, thirteen of the prophets, and four of hymns and precepts, and he states the closure principle that no one has dared to add to or take from them. His count of twenty-two reflects a different counting convention in which books later separated are combined, so it backs the boundary rather than the number. The Mishnah, redacted around 200 CE, uses the technical category of sacred writings that defile the hands and the parallel rule that such writings are rescued from fire, which presupposes a recognized class of holy books. At the same time the Mishnah in Yadayim preserves a recorded dispute over whether Song of Songs and Ecclesiastes belong to that class, which complicates the picture by showing that the membership of a few books was still argued after the apostolic age. None of these witnesses speaks to the twenty-seven book New Testament, since they are Jewish sources. Taken together they corroborate the lexical verdict that a defined Scripture category and its end brackets existed in the period, while leaving the precise enumeration outside what the historical record fixes.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

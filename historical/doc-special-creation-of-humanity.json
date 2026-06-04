@@ -1,0 +1,171 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-special-creation-of-humanity",
+  "question_id": "doc-special-creation-of-humanity",
+  "generated_at": "2026-06-04T12:30:27Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.1.34",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.34",
+        "anchor_alt_citation": "Ant 1.1.2 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001, Whiston English"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "That God took dust from the ground, and formed man, and inserted in him a spirit and a soul ... he laid him asleep, and took away one of his ribs, and out of it formed the woman",
+      "rationale": "Josephus retells the Genesis account independently, with God as the direct agent who forms the man from dust and forms the woman from his rib. This preserves the same special-creation tradition the lexical verdict reads in Genesis 2:7 and Genesis 2:21-22. It is a parallel witness, not new evidence, since Josephus is paraphrasing the Pentateuch he names as his source.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese 1885-1895"],
+        "loss_status": "complete"
+      },
+      "text": "Moreover, Moses, after the seventh day was over begins to talk philosophically; and concerning the formation of man, says thus: That God took dust from the ground, and formed man, and inserted in him a spirit and a soul. This man was called Adam, which in the Hebrew tongue signifies one that is red, because he was formed out of red earth, compounded together; for of that kind is virgin and true earth. God also presented the living creatures, when he had made them, according to their kinds, both male and female, to Adam, who gave them those names by which they are still called. But when he saw that Adam had no female companion, no society, for there was no such created, and that he wondered at the other animals which were male and female, he laid him asleep, and took away one of his ribs, and out of it formed the woman; whereupon Adam knew her when she was brought to him, and acknowledged that she was made out of himself. Now a woman is called in the Hebrew tongue Issa; but the name of this woman was Eve, which signifies the mother of all living.",
+      "text_to_embed": "Moreover, Moses, after the seventh day was over begins to talk philosophically; and concerning the formation of man, says thus: That God took dust from the ground, and formed man, and inserted in him a spirit and a soul. This man was called Adam, which in the Hebrew tongue signifies one that is red, because he was formed out of red earth, compounded together; for of that kind is virgin and true earth. God also presented the living creatures, when he had made them, according to their kinds, both male and female, to Adam, who gave them those names by which they are still called. But when he saw that Adam had no female companion, no society, for there was no such created, and that he wondered at the other animals which were male and female, he laid him asleep, and took away one of his ribs, and out of it formed the woman; whereupon Adam knew her when she was brought to him, and acknowledged that she was made out of himself. Now a woman is called in the Hebrew tongue Issa; but the name of this woman was Eve, which signifies the mother of all living.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "jubilees.3.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "jubilees",
+        "work_id": "jubilees",
+        "work_title": "Book of Jubilees",
+        "author": null,
+        "date_written_range": "c. 160-150 BCE",
+        "anchor_id": "jubilees.3.1",
+        "anchor_alt_citation": "Jubilees 3:1-27 (Charles)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Apocrypha and Pseudepigrapha, vol. 2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "And the Lord our God caused a deep sleep to fall upon him, and he slept, and He took for the woman one rib from amongst his ribs, and this rib was the origin of the woman from amongst his ribs, and He built up the flesh in its stead, and built the woman.",
+      "rationale": "Jubilees rewrites Genesis 2 with God as the sole agent who causes the deep sleep, takes the rib, and builds the woman. This independently preserves the special-creation of the first pair the lexical verdict reads in Genesis 2:21-22, including the build verb sense the verdict ties to banah. It is parallel tradition rather than fresh attestation, since Jubilees is a second-temple retelling of the same Pentateuchal narrative.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "hbo",
+        "witness_chain": ["hebrew-qumran-fragments", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "4Q216-4Q228 Hebrew fragments"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "1. And on the six days of the second week we brought, according to the word of God, unto Adam all the beasts, and all the cattle, and all the birds, and everything that moves on the earth, and everything that moves in the water, according to their kinds, and according to their types: the beasts on the first day; the cattle on the second day; the birds on the third day; and all that which moves on the earth on the fourth day; and that which moves in the water on the fifth day. 2. And Adam named them all by their respective names, and as he called them, so was their name. 3. And on these five days Adam saw all these, male and female, according to every kind that was on the earth, but he was alone and found no helpmeet for him. 4. And the Lord said unto us: 'It is not good that the man should be alone: let us make a helpmeet for him.' 5. And the Lord our God caused a deep sleep to fall upon him, and he slept, and He took for the woman one rib from amongst his ribs, and this rib was the origin of the woman from amongst his ribs, and He built up the flesh in its stead, and built the woman. 6. And He awaked Adam out of his sleep and on awaking he rose on the sixth day, and He brought her to him, and he knew her, and said unto her: 'This is now bone of my bones and flesh of my flesh; she shall be called [my] wife; because she was taken from her husband.' 7. Therefore shall man and wife be one and therefore shall a man leave his father and his mother, and cleave unto his wife, and they shall be one flesh. 8. In the first week was Adam created, and the rib -his wife: in the second week He showed her unto him: and for this reason the commandment was given to keep in their defilement, for a male seven days, and for a female twice seven days.",
+      "text_to_embed": "1. And on the six days of the second week we brought, according to the word of God, unto Adam all the beasts, and all the cattle, and all the birds, and everything that moves on the earth, and everything that moves in the water, according to their kinds, and according to their types: the beasts on the first day; the cattle on the second day; the birds on the third day; and all that which moves on the earth on the fourth day; and that which moves in the water on the fifth day. 2. And Adam named them all by their respective names, and as he called them, so was their name. 3. And on these five days Adam saw all these, male and female, according to every kind that was on the earth, but he was alone and found no helpmeet for him. 4. And the Lord said unto us: 'It is not good that the man should be alone: let us make a helpmeet for him.' 5. And the Lord our God caused a deep sleep to fall upon him, and he slept, and He took for the woman one rib from amongst his ribs, and this rib was the origin of the woman from amongst his ribs, and He built up the flesh in its stead, and built the woman. 6. And He awaked Adam out of his sleep and on awaking he rose on the sixth day, and He brought her to him, and he knew her, and said unto her: 'This is now bone of my bones and flesh of my flesh; she shall be called [my] wife; because she was taken from her husband.' 7. Therefore shall man and wife be one and therefore shall a man leave his father and his mother, and cleave unto his wife, and they shall be one flesh. 8. In the first week was Adam created, and the rib -his wife: in the second week He showed her unto him: and for this reason the commandment was given to keep in their defilement, for a male seven days, and for a female twice seven days.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "sibor.3.19",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "sibor",
+        "work_id": "sibor",
+        "work_title": "Sibylline Oracles",
+        "author": null,
+        "date_written_range": "c. 160 BCE (Book 3 core)",
+        "anchor_id": "sibor.3.19",
+        "anchor_alt_citation": "Sib. Or. 3.24-26 (Lanchester)",
+        "language": "en",
+        "translator": "H. C. O. Lanchester (1913)",
+        "edition": "Charles 1913 Apocrypha and Pseudepigrapha, vol. 2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.74,
+      "evidence_phrase": "Yea it is God Himself who fashioned four-lettered Adam,",
+      "rationale": "The Sibylline Oracles name God Himself as the one who fashioned Adam, the first man. This independently preserves the divine-agency element of the special-creation claim the lexical verdict reads in Genesis 2:7. The witness is brief and names only Adam, not Eve, so it attests the proposition partially and is scored as a parallel tradition rather than a full retelling.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-lanchester-1913"],
+        "extant_witnesses": ["Greek Sibylline MSS collections"],
+        "loss_status": "partial"
+      },
+      "text": "of the mighty, heavenly God, the World-Ruler? Who by his word created all, both heaven and sea and tireless sun and moon at full and twinkling stars, mighty mother Ocean, springs and rivers, fire immortal, days and nights. Yea it is God Himself who fashioned four-lettered Adam,",
+      "text_to_embed": "of the mighty, heavenly God, the World-Ruler? Who by his word created all, both heaven and sea and tireless sun and moon at full and twinkling stars, mighty mother Ocean, springs and rivers, fire immortal, days and nights. Yea it is God Himself who fashioned four-lettered Adam,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Lanchester 1913 translation in Charles is public domain by age."
+    },
+    {
+      "witness_id": "philo.legum-allegoriae-ii.13",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.legum-allegoriae-ii",
+        "work_title": "Allegorical Interpretation, II",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-40 CE",
+        "anchor_id": "philo.legum-allegoriae-ii.13",
+        "anchor_alt_citation": "Leg. All. 2.13 (Yonge)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854, The Works of Philo Judaeus"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.66,
+      "evidence_phrase": "for having first modelled the generic man, in whom they say that the male and female sexes are contained, he afterwards created the specific man Adam.",
+      "rationale": "Philo reads Genesis as God first modelling a generic man and afterwards creating the specific man Adam, with God as the direct agent in both. This parallels the divine-agency element of the lexical verdict at Genesis 1:26-27 and Genesis 2:7, though Philo's generic-versus-specific framing is his own allegorical layer over the Genesis text. It is scored parallel and at lower confidence because the philosophical scheme partly recasts the plain narrative.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek Philo corpus MSS"],
+        "loss_status": "complete"
+      },
+      "text": "On which account Moses says, \"And besides he made...\" and that what had been previously created were genera is plain from what he says, \"Let the earth bring forth living souls,\" not according to species but according to genus. And this is found to be the course taken by God in all cases; for before making the species he completes the genera, as he did in the case of man: for having first modelled the generic man, in whom they say that the male and female sexes are contained, he afterwards created the specific man Adam.",
+      "text_to_embed": "On which account Moses says, \"And besides he made...\" and that what had been previously created were genera is plain from what he says, \"Let the earth bring forth living souls,\" not according to species but according to genus. And this is found to be the course taken by God in all cases; for before making the species he completes the genera, as he did in the case of man: for having first modelled the generic man, in whom they say that the male and female sexes are contained, he afterwards created the specific man Adam.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record carries the special-creation tradition of the first pair forward, but as parallel retellings rather than independent confirmation. Josephus paraphrases Genesis directly, saying God took dust and formed the man, then took a rib and formed the woman, which tracks the lexical verdict on Genesis 2:7 and Genesis 2:21-22. The Book of Jubilees rewrites the same scene with God causing the deep sleep, taking one rib, and building the woman, matching the build sense the verdict ties to the Hebrew verb banah. The Sibylline Oracles name God Himself as the one who fashioned Adam, attesting the divine-agency point for the man though not for Eve. Philo reads God as first modelling a generic man and afterwards creating the specific man Adam, which preserves divine agency while adding his own allegorical genus and species framing. All four witnesses depend on the Pentateuch they are interpreting, so they corroborate the antiquity and the breadth of the tradition without adding a separate line of evidence. None of them speaks to the mechanism question the verdict says the vocabulary leaves open, and none of them weighs against the affirmed point of direct divine agency. The witness is therefore supportive and consistent, but its weight is limited by the dependence of each source on Genesis itself.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "jubilees", "license": "PD", "redistribute": true},
+      {"source_slug": "sibor", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

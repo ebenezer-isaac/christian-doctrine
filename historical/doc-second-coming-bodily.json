@@ -1,0 +1,168 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-second-coming-bodily",
+  "question_id": "doc-second-coming-bodily",
+  "generated_at": "2026-06-04T00:00:00Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.1.9",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Apocalypse of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.1.9",
+        "anchor_alt_citation": "1 Enoch 1:9; cf. Jude 1:14-15",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Apocrypha and Pseudepigrapha of the Old Testament"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "And behold! He cometh with ten thousands of His holy ones To execute judgement upon all, And to destroy all the ungodly",
+      "rationale": "This passage preserves a pre-Christian Jewish expectation of a future divine advent with holy ones to execute universal judgment, the same tradition Jude 1:14-15 cites verbatim. It parallels the underlying hope of a coming One who judges the living and the dead, but it depicts a theophany of the Holy Great One, not the personal bodily return of the risen Jesus the lexical verdict describes. It is a parallel to the judgment-coming motif, not independent attestation of the Christian second-coming event.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-4Q212 (Aramaic)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And behold! He cometh with ten thousands of ⌈His⌉ holy ones To execute judgement upon all, And to destroy ⌈all⌉ the ungodly: And to convict all flesh Of all the works ⌈of their ungodliness⌉ which they have ungodly committed, And of all the hard things which ungodly sinners ⌈have spoken⌉ against Him.",
+      "text_to_embed": "And behold! He cometh with ten thousands of ⌈His⌉ holy ones To execute judgement upon all, And to destroy ⌈all⌉ the ungodly: And to convict all flesh Of all the works ⌈of their ungodliness⌉ which they have ungodly committed, And of all the hard things which ungodly sinners ⌈have spoken⌉ against Him.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.1.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Apocalypse of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.1.3",
+        "anchor_alt_citation": "1 Enoch 1:3",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Apocrypha and Pseudepigrapha of the Old Testament"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.63,
+      "evidence_phrase": "The Holy Great One will come forth from His dwelling,",
+      "rationale": "The opening of the same theophany announces a future coming forth of the Holy Great One from His dwelling, a coming patterned on a departure point in heaven. This is a structural parallel to the future-coming hope, but it names a divine descent for judgment rather than the personal visible bodily return of Jesus. Read alone it would overstate the link, so it is logged as a parallel and not a corroboration.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["4Q201-4Q212 (Aramaic)", "Codex Panopolitanus (Greek)", "Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Concerning the elect I said, and took up my parable concerning them: The Holy Great One will come forth from His dwelling,",
+      "text_to_embed": "Concerning the elect I said, and took up my parable concerning them: The Holy Great One will come forth from His dwelling,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.51.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Apocalypse of Enoch)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE (Similitudes)",
+        "anchor_id": "1enoch.51.1",
+        "anchor_alt_citation": "1 Enoch 51:1",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Apocrypha and Pseudepigrapha of the Old Testament"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.65,
+      "evidence_phrase": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "rationale": "From the Similitudes, this couples a future bodily resurrection where earth and Sheol give back the dead with the arising of the Elect One, a messianic figure. It parallels the resurrection-and-judgment frame tied to the coming in the lexical anchors at 1 Corinthians 15:23-28. It is a Jewish parallel to the hope, not attestation of Jesus returning personally and visibly, so it is held as a parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "text_to_embed": "And in those days shall the earth also give back that which has been entrusted to it, And Sheol also shall give back that which it has received, And hell shall give back that which it owes. 5 a . For in those days the Elect One shall arise,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age. The Similitudes (chapters 37-71) are not attested at Qumran, so the witness chain begins with the Greek and Ethiopic tradition."
+    },
+    {
+      "witness_id": "1enoch.38.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Apocalypse of Enoch)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE (Similitudes)",
+        "anchor_id": "1enoch.38.3",
+        "anchor_alt_citation": "1 Enoch 38:3",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Apocrypha and Pseudepigrapha of the Old Testament"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.62,
+      "evidence_phrase": "When the secrets of the righteous shall be revealed and the sinners judged, And the godless driven from the presence of the righteous and elect,",
+      "rationale": "This opens the Similitudes with a future day when the righteous are revealed and the sinners judged, separating the godless from the elect. It parallels the future judgment dimension the lexical verdict reads in 2 Thessalonians 1:7-10. The text describes an eschatological judgment without a personal visible bodily return of Jesus, so it stands as a thematic parallel held just above the speculative threshold.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "When the secrets of the righteous shall be revealed and the sinners judged, And the godless driven from the presence of the righteous and elect,",
+      "text_to_embed": "When the secrets of the righteous shall be revealed and the sinners judged, And the godless driven from the presence of the righteous and elect,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age. The Similitudes (chapters 37-71) are not attested at Qumran."
+    }
+  ],
+
+  "summary": "The extra-biblical record does not attest the Christian second coming as such. No source describes Jesus returning personally, visibly, audibly, and bodily, because that hope is specific to the apostolic witness about the risen Christ. What the historical store does preserve is the older Jewish expectation of a future eschatological coming and judgment that the New Testament writers drew on. The clearest case is 1 Enoch 1:9, the passage Jude 1:14 and 1:15 quote almost word for word, which announces One who comes with ten thousands of His holy ones to execute judgment on all flesh. Related lines in 1 Enoch describe the Holy Great One coming forth from His dwelling, a future resurrection where earth and Sheol give back the dead, the arising of the Elect One, and a day when the righteous are revealed and sinners judged. These are genuine parallels to the underlying hope of a coming judge and a bodily resurrection, and they show the Christian claim was made inside a living Jewish eschatology rather than invented in a vacuum. They are parallels only. They speak of a divine theophany or a messianic Elect One, not of the named, pierced, risen Jesus returning in the manner of his bodily departure. The Roman, Josephan, rabbinic, and Qumran chunks supplied for this question attest the existence and execution of Christ, early Christian worship, the divine name, or general resurrection belief, none of which materially attest the future bodily return. The lexical verdict that this is a personal, visible, audible, bodily, yet-future coming is untouched by these witnesses and stands.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition", "low-confidence-witness-held"]
+}

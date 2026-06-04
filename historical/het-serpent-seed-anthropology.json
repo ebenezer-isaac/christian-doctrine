@@ -1,0 +1,239 @@
+{
+  "$schema_version": "1.0",
+  "id": "het-serpent-seed-anthropology",
+  "question_id": "het-serpent-seed-anthropology",
+  "generated_at": "2026-06-04T12:33:08Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.1.52",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.52",
+        "anchor_alt_citation": "Ant 1.2.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters.",
+      "rationale": "Josephus, a first-century Jewish historian, names Cain and Abel plainly as the two sons of Adam and Eve and adds that the couple also had daughters, with no hint of a second father for Cain. This independently preserves the same one-couple parentage the lexical verdict reads in Genesis 4:1, and it tells directly against the serpent-seed claim that Cain descends from the serpent or Satan. It is recorded as parallel rather than corroborates because Josephus is retelling the tradition rather than independently arguing the doctrinal point.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "CONCERNING THE POSTERITY OF ADAM, AND THE TEN GENERATIONS FROM HIM TO THE DELUGE, ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters. Now the two brethren were pleased with different courses of life: for Abel, the younger, was a lover of righteousness; and believing that God was present at all his actions, he excelled in virtue; and his employment was that of a shepherd. But Cain was not only very wicked in other respects, but was wholly intent upon getting; and he first contrived to plough the ground. He slew his brother on the occasion following : - They had resolved to sacrifice to God. Now Cain brought the fruits of the earth, and of his husbandry; but Abel brought milk, and the first-fruits of his flocks: but God was more delighted with the latter oblation, when he was honored with what grew naturally of its own accord, than he was with what was the invention of a covetous man, and gotten by forcing the ground; whence it was that Cain was very angry that Abel was preferred by God before him; and he slew his brother, and hid his dead body, thinking to escape discovery. But God, knowing what had been done, came to Cain, and asked him what was become of his brother, because he had not seen him of many days; whereas he used to observe them conversing together at other times. But Cain was in doubt with himself, and knew not what answer to give to God. At first he said that he was himself at a loss about his brother’s disappearing; but when he was provoked by God, who pressed him vehemently, as resolving to know what the matter was, he replied, he was not his brother’s guardian or keeper, nor was he an observer of what he did. But, in return, God convicted Cain, as having been the murderer of his brother; and said, I wonder at thee, that thou knowest not what is become of a man whom thou thyself hast destroyed. God therefore did not inflict the punishment [of death] upon him, on account of his offering sacrifice, and thereby making supplication to him not to be extreme in his wrath to him; but he made him accursed, and threatened his posterity in the seventh generation. He also cast him, together with his wife, out of that land. And when he was afraid that in wandering about he should fall among Wild beasts, and by that means perish, God bid him not to entertain such a melancholy suspicion, and to go over all the earth without fear of what mischief he might suffer from wild beasts; and setting a mark upon him, that he might be known, he commanded him to depart.",
+      "text_to_embed": "CONCERNING THE POSTERITY OF ADAM, AND THE TEN GENERATIONS FROM HIM TO THE DELUGE, ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters. Now the two brethren were pleased with different courses of life: for Abel, the younger, was a lover of righteousness; and believing that God was present at all his actions, he excelled in virtue; and his employment was that of a shepherd. But Cain was not only very wicked in other respects, but was wholly intent upon getting; and he first contrived to plough the ground. He slew his brother on the occasion following : - They had resolved to sacrifice to God. Now Cain brought the fruits of the earth, and of his husbandry; but Abel brought milk, and the first-fruits of his flocks: but God was more delighted with the latter oblation, when he was honored with what grew naturally of its own accord, than he was with what was the invention of a covetous man, and gotten by forcing the ground; whence it was that Cain was very angry that Abel was preferred by God before him; and he slew his brother, and hid his dead body, thinking to escape discovery. But God, knowing what had been done, came to Cain, and asked him what was become of his brother, because he had not seen him of many days; whereas he used to observe them conversing together at other times. But Cain was in doubt with himself, and knew not what answer to give to God. At first he said that he was himself at a loss about his brother’s disappearing; but when he was provoked by God, who pressed him vehemently, as resolving to know what the matter was, he replied, he was not his brother’s guardian or keeper, nor was he an observer of what he did. But, in return, God convicted Cain, as having been the murderer of his brother; and said, I wonder at thee, that thou knowest not what is become of a man whom thou thyself hast destroyed. God therefore did not inflict the punishment [of death] upon him, on account of his offering sacrifice, and thereby making supplication to him not to be extreme in his wrath to him; but he made him accursed, and threatened his posterity in the seventh generation. He also cast him, together with his wife, out of that land. And when he was afraid that in wandering about he should fall among Wild beasts, and by that means perish, God bid him not to entertain such a melancholy suspicion, and to go over all the earth without fear of what mischief he might suffer from wild beasts; and setting a mark upon him, that he might be known, he commanded him to depart.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; the underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.ant.1.40",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.40",
+        "anchor_alt_citation": "Ant 1.1.4 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.84,
+      "evidence_phrase": "he persuaded the woman, out of a malicious intention, to taste of the tree of knowledge ... by which means he overcame the woman, and persuaded her to despise the command of God. Now when she had tasted of that tree ... she persuaded Adam to make use of it also.",
+      "rationale": "Josephus narrates the Eden episode entirely as verbal persuasion and the eating of forbidden fruit, with the serpent overcoming the woman by speech and her then persuading Adam. There is no sexual element anywhere in his account, and the penalty is the loss of effortless provision plus the pains of childbirth. This first-century retelling parallels the lexical verdict that Eve's transgression was disobedience to a command, not sexual congress with the serpent, and so tells against the serpent-seed reading of Genesis 3.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "God therefore commanded that Adam and his wife should eat of all the rest of the plants, but to abstain from the tree of knowledge; and foretold to them, that if they touched it, it would prove their destruction. But while all the living creatures had one language, at that time the serpent, which then lived together with Adam and his wife, shewed an envious disposition, at his supposal of their living happily, and in obedience to the commands of God; and imagining, that when they disobeyed them, they would fall into calamities, he persuaded the woman, out of a malicious intention, to taste of the tree of knowledge, telling them, that in that tree was the knowledge of good and evil; which knowledge, when they should obtain, they would lead a happy life; nay, a life not inferior to that of a god: by which means he overcame the woman, and persuaded her to despise the command of God. Now when she had tasted of that tree, and was pleased with its fruit, she persuaded Adam to make use of it also. Upon this they perceived that they were become naked to one another; and being ashamed thus to appear abroad, they invented somewhat to cover them; for the tree sharpened their understanding; and they covered themselves with fig-leaves; and tying these before them, out of modesty, they thought they were happier than they were before, as they had discovered what they were in want of. But when God came into the garden, Adam, who was wont before to come and converse with him, being conscious of his wicked behavior, went out of the way. This behavior surprised God; and he asked what was the cause of this his procedure; and why he, that before delighted in that conversation, did now fly from it, and avoid it. When he made no reply, as conscious to himself that he had transgressed the command of God, God said, I had before determined about you both, how you might lead a happy life, without any affliction, and care, and vexation of soul; and that all things which might contribute to your enjoyment and pleasure should grow up by my providence, of their own accord, without your own labor and pains-taking; which state of labor and pains-taking would soon bring on old age, and death would not be at any remote distance: but now thou hast abused this my good-will, and hast disobeyed my commands; for thy silence is not the sign of thy virtue, but of thy evil conscience. However, Adam excused his sin, and entreated God not to be angry at him, and laid the blame of what was done upon his wife; and said that he was deceived by her, and thence became an offender; while she again accused the serpent. But God allotted him punishment, because he weakly submitted to the counsel of his wife; and said the ground should not henceforth yield its fruits of its own accord, but that when it should be harassed by their labor, it should bring forth some of its fruits, and refuse to bring forth others. He also made Eve liable to the inconveniency of breeding, and the sharp pains of bringing forth children; and this because she persuaded Adam with the same arguments wherewith the serpent had persuaded her, and had thereby brought him into a calamitous condition. He also deprived the serpent of speech, out of indignation at his malicious disposition towards Adam. Besides this, he inserted poison under his tongue, and made him an enemy to men; and suggested to them, that they should direct their strokes against his head, that being the place wherein lay his mischievous designs towards men, and it being easiest to take vengeance on him, that way. And when he had deprived him of the use of his feet, he made him to go rolling all along, and dragging himself upon the ground. And when God had appointed these penalties for them, he removed Adam and Eve out of the garden into another place.",
+      "text_to_embed": "God therefore commanded that Adam and his wife should eat of all the rest of the plants, but to abstain from the tree of knowledge; and foretold to them, that if they touched it, it would prove their destruction. But while all the living creatures had one language, at that time the serpent, which then lived together with Adam and his wife, shewed an envious disposition, at his supposal of their living happily, and in obedience to the commands of God; and imagining, that when they disobeyed them, they would fall into calamities, he persuaded the woman, out of a malicious intention, to taste of the tree of knowledge, telling them, that in that tree was the knowledge of good and evil; which knowledge, when they should obtain, they would lead a happy life; nay, a life not inferior to that of a god: by which means he overcame the woman, and persuaded her to despise the command of God. Now when she had tasted of that tree, and was pleased with its fruit, she persuaded Adam to make use of it also. Upon this they perceived that they were become naked to one another; and being ashamed thus to appear abroad, they invented somewhat to cover them; for the tree sharpened their understanding; and they covered themselves with fig-leaves; and tying these before them, out of modesty, they thought they were happier than they were before, as they had discovered what they were in want of. But when God came into the garden, Adam, who was wont before to come and converse with him, being conscious of his wicked behavior, went out of the way. This behavior surprised God; and he asked what was the cause of this his procedure; and why he, that before delighted in that conversation, did now fly from it, and avoid it. When he made no reply, as conscious to himself that he had transgressed the command of God, God said, I had before determined about you both, how you might lead a happy life, without any affliction, and care, and vexation of soul; and that all things which might contribute to your enjoyment and pleasure should grow up by my providence, of their own accord, without your own labor and pains-taking; which state of labor and pains-taking would soon bring on old age, and death would not be at any remote distance: but now thou hast abused this my good-will, and hast disobeyed my commands; for thy silence is not the sign of thy virtue, but of thy evil conscience. However, Adam excused his sin, and entreated God not to be angry at him, and laid the blame of what was done upon his wife; and said that he was deceived by her, and thence became an offender; while she again accused the serpent. But God allotted him punishment, because he weakly submitted to the counsel of his wife; and said the ground should not henceforth yield its fruits of its own accord, but that when it should be harassed by their labor, it should bring forth some of its fruits, and refuse to bring forth others. He also made Eve liable to the inconveniency of breeding, and the sharp pains of bringing forth children; and this because she persuaded Adam with the same arguments wherewith the serpent had persuaded her, and had thereby brought him into a calamitous condition. He also deprived the serpent of speech, out of indignation at his malicious disposition towards Adam. Besides this, he inserted poison under his tongue, and made him an enemy to men; and suggested to them, that they should direct their strokes against his head, that being the place wherein lay his mischievous designs towards men, and it being easiest to take vengeance on him, that way. And when he had deprived him of the use of his feet, he made him to go rolling all along, and dragging himself upon the ground. And when God had appointed these penalties for them, he removed Adam and Eve out of the garden into another place.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; the underlying Whiston translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-cherubim.40",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-cherubim",
+        "work_title": "On the Cherubim (De Cherubim)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-cherubim.40",
+        "anchor_alt_citation": "Cher. 40 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge 1854, The Works of Philo Judaeus; earlychristianwritings.com primary"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "And Adam knew his wife, and she conceived and brought forth Cain; and she said I have gotten a man by means of the Lord; and he caused her also to bring forth Abel his Brother.",
+      "rationale": "Philo quotes Genesis 4:1 with Adam as the one who knew his wife and Eve as the one who conceived and bore Cain, naming Abel as Cain's brother. This first-century Alexandrian Jewish reading takes Adam, and only Adam, as the father, which parallels the lexical verdict's grammar of one act and one male agent in Genesis 4:1. It is recorded as parallel because Philo is citing and expounding the verse rather than independently arguing against a serpent-seed alternative, but it preserves the natural-son tradition that the proposition affirms.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus"],
+        "loss_status": "complete"
+      },
+      "text": "\"And Adam knew his wife, and she conceived and brought forth Cain; and she said I have gotten a man by means of the Lord; and he caused her also to bring forth Abel his Brother.\" These men, to whose virtue the Jewish legislation bears testimony, he does not represent as knowing their wives, such as Abraham, Isaac, Jacob, Moses, and if there are any others of like zeal with them;",
+      "text_to_embed": "\"And Adam knew his wife, and she conceived and brought forth Cain; and she said I have gotten a man by means of the Lord; and he caused her also to bring forth Abel his Brother.\" These men, to whose virtue the Jewish legislation bears testimony, he does not represent as knowing their wives, such as Abraham, Isaac, Jacob, Moses, and if there are any others of like zeal with them;",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-virtutibus.199",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-virtutibus",
+        "work_title": "On the Virtues (De Virtutibus)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-virtutibus.199",
+        "anchor_alt_citation": "Virt. 199 (Yonge)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge 1854, The Works of Philo Judaeus; earlychristianwritings.com primary"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "those men who were born of him who was made out of the earth ... being sprung from the first wedded pair, from the first man and woman, who then for the first time came together for the propagation of offspring resembling themselves. But ... the elder of them endured to slay the younger.",
+      "rationale": "Philo states that the human race sprang from the first wedded pair, the first man and woman, who came together to propagate offspring resembling themselves, and that the elder son slew the younger. This is an explicit one-originating-pair statement and treats Cain and Abel as siblings of that single couple, which parallels Acts 17:26 and the lexical verdict that all humanity descends from one pair, not from divergent racial lines traceable to Satan. It is parallel rather than corroborates because Philo asserts the common descent without addressing the serpent-seed alternative directly.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus"],
+        "loss_status": "complete"
+      },
+      "text": "Again, who is there who would deny that those men who were born of him who was made out of the earth were noble themselves, and the founders of noble families? persons who have received a birth more excellent than that of any succeeding generation, in being sprung from the first wedded pair, from the first man and woman, who then for the first time came together for the propagation of offspring resembling themselves. But, nevertheless, when there were two persons so born, the elder of them endured to slay the younger; and, having committed the great and most accursed crime of fratricide, he first defiled the ground with human blood.",
+      "text_to_embed": "Again, who is there who would deny that those men who were born of him who was made out of the earth were noble themselves, and the founders of noble families? persons who have received a birth more excellent than that of any succeeding generation, in being sprung from the first wedded pair, from the first man and woman, who then for the first time came together for the propagation of offspring resembling themselves. But, nevertheless, when there were two persons so born, the elder of them endured to slay the younger; and, having committed the great and most accursed crime of fratricide, he first defiled the ground with human blood.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "jubilees.3.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "jubilees",
+        "work_id": "jubilees",
+        "work_title": "The Book of Jubilees",
+        "author": null,
+        "date_written_range": "c. 160 BCE to 150 BCE",
+        "anchor_id": "jubilees.3.1",
+        "anchor_alt_citation": "Jubilees 3 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Jubilees, or the Little Genesis"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "the serpent came and approached the woman, and the serpent said to the woman, 'Hath God commanded you ...' ... And the woman saw the tree ... and she took thereof and eat ... she gave thereof to Adam and he eat ... And God cursed the serpent",
+      "rationale": "Jubilees, a second-century BCE rewriting of Genesis, narrates the Eden episode as the serpent speaking to the woman, the woman eating the forbidden fruit and giving it to Adam, and God then cursing the serpent and imposing the labor and childbirth penalties. As in Josephus, the transgression is verbal deception and disobedient eating with no sexual element, which parallels the lexical verdict that Eve's sin was disobedience rather than congress with the serpent. It is recorded as parallel because it preserves the same disobedience tradition independently of the canonical text.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "hbo",
+        "witness_chain": ["hebrew-qumran-fragments", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Hebrew fragments from Qumran"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "1. And on the six days of the second week we brought, according to the word of God, unto Adam all the beasts, and all the cattle, and all the birds, and everything that moves on the earth, and everything that moves in the water, according to their kinds, and according to their types: the beasts on the first day; the cattle on the second day; the birds on the third day; and all that which moves on the earth on the fourth day; and that which moves in the water on the fifth day. 2. And Adam named them all by their respective names, and as he called them, so was their name. 3. And on these five days Adam saw all these, male and female, according to every kind that was on the earth, but he was alone and found no helpmeet for him. 4. And the Lord said unto us: 'It is not good that the man should be alone: let us make a helpmeet for him.' 5. And the Lord our God caused a deep sleep to fall upon him, and he slept, and He took for the woman one rib from amongst his ribs, and this rib was the origin of the woman from amongst his ribs, and He built up the flesh in its stead, and built the woman. 6. And He awaked Adam out of his sleep and on awaking he rose on the sixth day, and He brought her to him, and he knew her, and said unto her: 'This is now bone of my bones and flesh of my flesh; she shall be called [my] wife; because she was taken from her husband.' 7. Therefore shall man and wife be one and therefore shall a man leave his father and his mother, and cleave unto his wife, and they shall be one flesh. 8. In the first week was Adam created, and the rib -his wife: in the second week He showed her unto him: and for this reason the commandment was given to keep in their defilement, for a male seven days, and for a female twice seven days. 9. And after Adam had completed forty days in the land where he had been created, we brought him into the garden of Eden to till and keep it, but his wife they brought in on the eightieth day, and after this she entered into the garden of Eden. 10. And for this reason the commandment is written on the heavenly tablets in regard to her that gives birth: 'if she bears a male, she shall remain in her uncleanness seven days according to the first week of days, and thirty and three days shall she remain in the blood of her purifying, and she shall not touch any hallowed thing, nor enter into the sanctuary, until she accomplishes these days which (are enjoined) in the case of a male child. 11. But in the case of a female child she shall remain in her uncleanness two weeks of days, according to the first two weeks, and sixty-six days in the blood of her purification, and they will be in all eighty days.' 12. And when she had completed these eighty days we brought her into the garden of Eden, for it is holier than all the earth besides and every tree that is planted in it is holy. 13. Therefore, there was ordained regarding her who bears a male or a female child the statute of those days that she should touch no hallowed thing, nor enter into the sanctuary until these days for the male or female child are accomplished. 14. This is the law and testimony which was written down for Israel, in order that they should observe (it) all the days. 15. And in the first week of the first jubilee, [1-7 A.M.] Adam and his wife were in the garden of Eden for seven years tilling and keeping it, and we gave him work and we instructed him to do everything that is suitable for tillage. 16. And he tilled (the garden), and was naked and knew it not, and was not ashamed, and he protected the garden from the birds and beasts and cattle, and gathered its fruit, and eat, and put aside the residue for himself and for his wife [and put aside that which was being kept]. 17. And after the completion of the seven years, which he had completed there, seven years exactly, [8 A.M.] and in the second month, on the seventeenth day (of the month), the serpent came and approached the woman, and the serpent said to the woman, 'Hath God commanded you, saying, Ye shall not eat of every tree of the garden?' 18. And she said to it, 'Of all the fruit of the trees of the garden God hath said unto us, Eat; but of the fruit of the tree which is in the midst of the garden God hath said unto us, Ye shall not eat thereof, neither shall ye touch it, lest ye die.' 19. And the serpent said unto the woman, 'Ye shall not surely die: for God doth know that on the day ye shall eat thereof, your eyes will be opened, and ye will be as gods, and ye will know good and evil. 20. And the woman saw the tree that it was agreeable and pleasant to the eye, and that its fruit was good for food, and she took thereof and eat. 21. And when she had first covered her shame with figleaves, she gave thereof to Adam and he eat, and his eyes were opened, and he saw that he was naked. 22. And he took figleaves and sewed (them) together, and made an apron for himself, and ,covered his shame. 23. And God cursed the serpent, and was wroth with it for ever . . . 24. And He was wroth with the woman, because she harkened to the voice of the serpent, and did eat; and He said unto her: 'I will greatly multiply thy sorrow and thy pains: in sorrow thou shalt bring forth children, and thy return shall be unto thy husband, and he will rule over thee.' 25. And to Adam also he said, ' Because thou hast harkened unto the voice of thy wife, and hast eaten of the tree of which I commanded thee that thou shouldst not eat thereof, cursed be the ground for thy sake: thorns and thistles shall it bring forth to thee, and thou shalt eat thy bread in the sweat of thy face, till thou returnest to the earth from whence thou wast taken; for earth thou art, and unto earth shalt thou return.' 26. And He made for them coats of skin, and clothed them, and sent them forth from the Garden of Eden. 27. And on that day on which Adam went forth from the Garden, he offered as a sweet savour an offering, frankincense, galbanum, and stacte, and spices in the morning with the rising",
+      "text_to_embed": "1. And on the six days of the second week we brought, according to the word of God, unto Adam all the beasts, and all the cattle, and all the birds, and everything that moves on the earth, and everything that moves in the water, according to their kinds, and according to their types: the beasts on the first day; the cattle on the second day; the birds on the third day; and all that which moves on the earth on the fourth day; and that which moves in the water on the fifth day. 2. And Adam named them all by their respective names, and as he called them, so was their name. 3. And on these five days Adam saw all these, male and female, according to every kind that was on the earth, but he was alone and found no helpmeet for him. 4. And the Lord said unto us: 'It is not good that the man should be alone: let us make a helpmeet for him.' 5. And the Lord our God caused a deep sleep to fall upon him, and he slept, and He took for the woman one rib from amongst his ribs, and this rib was the origin of the woman from amongst his ribs, and He built up the flesh in its stead, and built the woman. 6. And He awaked Adam out of his sleep and on awaking he rose on the sixth day, and He brought her to him, and he knew her, and said unto her: 'This is now bone of my bones and flesh of my flesh; she shall be called [my] wife; because she was taken from her husband.' 7. Therefore shall man and wife be one and therefore shall a man leave his father and his mother, and cleave unto his wife, and they shall be one flesh. 8. In the first week was Adam created, and the rib -his wife: in the second week He showed her unto him: and for this reason the commandment was given to keep in their defilement, for a male seven days, and for a female twice seven days. 9. And after Adam had completed forty days in the land where he had been created, we brought him into the garden of Eden to till and keep it, but his wife they brought in on the eightieth day, and after this she entered into the garden of Eden. 10. And for this reason the commandment is written on the heavenly tablets in regard to her that gives birth: 'if she bears a male, she shall remain in her uncleanness seven days according to the first week of days, and thirty and three days shall she remain in the blood of her purifying, and she shall not touch any hallowed thing, nor enter into the sanctuary, until she accomplishes these days which (are enjoined) in the case of a male child. 11. But in the case of a female child she shall remain in her uncleanness two weeks of days, according to the first two weeks, and sixty-six days in the blood of her purification, and they will be in all eighty days.' 12. And when she had completed these eighty days we brought her into the garden of Eden, for it is holier than all the earth besides and every tree that is planted in it is holy. 13. Therefore, there was ordained regarding her who bears a male or a female child the statute of those days that she should touch no hallowed thing, nor enter into the sanctuary until these days for the male or female child are accomplished. 14. This is the law and testimony which was written down for Israel, in order that they should observe (it) all the days. 15. And in the first week of the first jubilee, [1-7 A.M.] Adam and his wife were in the garden of Eden for seven years tilling and keeping it, and we gave him work and we instructed him to do everything that is suitable for tillage. 16. And he tilled (the garden), and was naked and knew it not, and was not ashamed, and he protected the garden from the birds and beasts and cattle, and gathered its fruit, and eat, and put aside the residue for himself and for his wife [and put aside that which was being kept]. 17. And after the completion of the seven years, which he had completed there, seven years exactly, [8 A.M.] and in the second month, on the seventeenth day (of the month), the serpent came and approached the woman, and the serpent said to the woman, 'Hath God commanded you, saying, Ye shall not eat of every tree of the garden?' 18. And she said to it, 'Of all the fruit of the trees of the garden God hath said unto us, Eat; but of the fruit of the tree which is in the midst of the garden God hath said unto us, Ye shall not eat thereof, neither shall ye touch it, lest ye die.' 19. And the serpent said unto the woman, 'Ye shall not surely die: for God doth know that on the day ye shall eat thereof, your eyes will be opened, and ye will be as gods, and ye will know good and evil. 20. And the woman saw the tree that it was agreeable and pleasant to the eye, and that its fruit was good for food, and she took thereof and eat. 21. And when she had first covered her shame with figleaves, she gave thereof to Adam and he eat, and his eyes were opened, and he saw that he was naked. 22. And he took figleaves and sewed (them) together, and made an apron for himself, and ,covered his shame. 23. And God cursed the serpent, and was wroth with it for ever . . . 24. And He was wroth with the woman, because she harkened to the voice of the serpent, and did eat; and He said unto her: 'I will greatly multiply thy sorrow and thy pains: in sorrow thou shalt bring forth children, and thy return shall be unto thy husband, and he will rule over thee.' 25. And to Adam also he said, ' Because thou hast harkened unto the voice of thy wife, and hast eaten of the tree of which I commanded thee that thou shouldst not eat thereof, cursed be the ground for thy sake: thorns and thistles shall it bring forth to thee, and thou shalt eat thy bread in the sweat of thy face, till thou returnest to the earth from whence thou wast taken; for earth thou art, and unto earth shalt thou return.' 26. And He made for them coats of skin, and clothed them, and sent them forth from the Garden of Eden. 27. And on that day on which Adam went forth from the Garden, he offered as a sweet savour an offering, frankincense, galbanum, and stacte, and spices in the morning with the rising",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.15.4",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.15.4",
+        "anchor_alt_citation": "1 Enoch 15:4 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913, The Book of Enoch, Clarendon Press"
+      },
+      "attestation_type": "complicates",
+      "confidence": 0.66,
+      "evidence_phrase": "And though ye were holy, spiritual, living the eternal life, you have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those also do who die and perish.",
+      "rationale": "This passage from the Watcher cycle preserves a distinct second-temple tradition in which heavenly beings defile themselves with women and beget a corrupt line of offspring. That motif of supernatural beings fathering children with human women is the same kind of cosmic-paternity idea that serpent-seed proponents co-opt when they trace a separate corrupt human line to a fallen spirit. It is recorded as complicates because the tradition exists and could be misread as support, but it concerns the Watchers and Genesis 6, not the serpent fathering Cain through Eve, and it does not touch the Eden episode or Cain's parentage. The lexical verdict stands.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Greek Codex Panopolitanus (Akhmim)", "Aramaic fragments 4Q201-212"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And though ye were holy, spiritual, living the eternal life, you have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those ⌈also⌉ do who die and perish.",
+      "text_to_embed": "And though ye were holy, spiritual, living the eternal life, you have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those ⌈also⌉ do who die and perish.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+  "summary": "The extra-biblical record runs against the serpent-seed reading and for the proposition. Josephus, writing near the end of the first century, names Cain and Abel plainly as the two sons of Adam and Eve and adds that the couple also had daughters, with no second father in view. He narrates the Eden episode as the serpent persuading the woman by speech and her then persuading Adam to eat, with the penalty being loss of effortless provision and the pains of childbirth, and not a word about sexual congress. Philo of Alexandria quotes Genesis 4:1 with Adam as the one who knew his wife and Eve bearing Cain, and elsewhere says the whole race sprang from the first wedded pair, the first man and woman, with Cain and Abel as their sons. Jubilees, a second-century BCE rewriting of Genesis, tells the same disobedience story of verbal deception and forbidden eating, again with no sexual element. Together these are independent first-century and earlier Jewish witnesses that Eve's sin was disobedience, that Cain was the natural son of Adam and Eve, and that humanity descends from one originating pair. One complication is recorded. The Watcher cycle in 1 Enoch preserves a tradition of heavenly beings defiling themselves with women and begetting a corrupt line, which serpent-seed proponents sometimes co-opt, but that concerns Genesis 6 and the Watchers, not the serpent fathering Cain through Eve. None of this overturns the lexical verdict, which rests on Hebrew narrative grammar and the apostolic one-source language.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "jubilees", "license": "PD", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": []
+}

@@ -1,0 +1,278 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-adam-historical",
+  "question_id": "doc-adam-historical",
+  "generated_at": "2026-06-04T12:30:15Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.1.34",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.34",
+        "anchor_alt_citation": "Ant 1.1.2 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2 (Whiston translation, PD by age)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.9,
+      "evidence_phrase": "That God took dust from the ground, and formed man, and inserted in him a spirit and a soul. This man was called Adam ... but the name of this woman was Eve, which signifies the mother of all living.",
+      "rationale": "Josephus retells Genesis as straight history, narrating the formation of Adam from earth and of Eve from his rib, and naming Eve the mother of all living. This is an independent first-century Jewish witness that preserves the same tradition the lexical verdict reads off the named proper nouns, so it is classed parallel rather than corroborates.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Moreover, Moses, after the seventh day was over begins to talk philosophically; and concerning the formation of man, says thus: That God took dust from the ground, and formed man, and inserted in him a spirit and a soul. This man was called Adam, which in the Hebrew tongue signifies one that is red, because he was formed out of red earth, compounded together; for of that kind is virgin and true earth. God also presented the living creatures, when he had made them, according to their kinds, both male and female, to Adam, who gave them those names by which they are still called. But when he saw that Adam had no female companion, no society, for there was no such created, and that he wondered at the other animals which were male and female, he laid him asleep, and took away one of his ribs, and out of it formed the woman; whereupon Adam knew her when she was brought to him, and acknowledged that she was made out of himself. Now a woman is called in the Hebrew tongue Issa; but the name of this woman was Eve, which signifies the mother of all living.",
+      "text_to_embed": "Moreover, Moses, after the seventh day was over begins to talk philosophically; and concerning the formation of man, says thus: That God took dust from the ground, and formed man, and inserted in him a spirit and a soul. This man was called Adam, which in the Hebrew tongue signifies one that is red, because he was formed out of red earth, compounded together; for of that kind is virgin and true earth. God also presented the living creatures, when he had made them, according to their kinds, both male and female, to Adam, who gave them those names by which they are still called. But when he saw that Adam had no female companion, no society, for there was no such created, and that he wondered at the other animals which were male and female, he laid him asleep, and took away one of his ribs, and out of it formed the woman; whereupon Adam knew her when she was brought to him, and acknowledged that she was made out of himself. Now a woman is called in the Hebrew tongue Issa; but the name of this woman was Eve, which signifies the mother of all living.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.1.67",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.67",
+        "anchor_alt_citation": "Ant 1.3.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2 (Whiston translation, PD by age)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.9,
+      "evidence_phrase": "Now Adam, who was the first man, and made out of the earth ... was solicitous for posterity, and had a vehement desire of children, he being two hundred and thirty years old; after which time he lived other seven hundred, and then died. He had indeed many other children, but Seth in particular.",
+      "rationale": "Josephus names Adam the first man, made from the earth, gives him a definite lifespan, and makes him the father of Seth and of human posterity. This independent biographical handling treats Adam as a real progenitor exactly as the lexical verdict reads the proper-noun tagging, so it is classed parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now Adam, who was the first man, and made out of the earth, (for our discourse must now be about him,) after Abel was slain, and Cain fled away, on account of his murder, was solicitous for posterity, and had a vehement desire of children, he being two hundred and thirty years old; after which time he lived other seven hundred, and then died. He had indeed many other children, but Seth in particular. As for the rest, it would be tedious to name them; I will therefore only endeavor to give an account of those that proceeded from Seth. Now this Seth, when he was brought up, and came to those years in which he could discern what was good, became a virtuous man; and as he was himself of an excellent character, so did he leave children behind him who imitated his virtues. All these proved to be of good dispositions. They also inhabited the same country without dissensions, and in a happy condition, without any misfortunes falling upon them, till they died. They also were the inventors of that peculiar sort of wisdom which is concerned with the heavenly bodies, and their order. And that their inventions might not be lost before they were sufficiently known, upon Adam’s prediction that the world was to be destroyed at one time by the force of fire, and at another time by the violence and quantity of water, they made two pillars, the one of brick, the other of stone: they inscribed their discoveries on them both, that in case the pillar of brick should be destroyed by the flood, the pillar of stone might remain, and exhibit those discoveries to mankind; and also inform them that there was another pillar of brick erected by them. Now this remains in the land of Siriad to this day.",
+      "text_to_embed": "Now Adam, who was the first man, and made out of the earth, (for our discourse must now be about him,) after Abel was slain, and Cain fled away, on account of his murder, was solicitous for posterity, and had a vehement desire of children, he being two hundred and thirty years old; after which time he lived other seven hundred, and then died. He had indeed many other children, but Seth in particular. As for the rest, it would be tedious to name them; I will therefore only endeavor to give an account of those that proceeded from Seth. Now this Seth, when he was brought up, and came to those years in which he could discern what was good, became a virtuous man; and as he was himself of an excellent character, so did he leave children behind him who imitated his virtues. All these proved to be of good dispositions. They also inhabited the same country without dissensions, and in a happy condition, without any misfortunes falling upon them, till they died. They also were the inventors of that peculiar sort of wisdom which is concerned with the heavenly bodies, and their order. And that their inventions might not be lost before they were sufficiently known, upon Adam’s prediction that the world was to be destroyed at one time by the force of fire, and at another time by the violence and quantity of water, they made two pillars, the one of brick, the other of stone: they inscribed their discoveries on them both, that in case the pillar of brick should be destroyed by the flood, the pillar of stone might remain, and exhibit those discoveries to mankind; and also inform them that there was another pillar of brick erected by them. Now this remains in the land of Siriad to this day.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.1.52",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.52",
+        "anchor_alt_citation": "Ant 1.2.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2 (Whiston translation, PD by age)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters.",
+      "rationale": "Josephus places Adam and Eve together as the parents of Cain, Abel, and daughters, narrating the family history of Genesis 4 as fact. This independent witness treats the pair as the historical first parents, paralleling the descent claim in the verdict, so it is classed parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "CONCERNING THE POSTERITY OF ADAM, AND THE TEN GENERATIONS FROM HIM TO THE DELUGE, ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters. Now the two brethren were pleased with different courses of life: for Abel, the younger, was a lover of righteousness; and believing that God was present at all his actions, he excelled in virtue; and his employment was that of a shepherd. But Cain was not only very wicked in other respects, but was wholly intent upon getting; and he first contrived to plough the ground. He slew his brother on the occasion following : - They had resolved to sacrifice to God. Now Cain brought the fruits of the earth, and of his husbandry; but Abel brought milk, and the first-fruits of his flocks: but God was more delighted with the latter oblation, when he was honored with what grew naturally of its own accord, than he was with what was the invention of a covetous man, and gotten by forcing the ground; whence it was that Cain was very angry that Abel was preferred by God before him; and he slew his brother, and hid his dead body, thinking to escape discovery. But God, knowing what had been done, came to Cain, and asked him what was become of his brother, because he had not seen him of many days; whereas he used to observe them conversing together at other times. But Cain was in doubt with himself, and knew not what answer to give to God. At first he said that he was himself at a loss about his brother’s disappearing; but when he was provoked by God, who pressed him vehemently, as resolving to know what the matter was, he replied, he was not his brother’s guardian or keeper, nor was he an observer of what he did. But, in return, God convicted Cain, as having been the murderer of his brother; and said, I wonder at thee, that thou knowest not what is become of a man whom thou thyself hast destroyed. God therefore did not inflict the punishment [of death] upon him, on account of his offering sacrifice, and thereby making supplication to him not to be extreme in his wrath to him; but he made him accursed, and threatened his posterity in the seventh generation. He also cast him, together with his wife, out of that land. And when he was afraid that in wandering about he should fall among Wild beasts, and by that means perish, God bid him not to entertain such a melancholy suspicion, and to go over all the earth without fear of what mischief he might suffer from wild beasts; and setting a mark upon him, that he might be known, he commanded him to depart.",
+      "text_to_embed": "CONCERNING THE POSTERITY OF ADAM, AND THE TEN GENERATIONS FROM HIM TO THE DELUGE, ADAM and Eve had two sons: the elder of them was named Cain; which name, when it is interpreted, signifies a possession: the younger was Abel, which signifies sorrow. They had also daughters. Now the two brethren were pleased with different courses of life: for Abel, the younger, was a lover of righteousness; and believing that God was present at all his actions, he excelled in virtue; and his employment was that of a shepherd. But Cain was not only very wicked in other respects, but was wholly intent upon getting; and he first contrived to plough the ground. He slew his brother on the occasion following : - They had resolved to sacrifice to God. Now Cain brought the fruits of the earth, and of his husbandry; but Abel brought milk, and the first-fruits of his flocks: but God was more delighted with the latter oblation, when he was honored with what grew naturally of its own accord, than he was with what was the invention of a covetous man, and gotten by forcing the ground; whence it was that Cain was very angry that Abel was preferred by God before him; and he slew his brother, and hid his dead body, thinking to escape discovery. But God, knowing what had been done, came to Cain, and asked him what was become of his brother, because he had not seen him of many days; whereas he used to observe them conversing together at other times. But Cain was in doubt with himself, and knew not what answer to give to God. At first he said that he was himself at a loss about his brother’s disappearing; but when he was provoked by God, who pressed him vehemently, as resolving to know what the matter was, he replied, he was not his brother’s guardian or keeper, nor was he an observer of what he did. But, in return, God convicted Cain, as having been the murderer of his brother; and said, I wonder at thee, that thou knowest not what is become of a man whom thou thyself hast destroyed. God therefore did not inflict the punishment [of death] upon him, on account of his offering sacrifice, and thereby making supplication to him not to be extreme in his wrath to him; but he made him accursed, and threatened his posterity in the seventh generation. He also cast him, together with his wife, out of that land. And when he was afraid that in wandering about he should fall among Wild beasts, and by that means perish, God bid him not to entertain such a melancholy suspicion, and to go over all the earth without fear of what mischief he might suffer from wild beasts; and setting a mark upon him, that he might be known, he commanded him to depart.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.1.83",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.83",
+        "anchor_alt_citation": "Ant 1.3.4 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2 (Whiston translation, PD by age)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "For indeed Seth was born when Adam was in his two hundred and thirtieth year, who lived nine hundred and thirty years. Seth begat Enos in his two hundred and fifth year; who, when he had lived nine hundred and twelve years, delivered the government to Cainan his son.",
+      "rationale": "Josephus reproduces the antediluvian genealogy from Adam through Noah with begetting ages and lifespans, treating Adam as the dated head of a continuous human line. This independent preservation of the descent chain parallels the genealogical anchors the verdict cites, so it is classed parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "For indeed Seth was born when Adam was in his two hundred and thirtieth year, who lived :nine hundred and thirty years. Seth begat Enos in his two hundred and fifth year; who, when he had lived nine hundred and twelve years, delivered the government to Cainan his son, whom he had in his hundred and ninetieth year. He lived nine hundred and five years. Cainan, when he had lived nine hundred and ten years, had his son Malaleel, who was born in his hundred and seventieth year. This Malaleel, having lived eight hundred and ninety-five years, died, leaving his son Jared, whom he begat when he was in his hundred and sixty-fifth year. He lived nine hundred and sixty-two years; and then his son Enoch succeeded him, who was born when his father was one hundred and sixty-two years old. Now he, when he had lived three hundred and sixty-five years, departed and went to God; whence it is that they have not written down his death. Now Mathusela, the son of Enoch, who was born to him when he was one hundred and sixty-five years old, had Lamech for his son when he was one hundred and eighty-seven years of age; to whom he delivered the government, when he had retained it nine hundred and sixty-nine years. Now Lamech, when he had governed seven hundred and seventy-seven years, appointed Noah, his son, to be ruler of the people, who was born to Lamech when he was one hundred and eighty-two years old, and retained the government nine hundred and fifty years. These years collected together make up the sum before set down. But let no one inquire into the deaths of these men; for they extended their lives along together with their children and grandchildren; but let him have regard to their births only.",
+      "text_to_embed": "For indeed Seth was born when Adam was in his two hundred and thirtieth year, who lived :nine hundred and thirty years. Seth begat Enos in his two hundred and fifth year; who, when he had lived nine hundred and twelve years, delivered the government to Cainan his son, whom he had in his hundred and ninetieth year. He lived nine hundred and five years. Cainan, when he had lived nine hundred and ten years, had his son Malaleel, who was born in his hundred and seventieth year. This Malaleel, having lived eight hundred and ninety-five years, died, leaving his son Jared, whom he begat when he was in his hundred and sixty-fifth year. He lived nine hundred and sixty-two years; and then his son Enoch succeeded him, who was born when his father was one hundred and sixty-two years old. Now he, when he had lived three hundred and sixty-five years, departed and went to God; whence it is that they have not written down his death. Now Mathusela, the son of Enoch, who was born to him when he was one hundred and sixty-five years old, had Lamech for his son when he was one hundred and eighty-seven years of age; to whom he delivered the government, when he had retained it nine hundred and sixty-nine years. Now Lamech, when he had governed seven hundred and seventy-seven years, appointed Noah, his son, to be ruler of the people, who was born to Lamech when he was one hundred and eighty-two years old, and retained the government nine hundred and fifty years. These years collected together make up the sum before set down. But let no one inquire into the deaths of these men; for they extended their lives along together with their children and grandchildren; but let him have regard to their births only.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.1.75",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.1.75",
+        "anchor_alt_citation": "Ant 1.3.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2 (Whiston translation, PD by age)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "Now he was the tenth from Adam, as being the son of Lamech, whose father was Mathusela; he was the son of Enoch, the son of Jared; and Jared was the son of Malaleel, who, with many of his sisters, were the children of Cainan, the son of Enos. Now Enos was the son of Seth, the son of Adam.",
+      "rationale": "Josephus reckons Noah as the tenth from Adam and traces the line back through Seth to Adam, presenting Adam as the historical root of all who survived the flood and so of all later humanity. This descent claim parallels the all-humanity clause of the proposition, so it is classed parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now God loved this man for his righteousness: yet he not only condemned those other men for their wickedness, but determined to destroy the whole race of mankind, and to make another race that should be pure from wickedness; and cutting short their lives, and making their years not so many as they formerly lived, but one hundred and twenty only, he turned the dry land into sea; and thus were all these men destroyed: but Noah alone was saved; for God suggested to him the following contrivance and way of escape : - That he should make an ark of four stories high, three hundred cubits long, fifty cubits broad, and thirty cubits high. Accordingly he entered into that ark, and his wife, and sons, and their wives, and put into it not only other provisions, to support their wants there, but also sent in with the rest all sorts of living creatures, the male and his female, for the preservation of their kinds; and others of them by sevens. Now this ark had firm walls, and a roof, and was braced with cross beams, so that it could not be any way drowned or overborne by the violence of the water. And thus was Noah, with his family, preserved. Now he was the tenth from Adam, as being the son of Lamech, whose father was Mathusela; he was the son of Enoch, the son of Jared; and Jared was the son of Malaleel, who, with many of his sisters, were the children of Cainan, the son of Enos. Now Enos was the son of Seth, the son of Adam.",
+      "text_to_embed": "Now God loved this man for his righteousness: yet he not only condemned those other men for their wickedness, but determined to destroy the whole race of mankind, and to make another race that should be pure from wickedness; and cutting short their lives, and making their years not so many as they formerly lived, but one hundred and twenty only, he turned the dry land into sea; and thus were all these men destroyed: but Noah alone was saved; for God suggested to him the following contrivance and way of escape : - That he should make an ark of four stories high, three hundred cubits long, fifty cubits broad, and thirty cubits high. Accordingly he entered into that ark, and his wife, and sons, and their wives, and put into it not only other provisions, to support their wants there, but also sent in with the rest all sorts of living creatures, the male and his female, for the preservation of their kinds; and others of them by sevens. Now this ark had firm walls, and a roof, and was braced with cross beams, so that it could not be any way drowned or overborne by the violence of the water. And thus was Noah, with his family, preserved. Now he was the tenth from Adam, as being the son of Lamech, whose father was Mathusela; he was the son of Enoch, the son of Jared; and Jared was the son of Malaleel, who, with many of his sisters, were the children of Cainan, the son of Enos. Now Enos was the son of Seth, the son of Adam.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "philo.de-abrahamo.12",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-abrahamo",
+        "work_title": "On Abraham (De Abrahamo)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-40 CE",
+        "anchor_id": "philo.de-abrahamo.12",
+        "anchor_alt_citation": "De Abrahamo 7",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "Yonge translation via earlychristianwritings.com (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "If then any one were to reckon the generations, from the first man, who was made out of the earth, he will find him who, by the Chaldaeans is called Enos, and in the Greek language anthroµpos (the man), to be the fourth in succession,",
+      "rationale": "Philo counts generations beginning from the first man who was made out of the earth, placing Adam at the head of a numbered human succession. He treats the first man as the real starting point of the genealogy rather than a symbol, which parallels the proposition that Adam is the progenitor of the line. Confidence is moderate because Philo elsewhere also reads Adam allegorically.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Cohn-Wendland edition MSS"],
+        "loss_status": "complete"
+      },
+      "text": "If then any one were to reckon the generations, from the first man, who was made out of the earth, he will find him who, by the Chaldaeans is called Enos, and in the Greek language anthroµpos (the man), to be the fourth in succession,",
+      "text_to_embed": "If then any one were to reckon the generations, from the first man, who was made out of the earth, he will find him who, by the Chaldaeans is called Enos, and in the Greek language anthroµpos (the man), to be the fourth in succession,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation in the public domain by age."
+    },
+    {
+      "witness_id": "1enoch.37.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE - 100 CE (composite)",
+        "anchor_id": "1enoch.37.1",
+        "anchor_alt_citation": "1 Enoch 37:1",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 translation (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "The second vision which he saw, the vision of wisdom--which Enoch the son of Jared, the son of Mahalalel, the son of Cainan, the son of Enos, the son of Seth, the son of Adam, saw.",
+      "rationale": "The opening of the Similitudes traces Enoch's lineage back through Seth to Adam, treating Adam as the historical head of the line in the same Sethite order found in Genesis 5. This independent second-temple genealogy parallels the descent the proposition asserts, so it is classed parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Codex Panopolitanus (Greek)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "The second vision which he saw, the vision of wisdom--which Enoch the son of Jared, the son of Mahalalel, the son of Cainan, the son of Enos, the son of Seth, the son of Adam, saw.",
+      "text_to_embed": "The second vision which he saw, the vision of wisdom--which Enoch the son of Jared, the son of Mahalalel, the son of Cainan, the son of Enos, the son of Seth, the son of Adam, saw.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation in the public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record from first-century Judaism and from second-temple literature preserves the same tradition that the lexical verdict reads off the named proper nouns, so it stands as parallel attestation rather than independent proof. Josephus in Antiquities Book 1 retells Genesis as plain history: God forms Adam from the earth and Eve from his rib, names Eve the mother of all living, gives Adam a fixed lifespan, makes him the father of Cain, Abel, and daughters, and traces a continuous dated genealogy from Adam through Seth down to Noah, whom he calls the tenth from Adam. That genealogical chain matters for the all-humanity clause of the proposition, because the line that survives the flood runs back to Adam in this telling. Philo, reckoning generations from the first man who was made out of the earth, likewise places Adam at the head of a numbered human succession, though Philo elsewhere also reads Adam allegorically, which is why his confidence is lower. The Similitudes of 1 Enoch open by tracing Enoch's ancestry back through Seth to Adam in the Sethite order of Genesis 5. None of these witnesses settles the modern question of biological origins, and none can, but they show that the reading of Adam and Eve as a real first pair and progenitors of the human line was the standard Jewish understanding well before and around the New Testament era. The witnesses neither contradict nor override the lexical verdict; they sit alongside it.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

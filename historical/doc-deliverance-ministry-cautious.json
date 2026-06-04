@@ -1,0 +1,60 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-deliverance-ministry-cautious",
+  "question_id": "doc-deliverance-ministry-cautious",
+  "generated_at": "2026-06-04T12:32:11Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.ant.8.42",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.8.42",
+        "anchor_alt_citation": "Ant 8.2.5 (Whiston); Ant 8.45-49 (Niese)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "And he left behind him the manner of using exorcisms, by which they drive away demons, so that they never return; and this method of cure is of great force unto this day; for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian",
+      "rationale": "Josephus independently records a living Jewish exorcism practice in the first century, attributed to a Solomonic tradition of incantations that drive demons out so they never return, and reports an eyewitness performance by Eleazar before Vespasian. This parallels the New Testament idiom of casting out demons by an invoked name and the use of a fixed verbal formula. The reliance on a ring, incantations, and a cup-overturning demonstration to prove the demon had left also parallels the prudential caution in the question, since the procedure shades into showmanship that the lexical verdict notes can be abused.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese 1885-1895"],
+        "loss_status": "complete"
+      },
+      "text": "Now the sagacity and wisdom which God had bestowed on Solomon was so great, that he exceeded the ancients; insomuch that he was no way inferior to the Egyptians, who are said to have been beyond all men in understanding; nay, indeed, it is evident that their sagacity was very much inferior to that of the king’s. He also excelled and distinguished himself in wisdom above those who were most eminent among the Hebrews at that time for shrewdness; those I mean were Ethan, and Heman, and Chalcol, and Darda, the sons of Mahol. He also composed books of odes and songs a thousand and five, of parables and similitudes three thousand; for he spake a parable upon every sort of tree, from the hyssop to the cedar; and in like manner also about beasts, about all sorts of living creatures, whether upon the earth, or in the seas, or in the air; for he was not unacquainted with any of their natures, nor omitted inquiries about them, but described them all like a philosopher, and demonstrated his exquisite knowledge of their several properties. God also enabled him to learn that skill which expels demons, which is a science useful and sanative to men. He composed such incantations also by which distempers are alleviated. And he left behind him the manner of using exorcisms, by which they drive away demons, so that they never return; and this method of cure is of great force unto this day; for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian, and his sons, and his captains, and the whole multitude of his soldiers. The manner of the cure was this: He put a ring that had a Foot of one of those sorts mentioned by Solomon to the nostrils of the demoniac, after which he drew out the demon through his nostrils; and when the man fell down immediately, he abjured him to return into him no more, making still mention of Solomon, and reciting the incantations which he composed. And when Eleazar would persuade and demonstrate to the spectators that he had such a power, he set a little way off a cup or basin full of water, and commanded the demon, as he went out of the man, to overturn it, and thereby to let the spectators know that he had left the man; and when this was done, the skill and wisdom of Solomon was shown very manifestly: for which reason it is, that all men may know the vastness of Solomon’s abilities, and how he was beloved of God, and that the extraordinary virtues of every kind with which this king was endowed may not be unknown to any people under the sun for this reason, I say, it is that we have proceeded to speak so largely of these matters.",
+      "text_to_embed": "Now the sagacity and wisdom which God had bestowed on Solomon was so great, that he exceeded the ancients; insomuch that he was no way inferior to the Egyptians, who are said to have been beyond all men in understanding; nay, indeed, it is evident that their sagacity was very much inferior to that of the king’s. He also excelled and distinguished himself in wisdom above those who were most eminent among the Hebrews at that time for shrewdness; those I mean were Ethan, and Heman, and Chalcol, and Darda, the sons of Mahol. He also composed books of odes and songs a thousand and five, of parables and similitudes three thousand; for he spake a parable upon every sort of tree, from the hyssop to the cedar; and in like manner also about beasts, about all sorts of living creatures, whether upon the earth, or in the seas, or in the air; for he was not unacquainted with any of their natures, nor omitted inquiries about them, but described them all like a philosopher, and demonstrated his exquisite knowledge of their several properties. God also enabled him to learn that skill which expels demons, which is a science useful and sanative to men. He composed such incantations also by which distempers are alleviated. And he left behind him the manner of using exorcisms, by which they drive away demons, so that they never return; and this method of cure is of great force unto this day; for I have seen a certain man of my own country, whose name was Eleazar, releasing people that were demoniacal in the presence of Vespasian, and his sons, and his captains, and the whole multitude of his soldiers. The manner of the cure was this: He put a ring that had a Foot of one of those sorts mentioned by Solomon to the nostrils of the demoniac, after which he drew out the demon through his nostrils; and when the man fell down immediately, he abjured him to return into him no more, making still mention of Solomon, and reciting the incantations which he composed. And when Eleazar would persuade and demonstrate to the spectators that he had such a power, he set a little way off a cup or basin full of water, and commanded the demon, as he went out of the man, to overturn it, and thereby to let the spectators know that he had left the man; and when this was done, the skill and wisdom of Solomon was shown very manifestly: for which reason it is, that all men may know the vastness of Solomon’s abilities, and how he was beloved of God, and that the extraordinary virtues of every kind with which this king was endowed may not be unknown to any people under the sun for this reason, I say, it is that we have proceeded to speak so largely of these matters.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    }
+  ],
+
+  "summary": "The strongest extra-biblical parallel to this proposition is Josephus, who records a living first-century Jewish exorcism practice traced to a Solomonic tradition of incantations that drive demons out so that they never return. Josephus reports an eyewitness performance by a man named Eleazar who released the demon-afflicted before Vespasian and his soldiers, using a ring, recited formulas, and the repeated invocation of Solomon. This corroborates the cultural reality behind the New Testament idiom of casting out demons by an invoked name, and it sits alongside the canonical picture of Jewish exorcists in Acts 19. It also illustrates the cautionary half of the question on its own terms, since Eleazar staged a cup-overturning demonstration to prove to spectators that the demon had left, a move that shades the cure into spectacle and showmanship. The witness neither establishes nor refutes the prudential rule the proposition asserts. It records that demon expulsion by a named formula was a recognized practice in the period, while also showing how readily such a practice could be turned into a performance, which is consistent with the disputed lexical verdict that the bare vocabulary warrants the act but does not by itself encode a standing ministry or its safeguards. The other candidate chunks, including the Qumran divine-name fragments, Philo's metaphorical drive-away language, the Mishnah purity and divination passages, and the Roman accounts of Christians, do not materially attest exorcism or deliverance practice and were not cited.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

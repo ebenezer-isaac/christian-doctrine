@@ -1,0 +1,60 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-future-for-israel",
+  "question_id": "doc-future-for-israel",
+  "generated_at": "2026-06-04T12:31:51Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "test12.judah.22.1",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "test12",
+        "work_id": "test12",
+        "work_title": "Testaments of the Twelve Patriarchs (Testament of Judah)",
+        "author": null,
+        "date_written_range": "c. 200-100 BCE (Jewish core), Christian recension 2nd century CE",
+        "anchor_id": "test12.judah.22.1",
+        "anchor_alt_citation": "T. Jud. 22",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, Apocrypha and Pseudepigrapha of the Old Testament, 1913"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.62,
+      "evidence_phrase": "And there shall be continual wars in Israel; And among men of another race shall my kingdom be brought to an end, Until the salvation of Israel shall come, Until the appearing of the God of righteousness, That Jacob may rest in peace.",
+      "rationale": "This passage independently preserves a second-temple Jewish hope that a future salvation of Israel will come after a period of wars and foreign domination, which runs parallel to the corporate future turning expressed in Romans 11:26. It does not corroborate the lexical verdict, since the verdict is disputed and the witness does not settle the ethnic-corporate versus redefined-people reading. It is recorded as a parallel hope, not as independent proof of the proposition.",
+      "contested_interpolation": {
+        "type": "recension-layer",
+        "note": "The work as preserved is a Christianized recension of a Jewish original; Levi-Judah messianism and explicit naming of Jesus are second-century Christian interpolations per Charles's introduction. The bracketed clause 'and all the Gentiles' in this verse reflects the recension layer.",
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-charles-1913"],
+        "extant_witnesses": ["Greek MSS b, g, l, d (Charles)"],
+        "loss_status": "complete"
+      },
+      "text": "1 And the Lord shall bring upon them divisions one against another. And there shall be continual wars in Israel; 2 And among men of another race shall my kingdom be brought to an end, Until the salvation of Israel shall come, Until the appearing of the God of righteousness, That Jacob [and all the Gentiles] may rest in peace. 3 And He shall guard the might of my kingdom for ever; For the Lord sware to me with an oath that He would not destroy the kingdom from my seed for ever.",
+      "text_to_embed": "1 And the Lord shall bring upon them divisions one against another. And there shall be continual wars in Israel; 2 And among men of another race shall my kingdom be brought to an end, Until the salvation of Israel shall come, Until the appearing of the God of righteousness, That Jacob [and all the Gentiles] may rest in peace. 3 And He shall guard the might of my kingdom for ever; For the Lord sware to me with an oath that He would not destroy the kingdom from my seed for ever.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record offers one material parallel to the future-of-Israel proposition. The Testament of Judah 22 preserves a second-temple Jewish hope that, after continual wars and a period when Judah's kingdom is overrun by foreigners, the salvation of Israel will come at the appearing of the God of righteousness, so that Jacob may rest in peace. This is read as a parallel hope, not as corroboration. The lexical verdict on Romans 11:26 is disputed precisely because the Greek does not by itself rank an ethnic-corporate-event reading against a redefined-people reading, and this witness does not settle that question either. It only shows that a forward-looking expectation of a corporate salvation of Israel circulated in Jewish thought before and around the New Testament period. The witness carries a recension-layer caveat: the Testaments survive as a Christianized recension of a Jewish original, and the bracketed phrase 'and all the Gentiles' belongs to that later layer, so the corporate Israel hope should be weighed on its Jewish core rather than on the Christian overlay. Restoration motifs in 1 Enoch and end-time divine-presence and covenant fragments at Qumran were reviewed and held below the shipping confidence threshold, because they are at most a distant parallel to a specifically future, visible salvation of national Israel and several of the 1 Enoch chunks are editorial section headings rather than verbatim text. Those candidates were placed in the low-confidence review file. The lexical verdict stands unchanged.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "test12", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["contains-test12-recension-layer", "composite-tradition", "low-confidence-witness-held"]
+}

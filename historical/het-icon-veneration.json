@@ -1,0 +1,351 @@
+{
+  "$schema_version": "1.0",
+  "id": "het-icon-veneration",
+  "question_id": "het-icon-veneration",
+  "generated_at": "2026-06-04T12:32:40Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.apion.2.188",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.apion",
+        "work_title": "Against Apion",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 97-100 CE",
+        "anchor_id": "josephus.apion.2.188",
+        "anchor_alt_citation": "Apion 2.23 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg002 (Whiston translation, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "All materials, let them be ever so costly, are unworthy to compose an image for him, and all arts are unartful to express the notion we ought to have of him. We can neither see nor think of any thing like him, nor is it agreeable to piety to form a resemblance of him.",
+      "rationale": "Josephus states the second-temple Jewish aniconic principle in its sharpest form, that no material or art may form a likeness of God and that doing so is not agreeable to piety. This independently parallels the proposition that honor due to God alone is not rendered to images. It does not adjudicate the Christian image question but preserves the same no-likeness reasoning the lexical verdict traces from the Decalogue.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["Codex Laurentianus 69.22", "Latin version (Cassiodorus tradition)"],
+        "loss_status": "complete"
+      },
+      "text": "What form of government then can be more holy than this? what more worthy kind of worship can be paid to God than we pay, where the entire body of the people are prepared for religion, where an extraordinary degree of care is required in the priests, and where the whole polity is so ordered as if it were a certain religious solemnity? For what things foreigners, when they solemnize such festivals, are not able to observe for a few days’ time, and call them Mysteries and Sacred Ceremonies, we observe with great pleasure and an unshaken resolution during our whole lives. What are the things then that we are commanded or forbidden? They are simple, and easily known. The first command is concerning God, and affirms that God contains all things, and is a Being every way perfect and happy, self-sufficient, and supplying all other beings; the beginning, the middle, and the end of all things. He is manifest in his works and benefits, and more conspicuous than any other being whatsoever; but as to his form and magnitude, he is most obscure. All materials, let them be ever so costly, are unworthy to compose an image for him, and all arts are unartful to express the notion we ought to have of him. We can neither see nor think of any thing like him, nor is it agreeable to piety to form a resemblance of him. We see his works, the light, the heaven, the earth, the sun and the moon, the waters, the generations of animals, the productions of fruits. These things hath God made, not with hands, nor with labor, nor as wanting the assistance of any to cooperate with him; but as his will resolved they should be made and be good also, they were made and became good immediately. All men ought to follow this Being, and to worship him in the exercise of virtue; for this way of worship of God is the most holy of all others.",
+      "text_to_embed": "What form of government then can be more holy than this? what more worthy kind of worship can be paid to God than we pay, where the entire body of the people are prepared for religion, where an extraordinary degree of care is required in the priests, and where the whole polity is so ordered as if it were a certain religious solemnity? For what things foreigners, when they solemnize such festivals, are not able to observe for a few days’ time, and call them Mysteries and Sacred Ceremonies, we observe with great pleasure and an unshaken resolution during our whole lives. What are the things then that we are commanded or forbidden? They are simple, and easily known. The first command is concerning God, and affirms that God contains all things, and is a Being every way perfect and happy, self-sufficient, and supplying all other beings; the beginning, the middle, and the end of all things. He is manifest in his works and benefits, and more conspicuous than any other being whatsoever; but as to his form and magnitude, he is most obscure. All materials, let them be ever so costly, are unworthy to compose an image for him, and all arts are unartful to express the notion we ought to have of him. We can neither see nor think of any thing like him, nor is it agreeable to piety to form a resemblance of him. We see his works, the light, the heaven, the earth, the sun and the moon, the waters, the generations of animals, the productions of fruits. These things hath God made, not with hands, nor with labor, nor as wanting the assistance of any to cooperate with him; but as his will resolved they should be made and be good also, they were made and became good immediately. All men ought to follow this Being, and to worship him in the exercise of virtue; for this way of worship of God is the most holy of all others.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.18.55",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.55",
+        "anchor_alt_citation": "Ant 18.3.1 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001 (Whiston translation, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "So he introduced Caesar’s effigies, which were upon the ensigns, and brought them into the city; whereas our law forbids us the very making of images. But they threw themselves upon the ground, and laid their necks bare, and said they would take their death very willingly, rather than the wisdom of their laws should be transgressed.",
+      "rationale": "The Pilate-ensigns episode shows first-century Judeans treating any cult image, even an imperial effigy, as a law-breaking object they would die rather than tolerate in the holy city. Josephus glosses the principle as our law forbids us the very making of images. This independently parallels the strict no-images stance the proposition concerns. It does not address Christian icons directly and so is recorded as parallel, not corroboration.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "SEDITION OF THE JEWS AGAINST PONTIUS PILATE. CONCERNING CHRIST, AND WHAT BEFELL PAULINA AND THE JEWS AT ROME, BUT now Pilate, the procurator of Judea, removed the army from Cesarea to Jerusalem, to take their winter quarters there, in order to abolish the Jewish laws. So he introduced Caesar’s effigies, which were upon the ensigns, and brought them into the city; whereas our law forbids us the very making of images; on which account the former procurators were wont to make their entry into the city with such ensigns as had not those ornaments. Pilate was the first who brought those images to Jerusalem, and set them up there; which was done without the knowledge of the people, because it was done in the night time; but as soon as they knew it, they came in multitudes to Cesarea, and interceded with Pilate many days that he would remove the images; and when he would not grant their requests, because it would tend to the injury of Caesar, while yet they persevered in their request, on the sixth day he ordered his soldiers to have their weapons privately, while he came and sat upon his judgment-seat, which seat was so prepared in the open place of the city, that it concealed the army that lay ready to oppress them; and when the Jews petitioned him again, he gave a signal to the soldiers to encompass them routed, and threatened that their punishment should be no less than immediate death, unless they would leave off disturbing him, and go their ways home. But they threw themselves upon the ground, and laid their necks bare, and said they would take their death very willingly, rather than the wisdom of their laws should be transgressed; upon which Pilate was deeply affected with their firm resolution to keep their laws inviolable, and presently commanded the images to be carried back from Jerusalem to Cesarea.",
+      "text_to_embed": "SEDITION OF THE JEWS AGAINST PONTIUS PILATE. CONCERNING CHRIST, AND WHAT BEFELL PAULINA AND THE JEWS AT ROME, BUT now Pilate, the procurator of Judea, removed the army from Cesarea to Jerusalem, to take their winter quarters there, in order to abolish the Jewish laws. So he introduced Caesar’s effigies, which were upon the ensigns, and brought them into the city; whereas our law forbids us the very making of images; on which account the former procurators were wont to make their entry into the city with such ensigns as had not those ornaments. Pilate was the first who brought those images to Jerusalem, and set them up there; which was done without the knowledge of the people, because it was done in the night time; but as soon as they knew it, they came in multitudes to Cesarea, and interceded with Pilate many days that he would remove the images; and when he would not grant their requests, because it would tend to the injury of Caesar, while yet they persevered in their request, on the sixth day he ordered his soldiers to have their weapons privately, while he came and sat upon his judgment-seat, which seat was so prepared in the open place of the city, that it concealed the army that lay ready to oppress them; and when the Jews petitioned him again, he gave a signal to the soldiers to encompass them routed, and threatened that their punishment should be no less than immediate death, unless they would leave off disturbing him, and go their ways home. But they threw themselves upon the ground, and laid their necks bare, and said they would take their death very willingly, rather than the wisdom of their laws should be transgressed; upon which Pilate was deeply affected with their firm resolution to keep their laws inviolable, and presently commanded the images to be carried back from Jerusalem to Cesarea.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.wars.2.195",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.wars",
+        "work_title": "The Wars of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 75-79 CE",
+        "anchor_id": "josephus.wars.2.195",
+        "anchor_alt_citation": "Wars 2.10.4 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg004 (Whiston translation, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "it was not only not permitted them to make either an image of God, or indeed of a man, and to put it in any despicable part of their country, much less in the temple itself. Hereupon the whole multitude cried out that they were ready to suffer for their law.",
+      "rationale": "The Gaius-statue crisis under Petronius records Jews declaring it impermissible to make an image of God or even of a man, and ready to die rather than allow such an image. This is the golden-eagle and Roman-standards type aniconism the inputs flag as a parallel. It independently preserves the strict no-images reasoning the proposition concerns, without speaking to Christian icons, so it is recorded as parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS P, A, M, L, V, R, C per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "And when they insisted on their law, and the custom of their country, and how it was not only not permitted them to make either an image of God, or indeed of a man, and to put it in any despicable part of their country, much less in the temple itself, Petronius replied, And am not I also, said he, bound to keep the law of my own lord? For if I transgress it, and spare you, it is but just that I perish; while he that sent me, and not I, will commence a war against you; for I am under command as well as you. Hereupon the whole multitude cried out that they were ready to suffer for their law. Petronius then quieted them, and said to them, Will you then make war against Caesar? The Jews said, We offer sacrifices twice every day for Caesar, and for the Roman people; but that if he would place the images among them, he must first sacrifice the whole Jewish nation; and that they were ready to expose themselves, together with their children and wives, to be slain. At this Petronius was astonished, and pitied them, on account of the inexpressible sense of religion the men were under, and that courage of theirs which made them ready to die for it; so they were dismissed without success.",
+      "text_to_embed": "And when they insisted on their law, and the custom of their country, and how it was not only not permitted them to make either an image of God, or indeed of a man, and to put it in any despicable part of their country, much less in the temple itself, Petronius replied, And am not I also, said he, bound to keep the law of my own lord? For if I transgress it, and spare you, it is but just that I perish; while he that sent me, and not I, will commence a war against you; for I am under command as well as you. Hereupon the whole multitude cried out that they were ready to suffer for their law. Petronius then quieted them, and said to them, Will you then make war against Caesar? The Jews said, We offer sacrifices twice every day for Caesar, and for the Roman people; but that if he would place the images among them, he must first sacrifice the whole Jewish nation; and that they were ready to expose themselves, together with their children and wives, to be slain. At this Petronius was astonished, and pitied them, on account of the inexpressible sense of religion the men were under, and that courage of theirs which made them ready to die for it; so they were dismissed without success.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.3.91",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.3.91",
+        "anchor_alt_citation": "Ant 3.5.5 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001 (Whiston translation, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "The first commandment teaches us that there is but one God, and that we ought to worship him only. The second commands us not to make the image of any living creature to worship it.",
+      "rationale": "Josephus paraphrases the Decalogue so that the second commandment forbids making the image of any living creature to worship it, restricting worship to the one God. This independently preserves the same scriptural reasoning the lexical verdict traces from Exodus and Deuteronomy. It is a parallel summary of the prohibition, not a ruling on Christian images.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, S, P per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "The first commandment teaches us that there is but one God, and that we ought to worship him only. The second commands us not to make the image of any living creature to worship it. The third, that we must not swear by God in a false matter. The fourth, that we must keep the seventh day, by resting from all sorts of work. The fifth, that we must honor our parents. The sixth that we must abstain from murder. The seventh that we must not commit adultery. The eighth, that we must not be guilty of theft. The ninth, that we must not bear false witness. The tenth, that we must not admit of the desire of any thing that is another’s.",
+      "text_to_embed": "The first commandment teaches us that there is but one God, and that we ought to worship him only. The second commands us not to make the image of any living creature to worship it. The third, that we must not swear by God in a false matter. The fourth, that we must keep the seventh day, by resting from all sorts of work. The fifth, that we must honor our parents. The sixth that we must abstain from murder. The seventh that we must not commit adultery. The eighth, that we must not be guilty of theft. The ninth, that we must not bear false witness. The tenth, that we must not admit of the desire of any thing that is another’s.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "philo.de-decalogo.156",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-decalogo",
+        "work_title": "On the Decalogue",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-50 CE",
+        "anchor_id": "philo.de-decalogo.156",
+        "anchor_alt_citation": "De Decalogo XXVIII (156)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "earlychristianwritings.com / Yonge 1854 (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.86,
+      "evidence_phrase": "And the second commandment is the summary of all those laws which can possibly be enacted, about all the things made by hands, such as images and statues, and, in short, erections of any kind, of which the painters' and statuaries' arts are pernicious creators, for that commandment forbids such images to be made.",
+      "rationale": "Philo reads the second commandment as forbidding images and statues made by hands, naming the painters' and statuaries' arts as the pernicious creators. This is a Jewish-Alexandrian parallel to the proposition's claim that worship belongs to God alone and not to crafted images. It independently restates the no-images principle and does not address Christian icons, so it is recorded as parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Cohn-Wendland editio maior MSS"],
+        "loss_status": "complete"
+      },
+      "text": "And the second commandment is the summary of all those laws which can possibly be enacted, about all the things made by hands, such as images and statues, and, in short, erections of any kind, of which the painters' and statuaries' arts are pernicious creators, for that commandment forbids such images to be made, and prohibits the cleaving to any of the fabulous inventions about the marriage of gods and the birth of gods, and the number of indescribable and painful calamities which are represented to have ensued from both such circumstances.",
+      "text_to_embed": "And the second commandment is the summary of all those laws which can possibly be enacted, about all the things made by hands, such as images and statues, and, in short, erections of any kind, of which the painters' and statuaries' arts are pernicious creators, for that commandment forbids such images to be made, and prohibits the cleaving to any of the fabulous inventions about the marriage of gods and the birth of gods, and the number of indescribable and painful calamities which are represented to have ensued from both such circumstances.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-specialibus-legibus-i.22",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-specialibus-legibus-i",
+        "work_title": "On the Special Laws, Book I",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20-50 CE",
+        "anchor_id": "philo.de-specialibus-legibus-i.22",
+        "anchor_alt_citation": "De Specialibus Legibus I.4 (22)",
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "earlychristianwritings.com / Yonge 1854 (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.83,
+      "evidence_phrase": "all but teaching them in express words, \"You shall not make to yourselves any gods whatever of this or of any other material, nor shall you worship anything made with hands,\" being forbidden expressly with respect to the two most excellent materials.",
+      "rationale": "Philo expands the prohibition on gods of silver and gold into a general rule that nothing made with hands is to be worshiped. This independently parallels the proposition that the honor due to God alone is not rendered to crafted objects. It restates the second-temple aniconic principle and does not speak to Christian images, so it is recorded as parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Cohn-Wendland editio maior MSS"],
+        "loss_status": "complete"
+      },
+      "text": "To whom the Father of the universe thus speaks, saying: \"You shall not make to yourselves gods of silver and Gold;\" all but teaching them in express words, \"You shall not make to yourselves any gods whatever of this or of any other material, nor shall you worship anything made with hands,\" being forbidden expressly with respect to the two most excellent materials; for silver and gold are esteemed the most honourable of all materials.",
+      "text_to_embed": "To whom the Father of the universe thus speaks, saying: \"You shall not make to yourselves gods of silver and Gold;\" all but teaching them in express words, \"You shall not make to yourselves any gods whatever of this or of any other material, nor shall you worship anything made with hands,\" being forbidden expressly with respect to the two most excellent materials; for silver and gold are esteemed the most honourable of all materials.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "mishnah.sanhedrin.7.6",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.7.6",
+        "anchor_alt_citation": "m. Sanhedrin 7:6",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Vilna text, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.84,
+      "evidence_phrase": "הָעוֹבֵד עֲבוֹדָה זָרָה, אֶחָד הָעוֹבֵד, וְאֶחָד הַזּוֹבֵחַ, וְאֶחָד הַמְקַטֵּר, וְאֶחָד הַמְנַסֵּךְ, וְאֶחָד הַמִּשְׁתַּחֲוֶה. אֲבָל הַמְגַפֵּף וְהַמְנַשֵּׁק וְהַמְכַבֵּד וְהַמְּרַבֵּץ וְהַמַּרְחִיץ, הַסָּךְ, הַמַּלְבִּישׁ וְהַמַּנְעִיל, עוֹבֵר בְּלֹא תַעֲשֶׂה.",
+      "rationale": "This Mishnah distinguishes the capital cultic acts directed at an object, including prostration (the form of shachah), from lesser honoring acts such as embracing, kissing, dressing, and washing it, which violate only a negative command. That cultic-versus-honor distinction maps directly onto the lexical verdict's discussion of proskuneo and shachah spanning both worship and creaturely homage. It is recorded as parallel because it sets the same line the proposition draws without addressing Christian images.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnah-tannaitic-oral", "vilna-1913-printed", "sefaria-torat-emet"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138", "Vilna 1913 print"],
+        "loss_status": "complete"
+      },
+      "text": "הָעוֹבֵד עֲבוֹדָה זָרָה, אֶחָד הָעוֹבֵד, וְאֶחָד הַזּוֹבֵחַ, וְאֶחָד הַמְקַטֵּר, וְאֶחָד הַמְנַסֵּךְ, וְאֶחָד הַמִּשְׁתַּחֲוֶה, וְאֶחָד הַמְקַבְּלוֹ עָלָיו לֶאֱלוֹהַּ, וְהָאוֹמֵר לוֹ אֵלִי אָתָּה. אֲבָל הַמְגַפֵּף וְהַמְנַשֵּׁק וְהַמְכַבֵּד וְהַמְּרַבֵּץ וְהַמַּרְחִיץ, הַסָּךְ, הַמַּלְבִּישׁ וְהַמַּנְעִיל, עוֹבֵר בְּלֹא תַעֲשֶׂה. הַנּוֹדֵר בִּשְׁמוֹ וְהַמְקַיֵּם בִּשְׁמוֹ, עוֹבֵר בְּלֹא תַעֲשֶׂה. הַפּוֹעֵר עַצְמוֹ לְבַעַל פְּעוֹר, זוֹ הִיא עֲבוֹדָתוֹ. הַזּוֹרֵק אֶבֶן לְמַרְקוּלִיס, זוֹ הִיא עֲבוֹדָתוֹ:",
+      "text_to_embed": "הָעוֹבֵד עֲבוֹדָה זָרָה, אֶחָד הָעוֹבֵד, וְאֶחָד הַזּוֹבֵחַ, וְאֶחָד הַמְקַטֵּר, וְאֶחָד הַמְנַסֵּךְ, וְאֶחָד הַמִּשְׁתַּחֲוֶה, וְאֶחָד הַמְקַבְּלוֹ עָלָיו לֶאֱלוֹהַּ, וְהָאוֹמֵר לוֹ אֵלִי אָתָּה. אֲבָל הַמְגַפֵּף וְהַמְנַשֵּׁק וְהַמְכַבֵּד וְהַמְּרַבֵּץ וְהַמַּרְחִיץ, הַסָּךְ, הַמַּלְבִּישׁ וְהַמַּנְעִיל, עוֹבֵר בְּלֹא תַעֲשֶׂה. הַנּוֹדֵר בִּשְׁמוֹ וְהַמְקַיֵּם בִּשְׁמוֹ, עוֹבֵר בְּלֹא תַעֲשֶׂה. הַפּוֹעֵר עַצְמוֹ לְבַעַל פְּעוֹר, זוֹ הִיא עֲבוֹדָתוֹ. הַזּוֹרֵק אֶבֶן לְמַרְקוּלִיס, זוֹ הִיא עֲבוֹדָתוֹ:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Vilna 1913 Hebrew text is public domain by age."
+    },
+    {
+      "witness_id": "mishnah.avodah-zarah.3.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.avodah-zarah",
+        "work_title": "Mishnah Avodah Zarah",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.avodah-zarah.3.1",
+        "anchor_alt_citation": "m. Avodah Zarah 3:1",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Torat Emet 357 (Vilna text, PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.8,
+      "evidence_phrase": "כָּל הַצְּלָמִים אֲסוּרִים, מִפְּנֵי שֶׁהֵן נֶעֱבָדִין פַּעַם אַחַת בַּשָּׁנָה, דִבְרֵי רַבִּי מֵאִיר. וַחֲכָמִים אוֹמְרִים, אֵינוֹ אָסוּר אֶלָּא כָל שֶׁיֵּשׁ בְּיָדוֹ מַקֵּל אוֹ צִפּוֹר אוֹ כַדּוּר.",
+      "rationale": "Rabbi Meir holds that all images are forbidden because they are worshiped, while the sages restrict the ban to images bearing the marks of an object of veneration. The dispute itself shows the rabbinic concern was whether an image is treated as a cult object, the same line the proposition draws. It is recorded as parallel because it sets the no-veneration principle without ruling on Christian icons.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnah-tannaitic-oral", "vilna-1913-printed", "sefaria-torat-emet"],
+        "extant_witnesses": ["Kaufmann A50", "Parma De Rossi 138", "Vilna 1913 print"],
+        "loss_status": "complete"
+      },
+      "text": "כָּל הַצְּלָמִים אֲסוּרִים, מִפְּנֵי שֶׁהֵן נֶעֱבָדִין פַּעַם אַחַת בַּשָּׁנָה, דִבְרֵי רַבִּי מֵאִיר. וַחֲכָמִים אוֹמְרִים, אֵינוֹ אָסוּר אֶלָּא כָל שֶׁיֵּשׁ בְּיָדוֹ מַקֵּל אוֹ צִפּוֹר אוֹ כַדּוּר. רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר, כֹּל שֶׁיֵּשׁ בְּיָדוֹ כָל דָּבָר:",
+      "text_to_embed": "כָּל הַצְּלָמִים אֲסוּרִים, מִפְּנֵי שֶׁהֵן נֶעֱבָדִין פַּעַם אַחַת בַּשָּׁנָה, דִבְרֵי רַבִּי מֵאִיר. וַחֲכָמִים אוֹמְרִים, אֵינוֹ אָסוּר אֶלָּא כָל שֶׁיֵּשׁ בְּיָדוֹ מַקֵּל אוֹ צִפּוֹר אוֹ כַדּוּר. רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר, כֹּל שֶׁיֵּשׁ בְּיָדוֹ כָל דָּבָר:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Vilna 1913 Hebrew text is public domain by age."
+    },
+    {
+      "witness_id": "sibor.3.577",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "sibor",
+        "work_id": "sibor",
+        "work_title": "Sibylline Oracles, Book III",
+        "author": null,
+        "date_written_range": "c. 160-50 BCE",
+        "anchor_id": "sibor.3.577",
+        "anchor_alt_citation": "Sib. Or. 3.577",
+        "language": "en",
+        "translator": "H. C. O. Lanchester / R. H. Charles (1913)",
+        "edition": "Charles 1913 Apocrypha and Pseudepigrapha (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "in that they give not themselves to vain deceits, nor honour the works of men's hands, of gold and brass, silver or ivory, idols of dead gods of wood and stone.",
+      "rationale": "This Jewish-Sibylline passage praises the faithful for not honoring the works of men's hands or idols of wood and stone, contrasting that with worship of the one God. It independently preserves the second-temple polemic against rendering honor to crafted images. It is recorded as parallel because it states the no-images principle in poetic form and does not address Christian icons.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-charles-1913"],
+        "extant_witnesses": ["Greek MSS class Phi, Psi, Omega per Geffcken"],
+        "loss_status": "complete"
+      },
+      "text": "and bringing great joy to all mortals. For to them alone the Mighty God has given discreet counsel, and faith and an excellent understanding in their hearts: in that they give not themselves to vain deceits, nor honour the works of men's hands, of gold and brass, silver or ivory, idols of dead gods of wood and stone,",
+      "text_to_embed": "and bringing great joy to all mortals. For to them alone the Mighty God has given discreet counsel, and faith and an excellent understanding in their hearts: in that they give not themselves to vain deceits, nor honour the works of men's hands, of gold and brass, silver or ivory, idols of dead gods of wood and stone,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record carries a strong, independent second-temple Jewish aniconism that runs parallel to the strict no-images stance this question concerns. Josephus states the principle directly in Against Apion, where no material or art may form a likeness of God and doing so is not agreeable to piety. He narrates two crisis points, the Pilate ensigns at Antiquities 18.55 and the Gaius statue under Petronius at Wars 2.195, where Judeans declared it unlawful to make an image of God or even of a man and were ready to die rather than tolerate one, and he paraphrases the second commandment at Antiquities 3.91 as forbidding the image of any living creature for worship. Philo agrees, reading the second commandment as banning images and statues made by hands and forbidding worship of anything made with hands. The Mishnah adds a precise distinction the lexical verdict also flagged, separating the cultic acts that constitute worship, including prostration, from lesser honoring acts such as kissing or dressing an object, and disputing whether an image counts as a venerated cult object at all. The Sibylline Oracles praise the faithful for not honoring the works of men's hands. None of these witnesses addresses Christian images of Christ or of saints, so they corroborate the underlying biblical reasoning without resolving the disputed lexical question of whether a relative honor toward a Christian image falls under prohibited worship or permitted creaturely homage. They are recorded as parallels, and the lexical verdict stands.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true},
+      {"source_slug": "sibor", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

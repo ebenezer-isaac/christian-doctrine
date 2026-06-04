@@ -1,0 +1,97 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-deuterocanon-not-scripture",
+  "question_id": "doc-deuterocanon-not-scripture",
+  "generated_at": "2026-06-04T12:30:12Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.apion.1.38",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.apion",
+        "work_title": "Against Apion",
+        "author": "Flavius Josephus",
+        "date_written_range": "c. 94-100 CE",
+        "anchor_id": "josephus.apion.1.38",
+        "anchor_alt_citation": "Against Apion 1.8 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg002.perseus-eng2 (Whiston, PD; Perseus encoding CC-BY-SA-4.0)"
+      },
+      "attestation_type": "corroborates",
+      "confidence": 0.9,
+      "evidence_phrase": "It is true, our history hath been written since Artaxerxes very particularly, but hath not been esteemed of the like authority with the former by our forefathers, because there hath not been an exact succession of prophets since that time",
+      "rationale": "Josephus describes a fixed Jewish collection of twenty-two books held to be divine, drawn from the era of prophetic succession that closed under Artaxerxes. He explicitly says writings composed after that point, the very window that produced the disputed intertestamental books, were not esteemed of equal authority. This is the strongest first-century witness that the Hebrew canon was already bounded against the later books, which corroborates the lexical verdict that those books fall outside Scripture.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["Codex Laurentianus 69.22 (L)", "Eusebius Praeparatio Evangelica quotation"],
+        "loss_status": "complete"
+      },
+      "text": "For we have not an innumerable multitude of books among us, disagreeing from and contradicting one another, [as the Greeks have,] but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death. This interval of time was little short of three thousand years; but as to the time from the death of Moses till the reign of Artaxerxes king of Persia, who reigned after Xerxes, the prophets, who were after Moses, wrote down what was done in their times in thirteen books. The remaining four books contain hymns to God, and precepts for the conduct of human life. It is true, our history hath been written since Artaxerxes very particularly, but hath not been esteemed of the like authority with the former by our forefathers, because there hath not been an exact succession of prophets since that time; and how firmly we have given credit to these books of our own nation is evident by what we do; for during so many ages as have already passed, no one has been so bold as either to add any thing to them, to take any thing from them, or to make any change in them; but it is become natural to all Jews immediately, and from their very birth, to esteem these books to contain Divine doctrines, and to persist in them, and, if occasion be willingly to die for them. For it is no new thing for our captives, many of them in number, and frequently in time, to be seen to endure racks and deaths of all kinds upon the theatres, that they may not be obliged to say one word against our laws and the records that contain them; whereas there are none at all among the Greeks who would undergo the least harm on that account, no, nor in case all the writings that are among them were to be destroyed; for they take them to be such discourses as are framed agreeably to the inclinations of those that write them; and they have justly the same opinion of the ancient writers, since they see some of the present generation bold enough to write about such affairs, wherein they were not present, nor had concern enough to inform themselves about them from those that knew them; examples of which may be had in this late war of ours, where some persons have written histories, and published them, without having been in the places concerned, or having been near them when the actions were done; but these men put a few things together by hearsay, and insolently abuse the world, and call these writings by the name of Histories.",
+      "text_to_embed": "For we have not an innumerable multitude of books among us, disagreeing from and contradicting one another, [as the Greeks have,] but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death. This interval of time was little short of three thousand years; but as to the time from the death of Moses till the reign of Artaxerxes king of Persia, who reigned after Xerxes, the prophets, who were after Moses, wrote down what was done in their times in thirteen books. The remaining four books contain hymns to God, and precepts for the conduct of human life. It is true, our history hath been written since Artaxerxes very particularly, but hath not been esteemed of the like authority with the former by our forefathers, because there hath not been an exact succession of prophets since that time; and how firmly we have given credit to these books of our own nation is evident by what we do; for during so many ages as have already passed, no one has been so bold as either to add any thing to them, to take any thing from them, or to make any change in them; but it is become natural to all Jews immediately, and from their very birth, to esteem these books to contain Divine doctrines, and to persist in them, and, if occasion be willingly to die for them. For it is no new thing for our captives, many of them in number, and frequently in time, to be seen to endure racks and deaths of all kinds upon the theatres, that they may not be obliged to say one word against our laws and the records that contain them; whereas there are none at all among the Greeks who would undergo the least harm on that account, no, nor in case all the writings that are among them were to be destroyed; for they take them to be such discourses as are framed agreeably to the inclinations of those that write them; and they have justly the same opinion of the ancient writers, since they see some of the present generation bold enough to write about such affairs, wherein they were not present, nor had concern enough to inform themselves about them from those that knew them; examples of which may be had in this late war of ours, where some persons have written histories, and published them, without having been in the places concerned, or having been near them when the actions were done; but these men put a few things together by hearsay, and insolently abuse the world, and call these writings by the name of Histories.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Whiston translation is PD by age; Perseus TEI encoding carries CC-BY-SA-4.0."
+    },
+    {
+      "witness_id": "mishnah.sanhedrin.10.1",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.sanhedrin",
+        "work_title": "Mishnah Sanhedrin",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.sanhedrin.10.1",
+        "anchor_alt_citation": "m. Sanhedrin 10:1 (Helek)",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria, Torat Emet 357 Hebrew (PD)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים",
+      "rationale": "Rabbi Akiva names a category of sefarim hachitzonim, the external or outside books, and places reading them among acts that forfeit a portion in the world to come. The phrase presupposes a closed set of sacred books over against books that lie outside it, the same boundary the proposition draws against the Apocrypha. This is an independent rabbinic tradition that parallels, rather than directly cites, the lexical verdict, so it is recorded as parallel with moderate confidence since the Mishnah does not enumerate which works the external books are.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnah-tannaitic-oral", "hebrew-torat-emet-357"],
+        "extant_witnesses": ["MS Kaufmann A50", "MS Parma De Rossi 138"],
+        "loss_status": "complete"
+      },
+      "text": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "text_to_embed": "כָּל יִשְׂרָאֵל יֵשׁ לָהֶם חֵלֶק לָעוֹלָם הַבָּא, שֶׁנֶּאֱמַר (ישעיה ס) וְעַמֵּךְ כֻּלָּם צַדִּיקִים לְעוֹלָם יִירְשׁוּ אָרֶץ נֵצֶר מַטָּעַי מַעֲשֵׂה יָדַי לְהִתְפָּאֵר. וְאֵלּוּ שֶׁאֵין לָהֶם חֵלֶק לָעוֹלָם הַבָּא, הָאוֹמֵר אֵין תְּחִיַּת הַמֵּתִים מִן הַתּוֹרָה, וְאֵין תּוֹרָה מִן הַשָּׁמָיִם, וְאֶפִּיקוֹרֶס. רַבִּי עֲקִיבָא אוֹמֵר, אַף הַקּוֹרֵא בַסְּפָרִים הַחִיצוֹנִים, וְהַלּוֹחֵשׁ עַל הַמַּכָּה וְאוֹמֵר (שמות טו) כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ כִּי אֲנִי ה' רֹפְאֶךָ. אַבָּא שָׁאוּל אוֹמֵר, אַף הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Hebrew Torat Emet 357 edition via Sefaria, public domain."
+    }
+  ],
+
+  "summary": "Two extra-biblical witnesses materially attest a bounded Hebrew collection that excludes the later books. Josephus, in Against Apion 1.38, reports a fixed set of twenty-two books held divine, produced during the era of prophetic succession that closed under Artaxerxes, and states plainly that writings composed after that point were not esteemed of equal authority. That window is precisely the intertestamental period from which the disputed Apocryphal and Deuterocanonical books emerged, so Josephus corroborates the verdict that those books lie outside Scripture. The Mishnah, in Sanhedrin 10:1, preserves Rabbi Akiva naming sefarim hachitzonim, the external or outside books, and counting their reading among acts that forfeit a share in the world to come. That category presupposes a closed sacred set over against books that fall outside it, the same boundary the proposition draws, and it survives as an independent rabbinic tradition rather than as a citation of the New Testament evidence the verdict relies on. Together the two witnesses show that a delimited Jewish canon, drawn by prophetic-era succession and guarded against later additions, was a recognized first and second century reality and not a later Christian invention. Neither witness supplies a book by book list, and the Mishnah does not specify which works it labels external, so the historical record fixes the boundary by principle and by era rather than by enumeration. The lexical verdict stands and is independently supported.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": []
+}

@@ -1,0 +1,169 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-guardian-angels",
+  "question_id": "doc-guardian-angels",
+  "generated_at": "2026-06-04T12:31:47Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "philo.appendix-fragmenta.142",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.appendix-fragmenta",
+        "work_title": "Fragments (Appendix)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.appendix-fragmenta.142",
+        "anchor_alt_citation": null,
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "earlychristianwritings.com Yonge 1854, Philo Fragments"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "About the doctrine that God has made angels to be guardians of us.",
+      "rationale": "Philo preserves, as a discrete doctrinal heading, the view that God appointed angels as guardians of his people. This independently parallels the protective angelic ministry the lexical verdict reads in Psalm 91:11 and Hebrews 1:14. It speaks collectively (guardians of us) and does not lock down a one-to-one angel-to-believer assignment, so it parallels rather than corroborates the specific personal-assignment claim under question.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek fragments preserved in catenae and florilegia"],
+        "loss_status": "fragmentary"
+      },
+      "text": "About the doctrine that God has made angels to be guardians of us.",
+      "text_to_embed": "About the doctrine that God has made angels to be guardians of us.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.101.5",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.101.5",
+        "anchor_alt_citation": null,
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Book of Enoch, CCEL Pseudepigrapha"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "And over all the righteous and holy He will appoint guardians from amongst the holy angels To guard them as the apple of an eye, Until He makes an end of all wickedness and all sin.",
+      "rationale": "1 Enoch records a second-temple Jewish tradition that God appoints angelic guardians over the righteous to guard them. This parallels the protective-ministry stratum the lexical verdict affirms in Psalm 91:11 and Hebrews 1:14. The guardianship is over the righteous as a class (guard them, plural) rather than a named angel paired with a named believer, so it parallels the protective claim but does not attest the specific one-to-one assignment in question.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Aramaic fragments 4Q201-212", "Greek Codex Panopolitanus"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And over all the righteous and holy He will appoint guardians from amongst the holy angels To guard them as the apple of an eye, Until He makes an end of all wickedness and all sin, And though the righteous sleep a long sleep, they have nought to fear.",
+      "text_to_embed": "And over all the righteous and holy He will appoint guardians from amongst the holy angels To guard them as the apple of an eye, Until He makes an end of all wickedness and all sin, And though the righteous sleep a long sleep, they have nought to fear.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.20.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Ethiopic Book of Enoch)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.20.3",
+        "anchor_alt_citation": null,
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Book of Enoch, CCEL Pseudepigrapha"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.62,
+      "evidence_phrase": "Raphael, one of the holy angels, who is over the spirits of men.",
+      "rationale": "1 Enoch assigns named archangels to fixed domains, here Raphael set over the spirits of men. This reflects the second-temple pattern of angels appointed over spheres and peoples rather than over individual believers. It is at most a distant parallel to the personal-guardian claim and does not attest a specific angel assigned to a specific believer, so confidence is held just above the ship threshold.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Aramaic fragments 4Q201-212", "Greek Codex Panopolitanus"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Raphael, one of the holy angels, who is over the spirits of men.",
+      "text_to_embed": "Raphael, one of the holy angels, who is over the spirits of men.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-fuga.67",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-fuga",
+        "work_title": "De Fuga et Inventione (On Flight and Finding)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-fuga.67",
+        "anchor_alt_citation": null,
+        "language": "en",
+        "translator": "Charles Duke Yonge (1854)",
+        "edition": "earlychristianwritings.com Yonge 1854, De Fuga et Inventione"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.6,
+      "evidence_phrase": "The God who has nourished me from my youth up, the angel who delivered me from all my Evils.",
+      "rationale": "Philo reads Jacob's confession as a witness that an angel delivered him from all his evils, distinguishing the angelic deliverer from God himself. This parallels the protective angelic ministry the lexical verdict affirms but Philo allegorizes the angel as the corrective divine reason, so the link to a dedicated personal guardian is indirect. Confidence is held at the ship threshold given the allegorical reading.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Greek MSS of the Philonic corpus"],
+        "loss_status": "complete"
+      },
+      "text": "And the practicer of virtue, Jacob, bears his testimony in support of this doctrine of mine, where he says, \"The God who has nourished me from my youth up, the angel who delivered me from all my Evils.\" For the most ancient benefits, those by which the soul is nourished, he attributes to God, but the more recent ones, which are caused by the errors of the soul, he attributes to the servant of God.",
+      "text_to_embed": "And the practicer of virtue, Jacob, bears his testimony in support of this doctrine of mine, where he says, \"The God who has nourished me from my youth up, the angel who delivered me from all my Evils.\" For the most ancient benefits, those by which the soul is nourished, he attributes to God, but the more recent ones, which are caused by the errors of the soul, he attributes to the servant of God.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record preserves a second-temple and Hellenistic-Jewish tradition of protective angelic ministry that runs parallel to the lexical verdict without settling the disputed point. Philo preserves a discrete doctrinal heading that God has made angels to be guardians of us, and reads Jacob's confession as a witness that an angel delivered him from all his evils, though he allegorizes that angel as corrective divine reason. 1 Enoch states that God appoints guardians from among the holy angels over all the righteous to guard them as the apple of an eye, and elsewhere assigns named archangels such as Raphael to fixed domains like the spirits of men. Every one of these witnesses speaks of angelic guarding over the righteous as a class, or of angels set over spheres and peoples, rather than a specific angel paired with a specific believer. They therefore parallel the protective-ministry stratum that the verdict already affirms in Psalm 91:11 and Hebrews 1:14, but they do not independently lock down the one-to-one personal assignment that makes the proposition disputed. The historical layer adds independent attestation that the broad idea of angelic guardianship was a live and respectable Jewish belief in the period around the New Testament, which supports the proposition's claim that a guardian-angel view is permissible. It does not push the belief toward dogmatic requirement. The lexical verdict stands unchanged.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "philo", "license": "PD", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["low-confidence-witness-held"]
+}

@@ -1,0 +1,129 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-intermediate-state",
+  "question_id": "doc-intermediate-state",
+  "generated_at": "2026-06-04T12:31:30Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "josephus.wars.2.154",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.wars",
+        "work_title": "The Wars of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "75-79 CE",
+        "anchor_id": "josephus.wars.2.154",
+        "anchor_alt_citation": "Wars 2.8.11 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg004.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.85,
+      "evidence_phrase": "the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons ... but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward",
+      "rationale": "Josephus reports the Essene doctrine that the soul survives the body consciously and, on release from the flesh, rejoices and mounts upward to a place of rest, while bad souls go to a dark den of punishment. This is an independent second-temple Jewish witness to a conscious intermediate state rather than unconscious soul sleep, paralleling the conscious-presence cluster behind the lexical verdict. It is parallel, not corroborative proof, because it describes Essene belief, not the scriptural propositions directly.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese (P, A, M, L, V, R, C)"],
+        "loss_status": "complete"
+      },
+      "text": "For their doctrine is this: That bodies are corruptible, and that the matter they are made of is not permanent; but that the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons, into which they are drawn by a certain natural enticement; but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward. And this is like the opinions of the Greeks, that good souls have their habitations beyond the ocean, in a region that is neither oppressed with storms of rain or snow, or with intense heat, but that this place is such as is refreshed by the gentle breathing of a west wind, that is perpetually blowing from the ocean; while they allot to bad souls a dark and tempestuous den, full of never-ceasing punishments. And indeed the Greeks seem to me to have followed the same notion, when they allot the islands of the blessed to their brave men, whom they call heroes and demi-gods; and to the souls of the wicked, the region of the ungodly, in Hades, where their fables relate that certain persons, such as Sisyphus, and Tantalus, and Ixion, and Tityus, are punished; which is built on this first supposition, that souls are immortal; and thence are those exhortations to virtue and dehortations from wickedness collected; whereby good men are bettered in the conduct of their life by the hope they have of reward after their death; and whereby the vehement inclinations of bad men to vice are restrained, by the fear and expectation they are in, that although they should lie concealed in this life, they should suffer immortal punishment after their death. These are the Divine doctrines of the Essens about the soul, which lay an unavoidable bait for such as have once had a taste of their philosophy.",
+      "text_to_embed": "For their doctrine is this: That bodies are corruptible, and that the matter they are made of is not permanent; but that the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons, into which they are drawn by a certain natural enticement; but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward. And this is like the opinions of the Greeks, that good souls have their habitations beyond the ocean, in a region that is neither oppressed with storms of rain or snow, or with intense heat, but that this place is such as is refreshed by the gentle breathing of a west wind, that is perpetually blowing from the ocean; while they allot to bad souls a dark and tempestuous den, full of never-ceasing punishments. And indeed the Greeks seem to me to have followed the same notion, when they allot the islands of the blessed to their brave men, whom they call heroes and demi-gods; and to the souls of the wicked, the region of the ungodly, in Hades, where their fables relate that certain persons, such as Sisyphus, and Tantalus, and Ixion, and Tityus, are punished; which is built on this first supposition, that souls are immortal; and thence are those exhortations to virtue and dehortations from wickedness collected; whereby good men are bettered in the conduct of their life by the hope they have of reward after their death; and whereby the vehement inclinations of bad men to vice are restrained, by the fear and expectation they are in, that although they should lie concealed in this life, they should suffer immortal punishment after their death. These are the Divine doctrines of the Essens about the soul, which lay an unavoidable bait for such as have once had a taste of their philosophy.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "josephus.ant.18.12",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.ant",
+        "work_title": "Antiquities of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "93-94 CE",
+        "anchor_id": "josephus.ant.18.12",
+        "anchor_alt_citation": "Ant 18.1.3 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg001.perseus-eng2"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "They also believe that souls have an immortal rigor in them, and that under the earth there will be rewards or punishments, according as they have lived virtuously or viciously in this life; and the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again",
+      "rationale": "Josephus reports the Pharisaic doctrine that souls possess an immortal vigor and that the dead receive reward or punishment under the earth before bodily revival. This is an independent witness from the dominant Jewish party of the period to a conscious post-mortem state followed by resurrection, which parallels the conscious-presence-then-resurrection shape of the lexical verdict. It is parallel rather than corroborative because it records party belief, not the scriptural anchors themselves.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS A, M, V, W per Niese"],
+        "loss_status": "complete"
+      },
+      "text": "Now, for the Pharisees, they live meanly, and despise delicacies in diet; and they follow the conduct of reason; and what that prescribes to them as good for them they do; and they think they ought earnestly to strive to observe reason’s dictates for practice. They also pay a respect to such as are in years; nor are they so bold as to contradict them in any thing which they have introduced; and when they determine that all things are done by fate, they do not take away the freedom from men of acting as they think fit; since their notion is, that it hath pleased God to make a temperament, whereby what he wills is done, but so that the will of man can act virtuously or viciously. They also believe that souls have an immortal rigor in them, and that under the earth there will be rewards or punishments, according as they have lived virtuously or viciously in this life; and the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again; on account of which doctrines they are able greatly to persuade the body of the people; and whatsoever they do about Divine worship, prayers, and sacrifices, they perform them according to their direction; insomuch that the cities give great attestations to them on account of their entire virtuous conduct, both in the actions of their lives and their discourses also.",
+      "text_to_embed": "Now, for the Pharisees, they live meanly, and despise delicacies in diet; and they follow the conduct of reason; and what that prescribes to them as good for them they do; and they think they ought earnestly to strive to observe reason’s dictates for practice. They also pay a respect to such as are in years; nor are they so bold as to contradict them in any thing which they have introduced; and when they determine that all things are done by fate, they do not take away the freedom from men of acting as they think fit; since their notion is, that it hath pleased God to make a temperament, whereby what he wills is done, but so that the will of man can act virtuously or viciously. They also believe that souls have an immortal rigor in them, and that under the earth there will be rewards or punishments, according as they have lived virtuously or viciously in this life; and the latter are to be detained in an everlasting prison, but that the former shall have power to revive and live again; on account of which doctrines they are able greatly to persuade the body of the people; and whatsoever they do about Divine worship, prayers, and sacrifices, they perform them according to their direction; insomuch that the cities give great attestations to them on account of their entire virtuous conduct, both in the actions of their lives and their discourses also.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "1enoch.22.14",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "The Book of Enoch (1 Enoch)",
+        "author": null,
+        "date_written_range": "c. 300-100 BCE",
+        "anchor_id": "1enoch.22.14",
+        "anchor_alt_citation": "1 Enoch 22 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 (CCEL Pseudepigrapha section)"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "Then I blessed the Lord of glory and said: 'Blessed be my Lord, the Lord of righteousness, who ruleth for ever.' G g when they die and are buried in the earth and judgement has not been executed upon them in their lifetime.",
+      "rationale": "This closes the chapter 22 vision in which the dead are held in separate hollow compartments awaiting the day of judgement, with the righteous separated from the wicked. The verse preserves the second-temple expectation that the dead persist in an intermediate holding state between death and judgement rather than passing into nonexistence, which parallels the conscious intermediate state of the lexical verdict. Confidence is moderate because the chunk preserves only the closing doxology and an editorial note about the chapter 22 compartments rather than the full compartment description.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS", "Greek Codex Panopolitanus (Akhmim)", "4Q201-4Q212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "Then I blessed the Lord of glory and said: 'Blessed be my Lord, the Lord of righteousness, who ruleth for ever.' G g when they die and are buried in the earth and judgement has not been executed upon them in their lifetime.",
+      "text_to_embed": "Then I blessed the Lord of glory and said: 'Blessed be my Lord, the Lord of righteousness, who ruleth for ever.' G g when they die and are buried in the earth and judgement has not been executed upon them in their lifetime.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    }
+  ],
+  "summary": "The extra-biblical record adds independent second-temple Jewish witness to a conscious intermediate state, the same shape the lexical verdict tilts toward. Josephus reports two Jewish parties on this point. He says the Essenes held that souls are immortal and, when set free from the bonds of the flesh, rejoice and mount upward to a place of rest, while wicked souls go to a dark den of punishment. He reports the Pharisees, the dominant party, as believing souls have an immortal vigor and that under the earth there are rewards or punishments before the righteous revive and live again. First Enoch chapter 22 preserves the related expectation that the dead are held in separate compartments awaiting judgement rather than passing into nonexistence. None of these witnesses proves the scriptural propositions, and none speaks as a Christian source, so they are recorded as parallel tradition rather than as corroboration. They show that the conscious survival of the soul between death and resurrection was a live and widely held Jewish belief in the period around the New Testament, which is the cultural air the conscious-presence vocabulary breathes. The soul-sleep reading is not the only Jewish option attested in this era, and the parties Josephus describes lean against it. The lexical verdict stands on its own grounds, and these witnesses neither raise nor lower it. They simply locate the conscious-presence cluster within a recognizable second-temple frame.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": ["composite-tradition"]
+}

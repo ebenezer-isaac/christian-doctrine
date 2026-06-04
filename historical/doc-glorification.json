@@ -1,0 +1,171 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-glorification",
+  "question_id": "doc-glorification",
+  "generated_at": "2026-06-04T12:30:41Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.62.15",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Similitudes)",
+        "author": null,
+        "date_written_range": "c. 100 BCE to 50 CE",
+        "anchor_id": "1enoch.62.15",
+        "anchor_alt_citation": "1 Enoch 62:15 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. 2 (1913), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.82,
+      "evidence_phrase": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "rationale": "The Similitudes preserve a second-temple Jewish hope that the righteous rise from the earth and are clothed with garments of glory. This independently parallels the lexical field of bodily resurrection plus glorification in 1 Corinthians 15 and Philippians 3:21, where the dishonored body puts on glory. It is preserved tradition, not literary dependence, so it is recorded as parallel and does not bear on the verdict.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base text)", "Greek Codex Panopolitanus (partial)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "text_to_embed": "And the righteous and elect shall have risen from the earth, And ceased to be of downcast countenance. And they shall have been clothed with garments of glory,",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "josephus.wars.2.150",
+      "source_type": "jewish-historian",
+      "source": {
+        "source_slug": "josephus",
+        "work_id": "josephus.wars",
+        "work_title": "The Wars of the Jews",
+        "author": "Flavius Josephus",
+        "date_written_range": "75-79 CE",
+        "anchor_id": "josephus.wars.2.150",
+        "anchor_alt_citation": "Wars 2.8.10 (Whiston)",
+        "language": "en",
+        "translator": "William Whiston (1737)",
+        "edition": "Perseus TEI tlg0526.tlg004 (Whiston English), CC-BY-SA-4.0"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.7,
+      "evidence_phrase": "And as for death, if it will be for their glory, they esteem it better than living always ... they smiled in their very pains, and laughed those to scorn who inflicted the torments upon them, and resigned up their souls with great alacrity, as expecting to receive them again.",
+      "rationale": "Josephus reports that the Essenes faced torture and death cheerfully because they expected to receive their souls again, a concrete second-temple Jewish hope of post-mortem restoration. This parallels the future consummation hope behind the verdict, though Josephus frames it in soul-recovery terms rather than the bodily transformation of the Pauline texts. It is recorded as parallel and does not modify the verdict.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-niese", "english-whiston-1737"],
+        "extant_witnesses": ["MSS per Niese (Wars)"],
+        "loss_status": "complete"
+      },
+      "text": "Now after the time of their preparatory trial is over, they are parted into four classes; and so far are the juniors inferior to the seniors, that if the seniors should be touched by the juniors, they must wash themselves, as if they had intermixed themselves with the company of a foreigner. They are long-lived also, insomuch that many of them live above a hundred years, by means of the simplicity of their diet; nay, as I think, by means of the regular course of life they observe also. They contemn the miseries of life, and are above pain, by the generosity of their mind. And as for death, if it will be for their glory, they esteem it better than living always; and indeed our war with the Romans gave abundant evidence what great souls they had in their trials, wherein, although they were tortured and distorted, burnt and torn to pieces, and went through all kinds of instruments of torment, that they might be forced either to blaspheme their legislator, or to eat what was forbidden them, yet could they not be made to do either of them, no, nor once to flatter their tormentors, or to shed a tear; but they smiled in their very pains, and laughed those to scorn who inflicted the torments upon them, and resigned up their souls with great alacrity, as expecting to receive them again.",
+      "text_to_embed": "Now after the time of their preparatory trial is over, they are parted into four classes; and so far are the juniors inferior to the seniors, that if the seniors should be touched by the juniors, they must wash themselves, as if they had intermixed themselves with the company of a foreigner. They are long-lived also, insomuch that many of them live above a hundred years, by means of the simplicity of their diet; nay, as I think, by means of the regular course of life they observe also. They contemn the miseries of life, and are above pain, by the generosity of their mind. And as for death, if it will be for their glory, they esteem it better than living always; and indeed our war with the Romans gave abundant evidence what great souls they had in their trials, wherein, although they were tortured and distorted, burnt and torn to pieces, and went through all kinds of instruments of torment, that they might be forced either to blaspheme their legislator, or to eat what was forbidden them, yet could they not be made to do either of them, no, nor once to flatter their tormentors, or to shed a tear; but they smiled in their very pains, and laughed those to scorn who inflicted the torments upon them, and resigned up their souls with great alacrity, as expecting to receive them again.",
+      "license": "CC-BY-SA-4.0",
+      "redistribute": true,
+      "license_note": "Perseus TEI encoding under CC-BY-SA-4.0; underlying Whiston translation is PD by age."
+    },
+    {
+      "witness_id": "mishnah.pirkei-avot.4.22",
+      "source_type": "jewish-rabbinic",
+      "source": {
+        "source_slug": "mishnah",
+        "work_id": "mishnah.pirkei-avot",
+        "work_title": "Mishnah, Pirkei Avot",
+        "author": null,
+        "date_written_range": "c. 200 CE",
+        "anchor_id": "mishnah.pirkei-avot.4.22",
+        "anchor_alt_citation": "Pirkei Avot 4:22",
+        "language": "he",
+        "translator": null,
+        "edition": "Sefaria Mishnah Hebrew (Torat Emet / Vilna), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.72,
+      "evidence_phrase": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן.",
+      "rationale": "Pirkei Avot teaches that the born are to die, the dead are to be brought back to life, and the living to be judged, stating bodily resurrection of the dead as settled rabbinic expectation. This independently parallels the future raising of believers in the verdict, attesting that resurrection hope was the mainstream Jewish frame, not a uniquely Christian innovation. It is recorded as parallel and does not affect the verdict.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "he",
+        "witness_chain": ["mishnah-hebrew-tannaitic", "sefaria-torat-emet"],
+        "extant_witnesses": ["Torat Emet 357", "Vilna 1913 (via Sefaria)"],
+        "loss_status": "complete"
+      },
+      "text": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "text_to_embed": "הוּא הָיָה אוֹמֵר, הַיִּלּוֹדִים לָמוּת, וְהַמֵּתִים לְהֵחָיוֹת, וְהַחַיִּים לִדּוֹן. לֵידַע לְהוֹדִיעַ וּלְהִוָּדַע שֶׁהוּא אֵל, הוּא הַיּוֹצֵר, הוּא הַבּוֹרֵא, הוּא הַמֵּבִין, הוּא הַדַּיָּן, הוּא עֵד, הוּא בַעַל דִּין, וְהוּא עָתִיד לָדוּן. בָּרוּךְ הוּא, שֶׁאֵין לְפָנָיו לֹא עַוְלָה, וְלֹא שִׁכְחָה, וְלֹא מַשּׂוֹא פָנִים, וְלֹא מִקַּח שֹׁחַד, שֶׁהַכֹּל שֶׁלּוֹ. וְדַע שֶׁהַכֹּל לְפִי הַחֶשְׁבּוֹן. וְאַל יַבְטִיחֲךָ יִצְרְךָ שֶׁהַשְּׁאוֹל בֵּית מָנוֹס לְךָ, שֶׁעַל כָּרְחֲךָ אַתָּה נוֹצָר, וְעַל כָּרְחֲךָ אַתָּה נוֹלָד, וְעַל כָּרְחֲךָ אַתָּה חַי, וְעַל כָּרְחֲךָ אַתָּה מֵת, וְעַל כָּרְחֲךָ אַתָּה עָתִיד לִתֵּן דִּין וְחֶשְׁבּוֹן לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Sefaria Hebrew Mishnah (Torat Emet / Vilna) is public domain."
+    },
+    {
+      "witness_id": "philo.appendix-fragmenta.186",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.appendix-fragmenta",
+        "work_title": "Philo, Fragments (Appendix)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.appendix-fragmenta.186",
+        "anchor_alt_citation": "Philo, Fragments (Yonge appendix)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge, The Works of Philo (1854), PD"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.62,
+      "evidence_phrase": "some who have been wise enough to arrive at correct notions of the truth, have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow",
+      "rationale": "This Philonic fragment names a resurrection that is hereafter to follow and treats sleep as its foreshadowing, attesting that resurrection language was present in Hellenistic Jewish thought. The connection is real but the fragment is allegorical and uses resurrection loosely for restoration, so it is held at lower confidence and recorded as parallel without bearing on the verdict.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-fragmentary", "english-yonge-1854"],
+        "extant_witnesses": ["Greek catena and florilegium fragments"],
+        "loss_status": "fragmentary"
+      },
+      "text": "Very naturally some who have been wise enough to arrive at correct notions of the truth, have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow, for it bears in itself visible images of both conditions, for it removes the same man from his state of perfection and brings him back to it.",
+      "text_to_embed": "Very naturally some who have been wise enough to arrive at correct notions of the truth, have described sleep as a thing to teach us to meditate upon death, and a shadow and outline of the resurrection which is hereafter to follow, for it bears in itself visible images of both conditions, for it removes the same man from his state of perfection and brings him back to it.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+
+  "summary": "The extra-biblical record shows that the hope of bodily resurrection and glorification was a live second-temple and early rabbinic Jewish expectation, not a uniquely Christian claim. The Similitudes of 1 Enoch describe the righteous and elect rising from the earth and being clothed with garments of glory, which independently parallels the Pauline pattern of a dishonored body raised and putting on glory. Josephus reports that the Essenes endured torture and death because they expected to receive their souls again, a concrete restoration hope, though framed in soul-recovery rather than bodily-transformation terms. Pirkei Avot states plainly that the dead are to be brought back to life, fixing resurrection of the dead as settled rabbinic doctrine. A Philonic fragment speaks of a resurrection hereafter foreshadowed by sleep, held at lower confidence because Philo uses the term allegorically. None of these witnesses depends on the New Testament texts, so they corroborate the cultural plausibility of the doctrine as preserved tradition rather than as literary borrowing. All four are recorded as parallel and none complicates the lexical verdict, which rests on the dense convergence of Pauline and Johannine vocabulary and stands unchanged.",
+
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "josephus", "license": "CC-BY-SA-4.0", "redistribute": true},
+      {"source_slug": "mishnah", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+
+  "flags": ["composite-tradition"]
+}

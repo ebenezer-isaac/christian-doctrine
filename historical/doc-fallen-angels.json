@@ -1,0 +1,165 @@
+{
+  "$schema_version": "1.0",
+  "id": "doc-fallen-angels",
+  "question_id": "doc-fallen-angels",
+  "generated_at": "2026-06-04T12:31:59Z",
+  "pipeline_version": "v1",
+  "model": "claude-opus-4-8",
+  "attestation_present": true,
+  "witnesses": [
+    {
+      "witness_id": "1enoch.54.6",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Watchers and Parables)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.54.6",
+        "anchor_alt_citation": "1 Enoch 54:6 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Book of Enoch, sacred-texts.com PD mirror"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.88,
+      "evidence_phrase": "And Michael, and Gabriel, and Raphael, and Phanuel shall take hold of them on that great day, and cast them on that day into the burning furnace, that the Lord of Spirits may take vengeance on them for their unrighteousness in becoming subject to Satan and leading astray those who dwell on the earth.",
+      "rationale": "This passage independently preserves the second-temple tradition that a body of angelic beings rebelled by becoming subject to Satan and leading humanity astray, and that they face judicial confinement and fiery vengeance. It runs parallel to the New Testament pattern in 2 Peter 2:4, Jude 6, and Matthew 25:41 of angels who sinned and are kept for judgment in fire. It is a parallel rather than a direct dependence: the lexical verdict rests on the canonical texts, and 1 Enoch is the shared milieu they drew on, not their source of authority.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "Greek Codex Panopolitanus (partial)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And Michael, and Gabriel, and Raphael, and Phanuel shall take hold of them on that great day, and cast them on that day into the burning furnace, that the Lord of Spirits may take vengeance on them for their unrighteousness in becoming subject to Satan and leading astray those who dwell on the earth.' LIV. 7.-LV",
+      "text_to_embed": "And Michael, and Gabriel, and Raphael, and Phanuel shall take hold of them on that great day, and cast them on that day into the burning furnace, that the Lord of Spirits may take vengeance on them for their unrighteousness in becoming subject to Satan and leading astray those who dwell on the earth.' LIV. 7.-LV",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.53.3",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Watchers and Parables)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.53.3",
+        "anchor_alt_citation": "1 Enoch 53:3 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Book of Enoch, sacred-texts.com PD mirror"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.78,
+      "evidence_phrase": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "rationale": "This verse names a class of angels associated with Satan and the apparatus of his work, reinforcing the second-temple picture of a satanic order operating among the angelic ranks. It parallels the canonical pairing of the devil with his angels in Matthew 25:41 and the dragon and his angels in Revelation 12:7 to 9. It attests the shared milieu rather than supplying the verdict, so the attestation type is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "Greek Codex Panopolitanus (partial)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "text_to_embed": "For I saw all the angels of punishment abiding (there) and preparing all the instruments of Satan.",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "1enoch.65.6",
+      "source_type": "second-temple-literature",
+      "source": {
+        "source_slug": "1enoch",
+        "work_id": "1enoch",
+        "work_title": "1 Enoch (Book of the Watchers and Parables)",
+        "author": null,
+        "date_written_range": "c. 300 BCE to 100 BCE",
+        "anchor_id": "1enoch.65.6",
+        "anchor_alt_citation": "1 Enoch 65:6 (Charles 1913)",
+        "language": "en",
+        "translator": "R. H. Charles (1913)",
+        "edition": "Charles 1913 Book of Enoch, sacred-texts.com PD mirror"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.74,
+      "evidence_phrase": "their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers",
+      "rationale": "This passage attributes secret knowledge, violence, and corrupting powers to a plurality of angelic and satanic agents, matching the Watchers tradition in which rebel angels taught forbidden arts to humanity. It parallels the New Testament view of hostile spiritual powers in Ephesians 6:12 and of angels who abandoned their proper station in Jude 6. It corroborates the surrounding milieu, not the verdict, so the attestation type is parallel.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "arc",
+        "witness_chain": ["aramaic-qumran-4q201-212", "greek-codex-panopolitanus", "ethiopic", "english-charles-1913"],
+        "extant_witnesses": ["Ethiopic MSS (Charles base)", "Greek Codex Panopolitanus (partial)", "4Q201-212 (Aramaic fragments)"],
+        "loss_status": "complete-in-ethiopic"
+      },
+      "text": "And a command has gone forth from the presence of the Lord concerning those who dwell on the earth that their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers--the most secret ones--and all the power of those who practice sorcery, and the power of witchcraft, and the power of those who make molten images for the whole earth:",
+      "text_to_embed": "And a command has gone forth from the presence of the Lord concerning those who dwell on the earth that their ruin is accomplished because they have learnt all the secrets of the angels, and all the violence of the Satans, and all their powers--the most secret ones--and all the power of those who practice sorcery, and the power of witchcraft, and the power of those who make molten images for the whole earth:",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Charles 1913 translation is public domain by age."
+    },
+    {
+      "witness_id": "philo.de-gigantibus.17",
+      "source_type": "jewish-philosopher",
+      "source": {
+        "source_slug": "philo",
+        "work_id": "philo.de-gigantibus",
+        "work_title": "On the Giants (De Gigantibus)",
+        "author": "Philo of Alexandria",
+        "date_written_range": "c. 20 BCE to 50 CE",
+        "anchor_id": "philo.de-gigantibus.17",
+        "anchor_alt_citation": "De Gigantibus 17 (Yonge)",
+        "language": "en",
+        "translator": "C. D. Yonge (1854)",
+        "edition": "Yonge 1854, earlychristianwritings.com PD primary"
+      },
+      "attestation_type": "parallel",
+      "confidence": 0.70,
+      "evidence_phrase": "he sent evil angels among Them.\" These are the wicked who, assuming the name of angels, not being acquainted with the daughters of right reason, that is with the sciences and the virtues, but which pursue the mortal descendants of mortal men, that is the pleasures",
+      "rationale": "Philo cites the psalm phrase evil angels and identifies a class of angelic beings characterized by wickedness, supplying a roughly contemporary Jewish witness to the category of malign angels. His allegorical reading recasts the figures morally rather than narrating a literal rebellion, so it preserves the same broad tradition in parallel rather than directly corroborating the rebellion-and-confinement schema of 2 Peter 2:4 and Jude 6. The verdict rests on the canonical texts; Philo attests the surrounding vocabulary.",
+      "contested_interpolation": {
+        "type": "none",
+        "note": null,
+        "redact_for_embedding": false
+      },
+      "provenance": {
+        "original_language": "el",
+        "witness_chain": ["greek-original", "english-yonge-1854"],
+        "extant_witnesses": ["Cohn-Wendland Greek edition"],
+        "loss_status": "complete"
+      },
+      "text": "And the expression used by the writer of the psalm, in the following verse, testifies to the truth of my assertion, for he says, \"He sent upon them the fury of His wrath, anger, and rage, and affliction, and he sent evil angels among Them.\" These are the wicked who, assuming the name of angels, not being acquainted with the daughters of right reason, that is with the sciences and the virtues, but which pursue the mortal descendants of mortal men, that is the pleasures, which can confer no genuine beauty, which is perceived by the intellect alone, but only a bastard sort of elegance of form, by means of which the outward sense is beguiled;",
+      "text_to_embed": "And the expression used by the writer of the psalm, in the following verse, testifies to the truth of my assertion, for he says, \"He sent upon them the fury of His wrath, anger, and rage, and affliction, and he sent evil angels among Them.\" These are the wicked who, assuming the name of angels, not being acquainted with the daughters of right reason, that is with the sciences and the virtues, but which pursue the mortal descendants of mortal men, that is the pleasures, which can confer no genuine beauty, which is perceived by the intellect alone, but only a bastard sort of elegance of form, by means of which the outward sense is beguiled;",
+      "license": "PD",
+      "redistribute": true,
+      "license_note": "Yonge 1854 translation is public domain by age."
+    }
+  ],
+  "summary": "The extra-biblical record gives a clear second-temple background for the proposition that a portion of the angels fell into rebellion and now oppose God. The strongest witness is 1 Enoch, whose Watchers and Parables traditions repeatedly describe angelic beings who become subject to Satan, lead humanity astray, wield violent and corrupting powers, and are reserved for fiery judgment under named archangels. These passages run parallel to the canonical pattern in 2 Peter 2:4, Jude 6, Matthew 25:41, and Revelation 12:7 to 9, where angels who sinned are kept in confinement for judgment and the devil is paired with his angels. Philo of Alexandria adds a roughly contemporary Jewish voice that knows the category of evil angels, though he reads it allegorically as moral wickedness rather than narrating a literal angelic revolt. None of these witnesses establishes the doctrine, which rests on the canonical texts named in the lexical verdict. They attest the shared milieu in which that doctrine was articulated, so each is recorded as a parallel rather than independent corroboration. Reading Jude or 2 Peter as simple borrowings from 1 Enoch would overstate the dependence, so the relationship is treated as composite tradition. The remaining candidate chunks, including Josephus on storms and law, Philo on the tower of Babel, the Roman witnesses on Christians, the Mishnah tractates, and the Qumran divine-name fragments, do not materially address fallen or rebel angels and were not cited.",
+  "license_audit": {
+    "sources_used": [
+      {"source_slug": "1enoch", "license": "PD", "redistribute": true},
+      {"source_slug": "philo", "license": "PD", "redistribute": true}
+    ],
+    "evidence_safe_to_publish": true,
+    "non_redistributable_reason": null
+  },
+  "flags": ["composite-tradition"]
+}
