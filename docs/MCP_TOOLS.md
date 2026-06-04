@@ -2,7 +2,7 @@
 
 The MCP server is the engine's public surface. Built with the official Python SDK (`pip install mcp`) using the `FastMCP` pattern, served over Streamable HTTP per the 2025-06-18 spec revision.
 
-11 tools, each with a typed input schema and a structured output envelope. Long-running tools (notably `doctrinal_verdict`) accept a `progressToken` and emit progress notifications.
+12 tools, each with a typed input schema and a structured output envelope. Long-running tools (notably `doctrinal_verdict`) accept a `progressToken` and emit progress notifications.
 
 ## Common envelope
 
@@ -35,7 +35,7 @@ Every license-sensitive tool accepts an optional `caller_context` field. Default
 - `"public-share"`: caller intends to publish; any chunk with `redistribute: false` is paraphrased rather than quoted.
 - `"export"`: caller is bulk-exporting; any chunk with `redistribute: false` is excluded entirely.
 
-The license guard's `response_safe_to_share` is derived from `caller_context` plus the set of cited sources. Tools that accept `caller_context`: `parallel_translation`, `cultural_overlay`, `debate_for_verse`, `doctrinal_verdict`, `evidence_inspect`, `license_audit`.
+The license guard's `response_safe_to_share` is derived from `caller_context` plus the set of cited sources. Tools that accept `caller_context`: `parallel_translation`, `cultural_overlay`, `debate_for_verse`, `doctrinal_verdict`, `evidence_inspect`, `historical_inspect`, `license_audit`.
 
 ## Tool 1: lexical_lookup
 
@@ -383,11 +383,25 @@ Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesi
     "variant_units_in_play": []
   },
 
+  "historical_attestation": {
+    "attestation_present": <bool>,
+    "witnesses": [ <Witness>, ... ],
+    "summary": "<>",
+    "license_audit": {
+      "sources_used": [{"source_slug": "<>", "license": "<>", "redistribute": <bool>}],
+      "evidence_safe_to_publish": <bool>,
+      "non_redistributable_reason": "<>|null"
+    },
+    "flags": ["<>"]
+  },
+
   "evidence_file_id": "doc-scripture-final-authority"
 }
 ```
 
-**Touches**: both stores. Dispatched as a Pipeline 3 synthesis subagent. License-aware.
+The `historical_attestation` block is the Pipeline 4 sidecar (`historical/<evidence_file_id>.json`), surfaced here as a third diagnostic alongside the lexical verdict and the cultural overlay. It is sourced authoritatively from the sidecar and NEVER re-derived by synthesis (the same fidelity discipline the verdict obeys). Most of the 231 questions carry no attestation (`attestation_present: false`, empty `witnesses`); 27 carry witnesses. The witness shape is the `Witness` model in `pipeline4/historical_schema.py`. Each block validates against `HistoricalAttestation` before it is attached; a sidecar that fails validation aborts the response with `error.code: "historical_corrupt"`.
+
+**Touches**: all three stores plus the `historical/` filesystem. Dispatched as a Pipeline 3 synthesis subagent. License-aware: a non-redistributable witness (e.g. a DSS source under CC-BY-NC-4.0) folds into the envelope `license_audit` and flips `response_safe_to_share` under `public-share` / `export`.
 
 ### Synthesis-subagent output → MCP envelope transform
 
@@ -419,6 +433,8 @@ The synthesis subagent (per `docs/phase_prompts/pipeline3_synthesis.md`) writes 
 }
 ```
 
+The synthesis subagent additionally receives the locked `historical` block in its input (read-only, alongside the locked `evidence`). It may reference the witnesses in its prose, but it does not author the `historical_attestation` output block: the handler attaches that straight from the validated sidecar after synthesis returns, so a subagent cannot alter or invent attestation.
+
 The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls a pure function `transform_synthesis_to_envelope(synthesis_output: dict) -> EnvelopeResult` that produces the MCP-public output shape above. The transform:
 
 1. `lexical_verdict.affirms` → `result.verdict` (rename).
@@ -430,7 +446,8 @@ The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls 
 7. `variant_sensitivity` → `result.variant_sensitivity` (pass through).
 8. `lexical_verdict.source_evidence_files[0]` (the matched question id stripped of path/.json) → `result.evidence_file_id`.
 9. `synthesis_output.license_audit.sources_used` → `envelope.license_audit.sources_used`.
-10. The handler then computes `envelope.license_audit.response_safe_to_share` via `license_guard.check_redistribute(...)` for every cited source, respecting `caller_context`.
+10. The handler reads and validates `historical/<evidence_file_id>.json`, attaches it as `result.historical_attestation`, and folds its `license_audit.sources_used` (mapped `source_slug` → `source`) into `envelope.license_audit.sources_used`.
+11. The handler then computes `envelope.license_audit.response_safe_to_share` via `license_guard.check_redistribute(...)` for every cited source (lexical, cultural, and historical), respecting `caller_context`.
 
 **Verdict-fidelity rule**: `result.verdict` must equal the `verdict.affirms` of the underlying `evidence/<evidence_file_id>.json`. The handler reads the stored evidence file and asserts the equality before returning. Re-derivation of the verdict at query time is FORBIDDEN; the handler is a retrieval-and-synthesis layer.
 
@@ -493,6 +510,25 @@ The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls 
 
 **Touches**: filesystem. Useful for callers deciding whether to re-share an output.
 
+## Tool 12: historical_inspect
+
+**Purpose**: read back a stored Pipeline 4 historical-attestation sidecar `historical/<id>.json`. The deep-link counterpart to `evidence_inspect`, for the historical layer.
+
+**Input**:
+```json
+{
+  "question_id": "doc-bodily-resurrection-of-christ",
+  "include_full_schema": true,
+  "caller_context": "personal | public-share | export"
+}
+```
+
+**Path-traversal defense**: identical to `evidence_inspect`. `question_id` must match `^[a-z][a-z0-9-]{2,80}$`; the handler resolves to `historical/<question_id>.json` only after validation. The sidecar is validated against `HistoricalAttestation` before return; a malformed file returns `error.code: "historical_corrupt"`, a missing one returns `error.code: "historical_missing"`.
+
+**Output result**: the full validated `HistoricalAttestation` JSON when `include_full_schema: true`, otherwise a digest `{question_id, attestation_present, summary, flags}`.
+
+**Touches**: filesystem (reads `historical/` directly). No store touched. Diagnostic only; it never adjudicates the lexical verdict. Useful for deep-linking from `doctrinal_verdict` results.
+
 ## Server configuration
 
 ```python
@@ -505,7 +541,8 @@ server = FastMCP(name="brethren-doctrine")
 from bd_mcp.tools import (
     lexical_lookup, concordance_walk, cross_ref, variant_inspect,
     parallel_translation, versification_resolve, cultural_overlay,
-    debate_for_verse, doctrinal_verdict, evidence_inspect, license_audit
+    debate_for_verse, doctrinal_verdict, evidence_inspect,
+    historical_inspect, license_audit
 )
 for tool in [lexical_lookup, concordance_walk, ..., license_audit]:
     server.add_tool(tool)
@@ -549,4 +586,5 @@ All write operations to the stores happen via Pipeline 1 ingest adapters orchest
 | `debate_for_verse` | ✓ (without variant_in_play details) | ✓ with variant data once Layer 1 lands |
 | `doctrinal_verdict` | ✓ | ✓ |
 | `evidence_inspect` | ✓ | ✓ |
+| `historical_inspect` | ✓ | ✓ |
 | `license_audit` | ✓ | ✓ |

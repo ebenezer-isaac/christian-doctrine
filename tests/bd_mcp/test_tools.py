@@ -1,4 +1,4 @@
-"""Tests for the 11 MCP tool handlers."""
+"""Tests for the 12 MCP tool handlers."""
 
 from __future__ import annotations
 
@@ -20,11 +20,14 @@ from bd_mcp.tools.debate_for_verse import DebateForVerseInput
 from bd_mcp.tools.debate_for_verse import handle as debate_handle
 from bd_mcp.tools.doctrinal_verdict import (
     DoctrinalVerdictInput,
+    load_historical_block,
     transform_synthesis_to_envelope,
 )
 from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from bd_mcp.tools.evidence_inspect import EvidenceInspectInput
 from bd_mcp.tools.evidence_inspect import handle as evidence_inspect_handle
+from bd_mcp.tools.historical_inspect import HistoricalInspectInput
+from bd_mcp.tools.historical_inspect import handle as historical_inspect_handle
 from bd_mcp.tools.lexical_lookup import LexicalLookupInput
 from bd_mcp.tools.lexical_lookup import handle as lexical_lookup_handle
 from bd_mcp.tools.license_audit import LicenseAuditInput
@@ -787,3 +790,292 @@ def test_license_audit_extra_forbid() -> None:
         LicenseAuditInput.model_validate(
             {"subject_type": "evidence_file", "subject_id": "x", "bogus": 1}
         )
+
+
+# ---------- historical attestation block (Pipeline 4 -> Pipeline 3) ----------
+
+REPO_HISTORICAL_DIR = Path("historical")
+_RESURRECTION_QID = "doc-bodily-resurrection-of-christ"
+
+
+def _witnessed_historical_dict(qid: str, *, source_slug: str = "pliny") -> dict[str, Any]:
+    """A minimal but schema-valid HistoricalAttestation with one PD witness."""
+    return {
+        "$schema_version": "1.0",
+        "id": qid,
+        "question_id": qid,
+        "generated_at": "2026-06-04T00:00:00Z",
+        "pipeline_version": "v1",
+        "model": "claude-opus-4-8",
+        "attestation_present": True,
+        "witnesses": [
+            {
+                "witness_id": "pliny.ep.10.96",
+                "source_type": "roman-historian",
+                "source": {
+                    "source_slug": "pliny",
+                    "work_id": "pliny.ep",
+                    "work_title": "Letters, Book 10",
+                    "author": "Pliny the Younger",
+                    "date_written_range": "c. 112 CE",
+                    "anchor_id": "pliny.ep.10.96",
+                    "anchor_alt_citation": None,
+                    "language": "en",
+                    "translator": "William Melmoth",
+                    "edition": "Wikisource",
+                },
+                "attestation_type": "neutral",
+                "confidence": 0.6,
+                "evidence_phrase": "they addressed a form of prayer to Christ, as to a divinity",
+                "rationale": "A test witness used to exercise the historical block.",
+                "contested_interpolation": {
+                    "type": "none",
+                    "note": None,
+                    "redact_for_embedding": False,
+                },
+                "provenance": {
+                    "original_language": "la",
+                    "witness_chain": ["latin-original"],
+                    "extant_witnesses": [],
+                    "loss_status": "complete",
+                },
+                "text": "they addressed a form of prayer to Christ, as to a divinity",
+                "text_to_embed": "they addressed a form of prayer to Christ, as to a divinity",
+                "license": "PD",
+                "redistribute": True,
+                "license_note": None,
+            }
+        ],
+        "summary": (
+            "This is a deliberately short test summary that nonetheless contains enough words to "
+            "satisfy the fifty word lower bound that the historical schema enforces whenever an "
+            "attestation is present, so that the witnessed block validates cleanly and rides "
+            "through the doctrinal verdict tool as a separate diagnostic alongside the lexical "
+            "verdict without ever being fused into it or changing it in any way at all here."
+        ),
+        "license_audit": {
+            "sources_used": [{"source_slug": source_slug, "license": "PD", "redistribute": True}],
+            "evidence_safe_to_publish": True,
+            "non_redistributable_reason": None,
+        },
+        "flags": [],
+    }
+
+
+def _dss_witnessed_historical_dict(qid: str) -> dict[str, Any]:
+    """A schema-valid attestation citing a DSS CC-BY-NC-4.0 (non-redistributable) witness."""
+    base = _witnessed_historical_dict(qid)
+    base["witnesses"] = [
+        {
+            "witness_id": "1qs.col04.line03",
+            "source_type": "qumran-sectarian",
+            "source": {
+                "source_slug": "1qs",
+                "work_id": "1qs",
+                "work_title": "Community Rule",
+                "author": None,
+                "date_written_range": "c. 100 BCE",
+                "anchor_id": "1qs.col04.line03",
+                "anchor_alt_citation": None,
+                "language": "he",
+                "translator": None,
+                "edition": "DSS scholarly edition",
+            },
+            "attestation_type": "parallel",
+            "confidence": 0.5,
+            "evidence_phrase": "a Qumran parallel used to exercise the license fold",
+            "rationale": "A test DSS witness whose CC-BY-NC license must flip publish safety.",
+            "contested_interpolation": {
+                "type": "none",
+                "note": None,
+                "redact_for_embedding": False,
+            },
+            "provenance": {
+                "original_language": "he",
+                "witness_chain": ["hebrew-original"],
+                "extant_witnesses": [],
+                "loss_status": "fragmentary",
+            },
+            "text": "a Qumran parallel used to exercise the license fold",
+            "text_to_embed": "a Qumran parallel used to exercise the license fold",
+            "license": "CC-BY-NC-4.0",
+            "redistribute": False,
+            "license_note": None,
+        }
+    ]
+    base["license_audit"]["sources_used"] = [
+        {"source_slug": "1qs", "license": "CC-BY-NC-4.0", "redistribute": False}
+    ]
+    return base
+
+
+# load_historical_block
+
+
+def test_load_historical_block_real_resurrection_file() -> None:
+    if not (REPO_HISTORICAL_DIR / f"{_RESURRECTION_QID}.json").exists():
+        pytest.skip("resurrection historical sidecar absent")
+    block, sources = load_historical_block(_RESURRECTION_QID, REPO_HISTORICAL_DIR)
+    assert block["attestation_present"] is True
+    assert len(block["witnesses"]) == 5
+    assert block["summary"]
+    slugs = {s["source"] for s in sources}
+    assert {"josephus", "tacitus", "pliny", "1enoch"} <= slugs
+
+
+def test_load_historical_block_missing_returns_empty(tmp_path: Path) -> None:
+    block, sources = load_historical_block("doc-trinity", tmp_path)
+    assert block["attestation_present"] is False
+    assert block["witnesses"] == []
+    assert sources == []
+
+
+def test_load_historical_block_witnessed(tmp_path: Path) -> None:
+    (tmp_path / "doc-trinity.json").write_text(
+        json.dumps(_witnessed_historical_dict("doc-trinity")), encoding="utf-8"
+    )
+    block, sources = load_historical_block("doc-trinity", tmp_path)
+    assert block["attestation_present"] is True
+    assert len(block["witnesses"]) == 1
+    assert sources == [{"source": "pliny", "license": "PD"}]
+
+
+# doctrinal_verdict: the block rides through and folds into the license audit
+
+
+def _hist_dir(tmp_path: Path) -> Path:
+    """A historical/ dir separate from the evidence dir (both key files on <qid>.json)."""
+    d = tmp_path / "hist"
+    d.mkdir()
+    return d
+
+
+def test_doctrinal_verdict_attaches_empty_historical_block(tmp_path: Path) -> None:
+    _materialize_trinity(tmp_path)
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="There is one God in three coequal coeternal persons"),
+        evidence_dir=tmp_path,
+        historical_dir=_hist_dir(tmp_path),
+    )
+    assert env["ok"] is True
+    block = env["result"]["historical_attestation"]
+    assert block["attestation_present"] is False
+    assert block["witnesses"] == []
+
+
+def test_doctrinal_verdict_attaches_witnessed_historical_block(tmp_path: Path) -> None:
+    _materialize_trinity(tmp_path)
+    hist = _hist_dir(tmp_path)
+    (hist / "doc-trinity.json").write_text(
+        json.dumps(_witnessed_historical_dict("doc-trinity")), encoding="utf-8"
+    )
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="There is one God in three coequal coeternal persons"),
+        evidence_dir=tmp_path,
+        historical_dir=hist,
+    )
+    assert env["ok"] is True
+    block = env["result"]["historical_attestation"]
+    assert block["attestation_present"] is True
+    assert len(block["witnesses"]) == 1
+    folded = {s["source"] for s in env["license_audit"]["sources_used"]}
+    assert "pliny" in folded
+
+
+def test_doctrinal_verdict_dss_witness_flips_share_safety_on_export(tmp_path: Path) -> None:
+    _materialize_trinity(tmp_path)
+    hist = _hist_dir(tmp_path)
+    (hist / "doc-trinity.json").write_text(
+        json.dumps(_dss_witnessed_historical_dict("doc-trinity")), encoding="utf-8"
+    )
+    env = verdict_handle(
+        DoctrinalVerdictInput(
+            proposition="There is one God in three coequal coeternal persons",
+            caller_context="export",
+        ),
+        evidence_dir=tmp_path,
+        historical_dir=hist,
+    )
+    assert env["ok"] is True
+    assert env["license_audit"]["response_safe_to_share"] is False
+
+
+def test_doctrinal_verdict_corrupt_historical_errors(tmp_path: Path) -> None:
+    _materialize_trinity(tmp_path)
+    hist = _hist_dir(tmp_path)
+    bad = _witnessed_historical_dict("doc-trinity")
+    bad["id"] = "doc-mismatch"  # id must equal question_id (schema rule 1)
+    (hist / "doc-trinity.json").write_text(json.dumps(bad), encoding="utf-8")
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="There is one God in three coequal coeternal persons"),
+        evidence_dir=tmp_path,
+        historical_dir=hist,
+    )
+    assert env["ok"] is False
+    assert env["error"]["code"] == "historical_corrupt"
+
+
+# ---------- historical_inspect ----------
+
+
+def test_historical_inspect_reads_real_file() -> None:
+    if not (REPO_HISTORICAL_DIR / f"{_RESURRECTION_QID}.json").exists():
+        pytest.skip("resurrection historical sidecar absent")
+    env = historical_inspect_handle(
+        HistoricalInspectInput(question_id=_RESURRECTION_QID),
+        historical_dir=REPO_HISTORICAL_DIR,
+    )
+    assert env["ok"] is True
+    assert env["result"]["question_id"] == _RESURRECTION_QID
+    assert len(env["result"]["witnesses"]) == 5
+
+
+def test_historical_inspect_truncated_schema(tmp_path: Path) -> None:
+    (tmp_path / "doc-trinity.json").write_text(
+        json.dumps(_witnessed_historical_dict("doc-trinity")), encoding="utf-8"
+    )
+    env = historical_inspect_handle(
+        HistoricalInspectInput(question_id="doc-trinity", include_full_schema=False),
+        historical_dir=tmp_path,
+    )
+    assert env["ok"] is True
+    assert "witnesses" not in env["result"]
+    assert env["result"]["attestation_present"] is True
+    assert env["result"]["summary"]
+
+
+def test_historical_inspect_missing_returns_error(tmp_path: Path) -> None:
+    env = historical_inspect_handle(
+        HistoricalInspectInput(question_id="doc-missing"), historical_dir=tmp_path
+    )
+    assert env["ok"] is False
+    assert env["error"]["code"] == "historical_missing"
+
+
+def test_historical_inspect_corrupt_returns_error(tmp_path: Path) -> None:
+    bad = _witnessed_historical_dict("doc-trinity")
+    bad["id"] = "doc-mismatch"
+    (tmp_path / "doc-trinity.json").write_text(json.dumps(bad), encoding="utf-8")
+    env = historical_inspect_handle(
+        HistoricalInspectInput(question_id="doc-trinity"), historical_dir=tmp_path
+    )
+    assert env["ok"] is False
+    assert env["error"]["code"] == "historical_corrupt"
+
+
+@pytest.mark.parametrize(
+    "malicious",
+    [
+        "../../../etc/passwd",
+        "doc-trinity/../secrets",
+        "/etc/passwd",
+        "..",
+        "doc-trinity/..",
+    ],
+)
+def test_historical_inspect_rejects_path_traversal(tmp_path: Path, malicious: str) -> None:
+    env = historical_inspect_handle(
+        HistoricalInspectInput(question_id=malicious), historical_dir=tmp_path
+    )
+    assert env["ok"] is False
+    assert env["error"]["code"] == "invalid_question_id"

@@ -17,6 +17,7 @@ from bd_mcp.tools.cultural_overlay import register as register_cultural_overlay
 from bd_mcp.tools.debate_for_verse import register as register_debate_for_verse
 from bd_mcp.tools.doctrinal_verdict import register as register_doctrinal_verdict
 from bd_mcp.tools.evidence_inspect import register as register_evidence_inspect
+from bd_mcp.tools.historical_inspect import register as register_historical_inspect
 from bd_mcp.tools.lexical_lookup import register as register_lexical_lookup
 from bd_mcp.tools.license_audit import register as register_license_audit
 from bd_mcp.tools.parallel_translation import register as register_parallel_translation
@@ -34,6 +35,7 @@ TOOL_NAMES = (
     "debate_for_verse",
     "doctrinal_verdict",
     "evidence_inspect",
+    "historical_inspect",
     "license_audit",
 )
 
@@ -57,6 +59,7 @@ def build_server() -> Any:
     register_debate_for_verse(server)
     register_doctrinal_verdict(server)
     register_evidence_inspect(server)
+    register_historical_inspect(server)
     register_license_audit(server)
     return server
 

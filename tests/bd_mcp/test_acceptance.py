@@ -63,7 +63,7 @@ class _LemmaSession:
 
 
 # T1
-def test_t01_server_lists_11_tools() -> None:
+def test_t01_server_lists_all_tools() -> None:
     server = build_server()
     listed = asyncio.run(server.list_tools())
     assert {t.name for t in listed} == set(TOOL_NAMES)

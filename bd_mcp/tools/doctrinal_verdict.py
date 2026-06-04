@@ -15,9 +15,57 @@ from bd_mcp.tools._common import (
     success_envelope,
     validate_question_id,
 )
+from pipeline4.historical_schema import HistoricalAttestation
 
 TOOL_NAME = "doctrinal_verdict"
 EVIDENCE_DIR = Path("evidence")
+HISTORICAL_DIR = Path("historical")
+
+
+def _empty_historical_block() -> dict[str, Any]:
+    """The historical block when no Pipeline 4 sidecar exists for a question."""
+    return {
+        "attestation_present": False,
+        "witnesses": [],
+        "summary": "",
+        "license_audit": {
+            "sources_used": [],
+            "evidence_safe_to_publish": True,
+            "non_redistributable_reason": None,
+        },
+        "flags": [],
+    }
+
+
+def load_historical_block(
+    qid: str, historical_dir: Path | None = None
+) -> tuple[dict[str, Any], list[dict[str, str]]]:
+    """Read and validate historical/<qid>.json, mirroring the evidence read.
+
+    Returns the diagnostic ``historical_attestation`` block plus the witness
+    sources mapped into the envelope ``sources_used`` shape so the license guard
+    can fold a non-redistributable witness (e.g. a DSS CC-BY-NC-4.0 source) into
+    ``response_safe_to_share``. A missing sidecar yields the empty block (most
+    of the 231 questions carry no attestation).
+    """
+    path = (historical_dir or HISTORICAL_DIR) / f"{qid}.json"
+    if not path.exists():
+        return _empty_historical_block(), []
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    attestation = HistoricalAttestation.model_validate(raw)
+    dumped = attestation.model_dump(mode="json", by_alias=True)
+    block = {
+        "attestation_present": dumped["attestation_present"],
+        "witnesses": dumped["witnesses"],
+        "summary": dumped["summary"],
+        "license_audit": dumped["license_audit"],
+        "flags": dumped["flags"],
+    }
+    sources = [
+        {"source": src["source_slug"], "license": src["license"]}
+        for src in dumped["license_audit"]["sources_used"]
+    ]
+    return block, sources
 
 
 class DoctrinalVerdictInput(ToolInputBase):
@@ -75,6 +123,7 @@ def handle(
     payload: DoctrinalVerdictInput,
     synthesis_fn: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
     evidence_dir: Path | None = None,
+    historical_dir: Path | None = None,
 ) -> dict[str, Any]:
     qid = _classify_to_question_id(payload.proposition)
     if not qid:
@@ -95,12 +144,23 @@ def handle(
         )
     evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
 
+    try:
+        historical_block, historical_sources = load_historical_block(qid, historical_dir)
+    except (json.JSONDecodeError, ValueError) as exc:
+        return error_envelope(
+            TOOL_NAME,
+            "historical_corrupt",
+            f"historical sidecar for {qid} failed validation: {exc}",
+            payload.caller_context,
+        )
+
     synthesis_input = {
         "question_id": qid,
         "proposition": payload.proposition,
         "depth": payload.depth,
         "denominations": payload.denominations,
         "evidence": evidence,
+        "historical": historical_block,
     }
     if synthesis_fn is None:
         synthesis_output = {
@@ -131,10 +191,16 @@ def handle(
             payload.caller_context,
         )
 
+    # The historical attestation is a diagnostic block, sourced authoritatively
+    # from the Pipeline 4 sidecar and never re-derived by synthesis (mirrors the
+    # verdict-fidelity rule). It rides alongside the lexical verdict, never fused.
+    result["historical_attestation"] = historical_block
+
     sources = [
         {"source": s.get("source", "?"), "license": s.get("license", "?")}
         for s in license_audit.get("sources_used", [])
     ]
+    sources.extend(historical_sources)
     return success_envelope(
         tool=TOOL_NAME,
         result=result,
