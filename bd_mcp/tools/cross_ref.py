@@ -18,21 +18,47 @@ class CrossRefInput(ToolInputBase):
     limit: int = Field(default=50, ge=1, le=500)
 
 
+# Live lexical graph schema (confirmed against bolt://localhost:7688):
+#   - The prior cypher matched (:CrossRef {from_ref}) and read cr.votes /
+#     cr.source. That only ever sees TSK: :CrossRef nodes in this store are
+#     all source 'TSK' and carry NO votes property (so every edge collapsed to
+#     votes=1). The OpenBible vote-weighted cross references live elsewhere.
+#   - OpenBible cross refs are verse-to-verse relationships, not nodes:
+#     (:Verse)-[:OPENBIBLE_CROSS_REF {to_osis, votes, source, from_osis}]->
+#     (:Verse). These carry real community vote counts (e.g. John.3.16 ->
+#     Rom.5.8 = 962 votes), which min_votes filtering needs.
+#   - TSK cross refs remain (:CrossRef {from_ref, to_ref, source:'TSK'}) with
+#     no vote weight, so they default to votes=1.
+# The two systems are UNION-ed. The source label is normalised to the lower
+# case slugs the handler keys on ('openbible' / 'tsk'). Verses anchor on
+# Verse.id ('verse:' + osis); the handler reads rec["from_ref"], rec["to_ref"],
+# rec["source"], rec["votes"], preserved for live and fixture callers.
+_CROSS_REF_CYPHER = (
+    "CALL (ref) { "
+    "  WITH ref "
+    "  MATCH (v:Verse {id: 'verse:' + ref})-[e:OPENBIBLE_CROSS_REF]->(t:Verse) "
+    "  RETURN ref AS from_ref, t.osis AS to_ref, 'openbible' AS source, "
+    "         coalesce(e.votes, 1) AS votes "
+    "  UNION "
+    "  WITH ref "
+    "  MATCH (cr:CrossRef {from_ref: ref}) "
+    "  RETURN cr.from_ref AS from_ref, cr.to_ref AS to_ref, 'tsk' AS source, "
+    "         coalesce(cr.votes, 1) AS votes "
+    "} "
+    "WITH from_ref, to_ref, source, votes "
+    "WHERE ($min_votes IS NULL OR votes >= $min_votes) "
+    "  AND ($sources IS NULL OR source IN $sources) "
+    "RETURN from_ref, to_ref, source, votes "
+    "ORDER BY votes DESC, to_ref LIMIT $lim"
+)
+
+
 def handle(payload: CrossRefInput, neo4j_session: Any | None = None) -> dict[str, Any]:
     edges: list[dict[str, Any]] = []
     sources_used: list[dict[str, str]] = []
     if neo4j_session is not None:
-        cypher = (
-            "MATCH (cr:CrossRef {from_ref: $ref}) "
-            "WHERE ($min_votes IS NULL OR cr.votes >= $min_votes) "
-            "AND ($sources IS NULL OR cr.source IN $sources) "
-            "RETURN cr.from_ref AS from_ref, cr.to_ref AS to_ref, "
-            "coalesce(cr.source, 'openbible') AS source, "
-            "coalesce(cr.votes, 1) AS votes "
-            "ORDER BY votes DESC LIMIT $lim"
-        )
         for rec in neo4j_session.run(
-            cypher,
+            "WITH $ref AS ref " + _CROSS_REF_CYPHER,
             ref=payload.ref,
             min_votes=payload.min_votes,
             sources=payload.sources,
@@ -59,7 +85,7 @@ def handle(payload: CrossRefInput, neo4j_session: Any | None = None) -> dict[str
     )
 
 
-def register(server: Any) -> None:
+def register(server: Any, session_factory: Any | None = None) -> None:
     @server.tool(name=TOOL_NAME, description="Cross-references for a verse.")
     def _tool(
         ref: str,
@@ -75,4 +101,10 @@ def register(server: Any) -> None:
             limit=limit,
             caller_context=caller_context,
         )
-        return handle(payload)
+        if session_factory is None:
+            return handle(payload)
+        try:
+            with session_factory() as session:
+                return handle(payload, neo4j_session=session)
+        except Exception:  # noqa: BLE001  degrade to empty when the lexical store is unreachable
+            return handle(payload)

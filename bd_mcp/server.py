@@ -40,7 +40,22 @@ TOOL_NAMES = (
 )
 
 
-def build_server() -> Any:
+def build_server(
+    *,
+    lexical_session_factory: Any | None = None,
+    cultural_retriever: Any | None = None,
+    synthesis_fn: Any | None = None,
+) -> Any:
+    """Register all 12 tools.
+
+    With no injectors (the default), the tools run as pure skeletons: they
+    validate inputs and return well-formed empty results, which is what the unit
+    suite exercises. ``main()`` passes the live injectors so the served tools
+    query the real stores. The query-time air-gap holds in the wiring itself:
+    the lexical session factory reaches only the lexical store, the cultural
+    retriever only the cultural store, and the historical block is a filesystem
+    read of the locked sidecar.
+    """
     server = FastMCP(
         name="brethren-doctrine",
         instructions=(
@@ -49,23 +64,46 @@ def build_server() -> Any:
             "it never settles a verdict. License audit accompanies every response."
         ),
     )
-    register_lexical_lookup(server)
-    register_concordance_walk(server)
-    register_cross_ref(server)
+    register_lexical_lookup(server, lexical_session_factory)
+    register_concordance_walk(server, lexical_session_factory)
+    register_cross_ref(server, lexical_session_factory)
     register_variant_inspect(server)
-    register_parallel_translation(server)
+    register_parallel_translation(server, lexical_session_factory)
     register_versification_resolve(server)
-    register_cultural_overlay(server)
-    register_debate_for_verse(server)
-    register_doctrinal_verdict(server)
+    register_cultural_overlay(server, cultural_retriever)
+    register_debate_for_verse(server, cultural_retriever)
+    register_doctrinal_verdict(server, synthesis_fn)
     register_evidence_inspect(server)
     register_historical_inspect(server)
     register_license_audit(server)
     return server
 
 
+def build_live_injectors() -> dict[str, Any]:
+    """Construct the live-store injectors for the served tools.
+
+    The lexical session factory is wired only when the lexical store answers, so
+    a down store degrades to the skeleton path instead of erroring per request.
+    The cultural retriever is fail-soft by contract, so it is always wired.
+    ``synthesis_fn`` stays None here: the standalone server has no orchestrator
+    to provide a subagent dispatch_fn (there is no programmatic Anthropic API),
+    so doctrinal_verdict serves the deterministic verdict path with the live
+    historical block. An orchestrator that drives the server injects its own
+    synthesis_fn via build_server.
+    """
+    from bd_mcp.live.cultural import retrieve_cultural_chunks
+    from bd_mcp.live.lexical import lexical_session_factory, lexical_store_reachable
+
+    lex_factory = lexical_session_factory() if lexical_store_reachable() else None
+    return {
+        "lexical_session_factory": lex_factory,
+        "cultural_retriever": retrieve_cultural_chunks,
+        "synthesis_fn": None,
+    }
+
+
 def main() -> None:
-    server = build_server()
+    server = build_server(**build_live_injectors())
     host = os.environ.get("MCP_HOST", "127.0.0.1")
     port = int(os.environ.get("MCP_PORT", "8765"))
     server.settings.host = host

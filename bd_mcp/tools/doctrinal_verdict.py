@@ -47,7 +47,13 @@ def load_historical_block(
     can fold a non-redistributable witness (e.g. a DSS CC-BY-NC-4.0 source) into
     ``response_safe_to_share``. A missing sidecar yields the empty block (most
     of the 231 questions carry no attestation).
+
+    The question_id is validated here at this function's own boundary, not only
+    by the caller, so a directly-imported use cannot read outside the historical
+    directory through a traversal slug. Mirrors evidence_inspect and
+    historical_inspect, which each validate at their own boundary.
     """
+    qid = validate_question_id(qid)
     path = (historical_dir or HISTORICAL_DIR) / f"{qid}.json"
     if not path.exists():
         return _empty_historical_block(), []
@@ -210,7 +216,10 @@ def handle(
     )
 
 
-def register(server: Any) -> None:
+def register(
+    server: Any,
+    synthesis_fn: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
+) -> None:
     @server.tool(
         name=TOOL_NAME, description="End-to-end doctrinal verdict with stored-evidence fidelity."
     )
@@ -228,4 +237,4 @@ def register(server: Any) -> None:
             progressToken=progressToken,
             caller_context=caller_context,
         )
-        return handle(payload)
+        return handle(payload, synthesis_fn=synthesis_fn)

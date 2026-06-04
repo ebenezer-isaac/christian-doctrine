@@ -57,7 +57,7 @@ def handle(
     )
 
 
-def register(server: Any) -> None:
+def register(server: Any, cultural_retriever: Any | None = None) -> None:
     @server.tool(name=TOOL_NAME, description="Tradition-grouped stances for a verse.")
     def _tool(
         ref: str,
@@ -69,4 +69,15 @@ def register(server: Any) -> None:
             doctrines=doctrines,
             caller_context=caller_context,
         )
-        return handle(payload)
+        if cultural_retriever is None:
+            return handle(payload)
+        try:
+            chunks = cultural_retriever(
+                ref=ref,
+                doctrine=(doctrines[0] if doctrines else None),
+                traditions=None,
+                k=12,
+            )
+        except Exception:  # noqa: BLE001  cultural overlay is diagnostic, degrade to empty
+            chunks = None
+        return handle(payload, cultural_chunks=chunks)

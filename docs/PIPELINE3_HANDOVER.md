@@ -1,5 +1,71 @@
 # Pipeline 3 (MCP query + synthesis) handover
 
+## Implementation status (2026-06-04)
+
+This status block was added on 2026-06-04 to record progress against the gap
+list below. The original handover (everything under "What Pipeline 3 is" onward)
+is preserved unchanged for history; this block is the current truth where the two
+disagree.
+
+**Done:**
+
+- **Step A. Historical block + `historical_inspect`.** `bd_mcp/tools/doctrinal_verdict.py`
+  now reads and validates `historical/<id>.json` (via `load_historical_block`),
+  attaches it as `result.historical_attestation` sourced authoritatively from the
+  sidecar (never re-derived), and folds its witness `sources_used` into the
+  envelope license audit. A missing sidecar yields the empty block; a malformed
+  one aborts with `historical_corrupt`. The 12th tool `historical_inspect`
+  (`bd_mcp/tools/historical_inspect.py`) mirrors `evidence_inspect` with the same
+  question-id regex defense and is registered in `bd_mcp/server.py`. `docs/MCP_TOOLS.md`
+  documents 12 tools, the historical block, and the synthesis transform.
+- **Step D. Synthesis subagent dispatcher (built).** `bd_mcp/synthesis.py` holds
+  `Pipeline3SynthesisDispatcher` and `make_synthesis_fn`, mirroring the Pipeline 2
+  and Pipeline 4 injected-`dispatch_fn` pattern with no programmatic Anthropic API.
+  It builds the subagent input bundle (locked evidence authoritative, retrieved
+  cultural diagnostic, locked historical diagnostic), dispatches once, and returns
+  the payload that `doctrinal_verdict.handle(synthesis_fn=...)` transforms. The
+  cultural retriever is an optional injected callable; cultural retrieval is
+  fail-soft and degrades to an empty overlay.
+- **Step B. Cultural injector (built, not yet wired).** `bd_mcp/live/cultural.py`
+  performs a dense voyage-4-large search over `cult_col` (60,040 points), filtered
+  by tradition and narrowed by the matched question's doctrine slug, returning
+  chunks in the exact handler shape. Air-gapped to the cultural store, fail-soft on
+  any missing config or unreachable store.
+
+**In progress:**
+
+- **Step C. Lexical injector.** `bd_mcp/live/lexical.py` (lexical Neo4j/Qdrant) is
+  being finalized by another agent. The lexical tools remain on injected data until
+  it lands.
+
+**Remaining:**
+
+- **Live wiring in `bd_mcp/server.py`.** The injectors above are BUILT but NOT yet
+  WIRED. The server still registers the pure handlers with no live injectors bound
+  (`register_*` pass `handle(payload)` with `synthesis_fn`, `cultural_chunks`, and
+  the lexical retrievers all defaulting to None). The remaining work is to bind the
+  cultural injector, the lexical injector (once C lands), and the synthesis
+  `dispatch_fn` into the registered tools at server build time.
+- **Step E. End-to-end smoke.** NOT done. Both stacks up, server started, a real
+  `doctrinal_verdict` query for a question with attestation and one without, all
+  three blocks plus a correct `license_audit`, and progress notifications firing,
+  has not been run yet.
+
+**Known follow-ups surfaced during implementation:**
+
+- **Cultural autotag pass has not run.** `cult_col` carries an empty `doctrine_tags`
+  array on its chunks, so `bd_mcp/live/cultural.py` derives `stance: None` for every
+  chunk (it never invents a stance). Cultural stance attribution stays None until
+  the autotag pass populates the tags.
+- **`cul_col` collection-name typo at `retrieval/hybrid.py:87`.** The cultural
+  branch of `HybridRetriever._collection` reads `"cul_col"` where the live cultural
+  collection is `cult_col`. Any cultural retrieval path that goes through
+  `HybridRetriever` (rather than `bd_mcp/live/cultural.py`, which uses the correct
+  name) will miss the collection. Fix before wiring cultural retrieval through the
+  hybrid retriever.
+
+---
+
 Status as of 2026-06-04. Pipelines 1, 2, and 4 are complete: the lexical store
 is ingested and certified, `evidence/<id>.json` holds 231 lexical verdicts, and
 `historical/<id>.json` holds 231 historical-attestation sidecars (27 with

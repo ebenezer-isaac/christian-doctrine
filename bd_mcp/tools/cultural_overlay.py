@@ -93,7 +93,7 @@ def _by_tradition(passages: list[dict[str, Any]]) -> dict[str, list[dict[str, An
     return out
 
 
-def register(server: Any) -> None:
+def register(server: Any, cultural_retriever: Any | None = None) -> None:
     @server.tool(
         name=TOOL_NAME, description="Cultural-store tradition passages with license-aware snippets."
     )
@@ -111,4 +111,10 @@ def register(server: Any) -> None:
             k=k,
             caller_context=caller_context,
         )
-        return handle(payload)
+        if cultural_retriever is None:
+            return handle(payload)
+        try:
+            chunks = cultural_retriever(doctrine=doctrine, ref=ref, traditions=traditions, k=k)
+        except Exception:  # noqa: BLE001  cultural overlay is diagnostic, degrade to empty
+            chunks = None
+        return handle(payload, cultural_chunks=chunks)
