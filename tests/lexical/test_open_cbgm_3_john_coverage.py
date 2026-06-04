@@ -240,8 +240,19 @@ def fixture_slice() -> dict[str, Any]:
 
 @pytest.fixture()
 def source_root() -> Path:
-    """Return the expected CBGM asset directory root (tmp/poc/cbgm)."""
-    return REPO / "tmp" / "poc" / "cbgm"
+    """Return the CBGM asset directory root (tmp/poc/cbgm).
+
+    Skip the dependent tests when the local PoC asset is absent. The open-cbgm
+    collation XML is a gitignored procurement artifact (tmp/ is not tracked), so
+    a checkout without it cannot re-run the ingest parse. This mirrors how the
+    store-gated tests skip when a Docker stack is down: the live lexical store
+    and the standing trust gate (tools/verify_manifest.py) remain the
+    authoritative proof of the ingested CBGM data.
+    """
+    root = REPO / "tmp" / "poc" / "cbgm"
+    if not (root / "3_john_collation.xml").exists():
+        pytest.skip("CBGM PoC asset tmp/poc/cbgm/3_john_collation.xml not present")
+    return root
 
 
 # ---------------------------------------------------------------------------
