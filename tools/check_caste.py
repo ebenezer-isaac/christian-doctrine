@@ -164,9 +164,24 @@ CASTE_RULES: dict[str, CasteRule] = {
         allowed_globs=(
             "ingest/lexical/*.py",
             "ingest/cultural/*.py",
+            # Pipeline 4 historical procurement adapters parse local
+            # data/private/ source files into HistoricalChunk records, the
+            # same implementer family as the lexical and cultural adapters.
+            "ingest/historical/*.py",
+            # ingest/license_guard.py is the shared redistribution gate read
+            # by every store. It matched no caste at top-level (a governance
+            # dead end: the historical layer's PD/CC0 slug additions could
+            # never be committed). Added as a precise literal, mirroring the
+            # tightly-enumerated README.md / .gitignore / pyproject.toml
+            # gap-closure precedent.
+            "ingest/license_guard.py",
             "embeddings/*.py",
             "pipeline1/*.py",
             "pipeline2/*.py",
+            # Pipeline 4 historical attestation engine (model, context
+            # builder, dispatcher, triangle, persistence, run), the same
+            # implementer family as pipeline2/.
+            "pipeline4/*.py",
             "retrieval/*.py",
         ),
         forbidden_globs=(
@@ -248,6 +263,7 @@ CASTE_RULES: dict[str, CasteRule] = {
             "embeddings/**",
             "pipeline1/**",
             "pipeline2/**",
+            "pipeline4/**",
             "retrieval/**",
             "tools/**.py",
             "docs/**",
@@ -267,6 +283,7 @@ CASTE_RULES: dict[str, CasteRule] = {
             "embeddings/**",
             "pipeline1/**",
             "pipeline2/**",
+            "pipeline4/**",
             "retrieval/**",
             "tools/**.py",
             "docs/**",
