@@ -159,6 +159,7 @@ def handle(
         "proposition": payload.proposition,
         "depth": payload.depth,
         "denominations": payload.denominations,
+        "caller_context": payload.caller_context,
         "evidence": evidence,
         "historical": historical_block,
     }
