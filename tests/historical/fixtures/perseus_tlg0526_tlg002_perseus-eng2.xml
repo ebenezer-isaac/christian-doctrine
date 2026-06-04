@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+	<title>The Life of Flavius Josephus</title>
+        <author xml:lang="lat">Flavius Josephus</author>
+        <editor role="translator">William Whiston</editor>     
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:Tufts">Tufts University</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+        <date type="release" when="1997-12-01" cert="medium">Perseus 3.0</date>
+        <idno type="filename">tlg0526.tlg002.perseus-eng2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence> 
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The Works of Flavius Josephus</title>
+            <author xml:lang="lat">Flavius Josephus</author>
+            <editor role="translator">William Whiston</editor>     
+            <imprint>
+              <pubPlace>Auburn and Rochester, NY</pubPlace>
+              <publisher>Alden and Beardsley</publisher>
+              <date>1856</date>
+            </imprint>
+          </monogr>
+          <ref target="https://archive.org/details/worksofflaviusj00joseuoft/page/n11/mode/2up">Internet Archive</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      
+      <refsDecl n="CTS">
+        
+        <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="section">
+          <p>This pointer pattern extracts section.</p>
+        </cRefPattern>
+      </refsDecl>
+      
+      
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+	<language ident="eng">English</language>
+      </langUsage>
+    </profileDesc>
+    
+    <revisionDesc>
+      <change when="2024-09-28" who="Lisa Cerrato">EpiDoc and CTS Conversion</change>
+      <change when="2009-11-24" who="rsingh04">moved more xml files around based on copyright status</change>
+      <change when="2006-02-10" who="packel">places/dates now actually tagged</change>
+      <change when="2005-08-01" who="packel">removed stray item tags</change>
+      <change when="2005-07-25" who="packel">Converted to XML</change>
+      <change when="2005-03-30" who="packel">fixed milestone units</change>
+      <change when="2003-07-01" who="yorkc">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
+      <change when="2003-05-21" who="lcerrato">added word destroy in section 21 following utterly: confirmed with source</change>
+      <change when="2000-03-08" who="dasmith">Funded by Tufts, not NEH.</change>
+      <change when="2000-03-04" who="dasmith">Added separate funder entity to TEI header.</change>
+      <change when="2000-03-01" who="dasmith">Moved unnecessary initial header to TEI header.</change> 
+      <change when="2000-01-31" who="dasmith">Use ED attribute in STATE.</change> 
+      <change when="1999-10-21" who="dasmith">Made book headers HEADs.</change> 
+      <change when="1999-08-04" who="dasmith">Mark chunking milestones.</change> 
+      <change when="1999-07-20" who="dasmith">Regularized refsDecl</change> 
+      <change when="1997-11-24" who="textgod">Added to repository. Passed SGML parse.</change>  
+</revisionDesc>
+</teiHeader>
+  
+<text>
+<body> 
+<div type="translation" n="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" xml:lang="eng">
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="1">
+<milestone n="1" unit="Whiston_section" />
+<p>The family from which I am derived is not an ignoble one, but hath descended all along from the priests; and as nobility among several people is of a different origin, so with us to be of the sacerdotal dignity, is an indication of the splendor of a family. Now, I am not only sprung from a sacerdotal family in general, but from the first of the twenty-four <note resp="editor">We may hence correct the error of the Latin copy of the second book Against Apion, sect. 8, (for the Greek is there lost,) which says, there were then only four tribes or courses of the priests, instead of twenty-four. Nor is this testimony to be disregarded, as if Josephus there contradicted what he had affirmed here; because even the account there given better agrees to twenty-four than to four courses, while he says that each of those courses contained above 5000 men, which, multiplied by only four, will make not more than 20,000 priests; whereas the number 120,000, as multiplied by 24, seems much the most probable, they being about one-tenth of the whole people, even after the captivity. See Ezra 2:36-39; Nehemiah 7:39-42; 1 Esdras 5:24, 25, with Ezra 2;64; Nehemiah 7:66; 1 Esdras 5:41. Nor will this common reading or notion of but four courses of priests, agree with Josephus’s own further assertion elsewhere, Antiq. B. VII. ch. 14. sect. 7, that David’s partition of the priests into twenty-four courses had continued to that day.</note> courses; and as among us there is not only a considerable difference between one family of each course and another, I am of the chief family of that first course also; nay, further, by my mother I am of the royal blood; for the children of Asamoneus, from whom that family was derived, had both the office of the high priesthood, and the dignity of a king, for a long time together. I will accordingly set down my progenitors in order. My grandfather’s father was named Simon, with the addition of Psellus: he lived at the same time with that son of Simon the high priest, who first of all the high priests was named Hyrcanus. This Simon Psellus had nine sons, one of whom was Matthias, called Ephlias: he married the daughter of Jonathan the high priest, which Jonathan was the first of the sons of Asamoneus, who was high priest, and was the brother of Simon the high priest also. This Matthias had a son called Matthias Curtus, and that in the first year of the government of Hyrcanus: his son’s name was Joseph, born in the ninth year of the reign of <placeName key="tgn,1092813">Alexandra</placeName>: his son Matthias was born in the tenth year of the reign of Archclaus; as was I born to Matthias in the first year of the reign of Caius Caesar. I have three sons: Hyrcanus, the eldest, was born in the fourth year of the reign of Vespasian, as was Justus born in the seventh, and Agrippa in the ninth. Thus have I set down the genealog of my family as I have found it described <note resp="editor">An eminent example of the care of the Jews about their genealogies, especially as to the priests. See Against Ap. B. 1 sect. 7.</note> in the public records, and so bid adieu to those who calumniate me [as of a lower original].</p></div> 
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="7">
+<milestone n="2" unit="Whiston_section" />
+<p>Now, my father Matthias was not only eminent on account of is nobility, but had a higher commendation on account of his righteousness, and was in great reputation in <placeName key="tgn,7001371">Jerusalem</placeName>, the greatest city we have. I was myself brought up with my brother, whose name was Matthias, for he was my own brother, by both father and mother; and I made mighty proficiency in the improvements of my learning, and appeared to have both a great memory and understanding. Moreover, when I was a child, and about fourteen years of age, I was commended by all for the love I had to learning; on which account the high priests and principal men of the city came then frequently to me together, in order to know my opinion about the accurate understanding of points of the law. And when I was about sixteen years old, I had a mind to make trim of the several sects that were among us. These sects are three: - The first is that of the Pharisees, the second that Sadducees, and the third that of the Essens, as we have frequently told you; for I thought that by this means I might choose the best, if I were once acquainted with them all; so I contented myself with hard fare, and underwent great difficulties, and went through them all. Nor did I content myself with these trials only; but when I was informed that one, whose name was Banus, lived in the desert, and used no other clothing than grew upon trees, and had no other food than what grew of its own accord, and bathed himself in cold water frequently, both by night and by day, in order to preserve his chastity, I imitated him in those things, and continued with him three years. <note resp="editor">When Josephus here says, that from sixteen to nineteen, or for three years, he made trial of the three Jewish sects, the Pharisees, the Sadducees, and the Essens, and yet says presently, in all our copies, that he stayed besides with one particular ascetic, called Banus, with him, and this still before he was nineteen, there is little room left for his trial of the three other sects. I suppose, therefore, that for, with him, the old reading might be, with them; which is a very small emendation, and takes away the difficulty before us. Nor is Dr. Hudson’s conjecture, hinted at by Mr. Hall in his preface to the Doctor’s edition of Josephus, at all improbable, that this Banus, by this his description, might well be a follower of John the Baptist, and that from him Josephus might easily imbibe such notions, as afterwards prepared him to have a favorable opinion of Jesus Christ himself, who was attested to by John the Baptist.</note> So when I had accomplished my desires, I returned back to the city, being now nineteen years old, and began to conduct myself according to the rules of the sect of the Pharisees, which is of kin to the sect of the Stoics, as the Greeks call them.</p></div> 
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="13">
+<milestone n="3" unit="Whiston_section" />
+<p>But when I was in the twenty-sixth year of my age, it happened that I took a voyage to <placeName key="perseus,Rome">Rome</placeName>, and this on the occasion which I shall now describe. At the time when <placeName key="tgn,2324437">Felix</placeName> was procurator of <placeName key="tgn,7001407">Judea</placeName> there were certain priests of my acquaintance, and very excellent persons they were, whom on a small and trifling occasion he had put into bonds, and sent to <placeName key="perseus,Rome">Rome</placeName> to plead their cause before Caesar. These I was desirous to procure deliverance for, and that especially because I was informed that they were not unmindful of piety towards God, even under their afflictions, but supported themselves with figs and nuts. <note resp="editor">We may note here, that religious men among the Jews, or at least those that were priests, were sometimes ascetics also, and, like Daniel and his companions in <placeName key="tgn,7002626">Babylon</placeName>, Daniel 1:8-16, ate no flesh, but figs and nuts, etc. only. This was like the, or austere diet of the Christian ascetics in Passion-week. Constitut. V. 18.</note> Accordingly I came to <placeName key="perseus,Rome">Rome</placeName>, though it were through a great number of hazards by sea; for as our ship was drowned in the <placeName key="tgn,7016532">Adriatic Sea</placeName>, we that were in it, being about six hundred in number, <note resp="editor">It has been thought the number of Paul and his companions on ship-board, Acts 27:38, which are 276 in our copies, are too many; whereas we find here, that Josephus and his companions, a very few years after the other, were about 600.</note> swam for our lives all the night; when, upon the first appearance of the day, and upon our sight of a ship of <placeName key="tgn,7000639">Cyrene</placeName>, I and some others, eighty in all, by God’s providence, prevented the rest, and were taken up into the other ship. And when I had thus escaped, and was come to Dieearchia, which the Italians call <placeName key="perseus,Puteoli">Puteoli</placeName>, I became acquainted with Aliturius, an actor of plays, and much beloved by Nero, but a Jew by birth; and through his interest became known to Poppea, Caesar’s wife, and took care, as soon as possible, to entreat her to procure that the priests might be set at liberty. And when, besides this favor, I had obtained many presents from Poppea, I returned home again.</p></div> 
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="17">
+<milestone n="4" unit="Whiston_section" />
+<p>And now I perceived innovations were already begun, and that there were a great many very much elevated in hopes of a revolt from the Romans. I therefore endeavored to put a stop to these tumultuous persons, and persuaded them to change their minds; and laid before their eyes against whom it was that they were going to fight, and told them that they were inferior to the Romans not only in martial skill, but also in good fortune; and desired them not rashly, and after the most foolish manner, to bring on the dangers of the most terrible mischiefs upon their country, upon their families, and upon themselves. And this I said with vehement exhortation, because I foresaw that the end of such a war would be most unfortunate to us. But I could not persuade them; for the madness of desperate men was quite too hard for me.</p></div> 
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="20">
+<milestone n="5" unit="Whiston_section" />
+<p>I was then afraid, lest, by inculcating these things so often, I should incur their hatred and their suspicions, as if I were of our enemies’ party, and should run into the danger of being seized by them, and slain; since they were already possessed of Antonia, which was the citadel; so I retired into the inner court of the temple. Yet did I go out of the temple again, after Manahem and the principal of the band of robbers were put to death, when I abode among the high priests and the chief of the Pharisees. But no small fear seized upon us when we saw the people in arms, while we ourselves knew not what we should do, and were not able to restrain the seditious. However, as the danger was directly upon us, we pretended that we were of the same opinion with them, but only advised them to be quiet for the present, and to let the enemy go away, still hoping that Gessius [Florus] would not be long ere he came, and that with great forces, and so put an end to these seditious proceedings.</p></div> 
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg002.perseus-eng2" n="24">
+<milestone n="6" unit="Whiston_section" />
+<p>But, upon his coming and fighting, he was beaten, and a great many of those that were with him fell. And this disgrace which Gessius [with Cestius] received, became the calamity of our whole nation; for those that were fond of the war were so far elevated with this success, that they had hopes of finally conquering the Romans. Of which war another occasion was ministered; which was this: - Those that dwelt in the neighboring cities of <placeName key="tgn,1000140">Syria</placeName> seized upon such Jews as dwelt among them, with their wives and children, and slew them, when they had not the least occasion of complaint against them; for they did neither attempt any innovation or revolt from the Romans, nor had they given any marks of hatred or treacherous designs towards the Syrians. But what was done by the inhabitants of <placeName key="tgn,7001403">Scythopolis</placeName> was the most impious and most highly criminal of all; <note resp="editor">See Jewish War, B. II. ch. 18. sect. 3.</note> for when the Jews their enemies came upon them from without, they forced the Jews that were among them to bear arms against their own countrymen, which it is unlawful for us to do; <note resp="editor">The Jews might collect this unlawfulness of fighting against their brethren from that law of Moses, Leviticus 19:16, <q rend="double">Thou shalt not stand against the blood of thy neighbor;</q> and that, ver. 17, <q rend="double">Thou shalt not avenge, nor bear any grudge against the children of thy people; but thou shalt love thy neighbor as thyself;</q> as well as from many other places in the Pentateuch and Prophets. See Antiq. B. VIII. ch. 8. sect. 3.</note> and when, by their assistance, they had joined battle with those who attacked them, and had beaten them, after that victory they forgot the assurances they had given these their fellow citizens and confederates, and slew them all, being in number many ten thousands [13,000]. The like miseries were undergone by those Jews that were the inhabitants of <placeName key="tgn,7002261">Damascus</placeName>. But we have given a more accurate account of these things in the books of the Jewish war. I only mention them now, because I would demonstrate to my readers, that the Jews’ war with the Romans was not voluntary, but that, for the main, they were forced by necessity to enter into it.</p></div> 
+
+</div> </body></text></TEI>

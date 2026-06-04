@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+	<title>Antiquities of the Jews</title>
+	<author xml:lang="lat">Flavius Josephus</author>
+	<editor role="translator">William Whiston</editor>     
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>David Smith</name>
+        </respStmt>
+    <funder n="org:Tufts">Tufts University</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+        <date type="release" when="1997-12-01" cert="medium">Perseus 3.0</date>
+        <idno type="filename">tlg0526.tlg001.perseus-eng2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence> 
+        </availability>
+      </publicationStmt>
+     
+      <sourceDesc>
+	<biblStruct>
+	  <monogr>
+	    <title>The Works of Flavius Josephus</title>
+	    <author xml:lang="lat">Flavius Josephus</author>
+	    <editor role="translator">William Whiston</editor>     
+	    <imprint>
+	      <pubPlace>Auburn and Rochester, NY</pubPlace>
+	      <publisher>Alden and Beardsley</publisher>
+	      <date>1856</date>
+	    </imprint>
+	  </monogr>
+	  <ref target="https://archive.org/details/worksofflaviusj00joseuoft/page/26/mode/2up">Internet Archive</ref>
+	</biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])" n="section">
+          <p>This pointer pattern extracts book and section.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="book">
+          <p>This pointer pattern extracts book.</p>
+        </cRefPattern>
+      </refsDecl>
+      
+      
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+	<language ident="eng">English</language>
+	<language ident="grc">Greek</language>
+        <language ident="xgreek">Transliterated Greek</language>
+        <language ident="xhebrew">Transliterated Hebrew</language>
+      </langUsage>
+    </profileDesc>
+    
+    <revisionDesc>
+<change when="2024-09-26" who="Lisa Cerrato">EpiDoc and CTS Conversion</change>
+<change when="2011-01-08" who="gcrane">small fixes</change>
+<change when="2011-01-05" who="gcrane">improvements to the quotation marks</change>
+<change when="2009-11-24" who="rsingh04">moved more xml files around based on copyright status</change>
+<change when="2009-01-29" who="lcerrato">fixed duplicated note and added accurate one</change>
+<change when="2006-02-10" who="packel">places/dates now actually tagged</change>
+<change when="2005-07-25" who="packel">Converted to XML</change>
+<change when="2005-03-30" who="packel">fixed milestone units</change>
+<change when="2004-05-12" who="dasmith">Treat book headings as annotations.</change>
+<change when="2003-07-01" who="yorkc">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
+<change when="2003-05-21" who="lcerrato">two notes were conflated in section 208: restored according to email report and taking out wrong phrases</change>
+<change when="2000-03-15" who="amahoney">remove spurious empty notes</change>
+<change when="2000-03-08" who="dasmith">Funded by Tufts, not NEH.</change>
+<change when="2000-03-04" who="dasmith">Added separate funder entity to TEI header.</change>
+<change when="2000-03-01" who="dasmith">Moved unnecessary initial header to TEI header.</change> 
+<change when="2000-01-31" who="dasmith">Use ED attribute in STATE.</change> 
+  <change when="1999-11-18" who="lcerrato">fixed typo</change> 
+  <change when="1999-10-21" who="dasmith">Made book headers HEADs.</change> 
+  <change when="1999-08-04" who="dasmith">Mark chunking milestones.</change> 
+  <change when="1999-07-20" who="dasmith">Regularized resDecl</change> 
+  <change when="1997-11-25" who="textgod">Fixed Greek word.</change> 
+<change when="1997-11-24" who="textgod">Added to repository. Passed SGML parse.</change>   </revisionDesc>
+</teiHeader>
+  
+<text>
+<body>
+<div type="translation" n="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2" xml:lang="eng">
+<div type="textpart" subtype="book" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2" n="18">
+<head rend="align(center)">Book XVIII <lb /> CONTAINING THE INTERVAL OF THIRTY-TWO YEARS. FROM THE BANISHMENT OF ARCHELUS TO THE DEPARTURE FROM BABYLON.</head>
+  <div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:10" n="1">    
+<milestone n="1" unit="Whiston_chapter" /><milestone n="1" unit="Whiston_section" />
+<head rend="align(center)">HOW CYRENIUS WAS SENT BY CAESAR TO MAKE A TAXATION OF SYRIA
+AND JUDEA; AND HOW COPONIUS WAS SENT TO BE PROCURATOR OF JUDEA; CONCERNING
+JUDAS OF GALILEE AND CONCERNING THE SECTS THAT WERE AMONG THE JEWS.</head>
+<p>NOW Cyrenius, a Roman senator, and one who had gone through other
+magistracies, and had passed through them till he had been consul, and
+one who, on other accounts, was of great dignity, came at this time into
+Syria, with a few others, being sent by Caesar to he a judge of that nation,
+and to take an account of their substance. Coponius also, a man of the
+equestrian order, was sent together with him, to have the supreme power
+over the Jews. Moreover, Cyrenius came himself into Judea, which was now
+added to the province of Syria, to take an account of their substance,
+and to dispose of Archelaus’s money; but the Jews, although at the beginning
+they took the report of a taxation heinously, yet did they leave off any
+further opposition to it, by the persuasion of Joazar, who was the son
+of Beethus, and high priest; so they, being over-pesuaded by Joazar’s words,
+gave an account of their estates, without any dispute about it. Yet was
+there one Judas, a Gaulonite, 
+of a city whose name was Gamala, who, taking with him Sadduc, 
+a Pharisee, became zealous to draw them to a revolt, who both said that
+this taxation was no better than an introduction to slavery, and exhorted
+the nation to assert their liberty; as if they could procure them happiness
+and security for what they possessed, and an assured enjoyment of a still
+greater good, which was that of the honor and glory they would thereby
+acquire for magnanimity. They also said that God would not otherwise be
+assisting to them, than upon their joining with one another in such councils
+as might be successful, and for their own advantage; and this especially,
+if they would set about great exploits, and not grow weary in executing
+the same; so men received what they said with pleasure, and this bold attempt
+proceeded to a great height. All sorts of misfortunes also sprang from
+these men, and the nation was infected with this doctrine to an incredible
+degree; one violent war came upon us after another, and we lost our friends
+which used to alleviate our pains; there were also very great robberies
+and murder of our principal men. This was done in pretense indeed for the
+public welfare, but in reality for the hopes of gain to themselves; whence
+arose seditions, and from them murders of men, which sometimes fell on
+those of their own people, (by the madness of these men towards one another,
+while their desire was that none of the adverse party might be left,) and
+sometimes on their enemies; a famine also coming upon us, reduced us to
+the last degree of despair, as did also the taking and demolishing of cities;
+nay, the sedition at last increased so high, that the very temple of God
+was burnt down by their enemies’ fire. Such were the consequences of this,
+that the customs of our fathers were altered, and such a change was made,
+as added a mighty weight toward bringing all to destruction, which these
+men occasioned by their thus conspiring together; for Judas and Sadduc,
+who excited a fourth philosophic sect among us, and had a great many followers
+therein, filled our civil government with tumults at present, and laid
+the foundations of our future miseries, by this system of philosophy, which
+we were before unacquainted withal, concerning which I will discourse a
+little, and this the rather because the infection which spread thence among
+the younger sort, who were zealous for it, brought the public to destruction.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="11"> <milestone n="2" unit="Whiston_section" /><p>The Jews had for a great while had three sects of philosophy peculiar
+to themselves; the sect of the Essens, and the sect of the Sadducees, and
+the third sort of opinions was that of those called Pharisees; of which
+sects, although I have already spoken in the second book of the Jewish
+War, yet will I a little touch upon them now.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="12"> <milestone n="3" unit="Whiston_section" /><p>Now, for the Pharisees, they live meanly, and despise delicacies
+in diet; and they follow the conduct of reason; and what that prescribes
+to them as good for them they do; and they think they ought earnestly to
+strive to observe reason’s dictates for practice. They also pay a respect
+to such as are in years; nor are they so bold as to contradict them in
+any thing which they have introduced; and when they determine that all
+things are done by fate, they do not take away the freedom from men of
+acting as they think fit; since their notion is, that it hath pleased God
+to make a temperament, whereby what he wills is done, but so that the will
+of man can act virtuously or viciously. They also believe that souls have
+an immortal rigor in them, and that under the earth there will be rewards
+or punishments, according as they have lived virtuously or viciously in
+this life; and the latter are to be detained in an everlasting prison,
+but that the former shall have power to revive and live again; on account
+of which doctrines they are able greatly to persuade the body of the people;
+and whatsoever they do about Divine worship, prayers, and sacrifices, they
+perform them according to their direction; insomuch that the cities give
+great attestations to them on account of their entire virtuous conduct,
+both in the actions of their lives and their discourses also.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="16"> <milestone n="4" unit="Whiston_section" /><p>But the doctrine of the Sadducees is this: That souls die with the
+bodies; nor do they regard the observation of any thing besides what the
+law enjoins them; for they think it an instance of virtue to dispute with
+those teachers of philosophy whom they frequent: but this doctrine is received
+but by a few, yet by those still of the greatest dignity. But they are
+able to do almost nothing of themselves; for when they become magistrates,
+as they are unwillingly and by force sometimes obliged to be, they addict
+themselves to the notions of the Pharisees, because the multitude would
+not otherwise bear them.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="18"> <milestone n="5" unit="Whiston_section" /><p>The doctrine of the Essens is this: That all things are best ascribed
+to God. They teach the immortality of souls, and esteem that the rewards
+of righteousness are to be earnestly striven for; and when they send what
+they have dedicated to God into the temple, they do not offer sacrifices
+ because
+they have more pure lustrations of their own; on which account they are
+excluded from the common court of the temple, but offer their sacrifices
+themselves; yet is their course of life better than that of other men;
+and they entirely addict themselves to husbandry. It also deserves our
+admiration, how much they exceed all other men that addict themselves to
+virtue, and this in righteousness; and indeed to such a degree, that as
+it hath never appeared among any other men, neither Greeks nor barbarians,
+no, not for a little time, so hath it endured a long while among them.
+This is demonstrated by that institution of theirs, which will not suffer
+any thing to hinder them from having all things in common; so that a rich
+man enjoys no more of his own wealth than he who hath nothing at all. There
+are about four thousand men that live in this way, and neither marry wives,
+nor are desirous to keep servants; as thinking the latter tempts men to
+be unjust, and the former gives the handle to domestic quarrels; but as
+they live by themselves, they minister one to another. They also appoint
+certain stewards to receive the incomes of their revenues, and of the fruits
+of the ground; such as are good men and priests, who are to get their corn
+and their food ready for them. They none of them differ from others of
+the Essens in their way of living, but do the most resemble those Dacae
+who are called Polistae 
+[dwellers in cities].</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="23"> <milestone n="6" unit="Whiston_section" /><p>But of the fourth sect of Jewish philosophy, Judas the Galilean was
+the author. These men agree in all other things with the Pharisaic notions;
+but they have an inviolable attachment to liberty, and say that God is
+to be their only Ruler and Lord. They also do not value dying any kinds
+of death, nor indeed do they heed the deaths of their relations and friends,
+nor can any such fear make them call any man lord. And since this immovable
+resolution of theirs is well known to a great many, I shall speak no further
+about that matter; nor am I afraid that any thing I have said of them should
+be disbelieved, but rather fear, that what I have said is beneath the resolution
+they show when they undergo pain. And it was in Gessius Florus’s time that
+the nation began to grow mad with this distemper, who was our procurator,
+and who occasioned the Jews to go wild with it by the abuse of his authority,
+and to make them revolt from the Romans. And these are the sects of Jewish
+philosophy.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="26"> 
+<milestone n="2" unit="Whiston_chapter" /><milestone n="1" unit="Whiston_section" />
+<head rend="align(center)">NOW HEROD AND PHILIP BUILT SEVERAL CITIES IN HONOR OF CAESAR.
+CONCERNING THE SUCCESSION OF PRIESTS AND PROCURATORS; AS ALSO WHAT BEFELL
+PHRAATES AND THE PARTHIANS.</head>
+ <p>WHEN Cyrenius had now disposed of Archelaus’s money, and when the
+taxings were come to a conclusion, which were made in the thirty-seventh
+year of Caesar’s victory over Antony at Actium, he deprived Joazar of the
+high priesthood, which dignity had been conferred on him by the multitude,
+and he appointed Ananus, the son of Seth, to be high priest; while Herod
+and Philip had each of them received their own tetrarchy, and settled the
+affairs thereof. Herod also built a wall about Sepphoris, (which is the
+security of all Galilee,) and made it the metropolis of the country. He
+also built a wall round Betharamphtha, which was itself a city also, and
+called it Julias, from the name of the emperor’s wife. When Philip also
+had built Paneas, a city at the fountains of Jordan, he named it Cesarea.
+He also advanced the village Bethsaids, situate at the lake of Gennesareth,
+unto the dignity of a city, both by the number of inhabitants it contained,
+and its other grandeur, and called it by the name of Julias, the same name
+with Caesar’s daughter.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="29"> <milestone n="2" unit="Whiston_section" /><p>As Coponius, who we told you was sent along with Cyrenius, was exercising
+his office of procurator, and governing Judea, the following accidents
+happened. As the Jews were celebrating the feast of unleavened bread, which
+we call the Passover, it was customary for the priests to open the temple-gates
+just after midnight. When, therefore, those gates were first opened, some
+of the Samaritans came privately into Jerusalem, and threw about dead men’s
+bodies, in the cloisters; on which account the Jews afterward excluded
+them out of the temple, which they had not used to do at such festivals;
+and on other accounts also they watched the temple more carefully than
+they had formerly done. A little after which accident Coponius returned
+to Rome, and Marcus Ambivius came to be his successor in that government;
+under whom Salome, the sister of king Herod, died, and left to Julia, [Caesar’s
+wife,] Jamnia, all its toparchy, and Phasaelis in the plain, and Arehelais,
+where is a great plantation of palm trees, and their fruit is excellent
+in its kind. After him came Annius Rufus, under whom died Caesar, the second
+emperor of the Romans, the duration of whose reign was fifty-seven years,
+besides six months and two days (of which time Antonius ruled together
+with him fourteen years; but the duration of his life was seventy-seven
+years); upon whose death Tiberius Nero, his wife Julia’s son, succeeded.
+He was now the third emperor; and he sent Valerius Gratus to be procurator
+of Judea, and to succeed Annius Rufus. This man deprived Ananus of the
+high priesthood, and appointed Ismael, the son of Phabi, to be high priest.
+He also deprived him in a little time, and ordained Eleazar, the son of
+Ananus, who had been high priest before, to be high priest; which office,
+when he had held for a year, Gratus deprived him of it, and gave the high
+priesthood to Simon, the son of Camithus; and when he had possessed that
+dignity no longer than a year, Joseph Caiaphas was made his successor.
+When Gratus had done those things, he went back to Rome, after he had tarried
+in Judea eleven years, when Pontius Pilate came as his successor.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="36"> <milestone n="3" unit="Whiston_section" /><p>And now Herod the tetrarch, who was in great favor with Tiberius,
+built a city of the same name with him, and called it Tiberias. He built
+it in the best part of Galilee, at the lake of Gennesareth. There are warm
+baths at a little distance from it, in a village named Emmaus. Strangers
+came and inhabited this city; a great number of the inhabitants were Galileans
+also; and many were necessitated by Herod to come thither out of the country
+belonging to him, and were by force compelled to be its inhabitants; some
+of them were persons of condition. He also admitted poor people, such as
+those that were collected from all parts, to dwell in it. Nay, some of
+them were not quite free-men, and these he was benefactor to, and made
+them free in great numbers; but obliged them not to forsake the city, by
+building them very good houses at his own expenses, and by giving them
+land also; for he was sensible, that to make this place a habitation was
+to transgress the Jewish ancient laws, because many sepulchers were to
+be here taken away, in order to make room for the city Tiberias 
+whereas our laws pronounce that such inhabitants are unclean for seven
+days. </p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="39"> <milestone n="4" unit="Whiston_section" /><p>About this time died Phraates, king of the Parthians, by the treachery
+of Phraataces his son, upon the occasion following: When Phraates had had
+legitimate sons of his own, he had also an Italian maid-servant, whose
+name was Thermusa, who had been formerly sent to him by Julius Caesar,
+among other presents. He first made her his concubine; but he being a great
+admirer of her beauty, in process of time having a son by her, whose name
+was Phraataces, he made her his legitimate wife, and had a great respect
+for her. Now she was able to persuade him to do any thing that she said,
+and was earnest in procuring the government of Parthia for her son; but
+still she saw that her endeavors would not succeed, unless she could contrive
+how to remove Phraates’s legitimate sons [out of the kingdom;] so she persuaded
+him to send those his sons as pledges of his fidelity to Rome; and they
+were sent to Rome accordingly, because it was not easy for him to contradict
+her commands. Now while Phraataces was alone brought up in order to succeed
+in the government, he thought it very tedious to expect that government
+by his father’s donation [as his successor]; he therefore formed a treacherous
+design against his father, by his mother’s assistance, with whom, as the
+report went, he had criminal conversation also. So he was hated for both
+these vices, while his subjects esteemed this [wicked] love of his mother
+to be no way inferior to his parricide; and he was by them, in a sedition,
+expelled out of the country before he grew too great, and died. But as
+the best sort of Parthians agreed together that it was impossible they
+should be governed without a king, while also it was their constant practice
+to choose one of the family of Arsaces, [nor did their law allow of any
+others; and they thought this kingdom had been sufficiently injured already
+by the marriage with an Italian concubine, and by her issue,] they sent
+ambassadors, and called Orodes [to take the crown]; for the multitude would
+not otherwise have borne them; and though he was accused of very great
+cruelty, and was of an untractable temper, and prone to wrath, yet still
+he was one of the family of Arsaces. However, they made a conspiracy against
+him, and slew him, and that, as some say, at a festival, and among their
+sacrifices; (for it is the universal custom there to carry their swords
+with them;) but, as the more general report is, they slew him when they
+had drawn him out a hunting. So they sent ambassadors to Rome, and desired
+they would send one of those that were there as pledges to be their king.
+Accordingly, Vonones was preferred before the rest, and sent to them (for
+he seemed capable of such great fortune, which two of the greatest kingdoms
+under the sun now offered him, his own and a foreign one). However, the
+barbarians soon changed their minds, they being naturally of a mutable
+disposition, upon the supposal that this man was not worthy to be their
+governor; for they could not think of obeying the commands of one that
+had been a slave, (for so they called those that had been hostages,) nor
+could they bear the ignominy of that name; and this was the more intolerable,
+because then the Parthians must have such a king set over them, not by
+right of war, but in time of peace. So they presently invited Artabanus,
+king of Media, to be their king, he being also of the race of Arsaces.
+Artabanus complied with the offer that was made him, and came to them with
+an army. So Vonones met him; and at first the multitude of the Parthians
+stood on this side, and he put his army in array; but Artabanus was beaten,
+and fled to the mountains of Media. Yet did he a little after gather a
+great army together, and fought with Vonones, and beat him; whereupon Vonones
+fled away on horseback, with a few of his attendants about him, to Seleucia
+[upon Tigris]. So when Artabanus had slain a great number, and this after
+he had gotten the victory by reason of the very great dismay the barbarians
+were in, he retired to Ctesiphon with a great number of his people; and
+so he now reigned over the Parthians. But Vonones fled away to Armenia;
+and as soon as he came thither, he had an inclination to have the government
+of the country given him, and sent ambassadors to Rome [for that purpose].
+But because Tiberius refused it him, and because he wanted courage, and
+because the Parthian king threatened him, and sent ambassadors to him to
+denounce war against him if he proceeded, and because he had no way to
+take to regain any other kingdom, (for the people of authority among the
+Armenians about Niphates joined themselves to Artabanus,) he delivered
+up himself to Silanus, the president of Syria, who, out of regard to his
+education at Rome, kept him in Syria, while Artabanus gave Armenia to Orodes,
+one of his own sons.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="53"> <milestone n="5" unit="Whiston_section" /><p>At this time died Antiochus, the king of Commagene; whereupon the
+multitude contended with the nobility, and both sent ambassadors to [Rome];
+for the men of power were desirous that their form of government might
+be changed into that of a [Roman] province; as were the multitude desirous
+to be under kings, as their fathers had been. So the senate made a decree
+that Germanicus should be sent to settle the affairs of the East, fortune
+hereby taking a proper opportunity for depriving him of his life; for when
+he had been in the East, and settled all affairs there, his life was taken
+away by the poison which Piso gave him, as hath been related elsewhere.
+</p></div>
+
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="55">  
+<milestone n="3" unit="Whiston_chapter" /><milestone n="1" unit="Whiston_section" />
+<head rend="align(center)">SEDITION OF THE JEWS AGAINST PONTIUS PILATE. CONCERNING CHRIST,
+AND WHAT BEFELL PAULINA AND THE JEWS AT ROME,</head>
+ <p>BUT now Pilate, the procurator of Judea, removed the army from Cesarea
+to Jerusalem, to take their winter quarters there, in order to abolish
+the Jewish laws. So he introduced Caesar’s effigies, which were upon the
+ensigns, and brought them into the city; whereas our law forbids us the
+very making of images; on which account the former procurators were wont
+to make their entry into the city with such ensigns as had not those ornaments.
+Pilate was the first who brought those images to Jerusalem, and set them
+up there; which was done without the knowledge of the people, because it
+was done in the night time; but as soon as they knew it, they came in multitudes
+to Cesarea, and interceded with Pilate many days that he would remove the
+images; and when he would not grant their requests, because it would tend
+to the injury of Caesar, while yet they persevered in their request, on
+the sixth day he ordered his soldiers to have their weapons privately,
+while he came and sat upon his judgment-seat, which seat was so prepared
+in the open place of the city, that it concealed the army that lay ready
+to oppress them; and when the Jews petitioned him again, he gave a signal
+to the soldiers to encompass them routed, and threatened that their punishment
+should be no less than immediate death, unless they would leave off disturbing
+him, and go their ways home. But they threw themselves upon the ground,
+and laid their necks bare, and said they would take their death very willingly,
+rather than the wisdom of their laws should be transgressed; upon which
+Pilate was deeply affected with their firm resolution to keep their laws
+inviolable, and presently commanded the images to be carried back from
+Jerusalem to Cesarea.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="60"> <milestone n="2" unit="Whiston_section" /><p>But Pilate undertook to bring a current of water to Jerusalem, and
+did it with the sacred money, and derived the origin of the stream from
+the distance of two hundred furlongs. However, the Jews 
+were not pleased with what had been done about this water; and many ten
+thousands of the people got together, and made a clamor against him, and
+insisted that he should leave off that design. Some of them also used reproaches,
+and abused the man, as crowds of such people usually do. So he habited
+a great number of his soldiers in their habit, who carried daggers under
+their garments, and sent them to a place where they might surround them.
+So he bid the Jews himself go away; but they boldly casting reproaches
+upon him, he gave the soldiers that signal which had been beforehand agreed
+on; who laid upon them much greater blows than Pilate had commanded them,
+and equally punished those that were tumultuous, and those that were not;
+nor did they spare them in the least: and since the people were unarmed,
+and were caught by men prepared for what they were about, there were a
+great number of them slain by this means, and others of them ran away wounded.
+And thus an end was put to this sedition.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="63"> <milestone n="3" unit="Whiston_section" /><p>Now there was about this time Jesus, a wise man, if it be lawful
+to call him a man; for he was a doer of wonderful works, a teacher of such
+men as receive the truth with pleasure. He drew over to him both many of
+the Jews and many of the Gentiles. He was [the] Christ. And when Pilate,
+at the suggestion of the principal men amongst us, had condemned him to
+the cross, 
+those that loved him at the first did not forsake him; for he appeared
+to them alive again the third day; 
+as the divine prophets had foretold these and ten thousand other wonderful
+things concerning him. And the tribe of Christians, so named from him,
+are not extinct at this day.</p></div>
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg001.perseus-eng2:18" n="65"> <milestone n="4" unit="Whiston_section" /><p>About the same time also another sad calamity put the Jews into disorder,
+and certain shameful practices happened about the temple of Isis that was
+at Rome. I will now first take notice of the wicked attempt about the temple
+of Isis, and will then give an account of the Jewish affairs. There was
+at Rome a woman whose name was Paulina; one who, on account of the dignity
+of her ancestors, and by the regular conduct of a virtuous life, had a
+great reputation: she was also very rich; and although she was of a beautiful
+countenance, and in that flower of her age wherein women are the most gay,
+yet did she lead a life of great modesty. She was married to Saturninus,
+one that was every way answerable to her in an excellent character. Decius
+Mundus fell in love with this woman, who was a man very high in the equestrian
+order; and as she was of too great dignity to be caught by presents, and
+had already rejected them, though they had been sent in great abundance,
+he was still more inflamed with love to her, insomuch that he promised
+to give her two hundred thousand Attic drachmae for one night’s lodging;
+and when this would not prevail upon her, and he was not able to bear this
+misfortune in his amours, he thought it the best way to famish himself
+to death for want of food, on account of Paulina’s sad refusal; and he
+determined with himself to die after such a manner, and he went on with
+his purpose accordingly. Now Mundus had a freed-woman, who had been made
+free by his father, whose name was Ide, one skillful in all sorts of mischief.
+This woman was very much grieved at the young man’s resolution to kill
+himself, (for he did not conceal his intentions to destroy himself from
+others,) and came to him, and encouraged him by her discourse, and made
+him to hope, by some promises she gave him, that he might obtain a night’s
+lodging with Paulina; and when he joyfully hearkened to her entreaty, she
+said she wanted no more than fifty thousand drachmae for the entrapping
+of the woman. So when she had encouraged the young man, and gotten as much
+money as she required, she did not take the same methods as had been taken
+before, because she perceived that the woman was by no means to be tempted
+by money; but as she knew that she was very much given to the worship of
+the goddess Isis, she devised the following stratagem: She went to some
+of Isis’s priests, and upon the strongest assurances [of concealment],
+she persuaded them by words, but chiefly by the offer of money, of twenty-five
+thousand drachmae in hand, and as much more when the thing had taken effect;
+and told them the passion of the young man, and persuaded them to use all
+means possible to beguile the woman. So they were drawn in to promise so
+to do, by that large sum of gold they were to have. Accordingly, the oldest
+of them went immediately to Paulina; and upon his admittance, he desired
+to speak with her by herself. When that was granted him, he told her that
+he was sent by the god Anubis, who was fallen in love with her, and enjoined
+her to come to him. Upon this she took the message very kindly, and valued
+herself greatly upon this condescension of Anubis, and told her husband
+that she had a message sent her, and was to sup and lie with Anubis; so
+he agreed to her acceptance of the offer, as fully satisfied with the chastity
+of his wife. Accordingly, she went to the temple, and after she had supped
+there, and it was the hour to go to sleep, the priest shut the doors of
+the temple, when, in the holy part of it, the lights were also put out.
+Then did Mundus leap out, (for he was hidden therein,) and did not fail
+of enjoying her, who was at his service all the night long, as supposing
+he was the god; and when he was gone away, which was before those priests
+who knew nothing of this stratagem were stirring, Paulina came early to
+her husband, and told him how the god Anubis had appeared to her. Among
+her friends, also, she declared how great a value she put upon this favor,
+who partly disbelieved the thing, when they reflected on its nature, and
+partly were amazed at it, as having no pretense for not believing it, when
+they considered the modesty and the dignity of the person. But now, on
+the third day after what had been done, Mundus met Paulina, and said, <q rend="double">Nay,
+Paulina, thou hast saved me two hundred thousand drachmae, which sum thou
+sightest have added to thy own family; yet hast thou not failed to be at
+my service in the manner I invited thee. As for the reproaches thou hast
+laid upon Mundus, I value not the business of names; but I rejoice in the
+pleasure I reaped by what I did, while I took to myself the name of Anubis.</q>
+When he had said this, he went his way. But now she began to come to the
+sense of the grossness of what she had done, and rent her garments, and
+told her husband of the horrid nature of this wicked contrivance, and prayed
+him not to neglect to assist her in this case. So he discovered the fact
+to the emperor; whereupon Tiberius inquired into the matter thoroughly
+by examining the priests about it, and ordered them to be crucified, as
+well as Ide, who was the occasion of their perdition, and who had contrived
+the whole matter, which was so injurious to the woman. He also demolished
+the temple of Isis, and gave order that her statue should be thrown into
+the river Tiber; while he only banished Mundus, but did no more to him,
+because he supposed that what crime he had committed was done out of the
+passion of love. And these were the circumstances which concerned the temple
+of Isis, and the injuries occasioned by her priests. I now return to the
+relation of what happened about this time to the Jews at Rome, as I formerly
+told you I would.</p></div>
+</div>
+  
+</div>
+</body></text></TEI>

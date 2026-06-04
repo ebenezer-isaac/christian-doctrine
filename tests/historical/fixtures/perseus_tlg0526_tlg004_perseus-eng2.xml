@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+	<title>The Wars of the Jews</title>
+	<author xml:lang="lat">Flavius Josephus</author>
+	<editor role="translator">William Whiston</editor>
+      	<sponsor>Perseus Project, Tufts University</sponsor>
+      	<principal>Gregory Crane</principal>
+      	<respStmt>
+      <resp>Prepared under the supervision of</resp>
+      <name>Lisa Cerrato</name>
+      <name>David Smith</name>
+      	</respStmt>
+      	<funder n="org:Tufts">Tufts University</funder>
+      </titleStmt>
+    	<publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="1997-12-01" cert="medium">Perseus 3.0</date>
+    <idno type="filename">tlg0526.tlg004.perseus-eng2.xml</idno>
+    <availability>
+    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence> 
+    </availability>
+    	</publicationStmt>
+
+      	<sourceDesc>
+      <biblStruct>
+      	<monogr>
+      <title>The Works of Flavius Josephus</title>
+      <author xml:lang="lat">Flavius Josephus</author>
+      <editor role="translator">William Whiston</editor>     
+      <imprint>
+      	<pubPlace>Auburn and Rochester, NY</pubPlace>
+      	<publisher>Alden and Beardsley</publisher>
+      	<date>1856</date>
+      </imprint>
+      	</monogr>
+      	<ref target="https://archive.org/details/worksofflaviusj00joseuoft/page/551/mode/2up">Internet Archive</ref>
+      </biblStruct>
+      	</sourceDesc>
+    </fileDesc>
+
+    
+    <encodingDesc>
+    	<refsDecl n="CTS">
+    		<cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])" n="section">
+    			<p>This pointer pattern extracts book and section.</p>
+    		</cRefPattern>
+    		<cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="section">
+    			<p>This pointer pattern extracts section.</p>
+    		</cRefPattern>
+    	</refsDecl>
+      
+    </encodingDesc>
+    
+    <profileDesc>
+    	<langUsage>
+    <language ident="eng">English </language>
+    <language ident="lat">Latin </language>
+    	</langUsage>
+    </profileDesc>
+	
+<revisionDesc>
+<change when="2024-09-30" who="Lisa Cerrato">EpiDoc and CTS Conversion</change>
+<change when="2009-11-24" who="rsingh04">moved more xml files around based on copyright status</change>
+<change when="2006-02-10" who="packel">places/dates now actually tagged</change>
+<change when="2005-08-01" who="packel">removed stray item tags</change>	
+<change when="2005-07-25" who="packel">Converted to XML</change>
+<change when="2005-03-30" who="packel">fixed milestone units</change>
+<change when="2004-01-29" who="dasmith">Tag long book headings as summary NOTEs since they don't align with the Greek.</change>	
+<change when="2003-07-01" who="yorkc">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
+<change when="2000-05-04" who="amahoney">fix language id</change>
+<change when="2000-03-15" who="amahoney">remove spurious empty notes</change>	
+<change when="2000-03-08" who="dasmith">Funded by Tufts, not NEH.</change>
+<change when="2000-03-04" who="dasmith">Added separate funder entity to TEI header.</change>
+<change when="2000-03-01" who="dasmith">Moved unnecessary initial header to TEI header.</change> 
+<change when="2000-01-31" who="dasmith">Use ED attribute in STATE.</change> 
+<change when="1999-10-21" who="dasmith">Book summaries are now heads.</change> 
+<change when="1999-08-04" who="dasmith">Mark chunking milestones.</change> 
+<change when="1999-07-20" who="dasmith">Regularized refsDecl</change> 
+<change when="1997-11-21" who="textgod">Added to repository. Passed SGML parse. Lined up sections.</change>  
+</revisionDesc>	
+</teiHeader>
+	
+<text>
+<body>
+<div type="translation" n="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2" xml:lang="eng"> 
+<div type="textpart" subtype="book" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2" n="1">
+<head rend="align(center)">Book I <lb /> CONTAINING THE INTERVAL OF ONE HUNDRED AND SIXTY-SEVEN YEARS. FROM THE TAKING OF JERUSALEM BY ANTIOCHUS EPIPHANES, TO THE DEATH OF HEROD THE GREAT.</head> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="1"> 
+<head rend="align(center)">PREFACE</head> 
+<milestone n="pr." unit="Whiston_chapter" />
+<milestone n="1" unit="Whiston_section" />
+<p><note resp="editor">I have already observed more than once, that this History of the Jewish War was Josephus's first work, and published about A.D. <date when="0075">75</date>, when he was but thirty-eight years of age; and that when he wrote it, he was not thoroughly acquainted with several circumstances of history from the days of Antiochus Epiphanes, with which it begins, till near his own times, contained in the first and former part of the second book, and so committed many involuntary errors therein. That he published his Antiquities eighteen years afterward, in the thirteenth year of Domitian, A.D. <date when="0093">93</date>, when he was much more completely acquainted with those ancient times, and after he had perused those most authentic histories, the First Book of Maccabees, and the Chronicles of the Priesthood of John Hyrcanus, etc. That accordingly he then reviewed those parts of this work, and gave the public a more faithful, complete, and accurate account of the facts therein related; and honestly corrected the errors he bad before run into.</note> WHEREAS the war which the Jews made with the Romans hath been the greatest of all those, not only that have been in our times, but, in a manner, of those that ever were heard of; both of those wherein cities have fought against cities, or nations against nations; while some men who were not concerned in the affairs themselves have gotten together vain and contradictory stories by hearsay, and have written them down after a sophistical manner; and while those that were there present have given false accounts of things, and this either out of a humor of flattery to the Romans, or of hatred towards the Jews; and while their writings contain sometimes accusations, and sometimes encomiums, but no where the accurate truth of the facts; I have proposed to myself, for the sake of such as live under the government of the Romans, to translate those books into the Greek tongue, which I formerly composed in the language of our country, and sent to the Upper Barbarians; <note resp="editor">Who these Upper Barbarians, remote from the sea, were, Josephus himself will inform us, sect. 2, viz. the Parthians and Babylonians, and remotest Arabians [of the Jews among them]; besides the Jews beyond <placeName key="tgn,1123842">Euphrates</placeName>, and the Adiabeni, or Assyrians. Whence we also learn that these Parthians, Babylonians, the remotest Arabians, [or at least the Jews among them,] as also the Jews beyond <placeName key="tgn,1123842">Euphrates</placeName>, and the Adiabeni, or Assyrians, understood Josephus's Hebrew, or rather Chaldaic, books of The Jewish War, before they were put into the Greek language.</note> Joseph, the son of Matthias, by birth a Hebrew, a priest also, and one who at first fought against the Romans myself, and was forced to be present at what was done afterwards, [am the author of this work].</p></div> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="4">
+<milestone unit="Whiston_section" n="2" />
+<p>Now at the time when this great concussion of affairs happened, the affairs of the Romans were themselves in great disorder. Those Jews also who were for innovations, then arose when the times were disturbed; they were also in a flourishing condition for strength and riches, insomuch that the affairs of the East were then exceeding tumultuous, while some hoped for gain, and others were afraid of loss in such troubles; for the Jews hoped that all of their nation which were beyond <placeName key="tgn,1123842">Euphrates</placeName> would have raised an insurrection together with them. The Gauls also, in the neighborhood of the Romans, were in motion, and the Geltin were not quiet; but all was in disorder after the death of Nero. And the opportunity now offered induced many to aim at the royal power; and the soldiery affected change, out of the hopes of getting money. I thought it therefore an absurd thing to see the truth falsified in affairs of such great consequence, and to take no notice of it; but to suffer those Greeks and Romans that were not in the wars to be ignorant of these things, and to read either flatteries or fictions, while the Parthians, and the Babylonians, and the remotest Arabians, and those of our nation beyond <placeName key="tgn,1123842">Euphrates</placeName>, with the Adiabeni, by my means, knew accurately both whence the war begun, what miseries it brought upon us, and after what manner it ended.</p></div> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="7">
+<milestone unit="Whiston_section" n="3" />
+<p>It is true, these writers have the confidence to call their accounts histories; wherein yet they seem to me to fail of their own purpose, as well as to relate nothing that is sound. For they have a mind to demonstrate the greatness of the Romans, while they still diminish and lessen the actions of the Jews, as not discerning how it cannot be that those must appear to be great who have only conquered those that were little. Nor are they ashamed to overlook the length of the war, the multitude of the Roman forces who so greatly suffered in it, or the might of the commanders, whose great labors about <placeName key="tgn,7001371">Jerusalem</placeName> will be deemed inglorious, if what they achieved be reckoned but a small matter.</p></div> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="9">
+<milestone unit="Whiston_section" n="4" />
+<p>However, I will not go to the other extreme, out of opposition to those men who extol the Romans nor will I determine to raise the actions of my countrymen too high; but I will prosecute the actions of both parties with accuracy. Yet shall I suit my language to the passions I am under, as to the affairs I describe, and must be allowed to indulge some lamentations upon the miseries undergone by my own country. For that it was a seditious temper of our own that destroyed it, and that they were the tyrants among the Jews who brought the Roman power upon us, who unwillingly attacked us, and occasioned the burning of our holy temple, Titus Caesar, who destroyed it, is himself a witness, who, daring the entire war, pitied the people who were kept under by the seditious, and did often voluntarily delay the taking of the city, and allowed time to the siege, in order to let the authors have opportunity for repentance. But if any one makes an unjust accusation against us, when we speak so passionately about the tyrants, or the robbers, or sorely bewail the misfortunes of our country, let him indulge my affections herein, though it be contrary to the rules for writing history; because it had so come to pass, that our city <placeName key="tgn,7001371">Jerusalem</placeName> had arrived at a higher degree of felicity than any other city under the Roman government, and yet at last fell into the sorest of calamities again. Accordingly, it appears to me that the misfortunes of all men, from the beginning of the world, if they be compared to these of the Jews <note resp="editor">That these calamities of the Jews, who were our Savior's murderers, were to be the greatest that had ever been sence the beginning of the world, our Savior had directly foretold, Matthew 24:21; Mark 13:19; Luke 21:23, 24; and that they proved to be such accordingly, Josephus is here a most authentic witness.</note> are not so considerable as they were; while the authors of them were not foreigners neither. This makes it impossible for me to contain my lamentations. But if any one be inflexible in his censures of me, let him attribute the facts themselves to the historical part, and the lamentations to the writer himself only.</p></div> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="13">
+<milestone unit="Whiston_section" n="5" />
+<p>However, I may justly blame the learned men among the Greeks, who, when such great actions have been done in their own times, which, upon the comparison, quite eclipse the old wars, do yet sit as judges of those affairs, and pass bitter censures upon the labors of the best writers of antiquity; which moderns, although they may be superior to the old writers in eloquence, yet are they inferior to them in the execution of what they intended to do. While these also write new histories about the Assyrians and Medes, as if the ancient writers had not described their affairs as they ought to have done; although these be as far inferior to them in abilities as they are different in their notions from them. For of old every one took upon them to write what happened in his own time; where their immediate concern in the actions made their promises of value; and where it must be reproachful to write lies, when they must be known by the readers to be such. But then, an undertaking to preserve the memory Of what hath not been before recorded, and to represent the affairs of one's own time to those that come afterwards, is really worthy of praise and commendation. Now he is to be esteemed to have taken good pains in earnest, not who does no more than change the disposition and order of other men's works, but he who not only relates what had not been related before, but composes an entire body of history of his own: accordingly, I have been at great charges, and have taken very great pains [about this history], though I be a foreigner; and do dedicate this work, as a memorial of great actions, both to the Greeks and to the Barbarians. But for some of our own principal men, their mouths are wide open, and their tongues loosed presently, for gain and law-suits, but quite muzzled up when they are to write history, where they must speak truth and gather facts together with a great deal of pains; and so they leave the writing such histories to weaker people, and to such as are not acquainted with the actions of princes. Yet shall the real truth of historical facts be preferred by us, how much soever it be neglected among the Greek historians.</p></div> 
+<div type="textpart" subtype="section" xml:base="urn:cts:greekLit:tlg0526.tlg004.perseus-eng2:1" n="17">
+<milestone unit="Whiston_section" n="6" />
+<p>To write concerning the Antiquities of the Jews, who they were [originally], and how they revolted from the Egyptians, and what country they traveled over, and what countries they seized upon afterward, and how they were removed out of them, I think this not to be a fit opportunity, and, on other accounts, also superfluous; and this because many Jews before me have composed the histories of our ancestors very exactly; as have some of the Greeks done it also, and have translated our histories into their own tongue, and have not much mistaken the truth in their histories. But then, where the writers of these affairs and our prophets leave off, thence shall I take my rise, and begin my history. Now as to what concerns that war which happened in my own time, I will go over it very largely, and with all the diligence I am able; but for what preceded mine own age, that I shall run over briefly.</p></div> 
+</div>
+
+</div>
+</body></text></TEI>
