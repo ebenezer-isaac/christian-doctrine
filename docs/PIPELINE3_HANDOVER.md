@@ -57,12 +57,11 @@ disagree.
   array on its chunks, so `bd_mcp/live/cultural.py` derives `stance: None` for every
   chunk (it never invents a stance). Cultural stance attribution stays None until
   the autotag pass populates the tags.
-- **`cul_col` collection-name typo at `retrieval/hybrid.py:87`.** The cultural
-  branch of `HybridRetriever._collection` reads `"cul_col"` where the live cultural
-  collection is `cult_col`. Any cultural retrieval path that goes through
-  `HybridRetriever` (rather than `bd_mcp/live/cultural.py`, which uses the correct
-  name) will miss the collection. Fix before wiring cultural retrieval through the
-  hybrid retriever.
+- **`cul_col` collection-name typo at `retrieval/hybrid.py:87`. FIXED 2026-06-04.**
+  The cultural branch of `HybridRetriever._collection` read `"cul_col"` where the
+  live cultural collection is `cult_col`. Corrected to `cult_col`, and the two
+  `tests/retrieval/test_hybrid.py` cases that had codified the wrong name updated
+  to match. `bd_mcp/live/cultural.py` was already using the correct name.
 
 ---
 

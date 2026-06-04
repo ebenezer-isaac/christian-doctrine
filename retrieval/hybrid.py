@@ -84,7 +84,7 @@ class HybridRetriever:
         self._qdrant = qdrant_client
         self._neo4j = neo4j_driver
         self._voyage = voyage_client
-        self._collection = "lex_col" if store == "lexical" else "cul_col"
+        self._collection = "lex_col" if store == "lexical" else "cult_col"
 
     def _embed_dense(self, query: str) -> list[float]:
         if self._voyage is None:

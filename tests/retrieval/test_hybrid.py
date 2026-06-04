@@ -111,7 +111,7 @@ def test_lexical_retriever_only_hits_lexical_collection() -> None:
     qdrant = _MockQdrant(
         dense={
             "lex_col": [_MockPoint("p1", 1.0, "lex")],
-            "cul_col": [_MockPoint("p2", 1.0, "cul")],
+            "cult_col": [_MockPoint("p2", 1.0, "cul")],
         },
         sparse={"lex_col": []},
     )
@@ -124,10 +124,10 @@ def test_lexical_retriever_only_hits_lexical_collection() -> None:
 def test_cultural_retriever_only_hits_cultural_collection() -> None:
     qdrant = _MockQdrant(
         dense={
-            "cul_col": [_MockPoint("p1", 1.0, "cul")],
+            "cult_col": [_MockPoint("p1", 1.0, "cul")],
             "lex_col": [_MockPoint("p2", 1.0, "lex")],
         },
-        sparse={"cul_col": []},
+        sparse={"cult_col": []},
     )
     r = HybridRetriever("cultural", _settings(), qdrant_client=qdrant, voyage_client=_MockVoyage())
     out = r.retrieve("q", k=5)
