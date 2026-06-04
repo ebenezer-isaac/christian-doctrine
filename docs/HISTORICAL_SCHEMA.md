@@ -185,7 +185,7 @@ cd         # Damascus Document
 11qpsa
 ```
 
-Other Qumran sigla allowed under the convention `<provenance><cave>Q<number>` (e.g., `4q174` for Florilegium). The validator accepts any slug matching `^\d?Q[a-z0-9-]+$` for Qumran in addition to the named list.
+Other Qumran sigla allowed under the convention `<cave>Q<number>` (e.g., `4q174` for Florilegium, `11q19` for the Temple Scroll). The cave number is one or two digits (caves 1 through 11). The validator accepts any slug matching `^\d{1,2}Q[a-z0-9-]+$` for Qumran in addition to the named list.
 
 ### Anchor-id patterns per source
 
