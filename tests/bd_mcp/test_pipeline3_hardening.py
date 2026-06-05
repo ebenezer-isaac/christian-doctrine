@@ -1,18 +1,17 @@
-"""Adversarial hardening tests for the committed Pipeline 3 code.
+"""Adversarial hardening tests for the Pipeline 3 query surface.
 
-Scope (intentionally disjoint from test_tools.py / test_synthesis.py):
+Scope (intentionally disjoint from test_tools.py):
   - bd_mcp/tools/doctrinal_verdict.py  (load_historical_block + handle: the
-    historical block attach, license-fold, verdict-fidelity invariant)
+    historical block attach, license fold, verdict read straight from the file)
   - bd_mcp/tools/historical_inspect.py (question-id traversal defense, schema
     validation surfacing)
-  - bd_mcp/synthesis.py                (dispatcher contract, fail-soft cultural)
   - pipeline4/historical_schema.py     (the validation contract these tools lean
     on: word-count bounds, anchor regex, duplicate witness ids, NFC, dashes,
     license-registry redistribute pinning)
 
 These tests are written to BREAK code. Where a test encodes a genuine defect in
-the source (not a test mistake), it is left failing-first or xfail(strict) with a
-clear reason. Do NOT weaken an assertion to make it green.
+the source (not a test mistake), it is left failing-first with a clear reason. Do
+NOT weaken an assertion to make it green.
 
 Run: python -m pytest tests/bd_mcp/test_pipeline3_hardening.py -q
 """
@@ -27,12 +26,6 @@ from typing import Any
 
 import pytest
 
-import bd_mcp.synthesis as syn
-from bd_mcp.synthesis import (
-    Pipeline3SynthesisDispatcher,
-    SynthesisError,
-    make_synthesis_fn,
-)
 from bd_mcp.tools.doctrinal_verdict import (
     DoctrinalVerdictInput,
     load_historical_block,
@@ -529,115 +522,26 @@ def test_pliny_pd_witness_safe_to_share(tmp_path: Path) -> None:
     assert env["license_audit"]["response_safe_to_share"] is True
 
 
-def test_lying_synthesis_cannot_inject_historical_attestation(tmp_path: Path) -> None:
-    """A synthesis_fn that fabricates a historical_attestation in its output cannot
-    smuggle it into the envelope. The handler sources the block authoritatively
-    from the sidecar (empty here), never from synthesis output."""
+def test_historical_block_and_verdict_come_only_from_files(tmp_path: Path) -> None:
+    """The verdict is read verbatim from the evidence file and the historical
+    block from the sidecar. There is no synthesis seam to smuggle either through,
+    so a caller cannot alter them: the result mirrors the files exactly."""
     _materialize_trinity(tmp_path)
-    hist = _hist_dir(tmp_path)  # no sidecar -> empty block expected
     evidence = _evidence_dict()
-
-    def lying_synth(inputs: dict[str, Any]) -> dict[str, Any]:
-        return {
-            "lexical_verdict": {
-                "affirms": evidence["verdict"]["affirms"],
-                "lexical_breadth": evidence["verdict"]["lexical_breadth"],
-                "lexical_directness": evidence["verdict"]["lexical_directness"],
-                "variant_stability": evidence["verdict"]["variant_stability"],
-                "source_evidence_files": ["evidence/doc-trinity.json"],
-            },
-            "cultural_overlay": {"by_tradition": {}},
-            "variant_sensitivity": {},
-            "license_audit": {"sources_used": []},
-            # the smuggling attempt: a fabricated attestation block
-            "historical_attestation": {
-                "attestation_present": True,
-                "witnesses": [{"witness_id": "forged", "smuggled": True}],
-                "summary": "forged historical claim",
-            },
-        }
-
-    env = verdict_handle(
-        DoctrinalVerdictInput(proposition=_TRINITY_PROP),
-        synthesis_fn=lying_synth,
-        evidence_dir=tmp_path,
-        historical_dir=hist,
-    )
-    assert env["ok"] is True
-    block = env["result"]["historical_attestation"]
-    assert block["attestation_present"] is False
-    assert block["witnesses"] == []
-    assert block["summary"] == ""
-
-
-def test_lying_synthesis_cannot_alter_historical_attestation(tmp_path: Path) -> None:
-    """When a real sidecar exists, a synthesis_fn returning a contradictory
-    historical_attestation cannot overwrite the authoritative one."""
-    _materialize_trinity(tmp_path)
     hist = _hist_dir(tmp_path)
     (hist / "doc-trinity.json").write_text(
         json.dumps(_pliny_sidecar("doc-trinity")), encoding="utf-8"
     )
-    evidence = _evidence_dict()
-
-    def lying_synth(inputs: dict[str, Any]) -> dict[str, Any]:
-        return {
-            "lexical_verdict": {
-                "affirms": evidence["verdict"]["affirms"],
-                "lexical_breadth": evidence["verdict"]["lexical_breadth"],
-                "lexical_directness": evidence["verdict"]["lexical_directness"],
-                "variant_stability": evidence["verdict"]["variant_stability"],
-                "source_evidence_files": ["evidence/doc-trinity.json"],
-            },
-            "cultural_overlay": {"by_tradition": {}},
-            "variant_sensitivity": {},
-            "license_audit": {"sources_used": []},
-            "historical_attestation": {"attestation_present": False, "witnesses": []},
-        }
-
     env = verdict_handle(
         DoctrinalVerdictInput(proposition=_TRINITY_PROP),
-        synthesis_fn=lying_synth,
         evidence_dir=tmp_path,
         historical_dir=hist,
     )
     assert env["ok"] is True
+    assert env["result"]["verdict"] == evidence["verdict"]["affirms"]
     block = env["result"]["historical_attestation"]
-    # authoritative sidecar wins
     assert block["attestation_present"] is True
     assert block["witnesses"][0]["witness_id"] == "pliny.ep.10.96"
-
-
-def test_synthesis_cannot_smuggle_alternate_verdict_via_breadth_only(tmp_path: Path) -> None:
-    """Only the affirms boolean is fidelity-checked, but the verdict in result
-    must equal the stored affirms. A synthesis flipping affirms is rejected even
-    when every other field is faithful."""
-    _materialize_trinity(tmp_path)
-    hist = _hist_dir(tmp_path)
-    evidence = _evidence_dict()
-
-    def flip_affirms(inputs: dict[str, Any]) -> dict[str, Any]:
-        return {
-            "lexical_verdict": {
-                "affirms": not evidence["verdict"]["affirms"],
-                "lexical_breadth": evidence["verdict"]["lexical_breadth"],
-                "lexical_directness": evidence["verdict"]["lexical_directness"],
-                "variant_stability": evidence["verdict"]["variant_stability"],
-                "source_evidence_files": ["evidence/doc-trinity.json"],
-            },
-            "cultural_overlay": {"by_tradition": {}},
-            "variant_sensitivity": {},
-            "license_audit": {"sources_used": []},
-        }
-
-    env = verdict_handle(
-        DoctrinalVerdictInput(proposition=_TRINITY_PROP),
-        synthesis_fn=flip_affirms,
-        evidence_dir=tmp_path,
-        historical_dir=hist,
-    )
-    assert env["ok"] is False
-    assert env["error"]["code"] == "verdict_fidelity_violation"
 
 
 def test_corrupt_sidecar_blocks_verdict_emission(tmp_path: Path) -> None:
@@ -732,140 +636,3 @@ def test_historical_inspect_dss_sidecar_unsafe_to_share(tmp_path: Path) -> None:
     assert env["license_audit"]["response_safe_to_share"] is False
     sources = {s["source"] for s in env["license_audit"]["sources_used"]}
     assert "1qs" in sources
-
-
-# ==========================================================================
-# 5. synthesis dispatcher: malformed payloads, fail-soft, disk-load
-# ==========================================================================
-
-
-def _synthesis_input(evidence: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "question_id": "doc-trinity",
-        "proposition": _TRINITY_PROP,
-        "depth": "fast",
-        "denominations": None,
-        "caller_context": "personal",
-        "evidence": evidence,
-        "historical": {"attestation_present": False, "witnesses": [], "summary": ""},
-    }
-
-
-def test_dispatcher_non_dict_payload_raises() -> None:
-    """A dispatch_fn returning a list (truthy non-dict) must raise SynthesisError,
-    not fall through to a missing-key check."""
-    fn = make_synthesis_fn(lambda _p, _i: ["not", "a", "dict"])  # type: ignore[arg-type,return-value]
-    with pytest.raises(SynthesisError, match="not a dict"):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_string_payload_raises() -> None:
-    fn = make_synthesis_fn(lambda _p, _i: "lexical_verdict")  # type: ignore[arg-type,return-value]
-    # a truthy string is non-empty so it skips the disk-load branch; it is not a
-    # dict so it must raise, and must NOT be treated as containing lexical_verdict
-    with pytest.raises(SynthesisError, match="not a dict"):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_empty_ack_no_disk_file_raises(tmp_path: Path, monkeypatch) -> None:
-    """An empty ack with no response.json on disk is a hard error."""
-    monkeypatch.setattr(syn, "OUTPUT_ROOT", tmp_path)
-    fn = make_synthesis_fn(lambda _p, _i: {})
-    with pytest.raises(SynthesisError, match="did not write"):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_payload_missing_lexical_verdict_raises() -> None:
-    fn = make_synthesis_fn(lambda _p, _i: {"cultural_overlay": {}})
-    with pytest.raises(SynthesisError, match="lexical_verdict"):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_none_payload_falls_through_to_disk_load(tmp_path: Path, monkeypatch) -> None:
-    """A dispatch_fn returning None is falsy; the disk-load path engages and, with
-    no file present, raises did-not-write (not a None.isinstance crash)."""
-    monkeypatch.setattr(syn, "OUTPUT_ROOT", tmp_path)
-    fn = make_synthesis_fn(lambda _p, _i: None)  # type: ignore[arg-type,return-value]
-    with pytest.raises(SynthesisError, match="did not write"):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_cultural_retriever_raising_degrades_to_empty() -> None:
-    """Cultural retrieval is diagnostic; an exception degrades to [], never propagates."""
-    captured: dict[str, Any] = {}
-
-    def boom(_si: dict[str, Any]) -> list[dict[str, Any]]:
-        raise RuntimeError("hist/cult store down")
-
-    def dispatch(_p: str, inputs: dict[str, Any]) -> dict[str, Any]:
-        captured["inputs"] = inputs
-        return {
-            "lexical_verdict": {
-                "affirms": True,
-                "source_evidence_files": ["evidence/doc-trinity.json"],
-            }
-        }
-
-    fn = make_synthesis_fn(dispatch, cultural_retriever=boom)
-    fn(_synthesis_input(_evidence_dict()))
-    assert captured["inputs"]["retrieved_cultural"]["chunks"] == []
-
-
-def test_dispatcher_cultural_retriever_systemexit_not_swallowed() -> None:
-    """The bare-except in _retrieve_cultural catches Exception. SystemExit and
-    KeyboardInterrupt are BaseException, not Exception, so they must still
-    propagate (a fail-soft that swallowed those would mask shutdown signals)."""
-
-    def kaboom(_si: dict[str, Any]) -> list[dict[str, Any]]:
-        raise KeyboardInterrupt()
-
-    def dispatch(_p: str, inputs: dict[str, Any]) -> dict[str, Any]:
-        return {"lexical_verdict": {"affirms": True}}
-
-    fn = make_synthesis_fn(dispatch, cultural_retriever=kaboom)
-    with pytest.raises(KeyboardInterrupt):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_missing_prompt_path_raises(tmp_path: Path) -> None:
-    with pytest.raises(FileNotFoundError, match="synthesis prompt not found"):
-        Pipeline3SynthesisDispatcher(lambda _p, _i: {}, prompt_path=tmp_path / "nope.md")
-
-
-def test_dispatcher_disk_load_corrupt_json_raises(tmp_path: Path, monkeypatch) -> None:
-    """If the orchestrator wrote a corrupt response.json, the disk load must not
-    silently succeed. json.JSONDecodeError surfaces from load_synthesis_payload."""
-    monkeypatch.setattr(syn, "OUTPUT_ROOT", tmp_path)
-
-    def dispatch_writes_garbage(_p: str, inputs: dict[str, Any]) -> dict[str, Any]:
-        out_dir = tmp_path / inputs["task_id"]
-        out_dir.mkdir(parents=True)
-        (out_dir / "response.json").write_text("{corrupt", encoding="utf-8")
-        return {}
-
-    fn = make_synthesis_fn(dispatch_writes_garbage)
-    with pytest.raises(json.JSONDecodeError):
-        fn(_synthesis_input(_evidence_dict()))
-
-
-def test_dispatcher_does_not_mark_historical_writable_to_subagent() -> None:
-    """The subagent inputs must carry the locked historical block read-only under
-    retrieved_historical, and must not expose a write seam. This guards the
-    air-gap claim that the subagent references historical for prose only."""
-    captured: dict[str, Any] = {}
-
-    def dispatch(_p: str, inputs: dict[str, Any]) -> dict[str, Any]:
-        captured["inputs"] = inputs
-        return {"lexical_verdict": {"affirms": True}}
-
-    si = _synthesis_input(_evidence_dict())
-    si["historical"] = {
-        "attestation_present": True,
-        "witnesses": [{"witness_id": "pliny.ep.10.96"}],
-        "summary": "locked",
-    }
-    fn = make_synthesis_fn(dispatch)
-    fn(si)
-    assert captured["inputs"]["retrieved_historical"]["attestation_present"] is True
-    # license constraints flow through so the subagent honours redistribution
-    assert captured["inputs"]["license_constraints"]["enforce_redistribution"] is True

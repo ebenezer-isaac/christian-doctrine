@@ -271,6 +271,47 @@ def _dense_search(
     return out
 
 
+def build_cultural_clients(
+    settings: Any | None = None,
+) -> tuple[Any | None, Any | None]:
+    """Construct the cultural Qdrant client and the voyage client, or (None, None).
+
+    Built once at server startup and reused across requests (the FastMCP lifespan
+    holds them). Fail-soft: a missing url or key, or an unavailable dependency,
+    yields None for that client and the cultural overlay degrades to empty.
+    Air-gap: reads only the cultural Qdrant url and the voyage key.
+    """
+    if settings is None:
+        try:
+            from retrieval.hybrid import RetrievalSettings
+
+            settings = RetrievalSettings()
+        except Exception:
+            return None, None
+    qdrant_url = getattr(settings, "qdrant_cultural_url", "") or ""
+    voyage_key = getattr(settings, "voyage_api_key", "") or ""
+
+    qdrant_client: Any | None = None
+    if qdrant_url:
+        try:
+            from qdrant_client import QdrantClient
+
+            qdrant_client = QdrantClient(url=qdrant_url)
+        except Exception:
+            qdrant_client = None
+
+    voyage_client: Any | None = None
+    if voyage_key:
+        try:
+            import voyageai
+
+            voyage_client = voyageai.Client(api_key=voyage_key)  # type: ignore[attr-defined]
+        except Exception:
+            voyage_client = None
+
+    return qdrant_client, voyage_client
+
+
 def retrieve_cultural_chunks(
     doctrine: str | None = None,
     ref: str | None = None,

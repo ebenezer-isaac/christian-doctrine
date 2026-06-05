@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field, model_validator
 
+from bd_mcp.runtime import lexical_session
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 
 TOOL_NAME = "concordance_walk"
@@ -128,9 +130,10 @@ def handle(payload: ConcordanceWalkInput, neo4j_session: Any | None = None) -> d
     )
 
 
-def register(server: Any, session_factory: Any | None = None) -> None:
+def register(server: Any) -> None:
     @server.tool(name=TOOL_NAME, description="Concordance walk over a Strong's code or lemma.")
     def _tool(
+        ctx: Context,
         strong: str | None = None,
         lemma: str | None = None,
         window: int = 5,
@@ -146,10 +149,5 @@ def register(server: Any, session_factory: Any | None = None) -> None:
             limit=limit,
             caller_context=caller_context,
         )
-        if session_factory is None:
-            return handle(payload)
-        try:
-            with session_factory() as session:
-                return handle(payload, neo4j_session=session)
-        except Exception:  # noqa: BLE001  degrade to empty when the lexical store is unreachable
-            return handle(payload)
+        with lexical_session(ctx) as session:
+            return handle(payload, neo4j_session=session)

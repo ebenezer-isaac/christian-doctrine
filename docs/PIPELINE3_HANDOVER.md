@@ -1,4 +1,33 @@
-# Pipeline 3 (MCP query + synthesis) handover
+# Pipeline 3 (self-contained MCP query surface) handover
+
+## Complete and refactored (2026-06-05)
+
+Pipeline 3 is COMPLETE. It was refactored to a self-contained, single-MCP design:
+
+- **No synthesis subagent.** The server does NO synthesis and calls NO LLM. There
+  is no `synthesis_fn`, no `make_synthesis_fn`, no dispatcher, and no
+  `pipeline3_synthesis` phase prompt. The deleted pieces were `bd_mcp/synthesis.py`,
+  the synthesis dispatch seam, and the verdict-fidelity-violation error (the
+  verdict is read straight from the evidence file, so it cannot drift and there is
+  nothing to re-check).
+- **`doctrinal_verdict` returns three structured blocks** side by side: the lexical
+  verdict (authoritative, read verbatim from `evidence/<id>.json`), the cultural
+  overlay (retrieved live from `cult_col` and formatted by tradition), and the
+  historical attestation (read from `historical/<id>.json`). The calling model (the
+  MCP client) reasons over the three; the server only assembles structured data.
+- **Lifespan + Context.** Store connections live on a FastMCP `lifespan`
+  (`bd_mcp/runtime.py`), opened at startup and reached by each tool through the
+  injected `Context`. There is no "inject to be functional" duality:
+  `python -m bd_mcp.server` is fully functional with all 12 tools live, and
+  `build_server()` takes no injector arguments.
+- The pure handler is
+  `doctrinal_verdict.handle(payload, *, evidence_dir=None, historical_dir=None, cultural_chunks=None)`;
+  the tool's `register()` retrieves the cultural chunks via the lifespan and passes
+  them in. The end-to-end smoke harness is `scripts/pipeline3_smoke.py`.
+
+The detailed status block and the original hand-off below are preserved for
+history; where they describe the now-removed synthesis subagent or the
+"injectors built but not wired" state, this note is the current truth.
 
 ## Implementation status (2026-06-04)
 
@@ -166,22 +195,14 @@ lemmas, cross-refs, variant units keyed on `Verse.id`, Louw-Nida neighbors). Key
 invariant: lexical tools touch the lexical store ONLY. `variant_inspect` stays a
 stub returning `ecm_published: false` except for 3 John (the only ECM in scope).
 
-### D. Wire the synthesis subagent dispatch.
+### D. Wire the synthesis subagent dispatch. SUPERSEDED (see the 2026-06-05 note above).
 
-`doctrinal_verdict.handle(synthesis_fn=...)` is the injection point. Implement a
-`synthesis_fn` that dispatches an Opus subagent using the canonical prompt at
-`docs/phase_prompts/pipeline3_synthesis.md`, exactly mirroring the Pipeline 2 and
-Pipeline 4 dispatcher pattern (`pipeline2/dispatcher.py`, an injected
-`dispatch_fn`, no programmatic Anthropic API). The subagent reads: the locked
-`evidence/<id>.json`, the retrieved cultural chunks (B), and the historical
-sidecar (A), and writes `tmp/pipeline3_synthesis/<task_id>/response.json` in the
-shape documented in `docs/MCP_TOOLS.md` "Synthesis-subagent output". The handler
-transforms that to the envelope.
-
-Hard rule to preserve: **verdict fidelity**. `result.verdict` must equal
-`evidence[<id>].verdict.affirms`. The handler already asserts this and returns
-`verdict_fidelity_violation` on mismatch. Re-deriving the verdict at query time
-is forbidden; Pipeline 3 is retrieval + synthesis only.
+This step is no longer applicable. The refactor removed the synthesis subagent
+entirely: there is no `synthesis_fn` injection point, no dispatcher, and no
+`pipeline3_synthesis` phase prompt. `doctrinal_verdict` returns the three
+structured blocks directly and the calling model synthesizes. The verdict is read
+verbatim from `evidence/<id>.json`, so verdict fidelity holds by construction and
+there is no `verdict_fidelity_violation` to raise.
 
 ### E. End-to-end smoke.
 
@@ -193,8 +214,8 @@ notifications fire for the long-running path.
 ## Invariants you must not break
 
 - Air-gap at query time: lexical tools never read cultural or historical stores.
-  Synthesis reads all three as separate blocks with separate license stacks,
-  never a single fused index.
+  `doctrinal_verdict` reads all three as separate blocks with separate license
+  stacks, never a single fused index.
 - Historical and cultural are diagnostic; neither changes the lexical verdict.
 - License guard: snippet caps under `personal`, paraphrase under `public-share`,
   exclude under `export` for any `redistribute: false` chunk (DSS, BHSA,
@@ -203,11 +224,12 @@ notifications fire for the long-running path.
 
 ## Pointers
 
-- Contracts: `docs/MCP_TOOLS.md` (11 tools), `docs/phase_prompts/pipeline3_synthesis.md`
-  (synthesis subagent), `docs/ARCHITECTURE.md` Layer 7 / Pipeline 3 walkthrough.
-- Patterns to mirror: `pipeline2/dispatcher.py` + `pipeline4/dispatcher.py`
-  (injected dispatch_fn), `pipeline4/context_builder.py` (store retrieval +
-  graceful degradation), `embeddings/embed_cultural.py` (cult_col).
+- Contracts: `docs/MCP_TOOLS.md` (12 tools), `docs/ARCHITECTURE.md` Layer 7 /
+  Pipeline 3 walkthrough. There is no synthesis phase prompt; the server returns
+  structured data and the calling model synthesizes.
+- Patterns to mirror: `bd_mcp/runtime.py` (the FastMCP lifespan that holds the
+  store connections), `pipeline4/context_builder.py` (store retrieval + graceful
+  degradation), `embeddings/embed_cultural.py` (cult_col).
 - Output schemas: `pipeline4/historical_schema.py` (HistoricalAttestation),
   `pipeline2/evidence_schema.py` (Evidence).
 

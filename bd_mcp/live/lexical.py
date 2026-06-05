@@ -1,10 +1,12 @@
-"""Live lexical-store session factory for the Pipeline 3 MCP tools.
+"""Live lexical-store connection helpers for the Pipeline 3 MCP tools.
 
-The six lexical tool handlers in ``bd_mcp/tools/`` are pure: each ``handle()``
-takes an optional ``neo4j_session`` (any object exposing ``.run(cypher, **params)``
-that yields records the handler indexes by key) and never opens a connection
-itself. This module is the seam that binds those handlers to the running lexical
-Neo4j (``bolt://localhost:7688`` by default).
+The four store-backed lexical handlers (lexical_lookup, concordance_walk,
+cross_ref, parallel_translation) are pure: each ``handle()`` takes an optional
+``neo4j_session`` (any object exposing ``.run(cypher, **params)`` that yields
+records the handler indexes by key) and never opens a connection itself. The
+server opens the driver once in its lifespan (``bd_mcp/runtime.py``) and hands a
+session to each handler per request. This module builds that driver and session
+against the running lexical Neo4j (``bolt://localhost:7688`` by default).
 
 Query-time air-gap: this module connects to the lexical store ONLY. It never
 references the cultural or historical store URIs (``:7689`` / ``:7101``). The
@@ -21,7 +23,6 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 from contextlib import contextmanager, suppress
-from typing import Any
 
 from neo4j import Driver, GraphDatabase, Session
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -107,18 +108,3 @@ def lexical_store_reachable(settings: LexicalSettings | None = None) -> bool:
         if driver is not None:
             with suppress(Exception):
                 driver.close()
-
-
-def lexical_session_factory(settings: LexicalSettings | None = None) -> Any:
-    """Return a zero-arg callable that opens a lexical-session context manager.
-
-    Handy for ``bd_mcp/server.py`` wiring: register a per-request session by
-    calling ``factory()`` inside a ``with`` block. Keeping the factory closed
-    over the settings keeps credential resolution in one place.
-    """
-    cfg = build_lexical_settings(settings)
-
-    def _factory() -> Any:
-        return lexical_session(cfg)
-
-    return _factory

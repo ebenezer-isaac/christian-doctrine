@@ -1,30 +1,32 @@
 #!/usr/bin/env python
 """Pipeline 3 end-to-end smoke harness.
 
-Exercises the ``doctrinal_verdict`` query path against the REAL ``evidence/`` and
-``historical/`` directories, proving the three diagnostic blocks come back side
-by side: the lexical verdict (authoritative), the cultural overlay (diagnostic,
-retrieved live from ``cult_col``), and the historical attestation (diagnostic,
-from the Pipeline 4 sidecar). It runs one question WITH historical attestation
-(``doc-bodily-resurrection-of-christ``, 5 witnesses) and one WITHOUT
+Exercises the self-contained ``doctrinal_verdict`` query path against the REAL
+``evidence/`` and ``historical/`` directories, proving the three diagnostic
+blocks come back side by side: the lexical verdict (authoritative, read verbatim
+from ``evidence/<id>.json``), the cultural overlay (diagnostic, retrieved live
+from ``cult_col``), and the historical attestation (diagnostic, from the Pipeline
+4 sidecar ``historical/<id>.json``). It runs one question WITH historical
+attestation (``doc-bodily-resurrection-of-christ``, 5 witnesses) and one WITHOUT
 (``doc-adoption``, attestation_present false), and asserts the per-question
 invariants: ok, verdict fidelity, both diagnostic blocks present, a coherent
 license audit.
 
-This is offline-capable and deterministic. There is no programmatic Anthropic
-API anywhere. The synthesis subagent (normally an Opus dispatch) is stood in for
-by a FAITHFUL local synthesizer that reads the locked evidence, echoes the
-verdict axes verbatim (NEVER re-derives), formats the live-retrieved cultural
-chunks, and writes the canonical ``tmp/pipeline3_synthesis/<task_id>/response.json``.
+The server does NO synthesis and calls NO LLM. ``doctrinal_verdict.handle``
+assembles structured data and the calling model reasons over it. Because the
+verdict is read straight from the locked evidence file, it cannot drift. This
+harness mirrors what the tool's ``register()`` does at runtime: it retrieves the
+cultural chunks live via ``bd_mcp.live.cultural.retrieve_cultural_chunks`` and
+passes them into ``handle`` alongside the evidence and historical directories.
 
-The cultural retriever binds to the live ``retrieve_cultural_chunks`` injector. If
-the cultural store or the voyage key is unavailable, the cultural block degrades
-to empty (it is diagnostic and never adjudicates the verdict) and the script
-still proves the lexical and historical path, printing a clear note.
+The cultural retrieval is fail-soft by contract: if the cultural store or the
+voyage key is unavailable, the cultural block degrades to empty (it is diagnostic
+and never adjudicates the verdict) and the script still proves the lexical and
+historical path, printing a clear note.
 
 Run from the repo root::
 
-    python scripts/pipeline3_smoke.py
+    PYTHONIOENCODING=utf-8 PYTHONPATH=. python scripts/pipeline3_smoke.py
 """
 
 from __future__ import annotations
@@ -38,15 +40,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from bd_mcp.synthesis import make_synthesis_fn  # noqa: E402
-from bd_mcp.tools.doctrinal_verdict import (  # noqa: E402
-    DoctrinalVerdictInput,
-)
+from bd_mcp.live.cultural import retrieve_cultural_chunks  # noqa: E402
+from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput  # noqa: E402
 from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle  # noqa: E402
 
 EVIDENCE_DIR = REPO_ROOT / "evidence"
 HISTORICAL_DIR = REPO_ROOT / "historical"
-SYNTHESIS_OUTPUT_ROOT = REPO_ROOT / "tmp" / "pipeline3_synthesis"
 
 # Two propositions chosen so the keyword classifier in doctrinal_verdict resolves
 # them to the intended question ids. The WITH case carries 5 historical witnesses;
@@ -73,184 +72,7 @@ WITHOUT_ATTESTATION = {
 
 
 # --------------------------------------------------------------------------- #
-# Cultural retriever adapter: synthesis_input dict -> live retrieve_cultural   #
-# --------------------------------------------------------------------------- #
-
-
-def _live_cultural_retriever(synthesis_input: dict[str, Any]) -> list[dict[str, Any]]:
-    """Adapter binding the synthesis seam to the live cultural injector.
-
-    Takes the synthesis_input dict, pulls the question_id, proposition (used as
-    the doctrine query text) and denominations (used as the tradition filter),
-    and calls bd_mcp.live.cultural.retrieve_cultural_chunks. The injector is
-    fail-soft by contract (a missing voyage key or unreachable Qdrant yields an
-    empty list), and the dispatcher wraps this call in its own try/except so a
-    raise here only degrades the diagnostic overlay, never the verdict. We guard
-    the import too, so an environment without the live module still runs.
-    """
-    try:
-        from bd_mcp.live.cultural import retrieve_cultural_chunks
-    except Exception:  # noqa: BLE001  live module absent: degrade to empty overlay
-        return []
-    question_id = synthesis_input.get("question_id") or None
-    proposition = synthesis_input.get("proposition") or None
-    denominations = synthesis_input.get("denominations") or None
-    return retrieve_cultural_chunks(
-        doctrine=proposition,
-        traditions=denominations,
-        question_id=question_id,
-        k=8,
-    )
-
-
-# --------------------------------------------------------------------------- #
-# Faithful local synthesizer: stands in for the Opus subagent dispatch         #
-# --------------------------------------------------------------------------- #
-
-# Word caps mirror bd_mcp.tools.cultural_overlay so the local formatter redacts
-# non-redistributable cultural snippets exactly as the cultural handler would.
-_SNIPPET_WORD_CAP = 100
-_PARAPHRASE_WORD_CAP = 30
-
-
-def _redact_snippet(text: str, source_work_word_count: int, redistribute: bool) -> str | None:
-    """Mirror cultural_overlay._redact_snippet so the overlay respects caps."""
-    if redistribute:
-        return text
-    words = text.split()
-    if not words:
-        return None
-    one_percent_cap = max(1, source_work_word_count // 100) if source_work_word_count > 0 else 0
-    effective_cap = (
-        min(_SNIPPET_WORD_CAP, one_percent_cap) if one_percent_cap > 0 else _SNIPPET_WORD_CAP
-    )
-    if effective_cap <= 0:
-        return None
-    return " ".join(words[:effective_cap])
-
-
-def _paraphrase(text: str) -> str | None:
-    words = text.split()
-    if not words:
-        return None
-    return " ".join(words[:_PARAPHRASE_WORD_CAP]) + (
-        " ..." if len(words) > _PARAPHRASE_WORD_CAP else ""
-    )
-
-
-def _format_cultural_overlay(chunks: list[dict[str, Any]]) -> dict[str, Any]:
-    """Group retrieved cultural chunks by tradition, redacting per license.
-
-    The handler downstream redacts independently for its own output, but the
-    synthesis subagent's cultural_overlay block must already respect the caps
-    (the prose it produces is shaped from these snippets), so we redact here too.
-    Immutable: builds fresh dicts, never mutates the input chunks.
-    """
-    by_tradition: dict[str, list[dict[str, Any]]] = {}
-    for ch in chunks:
-        tradition = ch.get("tradition") or "unknown"
-        redistribute = bool(ch.get("redistribute", False))
-        text = ch.get("text", "") or ""
-        source_word_count = int(ch.get("source_work_word_count", 0) or 0)
-        entry = {
-            "work": ch.get("source"),
-            "stance": ch.get("stance"),
-            "snippet": _redact_snippet(text, source_word_count, redistribute),
-            "tradition_paraphrase_if_not_redistributable": (
-                None if redistribute else _paraphrase(text)
-            ),
-            "license": ch.get("license"),
-            "redistribute": redistribute,
-        }
-        by_tradition.setdefault(tradition, []).append(entry)
-    return {
-        "summary": (
-            f"Cultural overlay retrieved {len(chunks)} passage(s) across "
-            f"{len(by_tradition)} tradition(s)."
-        ),
-        "by_tradition": by_tradition,
-    }
-
-
-def _cultural_license_sources(chunks: list[dict[str, Any]]) -> list[dict[str, str]]:
-    """Distinct (source, license) pairs from the retrieved cultural chunks."""
-    seen: set[tuple[str, str]] = set()
-    out: list[dict[str, str]] = []
-    for ch in chunks:
-        source = str(ch.get("source", "<unknown>"))
-        license_ = str(ch.get("license", "<unknown>"))
-        key = (source, license_)
-        if key not in seen:
-            seen.add(key)
-            out.append({"source": source, "license": license_})
-    return out
-
-
-def _faithful_dispatch(prompt_text: str, inputs: dict[str, Any]) -> dict[str, Any]:
-    """A faithful, offline stand-in for the Opus synthesis subagent.
-
-    Reads the locked evidence from the dispatcher-built inputs, echoes the
-    verdict axes VERBATIM (never re-derives), formats the retrieved cultural
-    chunks into a cultural_overlay block (redaction-aware), folds the lexical
-    license stack so the envelope guard can compute share-safety, and writes the
-    canonical tmp/pipeline3_synthesis/<task_id>/response.json. Returns the same
-    payload so the dispatcher does not need the disk round-trip, but the file is
-    written to prove the documented contract.
-    """
-    evidence_files = inputs["retrieved_lexical"]["evidence_files"]
-    ef = evidence_files[0]
-    qid = ef["question_id"]
-    evidence = ef["evidence"]
-    verdict = evidence["verdict"]
-
-    cultural_chunks = inputs["retrieved_cultural"]["chunks"]
-
-    # Lexical license stack: carried verbatim from the locked evidence file so
-    # the envelope guard sees the real (possibly non-redistributable) sources.
-    lexical_license = evidence.get("license_audit", {}) or {}
-    lexical_sources = [
-        {"source": s.get("source", "<unknown>"), "license": s.get("license", "<unknown>")}
-        for s in lexical_license.get("sources_used", [])
-    ]
-    sources_used = lexical_sources + _cultural_license_sources(cultural_chunks)
-
-    payload = {
-        "task_id": inputs["task_id"],
-        "phase": "pipeline3_synthesis",
-        "mcp_tool_name": "doctrinal_verdict",
-        "user_query": inputs.get("user_query", ""),
-        "lexical_verdict": {
-            "summary": (
-                "Synthesized from the locked evidence file; verdict axes echoed "
-                "verbatim, not re-derived."
-            ),
-            # Verdict axes echoed VERBATIM from the locked evidence.
-            "affirms": verdict["affirms"],
-            "lexical_breadth": verdict["lexical_breadth"],
-            "lexical_directness": verdict["lexical_directness"],
-            "variant_stability": verdict["variant_stability"],
-            "key_lemmas": [],
-            "key_verses": [],
-            "source_evidence_files": [f"evidence/{qid}.json"],
-        },
-        "cultural_overlay": _format_cultural_overlay(cultural_chunks),
-        "variant_sensitivity": evidence.get("variants", {}) or {},
-        "license_audit": {"sources_used": sources_used},
-        "confidence": 1.0,
-        "warnings": [],
-    }
-
-    # Write the canonical response.json, mirroring the documented subagent contract.
-    out_dir = SYNTHESIS_OUTPUT_ROOT / inputs["task_id"]
-    out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "response.json").write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-    return payload
-
-
-# --------------------------------------------------------------------------- #
-# Per-question run + invariant checks                                          #
+# Helpers                                                                      #
 # --------------------------------------------------------------------------- #
 
 
@@ -267,7 +89,31 @@ def _count_cultural_passages_by_tradition(result: dict[str, Any]) -> dict[str, i
     return {tradition: len(entries) for tradition, entries in by_tradition.items()}
 
 
-def run_case(case: dict[str, Any], synthesis_fn: Any) -> list[str]:
+def _retrieve_cultural(case: dict[str, Any]) -> list[dict[str, Any]]:
+    """Retrieve cultural chunks live, exactly as the tool's register() does.
+
+    Fail-soft by contract: a missing voyage key or an unreachable Qdrant yields an
+    empty list. We guard the call here too so the lexical and historical path is
+    still proven if the cultural store is down.
+    """
+    try:
+        return retrieve_cultural_chunks(
+            doctrine=case["proposition"],
+            traditions=case.get("denominations"),
+            question_id=case["expected_qid"],
+            k=8,
+        )
+    except Exception as exc:  # noqa: BLE001  cultural overlay is diagnostic, degrade to empty
+        print(f"  cultural retrieval raised ({type(exc).__name__}); degrading to empty overlay")
+        return []
+
+
+# --------------------------------------------------------------------------- #
+# Per-question run + invariant checks                                          #
+# --------------------------------------------------------------------------- #
+
+
+def run_case(case: dict[str, Any]) -> list[str]:
     """Run one doctrinal_verdict query and check invariants. Returns failures."""
     failures: list[str] = []
     label = case["label"]
@@ -275,15 +121,17 @@ def run_case(case: dict[str, Any], synthesis_fn: Any) -> list[str]:
     print(f"CASE: {label}")
     print(f"  proposition: {case['proposition'][:80]}...")
 
+    chunks = _retrieve_cultural(case)
+
     env = verdict_handle(
         DoctrinalVerdictInput(
             proposition=case["proposition"],
             denominations=case["denominations"],
             depth="deep",
         ),
-        synthesis_fn=synthesis_fn,
         evidence_dir=EVIDENCE_DIR,
         historical_dir=HISTORICAL_DIR,
+        cultural_chunks=chunks,
     )
 
     ok = env.get("ok")
@@ -334,7 +182,7 @@ def run_case(case: dict[str, Any], synthesis_fn: Any) -> list[str]:
             if witnesses:
                 failures.append(f"{label}: expected no witnesses, got {len(witnesses)}")
 
-    # 3. Cultural overlay block present (may be empty if store unavailable).
+    # 3. Cultural overlay block present (may be empty if the store is unavailable).
     overlay = result.get("cultural_overlay")
     if overlay is None:
         failures.append(f"{label}: cultural_overlay block missing")
@@ -370,7 +218,6 @@ def main() -> int:
     print("Pipeline 3 end-to-end smoke harness")
     print(f"  evidence dir:   {EVIDENCE_DIR}")
     print(f"  historical dir: {HISTORICAL_DIR}")
-    print(f"  synthesis out:  {SYNTHESIS_OUTPUT_ROOT}")
 
     if not EVIDENCE_DIR.is_dir():
         print(f"FATAL: evidence dir not found: {EVIDENCE_DIR}")
@@ -379,15 +226,9 @@ def main() -> int:
         print(f"FATAL: historical dir not found: {HISTORICAL_DIR}")
         return 2
 
-    # Build the synthesis_fn: live cultural retriever + faithful local synthesizer.
-    synthesis_fn = make_synthesis_fn(
-        dispatch_fn=_faithful_dispatch,
-        cultural_retriever=_live_cultural_retriever,
-    )
-
     all_failures: list[str] = []
-    all_failures.extend(run_case(WITH_ATTESTATION, synthesis_fn))
-    all_failures.extend(run_case(WITHOUT_ATTESTATION, synthesis_fn))
+    all_failures.extend(run_case(WITH_ATTESTATION))
+    all_failures.extend(run_case(WITHOUT_ATTESTATION))
 
     print(f"\n{'=' * 72}")
     if all_failures:

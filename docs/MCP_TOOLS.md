@@ -320,7 +320,7 @@ If ECM is not published for the cited book: returns `ecm_published: false` and a
 
 ## Tool 9: doctrinal_verdict
 
-**Purpose**: synthesize a verdict on a doctrinal proposition. Cites lexical and cultural separately. Long-running.
+**Purpose**: return the three diagnostic blocks for a doctrinal proposition: the lexical verdict (authoritative), the cultural overlay, and the historical attestation. The server does NO synthesis and calls NO LLM. It assembles structured data and the calling model (the MCP client) reasons over the three blocks. The lexical verdict is read verbatim from `evidence/<id>.json`, so it cannot drift.
 
 **Input**:
 ```json
@@ -346,7 +346,7 @@ If ECM is not published for the cited book: returns `ecm_published: false` and a
 }
 ```
 
-Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesis` (0.6-1.0).
+Stages: `lexical-read` (0.0-0.4), `cultural-retrieval` (0.4-0.8), `historical-read` (0.8-1.0). These are read-and-assemble stages; no synthesis stage exists because the server does not synthesize.
 
 **Output result**:
 ```json
@@ -357,25 +357,24 @@ Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesi
   "variant_stability": "stable | sensitive | not_in_scope",
 
   "lexical_evidence": {
-    "summary": "<>",
-    "key_lemmas": [{"strong": "<>", "lemma": "<>"}],
-    "key_verses": [{"ref": "<>", "reasoning": "<>"}],
+    "rationale": "<>",
+    "lay_summary": "<>",
+    "pan_canonical": <bool>,
+    "variant_robust": <bool>,
     "source_evidence_files": ["evidence/doc-scripture-final-authority.json"]
   },
 
   "cultural_overlay": {
-    "summary": "<>",
-    "by_tradition": [{
+    "passages": [{
       "tradition": "<>",
+      "source": "<>",
       "stance": "<>",
-      "representative_chunks": [{
-        "work": "<>",
-        "anchor_id": "<>",
-        "snippet": "<fair-use>",
-        "license": "<>",
-        "redistribute": <bool>
-      }]
-    }]
+      "snippet": "<fair-use snippet or null>",
+      "tradition_paraphrase_if_not_redistributable": "<paraphrase or null>"
+    }],
+    "by_tradition": {
+      "<tradition>": [{"tradition": "<>", "source": "<>", "stance": "<>", "snippet": "<>"}]
+    }
   },
 
   "variant_sensitivity": {
@@ -399,57 +398,19 @@ Stages: `lexical-retrieval` (0.0-0.3), `cultural-retrieval` (0.3-0.6), `synthesi
 }
 ```
 
-The `historical_attestation` block is the Pipeline 4 sidecar (`historical/<evidence_file_id>.json`), surfaced here as a third diagnostic alongside the lexical verdict and the cultural overlay. It is sourced authoritatively from the sidecar and NEVER re-derived by synthesis (the same fidelity discipline the verdict obeys). Most of the 231 questions carry no attestation (`attestation_present: false`, empty `witnesses`); 27 carry witnesses. The witness shape is the `Witness` model in `pipeline4/historical_schema.py`. Each block validates against `HistoricalAttestation` before it is attached; a sidecar that fails validation aborts the response with `error.code: "historical_corrupt"`.
+The three blocks are returned directly, side by side, never fused. The server does not synthesize them and calls no LLM. The calling model (the MCP client) reads the structured data and does the synthesis itself.
 
-**Touches**: all three stores plus the `historical/` filesystem. Dispatched as a Pipeline 3 synthesis subagent. License-aware: a non-redistributable witness (e.g. a DSS source under CC-BY-NC-4.0) folds into the envelope `license_audit` and flips `response_safe_to_share` under `public-share` / `export`.
+- `verdict` plus the three flattened axes (`lexical_breadth`, `lexical_directness`, `variant_stability`) and the `lexical_evidence` block are read verbatim from `evidence/<evidence_file_id>.json` (Pipeline 2). The `verdict` is the stored `verdict.affirms`, copied straight from the file. Because it is read, not re-derived, it cannot drift; there is no query-time re-derivation and nothing to re-check.
+- `cultural_overlay` is retrieved live from the cultural store (`cult_col`) at request time, filtered by tradition and by the doctrine slug of the matched question, then formatted by `build_cultural_overlay` into license-redacted `passages` and a `by_tradition` grouping. It is diagnostic and never settles the verdict. If the cultural store is unavailable the overlay degrades to empty.
+- `variant_sensitivity` is the `variants` block from the evidence file.
+- `historical_attestation` is the Pipeline 4 sidecar (`historical/<evidence_file_id>.json`), read and validated against `HistoricalAttestation` before it is attached. Most of the 231 questions carry no attestation (`attestation_present: false`, empty `witnesses`); 27 carry witnesses. The witness shape is the `Witness` model in `pipeline4/historical_schema.py`. A sidecar that fails validation aborts the response with `error.code: "historical_corrupt"`.
+- `evidence_file_id` is the resolved question id.
 
-### Synthesis-subagent output → MCP envelope transform
+**License audit folds all three stacks.** The envelope `license_audit.sources_used` is the union of the lexical sources (from the evidence file), the cultural sources (from the retrieved chunks), and the historical witness sources (from the sidecar, `source_slug` mapped to `source`). `response_safe_to_share` is then computed via `license_guard.check_redistribute(...)` over every cited source, respecting `caller_context`. A non-redistributable source in any block (for example a DSS witness under CC-BY-NC-4.0) flips `response_safe_to_share` under `public-share` and `export`.
 
-The synthesis subagent (per `docs/phase_prompts/pipeline3_synthesis.md`) writes a structured JSON output to `tmp/pipeline3_synthesis/<task_id>/response.json` with shape:
+**Implementation**: the pure handler is `doctrinal_verdict.handle(payload, *, evidence_dir=None, historical_dir=None, cultural_chunks=None)` in `bd_mcp/tools/doctrinal_verdict.py`. The tool's `register()` retrieves the cultural chunks live (via the cultural clients held on the FastMCP lifespan, reached through the injected `Context`) and passes them in. There is no synthesis subagent, no `synthesis_fn`, and no dispatch.
 
-```json
-{
-  "task_id": "<>",
-  "phase": "pipeline3_synthesis",
-  "mcp_tool_name": "doctrinal_verdict",
-  "user_query": "<>",
-  "lexical_verdict": {
-    "summary": "<>",
-    "affirms": <bool|null|"disputed">,
-    "lexical_breadth": "canon_wide | broad | partial | thin",
-    "lexical_directness": "direct | inferred | analogical | silent",
-    "variant_stability": "stable | sensitive | not_in_scope",
-    "key_lemmas": [...],
-    "key_verses": [...],
-    "variant_robust": <bool>,
-    "pan_canonical": <bool>,
-    "source_evidence_files": [...]
-  },
-  "cultural_overlay": { ... },
-  "variant_sensitivity": { ... },
-  "license_audit": { ... },
-  "confidence": <float>,
-  "warnings": [...]
-}
-```
-
-The synthesis subagent additionally receives the locked `historical` block in its input (read-only, alongside the locked `evidence`). It may reference the witnesses in its prose, but it does not author the `historical_attestation` output block: the handler attaches that straight from the validated sidecar after synthesis returns, so a subagent cannot alter or invent attestation.
-
-The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls a pure function `transform_synthesis_to_envelope(synthesis_output: dict) -> EnvelopeResult` that produces the MCP-public output shape above. The transform:
-
-1. `lexical_verdict.affirms` → `result.verdict` (rename).
-2. `lexical_verdict.lexical_breadth` → `result.lexical_breadth` (flatten one level).
-3. `lexical_verdict.lexical_directness` → `result.lexical_directness` (flatten one level).
-4. `lexical_verdict.variant_stability` → `result.variant_stability` (flatten one level).
-5. `lexical_verdict` block (minus the above) → `result.lexical_evidence`.
-6. `cultural_overlay` → `result.cultural_overlay` (pass through).
-7. `variant_sensitivity` → `result.variant_sensitivity` (pass through).
-8. `lexical_verdict.source_evidence_files[0]` (the matched question id stripped of path/.json) → `result.evidence_file_id`.
-9. `synthesis_output.license_audit.sources_used` → `envelope.license_audit.sources_used`.
-10. The handler reads and validates `historical/<evidence_file_id>.json`, attaches it as `result.historical_attestation`, and folds its `license_audit.sources_used` (mapped `source_slug` → `source`) into `envelope.license_audit.sources_used`.
-11. The handler then computes `envelope.license_audit.response_safe_to_share` via `license_guard.check_redistribute(...)` for every cited source (lexical, cultural, and historical), respecting `caller_context`.
-
-**Verdict-fidelity rule**: `result.verdict` must equal the `verdict.affirms` of the underlying `evidence/<evidence_file_id>.json`. The handler reads the stored evidence file and asserts the equality before returning. Re-derivation of the verdict at query time is FORBIDDEN; the handler is a retrieval-and-synthesis layer.
+**Touches**: the cultural store (live retrieval) plus the `evidence/` and `historical/` filesystem. License-aware as described above.
 
 ## Tool 10: evidence_inspect
 
@@ -535,21 +496,24 @@ The doctrinal_verdict tool handler at `bd_mcp/tools/doctrinal_verdict.py` calls 
 # bd_mcp/server.py (sketch)
 from mcp.server.fastmcp import FastMCP  # PyPI SDK; the local package is named bd_mcp/ to avoid collision.
 
-server = FastMCP(name="brethren-doctrine")
+from bd_mcp.runtime import lifespan  # opens the store connections on startup, closes them on shutdown
 
-# Register tools (local imports from bd_mcp.tools, NOT the PyPI mcp package)
-from bd_mcp.tools import (
-    lexical_lookup, concordance_walk, cross_ref, variant_inspect,
-    parallel_translation, versification_resolve, cultural_overlay,
-    debate_for_verse, doctrinal_verdict, evidence_inspect,
-    historical_inspect, license_audit
-)
-for tool in [lexical_lookup, concordance_walk, ..., license_audit]:
-    server.add_tool(tool)
+# The lifespan holds the live store connections; tools reach them through the
+# injected Context. The server is fully functional with no external wiring.
+server = FastMCP(name="brethren-doctrine", lifespan=lifespan)
+
+# Register all 12 tools (local imports from bd_mcp.tools, NOT the PyPI mcp package).
+# Each module exposes register(server); build_server() calls them in order.
+from bd_mcp.tools.lexical_lookup import register as register_lexical_lookup
+# ... the other 11 register imports ...
+register_lexical_lookup(server)
+# ... register the remaining 11 tools ...
 
 # Transport: Streamable HTTP per 2025-06-18 spec
-server.run(transport="streamable-http", port=8765)
+server.run(transport="streamable-http")
 ```
+
+`python -m bd_mcp.server` serves every tool live against the real stores. `build_server()` takes no injector arguments; there is no "inject to be functional" duality.
 
 ## Long-running tool conventions
 

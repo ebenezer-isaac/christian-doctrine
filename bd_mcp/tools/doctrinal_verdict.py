@@ -1,20 +1,40 @@
-"""doctrinal_verdict: end-to-end verdict synthesis from stored evidence + cultural overlay."""
+"""doctrinal_verdict: return the three diagnostic blocks for a doctrinal proposition.
+
+The tool resolves a proposition to a stored question, then returns three blocks
+side by side, never fused:
+
+  1. lexical verdict   - authoritative, read verbatim from evidence/<id>.json (Pipeline 2)
+  2. cultural overlay   - diagnostic, retrieved live from the cultural store
+  3. historical attestation - diagnostic, read from historical/<id>.json (Pipeline 4)
+
+The server does no synthesis of its own: it assembles structured data and the
+calling model reasons over it. Because the verdict is read straight from the
+stored evidence file, it cannot drift; there is no query-time re-derivation.
+
+The query-time air-gap holds: the lexical block comes only from the evidence
+file, and the cultural and historical blocks ride alongside as separate blocks
+with separate license stacks. A non-redistributable source in any block folds
+into the envelope license audit.
+"""
 
 from __future__ import annotations
 
 import json
-from collections.abc import Callable
 from pathlib import Path
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import cultural_chunks as retrieve_chunks
 from bd_mcp.tools._common import (
+    CallerContext,
     ToolInputBase,
     error_envelope,
     success_envelope,
     validate_question_id,
 )
+from bd_mcp.tools.cultural_overlay import build_cultural_overlay
 from pipeline4.historical_schema import HistoricalAttestation
 
 TOOL_NAME = "doctrinal_verdict"
@@ -22,8 +42,19 @@ EVIDENCE_DIR = Path("evidence")
 HISTORICAL_DIR = Path("historical")
 
 
+class DoctrinalVerdictInput(ToolInputBase):
+    proposition: str = Field(min_length=1)
+    denominations: list[str] | None = None
+    depth: Literal["fast", "deep"] = "fast"
+    progressToken: str | None = None  # noqa: N815  MCP-protocol field, camelCase required
+
+
+# ---------------------------------------------------------------------------
+# Historical block (Pipeline 4 sidecar)
+# ---------------------------------------------------------------------------
+
+
 def _empty_historical_block() -> dict[str, Any]:
-    """The historical block when no Pipeline 4 sidecar exists for a question."""
     return {
         "attestation_present": False,
         "witnesses": [],
@@ -40,25 +71,20 @@ def _empty_historical_block() -> dict[str, Any]:
 def load_historical_block(
     qid: str, historical_dir: Path | None = None
 ) -> tuple[dict[str, Any], list[dict[str, str]]]:
-    """Read and validate historical/<qid>.json, mirroring the evidence read.
+    """Read and validate historical/<qid>.json. Returns (block, witness sources).
 
-    Returns the diagnostic ``historical_attestation`` block plus the witness
-    sources mapped into the envelope ``sources_used`` shape so the license guard
-    can fold a non-redistributable witness (e.g. a DSS CC-BY-NC-4.0 source) into
-    ``response_safe_to_share``. A missing sidecar yields the empty block (most
-    of the 231 questions carry no attestation).
-
-    The question_id is validated here at this function's own boundary, not only
-    by the caller, so a directly-imported use cannot read outside the historical
-    directory through a traversal slug. Mirrors evidence_inspect and
-    historical_inspect, which each validate at their own boundary.
+    The witness sources are mapped into the envelope ``sources_used`` shape so a
+    non-redistributable witness (for example a DSS CC-BY-NC-4.0 source) folds
+    into ``response_safe_to_share``. A missing sidecar yields the empty block
+    (most of the 231 questions carry no attestation). The question_id is
+    validated here so a directly imported call cannot traverse outside the
+    historical directory.
     """
     qid = validate_question_id(qid)
     path = (historical_dir or HISTORICAL_DIR) / f"{qid}.json"
     if not path.exists():
         return _empty_historical_block(), []
-    raw = json.loads(path.read_text(encoding="utf-8"))
-    attestation = HistoricalAttestation.model_validate(raw)
+    attestation = HistoricalAttestation.model_validate(json.loads(path.read_text(encoding="utf-8")))
     dumped = attestation.model_dump(mode="json", by_alias=True)
     block = {
         "attestation_present": dumped["attestation_present"],
@@ -74,41 +100,29 @@ def load_historical_block(
     return block, sources
 
 
-class DoctrinalVerdictInput(ToolInputBase):
-    proposition: str = Field(min_length=1)
-    denominations: list[str] | None = None
-    depth: Literal["fast", "deep"] = "fast"
-    progressToken: str | None = None  # noqa: N815  MCP-protocol field, camelCase required
+# ---------------------------------------------------------------------------
+# Lexical block (Pipeline 2 evidence) and proposition classification
+# ---------------------------------------------------------------------------
 
 
-def transform_synthesis_to_envelope(synthesis_output: dict[str, Any]) -> dict[str, Any]:
-    """Pure transform: synthesis subagent output -> MCP envelope.result + license_audit."""
-    lex = dict(synthesis_output.get("lexical_verdict", {}))
-    affirms = lex.pop("affirms", None)
-    lexical_breadth = lex.pop("lexical_breadth", None)
-    lexical_directness = lex.pop("lexical_directness", None)
-    variant_stability = lex.pop("variant_stability", None)
-    source_files = lex.get("source_evidence_files") or []
-    evidence_file_id = ""
-    if source_files:
-        first = source_files[0]
-        evidence_file_id = Path(first).stem
-    result = {
-        "verdict": affirms,
-        "lexical_breadth": lexical_breadth,
-        "lexical_directness": lexical_directness,
-        "variant_stability": variant_stability,
-        "lexical_evidence": lex,
-        "cultural_overlay": synthesis_output.get("cultural_overlay"),
-        "variant_sensitivity": synthesis_output.get("variant_sensitivity"),
-        "evidence_file_id": evidence_file_id,
-    }
-    license_audit = synthesis_output.get("license_audit", {})
-    return {"result": result, "license_audit": license_audit}
+def _build_lexical_block(evidence: dict[str, Any], qid: str) -> dict[str, Any]:
+    """Assemble the lexical-evidence block from the stored evidence file."""
+    verdict = evidence.get("verdict", {})
+    lexical = dict(evidence.get("lexical_evidence", {}) or {})
+    lexical.update(
+        {
+            "rationale": verdict.get("rationale"),
+            "lay_summary": evidence.get("lay_summary"),
+            "pan_canonical": verdict.get("pan_canonical"),
+            "variant_robust": verdict.get("variant_robust"),
+            "source_evidence_files": [f"evidence/{qid}.json"],
+        }
+    )
+    return lexical
 
 
 def _classify_to_question_id(proposition: str) -> str:
-    """Map proposition prose to a question_id. v1: simple keyword match against questions.json."""
+    """Map proposition prose to a question_id by keyword overlap with questions.json."""
     questions_path = Path("questions.json")
     if not questions_path.exists():
         return ""
@@ -117,20 +131,32 @@ def _classify_to_question_id(proposition: str) -> str:
     best_qid = ""
     best_score = 0
     for q in raw.get("questions", []):
-        stmt = (q.get("statement", "") or "").lower()
-        score = sum(1 for word in needle.split() if word in stmt)
+        statement = (q.get("statement", "") or "").lower()
+        score = sum(1 for word in needle.split() if word in statement)
         if score > best_score:
             best_score = score
             best_qid = q["id"]
     return best_qid
 
 
+# ---------------------------------------------------------------------------
+# Handler
+# ---------------------------------------------------------------------------
+
+
 def handle(
     payload: DoctrinalVerdictInput,
-    synthesis_fn: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
+    *,
     evidence_dir: Path | None = None,
     historical_dir: Path | None = None,
+    cultural_chunks: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
+    """Return the three diagnostic blocks for the proposition.
+
+    ``cultural_chunks`` is supplied by the server from a live cultural retrieval;
+    when absent the cultural overlay is empty. Both diagnostic blocks are
+    optional and never change the lexical verdict.
+    """
     qid = _classify_to_question_id(payload.proposition)
     if not qid:
         return error_envelope(
@@ -143,6 +169,7 @@ def handle(
         qid = validate_question_id(qid)
     except ValueError as exc:
         return error_envelope(TOOL_NAME, "invalid_question_id", str(exc), payload.caller_context)
+
     evidence_path = (evidence_dir or EVIDENCE_DIR) / f"{qid}.json"
     if not evidence_path.exists():
         return error_envelope(
@@ -156,58 +183,32 @@ def handle(
         return error_envelope(
             TOOL_NAME,
             "historical_corrupt",
-            f"historical sidecar for {qid} failed validation: {exc}",
+            f"historical sidecar for {qid}: {exc}",
             payload.caller_context,
         )
 
-    synthesis_input = {
-        "question_id": qid,
-        "proposition": payload.proposition,
-        "depth": payload.depth,
-        "denominations": payload.denominations,
-        "caller_context": payload.caller_context,
-        "evidence": evidence,
-        "historical": historical_block,
+    cultural_block, cultural_sources = build_cultural_overlay(cultural_chunks)
+
+    verdict = evidence.get("verdict", {})
+    result = {
+        "verdict": verdict.get("affirms"),
+        "lexical_breadth": verdict.get("lexical_breadth"),
+        "lexical_directness": verdict.get("lexical_directness"),
+        "variant_stability": verdict.get("variant_stability"),
+        "lexical_evidence": _build_lexical_block(evidence, qid),
+        "cultural_overlay": cultural_block,
+        "variant_sensitivity": evidence.get("variants", {}),
+        "historical_attestation": historical_block,
+        "evidence_file_id": qid,
     }
-    if synthesis_fn is None:
-        synthesis_output = {
-            "lexical_verdict": {
-                "affirms": evidence["verdict"]["affirms"],
-                "lexical_breadth": evidence["verdict"]["lexical_breadth"],
-                "lexical_directness": evidence["verdict"]["lexical_directness"],
-                "variant_stability": evidence["verdict"]["variant_stability"],
-                "source_evidence_files": [f"evidence/{qid}.json"],
-            },
-            "cultural_overlay": {"by_tradition": {}},
-            "variant_sensitivity": evidence.get("variants", {}),
-            "license_audit": evidence.get("license_audit", {}),
-        }
-    else:
-        synthesis_output = synthesis_fn(synthesis_input)
-
-    transformed = transform_synthesis_to_envelope(synthesis_output)
-    result = transformed["result"]
-    license_audit = transformed["license_audit"]
-
-    if result["verdict"] != evidence["verdict"]["affirms"]:
-        return error_envelope(
-            TOOL_NAME,
-            "verdict_fidelity_violation",
-            "Synthesis verdict does not match stored evidence file. "
-            "Re-derivation at query time is forbidden.",
-            payload.caller_context,
-        )
-
-    # The historical attestation is a diagnostic block, sourced authoritatively
-    # from the Pipeline 4 sidecar and never re-derived by synthesis (mirrors the
-    # verdict-fidelity rule). It rides alongside the lexical verdict, never fused.
-    result["historical_attestation"] = historical_block
 
     sources = [
         {"source": s.get("source", "?"), "license": s.get("license", "?")}
-        for s in license_audit.get("sources_used", [])
+        for s in evidence.get("license_audit", {}).get("sources_used", [])
     ]
+    sources.extend(cultural_sources)
     sources.extend(historical_sources)
+
     return success_envelope(
         tool=TOOL_NAME,
         result=result,
@@ -216,19 +217,18 @@ def handle(
     )
 
 
-def register(
-    server: Any,
-    synthesis_fn: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
-) -> None:
+def register(server: Any) -> None:
     @server.tool(
-        name=TOOL_NAME, description="End-to-end doctrinal verdict with stored-evidence fidelity."
+        name=TOOL_NAME,
+        description="Doctrinal verdict: lexical verdict plus cultural and historical diagnostics.",
     )
     def _tool(
+        ctx: Context,
         proposition: str,
         denominations: list[str] | None = None,
         depth: Literal["fast", "deep"] = "fast",
         progressToken: str | None = None,  # noqa: N803
-        caller_context: Literal["personal", "public-share", "export"] = "personal",
+        caller_context: CallerContext = "personal",
     ) -> dict[str, Any]:
         payload = DoctrinalVerdictInput(
             proposition=proposition,
@@ -237,4 +237,8 @@ def register(
             progressToken=progressToken,
             caller_context=caller_context,
         )
-        return handle(payload, synthesis_fn=synthesis_fn)
+        qid = _classify_to_question_id(proposition)
+        chunks = retrieve_chunks(
+            ctx, question_id=qid or None, doctrine=proposition, traditions=denominations, k=8
+        )
+        return handle(payload, cultural_chunks=chunks)

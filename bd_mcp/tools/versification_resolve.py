@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import app_context
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 from ingest.versification_mapper import VersificationMapper
 
@@ -57,6 +59,7 @@ def register(server: Any) -> None:
         name=TOOL_NAME, description="Resolve a verse reference between versification schemes."
     )
     def _tool(
+        ctx: Context,
         ref: str,
         from_scheme: str,
         to_scheme: str,
@@ -68,4 +71,4 @@ def register(server: Any) -> None:
             to_scheme=to_scheme,
             caller_context=caller_context,
         )
-        return handle(payload)
+        return handle(payload, mapper=app_context(ctx).mapper)

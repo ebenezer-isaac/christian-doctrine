@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import lexical_session
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 
 TOOL_NAME = "cross_ref"
@@ -85,9 +87,10 @@ def handle(payload: CrossRefInput, neo4j_session: Any | None = None) -> dict[str
     )
 
 
-def register(server: Any, session_factory: Any | None = None) -> None:
+def register(server: Any) -> None:
     @server.tool(name=TOOL_NAME, description="Cross-references for a verse.")
     def _tool(
+        ctx: Context,
         ref: str,
         sources: list[str] | None = None,
         min_votes: int | None = None,
@@ -101,10 +104,5 @@ def register(server: Any, session_factory: Any | None = None) -> None:
             limit=limit,
             caller_context=caller_context,
         )
-        if session_factory is None:
-            return handle(payload)
-        try:
-            with session_factory() as session:
-                return handle(payload, neo4j_session=session)
-        except Exception:  # noqa: BLE001  degrade to empty when the lexical store is unreachable
-            return handle(payload)
+        with lexical_session(ctx) as session:
+            return handle(payload, neo4j_session=session)

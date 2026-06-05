@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import cultural_chunks as retrieve_chunks
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 from bd_mcp.tools.cultural_overlay import _redact_snippet
 
@@ -57,27 +59,16 @@ def handle(
     )
 
 
-def register(server: Any, cultural_retriever: Any | None = None) -> None:
+def register(server: Any) -> None:
     @server.tool(name=TOOL_NAME, description="Tradition-grouped stances for a verse.")
     def _tool(
+        ctx: Context,
         ref: str,
         doctrines: list[str] | None = None,
         caller_context: Literal["personal", "public-share", "export"] = "personal",
     ) -> dict[str, Any]:
-        payload = DebateForVerseInput(
-            ref=ref,
-            doctrines=doctrines,
-            caller_context=caller_context,
+        payload = DebateForVerseInput(ref=ref, doctrines=doctrines, caller_context=caller_context)
+        chunks = retrieve_chunks(
+            ctx, ref=ref, doctrine=(doctrines[0] if doctrines else None), traditions=None, k=12
         )
-        if cultural_retriever is None:
-            return handle(payload)
-        try:
-            chunks = cultural_retriever(
-                ref=ref,
-                doctrine=(doctrines[0] if doctrines else None),
-                traditions=None,
-                k=12,
-            )
-        except Exception:  # noqa: BLE001  cultural overlay is diagnostic, degrade to empty
-            chunks = None
         return handle(payload, cultural_chunks=chunks)

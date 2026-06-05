@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import lexical_session
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 
 TOOL_NAME = "parallel_translation"
@@ -81,9 +83,10 @@ def handle(
     )
 
 
-def register(server: Any, session_factory: Any | None = None) -> None:
+def register(server: Any) -> None:
     @server.tool(name=TOOL_NAME, description="Side-by-side parallel translation rows.")
     def _tool(
+        ctx: Context,
         ref: str,
         translations: list[str],
         include_original: bool = True,
@@ -95,10 +98,5 @@ def register(server: Any, session_factory: Any | None = None) -> None:
             include_original=include_original,
             caller_context=caller_context,
         )
-        if session_factory is None:
-            return handle(payload)
-        try:
-            with session_factory() as session:
-                return handle(payload, neo4j_session=session)
-        except Exception:  # noqa: BLE001  degrade to empty when the lexical store is unreachable
-            return handle(payload)
+        with lexical_session(ctx) as session:
+            return handle(payload, neo4j_session=session)

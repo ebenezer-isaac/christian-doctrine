@@ -21,7 +21,6 @@ from bd_mcp.tools.debate_for_verse import handle as debate_handle
 from bd_mcp.tools.doctrinal_verdict import (
     DoctrinalVerdictInput,
     load_historical_block,
-    transform_synthesis_to_envelope,
 )
 from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from bd_mcp.tools.evidence_inspect import EvidenceInspectInput
@@ -530,102 +529,52 @@ def test_debate_for_verse_redacts_nc_snippet() -> None:
 # ---------- doctrinal_verdict ----------
 
 
-def test_doctrinal_verdict_transform_purity() -> None:
-    payload = {
-        "lexical_verdict": {
-            "affirms": True,
-            "lexical_breadth": "canon_wide",
-            "lexical_directness": "direct",
-            "variant_stability": "not_in_scope",
-            "source_evidence_files": ["evidence/doc-trinity.json"],
-            "rationale": "r",
-        },
-        "cultural_overlay": {"by_tradition": {}},
-        "variant_sensitivity": {},
-        "license_audit": {"sources_used": []},
-    }
-    import hashlib
-
-    digests = set()
-    for _ in range(10):
-        out = transform_synthesis_to_envelope(payload)
-        digests.add(
-            hashlib.sha256(json.dumps(out, sort_keys=True, default=str).encode()).hexdigest()
-        )
-    assert len(digests) == 1
-
-
-def test_doctrinal_verdict_transform_extracts_evidence_file_id() -> None:
-    payload = {
-        "lexical_verdict": {
-            "affirms": True,
-            "lexical_breadth": "canon_wide",
-            "lexical_directness": "direct",
-            "variant_stability": "not_in_scope",
-            "source_evidence_files": ["evidence/doc-trinity.json"],
-        },
-        "cultural_overlay": None,
-        "variant_sensitivity": None,
-        "license_audit": {"sources_used": []},
-    }
-    out = transform_synthesis_to_envelope(payload)
-    assert out["result"]["evidence_file_id"] == "doc-trinity"
-
-
-def test_doctrinal_verdict_transform_surfaces_v31_axes() -> None:
-    """The three v3.1 axes ride out of the transform into result."""
-    payload = {
-        "lexical_verdict": {
-            "affirms": True,
-            "lexical_breadth": "broad",
-            "lexical_directness": "inferred",
-            "variant_stability": "stable",
-            "source_evidence_files": ["evidence/doc-trinity.json"],
-        },
-        "cultural_overlay": None,
-        "variant_sensitivity": None,
-        "license_audit": {"sources_used": []},
-    }
-    out = transform_synthesis_to_envelope(payload)
-    assert out["result"]["verdict"] is True
-    assert out["result"]["lexical_breadth"] == "broad"
-    assert out["result"]["lexical_directness"] == "inferred"
-    assert out["result"]["variant_stability"] == "stable"
-
-
-def test_doctrinal_verdict_fidelity_success(tmp_path: Path) -> None:
+def test_doctrinal_verdict_returns_three_blocks(tmp_path: Path) -> None:
     _materialize_trinity(tmp_path)
+    chunks = [
+        {
+            "tradition": "reformed",
+            "source": "WCF",
+            "stance": "affirms",
+            "text": "x",
+            "license": "public_domain",
+            "redistribute": True,
+            "source_work_word_count": 100000,
+        }
+    ]
     env = verdict_handle(
         DoctrinalVerdictInput(proposition="There is one God in three coequal coeternal persons"),
         evidence_dir=tmp_path,
+        historical_dir=_hist_dir(tmp_path),
+        cultural_chunks=chunks,
     )
     assert env["ok"] is True
+    r = env["result"]
+    assert r["evidence_file_id"] == "doc-trinity"
+    assert {
+        "lexical_evidence",
+        "cultural_overlay",
+        "historical_attestation",
+        "variant_sensitivity",
+    } <= set(r)
+    assert r["cultural_overlay"]["by_tradition"].get("reformed")
+    folded = {s["source"] for s in env["license_audit"]["sources_used"]}
+    assert "WCF" in folded
 
 
-def test_doctrinal_verdict_fidelity_violation(tmp_path: Path) -> None:
+def test_doctrinal_verdict_verdict_read_verbatim_from_evidence(tmp_path: Path) -> None:
     _materialize_trinity(tmp_path)
-
-    def bad_synth(_inputs: dict[str, Any]) -> dict[str, Any]:
-        return {
-            "lexical_verdict": {
-                "affirms": False,
-                "lexical_breadth": "thin",
-                "lexical_directness": "inferred",
-                "variant_stability": "not_in_scope",
-                "source_evidence_files": ["evidence/doc-trinity.json"],
-            },
-            "cultural_overlay": None,
-            "variant_sensitivity": None,
-            "license_audit": {"sources_used": []},
-        }
-
+    evidence = json.loads((tmp_path / "doc-trinity.json").read_text(encoding="utf-8"))
     env = verdict_handle(
         DoctrinalVerdictInput(proposition="There is one God in three coequal coeternal persons"),
-        synthesis_fn=bad_synth,
         evidence_dir=tmp_path,
+        historical_dir=_hist_dir(tmp_path),
     )
-    assert env["ok"] is False
-    assert env["error"]["code"] == "verdict_fidelity_violation"
+    assert env["ok"] is True
+    # The verdict is read straight from the evidence file; it cannot drift.
+    assert env["result"]["verdict"] == evidence["verdict"]["affirms"]
+    # No cultural chunks supplied means an empty overlay, never a fabricated one.
+    assert env["result"]["cultural_overlay"]["passages"] == []
 
 
 def test_doctrinal_verdict_no_match(tmp_path: Path) -> None:

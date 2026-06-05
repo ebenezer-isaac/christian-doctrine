@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
+from bd_mcp.runtime import lexical_session
 from bd_mcp.tools._common import ToolInputBase, success_envelope
 
 TOOL_NAME = "lexical_lookup"
@@ -144,11 +146,12 @@ def handle(payload: LexicalLookupInput, neo4j_session: Any | None = None) -> dic
     )
 
 
-def register(server: Any, session_factory: Any | None = None) -> None:
+def register(server: Any) -> None:
     @server.tool(
         name=TOOL_NAME, description="Strong's / lemma / surface lookup in the lexical store."
     )
     def _tool(
+        ctx: Context,
         query: str,
         lang: Literal["hb", "gk"],
         id_type: Literal["strong", "lemma", "surface", "gloss"] = "strong",
@@ -162,10 +165,5 @@ def register(server: Any, session_factory: Any | None = None) -> None:
             limit=limit,
             caller_context=caller_context,
         )
-        if session_factory is None:
-            return handle(payload)
-        try:
-            with session_factory() as session:
-                return handle(payload, neo4j_session=session)
-        except Exception:  # noqa: BLE001  degrade to empty when the lexical store is unreachable
-            return handle(payload)
+        with lexical_session(ctx) as session:
+            return handle(payload, neo4j_session=session)

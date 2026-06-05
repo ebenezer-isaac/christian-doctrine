@@ -1,12 +1,19 @@
-"""cultural_overlay: tradition passages with license-aware snippet redaction."""
+"""cultural_overlay: tradition passages with license-aware snippet redaction.
+
+The handler is a pure transform over cultural chunks. ``build_cultural_overlay``
+is the shared formatter (also used by ``doctrinal_verdict``) that turns retrieved
+chunks into license-redacted passages grouped by tradition.
+"""
 
 from __future__ import annotations
 
-from typing import Any, Literal
+from typing import Any
 
+from mcp.server.fastmcp import Context
 from pydantic import Field
 
-from bd_mcp.tools._common import ToolInputBase, success_envelope
+from bd_mcp.runtime import cultural_chunks as retrieve_chunks
+from bd_mcp.tools._common import CallerContext, ToolInputBase, success_envelope
 
 TOOL_NAME = "cultural_overlay"
 
@@ -40,52 +47,6 @@ def _paraphrase(text: str) -> str:
     return " ".join(words[:30]) + (" ..." if len(words) > 30 else "")
 
 
-def handle(
-    payload: CulturalOverlayInput,
-    cultural_chunks: list[dict[str, Any]] | None = None,
-) -> dict[str, Any]:
-    chunks = list(cultural_chunks or [])
-    passages: list[dict[str, Any]] = []
-    sources_used: list[dict[str, str]] = []
-    for ch in chunks[: payload.k]:
-        license_ = ch.get("license", "<unknown>")
-        redistribute = bool(ch.get("redistribute", False))
-        source_word_count = int(ch.get("source_work_word_count", 0))
-        text = ch.get("text", "")
-        snippet = _redact_snippet(text, source_word_count, redistribute)
-        paraphrase = None
-        if not redistribute:
-            paraphrase = _paraphrase(text)
-        passages.append(
-            {
-                "tradition": ch.get("tradition"),
-                "source": ch.get("source"),
-                "stance": ch.get("stance"),
-                "snippet": snippet,
-                "tradition_paraphrase_if_not_redistributable": paraphrase,
-            }
-        )
-        sources_used.append({"source": ch.get("source", "<unknown>"), "license": license_})
-    result = {
-        "ref": payload.ref,
-        "doctrine": payload.doctrine,
-        "passages": passages,
-        "by_tradition": _by_tradition(passages),
-    }
-    snippet_words = sum(len((p["snippet"] or "").split()) for p in passages)
-    return success_envelope(
-        tool=TOOL_NAME,
-        result=result,
-        sources_used=sources_used,
-        caller_context=payload.caller_context,
-        snippet_word_count=snippet_words,
-        source_work_word_count=max(
-            (int(c.get("source_work_word_count", 0)) for c in chunks),
-            default=100000,
-        ),
-    )
-
-
 def _by_tradition(passages: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
     out: dict[str, list[dict[str, Any]]] = {}
     for p in passages:
@@ -93,28 +54,78 @@ def _by_tradition(passages: list[dict[str, Any]]) -> dict[str, list[dict[str, An
     return out
 
 
-def register(server: Any, cultural_retriever: Any | None = None) -> None:
+def build_cultural_overlay(
+    chunks: list[dict[str, Any]] | None,
+    *,
+    k: int | None = None,
+) -> tuple[dict[str, Any], list[dict[str, str]]]:
+    """Format cultural chunks into license-redacted passages grouped by tradition.
+
+    Returns ``({"passages": [...], "by_tradition": {...}}, sources_used)``. A
+    redistribute=false chunk is snippet-capped (100 words and 1% of the source
+    work) and paraphrased; a redistributable chunk is returned in full. Shared by
+    cultural_overlay and doctrinal_verdict so both render the overlay identically.
+    """
+    selected = list(chunks or [])
+    if k is not None:
+        selected = selected[:k]
+    passages: list[dict[str, Any]] = []
+    sources: list[dict[str, str]] = []
+    for ch in selected:
+        redistribute = bool(ch.get("redistribute", False))
+        text = ch.get("text", "")
+        snippet = _redact_snippet(text, int(ch.get("source_work_word_count", 0)), redistribute)
+        passages.append(
+            {
+                "tradition": ch.get("tradition"),
+                "source": ch.get("source"),
+                "stance": ch.get("stance"),
+                "snippet": snippet,
+                "tradition_paraphrase_if_not_redistributable": (
+                    None if redistribute else _paraphrase(text)
+                ),
+            }
+        )
+        sources.append(
+            {"source": ch.get("source", "<unknown>"), "license": ch.get("license", "<unknown>")}
+        )
+    return {"passages": passages, "by_tradition": _by_tradition(passages)}, sources
+
+
+def handle(
+    payload: CulturalOverlayInput,
+    cultural_chunks: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    chunks = list(cultural_chunks or [])
+    block, sources_used = build_cultural_overlay(chunks, k=payload.k)
+    result = {"ref": payload.ref, "doctrine": payload.doctrine, **block}
+    snippet_words = sum(len((p["snippet"] or "").split()) for p in block["passages"])
+    return success_envelope(
+        tool=TOOL_NAME,
+        result=result,
+        sources_used=sources_used,
+        caller_context=payload.caller_context,
+        snippet_word_count=snippet_words,
+        source_work_word_count=max(
+            (int(c.get("source_work_word_count", 0)) for c in chunks), default=100000
+        ),
+    )
+
+
+def register(server: Any) -> None:
     @server.tool(
         name=TOOL_NAME, description="Cultural-store tradition passages with license-aware snippets."
     )
     def _tool(
+        ctx: Context,
         ref: str | None = None,
         doctrine: str | None = None,
         traditions: list[str] | None = None,
         k: int = 8,
-        caller_context: Literal["personal", "public-share", "export"] = "personal",
+        caller_context: CallerContext = "personal",
     ) -> dict[str, Any]:
         payload = CulturalOverlayInput(
-            ref=ref,
-            doctrine=doctrine,
-            traditions=traditions,
-            k=k,
-            caller_context=caller_context,
+            ref=ref, doctrine=doctrine, traditions=traditions, k=k, caller_context=caller_context
         )
-        if cultural_retriever is None:
-            return handle(payload)
-        try:
-            chunks = cultural_retriever(doctrine=doctrine, ref=ref, traditions=traditions, k=k)
-        except Exception:  # noqa: BLE001  cultural overlay is diagnostic, degrade to empty
-            chunks = None
+        chunks = retrieve_chunks(ctx, doctrine=doctrine, ref=ref, traditions=traditions, k=k)
         return handle(payload, cultural_chunks=chunks)
