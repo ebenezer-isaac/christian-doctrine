@@ -1,0 +1,19 @@
+{
+  "name": "christian-doctrine-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deploy scripts for the Christian Doctrine app (Flutter web + FastAPI on the VPS).",
+  "scripts": {
+    "deploy": "bash deploy/deploy.sh all",
+    "deploy:web": "bash deploy/deploy.sh web",
+    "deploy:api": "bash deploy/deploy.sh api",
+    "db:create": "bash deploy/deploy.sh db",
+    "route": "bash deploy/deploy.sh route",
+    "purge": "bash deploy/deploy.sh purge",
+    "verify": "bash deploy/deploy.sh verify",
+    "logs": "bash deploy/deploy.sh logs",
+    "ps": "bash deploy/deploy.sh ps",
+    "engine": "bash deploy/deploy.sh engine",
+    "engine:up": "bash deploy/deploy.sh engine-up"
+  }
+}

@@ -83,3 +83,16 @@ tmp/
 .mypy_cache/
 responses/
 *.bak
+
+# app deploy secrets
+cd_app/deploy/deploy.env
+cd_app/.env
+cd_app/web/html/
+cd_app/mobile/build/
+
+# Large build binaries + generated assets (regenerable)
+*.apk
+archive/
+# Raw AI logo drops (processed versions live in cd_app/mobile/assets/icon/)
+Gemini_Generated_Image_*.png
+*-removebg-preview.png

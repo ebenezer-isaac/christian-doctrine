@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from bd_mcp.tools.parallel_translation import ParallelTranslationInput
-from bd_mcp.tools.parallel_translation import handle as parallel_handle
-from bd_mcp.tools.variant_inspect import VariantInspectInput
-from bd_mcp.tools.variant_inspect import handle as variant_handle
+from cd_mcp.tools.parallel_translation import ParallelTranslationInput
+from cd_mcp.tools.parallel_translation import handle as parallel_handle
+from cd_mcp.tools.variant_inspect import VariantInspectInput
+from cd_mcp.tools.variant_inspect import handle as variant_handle
 
 
 def test_parallel_translation_multiple_translations() -> None:

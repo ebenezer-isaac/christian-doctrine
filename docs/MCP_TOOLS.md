@@ -320,7 +320,9 @@ If ECM is not published for the cited book: returns `ecm_published: false` and a
 
 ## Tool 9: doctrinal_verdict
 
-**Purpose**: return the three diagnostic blocks for a doctrinal proposition: the lexical verdict (authoritative), the cultural overlay, and the historical attestation. The server does NO synthesis and calls NO LLM. It assembles structured data and the calling model (the MCP client) reasons over the three blocks. The lexical verdict is read verbatim from `evidence/<id>.json`, so it cannot drift.
+**Purpose**: answer a doctrinal proposition from Scripture. By default it returns a compact, plain-language answer (a yes/no, an explanation, the key verses, short diagnostics) so a non-technical caller gets a usable answer immediately. `verbosity="full"` additionally embeds the three complete diagnostic blocks: the lexical verdict (authoritative), the cultural overlay, and the historical attestation. The server does NO synthesis and calls NO LLM (other than the embedding call used to match the proposition to a question). The lexical verdict is read verbatim from `evidence/<id>.json`, so it cannot drift.
+
+**Proposition matching**: the free-text `proposition` is matched to a stored question semantically: every catalog question is embedded once with voyage-4-large (`embeddings/embed_questions.py` -> `embeddings/question_index.npz`) and the proposition is embedded and cosine-matched against it (`cd_mcp/question_match.py`). When voyage or the cache is unavailable it falls back to idf-weighted keyword overlap. A clear winner is `match_confidence: "high"`; when several questions are close the match is `"ambiguous"` and a `did_you_mean` block lists the alternatives so a wrong mapping is visible and correctable, never silent. Rebuild the index (`python -m embeddings.embed_questions`) whenever `questions.json` changes.
 
 **Input**:
 ```json
@@ -328,6 +330,7 @@ If ECM is not published for the cited book: returns `ecm_published: false` and a
   "proposition": "Scripture is the sole and final authority for the rule of faith",
   "denominations": ["plymouth-brethren", "reformed", "catholic-magisterial (optional)"],
   "depth": "fast | deep",
+  "verbosity": "summary | full",
   "progressToken": "<client-supplied>",
   "caller_context": "personal | public-share | export"
 }
@@ -348,67 +351,81 @@ If ECM is not published for the cited book: returns `ecm_published: false` and a
 
 Stages: `lexical-read` (0.0-0.4), `cultural-retrieval` (0.4-0.8), `historical-read` (0.8-1.0). These are read-and-assemble stages; no synthesis stage exists because the server does not synthesize.
 
-**Output result**:
+**Output result (summary, default)**:
 ```json
 {
-  "verdict": "affirms | denies | null | disputed",
+  "verdict": true,
+  "answer": "Yes | No | Uncertain",
+  "headline": "Yes. The biblical-language evidence supports this: \"...\"",
+  "explanation": "<plain-language lay_summary>",
+  "key_scriptures": ["Deut 6:4", "John 1:1", "Col 1:16"],
+  "confidence_plain": "The supporting texts span the whole Bible and the texts state it directly.",
+  "also_weighed": ["Ps 82:6: <first sentence of the resolution, capped>"],
+
   "lexical_breadth": "canon_wide | broad | partial | thin",
   "lexical_directness": "direct | inferred | analogical | silent",
   "variant_stability": "stable | sensitive | not_in_scope",
 
-  "lexical_evidence": {
-    "rationale": "<>",
-    "lay_summary": "<>",
-    "pan_canonical": <bool>,
-    "variant_robust": <bool>,
-    "source_evidence_files": ["evidence/doc-scripture-final-authority.json"]
-  },
-
-  "cultural_overlay": {
-    "passages": [{
-      "tradition": "<>",
-      "source": "<>",
-      "stance": "<>",
-      "snippet": "<fair-use snippet or null>",
-      "tradition_paraphrase_if_not_redistributable": "<paraphrase or null>"
-    }],
-    "by_tradition": {
-      "<tradition>": [{"tradition": "<>", "source": "<>", "stance": "<>", "snippet": "<>"}]
+  "diagnostics": {
+    "cultural": {
+      "note": "Diagnostic only. The cultural overlay never changes the verdict.",
+      "traditions_by_stance": {"affirms": 4, "unstated": 4},
+      "examples": [{"tradition": "<>", "source": "<>", "stance": "<>", "paraphrase": "<>"}],
+      "full_detail": "Call the cultural_overlay tool for all passages."
+    },
+    "historical": {
+      "note": "Diagnostic only. Historical attestation never changes the verdict.",
+      "attestation_present": false,
+      "witness_count": 0,
+      "summary": "<>",
+      "top_witnesses": [{"witness_id": "<>", "author": "<>", "work": "<>", "date": "<>", "confidence": 0.0, "attestation_type": "<>"}],
+      "full_detail": "Call historical_inspect with question_id='<>' for all witnesses."
     }
   },
 
-  "variant_sensitivity": {
-    "verdict_variant_sensitive": <bool>,
-    "variant_units_in_play": []
+  "evidence_file_id": "doc-christ-full-deity",
+  "matched_question": {
+    "question_id": "doc-christ-full-deity",
+    "statement": "<the catalog question statement>",
+    "match_method": "semantic | keyword",
+    "match_confidence": "high | ambiguous | low"
   },
-
-  "historical_attestation": {
-    "attestation_present": <bool>,
-    "witnesses": [ <Witness>, ... ],
-    "summary": "<>",
-    "license_audit": {
-      "sources_used": [{"source_slug": "<>", "license": "<>", "redistribute": <bool>}],
-      "evidence_safe_to_publish": <bool>,
-      "non_redistributable_reason": "<>|null"
-    },
-    "flags": ["<>"]
+  "did_you_mean": {
+    "note": "<present only when match_confidence is ambiguous/low>",
+    "alternatives": [{"question_id": "<>", "statement": "<>"}]
   },
-
-  "evidence_file_id": "doc-scripture-final-authority"
+  "drill_down": {
+    "full_lexical_evidence": {"tool": "evidence_inspect", "question_id": "<>"},
+    "full_historical": {"tool": "historical_inspect", "question_id": "<>"},
+    "full_cultural": {"tool": "cultural_overlay", "doctrine": "<proposition>"},
+    "hint": "Re-run doctrinal_verdict with verbosity='full' to embed every block inline."
+  },
+  "sharing": {"safe_to_share_publicly": false, "reason": "<short reason or null>"}
 }
 ```
 
-The three blocks are returned directly, side by side, never fused. The server does not synthesize them and calls no LLM. The calling model (the MCP client) reads the structured data and does the synthesis itself.
+The summary is small by design (typically under ~12 KB) so it never overflows a client's tool-result cap. The heavy blocks are reached either through the drill-down tools or via `verbosity="full"`.
 
-- `verdict` plus the three flattened axes (`lexical_breadth`, `lexical_directness`, `variant_stability`) and the `lexical_evidence` block are read verbatim from `evidence/<evidence_file_id>.json` (Pipeline 2). The `verdict` is the stored `verdict.affirms`, copied straight from the file. Because it is read, not re-derived, it cannot drift; there is no query-time re-derivation and nothing to re-check.
-- `cultural_overlay` is retrieved live from the cultural store (`cult_col`) at request time, filtered by tradition and by the doctrine slug of the matched question, then formatted by `build_cultural_overlay` into license-redacted `passages` and a `by_tradition` grouping. It is diagnostic and never settles the verdict. If the cultural store is unavailable the overlay degrades to empty.
-- `variant_sensitivity` is the `variants` block from the evidence file.
-- `historical_attestation` is the Pipeline 4 sidecar (`historical/<evidence_file_id>.json`), read and validated against `HistoricalAttestation` before it is attached. Most of the 231 questions carry no attestation (`attestation_present: false`, empty `witnesses`); 27 carry witnesses. The witness shape is the `Witness` model in `pipeline4/historical_schema.py`. A sidecar that fails validation aborts the response with `error.code: "historical_corrupt"`.
-- `evidence_file_id` is the resolved question id.
+**Output result (`verbosity="full"`)**: everything above, plus the three complete blocks returned directly, side by side, never fused:
 
-**License audit folds all three stacks.** The envelope `license_audit.sources_used` is the union of the lexical sources (from the evidence file), the cultural sources (from the retrieved chunks), and the historical witness sources (from the sidecar, `source_slug` mapped to `source`). `response_safe_to_share` is then computed via `license_guard.check_redistribute(...)` over every cited source, respecting `caller_context`. A non-redistributable source in any block (for example a DSS witness under CC-BY-NC-4.0) flips `response_safe_to_share` under `public-share` and `export`.
+```json
+{
+  "lexical_evidence": { "rationale": "<>", "lay_summary": "<>", "pan_canonical": true, "variant_robust": true, "scripture": [...], "complicating_texts": [...], "source_evidence_files": ["evidence/<id>.json"] },
+  "cultural_overlay": { "passages": [{"tradition": "<>", "source": "<>", "stance": "<>", "snippet": "<fair-use snippet or null>", "tradition_paraphrase_if_not_redistributable": "<paraphrase or null>"}], "by_tradition": {"<tradition>": [...]} },
+  "variant_sensitivity": { "verdict_variant_sensitive": false, "variant_units_examined": [] },
+  "historical_attestation": { "attestation_present": false, "witnesses": [<slimmed Witness>, ...], "summary": "<>", "license_audit": {...}, "flags": [] }
+}
+```
 
-**Implementation**: the pure handler is `doctrinal_verdict.handle(payload, *, evidence_dir=None, historical_dir=None, cultural_chunks=None)` in `bd_mcp/tools/doctrinal_verdict.py`. The tool's `register()` retrieves the cultural chunks live (via the cultural clients held on the FastMCP lifespan, reached through the injected `Context`) and passes them in. There is no synthesis subagent, no `synthesis_fn`, and no dispatch.
+- `verdict` plus the three flattened axes (`lexical_breadth`, `lexical_directness`, `variant_stability`) and (in full mode) the `lexical_evidence` block are read verbatim from `evidence/<evidence_file_id>.json` (Pipeline 2). The `verdict` is the stored `verdict.affirms`, copied straight from the file. Because it is read, not re-derived, it cannot drift; there is no query-time re-derivation and nothing to re-check. `answer`, `headline`, `explanation`, `key_scriptures`, `confidence_plain`, and `also_weighed` are plain-language renderings of that same stored data; they add no new claims.
+- `cultural_overlay` is retrieved live from the cultural store (`cult_col`) at request time, filtered by tradition and by the doctrine slug of the matched question, then formatted by `build_cultural_overlay` into license-redacted `passages` and a `by_tradition` grouping. In summary mode only stance counts and up to two paraphrased examples are surfaced; raw snippets are never embedded in the summary. It is diagnostic and never settles the verdict. If the cultural store is unavailable the overlay degrades to empty.
+- `variant_sensitivity` is the `variants` block from the evidence file (full mode only).
+- `historical_attestation` is the Pipeline 4 sidecar (`historical/<evidence_file_id>.json`), read and validated against `HistoricalAttestation` before it is attached. In full mode the witnesses are slimmed (internal embedding/provenance fields dropped); the summary surfaces a `witness_count` and the top witnesses by confidence. Most of the 231 questions carry no attestation; 27 carry witnesses. A sidecar that fails validation aborts the response with `error.code: "historical_corrupt"`.
+- `evidence_file_id` is the resolved question id; `matched_question` reports how the proposition was matched.
+
+**License audit folds all three stacks.** The envelope `license_audit.sources_used` is the union of the lexical sources (from the evidence file), the cultural sources (from the retrieved chunks), and the historical witness sources (from the sidecar, `source_slug` mapped to `source`). `response_safe_to_share` is then computed via `license_guard.check_redistribute(...)` over every cited source, respecting `caller_context`, and surfaced in plain terms as `result.sharing`. A non-redistributable source in any block (for example a DSS witness under CC-BY-NC-4.0) flips `response_safe_to_share` under `public-share` and `export`.
+
+**Implementation**: the pure handler is `doctrinal_verdict.handle(payload, *, evidence_dir=None, historical_dir=None, cultural_chunks=None, classification=None)` in `cd_mcp/tools/doctrinal_verdict.py`. The tool's `register()` matches the proposition (with the live voyage client + cached index), retrieves the cultural chunks live (via the cultural clients held on the FastMCP lifespan, reached through the injected `Context`), and passes both in. There is no synthesis subagent, no `synthesis_fn`, and no dispatch.
 
 **Touches**: the cultural store (live retrieval) plus the `evidence/` and `historical/` filesystem. License-aware as described above.
 
@@ -493,18 +510,18 @@ The three blocks are returned directly, side by side, never fused. The server do
 ## Server configuration
 
 ```python
-# bd_mcp/server.py (sketch)
-from mcp.server.fastmcp import FastMCP  # PyPI SDK; the local package is named bd_mcp/ to avoid collision.
+# cd_mcp/server.py (sketch)
+from mcp.server.fastmcp import FastMCP  # PyPI SDK; the local package is named cd_mcp/ to avoid collision.
 
-from bd_mcp.runtime import lifespan  # opens the store connections on startup, closes them on shutdown
+from cd_mcp.runtime import lifespan  # opens the store connections on startup, closes them on shutdown
 
 # The lifespan holds the live store connections; tools reach them through the
 # injected Context. The server is fully functional with no external wiring.
 server = FastMCP(name="brethren-doctrine", lifespan=lifespan)
 
-# Register all 12 tools (local imports from bd_mcp.tools, NOT the PyPI mcp package).
+# Register all 12 tools (local imports from cd_mcp.tools, NOT the PyPI mcp package).
 # Each module exposes register(server); build_server() calls them in order.
-from bd_mcp.tools.lexical_lookup import register as register_lexical_lookup
+from cd_mcp.tools.lexical_lookup import register as register_lexical_lookup
 # ... the other 11 register imports ...
 register_lexical_lookup(server)
 # ... register the remaining 11 tools ...
@@ -513,7 +530,7 @@ register_lexical_lookup(server)
 server.run(transport="streamable-http")
 ```
 
-`python -m bd_mcp.server` serves every tool live against the real stores. `build_server()` takes no injector arguments; there is no "inject to be functional" duality.
+`python -m cd_mcp.server` serves every tool live against the real stores. `build_server()` takes no injector arguments; there is no "inject to be functional" duality.
 
 ## Long-running tool conventions
 

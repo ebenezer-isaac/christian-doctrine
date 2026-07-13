@@ -5,12 +5,12 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from bd_mcp.tools.cultural_overlay import CulturalOverlayInput
-from bd_mcp.tools.cultural_overlay import handle as cultural_handle
-from bd_mcp.tools.evidence_inspect import EvidenceInspectInput
-from bd_mcp.tools.evidence_inspect import handle as evidence_inspect_handle
-from bd_mcp.tools.license_audit import LicenseAuditInput
-from bd_mcp.tools.license_audit import handle as license_audit_handle
+from cd_mcp.tools.cultural_overlay import CulturalOverlayInput
+from cd_mcp.tools.cultural_overlay import handle as cultural_handle
+from cd_mcp.tools.evidence_inspect import EvidenceInspectInput
+from cd_mcp.tools.evidence_inspect import handle as evidence_inspect_handle
+from cd_mcp.tools.license_audit import LicenseAuditInput
+from cd_mcp.tools.license_audit import handle as license_audit_handle
 from pipeline2.evidence_schema import Evidence
 from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict

@@ -16,7 +16,7 @@ The server does NO synthesis and calls NO LLM. ``doctrinal_verdict.handle``
 assembles structured data and the calling model reasons over it. Because the
 verdict is read straight from the locked evidence file, it cannot drift. This
 harness mirrors what the tool's ``register()`` does at runtime: it retrieves the
-cultural chunks live via ``bd_mcp.live.cultural.retrieve_cultural_chunks`` and
+cultural chunks live via ``cd_mcp.live.cultural.retrieve_cultural_chunks`` and
 passes them into ``handle`` alongside the evidence and historical directories.
 
 The cultural retrieval is fail-soft by contract: if the cultural store or the
@@ -40,9 +40,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from bd_mcp.live.cultural import retrieve_cultural_chunks  # noqa: E402
-from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput  # noqa: E402
-from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle  # noqa: E402
+from cd_mcp.live.cultural import retrieve_cultural_chunks  # noqa: E402
+from cd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput  # noqa: E402
+from cd_mcp.tools.doctrinal_verdict import handle as verdict_handle  # noqa: E402
 
 EVIDENCE_DIR = REPO_ROOT / "evidence"
 HISTORICAL_DIR = REPO_ROOT / "historical"

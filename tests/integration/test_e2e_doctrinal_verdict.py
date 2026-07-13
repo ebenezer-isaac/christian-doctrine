@@ -13,8 +13,8 @@ from pathlib import Path
 
 import pytest
 
-from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
-from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
+from cd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
+from cd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from pipeline2.evidence_schema import Evidence
 from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
@@ -99,6 +99,125 @@ def test_e2e_doctrinal_verdict_envelope_has_license_audit(tmp_path: Path) -> Non
     )
     assert "license_audit" in env
     assert "response_safe_to_share" in env["license_audit"]
+
+
+def test_summary_mode_is_compact_and_plain(tmp_path: Path) -> None:
+    """Default response stays small and leads with a plain-language answer."""
+    _materialize_trinity(tmp_path)
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="There is one God in three persons"),
+        evidence_dir=tmp_path,
+    )
+    r = env["result"]
+    # Plain-language answer block is present and readable.
+    assert r["answer"] == "Yes"
+    assert r["verdict"] is True
+    assert r["headline"].startswith("Yes.")
+    assert isinstance(r["explanation"], str) and r["explanation"]
+    assert r["key_scriptures"] == ["Deut 6:4"]
+    assert r["confidence_plain"]
+    assert r["also_weighed"] == ["Mark 13:32: communicatio idiomatum: the Son in assumed human "
+                                 "nature does not access divine omniscience for that disclosure."]
+    # Diagnostics are summarized, not inlined, with drill-down pointers.
+    assert r["diagnostics"]["historical"]["full_detail"]
+    assert r["drill_down"]["full_lexical_evidence"]["tool"] == "evidence_inspect"
+    assert "sharing" in r
+    # Heavy blocks must NOT be inlined in summary mode.
+    assert "lexical_evidence" not in r
+    assert "cultural_overlay" not in r
+    assert "historical_attestation" not in r
+    # Hard size budget: summary must never approach the client inlining cap.
+    assert len(json.dumps(env)) < 8000
+
+
+def test_full_mode_embeds_blocks(tmp_path: Path) -> None:
+    """verbosity='full' adds the complete blocks while keeping the summary."""
+    _materialize_trinity(tmp_path)
+    env = verdict_handle(
+        DoctrinalVerdictInput(
+            proposition="There is one God in three persons", verbosity="full"
+        ),
+        evidence_dir=tmp_path,
+    )
+    r = env["result"]
+    assert r["answer"] == "Yes"  # summary still leads
+    assert "lexical_evidence" in r
+    assert "cultural_overlay" in r
+    assert "historical_attestation" in r
+    assert "variant_sensitivity" in r
+
+
+def test_matched_question_and_did_you_mean_surface(tmp_path: Path) -> None:
+    """An ambiguous match exposes the matched question and the alternatives."""
+    _materialize_trinity(tmp_path)
+    classification = {
+        "matched_qid": "doc-trinity",
+        "matched_statement": "There is one God in three Persons.",
+        "method": "semantic",
+        "confidence": "ambiguous",
+        "candidates": [
+            {"question_id": "doc-trinity", "statement": "There is one God in three Persons."},
+            {"question_id": "doc-modalism-denial", "statement": "Three distinct Persons."},
+        ],
+    }
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="one God three persons"),
+        evidence_dir=tmp_path,
+        classification=classification,
+    )
+    r = env["result"]
+    assert r["matched_question"]["question_id"] == "doc-trinity"
+    assert r["matched_question"]["match_method"] == "semantic"
+    assert r["matched_question"]["match_confidence"] == "ambiguous"
+    alts = r["did_you_mean"]["alternatives"]
+    assert {a["question_id"] for a in alts} == {"doc-modalism-denial"}
+
+
+def test_high_confidence_omits_did_you_mean(tmp_path: Path) -> None:
+    _materialize_trinity(tmp_path)
+    classification = {
+        "matched_qid": "doc-trinity",
+        "matched_statement": "There is one God in three Persons.",
+        "method": "semantic",
+        "confidence": "high",
+        "candidates": [{"question_id": "doc-trinity", "statement": "..."}],
+    }
+    env = verdict_handle(
+        DoctrinalVerdictInput(proposition="one God three persons"),
+        evidence_dir=tmp_path,
+        classification=classification,
+    )
+    assert "did_you_mean" not in env["result"]
+
+
+def test_slim_witness_drops_internal_fields() -> None:
+    """Embedded witnesses drop internal embedding/provenance bloat."""
+    from cd_mcp.tools.doctrinal_verdict import _slim_witness
+
+    w = _slim_witness(
+        {
+            "witness_id": "josephus.ant.3.91",
+            "source_type": "jewish-historian",
+            "source": {"source_slug": "josephus", "author": "Flavius Josephus"},
+            "attestation_type": "parallel",
+            "confidence": 0.82,
+            "evidence_phrase": "there is but one God",
+            "rationale": "independent first-century monotheism witness",
+            "contested_interpolation": {"type": "none"},
+            "provenance": {"original_language": "el"},
+            "text": "long text",
+            "text_to_embed": "long text to embed",
+            "license": "public-domain",
+            "license_note": "Whiston 1737",
+        }
+    )
+    assert w["witness_id"] == "josephus.ant.3.91"
+    assert w["evidence_phrase"] == "there is but one God"
+    assert w["contested_interpolation_type"] == "none"
+    assert "text_to_embed" not in w
+    assert "text" not in w
+    assert "license_note" not in w
+    assert "provenance" not in w
 
 
 @pytest.mark.skipif(

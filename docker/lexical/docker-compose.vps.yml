@@ -1,0 +1,10 @@
+# VPS serving override: the base memory is tuned for building (heap 6G + 10G
+# pagecache). For read-only query serving of ~3.6GB of data on a shared host,
+# this is far smaller so the other production sites keep their headroom.
+name: brethren-lexical
+services:
+  lexical-neo4j:
+    environment:
+      NEO4J_server_memory_heap_initial__size: 1G
+      NEO4J_server_memory_heap_max__size: 2G
+      NEO4J_server_memory_pagecache_size: 3G

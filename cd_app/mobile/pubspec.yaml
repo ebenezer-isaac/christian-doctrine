@@ -1,0 +1,46 @@
+name: christian_doctrine
+description: Private companion to the Christian Doctrine engine.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  google_sign_in: ^6.2.2
+  google_sign_in_web: ^0.12.4+4
+  url_launcher: ^6.3.1
+  http: ^1.2.2
+  flutter_markdown: ^0.7.4
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+    - assets/icon/logo.png
+
+# Run once after `flutter create .`:
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: true
+  adaptive_icon_background: "#3E4FBE"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  ios: true
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icon/favicon.png"
+    background_color: "#3E4FBE"
+    theme_color: "#4C5FD5"

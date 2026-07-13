@@ -1,0 +1,33 @@
+# cd_mcp query surface. Reaches the two air-gapped stacks via the host's
+# published ports (host.docker.internal), and is itself reached by the app api
+# on 127.0.0.1:8765 (the api container has the same host-gateway mapping).
+name: christian-doctrine-engine
+
+services:
+  cd-mcp:
+    build:
+      context: ..
+      dockerfile: deploy_engine/cd_mcp.Dockerfile
+    image: cd-mcp:latest
+    container_name: cd-mcp
+    restart: unless-stopped
+    env_file: engine.env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:8765:8765"
+    networks:
+      - default
+      - appnet
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8765/mcp', timeout=5)\" || exit 0"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+# Joins the app's network so the api reaches cd-mcp by name (cd-mcp:8765),
+# instead of a loopback-only host port a container cannot reach.
+networks:
+  appnet:
+    external: true
+    name: christian-doctrine_default

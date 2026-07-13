@@ -21,7 +21,7 @@ The engine is exposed via an MCP server. From any MCP-native client (Claude Code
 
 ```bash
 # Start the MCP server (target; implementation pending)
-uv run python -m bd_mcp.server
+uv run python -m cd_mcp.server
 ```
 
 Then call tools. The 11 tools are documented in [docs/MCP_TOOLS.md](docs/MCP_TOOLS.md). Example tool calls:

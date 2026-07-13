@@ -13,7 +13,7 @@ orchestrator drives:
   3. ``collect_tags`` reads those jsonl files back, validates every tag against
      ``DoctrineTag``, applies the 0.6 confidence floor and the 5-tag cap.
   4. ``persist_qdrant`` writes the kept tags onto each cult_col point payload
-     (``set_payload``), which is exactly where ``bd_mcp/live/cultural.py`` reads
+     (``set_payload``), which is exactly where ``cd_mcp/live/cultural.py`` reads
      ``stance`` from. ``persist_neo4j`` mirrors them onto the CulturalChunk node
      so the graph and the vector store agree.
 
@@ -185,7 +185,7 @@ def persist_qdrant(
 ) -> dict[str, int]:
     """Write doctrine_tags onto the cult_col point payloads (set_payload per point).
 
-    bd_mcp/live/cultural.py reads stance from this payload, so this is the write
+    cd_mcp/live/cultural.py reads stance from this payload, so this is the write
     that makes cultural stance attribution go live. Returns counts.
     """
     qc = _qdrant_client(settings, client)

@@ -1,0 +1,51 @@
+# christian-doctrine.ebenezer-isaac.com
+#
+# web (nginx) serves the Flutter bundle and proxies /api -> api.
+# api (FastAPI) drives Claude via the Agent SDK over the doctrine engine MCP.
+#
+# Networks follow the VPS pattern:
+#   server-network            shared, so the Cloudflare tunnel can reach web
+#   llmconveyors_app-network  shared, so api can reach the existing MongoDB
+# Both are external (created by other stacks). See ~/infra/cloudflare/README.md.
+
+services:
+  api:
+    build: ./backend
+    image: christian-doctrine-api:latest
+    container_name: christian-doctrine-api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - HOME=/home/app
+    volumes:
+      # SDK session transcripts persist here so conversations can resume.
+      - claude-sessions:/home/app/.claude
+      # Generated doctrine PDFs, read-only.
+      - ./archive_pdfs:/archive:ro
+    extra_hosts:
+      # lets the container reach host-side services if ever needed
+      - "host.docker.internal:host-gateway"
+    networks:
+      - default
+      - llmconveyors_app-network
+
+  web:
+    build: ./web
+    image: christian-doctrine-web:latest
+    container_name: christian-doctrine-web
+    restart: unless-stopped
+    depends_on:
+      - api
+    networks:
+      - default
+      - server-network
+
+volumes:
+  claude-sessions:
+
+networks:
+  default:
+  server-network:
+    external: true
+  llmconveyors_app-network:
+    external: true

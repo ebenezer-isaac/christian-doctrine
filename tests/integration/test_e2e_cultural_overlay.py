@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from bd_mcp.tools.cultural_overlay import CulturalOverlayInput
-from bd_mcp.tools.cultural_overlay import handle as cultural_handle
+from cd_mcp.tools.cultural_overlay import CulturalOverlayInput
+from cd_mcp.tools.cultural_overlay import handle as cultural_handle
 
 
 def _chunk(tradition: str, source: str, license: str, redistribute: bool) -> dict:

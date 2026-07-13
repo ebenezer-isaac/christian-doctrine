@@ -15,8 +15,8 @@ from pathlib import Path
 
 import pytest
 
-from bd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
-from bd_mcp.tools.doctrinal_verdict import handle as verdict_handle
+from cd_mcp.tools.doctrinal_verdict import DoctrinalVerdictInput
+from cd_mcp.tools.doctrinal_verdict import handle as verdict_handle
 from pipeline2.evidence_schema import Evidence
 from pipeline2.score_calc import compute_lexical_breadth, compute_variant_stability
 from tests.pipeline2._fixtures import minimal_evidence_dict
@@ -61,7 +61,7 @@ def test_mcp_acceptance_via_subprocess() -> None:
             sys.executable,
             "-m",
             "pytest",
-            "tests/bd_mcp/test_acceptance.py",
+            "tests/cd_mcp/test_acceptance.py",
             "-v",
             "--tb=short",
         ],

@@ -13,22 +13,22 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import Any
 
-from bd_mcp.tools.concordance_walk import ConcordanceWalkInput
-from bd_mcp.tools.concordance_walk import handle as concordance_handle
-from bd_mcp.tools.cross_ref import CrossRefInput
-from bd_mcp.tools.cross_ref import handle as cross_ref_handle
-from bd_mcp.tools.cultural_overlay import CulturalOverlayInput
-from bd_mcp.tools.cultural_overlay import handle as cultural_handle
-from bd_mcp.tools.debate_for_verse import DebateForVerseInput
-from bd_mcp.tools.debate_for_verse import handle as debate_handle
-from bd_mcp.tools.lexical_lookup import LexicalLookupInput
-from bd_mcp.tools.lexical_lookup import handle as lexical_lookup_handle
-from bd_mcp.tools.parallel_translation import ParallelTranslationInput
-from bd_mcp.tools.parallel_translation import handle as parallel_handle
-from bd_mcp.tools.variant_inspect import VariantInspectInput
-from bd_mcp.tools.variant_inspect import handle as variant_handle
-from bd_mcp.tools.versification_resolve import VersificationResolveInput
-from bd_mcp.tools.versification_resolve import handle as versification_handle
+from cd_mcp.tools.concordance_walk import ConcordanceWalkInput
+from cd_mcp.tools.concordance_walk import handle as concordance_handle
+from cd_mcp.tools.cross_ref import CrossRefInput
+from cd_mcp.tools.cross_ref import handle as cross_ref_handle
+from cd_mcp.tools.cultural_overlay import CulturalOverlayInput
+from cd_mcp.tools.cultural_overlay import handle as cultural_handle
+from cd_mcp.tools.debate_for_verse import DebateForVerseInput
+from cd_mcp.tools.debate_for_verse import handle as debate_handle
+from cd_mcp.tools.lexical_lookup import LexicalLookupInput
+from cd_mcp.tools.lexical_lookup import handle as lexical_lookup_handle
+from cd_mcp.tools.parallel_translation import ParallelTranslationInput
+from cd_mcp.tools.parallel_translation import handle as parallel_handle
+from cd_mcp.tools.variant_inspect import VariantInspectInput
+from cd_mcp.tools.variant_inspect import handle as variant_handle
+from cd_mcp.tools.versification_resolve import VersificationResolveInput
+from cd_mcp.tools.versification_resolve import handle as versification_handle
 
 BASELINE_PATH = Path("tmp/integration/perf_baseline.json")
 

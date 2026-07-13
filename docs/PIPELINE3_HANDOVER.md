@@ -6,7 +6,7 @@ Pipeline 3 is COMPLETE. It was refactored to a self-contained, single-MCP design
 
 - **No synthesis subagent.** The server does NO synthesis and calls NO LLM. There
   is no `synthesis_fn`, no `make_synthesis_fn`, no dispatcher, and no
-  `pipeline3_synthesis` phase prompt. The deleted pieces were `bd_mcp/synthesis.py`,
+  `pipeline3_synthesis` phase prompt. The deleted pieces were `cd_mcp/synthesis.py`,
   the synthesis dispatch seam, and the verdict-fidelity-violation error (the
   verdict is read straight from the evidence file, so it cannot drift and there is
   nothing to re-check).
@@ -16,9 +16,9 @@ Pipeline 3 is COMPLETE. It was refactored to a self-contained, single-MCP design
   historical attestation (read from `historical/<id>.json`). The calling model (the
   MCP client) reasons over the three; the server only assembles structured data.
 - **Lifespan + Context.** Store connections live on a FastMCP `lifespan`
-  (`bd_mcp/runtime.py`), opened at startup and reached by each tool through the
+  (`cd_mcp/runtime.py`), opened at startup and reached by each tool through the
   injected `Context`. There is no "inject to be functional" duality:
-  `python -m bd_mcp.server` is fully functional with all 12 tools live, and
+  `python -m cd_mcp.server` is fully functional with all 12 tools live, and
   `build_server()` takes no injector arguments.
 - The pure handler is
   `doctrinal_verdict.handle(payload, *, evidence_dir=None, historical_dir=None, cultural_chunks=None)`;
@@ -38,16 +38,16 @@ disagree.
 
 **Done:**
 
-- **Step A. Historical block + `historical_inspect`.** `bd_mcp/tools/doctrinal_verdict.py`
+- **Step A. Historical block + `historical_inspect`.** `cd_mcp/tools/doctrinal_verdict.py`
   now reads and validates `historical/<id>.json` (via `load_historical_block`),
   attaches it as `result.historical_attestation` sourced authoritatively from the
   sidecar (never re-derived), and folds its witness `sources_used` into the
   envelope license audit. A missing sidecar yields the empty block; a malformed
   one aborts with `historical_corrupt`. The 12th tool `historical_inspect`
-  (`bd_mcp/tools/historical_inspect.py`) mirrors `evidence_inspect` with the same
-  question-id regex defense and is registered in `bd_mcp/server.py`. `docs/MCP_TOOLS.md`
+  (`cd_mcp/tools/historical_inspect.py`) mirrors `evidence_inspect` with the same
+  question-id regex defense and is registered in `cd_mcp/server.py`. `docs/MCP_TOOLS.md`
   documents 12 tools, the historical block, and the synthesis transform.
-- **Step D. Synthesis subagent dispatcher (built).** `bd_mcp/synthesis.py` holds
+- **Step D. Synthesis subagent dispatcher (built).** `cd_mcp/synthesis.py` holds
   `Pipeline3SynthesisDispatcher` and `make_synthesis_fn`, mirroring the Pipeline 2
   and Pipeline 4 injected-`dispatch_fn` pattern with no programmatic Anthropic API.
   It builds the subagent input bundle (locked evidence authoritative, retrieved
@@ -55,7 +55,7 @@ disagree.
   the payload that `doctrinal_verdict.handle(synthesis_fn=...)` transforms. The
   cultural retriever is an optional injected callable; cultural retrieval is
   fail-soft and degrades to an empty overlay.
-- **Step B. Cultural injector (built, not yet wired).** `bd_mcp/live/cultural.py`
+- **Step B. Cultural injector (built, not yet wired).** `cd_mcp/live/cultural.py`
   performs a dense voyage-4-large search over `cult_col` (60,040 points), filtered
   by tradition and narrowed by the matched question's doctrine slug, returning
   chunks in the exact handler shape. Air-gapped to the cultural store, fail-soft on
@@ -63,13 +63,13 @@ disagree.
 
 **In progress:**
 
-- **Step C. Lexical injector.** `bd_mcp/live/lexical.py` (lexical Neo4j/Qdrant) is
+- **Step C. Lexical injector.** `cd_mcp/live/lexical.py` (lexical Neo4j/Qdrant) is
   being finalized by another agent. The lexical tools remain on injected data until
   it lands.
 
 **Remaining:**
 
-- **Live wiring in `bd_mcp/server.py`.** The injectors above are BUILT but NOT yet
+- **Live wiring in `cd_mcp/server.py`.** The injectors above are BUILT but NOT yet
   WIRED. The server still registers the pure handlers with no live injectors bound
   (`register_*` pass `handle(payload)` with `synthesis_fn`, `cultural_chunks`, and
   the lexical retrievers all defaulting to None). The remaining work is to bind the
@@ -83,14 +83,14 @@ disagree.
 **Known follow-ups surfaced during implementation:**
 
 - **Cultural autotag pass has not run.** `cult_col` carries an empty `doctrine_tags`
-  array on its chunks, so `bd_mcp/live/cultural.py` derives `stance: None` for every
+  array on its chunks, so `cd_mcp/live/cultural.py` derives `stance: None` for every
   chunk (it never invents a stance). Cultural stance attribution stays None until
   the autotag pass populates the tags.
 - **`cul_col` collection-name typo at `retrieval/hybrid.py:87`. FIXED 2026-06-04.**
   The cultural branch of `HybridRetriever._collection` read `"cul_col"` where the
   live cultural collection is `cult_col`. Corrected to `cult_col`, and the two
   `tests/retrieval/test_hybrid.py` cases that had codified the wrong name updated
-  to match. `bd_mcp/live/cultural.py` was already using the correct name.
+  to match. `cd_mcp/live/cultural.py` was already using the correct name.
 
 ---
 
@@ -105,7 +105,7 @@ Pipeline 3.
 
 ## What Pipeline 3 is
 
-An MCP server (`bd_mcp/`) that answers a doctrinal query by returning three
+An MCP server (`cd_mcp/`) that answers a doctrinal query by returning three
 diagnostic blocks side by side, never fused:
 
 1. the **lexical verdict** (authoritative, from `evidence/<id>.json`),
@@ -119,16 +119,16 @@ separate blocks with separate license stacks.
 
 ## What already exists (do not rebuild)
 
-- **`bd_mcp/server.py`** FastMCP server, registers all 11 tools, streamable-HTTP
-  transport, `MCP_HOST` / `MCP_PORT` env. `build_server()` works; `python -m bd_mcp.server` starts it.
-- **11 tool handlers** under `bd_mcp/tools/` (lexical_lookup, concordance_walk,
+- **`cd_mcp/server.py`** FastMCP server, registers all 11 tools, streamable-HTTP
+  transport, `MCP_HOST` / `MCP_PORT` env. `build_server()` works; `python -m cd_mcp.server` starts it.
+- **11 tool handlers** under `cd_mcp/tools/` (lexical_lookup, concordance_walk,
   cross_ref, variant_inspect, parallel_translation, versification_resolve,
   cultural_overlay, debate_for_verse, doctrinal_verdict, evidence_inspect,
   license_audit). **All handlers are PURE**: they transform injected data
   (e.g. `cultural_overlay.handle(payload, cultural_chunks=...)`,
   `doctrinal_verdict.handle(payload, synthesis_fn=...)`). They do NOT query the
   live stores themselves. This is the seam you wire into.
-- **Envelope + license guard** `retrieval/envelope.py` and `bd_mcp/tools/_common.py`:
+- **Envelope + license guard** `retrieval/envelope.py` and `cd_mcp/tools/_common.py`:
   the common `{ok, tool, result, warnings, license_audit, trace_id, error}`
   envelope, `response_safe_to_share` derivation via `ingest.license_guard.check_redistribute`,
   `caller_context` (personal / public-share / export) snippet-vs-bulk modes,
@@ -136,7 +136,7 @@ separate blocks with separate license stacks.
 - **Retrieval building blocks** `retrieval/`: `HybridRetriever` (dense via voyage
   + sparse, `_query_dense`/`_query_sparse`), `rrf_fuse`, `router.py`, `rerank.py`
   (BGE-reranker-v2-m3). These are written but NOT connected to the tool handlers.
-- **Tests** `tests/bd_mcp/` (test_server, test_tools, test_streaming,
+- **Tests** `tests/cd_mcp/` (test_server, test_tools, test_streaming,
   test_acceptance) pass against fixtures (~227 green). They test the pure
   handlers and the envelope, not live stores.
 - **Stores up**: lexical (`bolt://localhost:7688`, `lex_col` on `:7100`, certified
@@ -148,14 +148,14 @@ separate blocks with separate license stacks.
 ### A. Attach the historical block (Pipeline 4 -> Pipeline 3). The headline item.
 
 `doctrinal_verdict` currently returns `lexical_evidence` + `cultural_overlay` +
-`variant_sensitivity`. There is NO historical block anywhere in `bd_mcp/` or
+`variant_sensitivity`. There is NO historical block anywhere in `cd_mcp/` or
 `retrieval/` (verified). The whole point of Pipeline 4 is to surface here.
 
 Do:
 1. Extend the `doctrinal_verdict` result schema in `docs/MCP_TOOLS.md` with a
    `historical_attestation` block: `{attestation_present, witnesses[], summary,
    license_audit, flags}` sourced from `historical/<evidence_file_id>.json`.
-2. In `bd_mcp/tools/doctrinal_verdict.py`: after resolving `qid`, read
+2. In `cd_mcp/tools/doctrinal_verdict.py`: after resolving `qid`, read
    `historical/<qid>.json` (mirror how it reads `evidence/<qid>.json`),
    validate with `pipeline4.historical_schema.HistoricalAttestation`, and pass it
    through `transform_synthesis_to_envelope` into `result.historical_attestation`.
@@ -165,7 +165,7 @@ Do:
    correctly. In v1 no DSS was cited, but the guard must still handle it.
 4. Consider a 12th tool `historical_inspect` (mirror `evidence_inspect`, same
    question-id regex defense) for deep-linking the raw sidecar. Optional.
-5. Update `tests/bd_mcp/` fixtures + add a case using
+5. Update `tests/cd_mcp/` fixtures + add a case using
    `historical/doc-bodily-resurrection-of-christ.json` (5 witnesses).
 
 This step alone makes Pipeline 4's output visible and is low-risk (file read +
@@ -220,14 +220,14 @@ notifications fire for the long-running path.
 - License guard: snippet caps under `personal`, paraphrase under `public-share`,
   exclude under `export` for any `redistribute: false` chunk (DSS, BHSA,
   proprietary translations, Vatican.va). The guard is `ingest.license_guard`.
-- `bd_mcp/` is named to avoid colliding with the PyPI `mcp` package. Keep it.
+- `cd_mcp/` is named to avoid colliding with the PyPI `mcp` package. Keep it.
 
 ## Pointers
 
 - Contracts: `docs/MCP_TOOLS.md` (12 tools), `docs/ARCHITECTURE.md` Layer 7 /
   Pipeline 3 walkthrough. There is no synthesis phase prompt; the server returns
   structured data and the calling model synthesizes.
-- Patterns to mirror: `bd_mcp/runtime.py` (the FastMCP lifespan that holds the
+- Patterns to mirror: `cd_mcp/runtime.py` (the FastMCP lifespan that holds the
   store connections), `pipeline4/context_builder.py` (store retrieval + graceful
   degradation), `embeddings/embed_cultural.py` (cult_col).
 - Output schemas: `pipeline4/historical_schema.py` (HistoricalAttestation),
@@ -238,8 +238,8 @@ notifications fire for the long-running path.
 ```bash
 docker compose --env-file .env -p brethren-lexical  -f docker/lexical/docker-compose.yml  up -d
 docker compose --env-file .env -p brethren-cultural -f docker/cultural/docker-compose.yml up -d
-python -m bd_mcp.server                         # serves on MCP_HOST:MCP_PORT (default 127.0.0.1:8765)
-python -m pytest tests/bd_mcp -q                # the existing skeleton suite
+python -m cd_mcp.server                         # serves on MCP_HOST:MCP_PORT (default 127.0.0.1:8765)
+python -m pytest tests/cd_mcp -q                # the existing skeleton suite
 ```
 
 Suggested first commit: step A (historical block) on its own; it is self-contained
