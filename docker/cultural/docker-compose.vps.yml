@@ -1,8 +1,11 @@
-# VPS serving override (cultural stack, ~1.4GB of data).
+# VPS serving override (cultural stack): smaller memory + auto restart on reboot.
 name: brethren-cultural
 services:
   cultural-neo4j:
+    restart: unless-stopped
     environment:
       NEO4J_server_memory_heap_initial__size: 512m
       NEO4J_server_memory_heap_max__size: 1G
       NEO4J_server_memory_pagecache_size: 1G
+  cultural-qdrant:
+    restart: unless-stopped
