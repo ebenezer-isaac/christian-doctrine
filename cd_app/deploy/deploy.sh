@@ -58,7 +58,7 @@ ENVD=$(docker inspect llmconveyors-mongodb --format '{{range .Config.Env}}{{prin
 RPW=$(printf '%s\n' "$ENVD" | sed -n 's/^MONGO_ROOT_PASSWORD=//p')
 RUSER=$(printf '%s\n' "$ENVD" | sed -n 's/^MONGO_ROOT_USERNAME=//p'); RUSER=${RUSER:-root}
 [ -z "$RPW" ] && { echo "no root pw"; exit 1; }
-if grep -q '^CD_APP_MONGO_URL=.*cd_app:' ~/sites/christian-doctrine/.env 2>/dev/null; then
+if grep -q '^CD_APP_MONGO_URL=.*cd_app:' ~/live/christian-doctrine/.env 2>/dev/null; then
   echo "cd_app user already provisioned in .env, skipping"; exit 0
 fi
 echo "cd_app user not found in .env; create it manually or via first deploy";
@@ -73,7 +73,7 @@ route() {
 purge() {
   log "purge cloudflare cache"
   local base="https://${SUBDOMAIN}.${ZONE_NAME}"
-  ssh -o BatchMode=yes "$VPS_HOST" "source ~/infra/.env; curl -s -X POST \
+  ssh -o BatchMode=yes "$VPS_HOST" "source ~/live/infra/.env; curl -s -X POST \
     'https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/purge_cache' \
     -H \"Authorization: Bearer \$CLOUDFLARE_API_TOKEN\" -H 'Content-Type: application/json' \
     -d '{\"files\":[\"${base}/\",\"${base}/index.html\",\"${base}/main.dart.js\",\"${base}/flutter_bootstrap.js\",\"${base}/flutter_service_worker.js\",\"${base}/flutter.js\",\"${base}/manifest.json\",\"${base}/favicon.png\",\"${base}/og-image.png\",\"${base}/assets/assets/icon/icon.png\",\"${base}/assets/AssetManifest.bin.json\",\"${base}/assets/AssetManifest.json\",\"${base}/icons/Icon-192.png\",\"${base}/icons/Icon-512.png\"]}'" \
@@ -94,13 +94,13 @@ ps_()  { ssh -o BatchMode=yes "$VPS_HOST" "docker ps --format '{{.Names}} :: {{.
 # --- Doctrine engine (cd_mcp + air-gapped stacks) on the VPS ------------------
 engine_up() {  # bring up the two stacks + cd_mcp (reuses migrated volumes)
   log "engine up"
-  ssh -o BatchMode=yes "$VPS_HOST" "cd sites/christian-doctrine-engine && bash deploy_engine/up.sh"
+  ssh -o BatchMode=yes "$VPS_HOST" "cd live/christian-doctrine-engine && bash deploy_engine/up.sh"
 }
 engine_deploy() {  # ship cd_mcp source + rebuild the cd-mcp image
   log "engine deploy (cd_mcp)"
   ( cd "$APP_DIR/.." && tar czf - --exclude=__pycache__ --exclude='*.pyc' cd_mcp \
-      | ssh -o BatchMode=yes "$VPS_HOST" "tar xzf - -C sites/christian-doctrine-engine \
-        && cd sites/christian-doctrine-engine \
+      | ssh -o BatchMode=yes "$VPS_HOST" "tar xzf - -C live/christian-doctrine-engine \
+        && cd live/christian-doctrine-engine \
         && docker compose -f deploy_engine/docker-compose.cdmcp.yml up -d --build cd-mcp" )
 }
 

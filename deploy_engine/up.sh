@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Bring up the doctrine engine on the VPS: the two air-gapped stacks (with
 # serving-tuned memory) reusing the migrated data volumes, then cd_mcp. Run from
-# the engine root (sites/christian-doctrine-engine); reads .env for Neo4j creds.
+# the engine root (live/christian-doctrine-engine); reads .env for Neo4j creds.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 

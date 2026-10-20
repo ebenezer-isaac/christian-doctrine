@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Add (or update) a Cloudflare tunnel route + DNS for the rehoboth-evergreen
-# tunnel, following ~/infra/cloudflare/README.md. Append-only and idempotent:
+# tunnel, following ~/live/infra/cloudflare/README.md. Append-only and idempotent:
 # it GETs the live ingress, inserts one rule before the catch-all (skipping if
 # the hostname already exists), and PUTs the full config back. It never removes
 # or reorders other sites' rules. Config is passed to python via temp files so
@@ -18,7 +18,7 @@ API="https://api.cloudflare.com/client/v4"
 
 TUNNEL_TOKEN=$(sed -n '/BEGIN ARGO TUNNEL TOKEN/,/END ARGO TUNNEL TOKEN/p' ~/.cloudflared/cert.pem \
   | sed '1d;$d' | base64 -d | python3 -c "import sys,json; print(json.load(sys.stdin)['apiToken'])")
-source ~/infra/.env  # CLOUDFLARE_API_TOKEN
+source ~/live/infra/.env  # CLOUDFLARE_API_TOKEN
 
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
 
