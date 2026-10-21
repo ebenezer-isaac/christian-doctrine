@@ -4,7 +4,6 @@
 #   ./deploy/deploy.sh all       build web + ship + build/run api+web + route + purge cache + verify
 #   ./deploy/deploy.sh web       rebuild + redeploy the web (flutter build, ship, rebuild image, purge)
 #   ./deploy/deploy.sh api       ship backend + rebuild/restart the api
-#   ./deploy/deploy.sh db        create/ensure the Mongo db + cd_app user (idempotent)
 #   ./deploy/deploy.sh route     add the Cloudflare tunnel route + DNS (idempotent)
 #   ./deploy/deploy.sh purge     purge the Cloudflare cache for the app assets
 #   ./deploy/deploy.sh verify    check the live site + api health
@@ -50,21 +49,6 @@ up() {  # optional service arg; web is always --no-cache to defeat layer caching
   ssh -o BatchMode=yes "$VPS_HOST" "cd $REMOTE_DIR && docker compose up -d --build $svc"
 }
 
-db() {
-  log "ensure Mongo db + cd_app user"
-  ssh -o BatchMode=yes "$VPS_HOST" 'bash -s' <<'REMOTE'
-set -e
-ENVD=$(docker inspect llmconveyors-mongodb --format '{{range .Config.Env}}{{println .}}{{end}}')
-RPW=$(printf '%s\n' "$ENVD" | sed -n 's/^MONGO_ROOT_PASSWORD=//p')
-RUSER=$(printf '%s\n' "$ENVD" | sed -n 's/^MONGO_ROOT_USERNAME=//p'); RUSER=${RUSER:-root}
-[ -z "$RPW" ] && { echo "no root pw"; exit 1; }
-if grep -q '^CD_APP_MONGO_URL=.*cd_app:' ~/live/christian-doctrine/.env 2>/dev/null; then
-  echo "cd_app user already provisioned in .env, skipping"; exit 0
-fi
-echo "cd_app user not found in .env; create it manually or via first deploy";
-REMOTE
-}
-
 route() {
   log "cloudflare route + dns"
   ssh -o BatchMode=yes "$VPS_HOST" "cd $REMOTE_DIR && chmod +x deploy/add_route.sh && ./deploy/add_route.sh $SUBDOMAIN $ZONE_NAME ${WEB_CONTAINER}:80"
@@ -108,7 +92,6 @@ case "${1:-all}" in
   all)    build_web; ship; up ""; route; purge; verify ;;
   web)    build_web; ship; up web; purge; verify ;;
   api)    ship; up api; logs ;;
-  db)     db ;;
   route)  route ;;
   purge)  purge ;;
   verify) verify ;;
@@ -116,6 +99,6 @@ case "${1:-all}" in
   ps)     ps_ ;;
   engine-up) engine_up ;;
   engine) engine_deploy ;;
-  *) echo "usage: deploy.sh {all|web|api|db|route|purge|verify|logs|ps|engine|engine-up}"; exit 2 ;;
+  *) echo "usage: deploy.sh {all|web|api|route|purge|verify|logs|ps|engine|engine-up}"; exit 2 ;;
 esac
 log "done"

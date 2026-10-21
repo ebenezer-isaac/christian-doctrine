@@ -7,7 +7,6 @@
     "deploy": "bash deploy/deploy.sh all",
     "deploy:web": "bash deploy/deploy.sh web",
     "deploy:api": "bash deploy/deploy.sh api",
-    "db:create": "bash deploy/deploy.sh db",
     "route": "bash deploy/deploy.sh route",
     "purge": "bash deploy/deploy.sh purge",
     "verify": "bash deploy/deploy.sh verify",

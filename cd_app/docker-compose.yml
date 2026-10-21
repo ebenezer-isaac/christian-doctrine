@@ -2,11 +2,12 @@
 #
 # web (nginx) serves the Flutter bundle and proxies /api -> api.
 # api (FastAPI) drives Claude via the Agent SDK over the doctrine engine MCP.
+# mongodb keeps the conversation index and chat history (database christian_doctrine).
 #
-# Networks follow the VPS pattern:
-#   server-network            shared, so the Cloudflare tunnel can reach web
-#   llmconveyors_app-network  shared, so api can reach the existing MongoDB
-# Both are external (created by other stacks). See ~/live/infra/cloudflare/README.md.
+# Networks:
+#   default         private to this project; api reaches mongodb here (no host port)
+#   server-network  shared and external, so the Cloudflare tunnel can reach web
+#                   (see ~/live/infra/cloudflare/README.md)
 
 services:
   api:
@@ -25,9 +26,11 @@ services:
     extra_hosts:
       # lets the container reach host-side services if ever needed
       - "host.docker.internal:host-gateway"
+    depends_on:
+      mongodb:
+        condition: service_healthy
     networks:
       - default
-      - llmconveyors_app-network
 
   web:
     build: ./web
@@ -40,12 +43,32 @@ services:
       - default
       - server-network
 
+  mongodb:
+    image: mongo:7
+    container_name: christian-doctrine-mongodb
+    restart: unless-stopped
+    # Root login and the app user password; see mongo.env.example.
+    env_file: mongo.env
+    # Small data set: cap the WiredTiger cache instead of half the host RAM.
+    command: ["--wiredTigerCacheSizeGB", "0.25"]
+    volumes:
+      - mongodb-data:/data/db
+      # Runs once on an empty volume: creates the cd_app user (readWrite on christian_doctrine).
+      - ./deploy/mongo-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand(\"ping\").ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+    networks:
+      - default
+
 volumes:
   claude-sessions:
+  mongodb-data:
 
 networks:
   default:
   server-network:
-    external: true
-  llmconveyors_app-network:
     external: true
